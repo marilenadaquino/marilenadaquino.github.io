@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Marilena Daquino</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="open citations" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Marilena's Logbook</h1>
+							<p>what, when, and how of The Open Biomedical Citations in Context Corpus // see <a href="#plan">the general plan</a></p>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/raccoon.gif" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>#w1</h2>
+						</header>
+						<div class="content">
+							<p><strong>July 1, 2019 - July 8, 2019</strong></p>
+							<ul>
+								<li>Draft of the work plan.</li>
+								<li>Set up a collaborative environment for documenting the data model (including a google doc for the draft of the documentation, a graffoo file, an .owl file with the final model)</li>
+								<li>Initial competency questions and definitions - on the basis of the project requirements.</li>
+								<li>Literature review of existing ontologies (including SPAR ontologies, Open Annotation Ontology, and PROV Ontology).</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="plan">
+						<header>
+							<h2>The plan</h2>
+						</header>
+						<div class="content">
+							<p><strong>The scheduling</strong> of activities from July 1, 2019 to June 30, 2020.</p>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Extending the Opencitations data model</h3>
+										<p><strong>July 1, 2019 - September 15, 2019</strong></p>
+									</header>
+									<div class="content">
+										<p><strong>Enrichment of the <a href="http://opencitations.net/model">OCC data model</a> with terms relevant to represent in-text references and their semantic context.</strong></p>
+										<p>These include classes and properties for describing citation functions, in-text pointers, the relation between the latter and context components (sentences, paragraphs, sections) and related bibliographic references, and provenance data.</p>
+										<p>The chosen methodology for extending the OCC data model is <a href="http://essepuntato.github.io/samod/">SAMOD</a>, a data-driven methodology for ontology development.</p>
+										<p>The model will be initially discussed with at least two members of the project (Silvio Peroni and David Shotton) and the resulting documentation will be published on the official page of the <a href="http://opencitations.net/model">OCC data model</a>.</p>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>text mining and ontology evaluation</h3>
+										<p><strong>September 15, 2019 - October 31, 2019</strong></p>
+									</header>
+									<div class="content">
+										<p><strong>Knowledge extraction from a XML dump of PubMed articles.</strong></p>
+										<p>By leveraging bespoke python scripts and NLP techniques we (1) extract from a representative dataset of XML documents structured information related to in-text references and their semantic context and (2) transform such data into RDF.</p>
+										<p><strong>Data-driven evaluation of the data model.</strong></p>
+										<p>We validate the data model by performing a number of SPARQL queries (aiming at answering competency questions) over the resulting RDF dataset.</p>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>extraction and ingestion workflow</h3>
+										<p><strong>November 1, 2019 - March 1, 2020</strong></p>
+									</header>
+									<div class="content">
+										<p><strong>Extension of OpenCitation modules (BEE and SPACIN).</strong></p>
+										<p>Extension of existing modules and development of new modules for:</p>
+										<ul>
+											<li>parsing XML documents provided by PubMed and extracting data related to in-text references [BEE]</li>
+											<li>extending the JSON file produced by BEE including new data on in-text references</li>
+											<li>transforming the new pieces of information according to the extended OCC data model (including also data provenance), and storing resulting RDF data into the OCC triplestore and file system [SPACIN]</li>
+										</ul>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Visiting periods and API tuning</h3>
+										<p><strong>March 1, 2020 - June 1, 2020</strong></p>
+									</header>
+									<div class="content">
+										<p><strong>Cambridge</strong></p>
+										<p>TO BE DEFINED</p>
+										<p><strong>Leiden</strong></p>
+										<p>TO BE DEFINED</p>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Interfaces for OCC</h3>
+										<p><strong>June 1, 2020 - June 30, 2020</strong></p>
+									</header>
+									<div class="content">
+										<p><strong>Deployment of the extraction/ingestion workflow.</strong></p>
+										<p>Deployment of the workflow in production according to modifications requested during the aforementioned visting periods.</p>
+										<p><strong>Development and update of OCC interface.</strong></p>
+										<p>Extend current browsing and querying functionalities of the OCC website.</p>
+										<p><strong>Wrap-up and future works.</strong></p>
+										<p>Discuss publications, project presentations and future works.</p>
+									</div>
+								</section>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
