@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Marilena Daquino</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="open citations" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<section class="intro">
+					<header>
+						<h1>Reports</h1>
+						<p>about activities, progresses, and unicorns (almost)</a></p>
+						<sub><a href="index.html">[back]</a></sub>
+					</header>
+					<div class="content">
+						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header>
+						<h2>#w1</h2>
+					</header>
+					<div class="content">
+						<p><strong>July 1, 2019 - July 8, 2019</strong></p>
+						<h3>workplan</h3>
+						<p>The workplan is set up, the timing assigned to scheduled activities seem doable. Some parts are still to be defined (like the visiting periods and the related activities). I emailed the general plan to all the project members.</p>
+						<p>We agreed that the result of the first phase will result in the extension of the OCC data model, which requires us to:</p>
+						<ul>
+							<li>modify the OC Ontology</li>
+							<li>modify the official documentation (docx)</li>
+							<li>modify the online documentation on the OCC website</li>
+						</ul>
+						<h3>collaborative environment</h3>
+						<p>I created a shared folder in google drive called <strong>OCC_DM_Extension</strong> (shared with Silvio and David only, via email) including:</p>
+						<ul>
+							<li>the <a href="https://docs.google.com/document/d/1HZhS0wwPU5A30WJFJ9dAQezjJZ8i4bOuB6yyGPnFeLo/edit?usp=sharing">technical documentation</a> for the extension of the OC Ontology. This include motivating scenarios, competency questions, definitions, and a draft of the model. This is the document we will share with all the partners for collecting suggestions and feedback on competency questions.</li>
+							<li>a preliminary graph in graphml, also included in the former document</li>
+							<li>a <a href="https://drive.google.com/file/d/1pOSI4_cpYcrg4F202UEBO7tPlOUgQhTp/view?usp=sharing">google docs version (view only)</a> of the official documentation of the OCC data model called <strong>occ-metadata-v1_6</strong></li>
+						</ul>
+						<h3>Competency questions, definitions, literature review</h3>
+						<p>I think I found a good number of relevant CQs that the model should be able to answer. More may come from suggestions. I have some concerns, namely:</p>
+						<ul>
+							<li>There are bits of the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a> that seem odd to me and I might have misunderstood something. For instance the double definition of <em>c4o:SingleReferencePointerList</em>. The second one seems to refer to <em>c4o:SingleLocationPointerList</em>, but this concept is still a bit fudged to me. However, I think it's not relevant for the purpose.</li>
+							<li>When we have <strong>lists of in-text ref pointers</strong>, do we really need the intermediate node <em>c4o:InTextReferencePointerListItem</em>? In this case I don't get the added value of having yet another class. The latter is not documented online, so I might have missed why it is relevant.</li>
+							<li><strong>Represent xpath</strong> of document components. I found a property in <a href="https://schema.org/xpath">schema.org</a> which could be reused to preserve the xpath as a literal. </li>
+							<li>We agreed that the <strong>order of paragraphs</strong> worths to be preserved in data, hence the <em>oc:hasNext</em> property can be reused, but only the relation between paragraphs including citations will be represented and stored. However, we will design URI patterns for paragraphs and other document components that will allow users to easily rebuild the correct order of all the paragraphs.</li>
+						</ul>
+						<h3>todo</h3>
+						<ul>
+							<li>email David to start discussing the tech. doc. first. The official documentation (docx) will be modified as last thing.</li>
+							<li>email everybody the doc with CQ, explaining how to contribute</li>
+							<li>There is a typo in the documentation online “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
+						</ul>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
