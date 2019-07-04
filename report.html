@@ -54,19 +54,42 @@
 						<p>I think I found a good number of relevant CQs that the model should be able to answer. More may come from suggestions. I have some concerns, namely:</p>
 						<ul>
 							<li>There are bits of the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a> that seem odd to me and I might have misunderstood something. For instance the double definition of <code>c4o:SingleReferencePointerList</code>. The second one seems to refer to <code>c4o:SingleLocationPointerList</code>, but this concept is still a bit fudged to me. However, I think it's not relevant for the purpose.</li>
+							
 							<li>In <a href="http://www.sparontologies.net/ontologies/doco">DoCO</a> the representation of <strong>sentences</strong> and in-text references is slightly different from the one in c40. For instance, in example 2, an in-text reference pointer is defined as an individual of the class <code>deo:Reference</code>, not a <code>c4o:InTextReferencePointer</code>, which <code>dcterms:references</code> (and not <code>biro:references</code> as in c4o) a <code>deo:BibliographicReference</code> (and not a <code>biro:BibliographicReference</code>) </li>
+							
 							<li>When we have <strong>lists of in-text ref pointers</strong>, do we really need the intermediate node <code>c4o:InTextReferencePointerListItem</code>? In this case I don't get the added value of having yet another class. The latter is not documented online, so I might have missed why it is relevant. Plus, I din't get <code>c4o:pertainsTo</code>.</li>
-							<li>Do we need to represent the order of pointers in the list?</li>
+							
+							<li>Do we need to represent the <strong>order of pointers</strong> in the list?</li>
+							
 							<li>Document components to be taken into account are <strong>sentences, paragraphs and sections</strong>. In the first case, we are not sure of the quality of data extracted from XML documents. Hence, it might worth to consider the class <code>doco:TextChunk</code>. However, this is meant to represent an inline string. Secondly, if we are not sure whether we will extract sentences or not, maybe it worths to create also the link between <code>c4o:InTextReferencePointer / c4o:InTextReferencePointerList</code> and <code>doco:Paragraph</code> by means of <code>c4o:hasContext</code>.</li>
+							
 							<li>The <strong>hierarchy of document components</strong>. I'd avoid to use yet another (unstable) pattern, such as the one suggested in DoCo, namely: <code>po:contains</code>. Can't we use <code>frbr:part</code>?</li>
+							
 							<li><strong>Represent xpath</strong> of document components. I found a property in <a href="https://schema.org/xpath">schema.org</a> which could be reused to preserve the xpath as a literal. </li>
+							
 							<li>We agreed that the <strong>order of paragraphs</strong> worths to be preserved in data, but only the relation between paragraphs including citations will be represented and stored. We will design URI patterns for paragraphs and other document components that will allow users to easily rebuild the correct order of all the paragraphs. The <code>oc:hasNext</code> property can be reused for representing the sequences. However (1) in DoCo is suggested <code>co:firtsItem/co:nextItem/co:itemContent</code> (which is somehow cumbersome and would require to create other intermediate nodes) and (2) the aforementioned <code>oc:hasNext</code> property has as a declared domain/range <code>pro:RoleInTime</code>.</li>
+							
 							<li>When characterising the <strong>type of sections</strong>, should we reuse terms from <code>doco</code>, <code>deo</code>, and <code>po</code> ontologies (e.g. Abstract, RelatedWork, Methods)? Or should we create a controlled vocabulary of individuals representing types?</li>
+							
 							<li>When representing <strong>titles of sections</strong>, instead of the suggested pattern <code>po:containsAsHeader/c4o:hasContent</code> we could just use <code>dcterms:title</code>.</li>
 						</ul>
 						<h3>todo</h3>
 						<ul>
-							<li>agree on how to represent (1) hierarchies (po:contains) and (2) sequences of document components (new property in OC Ontology?), (3) titles (dcterms:title), (4) types of sections (DoCO, deo, Po ontologies), (5) xpaths (schema.org); (6) whether to use <code>c4o:InTextReferencePointerListItem</code> as intermediate node or not in lists of in-text ref. pointers, (7) whether use <code>doco:Sentence</code> or <code>doco:TextChunk</code>, (8) whether create links between pointers and sentences or between pointers and paragraphs, (9) whethere represent the order of pointers in lists (connected to point 2).</li>
+							<li>agree on how to represent:
+								<ol>
+									<li>hierarchies of document components (po:contains)</li>
+									<li>sequences of document components (new property in OC Ontology?)</li>
+									<li>titles of sections (dcterms:title or the longer pattern?)</li>
+									<li>types of sections (use classes from DoCO, deo, and Po ontologies or create a vocabulary)</li>
+									<li>xpaths (schema.org property or different data/annotation property?)</li>
+									<li>whether to use <code>c4o:InTextReferencePointerListItem</code> as intermediate node or not in lists of in-text ref. pointers or not</li>
+									<li>whether use <code>doco:Sentence</code> or <code>doco:TextChunk</code></li>
+									<li>whether create links (<code>c4o:hasContext</code>) between pointers and sentences or between pointers and paragraphs</li>
+									<li>whether represent the order of pointers in lists (connected to point 2)</li>
+								</ol>
+
+
+							</li>
 							<li>email David to start discussing the tech. doc. first. The official documentation (docx) will be modified as last thing.</li>
 							<li>email everybody the doc with CQ, explaining how to contribute</li>
 						</ul>
