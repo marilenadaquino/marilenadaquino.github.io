@@ -73,9 +73,34 @@
 							
 							<li><em>[SORTED]</em> When representing <strong>titles of sections</strong>, instead of the suggested pattern <code>po:containsAsHeader/c4o:hasContent</code> we could just use <code>dcterms:title</code>.</li>
 						</ul>
-						<h3>DISCUSSED</h3>
+
+						<h3>TO BE DISCUSSED</h3>
 						<ul>
-							<li>agree on how to represent:
+							<li>In the examples provided in <a href="http://www.sparontologies.net/ontologies/cito">CiTo</a> about annotating citations with the OA model, there is an inconsistency. The <code>cito:Citation</code> is the target of the annotation, while the in-text ref. pointer is the body. Correct? If so, the <a href="http://dx.doi.org/10.6084/m9.figshare.1512817">second example</a> contradicts the first one (where the in-text ref pointer is considered the target of the annotation, and the citation is deemed the body of the annotation).</li>
+							<li>How to represent properties as individuals in graffoo?</li>
+							<li>Functions of Citations Ontology is mentioned twice in CiTO documentation, but both the links, i.e. <a href="http://www.sparontologies.net/ontologies/foco">link1</a> and <a href="http://www.essepuntato.it/2013/03/cito-functions">link2</a>, are broken.</li>
+							<li>the Purl of co Ontology gives a 404 not found!</li>
+							<li>Do we consider in-text reference pointers in tables, captions and footnotes too?</li>
+							<li>Do we really need to use <code>literal:hasLiteralValue</code>?</li>
+							<li>There are no inverse properties in the <code>OA data model</code></li>
+						</ul>
+
+						<h3>TODO</h3>
+						<ul>
+							<li>email David to start discussing the tech. doc. first. The official documentation (docx) will be modified as last thing.</li>				
+
+							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
+
+							<li>Modify the online documentation of the OCC Model: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
+
+							<li>Modify domain/range of the <code>oc:hasNext</code> property</li>
+
+							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>					
+						</ul>
+
+						<h3>DISCUSSED/DONE</h3>
+						<ul>
+							<li>agreed on how to represent:
 								<ol>
 									<li>hierarchies of document components. We decided to use <code>frbr:part</code> for everything instead of <code>po:contains</code>.</li>
 									<li>sequences of document components. We decided to change domain and range of the <code>oc:hasNext</code> property, which can be used for both document components and, eventually in-text reference pointers in lists</li>
@@ -88,31 +113,9 @@
 									<li>whether to create links (<code>c4o:hasContext</code>) between pointers and sentences or between pointers and paragraphs. We decided to create links between pointers and textChunk BUT using the inverse property <code>c4o:isContextOf</code> that has to be created in c4o.</li>
 									<li>whether to represent the order of pointers in lists (connected to point 2). We will discuss it according to real needs.</li>
 								</ol>
-
-
 							</li>
-
-							
-						</ul>
-						<h3>TODO</h3>
-						<ul>
-							<li>email David to start discussing the tech. doc. first. The official documentation (docx) will be modified as last thing.</li>
 							<li>email everybody the doc with CQ, explaining how to contribute</li>
-
-							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
-
-							<li>Modify the online documentation of the OCC Model: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
-
-							<li>Modify domain/range of the <code>oc:hasNext</code> property</li>
-
-							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
-							
-							<li>How to represent propoerties as individuals in graffoo?</li>
-
-							<li>Functions of Citations Ontology is mentioned twice in CiTO documentation, but both the links, i.e. <a href="http://www.sparontologies.net/ontologies/foco">link1</a> and <a href="http://www.essepuntato.it/2013/03/cito-functions">link2</a>, are broken.</li>
-
-							<li>the Purl of co Ontology gives a 404 not found!</li>
-						</ul>	
+						</ul>
 					</div>
 				</section>
 
