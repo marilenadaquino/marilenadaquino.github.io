@@ -31,6 +31,48 @@
 				<!-- Section -->
 				<section>
 					<header>
+						<h2>#w4</h2>
+					</header>
+					<div class="content">
+						<p><strong>July 19, 2019 - July 28, 2019</strong></p>
+						<h3>Review of comments on the OCC model extension</h3>
+						<p>L.W. comments on citation/reference functions made me think we need to represent <code>c4o:InTextReferencePointer</code> always, even when these are in lists (see below). D.S. added comments on the terminology and the workplan</p>
+						<h3>Draft of the model</h3>
+						<p>Available <a href="occ_model_ext/graphs/OCC_extended.png">here</a>.</p>
+						<h3>Jot down the script for converting XML to RDF</h3>
+						<p>Giovanni's work <a href="http://context-miner.monsieurcube.com">ContextMiner</a>.</p>
+						<p>Working on that <a href="occ_model_ext/scripts/xml2oc.py">here</a>.</p>
+						<p>To modularise the code I'd first preprocess the xml files and create a JSON including all the information we need in order to secondly (1) reconcile DOIs and IDs to OC URIs, and (2) transform data to RDF.</p>
+						<h3>TODO</h3>
+						<ul>
+							<li>Review D.'s comments and modify google docs and workplan (here).</li>
+							<li>Modify OC and SPAR documentation (waiting for access rights to git)</li>
+						</ul>
+						<h3>Questions/ To be discussed</h3>
+						<ul>
+							<li>Best way to <strong>reconcile</strong> articles to existing OC Ids (URI)? In particular:
+								<ul>
+									<li><code>biro:BibliographicReference</code></li>
+									<li><code>fabio:Expression</code> representing the citing/cited article</li>
+								</ul>
+							</li>
+							<li><strong>Lists of in-text reference pointers</strong> should include all the in-text reference pointers or not? After Ludo mentioned the distinction between reference/citation function I guess we need in-text ref pointers always (whether in lists or not, because these are the body of the <code>oa:Annotation</code> when representing the citation function). That is:
+								<ul>
+									<li>we have 1 to 1 relation between <code>cito:Citation</code> and <code>fabio:Expression/biro:BibliographicReference</code></li>
+									<li>we have 1 to n relations between <code>cito:Citation</code> and <code>oa:Annotation</code>, i.e. as many as the number of <code>c4o:InTextReferencePointer</code> denoting the same <code>fabio:Expression/biro:BibliographicReference</code></li>
+								</ul>
+							If we have several pointers denoting the same bibliographic reference that appear in lists, or sequences, and single ref. pointers at the same time, we always need a <code>c4o:InTextReferencePointer</code> to be explicitly represented, since the body of a <code>oa:Annotation</code> is the pointer, not the list/sequence.
+							</li>
+							<li>When in-text ref are in table cells, should we store the xPath of the table rather than the xPointer of the cell/row/column? or the xPointer of the whole table?</li>
+							<li>We have only the <strong>zip files of the PMC nxml</strong>. We need the API</li>
+							<li>any particular requirement in terms of encoding?</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header>
 						<h2>#w1</h2>
 					</header>
 					<div class="content">
