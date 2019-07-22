@@ -29,7 +29,7 @@
 				</section>
 
 				<!-- Section -->
-				<section>
+				<section id="w4">
 					<header>
 						<h2>#w4</h2>
 					</header>
@@ -63,6 +63,14 @@
 								</ul>
 							If we have several pointers denoting the same bibliographic reference that appear in lists, or sequences, and single ref. pointers at the same time, we always need a <code>c4o:InTextReferencePointer</code> to be explicitly represented, since the body of a <code>oa:Annotation</code> is the pointer, not the list/sequence.
 							</li>
+							<li><strong>The citation deadlock</strong>. Since the instance of <code>cito:Citation</code> is always one between citing/cited paper, but several in-text references may occur with different citation functions, hence there may be several annotations between the citation and different in-text pointers, what should we associate as domain to the property <code>cito:hasCitationCharacterization</code>? Possibilities:
+								<ul>
+									<li>use instead <code>oa:motivatedBy</code> for characterizing the annotation rather than the citation itself? (which sounds odd anyway, since it's not the intended sense of the property)</li>
+									<li>create as many <code>cito:citation</code> as the number of in-text references, and then the domain of <code>cito:hasCitationCharacterization</code> is <code>cito:Citation</code></li>
+									<li>annotate the <code>oa:Annotation</code> with both the <code>cito:Citation</code> and the citation function as <code>oa:hasTarget</code> [I vote for this]</li>
+								</ul>
+
+							/li>
 							<li>When in-text ref are in table cells, should we store the xPath of the table rather than the xPointer of the cell/row/column? or the xPointer of the whole table?</li>
 							<li>We have only the <strong>zip files of the PMC nxml</strong>. We need the API</li>
 							<li>any particular requirement in terms of encoding?</li>
@@ -71,7 +79,7 @@
 				</section>
 
 				<!-- Section -->
-				<section>
+				<section id="w1">
 					<header>
 						<h2>#w1</h2>
 					</header>

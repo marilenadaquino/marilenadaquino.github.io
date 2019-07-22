@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 from lxml import etree as ET
 from collections import defaultdict
-import pprint , re 
-
-import html
+import pprint , re , uuid , html
 
 
 def extract_intext_ref(filePMC):
@@ -30,42 +28,58 @@ def extract_intext_ref(filePMC):
 	articleInTextRefs[articleDOI]['sequences'] = []
 	articleInTextRefs[articleDOI]['singleITR'] = []
 
+	# extract square brackets content
 	inTextRefGroups = re.findall(r'\[.*?\]', ET.tostring(root, encoding='utf-8', method="text").decode('utf-8') )
 	# 1. plain lists, e.g. 1,3,6
 	inTextRefLists = [inTextRefGroup.replace('[', '').replace(']', '').split(',') for inTextRefGroup in inTextRefGroups if ',' in inTextRefGroup]
-	# 2. sequences, e.g. 1-5, that is 1,2,3,4,5
+	# 2. sequences, e.g. 1-5, that are extended in 1,2,3,4,5
 	inTextRefSequences = [inTextRefGroup.replace('[', '').replace(']', '').split('\u2013') for inTextRefGroup in inTextRefGroups if '\u2013' in inTextRefGroup]
 	inTextRefSequencesExtended = [[str(intRef) for intRef in range(int(inTextRefSequence[0]),int(inTextRefSequence[1])+1 )] for inTextRefSequence in inTextRefSequences]
 	# 3. single pointers
 	inTextRefSingle = [inTextRefGroup.replace('[', '').replace(']', '') for inTextRefGroup in inTextRefGroups if re.match(r'^[[0-9]+]$', inTextRefGroup)]
-	print(inTextRefSequencesExtended)
 
 	# extract in-text references and context from the nxml file
 	for inTextRef in root.findall('.//xref[@ref-type="bibr"]'): 
 		counting += 1
 		inTextRefValue = inTextRef.text
 		bibRefID = inTextRef.get('rid')
-		# TODO doi, pubid, or nothing!!
-		bibRefPMID = root.find('.//ref[@id="'+bibRefID+'"]/element-citation/pub-id').text
 		discourseElement = inTextRef.getparent().tag
+		
+		# cited entities: doi, pmid, or random uuid
+		patternDOI = './/ref[@id="'+bibRefID+'"]/element-citation/pub-id[@pub-id-type="doi"]'
+		patternPMID = './/ref[@id="'+bibRefID+'"]/element-citation/pub-id[@pub-id-type="pmid"]'
+		if root.find(patternDOI) is not None:
+			bibRefUID = root.find(patternDOI).text
+		elif root.find(patternDOI) is None and root.find(patternPMID) is not None:
+			bibRefUID = root.find(patternPMID).text
+		else:
+			bibRefUID = uuid.uuid4()
 		
 		for inTextRefList in inTextRefLists:
 			for inTextRefVal in inTextRefList:
 				if inTextRefVal == inTextRefValue:
-					print('list', inTextRefList, inTextRefVal, bibRefPMID, discourseElement)
-		# TODO extract intermediate pointers NOT WORKING HERE!
+					print('list', inTextRefList, inTextRefVal, bibRefUID, discourseElement)
+		
 		for inTextRefSeq in inTextRefSequencesExtended:
 			for inTextRefVal1 in inTextRefSeq:
 				if inTextRefVal1 == inTextRefValue:
-					print('seq', inTextRefSeq, inTextRefVal1, bibRefPMID, discourseElement)
-				else:
+					print('seq', inTextRefSeq, inTextRefVal1, bibRefUID, discourseElement)
+				if inTextRefVal1 != inTextRefValue and root.find('.//ref[label="'+inTextRefVal1+'"]'): # intermediate refs that do not have a xref in the full text
 					# TODO doi, pubid, or nothing!!
-					bibRefPMID = root.find('.//ref[@id="B'+inTextRefVal1+'"]/element-citation/pub-id').text
+					patternDOIlabel = './/ref[label="'+inTextRefVal1+'"]/element-citation/pub-id[@pub-id-type="doi"]'
+					patternPMIDlabel = './/ref[label="'+inTextRefVal1+'"]/element-citation/pub-id[@pub-id-type="pmid"]'
+					if root.find(patternDOIlabel) is not None:
+						bibRefUID = root.find(patternDOIlabel).text
+					elif root.find(patternDOIlabel) is None and root.find(patternPMIDlabel) is not None:
+						bibRefUID = root.find(patternPMIDlabel).text
+					else:
+						bibRefUID = uuid.uuid4()
+					print('seq', inTextRefSeq, inTextRefVal1, bibRefUID, 'TBF discourseElement TBF')
 					# TODO discourseElement?
 					# add to seq
 		for inTextRefVal2 in inTextRefSingle:
 			if inTextRefVal2 == inTextRefValue:
-				print('single', inTextRefSingle, inTextRefVal2, bibRefPMID, discourseElement)
+				print('single', inTextRefSingle, inTextRefVal2, bibRefUID, discourseElement)
 			
 		# text of parent: print(ET.tostring(parent_map[inTextRef], encoding='utf-8', method="text"))
 		
