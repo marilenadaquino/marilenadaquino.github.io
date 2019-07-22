@@ -50,6 +50,14 @@
 						</ul>
 						<h3>Questions/ To be discussed</h3>
 						<ul>
+							<li>D.'s Comments to the google doc.
+								<ul>
+									<li><strong>Text chunks</strong>: if we do not extract clean sentences we may want to use this. We should use it anyway for footnotes, table cells, and captions. Shoulw we add the definition in the documentation?</li>
+									<li><strong>xPointer and xPath</strong> define them in the docs. I'm struggling to find good libraries for extracting them. [see DOM Range and DOM Fragments]</li>
+									<li><em>avoid the possibility of a paper having two in-text pointer lists with the same number (e.g. "l1"), distinguished only by their location.</em>. Should the lists identifiers be only incremental? Why not distinguished by location?</li>
+
+								</ul>
+							</li>
 							<li>Best way to <strong>reconcile</strong> articles to existing OC Ids (URI)? In particular:
 								<ul>
 									<li><code>biro:BibliographicReference</code></li>
@@ -70,10 +78,10 @@
 									<li>annotate the <code>oa:Annotation</code> with both the <code>cito:Citation</code> and the citation function as <code>oa:hasTarget</code> [I vote for this]</li>
 								</ul>
 
-							/li>
-							<li>When in-text ref are in table cells, should we store the xPath of the table rather than the xPointer of the cell/row/column? or the xPointer of the whole table?</li>
+							</li>
+							<li>When in-text ref are in table cells, should we store the xPath of the table rather than the <strong>xPointer of the cell/row/column</strong>? or the xPointer of the whole table?</li>
 							<li>We have only the <strong>zip files of the PMC nxml</strong>. We need the API</li>
-							<li>any particular requirement in terms of encoding?</li>
+							<li>Any particular requirement in terms of encoding?</li>
 						</ul>
 					</div>
 				</section>
