@@ -53,9 +53,25 @@
 							<li>D.'s Comments to the google doc.
 								<ul>
 									<li><strong>Text chunks</strong>: if we do not extract clean sentences we may want to use this. We should use it anyway for footnotes, table cells, and captions. Shoulw we add the definition in the documentation?</li>
-									<li><strong>xPointer and xPath</strong> define them in the docs. I'm struggling to find good libraries for extracting them. [see DOM Range and DOM Fragments]</li>
+									<li><strong>xPointer and xPath</strong> define them in the docs.</li>
 									<li><em>avoid the possibility of a paper having two in-text pointer lists with the same number (e.g. "l1"), distinguished only by their location.</em>. Should the lists identifiers be only incremental? Why not distinguished by location?</li>
+									<li><em>You might also wish to add a functionality that returns a list of references in terms of the number of in-text reference pointers each receives, either for the document as a whole, or for each section.</em></li>
+									<li><em>Also, a functionality to order the in-text reference pointer lists in terms of the number of in-text reference pointers each contains (although I think this would be of more limited usefulness).</em></li>
+									<li><em>Additionally, it would be good to be able to document all the different citation functions ascribed to each reference, by amalgamating the citation function annotations for each in-text reference pointer to that reference.</em></li>
+									<li>develop a separate extraction script, CCE (Citation Context Extraction), specifically for your purpose.</li>
+									<li>I think that you should store your RDF in a new Blazegraph triplestore called Citations in Context Corpus (CCC), not in OCC.</li>
+									<li><em>I think this is much too late to undertake deployment of the workflow and extending browse and query functionality, since you will inevitably run into implementation problems and run out of time.  Rather, both these activities should be completed (at least in prototype) before you visit Leiden and Hinxton, so that you have something to demonstrate and modify in response to the feedback you receive.</em> </li>
+									<li> Project timescale.  In light of these comments, I think you should revise your workplan by moving things forward, as shown:
+										<ul>
+											<li>EXTENDING THE OPENCITATIONS DATA MODEL   July 1, 2019 - August 15, 2019</li>
+											<li>TEXT MINING AND ONTOLOGY EVALUATION  August 15, 2019 - September 30, 2019</li>
+											<li>EXTRACTION AND INGESTION WORKFLOW  October 1, 2019 - February 1, 2020</li>
+											<li>DEPLOY WORKFLOW AND DEVELOP INTERFACES FOR OCC   March 1, 2020 - March 31, 2020</li>
+											<li>VISITING PERIODS AND API TUNING   March 1, 2020 - April 30, 2020</li>
+											<li>UPDATE FUNCTIONALITY; WRITE UP PROJECT   June 1, 2020 - June 30, 2020</li>
+										</ul>
 
+									</li>		
 								</ul>
 							</li>
 							<li>Best way to <strong>reconcile</strong> articles to existing OC Ids (URI)? In particular:
@@ -80,8 +96,17 @@
 
 							</li>
 							<li>When in-text ref are in table cells, should we store the xPath of the table rather than the <strong>xPointer of the cell/row/column</strong>? or the xPointer of the whole table?</li>
+							<li><strong>XPointers</strong> I'm struggling to find good libraries for extracting them. [see DOM Range and DOM Fragments].</li>
+
 							<li>We have only the <strong>zip files of the PMC nxml</strong>. We need the API</li>
 							<li>Any particular requirement in terms of encoding?</li>
+							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
+
+							<li>Modify the online documentation of the OCC Model: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
+
+							<li>Modify domain/range of the <code>oc:hasNext</code> property</li>
+
+							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
 						</ul>
 					</div>
 				</section>
