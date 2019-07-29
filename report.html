@@ -29,12 +29,74 @@
 				</section>
 
 				<!-- Section -->
+				<section id="w5">
+					<header>
+						<h2>#w5</h2>
+					</header>
+					<div class="content">
+						<p><strong>July 28, 2019 - August 4, 2019</strong></p>
+						<h3>Continue to work on the script for converting XML to RDF</h3>
+						<p><strong>JSON of extraction results</strong> I got my JSON including xrefs, grouped in (1) lists, (2) sequences, or (3) singletons, and I extended sequences with intermediate xrefs. The JSON is a list of lists (each list represents one of the three aforementioned groups), including dictionaries for each xref that is part of the group. It is organised as follows:</p>
+							<pre>
+								<code>
+[...
+ [{'bibRefUID': '10.1371/journal.pone.0064567',
+   'xrefElemXPath': './/article/body/sec[4]/title/xref[1]',
+   'xrefParentElem': 'title',
+   'xrefParentElemXPath': './/article/body/sec[4]/title',
+   'xrefValue': '36'},
+  {'bibRefUID': '10.1038/msb4100131',
+   'xrefElemXPath': './/article/body/sec[4]/title/xref[2]',
+   'xrefParentElem': 'title',
+   'xrefParentElemXPath': './/article/body/sec[4]/title',
+   'xrefValue': '48'},
+  'list'],
+ [{'bibRefUID': '10.3389/fmicb.2016.00673',
+   'xrefElemXPath': './/article/body/sec[4]/p[1]/xref[2]',
+   'xrefParentElem': 'p',
+   'xrefParentElemXPath': './/article/body/sec[4]/p[1]',
+   'xrefValue': '37'},
+  {'bibRefUID': '10.3389/fmicb.2015.00213',
+   'xrefElemXPath': './/article/body/sec[4]/p[1]/xref[3]',
+   'xrefParentElem': 'p',
+   'xrefParentElemXPath': './/article/body/sec[4]/p[1]',
+   'xrefValue': '39'},
+  'sequence',
+  {'bibRefUID': '10.3389/fgene.2017.00088',
+   'xrefElemXPath': 'none',
+   'xrefParentElem': 'p',
+   'xrefParentElemXPath': './/article/body/sec[4]/p[1]',
+   'xrefValue': '38'}],
+ [{'bibRefUID': '10.1038/ismej.2010.117',
+   'xrefElemXPath': './/article/body/sec[4]/p[1]/xref[4]',
+   'xrefParentElem': 'p',
+   'xrefParentElemXPath': './/article/body/sec[4]/p[1]',
+   'xrefValue': '43'},
+  'singleton'],
+...]
+								</code>
+							</pre>
+						
+						<p>Notice that intermediate nodes in sequences DO NOT have their own XPath, while they share the same parent XPath of course. </p>
+						<p><strong>Bye bye XPointer for in-text reference pointers</strong> The Xpath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/string"><code>string()</code></a> (XPath 1.0) allows to select the text of a node, ignoring (better, stripping) all children tags, but not their content. We can apply <code>string()</code> to the XPath of the parent element of the <code>xref</code> at hand, and use it as first parameter of the XPath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/substring"><code>substring($string, $start, $end)</code></a> . For instance, <code>substring(string(.//article/body/sec[5]/p[2]), 1, 10)</code> selects the first 10 characters in the paragraph <code>p[2]</code>, regardless there are intermediate nodes.</p>
+						<h3>Extend the technical documentation on the OCC model</h3>
+						<p>Included the defintions requested by D.</p>
+						<h3>Work on the official document on the OC data model</h3>
+						<p>I haven't started yet. </p>
+						<h3>QUESTIONS / TO BE DISCUSSED</h3>
+						<ul>
+							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence?</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Section -->
 				<section id="w4">
 					<header>
 						<h2>#w4</h2>
 					</header>
 					<div class="content">
-						<p><strong>July 19, 2019 - July 28, 2019</strong></p>
+						<p><strong>July 19, 2019 - July 25, 2019</strong></p>
 						<h3>Review of comments on the OCC model extension</h3>
 						<p>I've answered/resolved almost all comments in the docs. I left few of them to clarify some points to D.</p>
 						<p>L.W. comments on citation/reference functions made me think we need to represent <code>c4o:InTextReferencePointer</code> always, even when these are in lists (see below). D.S. added comments on the terminology and the workplan</p>
@@ -42,8 +104,8 @@
 						<p>Available <a href="occ_model_ext/graphs/OCC_extended.png">here</a>.</p>
 						<h3>Jot down the script for converting XML to RDF</h3>
 						<p>Giovanni's work <a href="http://context-miner.monsieurcube.com">ContextMiner</a>.</p>
-						<p>Working on that <a href="occ_model_ext/scripts/xml2oc.py">here</a>.</p>
-						<p>To modularise the code I'd first preprocess the xml files and create a JSON including all the information we need in order to secondly (1) reconcile DOIs and IDs to OC URIs, and (2) transform data to RDF.</p>
+						<p>Working on that <a href="occ_model_ext/scripts/jats2oc.py">here</a>.</p>
+						<p>To modularise the code I'd (1) preprocess the xml files and create a JSON including all the information we need in order to secondly (2) reconcile DOIs and IDs to OC URIs, and (3) transform data to RDF.</p>
 						<h3>TODO</h3>
 						<ul>
 							<li>Review D.'s comments and modify google docs and workplan (here).</li>
@@ -101,15 +163,15 @@
 							<li><strong>XPointers</strong> I'm struggling to find good libraries for extracting them. [see DOM Range and DOM Fragments].</li>
 							<li><code>hasBody</code> and <code>hasTarget</code> should be swapped (look better OA model)</li>
 
-							<li>We have only the <strong>zip files of the PMC nxml</strong>. We need the API</li>
-							<li>Any particular requirement in terms of encoding?</li>
-							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
+							<li>[POSTPONED] We have only the <strong>zip files of the PMC nxml</strong>. We need the API</li>
+							<li>[POSTPONED] Any particular requirement in terms of encoding?</li>
+							<li>[TODO] Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
 
-							<li>Modify the online documentation of the OCC Model: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
+							<li>[TODO] Modify the online documentation of the OCC Model: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
 
-							<li>Modify domain/range of the <code>oc:hasNext</code> property</li>
+							<li>[TODO] Modify domain/range of the <code>oc:hasNext</code> property</li>
 
-							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
+							<li>[TODO] Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
 							<li>[TODO] in the model change <code>dcterms:bibliographicCitation</code> with <code>c4o:hasContent</code></li>
 						</ul>
 
