@@ -3,7 +3,14 @@
 from lxml import etree as ET
 import pprint , uuid, itertools
 
+# TODO 
+# wrapper for iterating over all the xml files
+# control whther the citation style is always the same
+# new function for sentence tokenization - add sentence xpath in fullMetadata
+
 def find_bibRef(xref, root):
+	""" given a xml element xref or the text value of the element xref
+	finds in the bibliography the corresponding element ref."""
 	if isinstance(xref, str) == False: # input xref element
 		bibRefID = xref.get('rid')
 		patternDOI = './/ref[@id="'+bibRefID+'"]//pub-id[@pub-id-type="doi"]'
@@ -46,7 +53,7 @@ def extract_intext_ref(filePMC):
 	separator = ']'.encode('utf-8')
 	prepositions = {','.encode('utf-8'), '\u2013'.encode('utf-8')}
 	
-	# list of elems and separators ']'
+	# list of elems and separators ']' -- assuming ']' is always the separator of in-text references aand the rest of the text
 	inTextRefElemsAndSeparator = [item[0].encode('utf-8').strip() if isinstance(item, str) else item for item in root.xpath('.//xref[@ref-type="bibr"] | .//xref[@ref-type="bibr"]/following-sibling::text()[1]') ]
 	
 	# group elements separated by ] and remove separator ']'
@@ -66,6 +73,7 @@ def extract_intext_ref(filePMC):
 	groupsClean = [list(i for i in j if i not in prepositions) for j in groups]
 	print('groupsClean',groupsClean)
 
+	# include all the metadata related to the in-text references
 	fullMetadata = [[{'xrefElemXPath':'./'+et.getpath(xref), 'xrefValue':xref.text, 'xrefParentElem':xref.getparent().tag, 'xrefParentElemXPath':'./'+et.getpath(xref.getparent()), 'bibRefUID':find_bibRef(xref,root)} if isinstance(xref, str) == False else xref for xref in xrefGroup] for xrefGroup in groupsClean]
 
 	# extend sequences
@@ -81,6 +89,5 @@ def extract_intext_ref(filePMC):
 		
 	pp.pprint(fullMetadata)
 	
-
 filePMC = 'xml_PMC_sample/PMC5906705.nxml'
 extract_intext_ref(filePMC)
