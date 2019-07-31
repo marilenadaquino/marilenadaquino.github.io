@@ -88,6 +88,7 @@
 							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence?</li>
 							<li>Found the <a href="https://www.ncbi.nlm.nih.gov/pmc/tools/oai/#examples">OAI-PMH service</a>. Use the parameter <code>set=pmc-open</code> for the papers for whom we can harvest the full text too.</li>
 							<li>when I have a path like this <code>.//article/body/sec[1]/p[2]/fig/caption/p/xref[1]</code> or this <code>.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]/xref</code> what should I consider as parent? </li>
+							<li>The NLTK tokeniser behaviour is different from the one of XPath, hence returned offsets are somehow wrong (and it's not because of the 0/1-based indexing). Need to figure out why and work on it.</li>
 						</ul>
 					</div>
 				</section>
