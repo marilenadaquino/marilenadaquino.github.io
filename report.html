@@ -78,7 +78,7 @@
 							</pre>
 						
 						<p>Notice that intermediate nodes in sequences DO NOT have their own XPath, while they share the same parent XPath of course. </p>
-						<p><strong>Bye bye XPointer for in-text reference pointers</strong> The Xpath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/string"><code>string()</code></a> (XPath 1.0) allows to select the text of a node, ignoring (better, stripping) all children tags, but not their content. We can apply <code>string()</code> to the XPath of the parent element of the <code>xref</code> at hand, and use it as first parameter of the XPath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/substring"><code>substring($string, $start, $end)</code></a> . For instance, <code>substring(string(.//article/body/sec[5]/p[2]), 1, 10)</code> selects the first 10 characters in the paragraph <code>p[2]</code>, regardless there are intermediate nodes.</p>
+						<p><strong>Bye bye XPointer for in-text reference pointers?</strong> The Xpath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/string"><code>string()</code></a> (XPath 1.0) allows to select the text of a node, ignoring (better, stripping) all children tags, but not their content. We can apply <code>string()</code> to the XPath of the parent element of the <code>xref</code> at hand, and use the XPath of the parent element text as first parameter of the XPath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/substring"><code>substring($string, $start, $end)</code></a> . For instance, <code>substring(string(.//article/body/sec[5]/p[2]), 1, 10)</code> selects the first 10 characters in the paragraph <code>p[2]</code>, regardless there are intermediate nodes. It's formally wrong since the first paramenter of <code>substring</code> should be a string, and not a path to get the string, but substituting that path with the original text is possibly the easiest way to access the content regardless the environment (XSLT, python, whatever) rather than using XPointer, that is not supported by any library or language. Can we specify it somewhere?</p>
 						<h3>Extend the technical documentation on the OCC model</h3>
 						<p>Included the defintions requested by D.</p>
 						<h3>Work on the official document on the OC data model</h3>
@@ -87,6 +87,7 @@
 						<ul>
 							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence?</li>
 							<li>Found the <a href="https://www.ncbi.nlm.nih.gov/pmc/tools/oai/#examples">OAI-PMH service</a>. Use the parameter <code>set=pmc-open</code> for the papers for whom we can harvest the full text too.</li>
+							<li>when I have a path like this <code>.//article/body/sec[1]/p[2]/fig/caption/p/xref[1]</code> or this <code>.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]/xref</code> what should I consider as parent? </li>
 						</ul>
 					</div>
 				</section>
