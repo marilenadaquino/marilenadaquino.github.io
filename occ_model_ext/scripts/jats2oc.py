@@ -10,14 +10,14 @@ from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 
 def get_text_before(element):
     for item in element.xpath("preceding-sibling::*/text()|preceding-sibling::text()"):
-        item = item.strip()
+        item = item
         if item:
             yield item
 
 
 def get_text_after(element):
     for item in element.xpath("following-sibling::*/text()|following-sibling::text()"):
-        item = item.strip()
+        item = item
         if item:
             yield item
 
@@ -72,15 +72,17 @@ def xpathSubstring(xref,root):
 	punkt_param.abbrev_types = set(ABBREVIATIONS_LIST)
 	sentence_splitter = PunktSentenceTokenizer(punkt_param)
 
-	string_before = "".join(get_text_before(xref)) 
-	string_after = "".join(get_text_after(xref))
+	string_before = "".join(get_text_before(xref)).strip() 
+	string_after = "".join(get_text_after(xref)).strip() 
 
 	# get start offset of the last sentence in the string before the pointer (0-based index transformed in 1-based index to comply with XPath)
 	startSent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1  
-	print(sentence_splitter.tokenize( string_before )[-1].encode('utf-8'),sentence_splitter.span_tokenize( string_before )[-1])
+	print('string before ---', string_before.encode('utf-8'))
+	if xref.getparent().text is not None:
+		print('string xpath  ---', xref.getparent().text.encode('utf-8'))
 	# get the length of the string
 	strin = sentence_splitter.tokenize( string_before )[-1]+xrefValue+sentence_splitter.tokenize( string_after )[0]
-	print(strin.encode('utf-8'))
+	print('string sents  ---', strin.encode('utf-8'))
 	lenSent = len(strin)
 
 	# create the XPath
