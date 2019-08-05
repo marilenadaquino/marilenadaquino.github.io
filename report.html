@@ -44,6 +44,26 @@
 						
 						<h3>Work on the official document on the OC data model.</h3>
 						<p>I have jotted down all the major changes that the document requires. All the changes are summarised in the abstract at the beginning of the document. I'll send the draft at the beginning of the week to get some preliminary feedback. Meanwhile, I will work on extending the JSON-LD example at the end of the document.</p>
+						<p>Some points to be discussed:</p>
+						<ul>
+							<li><strong>Main changes</strong> I added a (redundant) summary of all the points where changes have been made.</li>
+							<li><strong>RDF resources in OCC</strong> short names for in-text references and lists? <em>sp</em> and <em>lp</em>?</li>
+							<li><strong>RDF resources in OCC</strong> the usage of <em>bibliographic entity</em> and its shortcut <em>en</em> is a bit misleading at the beginning of the document IMO, though it's clear the meaning.</li>
+							<li><strong>Naming conventions</strong> We need to discuss on the naming of citation URIs, e.g. should they include the local identifier of an in-text references or the number representing the occurrence of a in-text reference?</li>
+							<li><strong>Naming conventions</strong> The example provenance graph doesn't work. Is it fake? Did something change on the naming of these URIs?</li>
+							<li><strong>Metadata elements</strong> I think there is a bit on the browsing features that should be updated.</li>
+							<li><strong>Metadata elements</strong> I'd like to explain somewhere how the XPath works. Here it should not be mentioned to avoid a repetition. There is an example in the JSON linearisation, but no explanations. Do we need it or is it sufficient?</li>
+							<li><strong>Mapping to OWL</strong> The URI of <code>co</code> ontology doesn't work.</li>
+							<li><strong>Mapping to OWL</strong> Should we include the classes of <code>deo</code> for representing sections?</li>
+							<li><strong>Mapping to OWL</strong> Do we need <code>rdf:type</code> for all the entities? I noticed this has been added only when there are subclasses.</li>
+							<li><strong>Mapping to OWL</strong> Do we store the value of the in-text reference pointer? e.g. <em>Peroni et al., [1]</em></li>
+							<li><strong>Mapping to OWL</strong> Do we need <code>oa:annotatedBy</code> since we have the provenance graph?</li>
+							<li><strong>JSON linearisation</strong> Best prefix for the <em>real</em> citation graph? I proposed <code>gcip</code> which mixes citation and in-text-ref pointers.</li>
+							<li><strong>JSON linearisation</strong> The alias of <code>frbr:part</code>, i.e. <em>reference</em> is misleading, because we use it also for the hierarchy of discourse elements</li>
+							<li><strong>JSON linearisation</strong> Should we add all the cito properties in the aliases?</li>
+							<li><strong>JSON linearisation</strong> I added an excerpt on in-text ref and sentences in the section dedicated to <em>bibliographic resources</em>, and I modified the section <em>citations</em> to include annotations. I created here two examples (citations with annotations and without). I have some concerns here about the IRI of the graphs.</li>
+							<li><strong>JSON linearisation</strong>: I added only an example of sentence/in-text reference pointer. I didn't add other discourse elements, nor lists. Is that ok or do we want a complete example? Can I use eventually ellipses [...] to skip redundant and repetitive code?</li>
+						</ul>
 						
 						<h3>TODO</h3>
 						<ul>
@@ -56,10 +76,12 @@
 							<li>Modify domain/range of the <code>oc:hasNext</code> property</li>
 
 							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
+
+							<li>Create <code>datacite:xpath</code> individual.</li>
 							
 						</ul>
 						
-						<h3>TO BE DISCUSSED</h3>
+						<h3>[OLD] TO BE DISCUSSED</h3>
 						<ul>
 							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence?</li>
 							<li>when I have a path like this <code>.//article/body/sec[1]/p[2]/fig/caption/p/xref[1]</code> or this <code>.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]/xref</code> what should I consider as parent? </li>
