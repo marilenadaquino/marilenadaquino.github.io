@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from lxml import etree as ET
-import pprint , uuid, itertools , os
+import uuid , itertools , os
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 # TODO 
 # wrapper for iterating over all the xml files
@@ -77,34 +77,32 @@ def xpathSubstring(xref,root):
 
 	# get start offset of the last sentence in the string before the pointer (0-based index transformed in 1-based index to comply with XPath)
 	startSent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1  
-	print('string before ---', string_before.encode('utf-8'))
-	if xref.getparent().text is not None:
-		print('string xpath  ---', xref.getparent().text.encode('utf-8'))
 	# get the length of the string
 	strin = sentence_splitter.tokenize( string_before )[-1]+xrefValue+sentence_splitter.tokenize( string_after )[0]
-	print('string sents  ---', strin.encode('utf-8'))
 	lenSent = len(strin)
 
 	# create the XPath
 	sentXPathFunction = 'substring(string(./'+ET.ElementTree(root).getpath(xref.getparent())+'),'+str(startSent)+','+str(lenSent)+')'
 	return sentXPathFunction
 
+
 def extract_intext_ref(filePMC):
-	""" preprocess a nxml file and stores a number of context components in a JSON file, namely:
-	0. articleDOI : DOI of the citing article
-	1. inTextRef : single in-text reference pointers, lists, and sequences of in-text reference pointers
-	2. xPointer : xPointer of sentence/text chunk including in-text reference pointers
-	3. discourseElement : paragraph/table/footnote and section including the in-text reference pointers
-	4. bibRefPMID/DOI : PMC-IDs or DOIs of bibliographic references denoted by in-text reference pointers
+	""" preprocess a nxml file and stores a number of context information 
+	related to in-text references in a JSON file, namely:
+	0. citing entity : DOI (articleDOI) of the citing article
+	1. in-text reference pointers : the value (xrefValue), and the type (singleton, list, or sequence) of in-text reference pointers
+	2. xPaths : xPath of the element (xrefElemXPath), its parent (xrefParentElemXPath), and the sentence/text chunk (xrefElemSentenceXPath) including in-text reference pointers
+	3. discourse elements : the tag of the parent element (xrefParentElem) including the in-text reference pointers
+	4. cited entities : PMC-IDs or DOIs (bibRefUID) of cited entities denoted by in-text reference pointers
 	"""
 	xmlp = ET.XMLParser(encoding="utf-8")
 	tree = ET.parse(filePMC, xmlp)
 	root = tree.getroot()
 	et = ET.ElementTree(root)
-	pp = pprint.PrettyPrinter(indent=1)
 
 	separator = ']'.encode('utf-8')
 	prepositions = {','.encode('utf-8'), '\u2013'.encode('utf-8')}
+	articleDOI = root.find('.//article-id[@pub-id-type="doi"]').text
 	
 	# list of elems and separators ']' -- assuming ']' is always the separator of in-text references aand the rest of the text
 	inTextRefElemsAndSeparator = [item[0].encode('utf-8').strip() if isinstance(item, str) else item for item in root.xpath('.//xref[@ref-type="bibr"] | .//xref[@ref-type="bibr"]/following-sibling::text()[1]') ]
@@ -125,12 +123,7 @@ def extract_intext_ref(filePMC):
 	groupsClean = [list(i for i in j if i not in prepositions) for j in groups]
 
 	# include all the metadata related to the in-text references
-	fullMetadata = [[{'xrefElemXPath':'./'+et.getpath(xref), 'xrefValue':xref.text, 'xrefParentElem':xref.getparent().tag, 'xrefParentElemXPath':'./'+et.getpath(xref.getparent()), 'bibRefUID':find_bibRef(xref,root)} if isinstance(xref, str) == False else xref for xref in xrefGroup] for xrefGroup in groupsClean]
-
-	for xrefGroup in groupsClean:
-		for xref in xrefGroup:
-			if isinstance(xref, str) == False:
-				print(xpathSubstring(xref,root))
+	fullMetadata = [[{'articleDOI':articleDOI,'xrefElemXPath':'./'+et.getpath(xref), 'xrefElemSentenceXPath':xpathSubstring(xref,root), 'xrefValue':xref.text, 'xrefParentElem':xref.getparent().tag, 'xrefParentElemXPath':'./'+et.getpath(xref.getparent()), 'bibRefUID':find_bibRef(xref,root)} if isinstance(xref, str) == False else xref for xref in xrefGroup] for xrefGroup in groupsClean]
 
 	# extend sequences
 	for groups in fullMetadata: # lists in list
@@ -141,8 +134,9 @@ def extract_intext_ref(filePMC):
 					rangeValues.append(group['xrefValue'])
 			rangeValues.sort()
 			for intermediate in range(int(rangeValues[0])+1,int(rangeValues[1])):
-				groups.append({'xrefElemXPath': 'none', 'xrefValue':str(intermediate), 'xrefParentElem':groups[0]['xrefParentElem'], 'xrefParentElemXPath': groups[0]['xrefParentElemXPath'], 'bibRefUID':find_bibRef(str(intermediate),root) })
+				groups.append({'articleDOI':articleDOI,'xrefElemXPath': 'none', 'xrefElemSentenceXPath':groups[0]['xrefElemSentenceXPath'], 'xrefValue':str(intermediate), 'xrefParentElem':groups[0]['xrefParentElem'], 'xrefParentElemXPath': groups[0]['xrefParentElemXPath'], 'bibRefUID':find_bibRef(str(intermediate),root) })
 	
+	return fullMetadata
 
 filePMC = 'xml_PMC_sample/PMC5906705.nxml'
 extract_intext_ref(filePMC)

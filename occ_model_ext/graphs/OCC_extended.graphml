@@ -207,15 +207,15 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="273.78027343750006" width="492.22029674026516" x="-667.5462198911207" y="-632.5642466069276"/>
+              <y:Geometry height="292.62402343749994" width="576.639278273615" x="-667.5462198911207" y="-686.5042505050119"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="bold" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="492.22029674026516" x="0.0" y="0.0">Prefixes   </y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="bold" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="576.639278273615" x="0.0" y="0.0">Prefixes   </y:NodeLabel>
               <y:Shape type="rectangle"/>
               <y:DropShadow color="#D2D2D2" offsetX="4" offsetY="4"/>
               <y:State closed="false" closedHeight="74.509765625" closedWidth="387.8295898437501" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="11" bottomF="10.8330078125" left="17" leftF="17.187128529189465" right="9" rightF="8.912819922985136" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="11" bottomF="10.8330078125" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="732.9217819979585" y="94.86234279095251"/>
@@ -235,10 +235,10 @@
         <node id="n17::n0">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="22.2421875" width="31.4345703125" x="-593.3639741744312" y="-501.3786997319275"/>
+              <y:Geometry height="22.2421875" width="31.4345703125" x="-652.5462198911207" y="-545.8968286300119"/>
               <y:Fill hasColor="false" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="211.28125" modelName="internal" modelPosition="r" textColor="#000000" visible="true" width="73.4296875" x="-41.9951171875" y="-94.51953125">biro:
+              <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="230.125" modelName="internal" modelPosition="l" textColor="#000000" visible="true" width="73.4296875" x="0.0" y="-103.94140625000006">biro:
 cito:
 co:
 c4o:
@@ -246,6 +246,7 @@ datacite:
 doco:
 fabio:
 frbr:
+literal:
 oa:
 owl:
 rdfs:</y:NodeLabel>
@@ -256,10 +257,10 @@ rdfs:</y:NodeLabel>
         <node id="n17::n1">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="22.2421875" width="207.83128065395096" x="-473.3731334008162" y="-501.3786997319275"/>
+              <y:Geometry height="22.2421875" width="207.83128065395096" x="-532.5553791175057" y="-545.8968286300119"/>
               <y:Fill hasColor="false" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="211.28125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="340.4375" x="-66.3031096730245" y="-94.51953125">http://purl.org/spar/biro/
+              <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="230.125" modelName="internal" modelPosition="l" textColor="#000000" visible="true" width="426.6484375" x="0.0" y="-103.94140625000006">http://purl.org/spar/biro/
 http://purl.org/spar/cito/
 http://purl.org/co/
 http://purl.org/spar/c4o/
@@ -267,6 +268,7 @@ http://purl.org/spar/datacite/
 http://purl.org/spar/doco/
 http://purl.org/spar/fabio/
 http://purl.org/vocab/frbr/core#
+http://www.essepuntato.it/2010/06/literalreification/
 http://www.w3.org/ns/oa#
 http://www.w3.org/2002/07/owl#
 http://www.w3.org/2000/01/rdf-schema#</y:NodeLabel>
