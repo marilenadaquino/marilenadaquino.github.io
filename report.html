@@ -39,8 +39,33 @@
 						<h3>Continue to work on the script for converting XML to RDF</h3>
 						<p>I have developed a draft script for obtaining a dictionary (JSON) including all the information that we want to transform in RDF. This week I'll extend it with the tranformation to RDF according to the extended OCC data model.</p>
 						
+						<h3>QUESTIONS</h3>
+						<ul>
+							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence?</li>
+
+							<li>when I have a path like this <code>.//article/body/sec[1]/p[2]/fig/caption/p/xref[1]</code> or this <code>.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]/xref</code> what should I consider as parent? [check how I deal with normalised parents]</li>
+
+							<li>Should we extract also the section title?</li>
+
+							<li>what other entities/attributes do we need to serialise for the br? expression type, title, authors, publisher, issue, volume ? only if the br is not already included in OCC?</li>
+
+							<li>shall we store also xpaths of sections and parent elements?</li>
+
+						</ul>
+						
+						<h3>TODO</h3>
+						<ul>
+							<li>Control whether the citation style is always the same in the corpus</li>
+							<li>fork git (/script)</li>
+							<li><strong>graphlib</strong> change/make new method <code>follows</code> - that is, oco:hasNext - to apply to other types of entities. Can we have 2 aliases for the same property?</li>
+							<li><strong>graphlib</strong> change contains_in_reference_list with something more general for including discourse elements</li>
+							<li>update context.json (only on git?)</li>
+
+						</ul>
+
 						<h3>Extend the technical documentation on the OCC model extension including discussed CQs, SPARQL queries, and examples.</h3>
 						<p>Working on that in a <a href="https://docs.google.com/document/d/1HZhS0wwPU5A30WJFJ9dAQezjJZ8i4bOuB6yyGPnFeLo/edit?usp=sharing">separate document</a>.</p>
+						<p><strong>QUESTION</strong> Pointers can be also in section titles, should we include <code>doco:SectionTitle</code> among the DiscourseElemnts we consider? Should we create a SectionTitle for each section or only for the ones that include a pointer?</p>
 						
 						<h3>Work on the official document on the OC data model.</h3>
 						<p>I have jotted down all the major changes that the document requires. All the changes are summarised in the abstract at the beginning of the document. I'll send the draft at the beginning of the week to get some preliminary feedback. Meanwhile, I will work on extending the JSON-LD example at the end of the document.</p>
@@ -67,6 +92,7 @@
 						
 						<h3>TODO</h3>
 						<ul>
+
 							<li>Extend the <a href="https://w3id.org/oc/corpus/context.json">JSON mapping</a> of the OCC model</li>
 							
 							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
@@ -78,14 +104,15 @@
 							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
 
 							<li>Create <code>datacite:xpath</code> individual.</li>
+
+							<li>Modify documentation of the OCC also on github</li>
+
+							<li>Fork opencitations/script</li>
+
+							<li>Modify context.json online</li>
 							
 						</ul>
-						
-						<h3>[OLD] TO BE DISCUSSED</h3>
-						<ul>
-							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence?</li>
-							<li>when I have a path like this <code>.//article/body/sec[1]/p[2]/fig/caption/p/xref[1]</code> or this <code>.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]/xref</code> what should I consider as parent? </li>
-						</ul>
+					
 					</div>
 				</section>
 

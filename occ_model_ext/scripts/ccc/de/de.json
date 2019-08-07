@@ -1,0 +1,50 @@
+{
+  "@context": "context.json",
+  "@graph": [
+    {
+      "a": [
+        "doco:Section",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:10",
+      "iri": "gde:8",
+      "label": "discourse element 8 [de/8]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Section"
+      ],
+      "identifier": "gid:12",
+      "iri": "gde:10",
+      "label": "discourse element 10 [de/10]"
+    },
+    {
+      "a": [
+        "doco:Section",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:8",
+      "iri": "gde:6",
+      "label": "discourse element 6 [de/6]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Section"
+      ],
+      "identifier": "gid:9",
+      "iri": "gde:7",
+      "label": "discourse element 7 [de/7]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Section"
+      ],
+      "identifier": "gid:11",
+      "iri": "gde:9",
+      "label": "discourse element 9 [de/9]"
+    }
+  ]
+}

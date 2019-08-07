@@ -1,0 +1,37 @@
+{
+  "@context": "context.json",
+  "@graph": [
+    {
+      "a": "unique_identifier",
+      "iri": "gid:10",
+      "label": "identifier 10 [id/10]"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "10.1042/bst20170265",
+      "iri": "gid:7",
+      "label": "identifier 7 [id/7]",
+      "type": "doi"
+    },
+    {
+      "a": "unique_identifier",
+      "iri": "gid:11",
+      "label": "identifier 11 [id/11]"
+    },
+    {
+      "a": "unique_identifier",
+      "iri": "gid:12",
+      "label": "identifier 12 [id/12]"
+    },
+    {
+      "a": "unique_identifier",
+      "iri": "gid:8",
+      "label": "identifier 8 [id/8]"
+    },
+    {
+      "a": "unique_identifier",
+      "iri": "gid:9",
+      "label": "identifier 9 [id/9]"
+    }
+  ]
+}
