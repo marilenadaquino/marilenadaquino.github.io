@@ -6,45 +6,122 @@
         "doco:Section",
         "doco:DiscourseElement"
       ],
-      "identifier": "gid:10",
-      "iri": "gde:8",
-      "label": "discourse element 8 [de/8]"
+      "identifier": "gid:107",
+      "iri": "gde:103",
+      "label": "discourse element 103 [de/103]",
+      "reference": [
+        "gde:105",
+        "gde:104"
+      ]
+    },
+    {
+      "a": [
+        "doco:Paragraph",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:95",
+      "iri": "gde:91",
+      "label": "discourse element 91 [de/91]"
     },
     {
       "a": [
         "doco:DiscourseElement",
         "doco:Section"
       ],
-      "identifier": "gid:12",
-      "iri": "gde:10",
-      "label": "discourse element 10 [de/10]"
+      "identifier": "gid:96",
+      "iri": "gde:92",
+      "label": "discourse element 92 [de/92]",
+      "reference": [
+        "gde:94",
+        "gde:97",
+        "gde:99",
+        "gde:101",
+        "gde:93",
+        "gde:95",
+        "gde:102",
+        "gde:100",
+        "gde:98",
+        "gde:96"
+      ]
+    },
+    {
+      "a": [
+        "doco:Paragraph",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:106",
+      "iri": "gde:102",
+      "label": "discourse element 102 [de/102]"
+    },
+    {
+      "a": [
+        "doco:Paragraph",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:109",
+      "iri": "gde:105",
+      "label": "discourse element 105 [de/105]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Section"
+      ],
+      "identifier": "gid:110",
+      "iri": "gde:106",
+      "label": "discourse element 106 [de/106]",
+      "reference": "gde:107"
     },
     {
       "a": [
         "doco:Section",
         "doco:DiscourseElement"
       ],
-      "identifier": "gid:8",
-      "iri": "gde:6",
-      "label": "discourse element 6 [de/6]"
+      "identifier": "gid:88",
+      "iri": "gde:84",
+      "label": "discourse element 84 [de/84]",
+      "reference": [
+        "gde:87",
+        "gde:88",
+        "gde:91",
+        "gde:90",
+        "gde:85",
+        "gde:89",
+        "gde:86"
+      ]
+    },
+    {
+      "a": [
+        "doco:Paragraph",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:87",
+      "iri": "gde:83",
+      "label": "discourse element 83 [de/83]"
+    },
+    {
+      "a": [
+        "doco:Paragraph",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:111",
+      "iri": "gde:107",
+      "label": "discourse element 107 [de/107]"
     },
     {
       "a": [
         "doco:DiscourseElement",
         "doco:Section"
       ],
-      "identifier": "gid:9",
-      "iri": "gde:7",
-      "label": "discourse element 7 [de/7]"
-    },
-    {
-      "a": [
-        "doco:DiscourseElement",
-        "doco:Section"
-      ],
-      "identifier": "gid:11",
-      "iri": "gde:9",
-      "label": "discourse element 9 [de/9]"
+      "identifier": "gid:83",
+      "iri": "gde:79",
+      "label": "discourse element 79 [de/79]",
+      "reference": [
+        "gde:81",
+        "gde:82",
+        "gde:80",
+        "gde:83"
+      ]
     }
   ]
 }

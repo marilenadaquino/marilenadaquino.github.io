@@ -106,6 +106,7 @@ class Jats2OC(object):
 		section = xref.xpath('ancestor-or-self::sec[1]')
 		return self.et.getpath(section[0])
 
+
 	def find_first_parent(self, xref, root):
 		"""return the XPath the first ancestor of a xref if included in a list of elements"""
 		if len(xref.xpath('ancestor-or-self::caption')) != 0:
@@ -217,8 +218,8 @@ class Jats2OC(object):
 		return self.referencesTree
 		
 
-
 	def fileInFolder(self, types):
+		"""create folder for each type of entity"""
 		self.type = types
 		if not os.path.exists("ccc/br/"):
 			os.makedirs("ccc/br/")
@@ -227,6 +228,16 @@ class Jats2OC(object):
 		if not os.path.exists("ccc/de/"):
 			os.makedirs("ccc/de/")
 		return self.type
+
+
+	def parentType(self, xpath):
+		"""map the XPath of a element to the corresponding DOCO/DEO class"""
+		self.xpath = xpath
+		self.elem = re.sub(r"\[.*\]" ,'', self.xpath.rsplit('/', 1)[-1])
+		self.elem_mapping = [('p','paragraph'),('caption','caption'),('table','table'),('fn','footnote'),('title','section_title')]
+		for el in self.elem_mapping:
+			if self.elem == el[0]:
+				return el[1]
 
 
 	def to_rdf(self, graph):
@@ -243,28 +254,47 @@ class Jats2OC(object):
 		
 		# id 
 		IDgraph = Graph()	
-		citing_doi_res = self.graph.add_id("md", source_agent=None, source=None, res=None)
-		citing_doi_res.create_doi(citing_doi)
-		br_graph.has_id(citing_doi_res) # article DOI
-		IDgraph += citing_doi_res.g
+		citing_doi_graph = self.graph.add_id("md", source_agent=None, source=None, res=None)
+		citing_doi_graph.create_doi(citing_doi)
+		br_graph.has_id(citing_doi_graph) # article DOI
+		IDgraph += citing_doi_graph.g
 
 		# de
 		DEgraph = Graph() 
+		
 		# section
-		for section, parent in self.data.items():
-			section = self.graph.add_de("md", source_agent=None, source=None, res=None)
+		for section_element, parent in self.data.items():
+			section_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
 			section_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
-			section.create_section()
-			section.has_id(section_id)		
-			br_graph.contains_in_reference_list(section) # sentences
-			
+			section_graph.create_section()
+			section_graph.has_id(section_id)		
+			br_graph.contains_in_reference_list(section_graph) # sentences
+			# parent element
+			for parent_element, groups in parent.items():
+				parent_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
+				parent_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
+				if self.parentType(parent_element) is not None:
+					parent_graph.create_discourse_element(self.parentType(parent_element))	
+				parent_graph.has_id(parent_id)
+				section_graph.contains_in_reference_list(parent_graph)
+				br_graph.contains_in_reference_list(parent_graph)
+				# for group in groups:
+				# 	if len(group) = 1:
+				# 		for key,value in group.items():
+				# 			# create the intext ref
+				# 	else:
+				# 		# create the list
+				# 		for xref in group:
+				# 			# create the elements of the list
+				# 			for key,value in xref.items():
 			# sentence
 			# discourse_element = self.graph.add_de("md", source_agent=None, source=None, res=None)
 			# de_xpath = self.graph.add_id("md", source_agent=None, source=None, res=None)
 			# de_xpath.create_xpath(inTextRef['xrefElemSentenceXPath']) 
 			# discourse_element.create_sentence()
 			# discourse_element.has_id(de_xpath)		
-			DEgraph += section.g
+			DEgraph += section_graph.g
+			DEgraph += parent_graph.g
 			IDgraph += section_id.g
 		
 		# serialise in files
@@ -290,5 +320,6 @@ jats.to_rdf(cccgraph)
 # does not find the context file
 # how to add multiple entities to the same json? 1 json (graph) for each entity (e.g. every ID and DE)?
 #	I created graphs for each type of entity
-# how to put everything in the br graph?
+# how to put everything in the br graph? 
+# does a br include par, secs, sentences etc. at the same level frbr:part? or only nested frbr:part
 # change the path of context.json 

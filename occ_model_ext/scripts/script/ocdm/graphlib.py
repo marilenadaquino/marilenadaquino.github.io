@@ -68,24 +68,30 @@ class GraphEntity(object):
     book_chapter = FABIO.BookChapter
     book_series = FABIO.BookSeries
     book_set = FABIO.BookSet
+    caption = DEO.Caption # new
     data_file = FABIO.DataFile
     discourse_element = DOCO.DiscourseElement # new 
     expression = FABIO.Expression
     expression_collection = FABIO.ExpressionCollection
+    footnote = DOCO.Footnote # new
     has_sequence_identifier = FABIO.hasSequenceIdentifier
     journal = FABIO.Journal
     journal_article = FABIO.JournalArticle
     journal_issue = FABIO.JournalIssue
     journal_volume = FABIO.JournalVolume
     manifestation = FABIO.Manifestation
+    paragraph = DOCO.Paragraph # new
     proceedings_paper = FABIO.ProceedingsPaper
     reference_book = FABIO.ReferenceBook
     reference_entry = FABIO.ReferenceEntry
     report_document = FABIO.ReportDocument
-    section = DOCO.Section
-    sentence = DOCO.Sentence
+    section = DOCO.Section # new
+    section_title = DOCO.SectionTitle # new
+    sentence = DOCO.Sentence # new
     series = FABIO.Series
     specification_document = FABIO.SpecificationDocument
+    table = DOCO.Table # new
+    text_chunk = DOCO.TextChunk # new
     thesis = FABIO.Thesis
     agent = FOAF.Agent
     family_name = FOAF.familyName
@@ -290,6 +296,22 @@ class GraphEntity(object):
         self._create_type(GraphEntity.series)
 
     # TODO add create_[discourse_element_type] for each type
+    def create_discourse_element(self, de_type):
+        self.de_type = de_type
+        if self.de_type == 'paragraph':
+            de_class = GraphEntity.paragraph
+        elif self.de_type == 'caption':
+            de_class = GraphEntity.caption
+        elif self.de_type == 'footnote':
+            de_class = GraphEntity.footnote
+        elif self.de_type == 'table':
+            de_class = GraphEntity.table
+        elif self.de_type == 'title':
+            de_class = GraphEntity.section_title
+        else:
+            de_class = GraphEntity.discourse_element
+        self._create_type(de_class)
+
     def create_section(self):
         self._create_type(GraphEntity.section)
 
