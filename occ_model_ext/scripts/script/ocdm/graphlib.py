@@ -100,6 +100,7 @@ class GraphEntity(object):
     embodiment = FRBR.embodiment
     part_of = FRBR.partOf
     contains_reference = FRBR.part
+    contains_de = FRBR.part
     has_literal_value = LITERAL.hasLiteralValue
     ending_page = PRISM.endingPage
     starting_page = PRISM.startingPage
@@ -296,20 +297,7 @@ class GraphEntity(object):
         self._create_type(GraphEntity.series)
 
     # TODO add create_[discourse_element_type] for each type
-    def create_discourse_element(self, de_type):
-        self.de_type = de_type
-        if self.de_type == 'paragraph':
-            de_class = GraphEntity.paragraph
-        elif self.de_type == 'caption':
-            de_class = GraphEntity.caption
-        elif self.de_type == 'footnote':
-            de_class = GraphEntity.footnote
-        elif self.de_type == 'table':
-            de_class = GraphEntity.table
-        elif self.de_type == 'title':
-            de_class = GraphEntity.section_title
-        else:
-            de_class = GraphEntity.discourse_element
+    def create_discourse_element(self, de_class):
         self._create_type(de_class)
 
     def create_section(self):
@@ -365,6 +353,9 @@ class GraphEntity(object):
 
     def contains_in_reference_list(self, be_res):
         self.g.add((self.res, GraphEntity.contains_reference, URIRef(str(be_res))))
+
+    def contains_discourse_element(self, de_res):
+        self.g.add((self.res, GraphEntity.contains_de, URIRef(str(de_res)) ))
 
     def has_citation(self, br_res):
         self.g.add((self.res, GraphEntity.cites, URIRef(str(br_res))))

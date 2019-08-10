@@ -3,124 +3,124 @@
   "@graph": [
     {
       "a": [
+        "doco:DiscourseElement",
+        "doco:Paragraph"
+      ],
+      "identifier": "gid:30",
+      "iri": "gde:29",
+      "label": "discourse element 29 [de/29]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Paragraph"
+      ],
+      "identifier": "gid:25",
+      "iri": "gde:24",
+      "label": "discourse element 24 [de/24]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Section"
+      ],
+      "identifier": "gid:15",
+      "iri": "gde:14",
+      "label": "discourse element 14 [de/14]",
+      "reference": [
+        "gde:20",
+        "gde:24",
+        "gde:18",
+        "gde:19",
+        "gde:21",
+        "gde:22",
+        "gde:16",
+        "gde:23",
+        "gde:15",
+        "gde:17"
+      ]
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Section"
+      ],
+      "identifier": "gid:7",
+      "iri": "gde:6",
+      "label": "discourse element 6 [de/6]",
+      "reference": [
+        "gde:11",
+        "gde:9",
+        "gde:10",
+        "gde:12",
+        "gde:8",
+        "gde:13",
+        "gde:7"
+      ]
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Paragraph"
+      ],
+      "identifier": "gid:28",
+      "iri": "gde:27",
+      "label": "discourse element 27 [de/27]"
+    },
+    {
+      "a": [
+        "doco:Paragraph",
+        "doco:DiscourseElement"
+      ],
+      "identifier": "gid:6",
+      "iri": "gde:5",
+      "label": "discourse element 5 [de/5]"
+    },
+    {
+      "a": [
+        "doco:DiscourseElement",
+        "doco:Paragraph"
+      ],
+      "identifier": "gid:14",
+      "iri": "gde:13",
+      "label": "discourse element 13 [de/13]"
+    },
+    {
+      "a": [
         "doco:Section",
         "doco:DiscourseElement"
       ],
-      "identifier": "gid:107",
-      "iri": "gde:103",
-      "label": "discourse element 103 [de/103]",
-      "reference": [
-        "gde:105",
-        "gde:104"
-      ]
-    },
-    {
-      "a": [
-        "doco:Paragraph",
-        "doco:DiscourseElement"
-      ],
-      "identifier": "gid:95",
-      "iri": "gde:91",
-      "label": "discourse element 91 [de/91]"
-    },
-    {
-      "a": [
-        "doco:DiscourseElement",
-        "doco:Section"
-      ],
-      "identifier": "gid:96",
-      "iri": "gde:92",
-      "label": "discourse element 92 [de/92]",
-      "reference": [
-        "gde:94",
-        "gde:97",
-        "gde:99",
-        "gde:101",
-        "gde:93",
-        "gde:95",
-        "gde:102",
-        "gde:100",
-        "gde:98",
-        "gde:96"
-      ]
-    },
-    {
-      "a": [
-        "doco:Paragraph",
-        "doco:DiscourseElement"
-      ],
-      "identifier": "gid:106",
-      "iri": "gde:102",
-      "label": "discourse element 102 [de/102]"
-    },
-    {
-      "a": [
-        "doco:Paragraph",
-        "doco:DiscourseElement"
-      ],
-      "identifier": "gid:109",
-      "iri": "gde:105",
-      "label": "discourse element 105 [de/105]"
-    },
-    {
-      "a": [
-        "doco:DiscourseElement",
-        "doco:Section"
-      ],
-      "identifier": "gid:110",
-      "iri": "gde:106",
-      "label": "discourse element 106 [de/106]",
-      "reference": "gde:107"
+      "identifier": "gid:29",
+      "iri": "gde:28",
+      "label": "discourse element 28 [de/28]",
+      "reference": "gde:29"
     },
     {
       "a": [
         "doco:Section",
         "doco:DiscourseElement"
       ],
-      "identifier": "gid:88",
-      "iri": "gde:84",
-      "label": "discourse element 84 [de/84]",
+      "identifier": "gid:26",
+      "iri": "gde:25",
+      "label": "discourse element 25 [de/25]",
       "reference": [
-        "gde:87",
-        "gde:88",
-        "gde:91",
-        "gde:90",
-        "gde:85",
-        "gde:89",
-        "gde:86"
+        "gde:27",
+        "gde:26"
       ]
     },
     {
       "a": [
-        "doco:Paragraph",
+        "doco:Section",
         "doco:DiscourseElement"
       ],
-      "identifier": "gid:87",
-      "iri": "gde:83",
-      "label": "discourse element 83 [de/83]"
-    },
-    {
-      "a": [
-        "doco:Paragraph",
-        "doco:DiscourseElement"
-      ],
-      "identifier": "gid:111",
-      "iri": "gde:107",
-      "label": "discourse element 107 [de/107]"
-    },
-    {
-      "a": [
-        "doco:DiscourseElement",
-        "doco:Section"
-      ],
-      "identifier": "gid:83",
-      "iri": "gde:79",
-      "label": "discourse element 79 [de/79]",
+      "identifier": "gid:2",
+      "iri": "gde:1",
+      "label": "discourse element 1 [de/1]",
       "reference": [
-        "gde:81",
-        "gde:82",
-        "gde:80",
-        "gde:83"
+        "gde:4",
+        "gde:2",
+        "gde:5",
+        "gde:3"
       ]
     }
   ]
