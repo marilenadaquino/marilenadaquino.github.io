@@ -3,28 +3,234 @@
   "@graph": [
     {
       "a": "unique_identifier",
-      "iri": "gid:15",
-      "label": "identifier 15 [id/15]"
-    },
-    {
-      "a": "unique_identifier",
-      "iri": "gid:25",
-      "label": "identifier 25 [id/25]"
-    },
-    {
-      "a": "unique_identifier",
-      "iri": "gid:29",
-      "label": "identifier 29 [id/29]"
-    },
-    {
-      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[3]),538,5)",
       "iri": "gid:6",
-      "label": "identifier 6 [id/6]"
+      "label": "identifier 6 [id/6]",
+      "type": "localresource"
     },
     {
       "a": "unique_identifier",
-      "iri": "gid:30",
-      "label": "identifier 30 [id/30]"
+      "id": "substring(string(.//article/body/sec[3]/p[7]),327,222)",
+      "iri": "gid:153",
+      "label": "identifier 153 [id/153]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[4]/xref[2]",
+      "iri": "gid:111",
+      "label": "identifier 111 [id/111]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]/xref[2]",
+      "iri": "gid:83",
+      "label": "identifier 83 [id/83]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[5]/p[2]",
+      "iri": "gid:195",
+      "label": "identifier 195 [id/195]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[4]),83,4)",
+      "iri": "gid:19",
+      "label": "identifier 19 [id/19]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[6]",
+      "iri": "gid:181",
+      "label": "identifier 181 [id/181]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[6]",
+      "iri": "gid:192",
+      "label": "identifier 192 [id/192]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]/xref[4]",
+      "iri": "gid:107",
+      "label": "identifier 107 [id/107]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[5]),535,4)",
+      "iri": "gid:18",
+      "label": "identifier 18 [id/18]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[3]),127,184)",
+      "iri": "gid:151",
+      "label": "identifier 151 [id/151]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]),619,4)",
+      "iri": "gid:43",
+      "label": "identifier 43 [id/43]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),426,128)",
+      "iri": "gid:163",
+      "label": "identifier 163 [id/163]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),549,4)",
+      "iri": "gid:47",
+      "label": "identifier 47 [id/47]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),1,121)",
+      "iri": "gid:152",
+      "label": "identifier 152 [id/152]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]),443,3)",
+      "iri": "gid:32",
+      "label": "identifier 32 [id/32]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/xref[1]",
+      "iri": "gid:85",
+      "label": "identifier 85 [id/85]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]/xref[2]",
+      "iri": "gid:67",
+      "label": "identifier 67 [id/67]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),434,544)",
+      "iri": "gid:133",
+      "label": "identifier 133 [id/133]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[2]/xref[1]",
+      "iri": "gid:71",
+      "label": "identifier 71 [id/71]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[5]),1,138)",
+      "iri": "gid:168",
+      "label": "identifier 168 [id/168]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption/p/xref[3]",
+      "iri": "gid:126",
+      "label": "identifier 126 [id/126]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]),142,201)",
+      "iri": "gid:155",
+      "label": "identifier 155 [id/155]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]),660,4)",
+      "iri": "gid:36",
+      "label": "identifier 36 [id/36]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[5]),461,4)",
+      "iri": "gid:27",
+      "label": "identifier 27 [id/27]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[1]),486,7)",
+      "iri": "gid:14",
+      "label": "identifier 14 [id/14]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]),330,199)",
+      "iri": "gid:161",
+      "label": "identifier 161 [id/161]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[8]/xref",
+      "iri": "gid:94",
+      "label": "identifier 94 [id/94]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]/xref[1]",
+      "iri": "gid:112",
+      "label": "identifier 112 [id/112]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[1]/xref[1]",
+      "iri": "gid:90",
+      "label": "identifier 90 [id/90]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/fig/caption/p/xref[2]",
+      "iri": "gid:74",
+      "label": "identifier 74 [id/74]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/xref[4]",
+      "iri": "gid:117",
+      "label": "identifier 117 [id/117]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[3]/xref[1]",
+      "iri": "gid:66",
+      "label": "identifier 66 [id/66]",
+      "type": "localresource"
     },
     {
       "a": "unique_identifier",
@@ -35,28 +241,1193 @@
     },
     {
       "a": "unique_identifier",
-      "iri": "gid:14",
-      "label": "identifier 14 [id/14]"
+      "id": ".//article/body/sec[3]/p[1]/xref[1]",
+      "iri": "gid:89",
+      "label": "identifier 89 [id/89]",
+      "type": "localresource"
     },
     {
       "a": "unique_identifier",
-      "iri": "gid:26",
-      "label": "identifier 26 [id/26]"
+      "id": "substring(string(.//article/body/sec[2]/p[2]),178,3)",
+      "iri": "gid:13",
+      "label": "identifier 13 [id/13]",
+      "type": "localresource"
     },
     {
       "a": "unique_identifier",
-      "iri": "gid:28",
-      "label": "identifier 28 [id/28]"
+      "id": ".//article/body/sec[4]/title/xref[2]",
+      "iri": "gid:68",
+      "label": "identifier 68 [id/68]",
+      "type": "localresource"
     },
     {
       "a": "unique_identifier",
-      "iri": "gid:7",
-      "label": "identifier 7 [id/7]"
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),116,147)",
+      "iri": "gid:134",
+      "label": "identifier 134 [id/134]",
+      "type": "localresource"
     },
     {
       "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]/xref[4]",
+      "iri": "gid:76",
+      "label": "identifier 76 [id/76]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),555,194)",
+      "iri": "gid:172",
+      "label": "identifier 172 [id/172]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]),1011,3)",
+      "iri": "gid:15",
+      "label": "identifier 15 [id/15]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[1]),1,175)",
+      "iri": "gid:169",
+      "label": "identifier 169 [id/169]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]/xref[3]",
+      "iri": "gid:78",
+      "label": "identifier 78 [id/78]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[1]),172,3)",
+      "iri": "gid:44",
+      "label": "identifier 44 [id/44]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/xref[2]",
+      "iri": "gid:75",
+      "label": "identifier 75 [id/75]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/title),1,7)",
+      "iri": "gid:22",
+      "label": "identifier 22 [id/22]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[7]/xref[2]",
+      "iri": "gid:123",
+      "label": "identifier 123 [id/123]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[6]),251,202)",
+      "iri": "gid:170",
+      "label": "identifier 170 [id/170]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[1]),223,163)",
+      "iri": "gid:131",
+      "label": "identifier 131 [id/131]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[2]/xref[1]",
+      "iri": "gid:61",
+      "label": "identifier 61 [id/61]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/fig/caption",
+      "iri": "gid:185",
+      "label": "identifier 185 [id/185]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[3]),1,7)",
+      "iri": "gid:159",
+      "label": "identifier 159 [id/159]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[2]/xref[3]",
+      "iri": "gid:103",
+      "label": "identifier 103 [id/103]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]),942,4)",
       "iri": "gid:2",
-      "label": "identifier 2 [id/2]"
+      "label": "identifier 2 [id/2]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/title",
+      "iri": "gid:194",
+      "label": "identifier 194 [id/194]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[2]",
+      "iri": "gid:190",
+      "label": "identifier 190 [id/190]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]/fig/caption/p),1,7)",
+      "iri": "gid:39",
+      "label": "identifier 39 [id/39]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[6]/xref[1]",
+      "iri": "gid:63",
+      "label": "identifier 63 [id/63]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[4]",
+      "iri": "gid:179",
+      "label": "identifier 179 [id/179]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),601,4)",
+      "iri": "gid:31",
+      "label": "identifier 31 [id/31]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[2]/fig/caption/p/xref",
+      "iri": "gid:121",
+      "label": "identifier 121 [id/121]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[2]/xref[2]",
+      "iri": "gid:105",
+      "label": "identifier 105 [id/105]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[2]),734,7)",
+      "iri": "gid:42",
+      "label": "identifier 42 [id/42]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[3]/xref[4]",
+      "iri": "gid:116",
+      "label": "identifier 116 [id/116]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[3]),303,7)",
+      "iri": "gid:33",
+      "label": "identifier 33 [id/33]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[5]",
+      "iri": "gid:188",
+      "label": "identifier 188 [id/188]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[1]),387,234)",
+      "iri": "gid:174",
+      "label": "identifier 174 [id/174]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),1268,102)",
+      "iri": "gid:135",
+      "label": "identifier 135 [id/135]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),501,133)",
+      "iri": "gid:173",
+      "label": "identifier 173 [id/173]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[3]),26,4)",
+      "iri": "gid:12",
+      "label": "identifier 12 [id/12]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[3]/xref[3]",
+      "iri": "gid:114",
+      "label": "identifier 114 [id/114]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[2]),500,242)",
+      "iri": "gid:132",
+      "label": "identifier 132 [id/132]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[6]/xref[2]",
+      "iri": "gid:101",
+      "label": "identifier 101 [id/101]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[2]),1,181)",
+      "iri": "gid:143",
+      "label": "identifier 143 [id/143]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[2]),320,4)",
+      "iri": "gid:37",
+      "label": "identifier 37 [id/37]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[5]/p[2]/xref",
+      "iri": "gid:97",
+      "label": "identifier 97 [id/97]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[4]/xref[1]",
+      "iri": "gid:125",
+      "label": "identifier 125 [id/125]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption/p/xref[1]",
+      "iri": "gid:120",
+      "label": "identifier 120 [id/120]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[4]/xref[2]",
+      "iri": "gid:93",
+      "label": "identifier 93 [id/93]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[6]),749,161)",
+      "iri": "gid:140",
+      "label": "identifier 140 [id/140]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]),344,193)",
+      "iri": "gid:162",
+      "label": "identifier 162 [id/162]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[8]),225,170)",
+      "iri": "gid:129",
+      "label": "identifier 129 [id/129]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[6]),1,249)",
+      "iri": "gid:136",
+      "label": "identifier 136 [id/136]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),976,4)",
+      "iri": "gid:4",
+      "label": "identifier 4 [id/4]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[3]/xref[3]",
+      "iri": "gid:124",
+      "label": "identifier 124 [id/124]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[2]",
+      "iri": "gid:187",
+      "label": "identifier 187 [id/187]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[4]/xref[5]",
+      "iri": "gid:65",
+      "label": "identifier 65 [id/65]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[2]/fig/caption/p),227,4)",
+      "iri": "gid:25",
+      "label": "identifier 25 [id/25]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption/p/xref[2]",
+      "iri": "gid:57",
+      "label": "identifier 57 [id/57]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[1]),378,7)",
+      "iri": "gid:7",
+      "label": "identifier 7 [id/7]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[3]),370,197)",
+      "iri": "gid:128",
+      "label": "identifier 128 [id/128]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[4]),1,7)",
+      "iri": "gid:150",
+      "label": "identifier 150 [id/150]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[3]),438,106)",
+      "iri": "gid:149",
+      "label": "identifier 149 [id/149]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[2]),183,256)",
+      "iri": "gid:138",
+      "label": "identifier 138 [id/138]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/xref[4]",
+      "iri": "gid:86",
+      "label": "identifier 86 [id/86]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[3]",
+      "iri": "gid:198",
+      "label": "identifier 198 [id/198]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[3]),184,185)",
+      "iri": "gid:147",
+      "label": "identifier 147 [id/147]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[3]/xref[2]",
+      "iri": "gid:127",
+      "label": "identifier 127 [id/127]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]/xref[5]",
+      "iri": "gid:99",
+      "label": "identifier 99 [id/99]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),663,4)",
+      "iri": "gid:46",
+      "label": "identifier 46 [id/46]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[3]",
+      "iri": "gid:193",
+      "label": "identifier 193 [id/193]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]),184,3)",
+      "iri": "gid:48",
+      "label": "identifier 48 [id/48]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[5]/p[2]),1036,257)",
+      "iri": "gid:130",
+      "label": "identifier 130 [id/130]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),1008,4)",
+      "iri": "gid:35",
+      "label": "identifier 35 [id/35]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption/p/xref[4]",
+      "iri": "gid:58",
+      "label": "identifier 58 [id/58]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[5]/xref[3]",
+      "iri": "gid:88",
+      "label": "identifier 88 [id/88]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[4]),1,6)",
+      "iri": "gid:5",
+      "label": "identifier 5 [id/5]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]",
+      "iri": "gid:201",
+      "label": "identifier 201 [id/201]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),979,218)",
+      "iri": "gid:148",
+      "label": "identifier 148 [id/148]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]),1,3)",
+      "iri": "gid:52",
+      "label": "identifier 52 [id/52]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]",
+      "iri": "gid:200",
+      "label": "identifier 200 [id/200]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]/xref[3]",
+      "iri": "gid:80",
+      "label": "identifier 80 [id/80]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),227,75)",
+      "iri": "gid:142",
+      "label": "identifier 142 [id/142]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/xref[4]",
+      "iri": "gid:108",
+      "label": "identifier 108 [id/108]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[3]),1,6)",
+      "iri": "gid:11",
+      "label": "identifier 11 [id/11]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]",
+      "iri": "gid:203",
+      "label": "identifier 203 [id/203]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]),882,372)",
+      "iri": "gid:154",
+      "label": "identifier 154 [id/154]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[6]),264,4)",
+      "iri": "gid:50",
+      "label": "identifier 50 [id/50]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),966,301)",
+      "iri": "gid:160",
+      "label": "identifier 160 [id/160]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),877,4)",
+      "iri": "gid:53",
+      "label": "identifier 53 [id/53]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]/xref[7]",
+      "iri": "gid:96",
+      "label": "identifier 96 [id/96]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[1]/xref[2]",
+      "iri": "gid:106",
+      "label": "identifier 106 [id/106]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/table-wrap/table",
+      "iri": "gid:186",
+      "label": "identifier 186 [id/186]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]),1666,186)",
+      "iri": "gid:141",
+      "label": "identifier 141 [id/141]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]",
+      "iri": "gid:191",
+      "label": "identifier 191 [id/191]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/fig/caption/p/xref[1]",
+      "iri": "gid:91",
+      "label": "identifier 91 [id/91]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[3]",
+      "iri": "gid:197",
+      "label": "identifier 197 [id/197]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[5]),321,145)",
+      "iri": "gid:167",
+      "label": "identifier 167 [id/167]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),455,4)",
+      "iri": "gid:41",
+      "label": "identifier 41 [id/41]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[4]/xref[1]",
+      "iri": "gid:95",
+      "label": "identifier 95 [id/95]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]),443,4)",
+      "iri": "gid:34",
+      "label": "identifier 34 [id/34]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[2]),213,4)",
+      "iri": "gid:17",
+      "label": "identifier 17 [id/17]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]),873,142)",
+      "iri": "gid:171",
+      "label": "identifier 171 [id/171]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[3]/xref[1]",
+      "iri": "gid:84",
+      "label": "identifier 84 [id/84]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/xref[5]",
+      "iri": "gid:87",
+      "label": "identifier 87 [id/87]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[7]",
+      "iri": "gid:196",
+      "label": "identifier 196 [id/196]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/title/xref[1]",
+      "iri": "gid:77",
+      "label": "identifier 77 [id/77]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[3]/xref[5]",
+      "iri": "gid:98",
+      "label": "identifier 98 [id/98]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]/xref[6]",
+      "iri": "gid:62",
+      "label": "identifier 62 [id/62]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[1]),371,3)",
+      "iri": "gid:20",
+      "label": "identifier 20 [id/20]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[6]),905,4)",
+      "iri": "gid:30",
+      "label": "identifier 30 [id/30]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]),498,167)",
+      "iri": "gid:165",
+      "label": "identifier 165 [id/165]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[5]/p[2]),1132,3)",
+      "iri": "gid:26",
+      "label": "identifier 26 [id/26]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]/xref",
+      "iri": "gid:92",
+      "label": "identifier 92 [id/92]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption",
+      "iri": "gid:184",
+      "label": "identifier 184 [id/184]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[5]/xref[2]",
+      "iri": "gid:110",
+      "label": "identifier 110 [id/110]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),1262,4)",
+      "iri": "gid:10",
+      "label": "identifier 10 [id/10]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[2]/xref[4]",
+      "iri": "gid:82",
+      "label": "identifier 82 [id/82]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[6]),23,4)",
+      "iri": "gid:55",
+      "label": "identifier 55 [id/55]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/title),1,29)",
+      "iri": "gid:144",
+      "label": "identifier 144 [id/144]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[7]),339,4)",
+      "iri": "gid:9",
+      "label": "identifier 9 [id/9]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[3]),559,7)",
+      "iri": "gid:56",
+      "label": "identifier 56 [id/56]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),114,7)",
+      "iri": "gid:49",
+      "label": "identifier 49 [id/49]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[4]/xref[1]",
+      "iri": "gid:100",
+      "label": "identifier 100 [id/100]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[2]/fig/caption/p),214,126)",
+      "iri": "gid:145",
+      "label": "identifier 145 [id/145]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/fig/caption/p/xref[3]",
+      "iri": "gid:118",
+      "label": "identifier 118 [id/118]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/xref[2]",
+      "iri": "gid:122",
+      "label": "identifier 122 [id/122]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]",
+      "iri": "gid:180",
+      "label": "identifier 180 [id/180]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]",
+      "iri": "gid:183",
+      "label": "identifier 183 [id/183]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),963,4)",
+      "iri": "gid:54",
+      "label": "identifier 54 [id/54]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[4]/xref[4]",
+      "iri": "gid:104",
+      "label": "identifier 104 [id/104]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/xref[3]",
+      "iri": "gid:73",
+      "label": "identifier 73 [id/73]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[5]),74,4)",
+      "iri": "gid:23",
+      "label": "identifier 23 [id/23]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),152,4)",
+      "iri": "gid:29",
+      "label": "identifier 29 [id/29]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[2]/fig/caption",
+      "iri": "gid:176",
+      "label": "identifier 176 [id/176]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption/p/xref[6]",
+      "iri": "gid:72",
+      "label": "identifier 72 [id/72]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]",
+      "iri": "gid:204",
+      "label": "identifier 204 [id/204]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[3]/xref[2]",
+      "iri": "gid:59",
+      "label": "identifier 59 [id/59]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[2]),1,4)",
+      "iri": "gid:164",
+      "label": "identifier 164 [id/164]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[1]/xref[6]",
+      "iri": "gid:64",
+      "label": "identifier 64 [id/64]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),946,101)",
+      "iri": "gid:137",
+      "label": "identifier 137 [id/137]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[5]/xref[1]",
+      "iri": "gid:79",
+      "label": "identifier 79 [id/79]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]",
+      "iri": "gid:177",
+      "label": "identifier 177 [id/177]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]",
+      "iri": "gid:199",
+      "label": "identifier 199 [id/199]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[1]/p[2]/fig/caption/p),1,94)",
+      "iri": "gid:175",
+      "label": "identifier 175 [id/175]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),1365,4)",
+      "iri": "gid:51",
+      "label": "identifier 51 [id/51]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[4]/p[1]/xref[5]",
+      "iri": "gid:81",
+      "label": "identifier 81 [id/81]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[6]/xref[1]",
+      "iri": "gid:60",
+      "label": "identifier 60 [id/60]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]),1747,7)",
+      "iri": "gid:28",
+      "label": "identifier 28 [id/28]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[5]),913,4)",
+      "iri": "gid:40",
+      "label": "identifier 40 [id/40]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]/fig/caption/p),616,4)",
+      "iri": "gid:8",
+      "label": "identifier 8 [id/8]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[5]",
+      "iri": "gid:202",
+      "label": "identifier 202 [id/202]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[1]),778,169)",
+      "iri": "gid:157",
+      "label": "identifier 157 [id/157]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[3]/xref[2]",
+      "iri": "gid:109",
+      "label": "identifier 109 [id/109]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[3]),1,182)",
+      "iri": "gid:158",
+      "label": "identifier 158 [id/158]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[6]/xref[2]",
+      "iri": "gid:113",
+      "label": "identifier 113 [id/113]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[4]",
+      "iri": "gid:182",
+      "label": "identifier 182 [id/182]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[8]),390,4)",
+      "iri": "gid:45",
+      "label": "identifier 45 [id/45]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[1]/fig/caption/p/xref[5]",
+      "iri": "gid:69",
+      "label": "identifier 69 [id/69]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[1]),329,193)",
+      "iri": "gid:139",
+      "label": "identifier 139 [id/139]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[4]),1,87)",
+      "iri": "gid:156",
+      "label": "identifier 156 [id/156]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[8]",
+      "iri": "gid:178",
+      "label": "identifier 178 [id/178]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[6]),819,4)",
+      "iri": "gid:3",
+      "label": "identifier 3 [id/3]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[4]/p[1]),294,7)",
+      "iri": "gid:24",
+      "label": "identifier 24 [id/24]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[5]),467,233)",
+      "iri": "gid:146",
+      "label": "identifier 146 [id/146]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[5]/table-wrap/table/tbody/tr[3]/td[3]/xref[1]",
+      "iri": "gid:115",
+      "label": "identifier 115 [id/115]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[4]),629,4)",
+      "iri": "gid:38",
+      "label": "identifier 38 [id/38]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[1]/p[2]/xref[1]",
+      "iri": "gid:102",
+      "label": "identifier 102 [id/102]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[3]/p[2]),1,324)",
+      "iri": "gid:166",
+      "label": "identifier 166 [id/166]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[2]),195,4)",
+      "iri": "gid:21",
+      "label": "identifier 21 [id/21]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[2]/xref[3]",
+      "iri": "gid:70",
+      "label": "identifier 70 [id/70]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[2]/p[1]",
+      "iri": "gid:189",
+      "label": "identifier 189 [id/189]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": "substring(string(.//article/body/sec[2]/p[3]),364,4)",
+      "iri": "gid:16",
+      "label": "identifier 16 [id/16]",
+      "type": "localresource"
+    },
+    {
+      "a": "unique_identifier",
+      "id": ".//article/body/sec[3]/p[4]/xref[3]",
+      "iri": "gid:119",
+      "label": "identifier 119 [id/119]",
+      "type": "localresource"
     }
   ]
 }

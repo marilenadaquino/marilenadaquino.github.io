@@ -1,26 +1,29 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import uuid , os , re
+import uuid , os , re ,rdflib
+from rdflib.namespace import XSD, RDF, RDFS, Namespace
+from rdflib.term import Literal
 from script.ocdm.graphlib import GraphEntity
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 from lxml import etree as ET
 
-# ABBREVIATIONS 
+# ABBREVIATIONS
 # elem 	= XML element
 # be 	= bibliographic entry
 # br 	= bibliographic resource
 # itr 	= in-text reference pointer
 
 # VARIABLES
-# sentence/text chunk tokenizer 
+# sentence/text chunk tokenizer
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
-separator = ']'.encode('utf-8')
-prepositions = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
+start_sep = '['
+end_sep = separator = ']'.encode('utf-8')
+itr_separators = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
 elem_text = './/xref[@ref-type="bibr"] | .//xref[@ref-type="bibr"]/following-sibling::text()[1]'
 
 citing_doi = './/article-id[@pub-id-type="doi"]'
 
-# XML elements handled by the OC model
+# XML elements mapped to the OC model
 section_tag = 'sec'
 caption_tag = 'caption'
 title_tag = 'title'
@@ -28,16 +31,19 @@ table_tag = 'table'
 footnote_tag = 'fn'
 paragraph_tag = 'p'
 
-# mapping XML tags to graphlib bibliographic entities
-elem_mapping = [(paragraph_tag,GraphEntity.paragraph),\
-				(caption_tag,GraphEntity.caption),\
+# mapping to graphlib bibliographic entities
+elem_mapping = [(caption_tag,GraphEntity.caption),\
+				(paragraph_tag,GraphEntity.paragraph),\
 				(table_tag,GraphEntity.table),\
 				(footnote_tag,GraphEntity.footnote),\
 				(title_tag,GraphEntity.section_title),\
 				(section_tag,GraphEntity.section)]
-	
 
-# methods for bibliographic entities
+# Namespaces
+LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
+DATACITE = Namespace("http://purl.org/spar/datacite/")
+
+# methods for XML bibliographic entities
 def find_citing_doi(root):
 	"""
 	params: root -- the root element of the XML document
@@ -58,13 +64,13 @@ def get_be_id(elem):
 	return elem.get('rid')
 
 
-def find_cited_doi(elem,root): 
+def find_cited_doi(elem,root):
 	"""
-	params: elem -- the XML element OR the text value of the XML element including the itr 
+	params: elem -- the XML element OR the text value of the XML element including the itr
 	params: root -- the root element of the XML document
 	return: DOI, PMID, or uuid of the be denoted by the itr
 	"""
-	if isinstance(elem, str) == False: 
+	if isinstance(elem, str) == False:
 		doi = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="doi"]'
 		pmid = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="pmid"]'
 	else:
@@ -75,7 +81,7 @@ def find_cited_doi(elem,root):
 			doi,pmid = None
 			be_id = 'not found'
 	if root.find(doi) is not None:
-		be_id = root.find(doi).text 
+		be_id = root.find(doi).text
 	elif root.find(doi) is None and root.find(pmid) is not None:
 		be_id = root.find(pmid).text
 	else:
@@ -105,38 +111,57 @@ def get_text_after(elem):
 			yield item
 
 
-def xpath_substring(elem, root, abb_list_path):
-	""" 
-	params: elem -- the XML element including the itr
+def xpath_sentence(elem, root, abb_list_path):
+	"""
+	params: elem -- the itr
 	params: root -- the root element of the XML document
 	params: abb_list_path -- a txt file including the list of abbreviations for splitting sentences
-	return: XPath of the sentence including the
+	return: XPath of the sentence including the itr
 	"""
 	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
-	
-	abbreviations_list = []
 	with open(abb_list_path, 'r') as f:
-		for line in f.readlines():
-			if not len(line) == 0:
-				abbreviations_list.append(line.strip())
+		abbreviations_list = [line.strip() for line in f.readlines() if not len(line) == 0]
 
 	punkt_param = PunktParameters()
 	punkt_param.abbrev_types = set(abbreviations_list)
 	sentence_splitter = PunktSentenceTokenizer(punkt_param)
 
-	string_before = "".join(get_text_before(elem)).strip() 
-	string_after = "".join(get_text_after(elem)).strip() 
+	string_before = "".join(get_text_before(elem)).strip()
+	string_after = "".join(get_text_after(elem)).strip()
 
-	# start offset of the last sentence in the stringified parent element that include the itr (0-based index transformed in 1-based index to comply with XPath)
-	startSent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1  
+	# offset of sentence in the stringified parent element that include the itr (0-based index transformed in 1-based index to comply with XPath)
+	start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
 	# get the length of the string
 	strin = sentence_splitter.tokenize( string_before )[-1]+elem_value+sentence_splitter.tokenize( string_after )[0]
-	lenSent = len(strin)
+	len_sent = len(strin)
 
 	# create the XPath
-	sentXPathFunction = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(startSent)+','+str(lenSent)+')'
-	return sentXPathFunction
+	sent_xpath_function = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
+	return sent_xpath_function
 
+
+def xpath_list(elem, root, start_sep, end_sep):
+	"""
+	params: elem -- the itr
+	params: root -- the root element of the XML document
+	params: strat_sep, end_sep -- separators ofthe list
+	return: XPath of the list including the itr
+	"""
+	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
+	string_before = "".join(get_text_before(elem)).strip()
+	string_after = "".join(get_text_after(elem)).strip()
+	if string_before.rfind(start_sep) != -1:
+		start_sep_index = string_before.rfind(start_sep)+1
+	else:
+		start_sep_index = 1
+	if string_after.find(end_sep.decode('utf-8')) != -1:
+		end_sep_index = string_after.find(end_sep.decode('utf-8'))+1 # include the character
+	else:
+		end_sep_index = len(string_after)
+	strin = string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1]
+	len_list = len(strin)
+	list_xpath_function = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
+	return list_xpath_function
 
 def find_container_xpath(elem, container_tag, root):
 	"""
@@ -188,13 +213,17 @@ def find_closest_parent(elem, root):
 	return et.getpath(parent[0])
 
 
-# methods for serialising RDF 
+# methods for serialising RDF
 def elem_to_type(xpath):
 	"""
-	params: xpath -- XPath of an element to be mapped to RDF
+	params: xpath -- XPath of an XML element to be mapped to RDF
 	return: DOCO/DEO class
 	"""
-	elem = re.sub(r"\[.*\]" ,'', xpath.rsplit('/', 1)[-1])
+	pos = re.search( r"\[.*\]", xpath.rsplit('/', 1)[-1])
+	if pos:
+		elem = re.sub(r"\[.*\]" ,'', xpath.rsplit('/', 1)[-1])
+	else:
+		elem = xpath.rsplit('/', 1)[-1]
 	for el in elem_mapping:
 		if elem == el[0]:
 			return el[1]
@@ -210,3 +239,25 @@ def file_in_folder(e_type):
 		os.makedirs("ccc/de/")
 	return e_type
 
+
+def find_de(de_id, graph):
+	""" 
+	params: de_id -- URI of the id
+	params: graph -- RDF graph where to look in 
+	return: list of URIs associated to the same id URI
+	"""
+	list_de = []
+	for de, has_id, _id in graph.triples(( None,DATACITE.hasIdentifier,de_id )):
+		list_de.append(de)
+	return list_de	
+									
+
+def find_id(de_id, graph):
+	""" 
+	params: de_id -- value of an id
+	params: graph -- RDF graph where to look in 
+	return: the URI of the id associated to the value
+	"""
+	for o,has_val,val in graph.triples((None,LITERAL.hasLiteralValue,None)):
+		if val.strip() == de_id.strip():
+			return o

@@ -2,126 +2,1483 @@
   "@context": "context.json",
   "@graph": [
     {
-      "a": [
-        "doco:DiscourseElement",
-        "doco:Paragraph"
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:98",
+        "gid:56"
       ],
-      "identifier": "gid:30",
-      "iri": "gde:29",
-      "label": "discourse element 29 [de/29]"
+      "iri": "grp:42",
+      "label": "in-text reference pointer 42 [rp/42]"
     },
     {
       "a": [
-        "doco:DiscourseElement",
-        "doco:Paragraph"
+        "discourse_element",
+        "sentence"
       ],
-      "identifier": "gid:25",
-      "iri": "gde:24",
-      "label": "discourse element 24 [de/24]"
+      "identifier": "gid:129",
+      "iri": "gde:2",
+      "label": "discourse element 2 [de/2]"
     },
     {
       "a": [
-        "doco:DiscourseElement",
-        "doco:Section"
+        "sentence",
+        "discourse_element"
       ],
-      "identifier": "gid:15",
-      "iri": "gde:14",
-      "label": "discourse element 14 [de/14]",
-      "reference": [
-        "gde:20",
-        "gde:24",
-        "gde:18",
-        "gde:19",
-        "gde:21",
-        "gde:22",
-        "gde:16",
-        "gde:23",
-        "gde:15",
-        "gde:17"
-      ]
+      "identifier": "gid:163",
+      "iri": "gde:36",
+      "label": "discourse element 36 [de/36]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:32",
+        "gid:122"
+      ],
+      "iri": "grp:68",
+      "label": "in-text reference pointer 68 [rp/68]"
     },
     {
       "a": [
-        "doco:DiscourseElement",
-        "doco:Section"
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:148",
+      "iri": "gde:21",
+      "label": "discourse element 21 [de/21]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:138",
+      "iri": "gde:11",
+      "label": "discourse element 11 [de/11]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "caption"
+      ],
+      "identifier": "gid:176",
+      "iri": "gde:49",
+      "label": "discourse element 49 [de/49]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:39",
+        "gid:74"
+      ],
+      "iri": "grp:18",
+      "label": "in-text reference pointer 18 [rp/18]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:45",
+        "grp:57"
+      ],
+      "identifier": "gid:49",
+      "iri": "gpl:8",
+      "label": "single location pointer list 8 [pl/8]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:59",
+        "gid:6"
+      ],
+      "iri": "grp:3",
+      "label": "in-text reference pointer 3 [rp/3]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:139",
+      "iri": "gde:12",
+      "label": "discourse element 12 [de/12]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "section"
+      ],
+      "identifier": "gid:202",
+      "iri": "gde:75",
+      "label": "discourse element 75 [de/75]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:136",
+      "iri": "gde:9",
+      "label": "discourse element 9 [de/9]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:161",
+      "iri": "gde:34",
+      "label": "discourse element 34 [de/34]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:121",
+        "gid:25"
+      ],
+      "iri": "grp:67",
+      "label": "in-text reference pointer 67 [rp/67]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:63",
+        "gid:55"
+      ],
+      "iri": "grp:7",
+      "label": "in-text reference pointer 7 [rp/7]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:183",
+      "iri": "gde:56",
+      "label": "discourse element 56 [de/56]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:11",
+        "grp:58",
+        "grp:24"
       ],
       "identifier": "gid:7",
-      "iri": "gde:6",
-      "label": "discourse element 6 [de/6]",
-      "reference": [
-        "gde:11",
-        "gde:9",
-        "gde:10",
-        "gde:12",
-        "gde:8",
-        "gde:13",
-        "gde:7"
-      ]
+      "iri": "gpl:1",
+      "label": "single location pointer list 1 [pl/1]"
     },
     {
       "a": [
-        "doco:DiscourseElement",
-        "doco:Paragraph"
+        "sentence",
+        "discourse_element"
       ],
-      "identifier": "gid:28",
-      "iri": "gde:27",
-      "label": "discourse element 27 [de/27]"
+      "identifier": "gid:168",
+      "iri": "gde:41",
+      "label": "discourse element 41 [de/41]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:94",
+        "gid:45"
+      ],
+      "iri": "grp:38",
+      "label": "in-text reference pointer 38 [rp/38]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:39",
+        "gid:118"
+      ],
+      "iri": "grp:64",
+      "label": "in-text reference pointer 64 [rp/64]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:120",
+        "gid:29"
+      ],
+      "iri": "grp:66",
+      "label": "in-text reference pointer 66 [rp/66]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:15",
+        "gid:117"
+      ],
+      "iri": "grp:63",
+      "label": "in-text reference pointer 63 [rp/63]"
     },
     {
       "a": [
-        "doco:Paragraph",
-        "doco:DiscourseElement"
+        "discourse_element",
+        "sentence"
       ],
-      "identifier": "gid:6",
+      "identifier": "gid:159",
+      "iri": "gde:32",
+      "label": "discourse element 32 [de/32]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:173",
+      "iri": "gde:46",
+      "label": "discourse element 46 [de/46]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:73",
+        "gid:40"
+      ],
+      "iri": "grp:17",
+      "label": "in-text reference pointer 17 [rp/17]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:128",
+      "iri": "gde:1",
+      "label": "discourse element 1 [de/1]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:62",
+        "gid:53"
+      ],
+      "iri": "grp:6",
+      "label": "in-text reference pointer 6 [rp/6]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:79",
+        "gid:23"
+      ],
+      "iri": "grp:23",
+      "label": "in-text reference pointer 23 [rp/23]"
+    },
+    {
+      "a": [
+        "paragraph",
+        "discourse_element"
+      ],
+      "identifier": "gid:178",
+      "iri": "gde:51",
+      "label": "discourse element 51 [de/51]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:196",
+      "iri": "gde:69",
+      "label": "discourse element 69 [de/69]"
+    },
+    {
+      "a": [
+        "paragraph",
+        "discourse_element"
+      ],
+      "identifier": "gid:193",
+      "iri": "gde:66",
+      "label": "discourse element 66 [de/66]"
+    },
+    {
+      "a": [
+        "paragraph",
+        "discourse_element"
+      ],
+      "identifier": "gid:179",
+      "iri": "gde:52",
+      "label": "discourse element 52 [de/52]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:104",
+        "gid:10"
+      ],
+      "iri": "grp:50",
+      "label": "in-text reference pointer 50 [rp/50]"
+    },
+    {
+      "a": [
+        "section",
+        "discourse_element"
+      ],
+      "identifier": "gid:200",
+      "iri": "gde:73",
+      "label": "discourse element 73 [de/73]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:171",
+      "iri": "gde:44",
+      "label": "discourse element 44 [de/44]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:84",
+        "gid:6"
+      ],
+      "iri": "grp:28",
+      "label": "in-text reference pointer 28 [rp/28]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:5",
+        "gid:95"
+      ],
+      "iri": "grp:39",
+      "label": "in-text reference pointer 39 [rp/39]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:109",
+        "gid:33"
+      ],
+      "iri": "grp:55",
+      "label": "in-text reference pointer 55 [rp/55]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:175",
+      "iri": "gde:48",
+      "label": "discourse element 48 [de/48]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:7",
+        "gid:112"
+      ],
+      "iri": "grp:58",
+      "label": "in-text reference pointer 58 [rp/58]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:37",
+        "gid:61"
+      ],
+      "iri": "grp:5",
+      "label": "in-text reference pointer 5 [rp/5]"
+    },
+    {
+      "a": [
+        "caption",
+        "discourse_element"
+      ],
+      "identifier": "gid:184",
+      "iri": "gde:57",
+      "label": "discourse element 57 [de/57]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:131",
+      "iri": "gde:4",
+      "label": "discourse element 4 [de/4]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:160",
+      "iri": "gde:33",
+      "label": "discourse element 33 [de/33]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:13",
+        "gid:71"
+      ],
+      "iri": "grp:15",
+      "label": "in-text reference pointer 15 [rp/15]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:166",
+      "iri": "gde:39",
+      "label": "discourse element 39 [de/39]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:134",
+      "iri": "gde:7",
+      "label": "discourse element 7 [de/7]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:135",
+      "iri": "gde:8",
+      "label": "discourse element 8 [de/8]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:99",
+        "gid:14"
+      ],
+      "iri": "grp:43",
+      "label": "in-text reference pointer 43 [rp/43]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:43",
+        "grp:8",
+        "grp:20"
+      ],
+      "identifier": "gid:14",
+      "iri": "gpl:2",
+      "label": "single location pointer list 2 [pl/2]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:188",
+      "iri": "gde:61",
+      "label": "discourse element 61 [de/61]"
+    },
+    {
+      "a": [
+        "section",
+        "discourse_element"
+      ],
+      "identifier": "gid:201",
+      "iri": "gde:74",
+      "label": "discourse element 74 [de/74]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:116",
+        "gid:56"
+      ],
+      "iri": "grp:62",
+      "label": "in-text reference pointer 62 [rp/62]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:103",
+        "gid:17"
+      ],
+      "iri": "grp:48",
+      "label": "in-text reference pointer 48 [rp/48]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:89",
+        "gid:43"
+      ],
+      "iri": "grp:33",
+      "label": "in-text reference pointer 33 [rp/33]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:165",
+      "iri": "gde:38",
+      "label": "discourse element 38 [de/38]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:132",
       "iri": "gde:5",
       "label": "discourse element 5 [de/5]"
     },
     {
-      "a": [
-        "doco:DiscourseElement",
-        "doco:Paragraph"
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:27",
+        "gid:110"
       ],
-      "identifier": "gid:14",
+      "iri": "grp:56",
+      "label": "in-text reference pointer 56 [rp/56]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:77",
+        "gid:22"
+      ],
+      "iri": "grp:21",
+      "label": "in-text reference pointer 21 [rp/21]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:156",
+      "iri": "gde:29",
+      "label": "discourse element 29 [de/29]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:113",
+        "gid:50"
+      ],
+      "iri": "grp:59",
+      "label": "in-text reference pointer 59 [rp/59]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:153",
+      "iri": "gde:26",
+      "label": "discourse element 26 [de/26]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:85",
+        "gid:34"
+      ],
+      "iri": "grp:29",
+      "label": "in-text reference pointer 29 [rp/29]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:26",
+        "gid:97"
+      ],
+      "iri": "grp:41",
+      "label": "in-text reference pointer 41 [rp/41]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:177",
+      "iri": "gde:50",
+      "label": "discourse element 50 [de/50]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:80",
+        "gid:7"
+      ],
+      "iri": "grp:24",
+      "label": "in-text reference pointer 24 [rp/24]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:9",
+        "gid:123"
+      ],
+      "iri": "grp:69",
+      "label": "in-text reference pointer 69 [rp/69]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:42",
+        "gid:82"
+      ],
+      "iri": "grp:26",
+      "label": "in-text reference pointer 26 [rp/26]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:140",
       "iri": "gde:13",
       "label": "discourse element 13 [de/13]"
     },
     {
-      "a": [
-        "doco:Section",
-        "doco:DiscourseElement"
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:61",
+        "grp:73"
       ],
-      "identifier": "gid:29",
-      "iri": "gde:28",
-      "label": "discourse element 28 [de/28]",
-      "reference": "gde:29"
+      "identifier": "gid:11",
+      "iri": "gpl:10",
+      "label": "single location pointer list 10 [pl/10]"
     },
     {
       "a": [
-        "doco:Section",
-        "doco:DiscourseElement"
+        "discourse_element",
+        "paragraph"
       ],
-      "identifier": "gid:26",
+      "identifier": "gid:190",
+      "iri": "gde:63",
+      "label": "discourse element 63 [de/63]"
+    },
+    {
+      "a": [
+        "section",
+        "discourse_element"
+      ],
+      "identifier": "gid:203",
+      "iri": "gde:76",
+      "label": "discourse element 76 [de/76]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:47",
+        "gid:57"
+      ],
+      "iri": "grp:1",
+      "label": "in-text reference pointer 1 [rp/1]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:93",
+        "gid:5"
+      ],
+      "iri": "grp:37",
+      "label": "in-text reference pointer 37 [rp/37]"
+    },
+    {
+      "a": [
+        "paragraph",
+        "discourse_element"
+      ],
+      "identifier": "gid:189",
+      "iri": "gde:62",
+      "label": "discourse element 62 [de/62]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:197",
+      "iri": "gde:70",
+      "label": "discourse element 70 [de/70]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:124",
+        "gid:33"
+      ],
+      "iri": "grp:70",
+      "label": "in-text reference pointer 70 [rp/70]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:88",
+        "gid:18"
+      ],
+      "iri": "grp:32",
+      "label": "in-text reference pointer 32 [rp/32]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "caption"
+      ],
+      "identifier": "gid:185",
+      "iri": "gde:58",
+      "label": "discourse element 58 [de/58]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:58",
+        "gid:8"
+      ],
+      "iri": "grp:2",
+      "label": "in-text reference pointer 2 [rp/2]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:164",
+      "iri": "gde:37",
+      "label": "discourse element 37 [de/37]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:141",
+      "iri": "gde:14",
+      "label": "discourse element 14 [de/14]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:96",
+        "gid:35"
+      ],
+      "iri": "grp:40",
+      "label": "in-text reference pointer 40 [rp/40]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:21",
+        "grp:12"
+      ],
+      "identifier": "gid:22",
+      "iri": "gpl:12",
+      "label": "single location pointer list 12 [pl/12]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:182",
+      "iri": "gde:55",
+      "label": "discourse element 55 [de/55]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:91",
+        "gid:39"
+      ],
+      "iri": "grp:35",
+      "label": "in-text reference pointer 35 [rp/35]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:137",
+      "iri": "gde:10",
+      "label": "discourse element 10 [de/10]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:44",
+        "grp:22",
+        "grp:27"
+      ],
+      "identifier": "gid:24",
+      "iri": "gpl:13",
+      "label": "single location pointer list 13 [pl/13]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:100",
+        "gid:49"
+      ],
+      "iri": "grp:45",
+      "label": "in-text reference pointer 45 [rp/45]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:198",
+      "iri": "gde:71",
+      "label": "discourse element 71 [de/71]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:152",
       "iri": "gde:25",
-      "label": "discourse element 25 [de/25]",
-      "reference": [
-        "gde:27",
-        "gde:26"
-      ]
+      "label": "discourse element 25 [de/25]"
     },
     {
       "a": [
-        "doco:Section",
-        "doco:DiscourseElement"
+        "sentence",
+        "discourse_element"
       ],
-      "identifier": "gid:2",
-      "iri": "gde:1",
-      "label": "discourse element 1 [de/1]",
-      "reference": [
-        "gde:4",
-        "gde:2",
-        "gde:5",
-        "gde:3"
-      ]
+      "identifier": "gid:147",
+      "iri": "gde:20",
+      "label": "discourse element 20 [de/20]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:14",
+        "gid:76"
+      ],
+      "iri": "grp:20",
+      "label": "in-text reference pointer 20 [rp/20]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:157",
+      "iri": "gde:30",
+      "label": "discourse element 30 [de/30]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:51",
+        "gid:65"
+      ],
+      "iri": "grp:9",
+      "label": "in-text reference pointer 9 [rp/9]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:11",
+        "gid:127"
+      ],
+      "iri": "grp:73",
+      "label": "in-text reference pointer 73 [rp/73]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:14",
+        "gid:64"
+      ],
+      "iri": "grp:8",
+      "label": "in-text reference pointer 8 [rp/8]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:28",
+        "gid:86"
+      ],
+      "iri": "grp:30",
+      "label": "in-text reference pointer 30 [rp/30]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:146",
+      "iri": "gde:19",
+      "label": "discourse element 19 [de/19]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:172",
+      "iri": "gde:45",
+      "label": "discourse element 45 [de/45]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:133",
+      "iri": "gde:6",
+      "label": "discourse element 6 [de/6]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:125",
+        "gid:19"
+      ],
+      "iri": "grp:71",
+      "label": "in-text reference pointer 71 [rp/71]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:87",
+        "gid:28"
+      ],
+      "iri": "grp:31",
+      "label": "in-text reference pointer 31 [rp/31]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:180",
+      "iri": "gde:53",
+      "label": "discourse element 53 [de/53]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:90",
+        "gid:44"
+      ],
+      "iri": "grp:34",
+      "label": "in-text reference pointer 34 [rp/34]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:169",
+      "iri": "gde:42",
+      "label": "discourse element 42 [de/42]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:145",
+      "iri": "gde:18",
+      "label": "discourse element 18 [de/18]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:24",
+        "gid:83"
+      ],
+      "iri": "grp:27",
+      "label": "in-text reference pointer 27 [rp/27]"
+    },
+    {
+      "a": [
+        "table",
+        "discourse_element"
+      ],
+      "identifier": "gid:186",
+      "iri": "gde:59",
+      "label": "discourse element 59 [de/59]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:70",
+        "grp:55"
+      ],
+      "identifier": "gid:33",
+      "iri": "gpl:7",
+      "label": "single location pointer list 7 [pl/7]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:2",
+        "gid:108"
+      ],
+      "iri": "grp:54",
+      "label": "in-text reference pointer 54 [rp/54]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:16",
+        "gid:114"
+      ],
+      "iri": "grp:60",
+      "label": "in-text reference pointer 60 [rp/60]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:54",
+        "gid:69"
+      ],
+      "iri": "grp:13",
+      "label": "in-text reference pointer 13 [rp/13]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:102",
+        "gid:48"
+      ],
+      "iri": "grp:47",
+      "label": "in-text reference pointer 47 [rp/47]"
+    },
+    {
+      "a": [
+        "doco:SectionTitle",
+        "discourse_element"
+      ],
+      "identifier": "gid:194",
+      "iri": "gde:67",
+      "label": "discourse element 67 [de/67]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:191",
+      "iri": "gde:64",
+      "label": "discourse element 64 [de/64]"
+    },
+    {
+      "a": [
+        "paragraph",
+        "discourse_element"
+      ],
+      "identifier": "gid:181",
+      "iri": "gde:54",
+      "label": "discourse element 54 [de/54]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:66",
+        "gid:12"
+      ],
+      "iri": "grp:10",
+      "label": "in-text reference pointer 10 [rp/10]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:111",
+        "gid:49"
+      ],
+      "iri": "grp:57",
+      "label": "in-text reference pointer 57 [rp/57]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": "gid:28",
+      "iri": "grp:49",
+      "label": "in-text reference pointer 49 [rp/49]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:20",
+        "gid:106"
+      ],
+      "iri": "grp:52",
+      "label": "in-text reference pointer 52 [rp/52]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:42",
+        "gid:70"
+      ],
+      "iri": "grp:14",
+      "label": "in-text reference pointer 14 [rp/14]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:150",
+      "iri": "gde:23",
+      "label": "discourse element 23 [de/23]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:149",
+      "iri": "gde:22",
+      "label": "discourse element 22 [de/22]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:158",
+      "iri": "gde:31",
+      "label": "discourse element 31 [de/31]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:30",
+        "grp:49",
+        "grp:31"
+      ],
+      "identifier": "gid:28",
+      "iri": "gpl:9",
+      "label": "single location pointer list 9 [pl/9]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:64",
+        "grp:35",
+        "grp:18"
+      ],
+      "identifier": "gid:39",
+      "iri": "gpl:3",
+      "label": "single location pointer list 3 [pl/3]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:174",
+      "iri": "gde:47",
+      "label": "discourse element 47 [de/47]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:11",
+        "gid:115"
+      ],
+      "iri": "grp:61",
+      "label": "in-text reference pointer 61 [rp/61]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:170",
+      "iri": "gde:43",
+      "label": "discourse element 43 [de/43]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:105",
+        "gid:21"
+      ],
+      "iri": "grp:51",
+      "label": "in-text reference pointer 51 [rp/51]"
+    },
+    {
+      "a": [
+        "section",
+        "discourse_element"
+      ],
+      "identifier": "gid:204",
+      "iri": "gde:77",
+      "label": "discourse element 77 [de/77]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:130",
+      "iri": "gde:3",
+      "label": "discourse element 3 [de/3]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:60",
+        "gid:3"
+      ],
+      "iri": "grp:4",
+      "label": "in-text reference pointer 4 [rp/4]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:24",
+        "gid:78"
+      ],
+      "iri": "grp:22",
+      "label": "in-text reference pointer 22 [rp/22]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:3",
+        "grp:28"
+      ],
+      "identifier": "gid:6",
+      "iri": "gpl:4",
+      "label": "single location pointer list 4 [pl/4]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:119",
+        "gid:38"
+      ],
+      "iri": "grp:65",
+      "label": "in-text reference pointer 65 [rp/65]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": "gid:24",
+      "iri": "grp:44",
+      "label": "in-text reference pointer 44 [rp/44]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:154",
+      "iri": "gde:27",
+      "label": "discourse element 27 [de/27]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:107",
+        "gid:41"
+      ],
+      "iri": "grp:53",
+      "label": "in-text reference pointer 53 [rp/53]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:26",
+        "grp:14"
+      ],
+      "identifier": "gid:42",
+      "iri": "gpl:6",
+      "label": "single location pointer list 6 [pl/6]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:155",
+      "iri": "gde:28",
+      "label": "discourse element 28 [de/28]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:67",
+        "gid:7"
+      ],
+      "iri": "grp:11",
+      "label": "in-text reference pointer 11 [rp/11]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:68",
+        "gid:22"
+      ],
+      "iri": "grp:12",
+      "label": "in-text reference pointer 12 [rp/12]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:195",
+      "iri": "gde:68",
+      "label": "discourse element 68 [de/68]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:167",
+      "iri": "gde:40",
+      "label": "discourse element 40 [de/40]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:92",
+        "gid:52"
+      ],
+      "iri": "grp:36",
+      "label": "in-text reference pointer 36 [rp/36]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:75",
+        "gid:36"
+      ],
+      "iri": "grp:19",
+      "label": "in-text reference pointer 19 [rp/19]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:142",
+      "iri": "gde:15",
+      "label": "discourse element 15 [de/15]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:143",
+      "iri": "gde:16",
+      "label": "discourse element 16 [de/16]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:126",
+        "gid:31"
+      ],
+      "iri": "grp:72",
+      "label": "in-text reference pointer 72 [rp/72]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:81",
+        "gid:46"
+      ],
+      "iri": "grp:25",
+      "label": "in-text reference pointer 25 [rp/25]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:199",
+      "iri": "gde:72",
+      "label": "discourse element 72 [de/72]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:187",
+      "iri": "gde:60",
+      "label": "discourse element 60 [de/60]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:162",
+      "iri": "gde:35",
+      "label": "discourse element 35 [de/35]"
+    },
+    {
+      "a": [
+        "sentence",
+        "discourse_element"
+      ],
+      "identifier": "gid:144",
+      "iri": "gde:17",
+      "label": "discourse element 17 [de/17]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:30",
+        "gid:101"
+      ],
+      "iri": "grp:46",
+      "label": "in-text reference pointer 46 [rp/46]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "paragraph"
+      ],
+      "identifier": "gid:192",
+      "iri": "gde:65",
+      "label": "discourse element 65 [de/65]"
+    },
+    {
+      "a": "intextref_pointer",
+      "identifier": [
+        "gid:72",
+        "gid:4"
+      ],
+      "iri": "grp:16",
+      "label": "in-text reference pointer 16 [rp/16]"
+    },
+    {
+      "a": [
+        "discourse_element",
+        "sentence"
+      ],
+      "identifier": "gid:151",
+      "iri": "gde:24",
+      "label": "discourse element 24 [de/24]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:42",
+        "grp:62"
+      ],
+      "identifier": "gid:56",
+      "iri": "gpl:5",
+      "label": "single location pointer list 5 [pl/5]"
+    },
+    {
+      "a": "singleloc_pointer_list",
+      "has_part": [
+        "grp:37",
+        "grp:39"
+      ],
+      "identifier": "gid:5",
+      "iri": "gpl:11",
+      "label": "single location pointer list 11 [pl/11]"
     }
   ]
 }

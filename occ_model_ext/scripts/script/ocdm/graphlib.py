@@ -48,13 +48,14 @@ class GraphEntity(object):
     bibliographic_reference = BIRO.BibliographicReference
     references = BIRO.references
     has_content = C4O.hasContent
+    has_element = CO.element
     cites = CITO.cites
     doi = DATACITE.doi
     occ = DATACITE.occ
     pmid = DATACITE.pmid
     pmcid = DATACITE.pmcid
     orcid = DATACITE.orcid
-    xpath = DATACITE.xpath # new
+    xpath = DATACITE["local-resource-identifier-scheme"] # new
     has_identifier = DATACITE.hasIdentifier
     identifier = DATACITE.Identifier
     isbn = DATACITE.isbn
@@ -70,11 +71,12 @@ class GraphEntity(object):
     book_set = FABIO.BookSet
     caption = DEO.Caption # new
     data_file = FABIO.DataFile
-    discourse_element = DOCO.DiscourseElement # new 
+    discourse_element = DOCO.DiscourseElement # new
     expression = FABIO.Expression
     expression_collection = FABIO.ExpressionCollection
     footnote = DOCO.Footnote # new
     has_sequence_identifier = FABIO.hasSequenceIdentifier
+    intextref_pointer = C4O.InTextReferencePointer # new
     journal = FABIO.Journal
     journal_article = FABIO.JournalArticle
     journal_issue = FABIO.JournalIssue
@@ -89,6 +91,7 @@ class GraphEntity(object):
     section_title = DOCO.SectionTitle # new
     sentence = DOCO.Sentence # new
     series = FABIO.Series
+    singleloc_pointer_list = C4O.SingleLocationPointerList # new
     specification_document = FABIO.SpecificationDocument
     table = DOCO.Table # new
     text_chunk = DOCO.TextChunk # new
@@ -100,7 +103,7 @@ class GraphEntity(object):
     embodiment = FRBR.embodiment
     part_of = FRBR.partOf
     contains_reference = FRBR.part
-    contains_de = FRBR.part
+    contains_de = FRBR.part # new
     has_literal_value = LITERAL.hasLiteralValue
     ending_page = PRISM.endingPage
     starting_page = PRISM.startingPage
@@ -300,9 +303,6 @@ class GraphEntity(object):
     def create_discourse_element(self, de_class):
         self._create_type(de_class)
 
-    def create_section(self):
-        self._create_type(GraphEntity.section)
-
     def create_sentence(self):
         self._create_type(GraphEntity.sentence)
 
@@ -339,7 +339,7 @@ class GraphEntity(object):
     def create_url(self, string):
         return self._associate_identifier_with_scheme(encode_url(string.lower()), GraphEntity.url)
 
-    def create_xpath(self, string): # new 
+    def create_xpath(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xpath)
 
     def has_id(self, id_res):
@@ -354,8 +354,11 @@ class GraphEntity(object):
     def contains_in_reference_list(self, be_res):
         self.g.add((self.res, GraphEntity.contains_reference, URIRef(str(be_res))))
 
-    def contains_discourse_element(self, de_res):
+    def contains_discourse_element(self, de_res): # new
         self.g.add((self.res, GraphEntity.contains_de, URIRef(str(de_res)) ))
+
+    def contains_element(self, rp_res): # new
+        self.g.add((self.res, GraphEntity.has_element, URIRef(str(rp_res)) ))
 
     def has_citation(self, br_res):
         self.g.add((self.res, GraphEntity.cites, URIRef(str(br_res))))
@@ -391,7 +394,7 @@ class GraphEntity(object):
     # /END Private Methods
 
 
-class GraphSet(object): 
+class GraphSet(object):
     # Labels
     labels = {
         "ar": "agent role",
@@ -400,10 +403,10 @@ class GraphSet(object):
         "cp": "citation", # new
         "de": "discourse element", # new
         "id": "identifier",
-        "lp": "single location pointer list", # new
+        "pl": "single location pointer list", # new
         "ra": "responsible agent",
         "re": "resource embodiment",
-        "sp": "in-text reference pointer" # new
+        "rp": "in-text reference pointer" # new
     }
 
     def __init__(self, base_iri, context_path, info_dir="", n_file_item=1, supplier_prefix=""):
@@ -430,10 +433,10 @@ class GraphSet(object):
         self.g_cp = base_iri + "cp/" # new
         self.g_de = base_iri + "de/" # new
         self.g_id = base_iri + "id/"
-        self.g_lp = base_iri + "lp/" # new
+        self.g_pl = base_iri + "pl/" # new
         self.g_ra = base_iri + "ra/"
         self.g_re = base_iri + "re/"
-        self.g_sp = base_iri + "sp/" # new
+        self.g_rp = base_iri + "rp/" # new
 
         # Local paths
         self.info_dir = info_dir
@@ -443,10 +446,10 @@ class GraphSet(object):
         self.cp_info_path = info_dir + "cp.txt" # new
         self.de_info_path = info_dir + "de.txt" # new
         self.id_info_path = info_dir + "id.txt"
-        self.lp_info_path = info_dir + "lp.txt" # new
+        self.pl_info_path = info_dir + "pl.txt" # new
         self.ra_info_path = info_dir + "ra.txt"
         self.re_info_path = info_dir + "re.txt"
-        self.sp_info_path = info_dir + "sp.txt" # new
+        self.rp_info_path = info_dir + "rp.txt" # new
 
         self.reperr = Reporter(True)
         self.reperr.new_article()
@@ -482,6 +485,14 @@ class GraphSet(object):
     def add_id(self, resp_agent, source_agent=None, source=None, res=None):
         return self._add(self.g_id, GraphEntity.identifier, res, resp_agent,
                          source_agent, source, self.id_info_path, "id")
+
+    def add_pl(self, resp_agent, source_agent=None, source=None, res=None): # new
+        return self._add(self.g_pl, GraphEntity.singleloc_pointer_list, res, resp_agent,
+                         source_agent, source, self.pl_info_path, "pl")
+
+    def add_rp(self, resp_agent, source_agent=None, source=None, res=None): # new
+        return self._add(self.g_rp, GraphEntity.intextref_pointer, res, resp_agent,
+                         source_agent, source, self.rp_info_path, "rp")
 
     def add_ra(self, resp_agent, source_agent=None, source=None, res=None):
         return self._add(self.g_ra, GraphEntity.agent, res, resp_agent,
@@ -563,10 +574,10 @@ class GraphSet(object):
         g.namespace_manager.bind("de", Namespace(self.g_de)) # new
         g.namespace_manager.bind("br", Namespace(self.g_br))
         g.namespace_manager.bind("id", Namespace(self.g_id))
-        g.namespace_manager.bind("lp", Namespace(self.g_lp)) # new
+        g.namespace_manager.bind("pl", Namespace(self.g_pl)) # new
         g.namespace_manager.bind("ra", Namespace(self.g_ra))
         g.namespace_manager.bind("re", Namespace(self.g_re))
-        g.namespace_manager.bind("sp", Namespace(self.g_sp)) # new
+        g.namespace_manager.bind("rp", Namespace(self.g_rp)) # new
         g.namespace_manager.bind("biro", GraphEntity.BIRO)
         g.namespace_manager.bind("co", GraphEntity.CO) # new
         g.namespace_manager.bind("c4o", GraphEntity.C4O)

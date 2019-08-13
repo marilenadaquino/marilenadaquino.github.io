@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import jats2oc , conf , pprint
 from script.ocdm.graphlib import *
 
@@ -6,7 +8,8 @@ pp = pprint.PrettyPrinter(indent=1)
 xml_doc = 'xml_PMC_sample/PMC5906705.nxml'
 
 jats = jats2oc.Jats2OC(xml_doc)
-pp.pprint(jats.extract_intext_refs())
+jats.extract_intext_refs()
+pp.pprint(jats.full_metadata)
 
 context_path_local = 'context.json'
 cccgraph= GraphSet("https://w3id.org/oc/corpus/", context_path_local, "ccc/")
