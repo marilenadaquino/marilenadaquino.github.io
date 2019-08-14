@@ -11,14 +11,14 @@ from lxml import etree as ET
 # elem 	= XML element
 # be 	= bibliographic entry
 # br 	= bibliographic resource
-# itr 	= in-text reference pointer
+# rp 	= in-text reference pointer
 
 # VARIABLES
 # sentence/text chunk tokenizer
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
 start_sep = '['
 end_sep = separator = ']'.encode('utf-8')
-itr_separators = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
+rp_separators = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
 elem_text = './/xref[@ref-type="bibr"] | .//xref[@ref-type="bibr"]/following-sibling::text()[1]'
 
 citing_doi = './/article-id[@pub-id-type="doi"]'
@@ -30,6 +30,7 @@ title_tag = 'title'
 table_tag = 'table'
 footnote_tag = 'fn'
 paragraph_tag = 'p'
+be_tag = 'ref'
 
 # mapping to graphlib bibliographic entities
 elem_mapping = [(caption_tag,GraphEntity.caption),\
@@ -40,8 +41,9 @@ elem_mapping = [(caption_tag,GraphEntity.caption),\
 				(section_tag,GraphEntity.section)]
 
 # Namespaces
-LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
+C4O = Namespace("http://purl.org/spar/c4o/")
 DATACITE = Namespace("http://purl.org/spar/datacite/")
+LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
 
 # methods for XML bibliographic entities
 def find_citing_doi(root):
@@ -58,27 +60,29 @@ def find_citing_doi(root):
 
 def get_be_id(elem):
 	"""
-	params: elem -- the XML element including the itr
-	return: ID of the XML element including the be denoted by the itr
+	params: elem -- the XML element including the rp
+	return: ID of the XML element including the be denoted by the rp
 	"""
 	return elem.get('rid')
 
 
 def find_cited_doi(elem,root):
 	"""
-	params: elem -- the XML element OR the text value of the XML element including the itr
+	params: elem -- the XML element OR the text value of the XML element including the rp
 	params: root -- the root element of the XML document
-	return: DOI, PMID, or uuid of the be denoted by the itr
+	return: DOI, PMID, or uuid of the be denoted by the rp
 	"""
 	if isinstance(elem, str) == False:
 		doi = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="doi"]'
 		pmid = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="pmid"]'
+		be_path = './/ref[@id="'+get_be_id(elem)+'"]'
 	else:
 		if root.find('.//ref[label="'+elem+'"]') is not None:
 			doi = './/ref[label="'+elem+'"]//pub-id[@pub-id-type="doi"]'
 			pmid = './/ref[label="'+elem+'"]//pub-id[@pub-id-type="pmid"]'
+			be_path = './/ref[label="'+elem+'"]'
 		else:
-			doi,pmid = None
+			doi,pmid,be_path = None
 			be_id = 'not found'
 	if root.find(doi) is not None:
 		be_id = root.find(doi).text
@@ -86,7 +90,8 @@ def find_cited_doi(elem,root):
 		be_id = root.find(pmid).text
 	else:
 		be_id = uuid.uuid4()
-	return be_id
+	be_text = ET.tostring(root.find(be_path), method="text", encoding='unicode', with_tail=False).strip() 
+	return be_id, be_text
 
 
 # methods for XML/text parsing
@@ -113,10 +118,10 @@ def get_text_after(elem):
 
 def xpath_sentence(elem, root, abb_list_path):
 	"""
-	params: elem -- the itr
+	params: elem -- the rp
 	params: root -- the root element of the XML document
 	params: abb_list_path -- a txt file including the list of abbreviations for splitting sentences
-	return: XPath of the sentence including the itr
+	return: XPath of the sentence including the rp
 	"""
 	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 	with open(abb_list_path, 'r') as f:
@@ -129,7 +134,7 @@ def xpath_sentence(elem, root, abb_list_path):
 	string_before = "".join(get_text_before(elem)).strip()
 	string_after = "".join(get_text_after(elem)).strip()
 
-	# offset of sentence in the stringified parent element that include the itr (0-based index transformed in 1-based index to comply with XPath)
+	# offset of sentence in the stringified parent element that include the rp (0-based index transformed in 1-based index to comply with XPath)
 	start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
 	# get the length of the string
 	strin = sentence_splitter.tokenize( string_before )[-1]+elem_value+sentence_splitter.tokenize( string_after )[0]
@@ -142,10 +147,10 @@ def xpath_sentence(elem, root, abb_list_path):
 
 def xpath_list(elem, root, start_sep, end_sep):
 	"""
-	params: elem -- the itr
+	params: elem -- the rp
 	params: root -- the root element of the XML document
-	params: strat_sep, end_sep -- separators ofthe list
-	return: XPath of the list including the itr
+	params: strat_sep, end_sep -- separators of the substring representing a list
+	return: XPath of the list including the rp
 	"""
 	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 	string_before = "".join(get_text_before(elem)).strip()
@@ -159,9 +164,11 @@ def xpath_list(elem, root, start_sep, end_sep):
 	else:
 		end_sep_index = len(string_after)
 	strin = string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1]
+	py_strin = string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]
 	len_list = len(strin)
 	list_xpath_function = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
-	return list_xpath_function
+	return [py_strin,list_xpath_function]
+
 
 def find_container_xpath(elem, container_tag, root):
 	"""
@@ -260,4 +267,15 @@ def find_id(de_id, graph):
 	"""
 	for o,has_val,val in graph.triples((None,LITERAL.hasLiteralValue,None)):
 		if val.strip() == de_id.strip():
+			return o
+
+
+def find_be(be_text,graph):
+	""" 
+	params: be_text -- text of a bibliographic reference
+	params: graph -- RDF graph where to look in 
+	return: the URI of the be
+	"""
+	for o,has_val,val in graph.triples((None,C4O.hasContent,None)):
+		if val.strip() == be_text.strip():
 			return o

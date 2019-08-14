@@ -48,6 +48,8 @@ class GraphEntity(object):
     bibliographic_reference = BIRO.BibliographicReference
     references = BIRO.references
     has_content = C4O.hasContent
+    is_context_of = C4O.isContextOf # new
+    denotes = C4O.denotes # new
     has_element = CO.element
     cites = CITO.cites
     doi = DATACITE.doi
@@ -299,12 +301,14 @@ class GraphEntity(object):
     def create_standard_series(self):
         self._create_type(GraphEntity.series)
 
-    # TODO add create_[discourse_element_type] for each type
-    def create_discourse_element(self, de_class):
+    def create_discourse_element(self, de_class): # new
         self._create_type(de_class)
 
-    def create_sentence(self):
+    def create_sentence(self): # new
         self._create_type(GraphEntity.sentence)
+
+    def create_text_chunk(self): # new
+        self._create_type(GraphEntity.text_chunk)
 
     def create_publisher(self, br_res):
         return self._associate_role_with_document(GraphEntity.publisher, br_res)
@@ -342,6 +346,9 @@ class GraphEntity(object):
     def create_xpath(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xpath)
 
+    def denotes(self, be_res):
+        self.g.add((self.res, GraphEntity.denotes, URIRef(str(be_res))))
+
     def has_id(self, id_res):
         self.g.add((self.res, GraphEntity.has_identifier, URIRef(str(id_res))))
 
@@ -357,6 +364,9 @@ class GraphEntity(object):
     def contains_discourse_element(self, de_res): # new
         self.g.add((self.res, GraphEntity.contains_de, URIRef(str(de_res)) ))
 
+    def contained_in_discourse_element(self, de_res): # new
+        self.g.add((URIRef(str(de_res)), GraphEntity.contains_de, self.res ))
+
     def contains_element(self, rp_res): # new
         self.g.add((self.res, GraphEntity.has_element, URIRef(str(rp_res)) ))
 
@@ -371,6 +381,9 @@ class GraphEntity(object):
 
     def follows(self, ar_res):
         ar_res.g.add((URIRef(str(ar_res)), GraphEntity.has_next, self.res))
+
+    def has_context(self, de_res):
+        self.g.add((URIRef(str(de_res)), GraphEntity.is_context_of, self.res))
     # /END Composite Attributes
 
     # /START Protected Methods
