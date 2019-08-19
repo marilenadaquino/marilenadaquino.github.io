@@ -1,0 +1,18 @@
+list index out of range Traceback (most recent call last):
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/run.py", line 36, in <module>
+    epmc.process(True)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 138, in process
+    self.process_article(cur_id, cur_source, cur_doi, cur_doi, cur_pmid, cur_pmcid, oa)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 93, in process_article
+    ref_pointer_list = self.process_xml_source(cur_pmcid, intext_refs=True)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 309, in process_xml_source
+    self.rs.new_ref_pointer_list(jats.extract_intext_refs())
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 63, in extract_intext_refs
+    for rp_group in groups]
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 63, in <listcomp>
+    for rp_group in groups]
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 62, in <listcomp>
+    if isinstance(rp, str) == False else rp for rp in rp_group] \
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/conf.py", line 139, in xpath_sentence
+    start_senta = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
+IndexError: list index out of range

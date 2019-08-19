@@ -99,8 +99,17 @@ class Jats2OC(object):
 		cited_doi_graph = Graph()
 
 		# br
-		# TODO : disambiguation of citing br on OC
+		# remove the graphset in parameter
+		# TODO : disambiguation of citing br on OC -- crea tutto comunque
+		# EXTEND https://github.com/opencitations/script/blob/master/spacin/resfinder.py, l. 153 onwards
 		# if not in OC
+		# crea il JSON come quello di Bee (reinventa la ruota -- e.g. http://opencitations.net/corpus)
+		# dai tutto in pasto a https://github.com/opencitations/script/blob/master/spacin/crossrefproc.py
+		# crp = CrossrefProcessor(base_iri, context_path, full_info_dir, json_object,
+                            #                         ResourceFinder(ts_url=triplestore_url, default_dir=default_dir),
+                            #                         ORCIDFinder(orcid_conf_path), items_per_file, supplier_prefix)
+                            # result = crp.process()
+        # ritorna un graphset da integrare
 		# add id (all of them?), type, title, part of, cites, publication date, embodied as XML, number?, 
 		# edition, part (references?), contributor
 		# add pmid, pmcid?
@@ -116,6 +125,8 @@ class Jats2OC(object):
 		# TODO 
 		# disambiguation of be/br on OC
 		# add referenced br, id of br -- distiguish doi from pmid. IN WHICH GRAPH?
+		
+		# https://github.com/opencitations/script/blob/master/bee/epmcproc.py, l.170 linearizza la stringa della ref per la full-text search
 		set_be = { (rp['be_id'],rp['be_text']) for rp_group in self.data for rp in rp_group }
 		for be_id,be_text in set_be:	
 			be_graph = self.graph.add_be("md", source_agent=None, source=None, res=None)
@@ -125,7 +136,8 @@ class Jats2OC(object):
 		# de
 		# section
 		# TODO 
-		# add next
+		# add next -- make a new method in graphlib!
+
 		set_sections_xpath = { (rp['elem_last_ancestor_xpath'],rp['elem_last_ancestor_title']) for rp_group in self.data for rp in rp_group}
 		for section_element, section_title in set_sections_xpath:
 			section_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)

@@ -29,6 +29,7 @@ class BibliographicReferenceStorer(object):
         self.err_dir = error_dir
         self.stored = set()
         self.last_ref_list = None
+        self.ref_pointer_list = None
         self.error = False
         self.csv_file = stored_file
         self.supplier_idx = supplier_idx
@@ -58,6 +59,10 @@ class BibliographicReferenceStorer(object):
 
     def new_ref_list(self):
         self.last_ref_list = []
+        self.error = False
+
+    def new_ref_pointer_list(rp_list):
+        self.ref_pointer_list = rp_list
         self.error = False
 
     def new_supplier(self):
@@ -98,7 +103,7 @@ class BibliographicReferenceStorer(object):
             return False
 
     def store(self, id_string, citing_localid=None, citing_doi=None, citing_pmid=None, citing_pmcid=None,
-              curator=None, source_provider=None, source=None):
+              curator=None, source_provider=None, source=None, ref_pointer_list=None):
         if self.last_ref_list is not None:
 
             json_item = {}
@@ -118,6 +123,8 @@ class BibliographicReferenceStorer(object):
                 json_item["source_provider"] = source_provider
             if source is not None:
                 json_item["source"] = source
+            if self.ref_pointer_list is not None:
+                json_item["reference_pointers"] = self.ref_pointer_list
 
             cur_time = datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f_')
             local_file_name = cur_time + normalise_id(id_string) + ".json"

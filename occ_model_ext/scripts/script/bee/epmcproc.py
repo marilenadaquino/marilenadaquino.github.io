@@ -15,6 +15,7 @@
 # SOFTWARE.
 
 from script.bee.refproc import ReferenceProcessor
+from script.ccc.jats2oc import Jats2OC
 from script.support.support import get_data, encode_url
 from script.support.support import dict_get as dg
 import os
@@ -40,6 +41,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                  max_query_per_sec=10,
                  p_size=1000,
                  debug=False,
+                 intext_refs=False,
                  supplier_idx=()):
         if p_size > 1000 or p_size < 1:
             page_size = "1000"
@@ -75,7 +77,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
             cur_get_url = self.all_papers_api + cur_page
         return self.__get_data(cur_get_url), cur_get_url
 
-    def process_article(self, cur_id, cur_source, cur_doi, cur_pmid, cur_pmcid, oa=False):
+    def process_article(self, cur_id, cur_source, cur_doi, cur_pmid, cur_pmcid, oa=False, intext_refs=False):
         if cur_doi is None and cur_pmcid is not None:
             cur_doi = self.__get_doi_from_xml_source(cur_pmcid)
         cur_localid = cur_source + "-" + cur_id
@@ -87,13 +89,16 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
 
             if oa:
                 ref_list_url = self.process_xml_source(cur_pmcid)
+                if intext_refs:
+                    ref_pointer_list = self.process_xml_source(cur_pmcid, intext_refs=True)
             else:
                 ref_list_url = self.process_references(cur_source, cur_id)
+                ref_pointer_list = None
             if ref_list_url is not None:
                 stored = self.rs.store(
                     next(item for item in id_list if item is not None),
                     cur_localid, cur_doi, cur_pmid, cur_pmcid, self.name,
-                    self.provider, encode_url(ref_list_url))
+                    self.provider, encode_url(ref_list_url), encode_url(ref_pointer_list))
                 if stored:
                     self.repok.add_sentence(
                         "References of '%s' have been stored." % cur_localid)
@@ -233,7 +238,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 if doi_string != "":
                     return doi_string
 
-    def process_xml_source(self, cur_pmcid):
+    def process_xml_source(self, cur_pmcid, intext_refs=False):
         if cur_pmcid is not None:
             xml_source_url = self.xml_source_api.replace("XXX", cur_pmcid)
 
@@ -297,8 +302,14 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         self.rs.add_reference(entry_text, process_entry_text,
                                               None, ref_doi, ref_pmid, ref_pmcid, ref_url)
 
+                    if intext_refs:
+                        reference_pointers = cur_xml.xpath("//xref")
+                        if len(reference_pointers):
+                            jats = Jats2OC(cur_xml)
+                            self.rs.new_ref_pointer_list(jats.extract_intext_refs())
                     return xml_source_url
-
+                
+    
     def process_references(self, cur_source, cur_id):
         ref_list_url = self.ref_list_api.replace(
             "XXX", cur_source).replace("YYY", cur_id)
