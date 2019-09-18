@@ -27,6 +27,24 @@
 						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
 					</div>
 				</section>
+				<!-- Section -->
+				<section id="w7">
+					<header>
+						<h2>#w10-11</h2>
+					</header>
+					<div class="content">
+						<p><strong>September 11, 2019 - September 20, 2019</strong></p>	
+							
+						<h3>Wrap up, completion of OCDM reference document</h3>
+						<p><code>oco:hasAnnotation</code> inverse property of <code>oa:hasTarget</code>. I've emailed RS. no answer yet.</p>
+						<h3>TODO</h3>
+						<ul>
+							<li>create <code>oco:hasAnnotation</code> in OCO.</li>
+							<li>change local context json and graphlib according to definitive naming conventions</li>
+							<li>change the OCDM graph, remove <code>oa:hasTarget</code> and had its inverse property <code>oco:hasAnnotation</code></li>
+						</ul>
+					</div>
+				</section>
 
 				<!-- Section -->
 				<section id="w7">
@@ -34,6 +52,8 @@
 						<h2>#w7</h2>
 					</header>
 					<div class="content">
+						<p><strong>August 18, 2019 - September 10, 2019</strong></p>	
+							
 						<h3>Continue to work on the script for converting XML to RDF</h3>
 						<p>Revised the idea of having a JSON as result of the XML parsing. Now it's a more <em>pythonic</em> list of lists (We might want to change it again so that it's nicely integrated in the JSON produced in Bee -- to be discussed in September). I created methods for reconciling entities to entites already existing in the graph (rp, de, xpath) and link them with each other. In september I'll continue on the integration of <code>br/be</code> to OCC. I've added the xpath of the text chunk (e.g. '[1]', '[1,2,3]') including the rp for disambiguating them when linking lists to their elements.</p>
 						<p>Working on integrating the script in the workflow. In bee (<code>EuropeanPubMedCentralProcessor()</code>), I added a parameter <code>intext_refs=False</code> so that we can decide whether extract pointers or not. My guess is that we can extract them when the parameter <code>oa=True</code>. I've started testing the script <code>ccc/run.py</code> but I found the first problems (related to the <em>citation style</em> of in-text reference pointers). In spetmber I'll continue refining the script incrementally according to the cases I find (since there is no way ATM to predict which parent elements can include in-text reference pointers). </p>

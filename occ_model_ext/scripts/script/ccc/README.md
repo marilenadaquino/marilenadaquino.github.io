@@ -1,13 +1,11 @@
 ## QUESTIONS
 
- * EuropeanPubMedCentralProcessor: what is the difference between oa=False and oa=True
-
+ * 
 ## ISSUES
 
 
 ## TODO
 
- * change the list of lists
  * the be_id must be changed with an identifier of the bib_eentry as extracted from bee OR the same string, reproduced as bee does
  * check citation styles in PMC
 
