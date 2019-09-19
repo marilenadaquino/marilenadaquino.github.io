@@ -28,7 +28,7 @@
 					</div>
 				</section>
 				<!-- Section -->
-				<section id="w7">
+				<section id="w10-11">
 					<header>
 						<h2>#w10-11</h2>
 					</header>
@@ -36,13 +36,87 @@
 						<p><strong>September 11, 2019 - September 20, 2019</strong></p>	
 							
 						<h3>Wrap up, completion of OCDM reference document</h3>
-						<p><code>oco:hasAnnotation</code> inverse property of <code>oa:hasTarget</code>. I've emailed RS. no answer yet.</p>
-						<h3>TODO</h3>
+						<p><code>oco:hasAnnotation</code> inverse property of <code>oa:hasTarget</code>. The conversation in the community group <a href="http://lists.w3.org/Archives/Public/public-openannotation/2019Sep/subject.html">here</a>.</p>
+						<h3>QUESTIONS</h3>
 						<ul>
-							<li>create <code>oco:hasAnnotation</code> in OCO.</li>
-							<li>change local context json and graphlib according to definitive naming conventions</li>
-							<li>change the OCDM graph, remove <code>oa:hasTarget</code> and had its inverse property <code>oco:hasAnnotation</code></li>
+							<li>does the image of the extension go only on the online documentation? Uploaded in the oco ontology folder on github along with the core.png/graphml files.</li>
 						</ul>
+						<h3>TODO</h3>
+
+						<h4>OCC document</h4>
+						<ul>
+							<li>last round of review of S/D</li>
+						</ul>
+
+						<h4>OCO ontology</h4>
+						<ul>
+							<li>push on github</li>
+							<li>add the image of the extension</li>
+							<li>Add all the new properties from the extension</li>
+						</ul>
+
+						<h4>C4O Ontology</h4>
+						<ul>
+							<li>Create the inverse property of <code>c4o:hasContext</code>, namely <code>c4o:isContextOf</code></li>
+						</ul>
+
+						<h4>OCDM graph</h4>
+						<ul>
+							<li>-</li>
+						</ul>
+
+						<h4>Other documents online</h4>
+						<ul>
+							<li>Extend the technical documentation on the OCC model</li>
+							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
+							<li>Modify the online documentation on the OCC website including the new extension</li>
+							<li>Modify the online documentation of the OCC website: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
+						</ul>
+
+						<h4>context.json, graphlib</h4>
+						<ul>
+							<li>change local context.json and graphlib according to definitive naming conventions in the doc</li>
+							<li>Merge of Graphlib with changes made by FM</li>
+							<li><strong>graphlib</strong> change/make new method <code>follows</code> - that is, oco:hasNext - to apply to other types of entities.</li>
+							<li><strong>graphlib</strong> change contains_in_reference_list with something more general for including discourse elements</li>
+						</ul>
+
+						<h4>Code</h4>
+						<ul>
+							<li>make a regex in storer.py to distinguish reference/part (l.246-50, when rewrites the context URL)</li>
+							<li>add a be2generic-citation link and every rp2specific-citation through oa:Annotation; </li>
+							<li>BEE test. Control whether the citation style is always the same in the corpus</li>
+							<li>fork git (/script)</li>
+						</ul>
+						
+						<h3>DONE</h3>
+						<h4>OCC document</h4>
+						<ul>
+							<li>change the base URLs in the occ-doc json</li>
+							<li>remove all labels</li>
+							<li>next is only for pointers in list</li>
+							<li>validate JSON and JSON LD</li>
+							<li>formatting of JSON in doc</li>
+							<li>modify JSON provenance (see metadata): remains se</li>
+							<li>check OCI IDS everywhere</li>
+							<li>br have prefixes! 0420</li>
+							<li>NO content and xpath identifiers for pointers in list</li>
+							<li>add all the cito properties for citation functions</li>
+						</ul>
+						<h4>OCO ontology</h4> 
+						<ul>
+							<li>Create <code>oco:hasAnnotation</code>, declare it as <code>oa:hasTarget</code> annotation</li>
+							<li>Change range of <code>oco:hasNext</code> to <code>owl:Thing</code></li>
+						</ul>
+						<!-- change has next, add has annotation and inverse, add all the rest -->
+						<h4>context.json</h4>
+						<h4>Other documents online</h4>
+						<ul></ul>
+						<h4>OCDM graph</h4>
+						<ul>
+							<li>change the OCDM graph, remove <code>oa:hasTarget</code> and add its inverse property <code>oco:hasAnnotation</code></li>
+						</ul>
+						<h4>Code</h4>
 					</div>
 				</section>
 
@@ -61,7 +135,7 @@
 						<p>Currently working on Bee/Spacin integration so as to create the toy data for supporting the data test.</p>
 						<h3>TODO</h3>
 						<ul>
-							<li>change "reference" in "part" in all the existing JSON-LD of the corpus</li>
+							<li>[DONE] change "reference" in "part" in all the existing JSON-LD of the corpus</li>
 						</ul>
 					</div>
 				</section>
@@ -94,11 +168,8 @@
 						<h3>TODO</h3>
 						<ul>
 							<li>Control whether the citation style is always the same in the corpus</li>
-							
 							<li>fork git (/script)</li>
-							
 							<li><strong>graphlib</strong> change/make new method <code>follows</code> - that is, oco:hasNext - to apply to other types of entities. Can we have 2 aliases for the same property? [ok]</li>
-							
 							<li><strong>graphlib</strong> change contains_in_reference_list with something more general for including discourse elements</li>
 
 						</ul>
@@ -143,7 +214,7 @@
 
 							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
 
-							<li>Create <code>datacite:xpath</code> individual.</li>
+							<li>[NO] Create <code>datacite:xpath</code> individual.</li>
 
 							<li>Modify documentation of the OCC also on github</li>
 
