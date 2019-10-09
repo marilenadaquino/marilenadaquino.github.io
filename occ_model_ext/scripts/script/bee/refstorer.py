@@ -61,10 +61,13 @@ class BibliographicReferenceStorer(object):
         self.last_ref_list = []
         self.error = False
 
-    def new_ref_pointer_list(rp_list):
-        self.ref_pointer_list = rp_list
+    # def new_ref_pointer_list(rp_list):
+    #     self.ref_pointer_list = rp_list
+    #     self.error = False
+    def new_ref_pointer_list(self):
+        self.ref_pointer_list = []
         self.error = False
-
+    
     def new_supplier(self):
         try:
             self.supplier_idx_pos = (self.supplier_idx_pos + 1) % len(self.supplier_idx)
@@ -103,7 +106,7 @@ class BibliographicReferenceStorer(object):
             return False
 
     def store(self, id_string, citing_localid=None, citing_doi=None, citing_pmid=None, citing_pmcid=None,
-              curator=None, source_provider=None, source=None, ref_pointer_list=None):
+              curator=None, source_provider=None, source=None, ref_pointer_list=False):
         if self.last_ref_list is not None:
 
             json_item = {}
@@ -123,7 +126,7 @@ class BibliographicReferenceStorer(object):
                 json_item["source_provider"] = source_provider
             if source is not None:
                 json_item["source"] = source
-            if self.ref_pointer_list is not None:
+            if ref_pointer_list and self.ref_pointer_list is not None:
                 json_item["reference_pointers"] = self.ref_pointer_list
 
             cur_time = datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f_')
@@ -150,6 +153,7 @@ class BibliographicReferenceStorer(object):
                     self.stored.add(id_string)
 
             self.new_ref_list()
+            self.new_ref_pointer_list()
             return True
 
         return False

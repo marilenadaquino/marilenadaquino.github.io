@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2016, Silvio Peroni <essepuntato@gmail.com>
+# Copyright (c) 2019, Marilena Daquino
 #
 # Permission to use, copy, modify, and/or distribute this software for any purpose
 # with or without fee is hereby granted, provided that the above copyright notice
@@ -14,7 +14,7 @@
 # ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
 # SOFTWARE.
 
-__author__ = 'essepuntato'
+__author__ = 'marilena_daquino'
 
 from script.bee.conf import stored_file, reference_dir, error_dir, pagination_file, page_size, debug, supplier_tuple
 from script.support.stopper import Stopper
@@ -32,7 +32,7 @@ exception_string = None
 try:
     epmc = EuropeanPubMedCentralProcessor(
         stored_file, reference_dir, error_dir, pagination_file, Stopper(reference_dir),
-        p_size=page_size, debug=debug, intext_refs=False, supplier_idx=supplier_tuple)
+        p_size=page_size, debug=debug, intext_refs=True, supplier_idx=supplier_tuple)
     epmc.process(True)
 except Exception as e:
     exception_string = str(e) + " " + traceback.format_exc().rstrip("\n+")

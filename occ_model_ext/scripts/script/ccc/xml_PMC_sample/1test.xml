@@ -1,0 +1,2074 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+<?properties open_access?>
+<?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?>
+<?DTDIdentifier.IdentifierType public?>
+<?SourceDTD.DTDName A++V2.4.dtd?>
+<?SourceDTD.Version 2.4?>
+<?ConverterInfo.XSLTName springer2nlmx2.xsl?>
+<?ConverterInfo.Version 1?>
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+<journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+<journal-title-group>
+<journal-title>Nature Communications</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2041-1723</issn>
+<publisher>
+<publisher-name>Nature Publishing Group UK</publisher-name>
+<publisher-loc>London</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="pmcid">6428826</article-id>
+<article-id pub-id-type="pmid">30899012</article-id>
+<article-id pub-id-type="publisher-id">9230</article-id>
+<article-id pub-id-type="doi">10.1038/s41467-019-09230-w</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>
+Accurate autocorrelation modeling substantially improves fMRI reliability
+</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6080-6597</contrib-id>
+<name>
+<surname>Olszowy</surname>
+<given-names>Wiktor</given-names>
+</name>
+<address>
+<email>olszowyw@gmail.com</email>
+</address>
+<xref ref-type="aff" rid="Aff1">1</xref>
+<xref ref-type="aff" rid="Aff2">2</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Aston</surname>
+<given-names>John</given-names>
+</name>
+<xref ref-type="aff" rid="Aff3">3</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Rua</surname>
+<given-names>Catarina</given-names>
+</name>
+<xref ref-type="aff" rid="Aff1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Williams</surname>
+<given-names>Guy B.</given-names>
+</name>
+<xref ref-type="aff" rid="Aff1">1</xref>
+</contrib>
+<aff id="Aff1">
+<label>1</label>
+<institution-wrap>
+<institution-id institution-id-type="ISNI">0000000121885934</institution-id>
+<institution-id institution-id-type="GRID">grid.5335.0</institution-id>
+<institution>
+Wolfson Brain Imaging Centre, Department of Clinical Neurosciences,
+</institution>
+<institution>University of Cambridge, </institution>
+</institution-wrap>
+Cambridge, CB2 0QQ UK
+</aff>
+<aff id="Aff2">
+<label>2</label>
+<institution-wrap>
+<institution-id institution-id-type="ISNI">0000 0001 2165 4204</institution-id>
+<institution-id institution-id-type="GRID">grid.9851.5</institution-id>
+<institution>
+Laboratory of Research in Neuroimaging (LREN), Department of Clinical Neurosciences, CHUV,
+</institution>
+<institution>University of Lausanne, </institution>
+</institution-wrap>
+1011 Lausanne, Switzerland
+</aff>
+<aff id="Aff3">
+<label>3</label>
+<institution-wrap>
+<institution-id institution-id-type="ISNI">0000000121885934</institution-id>
+<institution-id institution-id-type="GRID">grid.5335.0</institution-id>
+<institution>
+Statistical Laboratory, Department of Pure Mathematics and Mathematical Statistics,
+</institution>
+<institution>University of Cambridge, </institution>
+</institution-wrap>
+Cambridge, CB3 0WB UK
+</aff>
+</contrib-group>
+<pub-date pub-type="epub">
+<day>21</day>
+<month>3</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="pmc-release">
+<day>21</day>
+<month>3</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>10</volume>
+<elocation-id>1220</elocation-id>
+<history>
+<date date-type="received">
+<day>24</day>
+<month>5</month>
+<year>2018</year>
+</date>
+<date date-type="accepted">
+<day>25</day>
+<month>2</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>© The Author(s) 2019</copyright-statement>
+<license license-type="OpenAccess">
+<license-p>
+<bold>Open Access</bold>
+This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>
+.
+</license-p>
+</license>
+</permissions>
+<abstract id="Abs1">
+<p id="Par1">
+Given the recent controversies in some neuroimaging statistical methods, we compare the most frequently used functional Magnetic Resonance Imaging (fMRI) analysis packages: AFNI, FSL and SPM, with regard to temporal autocorrelation modeling. This process, sometimes known as pre-whitening, is conducted in virtually all task fMRI studies. Here, we employ eleven datasets containing 980 scans corresponding to different fMRI protocols and subject populations. We found that autocorrelation modeling in AFNI, although imperfect, performed much better than the autocorrelation modeling of FSL and SPM. The presence of residual autocorrelated noise in FSL and SPM leads to heavily confounded first level results, particularly for low-frequency experimental designs. SPM’s alternative pre-whitening method, FAST, performed better than SPM’s default. The reliability of task fMRI studies could be improved with more accurate autocorrelation modeling. We recommend that fMRI analysis packages provide diagnostic plots to make users aware of any pre-whitening problems.
+</p>
+</abstract>
+<abstract id="Abs2" abstract-type="web-summary">
+<p id="Par2">
+There has been recent controversy over the validity of commonly-used software packages for functional MRI (fMRI) data analysis. Here, the authors compare the performance of three leading packages (AFNI, FSL, SPM) in terms of temporal autocorrelation modeling, a key statistical step in fMRI analysis.
+</p>
+</abstract>
+<custom-meta-group>
+<custom-meta>
+<meta-name>issue-copyright-statement</meta-name>
+<meta-value>© The Author(s) 2019</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="Sec1" sec-type="introduction">
+<title>Introduction</title>
+<p id="Par3">
+Functional magnetic resonance imaging (fMRI) data are known to be positively autocorrelated in time
+<sup>
+<xref ref-type="bibr" rid="CR1">1</xref>
+</sup>
+. It results from neural and hemodynamic sources, but also from scanner-induced low-frequency drifts, respiration, and cardiac pulsation, as well as from movement artifacts not accounted for by motion correction
+<sup>
+<xref ref-type="bibr" rid="CR2">2</xref>
+</sup>
+. If this autocorrelation is not accounted for, spuriously high fMRI signal at one time point can be prolonged to the subsequent time points, which increases the likelihood of obtaining false positives in task studies
+<sup>
+<xref ref-type="bibr" rid="CR3">3</xref>
+</sup>
+. As a result, parts of the brain might erroneously appear active during an experiment. The degree of temporal autocorrelation is different across the brain
+<sup>
+<xref ref-type="bibr" rid="CR4">4</xref>
+</sup>
+. In particular, autocorrelation in gray matter is stronger than in white matter and cerebrospinal fluid, but it also varies within gray matter.
+</p>
+<p id="Par4">
+AFNI
+<sup>
+<xref ref-type="bibr" rid="CR5">5</xref>
+</sup>
+, FSL
+<sup>
+<xref ref-type="bibr" rid="CR6">6</xref>
+</sup>
+, and SPM
+<sup>
+<xref ref-type="bibr" rid="CR7">7</xref>
+</sup>
+, the most popular packages used in fMRI research, first remove the signal at very low frequencies (for example using a high-pass filter), after which the residual temporal autocorrelation is estimated from the residuals of an initial Ordinary Least Squares (OLS) model and is removed in a process called pre-whitening. In AFNI temporal autocorrelation is modeled voxel-wise. For each voxel, an autoregressive-moving-average ARMA(1,1) model is estimated
+<sup>
+<xref ref-type="bibr" rid="CR8">8</xref>
+</sup>
+. The two ARMA(1,1) parameters are estimated only on a discrete grid and are not spatially smoothed. For FSL, a Tukey taper is used to smooth the spectral density estimates voxel-wise. These smoothed estimates are then additionally smoothed within tissue type. Woolrich et al.
+<sup>
+<xref ref-type="bibr" rid="CR9">9</xref>
+</sup>
+has shown the applicability of the FSL’s method in two fMRI protocols: with repetition time (TR) of 1.5 and of 3 s, and with voxel size 4 × 4 × 7 mm
+<sup>3</sup>
+. By default, SPM estimates temporal autocorrelation globally as an autoregressive AR(1) plus white noise process
+<sup>
+<xref ref-type="bibr" rid="CR10">10</xref>
+</sup>
+. SPM has an alternative approach: FAST, but we know of only three studies, which have used it
+<sup>
+<xref ref-type="bibr" rid="CR11">11</xref>
+–
+<xref ref-type="bibr" rid="CR13">13</xref>
+</sup>
+. FAST uses a dictionary of covariance components based on exponential covariance functions
+<sup>
+<xref ref-type="bibr" rid="CR13">13</xref>
+</sup>
+. More specifically, the dictionary is of length 3
+<italic>p</italic>
+and is composed of
+<italic>p</italic>
+different exponential time constants along their first and second derivatives. By default, FAST employs 18 components. Like SPM’s default pre-whitening method, FAST is based on a global noise model.
+</p>
+<p id="Par5">
+Lenoski et al.
+<sup>
+<xref ref-type="bibr" rid="CR14">14</xref>
+</sup>
+compared several fMRI autocorrelation modeling approaches for one fMRI protocol (TR = 3 s, voxel size 3.75 × 3.75 × 4 mm
+<sup>3</sup>
+). The authors found that the use of the global AR(1), of the spatially smoothed AR(1) and of the spatially smoothed FSL-like noise models resulted in worse whitening performance than the use of the non-spatially smoothed noise models. Eklund et al.
+<sup>
+<xref ref-type="bibr" rid="CR15">15</xref>
+</sup>
+showed that in SPM the shorter the TR, the more likely it is to get false positive results in first-level (also known as single subject) analyses. It was argued that SPM often does not remove a substantial part of the autocorrelated noise. The relationship between shorter TR and increased false positive rates was also shown for the case when autocorrelation is not accounted
+<sup>
+<xref ref-type="bibr" rid="CR3">3</xref>
+</sup>
+.
+</p>
+<p id="Par6">
+In this study we investigate the whitening performance of AFNI, FSL, and SPM for a wide variety of fMRI blood-oxygen-level-dependent protocols. We analyze both the default SPM’s method and the alternative one: FAST. Furthermore, we analyze the resulting specificity-sensitivity trade-offs in first-level fMRI results, and investigate the impact of pre-whitening on second-level analyses. We observe better whitening performance for AFNI and SPM tested with option FAST than for FSL and SPM. Imperfect pre-whitening heavily confounds first-level analyses.
+</p>
+</sec>
+<sec id="Sec2" sec-type="results">
+<title>Results</title>
+<sec id="Sec3">
+<title>Whitening performance of AFNI, FSL, and SPM</title>
+<p id="Par7">
+To investigate the whitening performance resulting from the use of noise models in AFNI, FSL, and SPM, we plotted the power spectra of the general linear model (GLM) residuals. Figure 
+<xref rid="Fig1" ref-type="fig">1</xref>
+shows the power spectra averaged across all brain voxels and subjects for smoothing of 8 mm and assumed boxcar design of 10 s of rest followed by 10 s of stimulus presentation. The statistical inference in AFNI, FSL, and SPM relies on the assumption that the residuals after pre-whitening are white. For white residuals, the power spectra should be flat. However, for all the datasets and all the packages, there was some visible structure. The strongest artifacts were visible for FSL and SPM at low frequencies. At high frequencies, power spectra from FAST were closer to 1 than power spectra from the other methods. Figure 
+<xref rid="Fig1" ref-type="fig">1</xref>
+does not show respiratory spikes, which one could expect to see. This is because the figure refers to averages across subjects. We observed respiratory spikes when analyzing power spectra for single subjects (not shown).
+<fig id="Fig1">
+<label>Fig. 1</label>
+<caption>
+<p>
+Power spectra of the GLM residuals in native space averaged across brain voxels and across subjects for the assumed boxcar design of 10 s of rest followed by 10 s of stimulus presentation (boxcar10). The dips at 0.05 Hz are due to the assumed design period being 20 s (10 s + 10 s). For some datasets, the dip is not seen as the assumed design frequency was not covered by any of the sampled frequencies. The frequencies on the
+<italic>x</italic>
+-axis go up to the Nyquist frequency, which is 0.5/repetition time. If after pre-whitening the residuals were white (as it is assumed), the power spectra would be flat. AFNI and SPM’s alternative method: FAST, led to best whitening performance (most flat spectra). For FSL and SPM, there was substantial autocorrelated noise left after pre-whitening, particularly at low frequencies
+</p>
+</caption>
+<graphic xlink:href="41467_2019_9230_Fig1_HTML" id="d29e379"/>
+</fig>
+</p>
+</sec>
+<sec id="Sec4">
+<title>Resulting specificity-sensitivity trade-offs</title>
+<p id="Par8">
+In order to investigate the impact of the whitening performance on first-level results, we analyzed the spatial distribution of significant clusters in AFNI, FSL, and SPM. Figure 
+<xref rid="Fig2" ref-type="fig">2</xref>
+shows an exemplary axial slice in the Montreal Neurological Institute (MNI) space for 8 mm smoothing. It was made through the imposition of subjects’ binarized significance masks on each other. Scale refers to the percentage of subjects within a dataset where significant activation was detected at the given voxel. The
+<italic>x</italic>
+-axis corresponds to four assumed designs. Resting state data were used as null data. Thus, low numbers of significant voxels were a desirable outcome, as this was suggesting high specificity. Task data with assumed wrong designs were used as null data too. Thus, clear differences between the true design (indicated with red boxes) and the wrong designs were a desirable outcome. For FSL and SPM, often the relationship between lower assumed design frequency (boxcar40 vs. boxcar12) and an increased number of significant voxels was visible, in particular for the resting state datasets: “FCP Beijing”, “FCP Cambridge”, and “Cambridge Research into Impaired Consciousness (CRIC)”. For null data, significant clusters in AFNI were scattered primarily within gray matter. For FSL and SPM, many significant clusters were found in the posterior cingulate cortex, while most of the remaining significant clusters were scattered within gray matter across the brain. False positives in gray matter occur due to the stronger positive autocorrelation in this tissue type compared to white matter
+<sup>
+<xref ref-type="bibr" rid="CR4">4</xref>
+</sup>
+. For the task datasets: “NKI checkerboard TR = 1.4 s”, “NKI checkerboard TR = 0.645 s”, “BMMR checkerboard”, and “CRIC checkerboard” tested with the true designs, the majority of significant clusters were located in the visual cortex. This resulted from the use of visual experimental designs for the fMRI task. For the impaired consciousness patients (CRIC), the registrations to MNI space were imperfect, as the brains were often deformed.
+<fig id="Fig2">
+<label>Fig. 2</label>
+<caption>
+<p>
+Spatial distribution of significant clusters in AFNI (left), FSL (middle), and SPM (right) for different assumed experimental designs. Scale refers to the percentage of subjects where significant activation was detected at the given voxel. The red boxes indicate the true designs (for task data). Resting state data were used as null data. Thus, low numbers of significant voxels were a desirable outcome, as it was suggesting high specificity. Task data with assumed wrong designs were used as null data too. Thus, large positive differences between the true design and the wrong designs were a desirable outcome. The clearest cut between the true and the wrong/dummy designs was obtained with AFNI’s noise model. FAST performed similarly to AFNI’s noise model (not shown)
+</p>
+</caption>
+<graphic xlink:href="41467_2019_9230_Fig2_HTML" id="d29e403"/>
+</fig>
+</p>
+</sec>
+<sec id="Sec5">
+<title>Additional comparison approaches</title>
+<p id="Par9">
+The above analysis referred to the spatial distribution of significant clusters on an exemplary axial slice. As the results can be confounded by the comparison approach, we additionally investigated two other comparison approaches: the percentage of significant voxels and the positive rate. Supplementary Fig. 
+<xref rid="MOESM1" ref-type="media">1</xref>
+shows the average percentage of significant voxels across subjects in 10 datasets for smoothing of 8 mm and for 16 assumed boxcar experimental designs. As more designs were considered, the relationship between lower assumed design frequency and an increased percentage of significant voxels in FSL and SPM (discussed before for Fig. 
+<xref rid="Fig2" ref-type="fig">2</xref>
+) was even more apparent. This relationship was particularly interesting for the “CRIC checkerboard” dataset. When tested with the true design, the percentage of significant voxels for AFNI, FSL, SPM, and FAST was similar: 1.2, 1.2, 1.5, and 1.3%, respectively. However, AFNI and FAST returned much lower percentages of significant voxels for the assumed wrong designs. For the assumed wrong design “40”, FSL and SPM returned on average a higher percentage of significant voxels than for the true design: 1.4 and 2.2%, respectively. Results for AFNI and FAST for the same design showed only 0.3 and 0.4% of significantly active voxels.
+</p>
+<p id="Par10">
+Overall, at an 8 mm smoothing level, AFNI and FAST outperformed FSL and SPM showing a lower average percentage of significant voxels in tests with the wrong designs: on average across 10 datasets and across the wrong designs, the average percentage of significant voxels was 0.4% for AFNI, 0.9% for FSL, 1.9% for SPM, and 0.4% for FAST.
+</p>
+<p id="Par11">
+As multiple comparison correction depends on the smoothness level of the residual maps, we also checked the corresponding differences between AFNI, FSL, and SPM. The residual maps seemed to be similarly smooth. At an 8 mm smoothing level, the average geometric mean of the estimated full width at half maxima of the Gaussian distribution in
+<italic>x</italic>
+-,
+<italic>y</italic>
+-, and
+<italic>z</italic>
+-dimensions across the 10 datasets and across the 16 assumed designs was 10.9 mm for AFNI, 10.3 mm for FSL, 12.0 mm for SPM, and 11.8 mm for FAST. Moreover, we investigated the percentage of voxels with
+<italic>z</italic>
+-statistic above 3.09. This value is the 99.9% quantile of the standard normal distribution and is often used as the cluster defining threshold. For null data, this percentage should be 0.1%. The average percentage across the 10 datasets and across the wrong designs was 0.6% for AFNI, 1.2% for FSL, 2.1% for SPM, and 0.4% for FAST.
+</p>
+<p id="Par12">
+Supplementary Figs. 
+<xref rid="MOESM1" ref-type="media">2</xref>
+,
+<xref rid="MOESM1" ref-type="media">3</xref>
+show the positive rate for smoothing of 4 and 8 mm. The general patterns resemble those already discussed for the percentage of significant voxels, with AFNI and FAST consistently returning lowest positive rates (familywise error rates, FWER) for resting state scans and task scans tested with wrong designs. For task scans tested with the true designs, the positive rates for the different pre-whitening methods were similar. The black horizontal lines show the 5% false positive rate, which is the expected proportion of scans with at least one significant cluster if in reality there was no experimentally induced signal in any of the subjects’ brains. The dashed horizontal lines are the confidence intervals for the proportion of false positives. These were calculated knowing that variance of a Bernoulli(
+<italic>p</italic>
+) distributed random variable is
+<italic>p</italic>
+(1 − 
+<italic>p</italic>
+). Thus, the confidence intervals were
+<inline-formula id="IEq1">
+<alternatives>
+<tex-math id="M1">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$0.05 \pm \sqrt {0.05 \cdot 0.95/n}$$\end{document}
+</tex-math>
+<mml:math id="M2">
+<mml:mn>0.05</mml:mn>
+<mml:mo>±</mml:mo>
+<mml:msqrt>
+<mml:mn>0.05</mml:mn>
+<mml:mo>⋅</mml:mo>
+<mml:mn>0.95</mml:mn>
+<mml:mo>∕</mml:mo>
+<mml:mi>n</mml:mi>
+</mml:msqrt>
+</mml:math>
+<inline-graphic xlink:href="41467_2019_9230_Article_IEq1.gif"/>
+</alternatives>
+</inline-formula>
+, with
+<italic>n</italic>
+denoting the number of subjects in the dataset.
+</p>
+<p id="Par13">
+Since smoothing implicitly affects the voxel size, we considered different smoothing kernel sizes. We chose 4, 5, and 8 mm, as these are the defaults in AFNI, FSL, and SPM. No smoothing was also considered, as for 7T data this preprocessing step is sometimes avoided
+<sup>
+<xref ref-type="bibr" rid="CR16">16</xref>
+,
+<xref ref-type="bibr" rid="CR17">17</xref>
+</sup>
+. With a wider smoothing kernel, the percentage of significant voxels increased (not shown), while the positive rate decreased (Supplementary Figs. 
+<xref rid="MOESM1" ref-type="media">2</xref>
+,
+<xref rid="MOESM1" ref-type="media">3</xref>
+). Differences between AFNI, FSL, SPM, and FAST discussed above for the four comparison approaches and smoothing of 8 mm were consistent across the four smoothing levels.
+</p>
+<p id="Par14">
+Further results are available from
+<ext-link ext-link-type="uri" xlink:href="https://github.com/wiktorolszowy/fMRI_temporal_autocorrelation/tree/master/figures">
+https://github.com/wiktorolszowy/fMRI_temporal_autocorrelation/tree/master/figures
+</ext-link>
+</p>
+</sec>
+<sec id="Sec6">
+<title>Event-related design studies</title>
+<p id="Par15">
+In order to check if differences in autocorrelation modeling in AFNI, FSL, and SPM lead to different first-level results for event-related design studies, we analyzed the CamCAN dataset. The task was a sensorimotor one with visual and audio stimuli, to which the participants responded by pressing a button. The design was based on an m-sequence
+<sup>
+<xref ref-type="bibr" rid="CR18">18</xref>
+</sup>
+. Supplementary Fig. 
+<xref rid="MOESM1" ref-type="media">4</xref>
+shows (1) power spectra of the GLM residuals in native space averaged across brain voxels and across subjects for the assumed true design (E1), (2) average percentage of significant voxels for three wrong designs and the true design, (3) positive rate for the same four designs, and (4) spatial distribution of significant clusters for the assumed true design (E1). Only smoothing of 8 mm was considered. The dummy event-related design (E2) consisted of relative stimulus onset times generated from a uniform distribution with limits 3 and 6 s. The stimulus duration times were 0.1 s.
+</p>
+<p id="Par16">
+For the assumed low-frequency design (B2), AFNI’s autocorrelation modeling led to the lowest familywise error rate as residuals from FSL and SPM again showed a lot of signal at low frequencies. However, residuals from SPM tested with option FAST were similar at low frequencies to AFNI’s residuals. As a result, the familywise error rate was similar to AFNI. For high frequencies, power spectra from SPM tested with option FAST were more closely around 1 than power spectra corresponding to the standard three approaches (AFNI/FSL/SPM). For an event-related design with very short stimulus duration times (around zero), residual positive autocorrelation at high frequencies makes it difficult to distinguish the activation blocks from the rest blocks, as part of the experimentally induced signal is in the assumed rest blocks. This is what happened with AFNI and SPM. As their power spectra at high frequencies were above 1, we observed for the true design a lower percentage of significant voxels compared to SPM tested with option FAST. On the other hand, FSL’s power spectra at high frequencies were below 1. As a result, FSL decorrelated activation blocks from rest blocks possibly introducing negative autocorrelations at high frequencies, leading to a higher percentage of significant voxels than SPM tested with option FAST. Though we do not know the ground truth, we might expect that AFNI and SPM led for this event-related design dataset to more false negatives than SPM with option FAST, while FSL led to more false positives. Alternatively, FSL might have increased the statistic values above their nominal values for the truly but little active voxels.
+</p>
+</sec>
+<sec id="Sec7">
+<title>Slice timing correction</title>
+<p id="Par17">
+As slice timing correction is an established preprocessing step, which often increases sensitivity
+<sup>
+<xref ref-type="bibr" rid="CR19">19</xref>
+</sup>
+, we analyzed its impact on pre-whitening for two datasets for which we knew the acquisition order: “CRIC checkerboard” and “CamCAN sensorimotor”. “CRIC checkerboard” scans were acquired with an interleave acquisition starting with the second axial slice from the bottom (followed with fourth slice, etc.), while “CamCAN sensorimotor” scans were acquired with a descending acquisition with the most upper axial slice being scanned first. We considered only the true designs. For the two datasets and for the four pre-whitening methods, slice timing correction changed the power spectra of the GLM residuals in a very limited way (Supplementary Fig. 
+<xref rid="MOESM1" ref-type="media">5</xref>
+). Regardless of whether slice timing correction was performed or not, pre-whitening approaches from FSL and SPM left substantial positive autocorrelated noise at low frequencies, while FAST led to even more flat power spectra than AFNI. We also investigated the average percentage of significant voxels (Supplementary Table 
+<xref rid="MOESM1" ref-type="media">1</xref>
+). Slice timing correction changed the amount of significant activation only negligibly, with the exception of AFNI’s pre-whitening in the “CamCAN sensorimotor” scans. In the latter case, the apparent sensitivity increase (from 7.64 to 13.45% of the brain covered by significant clusters) was accompanied by power spectra of the GLM residuals falling below 1 for the highest frequencies. This suggests negative autocorrelations were introduced at these frequencies, which could have led to statistic values being on average above their nominal values.
+</p>
+</sec>
+<sec id="Sec8">
+<title>Group studies</title>
+<p id="Par18">
+To investigate the impact of pre-whitening on the group level, we performed via SPM summary statistic analyses, and via AFNI’s 3dMEMA
+<sup>
+<xref ref-type="bibr" rid="CR8">8</xref>
+</sup>
+we performed mixed effects analyses. To be consistent with a previous study on group analyses
+<sup>
+<xref ref-type="bibr" rid="CR20">20</xref>
+</sup>
+, we considered one-sample
+<italic>t</italic>
+-test with sample size 20. For each dataset, we considered the first 20 subjects. We exported coefficient maps and
+<italic>t</italic>
+-statistic maps (from which standard errors can be derived) following 8 mm spatial smoothing and pre-whitening from AFNI, FSL, SPM, and FAST. Both for the summary statistic analyses and for the mixed effects analyses, we employed cluster inference with cluster defining threshold of 0.001 and significance level of 5%. Altogether, we performed 1312 group analyses: 2 (for summary statistic/mixed) × 4 (for pre-whitening) × (10 × 16 + 4) (for the first 10 datasets tested with 16 boxcar designs each and for the eleventh dataset tested with four designs). We found significant activation for 236 analyses, which we listed in 
+<xref rid="MOESM2" ref-type="media">Supplementary Data</xref>
+.
+</p>
+<p id="Par19">
+For each combination of group analysis model and pre-whitening (2 × 4), we ran 164 analyses. As five datasets were task datasets, 159 analyses ran on null data. Supplementary Table 
+<xref rid="MOESM1" ref-type="media">2</xref>
+shows FWER for the summary statistic and mixed effects null data analyses, and for the four pre-whitening approaches. On average, FWER for the mixed effects analyses was almost twice higher than FWER for the summary statistic analyses. The use of AFNI’s pre-whitening led to highest FWER, while FAST led to lower FWER than the SPM’s default approach.
+</p>
+<p id="Par20">
+Figure 
+<xref rid="Fig3" ref-type="fig">3</xref>
+shows the percentage of significant voxels for four task datasets with assumed true designs. Results for the “CRIC checkerboard” dataset are not shown, as no significant clusters were found at the group level. This occurred due to several of the subjects having deformed brains, which led to the group brain mask not covering the primary visual cortex. For the “BMMR checkerboard” dataset, the brain mask was limited mainly to the occipital lobe and the percentage relates to the field of view that was used. Both for the summary statistic analyses and for the mixed effects analyses, we observed little effect of pre-whitening. For task data tested with true designs, we found only negligible differences between the summary statistic analyses and the mixed effects analyses.
+<fig id="Fig3">
+<label>Fig. 3</label>
+<caption>
+<p>
+Group results for four task datasets with assumed true designs. Summary statistic analyses and mixed effects analyses led to only negligibly different percentages of significant voxels
+</p>
+</caption>
+<graphic xlink:href="41467_2019_9230_Fig3_HTML" id="d29e565"/>
+</fig>
+</p>
+<p id="Par21">
+Noteworthily, for the event-related task dataset “CamCAN sensorimotor” tested with the true design, the use of FAST led to slightly higher amount of significant activation compared to the default SPM’s method, while FSL led to much higher amount of significant activation. This means that for this event-related design dataset, the sensitivity differences from the first-level analyses propagated to the second level. This happened both for the summary statistic model and for the mixed effects model.
+</p>
+</sec>
+</sec>
+<sec id="Sec9" sec-type="discussion">
+<title>Discussion</title>
+<p id="Par22">
+In the case of FSL and SPM for the datasets “FCP Beijing”, “FCP Cambridge”, “CRIC RS”, and “CRIC checkerboard”, there was a clear relationship between lower assumed design frequency and an increased percentage of significant voxels. This relationship exists when positive autocorrelation is not removed from the data
+<sup>
+<xref ref-type="bibr" rid="CR3">3</xref>
+</sup>
+. Autocorrelated processes show increasing variances at lower frequencies. Thus, when the frequency of the assumed design decreases, the mismatch between the true autocorrelated residual variance and the incorrectly estimated white noise variance grows. In this mismatch, the variance is underestimated, which results in a larger number of false positives.
+</p>
+<p id="Par23">
+An interesting case was the checkerboard experiment conducted with impaired consciousness patients, where FSL and SPM found a higher percentage of significant voxels for the design with the assumed lowest design frequency than for the true design. As this subject population was unusual, one might suspect weaker or inconsistent response to the stimulus. However, positive rates for this experiment for the true design were all around 50%, substantially above other assumed designs.
+</p>
+<p id="Par24">
+Compared to FSL and SPM, the use of AFNI’s and FAST noise models for task datasets resulted in larger differences between the true design and the wrong designs in the first-level results. This occurred because of more accurate autocorrelation modeling in AFNI and in FAST. In our analyses, FSL and SPM left a substantial part of the autocorrelated noise in the data and the statistics were biased. For none of the pre-whitening approaches were the positive rates around 5%, which was the significance level used in the cluster inference. This is likely due to imperfect cluster inference in FSL. High familywise error rates in first-level FSL analyses were already reported
+<sup>
+<xref ref-type="bibr" rid="CR21">21</xref>
+</sup>
+. In our study the familywise error rate following the use of AFNI’s and FAST noise models was consistently lower than the familywise error rate following the use of FSL’s and SPM’s noise models. Opposed to the average percentage of significant voxels, high familywise error rate directly points to problems in the modeling of many subjects.
+</p>
+<p id="Par25">
+The highly significant responses for the Nathan Kline Institute (NKI) datasets are in line with previous findings
+<sup>
+<xref ref-type="bibr" rid="CR15">15</xref>
+</sup>
+, where it was shown that for fMRI scans with short TR it is more likely to detect significant activation. The NKI scans that we considered had TR of 0.645 and 1.4 s, in both cases much shorter than the usual TRs. Such short TRs are now possible due to multiband sequences
+<sup>
+<xref ref-type="bibr" rid="CR22">22</xref>
+</sup>
+. The shorter the TR the higher the correlations between adjacent time points
+<sup>
+<xref ref-type="bibr" rid="CR3">3</xref>
+</sup>
+. If positive autocorrelation in the data is higher than the estimated level, then false positive rates will increase. The former study
+<sup>
+<xref ref-type="bibr" rid="CR15">15</xref>
+</sup>
+only referred to SPM. In addition to the previous study, we observed that the familywise error rate for short TRs was substantially lower in FSL than in SPM, though still much higher than for resting state scans at TR = 2 s (“FCP Beijing” and “CRIC RS”). FSL models autocorrelation more flexibly than SPM, which seems to be confirmed by our study. For short TRs, AFNI’s performance deteriorated too, as autocorrelation spans much more than one TR and an ARMA(1,1) noise model can only partially capture it.
+</p>
+<p id="Par26">
+Apart from the different TRs, we analyzed the impact of spatial smoothing. If more smoothing is applied, the signal from gray matter will be often mixed with the signal from white matter. As autocorrelation in white matter is lower than in gray matter
+<sup>
+<xref ref-type="bibr" rid="CR4">4</xref>
+</sup>
+, autocorrelation in a primarily gray matter voxel will likely decrease following stronger smoothing. The observed relationships of the percentage of significant voxels and of the positive rate from the smoothing level can be surprising, as random field theory is believed to account for different levels of data smoothness. The relationship for the positive rate (familywise error rate) was already known
+<sup>
+<xref ref-type="bibr" rid="CR15">15</xref>
+,
+<xref ref-type="bibr" rid="CR21">21</xref>
+</sup>
+. The impact of smoothing and spatial resolution was investigated in a number of previous studies
+<sup>
+<xref ref-type="bibr" rid="CR23">23</xref>
+–
+<xref ref-type="bibr" rid="CR25">25</xref>
+</sup>
+. We considered smoothing only as a confounder. Importantly, for all four levels of smoothing, AFNI and FAST outperformed FSL and SPM.
+</p>
+<p id="Par27">
+Our results confirm Lenoski et al.
+<sup>
+<xref ref-type="bibr" rid="CR14">14</xref>
+</sup>
+, insofar as our study also showed problems with SPM’s default pre-whitening. Interestingly, Eklund et al.
+<sup>
+<xref ref-type="bibr" rid="CR21">21</xref>
+</sup>
+already compared AFNI, FSL, and SPM in the context of first-level fMRI analyses. AFNI resulted in substantially lower false positive rates than FSL and slightly lower false positive rates than SPM. We also observed lowest false positive rates for AFNI. Opposed to that study
+<sup>
+<xref ref-type="bibr" rid="CR21">21</xref>
+</sup>
+, which compared the packages in their entirety, we compared the packages only with regard to pre-whitening. It is possible that pre-whitening is the most crucial single difference between AFNI, FSL, and SPM, and that the relationships described by Eklund et al.
+<sup>
+<xref ref-type="bibr" rid="CR21">21</xref>
+</sup>
+would look completely different if AFNI, FSL, and SPM employed the same pre-whitening. For one dataset, Eklund et al.
+<sup>
+<xref ref-type="bibr" rid="CR21">21</xref>
+</sup>
+also observed that SPM led to worst whitening performance.
+</p>
+<p id="Par28">
+The differences in first-level results between AFNI, FSL, and SPM, which we found could have been smaller if physiological recordings had been modeled. The modeling of physiological noise is known to improve whitening performance, particularly for short TRs
+<sup>
+<xref ref-type="bibr" rid="CR2">2</xref>
+,
+<xref ref-type="bibr" rid="CR12">12</xref>
+,
+<xref ref-type="bibr" rid="CR13">13</xref>
+</sup>
+. Unfortunately, cardiac and respiratory signals are not always acquired in fMRI studies. Even less often are the physiological recordings incorporated to the analysis pipeline. Interestingly, a recent report suggested that the FSL’s tool ICA FIX applied to task data can successfully remove most of the physiological noise
+<sup>
+<xref ref-type="bibr" rid="CR26">26</xref>
+</sup>
+. This was shown to lower the familywise error rate at the group level compared to previous findings
+<sup>
+<xref ref-type="bibr" rid="CR20">20</xref>
+</sup>
+. Such an approach corresponds to more accurate pre-whitening. However, in our analyses the different pre-whitening methods affected the group level analyses only in a very negligible way. While Eklund et al.
+<sup>
+<xref ref-type="bibr" rid="CR20">20</xref>
+</sup>
+found that group-level analyses are strongly confounded by spatial autocorrelation modeling, we found that single subject analyses were strongly confounded by the pre-whitening accuracy.
+</p>
+<p id="Par29">
+In our main analysis pipeline we did not perform slice timing correction. For two datasets, we additionally considered slice timing correction and observed very similar first-level results compared to the case without slice timing correction. The observed little effect of slice timing correction is likely a result of the temporal derivative being modeled within the GLM framework. This way a large part of the slice timing variation might have been captured without specifying the exact slice timing. For the only case where slice timing correction led to noticeably higher amount of significant activation, we observed negative autocorrelations at high frequencies in the GLM residuals. If one did not see the power spectra of the GLM residuals, slice timing correction in this case could be thought to directly increase sensitivity, while in fact pre-whitening confounded the comparison.
+</p>
+<p id="Par30">
+FSL is the only package with a benchmarking paper of its pre-whitening approach
+<sup>
+<xref ref-type="bibr" rid="CR9">9</xref>
+</sup>
+. The study employed data corresponding to two fMRI protocols. For one protocol TR was 1.5 s, while for the other protocol TR was 3 s. For both protocols, the voxel size was 4 × 4 × 7 mm
+<sup>3</sup>
+. These were large voxels. We suspect that the FSL’s pre-whitening approach could have been overfitted to this data. Regarding SPM, pre-whitening with simple global noise models was found to result in profound bias in at least two previous studies
+<sup>
+<xref ref-type="bibr" rid="CR14">14</xref>
+,
+<xref ref-type="bibr" rid="CR27">27</xref>
+</sup>
+. SPM’s default is a simple global noise model. However, SPM’s problems could be partially related to the estimation procedure. First, the estimation is approximative as it uses a Taylor expansion
+<sup>
+<xref ref-type="bibr" rid="CR10">10</xref>
+</sup>
+. Second, the estimation is based on a subset of the voxels. Only voxels with
+<italic>p</italic>
+  0.001 following inference with no pre-whitening are selected. This means that the estimation strongly depends both on the TR and on the experimental design
+<sup>
+<xref ref-type="bibr" rid="CR3">3</xref>
+</sup>
+.
+</p>
+<p id="Par31">
+If the second-level analysis is performed with a summary statistic model, the standard error maps are not used. Thus, standard models like the summary statistic approach in SPM should not be affected by imperfect pre-whitening
+<sup>
+<xref ref-type="bibr" rid="CR28">28</xref>
+</sup>
+. On the other hand, residual positive autocorrelated noise decreases the signal differences between the activation blocks and the rest blocks. This is relevant for event-related designs. Bias from confounded coefficient maps can be expected to propagate to the group level. We showed that pre-whitening indeed confounds group analyses performed with a summary statistic model. However, more relevant is the case of mixed effects analyses, for example when using 3dMEMA in AFNI
+<sup>
+<xref ref-type="bibr" rid="CR8">8</xref>
+</sup>
+or FLAME in FSL
+<sup>
+<xref ref-type="bibr" rid="CR29">29</xref>
+</sup>
+. These approaches additionally employ standard error maps, which are directly confounded by imperfect pre-whitening. Bias in mixed effects fMRI analyses resulting from non-white noise at the first level was already reported
+<sup>
+<xref ref-type="bibr" rid="CR30">30</xref>
+</sup>
+. Surprisingly, we did not observe pre-whitening-induced specificity problems for analyses using 3dMEMA, including for very short TRs. Importantly, this means that imperfect pre-whitening does not meaningfully affect group results when using 3dMEMA. It indicates that the between-subject variability in the considered datasets was negligible compared to the within-subject variability, and that 3dMEMA operates on the ratio of the within-subject variability to the between-subject variability rather than on the absolute variability values.
+</p>
+<p id="Par32">
+For task datasets tested with true designs, the results from summary statistic analyses differed very little compared to 3dMEMA results. FLAME was also shown to have similar sensitivity compared to summary statistic analyses
+<sup>
+<xref ref-type="bibr" rid="CR31">31</xref>
+</sup>
+. However, mixed effects models should be more optimal than summary statistic models as they employ more information. Although group analysis modeling in task fMRI studies needs to be investigated further, it is beyond the scope of this paper. As mixed effects models employ standard error maps, bias in them should be avoided.
+</p>
+<p id="Par33">
+Problematically, for resting state data treated as task data, it is possible to observe activation both in the posterior cingulate cortex and in the frontal cortex, since these regions belong to the default mode network
+<sup>
+<xref ref-type="bibr" rid="CR32">32</xref>
+</sup>
+. In fact, in Supplementary Fig. 18 in Eklund et al.
+<sup>
+<xref ref-type="bibr" rid="CR20">20</xref>
+</sup>
+the spatial distribution plots of significant clusters indicate that the significant clusters appeared mainly in the posterior cingulate cortex, even though the assumed design for that analysis was a randomized event-related design. The rest activity in these regions can occur at different frequencies and can underlie different patterns
+<sup>
+<xref ref-type="bibr" rid="CR33">33</xref>
+</sup>
+. Thus, resting state data are not perfect null data for task fMRI analyses, especially if one uses an approach where a subject with one small cluster in the posterior cingulate cortex enters an analysis with the same weight as a subject with a number of large clusters spread throughout the entire brain. Task fMRI data are not perfect null data either, as an assumed wrong design might be confounded by the underlying true design. For simulated data, a consensus is needed how to model autocorrelation, spatial dependencies, physiological noise, scanner-dependent low-frequency drifts, and head motion. Some of the current simulation toolboxes
+<sup>
+<xref ref-type="bibr" rid="CR34">34</xref>
+</sup>
+enable the modeling of all these aspects of fMRI data, but as the later analyses might heavily depend on the specific choice of parameters, more work is needed to understand how the different sources of noise influence each other. In our study, results for simulated resting state data were substantially different compared to acquired real resting state scans. In particular, the percentage of significant voxels for the simulated data was much lower, indicating that the simulated data did not appropriately correspond to the underlying brain physiology. Considering resting state data where the posterior cingulate cortex and the frontal cortex are masked out could be an alternative null. Because there is no perfect fMRI null data, we used both resting state data with assumed dummy designs and task data with assumed wrong designs. Results for both approaches coincided.
+</p>
+<p id="Par34">
+Unfortunately, although the vast majority of task fMRI analyses is conducted with linear regression, the popular analysis packages do not provide diagnostic plots. For old versions of SPM, the external toolbox SPMd generated them
+<sup>
+<xref ref-type="bibr" rid="CR35">35</xref>
+</sup>
+. It provided a lot of information, which paradoxically could have limited its popularity. We believe that task fMRI analyses would strongly benefit if AFNI, FSL, and SPM provided some basic diagnostic plots. This way the investigator would be aware, for example, of residual autocorrelated noise in the GLM residuals. We provide a simple MATLAB tool (GitHub: plot_power_spectra_of_GLM_residuals.m) for the fMRI researchers to check if their analyses might be affected by imperfect pre-whitening.
+</p>
+<p id="Par35">
+To conclude, we showed that AFNI and SPM tested with option FAST had the best whitening performance, followed by FSL and SPM. Pre-whitening in FSL and SPM left substantial residual autocorrelated noise in the data, primarily at low frequencies. Though the problems were most severe for short TRs, different fMRI protocols were affected. We showed that the residual autocorrelated noise led to heavily confounded first level results. Low-frequency boxcar designs were affected the most. Due to better whitening performance, it was much easier to distinguish the assumed true experimental design from the assumed wrong experimental designs with AFNI and FAST than with FSL and SPM. This suggests superior specificity-sensitivity trade-off resulting from the use of AFNI’s and FAST noise models. False negatives can occur when the design is event-related and there is residual positive autocorrelated noise at high frequencies. In our analyses, such false negatives propagated to the group level both when using a summary statistic model and a mixed effects model, although only to a small extent. Surprisingly, pre-whitening-induced false positives did not propagate to the group level when using the mixed effects model 3dMEMA. Our results suggest that 3dMEMA makes very little use of the standard error maps and does not differ much from the SPM’s summary statistic model.
+</p>
+<p id="Par36">
+Results derived from FSL could be made more robust if a different autocorrelation model was applied. However, currently, there is no alternative pre-whitening approach in FSL. For SPM, our findings support more widespread use of the FAST method.
+</p>
+</sec>
+<sec id="Sec10">
+<title>Methods</title>
+<sec id="Sec11">
+<title>Data</title>
+<p id="Par37">
+In order to explore a range of parameters that may affect autocorrelation, we investigated 11 fMRI datasets (Table 
+<xref rid="Tab1" ref-type="table">1</xref>
+). These included resting state and task studies, healthy subjects and a patient population, different TRs, magnetic field strengths, and voxel sizes. We also used anatomical MRI scans, as they were needed for the registration of brains to the MNI atlas space. Functional Connectomes Project (FCP)
+<sup>
+<xref ref-type="bibr" rid="CR36">36</xref>
+</sup>
+, NKI
+<sup>
+<xref ref-type="bibr" rid="CR37">37</xref>
+</sup>
+, and CamCAN data
+<sup>
+<xref ref-type="bibr" rid="CR38">38</xref>
+</sup>
+are publicly shared anonymized data. Data collection at the respective sites was subject to their local institutional review boards (IRBs), who approved the experiments and the dissemination of the anonymized data. For the 1000 FCP, collection of the Beijing data was approved by the IRB of State Key Laboratory for Cognitive Neuroscience and Learning, Beijing Normal University; collection of the Cambridge data was approved by the Massachusetts General Hospital partners' IRB. For the Enhanced NKI Rockland Sample, collection and dissemination of the data were approved by the NYU School of Medicine IRB. For the analysis of an event-related design dataset, we used the CamCAN dataset (Cambridge Centre for Ageing and Neuroscience,
+<ext-link ext-link-type="uri" xlink:href="http://www.cam-can.org">www.cam-can.org</ext-link>
+). Ethical approval for the study was obtained from the Cambridgeshire 2 (now East of England - Cambridge Central) Research Ethics Committee. The study from Magdeburg, “BMMR checkerboard”
+<sup>
+<xref ref-type="bibr" rid="CR39">39</xref>
+</sup>
+, was approved by the IRB of the Otto von Guericke University. The study of CRIC was approved by the Cambridge Local Research Ethics Committee (99/391). In all studies all subjects or their consultees gave informed written consent after the experimental procedures were explained. One rest dataset consisted of simulated data generated with the neuRosim package in R
+<sup>
+<xref ref-type="bibr" rid="CR40">40</xref>
+</sup>
+. Simulation details can be found in 
+<xref rid="MOESM1" ref-type="media">Supplementary Information</xref>
+.
+<table-wrap id="Tab1">
+<label>Table 1</label>
+<caption>
+<p>Overview of the employed datasets</p>
+</caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th>Study</th>
+<th>Experiment</th>
+<th>Place</th>
+<th>Design</th>
+<th>No. subjects</th>
+<th>Field [T]</th>
+<th>TR [s]</th>
+<th>Voxel size [mm]</th>
+<th>No. voxels</th>
+<th>Time points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">FCP</td>
+<td>Resting state</td>
+<td>Beijing</td>
+<td>N/A</td>
+<td>198</td>
+<td>3</td>
+<td>2</td>
+<td>3.1 × 3.1 × 3.6</td>
+<td>64 × 64 × 33</td>
+<td>225</td>
+</tr>
+<tr>
+<td>Resting state</td>
+<td>Cambridge, US</td>
+<td>N/A</td>
+<td>198</td>
+<td>3</td>
+<td>3</td>
+<td>3 × 3 × 3</td>
+<td>72 × 72 × 47</td>
+<td>119</td>
+</tr>
+<tr>
+<td rowspan="2">NKI</td>
+<td>Resting state</td>
+<td>Orangeburg, US</td>
+<td>N/A</td>
+<td>30</td>
+<td>3</td>
+<td>1.4</td>
+<td>2 × 2 × 2</td>
+<td>112 × 112 × 64</td>
+<td>404</td>
+</tr>
+<tr>
+<td>Resting state</td>
+<td>Orangeburg, US</td>
+<td>N/A</td>
+<td>30</td>
+<td>3</td>
+<td>0.645</td>
+<td>3 × 3 × 3</td>
+<td>74 × 74 × 40</td>
+<td>900</td>
+</tr>
+<tr>
+<td>CRIC</td>
+<td>Resting state</td>
+<td>Cambridge, UK</td>
+<td>N/A</td>
+<td>73</td>
+<td>3</td>
+<td>2</td>
+<td>3 × 3 × 3.8</td>
+<td>64 × 64 × 32</td>
+<td>300</td>
+</tr>
+<tr>
+<td>neuRosim</td>
+<td>Resting state</td>
+<td>(Simulated)</td>
+<td>N/A</td>
+<td>100</td>
+<td>NA</td>
+<td>2</td>
+<td>3.1 × 3.1 × 3.6</td>
+<td>64 × 64 × 33</td>
+<td>225</td>
+</tr>
+<tr>
+<td rowspan="2">NKI</td>
+<td>Checkerboard</td>
+<td>Orangeburg, US</td>
+<td>20 s off + 20 s on</td>
+<td>30</td>
+<td>3</td>
+<td>1.4</td>
+<td>2 × 2 × 2</td>
+<td>112 × 112 × 64</td>
+<td>98</td>
+</tr>
+<tr>
+<td>Checkerboard</td>
+<td>Orangeburg, US</td>
+<td>20 s off + 20 s on</td>
+<td>30</td>
+<td>3</td>
+<td>0.645</td>
+<td>3 × 3 × 3</td>
+<td>74 × 74 × 40</td>
+<td>240</td>
+</tr>
+<tr>
+<td>BMMR</td>
+<td>Checkerboard</td>
+<td>Magdeburg</td>
+<td>12 s off + 12 s on</td>
+<td>21</td>
+<td>7</td>
+<td>3</td>
+<td>1 × 1 × 1</td>
+<td>182 × 140 × 45</td>
+<td>80</td>
+</tr>
+<tr>
+<td>CRIC</td>
+<td>Checkerboard</td>
+<td>Cambridge, UK</td>
+<td>16 s off + 16 s on</td>
+<td>70</td>
+<td>3</td>
+<td>2</td>
+<td>3 × 3 × 3.8</td>
+<td>64 × 64 × 32</td>
+<td>160</td>
+</tr>
+<tr>
+<td>CamCAN</td>
+<td>Sensorimotor</td>
+<td>Cambridge, UK</td>
+<td>Event-related</td>
+<td>200</td>
+<td>3</td>
+<td>1.97</td>
+<td>3 × 3 × 4.44</td>
+<td>64 × 64 × 32</td>
+<td>261</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<p>
+For the enhanced NKI data, only scans from release 3 were used. Out of the 46 subjects in release 3, scans of 30 subjects were taken. For the rest, at least 1 scan was missing. For the BMMR data, there were 7 subjects at 3 sessions, resulting in 21 scans. For the CamCAN data, 200 subjects were considered only
+</p>
+<p>
+<italic>FCP</italic>
+Functional Connectomes Project,
+<italic>NKI</italic>
+Nathan Kline Institute,
+<italic>BMMR</italic>
+Biomedical Magnetic Resonance,
+<italic>CRIC</italic>
+Cambridge Research into Impaired Consciousness,
+<italic>CamCAN</italic>
+Cambridge Centre for Ageing and Neuroscience
+</p>
+</table-wrap-foot>
+</table-wrap>
+</p>
+</sec>
+<sec id="Sec12">
+<title>Analysis pipeline</title>
+<p id="Par38">
+For AFNI, FSL, and SPM analyses, the preprocessing, brain masks, brain registrations to the 2 mm isotropic MNI atlas space, and multiple comparison corrections were kept consistent (Fig. 
+<xref rid="Fig4" ref-type="fig">4</xref>
+). This way we limited the influence of possible confounders on the results. In order to investigate whether our results are an artifact of the comparison approach used for assessment, we compared AFNI, FSL, and SPM by investigating (1) the power spectra of the GLM residuals, (2) the spatial distribution of significant clusters, (3) the average percentage of significant voxels within the brain mask, and (4) the positive rate: proportion of subjects with at least one significant cluster. The power spectrum represents the variance of a signal that is attributable to an oscillation of a given frequency. When calculating the power spectra of the GLM residuals, we considered voxels in native space using the same brain mask for AFNI, FSL, and SPM. For each voxel, we normalized the time series to have variance 1 and calculated the power spectra as the square of the discrete Fourier transform. Without variance normalization, different signal scaling across voxels and subjects would make it difficult to interpret power spectra averaged across voxels and subjects.
+<fig id="Fig4">
+<label>Fig. 4</label>
+<caption>
+<p>
+The employed analyses pipelines. For SPM, we investigated both the default noise model and the alternative noise model: FAST. The noise models used by AFNI, FSL, and SPM were the only relevant difference (marked in a red box)
+</p>
+</caption>
+<graphic xlink:href="41467_2019_9230_Fig4_HTML" id="d29e1211"/>
+</fig>
+</p>
+<p id="Par39">
+Apart from assuming dummy designs for resting state data as in recent studies
+<sup>
+<xref ref-type="bibr" rid="CR15">15</xref>
+,
+<xref ref-type="bibr" rid="CR21">21</xref>
+,
+<xref ref-type="bibr" rid="CR20">20</xref>
+</sup>
+, we also assumed wrong (dummy) designs for task data, and we used resting state scans simulated using the neuRosim package in R
+<sup>
+<xref ref-type="bibr" rid="CR40">40</xref>
+</sup>
+. We treated such data as null data. For null data, the positive rate is the familywise error rate, which was investigated in a number of recent studies
+<sup>
+<xref ref-type="bibr" rid="CR15">15</xref>
+,
+<xref ref-type="bibr" rid="CR21">21</xref>
+,
+<xref ref-type="bibr" rid="CR20">20</xref>
+</sup>
+. We use the term “significant voxel” to denote a voxel that is covered by one of the clusters returned by the multiple comparison correction.
+</p>
+<p id="Par40">
+All the processing scripts needed to fully replicate our study are at
+<ext-link ext-link-type="uri" xlink:href="https://github.com/wiktorolszowy/fMRI_temporal_autocorrelation">
+https://github.com/wiktorolszowy/fMRI_temporal_autocorrelation
+</ext-link>
+. We used AFNI 16.2.02, FSL 5.0.10, and SPM 12 (v7219).
+</p>
+</sec>
+<sec id="Sec13">
+<title>Preprocessing</title>
+<p id="Par41">
+Slice timing correction was not performed as part of our main analysis pipeline, since for some datasets the slice timing information was not available. In each of the three packages we performed motion correction, which resulted in six parameters that we considered as confounders in the consecutive statistical analysis. As the 7T scans from the “BMMR checkerboard” dataset were prospectively motion corrected
+<sup>
+<xref ref-type="bibr" rid="CR41">41</xref>
+</sup>
+, we did not perform motion correction on them. The “BMMR checkerboard” scans were also prospectively distortion corrected
+<sup>
+<xref ref-type="bibr" rid="CR42">42</xref>
+</sup>
+. For all the datasets, in each of the three packages we conducted high-pass filtering with frequency cutoff of 1/100 Hz. We performed registration to MNI space only within FSL. For AFNI and SPM, the results of the multiple comparison correction were registered to MNI space using transformations generated by FSL. First, anatomical scans were brain extracted with FSL’s brain extraction tool
+<sup>
+<xref ref-type="bibr" rid="CR43">43</xref>
+</sup>
+. Then, FSL’s boundary-based registration was used for registration of the fMRI volumes to the anatomical scans. The anatomical scans were aligned to 2 mm isotropic MNI space using affine registration with 12 degrees of freedom. The two transformations were then combined for each subject and saved for later use in all analyses, including in those started in AFNI and SPM. Gaussian spatial smoothing was performed in each of the packages separately.
+</p>
+</sec>
+<sec id="Sec14">
+<title>Statistical analysis</title>
+<p id="Par42">
+For analyses in each package, we used the canonical hemodynamic response function (HRF) model, also known as the double gamma model. It is implemented the same way in AFNI, FSL, and SPM: the response peak is set at 5 s after stimulus onset, while the post-stimulus undershoot is set at around 15 s after onset. This function was combined with each of the assumed designs using the convolution function. To account for possible response delays and different slice acquisition times, we used in the three packages the first derivative of the double gamma model, also known as the temporal derivative. We did not incorporate physiological recordings to the analysis pipeline, as these were not available for most of the datasets used.
+</p>
+<p id="Par43">
+We estimated the statistical maps in each package separately. AFNI, FSL, and SPM use restricted maximum likelihood (ReML), where autocorrelation is estimated given the residuals from an initial OLS model estimation. The ReML procedure then pre-whitens both the data and the design matrix, and estimates the model. We continued the analysis with the statistic maps corresponding to the
+<italic>t</italic>
+-test with null hypothesis being that the full regression model without the canonical HRF explains as much variance as the full regression model with the canonical HRF. All three packages produced brain masks. The statistic maps in FSL and SPM were produced within the brain mask only, while in AFNI the statistic maps were produced for the entire volume. We masked the statistic maps from AFNI, FSL, and SPM using the intersected brain masks from FSL and SPM. We did not confine the analyses to a gray matter mask, because autocorrelation is at strongest in gray matter
+<sup>
+<xref ref-type="bibr" rid="CR4">4</xref>
+</sup>
+. In other words, false positives caused by imperfect pre-whitening can be expected to occur mainly in gray matter. By default, AFNI and SPM produced
+<italic>t</italic>
+-statistic maps, while FSL produced both
+<italic>t</italic>
+- and
+<italic>z</italic>
+-statistic maps. In order to transform the
+<italic>t</italic>
+-statistic maps to
+<italic>z</italic>
+-statistic maps, we extracted the degrees of freedom from each analysis output.
+</p>
+<p id="Par44">
+Next, we performed multiple comparison correction in FSL for all the analyses, including for those started in AFNI and SPM. First, we estimated the smoothness of the brain-masked four-dimensional residual maps using the smoothest function in FSL. Knowing the DLH parameter, which describes image roughness, and the number of voxels within the brain mask (VOLUME), we then ran the cluster function in FSL on the
+<italic>z</italic>
+-statistic maps using a cluster defining threshold of 3.09 and significance level of 5%. This is the default multiple comparison correction in FSL and it refers to one-sided testing. Finally, we applied previously saved MNI transformations to the binary maps which were showing the location of the significant clusters.
+</p>
+</sec>
+</sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary information</title>
+<sec id="Sec15">
+<p>
+<supplementary-material content-type="local-data" id="MOESM1">
+<media xlink:href="41467_2019_9230_MOESM1_ESM.pdf">
+<caption>
+<p>Supplementary Information</p>
+</caption>
+</media>
+</supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2">
+<media xlink:href="41467_2019_9230_MOESM2_ESM.xlsx">
+<caption>
+<p>Supplementary Data</p>
+</caption>
+</media>
+</supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3">
+<media xlink:href="41467_2019_9230_MOESM3_ESM.pdf">
+<caption>
+<p>Transparent Peer Review File</p>
+</caption>
+</media>
+</supplementary-material>
+</p>
+</sec>
+</sec>
+</body>
+<back>
+<fn-group>
+<fn>
+<p>
+<bold>Journal peer review information:</bold>
+<italic>Nature Communications</italic>
+thanks the anonymous reviewers for their contribution to the peer review of this work. Peer reviewer reports are available.
+</p>
+</fn>
+<fn>
+<p>
+<bold>Publisher’s note:</bold>
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+</p>
+</fn>
+<fn>
+<p>
+<bold>Change history</bold>
+</p>
+<p>3/29/2019</p>
+<p>
+The original HTML version of this Article had an incorrect Published online date of 25 December 2019; it should have been 21 March 2019. This has been corrected in the HTML version of the Article. The PDF version was correct from the time of publication.
+</p>
+</fn>
+</fn-group>
+<sec>
+<title>Supplementary information</title>
+<p>
+<bold>Supplementary Information</bold>
+accompanies this paper at 10.1038/s41467-019-09230-w.
+</p>
+</sec>
+<ack>
+<title>Acknowledgements</title>
+<p>
+We would like to thank Michał Kosicki, Paul Browne, Anders Eklund, Thomas Nichols, Karl Friston, Richard Reynolds, Carsten Allefeld, Paola Finoia, Adrian Carpenter, Alison Sleigh, Gang Chen, and Guillaume Flandin for much valuable advice. Furthermore, we would like to thank the James S. McDonnell Foundation for funding the image acquisitions of the Cambridge Research into Impaired Consciousness (CRIC) group, and the CRIC group for sharing their data. Oliver Speck, Michael Hoffmann, and Aini Ismafairus Abd Hamid from the Otto von Guericke University provided us with the 7T data. We also thank the Neuroimaging Informatics Tools and Resources Clearinghouse and all of the researchers who have contributed with data to the 1000 Functional Connectomes Project and to the Enhanced Nathan Kline Institute - Rockland Sample. The informatics platform used for our data analyses was funded under an MRC research infrastructure award (MR/M009041/1). G.B.W. and J.A. acknowledge support from the EPSRC Centre for Mathematics in Healthcare (EP/N014588/1). W.O. was in receipt of scholarships from the Cambridge Trust and from the Mateusz B. Grabowski Fund. Also, W.O. was supported by the Guarantors of Brain.
+</p>
+</ack>
+<notes notes-type="author-contribution">
+<title>Author contributions</title>
+<p>
+W.O., J.A. and G.B.W. designed the study; W.O. conducted the study; W.O., J.A., C.R. and G.B.W. analyzed the data; W.O. wrote the paper.
+</p>
+</notes>
+<notes notes-type="data-availability">
+<title>Code availability</title>
+<p>
+All the processing scripts needed to fully replicate our study are at
+<ext-link ext-link-type="uri" xlink:href="https://github.com/wiktorolszowy/fMRI_temporal_autocorrelation">
+https://github.com/wiktorolszowy/fMRI_temporal_autocorrelation
+</ext-link>
+.
+</p>
+</notes>
+<notes notes-type="data-availability">
+<title>Data availability</title>
+<p>
+FCP
+<sup>
+<xref ref-type="bibr" rid="CR36">36</xref>
+</sup>
+, NKI
+<sup>
+<xref ref-type="bibr" rid="CR37">37</xref>
+</sup>
+, and CamCAN data
+<sup>
+<xref ref-type="bibr" rid="CR38">38</xref>
+</sup>
+are publicly shared anonymized data. CRIC and BMMR scans can be obtained from us upon request. The simulated data can be generated again using our GitHub script simulate_4D.R.
+</p>
+</notes>
+<notes notes-type="COI-statement">
+<sec id="FPar1">
+<title>Competing interests</title>
+<p>The authors declare no competing interests.</p>
+</sec>
+</notes>
+<ref-list id="Bib1">
+<title>References</title>
+<ref id="CR1">
+<label>1.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bullmore</surname>
+<given-names>E</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+Statistical methods of estimation and inference for functional MR image analysis
+</article-title>
+<source>Magn. Reson. Med.</source>
+<year>1996</year>
+<volume>35</volume>
+<fpage>261</fpage>
+<lpage>277</lpage>
+<pub-id pub-id-type="doi">10.1002/mrm.1910350219</pub-id>
+<pub-id pub-id-type="pmid">8622592</pub-id>
+</element-citation>
+</ref>
+<ref id="CR2">
+<label>2.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lund</surname>
+<given-names>TE</given-names>
+</name>
+<name>
+<surname>Madsen</surname>
+<given-names>KH</given-names>
+</name>
+<name>
+<surname>Sidaros</surname>
+<given-names>K</given-names>
+</name>
+<name>
+<surname>Luo</surname>
+<given-names>WL</given-names>
+</name>
+<name>
+<surname>Nichols</surname>
+<given-names>TE</given-names>
+</name>
+</person-group>
+<article-title>
+Non-white noise in fMRI: does modelling have an impact?
+</article-title>
+<source>Neuroimage</source>
+<year>2006</year>
+<volume>29</volume>
+<fpage>54</fpage>
+<lpage>66</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.07.005</pub-id>
+<pub-id pub-id-type="pmid">16099175</pub-id>
+</element-citation>
+</ref>
+<ref id="CR3">
+<label>3.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Purdon</surname>
+<given-names>PL</given-names>
+</name>
+<name>
+<surname>Weisskoff</surname>
+<given-names>RM</given-names>
+</name>
+</person-group>
+<article-title>
+Effect of temporal autocorrelation due to physiological noise and stimulus paradigm on voxel-level false-positive rates in fMRI
+</article-title>
+<source>Hum. Brain Mapp.</source>
+<year>1998</year>
+<volume>6</volume>
+<fpage>239</fpage>
+<lpage>249</lpage>
+<pub-id pub-id-type="doi">
+10.1002/(SICI)1097-0193(1998)6:4239::AID-HBM43.0.CO;2-4
+</pub-id>
+<pub-id pub-id-type="pmid">9704263</pub-id>
+</element-citation>
+</ref>
+<ref id="CR4">
+<label>4.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Worsley</surname>
+<given-names>KJ</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>A general statistical analysis for fMRI data</article-title>
+<source>Neuroimage</source>
+<year>2002</year>
+<volume>15</volume>
+<fpage>1</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="doi">10.1006/nimg.2001.0933</pub-id>
+<pub-id pub-id-type="pmid">11771969</pub-id>
+</element-citation>
+</ref>
+<ref id="CR5">
+<label>5.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cox</surname>
+<given-names>RW</given-names>
+</name>
+</person-group>
+<article-title>
+AFNI: software for analysis and visualization of functional magnetic resonance neuroimages
+</article-title>
+<source>Comput. Biomed. Res.</source>
+<year>1996</year>
+<volume>29</volume>
+<fpage>162</fpage>
+<lpage>173</lpage>
+<pub-id pub-id-type="doi">10.1006/cbmr.1996.0014</pub-id>
+<pub-id pub-id-type="pmid">8812068</pub-id>
+</element-citation>
+</ref>
+<ref id="CR6">
+<label>6.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jenkinson</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Beckmann</surname>
+<given-names>CF</given-names>
+</name>
+<name>
+<surname>Behrens</surname>
+<given-names>TE</given-names>
+</name>
+<name>
+<surname>Woolrich</surname>
+<given-names>MW</given-names>
+</name>
+<name>
+<surname>Smith</surname>
+<given-names>SM</given-names>
+</name>
+</person-group>
+<article-title>FSL</article-title>
+<source>Neuroimage</source>
+<year>2012</year>
+<volume>62</volume>
+<fpage>782</fpage>
+<lpage>790</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.09.015</pub-id>
+<pub-id pub-id-type="pmid">21979382</pub-id>
+</element-citation>
+</ref>
+<ref id="CR7">
+<label>7.</label>
+<mixed-citation publication-type="other">
+Penny, W. D., Friston, K. J., Ashburner, J. T., Kiebel, S. J.  Nichols, T. E.
+<italic>
+Statistical Parametric Mapping: the Analysis of Functional Brain Images
+</italic>
+(Academic Press, Cambridge 2011).
+</mixed-citation>
+</ref>
+<ref id="CR8">
+<label>8.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chen</surname>
+<given-names>G</given-names>
+</name>
+<name>
+<surname>Saad</surname>
+<given-names>ZS</given-names>
+</name>
+<name>
+<surname>Nath</surname>
+<given-names>AR</given-names>
+</name>
+<name>
+<surname>Beauchamp</surname>
+<given-names>MS</given-names>
+</name>
+<name>
+<surname>Cox</surname>
+<given-names>RW</given-names>
+</name>
+</person-group>
+<article-title>
+FMRI group analysis combining effect estimates and their variances
+</article-title>
+<source>Neuroimage</source>
+<year>2012</year>
+<volume>60</volume>
+<fpage>747</fpage>
+<lpage>765</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.12.060</pub-id>
+<pub-id pub-id-type="pmid">22245637</pub-id>
+</element-citation>
+</ref>
+<ref id="CR9">
+<label>9.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Woolrich</surname>
+<given-names>MW</given-names>
+</name>
+<name>
+<surname>Ripley</surname>
+<given-names>BD</given-names>
+</name>
+<name>
+<surname>Brady</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Smith</surname>
+<given-names>SM</given-names>
+</name>
+</person-group>
+<article-title>
+Temporal autocorrelation in univariate linear modeling of FMRI data
+</article-title>
+<source>Neuroimage</source>
+<year>2001</year>
+<volume>14</volume>
+<fpage>1370</fpage>
+<lpage>1386</lpage>
+<pub-id pub-id-type="doi">10.1006/nimg.2001.0931</pub-id>
+<pub-id pub-id-type="pmid">11707093</pub-id>
+</element-citation>
+</ref>
+<ref id="CR10">
+<label>10.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Friston</surname>
+<given-names>KJ</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+Classical and Bayesian inference in neuroimaging: applications
+</article-title>
+<source>Neuroimage</source>
+<year>2002</year>
+<volume>16</volume>
+<fpage>484</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="doi">10.1006/nimg.2002.1091</pub-id>
+<pub-id pub-id-type="pmid">12030833</pub-id>
+</element-citation>
+</ref>
+<ref id="CR11">
+<label>11.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Todd</surname>
+<given-names>N</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+Evaluation of 2D multiband EPI imaging for high-resolution, whole-brain, task-based fMRI studies at 3T: Sensitivity and slice leakage artifacts
+</article-title>
+<source>Neuroimage</source>
+<year>2016</year>
+<volume>124</volume>
+<fpage>32</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.08.056</pub-id>
+<pub-id pub-id-type="pmid">26341029</pub-id>
+</element-citation>
+</ref>
+<ref id="CR12">
+<label>12.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bollmann</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>Puckett</surname>
+<given-names>AM</given-names>
+</name>
+<name>
+<surname>Cunnington</surname>
+<given-names>R</given-names>
+</name>
+<name>
+<surname>Barth</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>
+Serial correlations in single-subject fMRI with sub-second TR
+</article-title>
+<source>Neuroimage</source>
+<year>2018</year>
+<volume>166</volume>
+<fpage>152</fpage>
+<lpage>166</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.10.043</pub-id>
+<pub-id pub-id-type="pmid">29066396</pub-id>
+</element-citation>
+</ref>
+<ref id="CR13">
+<label>13.</label>
+<mixed-citation publication-type="other">
+Corbin, N., Todd, N., Friston, K. J.  Callaghan, M. F. Accurate modeling of temporal correlations in rapidly sampled fMRI time series.
+<italic>Hum. Brain Mapp.</italic>
+<bold>39</bold>
+, 3884–3897 (2018).
+</mixed-citation>
+</ref>
+<ref id="CR14">
+<label>14.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lenoski</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Baxter</surname>
+<given-names>LC</given-names>
+</name>
+<name>
+<surname>Karam</surname>
+<given-names>LJ</given-names>
+</name>
+<name>
+<surname>Maisog</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Debbins</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>
+On the performance of autocorrelation estimation algorithms for fMRI analysis
+</article-title>
+<source>IEEE J. Sel. Top. Signal Process.</source>
+<year>2008</year>
+<volume>2</volume>
+<fpage>828</fpage>
+<lpage>838</lpage>
+<pub-id pub-id-type="doi">10.1109/JSTSP.2008.2007819</pub-id>
+</element-citation>
+</ref>
+<ref id="CR15">
+<label>15.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Eklund</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Andersson</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Josephson</surname>
+<given-names>C</given-names>
+</name>
+<name>
+<surname>Johannesson</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Knutsson</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<article-title>
+Does parametric fMRI analysis with SPM yield valid results?—An empirical study of 1484 rest datasets
+</article-title>
+<source>Neuroimage</source>
+<year>2012</year>
+<volume>61</volume>
+<fpage>565</fpage>
+<lpage>578</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2012.03.093</pub-id>
+<pub-id pub-id-type="pmid">22507229</pub-id>
+</element-citation>
+</ref>
+<ref id="CR16">
+<label>16.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Walter</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Stadler</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Tempelmann</surname>
+<given-names>C</given-names>
+</name>
+<name>
+<surname>Speck</surname>
+<given-names>O</given-names>
+</name>
+<name>
+<surname>Northoff</surname>
+<given-names>G</given-names>
+</name>
+</person-group>
+<article-title>
+High resolution fMRI of subcortical regions during visual erotic stimulation at 7 T
+</article-title>
+<source>Magn. Reson. Mater. Phys., Biol. Med.</source>
+<year>2008</year>
+<volume>21</volume>
+<fpage>103</fpage>
+<lpage>111</lpage>
+<pub-id pub-id-type="doi">10.1007/s10334-007-0103-1</pub-id>
+</element-citation>
+</ref>
+<ref id="CR17">
+<label>17.</label>
+<mixed-citation publication-type="other">
+Polimeni, J. R., Renvall, V., Zaretskaya, N.  Fischl, B. Analysis strategies for high-resolution UHF-fMRI data.
+<italic>Neuroimage</italic>
+<bold>168</bold>
+, 296–320 (2017).
+</mixed-citation>
+</ref>
+<ref id="CR18">
+<label>18.</label>
+<mixed-citation publication-type="other">
+Buračas, G. T.  Boynton, G. M. Efficient design of event-related fMRI experiments using M-sequences.
+<italic>Neuroimage</italic>
+<bold>16</bold>
+, 801–813 (2002).
+</mixed-citation>
+</ref>
+<ref id="CR19">
+<label>19.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sladky</surname>
+<given-names>R</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+Slice-timing effects and their correction in functional MRI
+</article-title>
+<source>Neuroimage</source>
+<year>2011</year>
+<volume>58</volume>
+<fpage>588</fpage>
+<lpage>594</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.06.078</pub-id>
+<pub-id pub-id-type="pmid">21757015</pub-id>
+</element-citation>
+</ref>
+<ref id="CR20">
+<label>20.</label>
+<mixed-citation publication-type="other">
+Eklund, A., Nichols, T. E.  Knutsson, H. Cluster failure: why fMRI inferences for spatial extent have inflated false-positive rates.
+<italic>Proc. Natl Acad. Sci. USA</italic>
+113, 7900–7905 (2016).
+</mixed-citation>
+</ref>
+<ref id="CR21">
+<label>21.</label>
+<mixed-citation publication-type="other">
+Eklund, A., Nichols, T., Andersson, M.  Knutsson, H. Empirically investigating the statistical validity of SPM, FSL and AFNI for single subject fMRI analysis. In
+<italic>
+Biomedical Imaging (ISBI), 2015 IEEE 12th International Symposium on
+</italic>
+, 1376–1380 (IEEE, 2015).
+</mixed-citation>
+</ref>
+<ref id="CR22">
+<label>22.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Larkman</surname>
+<given-names>DJ</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+Use of multicoil arrays for separation of signal from multiple slices simultaneously excited
+</article-title>
+<source>J. Magn. Reson. Imaging</source>
+<year>2001</year>
+<volume>13</volume>
+<fpage>313</fpage>
+<lpage>317</lpage>
+<pub-id pub-id-type="doi">
+10.1002/1522-2586(200102)13:2313::AID-JMRI10453.0.CO;2-W
+</pub-id>
+<pub-id pub-id-type="pmid">11169840</pub-id>
+</element-citation>
+</ref>
+<ref id="CR23">
+<label>23.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Geissler</surname>
+<given-names>A</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+Influence of fMRI smoothing procedures on replicability of fine scale motor localization
+</article-title>
+<source>Neuroimage</source>
+<year>2005</year>
+<volume>24</volume>
+<fpage>323</fpage>
+<lpage>331</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2004.08.042</pub-id>
+<pub-id pub-id-type="pmid">15627575</pub-id>
+</element-citation>
+</ref>
+<ref id="CR24">
+<label>24.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Weibull</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Gustavsson</surname>
+<given-names>H</given-names>
+</name>
+<name>
+<surname>Mattsson</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>Svensson</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>
+Investigation of spatial resolution, partial volume effects and smoothing in functional MRI using artificial 3D time series
+</article-title>
+<source>Neuroimage</source>
+<year>2008</year>
+<volume>41</volume>
+<fpage>346</fpage>
+<lpage>353</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2008.02.015</pub-id>
+<pub-id pub-id-type="pmid">18400520</pub-id>
+</element-citation>
+</ref>
+<ref id="CR25">
+<label>25.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mueller</surname>
+<given-names>K</given-names>
+</name>
+<name>
+<surname>Lepsien</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Möller</surname>
+<given-names>HE</given-names>
+</name>
+<name>
+<surname>Lohmann</surname>
+<given-names>G</given-names>
+</name>
+</person-group>
+<article-title>
+Commentary: cluster failure: why fMRI inferences for spatial extent have inflated false-positive rates
+</article-title>
+<source>Front. Hum. Neurosci.</source>
+<year>2017</year>
+<volume>11</volume>
+<fpage>345</fpage>
+<pub-id pub-id-type="doi">10.3389/fnhum.2017.00345</pub-id>
+<pub-id pub-id-type="pmid">28701944</pub-id>
+</element-citation>
+</ref>
+<ref id="CR26">
+<label>26.</label>
+<mixed-citation publication-type="other">
+Eklund, A., Knutsson, H.  Nichols, T. E. Cluster failure revisited: impact of first level design and physiological noise on cluster false positive rates.
+<italic>Hum. Brain Mapp.</italic>
+1–16 (2018).
+</mixed-citation>
+</ref>
+<ref id="CR27">
+<label>27.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Friston</surname>
+<given-names>K</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+To smooth or not to smooth?: bias and efficiency in fMRI time-series analysis
+</article-title>
+<source>Neuroimage</source>
+<year>2000</year>
+<volume>12</volume>
+<fpage>196</fpage>
+<lpage>208</lpage>
+<pub-id pub-id-type="doi">10.1006/nimg.2000.0609</pub-id>
+<pub-id pub-id-type="pmid">10913325</pub-id>
+</element-citation>
+</ref>
+<ref id="CR28">
+<label>28.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Friston</surname>
+<given-names>KJ</given-names>
+</name>
+<name>
+<surname>Stephan</surname>
+<given-names>KE</given-names>
+</name>
+<name>
+<surname>Lund</surname>
+<given-names>TE</given-names>
+</name>
+<name>
+<surname>Morcom</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Kiebel</surname>
+<given-names>S</given-names>
+</name>
+</person-group>
+<article-title>Mixed-effects and fMRI studies</article-title>
+<source>Neuroimage</source>
+<year>2005</year>
+<volume>24</volume>
+<fpage>244</fpage>
+<lpage>252</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2004.08.055</pub-id>
+<pub-id pub-id-type="pmid">15588616</pub-id>
+</element-citation>
+</ref>
+<ref id="CR29">
+<label>29.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Woolrich</surname>
+<given-names>MW</given-names>
+</name>
+<name>
+<surname>Behrens</surname>
+<given-names>TE</given-names>
+</name>
+<name>
+<surname>Beckmann</surname>
+<given-names>CF</given-names>
+</name>
+<name>
+<surname>Jenkinson</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Smith</surname>
+<given-names>SM</given-names>
+</name>
+</person-group>
+<article-title>
+Multilevel linear modelling for FMRI group analysis using Bayesian inference
+</article-title>
+<source>Neuroimage</source>
+<year>2004</year>
+<volume>21</volume>
+<fpage>1732</fpage>
+<lpage>1747</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2003.12.023</pub-id>
+<pub-id pub-id-type="pmid">15050594</pub-id>
+</element-citation>
+</ref>
+<ref id="CR30">
+<label>30.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bianciardi</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Cerasa</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Patria</surname>
+<given-names>F</given-names>
+</name>
+<name>
+<surname>Hagberg</surname>
+<given-names>G</given-names>
+</name>
+</person-group>
+<article-title>
+Evaluation of mixed effects in event-related fMRI studies: impact of first-level design and filtering
+</article-title>
+<source>Neuroimage</source>
+<year>2004</year>
+<volume>22</volume>
+<fpage>1351</fpage>
+<lpage>1370</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2004.02.039</pub-id>
+<pub-id pub-id-type="pmid">15219607</pub-id>
+</element-citation>
+</ref>
+<ref id="CR31">
+<label>31.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mumford</surname>
+<given-names>JA</given-names>
+</name>
+<name>
+<surname>Nichols</surname>
+<given-names>T</given-names>
+</name>
+</person-group>
+<article-title>Simple group fMRI modeling and inference</article-title>
+<source>Neuroimage</source>
+<year>2009</year>
+<volume>47</volume>
+<fpage>1469</fpage>
+<lpage>1475</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neuroimage.2009.05.034</pub-id>
+<pub-id pub-id-type="pmid">19463958</pub-id>
+</element-citation>
+</ref>
+<ref id="CR32">
+<label>32.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Raichle</surname>
+<given-names>ME</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>A default mode of brain function</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2001</year>
+<volume>98</volume>
+<fpage>676</fpage>
+<lpage>682</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.98.2.676</pub-id>
+<pub-id pub-id-type="pmid">11209064</pub-id>
+</element-citation>
+</ref>
+<ref id="CR33">
+<label>33.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Stark</surname>
+<given-names>CE</given-names>
+</name>
+<name>
+<surname>Squire</surname>
+<given-names>LR</given-names>
+</name>
+</person-group>
+<article-title>
+When zero is not zero: the problem of ambiguous baseline conditions in fMRI
+</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2001</year>
+<volume>98</volume>
+<fpage>12760</fpage>
+<lpage>12766</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.221462998</pub-id>
+<pub-id pub-id-type="pmid">11592989</pub-id>
+</element-citation>
+</ref>
+<ref id="CR34">
+<label>34.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Welvaert</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Rosseel</surname>
+<given-names>Y</given-names>
+</name>
+</person-group>
+<article-title>A review of fMRI simulation studies</article-title>
+<source>PLoS ONE</source>
+<year>2014</year>
+<volume>9</volume>
+<fpage>e101953</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0101953</pub-id>
+<pub-id pub-id-type="pmid">25048024</pub-id>
+</element-citation>
+</ref>
+<ref id="CR35">
+<label>35.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Luo</surname>
+<given-names>WL</given-names>
+</name>
+<name>
+<surname>Nichols</surname>
+<given-names>TE</given-names>
+</name>
+</person-group>
+<article-title>
+Diagnosis and exploration of massively univariate neuroimaging models
+</article-title>
+<source>Neuroimage</source>
+<year>2003</year>
+<volume>19</volume>
+<fpage>1014</fpage>
+<lpage>1032</lpage>
+<pub-id pub-id-type="doi">10.1016/S1053-8119(03)00149-6</pub-id>
+<pub-id pub-id-type="pmid">12880829</pub-id>
+</element-citation>
+</ref>
+<ref id="CR36">
+<label>36.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Biswal</surname>
+<given-names>BB</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>Toward discovery science of human brain function</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2010</year>
+<volume>107</volume>
+<fpage>4734</fpage>
+<lpage>4739</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0911855107</pub-id>
+<pub-id pub-id-type="pmid">20176931</pub-id>
+</element-citation>
+</ref>
+<ref id="CR37">
+<label>37.</label>
+<mixed-citation publication-type="other">
+Nooner, K. B. et al. The NKI-Rockland sample: a model for accelerating the pace of discovery science in psychiatry.
+<italic>Front. Neurosci.</italic>
+<bold>6</bold>
+, 1–11 (2012).
+</mixed-citation>
+</ref>
+<ref id="CR38">
+<label>38.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Shafto</surname>
+<given-names>MA</given-names>
+</name>
+<etal/>
+</person-group>
+<article-title>
+The Cambridge Centre for Ageing and Neuroscience (Cam-CAN) study protocol: a cross-sectional, lifespan, multidisciplinary examination of healthy cognitive ageing
+</article-title>
+<source>BMC Neurol.</source>
+<year>2014</year>
+<volume>14</volume>
+<fpage>204</fpage>
+<pub-id pub-id-type="doi">10.1186/s12883-014-0204-1</pub-id>
+<pub-id pub-id-type="pmid">25412575</pub-id>
+</element-citation>
+</ref>
+<ref id="CR39">
+<label>39.</label>
+<mixed-citation publication-type="other">
+Hamid, A. I. A., Speck, O.  Hoffmann, M. B. Quantitative assessment of visual cortex function with fMRI at 7 Tesla-test-retest variability.
+<italic>Front. Hum. Neurosci.</italic>
+<bold>9</bold>
+, 1–11 (2015).
+</mixed-citation>
+</ref>
+<ref id="CR40">
+<label>40.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Welvaert</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Durnez</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Moerkerke</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Verdoolaege</surname>
+<given-names>G</given-names>
+</name>
+<name>
+<surname>Rosseel</surname>
+<given-names>Y</given-names>
+</name>
+</person-group>
+<article-title>neuRosim: an R package for generating fMRI data</article-title>
+<source>J. Stat. Softw.</source>
+<year>2011</year>
+<volume>44</volume>
+<fpage>1</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="doi">10.18637/jss.v044.i10</pub-id>
+</element-citation>
+</ref>
+<ref id="CR41">
+<label>41.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Thesen</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>Heid</surname>
+<given-names>O</given-names>
+</name>
+<name>
+<surname>Mueller</surname>
+<given-names>E</given-names>
+</name>
+<name>
+<surname>Schad</surname>
+<given-names>LR</given-names>
+</name>
+</person-group>
+<article-title>
+Prospective acquisition correction for head motion with image-based tracking for real-time fMRI
+</article-title>
+<source>Magn. Reson. Med.</source>
+<year>2000</year>
+<volume>44</volume>
+<fpage>457</fpage>
+<lpage>465</lpage>
+<pub-id pub-id-type="doi">
+10.1002/1522-2594(200009)44:3457::AID-MRM17>3.0.CO;2-R
+</pub-id>
+<pub-id pub-id-type="pmid">10975899</pub-id>
+</element-citation>
+</ref>
+<ref id="CR42">
+<label>42.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>In</surname>
+<given-names>MH</given-names>
+</name>
+<name>
+<surname>Speck</surname>
+<given-names>O</given-names>
+</name>
+</person-group>
+<article-title>
+Highly accelerated PSF-mapping for EPI distortion correction with improved fidelity
+</article-title>
+<source>Magn. Reson. Mater. Phys. Biol. Med.</source>
+<year>2012</year>
+<volume>25</volume>
+<fpage>183</fpage>
+<lpage>192</lpage>
+<pub-id pub-id-type="doi">10.1007/s10334-011-0275-6</pub-id>
+</element-citation>
+</ref>
+<ref id="CR43">
+<label>43.</label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Smith</surname>
+<given-names>SM</given-names>
+</name>
+</person-group>
+<article-title>Fast robust automated brain extraction</article-title>
+<source>Hum. Brain Mapp.</source>
+<year>2002</year>
+<volume>17</volume>
+<fpage>143</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="doi">10.1002/hbm.10062</pub-id>
+<pub-id pub-id-type="pmid">12391568</pub-id>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

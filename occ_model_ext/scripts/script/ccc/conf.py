@@ -14,14 +14,19 @@ from lxml import etree as ET
 # rp 	= in-text reference pointer
 
 # VARIABLES
-# sentence/text chunk tokenizer
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
-wrapper_elements = ['sup']
-start_sep = '['
-end_sep = separator = ']'.encode('utf-8')
-rp_separators = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
-elem_text = './/xref[@ref-type="bibr"] | .//xref[@ref-type="bibr"]/following-sibling::text()[1]'
 
+# TO REMOVE
+pl_start_sep = '['
+pl_end_sep = ']'.encode('utf-8')
+pl_start_separators = ['[','(']
+pl_end_separators = [']',')']
+rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
+
+# XPATH: modify find_rp() to associate the correct xml element to rp
+rp_tail = '/following-sibling::text()[1]'
+rp_closest_parent = '/ancestor::*[1]'
+rp_child = '/child::*[1]'
 citing_doi = './/article-id[@pub-id-type="doi"]'
 
 # XML elements mapped to the OC model
@@ -29,15 +34,24 @@ section_tag = 'sec'
 caption_tag = 'caption'
 title_tag = 'title'
 table_tag = 'table'
+notes_tag = 'notes'
 footnote_tag = 'fn'
 paragraph_tag = 'p'
 be_tag = 'ref'
+
+# other XML elements
+front_tag = 'front'
+back_tag = 'back'
+
+parent_elements_names = [notes_tag, section_tag, caption_tag, title_tag, table_tag, footnote_tag, paragraph_tag, 'tr','td','th']
+
 
 # mapping to graphlib bibliographic entities
 elem_mapping = [(caption_tag,GraphEntity.caption),\
 				(paragraph_tag,GraphEntity.paragraph),\
 				(table_tag,GraphEntity.table),\
 				(footnote_tag,GraphEntity.footnote),\
+				(notes_tag,GraphEntity.footnote),\
 				(title_tag,GraphEntity.section_title),\
 				(section_tag,GraphEntity.section)]
 
@@ -46,7 +60,22 @@ C4O = Namespace("http://purl.org/spar/c4o/")
 DATACITE = Namespace("http://purl.org/spar/datacite/")
 LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
 
+
 # methods for XML bibliographic entities
+def find_rp(root):
+	"""
+	params: root -- the root element of the XML document
+	return: the XPATH of rp (e.g. 'xref[@ref-type="bibr"]' or 'xref')
+	"""
+	et = ET.ElementTree(root)
+	if len(root.xpath('.//xref[@ref-type="bibr"]')) != 0:
+		rp_path = 'xref[@ref-type="bibr"]'
+	else:
+		if len(root.xpath('.//xref[@rid = .//ref/@id]')) != 0:
+			rp_path = 'xref[@rid = .//ref/@id]'
+	return rp_path
+
+
 def find_citing_doi(root):
 	"""
 	params: root -- the root element of the XML document
@@ -55,7 +84,7 @@ def find_citing_doi(root):
 	if root.find(citing_doi) is not None:
 		article_doi = root.find(citing_doi).text
 	else:
-		article_doi = uuid.uuid4()
+		article_doi = str(uuid.uuid4())
 	return article_doi
 
 
@@ -90,7 +119,7 @@ def find_cited_doi(elem,root):
 	elif root.find(doi) is None and root.find(pmid) is not None:
 		be_id = root.find(pmid).text
 	else:
-		be_id = uuid.uuid4()
+		be_id = str(uuid.uuid4())
 	be_text = ET.tostring(root.find(be_path), method="text", encoding='unicode', with_tail=False).strip() 
 	return be_id, be_text
 
@@ -135,18 +164,19 @@ def xpath_sentence(elem, root, abb_list_path):
 	string_before = "".join(get_text_before(elem)).strip()
 	string_after = "".join(get_text_after(elem)).strip()
 
-	# offset of sentence in the stringified parent element that include the rp (0-based index transformed in 1-based index to comply with XPath)
-	if string_before is not None:
-		start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
-		# get the length of the string
-		strin = sentence_splitter.tokenize( string_before )[-1]+elem_value+sentence_splitter.tokenize( string_after )[0]
-		len_sent = len(strin)
-	else:
+	# offset of sentence in the stringified parent element that include the rp 
+	# (0-based index transformed in 1-based index -- +1 -- to comply with XPath)
+	if len(string_before) == 0:
+		str_before = ''
 		start_sent = 1
-		len_sent = 1
-	
-
-	# create the XPath
+	else:
+		str_before = sentence_splitter.tokenize( string_before )[-1]
+		start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
+	if len(string_after) == 0:
+		str_after = ''
+	else:
+		str_after = sentence_splitter.tokenize( string_after )[0]
+	len_sent = len(str_before+elem_value+str_after)
 	sent_xpath_function = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 	return sent_xpath_function
 
@@ -183,9 +213,21 @@ def find_container_xpath(elem, container_tag, root):
 	params: root -- the root element of the XML document
 	return: XPath of the first selected ancestor of the element
 	"""
+	# TODO improve
 	et = ET.ElementTree(root)
-	section = elem.xpath('ancestor-or-self::'+container_tag+'[1]')
-	return et.getpath(section[0])
+	if len(elem.xpath('./ancestor-or-self::'+container_tag+'[1]')) != 0:
+		section = elem.xpath('./ancestor-or-self::'+container_tag+'[1]')[0]
+	else:
+		if len(elem.xpath('./ancestor-or-self::'+notes_tag+'[1]')) != 0:
+			section = elem.xpath('./ancestor-or-self::'+notes_tag+'[1]')[0]
+		else:
+			if len(elem.xpath('./ancestor-or-self::'+front_tag+'[1]')) != 0:
+				section = elem.xpath('./ancestor-or-self::'+front_tag+'[1]')[0]
+			elif len(elem.xpath('./ancestor-or-self::'+back_tag+'[1]')) != 0:
+				section = elem.xpath('./ancestor-or-self::'+back_tag+'[1]')[0]
+			else:
+				section = root
+	return et.getpath(section)
 
 
 def find_container_title(elem, container_tag, root):
@@ -195,9 +237,9 @@ def find_container_title(elem, container_tag, root):
 	return: title -- the tag of the element containing the title of the container
 	"""
 	et = ET.ElementTree(root)
-	title = elem.xpath('ancestor-or-self::'+container_tag+'[1]//'+title_tag)
-	if len(elem.xpath('ancestor-or-self::'+container_tag+'[1]//'+title_tag)) != 0:
-		title = ET.tostring( elem.xpath('ancestor-or-self::'+container_tag+'[1]//'+title_tag)[0], method="text", encoding='unicode', with_tail=False).strip()
+	title = elem.xpath('./ancestor-or-self::'+container_tag+'[1]//'+title_tag)
+	if len(elem.xpath('./ancestor-or-self::'+container_tag+'[1]//'+title_tag)) != 0:
+		title = ET.tostring( elem.xpath('./ancestor-or-self::'+container_tag+'[1]//'+title_tag)[0], method="text", encoding='unicode', with_tail=False).strip()
 	else:
 		title = ''
 	return title

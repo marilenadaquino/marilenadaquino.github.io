@@ -8,7 +8,7 @@ from rdflib import Graph, URIRef
 from rdflib.namespace import XSD, RDF, RDFS, Namespace
 from script.ocdm.conf import context_path as context_path
 from itertools import groupby
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 pp = pprint.PrettyPrinter(indent=1)
 class Jats2OC(object):
@@ -17,61 +17,87 @@ class Jats2OC(object):
 		#self.xml_doc = xml_doc
 		self.root = xml_doc
 		self.xmlp = ET.XMLParser(encoding="utf-8")
-		# self.tree = ET.parse(xml_doc, self.xmlp)
-		# self.root = self.tree.getroot()
+		#self.tree = ET.parse(xml_doc, self.xmlp) # comm
+		#self.root = self.tree.getroot() # comm
 		self.et = ET.ElementTree(self.root)
 
 
 	def check_inline_citation_style(self):
 		"""return either the tag name of the element wrapping reference pointers or the separator"""
-		wrapp_elems = []
-		for wrapp_elem in conf.wrapper_elements:
-			wrapper_elem = self.root.xpath('.//'+wrapp_elem+'/xref')
-			if wrapper_elem is not None:
-				wrapp_elems.append(wrapp_elem)
-				return wrapp_elems
-		return Counter(self.root.xpath('.//xref[@ref-type="bibr"]/following-sibling::text()[1]')).most_common(3)
+		rp = conf.find_rp(self.root)
+		# most common parent element
+		rp_closest_parent = Counter([x.tag \
+					for x in self.root.xpath(rp+conf.rp_closest_parent) 
+					if x.tag not in conf.parent_elements_names]).most_common(1)
+		
+		# most common end separator
+		rp_end_separator = Counter([x[0] \
+			for x in self.root.xpath('.//'+rp+conf.rp_tail) \
+			if (x not in conf.rp_separators_in_list) and (x != ' ')]).most_common(1)
+		
+		rp_children = Counter(x.tag for x in self.root.xpath('.//'+rp+conf.rp_child) ).most_common(1)
+
+		return rp_closest_parent, rp_end_separator, rp_children
+
 
 	def extract_intext_refs(self):
-		""" parse the input xml_doc and return a list of lists (rp_groups) including:
-		article_doi, cited be_id, rp groupings, rp_closest_parent, rp_last_ancestor, xpath
-		"""
-		# TODO add check for xml element parents of xref before parsing 
-		self.inline_citation_style = self.check_inline_citation_style()
-
-		for wr in self.inline_citation_style:
-			if wr[0] == separator:
-				context = self.root.xpath(conf.elem_text)
-				rp_separator = [conf.clean(elem[0]) if isinstance(elem, str) else elem for elem in context] # list of rp and separator
-				rp_groups = [list(x[1]) for x in groupby(rp_separator, lambda x: x==conf.separator) if not x[0]] # group rp by separator
-			else:
+		""" parse the input xml_doc and return a list of lists (rp_groups)"""
+		rp = conf.find_rp(self.root) # xpath of xref: either with @ref-type or without
+		rp_closest_parent = self.check_inline_citation_style()[0]
+		rp_end_separator = self.check_inline_citation_style()[1]
+		rp_children = self.check_inline_citation_style()[2][0]
+		print('rp_end_separator',rp_end_separator)
+		
+		# e.g. sup/xref
+		if len(rp_closest_parent) != 0 and len(rp_children) == 0: 
+			rp_groups = [] 
+			for group in self.root.xpath('.//'+rp_closest_parent+'['+rp+']'):
+				group_list = [group.xpath('.//'+rp+' | .//'+rp+conf.rp_tail)]
+				rp_groups.append(group_list)
 				
+		# e.g. xref/sup, random separators
+		if len(rp_closest_parent) == 0 and len(rp_children) != 0: 
+			context = self.root.xpath('.//'+rp+'/'+rp_children[0]+' | .//'+rp+'/'+rp_children[0]+'/'+conf.rp_tail)
+			rp_and_separator = [conf.clean(elem[0]).decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
+			# TODO what if there are no separators -- all singleton, here and also in other cases
+			rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==rp_end_separator) if not x[0]] # group rp by separator		
+
+		# TODO e.g. xref/sup, element separators for lists
+
+		# TODO e.g. xref/sup, internal separators for sequences but only one @rid in xref
+
+		# e.g. xref, NO children, separated by [],()
+		if len(rp_closest_parent) == 0 and len(rp_end_separator) != 0 and len(rp_children) == 0: 
+			context = self.root.xpath('.//'+rp+' | .//'+rp+conf.rp_tail)
+			rp_and_separator = [conf.clean(elem[0]).decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
+			rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==rp_end_separator) if not x[0]] # group rp by separator		
+		
+		# add group type rp/pl		
 		for group in rp_groups:
-			if conf.rp_separators[0] in group:
+			if conf.rp_separators_in_list[0] in group:
 				group.append('list')
-			elif conf.rp_separators[1] in group:
+			elif conf.rp_separators_in_list[1] in group:
 				group.append('sequence')
 			else:
 				group.append('singleton')
 
 		# remove separators 
-		groups = [list(i for i in j if i not in conf.rp_separators) for j in rp_groups]
-		print(groups)
-
+		groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups]
+		pp.pprint(groups) # TODO does not work for xref/sup -- does not remove the separator
 		# metadata related to rp
 		self.full_metadata = [[{\
-			'article_doi' : conf.find_citing_doi(self.root),\
-			'be_id' : conf.find_cited_doi(rp, self.root)[0], \
-			'be_text' : conf.find_cited_doi(rp, self.root)[1], \
-			'elem_xpath' : './'+self.et.getpath(rp), \
-			'elem_chunk_value': conf.xpath_list(rp, self.root, conf.start_sep, conf.end_sep)[0] ,\
-			'elem_chunk_xpath': conf.xpath_list(rp, self.root, conf.start_sep, conf.end_sep)[1] ,\
-			'elem_sentence_xpath': conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path), \
-			'elem_closest_parent_xpath': './'+self.et.getpath(rp.getparent()), \
-			'elem_closest_parent_normalised_xpath': './'+conf.find_closest_parent(rp,self.root), \
-			'elem_last_ancestor_xpath': './'+conf.find_container_xpath(rp, conf.section_tag, self.root), \
-			'elem_last_ancestor_title': conf.find_container_title(rp, conf.section_tag, self.root), \
-			'elem_value': rp.text} \
+			"article_doi" : conf.find_citing_doi(self.root),\
+			"be_id" : conf.find_cited_doi(rp, self.root)[0], \
+			"be_text" : conf.find_cited_doi(rp, self.root)[1], \
+			"elem_xpath" : './'+self.et.getpath(rp), \
+			"elem_chunk_value": conf.xpath_list(rp, self.root, conf.pl_start_sep, conf.pl_end_sep)[0] ,\
+			"elem_chunk_xpath": conf.xpath_list(rp, self.root, conf.pl_start_sep, conf.pl_end_sep)[1] ,\
+			"elem_sentence_xpath": conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path), \
+			"elem_closest_parent_xpath": './'+self.et.getpath(rp.getparent()), \
+			"elem_closest_parent_normalised_xpath": './'+conf.find_closest_parent(rp,self.root), \
+			"elem_section_xpath": './'+conf.find_container_xpath(rp, conf.section_tag, self.root), \
+			"elem_section_title": conf.find_container_title(rp, conf.section_tag, self.root), \
+			"elem_value": ET.tostring(rp, method="text", encoding='unicode', with_tail=False)} \
 			if isinstance(rp, str) == False else rp for rp in rp_group] \
 			for rp_group in groups]
 
@@ -82,18 +108,18 @@ class Jats2OC(object):
 				range_values.sort()
 				for intermediate in range(int(range_values[0])+1,int(range_values[1])):
 					groups.append({\
-						'article_doi':conf.find_citing_doi(self.root),\
-						'be_id':conf.find_cited_doi(str(intermediate),self.root)[0], \
-						'be_text':conf.find_cited_doi(str(intermediate),self.root)[1],\
-						'elem_xpath': 'none', \
-						'elem_chunk_value': groups[0]['elem_chunk_value'],\
-						'elem_chunk_xpath': groups[0]['elem_chunk_xpath'],\
-						'elem_sentence_xpath':groups[0]['elem_sentence_xpath'], \
-						'elem_closest_parent_xpath': groups[0]['elem_closest_parent_xpath'], \
-						'elem_closest_parent_normalised_xpath': groups[0]['elem_closest_parent_normalised_xpath'], \
-						'elem_last_ancestor_xpath': groups[0]['elem_last_ancestor_xpath'], \
-						'elem_last_ancestor_title': groups[0]['elem_last_ancestor_title'],\
-						'elem_value':str(intermediate) })
+						"article_doi":conf.find_citing_doi(self.root),\
+						"be_id":conf.find_cited_doi(str(intermediate),self.root)[0], \
+						"be_text":conf.find_cited_doi(str(intermediate),self.root)[1],\
+						"elem_xpath": "none", \
+						"elem_chunk_value": groups[0]['elem_chunk_value'],\
+						"elem_chunk_xpath": groups[0]['elem_chunk_xpath'],\
+						"elem_sentence_xpath":groups[0]['elem_sentence_xpath'], \
+						"elem_closest_parent_xpath": groups[0]['elem_closest_parent_xpath'], \
+						"elem_closest_parent_normalised_xpath": groups[0]['elem_closest_parent_normalised_xpath'], \
+						"elem_section_xpath": groups[0]['elem_section_xpath'], \
+						"elem_section_title": groups[0]['elem_section_title'],\
+						"elem_value":str(intermediate) })
 
 		# remove the type of group
 		self.full_metadata = [[rp for rp in rp_group if isinstance(rp, str) == False] for rp_group in self.full_metadata]
@@ -152,7 +178,7 @@ class Jats2OC(object):
 		# TODO 
 		# add next -- make a new method in graphlib!
 
-		set_sections_xpath = { (rp['elem_last_ancestor_xpath'],rp['elem_last_ancestor_title']) for rp_group in self.data for rp in rp_group}
+		set_sections_xpath = { (rp['elem_section_xpath'],rp['elem_section_title']) for rp_group in self.data for rp in rp_group}
 		for section_element, section_title in set_sections_xpath:
 			section_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
 			section_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
@@ -169,7 +195,7 @@ class Jats2OC(object):
 		# parent element
 		# TODO 
 		# add next
-		set_parent_xpath = { (rp['elem_closest_parent_normalised_xpath'],rp['elem_last_ancestor_xpath']) for rp_group in self.data for rp in rp_group}
+		set_parent_xpath = { (rp['elem_closest_parent_normalised_xpath'],rp['elem_section_xpath']) for rp_group in self.data for rp in rp_group}
 		for parent_element,section_element in set_parent_xpath:
 			parent_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
 			parent_id = self.graph.add_id("md", source_agent=None, source=None, res=None)

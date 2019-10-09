@@ -27,6 +27,90 @@
 						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
 					</div>
 				</section>
+
+				<!-- Section -->
+				<!-- <section id="w">
+					<header>
+						<h2>#w</h2>
+					</header>
+					<div class="content">
+						<p><strong>date - date</strong></p>
+					</div>
+				</section> -->
+				<!-- Section -->
+				<section id="w14">
+					<header>
+						<h2>#w14</h2>
+					</header>
+					<div class="content">
+						<p><strong>October 7, 2019 - October 11, 2019</strong></p>
+						<h3>Integration of BEE, citation styles checks</h3>
+						<p>Here below a schema of the main changes in BEE.</p>
+<pre>
+	<code>
+<strong>ccc/run.py</strong> 
+	| <em>calls</em>
+	<strong>bee/epmcproc.py#EuropeanPubMedCentralProcessor()</strong>
+	| <em>ADDED parameter <u>intext_refs=False</u></em>
+	| <em>calls</em>
+	<strong>bee/epmcproc.py#process()</strong>
+		| <em>calls</em>
+		<strong>bee/epmcproc.py#process_article() </strong>
+		|	|	<em>ADDED parameter <u>intext_refs=False</u></em>
+		|	|	<em>l.90 call to process_xml_source(<u>intext_refs=True</u>)</em>
+		|	| <em>calls</em>	
+		|	<strong>bee/epmcproc.py#process_xml_source()</strong>
+		|		<em>ADDED parameter <u>intext_refs=False</u></em>
+		|		<em>l.306 call to JATS2OC class to fill</em>
+		|		<em><u>self.rs.ref_pointer_list</u></em>
+		| <em>calls</em>
+		<strong>bee/refstorer.py</strong>
+			|	<em>l.67 ADDED method <u>new_ref_pointer_list()</u></em>
+			<strong>bee/refstorer.py#store()</strong>
+			|	<em>l.129 ADDED the JSON snippet</em>
+			|	<em><u>json_item["reference_pointers"] = self.ref_pointer_list</u></em>
+	</code>
+</pre>
+						<p>Still working on recognizing all the exceptions in reference pointer citation styles in OA-PMC. ATM we have the following scenarios:</p>
+						<ul>
+							<li><code>sup/xref[@ref-type]</code> [DONE]</li>
+							<li><code>xref[@ref-type]/sup</code> [DONE]</li>
+							<li><code>'('+xref[@ref-type]+')'</code> <code>'['+xref[@ref-type]+']'</code> [DONE]</li>
+							<li><code>'['+xref[not(@ref-type)]+']'</code> [DONE]</li>
+							<li><code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code> meaning the text identifies a sequence but only one ref@id is recorded in @rid [WIP, ignoring the text ATM]</li>
+							<li><code>xref[@ref-type]/sup + sup[/text() = ','] + xref[@ref-type]/sup</code> to make a list [WIP, at the moment I consider them single pointers]</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section id="w13">
+					<header>
+						<h2>#w13</h2>
+					</header>
+					<div class="content">
+						<p><strong>September 30, 2019 - October 4, 2019</strong></p>
+						<h3>Integration of BEE, changes in graphlib according to the OCDM, others</h3>
+						<p>I've integrated BEE with the extraction of intext references - now everything works. I'm still fixing some bugs/mistakes here and there (i.e. exceptions that I didn't take into account while processing PMC XMLs). My next step is to decide a pretty output for the bulk of data on reference pointers to be included in the definitive JSON. Hopefully, next week I'll work on SPACIN.</p>
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section id="w12">
+					<header>
+						<h2>#w12</h2>
+					</header>
+					<div class="content">
+						<p><strong>September 23 - September 27</strong></p>
+						<h3>Completion of OCDM reference document</h3>
+						<p>Still waiting for the last round of SP review.</p>
+						<h3>Integration of bee, changes in graphlib according to the OCDM, others</h3>
+						<p>Working on the detection of citation styles in the PMC OA corpus</p>
+					</div>
+				</section>
+
+
+
 				<!-- Section -->
 				<section id="w10-11">
 					<header>
@@ -74,19 +158,11 @@
 						<h4>Code</h4>
 						<ul>
 							<li>make a regex in storer.py to distinguish reference/part (l.246-50, when rewrites the context URL)</li>
-							<li>add a be2generic-citation link and every rp2specific-citation through oa:Annotation; </li>
+							<li>add a be2generic-citation link and every rp2specific-citation through an oa:Annotation; </li>
 							<li>BEE test. Control whether the citation style is always the same in the corpus</li>
 							<li>fork git (/script)</li>
 						</ul>
 						
-
-
-
-
-
-
-
-
 						<h3>DONE</h3>
 						<h4>OCC document</h4>
 						<ul>

@@ -87,18 +87,17 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
             self.repok.add_sentence(
                 "Processing article with local id '%s'." % cur_localid)
 
-            if oa:
+            if oa and not intext_refs:
                 ref_list_url = self.process_xml_source(cur_pmcid)
-                if intext_refs:
-                    ref_pointer_list = self.process_xml_source(cur_pmcid, intext_refs=True)
+            elif oa and intext_refs:
+                ref_list_url = self.process_xml_source(cur_pmcid, intext_refs=True)
             else:
                 ref_list_url = self.process_references(cur_source, cur_id)
-                ref_pointer_list = None
             if ref_list_url is not None:
                 stored = self.rs.store(
                     next(item for item in id_list if item is not None),
                     cur_localid, cur_doi, cur_pmid, cur_pmcid, self.name,
-                    self.provider, encode_url(ref_list_url), encode_url(ref_pointer_list))
+                    self.provider, encode_url(ref_list_url), True)
                 if stored:
                     self.repok.add_sentence(
                         "References of '%s' have been stored." % cur_localid)
@@ -252,6 +251,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 cur_xml = etree.fromstring(xml_source)
 
                 references = cur_xml.xpath("//ref-list/ref")
+                reference_pointers = cur_xml.xpath("//xref")
                 if len(references):
                     self.rs.new_ref_list()
                     for reference in references:
@@ -302,11 +302,11 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         self.rs.add_reference(entry_text, process_entry_text,
                                               None, ref_doi, ref_pmid, ref_pmcid, ref_url)
 
-                    if intext_refs:
-                        reference_pointers = cur_xml.xpath("//xref")
-                        if len(reference_pointers):
-                            jats = Jats2OC(cur_xml)
-                            self.rs.new_ref_pointer_list(jats.extract_intext_refs())
+                     
+                    if intext_refs and len(reference_pointers):
+                        self.rs.new_ref_pointer_list() # create empty list 
+                        jats = Jats2OC(cur_xml) # add result to self.ref_pointer_list  
+                        self.rs.ref_pointer_list.append(jats.extract_intext_refs())
                     return xml_source_url
                 
     

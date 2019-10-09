@@ -1,0 +1,18 @@
+must be str, not NoneType Traceback (most recent call last):
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/run.py", line 36, in <module>
+    epmc.process(True)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 137, in process
+    self.process_article(cur_id, cur_source, cur_doi, cur_doi, cur_pmid, cur_pmcid, oa)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 93, in process_article
+    ref_list_url = self.process_xml_source(cur_pmcid, intext_refs=True)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 309, in process_xml_source
+    self.rs.ref_pointer_list.append(jats.extract_intext_refs())
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 97, in extract_intext_refs
+    for rp_group in groups]
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 97, in <listcomp>
+    for rp_group in groups]
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 96, in <listcomp>
+    if isinstance(rp, str) == False else rp for rp in rp_group] \
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/conf.py", line 106, in find_cited_doi
+    doi = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="doi"]'
+TypeError: must be str, not NoneType
