@@ -77,7 +77,7 @@ class BibliographicReferenceStorer(object):
 
     def add_reference(self, bib_entry=None, process_it=True,
                       string_local_id=None, string_doi=None,
-                      string_pmid=None, string_pmcid=None, string_url=None):
+                      string_pmid=None, string_pmcid=None, string_url=None, ref_xmlid=None):
         if self.last_ref_list is not None and not self.error:
             cur_reference = {}
 
@@ -94,6 +94,8 @@ class BibliographicReferenceStorer(object):
                 cur_reference["pmcid"] = string_pmcid
             if string_url is not None:
                 cur_reference["url"] = string_url
+            if ref_xmlid is not None:
+                cur_reference["xmlid"] = ref_xmlid
 
             if cur_reference:
                 self.last_ref_list += [cur_reference]

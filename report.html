@@ -63,9 +63,12 @@
 		|		<em>ADDED parameter <u>intext_refs=False</u></em>
 		|		<em>l.306 call to JATS2OC class to fill</em>
 		|		<em><u>self.rs.ref_pointer_list</u></em>
+		|		<em>ll. 265, 303-311 ADDED <u>ref_xmlid</u></em>
 		| <em>calls</em>
 		<strong>bee/refstorer.py</strong>
 			|	<em>l.67 ADDED method <u>new_ref_pointer_list()</u></em>
+			<strong>bee/refstorer.py#add_reference()</strong>
+			|	<em>l.78 ADDED parameter <u>ref_xmlid</u> and new k:v in "references"</em>
 			<strong>bee/refstorer.py#store()</strong>
 			|	<em>l.129 ADDED the JSON snippet</em>
 			|	<em><u>json_item["reference_pointers"] = self.ref_pointer_list</u></em>

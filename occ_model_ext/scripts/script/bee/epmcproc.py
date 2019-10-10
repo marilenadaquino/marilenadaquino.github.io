@@ -262,6 +262,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         ref_doi = None
                         ref_pmcid = None
                         ref_url = None
+                        ref_xmlid = None 
 
                         ref_pmid_el = reference.xpath(".//pub-id[@pub-id-type='pmid']")
                         if len(ref_pmid_el):
@@ -299,8 +300,15 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                             if not ref_url.startswith("http"):
                                 ref_url = None
 
+                        if ref_xmlid is None:
+                            ref_xmlid_attr = reference.get('id')
+                            if len(ref_xmlid_attr):
+                                ref_xmlid = ref_xmlid_attr
+                                if ref_xmlid == "":
+                                    ref_xmlid = None
+
                         self.rs.add_reference(entry_text, process_entry_text,
-                                              None, ref_doi, ref_pmid, ref_pmcid, ref_url)
+                                              None, ref_doi, ref_pmid, ref_pmcid, ref_url, ref_xmlid)
 
                      
                     if intext_refs and len(reference_pointers):
@@ -346,7 +354,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
 
                 self.rs.add_reference(entry_text, process_entry_text,
                                       ref_localid, ref_doi,
-                                      ref_pmid, ref_pmcid, ref_url)
+                                      ref_pmid, ref_pmcid, ref_url, None)
             return ref_list_url
 
     def __get_data(self, get_url, is_json=True):

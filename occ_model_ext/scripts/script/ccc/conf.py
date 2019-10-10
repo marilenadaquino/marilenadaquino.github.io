@@ -71,8 +71,8 @@ def find_rp(root):
 	if len(root.xpath('.//xref[@ref-type="bibr"]')) != 0:
 		rp_path = 'xref[@ref-type="bibr"]'
 	else:
-		if len(root.xpath('.//xref[@rid = .//ref/@id]')) != 0:
-			rp_path = 'xref[@rid = .//ref/@id]'
+		if len(root.xpath('.//xref[@rid = //ref/@id]')) != 0:
+			rp_path = 'xref[@rid = //ref/@id]'
 	return rp_path
 
 
@@ -93,7 +93,10 @@ def get_be_id(elem):
 	params: elem -- the XML element including the rp
 	return: ID of the XML element including the be denoted by the rp
 	"""
-	return elem.get('rid')
+	if 'rid' in elem.attrib:
+		return elem.get('rid')
+	else:
+		return elem.getparent().get('rid')
 
 
 def find_cited_doi(elem,root):
@@ -123,6 +126,21 @@ def find_cited_doi(elem,root):
 	be_text = ET.tostring(root.find(be_path), method="text", encoding='unicode', with_tail=False).strip() 
 	return be_id, be_text
 
+
+def find_xmlid(elem,root):
+	"""
+	params: elem -- the XML element OR the text value of the XML element including the rp
+	params: root -- the root element of the XML document
+	return: xmlid of the rp, i.e. of the bibentry denoted by the rp
+	"""
+	if isinstance(elem, str) == False:
+		xmlid = get_be_id(elem)
+	else:
+		if root.find('.//ref[label="'+elem+'"]') is not None:
+			xmlid = root.find('.//ref[label="'+elem+'"]').get('id')
+		else:
+			xmlid = None
+	return xmlid
 
 # methods for XML/text parsing
 def clean(string):
@@ -266,6 +284,9 @@ def find_closest_parent(elem, root):
 		else:
 			parent = elem.xpath('./ancestor::'+section_tag)
 	return et.getpath(parent[0])
+
+
+#def get_rp_or_pl_path(elem, root):
 
 
 # methods for serialising RDF
