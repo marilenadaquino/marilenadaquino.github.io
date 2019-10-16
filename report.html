@@ -27,6 +27,17 @@
 						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
 					</div>
 				</section>
+				<!-- Section -->
+				<section id="w15">
+					<header>
+						<h2>#w15</h2>
+					</header>
+					<div class="content">
+						<p><strong>October 14, 2019 - October 18, 2019</strong></p>
+						<p>Found other exceptions in the subset of OA-PMC - for the sake of completeness, exceptions are recorded in the <a href="#exceptions_oa">list</a> below). Mainly they regard the markup of lists and sequences. Currently, such exceptions are handled by ensuring that at least <em>all single pointers</em> are extracted regardless these are in lists or not, so as to ensure completeness of extracted pointers rather than precision in locating them in lists</p>
+						<p>In the future I'll improve the script so as to handle all the exceptions iteratively (my test case will be the paper <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> which includes all the possible inconsistencies allowed by JATS schema)</p>
+					</div>
+				</section>
 
 				<!-- Section -->
 				<!-- <section id="w">
@@ -75,13 +86,14 @@
 	</code>
 </pre>
 						<p>Still working on recognizing all the exceptions in reference pointer citation styles in OA-PMC. ATM we have the following scenarios:</p>
-						<ul>
+						<ul id="exceptions_oa">
 							<li><code>sup/xref[@ref-type]</code> [DONE]</li>
 							<li><code>xref[@ref-type]/sup</code> [DONE]</li>
 							<li><code>'('+xref[@ref-type]+')'</code> <code>'['+xref[@ref-type]+']'</code> [DONE]</li>
 							<li><code>'['+xref[not(@ref-type)]+']'</code> [DONE]</li>
 							<li><code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code> meaning the text identifies a sequence but only one ref@id is recorded in @rid [WIP, ignoring the text ATM]</li>
 							<li><code>xref[@ref-type]/sup + sup[/text() = ','] + xref[@ref-type]/sup</code> to make a list [WIP, at the moment I consider them single pointers]</li>
+							<li><code>xref[@rid][@ref-type="bibr"][italic]/text()</code> and contains comma (e.g. Amass<italic>et al.</italic>, 2000</xref>). In this case there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not).</li>
 						</ul>
 					</div>
 				</section>

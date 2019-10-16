@@ -17,10 +17,7 @@ from lxml import etree as ET
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
 
 # TO REMOVE
-pl_start_sep = '['
-pl_end_sep = ']'.encode('utf-8')
-pl_start_separators = ['[','(']
-pl_end_separators = [']',')']
+list_separators = [('[', ']'), ('(', ')')]
 rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
 
 # XPATH: modify find_rp() to associate the correct xml element to rp
@@ -73,6 +70,8 @@ def find_rp(root):
 	else:
 		if len(root.xpath('.//xref[@rid = //ref/@id]')) != 0:
 			rp_path = 'xref[@rid = //ref/@id]'
+		else:
+			print('seems there are no xref in this article')
 	return rp_path
 
 
@@ -133,13 +132,19 @@ def find_xmlid(elem,root):
 	params: root -- the root element of the XML document
 	return: xmlid of the rp, i.e. of the bibentry denoted by the rp
 	"""
+
 	if isinstance(elem, str) == False:
 		xmlid = get_be_id(elem)
 	else:
-		if root.find('.//ref[label="'+elem+'"]') is not None:
-			xmlid = root.find('.//ref[label="'+elem+'"]').get('id')
-		else:
-			xmlid = None
+		for ref in root.xpath('.//ref-list/ref'):
+			label = ref.find('./label')
+			cleaned = ''.join(e for e in label.text if e.isalnum())
+			if elem == cleaned:
+				xmlid = ref.get('id')
+			# if root.find('.//ref[label="'+elem+'"]') is not None:
+			# 	xmlid = root.find('.//ref[label="'+elem+'"]').get('id')
+			# else:
+				# 	xmlid = None
 	return xmlid
 
 # methods for XML/text parsing
@@ -150,7 +155,7 @@ def clean(string):
 
 def get_text_before(elem):
 	""" extract text before an xml element till the start tag of the parent element"""
-	for item in elem.xpath("preceding-sibling::*/text()|preceding-sibling::text()"):
+	for item in elem.xpath("preceding-sibling::*//text()|preceding-sibling::text()"):
 		item = item
 		if item:
 			yield item
@@ -158,19 +163,26 @@ def get_text_before(elem):
 
 def get_text_after(elem):
 	""" extract text after an xml element till the end tag of the parent element"""
-	for item in elem.xpath("following-sibling::*/text()|following-sibling::text()"):
+	for item in elem.xpath("following-sibling::*//text()|following-sibling::text()"):
 		item = item
 		if item:
 			yield item
 
 
-def xpath_sentence(elem, root, abb_list_path):
+def xpath_sentence(elem, root, abb_list_path, end_sep=None):
 	"""
 	params: elem -- the rp
 	params: root -- the root element of the XML document
 	params: abb_list_path -- a txt file including the list of abbreviations for splitting sentences
 	return: XPath of the sentence including the rp
 	"""
+	et = ET.ElementTree(root)
+	
+	if end_sep:
+		start_seps = [tup[0] for tup in list_separators if end_sep == tup[1]]
+		if len(start_seps) == 0:
+			elem = elem.getparent()
+	
 	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 	with open(abb_list_path, 'r') as f:
 		abbreviations_list = [line.strip() for line in f.readlines() if not len(line) == 0]
@@ -179,8 +191,8 @@ def xpath_sentence(elem, root, abb_list_path):
 	punkt_param.abbrev_types = set(abbreviations_list)
 	sentence_splitter = PunktSentenceTokenizer(punkt_param)
 
-	string_before = "".join(get_text_before(elem)).strip()
-	string_after = "".join(get_text_after(elem)).strip()
+	string_before = "".join(get_text_before(elem))
+	string_after = "".join(get_text_after(elem))
 
 	# offset of sentence in the stringified parent element that include the rp 
 	# (0-based index transformed in 1-based index -- +1 -- to comply with XPath)
@@ -195,32 +207,41 @@ def xpath_sentence(elem, root, abb_list_path):
 	else:
 		str_after = sentence_splitter.tokenize( string_after )[0]
 	len_sent = len(str_before+elem_value+str_after)
-	sent_xpath_function = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
+	sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 	return sent_xpath_function
 
 
-def xpath_list(elem, root, start_sep, end_sep):
+def xpath_list(elem, root, end_sep):
 	"""
 	params: elem -- the rp
 	params: root -- the root element of the XML document
 	params: strat_sep, end_sep -- separators of the substring representing a list
 	return: XPath of the list including the rp
 	"""
-	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
-	string_before = "".join(get_text_before(elem)).strip()
-	string_after = "".join(get_text_after(elem)).strip()
-	if string_before.rfind(start_sep) != -1:
-		start_sep_index = string_before.rfind(start_sep)+1
-	else:
-		start_sep_index = 1
-	if string_after.find(end_sep.decode('utf-8')) != -1:
-		end_sep_index = string_after.find(end_sep.decode('utf-8'))+1 # include the character
-	else:
-		end_sep_index = len(string_after)
-	strin = string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1]
-	py_strin = string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]
-	len_list = len(strin)
-	list_xpath_function = 'substring(string(./'+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
+	et = ET.ElementTree(root)
+	start_seps = [tup[0] for tup in list_separators if end_sep == tup[1]]
+	
+	if len(start_seps) != 0:
+		start_sep = start_seps[0]
+		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
+		string_before = "".join(get_text_before(elem)).strip()
+		string_after = "".join(get_text_after(elem)).strip()
+
+		if string_before.rfind(start_sep) != -1:
+			start_sep_index = string_before.rfind(start_sep)+1
+		else:
+			start_sep_index = 1
+		if string_after.find(end_sep) != -1:
+			end_sep_index = string_after.find(end_sep)+1 # include the character
+		else:
+			end_sep_index = len(string_after)
+		
+		py_strin = string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]
+		len_list = len( string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1] )
+		list_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
+	else: # parent element
+		py_strin = ET.tostring(elem.getparent(), method="text", encoding='unicode', with_tail=False)
+		list_xpath_function = et.getpath(elem.getparent())
 	return [py_strin,list_xpath_function]
 
 
@@ -255,12 +276,10 @@ def find_container_title(elem, container_tag, root):
 	return: title -- the tag of the element containing the title of the container
 	"""
 	et = ET.ElementTree(root)
-	title = elem.xpath('./ancestor-or-self::'+container_tag+'[1]//'+title_tag)
-	if len(elem.xpath('./ancestor-or-self::'+container_tag+'[1]//'+title_tag)) != 0:
-		title = ET.tostring( elem.xpath('./ancestor-or-self::'+container_tag+'[1]//'+title_tag)[0], method="text", encoding='unicode', with_tail=False).strip()
-	else:
-		title = ''
-	return title
+	title_list = [ET.tostring( x, method="text", encoding='unicode', with_tail=False).strip() for x in elem.xpath('./ancestor::node()/'+title_tag)]
+	if len(title_list) == 0:
+		title_list = ''
+	return title_list
 
 
 def find_closest_parent(elem, root):

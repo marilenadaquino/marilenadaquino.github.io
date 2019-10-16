@@ -314,7 +314,8 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                     if intext_refs and len(reference_pointers):
                         self.rs.new_ref_pointer_list() # create empty list 
                         jats = Jats2OC(cur_xml) # add result to self.ref_pointer_list  
-                        self.rs.ref_pointer_list.append(jats.extract_intext_refs())
+                        for x in jats.extract_intext_refs():
+                            self.rs.ref_pointer_list.append(x)
                     return xml_source_url
                 
     
@@ -354,7 +355,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
 
                 self.rs.add_reference(entry_text, process_entry_text,
                                       ref_localid, ref_doi,
-                                      ref_pmid, ref_pmcid, ref_url, None)
+                                      ref_pmid, ref_pmcid, ref_url, None) # TODO none xmlid
             return ref_list_url
 
     def __get_data(self, get_url, is_json=True):
