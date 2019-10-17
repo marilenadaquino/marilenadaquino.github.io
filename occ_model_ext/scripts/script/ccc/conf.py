@@ -18,7 +18,7 @@ abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__)
 
 # TO REMOVE
 list_separators = [('[', ']'), ('(', ')')]
-rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8')] # first lists separator, second sequences separator
+rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
 
 # XPATH: modify find_rp() to associate the correct xml element to rp
 rp_tail = '/following-sibling::text()[1]'
@@ -71,6 +71,7 @@ def find_rp(root):
 		if len(root.xpath('.//xref[@rid = //ref/@id]')) != 0:
 			rp_path = 'xref[@rid = //ref/@id]'
 		else:
+			rp_path = None
 			print('seems there are no xref in this article')
 	return rp_path
 
@@ -153,6 +154,36 @@ def clean(string):
 	return string.encode('utf-8').strip()
 
 
+def clean_list(l):
+	"""given a list of strings/elements returns a new list with stripped strings and elements"""
+	# only strings
+	new_l = []
+	type_l = list({type(item) for item in l})
+	if len(type_l) == 1 and type_l[0] == str:
+		string_list = True
+	else:
+		string_list = False
+
+	if string_list == True:
+		for x in l:
+			if len(x) != 0 and '\n' in x:
+				y = x.replace("\n","")
+				if len(y) != 0:
+					new_l.append(y[:1])
+			elif len(x) != 0 and '\n' not in x:
+				new_l.append(x[:1])
+	else:
+		for x in l: # strings and elems
+			if isinstance(x, str) == True and len(x) != 0 and '\n' in x:
+				y = x.replace("\n","")
+				if len(y) != 0:
+					new_l.append(y[0])
+			elif isinstance(x, str) == True and '\n' not in x:
+				new_l.append(x[0])
+			else:
+				new_l.append(x)
+	return new_l
+
 def get_text_before(elem):
 	""" extract text before an xml element till the start tag of the parent element"""
 	for item in elem.xpath("preceding-sibling::*//text()|preceding-sibling::text()"):
@@ -169,19 +200,15 @@ def get_text_after(elem):
 			yield item
 
 
-def xpath_sentence(elem, root, abb_list_path, end_sep=None):
+def xpath_sentence(elem, root, abb_list_path, parent=None):
 	"""
 	params: elem -- the rp
 	params: root -- the root element of the XML document
 	params: abb_list_path -- a txt file including the list of abbreviations for splitting sentences
 	return: XPath of the sentence including the rp
 	"""
-	et = ET.ElementTree(root)
-	
-	if end_sep:
-		start_seps = [tup[0] for tup in list_separators if end_sep == tup[1]]
-		if len(start_seps) == 0:
-			elem = elem.getparent()
+	if parent:
+		elem = elem.getparent()
 	
 	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 	with open(abb_list_path, 'r') as f:
@@ -199,10 +226,13 @@ def xpath_sentence(elem, root, abb_list_path, end_sep=None):
 	if len(string_before) == 0:
 		str_before = ''
 		start_sent = 1
+	elif len(string_before) != 0 and string_before.isspace():
+		str_before = string_before
+		start_sent = 1
 	else:
 		str_before = sentence_splitter.tokenize( string_before )[-1]
 		start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
-	if len(string_after) == 0:
+	if len(string_after) == 0 or string_after.isspace():
 		str_after = ''
 	else:
 		str_after = sentence_splitter.tokenize( string_after )[0]

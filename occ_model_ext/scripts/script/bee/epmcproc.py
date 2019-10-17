@@ -251,7 +251,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 cur_xml = etree.fromstring(xml_source)
 
                 references = cur_xml.xpath("//ref-list/ref")
-                reference_pointers = cur_xml.xpath("//xref")
+                reference_pointers = cur_xml.xpath("//xref[@rid = //ref/@id]")
                 if len(references):
                     self.rs.new_ref_list()
                     for reference in references:

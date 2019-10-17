@@ -34,8 +34,73 @@
 					</header>
 					<div class="content">
 						<p><strong>October 14, 2019 - October 18, 2019</strong></p>
-						<p>Found other exceptions in the subset of OA-PMC - for the sake of completeness, exceptions are recorded in the <a href="#exceptions_oa">list</a> below). Mainly they regard the markup of lists and sequences. Currently, such exceptions are handled by ensuring that at least <em>all single pointers</em> are extracted regardless these are in lists or not, so as to ensure completeness of extracted pointers rather than precision in locating them in lists</p>
+						<p>Found other exceptions in the subset of OA-PMC - for the sake of completeness, exceptions are recorded in the <a href="#exceptions_table">table</a> below). Mainly they regard the markup of lists and sequences. Currently, such exceptions are handled by ensuring that at least <em>all single pointers</em> are extracted regardless these are in lists or not, so as to ensure completeness of extracted pointers rather than precision in locating them in lists</p>
 						<p>In the future I'll improve the script so as to handle all the exceptions iteratively (my test case will be the paper <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> which includes all the possible inconsistencies allowed by JATS schema)</p>
+						<h3>Exceptions table</h3>
+						<p>
+							<table id="exceptions_table">
+								<thead>
+									<th>path</th>
+									<th>description</th>
+									<th>example XML</th>
+									<th>status</th>
+								</thead>
+								<tr>
+									<td><code>sup/xref[@ref-type]</code></td>
+									<td></td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/30899012/fullTextXML">30899012</a></td>
+									<td>[DONE]</td>
+								</tr>
+								<tr>
+									<td><code>xref[@ref-type]/sup</code> </td>
+									<td></td>
+									<td></td>
+									<td>[DONE]</td>
+								</tr>
+								<tr>
+									<td><code>'('+xref[@ref-type]+')'</code> or <code>'['+xref[@ref-type]+']'</code></td>
+									<td></td>
+									<td></td>
+									<td>[DONE]</td>
+								</tr>
+								<tr>
+									<td><code>'['+xref[not(@ref-type)]+']'</code></td>
+									<td></td>
+									<td></td>
+									<td>[DONE]</td>
+								</tr>
+								<tr>
+									<td><code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code></td>
+									<td>the text identifies a sequence but only the first ref@id is recorded in @rid </td>
+									<td> <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31537132/fullTextXML">31537132</a></td>
+									<td>[extracting only the xref with @rid]</td>
+								</tr>
+								<tr>
+									<td><code>xref[@ref-type]/sup + sup[/text() = ','] + xref[@ref-type]/sup</code></td>
+									<td>list</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31322015/fullTextXML">31322015</a></td>
+									<td>[WIP, ATM extract all as rp]</td>
+								</tr>
+								<tr>
+									<td><code>xref[@rid][@ref-type="bibr"][italic]/text()</code> </td>
+									<td>contains comma (e.g. <pre><code>Amass <italic>et al.</italic>, 2000</code></pre>); may be wrapped in a <code>attrib</code> element; inconsistency in the usage of separators (sometimes there are, sometimes do not)</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a></td>
+									<td>[ATM extracting only rp, ignoring the rest]</td>
+								</tr>
+								<tr>
+									<td><code>"["+ xref + "," + xref + "-" + xref +"]"</code></td>
+									<td>list and sequence in the same group</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31243649/fullTextXML">31243649</a></td>
+									<td>[ATM do not extract intermediate rp of sequences]</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>
+						</p>
 					</div>
 				</section>
 
@@ -87,13 +152,40 @@
 </pre>
 						<p>Still working on recognizing all the exceptions in reference pointer citation styles in OA-PMC. ATM we have the following scenarios:</p>
 						<ul id="exceptions_oa">
-							<li><code>sup/xref[@ref-type]</code> [DONE]</li>
-							<li><code>xref[@ref-type]/sup</code> [DONE]</li>
-							<li><code>'('+xref[@ref-type]+')'</code> <code>'['+xref[@ref-type]+']'</code> [DONE]</li>
-							<li><code>'['+xref[not(@ref-type)]+']'</code> [DONE]</li>
-							<li><code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code> meaning the text identifies a sequence but only one ref@id is recorded in @rid [WIP, ignoring the text ATM]</li>
-							<li><code>xref[@ref-type]/sup + sup[/text() = ','] + xref[@ref-type]/sup</code> to make a list [WIP, at the moment I consider them single pointers]</li>
-							<li><code>xref[@rid][@ref-type="bibr"][italic]/text()</code> and contains comma (e.g. Amass<italic>et al.</italic>, 2000</xref>). In this case there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not).</li>
+							<li>
+								<code>sup/xref[@ref-type]</code> 
+								e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/30899012/fullTextXML">30899012</a> [DONE]
+							</li>
+							<li>
+								<code>xref[@ref-type]/sup</code> 
+								[DONE]
+							</li>
+							<li>
+								<code>'('+xref[@ref-type]+')'</code> or <code>'['+xref[@ref-type]+']'</code> 
+								[DONE]
+							</li>
+							<li>
+								<code>'['+xref[not(@ref-type)]+']'</code> 
+								[DONE]
+							</li>
+							<li>
+								<code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code> 
+								meaning the text identifies a sequence but only one ref@id is recorded in @rid 
+								[WIP, ignoring the text ATM and extracting only the xref with @rid]
+							</li>
+							<li>
+								<code>xref[@ref-type]/sup + sup[/text() = ','] + xref[@ref-type]/sup</code> to make a list e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31322015/fullTextXML">31322015</a>
+								[WIP, at the moment I consider them single pointers]
+							</li>
+							<li>
+								<code>xref[@rid][@ref-type="bibr"][italic]/text()</code> 
+								it contains comma (e.g. Amass<italic>et al.</italic>, 2000</xref>), may be wrapped in a <code>attrib</code> element and there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not). e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> 
+								[ATM extracting only single pointers, ignoring separators and parent elements]
+							</li>
+							<li>
+								<code>[<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR17">17</xref>]</code> 
+								meaning a list and a sequence in the same separator e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31243649/fullTextXML">31243649</a>. At the moment it's handled as a list, meaning that the intermediate (10-17) are not extracted
+							</li>
 						</ul>
 					</div>
 				</section>

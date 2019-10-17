@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import script.ccc.conf as conf
-import uuid , itertools , os , pprint
+import uuid , itertools , os , pprint ,re
 from lxml import etree as ET
 from script.ocdm.graphlib import *
 from rdflib import Graph, URIRef
@@ -17,8 +17,8 @@ class Jats2OC(object):
 		#self.xml_doc = xml_doc
 		self.root = xml_doc
 		self.xmlp = ET.XMLParser(encoding="utf-8")
-		#self.tree = ET.parse(xml_doc, self.xmlp) # comm for run.py
-		#self.root = self.tree.getroot() # comm for run.py
+		self.tree = ET.parse(xml_doc, self.xmlp) # comm for run.py
+		self.root = self.tree.getroot() # comm for run.py
 		self.et = ET.ElementTree(self.root)
 
 
@@ -32,15 +32,7 @@ class Jats2OC(object):
 			if x.tag not in conf.parent_elements_names]).most_common(1)
 
 		# most common end separator
-		rp_end_separator = []
-		for x in self.root.xpath('//'+rp+'/following-sibling::text()'):
-			if len(x) != 0 and '\n' in x:
-				y = x.replace("\n","")
-				if len(y) != 0:
-					rp_end_separator.append(y[:1])
-			elif len(x) != 0 and '\n' not in x:
-				rp_end_separator.append(x[:1])
-					
+		rp_end_separator = conf.clean_list(self.root.xpath('//'+rp+'/following-sibling::text()'))				
 		rp_end_separator = Counter(rp_end_separator).most_common(1)
 		
 		# most common child
@@ -60,63 +52,49 @@ class Jats2OC(object):
 			rp_groups = [] 
 			for group in self.root.xpath('.//'+rp_closest_parent[0][0]+'['+rp+']'):
 				group_list = [x for x in group.xpath('./'+rp+' | ./'+rp+conf.rp_tail)]
-				context = []
-				for x in group_list:
-					if isinstance(x, str) == True and len(x) != 0 and '\n' in x:
-						y = x.replace("\n","")
-						if len(y) != 0:
-							context.append(y[0])
-					elif isinstance(x, str) == True and '\n' not in x:
-						context.append(x[0])
-					else:
-						context.append(x)	
+				context = conf.clean_list(group_list)
 				rp_groups.append(context)
-			end_separator = rp_closest_parent[0][0]
+			end_separator , parent = rp_closest_parent[0][0] , rp_closest_parent[0][0]
 		
 		# CASE 2 e.g. xref/sup, random separators -- ATM we consider them ALL singleton, do not consider separators
 		elif len(rp_closest_parent) == 0 and len(rp_children) != 0: 
 			rp_groups = [[x] for x in self.root.xpath('.//'+rp+'/'+rp_children[0][0])]
-			# TODO end_separator  
+			end_separator , parent = rp , rp
 		
 		# TODO
-		# 2.1. xref/sup + element (sup) separators for lists
+		# 2.1. e.g. 31322015 xref/sup + element (sup) separators for lists
 		# 2.2. e.g. 31537132 xref/sup, separators for sequences in text, but only one @rid in xref 
 		# pl_string/xpath methods
 
 		# CASE 3 e.g. 31531096 xref, separated by [],()
 		elif len(rp_closest_parent) == 0 and len(rp_end_separator) != 0 and len(rp_children) == 0:
-			cont = self.root.xpath('//'+rp+' | //'+rp+conf.rp_tail)
-			context = []
-			for x in cont:
-				if isinstance(x, str) == True and len(x) != 0 and '\n' in x:
-					y = x.replace("\n","")
-					if len(y) != 0:
-						context.append(y[0])
-				elif isinstance(x, str) == True and '\n' not in x:
-					context.append(x[0])
-				else:
-					context.append(x)		
+			context = conf.clean_list(self.root.xpath('//'+rp+' | //'+rp+conf.rp_tail))
 			rp_and_separator = [conf.clean(elem).strip().decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
 			rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==rp_end_separator[0][0]) if not x[0]] # group rp by separator		
 			end_separator = rp_end_separator[0][0]
+			parent = None
 		
 		# CASE 4
 		# TODO improve -- ATM we consider them ALL singleton, do not consider separators
 		elif len(rp_closest_parent) == 0 and len(rp_end_separator) == 0 and len(rp_children) == 0:
 			rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
+			end_separator, parent = None , None
 			
 		# CASE 5 e.g. 31532339 [('attrib', 3)] [(')', 59)] [('italic', 32)] and sometimes no separator/parent
 		# TODO improve -- ATM we consider them ALL singleton, do not consider separators
 		elif len(rp_closest_parent) != 0 and len(rp_end_separator) != 0 and len(rp_children) != 0:
 			rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
+			end_separator, parent = None , None # this is not always true
 		
 		else:
+			end_separator, parent = None , None
 			print('', rp_closest_parent, rp_end_separator, rp_children)
 			
 		
 		# add group type rp/pl		
 		for group in rp_groups:
-			if conf.rp_separators_in_list[0].decode('utf-8') in group:
+			if conf.rp_separators_in_list[0].decode('utf-8') in group \
+			or conf.rp_separators_in_list[2].decode('utf-8') in group:
 				group.append('list')
 			elif conf.rp_separators_in_list[1].decode('utf-8') in group:
 				group.append('sequence')
@@ -138,7 +116,7 @@ class Jats2OC(object):
 						rp_dict["rp_xpath"] = self.et.getpath(rp)
 						rp_dict["pl_string"] = conf.xpath_list(rp, self.root, end_separator)[0]
 						rp_dict["pl_xpath"] = conf.xpath_list(rp, self.root, end_separator)[1]
-						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, end_separator)
+						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
 						rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
 						group.append(rp_dict)
 			if 'sequence' in rp_group:
@@ -150,7 +128,7 @@ class Jats2OC(object):
 						rp_dict["rp_xpath"] = self.et.getpath(rp)
 						rp_dict["pl_string"] = conf.xpath_list(rp, self.root, end_separator)[0]
 						rp_dict["pl_xpath"] = conf.xpath_list(rp, self.root, end_separator)[1]
-						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, end_separator)
+						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
 						rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
 						group.append(rp_dict)
 						group.append("sequence")
@@ -161,7 +139,7 @@ class Jats2OC(object):
 						rp_dict["xref"] = conf.find_xmlid(rp, self.root)
 						rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
 						rp_dict["rp_xpath"] = self.et.getpath(rp)
-						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path)
+						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
 						rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
 						group.append(rp_dict)
 			self.metadata.append(group)
@@ -169,16 +147,17 @@ class Jats2OC(object):
 		# extend sequences
 		for groups in self.metadata: # lists in list
 			if 'sequence' in groups:
-				range_values = [int(group['rp_string']) for group in groups if isinstance(group, str) == False]
-				range_values.sort()
-				for intermediate in range(int(range_values[0])+1,int(range_values[1])):
-					rp_dict = {}
-					rp_dict["xref"] = conf.find_xmlid(str(intermediate),self.root)
-					rp_dict["pl_string"] = groups[0]['pl_string']
-					rp_dict["pl_xpath"] = groups[0]['pl_xpath']
-					rp_dict["context_xpath"] = groups[0]['context_xpath']
-					rp_dict["containers_title"] = groups[0]['containers_title']
-					groups.append(rp_dict)
+				range_values = [int( re.sub('[^0-9]','', group['rp_string']) ) for group in groups if isinstance(group, str) == False]
+				if len(range_values) != 0:	
+					range_values.sort()
+					for intermediate in range(int(range_values[0])+1,int(range_values[1])):
+						rp_dict = {}
+						rp_dict["xref"] = conf.find_xmlid(str(intermediate),self.root)
+						rp_dict["pl_string"] = groups[0]['pl_string']
+						rp_dict["pl_xpath"] = groups[0]['pl_xpath']
+						rp_dict["context_xpath"] = groups[0]['context_xpath']
+						rp_dict["containers_title"] = groups[0]['containers_title']
+						groups.append(rp_dict)
 				groups.remove("sequence")
 		# remove the type of group
 		self.metadata = [[rp for rp in rp_group if isinstance(rp, str) == False] for rp_group in self.metadata]
