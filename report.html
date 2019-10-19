@@ -36,6 +36,9 @@
 						<p><strong>October 14, 2019 - October 18, 2019</strong></p>
 						<p>Found other exceptions in the subset of OA-PMC - for the sake of completeness, exceptions are recorded in the <a href="#exceptions_table">table</a> below). Mainly they regard the markup of lists and sequences. Currently, such exceptions are handled by ensuring that at least <em>all single pointers</em> are extracted regardless these are in lists or not, so as to ensure completeness of extracted pointers rather than precision in locating them in lists</p>
 						<p>In the future I'll improve the script so as to handle all the exceptions iteratively (my test case will be the paper <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> which includes all the possible inconsistencies allowed by JATS schema)</p>
+						
+						<p>[UPDATE 18.10.2019] I'm completely refactoring the code so as to handle 99% of exceptions one-by-one.</p>
+
 						<h3>Exceptions table</h3>
 						<p>
 							<table id="exceptions_table">
@@ -72,19 +75,19 @@
 								<tr>
 									<td><code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code></td>
 									<td>the text identifies a sequence but only the first ref@id is recorded in @rid </td>
-									<td> <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31537132/fullTextXML">31537132</a></td>
+									<td> <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31537132/fullTextXML">31537132</a> [TEST 3][TEST 4]</td>
 									<td>[extracting only the xref with @rid]</td>
 								</tr>
 								<tr>
 									<td><code>xref[@ref-type]/sup + sup[/text() = ','] + xref[@ref-type]/sup</code></td>
 									<td>list</td>
-									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31322015/fullTextXML">31322015</a></td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31322015/fullTextXML">31322015</a> [TEST 4]</td>
 									<td>[WIP, ATM extract all as rp]</td>
 								</tr>
 								<tr>
 									<td><code>xref[@rid][@ref-type="bibr"][italic]/text()</code> </td>
 									<td>contains comma (e.g. <pre><code>Amass <italic>et al.</italic>, 2000</code></pre>); may be wrapped in a <code>attrib</code> element; inconsistency in the usage of separators (sometimes there are, sometimes do not)</td>
-									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a></td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> [TEST 2]</td>
 									<td>[ATM extracting only rp, ignoring the rest]</td>
 								</tr>
 								<tr>
@@ -92,6 +95,18 @@
 									<td>list and sequence in the same group</td>
 									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31243649/fullTextXML">31243649</a></td>
 									<td>[ATM do not extract intermediate rp of sequences]</td>
+								</tr>
+								<tr>
+									<td>"("+ xref[contains=')']</td>
+									<td>the end separator is inconsistently put in/outside the xref, which results in very long lists</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31251352/fullTextXML">31251352</a></td>
+									<td>[WIP]</td>
+								</tr>
+								<tr>
+									<td>xref/sup+","+sup/xref +"," +xref</sup></td>
+									<td>xref/sup and sup including several xref</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31257432/fullTextXML">31257432</a> [TEST 4]</td>
+									<td>[WIP]</td>
 								</tr>
 								<tr>
 									<td></td>
@@ -179,7 +194,7 @@
 							</li>
 							<li>
 								<code>xref[@rid][@ref-type="bibr"][italic]/text()</code> 
-								it contains comma (e.g. Amass<italic>et al.</italic>, 2000</xref>), may be wrapped in a <code>attrib</code> element and there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not). e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> 
+								it contains comma (e.g. Amass<italic>et al.</italic>, 2000), may be wrapped in a <code>attrib</code> element and there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not). e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> 
 								[ATM extracting only single pointers, ignoring separators and parent elements]
 							</li>
 							<li>

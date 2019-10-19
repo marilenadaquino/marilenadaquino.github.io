@@ -32,136 +32,259 @@ class Jats2OC(object):
 			if x.tag not in conf.parent_elements_names]).most_common(1)
 
 		# most common end separator
-		rp_end_separator = conf.clean_list(self.root.xpath('//'+rp+'/following-sibling::text()'))				
-		rp_end_separator = Counter(rp_end_separator).most_common(1)
+		# rp_end_separator = conf.clean_list(self.root.xpath('//'+rp+'/following-sibling::*//text()|following-sibling::text()'))				
+		# rp_end_separator = Counter(rp_end_separator).most_common(1)
 		
 		# most common child
 		rp_children = Counter(x.tag for x in self.root.xpath('.//'+rp+conf.rp_child) ).most_common(1)
-		return rp_closest_parent, rp_end_separator, rp_children
+		print(rp_closest_parent, rp_children)
+		return rp_closest_parent, rp_children
 
 
-	def extract_intext_refs(self):
-		""" parse the input xml_doc and return a list of lists (rp_groups)"""
-		rp = conf.find_rp(self.root) # xpath of xref: either with @ref-type or without
-		rp_closest_parent = self.check_inline_citation_style()[0]
-		rp_end_separator = self.check_inline_citation_style()[1]
-		rp_children = self.check_inline_citation_style()[2]
+	# def extract_intext_refs(self):
+	# 	""" parse the input xml_doc and return a list of lists (rp_groups)"""
+	# 	rp = conf.find_rp(self.root) # xpath of xref: either with @ref-type or without
+	# 	rp_closest_parent = self.check_inline_citation_style()[0]
+	# 	rp_children = self.check_inline_citation_style()[1]
 		
-		# CASE 1 e.g. 30899012 sup/xref
-		if len(rp_closest_parent) != 0 and len(rp_children) == 0: 
-			rp_groups = [] 
-			for group in self.root.xpath('.//'+rp_closest_parent[0][0]+'['+rp+']'):
-				group_list = [x for x in group.xpath('./'+rp+' | ./'+rp+conf.rp_tail)]
-				context = conf.clean_list(group_list)
-				rp_groups.append(context)
-			end_separator , parent = rp_closest_parent[0][0] , rp_closest_parent[0][0]
+	# 	# NO SEPARATORS
+	# 	# CASE 1 e.g. 30899012 sup/xref
+	# 	if len(rp_closest_parent) != 0 and len(rp_children) == 0: 
+	# 		rp_groups = [] 
+	# 		for group in self.root.xpath('.//'+rp_closest_parent[0][0]+'['+rp+']'):
+	# 			group_list = [x for x in group.xpath('./'+rp+' | ./'+rp+conf.rp_tail)]
+	# 			context = conf.clean_list(group_list)
+	# 			rp_groups.append(context)
+	# 		end_separator , parent = rp_closest_parent[0][0] , rp_closest_parent[0][0]
 		
-		# CASE 2 e.g. xref/sup, random separators -- ATM we consider them ALL singleton, do not consider separators
-		elif len(rp_closest_parent) == 0 and len(rp_children) != 0: 
-			rp_groups = [[x] for x in self.root.xpath('.//'+rp+'/'+rp_children[0][0])]
-			end_separator , parent = rp , rp
-		
-		# TODO
-		# 2.1. e.g. 31322015 xref/sup + element (sup) separators for lists
-		# 2.2. e.g. 31537132 xref/sup, separators for sequences in text, but only one @rid in xref 
-		# pl_string/xpath methods
 
-		# CASE 3 e.g. 31531096 xref, separated by [],()
-		elif len(rp_closest_parent) == 0 and len(rp_end_separator) != 0 and len(rp_children) == 0:
-			context = conf.clean_list(self.root.xpath('//'+rp+' | //'+rp+conf.rp_tail))
-			rp_and_separator = [conf.clean(elem).strip().decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
-			rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==rp_end_separator[0][0]) if not x[0]] # group rp by separator		
-			end_separator = rp_end_separator[0][0]
-			parent = None
+	# 	# CASE 2 e.g. xref/sup, random separators -- ATM we consider them ALL singleton, do not consider separators
+	# 	elif len(rp_closest_parent) == 0 and len(rp_children) != 0: 
+	# 		rp_groups = [[x] for x in self.root.xpath('.//'+rp+'/'+rp_children[0][0])]
+	# 		end_separator , parent = rp , rp
 		
-		# CASE 4
-		# TODO improve -- ATM we consider them ALL singleton, do not consider separators
-		elif len(rp_closest_parent) == 0 and len(rp_end_separator) == 0 and len(rp_children) == 0:
-			rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
-			end_separator, parent = None , None
+	# 	# TODO
+	# 	# 2.1. e.g. 31322015 xref/sup + element (sup) separators for lists
+	# 	# 2.2. e.g. 31537132 xref/sup, separators for sequences in text, but only one @rid in xref 
+	# 	# pl_string/xpath methods
+
+	# 	# SEPARATORS
+	# 	# CASE 3 e.g. 31531096 xref, separated by [],()
+	# 	elif len(rp_closest_parent) == 0 and len(rp_children) == 0:
+	# 		end_separator = conf.rp_end_separator(self.root.xpath('//'+rp+conf.rp_tail))
+	# 		if len(end_separator) != 0:
+	# 			context = conf.clean_list(self.root.xpath('//'+rp+' | //'+rp+conf.rp_tail))
+	# 			rp_and_separator = [conf.clean(elem).strip().decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
+	# 			rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==end_separator[0][0]) if not x[0]] # group rp by separator		
+	# 			# TODO handle inconsistencies 
+	# 			# CASE 3.1 e.g. 31251352 separator inside xref sometimes, results in wrong long lists) -- if text includes () or does not include any then go, if includes only ) that's the separator
+
+	# 		# CASE 4
+	# 		if len(end_separator) == 0:
+	# 			rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
+	# 			end_separator = None
+	# 		parent = None
+		
 			
-		# CASE 5 e.g. 31532339 [('attrib', 3)] [(')', 59)] [('italic', 32)] and sometimes no separator/parent
-		# TODO improve -- ATM we consider them ALL singleton, do not consider separators
-		elif len(rp_closest_parent) != 0 and len(rp_end_separator) != 0 and len(rp_children) != 0:
-			rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
-			end_separator, parent = None , None # this is not always true
+	# 	# CASE 5 e.g. 31532339 [('attrib', 3)] [(')', 59)] [('italic', 32)] and sometimes no separator/parent
+	# 	# TODO improve -- ATM we consider them ALL singleton, do not consider separators
+	# 	elif len(rp_closest_parent) != 0 and len(rp_children) != 0:
+	# 		# and len(rp_end_separator) != 0
+	# 		rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
+	# 		end_separator, parent = None , None # this is not always true
 		
-		else:
-			end_separator, parent = None , None
-			print('', rp_closest_parent, rp_end_separator, rp_children)
+	# 	# CASE 6
+	# 	else:
+	# 		end_separator, parent = None , None
+	# 		rp_groups = [[x] for x in self.root.xpath('.//'+rp)]
+	# 		print('', rp_closest_parent, rp_end_separator, rp_children)
 			
+	# 	print(end_separator)
+	# 	pp.pprint(rp_groups)
 		
-		# add group type rp/pl		
-		for group in rp_groups:
-			if conf.rp_separators_in_list[0].decode('utf-8') in group \
-			or conf.rp_separators_in_list[2].decode('utf-8') in group:
-				group.append('list')
-			elif conf.rp_separators_in_list[1].decode('utf-8') in group:
-				group.append('sequence')
-			else:
-				group.append('singleton')
+	# 	# add group type rp/pl	
+	# 	# TODO when it's both a list and a sequence	e.g. 31243649
+	# 	for group in rp_groups:
+	# 		if conf.rp_separators_in_list[0].decode('utf-8') in group \
+	# 		or conf.rp_separators_in_list[2].decode('utf-8') in group:
+	# 			group.append('list')
+	# 		elif conf.rp_separators_in_list[1].decode('utf-8') in group:
+	# 			group.append('sequence')
+	# 		else:
+	# 			group.append('singleton')
 		
-		# remove separators 
-		groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups]
+	# 	# remove separators 
+	# 	groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups]
 		
+	# 	self.metadata = []
+	# 	for rp_group in groups:
+	# 		group = []
+	# 		if 'list' in rp_group: 
+	# 			for rp in rp_group:
+	# 				if (isinstance(rp, str) == False):
+	# 					rp_dict = {}
+	# 					rp_dict["xref"] = conf.find_xmlid(rp, self.root)
+	# 					rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
+	# 					rp_dict["rp_xpath"] = self.et.getpath(rp)
+	# 					rp_dict["pl_string"] = conf.xpath_list(rp, self.root, end_separator)[0]
+	# 					rp_dict["pl_xpath"] = conf.xpath_list(rp, self.root, end_separator)[1]
+	# 					rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
+	# 					rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
+	# 					group.append(rp_dict)
+	# 		if 'sequence' in rp_group:
+	# 			for rp in rp_group:
+	# 				if (isinstance(rp, str) == False):
+	# 					rp_dict = {}
+	# 					rp_dict["xref"] = conf.find_xmlid(rp, self.root)
+	# 					rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
+	# 					rp_dict["rp_xpath"] = self.et.getpath(rp)
+	# 					rp_dict["pl_string"] = conf.xpath_list(rp, self.root, end_separator)[0]
+	# 					rp_dict["pl_xpath"] = conf.xpath_list(rp, self.root, end_separator)[1]
+	# 					rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
+	# 					rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
+	# 					group.append(rp_dict)
+	# 					group.append("sequence")
+	# 		if 'singleton' in rp_group:
+	# 			for rp in rp_group:
+	# 				if isinstance(rp, str) == False:
+	# 					rp_dict = {}
+	# 					rp_dict["xref"] = conf.find_xmlid(rp, self.root)
+	# 					rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
+	# 					rp_dict["rp_xpath"] = self.et.getpath(rp)
+	# 					rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
+	# 					rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
+	# 					group.append(rp_dict)
+	# 		self.metadata.append(group)
+		
+	# 	# extend sequences
+	# 	for groups in self.metadata: # lists in list
+	# 		if 'sequence' in groups:
+	# 			range_values = [int( re.sub('[^0-9]','', group['rp_string']) ) for group in groups if isinstance(group, str) == False]
+	# 			if len(range_values) != 0:	
+	# 				range_values.sort()
+	# 				for intermediate in range(int(range_values[0])+1,int(range_values[1])):
+	# 					rp_dict = {}
+	# 					rp_dict["xref"] = conf.find_xmlid(str(intermediate),self.root)
+	# 					rp_dict["pl_string"] = groups[0]['pl_string']
+	# 					rp_dict["pl_xpath"] = groups[0]['pl_xpath']
+	# 					rp_dict["context_xpath"] = groups[0]['context_xpath']
+	# 					rp_dict["containers_title"] = groups[0]['containers_title']
+	# 					groups.append(rp_dict)
+	# 			groups.remove("sequence")
+	# 	# remove the type of group
+	# 	self.metadata = [[rp for rp in rp_group if isinstance(rp, str) == False] for rp_group in self.metadata]
+	# 	return self.metadata
+	
+	
+	def extract_intext_refs(self): # TODO change name
 		self.metadata = []
-		for rp_group in groups:
-			group = []
-			if 'list' in rp_group: 
-				for rp in rp_group:
-					if (isinstance(rp, str) == False):
-						rp_dict = {}
-						rp_dict["xref"] = conf.find_xmlid(rp, self.root)
-						rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
-						rp_dict["rp_xpath"] = self.et.getpath(rp)
-						rp_dict["pl_string"] = conf.xpath_list(rp, self.root, end_separator)[0]
-						rp_dict["pl_xpath"] = conf.xpath_list(rp, self.root, end_separator)[1]
-						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
-						rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
-						group.append(rp_dict)
-			if 'sequence' in rp_group:
-				for rp in rp_group:
-					if (isinstance(rp, str) == False):
-						rp_dict = {}
-						rp_dict["xref"] = conf.find_xmlid(rp, self.root)
-						rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
-						rp_dict["rp_xpath"] = self.et.getpath(rp)
-						rp_dict["pl_string"] = conf.xpath_list(rp, self.root, end_separator)[0]
-						rp_dict["pl_xpath"] = conf.xpath_list(rp, self.root, end_separator)[1]
-						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
-						rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
-						group.append(rp_dict)
-						group.append("sequence")
-			if 'singleton' in rp_group:
-				for rp in rp_group:
-					if isinstance(rp, str) == False:
-						rp_dict = {}
-						rp_dict["xref"] = conf.find_xmlid(rp, self.root)
-						rp_dict["rp_string"] =  ET.tostring(rp, method="text", encoding='unicode', with_tail=False)
-						rp_dict["rp_xpath"] = self.et.getpath(rp)
-						rp_dict["context_xpath"] = conf.xpath_sentence(rp, self.root, conf.abbreviations_list_path, parent)
-						rp_dict["containers_title"] = conf.find_container_title(rp, conf.section_tag, self.root)
-						group.append(rp_dict)
-			self.metadata.append(group)
+		n_rp = 0
+		rp_list = []
+
+		# extract all rp
+		for xref in self.root.xpath(conf.rp_path):
+			n_rp += 1
+			xref_id = xref.get('rid')
+			xref_text = xref.text
+			rp_string = xref_text.strip().replace('\n','')
+			rp_xpath = self.et.getpath(xref)		
+			parent = None if xref.getparent().tag in conf.parent_elements_names else xref.getparent().tag
+			context_xpath = conf.xpath_sentence(xref, self.root, conf.abbreviations_list_path, parent)
+			containers_title = conf.find_container_title(xref, conf.section_tag, self.root)
+			pl_string , pl_xpath = None , None
+			
+			if len(list(xref)) == 0: # no children
+				seq = xref_text.encode('utf-8').split('\u2013'.encode('utf-8'))
+				if len(seq) == 2: # more digits <xref rid="CIT0001">1-3</xref>
+					pl_string , pl_xpath = rp_string , rp_xpath
+					rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
+					rp_list.append(rp_dict)
+					range_values = [int( re.sub('[^0-9]','', val.decode('utf-8')) ) for val in seq if val.isdigit() ]
+					if len(range_values) == 2:
+						range_values.sort()
+						for intermediate in range(int(range_values[0])+1,int(range_values[1])+1 ): # 2nd to last included
+							n_rp += 1
+							xref_id = conf.find_xmlid(str(intermediate),self.root)
+							rp_dict_i = conf.rp_dict(xref , n_rp , xref_id , None , None , pl_string , rp_xpath, context_xpath, containers_title)
+							rp_list.append(rp_dict_i)
+					else: # no digits
+						pass
+				else: # simple string <xref rid="CIT0001">1</xref>
+					rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None, context_xpath, containers_title)
+					rp_list.append(rp_dict)
+			else: # children
+				tail = (xref[0].tail).strip().replace('\n','')
+				rp_string = ET.tostring(xref, method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
+					
+				if len(xref_text.strip().replace('\n','')) != 0 or len(tail) != 0: # Amass <italic>et al.</italic>, 2000
+					rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None, context_xpath, containers_title)
+					rp_list.append(rp_dict)
+				
+				elif len(xref_text.strip().replace('\n','')) == 0 and len(tail) == 0: # xref/sup
+					seq = ((xref[0].text).strip().replace('\n','')).split('\u2013')
+					if len(seq) == 2: # more digits <xref rid="CIT0001"><sup>1-3</sup></xref>
+						pl_string , pl_xpath = rp_string , rp_xpath
+						rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
+						rp_list.append(rp_dict)
+
+						range_values = [int( re.sub('[^0-9]','', val) ) for val in seq if val.isdigit() ]
+						if len(range_values) != 0:
+							range_values.sort()	
+							for intermediate in range(int(range_values[0])+1,int(range_values[1])+1 ): # 2nd to last included
+								n_rp += 1
+								xref_id = conf.find_xmlid(str(intermediate),self.root)
+								rp_dict_i = conf.rp_dict(xref , n_rp , xref_id , None , None , pl_string , pl_xpath, context_xpath, containers_title)
+								rp_list.append(rp_dict_i)
+					else: # simple string
+						rp_string = ET.tostring(xref[0], method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
+						rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
+						rp_list.append(rp_dict)
+
+		#pp.pprint(rp_list)
+		#parent_set = [(x, self.et.getpath(x)) for x in list({ rp["xml_element"].getparent() for rp in rp_list } )]
+		#parent_set = sorted(parent_set, key=lambda tup: tup[1])
+		# OR parent_set = list({ rp["xml_element"].getparent() for rp in rp_list })
 		
-		# extend sequences
-		for groups in self.metadata: # lists in list
-			if 'sequence' in groups:
-				range_values = [int( re.sub('[^0-9]','', group['rp_string']) ) for group in groups if isinstance(group, str) == False]
-				if len(range_values) != 0:	
-					range_values.sort()
-					for intermediate in range(int(range_values[0])+1,int(range_values[1])):
-						rp_dict = {}
-						rp_dict["xref"] = conf.find_xmlid(str(intermediate),self.root)
-						rp_dict["pl_string"] = groups[0]['pl_string']
-						rp_dict["pl_xpath"] = groups[0]['pl_xpath']
-						rp_dict["context_xpath"] = groups[0]['context_xpath']
-						rp_dict["containers_title"] = groups[0]['containers_title']
-						groups.append(rp_dict)
-				groups.remove("sequence")
-		# remove the type of group
-		self.metadata = [[rp for rp in rp_group if isinstance(rp, str) == False] for rp_group in self.metadata]
-		return self.metadata
+		# group in lists
+		# parent wrapper
+		parent_pl_set = list({ (rp["xml_element"].getparent(), self.et.getpath(rp["xml_element"].getparent()) ) \
+			for rp in rp_list if rp["xml_element"].getparent().tag not in conf.parent_elements_names})
+		
+		for parent_el, parent_el_path in parent_pl_set: # sup w/ comma or dash separated xref [TEST 4]
+			pl_string = ET.tostring(parent_el, method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
+			pl_xpath = self.et.getpath(parent_el)
+			context_xpath = conf.xpath_sentence(parent_el, self.root, conf.abbreviations_list_path, None)
+			containers_title = conf.find_container_title(parent_el, conf.section_tag, self.root)
+			parent_el_list = []
+			for xref_el in parent_el:
+				tail = (xref_el.tail).strip().replace('\n','') 
+				if '\u2013' in tail:
+					end_seq = xref_el.getnext()
+					if end_seq.tag == 'xref' and ( (xref_el.text).isdigit() and (end_seq.text).isdigit() ):
+						for intermediate in range(int(xref_el.text)+1,int(end_seq.text) ):
+							n_rp += 1 # TODO change
+							xref_id = conf.find_xmlid(str(intermediate),self.root)
+							rp_dict_i = conf.rp_dict(xref_el , n_rp , xref_id , None , None , pl_string , pl_xpath, context_xpath, containers_title)
+							rp_list.append(rp_dict_i)
+				for rp in rp_list: 
+					if xref_el == rp["xml_element"]:
+						parent_el_list.append(rp)
+			self.metadata.append(parent_el_list) 
+		
+		for rp in rp_list:
+			xref = rp["xml_element"]
+			parent = None if xref.getparent().tag in conf.parent_elements_names else xref.getparent().tag
+			if parent is None: # separators
+				parent_elem = xref.getparent()
+				tail = (xref.tail).strip().replace('\n','')
+				# HERE!
+
+		# add last else to include all other rp that do not fit in a list
+		# remove useless key,values
+		# aggiusta l'ordine dei n_rp -- the last added rp (sequences) do not follow the incremental order
+		# sort everything by n_rp
+		pp.pprint(self.metadata)
+		return rp_list
 
 
 	def to_rdf(self, graph): 

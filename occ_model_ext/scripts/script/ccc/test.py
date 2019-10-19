@@ -8,11 +8,11 @@ from script.ocdm.graphlib import *
 # test
 pp = pprint.PrettyPrinter(indent=1)
 #xml_doc = 'script/ccc/xml_PMC_sample/PMC5906705.nxml'
-xml_doc = 'script/ccc/xml_PMC_sample/1test.xml'
+xml_doc = 'script/ccc/xml_PMC_sample/4test.xml'
 
 jats = jats2oc.Jats2OC(xml_doc)
 jats.extract_intext_refs()
-pp.pprint(jats.metadata)
+#pp.pprint(jats.metadata)
 
 # context_path_local = 'context.json'
 # cccgraph= GraphSet("https://w3id.org/oc/corpus/", context_path_local, "ccc/")

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import uuid , os , re ,rdflib
+from collections import defaultdict, Counter
 from rdflib.namespace import XSD, RDF, RDFS, Namespace
 from rdflib.term import Literal
 from script.ocdm.graphlib import GraphEntity
@@ -21,6 +22,7 @@ list_separators = [('[', ']'), ('(', ')')]
 rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
 
 # XPATH: modify find_rp() to associate the correct xml element to rp
+rp_path = './/xref[@rid = //ref/@id]'
 rp_tail = '/following-sibling::text()[1]'
 rp_closest_parent = '/ancestor::*[1]'
 rp_child = '/child::*[1]'
@@ -154,6 +156,25 @@ def clean(string):
 	return string.encode('utf-8').strip()
 
 
+def rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title):
+	rp_dict = {}
+	if xref is not None:
+		rp_dict["xml_element"] = xref
+	rp_dict["n_rp"] = n_rp
+	rp_dict["xref_id"] = xref_id
+	if rp_string is not None:
+		rp_dict["rp_string"] = rp_string
+	if pl_string is not None:
+		rp_dict["pl_string"] = pl_string
+	if rp_xpath is not None:
+		rp_dict["rp_xpath"] = rp_xpath
+	if pl_xpath is not None:
+		rp_dict["pl_xpath"] = pl_xpath
+	rp_dict["context_xpath"] = context_xpath
+	rp_dict["containers_title"] = containers_title
+	return rp_dict
+
+
 def clean_list(l):
 	"""given a list of strings/elements returns a new list with stripped strings and elements"""
 	# only strings
@@ -183,6 +204,15 @@ def clean_list(l):
 			else:
 				new_l.append(x)
 	return new_l
+
+
+def rp_end_separator(rp_path_list):
+	"""given a list of separators retrieve the most common separator"""
+	rp_end_separator = clean_list(rp_path_list)					
+	rp_end_separator = Counter(rp_end_separator).most_common(1)
+	#self.root.xpath('//'+rp+'/following-sibling::*//text()|following-sibling::text()')
+	return rp_end_separator
+
 
 def get_text_before(elem):
 	""" extract text before an xml element till the start tag of the parent element"""
