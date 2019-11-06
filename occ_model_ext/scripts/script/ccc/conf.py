@@ -7,6 +7,7 @@ from rdflib.term import Literal
 from script.ocdm.graphlib import GraphEntity
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
 from lxml import etree as ET
+from itertools import zip_longest
 
 # ABBREVIATIONS
 # elem 	= XML element
@@ -17,7 +18,6 @@ from lxml import etree as ET
 # VARIABLES
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
 
-# TO REMOVE
 list_separators = [('[', ']'), ('(', ')')]
 rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
 
@@ -58,6 +58,28 @@ elem_mapping = [(caption_tag,GraphEntity.caption),\
 C4O = Namespace("http://purl.org/spar/c4o/")
 DATACITE = Namespace("http://purl.org/spar/datacite/")
 LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
+
+def sublist(groups):
+	result_list = []
+	sublist = []
+	previous_number = None
+
+	for current_number,path,val in groups:
+		if previous_number is None or current_number > previous_number:
+			sublist.append((current_number,path,val)) # still ascending, add to the current sublist
+		else:
+			result_list.append(sublist) # no longer ascending, add the current sublist
+			sublist = [(current_number,path,val)] # start a new sublist
+		previous_number = current_number
+	if sublist: # add the last sublist, if there's anything there
+		result_list.append(sublist)
+	return result_list
+
+def num(s):
+    try:
+        return int(s)
+    except:
+        return None
 
 
 # methods for XML bibliographic entities
@@ -125,7 +147,7 @@ def find_cited_doi(elem,root):
 		be_id = root.find(pmid).text
 	else:
 		be_id = str(uuid.uuid4())
-	be_text = ET.tostring(root.find(be_path), method="text", encoding='unicode', with_tail=False).strip() 
+	be_text = ET.tostring(root.find(be_path), method="text", encoding='unicode', with_tail=False).strip()
 	return be_id, be_text
 
 
@@ -208,9 +230,9 @@ def clean_list(l):
 
 def rp_end_separator(rp_path_list):
 	"""given a list of separators retrieve the most common separator"""
-	rp_end_separator = clean_list(rp_path_list)					
+	rp_end_separator = clean_list(rp_path_list)
+	rp_end_separator = [rp for rp in rp_end_separator if rp.encode('utf-8') not in rp_separators_in_list]
 	rp_end_separator = Counter(rp_end_separator).most_common(1)
-	#self.root.xpath('//'+rp+'/following-sibling::*//text()|following-sibling::text()')
 	return rp_end_separator
 
 
@@ -239,7 +261,7 @@ def xpath_sentence(elem, root, abb_list_path, parent=None):
 	"""
 	if parent:
 		elem = elem.getparent()
-	
+
 	elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 	with open(abb_list_path, 'r') as f:
 		abbreviations_list = [line.strip() for line in f.readlines() if not len(line) == 0]
@@ -250,23 +272,22 @@ def xpath_sentence(elem, root, abb_list_path, parent=None):
 
 	string_before = "".join(get_text_before(elem))
 	string_after = "".join(get_text_after(elem))
-
-	# offset of sentence in the stringified parent element that include the rp 
+	# offset of sentence in the stringified parent element that include the rp
 	# (0-based index transformed in 1-based index -- +1 -- to comply with XPath)
 	if len(string_before) == 0:
 		str_before = ''
 		start_sent = 1
 	elif len(string_before) != 0 and string_before.isspace():
 		str_before = string_before
-		start_sent = 1
+		start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+first_el )][-1])+1
 	else:
-		str_before = sentence_splitter.tokenize( string_before )[-1]
-		start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1])+1
+		str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
+		start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
 	if len(string_after) == 0 or string_after.isspace():
 		str_after = ''
 	else:
 		str_after = sentence_splitter.tokenize( string_after )[0]
-	len_sent = len(str_before+elem_value+str_after)
+	len_sent = len(str_before+str_after)
 	sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 	return sent_xpath_function
 
@@ -280,9 +301,10 @@ def xpath_list(elem, root, end_sep):
 	"""
 	et = ET.ElementTree(root)
 	start_seps = [tup[0] for tup in list_separators if end_sep == tup[1]]
-	
+
 	if len(start_seps) != 0:
 		start_sep = start_seps[0]
+
 		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 		string_before = "".join(get_text_before(elem)).strip()
 		string_after = "".join(get_text_after(elem)).strip()
@@ -295,7 +317,7 @@ def xpath_list(elem, root, end_sep):
 			end_sep_index = string_after.find(end_sep)+1 # include the character
 		else:
 			end_sep_index = len(string_after)
-		
+
 		py_strin = string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]
 		len_list = len( string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1] )
 		list_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
@@ -304,6 +326,21 @@ def xpath_list(elem, root, end_sep):
 		list_xpath_function = et.getpath(elem.getparent())
 	return [py_strin,list_xpath_function]
 
+
+def xpath_list_between_elements(first_el, last_el, root):
+	"""
+	params: first_el -- first rp
+	params: last_el -- last rp
+	params: root -- the root element of the XML document
+	return: xpath of the string including the pl that has no separators, nor parent element
+	"""
+	last_value = ET.tostring(last_el, method="text", encoding='unicode', with_tail=False)
+	string_before = "".join(get_text_before(first_el))
+	string_before_last = "".join(get_text_before(last_el))
+	start_pl = int( len(string_before) )
+	len_pl = int( len(string_before_last+last_value) ) - start_pl
+	pl_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(first_el.getparent())+'),'+str(start_pl)+','+str(len_pl)+')'
+	return pl_xpath_function
 
 def find_container_xpath(elem, container_tag, root):
 	"""
@@ -396,21 +433,21 @@ def file_in_folder(e_type):
 
 
 def find_de(de_id, graph):
-	""" 
+	"""
 	params: de_id -- URI of the id
-	params: graph -- RDF graph where to look in 
+	params: graph -- RDF graph where to look in
 	return: list of URIs associated to the same id URI
 	"""
 	list_de = []
 	for de, has_id, _id in graph.triples(( None,DATACITE.hasIdentifier,de_id )):
 		list_de.append(de)
-	return list_de	
-									
+	return list_de
+
 
 def find_id(de_id, graph):
-	""" 
+	"""
 	params: de_id -- value of an id
-	params: graph -- RDF graph where to look in 
+	params: graph -- RDF graph where to look in
 	return: the URI of the id associated to the value
 	"""
 	for o,has_val,val in graph.triples((None,LITERAL.hasLiteralValue,None)):
@@ -419,9 +456,9 @@ def find_id(de_id, graph):
 
 
 def find_be(be_text,graph):
-	""" 
+	"""
 	params: be_text -- text of a bibliographic reference
-	params: graph -- RDF graph where to look in 
+	params: graph -- RDF graph where to look in
 	return: the URI of the be
 	"""
 	for o,has_val,val in graph.triples((None,C4O.hasContent,None)):

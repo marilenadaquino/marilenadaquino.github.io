@@ -27,6 +27,19 @@
 						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
 					</div>
 				</section>
+				<section id="w18">
+					<header>
+						<h2>#w18</h2>
+					</header>
+					<div class="content">
+						<p><strong>November 4, 2019 - November 8, 2019</strong></p>
+						<p>Finalizing the script for integrating bee, including all the aforementioned exceptions.
+							I had some trouble in finding a good solution for getting the XPATH/string of lists that
+							are neither in a parent element nor in separators. E.g. <code>xref/sup + sup=, +xref/sup + sup=, + xref/sup</code>.
+						XPATH returns only a node-set, unfortunately doesn't match groups of elements. In the end I get the xpath of the string as we do for lists in separators.</p>
+						<p>I sorted the list of rp incrementally. For the sake of simplicity, I decided to keep the incremental number in the final JSON [TO BE DISCUSSED]</p>
+					</div>
+				</section
 				<!-- Section -->
 				<section id="w15">
 					<header>
@@ -36,7 +49,7 @@
 						<p><strong>October 14, 2019 - October 18, 2019</strong></p>
 						<p>Found other exceptions in the subset of OA-PMC - for the sake of completeness, exceptions are recorded in the <a href="#exceptions_table">table</a> below). Mainly they regard the markup of lists and sequences. Currently, such exceptions are handled by ensuring that at least <em>all single pointers</em> are extracted regardless these are in lists or not, so as to ensure completeness of extracted pointers rather than precision in locating them in lists</p>
 						<p>In the future I'll improve the script so as to handle all the exceptions iteratively (my test case will be the paper <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> which includes all the possible inconsistencies allowed by JATS schema)</p>
-						
+
 						<p>[UPDATE 18.10.2019] I'm completely refactoring the code so as to handle 99% of exceptions one-by-one.</p>
 
 						<h3>Exceptions table</h3>
@@ -109,10 +122,24 @@
 									<td>[WIP]</td>
 								</tr>
 								<tr>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
+									<td>"("+xref+"; blablabla"+xref+")"</td>
+									<td>xrefs included in a list group, but long text other than in-list separator.</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31257432/fullTextXML">31257432</a> [TEST 4]</td>
+									<td>[DONE]</td>
+								</tr>
+								<tr>
+									<td>
+										<code><xref rid="dkz261-B6" ref-type="bibr">
+<sup>6</sup>
+</xref>
+<sup>,</sup>
+<xref rid="dkz261-B34" ref-type="bibr">
+<sup>34–36</sup>
+</xref></code>
+									</td>
+									<td>sequence nested in list</td>
+									<td><a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31257432/fullTextXML">31257432</a> [TEST 4]</td>
+									<td>This I can't. I can get the 6 alone and the 34-36 as a list separately, but not both together</td>
 								</tr>
 							</table>
 						</p>
@@ -139,7 +166,7 @@
 						<p>Here below a schema of the main changes in BEE.</p>
 <pre>
 	<code>
-<strong>ccc/run.py</strong> 
+<strong>ccc/run.py</strong>
 	| <em>calls</em>
 	<strong>bee/epmcproc.py#EuropeanPubMedCentralProcessor()</strong>
 	| <em>ADDED parameter <u>intext_refs=False</u></em>
@@ -149,7 +176,7 @@
 		<strong>bee/epmcproc.py#process_article() </strong>
 		|	|	<em>ADDED parameter <u>intext_refs=False</u></em>
 		|	|	<em>l.90 call to process_xml_source(<u>intext_refs=True</u>)</em>
-		|	| <em>calls</em>	
+		|	| <em>calls</em>
 		|	<strong>bee/epmcproc.py#process_xml_source()</strong>
 		|		<em>ADDED parameter <u>intext_refs=False</u></em>
 		|		<em>l.306 call to JATS2OC class to fill</em>
@@ -168,24 +195,24 @@
 						<p>Still working on recognizing all the exceptions in reference pointer citation styles in OA-PMC. ATM we have the following scenarios:</p>
 						<ul id="exceptions_oa">
 							<li>
-								<code>sup/xref[@ref-type]</code> 
+								<code>sup/xref[@ref-type]</code>
 								e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/30899012/fullTextXML">30899012</a> [DONE]
 							</li>
 							<li>
-								<code>xref[@ref-type]/sup</code> 
+								<code>xref[@ref-type]/sup</code>
 								[DONE]
 							</li>
 							<li>
-								<code>'('+xref[@ref-type]+')'</code> or <code>'['+xref[@ref-type]+']'</code> 
+								<code>'('+xref[@ref-type]+')'</code> or <code>'['+xref[@ref-type]+']'</code>
 								[DONE]
 							</li>
 							<li>
-								<code>'['+xref[not(@ref-type)]+']'</code> 
+								<code>'['+xref[not(@ref-type)]+']'</code>
 								[DONE]
 							</li>
 							<li>
-								<code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code> 
-								meaning the text identifies a sequence but only one ref@id is recorded in @rid 
+								<code>xref[@ref-type][@rid='xx']/sup[/text() = 'xx-yy']</code>
+								meaning the text identifies a sequence but only one ref@id is recorded in @rid
 								[WIP, ignoring the text ATM and extracting only the xref with @rid]
 							</li>
 							<li>
@@ -193,12 +220,12 @@
 								[WIP, at the moment I consider them single pointers]
 							</li>
 							<li>
-								<code>xref[@rid][@ref-type="bibr"][italic]/text()</code> 
-								it contains comma (e.g. Amass<italic>et al.</italic>, 2000), may be wrapped in a <code>attrib</code> element and there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not). e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a> 
+								<code>xref[@rid][@ref-type="bibr"][italic]/text()</code>
+								it contains comma (e.g. Amass<italic>et al.</italic>, 2000), may be wrapped in a <code>attrib</code> element and there is also an inconsistency with the usage of "(" and ")" as separators (sometimes there are, sometimes do not). e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31532339/fullTextXML">31532339</a>
 								[ATM extracting only single pointers, ignoring separators and parent elements]
 							</li>
 							<li>
-								<code>[<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR17">17</xref>]</code> 
+								<code>[<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR17">17</xref>]</code>
 								meaning a list and a sequence in the same separator e.g. <a href="https://www.ebi.ac.uk/europepmc/webservices/rest/31243649/fullTextXML">31243649</a>. At the moment it's handled as a list, meaning that the intermediate (10-17) are not extracted
 							</li>
 						</ul>
@@ -239,8 +266,8 @@
 						<h2>#w10-11</h2>
 					</header>
 					<div class="content">
-						<p><strong>September 11, 2019 - September 20, 2019</strong></p>	
-							
+						<p><strong>September 11, 2019 - September 20, 2019</strong></p>
+
 						<h3>Wrap up, completion of OCDM reference document</h3>
 						<p><code>oco:hasAnnotation</code> inverse property of <code>oa:hasTarget</code>. The conversation in the community group <a href="http://lists.w3.org/Archives/Public/public-openannotation/2019Sep/subject.html">here</a>.</p>
 						<h3>QUESTIONS</h3>
@@ -284,7 +311,7 @@
 							<li>BEE test. Control whether the citation style is always the same in the corpus</li>
 							<li>fork git (/script)</li>
 						</ul>
-						
+
 						<h3>DONE</h3>
 						<h4>OCC document</h4>
 						<ul>
@@ -299,7 +326,7 @@
 							<li>NO content and xpath identifiers for pointers in list</li>
 							<li>add all the cito properties for citation functions</li>
 						</ul>
-						<h4>OCO ontology</h4> 
+						<h4>OCO ontology</h4>
 						<ul>
 							<li>push on github</li>
 							<li>add the image of the extension</li>
@@ -327,8 +354,8 @@
 						<h2>#w7</h2>
 					</header>
 					<div class="content">
-						<p><strong>August 18, 2019 - September 10, 2019</strong></p>	
-							
+						<p><strong>August 18, 2019 - September 10, 2019</strong></p>
+
 						<h3>Continue to work on the script for converting XML to RDF</h3>
 						<p>Revised the idea of having a JSON as result of the XML parsing. Now it's a more <em>pythonic</em> list of lists (We might want to change it again so that it's nicely integrated in the JSON produced in Bee -- to be discussed in September). I created methods for reconciling entities to entites already existing in the graph (rp, de, xpath) and link them with each other. In september I'll continue on the integration of <code>br/be</code> to OCC. I've added the xpath of the text chunk (e.g. '[1]', '[1,2,3]') including the rp for disambiguating them when linking lists to their elements.</p>
 						<p>Working on integrating the script in the workflow. In bee (<code>EuropeanPubMedCentralProcessor()</code>), I added a parameter <code>intext_refs=False</code> so that we can decide whether extract pointers or not. My guess is that we can extract them when the parameter <code>oa=True</code>. I've started testing the script <code>ccc/run.py</code> but I found the first problems (related to the <em>citation style</em> of in-text reference pointers). In spetmber I'll continue refining the script incrementally according to the cases I find (since there is no way ATM to predict which parent elements can include in-text reference pointers). </p>
@@ -348,10 +375,10 @@
 					</header>
 					<div class="content">
 						<p><strong>August 5, 2019 - August 11, 2019</strong></p>
-						
+
 						<h3>Continue to work on the script for converting XML to RDF</h3>
 						<p>I have developed a draft script for obtaining a dictionary (JSON) including all the information that we want to transform in RDF. This week I'll extend it with the tranformation to RDF according to the extended OCC data model.</p>
-						
+
 						<h3>QUESTIONS</h3>
 						<ul>
 							<li>Should intermediate references in sequences be identified by some XPath too? e.g. the text between the two sibling <code>xref</code> elements that compose the range of the sequence? [no id/xpath for the pointers but only for the list]</li>
@@ -365,7 +392,7 @@
 							<li>shall we store also xpaths of sections and parent elements? [everything should be identified by XPath]</li>
 
 						</ul>
-						
+
 						<h3>TODO</h3>
 						<ul>
 							<li>Control whether the citation style is always the same in the corpus</li>
@@ -378,7 +405,7 @@
 						<h3>Extend the technical documentation on the OCC model extension including discussed CQs, SPARQL queries, and examples.</h3>
 						<p>Working on that in a <a href="https://docs.google.com/document/d/1HZhS0wwPU5A30WJFJ9dAQezjJZ8i4bOuB6yyGPnFeLo/edit?usp=sharing">separate document</a>.</p>
 						<p><strong>QUESTION</strong> Pointers can be also in section titles, should we include <code>doco:SectionTitle</code> among the DiscourseElemnts we consider? Should we create a SectionTitle for each section or only for the ones that include a pointer?</p>
-						
+
 						<h3>Work on the official document on the OC data model.</h3>
 						<p>I have jotted down all the major changes that the document requires. All the changes are summarised in the abstract at the beginning of the document. I'll send the draft at the beginning of the week to get some preliminary feedback. Meanwhile, I will work on extending the JSON-LD example at the end of the document.</p>
 						<p>Some points to be discussed:</p>
@@ -401,12 +428,12 @@
 							<li><strong>JSON linearisation</strong> I added an excerpt on in-text ref and sentences in the section dedicated to <em>bibliographic resources</em>, and I modified the section <em>citations</em> to include annotations. I created here two examples (citations with annotations and without). I have some concerns here about the IRI of the graphs.</li>
 							<li><strong>JSON linearisation</strong>: I added only an example of sentence/in-text reference pointer. I didn't add other discourse elements, nor lists. Is that ok or do we want a complete example? Can I use eventually ellipses [...] to skip redundant and repetitive code?</li>
 						</ul>
-						
+
 						<h3>TODO</h3>
 						<ul>
 							<li>Change JSON example in occ doc. Reproduce the tree of discourse elements</li>
 							<li>Extend the <a href="https://w3id.org/oc/corpus/context.json">context.JSON</a> of the OCC model</li>
-							
+
 							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
 
 							<li>Modify the online documentation of the OCC Model: “The RDF statements in each of the OpenCitations Indexes are <em>organising</em> according to the data model shown in Figure 2.”</li>
@@ -420,9 +447,9 @@
 							<li>Modify documentation of the OCC also on github</li>
 
 							<li>Fork opencitations/script</li>
-							
+
 						</ul>
-					
+
 					</div>
 				</section>
 
@@ -486,7 +513,7 @@
 ...]
 								</code>
 							</pre>
-						
+
 						<p>Notice that intermediate nodes in sequences DO NOT have their own XPath, while they share the same parent XPath and the sentence XPath. </p>
 						<p><strong>Bye bye XPointer for in-text reference pointers?</strong> The Xpath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/string"><code>string()</code></a> (XPath 1.0) allows to select the text of a node, ignoring (better, stripping) all children tags, but not their content. We can apply <code>string()</code> to the XPath of the parent element of the <code>xref</code> at hand, and use the XPath of the parent element text as first parameter of the XPath function <a href="https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/substring"><code>substring($string, $start, $end)</code></a> . For instance, <code>substring(string(.//article/body/sec[5]/p[2]), 1, 10)</code> selects the first 10 characters in the paragraph <code>p[2]</code>, regardless there are intermediate nodes. It's formally wrong since the first paramenter of <code>substring</code> should be a string, and not a path to get the string, but substituting that path with the original text is possibly the easiest way to access the content regardless the environment (XSLT, python, whatever) rather than using XPointer, that is not supported by any library or language. Can we specify it somewhere?</p>
 						<h3>Extend the technical documentation on the OCC model</h3>
@@ -547,7 +574,7 @@
 											<li>UPDATE FUNCTIONALITY; WRITE UP PROJECT   June 1, 2020 - June 30, 2020</li>
 										</ul>
 
-									</li>		
+									</li>
 								</ul>
 							</li>
 							<li>Best way to <strong>reconcile</strong> articles to existing OC Ids (URI)? In particular:
@@ -617,23 +644,23 @@
 						<p>I think I found a good number of relevant CQs that the model should be able to answer. More may come from suggestions. I have some concerns, namely:</p>
 						<ul>
 							<li><em>[ADDED TO TODO LIST]</em> There are bits of the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a> that seem odd to me and I might have misunderstood something. For instance the double definition of <code>c4o:SingleReferencePointerList</code>. The second one seems to refer to <code>c4o:SingleLocationPointerList</code>, but this concept is still a bit fudged to me. However, I think it's not relevant for the purpose. </li>
-							
+
 							<li><em>[SORTED]</em> In <a href="http://www.sparontologies.net/ontologies/doco">DoCO</a> the representation of <strong>sentences</strong> and in-text references is slightly different from the one in c40. For instance, in example 2, an in-text reference pointer is defined as an individual of the class <code>deo:Reference</code>, not a <code>c4o:InTextReferencePointer</code>, which <code>dcterms:references</code> (and not <code>biro:references</code> as in c4o) a <code>deo:BibliographicReference</code> (and not a <code>biro:BibliographicReference</code>) </li>
-							
+
 							<li><em>[SORTED]</em> When we have <strong>lists of in-text ref pointers</strong>, do we really need the intermediate node <code>c4o:InTextReferencePointerListItem</code>? In this case I don't get the added value of having yet another class. The latter is not documented online, so I might have missed why it is relevant. Plus, I din't get <code>c4o:pertainsTo</code>.</li>
-							
+
 							<li><em>[TO BE DISCUSSED]</em> Do we need to represent the <strong>order of pointers</strong> in the list?</li>
-							
+
 							<li><em>[SORTED]</em> Document components to be taken into account are <strong>sentences, paragraphs and sections</strong>. In the first case, we are not sure of the quality of data extracted from XML documents. Hence, it might worth to consider the class <code>doco:TextChunk</code>. However, this is meant to represent an inline string. Secondly, if we are not sure whether we will extract sentences or not, maybe it worths to create also the link between <code>c4o:InTextReferencePointer / c4o:InTextReferencePointerList</code> and <code>doco:Paragraph</code> by means of <code>c4o:hasContext</code>.</li>
-							
+
 							<li><em>[SORTED]</em> The <strong>hierarchy of document components</strong>. I'd avoid to use yet another (unstable) pattern, such as the one suggested in DoCo, namely: <code>po:contains</code>. Can't we use <code>frbr:part</code>?</li>
-							
+
 							<li><em>[TO BE DISCUSSED]</em> <strong>Represent xpath</strong> of document components. I found a property in <a href="https://schema.org/xpath">schema.org</a> which could be reused to preserve the xpath as a literal. </li>
-							
+
 							<li><em>[SORTED]</em> We agreed that the <strong>order of paragraphs</strong> worths to be preserved in data, but only the relation between paragraphs including citations will be represented and stored. We will design URI patterns for paragraphs and other document components that will allow users to easily rebuild the correct order of all the paragraphs. The <code>oc:hasNext</code> property can be reused for representing the sequences. However (1) in DoCo is suggested <code>co:firtsItem/co:nextItem/co:itemContent</code> (which is somehow cumbersome and would require to create other intermediate nodes) and (2) the aforementioned <code>oc:hasNext</code> property has as a declared domain/range <code>pro:RoleInTime</code>.</li>
-							
+
 							<li><em>[SORTED]</em> When characterising the <strong>type of sections</strong>, should we reuse terms from <code>doco</code>, <code>deo</code>, and <code>po</code> ontologies (e.g. Abstract, RelatedWork, Methods)? Or should we create a controlled vocabulary of individuals representing types?</li>
-							
+
 							<li><em>[SORTED]</em> When representing <strong>titles of sections</strong>, instead of the suggested pattern <code>po:containsAsHeader/c4o:hasContent</code> we could just use <code>dcterms:title</code>.</li>
 						</ul>
 
@@ -650,7 +677,7 @@
 
 						<h3>TODO</h3>
 						<ul>
-							<li>email David to start discussing the tech. doc. first. The official documentation (docx) will be modified as last thing.</li>				
+							<li>email David to start discussing the tech. doc. first. The official documentation (docx) will be modified as last thing.</li>
 
 							<li>Modify the <a href="http://www.sparontologies.net/ontologies/c4o"><strong>online documentation of c4o</strong></a>: change the second <code>c4o:SingleReferencePointerList</code> with <code>c4o:SingleLocationPointerList</code>.</li>
 
@@ -658,7 +685,7 @@
 
 							<li>Modify domain/range of the <code>oc:hasNext</code> property</li>
 
-							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>					
+							<li>Create the inverse property in c4o <code>c4o:hasContext</code> > <code>c4o:isContextOf</code></li>
 						</ul>
 
 						<h3>DISCUSSED/DONE</h3>
@@ -671,7 +698,7 @@
 									<li>types of sections (use classes from DoCO, deo ontologies or create a vocabulary). We decided to use DoCO and deo classes, specifically for structural elements and semantic elements (types of section)</li>
 									<li>xpaths (schema.org property or different data/annotation property?). We refer to xPointers rather than xPaths and we decided to use <code>datacite:Identifier</code>, having as rdf:value the string representing the xPointer and as schema the xPointer scheme.</li>
 									<li>whether to use <code>c4o:InTextReferencePointerListItem</code> as intermediate node or not in lists of in-text ref. pointers or not. We decided not to use <code>c4o:InTextReferencePointerListItem</code> AND not to use <code>c4o:InTextReferencePointerList</code>. Instead we use <code>c4o:SingleLocationPointerList</code> for lists, linked (eventually, to be decided) to <code>c4o:InTextReferencePointer</code> by means of the property <code>co:element</code>. The latter depends on the need to represent the order of pointers in lists. Otherwise the linke between <code>c4o:SingleLocationPointerList</code> and <code>biro:BibliographicReference</code> by means of <code>c4o:pertainsTo</code> should be sufficient to retrieve everything we need, avoiding to create redundant data.</li>
-									
+
 									<li>whether use <code>doco:Sentence</code> or <code>doco:TextChunk</code>. We agreed that <code>doco:TextChunk</code> fits better the purpose, semantically speaking (since we may end up looking for chunks indeed), but it's less understandable tough.</li>
 									<li>whether to create links (<code>c4o:hasContext</code>) between pointers and sentences or between pointers and paragraphs. We decided to create links between pointers and textChunk BUT using the inverse property <code>c4o:isContextOf</code> that has to be created in c4o.</li>
 									<li>whether to represent the order of pointers in lists (connected to point 2). We will discuss it according to real needs.</li>
