@@ -18,8 +18,8 @@ from itertools import zip_longest
 # VARIABLES
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
 
-list_separators = [('[', ']'), ('(', ')')]
-rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
+list_separators = [('[', ']'), ('[',']') , ('(', ')')]
+rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), '\u002D'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
 
 # XPATH: modify find_rp() to associate the correct xml element to rp
 rp_path = './/xref[@rid = //ref/@id]'
@@ -163,9 +163,14 @@ def find_xmlid(elem,root):
 	else:
 		for ref in root.xpath('.//ref-list/ref'):
 			label = ref.find('./label')
-			cleaned = ''.join(e for e in label.text if e.isalnum())
+			if label:
+				cleaned = ''.join(e for e in label.text if e.isalnum())
+			else:
+				cleaned = ''
 			if elem == cleaned:
 				xmlid = ref.get('id')
+			else:
+				xmlid = ''
 			# if root.find('.//ref[label="'+elem+'"]') is not None:
 			# 	xmlid = root.find('.//ref[label="'+elem+'"]').get('id')
 			# else:
@@ -221,7 +226,7 @@ def clean_list(l):
 				y = x.replace("\n","")
 				if len(y) != 0:
 					new_l.append(y[0])
-			elif isinstance(x, str) == True and '\n' not in x:
+			elif isinstance(x, str) == True and len(x) != 0 and '\n' not in x:
 				new_l.append(x[0])
 			else:
 				new_l.append(x)
@@ -229,7 +234,7 @@ def clean_list(l):
 
 
 def rp_end_separator(rp_path_list):
-	"""given a list of separators retrieve the most common separator"""
+	"""given a list of separators (in sentence) retrieve the most common separator"""
 	rp_end_separator = clean_list(rp_path_list)
 	rp_end_separator = [rp for rp in rp_end_separator if rp.encode('utf-8') not in rp_separators_in_list]
 	rp_end_separator = Counter(rp_end_separator).most_common(1)
@@ -301,10 +306,8 @@ def xpath_list(elem, root, end_sep):
 	"""
 	et = ET.ElementTree(root)
 	start_seps = [tup[0] for tup in list_separators if end_sep == tup[1]]
-
 	if len(start_seps) != 0:
 		start_sep = start_seps[0]
-
 		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 		string_before = "".join(get_text_before(elem)).strip()
 		string_after = "".join(get_text_after(elem)).strip()
@@ -318,12 +321,13 @@ def xpath_list(elem, root, end_sep):
 		else:
 			end_sep_index = len(string_after)
 
-		py_strin = string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]
+		py_strin = (string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]).strip().replace("\n","")
 		len_list = len( string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1] )
 		list_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
 	else: # parent element
-		py_strin = ET.tostring(elem.getparent(), method="text", encoding='unicode', with_tail=False)
+		py_strin = (ET.tostring(elem.getparent(), method="text", encoding='unicode', with_tail=False)).strip().replace("\n","")
 		list_xpath_function = et.getpath(elem.getparent())
+
 	return [py_strin,list_xpath_function]
 
 

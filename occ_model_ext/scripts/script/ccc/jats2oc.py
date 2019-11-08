@@ -32,7 +32,11 @@ class Jats2OC(object):
 			n_rp += 100
 			xref_id = xref.get('rid')
 			xref_text = xref.text
-			rp_string = xref_text.strip().replace('\n','')
+			if xref_text:
+				rp_string = xref_text.strip().replace('\n','')
+			else:
+				xref_text = ET.tostring(xref, method="text", encoding='unicode', with_tail=False)
+				rp_string = xref_text.strip().replace('\n','')
 			rp_xpath = self.et.getpath(xref)
 			parent = None if xref.getparent().tag in conf.parent_elements_names else xref.getparent().tag
 			context_xpath = conf.xpath_sentence(xref, self.root, conf.abbreviations_list_path, parent)
@@ -59,7 +63,10 @@ class Jats2OC(object):
 					rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None, context_xpath, containers_title)
 					rp_list.append(rp_dict)
 			else: # children
-				tail = (xref[0].tail).strip().replace('\n','')
+				if xref[0].tail:
+					tail = (xref[0].tail).strip().replace('\n','')
+				else:
+					tail = ''
 				rp_string = ET.tostring(xref, method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
 
 				if len(xref_text.strip().replace('\n','')) != 0 or len(tail) != 0: # Amass <italic>et al.</italic>, 2000
@@ -67,7 +74,10 @@ class Jats2OC(object):
 					rp_list.append(rp_dict)
 
 				elif len(xref_text.strip().replace('\n','')) == 0 and len(tail) == 0: # xref/sup
-					seq = ((xref[0].text).strip().replace('\n','')).split('\u2013')
+					if xref[0].text:
+						seq = ((xref[0].text).strip().replace('\n','')).split('\u2013')
+					else:
+						seq = ((ET.tostring(xref[0], method="text", encoding='unicode', with_tail=False)).strip().replace('\n','')).split('\u2013')
 					if len(seq) == 2 and conf.num(seq[0]) and conf.num(seq[1]): # more digits <xref rid="CIT0001"><sup>1-3</sup></xref>
 						pl_string , pl_xpath = rp_string , rp_xpath
 						rp_dict = conf.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
@@ -103,8 +113,8 @@ class Jats2OC(object):
 			# TODO add pl also to first and last
 			for xref_el in parent_el:
 				n_rpn = [rp["n_rp"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
-				tail = (xref_el.tail).strip().replace('\n','')
-				if '\u2013' in tail:
+				tail = (xref_el.tail)
+				if tail and '\u2013' in tail.strip().replace('\n',''):
 					end_seq = xref_el.getnext()
 					if end_seq.tag == 'xref' and ( (xref_el.text).isdigit() and (end_seq.text).isdigit() ):
 						for intermediate in range(int(xref_el.text)+1,int(end_seq.text) ):
@@ -140,7 +150,8 @@ class Jats2OC(object):
 
 			if len(xref_list) > 1: # rp and pl in sentence
 				xref_in_sent = [rp["rp_xpath"] for rp in xref_list if "rp_xpath" in rp.keys()]
-				tails = [self.root.xpath('/'+xref+conf.rp_tail)[0] for xref in xref_in_sent]
+				tails = [self.root.xpath('/'+xref+conf.rp_tail)[0] if self.root.xpath('/'+xref+conf.rp_tail) else '' for xref in xref_in_sent]
+
 				end_separator = conf.rp_end_separator(tails)
 
 				if len(end_separator) != 0 and end_separator[0][0] not in list(string.ascii_letters) and end_separator[0][0] not in list(string.digits): # separators
@@ -151,9 +162,10 @@ class Jats2OC(object):
 					# add group type rp/pl -- TODO when it's both a list and a sequence	e.g. 31243649
 					for group in rp_groups:
 						if conf.rp_separators_in_list[0].decode('utf-8') in group \
-						or conf.rp_separators_in_list[2].decode('utf-8') in group:
+						or conf.rp_separators_in_list[3].decode('utf-8') in group:
 							group.append('list')
-						elif conf.rp_separators_in_list[1].decode('utf-8') in group:
+						elif conf.rp_separators_in_list[1].decode('utf-8') in group \
+						or conf.rp_separators_in_list[2].decode('utf-8') in group:
 							group.append('sequence')
 						else:
 							group.append('singleton')
@@ -212,16 +224,28 @@ class Jats2OC(object):
 					for xref in xref_in_sent: # exception xref/sup + sup=, + xref/sup
 						if len(self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) != 0 \
 							and len(self.root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) == 0:
-							groups.append(["1",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) #s tart
+							if self.root.xpath('/'+xref+'/sup/text()'):
+								groups.append(["1",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # start
+							else:
+								groups.append(["1",xref, (self.root.xpath('/'+xref+'/text()')[0]) ])
 						elif len(self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) == 0 \
 							and len(self.root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) == 0:
-							lonely.append(["0",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # alone
+							if self.root.xpath('/'+xref+'/sup/text()'):
+								lonely.append(["0",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # alone
+							else:
+								lonely.append(["0",xref, (self.root.xpath('/'+xref+'/text()')[0]) ]) # mistakes in lists with separators (e.g. 31411129, sec[1]/p[1]/xref[3])
 						elif len(self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) != 0 \
 							and len(self.root.xpath('/'+xref+'/preceding-sibling::*[1][text() = ","]')) != 0:
-							groups.append(["2", xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # inlist
+							if self.root.xpath('/'+xref+'/sup/text()'):
+								groups.append(["2",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # inlist
+							else:
+								groups.append(["2",xref, (self.root.xpath('/'+xref+'/text()')[0]) ])
 						elif len(self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) == 0 \
 							and len(self.root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) != 0:
-							groups.append(["3",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # last
+							if self.root.xpath('/'+xref+'/sup/text()'):
+								groups.append(["3",xref, (self.root.xpath('/'+xref+'/sup/text()')[0]) ]) # last
+							else:
+								groups.append(["3",xref, (self.root.xpath('/'+xref+'/text()')[0]) ]) # last
 						else: # only rp
 							if len(self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) != 0 \
 								and len(self.root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) != 0:
@@ -232,14 +256,14 @@ class Jats2OC(object):
 						all_groups.append(groups)
 					if len(lonely) != 0:
 						all_groups.append(lonely)
-
+		# no separator, weird internal separators
 		sublists = [conf.sublist(group) for group in all_groups]
 		rp_dictionaries = []
 		for group_in_sent in sublists:
 			for group_list in group_in_sent:
 				rp_dict = [rp for rp in rp_list for tup in group_list if ("rp_xpath" in rp.keys() and rp["rp_xpath"] == tup[1]) or ("pl_xpath" in rp.keys() and rp["pl_xpath"] == tup[1]) ]
 				rp_dictionaries.append(rp_dict)
-
+		# add pl xpath/string
 		for rp_d in rp_dictionaries:
 			if len(rp_d) > 1:
 				first_el = rp_d[0]["xml_element"]
