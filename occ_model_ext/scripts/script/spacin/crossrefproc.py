@@ -43,7 +43,8 @@ class CrossrefProcessor(FormatProcessor):
                  timeout=30,
                  use_doi_in_bibentry_as_id=True,
                  use_url_in_bibentry_as_id=True,
-                 crossref_min_similarity_score=75.0):
+                 crossref_min_similarity_score=75.0,
+                 intext_refs=False):
         self.crossref_api_works = "https://api.crossref.org/works/"
         self.crossref_api_search = "https://api.crossref.org/works?rows=1&query="
         self.headers = headers
@@ -351,5 +352,3 @@ class CrossrefProcessor(FormatProcessor):
     def message(self, mess, entity_type, entity, url="not provided"):
         return super(CrossrefProcessor, self).message(mess) + \
                "\n\t%s: %s\n\tURL: %s" % (entity_type, entity, url)
-
-

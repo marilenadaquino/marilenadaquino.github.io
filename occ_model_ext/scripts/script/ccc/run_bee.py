@@ -40,7 +40,6 @@ except Exception as e:
 end_time = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
 
 if exception_string is not None:
-    print('MARI',exception_string)
     if not os.path.exists(error_dir):
         os.makedirs(error_dir)
     with open(error_dir + end_time.replace(":", "-") + ".err", "w") as f:

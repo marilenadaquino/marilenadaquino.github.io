@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import script.ccc.conf as conf
+import script.ccc.conf_bee as conf
 import uuid , itertools , os , pprint ,re , string
 from lxml import etree as ET
 from script.ocdm.graphlib import *
@@ -275,13 +275,10 @@ class Jats2OC(object):
 						rp["pl_string"] = self.root.xpath(pl_xpath)
 			self.metadata.append(rp_d)
 
-
-		# TODO
-		# REMEBER LISTS NESTED IN LISTS for rp with same pl_xpath -- add to metadata all rp with same pl/rp path
-
 		# sort rp in incremental order
 		self.metadata = sorted(self.metadata, key=lambda rp : rp[0]["n_rp"])
-		tot_rp = [(count, r) for count, r in enumerate([rp for group in self.metadata for rp in group])]
+		# start enumerate at 1 not 0
+		tot_rp = [(count, r) for count, r in enumerate([rp for group in self.metadata for rp in group]),1]
 		for group in self.metadata:
 			for rp in group:
 				for count, r in tot_rp:
@@ -294,6 +291,9 @@ class Jats2OC(object):
 		pp.pprint(self.metadata)
 		return self.metadata
 
+
+	def intext_refs_to_rdf(self, citing_entity, cited_entities):
+		""" """
 
 	def to_rdf(self, graph):
 		""" process a JSON file to create a graph according to the OCC extended model"""

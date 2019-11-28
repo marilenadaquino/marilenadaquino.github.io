@@ -37,6 +37,7 @@ class FormatProcessor(object):
         self.source = None
         self.source_provider = None
         self.entries = None
+        self.reference_pointers = None
 
         if entries is not None:
             if "occ" in entries:
@@ -57,6 +58,8 @@ class FormatProcessor(object):
                 self.source_provider = entries["source_provider"]
             if "references" in entries:
                 self.entries = entries["references"]
+                if "reference_pointers" in entries:
+                    self.reference_pointers = entries["reference_pointers"]
 
         self.name = "SPACIN " + self.__class__.__name__
         self.g_set = GraphSet(base_iri, context_base, info_dir, n_file_item, supplier_prefix)
