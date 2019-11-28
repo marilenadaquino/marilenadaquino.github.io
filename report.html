@@ -27,6 +27,42 @@
 						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
 					</div>
 				</section>
+				<section id="w21">
+					<header>
+						<h2>#w21</h2>
+					</header>
+					<div class="content">
+						<p><strong>November 25, 2019 - November 29, 2019</strong></p>
+						<p>I created a test dataset of JSONs extracted with BEE (including all the reference pointers and the other other information previously discussed) and I started planning the work
+						for integrating SPACIN (identifying which parts have to be modified, how they interact and how to finalise the changes).</p>
+						<p>We agreed to modify as less as possible SPACIN scripts (by adding only one parameter <em>intext_refs=False</em>) so as to not interfeer with Fabio's work on <em>META</em>.</p>
+						<p>The idea is the following:</p>
+<pre>
+	<code>
+<strong>ccc/run_spacin.py</strong>
+	| <em>calls</em>
+	<strong>spacin/crossrefproc.py#CrossrefProcessor()</strong>
+	| <em>ADDED parameter <u>intext_refs=False</u></em> # added also in FormatProcessor()
+	| <em>calls</em>
+	<strong>spacin/crossrefproc.py#process()</strong>
+		| <em>calls</em>
+		<strong>spacin/crossrefproc.py#process_citing_entity()</strong>
+		|	| <em>calls</em>
+		|	<strong>spacin/crossrefproc.py#process_references()</strong>
+		|		<em>ADD <u>xml_id</u> as identifier of cited sources</em>
+		| <em>ADD If clause <u>intext_refs=True</u></em>
+		| <em>calls</em>
+		<strong>ccc/jats2oc.py#intext_refs_to_rdf()</strong>
+	</code>
+</pre>
+
+					<h3>TODO</h3>
+					<ul>
+						<li>clean <code>Prov</code></li>
+					</ul>
+
+					</div>
+				</section>
 				<section id="w18">
 					<header>
 						<h2>#w18</h2>
@@ -39,7 +75,7 @@
 						XPATH returns only a node-set, unfortunately doesn't match groups of elements. In the end I get the xpath of the string as we do for lists in separators.</p>
 						<p>I sorted the list of rp incrementally. For the sake of simplicity, I decided to keep the incremental number in the final JSON [TO BE DISCUSSED]</p>
 					</div>
-				</section
+				</section>
 				<!-- Section -->
 				<section id="w15">
 					<header>
