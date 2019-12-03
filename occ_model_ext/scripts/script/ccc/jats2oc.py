@@ -110,7 +110,6 @@ class Jats2OC(object):
 			containers_title = conf.find_container_title(parent_el, conf.section_tag, self.root)
 			parent_el_list = []
 
-			# TODO add pl also to first and last
 			for xref_el in parent_el:
 				n_rpn = [rp["n_rp"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
 				tail = (xref_el.tail)
@@ -118,7 +117,7 @@ class Jats2OC(object):
 					end_seq = xref_el.getnext()
 					if end_seq.tag == 'xref' and ( (xref_el.text).isdigit() and (end_seq.text).isdigit() ):
 						for intermediate in range(int(xref_el.text)+1,int(end_seq.text) ):
-							n_rpn += 1 # TODO change
+							n_rpn += 1
 							xref_id = conf.find_xmlid(str(intermediate),self.root)
 							rp_dict_i = conf.rp_dict(xref_el , n_rpn , xref_id , None , None , pl_string , pl_xpath, context_xpath, containers_title)
 							rp_list.append(rp_dict_i)
@@ -256,6 +255,7 @@ class Jats2OC(object):
 						all_groups.append(groups)
 					if len(lonely) != 0:
 						all_groups.append(lonely)
+
 		# no separator, weird internal separators
 		sublists = [conf.sublist(group) for group in all_groups]
 		rp_dictionaries = []
@@ -263,6 +263,7 @@ class Jats2OC(object):
 			for group_list in group_in_sent:
 				rp_dict = [rp for rp in rp_list for tup in group_list if ("rp_xpath" in rp.keys() and rp["rp_xpath"] == tup[1]) or ("pl_xpath" in rp.keys() and rp["pl_xpath"] == tup[1]) ]
 				rp_dictionaries.append(rp_dict)
+
 		# add pl xpath/string
 		for rp_d in rp_dictionaries:
 			if len(rp_d) > 1:
@@ -278,7 +279,7 @@ class Jats2OC(object):
 		# sort rp in incremental order
 		self.metadata = sorted(self.metadata, key=lambda rp : rp[0]["n_rp"])
 		# start enumerate at 1 not 0
-		tot_rp = [(count, r) for count, r in enumerate([rp for group in self.metadata for rp in group]),1]
+		tot_rp = [(count, r) for count, r in enumerate([rp for group in self.metadata for rp in group],1)]
 		for group in self.metadata:
 			for rp in group:
 				for count, r in tot_rp:
@@ -292,7 +293,7 @@ class Jats2OC(object):
 		return self.metadata
 
 
-	def intext_refs_to_rdf(self, citing_entity, cited_entities):
+	def intext_refs_to_rdf(self, citing_entity, cited_entities, be_entities, rp_list):
 		""" """
 
 	def to_rdf(self, graph):

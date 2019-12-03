@@ -11,9 +11,10 @@ from itertools import zip_longest
 
 # ABBREVIATIONS
 # elem 	= XML element
-# be 	= bibliographic entry
-# br 	= bibliographic resource
+# be 	= bibliographic entry (URI)
+# br 	= bibliographic resource (URI)
 # rp 	= in-text reference pointer
+# pl 	= list of pointers
 
 # VARIABLES
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
@@ -21,7 +22,7 @@ abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__)
 list_separators = [('[', ']'), ('[',']') , ('(', ')')]
 rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), '\u002D'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
 
-# XPATH: modify find_rp() to associate the correct xml element to rp
+# XPATH
 rp_path = './/xref[@rid = //ref/@id]'
 rp_tail = '/following-sibling::text()[1]'
 rp_closest_parent = '/ancestor::*[1]'
@@ -44,7 +45,6 @@ back_tag = 'back'
 
 parent_elements_names = [notes_tag, section_tag, caption_tag, title_tag, table_tag, footnote_tag, paragraph_tag, 'tr','td','th']
 
-
 # mapping to graphlib bibliographic entities
 elem_mapping = [(caption_tag,GraphEntity.caption),\
 				(paragraph_tag,GraphEntity.paragraph),\
@@ -59,6 +59,7 @@ C4O = Namespace("http://purl.org/spar/c4o/")
 DATACITE = Namespace("http://purl.org/spar/datacite/")
 LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
 
+# methods used by jats2oc
 def sublist(groups):
 	result_list = []
 	sublist = []
@@ -75,6 +76,7 @@ def sublist(groups):
 		result_list.append(sublist)
 	return result_list
 
+
 def num(s):
     try:
         return int(s)
@@ -83,35 +85,6 @@ def num(s):
 
 
 # methods for XML bibliographic entities
-def find_rp(root):
-	"""
-	params: root -- the root element of the XML document
-	return: the XPATH of rp (e.g. 'xref[@ref-type="bibr"]' or 'xref')
-	"""
-	et = ET.ElementTree(root)
-	if len(root.xpath('.//xref[@ref-type="bibr"]')) != 0:
-		rp_path = 'xref[@ref-type="bibr"]'
-	else:
-		if len(root.xpath('.//xref[@rid = //ref/@id]')) != 0:
-			rp_path = 'xref[@rid = //ref/@id]'
-		else:
-			rp_path = None
-			print('seems there are no xref in this article')
-	return rp_path
-
-
-def find_citing_doi(root):
-	"""
-	params: root -- the root element of the XML document
-	return: DOI or uuid of the citing entity
-	"""
-	if root.find(citing_doi) is not None:
-		article_doi = root.find(citing_doi).text
-	else:
-		article_doi = str(uuid.uuid4())
-	return article_doi
-
-
 def get_be_id(elem):
 	"""
 	params: elem -- the XML element including the rp
@@ -121,34 +94,6 @@ def get_be_id(elem):
 		return elem.get('rid')
 	else:
 		return elem.getparent().get('rid')
-
-
-def find_cited_doi(elem,root):
-	"""
-	params: elem -- the XML element OR the text value of the XML element including the rp
-	params: root -- the root element of the XML document
-	return: DOI, PMID, or uuid of the be denoted by the rp
-	"""
-	if isinstance(elem, str) == False:
-		doi = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="doi"]'
-		pmid = './/ref[@id="'+get_be_id(elem)+'"]//pub-id[@pub-id-type="pmid"]'
-		be_path = './/ref[@id="'+get_be_id(elem)+'"]'
-	else:
-		if root.find('.//ref[label="'+elem+'"]') is not None:
-			doi = './/ref[label="'+elem+'"]//pub-id[@pub-id-type="doi"]'
-			pmid = './/ref[label="'+elem+'"]//pub-id[@pub-id-type="pmid"]'
-			be_path = './/ref[label="'+elem+'"]'
-		else:
-			doi,pmid,be_path = None
-			be_id = 'not found'
-	if root.find(doi) is not None:
-		be_id = root.find(doi).text
-	elif root.find(doi) is None and root.find(pmid) is not None:
-		be_id = root.find(pmid).text
-	else:
-		be_id = str(uuid.uuid4())
-	be_text = ET.tostring(root.find(be_path), method="text", encoding='unicode', with_tail=False).strip()
-	return be_id, be_text
 
 
 def find_xmlid(elem,root):
@@ -171,76 +116,11 @@ def find_xmlid(elem,root):
 				xmlid = ref.get('id')
 			else:
 				xmlid = ''
-			# if root.find('.//ref[label="'+elem+'"]') is not None:
-			# 	xmlid = root.find('.//ref[label="'+elem+'"]').get('id')
-			# else:
-				# 	xmlid = None
+
 	return xmlid
 
-# methods for XML/text parsing
-def clean(string):
-	"""return: encoded stripped string"""
-	return string.encode('utf-8').strip()
 
-
-def rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title):
-	rp_dict = {}
-	if xref is not None:
-		rp_dict["xml_element"] = xref
-	rp_dict["n_rp"] = n_rp
-	rp_dict["xref_id"] = xref_id
-	if rp_string is not None:
-		rp_dict["rp_string"] = rp_string
-	if pl_string is not None:
-		rp_dict["pl_string"] = pl_string
-	if rp_xpath is not None:
-		rp_dict["rp_xpath"] = rp_xpath
-	if pl_xpath is not None:
-		rp_dict["pl_xpath"] = pl_xpath
-	rp_dict["context_xpath"] = context_xpath
-	rp_dict["containers_title"] = containers_title
-	return rp_dict
-
-
-def clean_list(l):
-	"""given a list of strings/elements returns a new list with stripped strings and elements"""
-	# only strings
-	new_l = []
-	type_l = list({type(item) for item in l})
-	if len(type_l) == 1 and type_l[0] == str:
-		string_list = True
-	else:
-		string_list = False
-
-	if string_list == True:
-		for x in l:
-			if len(x) != 0 and '\n' in x:
-				y = x.replace("\n","")
-				if len(y) != 0:
-					new_l.append(y[:1])
-			elif len(x) != 0 and '\n' not in x:
-				new_l.append(x[:1])
-	else:
-		for x in l: # strings and elems
-			if isinstance(x, str) == True and len(x) != 0 and '\n' in x:
-				y = x.replace("\n","")
-				if len(y) != 0:
-					new_l.append(y[0])
-			elif isinstance(x, str) == True and len(x) != 0 and '\n' not in x:
-				new_l.append(x[0])
-			else:
-				new_l.append(x)
-	return new_l
-
-
-def rp_end_separator(rp_path_list):
-	"""given a list of separators (in sentence) retrieve the most common separator"""
-	rp_end_separator = clean_list(rp_path_list)
-	rp_end_separator = [rp for rp in rp_end_separator if rp.encode('utf-8') not in rp_separators_in_list]
-	rp_end_separator = Counter(rp_end_separator).most_common(1)
-	return rp_end_separator
-
-
+# methods for XML parsing
 def get_text_before(elem):
 	""" extract text before an xml element till the start tag of the parent element"""
 	for item in elem.xpath("preceding-sibling::*//text()|preceding-sibling::text()"):
@@ -346,6 +226,7 @@ def xpath_list_between_elements(first_el, last_el, root):
 	pl_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(first_el.getparent())+'),'+str(start_pl)+','+str(len_pl)+')'
 	return pl_xpath_function
 
+
 def find_container_xpath(elem, container_tag, root):
 	"""
 	params: elem -- an XML element
@@ -405,8 +286,71 @@ def find_closest_parent(elem, root):
 			parent = elem.xpath('./ancestor::'+section_tag)
 	return et.getpath(parent[0])
 
+# methods for XML/text cleaning
+def clean(string):
+	"""return: encoded stripped string"""
+	return string.encode('utf-8').strip()
 
-#def get_rp_or_pl_path(elem, root):
+
+def clean_list(l):
+	"""given a list of strings/elements returns a new list with stripped strings and elements"""
+	# only strings
+	new_l = []
+	type_l = list({type(item) for item in l})
+	if len(type_l) == 1 and type_l[0] == str:
+		string_list = True
+	else:
+		string_list = False
+
+	if string_list == True:
+		for x in l:
+			if len(x) != 0 and '\n' in x:
+				y = x.replace("\n","")
+				if len(y) != 0:
+					new_l.append(y[:1])
+			elif len(x) != 0 and '\n' not in x:
+				new_l.append(x[:1])
+	else:
+		for x in l: # strings and elems
+			if isinstance(x, str) == True and len(x) != 0 and '\n' in x:
+				y = x.replace("\n","")
+				if len(y) != 0:
+					new_l.append(y[0])
+			elif isinstance(x, str) == True and len(x) != 0 and '\n' not in x:
+				new_l.append(x[0])
+			else:
+				new_l.append(x)
+	return new_l
+
+
+# methods for pl JSON
+def rp_end_separator(rp_path_list):
+	"""given a list of separators (in sentence) retrieve the most common separator"""
+	rp_end_separator = clean_list(rp_path_list)
+	rp_end_separator = [rp for rp in rp_end_separator if rp.encode('utf-8') not in rp_separators_in_list]
+	rp_end_separator = Counter(rp_end_separator).most_common(1)
+	return rp_end_separator
+
+
+# methods for rp JSON
+def rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title):
+	""" create a dictionary w/ all the info on a rp to be refined and injected in a final JSON"""
+	rp_dict = {}
+	if xref is not None:
+		rp_dict["xml_element"] = xref
+	rp_dict["n_rp"] = n_rp
+	rp_dict["xref_id"] = xref_id
+	if rp_string is not None:
+		rp_dict["rp_string"] = rp_string
+	if pl_string is not None:
+		rp_dict["pl_string"] = pl_string
+	if rp_xpath is not None:
+		rp_dict["rp_xpath"] = rp_xpath
+	if pl_xpath is not None:
+		rp_dict["pl_xpath"] = pl_xpath
+	rp_dict["context_xpath"] = context_xpath
+	rp_dict["containers_title"] = containers_title
+	return rp_dict
 
 
 # methods for serialising RDF

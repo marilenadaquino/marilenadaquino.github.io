@@ -119,9 +119,9 @@ def string_list_close_match(ls, m):
         if normalise_name(s)[:1] == f_letter:
             tmp_result += [idx]
 
-    if tmp_result == 1:
+    if len(tmp_result) == 1:
         final_result = tmp_result
-    elif tmp_result > 1:
+    elif len(tmp_result) > 1:
         cur_lev = 10000000
         for idx in tmp_result:
             s = ls[idx]

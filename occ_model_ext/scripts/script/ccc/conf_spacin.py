@@ -1,20 +1,20 @@
 # CCC spacin configuration
-base_dir = "/data/corpus/"
+base_dir = "data/corpus/"
 base_iri = "https://w3id.org/ccc/corpus/"
 triplestore_url = "http://localhost:9999/blazegraph/sparql"
 triplestore_url_real = "https://w3id.org/ccc/sparql"
 context_path = "https://w3id.org/ccc/corpus/context.json"
-context_file_path = "/data/corpus/context.json"
-info_dir = "/test/id-counter/"
-temp_dir_for_rdf_loading = "/tmp/"
-orcid_conf_path = "/script/spacin/orcid_conf.json"
-reference_dir = "/test/ref/todo/"
-reference_dir_error = "/test/ref/err/"
-reference_dir_done = "/test/ref/done/"
+context_file_path = "data/corpus/context.json"
+info_dir = "test/id-counter/"
+temp_dir_for_rdf_loading = "tmp/"
+orcid_conf_path = "script/spacin/orcid_conf.json"
+reference_dir = "test/share/ref/todo/"
+reference_dir_error = "test/share/ref/err/"
+reference_dir_done = "test/share/ref/done/"
 dataset_home = "https://w3id.org/ccc"
 dir_split_number = 10000  # This must be multiple of the following one
 items_per_file = 1000
-default_dir = "070"
+default_dir = ""
 supplier_dir = {
     "101": "01110",
     "102": "01120",
@@ -50,4 +50,4 @@ supplier_dir = {
 
 interface = "eth0"
 do_parallel = True
-sharing_dir = "/test/data/"
+sharing_dir = "test/data/"
