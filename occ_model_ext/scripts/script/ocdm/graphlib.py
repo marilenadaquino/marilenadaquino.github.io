@@ -556,19 +556,20 @@ class GraphSet(object):
             else:
                 count = self.supplier_prefix + str(GraphSet._add_number(info_file_path))
 
-            label = "%s %s%s [%s/%s%s]" % (
-                GraphSet.labels[short_name], count, related_to_label,
-                short_name, count, related_to_short_label)
+            # label = "%s %s%s [%s/%s%s]" % (
+            #     GraphSet.labels[short_name], count, related_to_label,
+            #     short_name, count, related_to_short_label)
+            # removing labels
             return self._generate_entity(
                 cur_g, res_type=main_type, resp_agent=resp_agent, source_agent=source_agent,
-                source=source, count=count, label=label, short_name=short_name,
+                source=source, count=count, label=None, short_name=short_name,
                 list_of_entities=list_of_entities)
-
+    # removing labels
     def _generate_entity(self, g, res=None, res_type=None, resp_agent=None, source_agent=None,
                          source=None, count=None, label=None, short_name="", list_of_entities=[]):
         return GraphEntity(g, res=res, res_type=res_type, resp_agent=resp_agent,
                            source_agent=source_agent, source=source, count=count,
-                           label=label, g_set=self)
+                           label=None, g_set=self)
 
     def graphs(self):
         result = []
@@ -732,7 +733,7 @@ class ProvEntity(GraphEntity):
         ca_res.g.add((URIRef(str(ca_res)), ProvEntity.associated_agent, self.res))
 
     # new
-    def responsible_agent(self, se_res):
+    def responsible_agent_of(self, se_res):
         se_res.g.add((URIRef(str(se_res)), ProvEntity.was_attributed_to, self.res))
     # /END Composite Attributes
 
@@ -757,12 +758,12 @@ class ProvSet(GraphSet):
         #         "se": "snapshot of entity metadata"
         #     }
         # )
-        GraphSet.labels.update(
-            {
-                "pa": "provenance agent",
-                "se": "snapshot of entity metadata"
-            }
-        )
+        # GraphSet.labels.update(
+        #     {
+        #         "pa": "provenance agent",
+        #         "se": "snapshot of entity metadata"
+        #     }
+        # )
 
     # Add resources related to provenance information
     def add_pa(self, resp_agent=None, res=None):
@@ -819,11 +820,11 @@ class ProvSet(GraphSet):
                 if cur_curator_agent_res is None:
                     cur_curator_agent = self.add_pa(self.cur_name)
                     cur_curator_agent.create_name(cur_subj.resp_agent)
-                    cur_snapshot.responsible_agent(cur_curator_agent)
+                    cur_curator_agent.responsible_agent_of(cur_snapshot)
                     self.rf.update_graph_set(self)
                 else:
                     cur_curator_agent = self.add_pa(self.cur_name, cur_curator_agent_res)
-                    cur_snapshot.responsible_agent(cur_curator_agent)
+                    cur_curator_agent.responsible_agent_of(cur_snapshot)
                     self.rf.update_graph_set(self)
                 # cur_curator_agent.has_role_in(cur_curator_ass)
 
@@ -965,4 +966,4 @@ class ProvSet(GraphSet):
         return ProvEntity(list_of_entities[0] if list_of_entities else None, g,
                           res=res, res_type=res_type, resp_agent=resp_agent,
                           source_agent=source_agent, source=source,
-                          count=count, label=label, short_name=short_name, g_set=self)
+                          count=count, label=None, short_name=short_name, g_set=self)
