@@ -37,8 +37,27 @@
 						<p>Tested new configuration of SPACIN on the test JSON dataset. everything works fine so far, I need to integrate the bit including the transformation of in-text ref pointers.</p>
 						<p>Work plan:</p>
 						<ol>
-							<li>[DONE] provenance: cleaning the code, removing entities/properties deprecated in the new version of OCDM, and testing.</li>
-							<li>work on the URI design pattern, to clearly identify which entities have to be renamed and how to deal with new entities (citations, annotations, rp, pl, de, etc.)</li>
+							<li><strong>[DONE] provenance</strong>: cleaning the code, removing entities/properties deprecated in the new version of OCDM, and testing.</li>
+							<li><strong>[WIP] URI design pattern</strong>: entities have to be renamed so as to include the corpus prefix (i.e. <code>070</code>). The entities are:
+								<ul>
+											<li>"an": "annotation", # new</li>
+							        <li>"ar": "agent role",</li>
+							        <li>"be": "bibliographic entry",</li>
+							        <li>"br": "bibliographic resource",</li>
+							        <li>"ci": "citation", # new</li>
+							        <li>"de": "discourse element", # new</li>
+							        <li>"id": "identifier",</li>
+							        <li>"pl": "single location pointer list", # new</li>
+							        <li>"ra": "responsible agent",</li>
+							        <li>"re": "resource embodiment",</li>
+							        <li>"rp": "in-text reference pointer" # new</li>
+								</ul>
+								Citations include both the IDs of citing and cited entity (br), and may appear in two forms:
+								<ul>
+									<li> <code>0701-0702</code> when there are no pointers</li>
+									<li><code>0701-0702/1</code> when there is at least one pointer for that citation</li>
+								</ul>
+							</li>
 							<li>work on the transformation of new entities in a bespoke method to be included in <code>jats2oc.py</code> (ATM it includes a method that creates all the data from scratch, without using SPACIN. Needs some cut and paste)</li>
 						</ol>
 					</div>

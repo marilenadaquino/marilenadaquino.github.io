@@ -410,6 +410,7 @@ class GraphEntity(object):
 class GraphSet(object):
     # Labels
     labels = {
+        "an": "annotation",
         "ar": "agent role",
         "be": "bibliographic entry",
         "br": "bibliographic resource",
@@ -469,7 +470,7 @@ class GraphSet(object):
         self.repok = Reporter(True)
         self.repok.new_article()
 
-    def res_count(self):
+    def res_count(self): # useless?
         return self.r_count
 
     def get_entity(self, res):
