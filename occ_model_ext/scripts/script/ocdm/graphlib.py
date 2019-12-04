@@ -413,7 +413,7 @@ class GraphSet(object):
         "ar": "agent role",
         "be": "bibliographic entry",
         "br": "bibliographic resource",
-        "cp": "citation", # new
+        "ci": "citation", # new TODO change here and add annotations
         "de": "discourse element", # new
         "id": "identifier",
         "pl": "single location pointer list", # new
@@ -443,7 +443,7 @@ class GraphSet(object):
         self.g_ar = base_iri + "ar/"
         self.g_be = base_iri + "be/"
         self.g_br = base_iri + "br/"
-        self.g_cp = base_iri + "cp/" # new
+        self.g_cp = base_iri + "cp/" # new TODO change and add annotations
         self.g_de = base_iri + "de/" # new
         self.g_id = base_iri + "id/"
         self.g_pl = base_iri + "pl/" # new
@@ -456,7 +456,7 @@ class GraphSet(object):
         self.ar_info_path = info_dir + "ar.txt"
         self.be_info_path = info_dir + "be.txt"
         self.br_info_path = info_dir + "br.txt"
-        self.cp_info_path = info_dir + "cp.txt" # new
+        self.cp_info_path = info_dir + "cp.txt" # new TODO change and add annotations
         self.de_info_path = info_dir + "de.txt" # new
         self.id_info_path = info_dir + "id.txt"
         self.pl_info_path = info_dir + "pl.txt" # new
@@ -583,7 +583,7 @@ class GraphSet(object):
     def _set_ns(self, g):
         g.namespace_manager.bind("ar", Namespace(self.g_ar))
         g.namespace_manager.bind("be", Namespace(self.g_be))
-        g.namespace_manager.bind("cp", Namespace(self.g_cp)) # new
+        g.namespace_manager.bind("cp", Namespace(self.g_cp)) # new TODO change and add annotations
         g.namespace_manager.bind("de", Namespace(self.g_de)) # new
         g.namespace_manager.bind("br", Namespace(self.g_br))
         g.namespace_manager.bind("id", Namespace(self.g_id))
@@ -666,6 +666,7 @@ class ProvEntity(GraphEntity):
     was_derived_from = PROV.wasDerivedFrom
     had_primary_source = PROV.hadPrimarySource
     was_generated_by = PROV.wasGeneratedBy
+    was_attributed_to = PROV.wasAttributedTo # new
     was_invalidated_by = PROV.wasInvalidatedBy
     qualified_association = PROV.qualifiedAssociation
     description = GraphEntity.DCTERMS.description
@@ -730,6 +731,9 @@ class ProvEntity(GraphEntity):
     def has_role_in(self, ca_res):
         ca_res.g.add((URIRef(str(ca_res)), ProvEntity.associated_agent, self.res))
 
+    # new
+    def responsible_agent(self, se_res):
+        se_res.g.add((URIRef(str(se_res)), ProvEntity.was_attributed_to, self.res))
     # /END Composite Attributes
 
 
@@ -745,11 +749,17 @@ class ProvSet(GraphSet):
             self.all_subjects.add(next(cur_subj_g.subjects(None, None)))
         self.resp = "SPACIN ProvSet"
         self.prov_g = prov_subj_graph_set
+        # GraphSet.labels.update(
+        #     {
+        #         "ca": "curatorial activity",
+        #         "pa": "provenance agent",
+        #         "cr": "curatorial role",
+        #         "se": "snapshot of entity metadata"
+        #     }
+        # )
         GraphSet.labels.update(
             {
-                "ca": "curatorial activity",
                 "pa": "provenance agent",
-                "cr": "curatorial role",
                 "se": "snapshot of entity metadata"
             }
         )
@@ -761,11 +771,11 @@ class ProvSet(GraphSet):
     def add_se(self, resp_agent=None, prov_subject=None, res=None):
         return self._add_prov("se", ProvEntity.entity, res, resp_agent, prov_subject)
 
-    def add_ca(self, resp_agent=None, prov_subject=None, res=None):
-        return self._add_prov("ca", ProvEntity.activity, res, resp_agent, prov_subject)
-
-    def add_cr(self, resp_agent=None, prov_subject=None, res=None):
-        return self._add_prov("cr", ProvEntity.association, res, resp_agent, prov_subject)
+    # def add_ca(self, resp_agent=None, prov_subject=None, res=None):
+    #     return self._add_prov("ca", ProvEntity.activity, res, resp_agent, prov_subject)
+    #
+    # def add_cr(self, resp_agent=None, prov_subject=None, res=None):
+    #     return self._add_prov("cr", ProvEntity.association, res, resp_agent, prov_subject)
 
     def generate_provenance(self, c_time=None, do_insert=True, remove_entity=False):
         time_string = '%Y-%m-%dT%H:%M:%S'
@@ -798,47 +808,52 @@ class ProvSet(GraphSet):
             if cur_subj.source is not None:
                 cur_snapshot.has_primary_source(cur_subj.source)
 
-            # Associations
-            cur_curator_ass = None
-            cur_source_ass = None
+            ## Associations
+            #cur_curator_ass = None
+            #cur_source_ass = None
 
             if cur_subj.resp_agent is not None:
-                cur_curator_ass = self.add_cr(self.cur_name, cur_subj)
-                cur_curator_ass.has_role_type(ProvEntity.curator)
+                # cur_curator_ass = self.add_cr(self.cur_name, cur_subj)
+                # cur_curator_ass.has_role_type(ProvEntity.curator)
                 cur_curator_agent_res = self.rf.retrieve_provenance_agent_from_name(cur_subj.resp_agent)
                 if cur_curator_agent_res is None:
                     cur_curator_agent = self.add_pa(self.cur_name)
                     cur_curator_agent.create_name(cur_subj.resp_agent)
+                    cur_snapshot.responsible_agent(cur_curator_agent)
                     self.rf.update_graph_set(self)
                 else:
                     cur_curator_agent = self.add_pa(self.cur_name, cur_curator_agent_res)
-                cur_curator_agent.has_role_in(cur_curator_ass)
-
-            if cur_subj.source_agent is not None:
-                cur_source_ass = self.add_cr(self.cur_name, cur_subj)
-                cur_source_ass.has_role_type(ProvEntity.source_provider)
-                cur_source_agent_res = self.rf.retrieve_provenance_agent_from_name(cur_subj.source_agent)
-                if cur_source_agent_res is None:
-                    cur_source_agent = self.add_pa(self.cur_name)
-                    cur_source_agent.create_name(cur_subj.source_agent)
+                    cur_snapshot.responsible_agent(cur_curator_agent)
                     self.rf.update_graph_set(self)
-                else:
-                    cur_source_agent = self.add_pa(self.cur_name, cur_source_agent_res)
-                cur_source_agent.has_role_in(cur_source_ass)
+                # cur_curator_agent.has_role_in(cur_curator_ass)
 
-            # Activity
-            cur_activity = self.add_ca(self.cur_name, cur_subj)
-            cur_activity.generates(cur_snapshot)
+            #if cur_subj.source_agent is not None:
+            #     cur_source_ass = self.add_cr(self.cur_name, cur_subj)
+            #     cur_source_ass.has_role_type(ProvEntity.source_provider)
+            #     cur_source_agent_res = self.rf.retrieve_provenance_agent_from_name(cur_subj.source_agent)
+            #     if cur_source_agent_res is None:
+            #         cur_source_agent = self.add_pa(self.cur_name)
+            #         cur_source_agent.create_name(cur_subj.source_agent)
+            #         self.rf.update_graph_set(self)
+            #     else:
+            #         cur_source_agent = self.add_pa(self.cur_name, cur_source_agent_res)
+            #     cur_source_agent.has_role_in(cur_source_ass)
 
-            if cur_curator_ass is not None:
-                cur_activity.involves_agent_with_role(cur_curator_ass)
-            if cur_source_ass is not None:
-                cur_activity.involves_agent_with_role(cur_source_ass)
+            ## Activity
+            # cur_activity = self.add_ca(self.cur_name, cur_subj)
+            # cur_activity.generates(cur_snapshot)
+            #
+            # if cur_curator_ass is not None:
+            #     cur_activity.involves_agent_with_role(cur_curator_ass)
+            # if cur_source_ass is not None:
+            #     cur_activity.involves_agent_with_role(cur_source_ass)
 
             # Old snapshot
             if last_snapshot is None and do_insert:  # Create a new entity
-                cur_activity.create_creation_activity()
-                cur_activity.create_description("The entity '%s' has been created." % str(cur_subj.res))
+                # cur_activity.create_creation_activity()
+                # TODO se description
+                cur_snapshot.create_description("The entity '%s' has been created." % str(cur_subj.res))
+                # cur_activity.create_description("The entity '%s' has been created." % str(cur_subj.res))
             else:
                 update_query_data = None
                 update_description = None
@@ -872,8 +887,8 @@ class ProvSet(GraphSet):
                         update_description += " statements"
                     update_description += "."
 
-                cur_activity.create_update_activity()
-                cur_activity.create_description(update_description)
+                #cur_activity.create_update_activity()
+                cur_snapshot.create_description(update_description)
                 cur_snapshot.create_update_query(update_query_data[0])
 
                 # Note: due to previous processing errors, it would be possible that no snapshot has been created
@@ -884,11 +899,11 @@ class ProvSet(GraphSet):
                 if last_snapshot is not None:
                     cur_snapshot.derives_from(last_snapshot)
                     last_snapshot.create_invalidation_time(cur_time)
-                    cur_activity.invalidates(last_snapshot)
+                    cur_snapshot.invalidates(last_snapshot)
 
-                # Invalidate the new snapshopt if the entity has been removed
+                # Invalidate the new snapshot if the entity has been removed
                 if remove_entity:
-                    cur_activity.invalidates(cur_snapshot)
+                    cur_snapshot.invalidates(cur_snapshot)
                     cur_snapshot.create_invalidation_time(cur_time)
 
     @staticmethod
