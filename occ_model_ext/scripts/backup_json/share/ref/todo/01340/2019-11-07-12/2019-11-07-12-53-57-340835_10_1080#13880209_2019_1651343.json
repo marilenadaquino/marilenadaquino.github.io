@@ -1,0 +1,826 @@
+{
+    "references": [
+        {
+            "bibentry": "Antolak, A, Bodzoń-Kułakowska, A, Cetnarska, E, Pietruszka, M, Marszałek-Grabska, M, Kotlińska, J, Suder, P. 2017 Proteomic data in morphine addiction versus real protein activity: metabolic enzymes. J Cell Biochem. 118(12): 4323–4330. PMID: 28430368",
+            "process_entry": "True",
+            "doi": "10.1002/jcb.26085",
+            "pmid": "28430368",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Baimel, C, Bartlett, SE, Chiou, LC, Lawrence, AJ, Muschamp, JW, Patkar, O, Tung, LW, Borgland, SL. 2015 Orexin/hypocretin role in reward: implications for opioid and other addictions. Br J Pharmacol. 172(2): 334–348. PMID: 24641197",
+            "process_entry": "True",
+            "doi": "10.1111/bph.12639",
+            "pmid": "24641197",
+            "pmcid": "PMC4292951",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Bohnsack, JP, Teppen, T, Kyzar, EJ, Dzitoyeva, S, Pandey, SC. 2019 The lncRNA BDNF-AS is an epigenetic regulator in the human amygdala in early onset alcohol use disorders. Transl Psychiatry. 9(1): 34–45. PMID: 30728347",
+            "process_entry": "True",
+            "doi": "10.1038/s41398-019-0367-z",
+            "pmid": "30728347",
+            "pmcid": "PMC6365546",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Booth, LA, Tavallai, S, Hamed, HA, Cruickshanks, N, Dent, P. 2014 The role of cell signalling in the crosstalk between autophagy and apoptosis. Cell Signal. 26(3): 549–555. PMID: 24308968",
+            "process_entry": "True",
+            "doi": "10.1016/j.cellsig.2013.11.028",
+            "pmid": "24308968",
+            "pmcid": "PMC4054685",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Cai, Y, Yang, L, Hu, G, Chen, X, Niu, F, Yuan, L, Liu, H, Xiong, H, Arikkath, J, Buch, S. 2016 Regulation of morphine-induced synaptic alterations: role of oxidative stress, ER stress, and autophagy. J Cell Biol. 215(2): 245–258. PMID: 27810915",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201605065",
+            "pmid": "27810915",
+            "pmcid": "PMC5084649",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Du, G-H. 2018 Morphine In: Kong L-L, Wang J-H and Du G-H, editors. Natural small molecule drugs from plants. Vol. 1. Singapore: Springer; p. 295–302.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Dziopa, L, Imeh-Nathaniel, A, Baier, D, Kiel, M, Sameera, S, Brager, A, Beatriz, V, Nathaniel, TI. 2011 Morphine-conditioned cue alters c-Fos protein expression in the brain of crayfish. Brain Res Bull. 85(6): 385–395. PMID: 21524693",
+            "process_entry": "True",
+            "doi": "10.1016/j.brainresbull.2011.04.003",
+            "pmid": "21524693",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Erami, E, Azhdari-Zarmehri, H, Rahmani, A, Ghasemi-Dashkhasan, E, Semnanian, S, Haghparast, A. 2012 Blockade of orexin receptor 1 attenuates the development of morphine tolerance and physical dependence in rats. Pharmacol Biochem Behav. 103(2): 212–219. PMID: 23010422",
+            "process_entry": "True",
+            "doi": "10.1016/j.pbb.2012.08.010",
+            "pmid": "23010422",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Feng, J, Nestler, EJ. 2013 Epigenetic mechanisms of drug addiction. Curr Opin Neurobiol. 23(4): 521–528. PMID: 23374537",
+            "process_entry": "True",
+            "doi": "10.1016/j.conb.2013.01.001",
+            "pmid": "23374537",
+            "pmcid": "PMC3644540",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Fung, TS, Liu, DX. 2019 The ER stress sensor IRE1 and MAP kinase ERK modulate autophagy induction in cells infected with coronavirus infectious bronchitis virus. Virology. 533: 34–44. PMID: 31082732",
+            "process_entry": "True",
+            "doi": "10.1016/j.virol.2019.05.002",
+            "pmid": "31082732",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Ish-Shalom, S, Lichter, A. 2010 Analysis of fungal gene expression by real time quantitative PCR. Methods Mol Biol. 638: 103–114. PMID: 20238263",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-60761-611-5_7",
+            "pmid": "20238263",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Jarroux, J, Morillon, A, Pinskaya, M. 2017 History, discovery, and classification of lncRNAs. Adv Exp Med Biol. 1008: 1–46. PMID: 28815535",
+            "process_entry": "True",
+            "doi": "10.1007/978-981-10-5203-3_1",
+            "pmid": "28815535",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Kenny, PJ. 2014 Epigenetics, microRNA, and addiction. Dialogues Clin Neurosci. 16(3): 335–344. PMID: 25364284",
+            "process_entry": "True",
+            "pmid": "25364284",
+            "pmcid": "PMC4214176",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Kim, J, Ham, S, Hong, H, Moon, C, Im, HI. 2016 Brain reward circuits in morphine addiction. Mol Cells. 39(9): 645–653. PMID: 27506251",
+            "process_entry": "True",
+            "doi": "10.14348/molcells.2016.0137",
+            "pmid": "27506251",
+            "pmcid": "PMC5050528",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Koskela, M, Back, S, Voikar, V, Richie, CT, Domanskyi, A, Harvey, BK, Airavaara, M. 2017 Update of neurotrophic factors in neurobiology of addiction and future directions. Neurobiol Dis. 97(Pt B): 189–200. PMID: 27189755",
+            "process_entry": "True",
+            "doi": "10.1016/j.nbd.2016.05.010",
+            "pmid": "27189755",
+            "pmcid": "PMC5108688",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Liu, L, Zhu, J, Zhou, L, Wan, L. 2016 RACK1 promotes maintenance of morphine-associated memory via activation of an ERK-CREB dependent pathway in hippocampus. Sci Rep. 6: 20183. PMID: 26830449",
+            "process_entry": "True",
+            "doi": "10.1038/srep20183",
+            "pmid": "26830449",
+            "pmcid": "PMC4735742",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Lixia, Z, Yushan, Z, Dongmei, W, Ming, C, Ping, G, Weiming, X, Guanhua, R, Xiaohui, W, Haijing, J, Lin, X. 2010 Morphine induces Beclin 1-and ATG5-dependent autophagy in human neuroblastoma SH-SY5Y cells and in the rat hippocampus. Autophagy. 6: 386–394. PMID: 20190558",
+            "process_entry": "True",
+            "doi": "10.4161/auto.6.3.11289",
+            "pmid": "20190558",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Luscher, C, Malenka, RC. 2011 Drug-evoked synaptic plasticity in addiction: from molecular changes to circuit remodeling. Neuron. 69(4): 650–663. PMID: 21338877",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2011.01.017",
+            "pmid": "21338877",
+            "pmcid": "PMC4046255",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Michelhaugh, SK, Lipovich, L, Blythe, J, Jia, H, Kapatos, G, Bannon, MJ. 2011 Mining Affymetrix microarray data for long non-coding RNAs: altered expression in the nucleus accumbens of heroin abusers. J Neurochem. 116(3): 459–466. PMID: 21128942",
+            "process_entry": "True",
+            "doi": "10.1111/j.1471-4159.2010.07126.x",
+            "pmid": "21128942",
+            "pmcid": "PMC3061462",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Pawar, K, Hanisch, C, Palma Vera, SE, Einspanier, R, Sharbati, S. 2016 Down regulated lncRNA MEG3 eliminates mycobacteria in macrophages via autophagy. Sci Rep. 6: 19416. PMID: 26757825",
+            "process_entry": "True",
+            "doi": "10.1038/srep19416",
+            "pmid": "26757825",
+            "pmcid": "PMC4725832",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Pena, DA, Duarte, ML, Pramio, DT, Devi, LA, Schechtman, D. 2018 Exploring morphine-triggered PKC-targets and their interaction with signaling pathways leading to pain via TrkA. Proteomes. 6(4): 39–46.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Pugsley, HR. 2017 Quantifying autophagy: measuring LC3 puncta and autolysosome formation in cells using multispectral imaging flow cytometry. Methods. 112: 147–156. PMID: 27263026",
+            "process_entry": "True",
+            "doi": "10.1016/j.ymeth.2016.05.022",
+            "pmid": "27263026",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Quinn, JJ, Chang, HY. 2016 Unique features of long non-coding RNA biogenesis and function. Nat Rev Genet. 17(1): 47–62. PMID: 26666209",
+            "process_entry": "True",
+            "doi": "10.1038/nrg.2015.10",
+            "pmid": "26666209",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Robbins, TW, Everitt, BJ. 2002 Limbic-striatal memory systems and drug addiction. Neurobiol Learn Mem. 78(3): 625–636. PMID: 12559840",
+            "process_entry": "True",
+            "doi": "10.1006/nlme.2002.4103",
+            "pmid": "12559840",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Sartor, GC, St Laurent, G, 3rd, Wahlestedt, C. 2012 The emerging role of non-coding RNAs in drug addiction. Front Genet. 3: 106. PMID: 22737160",
+            "process_entry": "True",
+            "doi": "10.3389/fgene.2012.00106",
+            "pmid": "22737160",
+            "pmcid": "PMC3381216",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Siahposht-Khachaki, A, Ezzatpanah, S, Razavi, Y, Haghparast, A. 2018 NMDA receptor dependent changes in c-fos and p-CREB signaling following extinction and reinstatement of morphine place preference. Neurosci Lett. 662: 147–151. PMID: 29054430",
+            "process_entry": "True",
+            "doi": "10.1016/j.neulet.2017.10.028",
+            "pmid": "29054430",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Su, H, Zhu, L, Li, J, Wang, R, Liu, D, Han, W, Cadet, JL, Chen, T. 2019 Regulation of microRNA-29c in the nucleus accumbens modulates methamphetamine-induced locomotor sensitization in mice. Neuropharmacology. 148: 160–168. PMID: 30639389",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuropharm.2019.01.007",
+            "pmid": "30639389",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Su, LY, Luo, R, Liu, Q, Su, JR, Yang, LX, Ding, YQ, Xu, L, Yao, YG. 2017 Atg5-and Atg7-dependent autophagy in dopaminergic neurons regulates cellular and behavioral responses to morphine. Autophagy. 13(9): 1496–1511. PMID: 28722508",
+            "process_entry": "True",
+            "doi": "10.1080/15548627.2017.1332549",
+            "pmid": "28722508",
+            "pmcid": "PMC5612517",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Sun, WL, Quizon, PM, Zhu, J. 2016 Molecular mechanism: ERK signaling, drug addiction, and behavioral effects. Prog Mol Biol Transl Sci. 137: 1–40. PMID: 26809997",
+            "process_entry": "True",
+            "doi": "10.1016/bs.pmbts.2015.10.017",
+            "pmid": "26809997",
+            "pmcid": "PMC5330621",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wu, Y, Li, D, Wang, Y, Liu, X, Zhang, Y, Qu, W, Chen, K, Francisco, NM, Feng, L, Huang, X, et al. 2018 Beta-defensin 2 and 3 promote bacterial clearance of pseudomonas aeruginosa by inhibiting macrophage autophagy through downregulation of early growth response gene-1 and c-fos. Front Immunol. 9: 211. PMID: 29487594",
+            "process_entry": "True",
+            "doi": "10.3389/fimmu.2018.00211",
+            "pmid": "29487594",
+            "pmcid": "PMC5816924",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Xia, H, Qu, XL, Liu, LY, Qian, DH, Jing, HY. 2018 LncRNA MEG3 promotes the sensitivity of vincristine by inhibiting autophagy in lung cancer chemotherapy. Eur Rev Med Pharmacol Sci. 22(4): 1020–1027. PMID: 29509250",
+            "process_entry": "True",
+            "doi": "10.26355/eurrev_201802_14384",
+            "pmid": "29509250",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Xu, DH, Chi, GN, Zhao, CH, Li, DY. 2018 Long noncoding RNA MEG3 inhibits proliferation and migration but induces autophagy by regulation of Sirt7 and PI3K/AKT/mTOR pathway in glioma cells. J Cell Biochem. 120(5): 7516–7526.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Yager, LM, Garcia, AF, Wunsch, AM, Ferguson, SM. 2015 The ins and outs of the striatum: role in drug addiction. Neuroscience. 301: 529–541. PMID: 26116518",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuroscience.2015.06.033",
+            "pmid": "26116518",
+            "pmcid": "PMC4523218",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Zhao, H, Wang, X, Feng, X, Li, X, Pan, L, Liu, J, Wang, F, Yuan, Z, Yang, L, Yu, J, et al. 2018 Long non-coding RNA MEG3 regulates proliferation, apoptosis, and autophagy and is associated with prognosis in glioma. J Neurooncol. 140(2): 281–288. PMID: 30284203",
+            "process_entry": "True",
+            "doi": "10.1007/s11060-018-2874-9",
+            "pmid": "30284203",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31433241",
+    "doi": "10.1080/13880209.2019.1651343",
+    "pmid": "10.1080/13880209.2019.1651343",
+    "pmcid": "31433241",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31433241/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0033",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,161)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Yager et al.2015; Koskela et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),121,39)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0015",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,161)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Yager et al. 2015; Koskela et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),121,39)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0024",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),163,173)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0012",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),337,266)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kenny2014; Sun et al. 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),425,28)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0029",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),337,266)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kenny 2014; Sun et al.2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),425,28)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,109)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0013",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),111,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0017",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),444,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lixia et al.2010; Cai et al. 2016; Su et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),609,51)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0005",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),444,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lixia et al. 2010; Cai et al.2016; Su et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),609,51)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0028",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),444,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lixia et al. 2010; Cai et al. 2016; Su et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),609,51)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0028",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),663,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0002",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),887,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0006",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1053,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0006",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1161,140)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0016",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1302,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Liu et al.2016; Pena et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1408,34)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0021",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1302,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Liu et al. 2016; Pena et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1408,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0023",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),159,144)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0020",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),304,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0031",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),422,128)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Xia et al.2018; Xu et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),516,32)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0032",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),422,128)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Xia et al. 2018; Xu et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),516,32)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0010",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),422,74)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Quantitative reverse transcription PCR (qRT-PCR)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0025",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,148)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Sartor et al.2012; Bohnsack et al. 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),106,41)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0003",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,148)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Sartor et al. 2012; Bohnsack et al.2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),106,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0018",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),150,229)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,88)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0013",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),90,150)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Kim et al.2016; Antolak et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),201,37)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0001",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),90,150)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Kim et al. 2016; Antolak et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),201,37)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0007",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),476,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),621,182)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0016",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),804,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0021",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),939,125)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0017",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1065,222)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Lixia et al.2010; Su et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),1251,34)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0028",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1065,222)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Lixia et al. 2010; Su et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),1251,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0022",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1288,162)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0004",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1451,87)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0019",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Michelhaugh et al.2011; Feng and Nestler 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),112,47)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0008",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Michelhaugh et al. 2011; Feng and Nestler2013)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),112,47)"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0025",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),162,125)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Sartor et al.2012; Bohnsack et al. 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),244,41)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0003",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),162,125)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Sartor et al. 2012; Bohnsack et al.2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),244,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0032",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),386,132)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Xu et al.2018; Zhao et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),483,33)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0034",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),386,132)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Xu et al. 2018; Zhao et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),483,33)"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0027",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),519,105)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0030",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1180,353)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Wu et al.2018; Fung and Liu 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1284,34)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0009",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1180,353)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Wu et al. 2018; Fung and Liu2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1284,34)"
+            }
+        ]
+    ]
+}

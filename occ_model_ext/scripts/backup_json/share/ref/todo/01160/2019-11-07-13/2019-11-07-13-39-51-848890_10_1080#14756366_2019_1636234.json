@@ -1,0 +1,762 @@
+{
+    "references": [
+        {
+            "bibentry": "Behbahani, M, Mohammadi, E. Construction of pseudotyped human immunodeficiency virus for evaluation of anti-HIV drugs. Res Pharm Sci 2012; 7: S427.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Palella, FJ, Delaney, KM, Moorman, AC, et al. Declining morbidity and mortality among patients with advanced human immunodeficiency virus infection. New England J Med 1998; 338: 853–60. PMID: 9516219",
+            "process_entry": "True",
+            "doi": "10.1056/nejm199803263381301",
+            "pmid": "9516219",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Arts, EJ, Hazuda, DJ. HIV-1 antiretroviral drug therapy. Cold Spring Harb Perspect Med 2012; 2: a007161. PMID: 22474613",
+            "process_entry": "True",
+            "doi": "10.1101/cshperspect.a007161",
+            "pmid": "22474613",
+            "pmcid": "PMC3312400",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Ghosh, AK, Dawson, ZL, Mitsuya, H. Darunavir, a conceptually new HIV-1 protease inhibitor for the treatment of drug-resistant HIV. Bioorg Med Chem 2007; 15: 7576–80. PMID: 17900913",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2007.09.010",
+            "pmid": "17900913",
+            "pmcid": "PMC2112938",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Ali, A, Bandaranayake, RM, Cai, Y, et al. Molecular basis for drug resistance in HIV-1 protease. Viruses 2010; 2: 2509–35. PMID: 21994628",
+            "process_entry": "True",
+            "doi": "10.3390/v2112509",
+            "pmid": "21994628",
+            "pmcid": "PMC3185577",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Konvalinka, J, Kräusslich, H-G, Müller, B. Retroviral proteases and their roles in virion maturation. Virology 2015; 479–480: 403–17.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Pokorná, J, Machala, L, Rezáčová, P, et al. Current and novel inhibitors of HIV protease. Viruses 2009; 1: 1209–39. PMID: 21994591",
+            "process_entry": "True",
+            "doi": "10.3390/v1031209",
+            "pmid": "21994591",
+            "pmcid": "PMC3185513",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Velazquez-Campoy, A, Kiso, Y, Freire, E. The binding energetics of first-and second-generation HIV-1 protease inhibitors: implications for drug design. Arch Biochem Biophys 2001; 390: 169–75. PMID: 11396919",
+            "process_entry": "True",
+            "doi": "10.1006/abbi.2001.2333",
+            "pmid": "11396919",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Crepaz, N, Hart, TA, Marks, G. Highly active antiretroviral therapy and sexual risk behavior: a meta-analytic review. JAMA 2004; 292: 224–36. PMID: 15249572",
+            "process_entry": "True",
+            "doi": "10.1001/jama.292.2.224",
+            "pmid": "15249572",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Muzammil, S, Ross, P, Freire, E. A major role for a set of non-active site mutations in the development of HIV-1 protease drug resistance. Biochemistry 2003; 42: 631–8. PMID: 12534275",
+            "process_entry": "True",
+            "doi": "10.1021/bi027019u",
+            "pmid": "12534275",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Ghosh, AK, Chapsal, BD, Weber, IT, et al. Design of HIV protease inhibitors targeting protein backbone: an effective strategy for combating drug resistance. Acc Chem Res 2008; 41: 78–86. PMID: 17722874",
+            "process_entry": "True",
+            "doi": "10.1021/ar7001232",
+            "pmid": "17722874",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hou, T, Yu, R. Molecular dynamics and free energy studies on the wild-type and double mutant HIV-1 protease complexed with amprenavir and two amprenavir-related inhibitors: mechanism for binding and drug resistance. J Med Chem 2007; 50: 1177–88. PMID: 17300185",
+            "process_entry": "True",
+            "doi": "10.1021/jm0609162",
+            "pmid": "17300185",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Maseko, SB, Natarajan, S, Sharma, V, et al. Purification and characterization of naturally occurring HIV-1 (South African subtype C) protease mutants from inclusion bodies. Protein Expr Purif 2016; 122: 90–6. PMID: 26917227",
+            "process_entry": "True",
+            "doi": "10.1016/j.pep.2016.02.013",
+            "pmid": "26917227",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Lockhat, HA, et al. Binding free energy calculations of nine FDA‐approved protease inhibitors against HIV‐1 subtype C I36T↑ T containing 100 amino acids per monomer. Chem Biol Drug Des 2016; 87: 487–98. PMID: 26613568",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.12690",
+            "pmid": "26613568",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Maseko, SB, Padayachee, E, Govender, T, et al. I36T↑ T mutation in South African subtype C (C-SA) HIV-1 protease significantly alters protease-drug interactions. Biol Chem 2017; 398: 1109–1117. PMID: 28525359",
+            "process_entry": "True",
+            "doi": "10.1515/hsz-2017-0107",
+            "pmid": "28525359",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kožíšek, M, Bray, J, Řezáčová, P, et al. Molecular analysis of the HIV-1 resistance development: enzymatic activities, crystal structures, and thermodynamics of nelfinavir-resistant HIV protease mutants. J Mol Biol 2007; 374: 1005–16. PMID: 17977555",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2007.09.083",
+            "pmid": "17977555",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Masson, S, Vaulot, C, Reinert, L, et al. Thermodynamic study of seven micropollutants adsorption onto an activated carbon cloth: Van’t Hoff method, calorimetry, and COSMO-RS simulations. Environ Sci Pollution Res 2017; 24: 10005–17.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Motulsky, H. Analyzing data with GraphPad prism. San Diego CA: GraphPad Software Incorporated; 1999.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Morris, GM, Huey, R, Lindstrom, W, et al. AutoDock4 and AutoDockTools4: automated docking with selective receptor flexibility. J Comput Chem 2009; 30: 2785–91. PMID: 19399780",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21256",
+            "pmid": "19399780",
+            "pmcid": "PMC2760638",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "BIOVIA, Dassault Systèmes. Discovery studio visualizer, Release 2017, San Diego: Dassault Systèmes, 2016. 2017. Available from: http://accelrys.com/products/collaborative-science/biovia-discovery-studio/visualization-download.php [last accessed 12 Dec 2017]",
+            "process_entry": "True",
+            "url": "http://accelrys.com/products/collaborative-science/biovia-discovery-studio/visualization-download.php [last accessed 12 Dec 2017]",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Naicker, P, Achilonu, I, Fanucchi, S, et al. Structural insights into the South African HIV-1 subtype C protease: impact of hinge region dynamics and flap flexibility in drug resistance. J Biomol Struct Dyn 2013; 31: 1370–80. PMID: 23140382",
+            "process_entry": "True",
+            "doi": "10.1080/07391102.2012.736774",
+            "pmid": "23140382",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Gustchina, A, Weber, IT. Comparison of inhibitor binding in HIV‐1 protease and in non‐viral aspartic proteases: the role of the flap. FEBS Lett 1990; 269: 269–72. PMID: 2201571",
+            "process_entry": "True",
+            "doi": "10.1016/0014-5793(90)81171-j",
+            "pmid": "2201571",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Swairjo, MA, Towler, EM, Debouck, C, et al. Structural role of the 30's loop in determining the ligand specificity of the human immunodeficiency virus protease. Biochemistry 1998; 37: 10928–36. PMID: 9692985",
+            "process_entry": "True",
+            "doi": "10.1021/bi980784h",
+            "pmid": "9692985",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ode, H, Matsuyama, S, Hata, M, et al. Computational characterization of structural role of the non-active site mutation M36I of human immunodeficiency virus type 1 protease. J Mol Biol 2007; 370: 598–607. PMID: 17524421",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2007.04.081",
+            "pmid": "17524421",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Kaldor, SW, Kalish, VJ, Davies, JF, et al. Viracept (nelfinavir mesylate, AG1343): a potent, orally bioavailable inhibitor of HIV-1 protease. J Med Chem 1997; 40: 3979–85. PMID: 9397180",
+            "process_entry": "True",
+            "doi": "10.1021/jm9704098",
+            "pmid": "9397180",
+            "xmlid": "CIT0025"
+        }
+    ],
+    "localid": "MED-31409143",
+    "doi": "10.1080/14756366.2019.1636234",
+    "pmid": "10.1080/14756366.2019.1636234",
+    "pmcid": "31409143",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31409143/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),186,160)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0003",
+                "rp_string": "3–5",
+                "pl_string": "3–5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "pl_string": "3–5",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "pl_string": "3–5",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0003",
+                "rp_string": "3–5",
+                "pl_string": "3–5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),118,217)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),336,99)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Protease inhibitors (PIs) are one class of antiviral drugs that target an essential viral enzyme, HIV-1 protease3–5. The role of HIV-1 protease in the processing of Gag and Gag-Pro-Pol polyproteins into building blocks for individual proteins essential for viral maturation, has made it one of the major targets for drug development6. There are currently nine FDA approved protease inhibitors7, originally designed for type B HIV PR8. These inhibitors represent the most potent anti-AIDS drug reported to date and are essential components of the highly active antiretroviral therapy (HAART)9. HAART is credited with significantly lowering AIDS-related deaths, and is currently implemented to the whole world as the standard care for HIV-AIDS treatment9.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),336,99)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Protease inhibitors (PIs) are one class of antiviral drugs that target an essential viral enzyme, HIV-1 protease3–5. The role of HIV-1 protease in the processing of Gag and Gag-Pro-Pol polyproteins into building blocks for individual proteins essential for viral maturation, has made it one of the major targets for drug development6. There are currently nine FDA approved protease inhibitors7, originally designed for type B HIV PR8. These inhibitors represent the most potent anti-AIDS drug reported to date and are essential components of the highly active antiretroviral therapy (HAART)9. HAART is credited with significantly lowering AIDS-related deaths, and is currently implemented to the whole world as the standard care for HIV-AIDS treatment9.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),436,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),594,160)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),123,127)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),396,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),735,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),735,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1092,91)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,110)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),112,91)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,58)",
+                "containers_title": [
+                    "Materials and method",
+                    "Protein expression and purification"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,211)",
+                "containers_title": [
+                    "Materials and method",
+                    "Kinetic parameters"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,211)",
+                "containers_title": [
+                    "Materials and method",
+                    "Kinetic parameters"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),213,158)",
+                "containers_title": [
+                    "Materials and method",
+                    "Kinetic parameters"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),475,89)",
+                "containers_title": [
+                    "Materials and method",
+                    "Kinetic parameters"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,89)",
+                "containers_title": [
+                    "Materials and method",
+                    "Fluorescence quenching"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),796,41)",
+                "containers_title": [
+                    "Materials and method",
+                    "Fluorescence quenching"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1110,57)",
+                "containers_title": [
+                    "Materials and method",
+                    "Fluorescence quenching"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),196,88)",
+                "containers_title": [
+                    "Materials and method",
+                    "Homology modelling and molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[2]),1,196)",
+                "containers_title": [
+                    "Materials and method",
+                    "Homology modelling and molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),179,37)",
+                "containers_title": [
+                    "Materials and method",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/fig/caption/p),318,65)",
+                "containers_title": [
+                    "Results",
+                    "Homology modelling and molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,142)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),144,189)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),599,99)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),699,96)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),891,82)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),974,121)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1380,75)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1456,79)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1456,79)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1794,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,148)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),150,84)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),150,84)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),286,72)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),359,88)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

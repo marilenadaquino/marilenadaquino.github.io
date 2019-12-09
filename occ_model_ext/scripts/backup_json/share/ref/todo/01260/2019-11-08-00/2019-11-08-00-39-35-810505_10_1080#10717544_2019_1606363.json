@@ -1,0 +1,998 @@
+{
+    "references": [
+        {
+            "bibentry": "Ahmadzada, T, Reid, G, McKenzie, DR (2018). Fundamentals of siRNA and miRNA therapeutics and a review of targeted nanoparticle delivery systems in breast cancer. Biophy rev 10:69–86.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bica-Pop, C, Cojocneanu-Petric, R, Magdo, L, et al. (2018). Overview upon miR-21 in lung cancer: focus on NSCLC. Cell Mol Life Sci 75:3539–51.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Chen, L, Ji, F, Bao, Y, et al. (2017). Biocompatible cationic pullulan-g-desoxycholic acid-g-PEI micelles used to co-deliver drug and gene for cancer therapy. Mater Sci Eng C 70: 418–29.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Chen, K, Zhang S, Wang H, et al (2019). Fabrication of doxorubicin–loaded glycyrrhetinic acid–biotin–starch nanoparticles and drug delivery into HepG2 cells in vitro. Starch–Stärke 71:1800031.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chulpanova, DS, Solovyeva, VV, Kitaeva, KV, et al. (2018). Recombinant viruses for cancer therapy. Biomedicines 6: 94.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Collett, GK, Durcinoska, I, Rankin, NM, et al. (2019). Patients’ experience of lung cancer care coordination: a quantitative exploration. Support Care Cancer 27: 485–93. PMID: 29980906",
+            "process_entry": "True",
+            "doi": "10.1007/s00520-018-4338-3",
+            "pmid": "29980906",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Dai, X, Tan, C (2015). Combination of microRNA therapeutics with small-molecule anticancer drugs: mechanism of action and co-delivery nanocarriers. Adv Drug Deliv Rev 81: 184–97. PMID: 25281917",
+            "process_entry": "True",
+            "doi": "10.1016/j.addr.2014.09.010",
+            "pmid": "25281917",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Fernandes, JC, Qiu, X, Winnik, FM, et al. (2012). Low molecular weight chitosan conjugated with folate for siRNA delivery in vitro: optimization studies. Int J Nanomed 7: 5833–45.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Gao, Y, Wang, Z-Y, Zhang, J, et al. (2014). RVG-peptide-linked trimethylated chitosan for delivery of siRNA to the brain. Biomacromolecules 15: 1010–8. PMID: 24547943",
+            "process_entry": "True",
+            "doi": "10.1021/bm401906p",
+            "pmid": "24547943",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Guzman-Villanueva, D, El-Sherbiny, IM, Vlassov, AV, et al. (2014). Enhanced cellular uptake and gene silencing activity of siRNA molecules mediated by chitosan-derivative nanocomplexes. Int J Pharm 473: 579–90. PMID: 25063077",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2014.07.026",
+            "pmid": "25063077",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Hague, C, Foran, B, Hall, E, et al. (2018). Patient involvement in the design of a phase III trial comparing intensity-modulated proton therapy and intensity-modulated radiotherapy for oropharyngeal cancer. Clin Oncol 30: 274–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hilmi, C, Larribere, L, Giuliano, S, et al. (2008). IGF1 promotes resistance to apoptosis in melanoma cells through an increased expression of BCL2, BCL-X(L), and survivin. J Invest Dermatol 128: 1499–505. PMID: 18079751",
+            "process_entry": "True",
+            "doi": "10.1038/sj.jid.5701185",
+            "pmid": "18079751",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Hou, H, Zhang, D, Lin, J, et al. (2018). Zein-paclitaxel prodrug nanoparticles for redox-triggered drug delivery and enhanced therapeutic efficiency. J Agric Food Chem 66: 11812–22. PMID: 30339011",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jafc.8b04627",
+            "pmid": "30339011",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Hu, L, Pang, S, Hu, Q, et al. (2015). Enhanced antitumor efficacy of folate targeted nanoparticles co-loaded with docetaxel and curcumin. Biomed Pharmacother 75: 26–32. PMID: 26463628",
+            "process_entry": "True",
+            "doi": "10.1016/j.biopha.2015.08.036",
+            "pmid": "26463628",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Hu, Q-D, Tang, G-P, Chu, PK (2014). Cyclodextrin-based host-guest supramolecular nanoparticles for delivery: from design to applications. Acc Chem Res 47: 2017–25. PMID: 24873201",
+            "process_entry": "True",
+            "doi": "10.1021/ar500055s",
+            "pmid": "24873201",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Hussein, EA, Zagho, MM, Nasrallah, GK, Elzatahry, AA (2018). Recent advances in functional nanostructures as cancer photothermal therapy. Int J Nanomed 13: 2897–906.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Jones, HE, Goddard, L, Gee, JMW, et al. (2004). Insulin-like growth factor-I receptor signalling and acquired resistance to gefitinib (ZD1839; Iressa) in human breast and prostate cancer cells. Endocr Relat Cancer 11: 793–814. PMID: 15613453",
+            "process_entry": "True",
+            "doi": "10.1677/erc.1.00799",
+            "pmid": "15613453",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Kato, T, Jin, CS, Ujiie, H, et al. (2017). Nanoparticle targeted folate receptor 1-enhanced photodynamic therapy for lung cancer. Lung Cancer 113: 59–68. PMID: 29110850",
+            "process_entry": "True",
+            "doi": "10.1016/j.lungcan.2017.09.002",
+            "pmid": "29110850",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Kuhn, DA, Vanhecke, D, Michen, B, et al. (2014). Different endocytotic uptake mechanisms for nanoparticles in epithelial cells and macrophages. Beilstein J Nanotechnol 5: 1625–36. PMID: 25383275",
+            "process_entry": "True",
+            "doi": "10.3762/bjnano.5.174",
+            "pmid": "25383275",
+            "pmcid": "PMC4222452",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Li, L, Tao, R, Song, M, et al. (2017). Fabrication of self-assembled folate-biotin-quaternized starch nanoparticles as co-carrier of doxorubicin and siRNA. J Biomater Appl 32: 587–97. PMID: 29073804",
+            "process_entry": "True",
+            "doi": "10.1177/0885328217737187",
+            "pmid": "29073804",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Li, N, Zhang, Q, Jia, Z, et al. (2018). Volatile oil from alpinia officinarum promotes lung cancer regression in vitro and in vivo. Food Funct 9: 4998–5006. PMID: 30187896",
+            "process_entry": "True",
+            "doi": "10.1039/c8fo01151f",
+            "pmid": "30187896",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Li, S, Sun, Z, Meng, X, et al. (2018). Targeted methotrexate prodrug conjugated with heptamethine cyanine dye improving chemotherapy and monitoring itself activating by dual-modal imaging. Front Mater 5: 35.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Ma, W, Kang, Y, Ning, L, et al. (2017). Identification of microRNAs involved in gefitinib resistance of non-small-cell lung cancer through the insulin-like growth factor receptor 1 signaling pathway. Exp Ther Med 14: 2853–62. PMID: 28912847",
+            "process_entry": "True",
+            "doi": "10.3892/etm.2017.4847",
+            "pmid": "28912847",
+            "pmcid": "PMC5585727",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Massoumi, B, Mozafari, Z, Jaymand, M (2018). A starch-based stimuli-responsive magnetite nanohydrogel as de novo drug delivery system. Int J Biol Macromol 117:418–26.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Muthukumar, T, Chamundeeswari, M, Prabhavathi, S, et al. (2014). Carbon nanoparticle from a natural source fabricated for folate receptor targeting, imaging and drug delivery application in A549 lung cancer cells. Eur J Pharm Biopharm 88: 730–6. PMID: 25305584",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejpb.2014.09.011",
+            "pmid": "25305584",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Novo, L, Takeda, KM, Petteta, T, et al. (2015). Targeted decationized polyplexes for siRNA delivery. Mol Pharm 12: 150–61. PMID: 25384057",
+            "process_entry": "True",
+            "doi": "10.1021/mp500499x",
+            "pmid": "25384057",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Nuhn, L, Hirsch, M, Krieg, B, et al. (2012). Cationic nanohydrogel particles as potential siRNA carriers for cellular delivery. ACS Nano 6: 2198–214. PMID: 22381078",
+            "process_entry": "True",
+            "doi": "10.1021/nn204116u",
+            "pmid": "22381078",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Piras, S, Carta, A, Briguglio, I, et al. (2014). 2-[N-Alkyl (R-phenyl)-aminomethyl]-3-phenyl-7-trifluoromethylquinoxalines as anticancer agents inhibitors of folate enzymes. Eur J Med Chem 75: 169–83. PMID: 24531230",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.01.048",
+            "pmid": "24531230",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Salzano, G, Riehle, R, Navarro, G, et al. (2014). Polymeric micelles containing reversibly phospholipid-modified anti-survivin siRNA: a promising strategy to overcome drug resistance in cancer. Cancer Lett 343: 224–31. PMID: 24099916",
+            "process_entry": "True",
+            "doi": "10.1016/j.canlet.2013.09.037",
+            "pmid": "24099916",
+            "pmcid": "PMC3947185",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Singh, RP, Sharma, G, Sonali, et al. (2017). Chitosan-folate decorated carbon nanotubes for site specific lung cancer delivery. Mater Sci Eng C 77: 446–58.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Sun, C-Y, Shen, S, Xu, C-F, et al. (2015). Tumor acidity-sensitive polymeric vector for active targeted siRNA delivery. J Am Chem Soc 137: 15217–24. PMID: 26571079",
+            "process_entry": "True",
+            "doi": "10.1021/jacs.5b09602",
+            "pmid": "26571079",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Suo, A, Qian, J, Xu, M, et al. (2017). Folate-decorated PEGylated triblock copolymer as a pH/reduction dual-responsive nanovehicle for targeted intracellular co-delivery of doxorubicin and Bcl-2 siRNA. Mater Sci Eng C 76: 659–72.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Suo, A, Qian, J, Zhang, Y, et al. (2016). Comb-like amphiphilic polypeptide-based copolymer nanomicelles for co-delivery of doxorubicin and P-gp siRNA into MCF-7 cells. Mater Sci Eng C 62: 564–73.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Tanino, R, Tsubata, Y, Harashima, N, et al. (2018). Novel drug-resistance mechanisms of pemetrexed-treated non-small cell lung cancer. Oncotarget 9: 16807–21. PMID: 29682186",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.24704",
+            "pmid": "29682186",
+            "pmcid": "PMC5908287",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Tekade, RK, Tekade, M, Kesharwani, P, D'Emanuele, A (2016). RNAi-combined nano-chemotherapeutics to tackle resistant tumors. Drug Discov Today 21: 1761–74. PMID: 27380716",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis.2016.06.029",
+            "pmid": "27380716",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Tian, Y, Jiang, X, Chen, X, et al. (2014). Doxorubicin-loaded magnetic silk fibroin nanoparticles for targeted therapy of multidrug-resistant cancer. Adv Mater 26: 7393–8. PMID: 25238148",
+            "process_entry": "True",
+            "doi": "10.1002/adma.201403562",
+            "pmid": "25238148",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Tsubaki, M, Satou, T, Itoh, T, et al. (2012). Overexpression of MDR1 and survivin, and decreased Bim expression mediate multidrug-resistance in multiple myeloma cells. Leuk Res 36: 1315–22. PMID: 22819074",
+            "process_entry": "True",
+            "doi": "10.1016/j.leukres.2012.07.003",
+            "pmid": "22819074",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Wang, J, Wang, M, Zheng, M, et al. (2015). Folate mediated self-assembled phytosterol-alginate nanoparticles for targeted intracellular anticancer drug delivery. Colloids Surf B Biointerfaces 129: 63–70. PMID: 25829128",
+            "process_entry": "True",
+            "doi": "10.1016/j.colsurfb.2015.03.028",
+            "pmid": "25829128",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Wang, S, Xu, Y, Chan, HF, et al. (2016). Nanoparticle-mediated inhibition of survivin to overcome drug resistance in cancer therapy. J Control Rel 240: 454–64.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Warshamana-Greene, GS, Litz, J, Buchdunger, E, et al. (2005). The insulin-like growth factor-I receptor kinase inhibitor, NVP-ADW742, sensitizes small cell lung cancer cell lines to the effects of chemotherapy. Clin Cancer Res 11: 1563–71. PMID: 15746061",
+            "process_entry": "True",
+            "doi": "10.1158/1078-0432.ccr-04-1544",
+            "pmid": "15746061",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Xia, Y, Wang, X, Cheng, H, et al. (2017). A polycation coated liposome as efficient siRNA carrier to overcome multidrug resistance. Colloids Surf B Biointerfaces 159: 427–36. PMID: 28826111",
+            "process_entry": "True",
+            "doi": "10.1016/j.colsurfb.2017.08.011",
+            "pmid": "28826111",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Xia, Y, Zhao, M, Chen, Y, et al. (2018). Folate-targeted selenium nanoparticles deliver therapeutic siRNA to improve hepatocellular carcinoma therapy. RSC Adv 8: 25932–40.",
+            "process_entry": "True",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Zhang, W, Sun, J, Fang, W, et al. (2015). Nanomicelles based on X-shaped four-armed peglyated distearylglycerol as long circulating system for doxorubicin delivery. Eur J Pharm Sci 66: 96–106. PMID: 25446512",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2014.10.007",
+            "pmid": "25446512",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Zhao, YN, Piao, YZ, Zhang, CM, et al. (2017). Replacement of quaternary ammonium headgroups by tri-ornithine in cationic lipids for the improvement of gene delivery in vitro and in vivo. J Mater Chem B 5: 7963–73.",
+            "process_entry": "True",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Zheng, G, Shen, Y, Zhao, R, et al. (2017). Dual-targeting multifuntional mesoporous silica nanocarrier for codelivery of siRNA and ursolic acid to folate receptor overexpressing cancer cells. J Agric Food Chem 65: 6904–11. PMID: 28771340",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jafc.7b03047",
+            "pmid": "28771340",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Zheng, Y, Zhang, Y, Chen, D, et al. (2016). Monascus pigment rubropunctatin: a potential dual agent for cancer chemotherapy and phototherapy. J Agric Food Chem 64: 2541–8. PMID: 26953890",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jafc.5b05343",
+            "pmid": "26953890",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Zhou, J, Sun, J, Chen, H, Peng, Q (2018). Promoted delivery of salinomycin sodium to lung cancer cells by dual targeting PLGA hybrid nanoparticles. Int J Oncol 53: 1289–300. PMID: 30015824",
+            "process_entry": "True",
+            "doi": "10.3892/ijo.2018.4474",
+            "pmid": "30015824",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Zhu, C, Jung, S, Luo, S, et al. (2010). Co-delivery of siRNA and paclitaxel into cancer cells by biodegradable cationic micelles based on PDMAEMA-PCL-PDMAEMA triblock copolymers. Biomaterials 31: 2408–16. PMID: 19963269",
+            "process_entry": "True",
+            "doi": "10.1016/j.biomaterials.2009.11.077",
+            "pmid": "19963269",
+            "xmlid": "CIT0048"
+        }
+    ],
+    "localid": "MED-31033359",
+    "doi": "10.1080/10717544.2019.1606363",
+    "pmid": "10.1080/10717544.2019.1606363",
+    "pmcid": "31033359",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31033359/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0005",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),314,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chulpanova et al.,2018; Hague et al., 2018; Hussein et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),464,66)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0011",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),314,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chulpanova et al., 2018; Hague et al.,2018; Hussein et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),464,66)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0016",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),314,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chulpanova et al., 2018; Hague et al., 2018; Hussein et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),464,66)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),691,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0033",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),887,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Suo et al.,2016; Zheng et al., 2016; Suo et al., 2017; Hou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1024,73)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0046",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),887,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Suo et al., 2016; Zheng et al.,2016; Suo et al., 2017; Hou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1024,73)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0032",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),887,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Suo et al., 2016; Zheng et al., 2016; Suo et al.,2017; Hou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1024,73)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0013",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),887,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Suo et al., 2016; Zheng et al., 2016; Suo et al., 2017; Hou et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1024,73)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0002",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1100,171)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Bica-Pop et al.,2018; Collett et al., 2018; Zhou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1206,63)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0006",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1100,171)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Bica-Pop et al., 2018; Collett et al.,2018; Zhou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1206,63)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0047",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1100,171)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Bica-Pop et al., 2018; Collett et al., 2018; Zhou et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1206,63)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0006",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1476,194)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Collett et al.,2018; Li, Zhang, et al., 2018; Zhou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1603,65)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0021",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1476,194)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Collett et al., 2018; Li, Zhang, et al.,2018; Zhou et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1603,65)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0047",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1476,194)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Collett et al., 2018; Li, Zhang, et al., 2018; Zhou et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1603,65)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0008",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,280)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0045",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),282,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0029",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Salzano et al.,2014; Wang et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),554,40)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0039",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Salzano et al., 2014; Wang et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),554,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0003",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al.,2017; Suo et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),603,36)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0032",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al., 2017; Suo et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),603,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0009",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Gao et al.,2014; Sun et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),646,35)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0031",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Gao et al., 2014; Sun et al.,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),646,35)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0037",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Tsubaki et al.,2012; Hu et al., 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),689,38)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0015",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Tsubaki et al., 2012; Hu et al.,2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),689,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0033",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Suo et al.,2016; Xia et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),735,35)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0041",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,352)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Suo et al., 2016; Xia et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),735,35)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0017",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),783,261)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jones et al.,2004; Warshamana-Greene et al., 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),991,51)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0040",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),783,261)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jones et al., 2004; Warshamana-Greene et al.,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),991,51)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0012",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1180,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hilmi et al.,2008; Dai & Tan, 2015; Ma et al., 2017; Zhao et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1248,72)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0007",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1180,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hilmi et al., 2008; Dai & Tan,2015; Ma et al., 2017; Zhao et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1248,72)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0023",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1180,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hilmi et al., 2008; Dai & Tan, 2015; Ma et al.,2017; Zhao et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1248,72)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0044",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[18]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1180,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hilmi et al., 2008; Dai & Tan, 2015; Ma et al., 2017; Zhao et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1248,72)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0008",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1323,325)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fernandes et al.,2012; Guzman-Villanueva et al., 2014; Novo et al., 2015; Ahmadzada et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1548,98)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0010",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[20]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1323,325)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fernandes et al., 2012; Guzman-Villanueva et al.,2014; Novo et al., 2015; Ahmadzada et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1548,98)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0026",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1323,325)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fernandes et al., 2012; Guzman-Villanueva et al., 2014; Novo et al.,2015; Ahmadzada et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1548,98)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0001",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[22]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1323,325)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fernandes et al., 2012; Guzman-Villanueva et al., 2014; Novo et al., 2015; Ahmadzada et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1548,98)"
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0048",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[23]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1649,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhu et al.,2010; Nuhn et al., 2012; Tekade et al., 2016; Xia et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1798,75)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0027",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[24]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1649,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhu et al., 2010; Nuhn et al.,2012; Tekade et al., 2016; Xia et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1798,75)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0035",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[25]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1649,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhu et al., 2010; Nuhn et al., 2012; Tekade et al.,2016; Xia et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1798,75)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0042",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[26]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1649,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhu et al., 2010; Nuhn et al., 2012; Tekade et al., 2016; Xia et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1798,75)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0024",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,300)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0020",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),302,197)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0020",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),141,175)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cell viability"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0025",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,225)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ],
+                "pl_string": "(Muthukumar et al.,2014; Piras et al., 2014; Hu et al., 2015; Kato et al., 2017; Singh et al., 2017; Tanino et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),103,121)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0028",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,225)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ],
+                "pl_string": "(Muthukumar et al., 2014; Piras et al.,2014; Hu et al., 2015; Kato et al., 2017; Singh et al., 2017; Tanino et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),103,121)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0014",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,225)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ],
+                "pl_string": "(Muthukumar et al., 2014; Piras et al., 2014; Hu et al.,2015; Kato et al., 2017; Singh et al., 2017; Tanino et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),103,121)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0018",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,225)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ],
+                "pl_string": "(Muthukumar et al., 2014; Piras et al., 2014; Hu et al., 2015; Kato et al.,2017; Singh et al., 2017; Tanino et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),103,121)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0030",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,225)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ],
+                "pl_string": "(Muthukumar et al., 2014; Piras et al., 2014; Hu et al., 2015; Kato et al., 2017; Singh et al.,2017; Tanino et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),103,121)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0034",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,225)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ],
+                "pl_string": "(Muthukumar et al., 2014; Piras et al., 2014; Hu et al., 2015; Kato et al., 2017; Singh et al., 2017; Tanino et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),103,121)"
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0038",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[3]),381,119)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Free folate competition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0019",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),1,200)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Endocytosis inhibition test"
+                ],
+                "pl_string": "(Kuhn et al.,2014; Tian et al., 2014; Zhang et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),142,57)"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0036",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),1,200)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Endocytosis inhibition test"
+                ],
+                "pl_string": "(Kuhn et al., 2014; Tian et al.,2014; Zhang et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),142,57)"
+            },
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0043",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),1,200)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Endocytosis inhibition test"
+                ],
+                "pl_string": "(Kuhn et al., 2014; Tian et al., 2014; Zhang et al.,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),142,57)"
+            }
+        ]
+    ]
+}

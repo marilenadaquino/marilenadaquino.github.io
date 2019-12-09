@@ -1,0 +1,762 @@
+{
+    "references": [
+        {
+            "bibentry": "Jayson, GC, Kohn, EC, Kitchener, HC, Ledermann, JA. Ovarian cancer, Lancet, 2014, 384, 1376, 1388, PMID: 24767708",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(13)62146-7",
+            "pmid": "24767708",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Anglesio, MS, Carey, MS, Köbel, M, Mackay, H, Huntsman, DG. Vancouver Ovarian Clear Cell Symposium Speakers, Clear cell carcinoma of the ovary: a report from the first Ovarian Clear Cell Symposium, June 24th, 2010, Gynecol Oncol, 2011, 121, 407, 415, PMID: 21276610",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2011.01.005",
+            "pmid": "21276610",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Kajiyama, H, Suzuki, S, Yoshihara, M, Nishino, K, Yoshikawa, N, Utsumi, F. The possible existence of occult metastasis in patients with ovarian clear-cell carcinoma who underwent complete resection without any residual tumours, Oncotarget, 2018, 9, 6298, 6307, PMID: 29464073",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.23921",
+            "pmid": "29464073",
+            "pmcid": "PMC5814213",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Grivennikov, SI, Greten, FR, Karin, M. Immunity, inflammation, and cancer, Cell, 2010, 140, 883, 899, PMID: 20303878",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2010.01.025",
+            "pmid": "20303878",
+            "pmcid": "PMC2866629",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Ohno, Y. Role of systemic inflammatory response markers in urological malignancy, Int J Urol, 2019, 26, 31, 47, PMID: 30253448",
+            "process_entry": "True",
+            "doi": "10.1111/iju.13801",
+            "pmid": "30253448",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Geng, SK, Fu, SM, Fu, YP, Zhang, HW. Neutrophil to lymphocyte ratio is a prognostic factor for disease free survival in patients with breast cancer underwent curative resection, Medicine (Baltimore), 2018, 97, e11898, PMID: 30170382",
+            "process_entry": "True",
+            "doi": "10.1097/MD.0000000000011898",
+            "pmid": "30170382",
+            "pmcid": "PMC6392639",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Kao, HK, Löfstrand, J, Loh, CY, Lao, WW, Yi, JS, Chang, YL. Nomogram based on albumin and neutrophil-to-lymphocyte ratio for predicting the prognosis of patients with oral cavity squamous cell carcinoma, Sci Rep, 2018, 8, 13081, PMID: 30166572",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-018-31498-z",
+            "pmid": "30166572",
+            "pmcid": "PMC6117301",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Vartolomei, MD, Ferro, M, Cantiello, F, Lucarelli, G, Di Stasi, S, Hurle, R. Validation of neutrophil-to-lymphocyte ratio in a multi-institutional cohort of patients with T1G3 non-muscle-invasive bladder cancer, Clin Genitourin Cancer, 2018, 16, 445, 452, PMID: 30077463",
+            "process_entry": "True",
+            "doi": "10.1016/j.clgc.2018.07.003",
+            "pmid": "30077463",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Guner, A, Kim, SY, Yu, JE, Min, IK, Roh, YH, Roh, C. Parameters for predicting surgical outcomes for gastric cancer patients: simple is better than complex, Ann Surg Oncol, 2018, 25, 3239, 3247, PMID: 30069658",
+            "process_entry": "True",
+            "doi": "10.1245/s10434-018-6684-2",
+            "pmid": "30069658",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Oh, D, Pyo, JS, Son, BK. Prognostic roles of inflammatory markers in pancreatic cancer: comparison between the neutrophil-to-lymphocyte ratio and platelet-to-lymphocyte ratio, Gastroenterol Res Pract, 2018, 2018, 9745601, PMID: 29977290",
+            "process_entry": "True",
+            "doi": "10.1155/2018/9745601",
+            "pmid": "29977290",
+            "pmcid": "PMC6011084",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Zhou, Q, Hong, L, Zuo, MZ, He, Z. Prognostic significance of neutrophil to lymphocyte ratio in ovarian cancer: evidence from 4,910 patients, Oncotarget, 2017, 8, 68938, 68949, PMID: 28978169",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.20196",
+            "pmid": "28978169",
+            "pmcid": "PMC5620309",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Ethier, JL, Desautels, DN, Templeton, AJ, Oza, A, Amir, E, Lheureux, S. Is the neutrophil-to-lymphocyte ratio prognostic of survival outcomes in gynecologic cancers? A systematic review and meta-analysis, Gynecol Oncol, 2017, 145, 584, 594, PMID: 28222899",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2017.02.026",
+            "pmid": "28222899",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Zhu, Y, Zhou, S, Liu, Y, Zhai, L, Sun, X. Prognostic value of systemic inflammatory markers in ovarian cancer: a PRISMA-compliant meta-analysis and systematic review, BMC Cancer, 2018, 18, 443, PMID: 29669528",
+            "process_entry": "True",
+            "doi": "10.1186/s12885-018-4318-5",
+            "pmid": "29669528",
+            "pmcid": "PMC5907305",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Kim, HS, Choi, HY, Lee, M, Suh, DH, Kim, K, No, JH. Systemic inflammatory response markers and CA-125 levels in ovarian clear cell carcinoma: a two center cohort study, Cancer Res Treat, 2016, 48, 250, 258, PMID: 25761476",
+            "process_entry": "True",
+            "doi": "10.4143/crt.2014.324",
+            "pmid": "25761476",
+            "pmcid": "PMC4720074",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Supoken, A, Kleebkaow, P, Chumworathayi, B, Luanratanakorn, S, Kietpeerakool, C. Elevated preoperative platelet to lymphocyte ratio associated with decreased survival of women with ovarian clear cell carcinoma, Asian Pac J Cancer Prev, 2014, 15, 10831, 10836, PMID: 25605185",
+            "process_entry": "True",
+            "pmid": "25605185",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Zhang, H, Lu, J, Lu, Y, Zhou, J, Wang, Z, Liu, H. Prognostic significance and predictors of the system inflammation score in ovarian clear cell carcinoma, PLoS One, 2017, 12, e0177520, PMID: 28498842",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0177520",
+            "pmid": "28498842",
+            "pmcid": "PMC5428928",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Kwon, BS, Jeong, DH, Byun, JM, Lee, TH, Choi, KU, Song, YJ. Prognostic value of preoperative lymphocyte-monocyte ratio in patients with ovarian clear cell carcinoma, J Cancer, 2018, 9, 1127, 1134, PMID: 29675093",
+            "process_entry": "True",
+            "doi": "10.7150/jca.24057",
+            "pmid": "29675093",
+            "pmcid": "PMC5907660",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Treffers, LW, Hiemstra, IH, Kuijpers, TW, van den Berg, TK, Matlung, HL. Neutrophils in cancer, Immunol Rev, 2016, 273, 312, 328, PMID: 27558343",
+            "process_entry": "True",
+            "doi": "10.1111/imr.12444",
+            "pmid": "27558343",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Huang, Z, Liu, Y, Yang, C, Li, X, Pan, C, Rao, J. Combined neutrophil/platelet/lymphocyte/differentiation score predicts chemosensitivity in advanced gastric cancer, BMC Cancer, 2018, 18, 515, PMID: 29720123",
+            "process_entry": "True",
+            "doi": "10.1186/s12885-018-4414-6",
+            "pmid": "29720123",
+            "pmcid": "PMC5932840",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Sato, H, Tsubosa, Y, Kawano, T. Correlation between the pretherapeutic neutrophil to lymphocyte ratio and the pathologic response to neoadjuvant chemotherapy in patients with advanced esophageal cancer, World J Surg, 2012, 36, 617, 622, PMID: 22223293",
+            "process_entry": "True",
+            "doi": "10.1007/s00268-011-1411-1",
+            "pmid": "22223293",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Asano, Y, Kashiwagi, S, Onoda, N, Noda, S, Kawajiri, H, Takashima, T. Predictive value of neutrophil/lymphocyte ratio for efficacy of preoperative chemotherapy in triple-negative breast cancer, Ann Surg Oncol, 2016, 23, 1104, 1110, PMID: 26511266",
+            "process_entry": "True",
+            "doi": "10.1245/s10434-015-4934-0",
+            "pmid": "26511266",
+            "pmcid": "PMC4773470",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Mao, R, Zhao, JJ, Bi, XY, Zhang, YF, Li, ZY, Huang, Z. A low neutrophil to lymphocyte ratio before preoperative chemotherapy predicts good outcomes after the resection of colorectal liver metastases, J Gastrointest Surg, 2019, 23, 563, 570, PMID: 30066069",
+            "process_entry": "True",
+            "doi": "10.1007/s11605-018-3796-8",
+            "pmid": "30066069",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Li, J, Wang, J, Chen, R, Bai, Y, Lu, X. The prognostic value of tumor-infiltrating T lymphocytes in ovarian cancer, Oncotarget, 2017, 8, 15621, 15631, PMID: 28152503",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.14919",
+            "pmid": "28152503",
+            "pmcid": "PMC5362510",
+            "xmlid": "B23"
+        }
+    ],
+    "localid": "MED-31576683",
+    "doi": "10.3802/jgo.2019.30.e85",
+    "pmid": "10.3802/jgo.2019.30.e85",
+    "pmcid": "31576683",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576683/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,117)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),119,130)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),250,157)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),408,182)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,222)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,222)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),379,139)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),379,139)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),379,139)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),379,139)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),379,139)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,200)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,200)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,200)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),202,227)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),525,208)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),525,208)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),525,208)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),525,208)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),734,160)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),165,124)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),290,209)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),566,122)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),566,122)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),566,122)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),689,82)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),172,207)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),172,207)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),172,207)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),447,171)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),447,171)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),447,171)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1043,109)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1043,109)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1153,156)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),760,101)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),862,207)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),862,207)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),862,207)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),144,134)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),437,101)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

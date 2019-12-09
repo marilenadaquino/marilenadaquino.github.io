@@ -1,0 +1,142 @@
+{
+    "references": [
+        {
+            "bibentry": "Cortese I, Muranski P, Enose-Akahata Y, Ha SK, Smith B, Monaco M, et al. Pembrolizumab treatment for progressive multifocal leukoencephalopathy. N Engl J Med. 2019; 380: 1597–605. DOI: 10.1056/NEJMoa1815039 PMID: 30969503",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa1815039",
+            "pmid": "30969503",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Blackburn SD, Shin H, Freeman GJ, Wherry EJ. Selective expansion of a subset of exhausted CD8 T cells by alphaPD-L1 blockade. Proc Natl Acad Sci U S A. 2008; 105: 15016–21. DOI: 10.1073/pnas.0801497105 PMID: 18809920",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0801497105",
+            "pmid": "18809920",
+            "pmcid": "PMC2567485",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Mateen FJ, Muralidharan R, Carone M, van de Beek D, Harrison DM, Aksamit AJ, et al. Progressive multifocal leukoencephalopathy in transplant recipients. Ann Neurol. 2011; 70: 305–22. DOI: 10.1002/ana.22408 PMID: 21823157",
+            "process_entry": "True",
+            "doi": "10.1002/ana.22408",
+            "pmid": "21823157",
+            "pmcid": "PMC4910883",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Dekeyser M, de Goër de Herve MG, Hendel-Chavez H, Labeyrie C, Adams D, Nasser GA, et al. Refractory T-Cell anergy and rapidly fatal progressive multifocal leukoencephalopathy after prolonged CTLA4 therapy. Open Forum Infect Dis. 2017; 4: ofx100. DOI: 10.1093/ofid/ofx100 PMID: 28638849",
+            "process_entry": "True",
+            "doi": "10.1093/ofid/ofx100",
+            "pmid": "28638849",
+            "pmcid": "PMC5473436",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Muftuoglu M, Olson A, Marin D, Ahmed S, Mulanovich V, Tummala S, et al. Allogeneic BK virus-specific t cells for progressive multifocal leukoencephalopathy. N Engl J Med. 2018; 379: 1443–51. DOI: 10.1056/NEJMoa1801540 PMID: 30304652",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1801540",
+            "pmid": "30304652",
+            "pmcid": "PMC6283403",
+            "xmlid": "R5"
+        }
+    ],
+    "localid": "MED-31625858",
+    "doi": "10.3201/eid2511.190705",
+    "pmid": "10.3201/eid2511.190705",
+    "pmcid": "31625858",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31625858/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),250,147)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),474,294)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,173)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),175,270)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[4]),175,270)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[4]),446,392)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[4]),927,159)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[5]),152,212)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[5]),464,92)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

@@ -1,0 +1,543 @@
+{
+    "references": [
+        {
+            "bibentry": "Epstein, RM. Assessment in medical education. N Engl J Med. 2007; 356(4): 387–8. PMID: 17251535",
+            "process_entry": "True",
+            "doi": "10.1056/nejmra054784",
+            "pmid": "17251535",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Norcini, J, Anderson, B, Bollela, V. et al Criteria for good assessment: consensus statement and recommendations from the Ottawa 2010 Conference. Med Teach. 2011; 33(3): 206–214. PMID: 21345060",
+            "process_entry": "True",
+            "doi": "10.3109/0142159x.2011.551559",
+            "pmid": "21345060",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Gulikers, JTM, Bastiaens, TJ, Kirschner, PA. A five-dimensional framework for authentic assessment. Educ Technol Res Dev. 2004; 52(3): 67–86.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Bandiera, G, Kuper, A, Mylopoulos, M. et al Back from basics: integration of science and practice in medical education. Med Educ. 2018; 52(1): 78–85. PMID: 28994457",
+            "process_entry": "True",
+            "doi": "10.1111/medu.13386",
+            "pmid": "28994457",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Martinez, ME, Lipson, JI. Assessment for learning. Educ Leadersh. 1989; 46(7): 73.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Konopasek, L, Norcini, J, Krupat, E. Focusing on the formative: building an assessment system aimed at student growth and development. Acad Med. 2016; 91(11): 1492–1497. PMID: 27028028",
+            "process_entry": "True",
+            "doi": "10.1097/acm.0000000000001171",
+            "pmid": "27028028",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hift, RJ. Should essays and other “open-ended”-type questions retain a place in written summative assessment in clinical medicine? BMC Med Educ. 2014; 14: 249. PMID: 25431359",
+            "process_entry": "True",
+            "doi": "10.1186/s12909-014-0249-2",
+            "pmid": "25431359",
+            "pmcid": "PMC4275935",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Schuwirth, LW, Van der Vleuten, CP. Programmatic assessment: from assessment of learning to assessment for learning. Med Teach. 2011; 33(6): 478–485. PMID: 21609177",
+            "process_entry": "True",
+            "doi": "10.3109/0142159x.2011.565828",
+            "pmid": "21609177",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Scouller, K. The influence of assessment method on students‘ learning approaches: multiple choice question examination versus assignment essay. High Educ. 1998; 35(4): 453–472.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Sam, AH, Hameed, S, Harris, J, et al. Validity of very short answer versus single best answer questions for undergraduate assessment. BMC Med Educ. 2016; 16(1): 266. PMID: 27737661",
+            "process_entry": "True",
+            "doi": "10.1186/s12909-016-0793-z",
+            "pmid": "27737661",
+            "pmcid": "PMC5064885",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Roediger, HL, 3rd, Butler, AC. The critical role of retrieval practice in long-term retention. Trends Cogn Sci. 2011; 15(1): 20–27. PMID: 20951630",
+            "process_entry": "True",
+            "doi": "10.1016/j.tics.2010.09.003",
+            "pmid": "20951630",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Schuwirth, LW, van der Vleuten, CP. Changing education, changing assessment, changing research? Med Educ. 2004; 38(8): 805–812. PMID: 15271040",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2929.2004.01851.x",
+            "pmid": "15271040",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Birenbaum, M, Tatsuoka, KK, Gutvirtz, Y. Effects of response format on diagnostic assessment of scholastic achievement. Appl Psychol Meas. 1992; 16(4): 353–363.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Ginzburg, S, Brenner, J, Willey, J. Integration: a strategy for turning knowledge into action. Med Sci Educ. 2015; 25(4): 533–543.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Ritchie, J, Spencer, L. Qualitative data analysis for applied policy research In, Bryman, A, Burgess, RG, editors. Analyzing qualitative data. New York: Routledge; 1994 p. 173–194.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Sam, AH, Field, SM, Collares, CF. et al Very-short-answer questions: reliability, discrimination and acceptability. Med Educ. 2018; 52(4): 447–455. PMID: 29388317",
+            "process_entry": "True",
+            "doi": "10.1111/medu.13504",
+            "pmid": "29388317",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Wass, V, Van der Vleuten, C, Shatzer, J, et al. Assessment of clinical competence. Lancet. 2001; 357(9260): 945–949. PMID: 11289364",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(00)04221-5",
+            "pmid": "11289364",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "New information about new item formats on the medicine clinical science subject examination [Internet]. National Board of Medical Examiners; 2018 6 21 [ cited 2019 Feb 1]. Available from: https://www.nbme.org/PDF/SubjectExams/NBME%20Updates%20New%20Item%20Formats%20on%20Medicine%20Exam.pdf",
+            "process_entry": "True",
+            "url": "https://www.nbme.org/PDF/SubjectExams/NBME%20Updates%20New%20Item%20Formats%20on%20Medicine%20Exam.pdf",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Bierer, SB, Dannefer, EF, Taylor, C, et al. Methods to assess students’ acquisition, application and integration of basic science knowledge in an innovative competency-based curriculum. Med Teach. 2008; 30(7): e171–e177. PMID: 18777415",
+            "process_entry": "True",
+            "doi": "10.1080/01421590802139740",
+            "pmid": "18777415",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Gierl, MJ, Latifi, S, Lai, H, et al. Automated essay scoring and the future of educational assessment in medical education. Med Educ. 2014; 48(10): 950–962. PMID: 25200016",
+            "process_entry": "True",
+            "doi": "10.1111/medu.12517",
+            "pmid": "25200016",
+            "xmlid": "CIT0020"
+        }
+    ],
+    "localid": "MED-31438809",
+    "doi": "10.1080/10872981.2019.1649959",
+    "pmid": "10.1080/10872981.2019.1649959",
+    "pmcid": "31438809",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31438809/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),82,353)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),429,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),82,353)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),429,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),436,103)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),540,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1029,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1275,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1029,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1275,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,234)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,234)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),229,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,234)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),229,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),236,134)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),371,192)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),241,388)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),241,388)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),451,6)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),241,388)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),451,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),241,388)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),241,388)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),623,5)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),241,388)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),623,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),630,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1013,1436)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,326)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,326)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),490,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),490,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),157,240)",
+                "containers_title": [
+                    "Methods",
+                    "Assessment strategy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),342,86)",
+                "containers_title": [
+                    "Methods",
+                    "Data Analysis"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),420,7)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),342,86)",
+                "containers_title": [
+                    "Methods",
+                    "Data Analysis"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),420,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),99,168)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),261,5)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),99,168)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),261,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,203)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1036,319)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,154)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),713,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

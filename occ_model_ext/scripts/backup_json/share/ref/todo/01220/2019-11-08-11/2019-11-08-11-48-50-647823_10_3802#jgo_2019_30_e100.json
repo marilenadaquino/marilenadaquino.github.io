@@ -1,0 +1,408 @@
+{
+    "references": [
+        {
+            "bibentry": "Yamagami, W, Nagase, S, Takahashi, F, Ino, K, Hachisuga, T, Aoki, D. Clinical statistics of gynecologic cancers in Japan, J Gynecol Oncol, 2017, 28, e32, PMID: 28198168",
+            "process_entry": "True",
+            "doi": "10.3802/jgo.2017.28.e32",
+            "pmid": "28198168",
+            "pmcid": "PMC5323288",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Bray, F, Ferlay, J, Soerjomataram, I, Siegel, RL, Torre, LA, Jemal, A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries, CA Cancer J Clin, 2018, 68, 394, 424, PMID: 30207593",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21492",
+            "pmid": "30207593",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Colombo, N, Lorusso, D, Scollo, P. Impact of recurrence of ovarian cancer on quality of life and outlook for the future, Int J Gynecol Cancer, 2017, 27, 1134, 1140",
+            "process_entry": "True",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Al Rawahi, T, Lopes, AD, Bristow, RE, Bryant, A, Elattar, A, Chattopadhyay, S. Surgical cytoreduction for recurrent epithelial ovarian cancer, Cochrane Database Syst Rev, 2013, CD008765, PMID: 23450588",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD008765.pub3",
+            "pmid": "23450588",
+            "pmcid": "PMC6457850",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Bristow, RE, Puri, I, Chi, DS. Cytoreductive surgery for recurrent ovarian cancer: a meta-analysis, Gynecol Oncol, 2009, 112, 265, 274, PMID: 18937969",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2008.08.033",
+            "pmid": "18937969",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Tian, WJ, Chi, DS, Sehouli, J, Tropé, CG, Jiang, R, Ayhan, A. A risk model for secondary cytoreductive surgery in recurrent ovarian cancer: an evidence-based proposal for patient selection, Ann Surg Oncol, 2012, 19, 597, 604, PMID: 21732142",
+            "process_entry": "True",
+            "doi": "10.1245/s10434-011-1873-2",
+            "pmid": "21732142",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Harter, P, Sehouli, J, Reuss, A, Hasenburg, A, Scambia, G, Cibula, D. Prospective validation study of a predictive score for operability of recurrent ovarian cancer: the multicenter intergroup study DESKTOP II. A project of the AGO Kommission OVAR, AGO study group, NOGGO, AGO-Austria, and MITO, Int J Gynecol Cancer, 2011, 21, 289, 295, PMID: 21270612",
+            "process_entry": "True",
+            "doi": "10.1097/igc.0b013e31820aaafd",
+            "pmid": "21270612",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Galaal, K, Naik, R, Bristow, RE, Patel, A, Bryant, A, Dickinson, HO. Cytoreductive surgery plus chemotherapy versus chemotherapy alone for recurrent epithelial ovarian cancer, Cochrane Database Syst Rev, 2010, CD007822, PMID: 20556785",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD007822.pub2",
+            "pmid": "20556785",
+            "pmcid": "PMC4170993",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Kanda, Y. Investigation of the freely available easy-to-use software ‘EZR’ for medical statistics, Bone Marrow Transplant, 2013, 48, 452, 458, PMID: 23208313",
+            "process_entry": "True",
+            "doi": "10.1038/bmt.2012.244",
+            "pmid": "23208313",
+            "pmcid": "PMC3590441",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Sekhon, JS. Multivariate and propensity score matching software with automated balance optimization: the matching package for R, J Stat Softw, 2011, 42, 1, 52",
+            "process_entry": "True",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "van de Laar, R, Massuger, LF, Van Gorp, T, IntHout, J, Zusterzeel, PL, Kruitwagen, RF. External validation of two prediction models of complete secondary cytoreductive surgery in patients with recurrent epithelial ovarian cancer, Gynecol Oncol, 2015, 137, 210, 215, PMID: 25677063",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2015.02.004",
+            "pmid": "25677063",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Cowan, RA, Eriksson, AG, Jaber, SM, Zhou, Q, Iasonos, A, Zivanovic, O. A comparative analysis of prediction models for complete gross resection in secondary cytoreductive surgery for ovarian cancer, Gynecol Oncol, 2017, 145, 230, 235, PMID: 28285846",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2017.02.010",
+            "pmid": "28285846",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Takahashi, A, Kato, K, Matsuura, M, Katsuda, T, Matoda, M, Nomura, H. Comparison of secondary cytoreductive surgery plus chemotherapy with chemotherapy alone for recurrent epithelial ovarian, tubal, or peritoneal carcinoma: A propensity score-matched analysis of 112 consecutive patients, Medicine (Baltimore), 2017, 96, e8006, PMID: 28906381",
+            "process_entry": "True",
+            "doi": "10.1097/MD.0000000000008006",
+            "pmid": "28906381",
+            "pmcid": "PMC5604650",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Coleman, RL, Enserro, D, Spirtos, N, Herzog, TJ, Sabattini, P, Armstrong, DK. A phase III randomized controlled trial of secondary surgical cytoreduction (SSC) followed by platinum-based combination chemotherapy (PBC), with or without bevacizumab (B) in platinum-sensitive, recurrent ovarian cancer (PSOC): a NRG Oncology/Gynecologic Oncology Group (GOG) study, ASCO annual meeting, 2018 Jun 1–5, Chicago, IL, Alexandria, VA, American Society of Clinical Oncology, 2018, Abstract 5501",
+            "process_entry": "True",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "du Bois, A, Vergote, I, Ferron, G, Reuss, A, Meier, W, Greggi, S. Randomized controlled phase III study evaluating the impact of secondary cytoreductive surgery in recurrent ovarian cancer: AGO DESKTOP III/ENGOT ov20, ASCO annual meeting, 2017 Jun 2–6, Chicago, IL, Alexandria, VA, American Society of Clinical Oncology, 2017, Abstract 5501",
+            "process_entry": "True",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Zang, RY, Li, ZT, Tang, J, Cheng, X, Cai, SM, Zhang, ZY. Secondary cytoreductive surgery for patients with relapsed epithelial ovarian carcinoma: who benefits, Cancer, 2004, 100, 1152, 1161, PMID: 15022281",
+            "process_entry": "True",
+            "doi": "10.1002/cncr.20106",
+            "pmid": "15022281",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Zang, RY, Harter, P, Chi, DS, Sehouli, J, Jiang, R, Tropé, CG. Predictors of survival in patients with recurrent ovarian cancer undergoing secondary cytoreductive surgery based on the pooled analysis of an international collaborative cohort, Br J Cancer, 2011, 105, 890, 896, PMID: 21878937",
+            "process_entry": "True",
+            "doi": "10.1038/bjc.2011.328",
+            "pmid": "21878937",
+            "pmcid": "PMC3185944",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Eriksson, AG, Graul, A, Yu, MC, Halko, A, Chi, DS, Zivanovic, O. Minimal access surgery compared to laparotomy for secondary surgical cytoreduction in patients with recurrent ovarian carcinoma: perioperative and oncologic outcomes, Gynecol Oncol, 2017, 146, 263, 267, PMID: 28527673",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2017.05.022",
+            "pmid": "28527673",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Gallotta, V, Giudice, MT, Conte, C, Sarandeses, AV, D'Indinosante, M, Federico, A. Minimally invasive salvage lymphadenectomy in gynecological cancer patients: a single institution series, Eur J Surg Oncol, 2018, 44, 1568, 1572, PMID: 30170883",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejso.2018.08.006",
+            "pmid": "30170883",
+            "xmlid": "B19"
+        }
+    ],
+    "localid": "MED-31576692",
+    "doi": "10.3802/jgo.2019.30.e100",
+    "pmid": "10.3802/jgo.2019.30.e100",
+    "pmcid": "31576692",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576692/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,146)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),148,88)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),361,66)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,195)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,195)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),197,102)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),728,139)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),868,233)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[2]),646,54)",
+                "containers_title": [
+                    "MATERIALS AND METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[4]),223,135)",
+                "containers_title": [
+                    "MATERIALS AND METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[4]),359,178)",
+                "containers_title": [
+                    "MATERIALS AND METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),341,142)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),341,142)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),145,68)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),355,97)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),453,141)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),826,199)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),826,199)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),223,167)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),223,167)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),105,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),105,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "references": [
+        {
+            "bibentry": "World Health Organization and UNICEF. Integrated community case management: an equity–focused strategy to improve access to essential treatment services for children. Geneva and New York: WHO and UNICEF; 2012. Available: http://www.unicef.org/health/files/iCCM_Joint_Statement_2012.pdf. Accessed: 16 November 2015.",
+            "process_entry": "True",
+            "url": "http://www.unicef.org/health/files/iCCM_Joint_Statement_2012.pdf. Accessed: 16 November 2015.",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Marsh, DR, Hamer, DH, Pagnoni, F, Peterson, S. Introduction to a special supplement: Evidence for the implementation, effects, and impact of the integrated community case management strategy to treat childhood infection. Am J Trop Med Hyg. 2012; 87(5 Suppl): 2-5. DOI: 10.4269/ajtmh.2012.12-0504 PMID: 23136271",
+            "process_entry": "True",
+            "doi": "10.4269/ajtmh.2012.12-0504",
+            "pmid": "23136271",
+            "pmcid": "PMC3748517",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Diaz, T, Aboubaker, D, Young, M. Current scientific evidence for integrated community case management (iCCM) in Africa: Findings from the iCCM. J Glob Health. 2014; 4: 020101. PMID: 25520783",
+            "process_entry": "True",
+            "doi": "10.7189/jogh.04.020101",
+            "pmid": "25520783",
+            "pmcid": "PMC4267091",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Daelmans, B, Seck, A, Nsona, H, Wilson, S, Young, M. Integrated Community Case Management of Childhood Illness: What Have We Learned? Am J Trop Med Hyg. 2016; 94: 571-3. DOI: 10.4269/ajtmh.94-3intro2 PMID: 26936992",
+            "process_entry": "True",
+            "doi": "10.4269/ajtmh.94-3intro2",
+            "pmid": "26936992",
+            "pmcid": "PMC4775893",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Rapid Access Expansion Programme (RAcE). Global Malaria Programme, World Health Organization. Geneva: WHO; 2015.",
+            "process_entry": "True",
+            "xmlid": "R5"
+        }
+    ],
+    "localid": "MED-31360441",
+    "doi": "10.7189/jogh.09.020101",
+    "pmid": "10.7189/jogh.09.020101",
+    "pmcid": "31360441",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31360441/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,164)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),166,376)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),536,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),166,376)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),536,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),779,166)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),946,219)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

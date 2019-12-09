@@ -1,0 +1,2269 @@
+{
+    "references": [
+        {
+            "bibentry": "Yu, FH, Catterall, WA. The VGL-chanome: a protein superfamily specialized for electrical signaling and ionic homeostasis. Sci STKE. 2004; 253: re15.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Arrigoni, C, Schroeder, I, Romani, G, et al. The voltage-sensing domain of a phosphatase gates the pore of a potassium channel. J Gen Physiol. 2013; 141(3): 389–395. PMID: 23440279",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.201210940",
+            "pmid": "23440279",
+            "pmcid": "PMC3581695",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Moran, Y, Barzilai, MG, Liebeskind, BJ, et al. Evolution of voltage-gated ion channels at the emergence of Metazoa. J Exp Biol. 2015; 218(Pt4): 515–525. PMID: 25696815",
+            "process_entry": "True",
+            "doi": "10.1242/jeb.110270",
+            "pmid": "25696815",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Bezanilla, F. How membrane proteins sense voltage. Nat Rev Mol Cell Biol. 2008; 9(4): 323–332. PMID: 18354422",
+            "process_entry": "True",
+            "doi": "10.1038/nrm2376",
+            "pmid": "18354422",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Li, M, Zhou, X, Wang, S, et al. Structure of a eukaryotic cyclic-nucleotide-gated channel. Nature. 2017; 542(7639): 60–65. PMID: 28099415",
+            "process_entry": "True",
+            "doi": "10.1038/nature20819",
+            "pmid": "28099415",
+            "pmcid": "PMC5783306",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Craven, KB, Zagotta, WN. CNG and HCN channels: two peas, one pod. Annu Rev Physiol. 2006; 68: 375–401. PMID: 16460277",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.physiol.68.040104.134728",
+            "pmid": "16460277",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Balleza, D, Rosas, ME, Romero-Romero, S. Voltage vs. Ligand I: structural basis of the intrinsic flexibility of S3 and its significance in ion channel activation. Channels. 2019 in this issue.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Jiang, Y, Lee, A, Chen, J, et al. X-ray structure of a voltage-dependent K + channel. Nature. 2003; 423(6935): 33–41. PMID: 12721618",
+            "process_entry": "True",
+            "doi": "10.1038/nature01580",
+            "pmid": "12721618",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Jensen, MØ, Jogini, V, Borhani, DW, et al. Mechanism of voltage gating in potassium channels. Science. 2012; 336(6078): 229–233. PMID: 22499946",
+            "process_entry": "True",
+            "doi": "10.1126/science.1216533",
+            "pmid": "22499946",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Deckert, G, Warren, PV, Gaasterland, T, et al. The complete genome of the hyperthermophilic bacterium Aquifex aeolicus. Nature. 1998; 392(6674): 353–358. PMID: 9537320",
+            "process_entry": "True",
+            "doi": "10.1038/32831",
+            "pmid": "9537320",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Yang, J, Yan, R, Xu, D, et al. The I-TASSER Suite: protein structure and function prediction. Nat Methods. 2015; 12(1): 7–18. PMID: 25549265",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.3213",
+            "pmid": "25549265",
+            "pmcid": "PMC4428668",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Wu, S, Zhang, Y. LOMETS: A local meta-threading-server for protein structure prediction. Nucl Acids Res. 2007; 35(10): 3375–3382. PMID: 17478507",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gkm251",
+            "pmid": "17478507",
+            "pmcid": "PMC1904280",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Laskowski, RA, MacArthur, MW, Moss, DS, et al. PROCHECK, a program to check the stereochemical quality of protein structures. J App Cryst. 1993; 26: 283–291.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Colovos, C, Yeates, TO. Verification of protein structures: patterns of nonbonded atomic interactions. Prot Sci. 1993; 2(9): 1511–1519.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Castrignano, T, D’Onorio, P, Cozzetto, D. The PMDB protein model database. Nucl Acids Res. 2006; 34(Databaseissue): D306–309. PMID: 16381873",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gkj105",
+            "pmid": "16381873",
+            "pmcid": "PMC1347467",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Hille, B. Ionic channels of excitable membranes. 3rd ed. Sunderland, MA: Oxford University Press; 2001.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Anderson, PAV, Greenberg, RM. Phylogeny of ion channels: clues to structure and function. Comp Biochem Physiol B Biochem Mol Biol. 2001; 129(1): 17–28. PMID: 11337248",
+            "process_entry": "True",
+            "doi": "10.1016/s1096-4959(01)00376-1",
+            "pmid": "11337248",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Burggraf, S, Olsen, GJ, Stetter, KO, et al. A phylogenetic analysis of Aquifex pyrophilus. Syst Appl Microbiol. 1992; 15(3): 352–356. PMID: 11540077",
+            "process_entry": "True",
+            "doi": "10.1016/s0723-2020(11)80207-9",
+            "pmid": "11540077",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Brams, M, Kusch, J, Spurny, R, et al. Family of prokaryote cyclic nucleotide-modulated ion channels. Proc Natl Acad Sci USA. 2014; 111(21): 7855–7860. PMID: 24821777",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1401917111",
+            "pmid": "24821777",
+            "pmcid": "PMC4040583",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "James, ZM, Borst, AJ, Haitin, Y, et al. CryoEM structure of a prokaryotic cyclic nucleotide-gated ion channel. Proc Natl Acad Sci USA. 2017; 114(17): 4430–4435. PMID: 28396445",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1700248114",
+            "pmid": "28396445",
+            "pmcid": "PMC5410850",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Schmidpeter, PAM, Gao, X, Uphadyay, V, et al. Ligand binding and activation properties of the purified bacterial cyclic nucleotide-gated channel SthK. J Gen Physiol. 2018; 150(6): 821–834. PMID: 29752414",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.201812023",
+            "pmid": "29752414",
+            "pmcid": "PMC5987880",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Tao, X, Lee, A, Limapichat, W, et al. A gating charge transfer center in voltage sensors. Science. 2010; 328(5974): 67–73. PMID: 20360102",
+            "process_entry": "True",
+            "doi": "10.1126/science.1185954",
+            "pmid": "20360102",
+            "pmcid": "PMC2869078",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Lacroix, JJ, Hyde, HC, Campos, FV, et al. Moving gating charges through the gating pore in a K V channel voltage sensor. Proc Natl Acad Sci USA. 2014; 111(19): E1950–1959. PMID: 24782544",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1406161111",
+            "pmid": "24782544",
+            "pmcid": "PMC4024920",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Long, SB, Tao, X, Campbell, EB, et al. Atomic structure of a voltage-dependent K + channel in a lipid membrane-like environment. Nature. 2007; 450(7168): 376–382. PMID: 18004376",
+            "process_entry": "True",
+            "doi": "10.1038/nature06265",
+            "pmid": "18004376",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Battistuzzi, FU, Feijao, A, Hedges, SB. A genomic timescale of prokaryote evolution: insights into the origin of methanogenesis, phototrophy, and the colonization of land. BMC Evol Biol. 2004; 4: 44. PMID: 15535883",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2148-4-44",
+            "pmid": "15535883",
+            "pmcid": "PMC533871",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Závodszky, P, Kardos, J, Svingor, et al. Adjustment of conformational flexibility is a key event in the thermal adaptation of proteins. Proc Natl Acad Sci USA. 1998; 95(13): 7406–7411. PMID: 9636162",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.95.13.7406",
+            "pmid": "9636162",
+            "pmcid": "PMC22632",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Radestock, S, Gohlke, H. Protein rigidity and thermophilic adaptation. Proteins. 2011; 79(4): 1089–1108. PMID: 21246632",
+            "process_entry": "True",
+            "doi": "10.1002/prot.22946",
+            "pmid": "21246632",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Cho, SW, Choi, KY, Park, CS. A new putative cyclic nucleotide-gated channel gene, cng-3, is critical for thermotolerance in Caenorhabditis elegans. Biochem Biophys Res Commun. 2004; 325(2): 525–531. PMID: 15530424",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2004.10.060",
+            "pmid": "15530424",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Kaupp, UB, Seifert, R. Cyclic nucleotide-gated ion channels. Physiol Rev. 2002; 82(3): 769–824. PMID: 12087135",
+            "process_entry": "True",
+            "doi": "10.1152/physrev.00008.2002",
+            "pmid": "12087135",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Kowal, J, Biyani, N, Chami, M, et al. High-resolution cryoelectron microscopy structure of the cyclic nucleotide-modulated potassium channel MloK1 in a lipid bilayer. Structure. 2018; 26(1): 20–27.e3. PMID: 29249605",
+            "process_entry": "True",
+            "doi": "10.1016/j.str.2017.11.012",
+            "pmid": "29249605",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Altenhofen, W, Ludwig, J, Eismann, E, et al. Control of ligand specificity in cyclic nucleotide-gated channels from rod photoreceptors and olfactory epithelium. Proc Natl Acad Sci USA. 1991; 88(21): 9868–9872. PMID: 1719541",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.88.21.9868",
+            "pmid": "1719541",
+            "pmcid": "PMC52822",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Nache, V, Schulz, E, Zimmer, T, et al. Activation of olfactory-type cyclic nucleotide-gated channels is highly cooperative. J Physiol. 2005; 569(Pt1): 91–102. PMID: 16081488",
+            "process_entry": "True",
+            "doi": "10.1113/jphysiol.2005.092304",
+            "pmid": "16081488",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "DeCoursey, TE. Voltage and pH sensing by the voltage-gated proton channel, H V1. J R Soc Interface. 2018; 15(141): pii:20180108.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Okamura, Y, Kawanabe, A, Kawai, T. Voltage-sensing phosphatases: biophysics, physiology, and molecular engineering. Physiol Rev. 2018; 98(4): 2097–2131. PMID: 30067160",
+            "process_entry": "True",
+            "doi": "10.1152/physrev.00056.2017",
+            "pmid": "30067160",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "González, C, Baez-Nieto, D, Valencia, I, et al. K + channels: function-structural overview. Compr Physiol. 2012; 2(3): 2087–2149. PMID: 23723034",
+            "process_entry": "True",
+            "doi": "10.1002/cphy.c110047",
+            "pmid": "23723034",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Sutton, KA, Jungnickel, MK, Jovine, L, et al. Evolution of the voltage sensor domain of the voltage-sensitive phosphoinositide phosphatase VSP/TPTE suggests a role as a proton channel in eutherian mammals. Mol Biol Evol. 2012; 29(9): 2147–2155. PMID: 22396523",
+            "process_entry": "True",
+            "doi": "10.1093/molbev/mss083",
+            "pmid": "22396523",
+            "pmcid": "PMC3424408",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "DeCoursey, TE, Hosler, J. Philosophy of voltage-gated proton channels. J R Soc Interface. 2013; 11(92): 20130799. PMID: 24352668",
+            "process_entry": "True",
+            "doi": "10.1098/rsif.2013.0799",
+            "pmid": "24352668",
+            "pmcid": "PMC3899857",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Baker, AE, O’Toole, GA. Bacteria, rev your engines: stator dynamics regulate flagellar motility. J Bacteriol. 2017; 199(12): pii:e00088–17.",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Blair, DF, Berg, HC. The MotA protein of E. coli is a proton-conducting component of the flagellar motor. Cell. 1990; 60(3): 439–449. PMID: 2154333",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(90)90595-6",
+            "pmid": "2154333",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Cascales, E, Lloubès, R, Sturgis, JM. The TolQ-TolR proteins energize TolA and share homologies with the flagellar motor proteins MotA-MotB. Mol Microbiol. 2001; 42(3): 795–807. PMID: 11722743",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2001.02673.x",
+            "pmid": "11722743",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Li, N, Kojima, S, Homma, M. Sodium-driven motor of the polar flagellum in marine bacteria Vibrio. Genes Cells. 2011; 16(10): 985–999. PMID: 21895888",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2443.2011.01545.x",
+            "pmid": "21895888",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Halang, P, Leptihn, S, Meier, T, et al. The function of the Na +-driven flagellum of Vibrio cholerae is determined by osmolality and pH. J Bacteriol. 2013; 195(21): 4888–4899. PMID: 23974033",
+            "process_entry": "True",
+            "doi": "10.1128/JB.00353-13",
+            "pmid": "23974033",
+            "pmcid": "PMC3807483",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Catterall, WA. Ion channel voltage sensors: structure, function, and pathophysiology. Neuron. 2010; 67(6): 915–928. PMID: 20869590",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2010.08.021",
+            "pmid": "20869590",
+            "pmcid": "PMC2950829",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Iscla, I, Eaton, C, Parker, J, et al. Improving the design of a MscL-based triggered nanovalve. Biosensors (Basel). 2013; 3(1): 171–184. PMID: 23678232",
+            "process_entry": "True",
+            "doi": "10.3390/bios3010171",
+            "pmid": "23678232",
+            "pmcid": "PMC3652633",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Kumánovics, A, Levin, G, Blount, P. Family ties of gated pores: evolution of the sensor module. Faseb J. 2002; 16(12): 1623–1629. PMID: 12374785",
+            "process_entry": "True",
+            "doi": "10.1096/fj.02-0238hyp",
+            "pmid": "12374785",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Lewin, TM, Webster, RE. Membrane insertion characteristics of the various transmembrane domains of the Escherichia coli TolQ protein. J Biol Chem. 1996; 271(24): 14143–14149. PMID: 8662905",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.271.24.14143",
+            "pmid": "8662905",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Rheinberger, J, Gao, X, Schmidpeter, PA, et al. Ligand discrimination and gating in cyclic nucleotide-gated ion channels from apo and partial agonist-bound cryo-EM structures. Elife. 2018; 7: pii:e39775.",
+            "process_entry": "True",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Lu, Z, Klem, AM, Ramu, Y. Ion conduction pore is conserved among potassium channels. Nature. 2001; 413(6858): 809–813. PMID: 11677598",
+            "process_entry": "True",
+            "doi": "10.1038/35101535",
+            "pmid": "11677598",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Aksenova, HY, Rainey, FA, Janssen, PH, et al. Spirochaeta thermophila sp. nov, an obligately anaerobic, polysaccharolytic, extremely thermophilic bacterium. Int J of Syst Bact. 1992; 42(1): 175–177.",
+            "process_entry": "True",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Nimigean, CM, Pagel, MD. Ligand binding and activation in a prokaryotic cyclic nucleotide-modulated channel. J Mol Biol. 2007; 371(5): 1325–13237. PMID: 17619023",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2007.06.030",
+            "pmid": "17619023",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Komatsu, H, Jin, Y-H, L’Etoile, N, et al. Functional reconstitution of a heteromeric cyclic nucleotide-gated channel of Caenorhabditis elegans in cultured cells. Brain Res. 1999; 821(1): 160–168. PMID: 10064800",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-8993(99)01111-7",
+            "pmid": "10064800",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Barks, HL, Buckley, R, Grieves, GA, et al. Guanine, adenine, and hypoxanthine production in UV-irradiated formamide solutions: relaxation of the requirements for prebiotic purine nucleobase formation. Chembiochem. 2010; 11(9): 1240–1243. PMID: 20491139",
+            "process_entry": "True",
+            "doi": "10.1002/cbic.201000074",
+            "pmid": "20491139",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Long, SB, Campbell, EB, Mackinnon, R. Voltage sensor of Kv1.2: structural basis of electromechanical coupling. Science. 2005; 309(5736): 903–908. PMID: 16002579",
+            "process_entry": "True",
+            "doi": "10.1126/science.1116270",
+            "pmid": "16002579",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Kalstrup, T, Blunck, R. S4-S5 linker movement during activation and inactivation in voltage-gated K + channels. Proc Natl Acad Sci USA. 2018; 115(29): E6751–E6759. PMID: 29959207",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1719105115",
+            "pmid": "29959207",
+            "pmcid": "PMC6055142",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Kigundu, G, Cooper, JL, Smith, SM. Hv1 proton channels in dinoflagellates: not just for bioluminescence? J Euk Microbiol. 2018; 65(6): 928–933. PMID: 29698585",
+            "process_entry": "True",
+            "doi": "10.1111/jeu.12627",
+            "pmid": "29698585",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Armstrong, CT, Mason, PE, Anderson, JL, et al. Arginine side chain interactions and the role of arginine as a gating charge carrier in voltage sensitive ion channels. Sci Rep. 2016; 6: 21759. PMID: 26899474",
+            "process_entry": "True",
+            "doi": "10.1038/srep21759",
+            "pmid": "26899474",
+            "pmcid": "PMC4761985",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Barlow, DJ, Thornton, JM. Ion-pairs in proteins. J Mol Biol. 1983; 168(4): 867–885. PMID: 6887253",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-2836(83)80079-5",
+            "pmid": "6887253",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Sokalingam, S, Raghunathan, G, Soundrarajan, N, et al. A study on the effect of surface lysine to arginine mutagenesis on protein stability and structure using green fluorescent protein. PLoS One. 2012; 7(7): e40410. PMID: 22792305",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0040410",
+            "pmid": "22792305",
+            "pmcid": "PMC3392243",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Berezovsky, IN, Chen, WW, Choi, PJ, et al. Entropic stabilization of proteins and its proteomic consequences. PLoS Comput Biol. 2005; 1(4): e47. PMID: 16201009",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pcbi.0010047",
+            "pmid": "16201009",
+            "pmcid": "PMC1239905",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "Papazian DM, Shao XM, Seoh SA, et al. Electrostatic interactions of S4 voltage sensor in Shaker K+ channel. Neuron. 1995;14(6):1293–1301.",
+            "process_entry": "True",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "Li J, Guo J, Ou X, et al. Mechanical coupling of the multiple structural elements of the large-conductance mechanosensitive channel during expansion. Proc Natl Acad Sci USA. 2015;112(34):10726–10731.",
+            "process_entry": "True",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Fukuoka H, Yakushi T, Homma M Concerted effects of amino acid substitutions in conserved charged residues and other residues in the cytoplasmic domain of PomA, a stator component of Na+-driven flagella. J Bacteriol. 2004;186(20):6749–6758.",
+            "process_entry": "True",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Li-Smerin, Y, Hackos, DH, Swartz, KJ. α-helical structural elements within the voltage-sensing domains of a K + channel. J Gen Physiol. 2000; 115(1): 33–50. PMID: 10613917",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.115.1.33",
+            "pmid": "10613917",
+            "pmcid": "PMC1887781",
+            "xmlid": "CIT0063"
+        },
+        {
+            "bibentry": "Tiwari-Woodruff, SK, Lin, MA, Schulteis, CT, et al. Voltage-dependent structural interactions in the Shaker K (+) channel. J Gen Physiol. 2000; 115(2): 123–138. PMID: 10653892",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.115.2.123",
+            "pmid": "10653892",
+            "pmcid": "PMC2217201",
+            "xmlid": "CIT0064"
+        },
+        {
+            "bibentry": "Sakata, S, Kurokawa, T, Nørholm, MH, et al. Functionality of the voltage-gated proton channel truncated in S4. Proc Natl Acad Sci USA. 2010; 107(5): 2313–2318. PMID: 20018719",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0911868107",
+            "pmid": "20018719",
+            "pmcid": "PMC2836681",
+            "xmlid": "CIT0065"
+        },
+        {
+            "bibentry": "Tombola, F, Pathak, MM, Isacoff, EY. Voltage-sensing arginines in a potassium channel permeate and occlude cation-selective pores. Neuron. 2005; 45(3): 379–388. PMID: 15694325",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2004.12.047",
+            "pmid": "15694325",
+            "xmlid": "CIT0066"
+        },
+        {
+            "bibentry": "Starace, DM, Bezanilla, F. A proton pore in a potassium channel voltage sensor reveals a focused electric field. Nature. 2004; 427(6974): 548–553. PMID: 14765197",
+            "process_entry": "True",
+            "doi": "10.1038/nature02270",
+            "pmid": "14765197",
+            "xmlid": "CIT0067"
+        },
+        {
+            "bibentry": "Goemaere, EL, Cascales, E, Lloubès, R. Mutational analyses define helix organization and key residues of a bacterial membrane energy-transducing complex. J Mol Biol. 2007; 366(5): 1424–1436. PMID: 17222427",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2006.12.020",
+            "pmid": "17222427",
+            "xmlid": "CIT0068"
+        },
+        {
+            "bibentry": "Nishihara, Y, Kitao, A. Gate-controlled proton diffusion and protonation-induced ratchet motion in the stator of the bacterial flagellar motor. Proc Natl Acad Sci USA. 2015; 112(25): 7737–7742. PMID: 26056313",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1502991112",
+            "pmid": "26056313",
+            "pmcid": "PMC4485142",
+            "xmlid": "CIT0069"
+        },
+        {
+            "bibentry": "Zhang, XY, Goemaere, EL, Seddiki, N, et al. Mapping the interactions between Escherichia coli TolQ transmembrane segments. J Biol Chem. 2011; 286(13): 11756–11764. PMID: 21285349",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M110.192773",
+            "pmid": "21285349",
+            "pmcid": "PMC3064227",
+            "xmlid": "CIT0070"
+        },
+        {
+            "bibentry": "Hoshi, T, Pantazis, A, Olcese, R. Transduction of voltage and Ca 2+ signals by Slo1 BK channels. Physiology. 2013; 28(3): 172–189. PMID: 23636263",
+            "process_entry": "True",
+            "doi": "10.1152/physiol.00055.2012",
+            "pmid": "23636263",
+            "pmcid": "PMC3742125",
+            "xmlid": "CIT0071"
+        },
+        {
+            "bibentry": "Palovcak, E, Delemotte, L, Klein, ML, et al. Evolutionary imprint of activation: the design principles of VSDs. J Gen Physiol. 2014; 143(2): 145–156. PMID: 24470486",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.201311103",
+            "pmid": "24470486",
+            "pmcid": "PMC4001776",
+            "xmlid": "CIT0072"
+        },
+        {
+            "bibentry": "von Heijne, G. Control of topology and mode of assembly of a polytopic membrane protein by positively charged residues. Nature. 1989; 341(6241): 456–458. PMID: 2677744",
+            "process_entry": "True",
+            "doi": "10.1038/341456a0",
+            "pmid": "2677744",
+            "xmlid": "CIT0073"
+        },
+        {
+            "bibentry": "Andersson, H, von Heijne, G. Membrane protein topology: effects of Δμ H+ on the translocation of charged residues explain the ‘positive inside’ rule. Embo J. 1994; 13(10): 2267–2272. PMID: 8194517",
+            "process_entry": "True",
+            "doi": "10.1002/j.1460-2075.1994.tb06508.x",
+            "pmid": "8194517",
+            "pmcid": "PMC395088",
+            "xmlid": "CIT0074"
+        },
+        {
+            "bibentry": "von Heijne, G. Membrane-protein topology. Nat Rev Mol Cell Biol. 2006; 7(12): 909–918. PMID: 17139331",
+            "process_entry": "True",
+            "doi": "10.1038/nrm2063",
+            "pmid": "17139331",
+            "xmlid": "CIT0075"
+        },
+        {
+            "bibentry": "Pohorille, A, Schweighofer, K, Wilson, MA. The origin and early evolution of membrane channels. Astrobiology. 2005; 5(1): 1–17. PMID: 15711166",
+            "process_entry": "True",
+            "doi": "10.1089/ast.2005.5.1",
+            "pmid": "15711166",
+            "xmlid": "CIT0076"
+        },
+        {
+            "bibentry": "Pohorille, A, Wilson, MA, Shannon, G. Flexible proteins at the origin of life. Life (Basel). 2017; 7(2): pii:E23.",
+            "process_entry": "True",
+            "xmlid": "CIT0077"
+        }
+    ],
+    "localid": "MED-31552786",
+    "doi": "10.1080/19336950.2019.1666456",
+    "pmid": "10.1080/19336950.2019.1666456",
+    "pmcid": "31552786",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31552786/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),453,241)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),871,184)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1049,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),871,184)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1049,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1056,227)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1284,225)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1510,127)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,227)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),576,75)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),645,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),576,75)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),645,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),896,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1033,348)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),2132,80)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data assembly and local flexibility prediction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),281,140)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data assembly and local flexibility prediction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),422,107)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data assembly and local flexibility prediction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),1344,204)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data assembly and local flexibility prediction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),1344,204)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data assembly and local flexibility prediction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),1651,163)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data assembly and local flexibility prediction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1,191)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),193,408)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),456,7)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),193,408)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),456,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),602,211)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),996,147)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1159,183)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19–21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1334,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0020",
+                "pl_string": "[19–21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1334,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1159,183)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1159,183)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19–21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1334,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1343,318)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1653,7)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1343,318)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1653,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[1]),1662,464)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec/p[2]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[2]/fig/caption/p),359,124)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),1,304)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),494,374)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),860,7)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),494,374)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),860,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),975,156)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),975,156)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),1534,338)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),1534,338)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2044,156)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2201,237)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2430,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2201,237)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2430,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2439,132)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2549,7)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2439,132)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2549,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/sec/p[3]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[3]),2732,239)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/sec/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[4]),441,148)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[4]),590,319)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[33,34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[4]),769,7)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[4]),590,319)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[33,34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[4]),769,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/sec/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[4]),590,319)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),1,177)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),170,7)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),1,177)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),170,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),179,248)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),555,29)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),814,175)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),1109,186)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[41,42]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),1287,7)"
+            },
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/sec/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),1109,186)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[41,42]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[5]),1287,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),423,536)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),423,536)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[3]/sec/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),423,536)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[4,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),952,6)"
+            },
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),423,536)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[4,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),952,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),1670,151)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/sec/p[6]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[6]),2069,232)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),707,148)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1690,352)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,20,29,31,47]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1777,16)"
+            },
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1690,352)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,20,29,31,47]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1777,16)"
+            },
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1690,352)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,20,29,31,47]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1777,16)"
+            },
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1690,352)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,20,29,31,47]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1777,16)"
+            },
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1690,352)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ],
+                "pl_string": "[19,20,29,31,47]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec/p[7]),1777,16)"
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[3]/sec/p[7]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[7]/fig/caption/p),462,170)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[8]),1,289)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec/p[8]),1150,452)",
+                "containers_title": [
+                    "Results",
+                    "Evolution of the voltage sensor and the pore domain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,359)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1002,187)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1178,10)"
+            },
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1002,187)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1178,10)"
+            },
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1002,187)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1178,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1190,194)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[1,3]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1378,5)"
+            },
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1190,194)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[1,3]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1378,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1385,272)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1385,272)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,408)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,408)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),226,230)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[10,18]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),448,7)"
+            },
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),226,230)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[10,18]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),448,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),457,132)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),798,230)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1237,202)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[19,20,47,50]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1425,13)"
+            },
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1237,202)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[19,20,47,50]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1425,13)"
+            },
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1237,202)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[19,20,47,50]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1425,13)"
+            },
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1237,202)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[19,20,47,50]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1425,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1440,139)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[31,51]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1571,7)"
+            },
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1440,139)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[31,51]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1571,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,280)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),649,202)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),649,202)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),852,90)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),943,216)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1160,190)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1160,190)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,54]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),1343,6)"
+            },
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1160,190)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,54]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),1343,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),358,84)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,37]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),434,7)"
+            },
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),358,84)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,37]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),434,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),443,212)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),388,186)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),717,29)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),973,277)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 102,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),2100,241)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 103,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),2342,333)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[6]),2667,7)"
+            },
+            {
+                "n_rp": 104,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),2342,333)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[6]),2667,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 105,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),2676,374)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 106,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),449,173)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[7]),614,7)"
+            },
+            {
+                "n_rp": 107,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),449,173)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[7]),614,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),623,191)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),996,329)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,234)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[62-65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),227,7)"
+            },
+            {
+                "n_rp": 111,
+                "xref_id": "CIT0063",
+                "pl_string": "[62-65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),227,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,234)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 112,
+                "xref_id": "CIT0064",
+                "pl_string": "[62-65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),227,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,234)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 113,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,234)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[62-65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),227,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),418,174)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[60,66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),581,10)"
+            },
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),418,174)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[60,66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),581,10)"
+            },
+            {
+                "n_rp": 116,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),418,174)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[60,66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),581,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 117,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),593,325)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 118,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),919,117)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 119,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1037,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 120,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1196,118)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 121,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1409,114)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1515,7)"
+            },
+            {
+                "n_rp": 122,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1409,114)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1515,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 123,
+                "xref_id": "CIT0068",
+                "rp_string": "68",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1524,221)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1737,7)"
+            },
+            {
+                "n_rp": 124,
+                "xref_id": "CIT0069",
+                "pl_string": "[68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1737,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1524,221)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 125,
+                "xref_id": "CIT0070",
+                "rp_string": "70",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1524,221)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1737,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,687)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 127,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,687)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[40,72]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),453,7)"
+            },
+            {
+                "n_rp": 128,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,687)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[40,72]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),453,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 129,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1376,361)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[73–75]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),1579,7)"
+            },
+            {
+                "n_rp": 130,
+                "xref_id": "CIT0074",
+                "pl_string": "[73–75]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),1579,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1376,361)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 131,
+                "xref_id": "CIT0075",
+                "rp_string": "75",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1376,361)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[73–75]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),1579,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 132,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),2606,182)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[76,77]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),2780,7)"
+            },
+            {
+                "n_rp": 133,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),2606,182)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[76,77]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),2780,7)"
+            }
+        ]
+    ]
+}

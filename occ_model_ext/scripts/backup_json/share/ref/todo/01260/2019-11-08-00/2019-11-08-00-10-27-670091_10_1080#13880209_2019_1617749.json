@@ -1,0 +1,956 @@
+{
+    "references": [
+        {
+            "bibentry": "Ahmad, R, Kamra, A, Hasnain, SE. 2004 Fibroin silk proteins from the nonmulberry silkworm Philosamia ricini are biochemically and immunochemically distinct from those of the mulberry silkworm Bombyx mori. DNA Cell Biol. 23: 149–154. PMID: 15068584",
+            "process_entry": "True",
+            "doi": "10.1089/104454904322964742",
+            "pmid": "15068584",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Aktas, E, Kucuksezer, UC, Bilgic, S, Erten, G, Deniz, G. 2009 Relationship between CD107a expression and cytotoxic activity. Cell Immunol. 254: 149–154. PMID: 18835598",
+            "process_entry": "True",
+            "doi": "10.1016/j.cellimm.2008.08.007",
+            "pmid": "18835598",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Aubry, JP, Blaecke, A, Lecoanet-Henchoz, S, Jeannin, P, Herbault, N, Caron, G, Moine, V, Bonnefoy, JY. 1999 Annexin V used for measuring apoptosis in the early events of cellular cytotoxicity. Cytometry. 37: 197–204. PMID: 10520200",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-0320(19991101)37:3<197::aid-cyto6>3.0.co;2-l",
+            "pmid": "10520200",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Betts, MR, Brenchley, JM, Price, DA, De Rosa, SC, Douek, DC, Roederer, M, Koup, RA. 2003 Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation. J Immunol Methods. 281: 65–78. PMID: 14580882",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-1759(03)00265-5",
+            "pmid": "14580882",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chang, H, Jin, BR, Jang, YS, Kim, WS, Kim, PH. 2012 Lactoferrin stimulates mouse macrophage to express BAFF via Smad3 pathway. Immune Network. 12: 84–88. PMID: 22916043",
+            "process_entry": "True",
+            "doi": "10.4110/in.2012.12.3.84",
+            "pmid": "22916043",
+            "pmcid": "PMC3422713",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Chiossone, L, Chaix, J, Fuseri, N, Roth, C, Vivier, E, Walzer, T. 2009 Maturation of mouse NK cells is a 4-stage developmental program. Blood. 113: 5488–5496. PMID: 19234143",
+            "process_entry": "True",
+            "doi": "10.1182/blood-2008-10-187179",
+            "pmid": "19234143",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Cui, X, Wen, J, Zhao, X, Chen, X, Shao, Z, Jiang, JJ. 2013 A pilot study of macrophage responses to silk fibroin particles. J Biomed Materials Res A. 101: 1511–1517.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Egusa, S, Otani, H. 2009 Soybean protein fraction digested with neutral protease preparation, “Peptidase R, produced by Rhizopus oryzae, stimulates innate cellular immune system in mouse”. Int Immunopharmacol. 9: 931–936. PMID: 19348966",
+            "process_entry": "True",
+            "doi": "10.1016/j.intimp.2009.03.020",
+            "pmid": "19348966",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Eyileten, C, Majchrzak, K, Pilch, Z, Tonecka, K, Mucha, J, Taciak, B, Ulewicz, K, Witt, K, Boffi, A, Krol, M, et al. 2016 Immune cells in cancer therapy and drug delivery. Mediators Inflamm. 2016: 5230219. PMID: 27212807",
+            "process_entry": "True",
+            "doi": "10.1155/2016/5230219",
+            "pmid": "27212807",
+            "pmcid": "PMC4860248",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Glas, R, Franksson, L, Une, C, Eloranta, ML, Ohlén, C, Örn, A, Kärre, K. 2000 Recruitment and activation of natural killer (NK) cells in vivo determined by the target cell phenotype. An adaptive component of NK cell-mediated responses. J Exp Med. 191: 129–138. PMID: 10620611",
+            "process_entry": "True",
+            "doi": "10.1084/jem.191.1.129",
+            "pmid": "10620611",
+            "pmcid": "PMC2195802",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Gotoh, K, Izumi, H, Kanamoto, T, Tamada, Y, Nakashima, H. 2000 Sulfated fibroin, a novel sulfated peptide derived from silk, inhibits human immunodeficiency virus replication in vitro. Biosci Biotechnol Biochem. 64: 1664–1670. PMID: 10993153",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.64.1664",
+            "pmid": "10993153",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Guadagni, M, Biolo, G. 2009 Effects of inflammation and/or inactivity on the need for dietary protein. Curr Opin Clin Nutr Metabolic Care. 12: 617–622.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Guedan, S, Ruella, M, June, CH. 2019 Emerging cellular therapies for cancer. Ann Rev Immunol. 37: 145–171. PMID: 30526160",
+            "process_entry": "True",
+            "doi": "10.1146/annurev-immunol-042718-041407",
+            "pmid": "30526160",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Hayakawa, Y, Huntington, ND, Nutt, SL, Smyth, MJ. 2006 Functional subsets of mouse natural killer cells. Immunol Rev. 214: 47–55. PMID: 17100875",
+            "process_entry": "True",
+            "doi": "10.1111/j.1600-065x.2006.00454.x",
+            "pmid": "17100875",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Igarashi, K, Yoshioka, K, Mizutani, K, Miyakoshi, M, Murakami, T, Akizawa, T. 2006 Blood pressure-depressing activity of a peptide derived from silkworm fibroin in spontaneously hypertensive rats. Biosci Biotechnol Biochem. 70: 517–520. PMID: 16495671",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.70.517",
+            "pmid": "16495671",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Ikegawa, Y, Sato, S, Lim, G, Hur, W, Tanaka, K, Komori, M, Takenaka, S, Taira, T. 2012 Amelioration of the progression of an atopic dermatitis-like skin lesion by silk peptide and identification of functional peptides. Biosci Biotechnol Biochem. 76: 473–477. PMID: 22451387",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.110748",
+            "pmid": "22451387",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Jang, SH, Oh, MS, Baek, HI, Ha, KC, Lee, JY, Jang, YS. 2018 Oral administration of silk peptide enhances the maturation and cytolytic activity of natural killer cells. Immune Network. 18: e37. PMID: 30402332",
+            "process_entry": "True",
+            "doi": "10.4110/in.2018.18.e37",
+            "pmid": "30402332",
+            "pmcid": "PMC6215900",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Jung, EY, Lee, HS, Lee, HJ, Kim, JM, Lee, KW, Suh, HJ. 2010 Feeding silk protein hydrolysates to C57BL/KsJ-db/db mice improves blood glucose and lipid profiles. Nutr Res. 30: 783–790. PMID: 21130298",
+            "process_entry": "True",
+            "doi": "10.1016/j.nutres.2010.10.006",
+            "pmid": "21130298",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Kaewkorn, W, Limpeanchob, N, Tiyaboonchai, W, Pongcharoen, S, Sutheerawattananonda, M. 2012 Effects of silk sericin on the proliferation and apoptosis of colon cancer cells. Biol Res. 45: 45–50. PMID: 22688983",
+            "process_entry": "True",
+            "doi": "10.4067/s0716-97602012000100006",
+            "pmid": "22688983",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Kärre, K, Ljunggren, HG, Piontek, G, Kiessling, R. 1986 Selective rejection of H-2-deficient lymphoma variants suggests alternative immune defense strategy. Nature. 319: 675–678. PMID: 3951539",
+            "process_entry": "True",
+            "doi": "10.1038/319675a0",
+            "pmid": "3951539",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Khan, MM. 2008 Role of cytokines In, Khan, M.M, editor. Immunopharmacology, Boston, MA, USA: Springer.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Kim, TK, Park, D, Yeon, S, Lee, SH, Choi, YJ, Bae, DK, Yang, YH, Yang, G, Joo, SS, Lim, WT, et al. 2011 Tyrosine-fortified silk amino acids improve physical function of Parkinson's disease rats. Food Sci Biotechnol. 20: 79–84.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Kuhara, T, Yamauchi, K, Tamura, Y, Okamura, H. 2006 Oral administration of lactoferrin increases NK cell activity in mice via increased production of IL-18 and type I IFN in the small intestine. J Interferon Cytokine Res. 26: 489–499. PMID: 16800788",
+            "process_entry": "True",
+            "doi": "10.1089/jir.2006.26.489",
+            "pmid": "16800788",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Lee, SH, Park, D, Yang, G, Bae, DK, Yang, YH, Kim, TK, Kim, D, Kyung, J, Yeon, S, Koo, KC, et al. 2012 Silk and silkworm pupa peptides suppress adipogenesis in preadipocytes and fat accumulation in rats fed a high-fat diet. Eur J Nutr. 51: 1011–1019. PMID: 22160191",
+            "process_entry": "True",
+            "doi": "10.1007/s00394-011-0280-6",
+            "pmid": "22160191",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Li, P, Yin, YL, Li, D, Kim, SW, Wu, G. 2007 Amino acids and immune function. Br J Nutr. 98: 237–252. PMID: 17403271",
+            "process_entry": "True",
+            "doi": "10.1017/s000711450769936x",
+            "pmid": "17403271",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Moon, JH, Pyo, KH, Jung, BK, Chun, HS, Chai, JY, Shin, EH. 2011 Resistance to Toxoplasma gondii infection in mice treated with silk protein by enhanced immune responses. Korean J Parasitol. 49: 303–308. PMID: 22072834",
+            "process_entry": "True",
+            "doi": "10.3347/kjp.2011.49.3.303",
+            "pmid": "22072834",
+            "pmcid": "PMC3210851",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Nagai, N, Murao, T, Ito, Y, Okamoto, N, Sasaki, M. 2009 Enhancing effects of sericin on corneal wound healing in Otsuka Long-Evans Tokushima fatty rats as a model of human type 2 diabetes. Biol Pharm Bull Pharm. 32: 1594–1599.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Pejin, B, Glumac, M. 2018 New cytotoxic natural products from the mangrove biome: covering the period 2007-2015. Natl Prod Res. 15: 1–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Pejin, B, Mojovic, M, Savic, AG. 2014 Novel and highly potent antitumor natural products from cnidarians of marine origin. Nat Prod Res. 28: 2237–2244. PMID: 25074328",
+            "process_entry": "True",
+            "doi": "10.1080/14786419.2014.934241",
+            "pmid": "25074328",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Seo, CW, Um, IC, Rico, CW, Kang, MY. 2011 Antihyperlipidemic and body fat-lowering effects of silk proteins with different fibroin/sericin compositions in mice fed with high fat diet. J Agric Food Chem. 59: 4192–4197. PMID: 21384872",
+            "process_entry": "True",
+            "doi": "10.1021/jf104812g",
+            "pmid": "21384872",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Singh, TM, Kadowaki, MH, Glagov, S, Zarins, CK. 1990 Role of fibrinopeptide B in early atherosclerotic lesion formation. Am J Surg. 160: 156–159. PMID: 2382767",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9610(05)80297-1",
+            "pmid": "2382767",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Smyth, MJ, Crowe, NY, Hayakawa, Y, Takeda, K, Yagita, H, Godfrey, DI. 2002 NKT cells -conductors of tumor immunity? Curr Opin Immunol. 14: 165–171. PMID: 11869887",
+            "process_entry": "True",
+            "doi": "10.1016/s0952-7915(02)00316-3",
+            "pmid": "11869887",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Teramoto, H, Kameda, T, Tamada, Y. 2008 Preparation of gel film from Bombyx mori silk sericin and its characterization as a wound dressing. Biosci Biotechnol Biochem. 72: 3189–3196. PMID: 19060395",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.80375",
+            "pmid": "19060395",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Topham, NJ, Hewitt, EW. 2009 Natural killer cell cytotoxicity: how do they pull the trigger. Immunology. 128: 7–15. PMID: 19689731",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2567.2009.03123.x",
+            "pmid": "19689731",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Uff, CR, Scott, AD, Pockley, AG, Phillips, RK. 1995 Influence of soluble suture factors on in vitro macrophage function. Biomaterials. 16: 355–360. PMID: 7662820",
+            "process_entry": "True",
+            "doi": "10.1016/0142-9612(95)93852-5",
+            "pmid": "7662820",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Vivier, E, Tomasello, E, Baratin, M, Walzer, T, Ugolini, S. 2008 Functions of natural killer cells. Nat Immunol. 9: 503–510. PMID: 18425107",
+            "process_entry": "True",
+            "doi": "10.1038/ni1582",
+            "pmid": "18425107",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Walzer, T, Dalod, M, Robbins, SH, Zitvogel, L, Vivier, E. 2005 Natural-killer cells and dendritic cells: “l'union fait la force”. Blood. 106: 2252–2258. PMID: 15933055",
+            "process_entry": "True",
+            "doi": "10.1182/blood-2005-03-1154",
+            "pmid": "15933055",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Wang, MS, Du, YB, Huang, HM, Zhu, ZL, Du, SS, Chen, SY, Zhao, HP, Yan, Z. 2019 Silk fibroin peptide suppresses proliferation and induces apoptosis and cell cycle arrest in human lung cancer cells. Acta Pharmacologica Sinica. 40: 522–529. PMID: 29921888",
+            "process_entry": "True",
+            "doi": "10.1038/s41401-018-0048-0",
+            "pmid": "29921888",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Watzl, C, Long, EO. 2010 Signal transduction during activation and inhibition of natural killer cells. Curr Protoc Immunol. 90: 9B.1–11.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Zhaorigetu, S, Sasaki, M, Watanabe, H, Kato, N. 2001 Supplemental silk protein, sericin, suppresses colon tumorigenesis in 1,2-dimethylhydrazine-treated mice by reducing oxidative stress and cell proliferation. Biosci Biotechnol Biochem. 65: 2181–2186. PMID: 11758907",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.65.2181",
+            "pmid": "11758907",
+            "xmlid": "CIT0040"
+        }
+    ],
+    "localid": "MED-31156004",
+    "doi": "10.1080/13880209.2019.1617749",
+    "pmid": "10.1080/13880209.2019.1617749",
+    "pmcid": "31156004",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31156004/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0013",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),509,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0029",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),695,317)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Pejin et al.2014; Eyileten et al. 2016; Pejin and Glumac 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),947,63)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0009",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),695,317)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Pejin et al. 2014; Eyileten et al.2016; Pejin and Glumac 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),947,63)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0028",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),695,317)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Pejin et al. 2014; Eyileten et al. 2016; Pejin and Glumac2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),947,63)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0020",
+                "rp_string": "1986",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1013,360)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0036",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1013,360)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0010",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1374,92)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0032",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1467,199)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0037",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1667,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0036",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1816,262)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0027",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,163)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nagai et al.2009; Kim et al. 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),127,35)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0022",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,163)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nagai et al. 2009; Kim et al.2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),127,35)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0025",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),165,153)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Li et al.2007; Guadagni and Biolo 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),276,40)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),165,153)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Li et al. 2007; Guadagni and Biolo2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),276,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0033",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),319,110)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0024",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,267)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0001",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),698,274)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Ahmad et al.2004; Seo et al. 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),935,35)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0030",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),698,274)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Ahmad et al. 2004; Seo et al.2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),935,35)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0031",
+                "rp_string": "1990",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),973,198)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Singh et al.1990; Gotoh et al. 2000; Jung et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,55)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0011",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),973,198)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Singh et al. 1990; Gotoh et al.2000; Jung et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,55)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),973,198)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Singh et al. 1990; Gotoh et al. 2000; Jung et al.2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,55)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0040",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1172,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhaorigetu et al.2001; Kaewkorn et al. 2012; Wang et al. 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1419,63)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0019",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1172,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhaorigetu et al. 2001; Kaewkorn et al.2012; Wang et al. 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1419,63)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0038",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1172,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhaorigetu et al. 2001; Kaewkorn et al. 2012; Wang et al.2019)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1419,63)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0035",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0007",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),190,144)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0017",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),475,152)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0004",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,230)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Silk peptide-mediated NK-92MI cell activation and target cell cytotoxicity assay"
+                ],
+                "pl_string": "(Betts et al.2003; Aktas et al. 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),192,37)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0002",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,230)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Silk peptide-mediated NK-92MI cell activation and target cell cytotoxicity assay"
+                ],
+                "pl_string": "(Betts et al. 2003; Aktas et al.2009)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),192,37)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0003",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,146)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Silk peptide-mediated NK-92MI cell activation and target cell cytotoxicity assay"
+                ],
+                "pl_string": "(Aubry et al.1999; Jang et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),109,36)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0017",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,146)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Silk peptide-mediated NK-92MI cell activation and target cell cytotoxicity assay"
+                ],
+                "pl_string": "(Aubry et al. 1999; Jang et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),109,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0003",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),176,123)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Determination of NK cell activity using ex vivo splenocytes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0014",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),212,187)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Determination of CD4/CD8 ratio, NK cell maturation and NK cell activation receptor expression in ex vivo splenocytes"
+                ],
+                "pl_string": "(Hayakawa et al.2006; Chiossone et al. 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),353,44)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0006",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),212,187)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Determination of CD4/CD8 ratio, NK cell maturation and NK cell activation receptor expression in ex vivo splenocytes"
+                ],
+                "pl_string": "(Hayakawa et al. 2006; Chiossone et al.2009)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),353,44)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0017",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,280)",
+                "containers_title": [
+                    "Results",
+                    "Silk peptide did not show prominent cytotoxic or mitogenic activity on NK-92MI NK cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0014",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),510,274)",
+                "containers_title": [
+                    "Results",
+                    "Silk peptide treatment of ex vivo mouse splenocytes affected T cell subpopulation size and NK cell maturation"
+                ],
+                "pl_string": "(Hayakawa et al.2006; Chiossone et al. 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),738,44)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0006",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),510,274)",
+                "containers_title": [
+                    "Results",
+                    "Silk peptide treatment of ex vivo mouse splenocytes affected T cell subpopulation size and NK cell maturation"
+                ],
+                "pl_string": "(Hayakawa et al. 2006; Chiossone et al.2009)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),738,44)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0023",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),263,379)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Kuhara et al.2006; Egusa and Otani 2009; Chang et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),580,60)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0008",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),263,379)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Kuhara et al. 2006; Egusa and Otani2009; Chang et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),580,60)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0005",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),263,379)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Kuhara et al. 2006; Egusa and Otani 2009; Chang et al.2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),580,60)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0015",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),643,356)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Igarashi et al.2006; Teramoto et al. 2008; Jung et al. 2010; Moon et al. 2011; Ikegawa et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),897,100)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0033",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),643,356)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Igarashi et al. 2006; Teramoto et al.2008; Jung et al. 2010; Moon et al. 2011; Ikegawa et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),897,100)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0018",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),643,356)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Igarashi et al. 2006; Teramoto et al. 2008; Jung et al.2010; Moon et al. 2011; Ikegawa et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),897,100)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0026",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),643,356)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Igarashi et al. 2006; Teramoto et al. 2008; Jung et al. 2010; Moon et al.2011; Ikegawa et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),897,100)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0016",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),643,356)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Igarashi et al. 2006; Teramoto et al. 2008; Jung et al. 2010; Moon et al. 2011; Ikegawa et al.2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),897,100)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0040",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1000,277)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Zhaorigetu et al.2001; Kaewkorn et al. 2012; Wang et al. 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1212,63)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0019",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1000,277)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Zhaorigetu et al. 2001; Kaewkorn et al.2012; Wang et al. 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1212,63)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0038",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1000,277)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Zhaorigetu et al. 2001; Kaewkorn et al. 2012; Wang et al.2019)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1212,63)"
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0034",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),160,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0017",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),299,168)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0039",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1239,148)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0021",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,210)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0017",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/p),1,177)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ]
+    ]
+}

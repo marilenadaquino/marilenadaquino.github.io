@@ -1,0 +1,686 @@
+{
+    "references": [
+        {
+            "bibentry": "Gottesman, MM, Fojo, T, Bates, SE. Multidrug resistance in cancer: role of ATP-dependent transporters. Nat Rev Cancer 2002; 2: 48–58. PMID: 11902585",
+            "process_entry": "True",
+            "doi": "10.1038/nrc706",
+            "pmid": "11902585",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Teodori, E, Dei, S, Scapecchi, S, et al. The medicinal chemistry of multidrug resistance (MDR) reversing drugs. Il Farmaco 2002; 57: 385–415. PMID: 12058813",
+            "process_entry": "True",
+            "doi": "10.1016/s0014-827x(02)01229-6",
+            "pmid": "12058813",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Zhao, XQ, Xie, JD, Chen, XG, et al. Neratinib reverses ATP-binding cassette B1-mediated chemotherapeutic drug resistance in vitro, in vivo, and ex vivo. Mol Pharmacol 2012; 82: 47–58. PMID: 22491935",
+            "process_entry": "True",
+            "doi": "10.1124/mol.111.076299",
+            "pmid": "22491935",
+            "pmcid": "PMC3382829",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Teodori, E, Dei, S, Scapecchi, S, et al. The functions and structures of ABC transporters: implications for the design of new inhibitors of Pgp and MRP1 to control multidrug resistance (MDR). Curr Drug Targets 2006; 7: 893–999. PMID: 16842220",
+            "process_entry": "True",
+            "doi": "10.2174/138945006777709520",
+            "pmid": "16842220",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Robert, J, Jarry, C. Multidrug resistance reversal agents. J Med Chem 2003; 46: 4805–17. PMID: 14584929",
+            "process_entry": "True",
+            "doi": "10.1021/jm030183a",
+            "pmid": "14584929",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Orlowski, S, Mir, LM, Belehradek, J, et al. Effects of steroids and verapamil on P-glycoprotein ATPase activity: progesterone, desoxycorticosterone, corticosterone and verapamil are mutually non-exclusive modulators. Biochem J 1996; 317: 515–22. PMID: 8713080",
+            "process_entry": "True",
+            "doi": "10.1042/bj3170515",
+            "pmid": "8713080",
+            "pmcid": "PMC1217517",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Peer, M, Csaszar, E, Vorlaufer, E, et al. Photoaffinity labeling of P-glycoprotein. Mini Rev Med Chem 2005; 5: 165–72. PMID: 15720286",
+            "process_entry": "True",
+            "doi": "10.2174/1389557053402738",
+            "pmid": "15720286",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Loo, TW, Bartlett, MC, Clarke, DM. The drug-binding pocket of the human multidrug resistance P-glycoprotein is accessible to the aqueous medium. Biochemistry 2004; 43: 12081–9. PMID: 15379547",
+            "process_entry": "True",
+            "doi": "10.1021/bi049045t",
+            "pmid": "15379547",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Robert, J. Approaches to multidrug resistance reversal. Expert Opin Investig Drugs 1998; 7: 929–39.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Yang, CP, DePinho, SG, Greenberger, LM, et al. Progesterone interacts with P-glycoprotein in multidrug-resistant cells and in the endometrium of gravid uterus. J Biol Chem 1989; 264: 782–8. PMID: 2562956",
+            "process_entry": "True",
+            "pmid": "2562956",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Barnes, KM, Dickstein, B, Cutler, GB, Jr, et al. Steroid treatment, accumulation, and antagonism of P-glycoprotein in multidrug-resistant cells. Biochemistry 1996; 35: 4820–7. PMID: 8664272",
+            "process_entry": "True",
+            "doi": "10.1021/bi952380k",
+            "pmid": "8664272",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Gruol, DJ, Zee, MC, Trotter, J, et al. Reversal of multidrug resistance by RU 486. Cancer Res 1994; 54: 3088–91. PMID: 7911394",
+            "process_entry": "True",
+            "pmid": "7911394",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Leonessa, F, Kim, JH, Ghiorghis, A, et al. C-7 Analogues of progesterone as potent inhibitors of the P-glycoprotein efflux pump. J Med Chem 2002; 45: 390–8. PMID: 11784143",
+            "process_entry": "True",
+            "doi": "10.1021/jm010126m",
+            "pmid": "11784143",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Perez-Victoria, FJ, Conseil, G, Munoz-Martinez, F, et al. RU49953: a non-hormonal steroid derivative that potently inhibits P-glycoprotein and reverts cellular multidrug resistance. Cell Mol Life Sci 2003; 60: 526–35. PMID: 12737312",
+            "process_entry": "True",
+            "doi": "10.1007/s000180300044",
+            "pmid": "12737312",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Rolland de Ravel, M, Alameh, G, Melikian, M, et al. Synthesis of new steroidal inhibitors of P-glycoprotein-mediated multidrug resistance and biological evaluation on K562/R7 erythroleukemia cells. J Med Chem 2015; 58: 1832–45. PMID: 25634041",
+            "process_entry": "True",
+            "doi": "10.1021/jm501676v",
+            "pmid": "25634041",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Gazdar, AF, Oie, HK, Shackleton, CH, et al. Establishment and characterization of a human adrenocortical carcinoma cell line that expresses multiple pathways of steroid biosynthesis. Cancer Res 1990; 50: 5488–96. PMID: 2386954",
+            "process_entry": "True",
+            "pmid": "2386954",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Boumendjel, A, Boccard, J, Carrupt, PA, et al. Antimitotic and antiproliferative activities of chalcones: forward structure-activity relationship. J Med Chem 2008; 51: 2307–10. PMID: 18293907",
+            "process_entry": "True",
+            "doi": "10.1021/jm0708331",
+            "pmid": "18293907",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Sparreboom, A, Nooter, K. Does P-glycoprotein play a role in anticancer drug pharmacokinetics. Drug Resist Updat 2000; 3: 357–63. PMID: 11498403",
+            "process_entry": "True",
+            "doi": "10.1054/drup.2000.0164",
+            "pmid": "11498403",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Descotes, F, Ville, G, Bobin, JY, et al. Tissue extraction procedures for investigation of urokinase plasminogen activator (uPA) and its inhibitors PAI-1 and PAI-2 in human breast carcinomas. Breast Cancer Res Treat 1998; 49: 135–43. PMID: 9696396",
+            "process_entry": "True",
+            "doi": "10.1023/a:1006015529564",
+            "pmid": "9696396",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Joly-Pharaboz, MO, Ruffion, A, Roch, A, et al. Inhibition of growth and induction of apoptosis by androgens of a variant of LNCaP cell line. J Steroid Biochem Mol Biol 2000; 73: 237–49. PMID: 11070352",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-0760(00)00076-5",
+            "pmid": "11070352",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Shukla, SJ, Sakamuru, S, Huang, R, et al. Identification of clinically used drugs that activate pregnane X receptors. Drug Metab Dispos 2011; 39: 151–9. PMID: 20966043",
+            "process_entry": "True",
+            "doi": "10.1124/dmd.110.035105",
+            "pmid": "20966043",
+            "pmcid": "PMC3014269",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Raad, I, Terreux, R, Richomme, P, et al. Structure-activity relationship of natural and synthetic coumarins inhibiting the multidrug transporter P-glycoprotein. Bioorg Med Chem 2006; 14: 6979–87. PMID: 16824763",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2006.06.026",
+            "pmid": "16824763",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Lemaire, G, Mnif, W, Pascussi, JM, et al. Identification of new human pregnane X receptor ligands among pesticides using a stable reporter cell system. Toxicol Sci 2006; 91: 501–9. PMID: 16565514",
+            "process_entry": "True",
+            "doi": "10.1093/toxsci/kfj173",
+            "pmid": "16565514",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Pondugula, SR, Pavek, P, Mani, S. Pregnane X receptor and cancer: context-specificity is key. Nucl Receptor Res 2016; 3: 101198. PMID: 27617265",
+            "process_entry": "True",
+            "doi": "10.11131/2016/101198",
+            "pmid": "27617265",
+            "pmcid": "PMC5017004",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Qiao, E, Ji, M, Wu, J, et al. Expression of the PXR gene in various types of cancer and drug resistance. Oncol Lett 2013; 5: 1093–100. PMID: 23599746",
+            "process_entry": "True",
+            "doi": "10.3892/ol.2013.1149",
+            "pmid": "23599746",
+            "pmcid": "PMC3628904",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Bellamy, WT, Odeleye, A, Finley, P, et al. An in vivo model of human multidrug-resistant multiple myeloma in SCID mice. Am J Pathol 1993; 142: 691–7. PMID: 8456932",
+            "process_entry": "True",
+            "pmid": "8456932",
+            "pmcid": "PMC1886807",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Williams, SS, Alosco, TR, Mayhew, E, et al. Arrest of human lung tumor xenograft growth in severe combined immunodeficient mice using doxorubicin encapsulated in sterically stabilized liposomes. Cancer Res 1993; 53: 3964–7. PMID: 8358724",
+            "process_entry": "True",
+            "pmid": "8358724",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Takemura, G, Fujiwara, H. Doxorubicin-induced cardiomyopathy from the cardiotoxic mechanisms to management. Prog Cardiovasc Dis 2007; 49: 330–52. PMID: 17329180",
+            "process_entry": "True",
+            "doi": "10.1016/j.pcad.2006.10.002",
+            "pmid": "17329180",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Zhou, ZY, Wan, LL, Yang, QJ, et al. Nilotinib reverses ABCB1/P-glycoprotein-mediated multidrug resistance but increases cardiotoxicity of doxorubicin in a MDR xenograft model. Toxicol Lett 2016; 259: 124–32. PMID: 27491883",
+            "process_entry": "True",
+            "doi": "10.1016/j.toxlet.2016.07.710",
+            "pmid": "27491883",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-30777494",
+    "doi": "10.1080/14756366.2019.1575825",
+    "pmid": "10.1080/14756366.2019.1575825",
+    "pmcid": "30777494",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30777494/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),296,268)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,291)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Different classes of molecules have been found able to inhibit P-gp-mediated drug efflux among which several pharmaceutical agents such as verapamil, diltiazem, nifedipine, cyclosporin A, valspodar2, or specifically designed P-gp modulators such as neratinib3, and numerous other compounds4. Comparative studies have revealed favourable structural features5 and provided data on the localisation of interaction sites with substrates or modulators6 including photoaffinity labelling7 and mutagenesis experiments8. However, various difficulties have been encountered in attempts to improve in vivo activities and to limit toxic side effects9 including unwanted pharmacokinetic interactions, intrinsic pharmacological activities as well as intrusion within the physiological role of P-gp in normal tissues, thus explaining why clinical trials have often led to unsatisfactory results.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,291)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Different classes of molecules have been found able to inhibit P-gp-mediated drug efflux among which several pharmaceutical agents such as verapamil, diltiazem, nifedipine, cyclosporin A, valspodar2, or specifically designed P-gp modulators such as neratinib3, and numerous other compounds4. Comparative studies have revealed favourable structural features5 and provided data on the localisation of interaction sites with substrates or modulators6 including photoaffinity labelling7 and mutagenesis experiments8. However, various difficulties have been encountered in attempts to improve in vivo activities and to limit toxic side effects9 including unwanted pharmacokinetic interactions, intrinsic pharmacological activities as well as intrusion within the physiological role of P-gp in normal tissues, thus explaining why clinical trials have often led to unsatisfactory results.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,291)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Different classes of molecules have been found able to inhibit P-gp-mediated drug efflux among which several pharmaceutical agents such as verapamil, diltiazem, nifedipine, cyclosporin A, valspodar2, or specifically designed P-gp modulators such as neratinib3, and numerous other compounds4. Comparative studies have revealed favourable structural features5 and provided data on the localisation of interaction sites with substrates or modulators6 including photoaffinity labelling7 and mutagenesis experiments8. However, various difficulties have been encountered in attempts to improve in vivo activities and to limit toxic side effects9 including unwanted pharmacokinetic interactions, intrinsic pharmacological activities as well as intrusion within the physiological role of P-gp in normal tissues, thus explaining why clinical trials have often led to unsatisfactory results.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),293,220)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),514,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Since the initial observation of the P-gp-modulating properties of progesterone10, numerous studies have been undertaken to obtain improved modulators derived from steroidal hormones or drugs11–14. A major reason for this choice is the amount of data concerning their physiologic, pharmacologic, and metabolic properties as well as their toxicities, biological targets, and transport mechanisms. Moreover, steroids are multifunctional molecules facilitating structural modifications for the optimisation of pharmacological activities and for the control of metabolic degradation in vivo. Recently, our laboratory has proposed a simple methodology based on the conversion of hydroxylated precursors of 5α/β-pregnane and 5β-cholane series to ether and/or ester derivatives which provided efficient modulators of P-gp mediated MDR when tested in vitro on the resistant non-steroidogenic K562/R7 human erythroleukemia cell line15 using doxorubicin as cytotoxic drug (Figure 1).",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0011",
+                "rp_string": "11–14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Since the initial observation of the P-gp-modulating properties of progesterone10, numerous studies have been undertaken to obtain improved modulators derived from steroidal hormones or drugs11–14. A major reason for this choice is the amount of data concerning their physiologic, pharmacologic, and metabolic properties as well as their toxicities, biological targets, and transport mechanisms. Moreover, steroids are multifunctional molecules facilitating structural modifications for the optimisation of pharmacological activities and for the control of metabolic degradation in vivo. Recently, our laboratory has proposed a simple methodology based on the conversion of hydroxylated precursors of 5α/β-pregnane and 5β-cholane series to ether and/or ester derivatives which provided efficient modulators of P-gp mediated MDR when tested in vitro on the resistant non-steroidogenic K562/R7 human erythroleukemia cell line15 using doxorubicin as cytotoxic drug (Figure 1).",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),589,385)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),136,60)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Drugs and steroids"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,475)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cell lines and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),477,155)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cell lines and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,149)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Isolation of RNA and real-time RT-PCR"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,141)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cytotoxicity analysis by MTT assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,141)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cytotoxicity analysis by MTT assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),581,230)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cytotoxicity analysis by [3H]thymidine incorporation assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1,199)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Progesterone receptor assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,97)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Activation of human pregnane X receptor by steroid derivatives"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),1,273)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Flow cytometry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),306,91)",
+                "containers_title": [
+                    "Results",
+                    "mRNA expression of ABC transporters in resistant NCI-H295R and K562/R7 tumour cell lines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,342)",
+                "containers_title": [
+                    "Results",
+                    "Measurements of the cytotoxicity of doxorubicin in K562/R7 cells in the presence of steroid modulators using a [3H]thymidine assay"
+                ],
+                "pl_string": "Cytotoxicity of doxorubicin in NCI-H295R and K562/R7 cells was measured by a [3H]thymidine incorporation assay less prone to steroid interferences than the MTT assay previously employed for non-steroidogenic K562/R7 cells15, owing to the risk of steroid interactions with the mitochondrial succinate dehydrogenase involved in MTT reduction20. In a preliminary experiment, K562/R7 cells were treated with doxorubicin alone and in the presence of progesterone or cyclosporin A (1 µM) as reference modulators of P-gp. Measurements with MTT or [3H]thymidine assays led to comparable IC50 values for doxorubicin. Similar measurements with the [3H]thymidine assay were made using a panel of four selected disubstituted 5α/β-pregnane modulators 3, 4, 6, and 9 (Figure 1)15. The results (Table S1) showed that the 7α-OBz,11α(R)-OTHP-5β-pregnanedione lead compound 4 remained the most active modulator as found previously using the MTT assay15. However, many differences could be observed for the other steroid analogs owing possibly in part to the greater sensitivity of the thymidine assay. The intrinsic cytotoxicity of the four tested steroid modulators was estimated by treatment of nonresistant K562 cells for 24 h with a high steroid concentration (10 µM). The results (Table S1) showed that compounds 4 and 9 were less toxic than cyclosporin A as found previously using the MTT assay15.",
+                "pl_xpath": "/article/body/sec[3]/sec[2]/p"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,342)",
+                "containers_title": [
+                    "Results",
+                    "Measurements of the cytotoxicity of doxorubicin in K562/R7 cells in the presence of steroid modulators using a [3H]thymidine assay"
+                ],
+                "pl_string": "Cytotoxicity of doxorubicin in NCI-H295R and K562/R7 cells was measured by a [3H]thymidine incorporation assay less prone to steroid interferences than the MTT assay previously employed for non-steroidogenic K562/R7 cells15, owing to the risk of steroid interactions with the mitochondrial succinate dehydrogenase involved in MTT reduction20. In a preliminary experiment, K562/R7 cells were treated with doxorubicin alone and in the presence of progesterone or cyclosporin A (1 µM) as reference modulators of P-gp. Measurements with MTT or [3H]thymidine assays led to comparable IC50 values for doxorubicin. Similar measurements with the [3H]thymidine assay were made using a panel of four selected disubstituted 5α/β-pregnane modulators 3, 4, 6, and 9 (Figure 1)15. The results (Table S1) showed that the 7α-OBz,11α(R)-OTHP-5β-pregnanedione lead compound 4 remained the most active modulator as found previously using the MTT assay15. However, many differences could be observed for the other steroid analogs owing possibly in part to the greater sensitivity of the thymidine assay. The intrinsic cytotoxicity of the four tested steroid modulators was estimated by treatment of nonresistant K562 cells for 24 h with a high steroid concentration (10 µM). The results (Table S1) showed that compounds 4 and 9 were less toxic than cyclosporin A as found previously using the MTT assay15.",
+                "pl_xpath": "/article/body/sec[3]/sec[2]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),609,158)",
+                "containers_title": [
+                    "Results",
+                    "Measurements of the cytotoxicity of doxorubicin in K562/R7 cells in the presence of steroid modulators using a [3H]thymidine assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),768,168)",
+                "containers_title": [
+                    "Results",
+                    "Measurements of the cytotoxicity of doxorubicin in K562/R7 cells in the presence of steroid modulators using a [3H]thymidine assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1256,130)",
+                "containers_title": [
+                    "Results",
+                    "Measurements of the cytotoxicity of doxorubicin in K562/R7 cells in the presence of steroid modulators using a [3H]thymidine assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,164)",
+                "containers_title": [
+                    "Results",
+                    "Modulation of resistance to doxorubicin by different synthetic steroid derivatives in NCI-H295R and K562/R7cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),1,267)",
+                "containers_title": [
+                    "Results",
+                    "Evaluation of interactions of pregnane modulators with human progesterone and pregnane X receptors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),434,128)",
+                "containers_title": [
+                    "Results",
+                    "Evaluation of interactions of pregnane modulators with human progesterone and pregnane X receptors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),273,213)",
+                "containers_title": [
+                    "Results",
+                    "Specificity of the interaction of steroids with P-gp vs. other ABC transporters"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),1,104)",
+                "containers_title": [
+                    "Results",
+                    "Effect of steroid modulator 4 on pharmacokinetics of doxorubicin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,260)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,336)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),409,294)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,105)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),107,193)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,299)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,211)",
+                "containers_title": [
+                    "Discussion and conclusions"
+                ]
+            }
+        ]
+    ]
+}

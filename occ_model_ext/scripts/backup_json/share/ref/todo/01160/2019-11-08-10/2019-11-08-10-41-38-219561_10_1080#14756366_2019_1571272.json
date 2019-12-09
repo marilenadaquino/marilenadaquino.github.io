@@ -1,0 +1,942 @@
+{
+    "references": [
+        {
+            "bibentry": "Dugger, BN, Dickson, DW. Pathology of neurodegenerative diseases. Cold Spring Harb Perspect Biol 2017; 9: a028035. PMID: 28062563",
+            "process_entry": "True",
+            "doi": "10.1101/cshperspect.a028035",
+            "pmid": "28062563",
+            "pmcid": "PMC5495060",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Youdim, MB, Kupershmidt, L, Amit, T, Weinreb, O. Promises of novel multi-target neuroprotective and neurorestorative drugs for Parkinson's disease. Parkinsonism Relat Disord 2014; 20: S132–S6. PMID: 24262165",
+            "process_entry": "True",
+            "doi": "10.1016/s1353-8020(13)70032-4",
+            "pmid": "24262165",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cavalli, A, Bolognesi, ML, Minarini, A. Multi-target-directed ligands to combat neurodegenerative diseases. J Med Chem 2008; 51: 347–72. PMID: 18181565",
+            "process_entry": "True",
+            "doi": "10.1021/jm7009364",
+            "pmid": "18181565",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Van der Schyf, CJ. The use of multi-target drugs in the treatment of neurodegenerative diseases. Expert Rev Clin Pharmacol 2011; 4: 293–8. PMID: 22114774",
+            "process_entry": "True",
+            "doi": "10.1586/ecp.11.13",
+            "pmid": "22114774",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Carradori, S, Ortuso, F, Petzer, A. Design, synthesis and biochemical evaluation of novel multi-target inhibitors as potential anti-Parkinson agents. Eur J Med Chem 2018; 143: 1543–52. PMID: 29126727",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.10.050",
+            "pmid": "29126727",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "D’Ascenzio, M, Chimenti, P, Gidaro, MC. (Thiazol-2-yl)hydrazone derivatives from acetylpyridines as dual inhibitors of MAO and AChE: synthesis, biological evaluation and molecular modeling studies. J Enzyme Inhib Med Chem 2015; 30: 908–19. PMID: 25807300",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.987138",
+            "pmid": "25807300",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Riederer, P, Müller, T. Use of monoamine oxidase inhibitors in chronic neurodegeneration. Expert Opin Drug Metab Toxicol 2017; 13: 233–40. PMID: 27998194",
+            "process_entry": "True",
+            "doi": "10.1080/17425255.2017.1273901",
+            "pmid": "27998194",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Carradori, S, Secci, D, Petzer, JP. MAO inhibitors and their wider applications: a patent review. Expert Opin Ther Patents 2018; 28: 211–26.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "De Monte, C, D Ascenzio, M, Guglielmi, P, et al. Opening new scenarios for human MAO inhibitors. Cent Nerv Syst Agents Med Chem 2016; 16: 98–104. PMID: 26320583",
+            "process_entry": "True",
+            "doi": "10.2174/1871524915666150831141705",
+            "pmid": "26320583",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Carradori, S, Petzer, JP. Novel monoamine oxidase inhibitors: a patent review (2012 -2014). Expert Opin Ther Pat 2015; 25: 91–110. PMID: 25399762",
+            "process_entry": "True",
+            "doi": "10.1517/13543776.2014.982535",
+            "pmid": "25399762",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Carradori, S, Secci, D, Bolasco, A, et al. Patent-related survey on new monoamine oxidase inhibitors and their therapeutic potential. Expert Opin Ther Patents 2012; 22: 759–801.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Bolasco, A, Carradori, S, Fioravanti, R. Focusing on new monoamine oxidase inhibitors. Expert Opin Ther Patents 2010; 20: 909–39.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Bolasco, A, Fioravanti, R, Carradori, S. Recent development of monoamine oxidase inhibitors. Expert Opin Ther Patents 2005; 15: 1763–82.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Zuo, L, Motherwell, MS. The impact of reactive oxygen species and genetic mitochondrial mutations in Parkinson's disease. Gene 2013; 532: 18–23. PMID: 23954870",
+            "process_entry": "True",
+            "doi": "10.1016/j.gene.2013.07.085",
+            "pmid": "23954870",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Szökő, É, Tábi, T, Riederer, P, et al. Pharmacological aspects of the neuroprotective effects of irreversible MAO-B inhibitors, selegiline and rasagiline, in Parkinson's disease. J Neural Transm 2018; 125: 1735–49. PMID: 29417334",
+            "process_entry": "True",
+            "doi": "10.1007/s00702-018-1853-9",
+            "pmid": "29417334",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Onofrj, M, Bonanni, L, Thomas, A. An expert opinion on safinamide in Parkinson's disease. Expert Opin Investig Drugs 2008; 17: 1115–25.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Schedin-Weiss, S, Inoue, M, Hromadkova, L. Monoamine oxidase B is elevated in Alzheimer disease neurons, is associated with γ-secretase and regulates neuronal amyloid β-peptide levels. Alzheimer’s Res Ther 2017; 9: 57. PMID: 28764767",
+            "process_entry": "True",
+            "doi": "10.1186/s13195-017-0279-1",
+            "pmid": "28764767",
+            "pmcid": "PMC5540560",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Chimenti, F, Maccioni, E, Secci, D, et al. Synthesis, stereochemical identification and selective inhibitory activity against hMAO-B of 2-methylcyclohexylidene-(4-arylthiazol-2-yl)hydrazones. J Med Chem 2008; 51: 4874–80. PMID: 18666768",
+            "process_entry": "True",
+            "doi": "10.1021/jm800132g",
+            "pmid": "18666768",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Chimenti, P, Petzer, A, Carradori, S, et al. Exploring 4-substituted-2-thiazolylhydrazones from 2, 3, and 4-acetylpyridine as selective and reversible hMAO-B inhibitors. Eur J Med Chem 2013; 66: 221–7. PMID: 23807114",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2013.05.032",
+            "pmid": "23807114",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Carradori, S, D'Ascenzio, M, De Monte, C, et al. Synthesis and selective human monoamine oxidase B inhibition of heterocyclic hybrids based on hydrazine and thiazole scaffolds. Arch. Pharm. (Weinheim) 2013; 346: 17–22. PMID: 23065686",
+            "process_entry": "True",
+            "doi": "10.1002/ardp.201200318",
+            "pmid": "23065686",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Secci, D, Bolasco, A, Carradori, S, et al. Recent advances in the development of selective human MAO-B inhibitors: (Hetero)arylidene-(4-substituted-thiazol-2-yl)hydrazines. Eur J Med Chem 2012; 58: 405–17. PMID: 23153812",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2012.10.032",
+            "pmid": "23153812",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Chimenti, F, Secci, D, Bolasco, A, et al. Synthesis, stereochemical separation, and biological evaluation of selective inhibitors of human MAO-B: 1-(4-arylthiazol-2-yl)-2-(3-methylcyclohexylidene)hydrazines. J Med Chem 2010; 53: 6516–20. PMID: 20715818",
+            "process_entry": "True",
+            "doi": "10.1021/jm100120s",
+            "pmid": "20715818",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Chimenti, F, Secci, D, Bolasco, A, et al. Investigations on the 2-thiazolylhydrazyne scaffold: synthesis and molecular modeling of potent and selective human monoamine oxidase inhibitors. Bioorg Med Chem 2010; 18: 5715–23. PMID: 20615716",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2010.06.007",
+            "pmid": "20615716",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Chimenti, F, Secci, D, Bolasco, A, et al. Synthesis, semipreparative HPLC separation, biological evaluation, and 3D-QSAR of hydrazothiazole derivatives as human monoamine oxidase B inhibitors. Bioorg Med Chem 2010; 18: 5063–70. PMID: 20579890",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2010.05.070",
+            "pmid": "20579890",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Chimenti, F, Secci, D, Bolasco, A, et al. Synthesis and selective inhibition of human monoamine oxidases of a large scaffold of (4,5-substituted-thiazol-2-yl)hydrazones. Med Chem Commun 2010; 1: 61–72.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "D’Ascenzio, M, Carradori, S, Secci, D, et al. Identification of the stereochemical requirements in the 4-aryl-2-cycloalkylidenhydrazinylthiazole scaffold for the design of selective human monoamine oxidase B inhibitors. Bioorg Med Chem 2014; 22: 2887–95. PMID: 24746464",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2014.03.042",
+            "pmid": "24746464",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Antonini, I, Claudi, F, Franchetti, P, et al. Elucidation of the structure of the antineoplastic agents, 2-formylpyridine and 1-formylisoquinoline thiosemicarbazones. J Med Chem 1977; 20: 447–9. PMID: 845876",
+            "process_entry": "True",
+            "doi": "10.1021/jm00213a024",
+            "pmid": "845876",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Youssef, AF, Farag, HH, Omar, NM, et al. Synthesis and antibacterial screening of 2-(arylidenehydrazino)-4-phenylthiazole derivatives. Egypt J Pharm Sci 1980; 19: 247–52.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Cardoso, MV, de Siqueira, LR, da Silva, E, et al. 2-Pyridyl thiazoles as novel anti-Trypanosoma cruzi agents: structural design, synthesis and pharmacological evaluation. Eur J Med Chem 2014; 86: 48–59. PMID: 25147146",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.08.012",
+            "pmid": "25147146",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ali, F, Khan, KM, Salar, U, et al. Hydrazinyl arylthiazole based pyridine scaffolds: synthesis, structural characterization, in vitro a-glucosidase inhibitory activity, and in silico studies. Eur J Med Chem 2017; 138: 255–72. PMID: 28672278",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.06.041",
+            "pmid": "28672278",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Galvez-Llompart, M, del Carmen Recio Iglesias, M, Gálvez, J, García-Domenech, R. Novel potential agents for ulcerative colitis by molecular topology: suppression of IL-6 production in Caco-2 and RAW 264.7 cell lines. Mol Div 2013; 17: 573–93.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Mostert, S, Petzer, A, Petzer, JP. Indanones as high-potency reversible inhibitors of monoamine oxidase. ChemMedChem 2015; 10: 862–73. PMID: 25820651",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201500059",
+            "pmid": "25820651",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Novaroli, L, Reist, M, Favre, E, et al. Human recombinant monoamine oxidase B as reliable and efficient enzyme source for inhibitor screening. Bioorg Med Chem 2005; 13: 6212–17. PMID: 16054369",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2005.06.043",
+            "pmid": "16054369",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Petzer, A, Harvey, BH, Wegener, G, Petzer, JP. Azure B, a metabolite of methylene blue, is a high-potency, reversible inhibitor of monoamine oxidase. Toxicol Appl Pharmacol 2012; 258: 403–9. PMID: 22197611",
+            "process_entry": "True",
+            "doi": "10.1016/j.taap.2011.12.005",
+            "pmid": "22197611",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Zengin, G, Sarikurkcu, C, Aktumsek, A, et al. A comprehensive study on phytochemical characterization of Haplophyllum myrtifolium Boiss. endemic to Turkey and its inhibitory potential against key enzymes involved in Alzheimer, skin diseases and type II diabetes. Ind Crop Prod 2014; 53: 244–51.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Zengin, G, Sarikurkcu, C, Gunes, E, et al. Two Ganoderma species: profiling of phenolic compounds by HPLC-DAD, antioxidant, antimicrobial and inhibitory activities on key enzymes linked to diabetes mellitus, Alzheimer's disease and skin disorders. Food Funct 2015; 6: 2794–802. PMID: 26165701",
+            "process_entry": "True",
+            "doi": "10.1039/c5fo00665a",
+            "pmid": "26165701",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Aktumsek, A, Zengin, G, Guler, GO, et al. Antioxidant potentials and anticholinesterase activities of methanolic and aqueous extracts of three endemic Centaurea L. species. Food Chem. Toxicol 2013; 55: 290–6. PMID: 23357566",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2013.01.018",
+            "pmid": "23357566",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Zengin, G, Ceylan, R, Guler, GO, et al. Enzyme inhibitory effect and antioxidant properties of Astragalus lagurus extracts. Curr Enzyme Inhib 2016; 12: 177–82.",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Locatelli, M, Zengin, G, Uysal, A, et al. Multicomponent pattern and biological activities of seven Asphodeline taxa: Potential sources of natural-functional ingredients for bioactive formulations. J Enzyme Inhib Med Chem 2017; 32: 60–7. PMID: 27774819",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2016.1235041",
+            "pmid": "27774819",
+            "pmcid": "PMC6010134",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Schrödinger, LLC, New York, NY, 2018.",
+            "process_entry": "True",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Harder, E, Damm, W, Maple, J, et al. OPLS3: a force field providing broad coverage of drug-like small molecules and proteins. J Chem Theory Comput 2016; 12: 281–96. PMID: 26584231",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jctc.5b00864",
+            "pmid": "26584231",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Schrödinger. Qikprop. New York (NY): Schrödinger, LLC; 2018.",
+            "process_entry": "True",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Berman, HM, Westbrook, J, Feng, Z, et al. The Protein Data Bank. Nucleic Acids Res 2000; 28: 235–42. PMID: 10592235",
+            "process_entry": "True",
+            "doi": "10.1093/nar/28.1.235",
+            "pmid": "10592235",
+            "pmcid": "PMC102472",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Reis, J, Manzella, N, Cagide, F, et al. Tight-binding inhibition of human monoamine oxidase B by chromone analogs: a kinetic, crystallographic, and biological analysis. J Med Chem 2018; 61: 4203–12. PMID: 29648817",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.8b00357",
+            "pmid": "29648817",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Son, SY, Ma, J, Kondou, Y, et al. Structure of human monoamine oxidase A at 2.2-A resolution: the control of opening the entry for substrates/inhibitors. Proc Natl Acad Sci USA 2008; 105: 5739–44. PMID: 18391214",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0710626105",
+            "pmid": "18391214",
+            "pmcid": "PMC2311356",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Cheung, J, Gary, EN, Shiomi, K, Rosenberry, TL. Structures of human acetylcholinesterase bound to dihydrotanshinone I and territrem B show peripheral site flexibility. ACS Med Chem Lett 2013; 4: 1091–6. PMID: 24900610",
+            "process_entry": "True",
+            "doi": "10.1021/ml400304w",
+            "pmid": "24900610",
+            "pmcid": "PMC4027152",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Nicolet, Y, Lockridge, O, Masson, P, et al. Crystal structure of human butyrylcholinesterase and of its complexes with substrate and products. J Biol Chem 2003; 278: 41141–7. PMID: 12869558",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m210241200",
+            "pmid": "12869558",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Schrödinger. Glide. New York (NY): Schrödinger, LLC; 2018.",
+            "process_entry": "True",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Available from: http://zinc15.docking.org/patterns/home [accessed date 30 Oct 2018].",
+            "process_entry": "True",
+            "url": "http://zinc15.docking.org/patterns/home [accessed date 30 Oct",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Carradori, S, Silvestri, R. New frontiers in selective human MAO-B inhibitors. J Med Chem 2015; 58: 6717–32. PMID: 25915162",
+            "process_entry": "True",
+            "doi": "10.1021/jm501690r",
+            "pmid": "25915162",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Da Prada, M, Zürcher, G, Wüthrich, I, Haefely, WE. On tyramine, food, beverages and the reversible MAO inhibitor moclobemide. J Neural Transm Suppl 1988; 26: 31–56. PMID: 3283290",
+            "process_entry": "True",
+            "pmid": "3283290",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Maltarollo, VG, de Resende, MF, Kronenberger, T, et al. In vitro and in silico studies of antioxidant activity of 2-thiazolylhydrazone derivatives. J Mol Graph Model 2019; 86: 106–12. PMID: 30347318",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmgm.2018.10.007",
+            "pmid": "30347318",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Luco, JM. Prediction of the brain-blood distribution of a large set of drugs from structurally derived descriptors using partial least-squares (PLS) modeling. J Chem Inf Comput Sci 1999; 39: 396–404. PMID: 10192950",
+            "process_entry": "True",
+            "doi": "10.1021/ci980411n",
+            "pmid": "10192950",
+            "xmlid": "CIT0053"
+        }
+    ],
+    "localid": "MED-30727777",
+    "doi": "10.1080/14756366.2019.1571272",
+    "pmid": "10.1080/14756366.2019.1571272",
+    "pmcid": "30727777",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30727777/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),194,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),685,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),860,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),860,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1026,192)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1026,192)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7–13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),569,206)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,234)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),229,5)",
+                "pl_string": ")15,1"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,234)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),229,5)",
+                "pl_string": ")15,1"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),360,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0018",
+                "rp_string": "18–25",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,146)",
+                "containers_title": [
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),2380,102)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[10]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[10]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-Nitrobenzylidene)-2-(4-(3-nitrophenyl)thiazol-2-yl)hydrazine (10)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[16]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[16]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-(3-Nitrophenyl)thiazol-2-yl)-2-(pyridin-2-ylmethylene)hydrazine (16)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[17]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[17]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-(3-Nitrophenyl)thiazol-2-yl)-2-(pyridin-3-ylmethylene)hydrazine (17)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[18]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[18]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-(3-Nitrophenyl)thiazol-2-yl)-2-(pyridin-4-ylmethylene)hydrazine (18)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[19]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[19]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-(3-Nitrophenyl)thiazol-2-yl)-2-(1-(pyridin-2-yl)ethylidene)hydrazine (19)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[20]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[20]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-(3-Nitrophenyl)thiazol-2-yl)-2-(1-(pyridin-3-yl)ethylidene)hydrazine (20)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[21]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[21]/p),1,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "General synthetic procedure for the nitro compounds 1–36 and amino compound 37",
+                    "1-(4-(3-Nitrophenyl)thiazol-2-yl)-2-(1-(pyridin-4-yl)ethylidene)hydrazine (21)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[1]/p),1,95)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "MAO-A and MAO-B inhibition studies",
+                    "Determination of IC50 values"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[1]/p),572,198)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "MAO-A and MAO-B inhibition studies",
+                    "Determination of IC50 values"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),1,95)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "MAO-A and MAO-B inhibition studies",
+                    "Investigating reversibility of inhibition by dialysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),1130,220)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "MAO-A and MAO-B inhibition studies",
+                    "Investigating reversibility of inhibition by dialysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/sec[1]/p),1,119)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Antioxidant activity evaluation",
+                    "Phosphomolybdenum assay (PhosphoMo)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/sec[2]/p[1]),1,149)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Antioxidant activity evaluation",
+                    "Radical scavenging activity (DPPH and ABTS)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/sec[2]/p[2]),1,212)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Antioxidant activity evaluation",
+                    "Radical scavenging activity (DPPH and ABTS)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/sec[3]/p[1]),1,100)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Antioxidant activity evaluation",
+                    "Reducing power tests (CUPRAC and FRAP)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/sec[3]/p[2]),1,99)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Antioxidant activity evaluation",
+                    "Reducing power tests (CUPRAC and FRAP)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/sec[4]/p),1,92)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Antioxidant activity evaluation",
+                    "Metal chelating activity on ferrous ions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),1,115)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),117,248)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),366,75)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),442,171)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ],
+                "pl_string": "The Schrödinger suite 2018-140 was used to perform all molecular modelling studies with the OPLS341 as force field. Three-dimensional structures of the 4-(3-nitrophenyl)thiazol-2-ylhydrazone derivatives 3, 4, 13, 37 were built by means the Maestro GUI and their oral absorption and blood–brain barrier permeation were theoretically predicted by the QikProp42 tool. Target protein structures were obtained from the Protein Data Bank (PDB)43. In particular, the PDB crystallographic entries 6FW044, 2Z5X45, 4M0E46, and 1P0I47 were selected as theoretical models for hMAO-B, hMAO-A, hAChE, and hBuChE, respectively. Each target structure was submitted to preliminary manipulations by adding missing hydrogen atoms, deleting water molecules, removing co-crystallised ligands, and fixing FAD bonding orders. Molecular docking simulations were carried out with Glide48 flexible ligand implementation using the extra precision (XP) search algorithm. For the protein binding sites, a grid box of about 64,000 A3 centred on the FAD N5 atom in the MAOs and on catalytic Ser203 in the ChEs was considered. The default docking scoring function was applied for ranking ligand binding modes. Finally, ZINC PAINS Pattern Identifier49 was used to evaluate if our derivatives could be considered as potential pan assays interfering or aggregator compounds.",
+                "pl_xpath": "/article/body/sec[4]/sec[4]/p"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),442,171)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ],
+                "pl_string": "The Schrödinger suite 2018-140 was used to perform all molecular modelling studies with the OPLS341 as force field. Three-dimensional structures of the 4-(3-nitrophenyl)thiazol-2-ylhydrazone derivatives 3, 4, 13, 37 were built by means the Maestro GUI and their oral absorption and blood–brain barrier permeation were theoretically predicted by the QikProp42 tool. Target protein structures were obtained from the Protein Data Bank (PDB)43. In particular, the PDB crystallographic entries 6FW044, 2Z5X45, 4M0E46, and 1P0I47 were selected as theoretical models for hMAO-B, hMAO-A, hAChE, and hBuChE, respectively. Each target structure was submitted to preliminary manipulations by adding missing hydrogen atoms, deleting water molecules, removing co-crystallised ligands, and fixing FAD bonding orders. Molecular docking simulations were carried out with Glide48 flexible ligand implementation using the extra precision (XP) search algorithm. For the protein binding sites, a grid box of about 64,000 A3 centred on the FAD N5 atom in the MAOs and on catalytic Ser203 in the ChEs was considered. The default docking scoring function was applied for ranking ligand binding modes. Finally, ZINC PAINS Pattern Identifier49 was used to evaluate if our derivatives could be considered as potential pan assays interfering or aggregator compounds.",
+                "pl_xpath": "/article/body/sec[4]/sec[4]/p"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),442,171)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ],
+                "pl_string": "The Schrödinger suite 2018-140 was used to perform all molecular modelling studies with the OPLS341 as force field. Three-dimensional structures of the 4-(3-nitrophenyl)thiazol-2-ylhydrazone derivatives 3, 4, 13, 37 were built by means the Maestro GUI and their oral absorption and blood–brain barrier permeation were theoretically predicted by the QikProp42 tool. Target protein structures were obtained from the Protein Data Bank (PDB)43. In particular, the PDB crystallographic entries 6FW044, 2Z5X45, 4M0E46, and 1P0I47 were selected as theoretical models for hMAO-B, hMAO-A, hAChE, and hBuChE, respectively. Each target structure was submitted to preliminary manipulations by adding missing hydrogen atoms, deleting water molecules, removing co-crystallised ligands, and fixing FAD bonding orders. Molecular docking simulations were carried out with Glide48 flexible ligand implementation using the extra precision (XP) search algorithm. For the protein binding sites, a grid box of about 64,000 A3 centred on the FAD N5 atom in the MAOs and on catalytic Ser203 in the ChEs was considered. The default docking scoring function was applied for ranking ligand binding modes. Finally, ZINC PAINS Pattern Identifier49 was used to evaluate if our derivatives could be considered as potential pan assays interfering or aggregator compounds.",
+                "pl_xpath": "/article/body/sec[4]/sec[4]/p"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),442,171)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ],
+                "pl_string": "The Schrödinger suite 2018-140 was used to perform all molecular modelling studies with the OPLS341 as force field. Three-dimensional structures of the 4-(3-nitrophenyl)thiazol-2-ylhydrazone derivatives 3, 4, 13, 37 were built by means the Maestro GUI and their oral absorption and blood–brain barrier permeation were theoretically predicted by the QikProp42 tool. Target protein structures were obtained from the Protein Data Bank (PDB)43. In particular, the PDB crystallographic entries 6FW044, 2Z5X45, 4M0E46, and 1P0I47 were selected as theoretical models for hMAO-B, hMAO-A, hAChE, and hBuChE, respectively. Each target structure was submitted to preliminary manipulations by adding missing hydrogen atoms, deleting water molecules, removing co-crystallised ligands, and fixing FAD bonding orders. Molecular docking simulations were carried out with Glide48 flexible ligand implementation using the extra precision (XP) search algorithm. For the protein binding sites, a grid box of about 64,000 A3 centred on the FAD N5 atom in the MAOs and on catalytic Ser203 in the ChEs was considered. The default docking scoring function was applied for ranking ligand binding modes. Finally, ZINC PAINS Pattern Identifier49 was used to evaluate if our derivatives could be considered as potential pan assays interfering or aggregator compounds.",
+                "pl_xpath": "/article/body/sec[4]/sec[4]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),804,139)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),1179,161)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[5]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec[1]/p[1]),3184,89)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vitro MAO inhibition study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[5]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec[1]/p[2]),135,223)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vitro MAO inhibition study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[5]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec[2]/p[2]),639,54)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vitro antioxidant assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[5]/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec[3]/p[3]),1,221)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ]
+            }
+        ]
+    ]
+}

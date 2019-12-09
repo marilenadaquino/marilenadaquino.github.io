@@ -1,0 +1,562 @@
+{
+    "references": [
+        {
+            "bibentry": "Alvarez-Erviti, L, Seow, Y, Yin, H, et al. (2011). Delivery of siRNA to the mouse brain by systemic injection of targeted exosomes. Nat Biotechnol 29: 341–5. PMID: 21423189",
+            "process_entry": "True",
+            "doi": "10.1038/nbt.1807",
+            "pmid": "21423189",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bak, RO, Gomez-Ospina, N, Porteus, MH (2018). Gene editing on center stage. Trends Genet 34: 600–11. PMID: 29908711",
+            "process_entry": "True",
+            "doi": "10.1016/j.tig.2018.05.004",
+            "pmid": "29908711",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Barile, L, Vassalli, G (2017). Exosomes: therapy delivery tools and biomarkers of diseases. Pharmacol Therapeutics 174: 63–78.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Cavalli, R, Bisazza, A, Lembo, D (2013). Micro-and nanobubbles: a versatile non-viral platform for gene delivery. Int J Pharm 456: 437–45. PMID: 24008081",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2013.08.041",
+            "pmid": "24008081",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Contreras-Naranjo, JC, Wu, HJ, Ugaz, VM (2017). Microfluidics for exosome isolation and analysis: enabling liquid biopsy for personalized medicine. Lab Chip 17: 3558–77. PMID: 28832692",
+            "process_entry": "True",
+            "doi": "10.1039/c7lc00592j",
+            "pmid": "28832692",
+            "pmcid": "PMC5656537",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Duan, F, Lam, MG (2013). Delivery approaches of gene therapy in hepatocellular carcinoma. Anticancer Res 33: 4711–8. PMID: 24222105",
+            "process_entry": "True",
+            "pmid": "24222105",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "EL Andaloussi, S, Lakhal, S, Mäger, I, Wood, MJA (2013). Exosomes for targeted siRNA delivery across biological barriers. Adv Drug Delivery Rev 65: 391–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "S, EL Andaloussi, Mager, I, Breakefield, XO, Wood, MJ (2013). Extracellular vesicles: biology and emerging therapeutic opportunities. Nat Rev Drug Discov 12: 347–57. PMID: 23584393",
+            "process_entry": "True",
+            "doi": "10.1038/nrd3978",
+            "pmid": "23584393",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Fujii, H, Li, S-H, Wu, J, et al. (2011). Repeated and targeted transfer of angiogenic plasmids into the infarcted rat heart via ultrasound targeted microbubble destruction enhances cardiac repair. Eur Heart J 32: 2075–84. PMID: 21196445",
+            "process_entry": "True",
+            "doi": "10.1093/eurheartj/ehq475",
+            "pmid": "21196445",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Fujii, H, Sun, Z, Li, S-H, et al. (2009). Ultrasound-targeted gene delivery induces angiogenesis after a myocardial infarction in mice. JACC: Cardiovasc Imaging 2: 869–79. PMID: 19608138",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcmg.2009.04.008",
+            "pmid": "19608138",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Haussecker, D (2014). Current issues of RNAi therapeutics delivery and development. J Controlled Release 195: 49–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hernot, S, Klibanov, AL (2008). Microbubbles in ultrasound-triggered drug and gene delivery. Adv Drug Deliv Rev 60: 1153–66. PMID: 18486268",
+            "process_entry": "True",
+            "doi": "10.1016/j.addr.2008.03.005",
+            "pmid": "18486268",
+            "pmcid": "PMC2720159",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Jiang, XC, Gao, JQ (2017). Exosomes as novel bio-carriers for gene and drug delivery. Int J Pharm 521: 167–75. PMID: 28216464",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2017.02.038",
+            "pmid": "28216464",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Jin, Q, Wang, Z, Yan, F, et al. (2013). A novel cationic microbubble coated with stearic acid-modified polyethylenimine to enhance DNA loading and gene delivery by ultrasound. PloS One 8: e76544. PMID: 24086748",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0076544",
+            "pmid": "24086748",
+            "pmcid": "PMC3784428",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Kalluri, R (2016). The biology and function of exosomes in cancer. J Clin Invest 126: 1208–15. PMID: 27035812",
+            "process_entry": "True",
+            "doi": "10.1172/JCI81135",
+            "pmid": "27035812",
+            "pmcid": "PMC4811149",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Karimi, M, Mirshekari, H, Moosavi Basri, SM, et al. (2016). Bacteriophages and phage-inspired nanocarriers for targeted delivery of therapeutic cargos. Adv Drug Delivery Rev 106: 45–62.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Lee, SH, Chung, BH, Park, TG, et al. (2012). Small-interfering RNA (siRNA)-based functional micro-and nanostructures for efficient and selective gene silencing. Acc Chem Res 45: 1014–25. PMID: 22413937",
+            "process_entry": "True",
+            "doi": "10.1021/ar2002254",
+            "pmid": "22413937",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Ma, X, Bussonniere, A, Liu, Q (2017). A facile sonochemical synthesis of shell-stabilized reactive microbubbles using surface-thiolated bovine serum albumin with the Traut's reagent. Ultrasonics Sonochem 36: 454–65.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Mullin, L, Gessner, R, Kwan, J, et al. (2011). Effect of anesthesia carrier gas on in vivo circulation times of ultrasound microbubble contrast agents in rats. Contrast Media Mol Imaging 6: 126–31. PMID: 21246710",
+            "process_entry": "True",
+            "doi": "10.1002/cmmi.414",
+            "pmid": "21246710",
+            "pmcid": "PMC3341737",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Nair, S, Salomon, C (2018). Extracellular vesicles and their immunomodulatory functions in pregnancy. Semin Immunopathol. doi: DOI: 10.1007/s00281-018-0680-2.",
+            "process_entry": "True",
+            "doi": "10.1007/s00281-018-0680-2.",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Naldini, L (2015). Gene therapy returns to centre stage. Nature 526: 351–60. PMID: 26469046",
+            "process_entry": "True",
+            "doi": "10.1038/nature15818",
+            "pmid": "26469046",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Rosenblum, D, Joshi, N, Tao, W, et al. (2018). Progress and challenges towards targeted delivery of cancer therapeutics. Nature Commun 9: 1410. PMID: 29650952",
+            "process_entry": "True",
+            "doi": "10.1038/s41467-018-03705-y",
+            "pmid": "29650952",
+            "pmcid": "PMC5897557",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Rufino-Ramos, D, Albuquerque, PR, Carmona, V, et al. (2017). Extracellular vesicles: novel promising delivery systems for therapy of brain diseases. J Control Release 262: 247–58. PMID: 28687495",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2017.07.001",
+            "pmid": "28687495",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Rupaimoole, R, Slack, FJ (2017). MicroRNA therapeutics: towards a new era for the management of cancer and other diseases. Nat Rev Drug Discov 16: 203–22. PMID: 28209991",
+            "process_entry": "True",
+            "doi": "10.1038/nrd.2016.246",
+            "pmid": "28209991",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Sawant, RR, Torchilin, VP (2012). Challenges in development of targeted liposomal therapeutics. AAPS J 14: 303–15. PMID: 22415612",
+            "process_entry": "True",
+            "doi": "10.1208/s12248-012-9330-0",
+            "pmid": "22415612",
+            "pmcid": "PMC3326155",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Smyth, T, Kullberg, M, Malik, N, et al. (2015). Biodistribution and delivery efficiency of unmodified tumor-derived exosomes. J Control Release 199: 145–55. PMID: 25523519",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2014.12.013",
+            "pmid": "25523519",
+            "pmcid": "PMC4441346",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Tamarov, K, Sviridov, A, Xu, W, et al. (2017). Nano air seeds trapped in mesoporous janus nanoparticles facilitate cavitation and enhance ultrasound imaging. ACS Appl Mater Interfaces 9: 35234–43. PMID: 28921952",
+            "process_entry": "True",
+            "doi": "10.1021/acsami.7b11007",
+            "pmid": "28921952",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Tzu-Yin, W, Wilson, KE, Machtaler, S, Willmann, JK (2013). Ultrasound and microbubble guided drug delivery: mechanistic understanding and clinical implications. CPB 14: 743–52.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Zhou, Y, Zhou, G, Tian, C, et al. (2016). Exosome-mediated small RNA delivery for gene therapy. Wires RNA 7: 758–71. PMID: 27196002",
+            "process_entry": "True",
+            "doi": "10.1002/wrna.1363",
+            "pmid": "27196002",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-30744440",
+    "doi": "10.1080/10717544.2018.1534898",
+    "pmid": "10.1080/10717544.2018.1534898",
+    "pmcid": "30744440",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30744440/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0002",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),132,172)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0011",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),305,132)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0005",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,142)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0015",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),144,210)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),407,213)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Alvarez-Erviti et al.,2011; Barile & Vassalli, 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),565,53)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0003",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),407,213)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Alvarez-Erviti et al., 2011; Barile & Vassalli,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),565,53)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0001",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),621,198)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Alvarez-Erviti et al.,2011; EL Andaloussi et al., 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),761,56)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),621,198)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Alvarez-Erviti et al., 2011; EL Andaloussi et al.,2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),761,56)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0010",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,146)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fujii et al.,2009, 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),120,25)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,146)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fujii et al., 2009,2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),120,25)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),148,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0019",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),464,232)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Mullin et al.,2011; Tzu-Yin et al., 2013; Ma et al., 2017; Tamarov et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),613,81)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0028",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),464,232)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Mullin et al., 2011; Tzu-Yin et al.,2013; Ma et al., 2017; Tamarov et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),613,81)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0018",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),464,232)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Mullin et al., 2011; Tzu-Yin et al., 2013; Ma et al.,2017; Tamarov et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),613,81)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0027",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),464,232)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Mullin et al., 2011; Tzu-Yin et al., 2013; Ma et al., 2017; Tamarov et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),613,81)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0017",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),697,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lee et al.,2012; Duan & Lam, 2013; Zhou et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,54)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0006",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),697,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lee et al., 2012; Duan & Lam,2013; Zhou et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,54)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0029",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),697,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lee et al., 2012; Duan & Lam, 2013; Zhou et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,54)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0021",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),141,76)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0025",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),218,158)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Sawant & Torchilin,2012; Karimi et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),328,46)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0016",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),218,158)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Sawant & Torchilin, 2012; Karimi et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),328,46)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0004",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),377,268)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Cavalli et al.,2013; Jin et al., 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),573,39)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0014",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),377,268)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Cavalli et al., 2013; Jin et al.,2013)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),573,39)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0013",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),776,207)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0007",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),984,153)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0026",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1341,249)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0023",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1341,249)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Rufino-Ramos et al.,2017; Nair & Salomon, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),1540,48)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1341,249)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Rufino-Ramos et al., 2017; Nair & Salomon,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),1540,48)"
+            }
+        ]
+    ]
+}

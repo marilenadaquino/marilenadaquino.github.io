@@ -1,0 +1,646 @@
+{
+    "references": [
+        {
+            "bibentry": "Skates, SJ. Ovarian cancer screening: development of the risk of ovarian cancer algorithm (ROCA) and ROCA screening trials, Int J Gynecol Cancer, 2012, 22, Suppl 1, S24, S26, PMID: 22543916",
+            "process_entry": "True",
+            "doi": "10.1097/IGC.0b013e318256488a",
+            "pmid": "22543916",
+            "pmcid": "PMC3572791",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Davis, HM, Zurawski, VR, Jr, Bast, RC, Jr, Klug, TL. Characterization of the CA 125 antigen associated with human epithelial ovarian carcinomas, Cancer Res, 1986, 46, 6143, 6148, PMID: 2430690",
+            "process_entry": "True",
+            "pmid": "2430690",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Montagnana, M, Lippi, G, Danese, E, Franchi, M, Guidi, GC. Usefulness of serum HE4 in endometriotic cysts, Br J Cancer, 2009, 101, 548, PMID: 19513069",
+            "process_entry": "True",
+            "doi": "10.1038/sj.bjc.6605119",
+            "pmid": "19513069",
+            "pmcid": "PMC2720222",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Jacobs, I, Bast, RC, Jr. The CA 125 tumour-associated antigen: a review of the literature, Hum Reprod, 1989, 4, 1, 12",
+            "process_entry": "True",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Hellström, I, Raycraft, J, Hayden-Ledbetter, M, Ledbetter, JA, Schummer, M, McIntosh, M. The HE4 (WFDC2) protein is a biomarker for ovarian carcinoma, Cancer Res, 2003, 63, 3695, 3700, PMID: 12839961",
+            "process_entry": "True",
+            "pmid": "12839961",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Hamed, EO, Ahmed, H, Sedeek, OB, Mohammed, AM, Abd-Alla, AA, Abdel Ghaffar, HM. Significance of HE4 estimation in comparison with CA125 in diagnosis of ovarian cancer and assessment of treatment response, Diagn Pathol, 2013, 8, 11, PMID: 23343214",
+            "process_entry": "True",
+            "doi": "10.1186/1746-1596-8-11",
+            "pmid": "23343214",
+            "pmcid": "PMC3621278",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Sandri, MT, Bottari, F, Franchi, D, Boveri, S, Candiani, M, Ronzoni, S. Comparison of HE4, CA125 and ROMA algorithm in women with a pelvic mass: correlation with pathological outcome, Gynecol Oncol, 2013, 128, 233, 238, PMID: 23200911",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2012.11.026",
+            "pmid": "23200911",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Shin, JJ, Lee, YJ, Kim, R, Lee, DY, Won, KH, Jee, BC. Analysis of falsely elevated risk of ovarian malignancy algorithm in women with ovarian endometrioma, Obstet Gynecol Sci, 2016, 59, 295, 302, PMID: 27462596",
+            "process_entry": "True",
+            "doi": "10.5468/ogs.2016.59.4.295",
+            "pmid": "27462596",
+            "pmcid": "PMC4958675",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Moore, RG, Brown, AK, Miller, MC, Skates, S, Allard, WJ, Verch, T. The use of multiple novel tumor biomarkers for the detection of ovarian carcinoma in patients with a pelvic mass, Gynecol Oncol, 2008, 108, 402, 408, PMID: 18061248",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2007.10.017",
+            "pmid": "18061248",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Moore, RG, McMeekin, DS, Brown, AK, DiSilvestro, P, Miller, MC, Allard, WJ. A novel multiple marker bioassay utilizing HE4 and CA125 for the prediction of ovarian cancer in patients with a pelvic mass, Gynecol Oncol, 2009, 112, 40, 46, PMID: 18851871",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2008.08.031",
+            "pmid": "18851871",
+            "pmcid": "PMC3594094",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Wilailak, S, Chan, KK, Chen, CA, Nam, JH, Ochiai, K, Aw, TC. Distinguishing benign from malignant pelvic mass utilizing an algorithm with HE4, menopausal status, and ultrasound findings, J Gynecol Oncol, 2015, 26, 46, 53, PMID: 25310857",
+            "process_entry": "True",
+            "doi": "10.3802/jgo.2015.26.1.46",
+            "pmid": "25310857",
+            "pmcid": "PMC4302285",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Van Gorp, T, Cadron, I, Despierre, E, Daemen, A, Leunen, K, Amant, F. HE4 and CA125 as a diagnostic test in ovarian cancer: prospective validation of the Risk of Ovarian Malignancy Algorithm, Br J Cancer, 2011, 104, 863, 870, PMID: 21304524",
+            "process_entry": "True",
+            "doi": "10.1038/sj.bjc.6606092",
+            "pmid": "21304524",
+            "pmcid": "PMC3048204",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Yu, S, Lee, JK, Kim, JH, Park, H, Lee, MY, Ryu, S. Diagnostic performance and establishment of reference limits of HE4 in Korean healthy women, Gynecol Oncol, 2016, 143, 128, 134, PMID: 27426308",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2016.07.100",
+            "pmid": "27426308",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Cho, HY, Park, SH, Park, YH, Kim, HB, Kang, JB, Hong, SH. Comparison of HE4, CA125, and Risk of Ovarian Malignancy Algorithm in the prediction of ovarian cancer in Korean women, J Korean Med Sci, 2015, 30, 1777, 1783, PMID: 26713052",
+            "process_entry": "True",
+            "doi": "10.3346/jkms.2015.30.12.1777",
+            "pmid": "26713052",
+            "pmcid": "PMC4689821",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Glanc, P, Benacerraf, B, Bourne, T, Brown, D, Coleman, BG, Crum, C. First international consensus report on adnexal masses: management recommendations, J Ultrasound Med, 2017, 36, 849, 863, PMID: 28266033",
+            "process_entry": "True",
+            "doi": "10.1002/jum.14197",
+            "pmid": "28266033",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Pavlik, EJ, Ueland, FR, Miller, RW, Ubellacker, JM, DeSimone, CP, Elder, J. Frequency and disposition of ovarian abnormalities followed with serial transvaginal ultrasonography, Obstet Gynecol, 2013, 122, 210, 217, PMID: 23969786",
+            "process_entry": "True",
+            "doi": "10.1097/aog.0b013e318298def5",
+            "pmid": "23969786",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Alcázar, JL, Castillo, G, Jurado, M, García, GL. Is expectant management of sonographically benign adnexal cysts an option in selected asymptomatic premenopausal women, Hum Reprod, 2005, 20, 3231, 3234, PMID: 16024535",
+            "process_entry": "True",
+            "doi": "10.1093/humrep/dei206",
+            "pmid": "16024535",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Greenlee, RT, Kessel, B, Williams, CR, Riley, TL, Ragard, LR, Hartge, P. Prevalence, incidence, and natural history of simple ovarian cysts among women >55 years old in a large cancer screening trial, Am J Obstet Gynecol, 2010, 202, 373.e1, 373.e9, PMID: 20096820",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajog.2009.11.029",
+            "pmid": "20096820",
+            "pmcid": "PMC2847634",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "DeLong, ER, DeLong, DM, Clarke-Pearson, DL. Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach, Biometrics, 1988, 44, 837, 845, PMID: 3203132",
+            "process_entry": "True",
+            "doi": "10.2307/2531595",
+            "pmid": "3203132",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Song, HJ, Nam, KM, Kim, JD, Park, CY, Kim, YS. Looking for optimized weights of CA125 and HE4 in early screening system of ovarian cancer for Korean patients, Technol Health Care, 2015, 24, Suppl 1, S163, S170, PMID: 26409552",
+            "process_entry": "True",
+            "doi": "10.3233/thc-151065",
+            "pmid": "26409552",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Zhang, L, Chen, Y, Wang, K. Comparison of CA125, HE4, and ROMA index for ovarian cancer diagnosis, Curr Probl Cancer, 2019, 43, 135, 144, PMID: 30017407",
+            "process_entry": "True",
+            "doi": "10.1016/j.currproblcancer.2018.06.001",
+            "pmid": "30017407",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Terlikowska, KM, Dobrzycka, B, Witkowska, AM, Mackowiak-Matejczyk, B, Sledziewski, TK, Kinalski, M. Preoperative HE4, CA125 and ROMA in the differential diagnosis of benign and malignant adnexal masses, J Ovarian Res, 2016, 9, 43, PMID: 27436085",
+            "process_entry": "True",
+            "doi": "10.1186/s13048-016-0254-7",
+            "pmid": "27436085",
+            "pmcid": "PMC4952144",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Van Gorp, T, Veldman, J, Van Calster, B, Cadron, I, Leunen, K, Amant, F. Subjective assessment by ultrasound is superior to the risk of malignancy index (RMI) or the risk of ovarian malignancy algorithm (ROMA) in discriminating benign from malignant adnexal masses, Eur J Cancer, 2012, 48, 1649, 1656, PMID: 22226481",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejca.2011.12.003",
+            "pmid": "22226481",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Malkasian, GD, Jr, Knapp, RC, Lavin, PT, Zurawski, VR, Jr, Podratz, KC, Stanhope, CR. Preoperative evaluation of serum CA 125 levels in premenopausal and postmenopausal patients with pelvic masses: discrimination of benign from malignant disease, Am J Obstet Gynecol, 1988, 159, 341, 346, PMID: 2457318",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9378(88)80081-4",
+            "pmid": "2457318",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Finkler, NJ, Benacerraf, B, Lavin, PT, Wojciechowski, C, Knapp, RC. Comparison of serum CA 125, clinical impression, and ultrasound in the preoperative evaluation of ovarian masses, Obstet Gynecol, 1988, 72, 659, 664, PMID: 3047614",
+            "process_entry": "True",
+            "pmid": "3047614",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Moore, RG, Miller, MC, Eklund, EE, Lu, KH, Bast, RC, Jr, Lambert-Messerlian, G. Serum levels of the ovarian cancer biomarker HE4 are decreased in pregnancy and increase with age, Am J Obstet Gynecol, 2012, 206, 349.e1, 349.e7, PMID: 22301440",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajog.2011.12.028",
+            "pmid": "22301440",
+            "pmcid": "PMC3987114",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Dayyani, F, Uhlig, S, Colson, B, Simon, K, Rolny, V, Morgenstern, D. Diagnostic performance of Risk of Ovarian Malignancy Algorithm against CA125 and HE4 in connection with ovarian cancer: a meta-analysis, Int J Gynecol Cancer, 2016, 26, 1586, 1593, PMID: 27540691",
+            "process_entry": "True",
+            "doi": "10.1097/igc.0000000000000804",
+            "pmid": "27540691",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Tian, Y, Wang, C, Cheng, L, Zhang, A, Liu, W, Guo, L. Determination of reference intervals of serum levels of human epididymis protein 4 (HE4) in Chinese women, J Ovarian Res, 2015, 8, 72, PMID: 26552478",
+            "process_entry": "True",
+            "doi": "10.1186/s13048-015-0201-z",
+            "pmid": "26552478",
+            "pmcid": "PMC4637994",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "Park, Y, Kim, Y, Lee, EY, Lee, JH, Kim, HS. Reference ranges for HE4 and CA125 in a large Asian population by automated assays and diagnostic performances for ovarian cancer, Int J Cancer, 2012, 130, 1136, 1144, PMID: 21484794",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.26129",
+            "pmid": "21484794",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Ahn, SH, Hwang, UK, Kwak, BS, Yoon, HS, Ku, BK, Kang, HJ. Prevalence of BRCA1 and BRCA2 mutations in Korean breast cancer patients, J Korean Med Sci, 2004, 19, 269, 274, PMID: 15082902",
+            "process_entry": "True",
+            "doi": "10.3346/jkms.2004.19.2.269",
+            "pmid": "15082902",
+            "pmcid": "PMC2822310",
+            "xmlid": "B30"
+        }
+    ],
+    "localid": "MED-31576682",
+    "doi": "10.3802/jgo.2019.30.e83",
+    "pmid": "10.3802/jgo.2019.30.e83",
+    "pmcid": "31576682",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576682/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),96,154)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),374,77)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),583,285)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),869,92)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),69,137)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),207,115)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),323,62)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),323,62)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),386,111)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),498,191)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),690,89)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,170)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),172,165)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),338,117)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),252,161)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Measurement"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),869,150)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Measurement"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),101,345)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Measurement"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),101,345)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Measurement"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),534,93)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Measurement"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),534,93)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Measurement"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),386,106)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "3. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),164,116)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),962,141)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),962,141)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),585,104)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),237,103)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),341,178)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),647,95)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),440,155)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),123,216)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),666,111)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),666,111)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),888,156)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),359,179)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

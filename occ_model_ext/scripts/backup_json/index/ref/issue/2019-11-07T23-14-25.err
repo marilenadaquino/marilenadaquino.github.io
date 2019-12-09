@@ -1,0 +1,14 @@
+'NoneType' object has no attribute 'text' Traceback (most recent call last):
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/run.py", line 36, in <module>
+    epmc.process(True)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 137, in process
+    self.process_article(cur_id, cur_source, cur_doi, cur_doi, cur_pmid, cur_pmcid, oa)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 93, in process_article
+    ref_list_url = self.process_xml_source(cur_pmcid, intext_refs=True)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/bee/epmcproc.py", line 317, in process_xml_source
+    for x in jats.extract_intext_refs():
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/jats2oc.py", line 88, in extract_intext_refs
+    xref_id = conf.find_xmlid(str(intermediate),self.root)
+  File "/Users/marilena/Desktop/marilenadaquinoGit/occ_model_ext/scripts/script/ccc/conf.py", line 166, in find_xmlid
+    cleaned = ''.join(e for e in label.text if e.isalnum())
+AttributeError: 'NoneType' object has no attribute 'text'

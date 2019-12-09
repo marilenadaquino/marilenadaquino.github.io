@@ -1,0 +1,126 @@
+{
+    "references": [
+        {
+            "bibentry": "Kurtz, JB, Lourie, MA, Holman, EE, et al. Creating assessments as an active learning strategy: what are students’ perceptions? A mixed methods study. Med Educ Online. 2019 1 1; 24(1): 1630239. PMID: 31248355",
+            "process_entry": "True",
+            "doi": "10.1080/10872981.2019.1630239",
+            "pmid": "31248355",
+            "pmcid": "PMC6610530",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Wynter, L, Burgess, A, Kalman, E, et al. Medical students: what educational resources are they using? BMC Med Educ. 2019 12; 19(1): 36. PMID: 30683084",
+            "process_entry": "True",
+            "doi": "10.1186/s12909-019-1462-9",
+            "pmid": "30683084",
+            "pmcid": "PMC6347772",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Walsh, JL, Harris, BH, Smith, PE. Single best answer question-writing tips for clinicians. Postgrad Med J. 2017 2 1; 93(1096): 76–1. PMID: 27371033",
+            "process_entry": "True",
+            "doi": "10.1136/postgradmedj-2015-133893",
+            "pmid": "27371033",
+            "xmlid": "CIT0003"
+        }
+    ],
+    "localid": "MED-31349759",
+    "doi": "10.1080/10872981.2019.1649572",
+    "pmid": "10.1080/10872981.2019.1649572",
+    "pmcid": "31349759",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31349759/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,146)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),148,136)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,96)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),353,175)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),268,113)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),382,119)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/p[5]),347,174)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,142)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[6]),144,131)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

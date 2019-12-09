@@ -1,0 +1,260 @@
+{
+    "references": [
+        {
+            "bibentry": "Olsen B, Munster VJ, Wallensten A, Waldenström J, Osterhaus AD, Fouchier RA. Global patterns of influenza A virus in wild birds. Science. 2006; 312: 384–8. DOI: 10.1126/science.1122438 PMID: 16627734",
+            "process_entry": "True",
+            "doi": "10.1126/science.1122438",
+            "pmid": "16627734",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Ramey AM, Pearce JM, Flint PL, Ip HS, Derksen DV, Franson JC, et al. Intercontinental reassortment and genomic variation of low pathogenic avian influenza viruses isolated from northern pintails (Anas acuta) in Alaska: examining the evidence through space and time. Virology. 2010; 401: 179–89. DOI: 10.1016/j.virol.2010.02.006 PMID: 20227102",
+            "process_entry": "True",
+            "doi": "10.1016/j.virol.2010.02.006",
+            "pmid": "20227102",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Lee DH, Torchetti MK, Winker K, Ip HS, Song CS, Swayne DE. Intercontinental spread of Asian-origin H5N8 to North America through Beringia by migratory birds. J Virol. 2015; 89: 6521–4. DOI: 10.1128/JVI.00728-15 PMID: 25855748",
+            "process_entry": "True",
+            "doi": "10.1128/JVI.00728-15",
+            "pmid": "25855748",
+            "pmcid": "PMC4474297",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Ramey AM, Reeves AB, Donnelly T, Poulson RL, Stallknecht DE. Introduction of Eurasian-origin influenza A(H8N4) virus into North America by migratory birds. Emerg Infect Dis. 2018; 24: 1950–3. PMID: 30226185",
+            "process_entry": "True",
+            "doi": "10.3201/eid2410.180447",
+            "pmid": "30226185",
+            "pmcid": "PMC6154152",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Kwon JH, Jeong S, Lee DH, Swayne DE, Kim YJ, Lee SH, et al. New reassortant clade 2.3.4.4b avian influenza A(H5N6) virus in wild birds, South Korea, 2017–18. Emerg Infect Dis. 2018; 24: 1953–5. PMID: 30226181",
+            "process_entry": "True",
+            "doi": "10.3201/eid2410.180461",
+            "pmid": "30226181",
+            "pmcid": "PMC6154165",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Stamatakis A. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics. 2014; 30: 1312–3. DOI: 10.1093/bioinformatics/btu033 PMID: 24451623",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/btu033",
+            "pmid": "24451623",
+            "pmcid": "PMC3998144",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Ramey AM, Reeves AB, Sonsthagen SA, TeSlaa JL, Nashold S, Donnelly T, et al. Dispersal of H9N2 influenza A viruses between East Asia and North America by wild birds. Virology. 2015; 482: 79–83. DOI: 10.1016/j.virol.2015.03.028 PMID: 25827532",
+            "process_entry": "True",
+            "doi": "10.1016/j.virol.2015.03.028",
+            "pmid": "25827532",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Huang Y, Wille M, Benkaroun J, Munro H, Bond AL, Fifield DA, et al. Perpetuation and reassortment of gull influenza A viruses in Atlantic North America. Virology. 2014; 456-457: 353–63. DOI: 10.1016/j.virol.2014.04.009 PMID: 24889254",
+            "process_entry": "True",
+            "doi": "10.1016/j.virol.2014.04.009",
+            "pmid": "24889254",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Bahl J, Vijaykrishna D, Holmes EC, Smith GJ, Guan Y. Gene flow and competitive exclusion of avian influenza A virus in natural reservoir hosts. Virology. 2009; 390: 289–97. DOI: 10.1016/j.virol.2009.05.002 PMID: 19501380",
+            "process_entry": "True",
+            "doi": "10.1016/j.virol.2009.05.002",
+            "pmid": "19501380",
+            "pmcid": "PMC2753668",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Lee DH, Lee HJ, Lee YN, Park JK, Lim TH, Kim MS, et al. Evidence of intercontinental transfer of North American lineage avian influenza virus into Korea. Infect Genet Evol. 2011; 11: 232–6. DOI: 10.1016/j.meegid.2010.09.012 PMID: 20933610",
+            "process_entry": "True",
+            "doi": "10.1016/j.meegid.2010.09.012",
+            "pmid": "20933610",
+            "xmlid": "R10"
+        }
+    ],
+    "localid": "MED-31625867",
+    "doi": "10.3201/eid2511.190604",
+    "pmid": "10.3201/eid2511.190604",
+    "pmcid": "31625867",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31625867/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),247,253)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),501,324)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),501,324)",
+                "containers_title": "",
+                "pl_string": "(2–4)",
+                "pl_xpath": "substring(string(/article/body/p[1]),819,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "(2–4)",
+                "pl_xpath": "substring(string(/article/body/p[1]),819,5)",
+                "context_xpath": "substring(string(/article/body/p[1]),501,324)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),501,324)",
+                "containers_title": "",
+                "pl_string": "(2–4)",
+                "pl_xpath": "substring(string(/article/body/p[1]),819,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),442,199)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),642,111)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),329,95)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),727,174)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,386)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,386)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,386)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,386)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,386)",
+                "containers_title": "",
+                "pl_string": "(2,7)",
+                "pl_xpath": "substring(string(/article/body/p[6]),381,5)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,386)",
+                "containers_title": "",
+                "pl_string": "(2,7)",
+                "pl_xpath": "substring(string(/article/body/p[6]),381,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[6]),388,239)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[6]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[6]),628,227)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

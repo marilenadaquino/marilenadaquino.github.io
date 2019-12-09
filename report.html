@@ -38,7 +38,43 @@
 						<p>Work plan:</p>
 						<ol>
 							<li><strong>[DONE] provenance</strong>: cleaning the code, removing entities/properties deprecated in the new version of OCDM, and testing.</li>
-							<li><strong>[WIP] URI design pattern</strong>: entities have to be renamed so as to include the corpus prefix (i.e. <code>070</code>). The entities are:
+							<li><strong>[DONE] add new entities/properties in graphlib</strong>: we have five new entities (for a total of 11 entities -- see below), namely:
+								<ul>
+									<li>an: annotations</li>
+									<li>ci: citations</li>
+									<li>rp: reference pointers</li>
+									<li>pl: pointers list</li>
+									<li>de: discourse elements</li>
+								</ul>
+								12 new classes, namely:
+								<ul>
+									<li>CITO.Citation</li>
+									<li>OA.Annotation</li>
+									<li>DEO.Caption</li>
+									<li>DOCO.DiscourseElement</li>
+									<li>DOCO.Footnote</li>
+									<li>DOCO.Paragraph</li>
+									<li>DOCO.Section</li>
+									<li>DOCO.SectionTitle</li>
+									<li>DOCO.Sentence</li>
+									<li>DOCO.Table</li>
+									<li>DOCO.TextChunk</li>
+									<li>C4O.SingleLocationPointerList</li>
+									<li>C4O.InTextReferencePointer</li>
+								</ul>
+								 4 new object properties, namely:
+								 <ul>
+								 	<li>OA.hasBody</li>
+									<li>OCO.hasAnnotation</li>
+									<li>C4O.denotes</li>
+									<li>C4O.isContextOf</li>
+								 </ul>
+								 and 1 new individual
+								 <ul>
+								 	<li>DATACITE["local-resource-identifier-scheme"]</li>
+								 </ul>
+							 </li>
+							<li><strong>[DONE] URI design pattern</strong>: entities have to be renamed so as to include the corpus prefix (i.e. <code>070</code>). The 11 entities are:
 								<ul>
 											<li>"an": "annotation", # new</li>
 							        <li>"ar": "agent role",</li>
@@ -52,13 +88,14 @@
 							        <li>"re": "resource embodiment",</li>
 							        <li>"rp": "in-text reference pointer" # new</li>
 								</ul>
-								Citations include both the IDs of citing and cited entity (br), and may appear in two forms:
+								Citations (ci) and Annotations (an) include both the ID of citing and cited entity (br), and may appear in two forms:
 								<ul>
 									<li> <code>0701-0702</code> when there are no pointers</li>
 									<li><code>0701-0702/1</code> when there is at least one pointer for that citation</li>
 								</ul>
 							</li>
-							<li>work on the transformation of new entities in a bespoke method to be included in <code>jats2oc.py</code> (ATM it includes a method that creates all the data from scratch, without using SPACIN. Needs some cut and paste)</li>
+							<li>[WIP] work on the transformation of new entities in a bespoke method to be included in <code>jats2oc.py</code>
+								(ATM it includes a method that creates all the data from scratch, without using SPACIN. Needs some cut and paste)</li>
 						</ol>
 					</div>
 

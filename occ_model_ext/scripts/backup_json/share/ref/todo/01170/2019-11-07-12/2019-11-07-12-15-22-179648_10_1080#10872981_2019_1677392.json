@@ -1,0 +1,48 @@
+{
+    "references": [
+        {
+            "bibentry": "Kurtz, JB, Lourie, MA, Holman, EE, et al. Creating assessments as an active learning strategy: what are students’ perceptions? A mixed methods study. Med Educ Online. 2019; 24(1): 1630239. PMID: 31248355",
+            "process_entry": "True",
+            "doi": "10.1080/10872981.2019.1630239",
+            "pmid": "31248355",
+            "pmcid": "PMC6610530",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "van Merrienboer, JJ, Sweller, J. Cognitive load theory in health professional education: design principles and strategies. Med Educ. 2010; 44(1): 85–2. PMID: 20078759",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2923.2009.03498.x",
+            "pmid": "20078759",
+            "xmlid": "CIT0002"
+        }
+    ],
+    "localid": "MED-31594483",
+    "doi": "10.1080/10872981.2019.1677392",
+    "pmid": "10.1080/10872981.2019.1677392",
+    "pmcid": "31594483",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31594483/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/p[2]),1,194)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/p[4]),153,188)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

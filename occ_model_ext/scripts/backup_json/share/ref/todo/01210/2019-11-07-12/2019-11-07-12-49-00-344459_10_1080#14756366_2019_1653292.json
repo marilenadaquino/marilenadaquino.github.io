@@ -1,0 +1,535 @@
+{
+    "references": [
+        {
+            "bibentry": "World Health Organization, Media Centre, Cancer. Available from: http://www.who.int/mediacentre/factsheets/fs297/en/ [last accessed 16 March 2019].",
+            "process_entry": "True",
+            "url": "http://www.who.int/mediacentre/factsheets/fs297/en/ [last accessed 16 March 2019].",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Belpomme, D, Irigaray, P, Sasco, AJ, et al. The growing incidence of cancer: role of lifestyle and screening detection. Int J Oncol 2007; 30: 1037–49. PMID: 17390005",
+            "process_entry": "True",
+            "doi": "10.3892/ijo.30.5.1037",
+            "pmid": "17390005",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Frankish, H. 15 million new cancer cases per year by 2020, says WHO. Lancet 2003; 361: 1278. PMID: 12699963",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(03)13038-3",
+            "pmid": "12699963",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Anderson, CM, Buzaid, AC, Legha, SS. Systemic treatments for advanced cutaneous melanoma. Oncology (Williston Park) 1995; 9: 1149–58. PMID: 8703684",
+            "process_entry": "True",
+            "pmid": "8703684",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Smith, RA, Dumas, J, Adnane, L, et al. Recent advances in the research and development of RAF kinase inhibitors. Curr Top Med Chem 2006; 6: 1071–89. PMID: 16842147",
+            "process_entry": "True",
+            "doi": "10.2174/156802606777812077",
+            "pmid": "16842147",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Brose, MS, Volpe, P, Feldman, M, et al. BRAF and RAS mutations in human lung cancer and melanoma. Cancer Res 2002; 62: 6997–7000. PMID: 12460918",
+            "process_entry": "True",
+            "pmid": "12460918",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Wilhelm, SM, Carter, C, Tang, L, et al. BAY 43-9006 exhibits broad spectrum oral antitumor activity and targets the RAF/MEK/ERK pathway and receptor tyrosine kinases involved in tumor progression and angiogenesis. Cancer Res 2004; 64: 7099–109. PMID: 15466206",
+            "process_entry": "True",
+            "doi": "10.1158/0008-5472.can-04-1443",
+            "pmid": "15466206",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Abdel-Maksoud, MS, Gamal El-Din, MM, et al. Cell-based biological evaluation of a new bisamide FMS kinase inhibitor possessing pyrrolo[3,2-c]pyridine scaffold. Arch Pharm Chem Life Sci 2014; 347: 635–41.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Khan, MA, El-Gamal, MI, Abdel-Maksoud, MS, et al. Broad-spectrum antiproliferative activity of diarylureas and diarylamides possessing pyrrolo[3,2-c]pyridine scaffold. J Pharm Pharmacol 2014; 2: 157–69.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Khan, MA, Abdel-Maksoud, MS, et al. A new series of diarylamides possessing quinoline nucleus: synthesis, in vitro anticancer activities, and kinase inhibitory effect. Eur J Med Chem 2014; 87: 484–92. PMID: 25282271",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.09.068",
+            "pmid": "25282271",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Gamal El-Din, MM, El-Gamal, MI, Abdel-Maksoud, MS, et al. Synthesis and broad-spectrum antiproliferative activity of diarylamides and diarylureas possessing 1,3,4-oxadiazole derivatives. Bioorg Med Chem Lett 2015; 25: 1692–9. PMID: 25801936",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2015.03.001",
+            "pmid": "25801936",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Capdeville, R, Buchdunger, E, Zimmermann, J, et al. Glivec (STI571, imatinib), a rationally developed, targeted anticancer drug. Nat Rev Drug Discov 2002; 1: 493–502. PMID: 12120256",
+            "process_entry": "True",
+            "doi": "10.1038/nrd839",
+            "pmid": "12120256",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Shawver, LK, Slamon, D, Ullrich, A. Smart drugs: tyrosine kinase inhibitors in cancer therapy. Cancer Cell 2002; 1: 117–23. PMID: 12086869",
+            "process_entry": "True",
+            "doi": "10.1016/s1535-6108(02)00039-9",
+            "pmid": "12086869",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Choi, WK, Oh, CH. Synthesis and antiproliferative activities of 1-substituted-3-(3-chloro-5-methoxyphenyl)-4-pyridinylpyrazole derivatives against melanoma cell line. Bull Korean Chem Soc 2009; 30: 2027–31.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Choi, WK, El-Gamal, MI, Choi, WK, et al. New diarylureas and diarylamides containing 1,3,4-triarylpyrazole scaffold: synthesis, antiproliferative evaluation against melanoma cell lines, ERK kinase inhibition, and molecular docking studies. Eur J Med Chem 2011; 46: 5754–62. PMID: 22014559",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2011.08.013",
+            "pmid": "22014559",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Park, YS, Chi, DY, et al. New triarylpyrazoles as broad-spectrum anticancer agents: design, synthesis, and biological evaluation. Eur J Med Chem 2013; 65: 315–22. PMID: 23732996",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2013.04.067",
+            "pmid": "23732996",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Choi, HS, Cho, HG, et al. Design, synthesis, and antiproliferative activity of 3,4-diarylpyrazole-1-carboxamide derivatives against, melanoma cell line. Arch Pharm Chem Life Sci 2011; 344: 745–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Choi, HS, Yoo, KH, et al. Antiproliferative diarylpyrazole derivatives as dual inhibitors of the ERK pathway and COX-2. Chem Biol Drug Des 2013; 82: 336–47. PMID: 23834707",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.12186",
+            "pmid": "23834707",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "DTP Human Tumor Cell Line Screen Process: Available from: http://www.dtp.nci.nih.gov/branches/btb/ivclsp.html [last accessed 16 March 2019].",
+            "process_entry": "True",
+            "url": "http://www.dtp.nci.nih.gov/branches/btb/ivclsp.html [last accessed 16 March 2019].",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Khan, MA, El-Gamal, MI, Tarazi, H, et al. Design and synthesis of a new series of highly potent RAF kinase-inhibiting triarylpyrazole derivatives possessing antiproliferative activity against melanoma. Future Med Chem 2016; 8: 2197–211. PMID: 27845592",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2016-0057",
+            "pmid": "27845592",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Sim, TB, Hong, JH, et al. Synthesis of 1 H-pyrazole-1-carboxamide derivatives and their antiproliferative activity against melanoma cell line. Arch Pharm Chem Life Sci 2011; 344: 197–204.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Oh, CH. Design and synthesis of 3-(3-chloro-4-substituted phenyl)-4-(pyridin-4-yl)-1Hpyrazole-1-carboxamide derivatives and their antiproliferative activity against melanoma cell line. Bull Korean Chem Soc 2011; 32: 821–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Reaction Biology + ProQinase = Your Partner for Drug Discovery Available from http://www.reactionbiology.com [last accessed 2 August 2019].",
+            "process_entry": "True",
+            "url": "http://www.reactionbiology.com [last accessed 2 August 2019].",
+            "xmlid": "CIT0023"
+        }
+    ],
+    "localid": "MED-31452407",
+    "doi": "10.1080/14756366.2019.1653292",
+    "pmid": "10.1080/14756366.2019.1653292",
+    "pmcid": "31452407",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31452407/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),69,241)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),311,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),311,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,125)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),127,63)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),191,85)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),427,181)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "8–11",
+                "pl_string": "8–11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),609,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "pl_string": "8–11",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),609,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "pl_string": "8–11",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),609,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "pl_string": "8–11",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),609,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "8–11",
+                "pl_string": "8–11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),609,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),805,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "14–18",
+                "pl_string": "14–18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),132,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),132,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),132,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),132,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),132,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "14–18",
+                "pl_string": "14–18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),132,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,71)",
+                "containers_title": [
+                    "Experimental",
+                    "General"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,71)",
+                "containers_title": [
+                    "Experimental",
+                    "General"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[17]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[17]/p),1,154)",
+                "containers_title": [
+                    "Experimental",
+                    "Cancer cell line screening at the NCI"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[18]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[18]/p),1,56)",
+                "containers_title": [
+                    "Experimental",
+                    "Antiproliferative assay against A375 human melanoma cell line"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0020",
+                "rp_string": "20–22",
+                "pl_string": "20–22",
+                "rp_xpath": "/article/body/sec[2]/sec[18]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[18]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[18]/p),1,56)",
+                "containers_title": [
+                    "Experimental",
+                    "Antiproliferative assay against A375 human melanoma cell line"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0021",
+                "pl_string": "20–22",
+                "pl_xpath": "/article/body/sec[2]/sec[18]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[18]/p),1,56)",
+                "containers_title": [
+                    "Experimental",
+                    "Antiproliferative assay against A375 human melanoma cell line"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0022",
+                "pl_string": "20–22",
+                "pl_xpath": "/article/body/sec[2]/sec[18]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[18]/p),1,56)",
+                "containers_title": [
+                    "Experimental",
+                    "Antiproliferative assay against A375 human melanoma cell line"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0020",
+                "rp_string": "20–22",
+                "pl_string": "20–22",
+                "rp_xpath": "/article/body/sec[2]/sec[18]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[18]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[18]/p),1,56)",
+                "containers_title": [
+                    "Experimental",
+                    "Antiproliferative assay against A375 human melanoma cell line"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[19]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[19]/p),1,142)",
+                "containers_title": [
+                    "Experimental",
+                    "Kinase profiling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),188,106)",
+                "containers_title": [
+                    "Results and discussion",
+                    "A375 melanoma cell line screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,507)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vitro kinase screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),947,186)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vitro kinase screening"
+                ]
+            }
+        ]
+    ]
+}

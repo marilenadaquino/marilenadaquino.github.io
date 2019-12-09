@@ -1,0 +1,605 @@
+{
+    "references": [
+        {
+            "bibentry": "Song, WJ, Chang, YS, Faruqi, S, Kim, JY, Kang, MG, Kim, S. The global epidemiology of chronic cough in adults: a systematic review and meta-analysis, Eur Respir J, 2015, 45, 1479, 1481, PMID: 25657027",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00218714",
+            "pmid": "25657027",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Iyer, VN, Lim, KG. Chronic cough: an update, Mayo Clin Proc, 2013, 88, 1115, 1126, PMID: 24079681",
+            "process_entry": "True",
+            "doi": "10.1016/j.mayocp.2013.08.007",
+            "pmid": "24079681",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Irwin, RS, French, CL, Chang, AB, Altman, KW. CHEST Expert Cough Panel*, Classification of cough as a symptom in adults and management algorithms: CHEST guideline and expert panel report, Chest, 2018, 153, 196, 209, PMID: 29080708",
+            "process_entry": "True",
+            "doi": "10.1016/j.chest.2017.10.016",
+            "pmid": "29080708",
+            "pmcid": "PMC6689094",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Bousquet, J, Khaltaev, N, Cruz, AA, Denburg, J, Fokkens, WJ, Togias, A. Allergic Rhinitis and its Impact on Asthma (ARIA) 2008 update (in collaboration with the World Health Organization, GA(2)LEN and AllerGen), Allergy, 2008, 63, Suppl 86, 8, 160, PMID: 18331513",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.2007.01620.x",
+            "pmid": "18331513",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Katelaris, CH, Lee, BW, Potter, PC, Maspero, JF, Cingi, C, Lopatin, A. Prevalence and diversity of allergic rhinitis in regions of the world beyond Europe and North America, Clin Exp Allergy, 2012, 42, 186, 207, PMID: 22092947",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2222.2011.03891.x",
+            "pmid": "22092947",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Meltzer, EO. Allergic rhinitis: burden of illness, quality of life, comorbidities, and control, Immunol Allergy Clin North Am, 2016, 36, 235, 248, PMID: 27083099",
+            "process_entry": "True",
+            "doi": "10.1016/j.iac.2015.12.002",
+            "pmid": "27083099",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Hong, Q, Bai, C, Wang, X. Characteristics of Chinese patients with cough in primary care centre, J Transl Med, 2011, 9, 149, PMID: 21906389",
+            "process_entry": "True",
+            "doi": "10.1186/1479-5876-9-149",
+            "pmid": "21906389",
+            "pmcid": "PMC3179729",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Cho, SH, Lin, HC, Ghoshal, AG, Bin Abdul Muttalif, AR, Thanaviratananich, S, Bagga, S. Respiratory disease in the Asia-Pacific region: cough as a key symptom, Allergy Asthma Proc, 2016, 37, 131, 140, PMID: 26802834",
+            "process_entry": "True",
+            "doi": "10.2500/aap.2016.37.3925",
+            "pmid": "26802834",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Pratter, MR. Chronic upper airway cough syndrome secondary to rhinosinus diseases (previously referred to as postnasal drip syndrome): ACCP evidence-based clinical practice guidelines, Chest, 2006, 129, 63S, 71S, PMID: 16428694",
+            "process_entry": "True",
+            "doi": "10.1378/chest.129.1_suppl.63s",
+            "pmid": "16428694",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Tajiri, T, Niimi, A, Matsumoto, H, Ito, I, Oguma, T, Otsuka, K. Prevalence and clinical relevance of allergic rhinitis in patients with classic asthma and cough variant asthma, Respiration, 2014, 87, 211, 218, PMID: 24401902",
+            "process_entry": "True",
+            "doi": "10.1159/000355706",
+            "pmid": "24401902",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Lai, K, Liu, B, Xu, D, Han, L, Lin, L, Xi, Y. Will nonasthmatic eosinophilic bronchitis develop into chronic airway obstruction: a prospective, observational study, Chest, 2015, 148, 887, 894, PMID: 25905627",
+            "process_entry": "True",
+            "doi": "10.1378/chest.14-2351",
+            "pmid": "25905627",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Wang, Z, Pianosi, P, Keogh, K, Zaiem, F, Alsawas, M, Alahdab, F. The clinical utility of fractional exhaled nitric oxide (FeNO) in asthma management, Rockville (MD), Agency for Healthcare Research and Quality, 2017",
+            "process_entry": "True",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Ciprandi, G, Gallo, F, Ricciardolo, FL, Cirillo, I. Fractional exhaled nitric oxide: a potential biomarker in allergic rhinitis, Int Arch Allergy Immunol, 2017, 172, 99, 105, PMID: 28253520",
+            "process_entry": "True",
+            "doi": "10.1159/000456548",
+            "pmid": "28253520",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Krantz, C, Janson, C, Borres, MP, Nordvall, L, Alving, K, Malinovschi, A. Nasal nitric oxide is associated with exhaled NO, bronchial responsiveness and poor asthma control, J Breath Res, 2014, 8, 026002, PMID: 24674999",
+            "process_entry": "True",
+            "doi": "10.1088/1752-7155/8/2/026002",
+            "pmid": "24674999",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Sato, S, Saito, J, Sato, Y, Ishii, T, Xintao, W, Tanino, Y. Clinical usefulness of fractional exhaled nitric oxide for diagnosing prolonged cough, Respir Med, 2008, 102, 1452, 1459, PMID: 18614345",
+            "process_entry": "True",
+            "doi": "10.1016/j.rmed.2008.04.018",
+            "pmid": "18614345",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Maniscalco, M, Faraone, S, Sofia, M, Molino, A, Vatrella, A, Zedda, A. Extended analysis of exhaled and nasal nitric oxide for the evaluation of chronic cough, Respir Med, 2015, 109, 970, 974, PMID: 26048083",
+            "process_entry": "True",
+            "doi": "10.1016/j.rmed.2015.05.016",
+            "pmid": "26048083",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Bommarito, L, Migliore, E, Bugiani, M, Heffler, E, Guida, G, Bucca, C. Exhaled nitric oxide in a population sample of adults, Respiration, 2008, 75, 386, 392, PMID: 17596680",
+            "process_entry": "True",
+            "doi": "10.1159/000104852",
+            "pmid": "17596680",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Linhares, D, Jacinto, T, Pereira, AM, Fonseca, JA. Effects of atopy and rhinitis on exhaled nitric oxide values -a systematic review, Clin Transl Allergy, 2011, 1, 8, PMID: 22409776",
+            "process_entry": "True",
+            "doi": "10.1186/2045-7022-1-8",
+            "pmid": "22409776",
+            "pmcid": "PMC3339369",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Dicpinigaitis, PV. Chronic cough due to asthma: ACCP evidence-based clinical practice guidelines, Chest, 2006, 129, 75S, 79S, PMID: 16428696",
+            "process_entry": "True",
+            "doi": "10.1378/chest.129.1_suppl.75s",
+            "pmid": "16428696",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Miller, MR, Hankinson, J, Brusasco, V, Burgos, F, Casaburi, R, Coates, A. Standardisation of lung function testing: the authors' replies to readers' comments, Eur Respir J, 2010, 36, 1496, 1498, PMID: 21119213",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00130010",
+            "pmid": "21119213",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Burgel, PR. The role of small airways in obstructive airway diseases, Eur Respir Rev, 2011, 20, 23, 33, PMID: 21357889",
+            "process_entry": "True",
+            "doi": "10.1183/09059180.00010410",
+            "pmid": "21357889",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Ciprandi, G, Tosca, MA, Signori, A, Cirillo, I. Bronchial hyperreactivity in patients with allergic rhinitis: forced expiratory flow between 25 and 75% of vital capacity might be a predictive factor, Allergy Asthma Proc, 2011, 32, 4, 8, PMID: 21439158",
+            "process_entry": "True",
+            "doi": "10.2500/aap.2011.32.3425",
+            "pmid": "21439158",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Ciprandi, G, Tosca, MA, Castellazzi, AM, Cairello, F, Salpietro, C, Arrigo, T. FEF(25–75) might be a predictive factor for bronchial inflammation and bronchial hyperreactivity in adolescents with allergic rhinitis, Int J Immunopathol Pharmacol, 2011, 24, 17, 20",
+            "process_entry": "True",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Sposato, B, Scalese, M, Migliorini, MG, Di Tomassi, M, Scala, R. Small airway impairment and bronchial hyperresponsiveness in asthma onset, Allergy Asthma Immunol Res, 2014, 6, 242, 251, PMID: 24843800",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2014.6.3.242",
+            "pmid": "24843800",
+            "pmcid": "PMC4021243",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Morice, AH, Fontana, GA, Belvisi, MG, Birring, SS, Chung, KF, Dicpinigaitis, PV. ERS guidelines on the assessment of cough, Eur Respir J, 2007, 29, 1256, 1276, PMID: 17540788",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00101006",
+            "pmid": "17540788",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Kanemitsu, Y, Matsumoto, H, Oguma, T, Nagasaki, T, Ito, I, Izuhara, Y. Independent factors contributing to daytime and nighttime asthmatic cough refractory to inhaled corticosteroids, J Investig Allergol Clin Immunol, 2019, 29, 30, 39",
+            "process_entry": "True",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Good, JT, Jr, Rollins, DR, Kolakowski, CA, Stevens, AD, Denson, JL, Martin, RJ. New insights in the diagnosis of chronic refractory cough, Respir Med, 2018, 141, 103, 110, PMID: 30053955",
+            "process_entry": "True",
+            "doi": "10.1016/j.rmed.2018.06.024",
+            "pmid": "30053955",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Dreborg, S. Skin testing. The safety of skin tests and the information obtained from using different methods and concentrations of allergen, Allergy, 1993, 48, 473, 475, PMID: 8238806",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.1993.tb01102.x",
+            "pmid": "8238806",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "American Thoracic Society, European Respiratory Society, ATS/ERS recommendations for standardized procedures for the online and offline measurement of exhaled lower respiratory nitric oxide and nasal nitric oxide, 2005, Am J Respir Crit Care Med, 2005, 171, 912, 930, PMID: 15817806",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200406-710st",
+            "pmid": "15817806",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Sohn, SW, Lee, HS, Park, HW, Chang, YS, Kim, YK, Cho, SH. Evaluation of cytokine mRNA in induced sputum from patients with allergic rhinitis: relationship to airway hyperresponsiveness, Allergy, 2008, 63, 268, 273, PMID: 18053010",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.2007.01550.x",
+            "pmid": "18053010",
+            "xmlid": "B30"
+        },
+        {
+            "bibentry": "Birnbaum, S, Barreiro, TJ. Methacholine challenge testing: identifying its diagnostic role, testing, coding, and reimbursement, Chest, 2007, 131, 1932, 1935, PMID: 17565027",
+            "process_entry": "True",
+            "doi": "10.1378/chest.06-1385",
+            "pmid": "17565027",
+            "xmlid": "B31"
+        },
+        {
+            "bibentry": "Hanley, JA, McNeil, BJ. A method of comparing the areas under receiver operating characteristic curves derived from the same cases, Radiology, 1983, 148, 839, 843, PMID: 6878708",
+            "process_entry": "True",
+            "doi": "10.1148/radiology.148.3.6878708",
+            "pmid": "6878708",
+            "xmlid": "B32"
+        },
+        {
+            "bibentry": "Lai, K, Chen, R, Lin, J, Huang, K, Shen, H, Kong, L. A prospective, multicenter survey on causes of chronic cough in China, Chest, 2013, 143, 613, 620, PMID: 23238526",
+            "process_entry": "True",
+            "doi": "10.1378/chest.12-0441",
+            "pmid": "23238526",
+            "xmlid": "B33"
+        },
+        {
+            "bibentry": "Mims, JW. Asthma: definitions and pathophysiology, Int Forum Allergy Rhinol, 2015, 5, Suppl 1, S2, S6, PMID: 26335832",
+            "process_entry": "True",
+            "doi": "10.1002/alr.21609",
+            "pmid": "26335832",
+            "xmlid": "B34"
+        },
+        {
+            "bibentry": "Yi, F, Chen, R, Luo, W, Xu, D, Han, L, Liu, B. Validity of fractional exhaled nitric oxide in diagnosis of corticosteroid-responsive cough, Chest, 2016, 149, 1042, 1051, PMID: 26836931",
+            "process_entry": "True",
+            "doi": "10.1016/j.chest.2016.01.006",
+            "pmid": "26836931",
+            "xmlid": "B35"
+        },
+        {
+            "bibentry": "Westerhof, GA, Korevaar, DA, Amelink, M, de Nijs, SB, de Groot, JC, Wang, J. Biomarkers to identify sputum eosinophilia in different adult asthma phenotypes, Eur Respir J, 2015, 46, 688, 696, PMID: 26113672",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00012415",
+            "pmid": "26113672",
+            "xmlid": "B36"
+        },
+        {
+            "bibentry": "Tang, W, Zhou, J, Miao, L, Shi, G. Clinical features in patients of cough variant asthma with normal and high level of exhaled fractional nitric oxide, Clin Respir J, 2018, 12, 595, 600, PMID: 27731932",
+            "process_entry": "True",
+            "doi": "10.1111/crj.12568",
+            "pmid": "27731932",
+            "xmlid": "B37"
+        },
+        {
+            "bibentry": "Oh, MJ, Lee, JY, Lee, BJ, Choi, DC. Exhaled nitric oxide measurement is useful for the exclusion of nonasthmatic eosinophilic bronchitis in patients with chronic cough, Chest, 2008, 134, 990, 995, PMID: 18583518",
+            "process_entry": "True",
+            "doi": "10.1378/chest.07-2541",
+            "pmid": "18583518",
+            "xmlid": "B38"
+        },
+        {
+            "bibentry": "Song, WJ, Kim, HJ, Shim, JS, Won, HK, Kang, SY, Sohn, KH. Diagnostic accuracy of fractional exhaled nitric oxide measurement in predicting cough-variant asthma and eosinophilic bronchitis in adults with chronic cough: a systematic review and meta-analysis, J Allergy Clin Immunol, 2017, 140, 701, 709, PMID: 28088474",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2016.11.037",
+            "pmid": "28088474",
+            "xmlid": "B39"
+        },
+        {
+            "bibentry": "Song, DJ, Song, WJ, Kwon, JW, Kim, GW, Kim, MA, Kim, MY. KAAACI evidence-based clinical practice guidelines for chronic cough in adults and children in Korea, Allergy Asthma Immunol Res, 2018, 10, 591, 613, PMID: 30306744",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2018.10.6.591",
+            "pmid": "30306744",
+            "pmcid": "PMC6182199",
+            "xmlid": "B40"
+        },
+        {
+            "bibentry": "Hsu, JY, Wang, CY, Cheng, YW, Chou, MC. Optimal value of fractional exhaled nitric oxide in inhaled corticosteroid treatment for patients with chronic cough of unknown cause, J Chin Med Assoc, 2013, 76, 15, 19, PMID: 23331776",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcma.2012.08.010",
+            "pmid": "23331776",
+            "xmlid": "B41"
+        },
+        {
+            "bibentry": "Bao, W, Zhang, X, Lv, C, Bao, L, Yin, J, Huang, Z. The value of fractional exhaled nitric oxide and forced mid-expiratory flow as predictive markers of bronchial hyperresponsiveness in adults with chronic cough, J Allergy Clin Immunol Pract, 2018, 6, 1313, 1320, PMID: 29128336",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaip.2017.09.026",
+            "pmid": "29128336",
+            "xmlid": "B42"
+        },
+        {
+            "bibentry": "Muñoz-López, F, Ríos-Alcolea, M. The interest of FEF(25–75) in evaluating bronchial hyperresponsiveness with the methacholine test, Allergol Immunopathol (Madr), 2012, 40, 352, 356, PMID: 21975147",
+            "process_entry": "True",
+            "doi": "10.1016/j.aller.2011.07.003",
+            "pmid": "21975147",
+            "xmlid": "B43"
+        },
+        {
+            "bibentry": "Niimi, A. Cough associated with gastro-oesophageal reflux disease (GORD): Japanese experience, Pulm Pharmacol Ther, 2017, 47, 59, 65, PMID: 28506663",
+            "process_entry": "True",
+            "doi": "10.1016/j.pupt.2017.05.006",
+            "pmid": "28506663",
+            "xmlid": "B44"
+        },
+        {
+            "bibentry": "Kahrilas, PJ, Altman, KW, Chang, AB, Field, SK, Harding, SM, Lane, AP. Chronic cough due to gastroesophageal reflux in adults: CHEST guideline and expert panel report, Chest, 2016, 150, 1341, 1360, PMID: 27614002",
+            "process_entry": "True",
+            "doi": "10.1016/j.chest.2016.08.1458",
+            "pmid": "27614002",
+            "pmcid": "PMC6026249",
+            "xmlid": "B45"
+        },
+        {
+            "bibentry": "Hulme, K, Deary, V, Dogan, S, Parker, SM. Psychological profile of individuals presenting with chronic cough, ERJ Open Res, 2017, 3, 00099-2016, PMID: 28344979",
+            "process_entry": "True",
+            "doi": "10.1183/23120541.00099-2016",
+            "pmid": "28344979",
+            "pmcid": "PMC5357770",
+            "xmlid": "B46"
+        }
+    ],
+    "localid": "MED-31552718",
+    "doi": "10.4168/aair.2019.11.6.830",
+    "pmid": "10.4168/aair.2019.11.6.830",
+    "pmcid": "31552718",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31552718/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,751)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),131,1549)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),280,355)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Subjects and study protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),439,666)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Subjects and study protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,766)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Specific tests"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),665,267)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),377,130)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),190,428)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),274,250)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),525,377)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,335)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),337,537)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B36",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),875,162)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,199)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B38",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),201,860)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1370,406)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1777,310)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),389,622)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),1319,448)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,286)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),175,184)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B46",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/p[12]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[12]),299,200)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

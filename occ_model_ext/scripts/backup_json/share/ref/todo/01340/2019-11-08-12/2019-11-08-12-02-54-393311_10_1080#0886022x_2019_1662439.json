@@ -1,0 +1,255 @@
+{
+    "references": [
+        {
+            "bibentry": "Funder, JW, Carey, RM, Mantero, F, et al. The management of primary aldosteronism: case detection, diagnosis and treatment: an endocrine society clinical practice guideline. J Clin Endocrinol Metab. 2016; 101(5): 1889–1916. PMID: 26934393",
+            "process_entry": "True",
+            "doi": "10.1210/jc.2015-4061",
+            "pmid": "26934393",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Graziani, G, Fedeli, C, Moroni, L, et al. Gitelman syndrome: pathophysiological and clinical aspects. Q J Med. 2010; 103(10): 741–748.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Santos, F, Gil-Peña, H, Blázquez, C, et al. Gitelman syndrome: a review of clinical features, genetic diagnosis and therapeutic management. Expert Opinion Orphan Drugs. 2016;10(4): 1–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Subramanya, AR, Ellison, DH. Distal convoluted tubule. Clin J Am Soc Nephrol. 2014; 9(12): 2147–2163. PMID: 24855283",
+            "process_entry": "True",
+            "doi": "10.2215/CJN.05920613",
+            "pmid": "24855283",
+            "pmcid": "PMC4255408",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Brown, JM, Robinson-Cohen, C, Luque-Fernandez, MA, et al. The spectrum of subclinical primary aldosteronism and incident hypertension: a cohort study. Ann Intern Med. 2017; 167(9): 630–641. PMID: 29052707",
+            "process_entry": "True",
+            "doi": "10.7326/M17-0882",
+            "pmid": "29052707",
+            "pmcid": "PMC5920695",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Melcescu, E, Phillips, J, Moll, G, et al. 11 Beta-hydroxylase deficiency and other syndromes of mineralocorticoid excess as a rare cause of endocrine hypertension. Horm Metab Res. 2012; 44(12): 867–878. PMID: 22932914",
+            "process_entry": "True",
+            "doi": "10.1055/s-0032-1321851",
+            "pmid": "22932914",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Kasifoglu, T, Akalin, A, Cansu, DU, et al. Hypokalemic paralysis due to primary hyperaldosteronism simulating Gitelman’s syndrome. Saudi J Kidney Dis Transpl. 2009; 20(2): 285–286. PMID: 19237821",
+            "process_entry": "True",
+            "pmid": "19237821",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Toh, TH, Tong, CV, Chong, HC. Primary aldosteronism –not just about potassium and blood pressure. Int J Med. 2017;110(3): 175–177.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Chhokar, VS, Bhattacharya, SK, Ahokas, RA, et al. Hyperparathyroidism and the calcium paradox of aldosteronism. Circulation. 2005; 111(7): 871–878. PMID: 15710759",
+            "process_entry": "True",
+            "doi": "10.1161/01.cir.0000155621.10213.06",
+            "pmid": "15710759",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Gonzalez-Campoy, MJ, Romero, CJ, Knox, FG. Escape from the sodium-retaining effects of mineralocorticoids: role of ANF and intrarenal hormone systems. Kidney Int. 1989; 35(3): 767. PMID: 2523495",
+            "process_entry": "True",
+            "doi": "10.1038/ki.1989.51",
+            "pmid": "2523495",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Delva, P, Pastori, C, Degan, M, et al. Intralymphocyte free magnesium in patients with primary aldosteronism. Hypertension. 2000; 35(1): 113–117. PMID: 10642284",
+            "process_entry": "True",
+            "doi": "10.1161/01.hyp.35.1.113",
+            "pmid": "10642284",
+            "xmlid": "CIT0011"
+        }
+    ],
+    "localid": "MED-31498018",
+    "doi": "10.1080/0886022X.2019.1662439",
+    "pmid": "10.1080/0886022X.2019.1662439",
+    "pmcid": "31498018",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31498018/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),126,70)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),197,154)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),196,110)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),307,163)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),471,337)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),802,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),471,337)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),802,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),230,195)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),498,288)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),787,520)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1126,286)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1584,112)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1980,358)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),2448,226)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),2838,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

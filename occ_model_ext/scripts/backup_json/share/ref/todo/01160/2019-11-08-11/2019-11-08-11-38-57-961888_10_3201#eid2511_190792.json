@@ -1,0 +1,266 @@
+{
+    "references": [
+        {
+            "bibentry": "Kuchta R, Scholz T. Diphyllobothriidea. In: Caira JN, Jensen K, editors. Planetary biodiversity inventory (2008–2017): tapeworms from vertebrate bowels of the earth. Special publication no. 25. Lawrence (KS, USA): University of Kansas, Natural History Museum; 2017. p. 167–89.",
+            "process_entry": "True",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Torres P, Franjola R, Pérez J, Auad S, Uherek F, Miranda JC, et al. Epidemiología de la difilobotriasis en la cuenca del Río Valdivia, Chile. Rev Saude Publica. 1989; 23: 45–57. DOI: 10.1590/S0034-89101989000100007 PMID: 2814310",
+            "process_entry": "True",
+            "doi": "10.1590/s0034-89101989000100007",
+            "pmid": "2814310",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Revenga J, Semenas L. Difilobotriasis en salmónidos introducidos en el Parque y Reserva Nacional Nahuel Huapi Argentina: morfológia de plerocercoides. Arch Med Vet. 1991; 23: 157–63.",
+            "process_entry": "True",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Scholz T, Kuchta R. Fish-borne, zoonotic cestodes (Diphyllobothrium and relatives) in cold climates: a never-ending story of neglected and (re)-emergent parasites. Food and Waterborne Parasitology. 2016; 4: 23–38. DOI: 10.1016/j.fawpar.2016.07.002",
+            "process_entry": "True",
+            "doi": "10.1016/j.fawpar.2016.07.002",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Soto D, Arismendi I, Gonzáles J, Sanzana J, Jara F, Jara C, et al. Southern Chile, trout and salmon country: invasion patterns and threats for native species. Rev Chil Hist Nat. 2006; 79: 97–117. DOI: 10.4067/S0716-078X2006000100009",
+            "process_entry": "True",
+            "doi": "10.4067/s0716-078x2006000100009",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Wicht B, Yanagida T, Scholz T, Ito A, Jiménez JA, Brabec J. Multiplex PCR for differential identification of broad tapeworms (Cestoda: Diphyllobothrium) infecting humans. J Clin Microbiol. 2010; 48: 3111–6. DOI: 10.1128/JCM.00445-10 PMID: 20592146",
+            "process_entry": "True",
+            "doi": "10.1128/JCM.00445-10",
+            "pmid": "20592146",
+            "pmcid": "PMC2937707",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Kuchta R, Brabec J, Kubáčková P, Scholz T. Tapeworm Diphyllobothrium dendriticum (Cestoda)—neglected or emerging human parasite? PLoS Negl Trop Dis. 2013; 7: e2535. DOI: 10.1371/journal.pntd.0002535 PMID: 24386497",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pntd.0002535",
+            "pmid": "24386497",
+            "pmcid": "PMC3873255",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Golusda P. Aclimatación y cultivo de especies salmonídeas en Chile. Bol Soc Biol Concepc. 1927; 1: 80–100.",
+            "process_entry": "True",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Tulián E. Acclimatization of American fishes in Argentina. Bull Bureau Fish. 1910; 28: 3–20.",
+            "process_entry": "True",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Fernández MV, Lallement M, Rechencq M, Vigliano PH, Sosnovsky A, Macchi PJ. Top predator fish assemblages in Northern Patagonia, Argentina. What factors regulate their patterns of distribution and abundance? Austral Ecol. 2018; 43: 651–62. DOI: 10.1111/aec.12610",
+            "process_entry": "True",
+            "doi": "10.1111/aec.12610",
+            "xmlid": "R10"
+        }
+    ],
+    "localid": "MED-31625847",
+    "doi": "10.3201/eid2511.190792",
+    "pmid": "10.3201/eid2511.190792",
+    "pmcid": "31625847",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31625847/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),84,244)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),477,231)",
+                "containers_title": "",
+                "pl_string": "(2,3)",
+                "pl_xpath": "substring(string(/article/body/p[1]),702,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),477,231)",
+                "containers_title": "",
+                "pl_string": "(2,3)",
+                "pl_xpath": "substring(string(/article/body/p[1]),702,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),304,245)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),550,285)",
+                "containers_title": "",
+                "pl_string": "(1,4)",
+                "pl_xpath": "substring(string(/article/body/p[2]),829,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),550,285)",
+                "containers_title": "",
+                "pl_string": "(1,4)",
+                "pl_xpath": "substring(string(/article/body/p[2]),829,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/p[3]),1,272)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),545,139)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,164)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[6]),460,44)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[6]),505,281)",
+                "containers_title": "",
+                "pl_string": "(1,4)",
+                "pl_xpath": "substring(string(/article/body/p[6]),780,5)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[6]),505,281)",
+                "containers_title": "",
+                "pl_string": "(1,4)",
+                "pl_xpath": "substring(string(/article/body/p[6]),780,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[7]),98,169)",
+                "containers_title": "",
+                "pl_string": "(8,9)",
+                "pl_xpath": "substring(string(/article/body/p[7]),261,5)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[7]),98,169)",
+                "containers_title": "",
+                "pl_string": "(8,9)",
+                "pl_xpath": "substring(string(/article/body/p[7]),261,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[7]),423,131)",
+                "containers_title": "",
+                "pl_string": "(1,4)",
+                "pl_xpath": "substring(string(/article/body/p[7]),548,5)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[7]),423,131)",
+                "containers_title": "",
+                "pl_string": "(1,4)",
+                "pl_xpath": "substring(string(/article/body/p[7]),548,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[8]),264,159)",
+                "containers_title": "",
+                "pl_string": "(5,10)",
+                "pl_xpath": "substring(string(/article/body/p[8]),416,6)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[8]),264,159)",
+                "containers_title": "",
+                "pl_string": "(5,10)",
+                "pl_xpath": "substring(string(/article/body/p[8]),416,6)"
+            }
+        ]
+    ]
+}

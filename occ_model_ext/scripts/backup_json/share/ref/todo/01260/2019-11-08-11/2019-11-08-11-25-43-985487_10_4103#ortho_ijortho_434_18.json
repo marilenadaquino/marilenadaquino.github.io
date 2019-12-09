@@ -1,0 +1,552 @@
+{
+    "references": [
+        {
+            "bibentry": "Fu, FH. Double-bundle ACL reconstruction, Orthopedics, 2011, 34, 281, 3, PMID: 21469614",
+            "process_entry": "True",
+            "doi": "10.3928/01477447-20110228-15",
+            "pmid": "21469614",
+            "xmlid": "ref1"
+        },
+        {
+            "bibentry": "Iriuchishima, T, Shirakura, K, Yorifuji, H, Aizawa, S, Murakami, T, Fu, FH. ACL footprint size is correlated with the height and area of the lateral wall of femoral intercondylar notch, Knee Surg Sports Traumatol Arthrosc, 2013, 21, 789, 96, PMID: 22552621",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-012-2044-0",
+            "pmid": "22552621",
+            "xmlid": "ref2"
+        },
+        {
+            "bibentry": "Kopf, S, Musahl, V, Tashman, S, Szczodry, M, Shen, W, Fu, FH. A systematic review of the femoral origin and tibial insertion morphology of the ACL, Knee Surg Sports Traumatol Arthrosc, 2009, 17, 213, 9, PMID: 19139847",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-008-0709-5",
+            "pmid": "19139847",
+            "xmlid": "ref3"
+        },
+        {
+            "bibentry": "Kopf, S, Pombo, MW, Szczodry, M, Irrgang, JJ, Fu, FH. Size variability of the human anterior cruciate ligament insertion sites, Am J Sports Med, 2011, 39, 108, 13, PMID: 20847222",
+            "process_entry": "True",
+            "doi": "10.1177/0363546510377399",
+            "pmid": "20847222",
+            "xmlid": "ref4"
+        },
+        {
+            "bibentry": "Muneta, T, Koga, H, Mochizuki, T, Ju, YJ, Hara, K, Nimura, A. A prospective randomized study of 4-strand semitendinosus tendon anterior cruciate ligament reconstruction comparing single-bundle and double-bundle techniques, Arthroscopy, 2007, 23, 618, 28, PMID: 17560476",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2007.04.010",
+            "pmid": "17560476",
+            "xmlid": "ref5"
+        },
+        {
+            "bibentry": "Steiner, ME, Murray, MM, Rodeo, SA. Strategies to improve anterior cruciate ligament healing and graft placement, Am J Sports Med, 2008, 36, 176, 89, PMID: 18166680",
+            "process_entry": "True",
+            "doi": "10.1177/0363546507311690",
+            "pmid": "18166680",
+            "xmlid": "ref6"
+        },
+        {
+            "bibentry": "Tompkins, M, Ma, R, Hogan, MV, Miller, MD. What's new in sports medicine, J Bone Joint Surg Am, 2011, 93, 789, 97, PMID: 21508287",
+            "process_entry": "True",
+            "doi": "10.2106/jbjs.j.01723",
+            "pmid": "21508287",
+            "xmlid": "ref7"
+        },
+        {
+            "bibentry": "Yagi, M, Wong, EK, Kanamori, A, Debski, RE, Fu, FH, Woo, SL. Biomechanical analysis of an anatomic anterior cruciate ligament reconstruction, Am J Sports Med, 2002, 30, 660, 6, PMID: 12238998",
+            "process_entry": "True",
+            "doi": "10.1177/03635465020300050501",
+            "pmid": "12238998",
+            "xmlid": "ref8"
+        },
+        {
+            "bibentry": "Dargel, J, Pohl, P, Tzikaras, P, Koebke, J. Morphometric side-to-side differences in human cruciate ligament insertions, Surg Radiol Anat, 2006, 28, 398, 402, PMID: 16607464",
+            "process_entry": "True",
+            "doi": "10.1007/s00276-006-0107-y",
+            "pmid": "16607464",
+            "xmlid": "ref9"
+        },
+        {
+            "bibentry": "Davis, TJ, Shelbourne, KD, Klootwyk, TE. Correlation of the intercondylar notch width of the femur to the width of the anterior and posterior cruciate ligaments, Knee Surg Sports Traumatol Arthrosc, 1999, 7, 209, 14, PMID: 10462209",
+            "process_entry": "True",
+            "doi": "10.1007/s001670050150",
+            "pmid": "10462209",
+            "xmlid": "ref10"
+        },
+        {
+            "bibentry": "Ferretti, M, Ekdahl, M, Shen, W, Fu, FH. Osseous landmarks of the femoral attachment of the anterior cruciate ligament: An anatomic study, Arthroscopy, 2007, 23, 1218, 25, PMID: 17986410",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2007.09.008",
+            "pmid": "17986410",
+            "xmlid": "ref11"
+        },
+        {
+            "bibentry": "Iriuchishima, T, Tajima, G, Shirakura, K, Morimoto, Y, Kubomura, T, Horaguchi, T. In vitro and, in vivo AM and PL tunnel positioning in anatomical double bundle anterior cruciate ligament reconstruction, Arch Orthop Trauma Surg, 2011, 131, 1085, 90, PMID: 21603947",
+            "process_entry": "True",
+            "doi": "10.1007/s00402-011-1308-3",
+            "pmid": "21603947",
+            "xmlid": "ref12"
+        },
+        {
+            "bibentry": "Iriuchishima, T, Ingham, SJ, Tajima, G, Horaguchi, T, Saito, A, Tokuhashi, Y. Evaluation of the tunnel placement in the anatomical double-bundle ACL reconstruction: A cadaver study, Knee Surg Sports Traumatol Arthrosc, 2010, 18, 1226, 31, PMID: 20390250",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-010-1128-y",
+            "pmid": "20390250",
+            "xmlid": "ref13"
+        },
+        {
+            "bibentry": "Iriuchishima, T, Ryu, K, Aizawa, S, Fu, FH. The difference in centre position in the ACL femoral footprint inclusive and exclusive of the fan-like extension fibres, Knee Surg Sports Traumatol Arthrosc, 2016, 24, 254, 9, PMID: 25308156",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-014-3373-y",
+            "pmid": "25308156",
+            "xmlid": "ref14"
+        },
+        {
+            "bibentry": "Siebold, R, Ellert, T, Metz, S, Metz, J. Femoral insertions of the anteromedial and posterolateral bundles of the anterior cruciate ligament: Morphometry and arthroscopic orientation models for double-bundle bone tunnel placement –A cadaver study, Arthroscopy, 2008, 24, 585, 92, PMID: 18442692",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2007.12.008",
+            "pmid": "18442692",
+            "xmlid": "ref15"
+        },
+        {
+            "bibentry": "Siebold, R, Ellert, T, Metz, S, Metz, J. Tibial insertions of the anteromedial and posterolateral bundles of the anterior cruciate ligament: Morphometry, arthroscopic landmarks, and orientation model for bone tunnel placement, Arthroscopy, 2008, 24, 154, 61, PMID: 18237698",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2007.08.006",
+            "pmid": "18237698",
+            "xmlid": "ref16"
+        },
+        {
+            "bibentry": "Karlsson, J, Irrgang, JJ, van Eck, CF, Samuelsson, K, Mejia, HA, Fu, FH. Anatomic single-and double-bundle anterior cruciate ligament reconstruction, part 2: Clinical application of surgical technique, Am J Sports Med, 2011, 39, 2016, 26, PMID: 21602567",
+            "process_entry": "True",
+            "doi": "10.1177/0363546511402660",
+            "pmid": "21602567",
+            "xmlid": "ref17"
+        },
+        {
+            "bibentry": "Hensler, D, Working, ZM, Illingworth, KD, Thorhauer, ED, Tashman, S, Fu, FH. Medial portal drilling: Effects on the femoral tunnel aperture morphology during anterior cruciate ligament reconstruction, J Bone Joint Surg Am, 2011, 93, 2063, 71, PMID: 22262377",
+            "process_entry": "True",
+            "doi": "10.2106/jbjs.j.01705",
+            "pmid": "22262377",
+            "xmlid": "ref18"
+        },
+        {
+            "bibentry": "Kim, JG, Chang, MH, Lim, HC, Bae, JH, Lee, SY, Ahn, JH. An, in vivo 3D computed tomographic analysis of femoral tunnel geometry and aperture morphology between rigid and flexible systems in double-bundle anterior cruciate ligament reconstruction using the transportal technique, Arthroscopy, 2015, 31, 1318, 29, PMID: 25823674",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2015.01.021",
+            "pmid": "25823674",
+            "xmlid": "ref19"
+        },
+        {
+            "bibentry": "Kopf, S, Martin, DE, Tashman, S, Fu, FH. Effect of tibial drill angles on bone tunnel aperture during anterior cruciate ligament reconstruction, J Bone Joint Surg Am, 2010, 92, 871, 81, PMID: 20360510",
+            "process_entry": "True",
+            "doi": "10.2106/jbjs.h.01680",
+            "pmid": "20360510",
+            "xmlid": "ref20"
+        },
+        {
+            "bibentry": "Noh, JH, Yang, BG, Roh, YH, Kim, SW, Kim, W. Anterior cruciate ligament reconstruction using 4-strand hamstring autograft: Conventional single-bundle technique versus oval-footprint technique, Arthroscopy, 2011, 27, 1502, 10, PMID: 21924856",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2011.06.027",
+            "pmid": "21924856",
+            "xmlid": "ref21"
+        },
+        {
+            "bibentry": "Oshima, T, Nakase, J, Numata, H, Takata, Y, Tsuchiya, H. The cross-sectional shape of the fourfold semitendinosus tendon is oval, not round, J Exp Orthop, 2016, 3, 28, PMID: 27734283",
+            "process_entry": "True",
+            "doi": "10.1186/s40634-016-0063-3",
+            "pmid": "27734283",
+            "pmcid": "PMC5061678",
+            "xmlid": "ref22"
+        },
+        {
+            "bibentry": "Petersen, W, Forkel, P, Achtnich, A, Metzlaff, S, Zantop, T. Technique of anatomical footprint reconstruction of the ACL with oval tunnels and medial portal aimers, Arch Orthop Trauma Surg, 2013, 133, 827, 33, PMID: 23632778",
+            "process_entry": "True",
+            "doi": "10.1007/s00402-013-1741-6",
+            "pmid": "23632778",
+            "xmlid": "ref23"
+        },
+        {
+            "bibentry": "Sasaki, N, Ishibashi, Y, Tsuda, E, Yamamoto, Y, Maeda, S, Mizukami, H. The femoral insertion of the anterior cruciate ligament: Discrepancy between macroscopic and histological observations, Arthroscopy, 2012, 28, 1135, 46, PMID: 22440794",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2011.12.021",
+            "pmid": "22440794",
+            "xmlid": "ref24"
+        },
+        {
+            "bibentry": "Tashiro, Y, Lucidi, GA, Gale, T, Nagai, K, Herbst, E, Irrgang, JJ. Anterior cruciate ligament tibial insertion site is elliptical or triangular shaped in healthy young adults: High-resolution 3-T MRI analysis, Knee Surg Sports Traumatol Arthrosc, 2018, 26, 485, 90, PMID: 28647841",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-017-4607-6",
+            "pmid": "28647841",
+            "xmlid": "ref25"
+        },
+        {
+            "bibentry": "Yılmaz, B, Özdemir, G, Keskinöz, EN, Tümentemur, G, Gökkuş, K, Demiralp, B. Comparing dimensions of four-strand hamstring tendon grafts with native anterior and posterior cruciate ligaments, Biomed Res Int, 2016, 2016, 3795367, PMID: 28105419",
+            "process_entry": "True",
+            "doi": "10.1155/2016/3795367",
+            "pmid": "28105419",
+            "pmcid": "PMC5220404",
+            "xmlid": "ref26"
+        },
+        {
+            "bibentry": "Shino, K, Nakata, K, Nakamura, N, Toritsuka, Y, Horibe, S, Nakagawa, S. Rectangular tunnel double-bundle anterior cruciate ligament reconstruction with bone-patellar tendon-bone graft to mimic natural fiber arrangement, Arthroscopy, 2008, 24, 1178, 83, PMID: 19028171",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2008.06.010",
+            "pmid": "19028171",
+            "xmlid": "ref27"
+        },
+        {
+            "bibentry": "Luites, JW, Wymenga, AB, Blankevoort, L, Kooloos, JG. Description of the attachment geometry of the anteromedial and posterolateral bundles of the ACL from arthroscopic perspective for anatomical tunnel placement, Knee Surg Sports Traumatol Arthrosc, 2007, 15, 1422, 31, PMID: 17899008",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-007-0402-0",
+            "pmid": "17899008",
+            "pmcid": "PMC2082657",
+            "xmlid": "ref28"
+        },
+        {
+            "bibentry": "Brophy, RH, Selby, RM, Altchek, DW. Anterior cruciate ligament revision: Double-bundle augmentation of primary vertical graft, Arthroscopy, 2006, 22, 683.e1, 5, PMID: 16762715",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2005.08.051",
+            "pmid": "16762715",
+            "xmlid": "ref29"
+        },
+        {
+            "bibentry": "Maeyama, A, Hoshino, Y, Debandi, A, Kato, Y, Saeki, K, Asai, S. Evaluation of rotational instability in the anterior cruciate ligament deficient knee using triaxial accelerometer: A biomechanical model in porcine knees, Knee Surg Sports Traumatol Arthrosc, 2011, 19, 1233, 8, PMID: 21350960",
+            "process_entry": "True",
+            "doi": "10.1007/s00167-010-1382-z",
+            "pmid": "21350960",
+            "xmlid": "ref30"
+        },
+        {
+            "bibentry": "Takahashi, M, Doi, M, Abe, M, Suzuki, D, Nagano, A. Anatomical study of the femoral and tibial insertions of the anteromedial and posterolateral bundles of human anterior cruciate ligament, Am J Sports Med, 2006, 34, 787, 92, PMID: 16452272",
+            "process_entry": "True",
+            "doi": "10.1177/0363546505282625",
+            "pmid": "16452272",
+            "xmlid": "ref31"
+        },
+        {
+            "bibentry": "Yasuda, K, Kondo, E, Ichiyama, H, Tanabe, Y, Tohyama, H. Clinical evaluation of anatomic double-bundle anterior cruciate ligament reconstruction procedure using hamstring tendon grafts: Comparisons among 3 different procedures, Arthroscopy, 2006, 22, 240, 51, PMID: 16517306",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2005.12.017",
+            "pmid": "16517306",
+            "xmlid": "ref32"
+        },
+        {
+            "bibentry": "Yasuda, K, van Eck, CF, Hoshino, Y, Fu, FH, Tashman, S. Anatomic single-and double-bundle anterior cruciate ligament reconstruction, part 1: Basic science, Am J Sports Med, 2011, 39, 1789, 99, PMID: 21596902",
+            "process_entry": "True",
+            "doi": "10.1177/0363546511402659",
+            "pmid": "21596902",
+            "xmlid": "ref33"
+        }
+    ],
+    "localid": "MED-31673173",
+    "doi": "10.4103/ortho.IJOrtho_434_18",
+    "pmid": "10.4103/ortho.IJOrtho_434_18",
+    "pmcid": "31673173",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673173/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "ref1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,576)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "ref15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[22]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),578,270)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "ref21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[37]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),849,258)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),377,152)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "ref12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),377,152)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "ref13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),377,152)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),377,152)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),747,700)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),747,700)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "ref12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),747,700)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "ref13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),747,700)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),747,700)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),747,700)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ],
+                "pl_string": "All surrounding muscles and other soft tissues around the knee were resected before ACL dissection. Knees were cut at approximately 200 mm proximal to the femur and distal tibia. All soft tissues were carefully dissected. Anteromedial and posterolateral (AM and PL) bundles were identified according to the difference in tension patterns during complete knee range of motion. With the knee at 90° of flexion, relaxed fibers of the ACL were regarded as the PL bundle.2,121314 After soft tissue resection, the ACL was cut in half. On the femoral side, the femur was split along the sagittal plane through the most superior point of the anterior outlet of the intercondylar notch with an oscillating saw to expose the femoral attachment of the ACL. The outline of the whole femoral ACL footprint was marked first with colored ink, and the midsubstance insertion site of the femoral ACL footprint was then marked [Figure 1a].2 Following the identification of the AM and PL bundle midsubstance fibers, the midsubstance insertion and the fan-like extensions were divided according to the AM and PL bundles and marked.2,121314 Referring to the midsubstance tissue of the ACL, the border between the midsubstance insertion area and fan-like extension fibers of the ACL footprint was clearly distinguished.14 As the intercondylar ridge could not be found out in every knee in this study, the ridge was not referred for the evaluation of the ACL footprint. An accurate lateral view of the femoral condyle was photographed with a digital camera (Casio, Co. Ltd., Tokyo, Japan).214 When the pictures were taken, a measure was placed at the same plane of the footprint. The images were downloaded to a personal computer, and the footprint area was calculated after adjusting the computer images to the actual knee size using Image J software (National Institute of Health, Bethesda, Maryland, USA).214 The accuracy of the area measurement was <0.1 mm2 [Figure 1]. The following areas were calculated: the whole ACL area, the whole midsubstance insertion area, the whole AM area, the midsubstance insertion area of the AM bundle, the whole PL area, and the midsubstance insertion area of the PL bundle.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1448,209)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1658,293)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "ref15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),86,180)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Evaluation of the anterior cruciate ligament insertion site"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "ref1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),221,248)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "ref18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,333)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "ref23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),335,218)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "ref21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),554,104)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "ref18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,754)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "ref22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,349)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),487,206)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "ref11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),775,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,368 @@
+{
+    "references": [
+        {
+            "bibentry": "Tsilimingras, D, Ghosh, S, Duke, A, et al. The association of post-discharge adverse events with timely follow-up visits after hospital discharge. PloS One. 2017; 12(8): e0182669. PMID: 28796810",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0182669",
+            "pmid": "28796810",
+            "pmcid": "PMC5552135",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Zuckerman, RB, Sheingold, SH, Oray, EJ, et al. Readmissions, observation, and the hospital readmissions reduction program. N Engl J Med. 2016; 374(16): 1543–7. PMID: 26910198",
+            "process_entry": "True",
+            "doi": "10.1056/nejmsa1513024",
+            "pmid": "26910198",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Snow, V, Beck D, Budnitz T, et al. American college of physicians; society of general internal medicine; society of hospital medicine; American geriatrics society; American college of emergency physicians; society of academic emergency medicine. Transitions of care consensus policy statement American college of physicians-society of general internal medicine-society of hospital medicine-American geriatrics society-American college of emergency physicians-society of academic emergency medicine. J Gen Intern Med. 2008; 24(8): 971–976.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Kartha, A, Restuccia, JD, Burgess, JF, et al. Nurse practitioner and physician assistant scope of practice in 118 acute care hospitals. J Hosp Med. 2014; 9(10): 615–620. PMID: 25224593",
+            "process_entry": "True",
+            "doi": "10.1002/jhm.2231",
+            "pmid": "25224593",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "National commission on certification of physician assistants [Internet]. John’s Creek (GA): Statistical Profile of Recently Certified Physician Assistants; 2017; [ cited 2019 1 7 Available from: https://www.nccpa.net/",
+            "process_entry": "True",
+            "url": "https://www.nccpa.net/",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Ming, D, Zietlow, K, Song, Y, et al. Discharge summary training curriculum: a novel approach to training medical students how to write effective discharge summaries. Clin Teach. 2018 Epub ahead of print. Available from https://onlinelibrary.wiley.com/doi/abs/10.1111/tct.12960",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Axon, RN, Penney, FT, Kyle, TR, et al. A hospital discharge summary quality improvement program featuring individual and team-based feedback and academic detailing. Am J Med Sci. 2014; 347(6): 472–477. PMID: 24845304",
+            "process_entry": "True",
+            "doi": "10.1097/maj.0000000000000171",
+            "pmid": "24845304",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Singh, G, Harvey, R, Dyne, A, et al. Hospital discharge summary scorecard: a quality improvement tool used in a tertiary hospital general medicine service. Intern Med J. 2015; 45(12): 1302–1305. PMID: 26444698",
+            "process_entry": "True",
+            "doi": "10.1111/imj.12924",
+            "pmid": "26444698",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Talwalkar, JS, Oullette, JR, Alston, S, et al. A structured workshop to improve the quality of resident discharge summaries. J Grad Med Educ. 2012; 4(1): 87–91. PMID: 23451314",
+            "process_entry": "True",
+            "doi": "10.4300/JGME-D-10-00249.1",
+            "pmid": "23451314",
+            "pmcid": "PMC3312541",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Legault, K, Ostro, J, Khalid, Z, et al. Quality of discharge summaries prepared by first year internal medicine residents. BMC Med Educ. 2012; 12(1): 77. PMID: 22894637",
+            "process_entry": "True",
+            "doi": "10.1186/1472-6920-12-77",
+            "pmid": "22894637",
+            "pmcid": "PMC3532338",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "The joint commission. [ 2019 cited 7 8]. Available from: www.jointcommision.org",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Horwitz, LI, Jenq, G, Brewster, UC, et al. Comprehensive quality of discharge summaries at an academic medical center. J Hosp Med. 2013; 8(8): 436–443. PMID: 23526813",
+            "process_entry": "True",
+            "doi": "10.1002/jhm.2021",
+            "pmid": "23526813",
+            "pmcid": "PMC3695055",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Association of American medical colleges. Core entrustable professional activities for entering residency. [ cited 2018 5 22]. Available from: https://www.aamc.org/download/482214/data/epa13toolkit.pdf",
+            "process_entry": "True",
+            "url": "https://www.aamc.org/download/482214/data/epa13toolkit.pdf",
+            "xmlid": "CIT0013"
+        }
+    ],
+    "localid": "MED-31370754",
+    "doi": "10.1080/10872981.2019.1648944",
+    "pmid": "10.1080/10872981.2019.1648944",
+    "pmcid": "31370754",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31370754/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),89,158)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),241,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),89,158)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),241,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),510,257)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),105,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),308,5)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),105,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),308,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),147,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),348,184)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),526,5)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),526,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),348,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),526,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),348,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),348,184)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),526,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),271,201)",
+                "containers_title": [
+                    "Methods",
+                    "Evaluations and surveys"
+                ],
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),465,6)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),465,6)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),271,201)",
+                "containers_title": [
+                    "Methods",
+                    "Evaluations and surveys"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),271,201)",
+                "containers_title": [
+                    "Methods",
+                    "Evaluations and surveys"
+                ],
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),465,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),473,231)",
+                "containers_title": [
+                    "Methods",
+                    "Evaluations and surveys"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),705,219)",
+                "containers_title": [
+                    "Methods",
+                    "Evaluations and surveys"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),570,220)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),927,215)",
+                "containers_title": [
+                    "Discussion",
+                    "Limitations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),319,143)",
+                "containers_title": [
+                    "Discussion",
+                    "Conclusions"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),456,5)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),319,143)",
+                "containers_title": [
+                    "Discussion",
+                    "Conclusions"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),456,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),560,194)",
+                "containers_title": [
+                    "Discussion",
+                    "Conclusions"
+                ],
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),748,5)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),560,194)",
+                "containers_title": [
+                    "Discussion",
+                    "Conclusions"
+                ],
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),748,5)"
+            }
+        ]
+    ]
+}

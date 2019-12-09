@@ -1,0 +1,572 @@
+{
+    "references": [
+        {
+            "bibentry": "Camps, P, El Achab, R, Morral, J, et al. New tacrine-huperzine a hybrids (huprines): highly potent tight-binding acetylcholinesterase inhibitors of interest for the treatment of Alzheimer’s disease. J Med Chem 2000; 43: 4657–66. PMID: 11101357",
+            "process_entry": "True",
+            "doi": "10.1021/jm000980y",
+            "pmid": "11101357",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Sippl, W, Contreras, JM, Parrot, I, et al. Structure-based 3D QSAR and design of novel acetylcholinesterase inhibitors. J Comput-Aided Mol Des 2001; 15: 395–410. PMID: 11394735",
+            "process_entry": "True",
+            "doi": "10.1023/a:1011150215288",
+            "pmid": "11394735",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Lendon, CL, Ashall, F, Goate, AM. Exploring the etiology of Alzheimer disease using molecular genetics. JAMA 1997; 277: 825–31. PMID: 9052714",
+            "process_entry": "True",
+            "doi": "10.1001/jama.277.10.825",
+            "pmid": "9052714",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Karran, E, Mercken, M, Strooper, BD. The amyloid cascade hypothesis for Alzheimer’s disease: an appraisal for the development of therapeutics. Nat Rev Drug Discov 2011; 10: 698–712. PMID: 21852788",
+            "process_entry": "True",
+            "doi": "10.1038/nrd3505",
+            "pmid": "21852788",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "DE Calignon, A, Polydoro, M, Suárez-Calvet, MS, et al. Propagation of Tau pathology in a model of early Alzheimer’s disease. Neuron 2012; 73: 685–97. PMID: 22365544",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2011.11.033",
+            "pmid": "22365544",
+            "pmcid": "PMC3292759",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Lemmens, MAM, Sierksma, ASR, Rutten, BPF, et al. Age-related changes of neuron numbers in the frontal cortex of a transgenic mouse model of Alzheimer’s disease. Brain Struct Funct 2011; 216: 227–37. PMID: 21409417",
+            "process_entry": "True",
+            "doi": "10.1007/s00429-011-0305-1",
+            "pmid": "21409417",
+            "pmcid": "PMC3155024",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Czarnecka, K, Girek, M, Maciejewska, K, et al. New cyclopentaquinoline hybrids with multifunctional capacities for the treatment of Alzheimer’s disease. J Enzyme Inhib Med Chem 2018; 33: 158–70.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Terry, RD, Masliah, E, Salmon, DP, et al. Physical basis of cognitive alterations in Alzheimer’s disease: synapse loss is the major correlate of cognitive impairment. Ann Neurol 1991; 30: 572–80. PMID: 1789684",
+            "process_entry": "True",
+            "doi": "10.1002/ana.410300410",
+            "pmid": "1789684",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Pearson, VE. Galantamine: a new Alzheimer drug with a past life. Ann Pharmacother 2001; 35: 1406–13. PMID: 11724094",
+            "process_entry": "True",
+            "doi": "10.1345/aph.1a092",
+            "pmid": "11724094",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Özil, M, Balaydın, HT, Şentürk, M. Synthesis of 5-methyl-2,4-dihydro-3H-1,2,4-triazole-3-one’s aryl Schiff base derivatives and investigation of carbonic anhydrase and cholinesterase (AChE, BuChE) inhibitory properties. Bioorg Chem 2019; 86: 705. PMID: 30836234",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2019.02.045",
+            "pmid": "30836234",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Cavdar, H, Senturk, M, Guney, M, et al. Inhibition of acetylcholinesterase and butyrylcholinesterase with uracil derivatives: kinetic and computational studies. J Enzyme Inhib Med Chem 2019; 34: 429–37. PMID: 30734597",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1543288",
+            "pmid": "30734597",
+            "pmcid": "PMC6327988",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Kani, Z, Nashia, S, Murat, G, et al. Effects of aryl methanesulfonate derivatives on acetylcholinesterase and butyrylcholinesterase. J Biochem Mol Tox 2018; 32: e22210.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Ali, R, Sheikh, IA, Jabir, NR, et al. Comparative review of decade’s research on cholinesterase inhibition. Am J Neuroprot Neuroregen 2012; 4: 136–44.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Nguyen, VT, Zhao, BT, Seong, SH, et al. Inhibitory effects of serratene-type triterpenoids from Lycopodium complanatum on cholinesterases and β-secretase 1. Chem Biol Interact 2017; 274: 150–7. PMID: 28698023",
+            "process_entry": "True",
+            "doi": "10.1016/j.cbi.2017.07.006",
+            "pmid": "28698023",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Huang, YJ, Huang, Y, Baldassarre, H, et al. Recombinant human butyrylcholinesterase from milk of transgenic animals to protect against organophosphate poisoning. Proc Natl Acad Sci USA 2007; 104: 13603–8. PMID: 17660298",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0702756104",
+            "pmid": "17660298",
+            "pmcid": "PMC1934339",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Li, B, Stribley, JA, Ticu, A, et al. Abundant tissue butyrylcholinesterase and its possible function in the acetylcholinesterase knockout mouse. J Neurochem 2002; 75: 1320–31.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Zatón, AML, Ferrer, JM, Gordoa, J, et al. Binding of coumarins to site I of human serum albumin. Effect of the fatty acids. Chem Biol Interact 1995; 97: 169–74. PMID: 7606814",
+            "process_entry": "True",
+            "doi": "10.1016/0009-2797(95)03613-q",
+            "pmid": "7606814",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Piazzi, L, Rampa, A, Bisi, A, et al. 3-(4-{[benzyl(methyl)amino]methyl}phenyl)-6,7-dimethoxy-2 H-2-chromenone (AP2238) inhibits both Acetylcholinesterase and Acetylcholinesterase-induced β-amyloid aggregation: a dual function lead for Alzheimer’s disease therapy. J Med Chem 2003; 46: 2279–82. (https://pubs.acs.org/doi/abs/10.1021/jm0340602) PMID: 12773032",
+            "process_entry": "True",
+            "doi": "10.1021/jm0340602",
+            "pmid": "12773032",
+            "url": "https://pubs.acs.org/doi/abs/10.1021/jm0340602)",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Gao, XH, Liu, LB, Liu, HR, et al. Structure-activity relationship investigation of benzamide and picolinamide derivatives containing dimethylamine side chain as acetylcholinesterase inhibitors. J Enzyme Inhib Med Chem 2018; 33: 110–4. PMID: 29166796",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2017.1399885",
+            "pmid": "29166796",
+            "pmcid": "PMC6009985",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Massoulie, J, Pezzementi, L, Bon, S, et al. Molecular and cellular biology of cholinesterases. Prog Neurobiol 1993; 41: 31–91. PMID: 8321908",
+            "process_entry": "True",
+            "doi": "10.1016/0301-0082(93)90040-y",
+            "pmid": "8321908",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Brimijoin, S. Molecular forms of acetylcholinesterase in brain, nerve and muscle: nature, localization and dynamics. Prog Neurobiol 1983; 21: 291–322. PMID: 6198691",
+            "process_entry": "True",
+            "doi": "10.1016/0301-0082(83)90015-1",
+            "pmid": "6198691",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Heller, M, Hanahan, DJ. Human erythrocyte membrane bound enzyme acetylcholinesterase. BBA Biomembranes 1972; 17: 251–72.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Szelenyi, JG, Bartha, E, Hollan, SR. Acetylcholinesterase activity of lymphocytes: an enzyme characteristic of T-cells. Br J Haematol 1982; 50: 241–5. PMID: 6977372",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2141.1982.tb01914.x",
+            "pmid": "6977372",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Asadipour, A, Alipour, M, Jafari, M, et al. Novel coumarin-3-carboxamides bearing N-benzylpiperidine moiety as potent acetylcholinesterase inhibitors. Eur J Med Chem 2013; 14: 623–30.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Giacobini, E. Cholinesterase inhibitors: new roles and therapeutic alternatives. Pharmacol Res 2004; 50: 433–40. PMID: 15304240",
+            "process_entry": "True",
+            "doi": "10.1016/j.phrs.2003.11.017",
+            "pmid": "15304240",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Senger, MR, Seibt, KJ, Ghisleni, GC, et al. Aluminum exposure alters behavioral parameters and increases acetylcholinesterase activity in zebrafish (Danio rerio) brain. Cell Biol Toxicol 2011; 27: 199–205. PMID: 21240652",
+            "process_entry": "True",
+            "doi": "10.1007/s10565-011-9181-y",
+            "pmid": "21240652",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Newman, M, Verdile, G, Martins, RN, et al. Zebrafish as a tool in Alzheimer’s disease research. Biochim Biophys Acta 2011; 1812: 346–52. PMID: 20920580",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbadis.2010.09.012",
+            "pmid": "20920580",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Ellaman, G. A new and rapid colorimetric determination of acetylcholinesterase activity. Biochem Pharmacol 1961; 7: 88–95. PMID: 13726518",
+            "process_entry": "True",
+            "doi": "10.1016/0006-2952(61)90145-9",
+            "pmid": "13726518",
+            "xmlid": "CIT0028"
+        }
+    ],
+    "localid": "MED-31117844",
+    "doi": "10.1080/14756366.2019.1615484",
+    "pmid": "10.1080/14756366.2019.1615484",
+    "pmcid": "31117844",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31117844/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),143,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),285,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Alzheimer’s disease is a degenerative disease of the central nervous system that is mainly characterised by progressive memory impairment1,2. AD has brought heavy burdens to society and family because of the characteristics of progressive memory loss and loss of acquired knowledge3. The main characteristic pathological changes in the brain of patients with AD are the appearance of senile plaques (SPs)4 with extracellular amyloid β-protein (Aβ) deposition, and intracellular Tau hyperphosphorylation, formation of neurofibrillary tangles (NFTs)5, and loss of neurons6. Today there are 47 million people living with dementia worldwide. By 2050, this number will have increased above 135 million. Dementia affects 3.9 persons out of 1000 at the age ranging from 60 to 647.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),285,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Alzheimer’s disease is a degenerative disease of the central nervous system that is mainly characterised by progressive memory impairment1,2. AD has brought heavy burdens to society and family because of the characteristics of progressive memory loss and loss of acquired knowledge3. The main characteristic pathological changes in the brain of patients with AD are the appearance of senile plaques (SPs)4 with extracellular amyloid β-protein (Aβ) deposition, and intracellular Tau hyperphosphorylation, formation of neurofibrillary tangles (NFTs)5, and loss of neurons6. Today there are 47 million people living with dementia worldwide. By 2050, this number will have increased above 135 million. Dementia affects 3.9 persons out of 1000 at the age ranging from 60 to 647.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),285,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Alzheimer’s disease is a degenerative disease of the central nervous system that is mainly characterised by progressive memory impairment1,2. AD has brought heavy burdens to society and family because of the characteristics of progressive memory loss and loss of acquired knowledge3. The main characteristic pathological changes in the brain of patients with AD are the appearance of senile plaques (SPs)4 with extracellular amyloid β-protein (Aβ) deposition, and intracellular Tau hyperphosphorylation, formation of neurofibrillary tangles (NFTs)5, and loss of neurons6. Today there are 47 million people living with dementia worldwide. By 2050, this number will have increased above 135 million. Dementia affects 3.9 persons out of 1000 at the age ranging from 60 to 647.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),699,75)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),671,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1133,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10–12",
+                "pl_string": "10–12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1326,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "",
+                "pl_string": "10–12",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1326,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "",
+                "pl_string": "10–12",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1326,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10–12",
+                "pl_string": "10–12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1326,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1504,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1662,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1792,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),2020,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),191,75)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),267,163)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),319,112)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),1,197)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cholinesterase inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),199,188)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cholinesterase inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),388,50)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cholinesterase inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),388,50)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cholinesterase inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[2]),1,122)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cholinesterase inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[2]),124,155)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cholinesterase inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/p[1]),128,74)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Aluminium trichloride-induced behavioural inhibition model of zebrafish juveniles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/p[1]),128,74)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Aluminium trichloride-induced behavioural inhibition model of zebrafish juveniles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p[1]),1,149)",
+                "containers_title": [
+                    "Experimental",
+                    "Biological activity",
+                    "In vitro AChE/BuChE inhibitory activity"
+                ]
+            }
+        ]
+    ]
+}

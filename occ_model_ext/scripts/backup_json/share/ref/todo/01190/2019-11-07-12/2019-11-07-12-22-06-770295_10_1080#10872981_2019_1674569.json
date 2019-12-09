@@ -1,0 +1,65 @@
+{
+    "references": [
+        {
+            "bibentry": "Bird, JB, Olvet, DM. Willey JM and Brenner J. Patients don’t come with multiple choice options: essay-based assessment in UME. Med Educ Online. 2019; 24(1): 1649959. PMID: 31438809",
+            "process_entry": "True",
+            "doi": "10.1080/10872981.2019.1649959",
+            "pmid": "31438809",
+            "pmcid": "PMC6720218",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Wakeford, RE, Roberts, S. Short answer questions in an undergraduate qualifying examination: a study of examiner variability. Med Educ. 1984; 18: 168–1. PMID: 6717310",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2923.1984.tb00999.x",
+            "pmid": "6717310",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Epstein, RM. Assessment in medical education. N Engl J Med. 2007; 356: 387–396. PMID: 17251535",
+            "process_entry": "True",
+            "doi": "10.1056/nejmra054784",
+            "pmid": "17251535",
+            "xmlid": "CIT0003"
+        }
+    ],
+    "localid": "MED-31570069",
+    "doi": "10.1080/10872981.2019.1674569",
+    "pmid": "10.1080/10872981.2019.1674569",
+    "pmcid": "31570069",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31570069/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),1,243)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/p[3]),333,169)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/p[4]),173,147)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

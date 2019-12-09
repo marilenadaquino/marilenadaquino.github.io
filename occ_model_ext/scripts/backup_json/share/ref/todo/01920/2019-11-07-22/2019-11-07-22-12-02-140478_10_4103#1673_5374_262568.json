@@ -1,0 +1,742 @@
+{
+    "references": [
+        {
+            "bibentry": "Acharjee, S, Zhu, Y, Maingat, F, Pardo, C, Ballanyi, K, Hollenberg, MD, Power, C. Proteinase-activated receptor-1 mediates dorsal root ganglion neuronal degeneration in HIV/AIDS, Brain, 2011, 134, 3209, 3221, PMID: 22021895",
+            "process_entry": "True",
+            "doi": "10.1093/brain/awr242",
+            "pmid": "22021895",
+            "pmcid": "PMC3212716",
+            "xmlid": "ref1"
+        },
+        {
+            "bibentry": "Andreasen, A, Krabbe, K, Krogh-Madsen, R, Taudorf, S, Pedersen, B, Moller, K. Human endotoxemia as a model of systemic inflammation, Curr Med Chem, 2008, 15, 1697, 1705, PMID: 18673219",
+            "process_entry": "True",
+            "doi": "10.2174/092986708784872393",
+            "pmid": "18673219",
+            "xmlid": "ref2"
+        },
+        {
+            "bibentry": "Bao, X, Hua, Y, Keep, RF, Xi, G. Thrombin-induced tolerance against oxygen-glucose deprivation in astrocytes: role of protease-activated receptor-1, Cond Med, 2018, 1, 57, 63, PMID: 30123875",
+            "process_entry": "True",
+            "pmid": "30123875",
+            "pmcid": "PMC6097711",
+            "xmlid": "ref3"
+        },
+        {
+            "bibentry": "Beilin, O, Karussis, DM, Korczyn, AD, Gurwitz, D, Aronovich, R, Hantai, D, Grigoriadis, N, Mizrachi-Kol, R, Chapman, J. Increased thrombin inhibition in experimental autoimmune encephalomyelitis, J Neurosci Res, 2005, 79, 351, 359, PMID: 15605378",
+            "process_entry": "True",
+            "doi": "10.1002/jnr.20270",
+            "pmid": "15605378",
+            "xmlid": "ref4"
+        },
+        {
+            "bibentry": "Beilin, O, Karussis, DM, Korczyn, AD, Gurwitz, D, Aronovich, R, Mizrachi-Kol, R, Chapman, J. Increased KPI containing amyloid precursor protein in experimental autoimmune encephalomyelitis brains, Neuroreport, 2007, 18, 581, 584, PMID: 17413661",
+            "process_entry": "True",
+            "doi": "10.1097/wnr.0b013e328091c1e6",
+            "pmid": "17413661",
+            "xmlid": "ref5"
+        },
+        {
+            "bibentry": "Ben Shimon, M, Lenz, M, Ikenberg, B, Becker, D, Shavit Stein, E, Chapman, J, Tanne, D, Pick, CG, Blatt, I, Neufeld, M, Vlachos, A, Maggio, N. Thrombin regulation of synaptic transmission and plasticity: implications for health and disease, Front Cell Neurosci, 2015, 9, 151, PMID: 25954157",
+            "process_entry": "True",
+            "doi": "10.3389/fncel.2015.00151",
+            "pmid": "25954157",
+            "pmcid": "PMC4404867",
+            "xmlid": "ref6"
+        },
+        {
+            "bibentry": "Ben Shimon, M, Zeimer, T, Shavit Stein, E, Artan-Furman, A, Harnof, S, Chapman, J, Eisenkraft, A, Pick, CG, Maggio, N. Recovery from trauma induced amnesia correlates with normalization of thrombin activity in the mouse hippocampus, PLoS One, 2017, 12, e0188524, PMID: 29182653",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0188524",
+            "pmid": "29182653",
+            "pmcid": "PMC5705129",
+            "xmlid": "ref7"
+        },
+        {
+            "bibentry": "Brown, KJ, Seol, H, Pillai, DK, Sankoorikal, BJ, Formolo, CA, Mac, J, Edwards, NJ, Rose, MC, Hathout, Y. The human secretome atlas initiative: Implications in health and disease conditions, Biochim Biophys Acta, 2013, 1834, 2454, 2461, PMID: 23603790",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbapap.2013.04.007",
+            "pmid": "23603790",
+            "pmcid": "PMC3755092",
+            "xmlid": "ref8"
+        },
+        {
+            "bibentry": "Brown, TJ, Brennan, MC, Li, M, Church, EW, Brandmeir, NJ, Rakszawski, KL, Patel, AS, Rizk, EB, Suki, D, Sawaya, R, Glantz, M. Association of the extent of resection with survival in glioblastoma, JAMA Oncol, 2016, 2, 1460, PMID: 27310651",
+            "process_entry": "True",
+            "doi": "10.1001/jamaoncol.2016.1373",
+            "pmid": "27310651",
+            "pmcid": "PMC6438173",
+            "xmlid": "ref9"
+        },
+        {
+            "bibentry": "Bushi, D, Ben Shimon, M, Shavit Stein, E, Chapman, J, Maggio, N, Tanne, D. Increased thrombin activity following reperfusion after ischemic stroke alters synaptic transmission in the hippocampus, J Neurochem, 2015, 135, 1140, 1148, PMID: 26390857",
+            "process_entry": "True",
+            "doi": "10.1111/jnc.13372",
+            "pmid": "26390857",
+            "xmlid": "ref10"
+        },
+        {
+            "bibentry": "Bushi, D, Chapman, J, Wohl, A, Stein, ES, Feingold, E, Tanne, D. Apixaban decreases brain thrombin activity in a male mouse model of acute ischemic stroke, J Neurosci Res, 2018, 96, 1406, 1411, PMID: 29761540",
+            "process_entry": "True",
+            "doi": "10.1002/jnr.24253",
+            "pmid": "29761540",
+            "xmlid": "ref11"
+        },
+        {
+            "bibentry": "Bushi, D, Stein, ES, Golderman, V, Feingold, E, Gera, O, Chapman, J, Tanne, D. A linear temporal increase in thrombin activity and loss of its receptor in mouse brain following ischemic stroke, Front Neurol, 2017, 8, 138, PMID: 28443061",
+            "process_entry": "True",
+            "doi": "10.3389/fneur.2017.00138",
+            "pmid": "28443061",
+            "pmcid": "PMC5385331",
+            "xmlid": "ref12"
+        },
+        {
+            "bibentry": "Carneiro-Lobo, TC, Lima, MT, Mariano-Oliveira, A, Dutra-Oliveira, A, Oba-Shinjo, SM, Marie, SKN, Sogayar, MC, Monteiro, RQ. Expression of tissue factor signaling pathway elements correlates with the production of vascular endothelial growth factor and interleukin-8 in human astrocytoma patients, Oncol Rep, 2014, 31, 679, 686, PMID: 24297570",
+            "process_entry": "True",
+            "doi": "10.3892/or.2013.2880",
+            "pmid": "24297570",
+            "xmlid": "ref13"
+        },
+        {
+            "bibentry": "Chapman, J. Coagulation in inflammatory diseases of the central nervous system, Semin Thromb Hemost, 2013, 39, 876, 880, PMID: 24108468",
+            "process_entry": "True",
+            "doi": "10.1055/s-0033-1357482",
+            "pmid": "24108468",
+            "xmlid": "ref14"
+        },
+        {
+            "bibentry": "Corso, CD, Bindra, RS, Mehta, MP. The role of radiation in treating glioblastoma: here to stay, J Neurooncol, 2017, 134, 479, 485, PMID: 28271281",
+            "process_entry": "True",
+            "doi": "10.1007/s11060-016-2348-x",
+            "pmid": "28271281",
+            "xmlid": "ref15"
+        },
+        {
+            "bibentry": "Cunningham, C, Campion, S, Lunnon, K, Murray, CL, Woods, JFC, Deacon, RMJ, Rawlins, JNP, Perry, VH. Systemic inflammation induces acute behavioral and cognitive changes and accelerates neurodegenerative disease, Biol Psychiatry, 2009, 65, 304, 312, PMID: 18801476",
+            "process_entry": "True",
+            "doi": "10.1016/j.biopsych.2008.07.024",
+            "pmid": "18801476",
+            "pmcid": "PMC2633437",
+            "xmlid": "ref16"
+        },
+        {
+            "bibentry": "de Almeida, VH, Monteiro, RQ. Protease-activated receptor 1 (PAR1): a promising target for the treatment of glioblastoma, Transl Cancer Res, 2016, 5, S1274, S1280",
+            "process_entry": "True",
+            "xmlid": "ref17"
+        },
+        {
+            "bibentry": "Dendrou, CA, Fugger, L, Friese, MA. Immunopathology of multiple sclerosis, Nat Rev Immunol, 2015, 15, 545, 558, PMID: 26250739",
+            "process_entry": "True",
+            "doi": "10.1038/nri3871",
+            "pmid": "26250739",
+            "xmlid": "ref18"
+        },
+        {
+            "bibentry": "Desormeaux, C, Bautzova, T, Garcia-Caraballo, S, Rolland, C, Barbaro, MR, Brierley, SM, Barbara, G, Vergnolle, N, Cenac, N. Protease-activated receptor 1 is implicated in irritable bowel syndrome mediators-induced signaling to thoracic human sensory neurons, Pain, 2018, 159, 1257, 1267, PMID: 29554016",
+            "process_entry": "True",
+            "doi": "10.1097/j.pain.0000000000001208",
+            "pmid": "29554016",
+            "xmlid": "ref19"
+        },
+        {
+            "bibentry": "Dutta, DJ, Woo, DH, Lee, PR, Pajevic, S, Bukalo, O, Huffman, WC, Wake, H, Basser, PJ, SheikhBahaei, S, Lazarevic, V, Smith, JC, Fields, RD. Regulation of myelin structure and conduction velocity by perinodal astrocytes, Proc Natl Acad Sci U S A, 2018, 115, 11832, 11837, PMID: 30373833",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1811013115",
+            "pmid": "30373833",
+            "pmcid": "PMC6243273",
+            "xmlid": "ref20"
+        },
+        {
+            "bibentry": "Ebrahimi, S, Jaberi, N, Avan, A, Ryzhikov, M, Keramati, MR, Parizadeh, MR, Hassanian, SM. Role of thrombin in the pathogenesis of central nervous system inflammatory diseases, J Cell Physiol, 2017, 232, 482, 485, PMID: 27458694",
+            "process_entry": "True",
+            "doi": "10.1002/jcp.25501",
+            "pmid": "27458694",
+            "xmlid": "ref21"
+        },
+        {
+            "bibentry": "Esmon, CT. Role of coagulation inhibitors in inflammation, Thromb Haemost, 2001, 86, 51, 56, PMID: 11487041",
+            "process_entry": "True",
+            "pmid": "11487041",
+            "xmlid": "ref22"
+        },
+        {
+            "bibentry": "Festoff, BW, Citron, BA. Thrombin and the coag-inflammatory nexus in neurotrauma, als, and other neurodegenerative disorders, Front Neurol, 2019, 10, 59, PMID: 30804878",
+            "process_entry": "True",
+            "doi": "10.3389/fneur.2019.00059",
+            "pmid": "30804878",
+            "pmcid": "PMC6371052",
+            "xmlid": "ref23"
+        },
+        {
+            "bibentry": "Festoff, BW, D’Andrea, MR, Citron, BA, Salcedo, RM, Smirnova, I V, Andrade-Gordon, P. Motor Neuron cell death in wobbler mutant mice follows overexpression of the g-protein-coupled, protease-activated receptor for thrombin, Mol Med, 2000, 9, 410, 429",
+            "process_entry": "True",
+            "xmlid": "ref24"
+        },
+        {
+            "bibentry": "Festoff, BW, Rao, JS, Hantaï, D. Plasminogen activators and inhibitors in the neuromuscular system: III, The serpin protease nexin I is synthesized by muscle and localized at neuromuscular synapses, J Cell Physiol, 1991, 147, 76, 86",
+            "process_entry": "True",
+            "xmlid": "ref25"
+        },
+        {
+            "bibentry": "Festoff, BW, Suo, Z, Citron, BA. Plasticity and stabilization of neuromuscular and CNS synapses: interactions between thrombin protease signaling pathways and tissue transglutaminase, Int Rev Cytol, 2001, 211, 153, 177, PMID: 11597003",
+            "process_entry": "True",
+            "doi": "10.1016/s0074-7696(01)11018-1",
+            "pmid": "11597003",
+            "xmlid": "ref26"
+        },
+        {
+            "bibentry": "Fields, RD. Release of neurotransmitters from glia, Neuron Glia Biol, 2010, 6, 137, 139, PMID: 23164153",
+            "process_entry": "True",
+            "doi": "10.1017/s1740925x11000020",
+            "pmid": "23164153",
+            "xmlid": "ref27"
+        },
+        {
+            "bibentry": "Friedmann, I, Faber-Elman, A, Yoles, E, Schwartz, M. Injury-induced gelatinase and thrombin-like activities in regenerating and nonregenerating nervous systems, FASEB J, 2018, 13, 533, 543",
+            "process_entry": "True",
+            "xmlid": "ref28"
+        },
+        {
+            "bibentry": "García, PS, Ciavatta, VT, Fidler, JA, Woodbury, A, Levy, JH, Tyor, WR. Concentration-dependent dual role of thrombin in protection of cultured rat cortical neurons, Neurochem Res, 2015, 40, 2220, 2229, PMID: 26342829",
+            "process_entry": "True",
+            "doi": "10.1007/s11064-015-1711-1",
+            "pmid": "26342829",
+            "pmcid": "PMC4644093",
+            "xmlid": "ref29"
+        },
+        {
+            "bibentry": "Gera, O, Bushi, D, Ben Shimon, M, Artan-Furman, A, Harnof, S, Maggio, N, Dori, A, Chapman, J, Shavit-Stein, E. Local regulation of thrombin activity by factor Xa in peripheral nerve schwann cells, Neuroscience, 2018, 371, 445, 454, PMID: 29292076",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuroscience.2017.12.035",
+            "pmid": "29292076",
+            "xmlid": "ref30"
+        },
+        {
+            "bibentry": "Gera, O, Shavit-Stein, E, Bushi, D, Harnof, S, Shimon M, Ben, Weiss, R, Golderman, V, Dori, A, Maggio, N, Finegold, K, Chapman, J. Thrombin and protein C pathway in peripheral nerve Schwann cells, Neuroscience, 2016, 339, 587, 598, PMID: 27771530",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuroscience.2016.10.034",
+            "pmid": "27771530",
+            "xmlid": "ref31"
+        },
+        {
+            "bibentry": "Gera, O, Shavit-Stein, E, Chapman, J. The effect of neuronal activity on glial thrombin generation, J Mol Neurosci, 2019, 67, 589, 594, PMID: 30684238",
+            "process_entry": "True",
+            "doi": "10.1007/s12031-019-01265-4",
+            "pmid": "30684238",
+            "xmlid": "ref32"
+        },
+        {
+            "bibentry": "Gingrich, MB, Junge, CE, Lyuboslavsky, P, Traynelis, SF. Potentiation of NMDA receptor function by the serine protease thrombin, J Neurosci, 2000, 20, 4582, 4595, PMID: 10844028",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.20-12-04582.2000",
+            "pmid": "10844028",
+            "pmcid": "PMC6772448",
+            "xmlid": "ref33"
+        },
+        {
+            "bibentry": "Goldenberg, MM. Multiple sclerosis review, P T, 2012, 37, 175, 184, PMID: 22605909",
+            "process_entry": "True",
+            "pmid": "22605909",
+            "pmcid": "PMC3351877",
+            "xmlid": "ref34"
+        },
+        {
+            "bibentry": "Golderman, V, Shavit-Stein, E, Gera, O, Chapman, J, Eisenkraft, A, Maggio, N. Thrombin and the protease-activated receptor-1 in organophosphate-induced status epilepticus, J Mol Neurosci, 2019, 67, 227, 234, PMID: 30515700",
+            "process_entry": "True",
+            "doi": "10.1007/s12031-018-1228-6",
+            "pmid": "30515700",
+            "xmlid": "ref35"
+        },
+        {
+            "bibentry": "Gould, TW, Dominguez, B, de Winter, F, Yeo, GW, Liu, P, Sundararaman, B, Stark, T, Vu, A, Degen, JL, Lin, W, Lee, KF. Glial cells maintain synapses by inhibiting an activity-dependent retrograde protease signal, PLoS Genet, 2019, 15, e1007948, PMID: 30870413",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1007948",
+            "pmid": "30870413",
+            "pmcid": "PMC6417855",
+            "xmlid": "ref36"
+        },
+        {
+            "bibentry": "Grabham, P, Cunningham, DD. Thrombin receptor activation stimulates astrocyte proliferation and reversal of stellation by distinct pathways: involvement of tyrosine phosphorylation, J Neurochem, 1995, 64, 583, 591, PMID: 7830051",
+            "process_entry": "True",
+            "doi": "10.1046/j.1471-4159.1995.64020583.x",
+            "pmid": "7830051",
+            "xmlid": "ref37"
+        },
+        {
+            "bibentry": "Han, MH, Hwang S, Il, Roy, DB, Lundgren, DH, Price, JV, Ousman, SS, Fernald, GH, Gerlitz, B, Robinson, WH, Baranzini, SE, Grinnell, BW, Raine, CS, Sobel, RA, Han, DK, Steinman, L. Proteomic analysis of active multiple sclerosis lesions reveals therapeutic targets, Nature, 2008, 451, 1076, 1081, PMID: 18278032",
+            "process_entry": "True",
+            "doi": "10.1038/nature06559",
+            "pmid": "18278032",
+            "xmlid": "ref38"
+        },
+        {
+            "bibentry": "Hart, MG, Garside, R, Rogers, G, Stein, K, Grant, R. Temozolomide for high grade glioma, Cochrane Database Syst, 2013, CD007294",
+            "process_entry": "True",
+            "xmlid": "ref39"
+        },
+        {
+            "bibentry": "Haydon, PG, Blendy, J, Moss, SJ, Rob Jackson, F. Astrocytic control of synaptic transmission and plasticity: a target for drugs of abuse, Neuropharmacology, 2009, 1, 56 Suppl, 83, 90",
+            "process_entry": "True",
+            "xmlid": "ref40"
+        },
+        {
+            "bibentry": "Holmes, C, Cunningham, C, Zotova, E, Woolford, J, Dean, C, Kerr, S, Culliford, D, Perry, VH. Systemic inflammation and disease progression in Alzheimer disease, Neurology, 2009, 73, 768, 774, PMID: 19738171",
+            "process_entry": "True",
+            "doi": "10.1212/WNL.0b013e3181b6bb95",
+            "pmid": "19738171",
+            "pmcid": "PMC2848584",
+            "xmlid": "ref41"
+        },
+        {
+            "bibentry": "Itsekson-Hayosh, Z, Shavit-Stein, E, Katzav, A, Rubovitch, V, Maggio, N, Chapman, J, Harnof, S, Pick, CG. Minimal traumatic brain injury in mice: protease-activated receptor 1 and thrombin-related changes, J Neurotrauma, 2016, 33, 1848, 1854, PMID: 26537880",
+            "process_entry": "True",
+            "doi": "10.1089/neu.2015.4146",
+            "pmid": "26537880",
+            "xmlid": "ref42"
+        },
+        {
+            "bibentry": "Itsekson-Hayosh, Z, Shavit-Stein, E, Last, D, Goez, D, Daniels, D, Bushi, D, Gera, O, Zibly, Z, Mardor, Y, Chapman, J, Harnof, S. Thrombin activity and thrombin receptor in rat glioblastoma model: possible markers and targets for intervention, J Mol Neurosci, 2015, 56, 644, 651, PMID: 25691153",
+            "process_entry": "True",
+            "doi": "10.1007/s12031-015-0512-y",
+            "pmid": "25691153",
+            "xmlid": "ref43"
+        },
+        {
+            "bibentry": "Itzekson, Z, Maggio, N, Milman, A, Shavit, E, Pick, CG, Chapman, J. Reversal of trauma-induced amnesia in mice by a thrombin receptor antagonist, J Mol Neurosci, 2014, 53, 87, 95, PMID: 24352712",
+            "process_entry": "True",
+            "doi": "10.1007/s12031-013-0200-8",
+            "pmid": "24352712",
+            "xmlid": "ref44"
+        },
+        {
+            "bibentry": "Jia, M, Li, M, Dunlap, V, Nelson, PG. The thrombin receptor mediates functional activity-dependent neuromuscular synapse reduction, via protein kinase C activation in vitro, J Neurobiol, 1999, 38, 369, 381, PMID: 10022579",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-4695(19990215)38:3<369::aid-neu6>3.0.co;2-q",
+            "pmid": "10022579",
+            "xmlid": "ref45"
+        },
+        {
+            "bibentry": "Karanjia, R, Spreadbury, I, Bautista-cruz, F, Tsang, ME, Vanner, S. Activation of protease-activated receptor-4 inhibits the intrinsic excitability of colonic dorsal root ganglia neurons, Neurogastroenterol Motil, 2009, 21, 1218, 1221, PMID: 19566587",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2982.2009.01353.x",
+            "pmid": "19566587",
+            "xmlid": "ref46"
+        },
+        {
+            "bibentry": "Kawabata, A, Kuroda, R, Nishikawa, H, Tanaka, A, Kawao, N, Itoh, H. Peripheral PAR-2 triggers thermal hyperalgesia and nociceptive responses in rats, Neuroreport, 2003, 12, 715, 719",
+            "process_entry": "True",
+            "xmlid": "ref47"
+        },
+        {
+            "bibentry": "Krenzlin, H, Lorenz, V, Alessandri, B. The involvement of thrombin in the pathogenesis of glioblastoma, J Neurosci Res, 2017, 95, 2080, 2085, PMID: 28316070",
+            "process_entry": "True",
+            "doi": "10.1002/jnr.24049",
+            "pmid": "28316070",
+            "xmlid": "ref48"
+        },
+        {
+            "bibentry": "Kuhn, SA, Martin, M, Brodhun, M, Kratzsch, T, Hanisch, UK, Haberl, H. Overexpression of protease-activated receptor type 1 (PAR-1) in glioblastoma multiforme WHO IV cells and blood vessels revealed by NCAM-assisted glioblastoma border labeling, Neurol Res, 2014, 36, 709, 721, PMID: 24620969",
+            "process_entry": "True",
+            "doi": "10.1179/1743132813y.0000000303",
+            "pmid": "24620969",
+            "xmlid": "ref49"
+        },
+        {
+            "bibentry": "Lanuza, MA, Besalduch, N, Garcia, N, Sabaté, M, Santafé, MM, Tomàs, J. Plastic-embedded semithin cross-sections as a tool for high-resolution immunofluorescence analysis of the neuromuscular junction molecules: Specific cellular location of protease-activated receptor-1, J Neurosci Res, 2007, 85, 748, 756, PMID: 17265467",
+            "process_entry": "True",
+            "doi": "10.1002/jnr.21192",
+            "pmid": "17265467",
+            "xmlid": "ref50"
+        },
+        {
+            "bibentry": "Lanuza, MA, Garcia, N, González, CM, Santafé, MM, Nelson, PG, Tomas, J. Role and expression of thrombin receptor PAR-1 in muscle cells and neuromuscular junctions during the synapse elimination period in the neonatal rat, J Neurosci Res, 2003, 73, 10, 21, PMID: 12815704",
+            "process_entry": "True",
+            "doi": "10.1002/jnr.10576",
+            "pmid": "12815704",
+            "xmlid": "ref51"
+        },
+        {
+            "bibentry": "Lee, KR, Drury, I, Vitarbo, E, Hoff, JT. Seizures induced by intracerebral injection of thrombin: a model of intracerebral hemorrhage, J Neurosurg, 1997, 87, 73, 78, PMID: 9202268",
+            "process_entry": "True",
+            "doi": "10.3171/jns.1997.87.1.0073",
+            "pmid": "9202268",
+            "xmlid": "ref52"
+        },
+        {
+            "bibentry": "Leray, E, Moreau, T, Fromont, A, Edan, G. Epidemiology of multiple sclerosis, Rev Neurol (Paris), 2016, 172, 3, 13, PMID: 26718593",
+            "process_entry": "True",
+            "doi": "10.1016/j.neurol.2015.10.006",
+            "pmid": "26718593",
+            "xmlid": "ref53"
+        },
+        {
+            "bibentry": "Li, S, Zhang, R, Yuan, Y, Yi, S, Chen, Q, Gong, L, Liu, J, Ding, F, Cao, Z, Gu, X. MiR-340 regulates fibrinolysis and axon regrowth following sciatic nerve injury, Mol Neurobiol, 2017, 54, 4379, 4389, PMID: 27344331",
+            "process_entry": "True",
+            "doi": "10.1007/s12035-016-9965-4",
+            "pmid": "27344331",
+            "xmlid": "ref54"
+        },
+        {
+            "bibentry": "Lino, MM, Atanasoski, S, Kvajo, M, Fayard, B, Moreno, E, Brenner, HR, Suter, U, Monard, D. Mice lacking protease nexin-1 show delayed structural and functional recovery after sciatic nerve crush, J Neurosci, 2007, 27, 3677, 3685, PMID: 17409231",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.0277-07.2007",
+            "pmid": "17409231",
+            "pmcid": "PMC6672422",
+            "xmlid": "ref55"
+        },
+        {
+            "bibentry": "Lüthi, A, van der Putten, H, Botteri, FM, Mansuy, IM, Meins, M, Frey, U, Sansig, G, Portet, C, Schmutz, M, Schröder, M, Nitsch, C, Laurent, JP, Denis, M. Endogenous serine protease inhibitor modulates epileptic activity and hippocampal long-term potentiation, J Neurosci, 1997, 17, 4688, 4699, PMID: 9169529",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.17-12-04688.1997",
+            "pmid": "9169529",
+            "pmcid": "PMC6573330",
+            "xmlid": "ref56"
+        },
+        {
+            "bibentry": "Maggio, N, Blatt, I, Vlachos, A, Tanne, D, Chapman, J, Segal, M. Treating seizures and epilepsy with anticoagulants, Front Cell Neurosci, 2013a, 7, 19, PMID: 23467310",
+            "process_entry": "True",
+            "doi": "10.3389/fncel.2013.00019",
+            "pmid": "23467310",
+            "pmcid": "PMC3587848",
+            "xmlid": "ref57"
+        },
+        {
+            "bibentry": "Maggio, N, Cavaliere, C, Papa, M, Blatt, I, Chapman, J, Segal, M. Thrombin regulation of synaptic transmission: implications for seizure onset, Neurobiol Dis, 2013b, 50, 171, 178, PMID: 23103417",
+            "process_entry": "True",
+            "doi": "10.1016/j.nbd.2012.10.017",
+            "pmid": "23103417",
+            "xmlid": "ref58"
+        },
+        {
+            "bibentry": "Maggio, N, Itsekson, Z, Dominissini, D, Blatt, I, Amariglio, N, Rechavi, G, Tanne, D, Chapman, J. Thrombin regulation of synaptic plasticity: implications for physiology and pathology, Exp Neurol, 2013c, 247, 595, 604, PMID: 23454608",
+            "process_entry": "True",
+            "doi": "10.1016/j.expneurol.2013.02.011",
+            "pmid": "23454608",
+            "xmlid": "ref59"
+        },
+        {
+            "bibentry": "Maggio, N, Itsekson, Z, Ikenberg, B, Strehl, A, Vlachos, A, Blatt, I, Tanne, D, Chapman, J. The anticoagulant activated protein C (aPC) promotes metaplasticity in the hippocampus through an EPCR-PAR1-S1P1 receptors dependent mechanism, Hippocampus, 2014, 24, 1030, 1038, PMID: 24753100",
+            "process_entry": "True",
+            "doi": "10.1002/hipo.22288",
+            "pmid": "24753100",
+            "xmlid": "ref60"
+        },
+        {
+            "bibentry": "Maggio, N, Shavit, E, Chapman, J, Segal, M. Thrombin induces long-term potentiation of reactivity to afferent stimulation and facilitates epileptic seizures in rat hippocampal slices: toward understanding the functional consequences of cerebrovascular insults, J Neurosci, 2008, 28, 732, 736, PMID: 18199772",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.3665-07.2008",
+            "pmid": "18199772",
+            "pmcid": "PMC6670357",
+            "xmlid": "ref61"
+        },
+        {
+            "bibentry": "Mahajan-Thakur, S, Böhm, A, Jedlitschky, G, Schrör, K, Rauch, BH. Sphingosine-1-Phosphate and Its Receptors: A Mutual Link between Blood Coagulation and Inflammation, Mediators Inflamm, 2015, 2015, 1, 11",
+            "process_entry": "True",
+            "xmlid": "ref62"
+        },
+        {
+            "bibentry": "Marsland, AL, Gianaros, PJ, Kuan, DC, Sheu, LK, Krajina, K, Manuck, SB. Brain morphology links systemic inflammation to cognitive function in midlife adults, Brain Behav Immun, 2015, 48, 195, 204, PMID: 25882911",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbi.2015.03.015",
+            "pmid": "25882911",
+            "pmcid": "PMC4508197",
+            "xmlid": "ref63"
+        },
+        {
+            "bibentry": "Masada, T, Xi, G, Hua, Y, Keep, RF. The effects of thrombin preconditioning on focal cerebral ischemia in rats, Brain Res, 2000, 867, 173, 179, PMID: 10837811",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-8993(00)02302-7",
+            "pmid": "10837811",
+            "xmlid": "ref64"
+        },
+        {
+            "bibentry": "Mirante, O, Price, M, Puentes, W, Castillo, X, Benakis, C, Thevenet, J, Monard, D, Hirt, L. Endogenous protease nexin-1 protects against cerebral ischemia, Int J Mol Sci, 2013, 14, 16719, 16731, PMID: 23949634",
+            "process_entry": "True",
+            "doi": "10.3390/ijms140816719",
+            "pmid": "23949634",
+            "pmcid": "PMC3759934",
+            "xmlid": "ref65"
+        },
+        {
+            "bibentry": "Mulligan, LP, Rosenblatt, DE, Toms, R, Johnson, D. Protease nexin-1 activity in cultured Schwann cells, Neurosci Lett, 1991, 128, 42, 46, PMID: 1717897",
+            "process_entry": "True",
+            "doi": "10.1016/0304-3940(91)90756-j",
+            "pmid": "1717897",
+            "xmlid": "ref66"
+        },
+        {
+            "bibentry": "Nakanishi-Matsui, M, Zheng, YW, Sulciner, DJ, Weiss, EJ, Ludeman, MJ, Coughlin, SR. PAR3 is a cofactor for PAR4 activation by thrombin, Nature, 2000, 404, 609, 613, PMID: 10766244",
+            "process_entry": "True",
+            "doi": "10.1038/35007085",
+            "pmid": "10766244",
+            "xmlid": "ref67"
+        },
+        {
+            "bibentry": "Ostrom, QT, Gittleman, H, Truitt, G, Boscia, A, Kruchko, C, Barnholtz-Sloan, JS. CBTRUS statistical report: Primary brain and other central nervous system tumors diagnosed in the United States in 2011-2015, Neuro Oncol, 2018, 20, iv1, iv86, PMID: 30445539",
+            "process_entry": "True",
+            "doi": "10.1093/neuonc/noy131",
+            "pmid": "30445539",
+            "pmcid": "PMC6129949",
+            "xmlid": "ref68"
+        },
+        {
+            "bibentry": "Ostrom, QT, Gittleman, H, Xu, J, Kromer, C, Wolinsky, Y, Kruchko, C, Barnholtz-Sloan, JS. CBTRUS Statistical Report: Primary Brain and Other Central Nervous System Tumors Diagnosed in the United States in 2009–2013, Neuro Oncol, 2016, 18, v1-75, PMID: 28475809",
+            "process_entry": "True",
+            "doi": "10.1093/neuonc/now207",
+            "pmid": "28475809",
+            "xmlid": "ref69"
+        },
+        {
+            "bibentry": "Pompili, E, Fabrizi, C, Somma, F, Correani, V, Maras, B, Schininà, ME, Ciraci, V, Artico, M, Fornai, F, Fumagalli, L. PAR1 activation affects the neurotrophic properties of Schwann cells, Mol Cell Neurosci, 2017, 79, 23, 33, PMID: 28064059",
+            "process_entry": "True",
+            "doi": "10.1016/j.mcn.2017.01.001",
+            "pmid": "28064059",
+            "xmlid": "ref70"
+        },
+        {
+            "bibentry": "Radulovic, M, Yoon, H, Wu, J, Mustafa, K, Scarisbrick, IA. Targeting the thrombin receptor modulates inflammation and astrogliosis to improve recovery after spinal cord injury, Neurobiol Dis, 2016, 93, 226, 242, PMID: 27145117",
+            "process_entry": "True",
+            "doi": "10.1016/j.nbd.2016.04.010",
+            "pmid": "27145117",
+            "pmcid": "PMC4930708",
+            "xmlid": "ref71"
+        },
+        {
+            "bibentry": "Rae-Grant, A, Day, GS, Marrie, RA, Rabinstein, A, Cree, BAC, Gronseth, GS, Haboubi, M, Halper, J, Hosey, JP, Jones, DE, Lisak, R, Pelletier, D, Potrebic, S, Sitcov, C, Sommers, R, Stachowiak, J, Getchius, TSD, Merillat, SA, Pringsheim, T. Practice guideline recommendations summary: Disease-modifying therapies for adults with multiple sclerosis: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology, Neurology, 2018, 90, 777, 788, PMID: 29686116",
+            "process_entry": "True",
+            "doi": "10.1212/wnl.0000000000005347",
+            "pmid": "29686116",
+            "xmlid": "ref72"
+        },
+        {
+            "bibentry": "Riek-Burchardt, M, Striggow, F, Henrich-Noack, P, Reiser, G, Reymann, K. Increase of prothrombin-mRNA after global cerebral ischemia in rats, with constant expression of protease nexin-1 and protease-activated receptors, Neurosci Lett, 2002, 329, 181, 184, PMID: 12165407",
+            "process_entry": "True",
+            "doi": "10.1016/s0304-3940(02)00645-6",
+            "pmid": "12165407",
+            "xmlid": "ref73"
+        },
+        {
+            "bibentry": "Ryu, J, Pyo, H, Jou, I, Joe, E. Thrombin induces NO release from cultured rat microglia, via protein kinase C, mitogen-activated protein kinase, and NF-κB, J Biol Chem, 2000, 275, 29955, 29959, PMID: 10893407",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m001220200",
+            "pmid": "10893407",
+            "xmlid": "ref74"
+        },
+        {
+            "bibentry": "Schira, J, Heinen, A, Poschmann, G, Ziegler, B, Hartung, HP, Stühler, K, Küry, P. Secretome analysis of nerve repair mediating Schwann cells reveals Smad-dependent trophism, FASEB J, 2019, 33, 4703, 4715, PMID: 30592632",
+            "process_entry": "True",
+            "doi": "10.1096/fj.201801799r",
+            "pmid": "30592632",
+            "xmlid": "ref75"
+        },
+        {
+            "bibentry": "Schmidlin, F, Bunnett, NW. Protease-activated receptors: how proteases signal to cells, Curr Opin Pharmacol, 2001, 1, 575, 582, PMID: 11757812",
+            "process_entry": "True",
+            "doi": "10.1016/s1471-4892(01)00099-6",
+            "pmid": "11757812",
+            "xmlid": "ref76"
+        },
+        {
+            "bibentry": "Sessenwein, JL, Baker, CC, Pradhananga, S, Maitland, ME, Petrof, EO, Allen-Vercoe, E, Noordhof, C, Reed, DE, Vanner, SJ, Lomax, AE. Protease-mediated suppression of DRG neuron excitability by commensal bacteria, J Neurosci, 2017, 37, 11758, 11768, PMID: 29089436",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.1672-17.2017",
+            "pmid": "29089436",
+            "pmcid": "PMC5707769",
+            "xmlid": "ref77"
+        },
+        {
+            "bibentry": "Shavit-Stein, E, Sheinberg, E, Golderman, V, Sharabi, S, Wohl, A, Gofrit, SG, Zivli, Z, Shelestovich, N, Last, D, Guez, D, Daniels, D, Gera, O, Feingold, K, Itsekson-Hayosh, Z, Rosenberg, N, Tamarin, I, Dori, A, Maggio, N, Mardor, Y, Chapman, J. A novel compound targeting protease receptor 1 activators for the treatment of glioblastoma, Front Neurol, 2018, 9, 1087, PMID: 30619047",
+            "process_entry": "True",
+            "doi": "10.3389/fneur.2018.01087",
+            "pmid": "30619047",
+            "pmcid": "PMC6304418",
+            "xmlid": "ref78"
+        },
+        {
+            "bibentry": "Shavit-Stein, E, Aronovich, R, Sylantiev, C, Gera, O, Gofrit, SG, Chapman, J, Dori, A. Blocking thrombin significantly ameliorates experimental autoimmune neuritis, Front Neurol, 2019, 9, 1139, PMID: 30662428",
+            "process_entry": "True",
+            "doi": "10.3389/fneur.2018.01139",
+            "pmid": "30662428",
+            "pmcid": "PMC6328627",
+            "xmlid": "ref79"
+        },
+        {
+            "bibentry": "Shavit, E, Beilin, O, Korczyn, AD, Sylantiev, C, Aronovich, R, Drory, VE, Gurwitz, D, Horresh, I, Bar-Shavit, R, Peles, E, Chapman, J. Thrombin receptor PAR-1 on myelin at the node of Ranvier: a new anatomy and physiology of conduction block, Brain, 2008, 131, 1113, 1122, PMID: 18299297",
+            "process_entry": "True",
+            "doi": "10.1093/brain/awn005",
+            "pmid": "18299297",
+            "xmlid": "ref80"
+        },
+        {
+            "bibentry": "Shavit, E, Michaelson, DM, Chapman, J. Anatomical localization of protease-activated receptor-1 and protease-mediated neuroglilal crosstalk on peri-synaptic astrocytic endfeet, J Neurochem, 2011, 119, 460, 473, PMID: 21854391",
+            "process_entry": "True",
+            "doi": "10.1111/j.1471-4159.2011.07436.x",
+            "pmid": "21854391",
+            "xmlid": "ref81"
+        },
+        {
+            "bibentry": "Shavit Stein, E, Ben Shimon, M, Artan Furman, A, Golderman, V, Chapman, J, Maggio, N. Thrombin inhibition reduces the expression of brain inflammation markers upon systemic LPS treatment, Neural Plast, 2018, 2018, 7692182, PMID: 30018633",
+            "process_entry": "True",
+            "doi": "10.1155/2018/7692182",
+            "pmid": "30018633",
+            "pmcid": "PMC6029482",
+            "xmlid": "ref82"
+        },
+        {
+            "bibentry": "Shi, GD, Shen, X, Zhou, XH, Fan, BY, Ren, YM, Lin, W, Zhang, XL, Liu, S, Hao, Y, Wei, ZJ, Feng, SQ. iTRAQ-based proteomics profiling of Schwann cells before and after peripheral nerve injury, Iran J Basic Med Sci, 2018, 21, 832, 841, PMID: 30186571",
+            "process_entry": "True",
+            "doi": "10.22038/IJBMS.2018.26944.6588",
+            "pmid": "30186571",
+            "pmcid": "PMC6118081",
+            "xmlid": "ref83"
+        },
+        {
+            "bibentry": "Smirnova I, V, Ma, JY, Citron, BA, Ratzlaff, KT, Gregory, EJ, Akaaboune, M, Festoff, BW. Neural thrombin and protease nexin I kinetics after murine peripheral nerve injury, J Neurochem, 1996, 67, 2188, 2199, PMID: 8863530",
+            "process_entry": "True",
+            "doi": "10.1046/j.1471-4159.1996.67052188.x",
+            "pmid": "8863530",
+            "xmlid": "ref84"
+        },
+        {
+            "bibentry": "Smith, JR, Winkelstein, BA. The role of spinal thrombin through protease-activated receptor 1 in hyperalgesia after neural injury, J Neurosurg Spine, 2017, 26, 532, 541, PMID: 28059686",
+            "process_entry": "True",
+            "doi": "10.3171/2016.9.spine16501",
+            "pmid": "28059686",
+            "xmlid": "ref85"
+        },
+        {
+            "bibentry": "Stein, ES, Itsekson-Hayosh, Z, Aronovich, A, Reisner, Y, Bushi, D, Pick, CG, Tanne, D, Chapman, J, Vlachos, A, Maggio, N. Thrombin induces ischemic LTP (iLTP): Implications for synaptic plasticity in the acute phase of ischemic stroke, Sci Rep, 2015, 5, 7912, PMID: 25604482",
+            "process_entry": "True",
+            "doi": "10.1038/srep07912",
+            "pmid": "25604482",
+            "pmcid": "PMC4300504",
+            "xmlid": "ref86"
+        },
+        {
+            "bibentry": "Suo, Z, Wu, M, Ameenuddin, S, Anderson, HE, Zoloty, JE, Citron, BA, Andrade-Gordon, P, Festoff, BW. Participation of protease-activated receptor-1 in thrombin-induced microglial activation, J Neurochem, 2002, 80, 655, 666, PMID: 11841573",
+            "process_entry": "True",
+            "doi": "10.1046/j.0022-3042.2001.00745.x",
+            "pmid": "11841573",
+            "xmlid": "ref87"
+        },
+        {
+            "bibentry": "Thiyagarajan, M, Cheng, T, Zlokovic, BV. Endothelial cell protein C receptor: Role beyond endothelium, Circ Res, 2007, 100, 155, 157, PMID: 17272817",
+            "process_entry": "True",
+            "doi": "10.1161/01.res.0000258167.48227.84",
+            "pmid": "17272817",
+            "xmlid": "ref88"
+        },
+        {
+            "bibentry": "Thiyagarajan, M, Fernández, J, Lane, S, Griffin, G, Zlocovik, B. Activated protein C promotes neovascularization and neurogenesis in postischemic brain, via protease-activated receptor 1, J Neurosci, 2008, 28, 12788, 12797, PMID: 19036971",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.3485-08.2008",
+            "pmid": "19036971",
+            "pmcid": "PMC2742231",
+            "xmlid": "ref89"
+        },
+        {
+            "bibentry": "Thompson, AJ, Banwell, BL, Barkhof, F, Carroll, WM, Coetzee, T, Comi, G, Correale, J, Fazekas, F, Filippi, M, Freedman, MS, Fujihara, K, Galetta, SL, Hartung, HP, Kappos, L, Lublin, FD, Marrie, RA, Miller, AE, Miller, DH, Montalban, X, Mowry, EM. Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria, Lancet Neurol, 2018, 17, 162, 173, PMID: 29275977",
+            "process_entry": "True",
+            "doi": "10.1016/s1474-4422(17)30470-2",
+            "pmid": "29275977",
+            "xmlid": "ref90"
+        },
+        {
+            "bibentry": "van den Berg, B, Walgaard, C, Drenthen, J, Fokke, C, Jacobs, BC, van Doorn, PA. Guillain-Barré syndrome: pathogenesis, diagnosis, treatment and prognosis, Nat Rev Neurol, 2014, 10, 469, 482, PMID: 25023340",
+            "process_entry": "True",
+            "doi": "10.1038/nrneurol.2014.121",
+            "pmid": "25023340",
+            "xmlid": "ref91"
+        },
+        {
+            "bibentry": "Vance, KM, Rogers, RC, Hermann, GE. PAR1-activated astrocytes in the nucleus of the solitary tract stimulate adjacent neurons, via NMDA receptors, J Neurosci, 2015, 35, 776, 785, PMID: 25589770",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.3105-14.2015",
+            "pmid": "25589770",
+            "pmcid": "PMC4293422",
+            "xmlid": "ref92"
+        },
+        {
+            "bibentry": "Vianello, F, Sambado, L, Goss, A, Fabris, F, Prandoni, P. Dabigatran antagonizes growth cell-cycle progression, migration, and endothelial tube formation induced by thrombin in breast and glioblastoma cell lines, Cancer Med, 2016, 5, 2886, 2898, PMID: 27600331",
+            "process_entry": "True",
+            "doi": "10.1002/cam4.857",
+            "pmid": "27600331",
+            "pmcid": "PMC5083743",
+            "xmlid": "ref93"
+        },
+        {
+            "bibentry": "Wang, H, Reiser, G. Thrombin signaling in the brain: The role of protease-activated receptors, Biol Chem, 2003, 384, 193, 202, PMID: 12675511",
+            "process_entry": "True",
+            "doi": "10.1515/bc.2003.021",
+            "pmid": "12675511",
+            "xmlid": "ref94"
+        },
+        {
+            "bibentry": "Wang, J, Jin, H, Hua, Y, Keep, RF, Xi, G. Role of protease-activated receptor-1 in brain injury after experimental global cerebral ischemia, Stroke, 2012a, 43, 2476, 2482, PMID: 22811450",
+            "process_entry": "True",
+            "doi": "10.1161/STROKEAHA.112.661819",
+            "pmid": "22811450",
+            "pmcid": "PMC3429659",
+            "xmlid": "ref95"
+        },
+        {
+            "bibentry": "Wang, S, Dai, Y, Kobayashi, K, Zhu, W, Kogure, Y, Yamanaka, H, Wan, Y, Zhang, W, Noguchi, K. Potentiation of the P2X3 ATP receptor by PAR-2 in rat dorsal root ganglia neurons, through protein kinase-dependent mechanisms, contributes to inflammatory pain, Eur J Neurosci, 2012b, 36, 2293, 2301, PMID: 22616675",
+            "process_entry": "True",
+            "doi": "10.1111/j.1460-9568.2012.08142.x",
+            "pmid": "22616675",
+            "xmlid": "ref96"
+        },
+        {
+            "bibentry": "Wijdicks, EF, Klein, CJ. Guillain-Barré Syndrome, Mayo Clin Proc, 2017, 92, 467, 479, PMID: 28259232",
+            "process_entry": "True",
+            "doi": "10.1016/j.mayocp.2016.12.002",
+            "pmid": "28259232",
+            "xmlid": "ref97"
+        },
+        {
+            "bibentry": "Xie, Q, Bao, X, Chen, ZH, Xu, Y, Keep, RF, Muraszko, KM, Xi, G, Hua, Y. Role of protease-activated receptor-1 in glioma growth, Acta Neurochir Suppl, 2016, 121, 355, 360, PMID: 26463974",
+            "process_entry": "True",
+            "doi": "10.1007/978-3-319-18497-5_61",
+            "pmid": "26463974",
+            "xmlid": "ref98"
+        },
+        {
+            "bibentry": "Xiong, Y, Mahmood, A, Chopp, M. Animal models of traumatic brain injury, Nat Rev Neurosci, 2013, 14, 128, 142, PMID: 23329160",
+            "process_entry": "True",
+            "doi": "10.1038/nrn3407",
+            "pmid": "23329160",
+            "pmcid": "PMC3951995",
+            "xmlid": "ref99"
+        },
+        {
+            "bibentry": "Yamanaka, H, Kobayashi, K, Okubo, M, Noguchi, K. Annexin A2 in primary afferents contributes to neuropathic pain associated with tissue type plasminogen activator, Neuroscience, 2016, 314, 189, 199, PMID: 26642807",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuroscience.2015.11.058",
+            "pmid": "26642807",
+            "xmlid": "ref100"
+        },
+        {
+            "bibentry": "Yoon, H, Radulovic, M, Drucker, KL, Wu, J, Scarisbrick, IA. The thrombin receptor is a critical extracellular switch controlling myelination, Glia, 2015, 63, 846, 859, PMID: 25628003",
+            "process_entry": "True",
+            "doi": "10.1002/glia.22788",
+            "pmid": "25628003",
+            "pmcid": "PMC4374010",
+            "xmlid": "ref101"
+        },
+        {
+            "bibentry": "Zhu, WJ, Yamanaka, H, Obata, K, Dai, Y, Kobayashi, K, Kozai, T, Tokunaga, A, Noguchi, K. Expression of mRNA for four subtypes of the proteinase-activated receptor in rat dorsal root ganglia, Brain Res, 2005, 1041, 205, 211, PMID: 15829229",
+            "process_entry": "True",
+            "doi": "10.1016/j.brainres.2005.02.018",
+            "pmid": "15829229",
+            "xmlid": "ref102"
+        }
+    ],
+    "localid": "MED-31397331",
+    "doi": "10.4103/1673-5374.262568",
+    "pmid": "10.4103/1673-5374.262568",
+    "pmcid": "31397331",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31397331/fullTextXML",
+    "reference_pointers": []
+}

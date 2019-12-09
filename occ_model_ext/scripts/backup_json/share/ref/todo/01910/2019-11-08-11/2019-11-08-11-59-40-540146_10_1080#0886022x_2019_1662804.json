@@ -1,0 +1,596 @@
+{
+    "references": [
+        {
+            "bibentry": "Lau, WL, Obi, Y, Kalantar-Zadeh, K. Parathyroidectomy in the management of secondary hyperparathyroidism. Clin J Am Soc Nephrol. 2018; 13(6): 952–961. PMID: 29523679",
+            "process_entry": "True",
+            "doi": "10.2215/CJN.10390917",
+            "pmid": "29523679",
+            "pmcid": "PMC5989682",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Evans, M, Methven, S, Gasparini, A, et al. Cinacalcet use and the risk of cardiovascular events, fractures and mortality in chronic kidney disease patients with secondary hyperparathyroidism. Sci Rep. 2018; 8(1): 2103. PMID: 29391567",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-018-20552-5",
+            "pmid": "29391567",
+            "pmcid": "PMC5794851",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Kara, M, Tellioglu, G, Bugan, U, et al. Evaluation of intraoperative parathormone measurement for predicting successful surgery in patients undergoing subtotal/total parathyroidectomy due to secondary hyperparathyroidism. Laryngoscope. 2010; 120(8): 1538–1544. PMID: 20641075",
+            "process_entry": "True",
+            "doi": "10.1002/lary.21023",
+            "pmid": "20641075",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Zhang, L, Xing, C, Shen, C, et al. Diagnostic accuracy study of intraoperative and perioperative serum intact PTH level for successful parathyroidectomy in 501 secondary hyperparathyroidism patients. Sci Rep. 2016; 6(1): 26841. PMID: 27231027",
+            "process_entry": "True",
+            "doi": "10.1038/srep26841",
+            "pmid": "27231027",
+            "pmcid": "PMC4882599",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Conzo, G, Perna, AF, Sinisi, AA, et al. Total parathyroidectomy without autotransplantation in the surgical treatment of secondary hyperparathyroidism of chronic kidney disease. J Endocrinol Invest. 2012; 35(1): 8–13. PMID: 21427530",
+            "process_entry": "True",
+            "doi": "10.3275/7621",
+            "pmid": "21427530",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Yu, MA, Yao, L, Zhang, L, et al. Safety and efficiency of microwave ablation for recurrent and persistent secondary hyperparathyroidism after parathyroidectomy: a retrospective pilot study. Int J Hyperthermia. 2016; 32(2): 180–186. PMID: 26606889",
+            "process_entry": "True",
+            "doi": "10.3109/02656736.2015.1101788",
+            "pmid": "26606889",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Okada, M, Tominaga, Y, Yamamoto, T, et al. Location frequency of missed parathyroid glands after parathyroidectomy in patients with persistent or recurrent secondary hyperparathyroidism. World J Surg. 2016; 40(3): 595–599. PMID: 26563219",
+            "process_entry": "True",
+            "doi": "10.1007/s00268-015-3312-1",
+            "pmid": "26563219",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Nanka, O, Libansky, P, Sedy, J, et al. Surgical-anatomical study as a part of operative treatment of primary hyperparathyroidism. Rozhl Chir. 2006; 85: 618–623. PMID: 17407952",
+            "process_entry": "True",
+            "pmid": "17407952",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Hojaij, F, Vanderlei, F, Plopper, C, et al. Parathyroid gland anatomical distribution and relation to anthropometric and demographic parameters: a cadaveric study. Anat Sci Int. 2011; 86(4): 204–212. PMID: 21850415",
+            "process_entry": "True",
+            "doi": "10.1007/s12565-011-0111-0",
+            "pmid": "21850415",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Wang, C. The anatomic basis of parathyroid surgery. Ann Surg. 1976; 183(3): 271–275. PMID: 1259483",
+            "process_entry": "True",
+            "doi": "10.1097/00000658-197603000-00010",
+            "pmid": "1259483",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Gomes, EM, Nunes, RC, Lacativa, PG, et al. Ectopic and extranumerary parathyroid glands location in patients with hyperparathyroidism secondary to end stage renal disease. Acta Cir Bras. 2007; 22(2): 105–109. PMID: 17375215",
+            "process_entry": "True",
+            "doi": "10.1590/s0102-86502007000200005",
+            "pmid": "17375215",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Zeze, F, Itoh, H, Ohsato, K. Hyperplasia and adenoma of the ectopic parathyroid gland. Nihon Rinsho. 1995; 53(4): 920–924. PMID: 7752485",
+            "process_entry": "True",
+            "pmid": "7752485",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Schneider, R, Waldmann, J, Ramaswamy, A, et al. Frequency of ectopic and supernumerary intrathymic parathyroid glands in patients with renal hyperparathyroidism: analysis of 461 patients undergoing initial parathyroidectomy with bilateral cervical thymectomy. World J Surg. 2011; 35(6): 1260–1265. PMID: 21479685",
+            "process_entry": "True",
+            "doi": "10.1007/s00268-011-1079-6",
+            "pmid": "21479685",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Liu, W, Xu, ZQ, Hu, JM. Double phase parathyroid 99 Tc m MIBI scintigraphy in secondary hyperparathyroidism. Chinese J Nucl Med. 1999;19(1): 29–30.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Taieb, D, Urena-Torres, P, Zanotti-Fregonara, P, et al. Parathyroid scintigraphy in renal hyperparathyroidism: the added diagnostic value of SPECT and SPECT/CT. Clin Nucl Med. 2013; 38: 630–635. PMID: 23751837",
+            "process_entry": "True",
+            "doi": "10.1097/RLU.0b013e31829af5bf",
+            "pmid": "23751837",
+            "pmcid": "PMC4300197",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Work Group KDIGO clinical practice guideline for the diagnosis, evaluation, prevention, and treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD). Kidney Int Suppl. 2009; 113: S1–S130.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Stracke, S, Keller, F, Steinbach, G, et al. Long-term outcome after total parathyroidectomy for the management of secondary hyperparathyroidism. Nephron Clin Pract. 2009; 111(2): c102–c109. PMID: 19142022",
+            "process_entry": "True",
+            "doi": "10.1159/000191200",
+            "pmid": "19142022",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Ketteler, M, Block, GA, Evenepoel, P, et al. Diagnosis, evaluation, prevention, and treatment of chronic kidney disease-mineral and bone disorder: synopsis of the kidney disease: improving global outcomes 2017 clinical practice guideline update. Ann Intern Med. 2018; 168(6): 422–430. PMID: 29459980",
+            "process_entry": "True",
+            "doi": "10.7326/m17-2640",
+            "pmid": "29459980",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Zhou, Q, Xu, JY, Liu, SZ, et al. Localization of hyperfunctioning ectopic parathyroid glands using 99Tcm-MIBI imaging. Chinese J Nucl Med. 2003; 23(1): 24–26.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Monzen, Y, Tamura, A, Okazaki, H, et al. SPECT/CT fusion in the diagnosis of hyperparathyroidism. Asia Ocean J Nucl Med Biol. 2015; 3(1): 61–65. PMID: 27408883",
+            "process_entry": "True",
+            "pmid": "27408883",
+            "pmcid": "PMC4937692",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Caldarella, C, Treglia, G, Pontecorvi, A, et al. Diagnostic performance of planar scintigraphy using 99mTc-MIBI in patients with secondary hyperparathyroidism: a meta-analysis. Ann Nucl Med. 2012; 26(10): 794–803. PMID: 22875577",
+            "process_entry": "True",
+            "doi": "10.1007/s12149-012-0643-y",
+            "pmid": "22875577",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Vulpio, C, Bossola, M, De Gaetano, A, et al. Usefulness of the combination of ultrasonography and 99mTc-sestamibi scintigraphy in the preoperative evaluation of uremic secondary hyperparathyroidism. Head Neck. 2010; 32(9): 1226–1235. PMID: 20091692",
+            "process_entry": "True",
+            "doi": "10.1002/hed.21320",
+            "pmid": "20091692",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Harari, A, Mitmaker, E, Grogan, RH, et al. Primary hyperparathyroidism patients with positive preoperative sestamibi scan and negative ultrasound are more likely to have posteriorly located upper gland adenomas (PLUGs). Ann Surg Oncol. 2011; 18(6): 1717–1722. PMID: 21207169",
+            "process_entry": "True",
+            "doi": "10.1245/s10434-010-1493-2",
+            "pmid": "21207169",
+            "pmcid": "PMC3087871",
+            "xmlid": "CIT0023"
+        }
+    ],
+    "localid": "MED-31537128",
+    "doi": "10.1080/0886022X.2019.1662804",
+    "pmid": "10.1080/0886022X.2019.1662804",
+    "pmcid": "31537128",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31537128/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,162)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),157,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,162)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),157,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),164,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,122)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),355,76)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),355,76)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),355,76)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),355,76)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),135,113)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),242,5)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),135,113)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),242,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),331,5)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),331,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "rp_string": "11–13",
+                "pl_string": "11–13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "11–13",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "",
+                "pl_string": "11–13",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "rp_string": "11–13",
+                "pl_string": "11–13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),249,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),202,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,88)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Study population"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),90,375)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Study population"
+                ],
+                "pl_string": "[4,16]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),458,6)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),90,375)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Study population"
+                ],
+                "pl_string": "[4,16]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),458,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,80)",
+                "containers_title": [
+                    "Surgical procedures",
+                    "Definition of successful PTX"
+                ],
+                "pl_string": "[4,17]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),74,6)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,80)",
+                "containers_title": [
+                    "Surgical procedures",
+                    "Definition of successful PTX"
+                ],
+                "pl_string": "[4,17]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),74,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),114,123)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),431,184)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),375,207)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),905,204)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1418,154)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1573,111)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1,290)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),283,7)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1,290)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),283,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),292,217)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),750,528)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

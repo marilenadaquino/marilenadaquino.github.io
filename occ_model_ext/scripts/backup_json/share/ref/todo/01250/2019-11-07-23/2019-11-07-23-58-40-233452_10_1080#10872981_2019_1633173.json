@@ -1,0 +1,138 @@
+{
+    "references": [
+        {
+            "bibentry": "Bergmann, C, Muth, T, Loerbroks, A. Medical students’ perceptions of stress due to academic studies and its interrelationships with other domains of life: a qualitative study. Med Educ Online. 2019; 24: 1603526.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Stillwell, SB, Vermeesch, AL, Scott, JG. Interventions to reduce perceived stress among graduate students: a systematic review with implications for evidence-based practice. Worldviews Evid Based Nurs. 2017; 14: 507–513.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Hill, MR, Goicochea, S, Merlo, LJ. In their own words: stressors facing medical students in the millennial generation. Med Educ Online. 2018; 23: 1530558.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Pugh, D, Regehr, G. Taking the sting out of assessment: is there a role for progress testing? Med Educ. 2016; 50: 721–729.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "McKellar, L, Kempster, C. We’re all in this together: midwifery student peer mentoring. Nurse Educ Pract. 2017; 24: 112–117.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        }
+    ],
+    "localid": "MED-31208299",
+    "doi": "10.1080/10872981.2019.1633173",
+    "pmid": "10.1080/10872981.2019.1633173",
+    "pmcid": "31208299",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31208299/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/p[2]),1,133)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,121)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),216,110)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),540,148)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,119)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),406,142)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[5]),1,106)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[5]),325,205)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,211)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[6]),213,173)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

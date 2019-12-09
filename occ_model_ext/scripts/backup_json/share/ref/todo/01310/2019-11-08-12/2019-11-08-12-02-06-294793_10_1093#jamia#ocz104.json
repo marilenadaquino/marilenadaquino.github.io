@@ -1,0 +1,726 @@
+{
+    "references": [
+        {
+            "bibentry": "Bushardt, RL, Massey, EB, Simpson, TW, Ariail, JC, Simpson, KN. Polypharmacy: misleading, but manageable. Clin Interv Aging 2008; 3: 383–9. PMID: 18686760",
+            "process_entry": "True",
+            "doi": "10.2147/cia.s2468",
+            "pmid": "18686760",
+            "pmcid": "PMC2546482",
+            "xmlid": "ocz104-B1"
+        },
+        {
+            "bibentry": "Eurostat. Population Structure and Ageing. http://ec.europa.eu/eurostat/statistics-explained/index.php/Population_structure_and_ageing#Further_Eurostat_information. Accessed October 4, 2018.",
+            "process_entry": "True",
+            "url": "http://ec.europa.eu/eurostat/statistics-explained/index.php/Population_structure_and_ageing#Further_Eurostat_information. Accessed October 4, 2018.",
+            "xmlid": "ocz104-B2"
+        },
+        {
+            "bibentry": "Violan, C, Foguet-Boreu, Q, Flores-Mateo, G, Salisbury, C, Blom, J, Freitag, M. et al Prevalence, determinants and patterns of multimorbidity in primary care: a systematic review of observational studies. PLoS One 2014; 9 7: e102149. PMID: 25048354",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0102149",
+            "pmid": "25048354",
+            "pmcid": "PMC4105594",
+            "xmlid": "ocz104-B3"
+        },
+        {
+            "bibentry": "Boyd, CM, Darer, J, Boult, C, Fried, LP, Boult, L, Wu, AW. Clinical practice guidelines and quality of care for older patients with multiple comorbid diseases: Implications for pay for performance. JAMA 2005; 294 6: 716–24. PMID: 16091574",
+            "process_entry": "True",
+            "doi": "10.1001/jama.294.6.716",
+            "pmid": "16091574",
+            "xmlid": "ocz104-B4"
+        },
+        {
+            "bibentry": "Guthrie, B, Makubate, B, Hernandez-Santiago, V, Dreischulte, T. The rising tide of polypharmacy and drug-drug interactions: population database analysis 1995-2010. BMC Med 2015; 13: 74. PMID: 25889849",
+            "process_entry": "True",
+            "doi": "10.1186/s12916-015-0322-7",
+            "pmid": "25889849",
+            "pmcid": "PMC4417329",
+            "xmlid": "ocz104-B5"
+        },
+        {
+            "bibentry": "Rollason, V, Vogt, N. Reduction of polypharmacy in the elderly. Drugs Aging 2003; 20: 817–32. PMID: 12964888",
+            "process_entry": "True",
+            "doi": "10.2165/00002512-200320110-00003",
+            "pmid": "12964888",
+            "xmlid": "ocz104-B6"
+        },
+        {
+            "bibentry": "Viktil, KK, Blix, HS, Moger, TA, Reikvam, A. Polypharmacy as commonly defined is an indicator of limited value in the assessment of drug-related problems. Br J Clin Pharmacol 2007; 63 2: 187–95. PMID: 16939529",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2125.2006.02744.x",
+            "pmid": "16939529",
+            "pmcid": "PMC2000563",
+            "xmlid": "ocz104-B7"
+        },
+        {
+            "bibentry": "Molokhia, M, Majeed, A. Current and future perspectives on the management of polypharmacy. BMC Fam Pract 2017; 18 1: 70. PMID: 28587644",
+            "process_entry": "True",
+            "doi": "10.1186/s12875-017-0642-0",
+            "pmid": "28587644",
+            "pmcid": "PMC5461681",
+            "xmlid": "ocz104-B8"
+        },
+        {
+            "bibentry": "Moxey, A, Robertson, J, Newby, D, Hains, I, Williamson, M, Pearson, S-A. Computerized clinical decision support for prescribing: provision does not guarantee uptake. J Am Med Inform Assoc 2010; 17 1: 25–33. PMID: 20064798",
+            "process_entry": "True",
+            "doi": "10.1197/jamia.M3170",
+            "pmid": "20064798",
+            "pmcid": "PMC2995634",
+            "xmlid": "ocz104-B9"
+        },
+        {
+            "bibentry": "Sönnichsen, A, Trampisch, US, Rieckert, A. et al Polypharmacy in chronic diseases–reduction of inappropriate medication and adverse drug events in older populations by electronic decision support (PRIMA-eDS): study protocol for a randomized controlled trial. Trials 2016; 17: 1–9. PMID: 26725476",
+            "process_entry": "True",
+            "doi": "10.1186/s13063-015-1128-9",
+            "pmid": "26725476",
+            "pmcid": "PMC4698823",
+            "xmlid": "ocz104-B10"
+        },
+        {
+            "bibentry": "Rieckert, A, Trampisch, US, Klaaßen-Mielke, R. et al Polypharmacy in older patients with chronic diseases: a cross-sectional analysis of factors associated with excessive polypharmacy. BMC Fam Pract 2018; 19: 113. PMID: 30021528",
+            "process_entry": "True",
+            "doi": "10.1186/s12875-018-0795-5",
+            "pmid": "30021528",
+            "pmcid": "PMC6052592",
+            "xmlid": "ocz104-B11"
+        },
+        {
+            "bibentry": "Duodecim. Evidence-based medicine guideline. https://www.duodecim.fi/english/products/ebmg. Accessed May 3, 2018.",
+            "process_entry": "True",
+            "url": "https://www.duodecim.fi/english/products/ebmg. Accessed May 3, 2018.",
+            "xmlid": "ocz104-B12"
+        },
+        {
+            "bibentry": "Duodecim. Evidence-Based Medicine Electronic Decision Support. https://www.ebmeds.org/en/. Accessed June 26, 2019.",
+            "process_entry": "True",
+            "url": "https://www.ebmeds.org/en/. Accessed June 26, 2019.",
+            "xmlid": "ocz104-B13"
+        },
+        {
+            "bibentry": "Duodecim. EBMeDS Clinical Decision Support. http://www.ebmeds.org. Accessed May 3, 2018.",
+            "process_entry": "True",
+            "url": "http://www.ebmeds.org. Accessed May 3, 2018.",
+            "xmlid": "ocz104-B14"
+        },
+        {
+            "bibentry": "Martinez, YV, Renom-Guiteras, A, Reeves, D. et al A set of systematic reviews to help reduce inappropriate prescribing to older people: study protocol. BMC Geriatr 2017; 17 suppl 1: 231. doi: 10.1186/s12877-017-0570-9.",
+            "process_entry": "True",
+            "xmlid": "ocz104-B15"
+        },
+        {
+            "bibentry": "Renom-Guiteras, A, Meyer, G, Thurmann, PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015; 71 7: 861–75. PMID: 25967540",
+            "process_entry": "True",
+            "doi": "10.1007/s00228-015-1860-9",
+            "pmid": "25967540",
+            "pmcid": "PMC4464049",
+            "xmlid": "ocz104-B16"
+        },
+        {
+            "bibentry": "Medbase. Renbase-Analysis of Adverse Drug Reactions. http://www.medbase.fi/en/professionals/renbase. Accessed May 3, 2018.",
+            "process_entry": "True",
+            "url": "http://www.medbase.fi/en/professionals/renbase. Accessed May 3, 2018.",
+            "xmlid": "ocz104-B17"
+        },
+        {
+            "bibentry": "INXBASE Interaction Database. http://www.medbase.fi/en/professionals/inxbase. Accessed May 3, 2018.",
+            "process_entry": "True",
+            "url": "http://www.medbase.fi/en/professionals/inxbase. Accessed May 3, 2018.",
+            "xmlid": "ocz104-B18"
+        },
+        {
+            "bibentry": "European Medicines Agency. http://www.ema.europa.eu/ema. Accessed May 3, 2018.",
+            "process_entry": "True",
+            "url": "http://www.ema.europa.eu/ema. Accessed May 3, 2018.",
+            "xmlid": "ocz104-B19"
+        },
+        {
+            "bibentry": "Medbase. RISKBASE–Analysis of Adverse Drug Reactions. http://www.medbase.fi/en/professionals/riskbase. Accessed May 3, 2018.",
+            "process_entry": "True",
+            "url": "http://www.medbase.fi/en/professionals/riskbase. Accessed May 3, 2018.",
+            "xmlid": "ocz104-B20"
+        },
+        {
+            "bibentry": "Rieckert, A, Sommerauer, C, Krumeich, A, Sönnichsen, A. Reduction of inappropriate medication in older populations by electronic decision support (the PRIMA-eDS study): a qualitative study of practical implementation in primary care. BMC Fam Pract 2018; 19: 110. PMID: 29986668",
+            "process_entry": "True",
+            "doi": "10.1186/s12875-018-0789-3",
+            "pmid": "29986668",
+            "pmcid": "PMC6038343",
+            "xmlid": "ocz104-B21"
+        },
+        {
+            "bibentry": "Clyne, B, Cooper, JA, Hughes, CM, Fahey, T, Smith, SM. A process evaluation of a cluster randomised trial to reduce potentially inappropriate prescribing in older people in primary care (OPTI-SCRIPT study). Trials 2016; 17: 386. PMID: 27488272",
+            "process_entry": "True",
+            "doi": "10.1186/s13063-016-1513-z",
+            "pmid": "27488272",
+            "pmcid": "PMC4973100",
+            "xmlid": "ocz104-B22"
+        },
+        {
+            "bibentry": "Lugtenberg, M, Weenink, J-W, van der Weijden, T, Westert, GP, Kool, RB. Implementation of multiple-domain covering computerized decision support systems in primary care: a focus group study on perceived barriers. BMC Med Inform Decis Making 2015; 15: 1339.",
+            "process_entry": "True",
+            "xmlid": "ocz104-B23"
+        },
+        {
+            "bibentry": "Kortteisto, T, Komulainen, J, Mäkelä, M, Kunnamo, I, Kaila, M. Clinical decision support must be useful, functional is not enough: a qualitative study of computer-based clinical decision support in primary care. BMC Health Serv Res 2012; 12: 349. PMID: 23039113",
+            "process_entry": "True",
+            "doi": "10.1186/1472-6963-12-349",
+            "pmid": "23039113",
+            "pmcid": "PMC3508894",
+            "xmlid": "ocz104-B24"
+        },
+        {
+            "bibentry": "van der Sijs, H, Aarts, J, Vulto, A, Berg, M. Overriding of drug safety alerts in computerized physician order entry. J Am Med Inform Assoc 2006; 13 2: 138–47. PMID: 16357358",
+            "process_entry": "True",
+            "doi": "10.1197/jamia.M1809",
+            "pmid": "16357358",
+            "pmcid": "PMC1447540",
+            "xmlid": "ocz104-B25"
+        },
+        {
+            "bibentry": "Tamblyn, R, Huang, A, Taylor, L. et al A randomized trial of the effectiveness of on-demand versus computer-triggered drug decision support in primary care. J Am Med Inform Assoc 2008; 15 4: 430–8. PMID: 18436904",
+            "process_entry": "True",
+            "doi": "10.1197/jamia.M2606",
+            "pmid": "18436904",
+            "pmcid": "PMC2442270",
+            "xmlid": "ocz104-B26"
+        },
+        {
+            "bibentry": "Hammar, T, Lidström, B, Petersson, G, Gustafson, Y, Eiermann, B. Potential drug-related problems detected by electronic expert support system: physicians' views on clinical relevance. Int J Clin Pharm 2015; 37 5: 941–8. PMID: 26047943",
+            "process_entry": "True",
+            "doi": "10.1007/s11096-015-0146-8",
+            "pmid": "26047943",
+            "xmlid": "ocz104-B27"
+        },
+        {
+            "bibentry": "Willeboordse, F, Hugtenburg, JG, Schellevis, FG, Elders, P. Patient participation in medication reviews is desirable but not evidence-based: a systematic literature review. Br J Clin Pharmacol 2014; 78 6: 1201–16. PMID: 24698145",
+            "process_entry": "True",
+            "doi": "10.1111/bcp.12398",
+            "pmid": "24698145",
+            "pmcid": "PMC4256610",
+            "xmlid": "ocz104-B28"
+        },
+        {
+            "bibentry": "Geurts, MME, Talsma, J, Brouwers, J, De Gier, JJ. Medication review and reconciliation with cooperation between pharmacist and general practitioner and the benefit for the patient: a systematic review. Br J Clin Pharmacol 2012; 74 1: 16–33. PMID: 22242793",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2125.2012.04178.x",
+            "pmid": "22242793",
+            "pmcid": "PMC3394125",
+            "xmlid": "ocz104-B29"
+        },
+        {
+            "bibentry": "Belcher, VN, Fried, TR, Agostini, JV, Tinetti, ME. Views of older adults on patient participation in medication-related decision making. J Gen Intern Med 2006; 21 4: 298–303. PMID: 16686804",
+            "process_entry": "True",
+            "doi": "10.1111/j.1525-1497.2006.00329.x",
+            "pmid": "16686804",
+            "pmcid": "PMC1484726",
+            "xmlid": "ocz104-B30"
+        },
+        {
+            "bibentry": "Stevenson, FA, Cox, K, Britten, N, Dundar, Y. A systematic review of the research on communication between patients and healthcare professionals about medicines: the consequences for concordance. Health Expect 2004; 7 3: 235–45. PMID: 15327462",
+            "process_entry": "True",
+            "doi": "10.1111/j.1369-7625.2004.00281.x",
+            "pmid": "15327462",
+            "pmcid": "PMC5060245",
+            "xmlid": "ocz104-B31"
+        },
+        {
+            "bibentry": "Hume, AL, Quilliam, BJ, Goldman, R, Eaton, C, Lapane, KL. Alternatives to potentially inappropriate medications for use in e-prescribing software: triggers and treatment algorithms. BMJ Qual Saf 2011; 20 10: 875–84.",
+            "process_entry": "True",
+            "xmlid": "ocz104-B32"
+        },
+        {
+            "bibentry": "Reeve, E, Gnjidic, D, Long, J, Hilmer, S. A systematic review of the emerging definition of ‘deprescribing’ with network analysis: implications for future research and clinical practice. Br J Clin Pharmacol 2015; 80 6: 1254–68. PMID: 27006985",
+            "process_entry": "True",
+            "doi": "10.1111/bcp.12732",
+            "pmid": "27006985",
+            "pmcid": "PMC4693477",
+            "xmlid": "ocz104-B33"
+        },
+        {
+            "bibentry": "Anderson, K, Stowasser, D, Freeman, C, Scott, I. Prescriber barriers and enablers to minimising potentially inappropriate medications in adults: a systematic review and thematic synthesis. BMJ Open 2014; 4 12: e006544.",
+            "process_entry": "True",
+            "xmlid": "ocz104-B34"
+        },
+        {
+            "bibentry": "Fried, TR, Tinetti, ME, Iannone, L. Primary care clinicians' experiences with treatment decision making for older persons with multiple conditions. Arch Intern Med 2011; 171 1: 75–80. PMID: 20837819",
+            "process_entry": "True",
+            "doi": "10.1001/archinternmed.2010.318",
+            "pmid": "20837819",
+            "pmcid": "PMC3021478",
+            "xmlid": "ocz104-B35"
+        },
+        {
+            "bibentry": "Schuling, J, Gebben, H, Veehof, LJG, Haaijer-Ruskamp, FM. Deprescribing medication in very elderly patients with multimorbidity: the view of Dutch GPs. A qualitative study. BMC Fam Pract 2012; 13: 56. PMID: 22697490",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2296-13-56",
+            "pmid": "22697490",
+            "pmcid": "PMC3391990",
+            "xmlid": "ocz104-B36"
+        },
+        {
+            "bibentry": "Sinnott, C, Mc Hugh, S, Browne, J, Bradley, C. GPs' perspectives on the management of patients with multimorbidity: systematic review and synthesis of qualitative research. BMJ Open 2013; 3 9: e003610.",
+            "process_entry": "True",
+            "xmlid": "ocz104-B37"
+        },
+        {
+            "bibentry": "Schoen, C, Osborn, R, Squires, D, Doty, M, Pierson, R, Applebaum, S. New 2011 survey of patients with complex care needs in eleven countries finds that care is often poorly coordinated. Health Aff (Millwood) 2011; 30 12: 2437–48. PMID: 22072063",
+            "process_entry": "True",
+            "doi": "10.1377/hlthaff.2011.0923",
+            "pmid": "22072063",
+            "xmlid": "ocz104-B38"
+        },
+        {
+            "bibentry": "Moen, J, Norrgård, S, Antonov, K, Nilsson, JLG, Ring, L. GPs' perceptions of multiple-medicine use in older patients. J Eval Clin Pract 2010; 16 1: 69–75. PMID: 20367817",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2753.2008.01116.x",
+            "pmid": "20367817",
+            "xmlid": "ocz104-B39"
+        },
+        {
+            "bibentry": "Milton, JC, Hill-Smith, I, Jackson, S. Prescribing for older people. BMJ 2008; 336 7644: 606–9. PMID: 18340075",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.39503.424653.80",
+            "pmid": "18340075",
+            "pmcid": "PMC2267940",
+            "xmlid": "ocz104-B40"
+        },
+        {
+            "bibentry": "Ailabouni, NJ, Nishtala, PS, Mangin, D, Tordoff, JM. Challenges and enablers of deprescribing: a general practitioner perspective. PLoS One 2016; 11 4: e0151066. PMID: 27093289",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0151066",
+            "pmid": "27093289",
+            "pmcid": "PMC4836702",
+            "xmlid": "ocz104-B41"
+        },
+        {
+            "bibentry": "Reeve, E, To, J, Hendrix, I, Shakib, S, Roberts, MS, Wiese, MD. Patient barriers to and enablers of deprescribing: a systematic review. Drugs Aging 2013; 30: 793–807. PMID: 23912674",
+            "process_entry": "True",
+            "doi": "10.1007/s40266-013-0106-8",
+            "pmid": "23912674",
+            "xmlid": "ocz104-B42"
+        },
+        {
+            "bibentry": "Irving, G, Neves, AL, Dambha-Miller, H. et al International variations in primary care physician consultation time: a systematic review of 67 countries. BMJ Open 2017; 7 10: e017902.",
+            "process_entry": "True",
+            "xmlid": "ocz104-B43"
+        }
+    ],
+    "localid": "MED-31504572",
+    "doi": "10.1093/jamia/ocz104",
+    "pmid": "10.1093/jamia/ocz104",
+    "pmcid": "31504572",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31504572/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "ocz104-B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,626)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "ocz104-B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,367)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "ocz104-B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,200)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "ocz104-B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),413,138)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Context of the intervention"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "ocz104-B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[1]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[1]/td[2]),1,68)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "ocz104-B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[2]/td[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[2]/td[2]),1,90)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "ocz104-B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[3]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[3]/td[2]),1,29)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "ocz104-B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[4]/td/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[4]/td),1,65)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "ocz104-B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[5]/td/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[5]/td),1,16)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "ocz104-B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[6]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[6]/td[2]),1,18)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "ocz104-B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[7]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[7]/td[2]),1,18)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "ocz104-B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[8]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[8]/td[2]),1,110)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "ocz104-B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[10]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/table-wrap/table/tbody/tr[10]/td[2]),1,19)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Intervention (PRIMA-eDS tool)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "ocz104-B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),202,140)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Questionnaire"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "ocz104-B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),213,159)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "ocz104-B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),406,171)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),571,5)",
+                "pl_string": ".23,2"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "ocz104-B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),406,171)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),571,5)",
+                "pl_string": ".23,2"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "ocz104-B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),141,418)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "ocz104-B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),187,531)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "ocz104-B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),1,612)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "ocz104-B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),614,241)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "ocz104-B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1,200)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "ocz104-B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,342)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "ocz104-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),456,174)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "ocz104-B35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),123,438)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "ocz104-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),75,579)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "ocz104-B38",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),821,229)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "ocz104-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[11]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[11]),1,316)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "ocz104-B43",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[4]/p[11]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[11]),775,378)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "ocz104-B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[12]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[12]),1,536)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "ocz104-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[13]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[13]),117,151)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "ocz104-B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[14]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[14]),247,167)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "ocz104-B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[15]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[15]),96,452)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

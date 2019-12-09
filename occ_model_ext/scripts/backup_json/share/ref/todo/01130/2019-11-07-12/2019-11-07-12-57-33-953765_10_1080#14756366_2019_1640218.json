@@ -1,0 +1,736 @@
+{
+    "references": [
+        {
+            "bibentry": "He, X, Fang, J, Huang, L, et al. Sophora flavescens Ait: traditional usage, phytochemistry and pharmacology of an important traditional Chinese medicine. J Ethnopharmacol 2015; 172: 10–29. PMID: 26087234",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2015.06.010",
+            "pmid": "26087234",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Sun, M, Cao, H, Sun, L, et al. Antitumor activities of Kushen: literature review. Evid Based Complement Alternat Med 2012; 2012: 1.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Sun, M, Han, J, Duan, J, et al. Novel antitumor activities of Kushen flavonoids in vitro and in vivo. Phytother Res 2007; 21: 269–77. PMID: 17186494",
+            "process_entry": "True",
+            "doi": "10.1002/ptr.2066",
+            "pmid": "17186494",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Balentine, DA, Wiseman, SA, Bouwens, L. The chemistry of tea flavonoids. Crit Rev Food Sci Nutr 1997; 37: 693–704. PMID: 9447270",
+            "process_entry": "True",
+            "doi": "10.1080/10408399709527797",
+            "pmid": "9447270",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Pietta, PG. Flavonoids as antioxidants. J Nat Prod 2000; 63: 1035–42. PMID: 10924197",
+            "process_entry": "True",
+            "doi": "10.1021/np9904509",
+            "pmid": "10924197",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Procházková, D, Boušová, I, Wilhelmová, N. Antioxidant and prooxidant properties of flavonoids. Fitoterapia 2011; 82: 513–23. PMID: 21277359",
+            "process_entry": "True",
+            "doi": "10.1016/j.fitote.2011.01.018",
+            "pmid": "21277359",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Formica, JV, Regelson, W. Review of the biology of quercetin and related bioflavonoids. Food Chem Toxicol 1995; 33: 1061–80. PMID: 8847003",
+            "process_entry": "True",
+            "doi": "10.1016/0278-6915(95)00077-1",
+            "pmid": "8847003",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Alcaraz, MJ, Hoult, J. Actions of flavonoids and the novel anti-inflammatory flavone, hypolaetin-8-glucoside, on prostaglandin biosynthesis and inactivation. Biochem Pharmacol 1985; 34: 2477–82. PMID: 3839399",
+            "process_entry": "True",
+            "doi": "10.1016/0006-2952(85)90529-5",
+            "pmid": "3839399",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Zhang, L, Xu, L, Xiao, S-S, et al. Characterization of flavonoids in the extract of Sophora flavescens Ait. by high-performance liquid chromatography coupled with diode-array detector and electrospray ionization mass spectrometry. J Pharm Biomed Anal 2007; 44: 1019–28. PMID: 17658714",
+            "process_entry": "True",
+            "doi": "10.1016/j.jpba.2007.04.019",
+            "pmid": "17658714",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Canzi, EF, Marques, FA, Teixeira, SD, et al. Prenylated flavonoids from roots of Dahlstedtia glaziovii (Fabaceae). J Braz Chem Soc 2014; 25: 995–1001.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Yang, X, Jiang, Y, Yang, J, et al. Prenylated flavonoids, promising nutraceuticals with impressive biological activities. Trends Food Sci Technol 2015; 44: 93–104.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Slominski, A, Semak, I, Pisarchik, A, et al. Conversion of L-tryptophan to serotonin and melatonin in human melanoma cells. FEBS Lett 2002; 511: 102–6. PMID: 11821057",
+            "process_entry": "True",
+            "doi": "10.1016/s0014-5793(01)03319-1",
+            "pmid": "11821057",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Mbongue, JC, Nicholas, DA, Torrez, TW, et al. The role of indoleamine 2, 3-dioxygenase in immune suppression and autoimmunity. Vaccines 2015; 3: 703–29. PMID: 26378585",
+            "process_entry": "True",
+            "doi": "10.3390/vaccines3030703",
+            "pmid": "26378585",
+            "pmcid": "PMC4586474",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Munn, DH, Mellor, AL. IDO in the tumor microenvironment: inflammation, counter-regulation, and tolerance. Trends Immunol 2016; 37: 193–207. PMID: 26839260",
+            "process_entry": "True",
+            "doi": "10.1016/j.it.2016.01.002",
+            "pmid": "26839260",
+            "pmcid": "PMC4916957",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Lee, S, Margolin, K. Cytokines in cancer immunotherapy. Cancers (Basel) 2011; 3: 3856–93. PMID: 24213115",
+            "process_entry": "True",
+            "doi": "10.3390/cancers3043856",
+            "pmid": "24213115",
+            "pmcid": "PMC3763400",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Robinson, CM, Hale, PT, Carlin, JM. The role of IFN-gamma and TNF-alpha-responsive regulatory elements in the synergistic induction of indoleamine dioxygenase. J Interferon Cytokine Res 2005; 25: 20–30. PMID: 15684619",
+            "process_entry": "True",
+            "doi": "10.1089/jir.2005.25.20",
+            "pmid": "15684619",
+            "pmcid": "PMC1488823",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Mezrich, JD, Fechner, JH, Zhang, X, et al. An interaction between kynurenine and the aryl hydrocarbon receptor can generate regulatory T cells. J Immunol 2010; 185: 3190–8. PMID: 20720200",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.0903670",
+            "pmid": "20720200",
+            "pmcid": "PMC2952546",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Zhai, L, Lauing, KL, Chang, AL, et al. The role of IDO in brain tumor immunotherapy. J Neurooncol 2015; 123: 395–403. PMID: 25519303",
+            "process_entry": "True",
+            "doi": "10.1007/s11060-014-1687-8",
+            "pmid": "25519303",
+            "pmcid": "PMC4641522",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Kim, JH, Cho, IS, So, YK, et al. Kushenol A and 8-prenylkaempferol, tyrosinase inhibitors, derived from Sophora flavescens. J Enzyme Inhib Med Chem 2018; 33: 1048–54. PMID: 29873272",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1477776",
+            "pmid": "29873272",
+            "pmcid": "PMC6009905",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Quang, TH, Ngan, NT, Minh, CV, et al. Anti-inflammatory and PPAR transactivational properties of flavonoids from the roots of Sophora flavescens. Phytother Res 2013; 27: 1300–7. PMID: 23109221",
+            "process_entry": "True",
+            "doi": "10.1002/ptr.4871",
+            "pmid": "23109221",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Lee, HW, Ryu, HW, Kang, MG, et al. Potent selective monoamine oxidase B inhibition by maackiain, a pterocarpan from the roots of Sophora flavescens. Bioorg Med Chem Lett 2016; 26: 4714–9. PMID: 27575476",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2016.08.044",
+            "pmid": "27575476",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Jeong, TS, Ryu, YB, Kim, HY, et al. Low density lipoprotein (LDL)-antioxidant flavonoids from roots of Sophora flavescens. Biol Pharm Bull 2008; 31: 2097–102. PMID: 18981580",
+            "process_entry": "True",
+            "doi": "10.1248/bpb.31.2097",
+            "pmid": "18981580",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Takikawa, O, Tagawa, Y, Iwakura, Y, et al. Interferon-gamma-dependent/independent expression of indoleamine 2,3-dioxygenase. Studies with interferon-gamma-knockout mice. Adv Exp Med Biol 1999; 467: 553–7. PMID: 10721099",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4615-4709-9_68",
+            "pmid": "10721099",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Soderholm, JF, Bird, SL, Kalab, P, et al. Importazole, a small molecule inhibitor of the transport receptor importin-beta. ACS Chem Biol 2011; 6: 700–8. PMID: 21469738",
+            "process_entry": "True",
+            "doi": "10.1021/cb2000296",
+            "pmid": "21469738",
+            "pmcid": "PMC3137676",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Nelp, MT, Kates, PA, Hunt, JT, et al. Immune-modulating enzyme indoleamine 2,3-dioxygenase is effectively inhibited by targeting its apo-form. Proc Natl Acad Sci USA 2018; 115: 3249–54. PMID: 29531094",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1719190115",
+            "pmid": "29531094",
+            "pmcid": "PMC5879690",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Diller, DJ, Merz, KM, Jr. High throughput docking for library design and library prioritization. Proteins 2001; 43: 113–24. PMID: 11276081",
+            "process_entry": "True",
+            "doi": "10.1002/1097-0134(20010501)43:2<113::aid-prot1023>3.0.co;2-t",
+            "pmid": "11276081",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Kim, JH, Ryu, YB, Kang, NS, et al. Glycosidase inhibitory flavonoids from Sophora flavescens. Biol Pharm Bull 2006; 29: 302–5. PMID: 16462036",
+            "process_entry": "True",
+            "doi": "10.1248/bpb.29.302",
+            "pmid": "16462036",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Opitz, CA, Litzenburger, UM, Opitz, U, et al. The indoleamine-2,3-dioxygenase (IDO) inhibitor 1-methyl-D-tryptophan upregulates IDO1 in human cancer cells. PLoS One 2011; 6: e19823. PMID: 21625531",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0019823",
+            "pmid": "21625531",
+            "pmcid": "PMC3098827",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Martinez Molina, D, Jafari, R, Ignatushchenko, M, et al. Monitoring drug target engagement in cells and tissues using the cellular thermal shift assay. Science 2013; 341: 84–7. PMID: 23828940",
+            "process_entry": "True",
+            "doi": "10.1126/science.1233606",
+            "pmid": "23828940",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Southard, JN. Protein analysis using real-time PCR instrumentation: incorporation in an integrated, inquiry-based project. Biochem Mol Biol Educ 2014; 42: 142–51. PMID: 24375992",
+            "process_entry": "True",
+            "doi": "10.1002/bmb.20747",
+            "pmid": "24375992",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Luo, S, Xu, K, Xiang, S, et al. High-resolution structures of inhibitor complexes of human indoleamine 2,3-dioxygenase 1 in a new crystal form. Acta Crystallogr *Section F Struct Biol Commun 2018; 74: 717–24.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        }
+    ],
+    "localid": "MED-31423846",
+    "doi": "10.1080/14756366.2019.1640218",
+    "pmid": "10.1080/14756366.2019.1640218",
+    "pmcid": "31423846",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31423846/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,181)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,181)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,181)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,181)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0004",
+                "rp_string": "4–8",
+                "pl_string": "4–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),366,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),366,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),366,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),366,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),366,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0004",
+                "rp_string": "4–8",
+                "pl_string": "4–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),366,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),541,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),685,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),685,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),298,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),298,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),449,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),449,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),729,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),729,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),729,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),729,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,189)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,189)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,76)",
+                "containers_title": [
+                    "Material and methods",
+                    "Flavonoids of S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),78,139)",
+                "containers_title": [
+                    "Material and methods",
+                    "Flavonoids of S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),78,139)",
+                "containers_title": [
+                    "Material and methods",
+                    "Flavonoids of S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,79)",
+                "containers_title": [
+                    "Material and methods",
+                    "IDO1 enzyme assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),1,149)",
+                "containers_title": [
+                    "Material and methods",
+                    "Thermal shift assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),1,126)",
+                "containers_title": [
+                    "Material and methods",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),128,159)",
+                "containers_title": [
+                    "Material and methods",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),356,146)",
+                "containers_title": [
+                    "Material and methods",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,150)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 inhibitory activities of the flavonoids from S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,150)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 inhibitory activities of the flavonoids from S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,150)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 inhibitory activities of the flavonoids from S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap/table-wrap-foot/fn[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap/table-wrap-foot/fn[1]/p),1,20)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 inhibitory activities of the flavonoids from S. flavescens"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn/p),1,20)",
+                "containers_title": [
+                    "Results",
+                    "Cell-based IDO1 inhibitory activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),123,93)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 binding assay of the flavonoids"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),123,93)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 binding assay of the flavonoids"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),345,122)",
+                "containers_title": [
+                    "Results",
+                    "IDO1 binding assay of the flavonoids"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,188)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,1387 @@
+{
+    "references": [
+        {
+            "bibentry": "Alterio, V, Di Fiore, A, D’Ambrosio, K, et al. Multiple binding modes of inhibitors to carbonic anhydrases: how to design specific drugs targeting 15 different isoforms? Chem Rev 2012; 112: 4421–68. PMID: 22607219",
+            "process_entry": "True",
+            "doi": "10.1021/cr200176r",
+            "pmid": "22607219",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrases: novel therapeutic applications for inhibitors and activators. Nat Rev Drug Discov 2008; 7: 168–81. PMID: 18167490",
+            "process_entry": "True",
+            "doi": "10.1038/nrd2467",
+            "pmid": "18167490",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Supuran, CT, De Simone, G, eds. Carbonic anydrases as biocatalysts –from theory to medical and industrial applications. Netherlands: Elsevier B. V; 2015.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Supuran, CT. Diuretics: from classical carbonic anhydrase inhibitors to novel applications of the sulfonamides. Curr Pharm Des 2008; 14: 641–8. PMID: 18336309",
+            "process_entry": "True",
+            "doi": "10.2174/138161208783877947",
+            "pmid": "18336309",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Supuran, CT, Alterio, V, Di Fiore, A, et al. Inhibition of carbonic anhydrase IX targets primary tumors, metastases, and cancer stem cells: three for the price of one. Med Res Rev 2018; 38: 1799–836. PMID: 29635752",
+            "process_entry": "True",
+            "doi": "10.1002/med.21497",
+            "pmid": "29635752",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Supuran, CT, Di Fiore, A, De Simone, G. Carbonic anhydrase inhibitors as emerging drugs for the treatment of obesity. Expert Opin Emerg Drugs 2008; 13: 383–92. PMID: 18537527",
+            "process_entry": "True",
+            "doi": "10.1517/14728214.13.2.383\t",
+            "pmid": "18537527",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Thiry, A, Dogne, JM, Supuran, CT, Masereel, B. Anticonvulsant sulfonamides/sulfamates/sulfamides with carbonic anhydrase inhibitory activity: drug design and mechanism of action. Curr Pharm Des 2008; 14: 661–71. PMID: 18336312",
+            "process_entry": "True",
+            "doi": "10.2174/138161208783877956",
+            "pmid": "18336312",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Scozzafava, A, Supuran, CT. Glaucoma and the applications of carbonic anhydrase inhibitors. Subcell Biochem 2014; 75: 349–59. PMID: 24146387",
+            "process_entry": "True",
+            "doi": "10.1007/978-94-007-7359-2_17",
+            "pmid": "24146387",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Kannan, KK, Ramanadham, M, Jones, TA. Structure, refinement, and function of carbonic anhydrase isozymes: refinement of human carbonic anhydrase I. Ann NY Acad Sci 1984; 429: 49–60. PMID: 6430186",
+            "process_entry": "True",
+            "doi": "10.1111/j.1749-6632.1984.tb12314.x",
+            "pmid": "6430186",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Eriksson, AE, Jones, TA, Liljas, A. Refined structure of human carbonic anhydrase II at 2.0 A resolution. Proteins 1988; 4: 274–82. PMID: 3151019",
+            "process_entry": "True",
+            "doi": "10.1002/prot.340040406",
+            "pmid": "3151019",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Duda, DM, Tu, C, Fisher, SZ, et al. Human carbonic anhydrase III: structural and kinetic study of catalysis and proton transfer. Biochemistry 2005; 44: 10046–53. PMID: 16042381",
+            "process_entry": "True",
+            "doi": "10.1021/bi050610h",
+            "pmid": "16042381",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Stams, T, Nair, SK, Okuyama, T, et al. Crystal structure of the secretory form of membrane-associated human carbonic anhydrase IV at 2.8-A resolution. Proc Natl Acad Sci USA 1996; 93: 13589–94. PMID: 8942978",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.93.24.13589",
+            "pmid": "8942978",
+            "pmcid": "PMC19359",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Boriack-Sjodin, PA, Heck, RW, Laipis, PJ, et al. Structure determination of murine mitochondrial carbonic anhydrase V at 2.45-A resolution: implications for catalytic proton transfer and inhibitor design. Proc Natl Acad Sci USA 1995; 92: 10949–53. PMID: 7479916",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.92.24.10949",
+            "pmid": "7479916",
+            "pmcid": "PMC40548",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Pilka, ES, Kochan, G, Oppermann, U, Yue, WW. Crystal structure of the secretory isozyme of mammalian carbonic anhydrases CA VI: implications for biological assembly and inhibitor development. Biochem Biophys Res Commun 2012; 419: 485–9. PMID: 22366092",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2012.02.038",
+            "pmid": "22366092",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Buonanno, M, Di Fiore, A, Langella, E, et al. The crystal structure of a hCA VII variant provides insights into the molecular determinants responsible for its catalytic behavior. Int J Mol Sci 2018; 19 DOI: DOI: 10.3390/ijms19061571",
+            "process_entry": "True",
+            "doi": "10.3390/ijms19061571",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Alterio, V, Hilvo, M, Di Fiore, A, et al. Crystal structure of the catalytic domain of the tumor-associated human carbonic anhydrase IX. Proc Natl Acad Sci USA 2009; 106: 16233–8. PMID: 19805286",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0908301106",
+            "pmid": "19805286",
+            "pmcid": "PMC2752527",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Whittington, DA, Waheed, A, Ulmasov, B, et al. Crystal structure of the dimeric extracellular domain of human carbonic anhydrase XII, a bitopic membrane protein overexpressed in certain cancer tumor cells. Proc Natl Acad Sci USA 2001; 98: 9545–50. PMID: 11493685",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.161301298",
+            "pmid": "11493685",
+            "pmcid": "PMC55489",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Di Fiore, A, Monti, SM, Hilvo, M, et al. Crystal structure of human carbonic anhydrase XIII and its complex with the inhibitor acetazolamide. Proteins 2009; 74: 164–75. PMID: 18618712",
+            "process_entry": "True",
+            "doi": "10.1002/prot.22144",
+            "pmid": "18618712",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Alterio, V, Pan, P, Parkkila, S, et al. The structural comparison between membrane-associated human carbonic anhydrases provides insights into drug design of selective inhibitors. Biopolymers 2014; 101: 769–78. PMID: 24374484",
+            "process_entry": "True",
+            "doi": "10.1002/bip.22456",
+            "pmid": "24374484",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Aggarwal, M, Boone, CD, Kondeti, B, McKenna, R. Structural annotation of human carbonic anhydrases. J Enzyme Inhib Med Chem 2013; 28: 267–77. PMID: 23137351",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2012.737323",
+            "pmid": "23137351",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Boone, CD, Pinard, M, McKenna, R, Silverman, D. Catalytic mechanism of α-class carbonic anhydrases: CO 2 hydration and proton transfer. Subcell Biochem 2014; 75: 31–52. PMID: 24146373",
+            "process_entry": "True",
+            "doi": "10.1007/978-94-007-7359-2_3",
+            "pmid": "24146373",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Silverman, DN, McKenna, R. Solvent-mediated proton transfer in catalysis by carbonic anhydrase. Acc Chem Res 2007; 40: 669–75. PMID: 17550224",
+            "process_entry": "True",
+            "doi": "10.1021/ar7000588",
+            "pmid": "17550224",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Mikulski, RL, Silverman, DN. Proton transfer in catalysis and the role of proton shuttles in carbonic anhydrase. Biochim Biophys Acta 2010; 1804: 422–6. PMID: 19679199",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbapap.2009.08.003",
+            "pmid": "19679199",
+            "pmcid": "PMC2818086",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Tu, CK, Silverman, DN, Forsman, C, et al. Role of histidine 64 in the catalytic mechanism of human carbonic anhydrase II studied with a site-specific mutant. Biochemistry 1989; 28: 7913–18. PMID: 2514797",
+            "process_entry": "True",
+            "doi": "10.1021/bi00445a054",
+            "pmid": "2514797",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Nair, SK, Christianson, DW. Structural properties of human carbonic anhydrase II at pH 9.5. Biochem Biophys Res Commun 1991; 181: 579–84. PMID: 1755840",
+            "process_entry": "True",
+            "doi": "10.1016/0006-291x(91)91229-6",
+            "pmid": "1755840",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Fisher, Z, Hernandez Prada, JA, Tu, C, et al. Structural and kinetic characterization of active-site histidine as a proton shuttle in catalysis by human carbonic anhydrase II. Biochemistry 2005; 44: 1097–105. PMID: 15667203",
+            "process_entry": "True",
+            "doi": "10.1021/bi0480279",
+            "pmid": "15667203",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Krebs, JF, Fierke, CA, Alexander, RS, Christianson, DW. Conformational mobility of His-64 in the Thr200-Ser mutant of human carbonic anhydrase II. Biochemistry 1991; 30: 9153–60. PMID: 1909891",
+            "process_entry": "True",
+            "doi": "10.1021/bi00102a005",
+            "pmid": "1909891",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Mikulski, R, West, D, Sippel, KH, et al. Water networks in fast proton transfer during catalysis by human carbonic anhydrase II. Biochemistry 2013; 52: 125–31. PMID: 23215152",
+            "process_entry": "True",
+            "doi": "10.1021/bi301099k",
+            "pmid": "23215152",
+            "pmcid": "PMC3540201",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Michalczyk, R, Unkefer, CJ, Bacik, JP, et al. Joint neutron crystallographic and NMR solution studies of Tyr residue ionization and hydrogen bonding: implications for enzyme-mediated proton transfer. Proc Natl Acad Sci USA 2015; 112: 5673–8. PMID: 25902526",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1502255112",
+            "pmid": "25902526",
+            "pmcid": "PMC4426434",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Fisher, SZ, Tu, C, Bhatt, D, et al. Speeding up proton transfer in a fast enzyme: kinetic and crystallographic studies on the effect of hydrophobic amino acid substitutions in the active site of human carbonic anhydrase II. Biochemistry 2007; 46: 3803–13. PMID: 17330962",
+            "process_entry": "True",
+            "doi": "10.1021/bi602620k",
+            "pmid": "17330962",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Maupin, CM, Zheng, J, Tu, C, et al. Effect of active-site mutation at Asn67 on the proton transfer mechanism of human carbonic anhydrase II. Biochemistry 2009; 48: 7996–8005. PMID: 19634894",
+            "process_entry": "True",
+            "doi": "10.1021/bi901037u",
+            "pmid": "19634894",
+            "pmcid": "PMC2739621",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Mikulski, R, Avvaru, BS, Tu, C, et al. Kinetic and crystallographic studies of the role of tyrosine 7 in the active site of human carbonic anhydrase II. Arch Biochem Biophys 2011; 506: 181–7. PMID: 21145876",
+            "process_entry": "True",
+            "doi": "10.1016/j.abb.2010.12.004",
+            "pmid": "21145876",
+            "pmcid": "PMC3044917",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Domsic, JF, Williams, W, Fisher, SZ, et al. Structural and kinetic study of the extended active site for proton transfer in human carbonic anhydrase II. Biochemistry 2010; 49: 6394–9. PMID: 20578724",
+            "process_entry": "True",
+            "doi": "10.1021/bi1007645",
+            "pmid": "20578724",
+            "pmcid": "PMC2925223",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Huang, S, Sjoblom, B, Sauer-Eriksson, AE, Jonsson, BH. Organization of an efficient carbonic anhydrase: implications for the mechanism based on structure–function studies of a T199P/C206S mutant. Biochemistry 2002; 41: 7628–35. PMID: 12056894",
+            "process_entry": "True",
+            "doi": "10.1021/bi020053o",
+            "pmid": "12056894",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Zheng, J, Avvaru, BS, Tu, C, et al. Role of hydrophilic residues in proton transfer during catalysis by human carbonic anhydrase II. Biochemistry 2008; 47: 12028–36. PMID: 18942852",
+            "process_entry": "True",
+            "doi": "10.1021/bi801473w",
+            "pmid": "18942852",
+            "pmcid": "PMC2702124",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Scolnick, LR, Christianson, DW. X-ray crystallographic studies of alanine-65 variants of carbonic anhydrase II reveal the structural basis of compromised proton transfer in catalysis. Biochemistry 1996; 35: 16429–34. PMID: 8987974",
+            "process_entry": "True",
+            "doi": "10.1021/bi9617872",
+            "pmid": "8987974",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Taoka, S, Chen, X, Tarnuzzer, RW, et al. Catalysis by mutants of human carbonic anhydrase II: effects of replacing hydrophobic residues 198 and 204. Biochim Biophys Acta 1992; 1159: 274–8. PMID: 1327160",
+            "process_entry": "True",
+            "doi": "10.1016/0167-4838(92)90056-j",
+            "pmid": "1327160",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Briganti, F, Mangani, S, Orioli, P, et al. Carbonic anhydrase activators: X-ray crystallographic and spectroscopic investigations for the interaction of isozymes I and II with histamine. Biochemistry 1997; 36: 10384–92. PMID: 9265618",
+            "process_entry": "True",
+            "doi": "10.1021/bi970760v",
+            "pmid": "9265618",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Lehtonen, J, Shen, B, Vihinen, M, et al. Characterization of CA XIII, a novel member of the carbonic anhydrase isozyme family. J Biol Chem 2004; 279: 2719–27. PMID: 14600151",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m308984200",
+            "pmid": "14600151",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Lacruz, RS, Hilvo, M, Kurtz, I, Paine, ML. A survey of carbonic anhydrase mRNA expression in enamel cells. Biochem Biophys Res Commun 2010; 393: 883–7. PMID: 20175995",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2010.02.116",
+            "pmid": "20175995",
+            "pmcid": "PMC2843801",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Hilvo, M, Innocenti, A, Monti, SM, et al. Recent advances in research on the most novel carbonic anhydrases, CA XIII and XV. Curr Pharm Des 2008; 14: 672–8. PMID: 18336313",
+            "process_entry": "True",
+            "doi": "10.2174/138161208783877811",
+            "pmid": "18336313",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Supuran, CT, Di Fiore, A, Alterio, V, et al. Recent advances in structural studies of the carbonic anhydrase family: the crystal structure of human CA IX and CA XIII. Curr Pharm Des 2010; 16: 3246–54. PMID: 20819069",
+            "process_entry": "True",
+            "doi": "10.2174/138161210793429841",
+            "pmid": "20819069",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Khalifah, RG. The carbon dioxide hydration activity of carbonic anhydrase. I. Stop-flow kinetic studies on the native human isoenzymes B and C. J Biol Chem 1971; 246: 2561–73. PMID: 4994926",
+            "process_entry": "True",
+            "pmid": "4994926",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrase activators. Future Med Chem 2018; 10: 561–73. PMID: 29478330",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2017-0223",
+            "pmid": "29478330",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Supuran, CT. Structure and function of carbonic anhydrases. Biochem J 2016; 473: 2023–32. PMID: 27407171",
+            "process_entry": "True",
+            "doi": "10.1042/bcj20160115",
+            "pmid": "27407171",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Winum, JY, Temperini, C, El Cheikh, K, et al. Carbonic anhydrase inhibitors: clash with ala65 as a means for designing inhibitors with low affinity for the ubiquitous isozyme II, exemplified by the crystal structure of the topiramate sulfamide analogue. J Med Chem 2006; 49: 7024–31. PMID: 17125255",
+            "process_entry": "True",
+            "doi": "10.1021/jm060807n",
+            "pmid": "17125255",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Bhatt, D, Tu, C, Fisher, SZ, et al. Proton transfer in a Thr200His mutant of human carbonic anhydrase II. Proteins 2005; 61: 239–45. PMID: 16106378",
+            "process_entry": "True",
+            "doi": "10.1002/prot.20615",
+            "pmid": "16106378",
+            "xmlid": "CIT0047"
+        }
+    ],
+    "localid": "MED-31431090",
+    "doi": "10.1080/14756366.2019.1653290",
+    "pmid": "10.1080/14756366.2019.1653290",
+    "pmcid": "31431090",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31431090/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),217,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0002",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),217,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0003",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),217,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),217,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),530,5)",
+                "pl_string": "s2,4–"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0004",
+                "rp_string": "4–8",
+                "pl_string": "4–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0005",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0006",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0007",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0008",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0004",
+                "rp_string": "4–8",
+                "pl_string": "4–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0005",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0006",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0007",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0008",
+                "pl_string": "4–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0009",
+                "rp_string": "9–19",
+                "pl_string": "9–19",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0010",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0011",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0012",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0013",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0014",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0015",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0016",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0017",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0018",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0019",
+                "pl_string": "9–19",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0009",
+                "rp_string": "9–19",
+                "pl_string": "9–19",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),912,283)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0020",
+                "rp_string": "20–23",
+                "pl_string": "20–23",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0021",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0022",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0023",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0020",
+                "rp_string": "20–23",
+                "pl_string": "20–23",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0021",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0022",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0023",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0020",
+                "rp_string": "20–23",
+                "pl_string": "20–23",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),289,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0021",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),289,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0022",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),289,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0023",
+                "pl_string": "20–23",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),289,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0020",
+                "rp_string": "20–23",
+                "pl_string": "20–23",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),289,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0024",
+                "rp_string": "24–28",
+                "pl_string": "24–28",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),516,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0025",
+                "pl_string": "24–28",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),516,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0026",
+                "pl_string": "24–28",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),516,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0027",
+                "pl_string": "24–28",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),516,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0028",
+                "pl_string": "24–28",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),516,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0024",
+                "rp_string": "24–28",
+                "pl_string": "24–28",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),516,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),111,435)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),913,189)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0029",
+                "rp_string": "29–32",
+                "pl_string": "29–32",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1103,324)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0030",
+                "pl_string": "29–32",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1103,324)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0031",
+                "pl_string": "29–32",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1103,324)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0032",
+                "pl_string": "29–32",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1103,324)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0029",
+                "rp_string": "29–32",
+                "pl_string": "29–32",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1103,324)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1428,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0033",
+                "rp_string": "33–35",
+                "pl_string": "33–35",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1428,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0034",
+                "pl_string": "33–35",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1428,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0035",
+                "pl_string": "33–35",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1428,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0033",
+                "rp_string": "33–35",
+                "pl_string": "33–35",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1428,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1723,286)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Kinetic studies on the different hCA isoforms revealed significant differences in their catalytic efficiency. Indeed, focusing the attention on the cytosolic isozymes, it has been observed that hCA II and hCA VII are very efficient catalysts (Kcat/KM values of 1.5 × 108 M−1 s−1 and 8.3 × 107 M−1 s−1 for hCA II and hCA VII, respectively), hCA I and hCA XIII possess medium efficiency (for hCA I Kcat/KM = 5.0 × 107 M−1 s−1 and for hCA XIII Kcat/KM = 1.1 × 107 M−1 s−1), while hCA III acts as a very poor catalyst (Kcat/KM = 3.0 × 105 M−1 s−1)2. Although a large number of studies have been so far reported on these enzymes, the complete understanding of the molecular factors contributing to the observed differences in the catalytic efficiency is still a matter of debate. Most of the information so far available in this field derives from studies on hCA II, one of the most catalytically efficient isoforms. In particular, it has been suggested the important role of a well-ordered network of hydrogen bonded water molecules which connects the Zn2+-bound solvent molecule to His64 (Figure 1(A))23. These water molecules interact with several hydrophilic active-site residues, such as Tyr7, Asn62, Asn67, Thr199, and Thr200, which also contribute to the maintaining of an appropriate electrostatic environment for optimal proton transfer as shown by several mutagenesis, computational, structural, and kinetic studies29–32. Being these residues not strictly conserved in all hCA isoforms, it has been proposed that they could account for the diverse catalytic properties of this class of enzymes30,33–35. Also residues Ala65, Leu198, and Leu204 were recognised as important for the high catalytic efficiency of hCA II. In particular, the introduction of a bulky side chain in position 65 was demonstrated to induce a re-organisation of the solvent network as previously discussed36,37, whereas replacements of Leu198 and Leu204 were described to alter the position of His64 and thus the proton transfer37. Finally, an additional structural feature was proposed by Briganti et al., as responsible for hCA II highest catalytic efficiency38. This isoform has a cluster of histidines, namely His3, His4, His10, His15, and His17, which extends from the interior of the active site to its entrance and, finally, to the surface of the protein (Figure 1(B)). Authors hypothesised that this cluster could act as a sort of “channel” able to connect the His64 proton shuttle to the surface of the enzyme, thus facilitating the proton transfer step38. Additionally, it was also hypothesised that the histidine cluster could play a role in affecting the pKa of His6415.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1723,286)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Kinetic studies on the different hCA isoforms revealed significant differences in their catalytic efficiency. Indeed, focusing the attention on the cytosolic isozymes, it has been observed that hCA II and hCA VII are very efficient catalysts (Kcat/KM values of 1.5 × 108 M−1 s−1 and 8.3 × 107 M−1 s−1 for hCA II and hCA VII, respectively), hCA I and hCA XIII possess medium efficiency (for hCA I Kcat/KM = 5.0 × 107 M−1 s−1 and for hCA XIII Kcat/KM = 1.1 × 107 M−1 s−1), while hCA III acts as a very poor catalyst (Kcat/KM = 3.0 × 105 M−1 s−1)2. Although a large number of studies have been so far reported on these enzymes, the complete understanding of the molecular factors contributing to the observed differences in the catalytic efficiency is still a matter of debate. Most of the information so far available in this field derives from studies on hCA II, one of the most catalytically efficient isoforms. In particular, it has been suggested the important role of a well-ordered network of hydrogen bonded water molecules which connects the Zn2+-bound solvent molecule to His64 (Figure 1(A))23. These water molecules interact with several hydrophilic active-site residues, such as Tyr7, Asn62, Asn67, Thr199, and Thr200, which also contribute to the maintaining of an appropriate electrostatic environment for optimal proton transfer as shown by several mutagenesis, computational, structural, and kinetic studies29–32. Being these residues not strictly conserved in all hCA isoforms, it has been proposed that they could account for the diverse catalytic properties of this class of enzymes30,33–35. Also residues Ala65, Leu198, and Leu204 were recognised as important for the high catalytic efficiency of hCA II. In particular, the introduction of a bulky side chain in position 65 was demonstrated to induce a re-organisation of the solvent network as previously discussed36,37, whereas replacements of Leu198 and Leu204 were described to alter the position of His64 and thus the proton transfer37. Finally, an additional structural feature was proposed by Briganti et al., as responsible for hCA II highest catalytic efficiency38. This isoform has a cluster of histidines, namely His3, His4, His10, His15, and His17, which extends from the interior of the active site to its entrance and, finally, to the surface of the protein (Figure 1(B)). Authors hypothesised that this cluster could act as a sort of “channel” able to connect the His64 proton shuttle to the surface of the enzyme, thus facilitating the proton transfer step38. Additionally, it was also hypothesised that the histidine cluster could play a role in affecting the pKa of His6415.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1723,286)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Kinetic studies on the different hCA isoforms revealed significant differences in their catalytic efficiency. Indeed, focusing the attention on the cytosolic isozymes, it has been observed that hCA II and hCA VII are very efficient catalysts (Kcat/KM values of 1.5 × 108 M−1 s−1 and 8.3 × 107 M−1 s−1 for hCA II and hCA VII, respectively), hCA I and hCA XIII possess medium efficiency (for hCA I Kcat/KM = 5.0 × 107 M−1 s−1 and for hCA XIII Kcat/KM = 1.1 × 107 M−1 s−1), while hCA III acts as a very poor catalyst (Kcat/KM = 3.0 × 105 M−1 s−1)2. Although a large number of studies have been so far reported on these enzymes, the complete understanding of the molecular factors contributing to the observed differences in the catalytic efficiency is still a matter of debate. Most of the information so far available in this field derives from studies on hCA II, one of the most catalytically efficient isoforms. In particular, it has been suggested the important role of a well-ordered network of hydrogen bonded water molecules which connects the Zn2+-bound solvent molecule to His64 (Figure 1(A))23. These water molecules interact with several hydrophilic active-site residues, such as Tyr7, Asn62, Asn67, Thr199, and Thr200, which also contribute to the maintaining of an appropriate electrostatic environment for optimal proton transfer as shown by several mutagenesis, computational, structural, and kinetic studies29–32. Being these residues not strictly conserved in all hCA isoforms, it has been proposed that they could account for the diverse catalytic properties of this class of enzymes30,33–35. Also residues Ala65, Leu198, and Leu204 were recognised as important for the high catalytic efficiency of hCA II. In particular, the introduction of a bulky side chain in position 65 was demonstrated to induce a re-organisation of the solvent network as previously discussed36,37, whereas replacements of Leu198 and Leu204 were described to alter the position of His64 and thus the proton transfer37. Finally, an additional structural feature was proposed by Briganti et al., as responsible for hCA II highest catalytic efficiency38. This isoform has a cluster of histidines, namely His3, His4, His10, His15, and His17, which extends from the interior of the active site to its entrance and, finally, to the surface of the protein (Figure 1(B)). Authors hypothesised that this cluster could act as a sort of “channel” able to connect the His64 proton shuttle to the surface of the enzyme, thus facilitating the proton transfer step38. Additionally, it was also hypothesised that the histidine cluster could play a role in affecting the pKa of His6415.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),2010,132)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),2355,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),2544,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/fig/caption/p),155,89)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),69,146)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),69,146)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),216,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),216,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),404,185)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),477,5)",
+                "pl_string": "p18,4"
+            },
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),404,185)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),477,5)",
+                "pl_string": "p18,4"
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),590,181)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,58)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cloning, expression, and purification of hCA XIII wild type and its variants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),312,91)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cloning, expression, and purification of hCA XIII wild type and its variants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,73)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Catalytic activity assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0044",
+                "rp_string": "44–46",
+                "pl_string": "44–46",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),662,128)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Catalytic activity assays"
+                ]
+            },
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0045",
+                "pl_string": "44–46",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),662,128)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Catalytic activity assays"
+                ]
+            },
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0046",
+                "pl_string": "44–46",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),662,128)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Catalytic activity assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0044",
+                "rp_string": "44–46",
+                "pl_string": "44–46",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),662,128)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Catalytic activity assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),1,151)",
+                "containers_title": [
+                    "Results and Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),153,440)",
+                "containers_title": [
+                    "Results and Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),982,380)",
+                "containers_title": [
+                    "Results and Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),2088,140)",
+                "containers_title": [
+                    "Results and Discussion"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/p),2112,5)",
+                "pl_string": "s18,3"
+            },
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),2088,140)",
+                "containers_title": [
+                    "Results and Discussion"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/p),2112,5)",
+                "pl_string": "s18,3"
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),3062,221)",
+                "containers_title": [
+                    "Results and Discussion"
+                ]
+            }
+        ]
+    ]
+}

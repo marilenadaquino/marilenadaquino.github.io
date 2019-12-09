@@ -1,0 +1,726 @@
+{
+    "references": [
+        {
+            "bibentry": "Huntsman, DG, Clement, PB, Gilks, CB, Scully, RE. Small-cell carcinoma of the endometrium. A clinicopathological study of sixteen cases, Am J Surg Pathol, 1994, 18, 364, 375, PMID: 7511354",
+            "process_entry": "True",
+            "doi": "10.1097/00000478-199404000-00005",
+            "pmid": "7511354",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "van Hoeven, KH, Hudock, JA, Woodruff, JM, Suhrland, MJ. Small cell neuroendocrine carcinoma of the endometrium, Int J Gynecol Pathol, 1995, 14, 21, 29, PMID: 7883422",
+            "process_entry": "True",
+            "doi": "10.1097/00004347-199501000-00005",
+            "pmid": "7883422",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Kurman, RJ, Carcangiu, ML, Herrington, CS, Young, RH. WHO classification of tumours of female reproductive organs, Lyon, IARC, 2014",
+            "process_entry": "True",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Pocrnich, CE, Ramalingam, P, Euscher, ED, Malpica, A. Neuroendocrine carcinoma of the endometrium: a clinicopathologic study of 25 cases, Am J Surg Pathol, 2016, 40, 577, 586, PMID: 26945341",
+            "process_entry": "True",
+            "doi": "10.1097/PAS.0000000000000633",
+            "pmid": "26945341",
+            "pmcid": "PMC5998806",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Matsumoto, H, Nasu, K, Kai, K, Nishida, M, Narahara, H, Nishida, H. Combined large-cell neuroendocrine carcinoma and endometrioid adenocarcinoma of the endometrium: a case report and survey of related literature, J Obstet Gynaecol Res, 2016, 42, 206, 210, PMID: 26807962",
+            "process_entry": "True",
+            "doi": "10.1111/jog.12881",
+            "pmid": "26807962",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Tu, YA, Chen, YL, Lin, MC, Chen, CA, Cheng, WF. Large cell neuroendocrine carcinoma of the endometrium: a case report and literature review, Taiwan J Obstet Gynecol, 2018, 57, 144, 149, PMID: 29458887",
+            "process_entry": "True",
+            "doi": "10.1016/j.tjog.2017.12.025",
+            "pmid": "29458887",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Ogura, J, Adachi, Y, Yasumoto, K, Okamura, A, Nonogaki, H, Kakui, K. Large-cell neuroendocrine carcinoma arising in the endometrium: a case report, Mol Clin Oncol, 2018, 8, 575, 578, PMID: 29564132",
+            "process_entry": "True",
+            "doi": "10.3892/mco.2018.1583",
+            "pmid": "29564132",
+            "pmcid": "PMC5858117",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Chetty, R, Clark, SP, Bhathal, PS. Carcinoid tumour of the uterine corpus, Virchows Arch A Pathol Anat Histopathol, 1993, 422, 93, 95, PMID: 7679854",
+            "process_entry": "True",
+            "doi": "10.1007/bf01605139",
+            "pmid": "7679854",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "González-Bosquet, E, González-Bosquet, J, García Jiménez, A, Gil, A, Xercavins, J. Carcinoid tumor of the uterine corpus. A case report, J Reprod Med, 1998, 43, 844, 846, PMID: 9777628",
+            "process_entry": "True",
+            "pmid": "9777628",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Bahig, H, Portelance, L, Legler, C, Gilbert, L, Souhami, L. Small cell carcinoma of the endometrium: report of a case and review of the literature, Minerva Ginecol, 2009, 61, 365, 369, PMID: 19745801",
+            "process_entry": "True",
+            "pmid": "19745801",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Matsumoto, H, Takai, N, Nasu, K, Narahara, H. Small cell carcinoma of the endometrium: a report of two cases, J Obstet Gynaecol Res, 2011, 37, 1739, 1743, PMID: 21790887",
+            "process_entry": "True",
+            "doi": "10.1111/j.1447-0756.2011.01593.x",
+            "pmid": "21790887",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Sawada, M, Matsuzaki, S, Yoshino, K, Ueda, Y, Yoshida, S, Kimura, T. Long-term survival in small-cell carcinoma of the endometrium with liver and brain metastases, Anticancer Drugs, 2016, 27, 138, 143, PMID: 26352218",
+            "process_entry": "True",
+            "doi": "10.1097/cad.0000000000000289",
+            "pmid": "26352218",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Lewin, SN, Herzog, TJ, Barrena Medel, NI, Deutsch, I, Burke, WM, Sun, X. Comparative performance of the 2009 international federation of gynecology and obstetrics' staging system for uterine corpus cancer, Obstet Gynecol, 2010, 116, 1141, 1149, PMID: 20966700",
+            "process_entry": "True",
+            "doi": "10.1097/aog.0b013e3181f39849",
+            "pmid": "20966700",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Travis, WD, Brambilla, E, Burke, AP, Marx, A, Nicholson, AG. WHO classification of tumours of the lung, pleura, thymus and heart, Lyon, IARC, 2015",
+            "process_entry": "True",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Bosman, FT, Carneiro, F, Hruban, RH, Theise, ND. WHO classification of tumours of the digestive system, Lyon, IARC, 2010",
+            "process_entry": "True",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Rindi, G, Klimstra, DS, Abedi-Ardekani, B, Asa, SL, Bosman, FT, Brambilla, E. A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal, Mod Pathol, 2018, 31, 1770, 1786, PMID: 30140036",
+            "process_entry": "True",
+            "doi": "10.1038/s41379-018-0110-y",
+            "pmid": "30140036",
+            "pmcid": "PMC6265262",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "de Mestier, L, Cros, J, Neuzillet, C, Hentic, O, Egal, A, Muller, N. Digestive system mixed neuroendocrine-non-neuroendocrine neoplasms, Neuroendocrinology, 2017, 105, 412, 425, PMID: 28803232",
+            "process_entry": "True",
+            "doi": "10.1159/000475527",
+            "pmid": "28803232",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "van der Veen, A, Seesing, MF, Wijnhoven, BP, de Steur, WO, van Berge Henegouwen, MI, Rosman, C. Management of resectable esophageal and gastric (mixed adeno) neuroendocrine carcinoma: a nationwide cohort study, Eur J Surg Oncol, 2018, 44, 1955, 1962, PMID: 30201419",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejso.2018.07.058",
+            "pmid": "30201419",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Colombo, N, Creutzberg, C, Amant, F, Bosse, T, González-Martín, A, Ledermann, J. ESMO-ESGO-ESTRO consensus conference on endometrial cancer: diagnosis, treatment and follow-up, Ann Oncol, 2016, 27, 16, 41, PMID: 26634381",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdv484",
+            "pmid": "26634381",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Korcum, AF, Aksu, G, Ozdogan, M, Erdogan, G, Taskin, O. Stage I small cell carcinoma of the endometrium: survival and management options, Acta Obstet Gynecol Scand, 2008, 87, 122, 126, PMID: 17943466",
+            "process_entry": "True",
+            "doi": "10.1080/00016340701709307",
+            "pmid": "17943466",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Ureyen, I, Karalok, A, Turan, T, Boran, N, Tapısız, OL, Okten, H. Small cell carcinoma of the endometrium: a report of three cases, J Turk Ger Gynecol Assoc, 2013, 14, 113, 115, PMID: 24592086",
+            "process_entry": "True",
+            "doi": "10.5152/jtgga.2013.33396",
+            "pmid": "24592086",
+            "pmcid": "PMC3881741",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Barlin, JN, Puri, I, Bristow, RE. Cytoreductive surgery for advanced or recurrent endometrial cancer: a meta-analysis, Gynecol Oncol, 2010, 118, 14, 18, PMID: 20434198",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2010.04.005",
+            "pmid": "20434198",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "National Comprehensive Cancer Network, Uterine neoplasmas [Internet], Plymouth Meeting, PA, National Comprehensive Cancer Network, c2018, cited 2018 May 5, Available from, https://www.nccn.org/professionals/physician_gls/pdf/uterine.pdf",
+            "process_entry": "True",
+            "url": "https://www.nccn.org/professionals/physician_gls/pdf/uterine.pdf",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Kuji, S, Hirashima, Y, Nakayama, H, Nishio, S, Otsuki, T, Nagamitsu, Y. Diagnosis, clinicopathologic features, treatment, and prognosis of small cell carcinoma of the uterine cervix; Kansai Clinical Oncology Group/Intergroup study in Japan, Gynecol Oncol, 2013, 129, 522, 527, PMID: 23480872",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2013.02.025",
+            "pmid": "23480872",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Japan Society of Obstetrics and Gynecology, Statement for year 2007, inclusive. Corpus, Acta Obst Gynaec Jpn, 2015, 67, 1209, 1226",
+            "process_entry": "True",
+            "xmlid": "B25"
+        }
+    ],
+    "localid": "MED-31576694",
+    "doi": "10.3802/jgo.2019.30.e103",
+    "pmid": "10.3802/jgo.2019.30.e103",
+    "pmcid": "31576694",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576694/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),143,166)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),143,166)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),479,150)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),764,63)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),764,63)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),764,63)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),764,63)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),828,87)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),828,87)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,245)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,245)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,245)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,245)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),329,169)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),329,169)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),983,177)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "1. Study population and clinical data collection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),436,172)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),609,190)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),609,190)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1047,211)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1259,115)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1259,115)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1259,115)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1518,176)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1518,176)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1796,226)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1796,226)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Central pathologic review"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),360,171)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "4. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),360,171)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "4. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),360,171)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "4. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),360,171)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "4. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),360,171)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "4. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,202)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,202)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,202)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),570,159)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),570,159)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),570,159)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1095,242)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1095,242)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),134,103)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),238,178)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),660,253)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),1881,99)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

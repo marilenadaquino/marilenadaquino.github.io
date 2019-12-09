@@ -1,0 +1,3249 @@
+{
+    "references": [
+        {
+            "bibentry": "Ungricht, R, Kutay, U. Establishment of NE asymmetry-targeting of membrane proteins to the inner nuclear membrane. Curr Opin Cell Biol. 2015; 34: 135–141. PMID: 26112002",
+            "process_entry": "True",
+            "doi": "10.1016/j.ceb.2015.04.005",
+            "pmid": "26112002",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Smoyer, CJ, Katta, SS, Gardner, JM, et al. Analysis of membrane proteins localizing to the inner nuclear envelope in living cells. J Cell Biol. 2016; 215: 575–590. PMID: 27831485",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201607043",
+            "pmid": "27831485",
+            "pmcid": "PMC5119940",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Romanauska, A, Kohler, A. The inner nuclear membrane is a metabolically active territory that generates nuclear lipid droplets. Cell. 2018; 174(700–715): e718.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Katta, SS, Smoyer, CJ, Jaspersen, SL. Destination: inner nuclear membrane. Trends Cell Biol. 2014; 24: 221–229. PMID: 24268652",
+            "process_entry": "True",
+            "doi": "10.1016/j.tcb.2013.10.006",
+            "pmid": "24268652",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Burns, LT, Wente, SR. Trafficking to uncharted territory of the nuclear envelope. Curr Opin Cell Biol. 2012; 24: 341–349. PMID: 22326668",
+            "process_entry": "True",
+            "doi": "10.1016/j.ceb.2012.01.009",
+            "pmid": "22326668",
+            "pmcid": "PMC3518394",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Holmer, L, Worman, HJ. Inner nuclear membrane proteins: functions and targeting. Cell Mol Life Sci. 2001; 58: 1741–1747. PMID: 11766875",
+            "process_entry": "True",
+            "doi": "10.1007/pl00000813",
+            "pmid": "11766875",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Chen, CY, Chi, YH, Mutalif, RA, et al. Accumulation of the inner nuclear envelope protein Sun1 is pathogenic in progeric and dystrophic laminopathies. Cell. 2012; 149: 565–577. PMID: 22541428",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2012.01.059",
+            "pmid": "22541428",
+            "pmcid": "PMC3340584",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Burke, B, Stewart, CL. Functional architecture of the cell’s nucleus in development, aging, and disease. Curr Top Dev Biol. 2014; 109: 1–52. PMID: 24947235",
+            "process_entry": "True",
+            "doi": "10.1016/b978-0-12-397920-9.00006-8",
+            "pmid": "24947235",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Papandreou, ME, Tavernarakis, N. Nucleophagy: from homeostasis to disease. Cell Death Differ. 2019; 26: 630–639. PMID: 30647432",
+            "process_entry": "True",
+            "doi": "10.1038/s41418-018-0266-5",
+            "pmid": "30647432",
+            "pmcid": "PMC6460388",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Mochida, K, Oikawa, Y, Kimura, Y, et al. Receptor-mediated selective autophagy degrades the endoplasmic reticulum and the nucleus. Nature. 2015; 522: 359–362. PMID: 26040717",
+            "process_entry": "True",
+            "doi": "10.1038/nature14506",
+            "pmid": "26040717",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Reiss, Y, Heller, H, Hershko, A. Binding sites of ubiquitin-protein ligase. Binding of ubiquitin-protein conjugates and of ubiquitin-carrier protein. J Biol Chem. 1989; 264: 10378–10383. PMID: 2732227",
+            "process_entry": "True",
+            "pmid": "2732227",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hochstrasser, M. Ubiquitin-dependent protein degradation. Annu Rev Genet. 1996; 30: 405–439. PMID: 8982460",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.genet.30.1.405",
+            "pmid": "8982460",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Boban, M, Ljungdahl, PO, Foisner, R. Atypical ubiquitylation in yeast targets lysine-less Asi2 for proteasomal degradation. J Biol Chem. 2015; 290: 2489–2495. PMID: 25492870",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M114.600593",
+            "pmid": "25492870",
+            "pmcid": "PMC4303697",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Ishikura, S, Weissman, AM, Bonifacino, JS. Serine residues in the cytosolic tail of the T-cell antigen receptor alpha-chain mediate ubiquitination and endoplasmic reticulum-associated degradation of the unassembled protein. J Biol Chem. 2010; 285: 23916–23924. PMID: 20519503",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M110.127936",
+            "pmid": "20519503",
+            "pmcid": "PMC2911338",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Shimizu, Y, Okuda-Shimizu, Y, Hendershot, LM. Ubiquitylation of an ERAD substrate occurs on multiple types of amino acids. Mol Cell. 2010; 40: 917–926. PMID: 21172657",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2010.11.033",
+            "pmid": "21172657",
+            "pmcid": "PMC3031134",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Li, W, Bengtson, MH, Ulbrich, A, et al. Genome-wide and functional annotation of human E3 ubiquitin ligases identifies MULAN, a mitochondrial E3 that regulates the organelle’s dynamics and signaling. PLoS One. 2008; 3: e1487. PMID: 18213395",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0001487",
+            "pmid": "18213395",
+            "pmcid": "PMC2198940",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Finley, D, Ulrich, HD, Sommer, T, et al. The ubiquitin-proteasome system of Saccharomyces cerevisiae. Genetics. 2012; 192: 319–360. PMID: 23028185",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.112.140467",
+            "pmid": "23028185",
+            "pmcid": "PMC3454868",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Zhang, S, Xu, C, Larrimore, KE, et al. Slp1-Emp65: a guardian factor that protects folding polypeptides from promiscuous degradation. Cell. 2017; 171(346–357): e312.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Vembar, SS, Brodsky, JL. One step at a time: endoplasmic reticulum-associated degradation. Nat Rev Mol Cell Biol. 2008; 9: 944–957. PMID: 19002207",
+            "process_entry": "True",
+            "doi": "10.1038/nrm2546",
+            "pmid": "19002207",
+            "pmcid": "PMC2654601",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Zattas, D, Hochstrasser, M. Ubiquitin-dependent protein degradation at the yeast endoplasmic reticulum and nuclear envelope. Crit Rev Biochem Mol Biol. 2015; 50: 1–17. PMID: 25231236",
+            "process_entry": "True",
+            "doi": "10.3109/10409238.2014.959889",
+            "pmid": "25231236",
+            "pmcid": "PMC4359062",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Carvalho, P, Goder, V, Rapoport, TA. Distinct ubiquitin-ligase complexes define convergent pathways for the degradation of ER proteins. Cell. 2006; 126: 361–373. PMID: 16873066",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2006.05.043",
+            "pmid": "16873066",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Rubenstein, EM, Kreft, SG, Greenblatt, W, et al. Aberrant substrate engagement of the ER translocon triggers degradation by the Hrd1 ubiquitin ligase. J Cell Biol. 2012; 197: 761–773. PMID: 22689655",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201203061",
+            "pmid": "22689655",
+            "pmcid": "PMC3373407",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Horn, SC, Hanna, J, Hirsch, C, et al. Usa1 functions as a scaffold of the HRD-ubiquitin ligase. Mol Cell. 2009; 36: 782–793. PMID: 20005842",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2009.10.015",
+            "pmid": "20005842",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Swanson, R, Locher, M, Hochstrasser, M. A conserved ubiquitin ligase of the nuclear envelope/endoplasmic reticulum that functions in both ER-associated and Matalpha2 repressor degradation. Genes Dev. 2001; 15: 2660–2674. PMID: 11641273",
+            "process_entry": "True",
+            "doi": "10.1101/gad.933301",
+            "pmid": "11641273",
+            "pmcid": "PMC312819",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Biederer, T, Volkwein, C, Sommer, T. Role of Cue1p in ubiquitination and degradation at the ER surface. Science. 1997; 278: 1806–1809. PMID: 9388185",
+            "process_entry": "True",
+            "doi": "10.1126/science.278.5344.1806",
+            "pmid": "9388185",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Sommer, T, Jentsch, S. A protein translocation defect linked to ubiquitin conjugation at the endoplasmic reticulum. Nature. 1993; 365: 176–179. PMID: 8396728",
+            "process_entry": "True",
+            "doi": "10.1038/365176a0",
+            "pmid": "8396728",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Bordallo, J, Plemper, RK, Finger, A, et al. Der3p/Hrd1p is required for endoplasmic reticulum-associated degradation of misfolded lumenal and integral membrane proteins. Mol Biol Cell. 1998; 9: 209–222. PMID: 9437001",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.9.1.209",
+            "pmid": "9437001",
+            "pmcid": "PMC25244",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Bays, NW, Gardner, RG, Seelig, LP, et al. Hrd1p/Der3p is a membrane-anchored ubiquitin ligase required for ER-associated degradation. Nat Cell Biol. 2001; 3: 24–29. PMID: 11146622",
+            "process_entry": "True",
+            "doi": "10.1038/35050524",
+            "pmid": "11146622",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Deng, M, Hochstrasser, M. Spatially regulated ubiquitin ligation by an ER/nuclear membrane ligase. Nature. 2006; 443: 827–831. PMID: 17051211",
+            "process_entry": "True",
+            "doi": "10.1038/nature05170",
+            "pmid": "17051211",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Boban, M, Pantazopoulou, M, Schick, A, et al. A nuclear ubiquitin-proteasome pathway targets the inner nuclear membrane protein Asi2 for degradation. J Cell Sci. 2014; 127: 3603–3613. PMID: 24928896",
+            "process_entry": "True",
+            "doi": "10.1242/jcs.153163",
+            "pmid": "24928896",
+            "pmcid": "PMC4333764",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Foresti, O, Rodriguez-Vaello, V, Funaya, C, et al. Quality control of inner nuclear membrane proteins by the Asi complex. Science. 2014; 346: 751–755. PMID: 25236469",
+            "process_entry": "True",
+            "doi": "10.1126/science.1255638",
+            "pmid": "25236469",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Khmelinskii, A, Blaszczak, E, Pantazopoulou, M, et al. Protein quality control at the inner nuclear membrane. Nature. 2014; 516: 410–413. PMID: 25519137",
+            "process_entry": "True",
+            "doi": "10.1038/nature14096",
+            "pmid": "25519137",
+            "pmcid": "PMC4493439",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Koch, BA, Jin, H, Tomko, RJ, Jr, et al. The anaphase-promoting complex regulates the degradation of the inner nuclear membrane protein Mps3. J Cell Biol. 2019; 218: 839–854.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Smoyer, CJ, Smith, SE, Gardner, JM, et al. Distribution of proteins at the inner nuclear membrane is regulated by the Asi1 E3 Ligase in Saccharomyces cerevisiae. Genetics. 2019; 211: 1269–1282. PMID: 30709848",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.119.301911",
+            "pmid": "30709848",
+            "pmcid": "PMC6456303",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Pantazopoulou, M, Boban, M, Foisner, R, et al. Cdc48 and Ubx1 participate in a pathway associated with the inner nuclear membrane that governs Asi1 degradation. J Cell Sci. 2016; 129: 3770–3780. PMID: 27566164",
+            "process_entry": "True",
+            "doi": "10.1242/jcs.189332",
+            "pmid": "27566164",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Ravid, T, Kreft, SG, Hochstrasser, M. Membrane and soluble substrates of the Doa10 ubiquitin ligase are degraded by distinct pathways. Embo J. 2006; 25: 533–543. PMID: 16437165",
+            "process_entry": "True",
+            "doi": "10.1038/sj.emboj.7600946",
+            "pmid": "16437165",
+            "pmcid": "PMC1383530",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Zattas, D, Adle, DJ, Rubenstein, EM, et al. N-terminal acetylation of the yeast derlin Der1 is essential for Hrd1 ubiquitin-ligase activity toward luminal ER substrates. Mol Biol Cell. 2013; 24: 890–900. PMID: 23363603",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E12-11-0838",
+            "pmid": "23363603",
+            "pmcid": "PMC3608499",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Nguyen, KT, Kim, JM, Park, SE, et al. N-terminal methionine excision of proteins creates tertiary destabilizing N-degrons of the Arg/N-end rule pathway. J Biol Chem. 2019; 294: 4464–4476. PMID: 30674553",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.ra118.006913",
+            "pmid": "30674553",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Hwang, CS, Shemorry, A, Varshavsky, A. N-terminal acetylation of cellular proteins creates specific degradation signals. Science. 2010; 327: 973–977. PMID: 20110468",
+            "process_entry": "True",
+            "doi": "10.1126/science.1183147",
+            "pmid": "20110468",
+            "pmcid": "PMC4259118",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Vashist, S, Ng, DT. Misfolded proteins are sorted by a sequential checkpoint mechanism of ER quality control. J Cell Biol. 2004; 165: 41–52. PMID: 15078901",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200309132",
+            "pmid": "15078901",
+            "pmcid": "PMC2172089",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Sun, Z, Brodsky, JL. The degradation pathway of a model misfolded protein is determined by aggregation propensity. Mol Biol Cell. 2018; 29: 1422–1434. PMID: 29688814",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E18-02-0117",
+            "pmid": "29688814",
+            "pmcid": "PMC6014095",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Forsberg, H, Hammar, M, Andreasson, C, et al. Suppressors of ssy1 and ptr3 null mutations define novel amino acid sensor-independent genes in Saccharomyces cerevisiae. Genetics. 2001; 158: 973–988. PMID: 11454748",
+            "process_entry": "True",
+            "pmid": "11454748",
+            "pmcid": "PMC1461718",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Boban, M, Zargari, A, Andreasson, C, et al. Asi1 is an inner nuclear membrane protein that restricts promoter access of two latent transcription factors. J Cell Biol. 2006; 173: 695–707. PMID: 16735580",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200601011",
+            "pmid": "16735580",
+            "pmcid": "PMC2063887",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Omnus, DJ, Ljungdahl, PO. Latency of transcription factor Stp1 depends on a modular regulatory motif that functions as cytoplasmic retention determinant and nuclear degron. Mol Biol Cell. 2014; 25: 3823–3833. PMID: 25253722",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E14-06-1140",
+            "pmid": "25253722",
+            "pmcid": "PMC4230787",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Zargari, A, Boban, M, Heessen, S, et al. Inner nuclear membrane proteins Asi1, Asi2, and Asi3 function in concert to maintain the latent properties of transcription factors Stp1 and Stp2. J Biol Chem. 2007; 282: 594–605. PMID: 17085444",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m609201200",
+            "pmid": "17085444",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Smoyer, CJ, Jaspersen, SL. Patrolling the nucleus: inner nuclear membrane-associated degradation. Curr Genet. 2019 DOI: DOI: 10.1007/s00294-019-00971.",
+            "process_entry": "True",
+            "doi": "10.1007/s00294-019-00971.",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Buchberger, A, Bukau, B, Sommer, T. Protein quality control in the cytosol and the endoplasmic reticulum: brothers in arms. Mol Cell. 2010; 40: 238–252. PMID: 20965419",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2010.10.001",
+            "pmid": "20965419",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "King, RW, Peters, JM, Tugendreich, S, et al. A 20S complex containing CDC27 and CDC16 catalyzes the mitosis-specific conjugation of ubiquitin to cyclin B. Cell. 1995; 81: 279–288. PMID: 7736580",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(95)90338-0",
+            "pmid": "7736580",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Irniger, S, Piatti, S, Michaelis, C, et al. Genes involved in sister chromatid separation are needed for B-type cyclin proteolysis in budding yeast. Cell. 1995; 81: 269–278. PMID: 7736579",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(95)90337-2",
+            "pmid": "7736579",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Sudakin, V, Ganoth, D, Dahan, A, et al. The cyclosome, a large complex containing cyclin-selective ubiquitin ligase activity, targets cyclins for destruction at the end of mitosis. Mol Biol Cell. 1995; 6: 185–197. PMID: 7787245",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.6.2.185",
+            "pmid": "7787245",
+            "pmcid": "PMC275828",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Rodrigo-Brenni, MC, Morgan, DO. Sequential E2s drive polyubiquitin chain assembly on APC targets. Cell. 2007; 130: 127–139. PMID: 17632060",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2007.05.027",
+            "pmid": "17632060",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Visintin, R, Prinz, S, Amon, A. CDC20 and CDH1: a family of substrate-specific activators of APC-dependent proteolysis. Science. 1997; 278: 460–463. PMID: 9334304",
+            "process_entry": "True",
+            "doi": "10.1126/science.278.5337.460",
+            "pmid": "9334304",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Pfleger, CM, Kirschner, MW. The KEN box: an APC recognition signal distinct from the D box targeted by Cdh1. Genes Dev. 2000; 14: 655–665. PMID: 10733526",
+            "process_entry": "True",
+            "pmid": "10733526",
+            "pmcid": "PMC316466",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Glotzer, M, Murray, AW, Kirschner, MW. Cyclin is degraded by the ubiquitin pathway. Nature. 1991; 349: 132–138. PMID: 1846030",
+            "process_entry": "True",
+            "doi": "10.1038/349132a0",
+            "pmid": "1846030",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Jaspersen, SL, Giddings, TH, Jr,, Winey, M. Mps3p is a novel component of the yeast spindle pole body that interacts with the yeast centrin homologue Cdc31p. J Cell Biol. 2002; 159: 945–956. PMID: 12486115",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200208169",
+            "pmid": "12486115",
+            "pmcid": "PMC2173979",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Li, P, Jin, H, Koch, BA, et al. Cleavage of the SUN-domain protein Mps3 at its N-terminus regulates centrosome disjunction in budding yeast meiosis. PLoS Genet. 2017; 13: e1006830. PMID: 28609436",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1006830",
+            "pmid": "28609436",
+            "pmcid": "PMC5487077",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Pines, J. Cubism and the cell cycle: the many faces of the APC/C. Nat Rev Mol Cell Biol. 2011; 12: 427–438. PMID: 21633387",
+            "process_entry": "True",
+            "doi": "10.1038/nrm3132",
+            "pmid": "21633387",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Davey, NE, Morgan, DO. Building a regulatory network with short linear sequence motifs: lessons from the degrons of the anaphase-promoting complex. Mol Cell. 2016; 64: 12–23. PMID: 27716480",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2016.09.006",
+            "pmid": "27716480",
+            "pmcid": "PMC5098475",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Hunter, T. The age of crosstalk: phosphorylation, ubiquitination, and beyond. Mol Cell. 2007; 28: 730–738. PMID: 18082598",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2007.11.019",
+            "pmid": "18082598",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "He, J, Chao, WC, Zhang, Z, et al. Insights into degron recognition by APC/C coactivators from the structure of an Acm1-Cdh1 complex. Mol Cell. 2013; 50: 649–660. PMID: 23707760",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2013.04.024",
+            "pmid": "23707760",
+            "pmcid": "PMC3690534",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "Hall, MC, Jeong, DE, Henderson, JT, et al. Cdc28 and Cdc14 control stability of the anaphase-promoting complex inhibitor Acm1. J Biol Chem. 2008; 283: 10396–10407. PMID: 18287090",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M710011200",
+            "pmid": "18287090",
+            "pmcid": "PMC2447631",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Stewart, CL, Kozlov, S, Fong, LG, et al. Mouse models of the laminopathies. Exp Cell Res. 2007; 313: 2144–2156. PMID: 17493612",
+            "process_entry": "True",
+            "doi": "10.1016/j.yexcr.2007.03.026",
+            "pmid": "17493612",
+            "pmcid": "PMC1949387",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Ye, Y, Meyer, HH, Rapoport, TA. The AAA ATPase Cdc48/p97 and its partners transport proteins from the ER into the cytosol. Nature. 2001; 414: 652–656. PMID: 11740563",
+            "process_entry": "True",
+            "doi": "10.1038/414652a",
+            "pmid": "11740563",
+            "xmlid": "CIT0063"
+        },
+        {
+            "bibentry": "Russell, SJ, Steger, KA, Johnston, SA. Subcellular localization, stoichiometry, and protein levels of 26 S proteasome subunits in yeast. J Biol Chem. 1999; 274: 21943–21952. PMID: 10419517",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.274.31.21943",
+            "pmid": "10419517",
+            "xmlid": "CIT0064"
+        },
+        {
+            "bibentry": "Bodnar, NO, Kim, KH, Ji, Z, et al. Structure of the Cdc48 ATPase with its ubiquitin-binding cofactor Ufd1-Npl4. Nat Struct Mol Biol. 2018; 25: 616–622. PMID: 29967539",
+            "process_entry": "True",
+            "doi": "10.1038/s41594-018-0085-x",
+            "pmid": "29967539",
+            "pmcid": "PMC6044470",
+            "xmlid": "CIT0065"
+        },
+        {
+            "bibentry": "Braun, S, Matuschewski, K, Rape, M, et al. Role of the ubiquitin-selective CDC48(UFD1/NPL4)chaperone (segregase) in ERAD of OLE1 and other substrates. Embo J. 2002; 21: 615–621. PMID: 11847109",
+            "process_entry": "True",
+            "doi": "10.1093/emboj/21.4.615",
+            "pmid": "11847109",
+            "pmcid": "PMC125867",
+            "xmlid": "CIT0066"
+        },
+        {
+            "bibentry": "Pilon, M, Schekman, R, Romisch, K. Sec61p mediates export of a misfolded secretory protein from the endoplasmic reticulum to the cytosol for degradation. Embo J. 1997; 16: 4540–4548. PMID: 9303298",
+            "process_entry": "True",
+            "doi": "10.1093/emboj/16.15.4540",
+            "pmid": "9303298",
+            "pmcid": "PMC1170080",
+            "xmlid": "CIT0067"
+        },
+        {
+            "bibentry": "Plemper, RK, Egner, R, Kuchler, K, et al. Endoplasmic reticulum degradation of a mutated ATP-binding cassette transporter Pdr5 proceeds in a concerted action of Sec61 and the proteasome. J Biol Chem. 1998; 273: 32848–32856. PMID: 9830032",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.273.49.32848",
+            "pmid": "9830032",
+            "xmlid": "CIT0068"
+        },
+        {
+            "bibentry": "Schafer, A, Wolf, DH. Sec61p is part of the endoplasmic reticulum-associated degradation machinery. Embo J. 2009; 28: 2874–2884. PMID: 19696741",
+            "process_entry": "True",
+            "doi": "10.1038/emboj.2009.231",
+            "pmid": "19696741",
+            "pmcid": "PMC2760108",
+            "xmlid": "CIT0069"
+        },
+        {
+            "bibentry": "Baldridge, RD, Rapoport, TA. Autoubiquitination of the Hrd1 ligase triggers protein retrotranslocation in ERAD. Cell. 2016; 166: 394–407. PMID: 27321670",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2016.05.048",
+            "pmid": "27321670",
+            "pmcid": "PMC4946995",
+            "xmlid": "CIT0070"
+        },
+        {
+            "bibentry": "Bodnar, NO, Rapoport, TA. Molecular mechanism of substrate processing by the Cdc48 ATPase complex. Cell. 2017; 169(722–735): e729.",
+            "process_entry": "True",
+            "xmlid": "CIT0071"
+        },
+        {
+            "bibentry": "Bebeacua, C, Forster, A, McKeown, C, et al. Distinct conformations of the protein complex p97-Ufd1-Npl4 revealed by electron cryomicroscopy. Proc Natl Acad Sci U S A. 2012; 109: 1098–1103. PMID: 22232657",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1114341109",
+            "pmid": "22232657",
+            "pmcid": "PMC3268311",
+            "xmlid": "CIT0072"
+        },
+        {
+            "bibentry": "Bruderer, RM, Brasseur, C, Meyer, HH. The AAA ATPase p97/VCP interacts with its alternative co-factors, Ufd1-Npl4 and p47, through a common bipartite binding mechanism. J Biol Chem. 2004; 279: 49609–49616. PMID: 15371428",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m408695200",
+            "pmid": "15371428",
+            "xmlid": "CIT0073"
+        },
+        {
+            "bibentry": "Hanzelmann, P, Schindelin, H. Characterization of an additional binding surface on the p97 N-terminal domain involved in bipartite cofactor interactions. Structure. 2016; 24: 140–147. PMID: 26712280",
+            "process_entry": "True",
+            "doi": "10.1016/j.str.2015.10.027",
+            "pmid": "26712280",
+            "xmlid": "CIT0074"
+        },
+        {
+            "bibentry": "Ripstein, ZA, Huang, R, Augustyniak, R, et al. Structure of a AAA+ unfoldase in the process of unfolding substrate. Elife. 2017; 6.",
+            "process_entry": "True",
+            "xmlid": "CIT0075"
+        },
+        {
+            "bibentry": "Barthelme, D, Sauer, RT. Identification of the Cdc48*20S proteasome as an ancient AAA+ proteolytic machine. Science. 2012; 337: 843–846. PMID: 22837385",
+            "process_entry": "True",
+            "doi": "10.1126/science.1224352",
+            "pmid": "22837385",
+            "pmcid": "PMC3923512",
+            "xmlid": "CIT0076"
+        },
+        {
+            "bibentry": "Kim, SJ, Cho, J, Song, EJ, et al. Structural basis for ovarian tumor domain-containing protein 1 (OTU1) binding to p97/valosin-containing protein (VCP). J Biol Chem. 2014; 289: 12264–12274. PMID: 24610782",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M113.523936",
+            "pmid": "24610782",
+            "pmcid": "PMC4007425",
+            "xmlid": "CIT0077"
+        },
+        {
+            "bibentry": "Smith, N, Adle, DJ, Zhao, M, et al. Endoplasmic reticulum-associated degradation of Pca1p, a polytopic protein, via interaction with the proteasome at the membrane. J Biol Chem. 2016; 291: 15082–15092. PMID: 27226596",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M116.726265",
+            "pmid": "27226596",
+            "pmcid": "PMC4946925",
+            "xmlid": "CIT0078"
+        },
+        {
+            "bibentry": "Martin, DD, Ladha, S, Ehrnhoefer, DE, et al. Autophagy in Huntington disease and huntingtin in autophagy. Trends Neurosci. 2015; 38: 26–35. PMID: 25282404",
+            "process_entry": "True",
+            "doi": "10.1016/j.tins.2014.09.003",
+            "pmid": "25282404",
+            "xmlid": "CIT0079"
+        },
+        {
+            "bibentry": "Carames, B, Taniguchi, N, Otsuki, S, et al. Autophagy is a protective mechanism in normal cartilage, and its aging-related loss is linked with cell death and osteoarthritis. Arthritis Rheum. 2010; 62: 791–801. PMID: 20187128",
+            "process_entry": "True",
+            "doi": "10.1002/art.27305",
+            "pmid": "20187128",
+            "pmcid": "PMC2838960",
+            "xmlid": "CIT0080"
+        },
+        {
+            "bibentry": "Carnio, S, LoVerso, F, Baraibar, MA, et al. Autophagy impairment in muscle induces neuromuscular junction degeneration and precocious aging. Cell Rep. 2014; 8: 1509–1521. PMID: 25176656",
+            "process_entry": "True",
+            "doi": "10.1016/j.celrep.2014.07.061",
+            "pmid": "25176656",
+            "pmcid": "PMC4534571",
+            "xmlid": "CIT0081"
+        },
+        {
+            "bibentry": "Stolz, A, Ernst, A, Dikic, I. Cargo recognition and trafficking in selective autophagy. Nat Cell Biol. 2014; 16: 495–501. PMID: 24875736",
+            "process_entry": "True",
+            "doi": "10.1038/ncb2979",
+            "pmid": "24875736",
+            "xmlid": "CIT0082"
+        },
+        {
+            "bibentry": "Khaminets, A, Behl, C, Dikic, I. Ubiquitin-dependent and independent signals in selective autophagy. Trends Cell Biol. 2016; 26: 6–16. PMID: 26437584",
+            "process_entry": "True",
+            "doi": "10.1016/j.tcb.2015.08.010",
+            "pmid": "26437584",
+            "xmlid": "CIT0083"
+        },
+        {
+            "bibentry": "Geng, J, Klionsky, DJ. The Atg8 and Atg12 ubiquitin-like conjugation systems in macroautophagy. ‘Protein modifications: beyond the usual suspects’ review series. EMBO Rep. 2008; 9: 859–864. PMID: 18704115",
+            "process_entry": "True",
+            "doi": "10.1038/embor.2008.163",
+            "pmid": "18704115",
+            "pmcid": "PMC2529362",
+            "xmlid": "CIT0084"
+        },
+        {
+            "bibentry": "Nakatogawa, H, Ichimura, Y, Ohsumi, Y. Atg8, a ubiquitin-like protein required for autophagosome formation, mediates membrane tethering and hemifusion. Cell. 2007; 130: 165–178. PMID: 17632063",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2007.05.021",
+            "pmid": "17632063",
+            "xmlid": "CIT0085"
+        },
+        {
+            "bibentry": "Hanada, T, Noda, NN, Satomi, Y, et al. The Atg12-Atg5 conjugate has a novel E3-like activity for protein lipidation in autophagy. J Biol Chem. 2007; 282: 37298–37302. PMID: 17986448",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.c700195200",
+            "pmid": "17986448",
+            "xmlid": "CIT0086"
+        },
+        {
+            "bibentry": "Noda, T, Matsunaga, K, Taguchi-Atarashi, N, et al. Regulation of membrane biogenesis in autophagy via PI3P dynamics. Semin Cell Dev Biol. 2010; 21: 671–676. PMID: 20403452",
+            "process_entry": "True",
+            "doi": "10.1016/j.semcdb.2010.04.002",
+            "pmid": "20403452",
+            "xmlid": "CIT0087"
+        },
+        {
+            "bibentry": "Luo, M, Zhao, X, Song, Y, et al. Nuclear autophagy: an evolutionarily conserved mechanism of nuclear degradation in the cytoplasm. Autophagy. 2016; 12: 1973–1983. PMID: 27541589",
+            "process_entry": "True",
+            "doi": "10.1080/15548627.2016.1217381",
+            "pmid": "27541589",
+            "pmcid": "PMC5103339",
+            "xmlid": "CIT0088"
+        },
+        {
+            "bibentry": "Borroni, AP, Emanuelli, A, Shah, PA, et al. Smurf2 regulates stability and the autophagic-lysosomal turnover of lamin A and its disease-associated form progerin. Aging Cell. 2018; 17:e12732",
+            "process_entry": "True",
+            "xmlid": "CIT0089"
+        },
+        {
+            "bibentry": "Okamoto, K. Organellophagy: eliminating cellular building blocks via selective autophagy. J Cell Biol. 2014; 205: 435–445. PMID: 24862571",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201402054",
+            "pmid": "24862571",
+            "pmcid": "PMC4033777",
+            "xmlid": "CIT0090"
+        },
+        {
+            "bibentry": "Park, YE, Hayashi, YK, Bonne, G, et al. Autophagic degradation of nuclear components in mammalian cells. Autophagy. 2009; 5: 795–804. PMID: 19550147",
+            "process_entry": "True",
+            "doi": "10.4161/auto.8901",
+            "pmid": "19550147",
+            "xmlid": "CIT0091"
+        },
+        {
+            "bibentry": "Dou, Z, Xu, C, Donahue, G, et al. Autophagy mediates degradation of nuclear lamina. Nature. 2015; 527: 105–109. PMID: 26524528",
+            "process_entry": "True",
+            "doi": "10.1038/nature15548",
+            "pmid": "26524528",
+            "pmcid": "PMC4824414",
+            "xmlid": "CIT0092"
+        },
+        {
+            "bibentry": "Jaspersen, SL, Charles, JF, Morgan, DO. Inhibitory phosphorylation of the APC regulator Hct1 is controlled by the kinase Cdc28 and the phosphatase Cdc14. Curr Biol. 1999; 9: 227–236. PMID: 10074450",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-9822(99)80111-0",
+            "pmid": "10074450",
+            "xmlid": "CIT0093"
+        },
+        {
+            "bibentry": "Zachariae, W, Schwab, M, Nasmyth, K, et al. Control of cyclin ubiquitination by CDK-regulated binding of Hct1 to the anaphase promoting complex. Science. 1998; 282: 1721–1724. PMID: 9831566",
+            "process_entry": "True",
+            "doi": "10.1126/science.282.5394.1721",
+            "pmid": "9831566",
+            "xmlid": "CIT0094"
+        },
+        {
+            "bibentry": "Visintin, R, Craig, K, Hwang, ES, et al. The phosphatase Cdc14 triggers mitotic exit by reversal of Cdk-dependent phosphorylation. Mol Cell. 1998; 2: 709–718. PMID: 9885559",
+            "process_entry": "True",
+            "doi": "10.1016/s1097-2765(00)80286-5",
+            "pmid": "9885559",
+            "xmlid": "CIT0095"
+        },
+        {
+            "bibentry": "Friederichs, JM, Ghosh, S, Smoyer, CJ, et al. The SUN protein Mps3 is required for spindle pole body insertion into the nuclear membrane and nuclear envelope homeostasis. PLoS Genet. 2011; 7: e1002365. PMID: 22125491",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1002365",
+            "pmid": "22125491",
+            "pmcid": "PMC3219597",
+            "xmlid": "CIT0096"
+        },
+        {
+            "bibentry": "Elhanany-Tamir, H, Yu, YV, Shnayder, M, et al. Organelle positioning in muscles requires cooperation between two KASH proteins and microtubules. J Cell Biol. 2012; 198: 833–846. PMID: 22927463",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201204102",
+            "pmid": "22927463",
+            "pmcid": "PMC3432764",
+            "xmlid": "CIT0097"
+        },
+        {
+            "bibentry": "Collins, MA, Mandigo, TR, Camuglia, JM, et al. Emery-dreifuss muscular dystrophy-linked genes and centronuclear myopathy-linked genes regulate myonuclear movement by distinct mechanisms. Mol Biol Cell. 2017; 28: 2303–2317. PMID: 28637766",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E16-10-0721",
+            "pmid": "28637766",
+            "pmcid": "PMC5555658",
+            "xmlid": "CIT0098"
+        },
+        {
+            "bibentry": "Zhang, X, Lei, K, Yuan, X, et al. SUN1/2 and Syne/Nesprin-1/2 complexes connect centrosome to the nucleus during neurogenesis and neuronal migration in mice. Neuron. 2009; 64: 173–187. PMID: 19874786",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2009.08.018",
+            "pmid": "19874786",
+            "pmcid": "PMC2788510",
+            "xmlid": "CIT0099"
+        },
+        {
+            "bibentry": "Zhang, X, Xu, R, Zhu, B, et al. Syne-1 and Syne-2 play crucial roles in myonuclear anchorage and motor neuron innervation. Development. 2007; 134: 901–908. PMID: 17267447",
+            "process_entry": "True",
+            "doi": "10.1242/dev.02783",
+            "pmid": "17267447",
+            "xmlid": "CIT0100"
+        },
+        {
+            "bibentry": "Wilson, MH, Holzbaur, EL. Nesprins anchor kinesin-1 motors to the nucleus to drive nuclear distribution in muscle cells. Development. 2015; 142: 218–228. PMID: 25516977",
+            "process_entry": "True",
+            "doi": "10.1242/dev.114769",
+            "pmid": "25516977",
+            "pmcid": "PMC4299143",
+            "xmlid": "CIT0101"
+        },
+        {
+            "bibentry": "Liu, B, Jin, DY, Zhou, Z. From loss to gain: role for SUN1 in laminopathies. Cell Biosci. 2012; 2: 21. PMID: 22709970",
+            "process_entry": "True",
+            "doi": "10.1186/2045-3701-2-21",
+            "pmid": "22709970",
+            "pmcid": "PMC3419603",
+            "xmlid": "CIT0102"
+        },
+        {
+            "bibentry": "Tsai, PL, Zhao, C, Turner, E, et al. The lamin B receptor is essential for cholesterol synthesis and perturbed by disease-causing mutations. Elife. 2016; 5.",
+            "process_entry": "True",
+            "xmlid": "CIT0103"
+        },
+        {
+            "bibentry": "Wen, FP, Guo, YS, Hu, Y, et al. Distinct temporal requirements for autophagy and the proteasome in yeast meiosis. Autophagy. 2016; 12: 671–688. PMID: 27050457",
+            "process_entry": "True",
+            "doi": "10.1080/15548627.2016.1149659",
+            "pmid": "27050457",
+            "pmcid": "PMC4835973",
+            "xmlid": "CIT0104"
+        },
+        {
+            "bibentry": "Matsuhara, H, Yamamoto, A. Autophagy is required for efficient meiosis progression and proper meiotic chromosome segregation in fission yeast. Genes Cells. 2016; 21: 65–87. PMID: 26696398",
+            "process_entry": "True",
+            "doi": "10.1111/gtc.12320",
+            "pmid": "26696398",
+            "xmlid": "CIT0105"
+        }
+    ],
+    "localid": "MED-31313624",
+    "doi": "10.1080/19491034.2019.1644593",
+    "pmid": "10.1080/19491034.2019.1644593",
+    "pmcid": "31313624",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31313624/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),141,215)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),350,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),141,215)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),350,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),357,125)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),483,206)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,1]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),682,5)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),483,206)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,1]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),682,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),690,298)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),989,154)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1144,177)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),1315,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1144,177)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),1315,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1532,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),1720,6)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1532,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),1720,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,137)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ],
+                "pl_string": "[11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),130,7)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,137)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ],
+                "pl_string": "[11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),130,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),139,203)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),663,201)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),865,113)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ],
+                "pl_string": "[13–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),970,7)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0014",
+                "pl_string": "[13–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),970,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),865,113)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),865,113)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ],
+                "pl_string": "[13–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),970,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),979,148)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1119,7)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),979,148)",
+                "containers_title": [
+                    "The ubiquitin-proteasome system for protein turnover"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1119,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,167)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),169,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),345,7)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),169,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),345,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),547,282)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),821,7)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0022",
+                "pl_string": "[21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),821,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),547,282)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0023",
+                "pl_string": "[21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),821,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),547,282)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),547,282)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),821,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),830,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),972,10)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),830,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),972,10)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),830,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),972,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),830,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1006,7)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),830,184)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[19,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1006,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1015,171)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1097,7)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1015,171)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1097,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,216)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),208,7)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,216)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),208,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),218,314)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[31-34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),523,7)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0032",
+                "pl_string": "[31-34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),523,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),218,314)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0033",
+                "pl_string": "[31-34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),523,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),218,314)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),218,314)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ],
+                "pl_string": "[31-34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),523,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),533,121)",
+                "containers_title": [
+                    "ERAD degrades ER-associated proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1,119)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),121,266)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ],
+                "pl_string": "[29–32]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),318,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0030",
+                "pl_string": "[29–32]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),318,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),121,266)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0031",
+                "pl_string": "[29–32]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),318,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),121,266)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),121,266)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ],
+                "pl_string": "[29–32]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),318,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),121,266)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),388,282)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ],
+                "pl_string": "[29–33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),662,7)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0030",
+                "pl_string": "[29–33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),662,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),388,282)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0031",
+                "pl_string": "[29–33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),662,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),388,282)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0032",
+                "pl_string": "[29–33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),662,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),388,282)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ]
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),388,282)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ],
+                "pl_string": "[29–33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),662,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),852,93)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ],
+                "pl_string": "[29,33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),937,7)"
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),852,93)",
+                "containers_title": [
+                    "INMAD degrades INM-associated proteins"
+                ],
+                "pl_string": "[29,33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),937,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),144,158)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[12,24]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),294,7)"
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),144,158)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[12,24]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),294,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),303,146)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),450,92)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),543,199)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[24,29]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),734,7)"
+            },
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),543,199)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[24,29]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),734,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),743,135)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),249,58)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),308,174)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[37–39]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),474,7)"
+            },
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0038",
+                "pl_string": "[37–39]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),474,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),308,174)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ]
+            },
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),308,174)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[37–39]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),474,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),483,210)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[29,30,36]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),682,10)"
+            },
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),483,210)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[29,30,36]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),682,10)"
+            },
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),483,210)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[29,30,36]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),682,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),694,212)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[21,40,41]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),895,10)"
+            },
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),694,212)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[21,40,41]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),895,10)"
+            },
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),694,212)",
+                "containers_title": [
+                    "Doa10 complex and INMAD"
+                ],
+                "pl_string": "[21,40,41]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),895,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),1,191)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),193,166)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),360,174)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[43–45]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),526,7)"
+            },
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0044",
+                "pl_string": "[43–45]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),526,7)",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),360,174)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            },
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),360,174)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[43–45]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),526,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),1,203)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[43,45]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),196,7)"
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),1,203)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[43,45]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),196,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),304,152)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,46]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),448,7)"
+            },
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),304,152)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,46]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),448,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),457,143)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),592,7)"
+            },
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),457,143)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),592,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),601,172)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),939,198)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),1129,7)"
+            },
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),939,198)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),1129,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),1,208)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[3]),201,7)"
+            },
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),1,208)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[3]),201,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),210,175)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[3]),377,7)"
+            },
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),210,175)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[3]),377,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),386,126)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[3]),504,7)"
+            },
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),386,126)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[3]),504,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),513,160)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),674,211)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[6]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[3]),1097,298)",
+                "containers_title": [
+                    "Asi1-3 complex and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),1,243)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[48–50]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),236,7)"
+            },
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0049",
+                "pl_string": "[48–50]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),236,7)",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),1,243)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            },
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),1,243)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[48–50]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),236,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),245,91)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[17,51]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),328,7)"
+            },
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),245,91)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[17,51]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),328,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),337,87)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),425,191)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[53,54]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),608,7)"
+            },
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[7]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[1]),425,191)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[53,54]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[1]),608,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 102,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),143,208)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[33,55]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[2]),343,7)"
+            },
+            {
+                "n_rp": 103,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),143,208)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[33,55]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[2]),343,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 104,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),352,140)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[33,56]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[2]),484,7)"
+            },
+            {
+                "n_rp": 105,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),352,140)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[33,56]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[2]),484,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 106,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),493,187)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 107,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),681,291)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[7]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[2]),973,291)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[3]),334,166)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[3]),501,166)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 111,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),1,184)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[29,43,57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),171,13)"
+            },
+            {
+                "n_rp": 112,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),1,184)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[29,43,57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),171,13)"
+            },
+            {
+                "n_rp": 113,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),1,184)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[29,43,57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),171,13)"
+            },
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),1,184)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[29,43,57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),171,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),285,316)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[33,59]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),477,7)"
+            },
+            {
+                "n_rp": 116,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),285,316)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[33,59]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),477,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 117,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),285,316)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[58,60,61]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),590,10)"
+            },
+            {
+                "n_rp": 118,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),285,316)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[58,60,61]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),590,10)"
+            },
+            {
+                "n_rp": 119,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),285,316)",
+                "containers_title": [
+                    "APC/C and INMAD"
+                ],
+                "pl_string": "[58,60,61]",
+                "pl_xpath": "substring(string(/article/body/sec[7]/p[4]),590,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 120,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),1,148)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[62–64]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),141,7)"
+            },
+            {
+                "n_rp": 121,
+                "xref_id": "CIT0063",
+                "pl_string": "[62–64]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),141,7)",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),1,148)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ]
+            },
+            {
+                "n_rp": 122,
+                "xref_id": "CIT0064",
+                "rp_string": "64",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),1,148)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[62–64]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),141,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 123,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),150,166)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[63,65,66]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),305,10)"
+            },
+            {
+                "n_rp": 124,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),150,166)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[63,65,66]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),305,10)"
+            },
+            {
+                "n_rp": 125,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),150,166)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[63,65,66]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),305,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),448,281)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[67–69]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),544,7)"
+            },
+            {
+                "n_rp": 127,
+                "xref_id": "CIT0068",
+                "pl_string": "[67–69]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),544,7)",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),448,281)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ]
+            },
+            {
+                "n_rp": 128,
+                "xref_id": "CIT0069",
+                "rp_string": "69",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),448,281)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[67–69]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[1]),544,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 129,
+                "xref_id": "CIT0070",
+                "rp_string": "70",
+                "rp_xpath": "/article/body/sec[8]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[1]),448,281)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 130,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),1,138)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 131,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),140,171)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[65,72–74]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),300,10)"
+            },
+            {
+                "n_rp": 132,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),140,171)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[65,72–74]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),300,10)"
+            },
+            {
+                "n_rp": 133,
+                "xref_id": "CIT0074",
+                "rp_string": "74",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),140,171)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[65,72–74]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),300,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 134,
+                "xref_id": "CIT0075",
+                "rp_string": "75",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),312,196)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[75,76]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),500,7)"
+            },
+            {
+                "n_rp": 135,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),312,196)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[75,76]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),500,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 136,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),509,144)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[71,77]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),645,7)"
+            },
+            {
+                "n_rp": 137,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[8]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[2]),509,144)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[71,77]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[2]),645,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 138,
+                "xref_id": "CIT0078",
+                "rp_string": "78",
+                "rp_xpath": "/article/body/sec[8]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[3]),1,205)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 139,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[8]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[3]),207,241)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[31,33,35]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[3]),437,10)"
+            },
+            {
+                "n_rp": 140,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[8]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[3]),207,241)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[31,33,35]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[3]),437,10)"
+            },
+            {
+                "n_rp": 141,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[8]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[8]/p[3]),207,241)",
+                "containers_title": [
+                    "Retrotranslocation of ERAD substrates by Cdc48: a clue for INMAD"
+                ],
+                "pl_string": "[31,33,35]",
+                "pl_xpath": "substring(string(/article/body/sec[8]/p[3]),437,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 142,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[9]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1,164)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 143,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[9]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),166,99)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 144,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[9]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),407,201)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[79–81]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),600,7)"
+            },
+            {
+                "n_rp": 145,
+                "xref_id": "CIT0080",
+                "pl_string": "[79–81]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),600,7)",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),407,201)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ]
+            },
+            {
+                "n_rp": 146,
+                "xref_id": "CIT0081",
+                "rp_string": "81",
+                "rp_xpath": "/article/body/sec[9]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),407,201)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[79–81]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),600,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 147,
+                "xref_id": "CIT0082",
+                "rp_string": "82",
+                "rp_xpath": "/article/body/sec[9]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),609,293)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[82,83]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),894,7)"
+            },
+            {
+                "n_rp": 148,
+                "xref_id": "CIT0083",
+                "rp_string": "83",
+                "rp_xpath": "/article/body/sec[9]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),609,293)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[82,83]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),894,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 149,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[9]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),903,105)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 150,
+                "xref_id": "CIT0085",
+                "rp_string": "85",
+                "rp_xpath": "/article/body/sec[9]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1081,160)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[85,86]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1233,7)"
+            },
+            {
+                "n_rp": 151,
+                "xref_id": "CIT0086",
+                "rp_string": "86",
+                "rp_xpath": "/article/body/sec[9]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1081,160)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[85,86]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1233,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 152,
+                "xref_id": "CIT0082",
+                "rp_string": "82",
+                "rp_xpath": "/article/body/sec[9]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1242,205)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[82,87]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1439,7)"
+            },
+            {
+                "n_rp": 153,
+                "xref_id": "CIT0087",
+                "rp_string": "87",
+                "rp_xpath": "/article/body/sec[9]/p/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1242,205)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[82,87]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1439,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 154,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[9]/p/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1448,201)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[10,88–90]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1638,10)"
+            },
+            {
+                "n_rp": 155,
+                "xref_id": "CIT0088",
+                "rp_string": "88",
+                "rp_xpath": "/article/body/sec[9]/p/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1448,201)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[10,88–90]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1638,10)"
+            },
+            {
+                "n_rp": 156,
+                "xref_id": "CIT0090",
+                "rp_string": "90",
+                "rp_xpath": "/article/body/sec[9]/p/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1448,201)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[10,88–90]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1638,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 157,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[9]/p/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1650,242)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 158,
+                "xref_id": "CIT0091",
+                "rp_string": "91",
+                "rp_xpath": "/article/body/sec[9]/p/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1893,113)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[91,92]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1998,7)"
+            },
+            {
+                "n_rp": 159,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[9]/p/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[9]/p),1893,113)",
+                "containers_title": [
+                    "Autophagy-dependent protein degradation at the ER and INM"
+                ],
+                "pl_string": "[91,92]",
+                "pl_xpath": "substring(string(/article/body/sec[9]/p),1998,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 160,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),166,120)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 161,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),287,199)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[48,52,93–95]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),472,13)"
+            },
+            {
+                "n_rp": 162,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),287,199)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[48,52,93–95]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),472,13)"
+            },
+            {
+                "n_rp": 163,
+                "xref_id": "CIT0093",
+                "rp_string": "93",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),287,199)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[48,52,93–95]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),472,13)"
+            },
+            {
+                "n_rp": 164,
+                "xref_id": "CIT0095",
+                "rp_string": "95",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),287,199)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[48,52,93–95]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),472,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 165,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),487,196)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[33,55,56,96]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),669,13)"
+            },
+            {
+                "n_rp": 166,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),487,196)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[33,55,56,96]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),669,13)"
+            },
+            {
+                "n_rp": 167,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),487,196)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[33,55,56,96]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),669,13)"
+            },
+            {
+                "n_rp": 168,
+                "xref_id": "CIT0096",
+                "rp_string": "96",
+                "rp_xpath": "/article/body/sec[10]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[1]),487,196)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[33,55,56,96]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[1]),669,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 169,
+                "xref_id": "CIT0097",
+                "rp_string": "97",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),230,69)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[97–99]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[2]),291,7)"
+            },
+            {
+                "n_rp": 170,
+                "xref_id": "CIT0098",
+                "pl_string": "[97–99]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[2]),291,7)",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),230,69)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ]
+            },
+            {
+                "n_rp": 171,
+                "xref_id": "CIT0099",
+                "rp_string": "99",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),230,69)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[97–99]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[2]),291,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 172,
+                "xref_id": "CIT0099",
+                "rp_string": "99",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),300,244)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 173,
+                "xref_id": "CIT0099",
+                "rp_string": "99",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),545,197)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 174,
+                "xref_id": "CIT0100",
+                "rp_string": "100",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),545,197)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 175,
+                "xref_id": "CIT0097",
+                "rp_string": "97",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),743,189)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[97,101]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[2]),923,8)"
+            },
+            {
+                "n_rp": 176,
+                "xref_id": "CIT0101",
+                "rp_string": "101",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),743,189)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ],
+                "pl_string": "[97,101]",
+                "pl_xpath": "substring(string(/article/body/sec[10]/p[2]),923,8)"
+            }
+        ],
+        [
+            {
+                "n_rp": 177,
+                "xref_id": "CIT0098",
+                "rp_string": "98",
+                "rp_xpath": "/article/body/sec[10]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[10]/p[2]),933,261)",
+                "containers_title": [
+                    "Cell-cycle and developmental regulation of protein turnover at the INM"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 178,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[11]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),205,227)",
+                "containers_title": [
+                    "The INM and human disease"
+                ],
+                "pl_string": "[62,102]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p),423,8)"
+            },
+            {
+                "n_rp": 179,
+                "xref_id": "CIT0102",
+                "rp_string": "102",
+                "rp_xpath": "/article/body/sec[11]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),205,227)",
+                "containers_title": [
+                    "The INM and human disease"
+                ],
+                "pl_string": "[62,102]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p),423,8)"
+            }
+        ],
+        [
+            {
+                "n_rp": 180,
+                "xref_id": "CIT0091",
+                "rp_string": "91",
+                "rp_xpath": "/article/body/sec[11]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),433,297)",
+                "containers_title": [
+                    "The INM and human disease"
+                ],
+                "pl_string": "[91,92]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p),722,7)"
+            },
+            {
+                "n_rp": 181,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[11]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),433,297)",
+                "containers_title": [
+                    "The INM and human disease"
+                ],
+                "pl_string": "[91,92]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p),722,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 182,
+                "xref_id": "CIT0096",
+                "rp_string": "96",
+                "rp_xpath": "/article/body/sec[11]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),731,189)",
+                "containers_title": [
+                    "The INM and human disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 183,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[11]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),731,189)",
+                "containers_title": [
+                    "The INM and human disease"
+                ],
+                "pl_string": "[33,56]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p),912,7)"
+            },
+            {
+                "n_rp": 184,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[11]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),731,189)",
+                "containers_title": [
+                    "The INM and human disease"
+                ],
+                "pl_string": "[33,56]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p),912,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 185,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[11]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),921,123)",
+                "containers_title": [
+                    "The INM and human disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 186,
+                "xref_id": "CIT0103",
+                "rp_string": "103",
+                "rp_xpath": "/article/body/sec[11]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p),1045,213)",
+                "containers_title": [
+                    "The INM and human disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 187,
+                "xref_id": "CIT0104",
+                "rp_string": "104",
+                "rp_xpath": "/article/body/sec[12]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[1]),207,162)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[104,105]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[1]),359,9)"
+            },
+            {
+                "n_rp": 188,
+                "xref_id": "CIT0001",
+                "rp_string": "105",
+                "rp_xpath": "/article/body/sec[12]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[1]),207,162)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[104,105]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[1]),359,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 189,
+                "xref_id": "CIT0091",
+                "rp_string": "91",
+                "rp_xpath": "/article/body/sec[12]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[1]),370,147)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[91,92]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[1]),509,7)"
+            },
+            {
+                "n_rp": 190,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[12]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[1]),370,147)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[91,92]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[1]),509,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 191,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[12]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),271,220)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[31–33]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[2]),483,7)"
+            },
+            {
+                "n_rp": 192,
+                "xref_id": "CIT0032",
+                "pl_string": "[31–33]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[2]),483,7)",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),271,220)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ]
+            },
+            {
+                "n_rp": 193,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[12]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),271,220)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[31–33]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[2]),483,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 194,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[12]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),492,131)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[29,31–33]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[2]),612,10)"
+            },
+            {
+                "n_rp": 195,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[12]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),492,131)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[29,31–33]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[2]),612,10)"
+            },
+            {
+                "n_rp": 196,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[12]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),492,131)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ],
+                "pl_string": "[29,31–33]",
+                "pl_xpath": "substring(string(/article/body/sec[12]/p[2]),612,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 197,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[12]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[12]/p[2]),624,166)",
+                "containers_title": [
+                    "Conclusions and future directions"
+                ]
+            }
+        ]
+    ]
+}

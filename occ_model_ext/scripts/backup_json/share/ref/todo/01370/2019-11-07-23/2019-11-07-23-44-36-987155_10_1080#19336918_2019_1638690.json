@@ -1,0 +1,723 @@
+{
+    "references": [
+        {
+            "bibentry": "Parzych, KR, Klionsky, DJ. An overview of autophagy: morphology, mechanism, and regulation. Antioxid Redox Signal. 2014; 20: 460–473. PMID: 23725295",
+            "process_entry": "True",
+            "doi": "10.1089/ars.2013.5371",
+            "pmid": "23725295",
+            "pmcid": "PMC3894687",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Feng, Y, He, D, Yao, Z, et al. The machinery of macroautophagy. Cell Res. 2014; 24: 24–41. PMID: 24366339",
+            "process_entry": "True",
+            "doi": "10.1038/cr.2013.168",
+            "pmid": "24366339",
+            "pmcid": "PMC3879710",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "He, C, Levine, B. The Beclin 1 interactome. Curr Opin Cell Biol. 2010; 22: 140–149. PMID: 20097051",
+            "process_entry": "True",
+            "doi": "10.1016/j.ceb.2010.01.001",
+            "pmid": "20097051",
+            "pmcid": "PMC2854269",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Choi, AM, Ryter, SW, Levine, B. Autophagy in human health and disease. N Engl J Med. 2013; 368: 1845–1846.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Liang, XH, Jackson, S, Seaman, M, et al. Induction of autophagy and inhibition of tumorigenesis by beclin 1. Nature. 1999; 402: 672–676. PMID: 10604474",
+            "process_entry": "True",
+            "doi": "10.1038/45257",
+            "pmid": "10604474",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Aita, VM, Liang, XH, Murty, VV, et al. Cloning and genomic organization of beclin 1, a candidate tumor suppressor gene on chromosome 17q21. Genomics. 1999; 59: 59–65. PMID: 10395800",
+            "process_entry": "True",
+            "doi": "10.1006/geno.1999.5851",
+            "pmid": "10395800",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Gajewska, M, Sobolewska, A, Kozlowski, M, et al. Role of autophagy in mammary gland development. J Physiol Pharmacol. 2008; 59(Suppl 9): 237–249. PMID: 19261983",
+            "process_entry": "True",
+            "pmid": "19261983",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Turcotte, S, Giaccia, AJ. Targeting cancer cells through autophagy for anticancer therapy. Curr Opin Cell Biol. 2010; 22: 246–251. PMID: 20056398",
+            "process_entry": "True",
+            "doi": "10.1016/j.ceb.2009.12.007",
+            "pmid": "20056398",
+            "pmcid": "PMC4012537",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Ahn, CH, Jeong, EG, Lee, JW, et al. Expression of beclin-1, an autophagy-related protein, in gastric and colorectal cancers. APMIS. 2007; 115: 1344–1349. PMID: 18184403",
+            "process_entry": "True",
+            "doi": "10.1111/j.1600-0463.2007.00858.x",
+            "pmid": "18184403",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Correa, RJ, Valdes, YR, Shepherd, TG, et al. Beclin-1 expression is retained in high-grade serous ovarian cancer yet is not essential for autophagy induction in vitro. J Ovarian Res. 2015; 8: 52. PMID: 26239434",
+            "process_entry": "True",
+            "doi": "10.1186/s13048-015-0182-y",
+            "pmid": "26239434",
+            "pmcid": "PMC4524172",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Gong, C, Bauvy, C, Tonelli, G. et al Beclin 1 and autophagy are required for the tumorigenicity of breast cancer stem-like/progenitor cells. Oncogene. 2013; 32: 2261–2272, 2272e 2261–2211.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Jiang, L, Liang, X, Liu, M, et al. Reduced expression of liver kinase B1 and Beclin1 is associated with the poor survival of patients with non-small cell lung cancer. Oncol Rep. 2014; 32: 1931–1938. PMID: 25175672",
+            "process_entry": "True",
+            "doi": "10.3892/or.2014.3432",
+            "pmid": "25175672",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Zhou, W, Yue, C, Deng, J. et al Autophagic protein Beclin 1 serves as an independent positive prognostic biomarker for non-small cell lung cancer. PloS One. 2013; 8: e80338. PMID: 24260370",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0080338",
+            "pmid": "24260370",
+            "pmcid": "PMC3829868",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Karpathiou, G, Sivridis, E, Koukourakis, M, et al. Autophagy and Bcl-2/BNIP3 death regulatory pathway in non-small cell lung carcinomas. APMIS. 2013; 121: 592–604. PMID: 23216071",
+            "process_entry": "True",
+            "doi": "10.1111/apm.12026",
+            "pmid": "23216071",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Wang, W, Fan, H, Zhou, Y, et al. Knockdown of autophagy-related gene BECLIN1 promotes cell growth and inhibits apoptosis in the A549 human lung cancer cell line. Mol Med Rep. 2013; 7: 1501–1505.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Shin, JY, Hong, SH, Kang, B, et al. Overexpression of beclin1 induced autophagy and apoptosis in lungs of K-rasLA1 mice. Lung Cancer. 2013; 81: 362–370. PMID: 23790316",
+            "process_entry": "True",
+            "doi": "10.1016/j.lungcan.2013.05.009",
+            "pmid": "23790316",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Miracco, C, Cosci, E, Oliveri, G. et al Protein and mRNA expression of autophagy gene Beclin 1 in human brain tumours. Int J Oncol. 2007; 30: 429–436. PMID: 17203225",
+            "process_entry": "True",
+            "pmid": "17203225",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Li, Z, Chen, B, Wu, Y, et al. Genetic and epigenetic silencing of the beclin 1 gene in sporadic breast tumors. BMC Cancer. 2010; 10: 98. PMID: 20230646",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2407-10-98",
+            "pmid": "20230646",
+            "pmcid": "PMC2858113",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Yoo, BH, Wu, X, Li, Y, et al. Oncogenic ras-induced down-regulation of autophagy mediator Beclin-1 is required for malignant transformation of intestinal epithelial cells. J Biol Chem. 2010; 285: 5438–5449. PMID: 19778902",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M109.046789",
+            "pmid": "19778902",
+            "pmcid": "PMC2820772",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Koneri, K, Goi, T, Hirono, Y, et al. Beclin 1 gene inhibits tumor growth in colon cancer cell lines. Anticancer Res. 2007; 27: 1453–1457. PMID: 17595761",
+            "process_entry": "True",
+            "pmid": "17595761",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Zhang, Y, Meng, X, Li, C, et al. MiR-9 enhances the sensitivity of A549 cells to cisplatin by inhibiting autophagy. Biotechnol Lett. 2017; 39: 959–966. PMID: 28337557",
+            "process_entry": "True",
+            "doi": "10.1007/s10529-017-2325-2",
+            "pmid": "28337557",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "McInroy, L, Maatta, A. Down-regulation of vimentin expression inhibits carcinoma cell migration and adhesion. Biochem Biophys Res Commun. 2007; 360: 109–114. PMID: 17585878",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2007.06.036",
+            "pmid": "17585878",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Thrower, JS, Hoffman, L, Rechsteiner, M, et al. Recognition of the polyubiquitin proteolytic signal. Embo J. 2000; 19: 94–102. PMID: 10619848",
+            "process_entry": "True",
+            "doi": "10.1093/emboj/19.1.94",
+            "pmid": "10619848",
+            "pmcid": "PMC1171781",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Zhu, Y, Zhang, Y, Sui, Z, et al. USP14 de-ubiquitinates vimentin and miR-320a modulates USP14 and vimentin to contribute to malignancy in gastric cancer cells. Oncotarget. 2017; 8: 48725–48736. PMID: 27448976",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.10706",
+            "pmid": "27448976",
+            "pmcid": "PMC5564720",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Liu, J, Lin, Y, Yang, H, et al. The expression of p33(ING1), p53, and autophagy-related gene Beclin1 in patients with non-small cell lung cancer. Tumour Biol. 2011; 32: 1113–1121. PMID: 21779982",
+            "process_entry": "True",
+            "doi": "10.1007/s13277-011-0211-4",
+            "pmid": "21779982",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Peng, YF, Shi, YH, Ding, ZB, et al. Autophagy inhibition suppresses pulmonary metastasis of HCC in mice via impairing anoikis resistance and colonization of HCC cells. Autophagy. 2013; 9: 2056–2068. PMID: 24157892",
+            "process_entry": "True",
+            "doi": "10.4161/auto.26398",
+            "pmid": "24157892",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Degenhardt, K, Mathew, R, Beaudoin, B. et al Autophagy promotes tumor cell survival and restricts necrosis, inflammation, and tumorigenesis. Cancer Cell. 2006; 10: 51–64. PMID: 16843265",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccr.2006.06.001",
+            "pmid": "16843265",
+            "pmcid": "PMC2857533",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Weng, J, Wang, C, Wang, Y, et al. Beclin1 inhibits proliferation, migration and invasion in tongue squamous cell carcinoma cell lines. Oral Oncol. 2014; 50: 983–990. PMID: 25096824",
+            "process_entry": "True",
+            "doi": "10.1016/j.oraloncology.2014.06.020",
+            "pmid": "25096824",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Wang, H, Wang, Y, Qian, L. et al RNF216 contributes to proliferation and migration of colorectal cancer via suppressing BECN1-dependent autophagy. Oncotarget. 2016; 7: 51174–51183. PMID: 27203674",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.9433",
+            "pmid": "27203674",
+            "pmcid": "PMC5239467",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wu, CL, Zhang, SM, Lin, L, et al. BECN1-knockout impairs tumor growth, migration and invasion by suppressing the cell cycle and partially suppressing the epithelial-mesenchymal transition of human triple-negative breast cancer cells. Int J Oncol. 2018; 53: 1301–1312. PMID: 30015871",
+            "process_entry": "True",
+            "doi": "10.3892/ijo.2018.4472",
+            "pmid": "30015871",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Liu, H, Ma, Y, He, HW, et al. SPHK1 (sphingosine kinase 1) induces epithelial-mesenchymal transition by promoting the autophagy-linked lysosomal degradation of CDH1/E-cadherin in hepatoma cells. Autophagy. 2017; 13: 900–913. PMID: 28521610",
+            "process_entry": "True",
+            "doi": "10.1080/15548627.2017.1291479",
+            "pmid": "28521610",
+            "pmcid": "PMC5446059",
+            "xmlid": "CIT0031"
+        }
+    ],
+    "localid": "MED-31272261",
+    "doi": "10.1080/19336918.2019.1638690",
+    "pmid": "10.1080/19336918.2019.1638690",
+    "pmcid": "31272261",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31272261/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,120)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),115,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,120)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),115,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),122,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),297,83)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),381,149)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),531,104)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),629,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),531,104)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),629,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),636,205)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),926,102)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1029,69)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1099,82)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),64,225)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),281,7)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),64,225)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),281,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),290,97)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),388,92)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),481,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,153)",
+                "containers_title": [
+                    "Results",
+                    "The expression of BECN1 does not significantly affect the proliferation of NSCLC cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,153)",
+                "containers_title": [
+                    "Results",
+                    "The expression of BECN1 does not significantly affect the proliferation of NSCLC cells"
+                ],
+                "pl_string": "[12,17–20]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),143,10)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,153)",
+                "containers_title": [
+                    "Results",
+                    "The expression of BECN1 does not significantly affect the proliferation of NSCLC cells"
+                ],
+                "pl_string": "[12,17–20]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),143,10)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,153)",
+                "containers_title": [
+                    "Results",
+                    "The expression of BECN1 does not significantly affect the proliferation of NSCLC cells"
+                ],
+                "pl_string": "[12,17–20]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),143,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),155,117)",
+                "containers_title": [
+                    "Results",
+                    "The expression of BECN1 does not significantly affect the proliferation of NSCLC cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),273,228)",
+                "containers_title": [
+                    "Results",
+                    "The expression of BECN1 does not significantly affect the proliferation of NSCLC cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1004,181)",
+                "containers_title": [
+                    "Results",
+                    "BECN1 affects the ubiquitination of Vimentin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),2386,94)",
+                "containers_title": [
+                    "Results",
+                    "BECN1 affects the ubiquitination of Vimentin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,93)",
+                "containers_title": [
+                    "Results",
+                    "The de-ubiquitination of vimentin by USP14 depends on the expression of BECN1"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,82)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),157,101)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),252,5)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),157,101)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),252,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),259,209)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),597,120)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),709,7)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),597,120)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),709,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),718,256)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1708,101)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1810,122)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1933,90)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),2024,72)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),120,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),255,148)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),475,114)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,892 @@
+{
+    "references": [
+        {
+            "bibentry": "Ricci, G, De Maria, F, Antonini, G, et al. 7-Nitro-2,1,3-benzoxadiazole derivatives, a new class of suicide inhibitors for glutathione S-transferases. Mechanism of action of potential anticancer drugs. J Biol Chem 2005; 280: 26397–405. PMID: 15888444",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m503295200",
+            "pmid": "15888444",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ruzza, P, Rosato, A, Rossi, CR, et al. Glutathione transferases as targets for cancer therapy. Anticancer Agents Med Chem 2009; 9: 763–77. PMID: 19538171",
+            "process_entry": "True",
+            "doi": "10.2174/187152009789056895",
+            "pmid": "19538171",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Dalzoppo, D, Di Paolo, V, Calderan, L, et al. Thiol-activated anticancer agents: the state of the art. Anticancer Agents Med Chem 2017; 17: 4–20. PMID: 27539318",
+            "process_entry": "True",
+            "pmid": "27539318",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Sau, A, Pellizzari Tregno, F, Valentino, F, et al. Glutathione transferases and development of new principles to overcome drug resistance. Arch Biochem Biophys 2010; 500: 116–22. PMID: 20494652",
+            "process_entry": "True",
+            "doi": "10.1016/j.abb.2010.05.012",
+            "pmid": "20494652",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Allocati, N, Masulli, M, Di Ilio, C, Federici, L. Glutathione transferases: substrates, inihibitors and pro-drugs in cancer and neurodegenerative diseases. Oncogenesis 2018; 7: 8. PMID: 29362397",
+            "process_entry": "True",
+            "doi": "10.1038/s41389-017-0025-3",
+            "pmid": "29362397",
+            "pmcid": "PMC5833873",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Turella, P, Cerella, C, Filomeni, G, et al. Proapoptotic activity of new glutathione S-transferase inhibitors. Cancer Res 2005; 65: 3751–61. PMID: 15867371",
+            "process_entry": "True",
+            "doi": "10.1158/0008-5472.can-04-3903",
+            "pmid": "15867371",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "De Luca, A, Federici, L, De Canio, M, et al. New insights into the mechanism of JNK1 inhibition by glutathione transferase P1-1. Biochemistry 2012; 51: 7304–12. PMID: 22920299",
+            "process_entry": "True",
+            "doi": "10.1021/bi300559m",
+            "pmid": "22920299",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Sau, A, Filomeni, G, Pezzola, S, et al. Targeting GSTP1-1 induces JNK activation and leads to apoptosis in cisplatin-sensitive and -resistant human osteosarcoma cell lines. Mol Biosyst 2012; 8: 994–1006. PMID: 22068640",
+            "process_entry": "True",
+            "doi": "10.1039/c1mb05295k",
+            "pmid": "22068640",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "De Luca, A, Mei, G, Rosato, N, et al. The fine-tuning of TRAF2-GSTP1-1 interaction: effect of ligand binding and in situ detection of the complex. Cell Death Dis 2014; 5: e1015. PMID: 24457959",
+            "process_entry": "True",
+            "doi": "10.1038/cddis.2013.529",
+            "pmid": "24457959",
+            "pmcid": "PMC4040697",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Sha, HH, Wang, Z, Dong, SC, et al. Promising new anticancer compound. Biosci Rep 2018; 38: BSR20171440. PMID: 29358310",
+            "process_entry": "True",
+            "doi": "10.1042/BSR20171440",
+            "pmid": "29358310",
+            "pmcid": "PMC5809612",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "De Luca, A, Rotili, D, Carpanese, D, et al. A novel orally active water-soluble inhibitor of human glutathione transferase exerts a potent and selective antitumor activity against human melanoma xenografts. Oncotarget 2015; 6: 4126–43. PMID: 25595904",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.2798",
+            "pmid": "25595904",
+            "pmcid": "PMC4414177",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Graziani, G, Artuso, S, De Luca, A, et al. A new water soluble MAPK activator exerts antitumor activity in melanoma cells resistant to the BRAF inhibitor vemurafenib. Biochem Pharmacol 2015; 95: 16–27. PMID: 25795251",
+            "process_entry": "True",
+            "doi": "10.1016/j.bcp.2015.03.004",
+            "pmid": "25795251",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Keppler, D. Export pumps for glutathione S-conjugates. Free Radic Biol Med 1999; 27: 985–91. PMID: 10569630",
+            "process_entry": "True",
+            "doi": "10.1016/s0891-5849(99)00171-9",
+            "pmid": "10569630",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Kannan, R, Kuhlenkamp, JF, Jeandidier, E, et al. Evidence for carrier-mediated transport of glutathione across the blood–brain barrier in the rat. J Clin Invest 1990; 85: 2009–13. PMID: 1971830",
+            "process_entry": "True",
+            "doi": "10.1172/jci114666",
+            "pmid": "1971830",
+            "pmcid": "PMC296671",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Cacciatore, I, Baldassarre, L, Fornasari, E, et al. Recent advances in the treatment of neurodegenerative diseases based on GSH delivery systems. Oxid Med Cell Longev 2012; 2012: 1.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Cacciatore, I, Cornacchia, C, Baldassarre, L, et al. GPE and GPE analogues as promising neuroprotective agents. Mini Rev Med Chem 2012; 12: 13–23. PMID: 22070686",
+            "process_entry": "True",
+            "doi": "10.2174/138955712798868995",
+            "pmid": "22070686",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Fulci, C, Rotili, D, De Luca, A, et al. A new nitrobenzoxadiazole-based GSTP1-1 inhibitor with a previously unheard of mechanism of action and high stability. J Enzyme Inhib Med Chem 2017; 32: 240–7. PMID: 28097896",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2016.1247059",
+            "pmid": "28097896",
+            "pmcid": "PMC6009906",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Parkinson, A, Ogilvie, BW. Biotransformation of xenobiotics. In: Klaassen CD, ed. Casarett and Doull's toxicology: the basic science of poisons 7th ed. New York (NY): McGraw-Hill; 2008:161–304.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Simons, PC, Vander Jagt, DL. Purification of glutathione S-transferases from human liver by glutathione-affinity chromatography. Anal Biochem 1977; 82: 334–41. PMID: 907137",
+            "process_entry": "True",
+            "doi": "10.1016/0003-2697(77)90169-5",
+            "pmid": "907137",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Habig, WH, Pabst, MJ, Jakoby, WB. Glutathione S-transferases. The first enzymatic step in mercapturic acid formation. J Biol Chem 1974; 249: 7130–9. PMID: 4436300",
+            "process_entry": "True",
+            "pmid": "4436300",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Ross, MK, Borazjani, A, Wang, R, et al. Examination of the carboxylesterase phenotype in human liver. Arch Biochem Biophys 2012; 522: 44–56. PMID: 22525521",
+            "process_entry": "True",
+            "doi": "10.1016/j.abb.2012.04.010",
+            "pmid": "22525521",
+            "pmcid": "PMC3569858",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Stella, L, van de Weert, M. Fluorescence quenching and ligand binding: a critical discussion of a popular methodology. J Mol Struct 2011; 998: 144–50.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Skehan, P, Storeng, R, Scudiero, D, et al. New colorimetric cytotoxicity assay for anticancer-drug screening. J Natl Cancer Inst 1990; 82: 1107–12. PMID: 2359136",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/82.13.1107",
+            "pmid": "2359136",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Trott, O, Olson, AJ. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading. J Comput Chem 2010; 31: 455–61. PMID: 19499576",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21334",
+            "pmid": "19499576",
+            "pmcid": "PMC3041641",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Parker, LJ, Bocedi, A, Ascher, DB, et al. Glutathione transferase P1-1 as an arsenic drug-sequestering enzyme. Protein Sci 2017; 26: 317–26. PMID: 27863446",
+            "process_entry": "True",
+            "doi": "10.1002/pro.3084",
+            "pmid": "27863446",
+            "pmcid": "PMC5275733",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Federici, L, Lo Sterzo, C, Pezzola, S, et al. Structural basis for the binding of the anticancer compound 6-(7-nitro-2,1,3-benzoxadiazol-4-ylthio)hexanol to human glutathione S-transferases. Cancer Res 2009; 69: 8025–34. PMID: 19808963",
+            "process_entry": "True",
+            "doi": "10.1158/0008-5472.can-09-1314",
+            "pmid": "19808963",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Pettersen, EF, Goddard, TD, Huang, CC, et al. UCSF Chimera -a visualization system for exploratory research and analysis. J Comput Chem 2004; 25: 1605–12. PMID: 15264254",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.20084",
+            "pmid": "15264254",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Ruzza, P, Rosato, A, Nassi, A, et al. Synthesis and preliminary in vitro biological evaluation of 4-[(4-hydroxyphenyl)sulfanyl]but-3-en-2-one, a 4-mercaptophenol derivative designed as a novel bifunctional antimelanoma agent. J Med Chem 2009; 52: 4973–6. PMID: 19601648",
+            "process_entry": "True",
+            "doi": "10.1021/jm900642j",
+            "pmid": "19601648",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Laizure, SC, Herring, V, Hu, Z, et al. The role of human carboxylesterases in drug metabolism: have we overlooked their importance? Pharmacotherapy 2013; 33: 210–22. PMID: 23386599",
+            "process_entry": "True",
+            "doi": "10.1002/phar.1194",
+            "pmid": "23386599",
+            "pmcid": "PMC4572478",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wu, Y, Fan, Y, Xue, B, et al. Human glutathione S-transferase P1-1 interacts with TRAF2 and regulates TRAF2-ASK1 signals. Oncogene 2006; 25: 5787–800. PMID: 16636664",
+            "process_entry": "True",
+            "doi": "10.1038/sj.onc.1209576",
+            "pmid": "16636664",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Hardeland, R, Coto-Montes, A, Poeggeler, B. Circadian rhythms, oxidative stress, and antioxidative defense mechanisms. Chronobiol Int 2003; 20: 921–62. PMID: 14680136",
+            "process_entry": "True",
+            "doi": "10.1081/cbi-120025245",
+            "pmid": "14680136",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Pekovic-Vaughan, V, Gibbs, J, Yoshitane, H, Yang, N, et al. The circadian clock regulates rhythmic activation of the NRF2/glutathione-mediated antioxidant defense pathway to modulate pulmonary fibrosis. Genes Dev 2014; 28: 548–60. PMID: 24637114",
+            "process_entry": "True",
+            "doi": "10.1101/gad.237081.113",
+            "pmid": "24637114",
+            "pmcid": "PMC3967045",
+            "xmlid": "CIT0032"
+        }
+    ],
+    "localid": "MED-31169043",
+    "doi": "10.1080/14756366.2019.1617287",
+    "pmid": "10.1080/14756366.2019.1617287",
+    "pmcid": "31169043",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31169043/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,257)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),419,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),419,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),595,256)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),852,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0006",
+                "rp_string": "6–9",
+                "pl_string": "6–9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "6–9",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "6–9",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "6–9",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0006",
+                "rp_string": "6–9",
+                "pl_string": "6–9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),209,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),601,183)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),601,183)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),785,329)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1115,251)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1367,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,204)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),898,338)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),123,48)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemicals"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[3]),1,82)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Expression and purification of GSTP1-1 and TRAF2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[3]),84,39)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Expression and purification of GSTP1-1 and TRAF2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,235)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Kinetic analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p[2]),1,433)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Evaluation of the stability of compounds 3 and 4 in human liver microsomes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/sec[11]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[11]/p),1,80)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ELISA for protein–protein interaction analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[11]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[11]/p),1377,203)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ELISA for protein–protein interaction analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[12]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[12]/p),346,305)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cytotoxicity experiments"
+                ],
+                "pl_string": "The human melanoma A375 cell line was obtained from the American Type Culture Collection (ATCC, Manassas, VA, USA). Cells were cultured in Dulbecco’s Modified Eagle’s Medium (DMEM), supplemented with 10% foetal bovine serum FBS (v/v), 2 mM l-glutamine, 100 U/mL penicillin and 100 µg/mL streptomycin, at 37 °C in a 5% CO2 humidified atmosphere. For cell viability studies, A375 (2.0 × 104 cells/cm2) were seeded in 96-well plates and, after 24 h at 37 °C, were exposed to different concentrations of NBD-derivatives (0.05–25.0 µM) for 48 h. After incubation, cell survival was evaluated by the sulforodamine B (SRB) assay23, as previously described6.",
+                "pl_xpath": "/article/body/sec[2]/sec[12]/p"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/sec[12]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[12]/p),346,305)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cytotoxicity experiments"
+                ],
+                "pl_string": "The human melanoma A375 cell line was obtained from the American Type Culture Collection (ATCC, Manassas, VA, USA). Cells were cultured in Dulbecco’s Modified Eagle’s Medium (DMEM), supplemented with 10% foetal bovine serum FBS (v/v), 2 mM l-glutamine, 100 U/mL penicillin and 100 µg/mL streptomycin, at 37 °C in a 5% CO2 humidified atmosphere. For cell viability studies, A375 (2.0 × 104 cells/cm2) were seeded in 96-well plates and, after 24 h at 37 °C, were exposed to different concentrations of NBD-derivatives (0.05–25.0 µM) for 48 h. After incubation, cell survival was evaluated by the sulforodamine B (SRB) assay23, as previously described6.",
+                "pl_xpath": "/article/body/sec[2]/sec[12]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[13]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[13]/p[1]),1,234)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[13]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[13]/p[1]),236,149)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[13]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[13]/p[1]),386,126)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[14]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[14]/p[2]),1,469)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Data analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),239,174)",
+                "containers_title": [
+                    "Results",
+                    "Comparison of chemical and physical properties of compounds 1–4"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[2]/p),1,41)",
+                "containers_title": [
+                    "Results",
+                    "Comparison of chemical and physical properties of compounds 1–4"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[3]/p),1,39)",
+                "containers_title": [
+                    "Results",
+                    "Comparison of chemical and physical properties of compounds 1–4"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[5]/p),1,63)",
+                "containers_title": [
+                    "Results",
+                    "Comparison of chemical and physical properties of compounds 1–4"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),780,247)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 exhibits a lower reactivity towards GSH than compounds 1 and 2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),127,135)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays GSTP1-1 catalytic activity inhibition properties superior to those of compounds 2 and 3"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),393,128)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays GSTP1-1 catalytic activity inhibition properties superior to those of compounds 2 and 3"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),522,140)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays GSTP1-1 catalytic activity inhibition properties superior to those of compounds 2 and 3"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),854,157)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays GSTP1-1 catalytic activity inhibition properties superior to those of compounds 2 and 3"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/table-wrap/table-wrap-foot/fn[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/table-wrap/table-wrap-foot/fn[1]/p),1,41)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays GSTP1-1 catalytic activity inhibition properties superior to those of compounds 2 and 3"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/table-wrap/table-wrap-foot/fn[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/table-wrap/table-wrap-foot/fn[2]/p),1,38)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays GSTP1-1 catalytic activity inhibition properties superior to those of compounds 2 and 3"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),128,150)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 disrupts the interaction between GSTP1-1 and TRAF2 both in the presence and in the absence of GSH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),272,195)",
+                "containers_title": [
+                    "Results",
+                    "Compound 4 displays a high stability in the presence of human liver microsomes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),142,202)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),345,238)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1149,293)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),2182,190)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),2547,299)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "More recently we synthesised and characterised compound 3, i.e. the benzoyl ester derivative of the prototypical antitumor NBD derivative 1. Introduction of the bulky benzoyl moiety in the side chain of compound 1 led to a compound endowed with different features, including a remarkable stability towards GSH under physiological conditions17. Unfortunately, compound 3, like several other carboxyl ester linkage-containing compounds, is highly susceptible to hydrolysis catalysed by CES29 (see panels A and C of Figure 7), a feature limiting its availability in biological systems. However, the isosteric replacement of the carboxyl ester linkage of 3 with an amide moiety was successful in improving the stability to metabolic hydrolysis. Indeed, compound 4, the amide analog of 3, was found to be quite stable to human liver microsomal esterases (panel B, Figure 7). Interestingly, the adopted isosteric replacement completely changed the pattern of inhibition of GSTP1-1 catalytic activity; compound 4, like 1, was able to fully abolish the enzymatic activity of GSTP1-1, while compound 3 inhibited enzyme activity no more than 50% (Figure 5). Molecular docking orientations obtained for 3 within the GSTP1-1 active site showed, among the clusters with the most favourable binding energies, a pose in which the benzoyl ring of 3 is placed at the interface between the protein monomers, in close proximity with the side chain of Tyr 4917. It is possible to speculate that this binding mode could account for the half-site inhibition of GSTP1-1 observed in the presence of 3. However, the very similar binding pose and energy found also for 4 suggest a more complex enzyme inhibition mechanism that cannot be inferable from the static picture provided by docking. Nevertheless, compound 4 was still capable of affecting formation of the TRAF2-GSTP1-1 complex even in the absence of GSH (Figure 6). These findings suggest that the presence of the ester oxygen atom is not a structural requisite to interfere with the interaction between TRAF2 and GSTP1-1. The highest affinity poses of 3 and 4 show the terminal benzoyl moiety in close contact with the hydrophobic Phe 8 residue. The steric hindrance of the benzoyl moiety in that position can account very well for the restricted mobility of helix 2 of GSTP1-1, which was demonstrated to be crucial for TRAF2 binding30. Similar poses are found in the high scoring results of docking on the Apo-GST structures, thus explaining the inhibition of TRAF2-GSTP1-1 binding even in the absence of GSH. The lack of influence of GSH on the ability of compound 4 to disrupt the interaction between TRAF2 and GSTP1-1 is a relevant feature since GSH levels fluctuate in healthy mammalian organs31,32, in several human tumours3, as well as in the brain of patients affected by neurodegenerative disorders15.",
+                "pl_xpath": "/article/body/sec[4]/p[2]"
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),2547,299)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "More recently we synthesised and characterised compound 3, i.e. the benzoyl ester derivative of the prototypical antitumor NBD derivative 1. Introduction of the bulky benzoyl moiety in the side chain of compound 1 led to a compound endowed with different features, including a remarkable stability towards GSH under physiological conditions17. Unfortunately, compound 3, like several other carboxyl ester linkage-containing compounds, is highly susceptible to hydrolysis catalysed by CES29 (see panels A and C of Figure 7), a feature limiting its availability in biological systems. However, the isosteric replacement of the carboxyl ester linkage of 3 with an amide moiety was successful in improving the stability to metabolic hydrolysis. Indeed, compound 4, the amide analog of 3, was found to be quite stable to human liver microsomal esterases (panel B, Figure 7). Interestingly, the adopted isosteric replacement completely changed the pattern of inhibition of GSTP1-1 catalytic activity; compound 4, like 1, was able to fully abolish the enzymatic activity of GSTP1-1, while compound 3 inhibited enzyme activity no more than 50% (Figure 5). Molecular docking orientations obtained for 3 within the GSTP1-1 active site showed, among the clusters with the most favourable binding energies, a pose in which the benzoyl ring of 3 is placed at the interface between the protein monomers, in close proximity with the side chain of Tyr 4917. It is possible to speculate that this binding mode could account for the half-site inhibition of GSTP1-1 observed in the presence of 3. However, the very similar binding pose and energy found also for 4 suggest a more complex enzyme inhibition mechanism that cannot be inferable from the static picture provided by docking. Nevertheless, compound 4 was still capable of affecting formation of the TRAF2-GSTP1-1 complex even in the absence of GSH (Figure 6). These findings suggest that the presence of the ester oxygen atom is not a structural requisite to interfere with the interaction between TRAF2 and GSTP1-1. The highest affinity poses of 3 and 4 show the terminal benzoyl moiety in close contact with the hydrophobic Phe 8 residue. The steric hindrance of the benzoyl moiety in that position can account very well for the restricted mobility of helix 2 of GSTP1-1, which was demonstrated to be crucial for TRAF2 binding30. Similar poses are found in the high scoring results of docking on the Apo-GST structures, thus explaining the inhibition of TRAF2-GSTP1-1 binding even in the absence of GSH. The lack of influence of GSH on the ability of compound 4 to disrupt the interaction between TRAF2 and GSTP1-1 is a relevant feature since GSH levels fluctuate in healthy mammalian organs31,32, in several human tumours3, as well as in the brain of patients affected by neurodegenerative disorders15.",
+                "pl_xpath": "/article/body/sec[4]/p[2]"
+            },
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),2547,299)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "More recently we synthesised and characterised compound 3, i.e. the benzoyl ester derivative of the prototypical antitumor NBD derivative 1. Introduction of the bulky benzoyl moiety in the side chain of compound 1 led to a compound endowed with different features, including a remarkable stability towards GSH under physiological conditions17. Unfortunately, compound 3, like several other carboxyl ester linkage-containing compounds, is highly susceptible to hydrolysis catalysed by CES29 (see panels A and C of Figure 7), a feature limiting its availability in biological systems. However, the isosteric replacement of the carboxyl ester linkage of 3 with an amide moiety was successful in improving the stability to metabolic hydrolysis. Indeed, compound 4, the amide analog of 3, was found to be quite stable to human liver microsomal esterases (panel B, Figure 7). Interestingly, the adopted isosteric replacement completely changed the pattern of inhibition of GSTP1-1 catalytic activity; compound 4, like 1, was able to fully abolish the enzymatic activity of GSTP1-1, while compound 3 inhibited enzyme activity no more than 50% (Figure 5). Molecular docking orientations obtained for 3 within the GSTP1-1 active site showed, among the clusters with the most favourable binding energies, a pose in which the benzoyl ring of 3 is placed at the interface between the protein monomers, in close proximity with the side chain of Tyr 4917. It is possible to speculate that this binding mode could account for the half-site inhibition of GSTP1-1 observed in the presence of 3. However, the very similar binding pose and energy found also for 4 suggest a more complex enzyme inhibition mechanism that cannot be inferable from the static picture provided by docking. Nevertheless, compound 4 was still capable of affecting formation of the TRAF2-GSTP1-1 complex even in the absence of GSH (Figure 6). These findings suggest that the presence of the ester oxygen atom is not a structural requisite to interfere with the interaction between TRAF2 and GSTP1-1. The highest affinity poses of 3 and 4 show the terminal benzoyl moiety in close contact with the hydrophobic Phe 8 residue. The steric hindrance of the benzoyl moiety in that position can account very well for the restricted mobility of helix 2 of GSTP1-1, which was demonstrated to be crucial for TRAF2 binding30. Similar poses are found in the high scoring results of docking on the Apo-GST structures, thus explaining the inhibition of TRAF2-GSTP1-1 binding even in the absence of GSH. The lack of influence of GSH on the ability of compound 4 to disrupt the interaction between TRAF2 and GSTP1-1 is a relevant feature since GSH levels fluctuate in healthy mammalian organs31,32, in several human tumours3, as well as in the brain of patients affected by neurodegenerative disorders15.",
+                "pl_xpath": "/article/body/sec[4]/p[2]"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),2547,299)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "More recently we synthesised and characterised compound 3, i.e. the benzoyl ester derivative of the prototypical antitumor NBD derivative 1. Introduction of the bulky benzoyl moiety in the side chain of compound 1 led to a compound endowed with different features, including a remarkable stability towards GSH under physiological conditions17. Unfortunately, compound 3, like several other carboxyl ester linkage-containing compounds, is highly susceptible to hydrolysis catalysed by CES29 (see panels A and C of Figure 7), a feature limiting its availability in biological systems. However, the isosteric replacement of the carboxyl ester linkage of 3 with an amide moiety was successful in improving the stability to metabolic hydrolysis. Indeed, compound 4, the amide analog of 3, was found to be quite stable to human liver microsomal esterases (panel B, Figure 7). Interestingly, the adopted isosteric replacement completely changed the pattern of inhibition of GSTP1-1 catalytic activity; compound 4, like 1, was able to fully abolish the enzymatic activity of GSTP1-1, while compound 3 inhibited enzyme activity no more than 50% (Figure 5). Molecular docking orientations obtained for 3 within the GSTP1-1 active site showed, among the clusters with the most favourable binding energies, a pose in which the benzoyl ring of 3 is placed at the interface between the protein monomers, in close proximity with the side chain of Tyr 4917. It is possible to speculate that this binding mode could account for the half-site inhibition of GSTP1-1 observed in the presence of 3. However, the very similar binding pose and energy found also for 4 suggest a more complex enzyme inhibition mechanism that cannot be inferable from the static picture provided by docking. Nevertheless, compound 4 was still capable of affecting formation of the TRAF2-GSTP1-1 complex even in the absence of GSH (Figure 6). These findings suggest that the presence of the ester oxygen atom is not a structural requisite to interfere with the interaction between TRAF2 and GSTP1-1. The highest affinity poses of 3 and 4 show the terminal benzoyl moiety in close contact with the hydrophobic Phe 8 residue. The steric hindrance of the benzoyl moiety in that position can account very well for the restricted mobility of helix 2 of GSTP1-1, which was demonstrated to be crucial for TRAF2 binding30. Similar poses are found in the high scoring results of docking on the Apo-GST structures, thus explaining the inhibition of TRAF2-GSTP1-1 binding even in the absence of GSH. The lack of influence of GSH on the ability of compound 4 to disrupt the interaction between TRAF2 and GSTP1-1 is a relevant feature since GSH levels fluctuate in healthy mammalian organs31,32, in several human tumours3, as well as in the brain of patients affected by neurodegenerative disorders15.",
+                "pl_xpath": "/article/body/sec[4]/p[2]"
+            }
+        ]
+    ]
+}

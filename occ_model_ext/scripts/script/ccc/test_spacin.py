@@ -25,7 +25,7 @@ last_file = None
 s = Stopper(reference_dir)
 try:
     real_dir = default_dir
-
+    supplier_prefix = "070"
     full_reference_dir = reference_dir + real_dir
     full_info_dir = info_dir + real_dir
     for cur_dir, cur_subdir, cur_files in walk(full_reference_dir):
@@ -43,7 +43,7 @@ try:
                             json_object = json.load(fp)
                             crp = CrossrefProcessor(base_iri, context_path, full_info_dir, json_object,
                                                     ResourceFinder(ts_url=triplestore_url, default_dir=default_dir),
-                                                    ORCIDFinder(orcid_conf_path), items_per_file, "", intext_refs=True)
+                                                    ORCIDFinder(orcid_conf_path), items_per_file, supplier_prefix, intext_refs=True)
                             result = crp.process()
                             if result is not None:
                                 # TODO changes in graphlib
@@ -55,7 +55,7 @@ try:
                                                               dir_split=dir_split_number,
                                                               n_file_item=items_per_file,
                                                               default_dir=default_dir),
-                                               dir_split_number, items_per_file, "")
+                                               dir_split_number, items_per_file, supplier_prefix)
                                 prov.generate_provenance()
 
                                 res_storer = Storer(result,

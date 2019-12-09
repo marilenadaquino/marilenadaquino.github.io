@@ -1,0 +1,872 @@
+{
+    "references": [
+        {
+            "bibentry": "Nathan, DM. Long-term complications of diabetes mellitus. N Engl J Med 1993; 328: 1676–85. PMID: 8487827",
+            "process_entry": "True",
+            "doi": "10.1056/nejm199306103282306",
+            "pmid": "8487827",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Santos-Longhurst, A, Krucik, G. Type 2 diabetes statistics and facts. Healthline 2014 Available from: www.healthline.com/health/type-2-diabetes/statistics.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Song, YH, Uddin, Z, Jin, YM, et al. Inhibition of protein tyrosine phosphatase (PTP1B) and α-glucosidase by geranylated flavonoids from Paulownia tomentosa. J Enzyme Inhib Med Chem 2017; 32: 1195–202. PMID: 28933230",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2017.1368502",
+            "pmid": "28933230",
+            "pmcid": "PMC6010085",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Bojarova, P, Kren, V. Glycosidases: a key to tailored carbohydrates. Trends Biotechnol 2009; 27: 199–209. PMID: 19250692",
+            "process_entry": "True",
+            "doi": "10.1016/j.tibtech.2008.12.003",
+            "pmid": "19250692",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Israili, ZH. Advances in the treatment of type 2 diabetes mellitus. Am J Ther 2011; 18: 117–52. PMID: 19834322",
+            "process_entry": "True",
+            "doi": "10.1097/mjt.0b013e3181afbf51",
+            "pmid": "19834322",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Lee, SY, Mohamed, R. The origin and domestication of Aquilaria, an important agarwood-producing genus, Agarwood. Singapore: Springer, 2016;pp. 1–20.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Yang, D-L, Wang, H, Guo, Z-K, et al. A new 2-(2-phenylethyl) chromone derivative in Chinese agarwood ‘Qi-Nan’ from Aquilaria sinensis. J Asian Nat Prod Res 2014; 16: 770–6. PMID: 24646200",
+            "process_entry": "True",
+            "doi": "10.1080/10286020.2014.896342",
+            "pmid": "24646200",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Hashim, YZH-Y, Kerr, PG, Abbas, P, et al. Aquilaria spp. (agarwood) as source of health beneficial compounds: a review of traditional use, phytochemistry and pharmacology. J Ethnopharmacol 2016; 189: 331–60. PMID: 27343768",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2016.06.055",
+            "pmid": "27343768",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Dai, H-F. Research progress of agarwood. Beijing: Science press, 2017.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Li, W, Cai, C-H, Guo, Z-K, et al. Five new eudesmane-type sesquiterpenoids from Chinese agarwood induced by artificial holing. Fitoterapia 2015; 100: 44–9. PMID: 25447164",
+            "process_entry": "True",
+            "doi": "10.1016/j.fitote.2014.11.010",
+            "pmid": "25447164",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Huo, H-X, Zhu, Z-X, Song, Y-L, et al. Anti-inflammatory dimeric 2-(2-phenylethyl) chromones from the resinous wood of Aquilaria sinensis. J Nat Prod 2018; 81: 543–53. PMID: 29227647",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jnatprod.7b00919",
+            "pmid": "29227647",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Liao, G, Mei, W-L, Dong, W-H, et al. 2-(2-Phenylethyl) chromone derivatives in artificial agarwood from Aquilaria sinensis. Fitoterapia 2016; 110: 38–43. PMID: 26784520",
+            "process_entry": "True",
+            "doi": "10.1016/j.fitote.2016.01.011",
+            "pmid": "26784520",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Yang, D-L, Mei, W-L, Zeng, Y-B, et al. 2-(2-phenylethyl)chromone derivatives in Chinese agarwood “Qi-Nan” from Aquilaria sinensis. Planta Med 2013; 79: 141329–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Yang, L, Qiao, L, Xie, D, et al. 2-(2-phenylethyl)chromones from Chinese eaglewood. Phytochemistry 2012; 76: 92–7. PMID: 22243963",
+            "process_entry": "True",
+            "doi": "10.1016/j.phytochem.2011.11.017",
+            "pmid": "22243963",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Yang, L, Qiao, L, Ji, C, et al. Antidepressant abietane diterpenoids from Chinese eaglewood. J Nat Prod 2013; 76: 216–22. PMID: 23394318",
+            "process_entry": "True",
+            "doi": "10.1021/np3006925",
+            "pmid": "23394318",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kim, JH, Cho, IS, So, YK, et al. Kushenol A and 8-prenylkaempferol, tyrosinase inhibitors, derived from Sophora flavescens. J Enzyme Inhib Med Chem 2018; 33: 1048–54. PMID: 29873272",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1477776",
+            "pmid": "29873272",
+            "pmcid": "PMC6009905",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Chang, TS. An updated review of tyrosinase inhibitors. Int J Mol Sci 2009; 10: 2440–75. PMID: 19582213",
+            "process_entry": "True",
+            "doi": "10.3390/ijms10062440",
+            "pmid": "19582213",
+            "pmcid": "PMC2705500",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Şöhretoğlu, D, Sari, S, Barut, B, et al. Tyrosinase inhibition by some flavonoids: inhibitory activity, mechanism by in vitro and in silico studies. Bioorg Chem 2018; 81: 168–74. PMID: 30130649",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2018.08.020",
+            "pmid": "30130649",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Olivares, C, Solano, F. New insights into the active site structure and catalytic mechanism of tyrosinase and its related proteins. Pigment Cell Melanoma Res 2009; 22: 750–60. PMID: 19735457",
+            "process_entry": "True",
+            "doi": "10.1111/j.1755-148x.2009.00636.x",
+            "pmid": "19735457",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Mcevily, JA, Iyengar, R, Otwell, WS. Inhibition of enzymatic browning in foods and beverages. Crit Rev Food Sci Nutr 1992; 32: 253–73. PMID: 1418602",
+            "process_entry": "True",
+            "doi": "10.1080/10408399209527599",
+            "pmid": "1418602",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Guerrero, A, Rosell, G. Biorational approaches for insect control by enzymatic inhibition. Curr Med Chem 2005; 12: 461–9. PMID: 15720254",
+            "process_entry": "True",
+            "doi": "10.2174/0929867053363126",
+            "pmid": "15720254",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Gorman, MJ, An, C, Kanost, MR. Characterization of tyrosine hydroxylase from Manduca sexta. Insect Biochem Mol Biol 2007; 37: 1327–37. PMID: 17967351",
+            "process_entry": "True",
+            "doi": "10.1016/j.ibmb.2007.08.006",
+            "pmid": "17967351",
+            "pmcid": "PMC2104791",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Xu, Y, Stokes, AH, Freeman, WM, et al. Tyrosinase mRNA is expressed in human substantia nigra. Mol Brain Res 1997; 1: 4559–162.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Liu, Q-B, Cheng, Z-Y, Yan, Z-Y, et al. Prunus tomentosa seed waste as a source of aromatic glycosides: valuable phytochemicals with α-glucosidase inhibitory and hepatoprotective properties. Ind Crops Prod 2018; 111: 590–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Si, Y-X, Ji, S, Fang, N-Y, et al. Effects of piperonylic acid on tyrosinase: mixed-type inhibition kinetics and computational simulations. Process Biochem 2013; 48: 111706–14.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Morris, GM, Goodsell, DS, Halliday, RS, et al. Automated docking using a Lamarckian genetic algorithm and an empirical binding free energy function. J Comput Chem 1998; 19: 1639–62.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Huey, R, Morris, GM, Olson, AJ, et al. A semiempirical free energy force field with charge-based desolvation. J Comput Chem 2007; 28: 1145–52. PMID: 17274016",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.20634",
+            "pmid": "17274016",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Nakanishi, T, Yamagata, E, Yoneda, K, et al. Jinkoh-eremol and jinkohol II, two new sesquiterpene alcohols from agarwood. J Chem Soc Perkin Trans 1983; 1: 601–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Nakanishi, T, Yamagata, E, Yoneda, K, et al. Jinkohol, a prezizane sesquiterpene alcohol from agarwood. Phytochemistry 1981; 20: 1597–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Sharma, MK, Banwell, MG, Willis, AC. Generation of (+)‐prezizanol, (+)‐prezizaene, and the ent‐β‐isopipitzol framework via cationic rearrangement of khusiol and related compounds. Asian J Org Chem 2014; 3: 5632–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Komae, H, Nigam, IC. Essential oils and their constituents. XXXIX. Structures of khusenic acid and isokhusenic acid, two sesquiterpenic constituents of oil of vetiver. J Org Chem 1968; 33: 1771–3.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Raharivelomanana, P, Bianchini, JP, Faure, RA, et al. Jinkoholic acid, a prezizane sesquiterpene from Neocallitropsis pancheri. Phytochemistry 1994; 35: 1059–60.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Shao, H, Mei, W-L, Li, W, et al. Chemical constituents of agarwood originating from Gyrinops salicifolia. Nat Prod Res Dev 2015; 27: 2046–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Shao, H, Mei, W-L, Dong, W-H, et al. 2-(2-Phenylethyl) chromone derivatives of agarwood originating from Gyrinops salicifolia. Molecules 2016; 21: 1313.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Yagura, T, Ito, M, Kiuchi, F, et al. Four new 2-(2-phenylethyl)chromone derivatives from withered wood of Aquilaria sinensis. Chem Pharm Bull 2003; 51: 560–4. PMID: 12736456",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.51.560",
+            "pmid": "12736456",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Huo, H-X, Gu, Y-F, Sun, H, et al. Anti-inflammatory 2-(2-phenylethyl) chromone derivatives from Chinese agarwood. Fitoterapia 2017; 118: 49–55. PMID: 28237880",
+            "process_entry": "True",
+            "doi": "10.1016/j.fitote.2017.02.009",
+            "pmid": "28237880",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Song, YH, Kim, DW, Curtis-Long, MJ, et al. Cinnamic acid amides from Tribulus terrestris displaying uncompetitive α-glucosidase inhibition. Eur J Med Chem 2016; 114: 201–8. PMID: 26974386",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.02.044",
+            "pmid": "26974386",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Cornish-Bowden, A. Why is uncompetitive inhibition so rare? A possible explanation, with implications for the design of drugs and pesticides. FEBS Lett 1986; 203: 3–6. PMID: 3720956",
+            "process_entry": "True",
+            "doi": "10.1016/0014-5793(86)81424-7",
+            "pmid": "3720956",
+            "xmlid": "CIT0038"
+        }
+    ],
+    "localid": "MED-31010356",
+    "doi": "10.1080/14756366.2019.1576657",
+    "pmid": "10.1080/14756366.2019.1576657",
+    "pmcid": "31010356",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31010356/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),221,128)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),481,277)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),760,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),511,367)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1445,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1445,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1445,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1445,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1632,250)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1632,250)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1632,250)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1632,250)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1632,250)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "As a precious traditional Chinese medicine, agarwood has been used for the treatment of joint pain, inflammatory related dailments, and diarrhoea, as well as a stimulant, sedative, and cardioprotective agent6–8. It is also popular as an incense for cultural and religious ceremonies and its essential oil is further processed into perfume in cosmetics. Previous chemical studies revealed that sesquiterpenoids and 2-(2-phenylethyl)chromone derivatives are the two principal and aroma components in agarwood. To date, over 130 sesquiterpenoids and 120 2-(2-phenylethyl)chromone derivatives have been isolated from agarwood9 and many of them exhibited various pharmacological properties including antibacterial10, anti-inflammatory11, α-glucosidase inhibitory12, acetylcholinesterase inhibitory13, cytotoxic12, neuroprotective14, and antidepressant activities15. As part of our long-term project to chemically and biologically characterize chemical constituents from agarwood, the ethyl ether extract of agarwood from an Aquilaria plant was found to potently inhibit α-glucosidase. Then, a phytochemical investigation on the agarwood of an Aquilaria plant was performed and 10 α-glucosidase inhibitory sesquiterpenoids including 6 new sesquiterpenoids, Agarozizanol A − F (1−6), together with 4 known sesquiterpenoids (Figure 1) were isolated and identified. Additionally, 6 known 2-(2-phenylethyl)chromones were also obtained. 2-(2-Phenylethyl)chromones are structurally similar to the flavones except for presence of additional ethyl group and many flavones show intriguing tyrosinase inhibitory activity16–18. Tyrosinase, a rate-limiting enzyme for the melanin biosynthesis, involves in pigmentation of skin19, browning in fresh vegetables and fruits20, cuticle formation in insects21,22, and neurodegeneration associated with Parkinson’s disease23. Hence, tyrosinase inhibitors have broad application in medicines, food preservatives, bio-insecticides, and cosmetic products. Inspired by this, All the 2-(2-phenylethyl)chromones were assayed for their tyrosinase inhibitory activity. Moreover, the inhibition mechanism were investigated. Herein, we report the isolation, structure elucidation, α-glucosidase and tyrosinase inhibitory activities, as well as kinetic and molecular docking studies of these compounds.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[11]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[11]/p),1,189)",
+                "containers_title": [
+                    "Materials and methods",
+                    "α-Glucosidase inhibitory assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[12]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[12]/p),1,203)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Tyrosinase inhibitory assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[13]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[13]/p),497,226)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Kinetic analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[14]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[14]/p),224,219)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),574,130)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),380,120)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[5]),734,116)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[6]),625,104)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[7]),241,203)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),1,670)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structure elucidation"
+                ],
+                "pl_string": "By comparing their experimental spectroscopic data with reported data in the literature, the known compounds were identified as Jinkohol I (7)29, Jinkohol II (8)28, Jinkoholic acid (9)32, isokhusenol (10)31, 6-hydroxy-2-[2-(3-methoxy-4-hydroxyphenyl)ethyl]chromone (11)33, 6-methoxy-7-hydroxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (12)34, 6-hydroxy-7-methoxy-2-[2-(3-hydroxy-4-methoxyphenyl)ethyl]chromone (13)14, 6,8-dihydroxy-2-[2-(4-methoxyphenyl)ethyl]chromone (14)12, 8-chloro-2–(2-phenylethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (15)35, 8-chloro-2–(2-(4-methoxyphenyl)ethyl)-5,6,7-trihydroxy-5,6,7,8-tetrahydrochromone (16)36.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[9]"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[2]),154,244)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Bioactivity assays, kinetic analysis, and molecular docking simulations",
+                    "α-Glucosidase inhibitory activity assay, kinetic analysis, and molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),307,229)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Bioactivity assays, kinetic analysis, and molecular docking simulations",
+                    "α-Glucosidase inhibitory activity assay, kinetic analysis, and molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),1,241)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Bioactivity assays, kinetic analysis, and molecular docking simulations",
+                    "Tyrosinase inhibitory actvity assay, kinetic analysis, and molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),594,182)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1130,165)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ]
+    ]
+}

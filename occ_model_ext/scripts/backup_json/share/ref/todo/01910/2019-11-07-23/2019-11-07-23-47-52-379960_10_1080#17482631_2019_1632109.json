@@ -1,0 +1,703 @@
+{
+    "references": [
+        {
+            "bibentry": "Adeyi, O. O,, Baris, E,, Jonas, O. B,, Irwin, A,, Berthe, F. C. J,, Le Gall, F. G, …, Shriber, D. E. (2017). Drug-resistant infections: A threat to our economic future. Washington, DC: World Bank Group.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Allegranzi, B,, Bischoff, P,, de Jonge, S,, Kubilay, N. Z,, Zayed, B,, Gomes, S. M, …, Boermeester, M. A. (2016). New WHO recommendations on preoperative measures for surgical site infection prevention: An evidence-based global perspective. The Lancet Infectious Diseases, 16(12), 276–7. PMID: 26973303",
+            "process_entry": "True",
+            "doi": "10.1016/S1473-3099(16)00050-5",
+            "pmid": "26973303",
+            "pmcid": "PMC4817838",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Allegranzi, B, Zayed, B, Bischoff, P, Kubilay, N. Z, de Jonge, S, de Vries, F, &, Abbas, M. (2016). New who recommendations on intraoperative and postoperative measures for surgical site infection prevention: an evidence-based global perspective. The Lancet Infectious Diseases, 16(12), 288–303. PMID: 26842777",
+            "process_entry": "True",
+            "doi": "10.1016/s1473-3099(16)00057-8",
+            "pmid": "26842777",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Andersson, A. E,, Bergh, I,, Karlsson, J, &, Nilsson, K. (2010). Patients’ experiences of acquiring a deep surgical site infection: An interview study. American Journal of Infection Control, 38(9), 711–717. PMID: 21034980",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajic.2010.03.017",
+            "pmid": "21034980",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Arora, S,, Sevdalis, N,, Nestel, D,, Woloshynowych, M,, Darzi, A, &, Kneebone, R. (2010). The impact of stress on surgical performance: A systematic review of the literature. Surgery, 147(3), 318–330. PMID: 20004924",
+            "process_entry": "True",
+            "doi": "10.1016/j.surg.2009.10.007",
+            "pmid": "20004924",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Bathish, M,, McLaughlin, M, &, Talsma, A. (2015). Relationship between operating room nursing staff expertise and patient outcomes. Journal of Nursing Care Quality, 30(2), 167–174. PMID: 25426650",
+            "process_entry": "True",
+            "doi": "10.1097/ncq.0000000000000092",
+            "pmid": "25426650",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Carney, B. T,, West, P,, Neily, J,, Mills, P. D, &, Bagian, J. P. (2010). Differences in nurse and surgeon perceptions of teamwork: Implications for use of a briefing checklist in the OR. AORN Journal, 91(6), 722–729. PMID: 20510945",
+            "process_entry": "True",
+            "doi": "10.1016/j.aorn.2009.11.066",
+            "pmid": "20510945",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Cvetic, E. (2011). Communication in the perioperative setting. AORN Journal, 94(3), 261–270. PMID: 21884846",
+            "process_entry": "True",
+            "doi": "10.1016/j.aorn.2011.01.017",
+            "pmid": "21884846",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Dahlberg, H, &, Dahlberg, K. (2019). The question of meaning—A momentous issue for qualitative research. International Journal of Qualitative Studies on Health and Well-Being, 14(1), 1598723. PMID: 30957670",
+            "process_entry": "True",
+            "doi": "10.1080/17482631.2019.1598723",
+            "pmid": "30957670",
+            "pmcid": "PMC6461075",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Dahlberg, K,, Dahlberg, H, &, Nyström, M. (2008). Reflective lifeworld research (2nd ed.). Lund: Studentlitteratur.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Gillespie, B. M,, Harbeck, E. B,, Falk-Brynhildsen, K,, Nilsson, U, &, Jaensson, M. (2018). Perceptions of perioperative nursing competence: A cross-country comparison. BMC Nursing, 17(1), 12. PMID: 29632435",
+            "process_entry": "True",
+            "doi": "10.1186/s12912-018-0284-0",
+            "pmid": "29632435",
+            "pmcid": "PMC5883597",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Gillespie, B. M, &, Pearson, E. (2013). Perceptions of self-competence in theatre nurses and operating department practitioners. ACORN: the Journal of Perioperative Nursing in Australia, 26(1), 29–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Harrington, P. (2014). Prevention of surgical site infection. Nursing Standard, 28(48), 50–58.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Koek, M. B. G,, Hopmans, T. E. M,, Soetens, L. C,, Wille, J. C,, Geerlings, S. E,, Vos, M. C, …, Sherman, J. H. (2017). Adhering to a national surgical care bundle reduces the risk of surgical site infections. PLoS ONE, 12(9), e0184200. PMID: 28877223",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0184200",
+            "pmid": "28877223",
+            "pmcid": "PMC5587118",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Kuy, S, &, Romero, R. A. L. (2017). Improving staff perception of a safety climate with crew resource management training. Journal of Surgical Research, 213, 177–183. PMID: 28601312",
+            "process_entry": "True",
+            "doi": "10.1016/j.jss.2016.04.013",
+            "pmid": "28601312",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Lambrecht, A. (2008). World Health Organization -Safe surgery saves lives initiative. International Journal of Health Care Quality Assurance, 21(7) https://doi.org/10 1108/ijhcqa.2008.06221gab.001.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Laxminarayan, R,, Duse, A,, Wattal, C,, Zaidi, A. K. M,, Wertheim, H. F. L,, Sumpradit, N, …, Cars, O. (2013). Antibiotic resistance—The need for global solutions. The Lancet Infectious Diseases, 13(12), 1057–1098. PMID: 24252483",
+            "process_entry": "True",
+            "doi": "10.1016/s1473-3099(13)70318-9",
+            "pmid": "24252483",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Leaper, D. J,, Tanner, J,, Kiernan, M,, Assadian, O, &, Edmiston, C. E. (2015). Surgical site infection: Poor compliance with guidelines and care bundles. International Wound Journal, 12(3), 357–362. PMID: 24612792",
+            "process_entry": "True",
+            "doi": "10.1111/iwj.12243",
+            "pmid": "24612792",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Liu, Z,, Dumville, J. C,, Norman, G,, Westby, M. J,, Blazeby, J,, McFarlane, E, …, Cheng, H-Y. (2018). Intraoperative interventions for preventing surgical site infection: An overview of Cochrane reviews. Cochrane Database of Systematic Reviews, (2).",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "McDonald, R,, Waring, J,, Harrison, S,, Walshe, K, &, Boaden, R. (2005). Rules and guidelines in clinical practice: A qualitative study in operating theatres of doctors’ and nurses’ views. Quality and Safety in Health Care, 14(4), 290. PMID: 16076795",
+            "process_entry": "True",
+            "doi": "10.1136/qshc.2005.013912",
+            "pmid": "16076795",
+            "pmcid": "PMC1744048",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Mellin-Olsen, J,, McDougall, R. J, &, Cheng, D. (2017). WHO Guidelines to prevent surgical site infections. The Lancet Infectious Diseases, 17(3), 260–261.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Meretoja, R, &, Koponen, L. (2012). A systematic model to compare nurses’ optimal and actual competencies in the clinical setting. Journal of Advanced Nursing, 68(2), 414–422. PMID: 21722169",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2648.2011.05754.x",
+            "pmid": "21722169",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Mitchell, L,, Flin, R,, Yule, S,, Mitchell, J,, Coutts, K, &, Youngson, G. (2011). Thinking ahead of the surgeon. An interview study to identify scrub nurses’ non-technical skills. International Journal of Nursing Studies, 48(7), 818–828. PMID: 21190685",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijnurstu.2010.11.005",
+            "pmid": "21190685",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Mockford, K, &, O’Grady, H. (2017). Prevention of surgical site infections. Surgery (Oxford), 35(9), 495–499.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Molina, G,, Jiang, W,, Edmondson, L,, Gibbons, L,, Huang, L. C,, Kiang, M. V, …, Singer, S. J. (2016). Implementation of the surgical safety checklist in South Carolina hospitals is associated with improvement in perceived perioperative safety. Journal of the American College of Surgeons, 222(5), 725–736. PMID: 27049781",
+            "process_entry": "True",
+            "doi": "10.1016/j.jamcollsurg.2015.12.052",
+            "pmid": "27049781",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Nordström, A and Wihlborg, M (2019). A Phenomenographic Study of Swedish Nurse Anasthetists´and OR Nurses´Work Experiences AORN J, 109:217–226 doi: DOI: 10.1002/aorn.12582",
+            "process_entry": "True",
+            "doi": "10.1002/aorn.12582",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Özdemir-van Brunschot, D. M. D,, Warlé, M. C,, van der Jagt, M. F,, Grutters, J. P. C,, van Horne, S. B. C. E,, Kloke, H. J, …, d’Ancona, F. C. (2015). Surgical team composition has a major impact on effectiveness and costs in laparoscopic donor nephrectomy. World Journal of Urology, 33(5), 733–741. PMID: 25362559",
+            "process_entry": "True",
+            "doi": "10.1007/s00345-014-1428-9",
+            "pmid": "25362559",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Pugel, A. E,, Simianu, V. V,, Flum, D. R, &, Patchen Dellinger, E. (2015). Use of the surgical safety checklist to improve communication and reduce complications. Journal of Infection and Public Health, 8(3), 219–225. PMID: 25731674",
+            "process_entry": "True",
+            "doi": "10.1016/j.jiph.2015.01.001",
+            "pmid": "25731674",
+            "pmcid": "PMC4417373",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Rydenfält, C,, Johansson, G,, Larsson, P. A,, Åkerman, K, &, Odenrick, P. (2012). Social structures in the operating theatre: How contradicting rationalities and trust affect work. Journal of Advanced Nursing, 68(4), 783–795. PMID: 21777271",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2648.2011.05779.x",
+            "pmid": "21777271",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Sevdalis, N,, Hull, L, &, Birnbach, D. J. (2012). Improving patient safety in the operating theatre and perioperative care: Obstacles, interventions, and priorities for accelerating progress. BJA: British Journal of Anaesthesia, 109, i3–i16. PMID: 23242749",
+            "process_entry": "True",
+            "doi": "10.1093/bja/aes391",
+            "pmid": "23242749",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Silén‐Lipponen, M,, Tossavainen, K,, Turunen, H, &, Smith, A. (2005). Potential errors and their prevention in operating room teamwork as experienced by Finnish, British and American nurses. International Journal of Nursing Practice, 11(1), 21–32. PMID: 15610341",
+            "process_entry": "True",
+            "doi": "10.1111/j.1440-172x.2005.00494.x",
+            "pmid": "15610341",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Sonoda, Y,, Onozuka, D, &, Hagihara, A. (2018). Factors related to teamwork performance and stress of operating room nurses. Journal of Nursing Management, 26(1), 66–73. PMID: 28744975",
+            "process_entry": "True",
+            "doi": "10.1111/jonm.12522",
+            "pmid": "28744975",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Nordström, A and Wihlborg, M (2019) A Phenomenographic Study of Swedish Nurse Anasthetists´and OR Nurses´Work Experiences AORN J, 109:217-226 doi: DOI: 10.1002/aorn.12582.",
+            "process_entry": "True",
+            "doi": "10.1002/aorn.12582.",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Webster, J, & Osborne, S. (2015) Preoperative bathing or showering with skin antiseptics to prevent surgical site infection. Cochrane Database of Systematic Reviews, (2).",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "World Medical Association (2013). World Medical Association declaration of Helsinki: Ethical principles for medical research involving human subjects. JAMA, 310(20), 2191–2194. PMID: 24141714",
+            "process_entry": "True",
+            "doi": "10.1001/jama.2013.281053",
+            "pmid": "24141714",
+            "xmlid": "CIT0035"
+        }
+    ],
+    "localid": "MED-31256748",
+    "doi": "10.1080/17482631.2019.1632109",
+    "pmid": "10.1080/17482631.2019.1632109",
+    "pmcid": "31256748",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31256748/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0004",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),107,155)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),263,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0013",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),130,94)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0024",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),225,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0017",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),362,135)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0001",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),593,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0019",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),157,231)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0018",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),453,140)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0021",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),273,172)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0016",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),446,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0028",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),594,193)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),788,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0003",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0026",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),418,131)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0023",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),121,310)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0012",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),432,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0010",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),263,191)",
+                "containers_title": [
+                    "Material and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0010",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),846,150)",
+                "containers_title": [
+                    "Material and methods",
+                    "Data analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0035",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),98,119)",
+                "containers_title": [
+                    "Material and methods",
+                    "Ethical considerations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),654,168)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0032",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),891,118)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0005",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1010,120)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0032",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1365,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),145,332)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0014",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),760,136)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0022",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),897,172)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0011",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1070,155)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),344,178)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0015",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),819,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0008",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),963,87)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0006",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1183,113)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0022",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1297,161)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0025",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1623,156)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0031",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1780,168)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0029",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1949,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0030",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,189)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0009",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/sec/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p),567,189)",
+                "containers_title": [
+                    "Discussion",
+                    "Methodological considerations"
+                ]
+            }
+        ]
+    ]
+}

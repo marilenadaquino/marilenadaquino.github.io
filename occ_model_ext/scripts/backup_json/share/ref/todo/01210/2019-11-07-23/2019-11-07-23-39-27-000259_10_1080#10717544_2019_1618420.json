@@ -1,0 +1,774 @@
+{
+    "references": [
+        {
+            "bibentry": "Amar, MJA, Wilissa, DS, Scott, T, et al. (2010). 5A apolipoprotein mimetic peptide promotes cholesterol efflux and reduces atherosclerosis in mice. J Pharmacol Exp Therap 334: 634–41. PMID: 20484557",
+            "process_entry": "True",
+            "doi": "10.1124/jpet.110.167890",
+            "pmid": "20484557",
+            "pmcid": "PMC2913774",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Cánovas, B, Igea, A, Sartori, AA, et al. (2018). Targeting p38α increases DNA damage, chromosome instability, and the anti-tumoral response to taxanes in breast cancer cells. Cancer Cell 33: 1094–110. PMID: 29805078",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccell.2018.04.010",
+            "pmid": "29805078",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cai, Z, Zhang, H, Wei, Y, Cong, F (2017). Hyaluronan-inorganic nanohybrid materials for biomedical applications. Biomacromolecules 18: 1677–96. PMID: 28485601",
+            "process_entry": "True",
+            "doi": "10.1021/acs.biomac.7b00424",
+            "pmid": "28485601",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Chang, XL, Liu, L, Wang, N, et al. (2017). The function of HDL and LDL in the maintenance of mouse ovarian steroid balance. Biol Reprod 97: 1–8. PMID: 28859289",
+            "process_entry": "True",
+            "doi": "10.1093/biolre/iox091",
+            "pmid": "28859289",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Cho, E, Jung, S (2018). Biotinylated cyclooligosaccharides for paclitaxel solubilization. Molecules 23: 90.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "David, SR, Katharina, K, Andrea, P, et al. (2015). The HDL receptor SR-BI is associated with human prostate cancer progression and plays a possible role in establishing androgen independence. Reprod Biol Endocrinol 13: 88. PMID: 26251134",
+            "process_entry": "True",
+            "doi": "10.1186/s12958-015-0087-z",
+            "pmid": "26251134",
+            "pmcid": "PMC4528807",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Deng, H, Zhang, Z (2018). The application of nanotechnology in immune checkpoint blockade for cancer treatment. J Control Release 290: 28–45. PMID: 30287266",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2018.09.026",
+            "pmid": "30287266",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Dong, Z, Yang, J, Guan, J, et al. (2018). In vivo tailor-made protein corona of prodrug-based nanoassembly fabricated by redox dual-sensitive paclitaxel prodrug for the superselective treatment of breast cancer. Biomater Sci 6: 2360–74. PMID: 30019051",
+            "process_entry": "True",
+            "doi": "10.1039/c8bm00548f",
+            "pmid": "30019051",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Feliu, N, Docter, D, Heine, M, et al. (2016). In vivo degeneration and the fate of inorganic nanoparticles. Chem Soc Rev 45: 2440–57. PMID: 26862602",
+            "process_entry": "True",
+            "doi": "10.1039/c5cs00699f",
+            "pmid": "26862602",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Gu, Q, Xing, JZ, Huang, M, et al. (2013). Nanoformulation of paclitaxel to enhance cancer therapy. J Biomater Appl 28: 298–307. PMID: 22561979",
+            "process_entry": "True",
+            "doi": "10.1177/0885328212446822",
+            "pmid": "22561979",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Henderson, CM, Vaisar, T, Hoofnagle, AN (2016). Isolating and quantifying plasma HDL proteins by sequential density gradient ultracentrifugation and targeted proteomics. Methods Mol Biol 1410: 105–20. PMID: 26867741",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4939-3524-6_7",
+            "pmid": "26867741",
+            "pmcid": "PMC5501989",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hugo, D, Anne, B, Magda, T, et al. (2018). Ice induction in DSC experiments with Snomax®. Thermochimica Acta 667: 193–206.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Jie, T, Rui, K, Yuan, W, et al. (2017). Effect of size and pegylation of liposomes and peptide-based synthetic lipoproteins on tumor targeting. Nanomed Nanotechnol Biol Med 13: 1869.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Johnson, R, Sabnis, N, Sun, X, et al. (2017). SR-B1-targeted nanodelivery of anti-cancer agents: a promising new approach to treat triple-negative breast cancer. Breast Cancer (Dove Med Press) 9: 383–92. PMID: 28670138",
+            "process_entry": "True",
+            "doi": "10.2147/BCTT.S131038",
+            "pmid": "28670138",
+            "pmcid": "PMC5479299",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Joshi, N, Shirsath, N, Singh, A, et al. (2014). Endogenous lung surfactant inspired pH responsive nanovesicle aerosols: pulmonary compatible and site-specific drug delivery in lung metastases. Sci Rep 4: 7085. PMID: 25403950",
+            "process_entry": "True",
+            "doi": "10.1038/srep07085",
+            "pmid": "25403950",
+            "pmcid": "PMC4235800",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kuai, R, Li, D, Chen, YE, et al. (2016). High-density lipoproteins (HDL) -Nature's multi-functional nanoparticles. ACS Nano 10: 3015–41. PMID: 26889958",
+            "process_entry": "True",
+            "doi": "10.1021/acsnano.5b07522",
+            "pmid": "26889958",
+            "pmcid": "PMC4918468",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Lee, H, Fonge, H, Hoang, B, et al. (2010). The effects of particle size and molecular targeting on the intratumoral and subcellular distribution of polymeric nanoparticles. Mol Pharm 7: 1195–208. PMID: 20476759",
+            "process_entry": "True",
+            "doi": "10.1021/mp100038h",
+            "pmid": "20476759",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Li, W, Peng, J, Yang, Q, et al. (2018). α-Lipoic acid stabilized DTX/IR780 micelles for photoacoustic/fluorescence imaging guided photothermal therapy/chemotherapy of breast cancer. Biomater Sci 6: 1201–16. PMID: 29578215",
+            "process_entry": "True",
+            "doi": "10.1039/c8bm00096d",
+            "pmid": "29578215",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Li, X, Tang, H, Wang, J, et al. (2017). The effect of preoperative serum triglycerides and high-density lipoprotein-cholesterol levels on the prognosis of breast cancer. Breast 32: 1–6. PMID: 27939967",
+            "process_entry": "True",
+            "doi": "10.1016/j.breast.2016.11.024",
+            "pmid": "27939967",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Lv, Y, Xu, C, Zhao, X, et al. (2018). Nanoplatform assembled from a CD44-targeted prodrug and smart liposomes for dual targeting of tumor microenvironment and cancer cells. ACS Nano 12: 1519–36. PMID: 29350904",
+            "process_entry": "True",
+            "doi": "10.1021/acsnano.7b08051",
+            "pmid": "29350904",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Masayuki, Y (2014). Polymeric micelles as drug carriers: their lights and shadows. J Drug Target 22: 576–83. PMID: 25012065",
+            "process_entry": "True",
+            "doi": "10.3109/1061186x.2014.934688",
+            "pmid": "25012065",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Mathilde, T, Philippine, F, Mathilde, H, et al. (2015). Cholesterol and breast cancer risk: a systematic review and meta-analysis of prospective studies. Br J Nutr 114: 347–57. PMID: 26173770",
+            "process_entry": "True",
+            "doi": "10.1017/s000711451500183x",
+            "pmid": "26173770",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Reza, M, Sukhdeep, J, Ern, LS, et al. (2018). Recent advances in applying nanotechnologies for cancer immunotherapy. J Control Release 288: 239–63. PMID: 30223043",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2018.09.010",
+            "pmid": "30223043",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Rink, JS, Sun, W, Misener, S, et al. (2018). Nitric oxide-delivering high-density lipoprotein-like nanoparticles as a biomimetic nanotherapy for vascular diseases. ACS Appl Mater Interfaces 10: 6904–16. PMID: 29385802",
+            "process_entry": "True",
+            "doi": "10.1021/acsami.7b18525",
+            "pmid": "29385802",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Rui, K, Ochyl, LJ, Bahjat, KS, et al. (2017). Designer vaccine nanodiscs for personalized cancer immunotherapy. Nature Mater 16: 489–96. PMID: 28024156",
+            "process_entry": "True",
+            "doi": "10.1038/nmat4822",
+            "pmid": "28024156",
+            "pmcid": "PMC5374005",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Shah, VM, Nguyen, DX, Alfatease, A, et al. (2017). Characterization of pegylated and non-pegylated liposomal formulation for the delivery of hypoxia activated vinblastine-N-oxide for the treatment of solid tumors. J Control Release 253: 37–45. PMID: 28302582",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2017.03.022",
+            "pmid": "28302582",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Shuo, Y, Damiano, MG, Heng, Z, et al. (2013). Biomimetic, synthetic HDL nanostructures for lymphoma. Proc Natl Acad Sci USA 110(7): 2511–6. PMID: 23345442",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1213657110",
+            "pmid": "23345442",
+            "pmcid": "PMC3574906",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Song, P, Kwon, Y, Yea, K, et al. (2015). Apolipoprotein a1 increases mitochondrial biogenesis through AMP-activated protein kinase. Cell Signal 27: 1873–81. PMID: 25982508",
+            "process_entry": "True",
+            "doi": "10.1016/j.cellsig.2015.05.003",
+            "pmid": "25982508",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Stoekenbroek, RM, Stroes, ES, Hovingh, GK (2015). ApoA-I mimetics. Handb Exp Pharmacol 224: 631–48. PMID: 25523005",
+            "process_entry": "True",
+            "doi": "10.1007/978-3-319-09665-0_21",
+            "pmid": "25523005",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Uehara, Y, Chiesa, G, Saku, K (2015). High-density lipoprotein-targeted therapy and apolipoprotein A-I mimetic peptides. Circ J 79: 2523–8. PMID: 26548857",
+            "process_entry": "True",
+            "doi": "10.1253/circj.cj-15-0960",
+            "pmid": "26548857",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Wang, C, Cheng, X, Su, Y, et al. (2015). Accelerated blood clearance phenomenon upon cross-administration of PEGylated nanocarriers in beagle dogs. Int J Nanomed 10: 3533–45.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Wang, W, Chen, K, Su, Y, et al. (2018). Lysosome-independent intracellular drug/gene co-delivery by lipoprotein-derived nanovector for synergistic apoptosis-inducing cancer-targeted therapy. Biomacromolecules 19: 438–48. PMID: 29334216",
+            "process_entry": "True",
+            "doi": "10.1021/acs.biomac.7b01549",
+            "pmid": "29334216",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Wen, J, Bao, Y, Niu, Q, et al. (2016). Synthesis, biological evaluation and molecular modeling studies of psammaplin A and its analogs as potent histone deacetylases inhibitors and cytotoxic agents. Bioorg Med Chem Lett 26: 4372–6. PMID: 27460171",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2015.12.094",
+            "pmid": "27460171",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Xianglan, Y, Cuilian, D, Karin, F, et al. (2011). 5A, an apolipoprotein A-I mimetic peptide, attenuates the induction of house dust mite-induced asthma. J Immunol 186: 576. PMID: 21115733",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.1001534",
+            "pmid": "21115733",
+            "pmcid": "PMC3012266",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Yao, Q, Gutierrez, DC, Hoang, NH, et al. (2017). Efficient co-delivery of paclitaxel and curcumin by novel bottlebrush copolymer-based micelles. Mol Pharm 14: 2378–89. PMID: 28605595",
+            "process_entry": "True",
+            "doi": "10.1021/acs.molpharmaceut.7b00278",
+            "pmid": "28605595",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Yuan, Y, Wen, J, Tang, J, et al. (2016). Synthetic high-density lipoproteins for delivery of 10-hydroxycamptothecin. Int J Nanomedicine 11: 6229–38. PMID: 27920529",
+            "process_entry": "True",
+            "doi": "10.2147/IJN.S112835",
+            "pmid": "27920529",
+            "pmcid": "PMC5125756",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Zhang, N, Chen, H, Liu, AY, et al. (2016). Gold conjugate-based liposomes with hybrid cluster bomb structure for liver cancer therapy. Biomaterials 74: 280–91. PMID: 26461120",
+            "process_entry": "True",
+            "doi": "10.1016/j.biomaterials.2015.10.004",
+            "pmid": "26461120",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Zhang, S, Sun, M, Zhao, Y, et al. (2017). Molecular mechanism of polymer-assisting supersaturation of poorly water-soluble loratadine based on experimental observations and molecular dynamic simulations. Drug Deliv Transl Res 7: 1–12. PMID: 27562292",
+            "process_entry": "True",
+            "doi": "10.1007/s13346-016-0323-x",
+            "pmid": "27562292",
+            "pmcid": "PMC5222905",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Zhang, X, He, F, Xiang, K, et al. (2018). CD44-targeted facile enzymatic activatable chitosan nanoparticles for efficient antitumor therapy and reversal of multidrug resistance. Biomacromolecules 19: 883–95. PMID: 29401378",
+            "process_entry": "True",
+            "doi": "10.1021/acs.biomac.7b01676",
+            "pmid": "29401378",
+            "xmlid": "CIT0039"
+        }
+    ],
+    "localid": "MED-31290708",
+    "doi": "10.1080/10717544.2019.1618420",
+    "pmid": "10.1080/10717544.2019.1618420",
+    "pmcid": "31290708",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31290708/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0008",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,139)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),141,187)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cánovas et al.,2018; Li et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),288,38)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0018",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),141,187)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cánovas et al., 2018; Li et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),288,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0005",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),329,194)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0010",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),329,194)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0015",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),329,194)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0039",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),524,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),646,220)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Deng & Zhang,2018; Reza et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),826,38)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0023",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),646,220)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Deng & Zhang, 2018; Reza et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),826,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0020",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0035",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0037",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0021",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),333,108)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Masayuki,2014; Shah et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,34)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0026",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),333,108)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Masayuki, 2014; Shah et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0031",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),442,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0003",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),617,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0009",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),617,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0017",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),816,123)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0030",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0024",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0011",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),179,100)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0025",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),280,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0032",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),519,99)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0013",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),619,262)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0016",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),619,262)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0014",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),882,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0028",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1026,123)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0029",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1150,239)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0001",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1150,239)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0036",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1390,120)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0027",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1511,282)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shuo et al.,2013; David et al., 2015; Chang et al., 2017; Li et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1541,75)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0006",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1511,282)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shuo et al., 2013; David et al.,2015; Chang et al., 2017; Li et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1541,75)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0004",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1511,282)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shuo et al., 2013; David et al., 2015; Chang et al.,2017; Li et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1541,75)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0019",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1511,282)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shuo et al., 2013; David et al., 2015; Chang et al., 2017; Li et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1541,75)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0012",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[2]/p),1,132)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Physicochemical characterization",
+                    "Differential scanning calorimetry (DSC)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0034",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[3]/p),1,194)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Physicochemical characterization",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0033",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[3]/p),317,130)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Physicochemical characterization",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0038",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[3]/p),635,215)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Physicochemical characterization",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0022",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[1]),858,104)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vivo anti-tumor efficacy"
+                ]
+            }
+        ]
+    ]
+}

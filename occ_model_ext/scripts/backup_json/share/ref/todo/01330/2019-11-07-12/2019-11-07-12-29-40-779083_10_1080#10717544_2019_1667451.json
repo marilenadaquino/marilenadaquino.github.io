@@ -1,0 +1,959 @@
+{
+    "references": [
+        {
+            "bibentry": "Adams, CM, Stacy, R, Rangaswamy, N, et al. (2018). Glaucoma –next generation therapeutics: impossible to possible. Pharm Res 36: 25. PMID: 30547244",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-018-2557-4",
+            "pmid": "30547244",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Almeida, H, Amaral, MH, Lobão, P, et al. (2014). In situ gelling systems: a strategy to improve the bioavailability of ophthalmic pharmaceutical formulations. Drug Discov Today 19: 400–12. PMID: 24120893",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis.2013.10.001",
+            "pmid": "24120893",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Barauskas, J, Landh, T (2003). Phase behavior of the phytantriol/water system. Langmuir 19: 9562.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Boyd, BJ, Whittaker, DV, Khoo, SM, et al. (2006). Lyotropic liquid crystalline phases formed from glycerate surfactants as sustained release drug delivery systems. Int J Pharm 309: 218–26. PMID: 16413980",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2005.11.033",
+            "pmid": "16413980",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chou, SF, Luo, LJ, Lai, JY (2016). Gallic acid grafting effect on delivery performance and antiglaucoma efficacy of antioxidant-functionalized intracameral pilocarpine carriers. Acta Biomater 38: 116–28. PMID: 27130273",
+            "process_entry": "True",
+            "doi": "10.1016/j.actbio.2016.04.035",
+            "pmid": "27130273",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Chu, X, Li, Q, Gui, S, et al. (2018). Characterization and in vitro permeation study of cubic liquid crystal containing sinomenine hydrochloride. AAPS PharmSciTech 19: 2237–46. PMID: 29740759",
+            "process_entry": "True",
+            "doi": "10.1208/s12249-018-1018-z",
+            "pmid": "29740759",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Cohen-Avrahami, M, Aserin, A, Garti, N (2010). H II mesophase and peptide cell-penetrating enhancers for improved transdermal delivery of sodium diclofenac. Colloids Surf B Biointerfaces 77: 131–8. PMID: 20189781",
+            "process_entry": "True",
+            "doi": "10.1016/j.colsurfb.2010.01.013",
+            "pmid": "20189781",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Everaert, A, Wouters, Y, Melsbach, E, et al. (2017). Optimisation of HPMC ophthalmic inserts with sustained release properties as a carrier for thermolabile therapeutics. Int J Pharm 528: 395–405. PMID: 28624658",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2017.06.047",
+            "pmid": "28624658",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Fan, J, Liu, F, Wang, Z (2016). Shear rheology and in-vitro release kinetic study of apigenin from lyotropic liquid crystal. Int J Pharm 497: 248–54. PMID: 26657272",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2015.12.008",
+            "pmid": "26657272",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Han, K, Pan, X, Chen, M, et al. (2010). Phytantriol-based inverted type bicontinuous cubic phase for vascular embolization and drug sustained release. Eur J Pharm Sci 41: 692–9. PMID: 20883779",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2010.09.012",
+            "pmid": "20883779",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Hu, C, Sun, J, Zhang, Y, et al. (2018). Local delivery and sustained-release of nitric oxide donor loaded in mesoporous silica particles for efficient treatment of primary open-angle glaucoma. Adv Healthcare Mater 7: e1801047.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Khan, MS, Vishakante, GD, Bathool, A (2013). Development and characterization of pilocarpine loaded Eudragit nanosuspensions for ocular drug delivery. J Biomed Nanotechnol 9: 124–31. PMID: 23627075",
+            "process_entry": "True",
+            "doi": "10.1166/jbn.2013.1475",
+            "pmid": "23627075",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Ki, MH, Lim, JL, Ko, JY, et al. (2014). A new injectable liquid crystal system for one month delivery of leuprolide. J Control Release 185: 62–70. PMID: 24794897",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2014.04.034",
+            "pmid": "24794897",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Kontadakis, GA, Chronopoulou, KG, Tsopouridou, R, et al. (2018). Nepafenac ophthalmic suspension 0.3% for the management of ocular pain after photorefractive keratectomy. J Refract Surg 34: 171–6. PMID: 29522226",
+            "process_entry": "True",
+            "doi": "10.3928/1081597x-20180123-03",
+            "pmid": "29522226",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Krtalić, I, Radošević, S, Hafner, A, et al. (2018). D-optimal design in the development of rheologically improved in situ forming ophthalmic gel. J Pharm Sci 107: 1562–71. PMID: 29421217",
+            "process_entry": "True",
+            "doi": "10.1016/j.xphs.2018.01.019",
+            "pmid": "29421217",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Li, J, Wu, L, Wu, W, et al. (2013). A potential carrier based on liquid crystal nanoparticles for ophthalmic delivery of pilocarpine nitrate. Int J Pharm 455: 75–84. PMID: 23916822",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2013.07.057",
+            "pmid": "23916822",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Libster, D, Aserin, A, Wachtel, E, et al. (2007). An H II liquid crystal-based delivery system for cyclosporin A: physical characterization. J Colloid Interface Sci 308: 514–24. PMID: 17276444",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcis.2006.12.084",
+            "pmid": "17276444",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Liu, D, Lian, Y, Fang, Q, et al. (2018). Hyaluronic-acid-modified lipid-polymer hybrid nanoparticles as an efficient ocular delivery platform for moxifloxacin hydrochloride. Int J Biol Macromol 116: 1026–36. PMID: 29778883",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijbiomac.2018.05.113",
+            "pmid": "29778883",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Mei, L, Huang, X, Xie, Y, et al. (2017). An injectable in situ gel with cubic and hexagonal nanostructures for local treatment of chronic periodontitis. Drug Deliv 24: 1148–58. PMID: 28814112",
+            "process_entry": "True",
+            "doi": "10.1080/10717544.2017.1359703",
+            "pmid": "28814112",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Mishraki, T, Ottaviani, MF, Shames, AI, et al. (2011). Structural effects of insulin-loading into H II mesophases monitored by electron paramagnetic resonance (EPR), small angle X-ray spectroscopy (SAXS), and attenuated total reflection Fourier transform spectroscopy (ATR-FTIR). J Phys Chem B 115: 8054–62. PMID: 21591776",
+            "process_entry": "True",
+            "doi": "10.1021/jp2034455",
+            "pmid": "21591776",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Mishraki-Berkowitz, T, Aserin, A, Garti, N (2017). Structural properties and release of insulin-loaded reverse hexagonal (H II) liquid crystalline mesophase. J Colloid Interface Sci 486: 184–93. PMID: 27701016",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcis.2016.09.074",
+            "pmid": "27701016",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Mokhtari, H, Kharaziha, M, Karimzadeh, F, et al. (2019). An injectable mechanically robust hydrogel of Kappa-carrageenan-dopamine functionalized graphene oxide for promoting cell growth. Carbohydr Polym 214: 234–49. PMID: 30925993",
+            "process_entry": "True",
+            "doi": "10.1016/j.carbpol.2019.03.030",
+            "pmid": "30925993",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Moustafa, MA, El-Refaie, WM, Elnaggar, YSR, et al. (2018). Gel in core carbosomes as novel ophthalmic vehicles with enhanced corneal permeation and residence. Int J Pharm 546: 166–75. PMID: 29778824",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2018.05.040",
+            "pmid": "29778824",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Nagarwal, RC, Kant, S, Singh, PN, et al. (2009). Polymeric nanoparticulate system: a potential approach for ocular drug delivery. J Control Release 136: 2–13. PMID: 19331856",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2008.12.018",
+            "pmid": "19331856",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Patere, S, Newman, B, Wang, Y, et al. (2018). Influence of manufacturing process variables on the properties of ophthalmic ointments of tobramycin. Pharm Res 35: 179–95. PMID: 30046909",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-018-2462-x",
+            "pmid": "30046909",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Rahanyan-Kägi, N, Aleandri, S, Speziale, C, et al. (2015). Stimuli-responsive lipidic cubic phase: triggered release and sequestration of guest molecules. Chemistry 21: 1873–7. PMID: 25512248",
+            "process_entry": "True",
+            "doi": "10.1002/chem.201405580",
+            "pmid": "25512248",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Tan, G, Yu, S, Pan, H, et al. (2017). Bioadhesive chitosan-loaded liposomes: a more efficient and higher permeable ocular delivery platform for timolol maleate. Int J Biol Macromol 94: 355–63. PMID: 27760378",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijbiomac.2016.10.035",
+            "pmid": "27760378",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Tian, S, Li, J, Tao, Q, et al. (2018). Controlled drug delivery for glaucoma therapy using montmorillonite/Eudragit microspheres as an ion-exchange carrier. Int J Nanomedicine 13: 415–28. PMID: 29391798",
+            "process_entry": "True",
+            "doi": "10.2147/IJN.S146346",
+            "pmid": "29391798",
+            "pmcid": "PMC5769559",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Vázquez-González, ML, Bernad, R, Calpena, AC, et al. (2014). Improving ex vivo skin permeation of non-steroidal anti-inflammatory drugs: enhancing extemporaneous transformation of liposomes into planar lipid bilayers. Int J Pharm 461: 427–36. PMID: 24361268",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2013.12.009",
+            "pmid": "24361268",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wan, J, Wang, SM, Gui, ZP, et al. (2018). Phytantriol-based lyotropic liquid crystal as a transdermal delivery system. Eur J Pharm Sci 125: 93–101. PMID: 30268893",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2018.09.018",
+            "pmid": "30268893",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Wang, G, Nie, Q, Zang, C, et al. (2016). Self-assembled thermoresponsive nanogels prepared by reverse micelle → positive micelle method for ophthalmic delivery of muscone, a poorly water-soluble drug. J Pharm Sci 105: 2752–9. PMID: 27041413",
+            "process_entry": "True",
+            "doi": "10.1016/j.xphs.2016.02.014",
+            "pmid": "27041413",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Wang, J, Zhao, F, Liu, R, et al. (2017). Novel cationic lipid nanoparticles as an ophthalmic delivery system for multicomponent drugs: development, characterization, in vitro permeation, in vivo pharmacokinetic, and molecular dynamics studies. Int J Nanomedicine 12: 8115–27. PMID: 29158673",
+            "process_entry": "True",
+            "doi": "10.2147/IJN.S139436",
+            "pmid": "29158673",
+            "pmcid": "PMC5683773",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Yang, Z, Liang, X, Jiang, X, et al. (2018). Development and evaluation of minocycline hydrochloride-loaded in situ cubic liquid crystal for intra-periodontal pocket administration. Molecules 23: 2275–90.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Yu, S, Wang, QM, Wang, X, et al. (2015). Liposome incorporated ion sensitive in situ gels for opthalmic delivery of timolol maleate. Int J Pharm 480: 128–36. PMID: 25615987",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2015.01.032",
+            "pmid": "25615987",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Zeng, Y, Chen, J, Li, Y, et al. (2018). Thermo-sensitive gel in glaucoma therapy for enhanced bioavailability: in vitro characterization, in vivo pharmacokinetics and pharmacodynamics study. Life Sci 212: 80–6. PMID: 30268857",
+            "process_entry": "True",
+            "doi": "10.1016/j.lfs.2018.09.050",
+            "pmid": "30268857",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Zhang, Y, Zhang, K, Guo, T, et al. (2015). Transdermal baicalin delivery using diethylene glycol monoethyl ether-mediated cubic phase gel. Int J Pharm 479: 219–26. PMID: 25543112",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2014.12.055",
+            "pmid": "25543112",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Zhao, R, Li, J, Wang, J, et al. (2017). Development of timolol-loaded galactosylated chitosan nanoparticles and evaluation of their potential for ocular drug delivery. AAPS PharmSciTech 18: 997–1008. PMID: 28101726",
+            "process_entry": "True",
+            "doi": "10.1208/s12249-016-0669-x",
+            "pmid": "28101726",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Zhou, T, Zhu, L, Xia, H, et al. (2017). Micelle carriers based on macrogol 15 hydroxystearate for ocular delivery of terbinafine hydrochloride: in vitro characterization and in vivo permeation. Eur J Pharm Sci 109: 288–96. PMID: 28823856",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2017.08.020",
+            "pmid": "28823856",
+            "xmlid": "CIT0038"
+        }
+    ],
+    "localid": "MED-31544551",
+    "doi": "10.1080/10717544.2019.1667451",
+    "pmid": "10.1080/10717544.2019.1667451",
+    "pmcid": "31544551",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31544551/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),83,243)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Yu et al.,2015; Hu et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),291,33)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0011",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),83,243)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Yu et al., 2015; Hu et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),291,33)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0037",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),470,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhao et al.,2017; Adams et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),563,38)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),470,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhao et al., 2017; Adams et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),563,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0011",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),604,144)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0035",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,161)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0027",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),163,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0028",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0002",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),540,329)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Almeida et al.,2014; Yu et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),829,38)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),540,329)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Almeida et al., 2014; Yu et al.,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),829,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0038",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),870,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),870,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),870,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0025",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),870,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0023",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),870,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0018",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),870,368)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1239,268)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0005",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),102,230)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0024",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),333,209)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0032",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),669,186)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0012",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),856,227)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1084,183)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0031",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1268,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wang et al.,2016; Krtalić et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1478,40)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0015",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1268,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wang et al., 2016; Krtalić et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1478,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),189,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0021",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),514,192)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Mishraki-Berkowitz et al.,2017; Yang et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),653,51)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0033",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),514,192)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Mishraki-Berkowitz et al., 2017; Yang et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),653,51)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0033",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1016,113)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0007",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1130,383)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0030",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1130,383)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0010",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1130,383)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0017",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/p),1,270)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation of LC gels",
+                    "Preparation of PN-loaded H2 gel"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0019",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[1]/p[2]),423,574)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Characterizations of the formulations",
+                    "CPLM and SAXS observation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0029",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,497)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Ex vivo corneal penetration studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),238,182)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Corneal hydration levels"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0031",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/sec[1]/p),1,211)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In vivo animal experiments",
+                    "Pre-ocular resident time evaluation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0003",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),121,111)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0017",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),233,109)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0006",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),343,144)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0006",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),179,110)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CPLM and SAXS analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0013",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),290,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CPLM and SAXS analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0019",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),279,194)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CPLM and SAXS analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0026",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),474,185)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CPLM and SAXS analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0025",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),455,207)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Rheological properties"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0022",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),663,157)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Rheological properties"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0019",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),744,259)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Rheological properties"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0009",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),275,157)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vitro release profile and release kinetics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0036",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),722,218)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Ex vivo corneal permeation and hydration evaluations"
+                ],
+                "pl_string": "(Zhang et al.,2015; Chu et al., 2018; Wan et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),883,55)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0006",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),722,218)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Ex vivo corneal permeation and hydration evaluations"
+                ],
+                "pl_string": "(Zhang et al., 2015; Chu et al.,2018; Wan et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),883,55)"
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0030",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),722,218)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Ex vivo corneal permeation and hydration evaluations"
+                ],
+                "pl_string": "(Zhang et al., 2015; Chu et al., 2018; Wan et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),883,55)"
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0023",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),78,184)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Ex vivo corneal permeation and hydration evaluations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0004",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/sec[2]/p[1]),225,110)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Pharmacodynamics of normal rabbits",
+                    "Reduction IOP effect"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0035",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[9]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[9]/p[3]),471,128)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Antiglaucoma efficacy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0035",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[9]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[9]/p[4]),162,211)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Antiglaucoma efficacy"
+                ]
+            }
+        ]
+    ]
+}

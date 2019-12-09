@@ -1,0 +1,692 @@
+{
+    "references": [
+        {
+            "bibentry": "Fujiwara, K, Shintani, D, Nishikawa, T. Clear-cell carcinoma of the ovary, Ann Oncol, 2016, 27, Suppl 1, i50, i52, PMID: 27141072",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdw086",
+            "pmid": "27141072",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Katanuchi, H. The patient annual report for 2015, Acta Obstet Gynaecol Jpn, 2017, 69, 1171, 1216",
+            "process_entry": "True",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Banks, E. The epidemiology of ovarian cancer, Methods Mol Med, 2001, 39, 3, 11, PMID: 21340753",
+            "process_entry": "True",
+            "doi": "10.1385/1-59259-071-3:3",
+            "pmid": "21340753",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Chan, JK, Teoh, D, Hu, JM, Shin, JY, Osann, K, Kapp, DS. Do clear cell ovarian carcinomas have poorer prognosis compared to other epithelial cell types? A study of 1411 clear cell ovarian cancers, Gynecol Oncol, 2008, 109, 370, 376, PMID: 18395777",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2008.02.006",
+            "pmid": "18395777",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Köbel, M, Kalloger, SE, Huntsman, DG, Santos, JL, Swenerton, KD, Seidman, JD. Differences in tumor type in low-stage versus high-stage ovarian carcinomas, Int J Gynecol Pathol, 2010, 29, 203, 211, PMID: 20407318",
+            "process_entry": "True",
+            "doi": "10.1097/pgp.0b013e3181c042b6",
+            "pmid": "20407318",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Sugiyama, T, Kamura, T, Kigawa, J, Terakawa, N, Kikuchi, Y, Kita, T. Clinical characteristics of clear cell carcinoma of the ovary: a distinct histologic type with poor prognosis and resistance to platinum-based chemotherapy, Cancer, 2000, 88, 2584, 2589, PMID: 10861437",
+            "process_entry": "True",
+            "doi": "10.1002/1097-0142(20000601)88:11<2584::aid-cncr22>3.0.co;2-5",
+            "pmid": "10861437",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Goff, BA, Sainz de la Cuesta, R, Muntz, HG, Fleischhacker, D, Ek, M, Rice, LW. Clear cell carcinoma of the ovary: a distinct histologic type with poor prognosis and resistance to platinum-based chemotherapy in stage III disease, Gynecol Oncol, 1996, 60, 412, 417, PMID: 8774649",
+            "process_entry": "True",
+            "doi": "10.1006/gyno.1996.0065",
+            "pmid": "8774649",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Kajiyama, H, Mizuno, M, Shibata, K, Umezu, T, Suzuki, S, Yamamoto, E. A recurrence-predicting prognostic factor for patients with ovarian clear-cell adenocarcinoma at reproductive age, Int J Clin Oncol, 2014, 19, 921, 927, PMID: 24306200",
+            "process_entry": "True",
+            "doi": "10.1007/s10147-013-0645-3",
+            "pmid": "24306200",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "National Cancer Institute, Cancer stat facts: ovarian cancer [Internet], Bethesda, MD, National Cancer Institute, 2016, cited 2018 Dec 15, Available from, https://seer.cancer.gov/statfacts/html/ovary.html",
+            "process_entry": "True",
+            "url": "https://seer.cancer.gov/statfacts/html/ovary.html",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "ACOG practice bulletin No. 83: management of adnexal masses, Obstet Gynecol, 2007, 110, 201, 214, PMID: 17601923",
+            "process_entry": "True",
+            "doi": "10.1097/01.aog.0000263913.92942.40",
+            "pmid": "17601923",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Ledermann, JA, Raja, FA, Fotopoulou, C, Gonzalez-Martin, A, Colombo, N, Sessa, C. Newly diagnosed and relapsed epithelial ovarian carcinoma: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up, Ann Oncol, 2013, 24, Suppl 6, vi24, vi32, PMID: 24078660",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdt333",
+            "pmid": "24078660",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Takano, M, Kikuchi, Y, Yaegashi, N, Kuzuya, K, Ueki, M, Tsuda, H. Clear cell carcinoma of the ovary: a retrospective multicentre experience of 254 patients with complete surgical staging, Br J Cancer, 2006, 94, 1369, 1374, PMID: 16641903",
+            "process_entry": "True",
+            "doi": "10.1038/sj.bjc.6603116",
+            "pmid": "16641903",
+            "pmcid": "PMC2361284",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Mutch, DG, Prat, J. 2014 FIGO staging for ovarian, fallopian tube and peritoneal cancer, Gynecol Oncol, 2014, 133, 401, 404, PMID: 24878391",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2014.04.013",
+            "pmid": "24878391",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Suzuki, S, Kajiyama, H, Shibata, K, Ino, K, Nawa, A, Sakakibara, K. Is there any association between retroperitoneal lymphadenectomy and survival benefit in ovarian clear cell carcinoma patients, Ann Oncol, 2008, 19, 1284, 1287, PMID: 18356137",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdn059",
+            "pmid": "18356137",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Rosenbaum, PR, Rubin, DB. Reducing bias in observational studies using subclassification on the propensity score, Am J Stat Assoc, 1984, 79, 516, 524",
+            "process_entry": "True",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Yoshihara, M, Uno, K, Tano, S, Mayama, M, Ukai, M, Kondo, S. The efficacy of recombinant human soluble thrombomodulin for obstetric disseminated intravascular coagulation: a retrospective study, Crit Care, 2015, 19, 369, PMID: 26481315",
+            "process_entry": "True",
+            "doi": "10.1186/s13054-015-1086-3",
+            "pmid": "26481315",
+            "pmcid": "PMC4617479",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Rosenbaum, PR, Rubin, DB. Constructing a control group using multivariate matched sampling methods that incorporate the propensity score, Am Stat, 1985, 39, 33, 38",
+            "process_entry": "True",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Xie, J, Liu, C. Adjusted Kaplan-Meier estimator and log-rank test with inverse probability of treatment weighting for survival data, Stat Med, 2005, 24, 3089, 3110, PMID: 16189810",
+            "process_entry": "True",
+            "doi": "10.1002/sim.2174",
+            "pmid": "16189810",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Kim, HS, Ahn, JH, Chung, HH, Kim, JW, Park, NH, Song, YS. Impact of intraoperative rupture of the ovarian capsule on prognosis in patients with early-stage epithelial ovarian cancer: a meta-analysis, Eur J Surg Oncol, 2013, 39, 279, 289, PMID: 23273873",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejso.2012.12.003",
+            "pmid": "23273873",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Leminen, A, Lehtovirta, P. Spread of ovarian cancer after laparoscopic surgery: report of eight cases, Gynecol Oncol, 1999, 75, 387, 390, PMID: 10600294",
+            "process_entry": "True",
+            "doi": "10.1006/gyno.1999.5596",
+            "pmid": "10600294",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "National Comprehensive Cancer Network (US), NCCN clinical practice guideline in oncology. Ovarian cancer including fallopian tube cancer and primary peritoneal cancer, version 1 [Internet], Plymouth Meeting, PA, National Comprehensive Cancer Network, 2017, cited 2017 Jun 22, Available from, https://www.nccn.org/professionals/physician_gls/f_guidelines.asp",
+            "process_entry": "True",
+            "url": "https://www.nccn.org/professionals/physician_gls/f_guidelines.asp",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Park, JY, Suh, DS, Kim, JH, Kim, YM, Kim, YT, Nam, JH. Outcomes of fertility-sparing surgery among young women with FIGO stage I clear cell carcinoma of the ovary, Int J Gynaecol Obstet, 2016, 134, 49, 52, PMID: 27039052",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijgo.2015.10.022",
+            "pmid": "27039052",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Centers for Disease Control and Prevention, American Society for Reproductive Medicine, Society for Assisted Reproductive Technology, 2014 assisted reproductive technology national summary report, Atlanta, GA, US Department of Health and Human Services, 2016",
+            "process_entry": "True",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Kajiyama, H, Shibata, K, Mizuno, M, Hosono, S, Kawai, M, Nagasaka, T. Fertility-sparing surgery in patients with clear-cell carcinoma of the ovary: is it possible, Hum Reprod, 2011, 26, 3297, 3302, PMID: 22016417",
+            "process_entry": "True",
+            "doi": "10.1093/humrep/der342",
+            "pmid": "22016417",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Satoh, T, Hatae, M, Watanabe, Y, Yaegashi, N, Ishiko, O, Kodama, S. Outcomes of fertility-sparing surgery for stage I epithelial ovarian cancer: a proposal for patient selection, J Clin Oncol, 2010, 28, 1727, 1732, PMID: 20194858",
+            "process_entry": "True",
+            "doi": "10.1200/jco.2009.24.8617",
+            "pmid": "20194858",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Nasioudis, D, Chapman-Davis, E, Frey, MK, Witkin, SS, Holcomb, K. Could fertility-sparing surgery be considered for women with early stage ovarian clear cell carcinoma, J Gynecol Oncol, 2017, 28, e71, PMID: 28758377",
+            "process_entry": "True",
+            "doi": "10.3802/jgo.2017.28.e71",
+            "pmid": "28758377",
+            "pmcid": "PMC5641522",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Park, JY. Safety of fertility-sparing surgery for stage I ovarian clear cell carcinoma, J Gynecol Oncol, 2017, 28, e91, PMID: 29027405",
+            "process_entry": "True",
+            "doi": "10.3802/jgo.2017.28.e91",
+            "pmid": "29027405",
+            "pmcid": "PMC5641537",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Komiyama, S, Katabuchi, H, Mikami, M, Nagase, S, Okamoto, A, Ito, K. Japan Society of Gynecologic Oncology guidelines 2015 for the treatment of ovarian cancer including primary peritoneal cancer and fallopian tube cancer, Int J Clin Oncol, 2016, 21, 435, 446, PMID: 27142770",
+            "process_entry": "True",
+            "doi": "10.1007/s10147-016-0985-x",
+            "pmid": "27142770",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "Mizuno, M, Kajiyama, H, Shibata, K, Mizuno, K, Yamamuro, O, Kawai, M. Adjuvant chemotherapy for stage I ovarian clear cell carcinoma: is it necessary for stage IA, Int J Gynecol Cancer, 2012, 22, 1143, 1149, PMID: 22801028",
+            "process_entry": "True",
+            "doi": "10.1097/igc.0b013e31825c7cbe",
+            "pmid": "22801028",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Chan, JK, Munro, EG, Cheung, MK, Husain, A, Teng, NN, Berek, JS. Association of lymphadenectomy and survival in stage I ovarian cancer patients, Obstet Gynecol, 2007, 109, 12, 19, PMID: 17197582",
+            "process_entry": "True",
+            "doi": "10.1097/01.aog.0000249610.95885.ef",
+            "pmid": "17197582",
+            "xmlid": "B30"
+        }
+    ],
+    "localid": "MED-31576693",
+    "doi": "10.3802/jgo.2019.30.e102",
+    "pmid": "10.3802/jgo.2019.30.e102",
+    "pmcid": "31576693",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576693/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,158)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,158)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),160,73)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),160,73)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),160,73)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),234,127)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),234,127)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),362,266)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),362,266)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),362,266)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),629,120)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),629,120)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,180)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),412,132)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),412,132)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),802,132)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "1. Study participants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,415)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Surgery, chemotherapy, and follow-up"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1007,87)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "2. Surgery, chemotherapy, and follow-up"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1,291)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "3. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1145,132)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "3. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1278,196)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "3. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),608,165)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "3. Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),188,116)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),305,201)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),378,243)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),378,243)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),622,198)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),952,89)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),952,89)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1042,100)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1342,132)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1541,235)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1777,194)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1972,185)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),2158,154)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),189,170)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),457,128)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),889,89)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "B30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),889,89)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

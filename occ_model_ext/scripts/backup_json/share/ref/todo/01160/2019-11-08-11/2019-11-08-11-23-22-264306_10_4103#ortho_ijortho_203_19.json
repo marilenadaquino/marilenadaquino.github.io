@@ -1,0 +1,43 @@
+{
+    "references": [
+        {
+            "bibentry": "Ministry of Social Justice and Empowerment, Government of India. Guidelines for the Purpose of Assessing the Extent of Specified Disability in a Person Included under the Rights of Persons with Disabilities Act, 2016. Gazette of India Notification Extraordinary No. 61. Part 2. Sec. 3. Subsec. 2, Ministry of Social Justice and Empowerment, Government of India, 2018",
+            "process_entry": "True",
+            "xmlid": "ref1"
+        },
+        {
+            "bibentry": "Orthopaedic Disability Assessment application on Google Play Store, Last accessed on 2019 Apr 26, Available from, http://www.bit.ly/sspgi201303",
+            "process_entry": "True",
+            "xmlid": "ref2"
+        }
+    ],
+    "localid": "MED-31673183",
+    "doi": "10.4103/ortho.IJOrtho_203_19",
+    "pmid": "10.4103/ortho.IJOrtho_203_19",
+    "pmcid": "31673183",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673183/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "ref1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),524,199)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/p[3]),1,223)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

@@ -1,0 +1,733 @@
+{
+    "references": [
+        {
+            "bibentry": "Barriuso, J, Vaquero, ME, Prieto, A, et al. Structural traits and catalytic versatility of the lipases from the Candida rugosa-like family: a review. Biotechnol Adv 2016; 34: 874–85. PMID: 27188926",
+            "process_entry": "True",
+            "doi": "10.1016/j.biotechadv.2016.05.004",
+            "pmid": "27188926",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Kolattukudy, PE. Enzymatic penetration of the plant cuticle by fungal pathogens. Annu Rev Phytopathol 1985; 23: 223–50.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Lotti, M, Tramontano, A, Longhi, S, et al. Variability within the Candida rugosa lipases family. Protein Eng 1994; 7: 531–5. PMID: 8029208",
+            "process_entry": "True",
+            "doi": "10.1093/protein/7.4.531",
+            "pmid": "8029208",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Xu, M-H, Kuan, I-C, Deng, F-Y, et al. Immobilization of lipase from Candida rugosa and its application for the synthesis of biodiesel in a two-step process. Asia-Pac J Chem Eng 2016; 11: 910–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Hongwei, Y, Jinchuan, W, Chi Bun, C. Kinetic resolution of ibuprofen catalyzed by Candida rugosa lipase in ionic liquids. Chirality 2005; 17: 16–21. PMID: 15515047",
+            "process_entry": "True",
+            "doi": "10.1002/chir.20078",
+            "pmid": "15515047",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Laguerre, M, Nlandu Mputu, M, Brïys, B, et al. Regioselectivity and fatty acid specificity of crude lipase extracts from Pseudozyma tsukubaensis, Geotrichum candidum, and Candida rugosa. Eur J Lipid Sci Techn 2017; 119: 1600302.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Brocca, S, Secundo, F, Ossola, M, et al. Sequence of the lid affects activity and specificity of Candida rugosa lipase isoenzymes. Protein Sci 2009; 12: 2312–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Redondo, O, Herrero A, Bello JF, et al. Comparative kinetic study of lipases A and B from Candida rugosa in the hydrolysis of lipid p-nitrophenyl esters in mixed micelles with Triton X-100. Biochim Biophys Acta 1995; 1243: 15–24. PMID: 7827103",
+            "process_entry": "True",
+            "doi": "10.1016/0304-4165(94)00112-b",
+            "pmid": "7827103",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Akoh, CC, Lee, GC, Shaw, JF. Protein engineering and applications of Candida rugosa lipase isoforms. Lipids 2004; 39: 513–26. PMID: 15554150",
+            "process_entry": "True",
+            "doi": "10.1007/s11745-004-1258-7",
+            "pmid": "15554150",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Schmitt, J, Brocca, S, Schmid, RD, et al. Blocking the tunnel: engineering of Candida rugosa lipase mutants with short chain length specificity. Protein Eng 2002; 15: 595–601. PMID: 12200542",
+            "process_entry": "True",
+            "doi": "10.1093/protein/15.7.595",
+            "pmid": "12200542",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Grochulski, P, Bouthillier, F, Kazlauskas, RJ, et al. Analogs of reaction intermediates identify a unique substrate binding site in Candida rugosa lipase. Biochemistry 1994; 33: 3494–500. PMID: 8142346",
+            "process_entry": "True",
+            "doi": "10.1021/bi00178a005",
+            "pmid": "8142346",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Grochulski, P, Li, Y, Schrag, JD, et al. Two conformational states of Candida rugosa lipase. Protein Sci 2008; 3: 82–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Cygler, MG, Grochulski, P, Schrag, J. Substrate binding site and the role of the flap loop in Candida Rugosa lipase, a close relative of acetylcholinesterase. New York: Springer Science and Business Media; 1995.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Herbst, D, Peper, S, Niemeyer, B. Enzyme catalysis in organic solvents: influence of water content, solvent composition and temperature on Candida rugosa lipase catalyzed transesterification. J Biotechnol 2012; 162: 398–403. PMID: 22465292",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbiotec.2012.03.011",
+            "pmid": "22465292",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Kahveci, D, Xu, X. Enhancement of activity and selectivity of Candida rugosa lipase and Candida antarctica lipase A by bioimprinting and/or immobilization for application in the selective ethanolysis of fish oil. Biotechnol Lett 2011; 33: 2065–71. PMID: 21695486",
+            "process_entry": "True",
+            "doi": "10.1007/s10529-011-0671-z",
+            "pmid": "21695486",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Sri Kaja, B, Lumor, S, Besong, S, et al. Investigating Enzyme Activity of Immobilized Candida rugosa Lipase. J Food Qual 2018; 2018: 1–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Pereira, EB, De Castro, HF, De Moraes, FF, et al. Esterification activity and stability of Candida rugosa lipase immobilized into chitosan. Appl Biochem Biotechnol 2002; 98–100: 977–86.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Mozaffar, Z, Weete, JD. Invert emulsion as a medium for fungal liapse activity. J Am Oil Chemist Soc 1995; 72: 1361–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Mancheno, JM. Structural insights into the lipase/esterase behavior in the Candida rugosa lipases family: crystal structure of the lipase 2 isoenzyme at 1.97A resolution. J Mol Biol 2003; 332: 1059–69. PMID: 14499609",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2003.08.005",
+            "pmid": "14499609",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Friesner, RA, Banks, JL, Murphy, RB, et al. Glide: a new approach for rapid, accurate docking and scoring. 1. Method and assessment of docking accuracy. J Med Chem 2004; 47: 1739–49. PMID: 15027865",
+            "process_entry": "True",
+            "doi": "10.1021/jm0306430",
+            "pmid": "15027865",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Halgren, TA, Murphy, RB, Friesner, RA, et al. Glide: a new approach for rapid, accurate docking and scoring. 2. Enrichment factors in database screening. J Med Chem 2004; 47: 1750–9. PMID: 15027866",
+            "process_entry": "True",
+            "doi": "10.1021/jm030644s",
+            "pmid": "15027866",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Friesner, RA, Murphy, RB, Repasky, MP, et al. Extra precision glide: docking and scoring incorporating a model of hydrophobic enclosure for protein-ligand complexes. J Med Chem 2006; 49: 6177–96. PMID: 17034125",
+            "process_entry": "True",
+            "doi": "10.1021/jm051256o",
+            "pmid": "17034125",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Dairaku, T, Iwamoto, T, Nishimura, M, et al. A practical fluorometric assay method to measure lysosomal acid lipase activity in dried blood spots for the screening of cholesteryl ester storage disease and Wolman disease. Mol Genet Metab 2014; 111: 193–6. PMID: 24295952",
+            "process_entry": "True",
+            "doi": "10.1016/j.ymgme.2013.11.003",
+            "pmid": "24295952",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Palocci, C, Falconi, M, Alcaro, S, et al. An approach to address Candida rugosa lipase regioselectivity in the acylation reactions of trytilated glucosides. J Biotechnol 2007; 128: 908–18. PMID: 17321623",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbiotec.2006.08.019",
+            "pmid": "17321623",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Grippa, E, Valla, R, Battinelli, L, et al. Inhibition of Candida rugosa lipase by berberine and structurally related alkaloids, evaluated by high-performance liquid chromatography. Biosci Biotechnol Biochem 1999; 63: 1557–62. PMID: 10540743",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.63.1557",
+            "pmid": "10540743",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Ruiz, C, Falcocchio, S, Xoxi, E, et al. Inhibition of Candida rugosa lipase by saponins, flavonoids and alkaloids. J Mol Catal B Enzym 2006; 40: 138–43.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Pimentel, MCB, Leao, ABF, Melo, EHM, et al. Immobilization of Candida rugosa lipase on magnetized Dacron: kinetic study. Artif Cells Blood Substit Immobil Biotechnol 2007; 35: 221–35. PMID: 17453706",
+            "process_entry": "True",
+            "doi": "10.1080/10731190601188380",
+            "pmid": "17453706",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Gupta, PK, Sastry, KV. Effect of mercuric chloride on enzyme activities in the digestive system and chemical composition of liver and muscles of the catfish, Heteropneustes fossilis. Ecotoxicol Environ Saf 1981; 5: 389–400. PMID: 6459225",
+            "process_entry": "True",
+            "doi": "10.1016/0147-6513(81)90013-0",
+            "pmid": "6459225",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Valero, E, Garcia-Moreno, M, Varon, R, et al. Time-dependent inhibition of grape polyphenol oxidase by tropolone. J Agric Food Chem 1991; 39: 1043–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Espin, JC, Wichers, HJ. Slow-binding inhibition of mushroom (Agaricus bisporus) tyrosinase isoforms by tropolone. J Agric Food Chem 1999; 47: 2638–44. PMID: 10552538",
+            "process_entry": "True",
+            "doi": "10.1021/jf981055b",
+            "pmid": "10552538",
+            "xmlid": "CIT0030"
+        }
+    ],
+    "localid": "MED-31414611",
+    "doi": "10.1080/14756366.2019.1651312",
+    "pmid": "10.1080/14756366.2019.1651312",
+    "pmcid": "31414611",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31414611/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),175,82)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),258,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),569,330)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Lipases or triacylglycerol acyl hydrolases (EC 3.1.1.3) catalyse the hydrolysis of triacylglycerides to release fatty acids and glycerol, an established mechanism in yeast. Theycomprise a broad variety of lipase structures with common structural traits1. Yeasts’ secretion of lipases supporttheir establishment in plants by hydrolysing epicuticular waxes, which enables access tonutrition and carbohydrates in the roots of plants as a survival mechanism2. Candida rugosa is anespecially potent species that secretes 5 isoforms of lipases with an identity of 77%.Despite their structural similarity, the five isoforms of Candida rugosalipase (CRL) covers a broad specificity range in catalysing the breakdown of lipids intofatty acids and glycerol3; which isalso the reason why this subset is widely used in the industry, for instance, in theproduction of biodiesel and pharmaceuticals4,5.This broad specificity range enables Candida rugosa to hydrolyse fattyacids preferentially from position 1 or 3 on the glyceride with an additional preference formedium- and long-chain fatty acid, but no preference between saturated and unsaturated fattyacids as well as cholesterol6–8. The varying specificity within the isoforms is caused bysequential differences in a conserved loop and tunnel domain, which determines the activityand specificity of the respective isoforms7,9,10.The loop is composed of an α-helix in the closedconformation, where it lays planar on the molecule’s surface covering the catalytic centre(catalytic triad: Ser209-His449-Glu341, a water molecule, and the oxyanion hole) as well asthe tunnel entrance inhibiting catalytic activity11,12. For the transition in the open conformation, the respective loophas to travel 19 Å, positioning itself perpendicular to the enzyme’s surface exposing thecatalytic centre and the tunnel entrance and refolding itself into two αα-helices11,12. One of the acyl groups on the glyceride cansubsequently move into the accessible tunnel domain, which contains several functionalgroups stabilising the hydrophobic acyl chain. This positions the ester bond connecting thefatty acid and glycerol in the catalytic centre, initiating the hydrolysis activity andsubsequently releasing a free fatty acid as well as diacylglyceride11. Changes in the sequence by site-directed mutation ofboth the loop and the tunnel domain can have effects on specificity and activity of theenzyme7,13. In addition, it was discovered thatCRL isoforms’ activity is very sensitive to pH and temperature changes4,14. While the application of immobilisation strategies as well as theaddition of hydrophobic organic solvents or emulsions showed to enhance the enzyme’sactivity by stabilising the exposed hydrophobic areas in the open conformation15–18, certainexperimental conditions can even change the direction of the catalytic reaction, meaning anester bond formation instead of hydrolysis19. Although allosteric modulation is very effective and is abiochemical method to alter enzymatic activity and specificity, it has not been consideredin the past due to the mentioned alternative procedures, complexity and cost-intensity ofhigh-throughput screening with numerous potential modulators. In modern approaches, theidentification of allosteric sites is simplified through pre-screening of potentialallosteric modulators by computational analysis, which pre-sorts and reduces the pool ofscreening component as well as complexity and cost-intensity20–22. However, in-silicobased screening requires an X-ray-crystallography structure of the respective enzyme as wellas high-performance software and hardware, an in-vitro screening assay,which can verify the theoretically determined ligands and their influence on the enzyme’sactivity.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),569,330)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Lipases or triacylglycerol acyl hydrolases (EC 3.1.1.3) catalyse the hydrolysis of triacylglycerides to release fatty acids and glycerol, an established mechanism in yeast. Theycomprise a broad variety of lipase structures with common structural traits1. Yeasts’ secretion of lipases supporttheir establishment in plants by hydrolysing epicuticular waxes, which enables access tonutrition and carbohydrates in the roots of plants as a survival mechanism2. Candida rugosa is anespecially potent species that secretes 5 isoforms of lipases with an identity of 77%.Despite their structural similarity, the five isoforms of Candida rugosalipase (CRL) covers a broad specificity range in catalysing the breakdown of lipids intofatty acids and glycerol3; which isalso the reason why this subset is widely used in the industry, for instance, in theproduction of biodiesel and pharmaceuticals4,5.This broad specificity range enables Candida rugosa to hydrolyse fattyacids preferentially from position 1 or 3 on the glyceride with an additional preference formedium- and long-chain fatty acid, but no preference between saturated and unsaturated fattyacids as well as cholesterol6–8. The varying specificity within the isoforms is caused bysequential differences in a conserved loop and tunnel domain, which determines the activityand specificity of the respective isoforms7,9,10.The loop is composed of an α-helix in the closedconformation, where it lays planar on the molecule’s surface covering the catalytic centre(catalytic triad: Ser209-His449-Glu341, a water molecule, and the oxyanion hole) as well asthe tunnel entrance inhibiting catalytic activity11,12. For the transition in the open conformation, the respective loophas to travel 19 Å, positioning itself perpendicular to the enzyme’s surface exposing thecatalytic centre and the tunnel entrance and refolding itself into two αα-helices11,12. One of the acyl groups on the glyceride cansubsequently move into the accessible tunnel domain, which contains several functionalgroups stabilising the hydrophobic acyl chain. This positions the ester bond connecting thefatty acid and glycerol in the catalytic centre, initiating the hydrolysis activity andsubsequently releasing a free fatty acid as well as diacylglyceride11. Changes in the sequence by site-directed mutation ofboth the loop and the tunnel domain can have effects on specificity and activity of theenzyme7,13. In addition, it was discovered thatCRL isoforms’ activity is very sensitive to pH and temperature changes4,14. While the application of immobilisation strategies as well as theaddition of hydrophobic organic solvents or emulsions showed to enhance the enzyme’sactivity by stabilising the exposed hydrophobic areas in the open conformation15–18, certainexperimental conditions can even change the direction of the catalytic reaction, meaning anester bond formation instead of hydrolysis19. Although allosteric modulation is very effective and is abiochemical method to alter enzymatic activity and specificity, it has not been consideredin the past due to the mentioned alternative procedures, complexity and cost-intensity ofhigh-throughput screening with numerous potential modulators. In modern approaches, theidentification of allosteric sites is simplified through pre-screening of potentialallosteric modulators by computational analysis, which pre-sorts and reduces the pool ofscreening component as well as complexity and cost-intensity20–22. However, in-silicobased screening requires an X-ray-crystallography structure of the respective enzyme as wellas high-performance software and hardware, an in-vitro screening assay,which can verify the theoretically determined ligands and their influence on the enzyme’sactivity.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),569,330)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),900,289)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),900,289)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),900,289)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),900,289)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1190,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1190,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1190,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1389,287)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1389,287)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1677,242)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1677,242)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2098,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2302,152)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2302,152)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2455,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[18]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2455,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0015",
+                "rp_string": "15–18",
+                "pl_string": "Lipases or triacylglycerol acyl hydrolases (EC 3.1.1.3) catalyse the hydrolysis of triacylglycerides to release fatty acids and glycerol, an established mechanism in yeast. Theycomprise a broad variety of lipase structures with common structural traits1. Yeasts’ secretion of lipases supporttheir establishment in plants by hydrolysing epicuticular waxes, which enables access tonutrition and carbohydrates in the roots of plants as a survival mechanism2. Candida rugosa is anespecially potent species that secretes 5 isoforms of lipases with an identity of 77%.Despite their structural similarity, the five isoforms of Candida rugosalipase (CRL) covers a broad specificity range in catalysing the breakdown of lipids intofatty acids and glycerol3; which isalso the reason why this subset is widely used in the industry, for instance, in theproduction of biodiesel and pharmaceuticals4,5.This broad specificity range enables Candida rugosa to hydrolyse fattyacids preferentially from position 1 or 3 on the glyceride with an additional preference formedium- and long-chain fatty acid, but no preference between saturated and unsaturated fattyacids as well as cholesterol6–8. The varying specificity within the isoforms is caused bysequential differences in a conserved loop and tunnel domain, which determines the activityand specificity of the respective isoforms7,9,10.The loop is composed of an α-helix in the closedconformation, where it lays planar on the molecule’s surface covering the catalytic centre(catalytic triad: Ser209-His449-Glu341, a water molecule, and the oxyanion hole) as well asthe tunnel entrance inhibiting catalytic activity11,12. For the transition in the open conformation, the respective loophas to travel 19 Å, positioning itself perpendicular to the enzyme’s surface exposing thecatalytic centre and the tunnel entrance and refolding itself into two αα-helices11,12. One of the acyl groups on the glyceride cansubsequently move into the accessible tunnel domain, which contains several functionalgroups stabilising the hydrophobic acyl chain. This positions the ester bond connecting thefatty acid and glycerol in the catalytic centre, initiating the hydrolysis activity andsubsequently releasing a free fatty acid as well as diacylglyceride11. Changes in the sequence by site-directed mutation ofboth the loop and the tunnel domain can have effects on specificity and activity of theenzyme7,13. In addition, it was discovered thatCRL isoforms’ activity is very sensitive to pH and temperature changes4,14. While the application of immobilisation strategies as well as theaddition of hydrophobic organic solvents or emulsions showed to enhance the enzyme’sactivity by stabilising the exposed hydrophobic areas in the open conformation15–18, certainexperimental conditions can even change the direction of the catalytic reaction, meaning anester bond formation instead of hydrolysis19. Although allosteric modulation is very effective and is abiochemical method to alter enzymatic activity and specificity, it has not been consideredin the past due to the mentioned alternative procedures, complexity and cost-intensity ofhigh-throughput screening with numerous potential modulators. In modern approaches, theidentification of allosteric sites is simplified through pre-screening of potentialallosteric modulators by computational analysis, which pre-sorts and reduces the pool ofscreening component as well as complexity and cost-intensity20–22. However, in-silicobased screening requires an X-ray-crystallography structure of the respective enzyme as wellas high-performance software and hardware, an in-vitro screening assay,which can verify the theoretically determined ligands and their influence on the enzyme’sactivity.",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "pl_xpath": "/article/body/sec[1]/p[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2567,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0016",
+                "pl_string": "15–18",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2567,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0017",
+                "pl_string": "15–18",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2567,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0018",
+                "pl_string": "15–18",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2567,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0015",
+                "rp_string": "15–18",
+                "pl_string": "Lipases or triacylglycerol acyl hydrolases (EC 3.1.1.3) catalyse the hydrolysis of triacylglycerides to release fatty acids and glycerol, an established mechanism in yeast. Theycomprise a broad variety of lipase structures with common structural traits1. Yeasts’ secretion of lipases supporttheir establishment in plants by hydrolysing epicuticular waxes, which enables access tonutrition and carbohydrates in the roots of plants as a survival mechanism2. Candida rugosa is anespecially potent species that secretes 5 isoforms of lipases with an identity of 77%.Despite their structural similarity, the five isoforms of Candida rugosalipase (CRL) covers a broad specificity range in catalysing the breakdown of lipids intofatty acids and glycerol3; which isalso the reason why this subset is widely used in the industry, for instance, in theproduction of biodiesel and pharmaceuticals4,5.This broad specificity range enables Candida rugosa to hydrolyse fattyacids preferentially from position 1 or 3 on the glyceride with an additional preference formedium- and long-chain fatty acid, but no preference between saturated and unsaturated fattyacids as well as cholesterol6–8. The varying specificity within the isoforms is caused bysequential differences in a conserved loop and tunnel domain, which determines the activityand specificity of the respective isoforms7,9,10.The loop is composed of an α-helix in the closedconformation, where it lays planar on the molecule’s surface covering the catalytic centre(catalytic triad: Ser209-His449-Glu341, a water molecule, and the oxyanion hole) as well asthe tunnel entrance inhibiting catalytic activity11,12. For the transition in the open conformation, the respective loophas to travel 19 Å, positioning itself perpendicular to the enzyme’s surface exposing thecatalytic centre and the tunnel entrance and refolding itself into two αα-helices11,12. One of the acyl groups on the glyceride cansubsequently move into the accessible tunnel domain, which contains several functionalgroups stabilising the hydrophobic acyl chain. This positions the ester bond connecting thefatty acid and glycerol in the catalytic centre, initiating the hydrolysis activity andsubsequently releasing a free fatty acid as well as diacylglyceride11. Changes in the sequence by site-directed mutation ofboth the loop and the tunnel domain can have effects on specificity and activity of theenzyme7,13. In addition, it was discovered thatCRL isoforms’ activity is very sensitive to pH and temperature changes4,14. While the application of immobilisation strategies as well as theaddition of hydrophobic organic solvents or emulsions showed to enhance the enzyme’sactivity by stabilising the exposed hydrophobic areas in the open conformation15–18, certainexperimental conditions can even change the direction of the catalytic reaction, meaning anester bond formation instead of hydrolysis19. Although allosteric modulation is very effective and is abiochemical method to alter enzymatic activity and specificity, it has not been consideredin the past due to the mentioned alternative procedures, complexity and cost-intensity ofhigh-throughput screening with numerous potential modulators. In modern approaches, theidentification of allosteric sites is simplified through pre-screening of potentialallosteric modulators by computational analysis, which pre-sorts and reduces the pool ofscreening component as well as complexity and cost-intensity20–22. However, in-silicobased screening requires an X-ray-crystallography structure of the respective enzyme as wellas high-performance software and hardware, an in-vitro screening assay,which can verify the theoretically determined ligands and their influence on the enzyme’sactivity.",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "pl_xpath": "/article/body/sec[1]/p[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2567,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[20]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2567,381)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Lipases or triacylglycerol acyl hydrolases (EC 3.1.1.3) catalyse the hydrolysis of triacylglycerides to release fatty acids and glycerol, an established mechanism in yeast. Theycomprise a broad variety of lipase structures with common structural traits1. Yeasts’ secretion of lipases supporttheir establishment in plants by hydrolysing epicuticular waxes, which enables access tonutrition and carbohydrates in the roots of plants as a survival mechanism2. Candida rugosa is anespecially potent species that secretes 5 isoforms of lipases with an identity of 77%.Despite their structural similarity, the five isoforms of Candida rugosalipase (CRL) covers a broad specificity range in catalysing the breakdown of lipids intofatty acids and glycerol3; which isalso the reason why this subset is widely used in the industry, for instance, in theproduction of biodiesel and pharmaceuticals4,5.This broad specificity range enables Candida rugosa to hydrolyse fattyacids preferentially from position 1 or 3 on the glyceride with an additional preference formedium- and long-chain fatty acid, but no preference between saturated and unsaturated fattyacids as well as cholesterol6–8. The varying specificity within the isoforms is caused bysequential differences in a conserved loop and tunnel domain, which determines the activityand specificity of the respective isoforms7,9,10.The loop is composed of an α-helix in the closedconformation, where it lays planar on the molecule’s surface covering the catalytic centre(catalytic triad: Ser209-His449-Glu341, a water molecule, and the oxyanion hole) as well asthe tunnel entrance inhibiting catalytic activity11,12. For the transition in the open conformation, the respective loophas to travel 19 Å, positioning itself perpendicular to the enzyme’s surface exposing thecatalytic centre and the tunnel entrance and refolding itself into two αα-helices11,12. One of the acyl groups on the glyceride cansubsequently move into the accessible tunnel domain, which contains several functionalgroups stabilising the hydrophobic acyl chain. This positions the ester bond connecting thefatty acid and glycerol in the catalytic centre, initiating the hydrolysis activity andsubsequently releasing a free fatty acid as well as diacylglyceride11. Changes in the sequence by site-directed mutation ofboth the loop and the tunnel domain can have effects on specificity and activity of theenzyme7,13. In addition, it was discovered thatCRL isoforms’ activity is very sensitive to pH and temperature changes4,14. While the application of immobilisation strategies as well as theaddition of hydrophobic organic solvents or emulsions showed to enhance the enzyme’sactivity by stabilising the exposed hydrophobic areas in the open conformation15–18, certainexperimental conditions can even change the direction of the catalytic reaction, meaning anester bond formation instead of hydrolysis19. Although allosteric modulation is very effective and is abiochemical method to alter enzymatic activity and specificity, it has not been consideredin the past due to the mentioned alternative procedures, complexity and cost-intensity ofhigh-throughput screening with numerous potential modulators. In modern approaches, theidentification of allosteric sites is simplified through pre-screening of potentialallosteric modulators by computational analysis, which pre-sorts and reduces the pool ofscreening component as well as complexity and cost-intensity20–22. However, in-silicobased screening requires an X-ray-crystallography structure of the respective enzyme as wellas high-performance software and hardware, an in-vitro screening assay,which can verify the theoretically determined ligands and their influence on the enzyme’sactivity.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0020",
+                "rp_string": "20–22",
+                "pl_string": "20–22",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),3250,265)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "pl_string": "20–22",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),3250,265)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0022",
+                "pl_string": "20–22",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),3250,265)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0020",
+                "rp_string": "20–22",
+                "pl_string": "20–22",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),3250,265)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,282)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),1,259)",
+                "containers_title": [
+                    "Results",
+                    "Enzyme activity assay development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,211)",
+                "containers_title": [
+                    "Results",
+                    "Identification of an effective inhibitor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),202,160)",
+                "containers_title": [
+                    "Results",
+                    "Identification of an effective inhibitor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),202,160)",
+                "containers_title": [
+                    "Results",
+                    "Identification of an effective inhibitor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),438,194)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),438,194)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),232,93)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),232,93)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),326,252)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),326,252)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,297)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,297)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

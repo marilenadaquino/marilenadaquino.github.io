@@ -1,0 +1,232 @@
+{
+    "references": [
+        {
+            "bibentry": "Newman, L, Kamb, M, Hawkes, S, Gomez, G, Sey, L, Seuc, A. Global estimates of syphilis in pregnancy and associated adverse outcomes: analysis of multinational antenatal surveillance data. PLoS Med. 2013; 10: e1001396. DOI: 10.1371/journal.pmed.1001396 PMID: 23468598",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pmed.1001396",
+            "pmid": "23468598",
+            "pmcid": "PMC3582608",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "World Health Organization. The global elimination of congenital syphilis: rationale and strategy for action. Geneva:WHO; 2007.",
+            "process_entry": "True",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Braccio, S, Sharland, M, Ladhani, SN. Prevention and treatment of mother-to-child transmission of syphilis. Curr Opin Infect Dis. 2016; 29: 268-74. DOI: 10.1097/QCO.0000000000000270 PMID: 27078816",
+            "process_entry": "True",
+            "doi": "10.1097/qco.0000000000000270",
+            "pmid": "27078816",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Trope, LA, Wijesooriya, NS, Broutet, N, Temmerman, M, Newman, L. Reaching beyond pregnant women to eliminate mother-to-child transmission of syphilis in Africa. Expert Rev Anti Infect Ther. 2014; 12: 705-14. DOI: 10.1586/14787210.2014.919221 PMID: 24834453",
+            "process_entry": "True",
+            "doi": "10.1586/14787210.2014.919221",
+            "pmid": "24834453",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Public Health Agency of Canada. Syphilis among gay, bisexual, two-spirit and other men who have sex with men: A resource for population-specific prevention. Available: https://www.canada.ca/en/public-health/services/infectious-diseases/sexual-health-sexually-transmitted-infections/syphilis-resource-population-specific-prevention.html. Accessed: 27 December 2018.",
+            "process_entry": "True",
+            "url": "https://www.canada.ca/en/public-health/services/infectious-diseases/sexual-health-sexually-transmitted-infections/syphilis-resource-population-specific-prevention.html. Accessed: 27 December 2018.",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Centers for Disease Control and Prevention. National Plan to Eliminate Syphilis from the United States. Atlanta: U.S. Department of Health and Human Services; 1999.",
+            "process_entry": "True",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Valentine, JA, Bolan, GA. Syphilis elimination: lessons learned again. Sex Transm Dis. 2018; 45(Suppl 1): S80-S85. DOI: 10.1097/OLQ.0000000000000842 PMID: 29596223",
+            "process_entry": "True",
+            "doi": "10.1097/OLQ.0000000000000842",
+            "pmid": "29596223",
+            "pmcid": "PMC6750736",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Chen, XS, Yin, YP, Wang, QQ, Wang, BX. Historical perspective of syphilis in the past 60 years in China: eliminated, forgotten, on the return. Chin Med J (Engl). 2013; 126: 2774-9. PMID: 23876912",
+            "process_entry": "True",
+            "pmid": "23876912",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Chen, XS. Challenges in responses to syphilis epidemic. Lancet Infect Dis. 2017; 17: 793-4. DOI: 10.1016/S1473-3099(17)30327-4 PMID: 28701274",
+            "process_entry": "True",
+            "doi": "10.1016/s1473-3099(17)30327-4",
+            "pmid": "28701274",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Wang, AL, Qiao, YP, Wang, LH, Fang, LW, Wang, F, Jin, X. Integrated prevention of mother-to-child transmission for human immunodeficiency virus, syphilis and hepatitis B virus in China. Bull World Health Organ. 2015; 93: 52-6. DOI: 10.2471/BLT.14.139626 PMID: 25558108",
+            "process_entry": "True",
+            "doi": "10.2471/BLT.14.139626",
+            "pmid": "25558108",
+            "pmcid": "PMC4271682",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Kamb, ML, Newman, LM, Riley, PL, Mark, M, Hawkes, SJ, Malik, T. A road map for the global elimination of congenital syphilis. Obstet Gynecol Int. 2010; 2010: 312798. DOI: 10.1155/2010/312798 PMID: 20706693",
+            "process_entry": "True",
+            "doi": "10.1155/2010/312798",
+            "pmid": "20706693",
+            "pmcid": "PMC2913802",
+            "xmlid": "R11"
+        }
+    ],
+    "localid": "MED-31656601",
+    "doi": "10.7189/jogh.09.020312",
+    "pmid": "10.7189/jogh.09.020312",
+    "pmcid": "31656601",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31656601/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),119,226)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),500,266)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),445,372)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),1916,271)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),124,452)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),577,241)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),819,237)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[3]),1243,228)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[3]),1472,255)",
+                "containers_title": "",
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/p[3]),1721,5)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[3]),1472,255)",
+                "containers_title": "",
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/p[3]),1721,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[3]),1728,135)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/p[3]),1864,241)",
+                "containers_title": "",
+                "pl_string": "[8,10]",
+                "pl_xpath": "substring(string(/article/body/p[3]),2098,6)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/p[3]),1864,241)",
+                "containers_title": "",
+                "pl_string": "[8,10]",
+                "pl_xpath": "substring(string(/article/body/p[3]),2098,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/p[3]),3017,309)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

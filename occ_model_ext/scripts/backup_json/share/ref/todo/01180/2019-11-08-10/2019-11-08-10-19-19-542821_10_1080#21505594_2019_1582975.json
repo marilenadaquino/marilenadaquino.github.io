@@ -1,0 +1,876 @@
+{
+    "references": [
+        {
+            "bibentry": "Petit, L, Gibert, M, Popoff, MR. Clostridium perfringens: toxinotype and genotype. Trends Microbiol. 1999; 7(3): 104–110. PMID: 10203838",
+            "process_entry": "True",
+            "doi": "10.1016/s0966-842x(98)01430-9",
+            "pmid": "10203838",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Uzal, FA, Freedman, JC, Shrestha, A, et al. Towards an understanding of the role of Clostridium perfringens toxins in human and animal disease. Future Microbiol. 2014; 9(3): 361–377. PMID: 24762309",
+            "process_entry": "True",
+            "doi": "10.2217/fmb.13.168",
+            "pmid": "24762309",
+            "pmcid": "PMC4155746",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Songer, JG. Clostridial enteric diseases of domestic animals. Clin Microbiol Rev. 1996; 9(2): 216–234. PMID: 8964036",
+            "process_entry": "True",
+            "doi": "10.1128/cmr.9.2.216",
+            "pmid": "8964036",
+            "pmcid": "PMC172891",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Kiu, R, Hall, LJ. An update on the human and animal enteric pathogen Clostridium perfringens. Emerg Microbes Infect. 2018; 7: 141. PMID: 30082713",
+            "process_entry": "True",
+            "doi": "10.1038/s41426-018-0144-8",
+            "pmid": "30082713",
+            "pmcid": "PMC6079034",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Li, J, Paredessabja, D, Sarker, MR, et al. Clostridium perfringens sporulation and sporulation-associated toxin production. Microbiol Spectr. 2016; 4(3). DOI: DOI: 10.1128/microbiolspec.TBS-0022-2015",
+            "process_entry": "True",
+            "doi": "10.1128/microbiolspec.tbs-0022-2015",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Rood, JI, Adams, V, Lacey, J, et al. Expansion of the Clostridium perfringens toxin-based typing scheme. Anaerobe. 2018; 1–6. DOI: DOI: 10.1016/j.anaerobe.2018.04.011",
+            "process_entry": "True",
+            "doi": "10.1016/j.anaerobe.2018.04.011",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Li, J, Adams, V, Bannam, TL, et al. Toxin plasmids of Clostridium perfringens. Microbiol Mol Biol Rev. 2013; 77(2): 208–233. PMID: 23699255",
+            "process_entry": "True",
+            "doi": "10.1128/MMBR.00062-12",
+            "pmid": "23699255",
+            "pmcid": "PMC3668675",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Awad, MM, Bryant, AE, Stevens, DL, et al. Virulence studies on chromosomal α-toxin and θ-toxin mutants constructed by allelic exchange provide genetic evidence for the essential role of α-toxin in Clostridium perfringens-mediated gas gangrene. Mol Microbiol. 1995; 15(2): 191–202. PMID: 7746141",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.1995.tb02234.x",
+            "pmid": "7746141",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Oda, M, Kihara, A, Yoshioka, H, et al. Effect of erythromycin on biological activities induced by Clostridium perfringens α-toxin. J Pharm Exp Ther. 2008; 327(3): 934–940.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Sasaki, J, Goryo, M, Asahina, M, et al. Hemorrhagic enteritis associated with Clostridium perfringens type A in a dog. J Vet Med Sci. 1999; 61(2): 175–177. PMID: 10081759",
+            "process_entry": "True",
+            "doi": "10.1292/jvms.61.175",
+            "pmid": "10081759",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Uzal, FA, Songer, JG. Diagnosis of Clostridium perfringens intestinal infections in sheep and goats. J Vet Diagn Invest. 2008; 20(3): 253–265. PMID: 18460610",
+            "process_entry": "True",
+            "doi": "10.1177/104063870802000301",
+            "pmid": "18460610",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hough, E, Hansen, LK, Birknes, B, et al. High-resolution (1.5Å) crystal structure of phospholipase C from Bacillus cereus. Nature. 1989; 338(6213): 357–360. PMID: 2493587",
+            "process_entry": "True",
+            "doi": "10.1038/338357a0",
+            "pmid": "2493587",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Titball, RW. Clostridium perfringens vaccines. Vaccine. 2009; 27(Suppl 4): D44–47. PMID: 19837285",
+            "process_entry": "True",
+            "doi": "10.1016/j.vaccine.2009.07.047",
+            "pmid": "19837285",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Gillouard, I, Garnier, T, Cole, ST. Use of site-directed mutagenesis to probe structure-function relationships of alpha-toxin from Clostridium perfringens. Infect Immun. 1996; 64(7): 2440–2444. PMID: 8698464",
+            "process_entry": "True",
+            "pmid": "8698464",
+            "pmcid": "PMC174095",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Bai, JN, Zhang, Y, Zhao, BH. Cloning of α-β fusion gene from Clostridium perfringens and its expression. World J Gastroenterol. 2006; 12(8): 1229–1234. PMID: 16534876",
+            "process_entry": "True",
+            "doi": "10.3748/wjg.v12.i8.1229",
+            "pmid": "16534876",
+            "pmcid": "PMC4124434",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Ellemor, DM, Baird, RN, Awad, MM, et al. Use of genetically manipulated strains of Clostridium perfringens reveals that both alpha-toxin and theta-toxin are required for vascular leukostasis to occur in experimental gas gangrene. Infect Immun. 1999; 67(9): 4902–4907. PMID: 10456947",
+            "process_entry": "True",
+            "pmid": "10456947",
+            "pmcid": "PMC96825",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Martín, R, Miquel, S, Ulmer, J, et al. Role of commensal and probiotic bacteria in human health: a focus on inflammatory bowel disease. Microb Cell Fact. 2013; 12(1): 71. PMID: 23876056",
+            "process_entry": "True",
+            "doi": "10.1186/1475-2859-12-71",
+            "pmid": "23876056",
+            "pmcid": "PMC3726476",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Perdigon, G, Alvarez, S, Rachid, M, et al. Immune system stimulation by probiotics. J Dairy Sci. 1995; 78(7): 1597–1606. PMID: 7593855",
+            "process_entry": "True",
+            "doi": "10.3168/jds.s0022-0302(95)76784-4",
+            "pmid": "7593855",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Bosch, M, Nart, J, Audivert, S, et al. Isolation and characterization of probiotic strains for improving oral health. Arch Oral Biol. 2012; 57(5): 539–549. PMID: 22054727",
+            "process_entry": "True",
+            "doi": "10.1016/j.archoralbio.2011.10.006",
+            "pmid": "22054727",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Yu, M, Qi, R, Chen, C, et al. Immunogenicity of recombinant Lactobacillus casei expressing F4 (K88) fimbrial adhesin FaeG in conjunction with a heat-labile enterotoxin A (LTAK 63) and heat-labile enterotoxin B (LTB) of enterotoxigenic Escherichia coli as an oral adjuvant in mice. J Appl Microbiol. 2017; 122(2): 506–515. PMID: 27860074",
+            "process_entry": "True",
+            "doi": "10.1111/jam.13352",
+            "pmid": "27860074",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Marteau, P, Rambaud, JC. Potential of using lactic acid bacteria for therapy and immunomodulation in man. FEMS Microbiol Rev. 1993; 12(1–3): 207–220. PMID: 8398215",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-6976.1993.tb00019.x",
+            "pmid": "8398215",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Grangette, C, Muller-Alou, H, Hols, P, et al. Enhanced mucosal delivery of antigen with cell wall mutants of lactic acid bacteria. Infect Immun. 2004; 72(5): 2731–2737. PMID: 15102782",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.72.5.2731-2737.2004",
+            "pmid": "15102782",
+            "pmcid": "PMC387887",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Wells, JM, Mercenier, A. Mucosal delivery of therapeutic and prophylactic molecules using lactic acid bacteria. Nat Rev Microbiol. 2008; 6(5): 349–362. PMID: 18345021",
+            "process_entry": "True",
+            "doi": "10.1038/nrmicro1840",
+            "pmid": "18345021",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ma, S, Wang, L, Huang, X, et al. Oral recombinant Lactobacillus vaccine targeting the intestinal microfold cells and dendritic cells for delivering the core neutralizing epitope of porcine epidemic diarrhea virus. Microb Cell fact. 2018; 17(1): 20. PMID: 29426335",
+            "process_entry": "True",
+            "doi": "10.1186/s12934-018-0861-7",
+            "pmid": "29426335",
+            "pmcid": "PMC5807822",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Xu, Y, Li, Y. Construction of recombinant Lactobacillus casei efficiently surface displayed and secreted porcine parvovirus VP2 protein and comparison of the immune responses induced by oral immunization. Immunology. 2008; 124(1): 68–75. PMID: 18034821",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2567.2007.02738.x",
+            "pmid": "18034821",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Yu, M, Wang, L, Ma, S, et al. Immunogenicity of eGFP-marked recombinant Lactobacillus casei against transmissible gastroenteritis virus and porcine epidemic diarrhea virus. Viruses. 2017; 9(10): 274.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Wang, X, Wang, L, Huang, X, et al. Oral delivery of probiotics expressing dendritic cell-targeting peptide fused with porcine epidemic diarrhea virus COE antigen: a promising vaccine strategy against PEDV. Viruses. 2017; 9(11): 312.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Freedman, JC, Theoret, JR, Wisniewski, JA, et al. Clostridium perfringens type A-E toxin plasmids. Res Microbiol. 2015; 166(4): 264–279. PMID: 25283728",
+            "process_entry": "True",
+            "doi": "10.1016/j.resmic.2014.09.004",
+            "pmid": "25283728",
+            "pmcid": "PMC4383721",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Olins, PO, Rangwala, SH. A novel sequence element derived from bacteriophage T7 mRNA acts as an enhancer of translation of the lacZ gene in Escherichia coli. J Biol Chem. 1989; 264(29): 16973–16976. PMID: 2676996",
+            "process_entry": "True",
+            "pmid": "2676996",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ashiuchi, M, Soda, K, Misono, H. A poly-γ-glutamate synthetic system of Bacillus subtilis IFO 3336: gene cloning and biochemical analysis of poly-γ-glutamate produced by Escherichia coli clone cells. Biochem Biophys Res Commun. 1999; 263(1): 6–12. PMID: 10486244",
+            "process_entry": "True",
+            "doi": "10.1006/bbrc.1999.1298",
+            "pmid": "10486244",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Ashiuchi, M, Nawa, C, Kamei, T, et al. Physiological and biochemical characteristics of poly γ-glutamate synthetase complex of Bacillus subtilis. Eur J Biochem. 2001; 268(20): 5321–5328. PMID: 11606194",
+            "process_entry": "True",
+            "doi": "10.1046/j.0014-2956.2001.02475.x",
+            "pmid": "11606194",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Worbs, T, Bode, U, Yan, S, et al. Oral tolerance originates in the intestinal immune system and relies on antigen carriage by dendritic cells. J Exp Med. 2006; 203(3): 519–527. PMID: 16533884",
+            "process_entry": "True",
+            "doi": "10.1084/jem.20052016",
+            "pmid": "16533884",
+            "pmcid": "PMC2118247",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Challacombe, SJ, Rahman, D, Jeffery, H, et al. Enhanced secretory IgA and systemic IgG antibody responses after oral immunization with biodegradable microparticles containing antigen. Immunology. 1992; 76(1): 164–168. PMID: 1628895",
+            "process_entry": "True",
+            "pmid": "1628895",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Wolf, RC, Vasic, N, Walte, H. Inhibition of bacterial adherence by secretory immunoglobulin A: a mechanism of antigen disposal. Science. 1972; 177(4050): 697–699. PMID: 5054144",
+            "process_entry": "True",
+            "doi": "10.1126/science.177.4050.697",
+            "pmid": "5054144",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Duerkop, BA, Vaishnava, S, Hooper, LV. Immune responses to the microbiota at the intestinal mucosal surface. Immunity. 2009; 31(3): 368–376. PMID: 19766080",
+            "process_entry": "True",
+            "doi": "10.1016/j.immuni.2009.08.009",
+            "pmid": "19766080",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Matsuzaki, T, Saito, M, Usuku, K, et al. A prospective uncontrolled trial of fermented milk drink containing viable Lactobacillus casei strain Shirota in the treatment of HTLV-1 associated myelopathy/tropical spastic paraparesis. J Neurol Sci. 2005; 237(1–2): 75–81. PMID: 15961107",
+            "process_entry": "True",
+            "doi": "10.1016/j.jns.2005.05.011",
+            "pmid": "15961107",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Magram, J, Connaughton, SE, Warrier, RR, et al. IL-12-deficient mice are defective in IFNγ production and type 1 cytokine responses. Immunity. 1996; 4(5): 471–481. PMID: 8630732",
+            "process_entry": "True",
+            "doi": "10.1016/s1074-7613(00)80413-6",
+            "pmid": "8630732",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Vancott, JL, Staats, HF, Pascual, DW, et al. Regulation of mucosal and systemic antibody responses by T helper cell subsets, macrophages, and derived cytokines following oral immunization with live recombinant Salmonella. J Immunol. 1996; 156(4): 1504–1514. PMID: 8568254",
+            "process_entry": "True",
+            "pmid": "8568254",
+            "xmlid": "CIT0038"
+        }
+    ],
+    "localid": "MED-30806148",
+    "doi": "10.1080/21505594.2019.1582975",
+    "pmid": "10.1080/21505594.2019.1582975",
+    "pmcid": "30806148",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30806148/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,185)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),180,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,185)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),180,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),187,329)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),510,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),187,329)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),510,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),637,192)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),830,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),347,199)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),347,199)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),540,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),347,199)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),540,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),736,118)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),846,7)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),736,118)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),846,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1195,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1241,7)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1241,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1195,168)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1195,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1241,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1195,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1355,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1195,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1355,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),569,308)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),878,108)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),978,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),878,108)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),978,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),987,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1252,7)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),987,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1252,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1261,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1471,7)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1261,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1471,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1480,260)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[5]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[5]/td[3]),1,4)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and plasmids"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1231,504)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Construction of a recombinant expression system in L. casei"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),922,25)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Oral immunization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1464,171)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Oral immunization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,232)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Enzyme-linked immunosorbent assays (ELISAs)"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),225,7)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,232)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Enzyme-linked immunosorbent assays (ELISAs)"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),225,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,301)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,28]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),295,6)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,301)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,28]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),295,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),480,148)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),629,418)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1036,10)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),629,418)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1036,10)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),629,418)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1036,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),139,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),299,328)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[30,31]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),619,7)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),299,328)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[30,31]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),619,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,382)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),375,7)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,382)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),375,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),690,227)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),909,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),690,227)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),909,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),372,132)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),505,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),665,111)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

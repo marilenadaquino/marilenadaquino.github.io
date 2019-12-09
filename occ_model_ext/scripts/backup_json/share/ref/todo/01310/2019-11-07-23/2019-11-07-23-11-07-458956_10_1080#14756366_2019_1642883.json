@@ -1,0 +1,738 @@
+{
+    "references": [
+        {
+            "bibentry": "Zhang, YS, Liu, Y, Chen, D, et al. Synthesis and antitumor activities of novel 1,4-disubstituted phthalazine derivatives. Eur. J. Med. Chem 2010; 45: 3504–10. PMID: 20537434",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2010.05.016",
+            "pmid": "20537434",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Imramovský, A, Jorda, R, Pauk, K, et al. Substituted 2-hydroxy-N-(arylalkyl)benzamides induce apoptosis in cancer cell lines. Eur J Med Chem 2013; 68: 253–9. PMID: 23981532",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2013.08.009",
+            "pmid": "23981532",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Renehan, AG, Booth, C, Potten, CS. What is apoptosis, and why is it important? BMJ 2001; 322: 1536–8. PMID: 11420279",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.322.7301.1536",
+            "pmid": "11420279",
+            "pmcid": "PMC1120576",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Zhang, J, Yang, PL, Gray, NS. Targeting cancer with small molecule kinase inhibitors. Nat Rev Cancer 2009; 9: 28–39. PMID: 19104514",
+            "process_entry": "True",
+            "doi": "10.1038/nrc2559",
+            "pmid": "19104514",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Cortes, E, Ravandi, F, O'Brien, S, Kantarjian, H. Targeted therapies in hematology and their impact on patient care: chronic and acute myeloid leukemia. Semin Hematol 2013; 50: 271–83. PMID: 24246694",
+            "process_entry": "True",
+            "doi": "10.1053/j.seminhematol.2013.09.006",
+            "pmid": "24246694",
+            "pmcid": "PMC4098770",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Scott, EN, Meinhardt, G, Jacques, C, et al. Vatalanib: the clinical development of a tyrosine kinase inhibitor of angiogenesis in solid tumours. Expert Opin Investig Drugs 2007; 16: 367–79.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hasinoff, BB, Pate, D. The lack of target specificity of small molecule anticancer kinase inhibitors is correlated with their ability to damage myocytes in vitro. Toxicol Appl Pharm 2010; 249: 132–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Ricci, MS, Kim, SH, Ogi, K, et al. Reduction of TRAIL-induced Mcl-1 and cIAP2 by c-Myc or sorafenib sensitizes resistant human cancer cells to TRAIL-induced death. Cancer Cell 2007; 12: 66–80. PMID: 17613437",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccr.2007.05.006",
+            "pmid": "17613437",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Liu, L, Cao, Y, Chen, C, et al. Sorafenib blocks the RAF/MEK/ERK pathway, inhibits tumor angiogenesis, and induces tumor cell apoptosis in hepatocellular carcinoma model PLC/PRF/5. Cancer Res 2006; 66: 11851–8. PMID: 17178882",
+            "process_entry": "True",
+            "doi": "10.1158/0008-5472.can-06-1377",
+            "pmid": "17178882",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Zhang, W, Konopleva, M, Ruvolo, VR, et al. Sorafenib induces apoptosis of AML cells via Bim-mediated activation of the intrinsic apoptotic pathway. Leukemia 2008; 22: 808–18. PMID: 18200035",
+            "process_entry": "True",
+            "doi": "10.1038/sj.leu.2405098",
+            "pmid": "18200035",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Chuma, M, Terashita, K, Sakamoto, N. New molecularly targeted therapies against advanced hepatocellular carcinoma: From molecular pathogenesis to clinical trials and future directions. Hepatol Res 2015; 45: E1–11. PMID: 25472913",
+            "process_entry": "True",
+            "doi": "10.1111/hepr.12459",
+            "pmid": "25472913",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Blanc, J, Geney, R, Menet, C. Type II kinase inhibitors: an opportunity in cancer for rational design. Anticancer Agents Med Chem 2013; 13: 731–47. PMID: 23094911",
+            "process_entry": "True",
+            "doi": "10.2174/1871520611313050008",
+            "pmid": "23094911",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Sodani, K, Patel, A, Anreddy, N, et al. Telatinib reverses chemotherapeutic multidrug resistance mediated by ABCG2 efflux transporter in vitro and in vivo. Biochem Pharmacol 2014; 89: 52–61. PMID: 24565910",
+            "process_entry": "True",
+            "doi": "10.1016/j.bcp.2014.02.012",
+            "pmid": "24565910",
+            "pmcid": "PMC3983711",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Garuti, L, Roberti, M, Bottegoni, G. Small molecule aurora kinases inhibitors. Curr Med Chem 2009; 16: 1949–63. PMID: 19519375",
+            "process_entry": "True",
+            "doi": "10.2174/092986709788682227",
+            "pmid": "19519375",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Shallal, HM, Russu, WA. Discovery, synthesis, and investigation of the antitumor activity of novel piperazinylpyrimidine derivatives. Eur J Med Chem 2011; 46: 2043–57. PMID: 21429632",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2011.02.057",
+            "pmid": "21429632",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Rice, KD, Kim, MH, Bussenius, J, et al. Pyrazolopyrimidines as dual Akt/p70S6K inhibitors. Bioorg Med Chem Lett 2012; 22: 2693–7. PMID: 22450127",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2012.03.011",
+            "pmid": "22450127",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Pollard, JR, Mortimore, M. Discovery and development of aurora kinase inhibitors as anticancer agents. J Med Chem 2009; 52: 2629–51. PMID: 19320489",
+            "process_entry": "True",
+            "doi": "10.1021/jm8012129",
+            "pmid": "19320489",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Musumeci, F, Radi, M, Brullo, C, Schenone, S. Vascular endothelial growth factor (VEGF) receptors: drugs and new inhibitors. J Med Chem 2012; 55: 10797–822. PMID: 23098265",
+            "process_entry": "True",
+            "doi": "10.1021/jm301085w",
+            "pmid": "23098265",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Abouzid, KM, Khalil, N, Ahmed, E. Synthesis and evaluation of anti-proliferative activity of 1,4-disubstituted phthalazines. Med Chem Res 2012; 21: 3288–93.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Sammond, DM, Veal, JM, Nolte, RT, et al. Discovery of a novel and potent series of dianilinopyrimidineurea and urea isostere inhibitors of VEGFR2 tyrosine kinase. Bioorg Med Chem Lett 2005; 15: 3519–23. PMID: 15990302",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2005.05.096",
+            "pmid": "15990302",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Stout, DM, Matier, WL, Barcelon-Yang, C, et al. Synthesis and antiarrhythmic and parasympatholytic properties of substituted phenols. 3. Modifications to the linkage region (region 3). J Med Chem 1985; 28: 295–8. PMID: 3973901",
+            "process_entry": "True",
+            "doi": "10.1021/jm00381a006",
+            "pmid": "3973901",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Nakatsu, MN, Sainson, RCA, Aoto, JN, et al. Angiogenic sprouting and capillary lumen formation modeled by human umbilical vein endothelial cells (HUVEC) in fibrin gels: the role of fibroblasts and Angiopoietin-1. Microvas Res 2003; 66: 102–12.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Park, H-J, Zhang, Y, Georgescu, SP, et al. Human umbilical vein endothelial cells and human dermal microvascular endothelial cells offer new insights into the relationship between lipid metabolism and angiogenesis. Stem Cell Rev 2006; 2: 93–101. PMID: 17237547",
+            "process_entry": "True",
+            "doi": "10.1007/s12015-006-0015-x",
+            "pmid": "17237547",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Alley, MC, Monks, A, Hursey, ML, et al. Feasibility of drug screening with panels of human tumor cell lines using a microculture tetrazolium assay. Cancer Res 1988; 48: 589–601. PMID: 3335022",
+            "process_entry": "True",
+            "pmid": "3335022",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Grever, MR, Chabner, BA. The National Cancer Institute: cancer drug discovery and development program. Semin Oncol 1992; 19: 622–38. PMID: 1462164",
+            "process_entry": "True",
+            "pmid": "1462164",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Jiang, BH, Jiang, G, Zheng, JZ, et al. Phosphatidylinositol 3-kinase signaling controls levels of hypoxia-inducible factor 1. Cell Growth 2001; 12: 363–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Behl, C, Ziegler, C. Cell aging: molecular mechanisms and implications for disease. 1st ed Berlin Heidelberg: Springer-Verlag; 2014.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Trott, O, Olson, AJ. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J Comput Chem 2010; 31: 455–61. PMID: 19499576",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21334",
+            "pmid": "19499576",
+            "pmcid": "PMC3041641",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Wilcken, R, Zimmermann, MO, Lange, A, et al. Principles and applications of halogen bonding in medicinal chemistry and chemical biology. J Med Chem 2013; 56: 1363–88. PMID: 23145854",
+            "process_entry": "True",
+            "doi": "10.1021/jm3012068",
+            "pmid": "23145854",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wilcken, R, Zimmermann, MO, Lange, A, et al. Addressing methionine in molecular design through directed sulfur-halogen bonds. J Chem Theory Comput 2011; 7: 2307–15. PMID: 26606498",
+            "process_entry": "True",
+            "doi": "10.1021/ct200245e",
+            "pmid": "26606498",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Zimmermann, MO, Lange, A, Boeckler, FM. Evaluating the potential of halogen bonding in molecular design: automated scaffold decoration using the new scoring function XBScore. J Chem Inf Model 2015; 55: 687–99. PMID: 25654403",
+            "process_entry": "True",
+            "doi": "10.1021/ci5007118",
+            "pmid": "25654403",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Smolyar, NN, Yutilov, YM. Cyclotransformation in the series of fused 5-nitropyridin-2(1H)-ones. Russ J Org Chem 2008; 44: 274–81.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Gabriel S, Neumann A. Umlagerung von Phtalidderivatenin AbkÖmmlinge des α γ -Diketohydrindens. Chemische Berichte 1893;26:708–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Zhang, QR, Xue, DQ, He, P, et al. Synthesis and antimicrobial activities of novel 1,2,4-triazolo [3,4-a] phthalazine derivatives. Bioorg Med Chem Letters 2014; 24: 1236–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31322015",
+    "doi": "10.1080/14756366.2019.1642883",
+    "pmid": "10.1080/14756366.2019.1642883",
+    "pmcid": "31322015",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31322015/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,47)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),134,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),315,210)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,472)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),475,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),183,50)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "pl_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),362,86)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "pl_string": "8–10",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),362,86)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "pl_string": "8–10",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),362,86)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "pl_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),362,86)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),450,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),1,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),161,72)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "14–17",
+                "pl_string": "14–17",
+                "rp_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "pl_string": "14–17",
+                "pl_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0016",
+                "pl_string": "14–17",
+                "pl_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0017",
+                "pl_string": "14–17",
+                "pl_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "14–17",
+                "pl_string": "14–17",
+                "rp_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[9]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),168,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),518,681)",
+                "containers_title": [
+                    "Rationale and design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[3]),1,323)",
+                "containers_title": [
+                    "Rationale and design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),118,142)",
+                "containers_title": [
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[1]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[1]/sec[2]/p[4]),1,366)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro anticancer screening at full NCI 60 cell panel",
+                    "In vitro 5 log dose full NCI 60 cell panel assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[4]/p[3]),187,89)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro HUVEC anti-proliferative assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[4]/p[3]),624,262)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro HUVEC anti-proliferative assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[5]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[5]/p[2]),1,662)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Cell-cycle analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[5]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[5]/p[3]),562,103)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Cell-cycle analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[1]),1,140)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[1]),356,414)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0029",
+                "rp_string": "29–31",
+                "pl_string": "29–31",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "pl_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[2]),1,280)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "pl_string": "29–31",
+                "pl_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[2]),1,280)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0031",
+                "pl_string": "29–31",
+                "pl_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[2]),1,280)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0029",
+                "rp_string": "29–31",
+                "pl_string": "29–31",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "pl_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[2]),1,280)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/fig/caption/p),755,2)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[4]),1,370)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[6]/sec/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec/p),733,103)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry"
+                ],
+                "pl_string": "Starting materials and reagents were purchased from Sigma – Aldrich or Acros Organics. Melting points were recorded on Gallen Kamp apparatus and were uncorrected. FT-IR spectra were recorded on a Shimadzu IR 435 spectrophotometer. 1HNMR spectra were recorded in δ scale given in ppm on a Varian 400 MHz spectrophotometer or a Varian 300 MHz spectrophotometer. Coupling patterns are described as follows: s, singlet; d, doublet, dd, doubled doublet; t, triplet; m, multiplet. J describes a coupling constant. The coupling constants were rounded off to one decimal place. MS spectra mass were recorded on Hewlett Packard 5988 spectrometer (70 eV). Elemental analyses were performed at the Microanalytical Center, Al-Azhar University. Compounds 1a–c21, 2a,b32and 3a,b33, 9 and 1034 were prepared following reported procedures.",
+                "pl_xpath": "/article/body/sec[6]/sec/p"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/sec/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec/p),733,103)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry"
+                ],
+                "pl_string": "Starting materials and reagents were purchased from Sigma – Aldrich or Acros Organics. Melting points were recorded on Gallen Kamp apparatus and were uncorrected. FT-IR spectra were recorded on a Shimadzu IR 435 spectrophotometer. 1HNMR spectra were recorded in δ scale given in ppm on a Varian 400 MHz spectrophotometer or a Varian 300 MHz spectrophotometer. Coupling patterns are described as follows: s, singlet; d, doublet, dd, doubled doublet; t, triplet; m, multiplet. J describes a coupling constant. The coupling constants were rounded off to one decimal place. MS spectra mass were recorded on Hewlett Packard 5988 spectrometer (70 eV). Elemental analyses were performed at the Microanalytical Center, Al-Azhar University. Compounds 1a–c21, 2a,b32and 3a,b33, 9 and 1034 were prepared following reported procedures.",
+                "pl_xpath": "/article/body/sec[6]/sec/p"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[6]/sec/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec/p),733,103)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry"
+                ],
+                "pl_string": "Starting materials and reagents were purchased from Sigma – Aldrich or Acros Organics. Melting points were recorded on Gallen Kamp apparatus and were uncorrected. FT-IR spectra were recorded on a Shimadzu IR 435 spectrophotometer. 1HNMR spectra were recorded in δ scale given in ppm on a Varian 400 MHz spectrophotometer or a Varian 300 MHz spectrophotometer. Coupling patterns are described as follows: s, singlet; d, doublet, dd, doubled doublet; t, triplet; m, multiplet. J describes a coupling constant. The coupling constants were rounded off to one decimal place. MS spectra mass were recorded on Hewlett Packard 5988 spectrometer (70 eV). Elemental analyses were performed at the Microanalytical Center, Al-Azhar University. Compounds 1a–c21, 2a,b32and 3a,b33, 9 and 1034 were prepared following reported procedures.",
+                "pl_xpath": "/article/body/sec[6]/sec/p"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[6]/sec/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec/p),733,103)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry"
+                ],
+                "pl_string": "Starting materials and reagents were purchased from Sigma – Aldrich or Acros Organics. Melting points were recorded on Gallen Kamp apparatus and were uncorrected. FT-IR spectra were recorded on a Shimadzu IR 435 spectrophotometer. 1HNMR spectra were recorded in δ scale given in ppm on a Varian 400 MHz spectrophotometer or a Varian 300 MHz spectrophotometer. Coupling patterns are described as follows: s, singlet; d, doublet, dd, doubled doublet; t, triplet; m, multiplet. J describes a coupling constant. The coupling constants were rounded off to one decimal place. MS spectra mass were recorded on Hewlett Packard 5988 spectrometer (70 eV). Elemental analyses were performed at the Microanalytical Center, Al-Azhar University. Compounds 1a–c21, 2a,b32and 3a,b33, 9 and 1034 were prepared following reported procedures.",
+                "pl_xpath": "/article/body/sec[6]/sec/p"
+            }
+        ]
+    ]
+}

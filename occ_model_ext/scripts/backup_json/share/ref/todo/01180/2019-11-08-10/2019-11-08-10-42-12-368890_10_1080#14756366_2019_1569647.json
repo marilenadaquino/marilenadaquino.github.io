@@ -1,0 +1,544 @@
+{
+    "references": [
+        {
+            "bibentry": "Bieber, T, Simon, HU. Allergen-specific immunotherapy: current concepts and future directions. Allergy 2011; 66: 709–12. PMID: 21518373",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.2011.02595.x",
+            "pmid": "21518373",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bos, JD, Wierenga, EA, Sillevis Smit, JH, et al. Immune dysregulation in atopic eczema. Arch Dermatol 1992; 128: 1509–12. PMID: 1444507",
+            "process_entry": "True",
+            "doi": "10.1001/archderm.1992.01680210087014",
+            "pmid": "1444507",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cooper, KD. Atopic dermatitis: recent trends in pathogenesis and therapy. J Invest Dermatol 1994; 102: 128–37. PMID: 8288906",
+            "process_entry": "True",
+            "doi": "10.1111/1523-1747.ep12371746",
+            "pmid": "8288906",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Jin, H, He, R, Oyoshi, M, Geha, RS. Animal models of atopic dermatitis. J Invest Dermatol 2009; 129: 31–40. PMID: 19078986",
+            "process_entry": "True",
+            "doi": "10.1038/jid.2008.106",
+            "pmid": "19078986",
+            "pmcid": "PMC2886143",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Kabashima-Kubo, R, Nakamura, M, Sakabe, J, et al. A group of atopic dermatitis without IgE elevation or barrier impairment shows a high Th1 frequency: possible immunological state of the intrinsic type. J Dermatol Sci 2012; 67: 37–43. PMID: 22591815",
+            "process_entry": "True",
+            "doi": "10.1016/j.jdermsci.2012.04.004",
+            "pmid": "22591815",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Grewe, M, Bruijnzeel-Koomen, CA, Schöpf, E, et al. A role for Th1 and Th2 cells in the immunopathogenesis of atopic dermatitis. Immunol Today 1998; 19: 359–61. PMID: 9709503",
+            "process_entry": "True",
+            "doi": "10.1016/s0167-5699(98)01285-7",
+            "pmid": "9709503",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hamid, Q, Boguniewicz, M, Leung, DY. Differential in situ cytokine gene expression in acute versus chronic atopic dermatitis. J Clin Invest 1994; 94: 870–6. PMID: 8040343",
+            "process_entry": "True",
+            "doi": "10.1172/jci117408",
+            "pmid": "8040343",
+            "pmcid": "PMC296169",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Vestergaard, C, Yoneyama, H, Murai, M, et al. Overproduction of Th2-specific chemokines in NC/Nga mice exhibiting atopic dermatitis-like lesions. J Clin Investig 1999; 104: 1097–105. PMID: 10525048",
+            "process_entry": "True",
+            "doi": "10.1172/jci7613",
+            "pmid": "10525048",
+            "pmcid": "PMC408579",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Yamada, N, Wakugawa, M, Kuwata, S, et al. Chronologic analysis of in situ cytokine expression in mite allergen-induced dermatitis in atopic subjects. J Allergy Clin Immunol 1995; 96: 1069–75. PMID: 8543764",
+            "process_entry": "True",
+            "doi": "10.1016/s0091-6749(95)70192-3",
+            "pmid": "8543764",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Venge, P. Eosinophil and neutrophil granulocytes. Allergy 1993; 48: 39–47. PMID: 8109712",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.1993.tb04697.x",
+            "pmid": "8109712",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Debnath, T, Kim, DH, Lim, BO. Natural products as a source of anti-inflammatory agents associated with inflammatory bowel disease. Molecules 2013; 18: 7253–70. PMID: 23783459",
+            "process_entry": "True",
+            "doi": "10.3390/molecules18067253",
+            "pmid": "23783459",
+            "pmcid": "PMC6270544",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Pathan, RU, Patil, SL. Synthesis and antimicrobial activity of N, N-dialkyl cinnamamides. Orient J Chem 2008; 2: 709–12.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Borul, SB, Agarkar, SV. Synthesis and characterization of novel cinnamamide derivatives and their antimicrobial activities. IOSR. J App Chem 2014; 7: 52–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Chen, G, Zhang, Y, Liu, X, et al. Discovery of a new inhibitor of myeloid differentiation 2 from cinnamamide derivatives with anti-inflammatory activity in sepsis and acute lung injury. J Med Chem 2016; 59: 2436–51. PMID: 26937738",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01574",
+            "pmid": "26937738",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Imai, K, Inagaki, M, Saitoh, Y, et al. Radical scavenging activity and cytotoxicity of phenethyl ether and cinnamic amide derivatives. Anticancer Res 2002; 22: 1661–6. PMID: 12168851",
+            "process_entry": "True",
+            "pmid": "12168851",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Fu, J, Cheng, K, Zhang, Z, et al. Synthesis, structure and structure-activity relationship analysis of caffeic acid amides as potential antimicrobials. Eur J Med Chem 2010; 45: 2638–43. PMID: 20181415",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2010.01.066",
+            "pmid": "20181415",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Rajan, P, Vedernikova, I, Cos, P, et al. Synthesis and evaluation of caffeic acid amides as antioxidants. Bioorg Med Chem Lett 2001; 11: 215–7. PMID: 11206462",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(00)00630-2",
+            "pmid": "11206462",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Alam, MS, Choi, JH, Lee, DU. Synthesis of novel Schiff base analogues of 4-amino-1,5-dimethyl-2-phenylpyrazol-3-one and their evaluation for antioxidant and anti-inflammatory activity. Bioorg Med Chem 2012; 20: 4103–8. PMID: 22626550",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2012.04.058",
+            "pmid": "22626550",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Zhu, J, Yamane, H, Paul, WE. Differentiation of effector CD4 T cell populations (*). Annu Rev Immunol 2010; 28: 445–89. PMID: 20192806",
+            "process_entry": "True",
+            "doi": "10.1146/annurev-immunol-030409-101212",
+            "pmid": "20192806",
+            "pmcid": "PMC3502616",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Kim, SH, Kim, EK, Choi, EJ. High-intensity swimming exercise increases dust mite extract and 1-chloro-2,4-dinitrobenzene-derived atopic dermatitis in BALB/c mice. Inflamm 2014; 37: 1179–85.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Dokmeci, E, Herrick, CA. The immune system and atopic dermatitis. Semin Cutan Med Surg 2008; 27: 138–43. PMID: 18620135",
+            "process_entry": "True",
+            "doi": "10.1016/j.sder.2008.04.006",
+            "pmid": "18620135",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Leung, DY. Atopic dermatitis: the skin as a window into the pathogenesis of chronic allergic diseases. J Allergy Clin Immunol 1995; 96: 302–19. PMID: 7560632",
+            "process_entry": "True",
+            "doi": "10.1016/s0091-6749(95)70049-8",
+            "pmid": "7560632",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Darlenski, R, Kazandjieva, J, Hristakieva, E, Fluhr, JW. Atopic dermatitis as a systemic disease. Clin Dermatol 2014; 32: 409–13. PMID: 24767188",
+            "process_entry": "True",
+            "doi": "10.1016/j.clindermatol.2013.11.007",
+            "pmid": "24767188",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Chen, L, Martinez, O, Overbergh, L, et al. Early up-regulation of Th2 cytokines and late surge of Th1 cytokines in an atopic dermatitis model. Clin Exp Immunol 2004; 138: 375–87. PMID: 15544612",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2249.2004.02649.x",
+            "pmid": "15544612",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Mathlouthi, M, Koenig, JL. Vibrational spectra of carbohydrates. Adv Carbohydr Chem Biochem 1986; 44: 7–89. PMID: 3544701",
+            "process_entry": "True",
+            "doi": "10.1016/s0065-2318(08)60077-3",
+            "pmid": "3544701",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Neis, MM, Peters, B, Dreuw, A, et al. Enhanced expression levels of IL-31 correlate with IL-4 and IL-13 in atopic and allergic contact dermatitis. J Allergy Clin Immunol 2006; 118: 930–7. PMID: 17030248",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2006.07.015",
+            "pmid": "17030248",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Matsui, T, Ito, C, Furukawa, H, et al. Lansiumamide B and SB-204900 isolated from Clausena lansium inhibit histamine and TNF-α release from RBL-2H3 cells. Inflamm Res 2013; 62: 333–41. PMID: 23324895",
+            "process_entry": "True",
+            "doi": "10.1007/s00011-012-0586-8",
+            "pmid": "23324895",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Rincón, M, Anguita, J, Nakamura, T, et al. Interleukin (IL)-6 directs the differentiation of IL-4-producing CD4+ T cells. J Exp Med 1997; 185: 461–9. PMID: 9053446",
+            "process_entry": "True",
+            "doi": "10.1084/jem.185.3.461",
+            "pmid": "9053446",
+            "pmcid": "PMC2196041",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Naim, M, Seifert, R, Nürnberg, B, et al. Some taste substances are direct activators of G-proteins. Biochem J 1994; 297: 451–4. PMID: 8110180",
+            "process_entry": "True",
+            "doi": "10.1042/bj2970451",
+            "pmid": "8110180",
+            "pmcid": "PMC1137854",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-30727775",
+    "doi": "10.1080/14756366.2019.1569647",
+    "pmid": "10.1080/14756366.2019.1569647",
+    "pmcid": "30727775",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30727775/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,155)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2–5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),268,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),545,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),545,198)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),744,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),744,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),143,128)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),272,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,206)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0013",
+                "rp_string": "13–15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),208,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),366,235)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Biochemical properties of polyphenolic secondary plant metabolites such as esters of cinnamic acids (e.g. caffeic, ferulic, and p-, and o-coumaric acids) have attracted considerable attention in medicine12. Cinnamic acid derivatives have low toxicity and show anti-allergic, anti-inflammatory, free radical scavenging, antitumor, and antimicrobial activities13–15. Cinnamamides are N-substituted amides of cinnamic acids and, as a scaffold of interest to medicinal chemistry, have been incorporated into synthetic compounds with antimicrobial16, neuroprotective17, and anti-inflammatory properties18.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),366,235)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Biochemical properties of polyphenolic secondary plant metabolites such as esters of cinnamic acids (e.g. caffeic, ferulic, and p-, and o-coumaric acids) have attracted considerable attention in medicine12. Cinnamic acid derivatives have low toxicity and show anti-allergic, anti-inflammatory, free radical scavenging, antitumor, and antimicrobial activities13–15. Cinnamamides are N-substituted amides of cinnamic acids and, as a scaffold of interest to medicinal chemistry, have been incorporated into synthetic compounds with antimicrobial16, neuroprotective17, and anti-inflammatory properties18.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),366,235)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Biochemical properties of polyphenolic secondary plant metabolites such as esters of cinnamic acids (e.g. caffeic, ferulic, and p-, and o-coumaric acids) have attracted considerable attention in medicine12. Cinnamic acid derivatives have low toxicity and show anti-allergic, anti-inflammatory, free radical scavenging, antitumor, and antimicrobial activities13–15. Cinnamamides are N-substituted amides of cinnamic acids and, as a scaffold of interest to medicinal chemistry, have been incorporated into synthetic compounds with antimicrobial16, neuroprotective17, and anti-inflammatory properties18.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),534,243)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),1,109)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Induction of AD lesions in the ear"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p[1]),362,91)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Analysis of mRNA expression"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,124)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on inflammatory stress in stimulated T cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,140)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),1,137)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),1,136)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ],
+                "pl_string": "An increase in IgE levels is indicative of AD progression24, as AD is an immune disorder accompanied by increased serum IgE levels25,26. In addition, as chronic AD is frequently associated with high levels of IgG antibodies27, serum IgG2a levels were measured. IgE (total and DFE-specific) and IgG2a were measured for each treatment group. As expected, alternately applying DFE and DNCB increased IgE and IgG2a levels compared to control. However, NCT and NCPA significantly reduced total and DFE-specific IgE and IgG2a levels compared with AD-only group mice. Interestingly, NCPA was also more effective than NCT.",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[4]"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),1,136)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ],
+                "pl_string": "An increase in IgE levels is indicative of AD progression24, as AD is an immune disorder accompanied by increased serum IgE levels25,26. In addition, as chronic AD is frequently associated with high levels of IgG antibodies27, serum IgG2a levels were measured. IgE (total and DFE-specific) and IgG2a were measured for each treatment group. As expected, alternately applying DFE and DNCB increased IgE and IgG2a levels compared to control. However, NCT and NCPA significantly reduced total and DFE-specific IgE and IgG2a levels compared with AD-only group mice. Interestingly, NCPA was also more effective than NCT.",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[4]"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),1,136)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),138,123)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[7]),1,160)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[7]),343,248)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[8]),267,61)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of NCT and NCPA on the morphology of the cervical lymph nodes cytokines in vivo"
+                ]
+            }
+        ]
+    ]
+}

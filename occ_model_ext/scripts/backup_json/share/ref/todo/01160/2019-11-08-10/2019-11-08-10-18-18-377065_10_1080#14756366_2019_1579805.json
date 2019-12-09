@@ -1,0 +1,811 @@
+{
+    "references": [
+        {
+            "bibentry": "Stewart, BW, Wild, CP. World Cancer Report 2014. Lyon, France; 2014 Available from: www.esmo.org/Oncology/WorldReport/2014",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ferlay, J, Shin, HR, Bray, F, et al. Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008. Int J Cancer 2010; 127: 2893–917. PMID: 21351269",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.25516",
+            "pmid": "21351269",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Siegel, R, Ward, E, Brawley, O, Jemal, A. Cancer statistics: the impact of eliminating socioeconomic and racial disparities on premature cancer deaths. CA Cancer J Clin 2011; 61: 212–36. PMID: 21685461",
+            "process_entry": "True",
+            "doi": "10.3322/caac.20121",
+            "pmid": "21685461",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Liu, HC, Chen, GG, Vlantis, AC, et al. Inhibition of apoptosis in human laryngeal cancer cells by E6 and E7 oncoproteins of human papillomavirus 16. J Cell Biochem 2008; 103: 1125–43. PMID: 17668439",
+            "process_entry": "True",
+            "doi": "10.1002/jcb.21490",
+            "pmid": "17668439",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Niu, XY, Peng, ZL, Duan, WQ, et al. Inhibition of HPV 16 E6 oncogene expression by RNA interference in vitro and in vivo. Int J Gynecol Cancer 2006; 16: 743–51. PMID: 16681755",
+            "process_entry": "True",
+            "doi": "10.1111/j.1525-1438.2006.00384.x",
+            "pmid": "16681755",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Liu, Y, McKalip, A, Herman, B. Human Papillomavirus Type 16 E6 and HPV-16 E6/E7 sensitize human keratinocytes to apoptosis induced by chemotherapeutic agents: roles of p53 and caspase activation. J Cell Biochem 2000; 78: 334–49. PMID: 10842327",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-4644(20000801)78:2<334::aid-jcb15>3.0.co;2-f",
+            "pmid": "10842327",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Nagata, S. Apoptosis by death factor. Cell 1997; 88: 355–65. PMID: 9039262",
+            "process_entry": "True",
+            "doi": "10.1016/s0092-8674(00)81874-7",
+            "pmid": "9039262",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Cory, S, Adams, JM. The Bcl2 family: regulators of the cellular life-or-death switch. Nat Rev Cancer 2002; 2: 647–56. PMID: 12209154",
+            "process_entry": "True",
+            "doi": "10.1038/nrc883",
+            "pmid": "12209154",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Danial, NN, Korsmeyer, SJ. Cell death: critical control points. Cell 2004; 116: 205–19. PMID: 14744432",
+            "process_entry": "True",
+            "doi": "10.1016/s0092-8674(04)00046-7",
+            "pmid": "14744432",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Thornberry, NA, Lazebnik, Y. Caspases: enemies within. Science 1998; 281: 1312–1 6. PMID: 9721091",
+            "process_entry": "True",
+            "doi": "10.1126/science.281.5381.1312",
+            "pmid": "9721091",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Aldridge, WN. The biochemical principles of toxicology. Exp Toxicol 1993; 556–78.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Perez, RP. Cellular and molecular determinants of cisplatin resistance. Eur J Cancer 1998; 34: 1535–42. PMID: 9893624",
+            "process_entry": "True",
+            "doi": "10.1016/s0959-8049(98)00227-5",
+            "pmid": "9893624",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrases: catalytic mechanisms, distribution and physiological roles In, Supuran, CT, Scozzafava, A, Conway, J, eds. Carbonic anhydrase: its inhibitors and activators. Boca Raton FL: CRC Press; 2004: 1–24.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Pastorekova, S, Parkkila, S, Pastorek, J, Supuran, CT. Carbonic anhydrases: current state of the art, therapeutic applications and future prospects. J Enzyme Inhib Med Chem 2004; 19: 199–229.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrases: novel therapeutic applications for inhibitors and activators. Nat Rev Drug Discov 2008; 7: 168–81. PMID: 18167490",
+            "process_entry": "True",
+            "doi": "10.1038/nrd2467",
+            "pmid": "18167490",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Said, HM, Supuran, CT, Hageman, C, et al. Modulation of carbonic anhydrase 9 (CA9) in human brain cancer. Curr Pharm Des 2010; 16: 3288–99. PMID: 20819065",
+            "process_entry": "True",
+            "doi": "10.2174/138161210793429788",
+            "pmid": "20819065",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "(a) Laningham, FH, Kun, LE, Reddick, WE, Ogg, RJ, Morris, EB, Pui, CH. Childhood central nervous system leukemia: historical perspectives, current therapy, and acute neurological sequelae. Neuroradiology 2007; 49: 873–88; PMID: 17924103",
+            "process_entry": "True",
+            "doi": "10.1007/s00234-007-0300-7",
+            "pmid": "17924103",
+            "pmcid": "PMC2386669",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Wang, XD, Gu, LQ, Wu, JY. Apoptosis-inducing activity of new pyrazoleemodin derivatives in human hepatocellular carcinoma HepG2 cells. Biol Pharm Bull 2007; 30: 1113–1 6. PMID: 17541163",
+            "process_entry": "True",
+            "doi": "10.1248/bpb.30.1113",
+            "pmid": "17541163",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Durgun, M, Turkmen, H, Ceruso, M, Supuran, CT. Synthesis of 4-sulfamoylphenyl-benzylamine derivatives with inhibitory activity against human carbonic anhydrase isoforms I, II, IX and XII. Bioorg Med Chem 2016; 24: 982–8. PMID: 26803577",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2016.01.020",
+            "pmid": "26803577",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "(a) Koyuncu, I, Gonel, A, Kocyigit, A, Temiz, E, Durgun, M, Supuran, CT. Selective inhibition of carbonic anhydrase-IX by sulphonamide derivatives induces pH and reactive oxygen species-mediated apoptosis in cervical cancer HeLa cells. J Enzyme Inhib Med Chem 2018; 33: 1137–49. (b), Koyuncu, I, Gonel, A, Durgun, M, Kocyigit, A, Yuksekdag, O, Supuran, CT. Assessment of the antiproliferative and apoptotic roles of sulfonamide carbonic anhydrase IX inhibitors in HeLa cancer cell line. J Enzyme Inhib Med Chem 2019; 34: 75–86.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Aggarwal, M, Kondeti, B, McKenna, R. Insights towards sulfonamide drug specificity in α-carbonic anhydrases. Bioorg Med Chem 2013; 21: 1526–33. PMID: 22985956",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2012.08.019",
+            "pmid": "22985956",
+            "pmcid": "PMC3593968",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Van Heerde, WL, de Groot, PG, Reutelingsperger, CP. The complexity of the phospholipid binding protein Annexin V. Thromb Haemostasis 1995; 73: 172–9. PMID: 7792726",
+            "process_entry": "True",
+            "pmid": "7792726",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Van den Eijnde, SM, Luijsterburg, AJ, Boshart, L, et al. In situ detection of apoptosis during embryogenesis with Annexin V: from whole mount to ultrastructure. Cytometry 1997; 29: 313–20. PMID: 9415414",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-0320(19971201)29:4<313::aid-cyto8>3.0.co;2-a",
+            "pmid": "9415414",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Vermeulen, K, Van Bockstaele, DR, Berneman, ZN. The cell cycle: a review of regulation, deregulation and therapeutic targets in cancer. Cell Prolif 2003; 36: 131–49. PMID: 12814430",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2184.2003.00266.x",
+            "pmid": "12814430",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Erel, O. A novel automated direct measurement method for total antioxidant capacity using a new generation, more stable ABTS radical cation. Clin Biochem 2004; 37: 277–85. PMID: 15003729",
+            "process_entry": "True",
+            "doi": "10.1016/j.clinbiochem.2003.11.015",
+            "pmid": "15003729",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Erel, O. A new automated colorimetric method for measuring total oxidant status. Clin Biochem 2005; 38: 1103–11. PMID: 16214125",
+            "process_entry": "True",
+            "doi": "10.1016/j.clinbiochem.2005.08.008",
+            "pmid": "16214125",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Dikilitas, M, Guldur, ME, Deryaoglu, A, ER, O. Antioxidant and oxidant levels of pepper (Capsicum annuum cv. ‘Charlee’) infected with pepper mild mottle virus. Notulae Botanicae Horti Agrobotanici Cluj-Napoca 2011; 39: 58–63.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Fridlender, M, Kapulnik, Y, Koltai, H. Plant derived substances with anti-cancer activity from folklore to practice. Front Plant Sci 2015; 6: 799. PMID: 26483815",
+            "process_entry": "True",
+            "doi": "10.3389/fpls.2015.00799",
+            "pmid": "26483815",
+            "pmcid": "PMC4589652",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Li, Z, Chu, T. Recent advances on radionuclide labeled hypoxia-imaging agents. Curr Pharm Des 2012; 18: 1084–97. PMID: 22272826",
+            "process_entry": "True",
+            "doi": "10.2174/138161212799315849",
+            "pmid": "22272826",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Alterio, V, Di Fiore, A, D’Ambrosio, K, et al. Multiple binding modes of inhibitors to carbonic anhydrases how to design specific drugs targeting 15 different isoforms. Chem Rev 2012; 112: 4421–68. PMID: 22607219",
+            "process_entry": "True",
+            "doi": "10.1021/cr200176r",
+            "pmid": "22607219",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Pacchiano, F, Carta, F, McDonald, PC, et al. Ureido-substituted benzenesulfonamides potently inhibit carbonic anhydrase IX and show antimetastatic activity in a model of breast cancer metastasis. J Med Chem 2011; 54: 1896–902. PMID: 21361354",
+            "process_entry": "True",
+            "doi": "10.1021/jm101541x",
+            "pmid": "21361354",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Chakrabarti, A, Patel, H, Price, J, et al. Carbon nanotubes in cancer therapy including Boron Neutron Capture Therapy (BNCT). Life Sciences 2012; 16: 403–18.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Ma, C, Song, M, Zhang, Y, et al. Nickel nanowires induce cell cycle arrest and apoptosis by generation of reactive oxygen species in HeLa cells. Toxicol Rep 2014; 1: 114–21. PMID: 28962232",
+            "process_entry": "True",
+            "doi": "10.1016/j.toxrep.2014.04.008",
+            "pmid": "28962232",
+            "pmcid": "PMC5598471",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Ray, PD, Huang, BW, Tsuji, Y. Reactive oxygen species (ROS) homeostasis and redox regulation in cellular signaling. Cell Signal 2012; 24: 981–90. PMID: 22286106",
+            "process_entry": "True",
+            "doi": "10.1016/j.cellsig.2012.01.008",
+            "pmid": "22286106",
+            "pmcid": "PMC3454471",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Chen, CR, Xia, YH, Yao, SY, et al. Virosecurinine induces apoptosis by affecting Bcl-2 and Bax expression in human colon cancer SW480 cells. Pharmazie 2012; 67: 351. PMID: 22570942",
+            "process_entry": "True",
+            "pmid": "22570942",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "DiMeo, S, Reed, TT, Venditti, P, Victor, VM. Role of ROS and RNS sources in physiological and pathological conditions. Oxid Med Cell Longev 2016;2016:1245049.",
+            "process_entry": "True",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Sies, H. Strategies of antioxidant defense. Eur J Biochem 1993; 15: 213–1 9.",
+            "process_entry": "True",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Parola, M, Bellomo, G, Robino, G, et al. 4-Hydroxynonenal as a biological signal: molecular basis and pathophysiological implications. Antioxid Redox Sign 1999; 1: 255–84.",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Tülüce, Y, Ahmed, BA, Koyuncu, İ, Durgun, M. The cytotoxic, apoptotic and oxidative effects of carbonic anhydrase IX inhibitor on colorectal cancer cells. J Bioenerg Biomembr 2018; 50: 107–16. PMID: 29520697",
+            "process_entry": "True",
+            "doi": "10.1007/s10863-018-9749-9",
+            "pmid": "29520697",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Tuluce, Y, Gorgisen, G, Gulacar, IM, et al. Antiproliferative and apoptotic role of novel synthesized Cu (II) complex with 3-(3-(4-fluorophenyl) Triaz-1-en-1-yl) benzenesulfonamide in common cancer models. Anticancer Res 2018; 38: 5115–20. PMID: 30194157",
+            "process_entry": "True",
+            "doi": "10.21873/anticanres.12832",
+            "pmid": "30194157",
+            "xmlid": "CIT0040"
+        }
+    ],
+    "localid": "MED-30810431",
+    "doi": "10.1080/14756366.2019.1579805",
+    "pmid": "10.1080/14756366.2019.1579805",
+    "pmcid": "30810431",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30810431/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,304)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),307,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),530,103)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),635,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),863,167)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1032,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7–9",
+                "pl_string": "7–9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1489,201)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "7–9",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1489,201)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "7–9",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1489,201)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7–9",
+                "pl_string": "7–9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1489,201)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),210,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),392,206)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1364,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1492,155)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1764,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1862,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),2272,167)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),2441,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),2912,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),153,139)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,140)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Novel aromatic sulfonamide derivative (S-1) as a CAIX inhibitor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),561,80)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Novel aromatic sulfonamide derivative (S-1) as a CAIX inhibitor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,207)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Apoptosis assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),210,155)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Apoptosis assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,151)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cell cycle assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1,109)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Intracellular TAS determination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,109)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Intracellular TOS determination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p[1]),1,112)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Oxidative stress index"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),478,129)",
+                "containers_title": [
+                    "Results",
+                    "Effect of S-1 on cell proliferation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),139,196)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,167)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),170,262)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),434,163)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),203,129)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),212,118)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),558,216)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),776,152)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),577,203)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),134,122)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),398,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0038",
+                "rp_string": "38–40",
+                "pl_string": "38–40",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[4]",
+                "pl_xpath": "/article/body/sec[4]/p[10]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),398,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "",
+                "pl_string": "38–40",
+                "pl_xpath": "/article/body/sec[4]/p[10]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),398,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "",
+                "pl_string": "38–40",
+                "pl_xpath": "/article/body/sec[4]/p[10]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),398,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

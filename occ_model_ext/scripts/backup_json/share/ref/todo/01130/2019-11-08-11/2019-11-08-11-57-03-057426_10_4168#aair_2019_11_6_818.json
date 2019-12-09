@@ -1,0 +1,787 @@
+{
+    "references": [
+        {
+            "bibentry": "Wouters, IM, Spaan, S, Douwes, J, Doekes, G, Heederik, D. Overview of personal occupational exposure levels to inhalable dust, endotoxin, beta(1->3)-glucan and fungal extracellular polysaccharides in the waste management chain, Ann Occup Hyg, 2006, 50, 39, 53, PMID: 16141253",
+            "process_entry": "True",
+            "doi": "10.1093/annhyg/mei047",
+            "pmid": "16141253",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Langley, RL. Consequences of respiratory exposures in the farm environment, N C Med J, 2011, 72, 477, 480, PMID: 22523860",
+            "process_entry": "True",
+            "pmid": "22523860",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Millner, PD. Bioaerosols associated with animal production operations, Bioresour Technol, 2009, 100, 5379, 5385, PMID: 19395257",
+            "process_entry": "True",
+            "doi": "10.1016/j.biortech.2009.03.026",
+            "pmid": "19395257",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Bolund, AC, Miller, MR, Sigsgaard, T, Schlünssen, V. The effect of organic dust exposure on long-term change in lung function: a systematic review and meta-analysis, Occup Environ Med, 2017, 74, 531, 542, PMID: 28404791",
+            "process_entry": "True",
+            "doi": "10.1136/oemed-2016-103963",
+            "pmid": "28404791",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Stang, A. Critical evaluation of the Newcastle-Ottawa scale for the assessment of the quality of nonrandomized studies in meta-analyses, Eur J Epidemiol, 2010, 25, 603, 605, PMID: 20652370",
+            "process_entry": "True",
+            "doi": "10.1007/s10654-010-9491-z",
+            "pmid": "20652370",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Higgins, JP, Thompson, SG, Deeks, JJ, Altman, DG. Measuring inconsistency in meta-analyses, BMJ, 2003, 327, 557, 560, PMID: 12958120",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.327.7414.557",
+            "pmid": "12958120",
+            "pmcid": "PMC192859",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Gumedze, FN, Jackson, D. A random effects variance shift model for detecting and accommodating outliers in meta-analysis, BMC Med Res Methodol, 2011, 11, 19, PMID: 21324180",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2288-11-19",
+            "pmid": "21324180",
+            "pmcid": "PMC3050872",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Ng, TP, Hong, CY, Goh, LG, Wong, ML, Koh, KT, Ling, SL. Risks of asthma associated with occupations in a community-based case-control study, Am J Ind Med, 1994, 25, 709, 718, PMID: 8030641",
+            "process_entry": "True",
+            "doi": "10.1002/ajim.4700250510",
+            "pmid": "8030641",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Krstev, S, Ji, BT, Shu, XO, Blair, A, Zheng, W, Lubin, J. Occupation and adult-onset asthma among Chinese women in a population-based cohort, Am J Ind Med, 2007, 50, 265, 273, PMID: 17311256",
+            "process_entry": "True",
+            "doi": "10.1002/ajim.20439",
+            "pmid": "17311256",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Vermeulen, R, Heederik, D, Kromhout, H, Smit, HA. Respiratory symptoms and occupation: a cross-sectional study of the general population, Environ Health, 2002, 1, 5, PMID: 12537592",
+            "process_entry": "True",
+            "doi": "10.1186/1476-069X-1-5",
+            "pmid": "12537592",
+            "pmcid": "PMC149394",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Wortong, D, Chaiear, N, Boonsawat, W. Risk of asthma in relation to occupation: a hospital-based case-control study, Asian Pac J Allergy Immunol, 2015, 33, 152, 160, PMID: 26141037",
+            "process_entry": "True",
+            "doi": "10.12932/ap0487.33.1.2015",
+            "pmid": "26141037",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Wang, TN, Lin, MC, Wu, CC, Leung, SY, Huang, MS, Chuang, HY. Risks of exposure to occupational asthmogens in atopic and nonatopic asthma: a case-control study in Taiwan, Am J Respir Crit Care Med, 2010, 182, 1369, 1376, PMID: 20639444",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200906-0969oc",
+            "pmid": "20639444",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Sripaiboonkij, P, Phanprasit, W, Jaakkola, MS. Respiratory and skin effects of exposure to wood dust from the rubber tree Hevea brasiliensis, Occup Environ Med, 2009, 66, 442, 447, PMID: 19188201",
+            "process_entry": "True",
+            "doi": "10.1136/oem.2008.042150",
+            "pmid": "19188201",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Torén, K, Järvholm, B, Brisman, J, Hagberg, S, Hermansson, BA, Lillienberg, L. Adult-onset asthma and occupational exposures, Scand J Work Environ Health, 1999, 25, 430, 435, PMID: 10569463",
+            "process_entry": "True",
+            "doi": "10.5271/sjweh.456",
+            "pmid": "10569463",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Beach, J, Burstyn, I, Cherry, N. Estimating the extent and distribution of new-onset adult asthma in British Columbia using frequentist and Bayesian approaches, Ann Occup Hyg, 2012, 56, 719, 727, PMID: 22378842",
+            "process_entry": "True",
+            "doi": "10.1093/annhyg/mes004",
+            "pmid": "22378842",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Lipscomb, HJ, Dement, JM. Respiratory diseases among union carpenters: cohort and case-control analyses, Am J Ind Med, 1998, 33, 131, 150, PMID: 9438046",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-0274(199802)33:2<131::aid-ajim5>3.0.co;2-0",
+            "pmid": "9438046",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Schlünssen, V, Schaumburg, I, Heederik, D, Taudorf, E, Sigsgaard, T. Indices of asthma among atopic and non-atopic woodworkers, Occup Environ Med, 2004, 61, 504, 511, PMID: 15150389",
+            "process_entry": "True",
+            "doi": "10.1136/oem.2003.007815",
+            "pmid": "15150389",
+            "pmcid": "PMC1763653",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Mastrangelo, G, Bombana, S, Priante, E, Gallo, A, Saia, B. Repeated case-control studies as a method of surveillance for asthma in occupations, J Occup Environ Med, 1997, 39, 51, 57, PMID: 9029431",
+            "process_entry": "True",
+            "doi": "10.1097/00043764-199701000-00010",
+            "pmid": "9029431",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Flodin, U, Jönsson, P. Non-sensitising air pollution at workplaces and adult onset asthma, Int Arch Occup Environ Health, 2004, 77, 17, 22, PMID: 14504955",
+            "process_entry": "True",
+            "doi": "10.1007/s00420-003-0466-1",
+            "pmid": "14504955",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Flodin, U, Ziegler, J, Jönsson, P, Axelson, O. Bronchial asthma and air pollution at workplaces, Scand J Work Environ Health, 1996, 22, 451, 456, PMID: 9000313",
+            "process_entry": "True",
+            "doi": "10.5271/sjweh.167",
+            "pmid": "9000313",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Jaakkola, MS, Jaakkola, JJ. Office work exposures and adult-onset asthma, Environ Health Perspect, 2007, 115, 1007, 1011, PMID: 17637914",
+            "process_entry": "True",
+            "doi": "10.1289/ehp.9875",
+            "pmid": "17637914",
+            "pmcid": "PMC1913573",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Jaakkola, JJ, Piipari, R, Jaakkola, MS. Occupation and asthma: a population-based incident case-control study, Am J Epidemiol, 2003, 158, 981, 987, PMID: 14607806",
+            "process_entry": "True",
+            "doi": "10.1093/aje/kwg238",
+            "pmid": "14607806",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Kogevinas, M, Antó, JM, Soriano, JB, Tobias, A, Burney, P. The risk of asthma attributable to occupational exposures. A population-based study in Spain. Spanish Group of the European Asthma Study, Am J Respir Crit Care Med, 1996, 154, 137, 143, PMID: 8680669",
+            "process_entry": "True",
+            "doi": "10.1164/ajrccm.154.1.8680669",
+            "pmid": "8680669",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Smit, LA, Hooiveld, M, van der Sman-de Beer, F, Opstal-van Winden, AW, Beekhuizen, J, Wouters, IM. Air pollution from livestock farms, and asthma, allergic rhinitis and COPD among neighbouring residents, Occup Environ Med, 2014, 71, 134, 140, PMID: 24142990",
+            "process_entry": "True",
+            "doi": "10.1136/oemed-2013-101485",
+            "pmid": "24142990",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Sigsgaard, T, Schlunssen, V. Occupational asthma diagnosis in workers exposed to organic dust, Ann Agric Environ Med, 2004, 11, 1, 7, PMID: 15236491",
+            "process_entry": "True",
+            "pmid": "15236491",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Kim, YS, Choi, JP, Kim, MH, Park, HK, Yang, S, Kim, YS. IgG sensitization to extracellular vesicles in indoor dust is closely associated with the prevalence of non-eosinophilic asthma, COPD, and lung cancer, Allergy Asthma Immunol Res, 2016, 8, 198, 205, PMID: 26922929",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2016.8.3.198",
+            "pmid": "26922929",
+            "pmcid": "PMC4773207",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Wunschel, J, Poole, JA. Occupational agriculture organic dust exposure and its relationship to asthma and airway inflammation in adults, J Asthma, 2016, 53, 471, 477, PMID: 26785925",
+            "process_entry": "True",
+            "doi": "10.3109/02770903.2015.1116089",
+            "pmid": "26785925",
+            "pmcid": "PMC4946797",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Kim, JL, Henneberger, PK, Lohman, S, Olin, AC, Dahlman-Höglund, A, Andersson, E. Impact of occupational exposures on exacerbation of asthma: a population-based asthma cohort study, BMC Pulm Med, 2016, 16, 148, PMID: 27842581",
+            "process_entry": "True",
+            "doi": "10.1186/s12890-016-0306-1",
+            "pmid": "27842581",
+            "pmcid": "PMC5109668",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "Søyseth, V, Johnsen, HL, Henneberger, PK, Kongerud, J. The incidence of work-related asthma-like symptoms and dust exposure in Norwegian smelters, Am J Respir Crit Care Med, 2012, 185, 1280, 1285, PMID: 22517789",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.201110-1809oc",
+            "pmid": "22517789",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Garshick, E, Laden, F, Hart, JE, Caron, A. Residence near a major road and respiratory symptoms in U.S. veterans, Epidemiology, 2003, 14, 728, 736, PMID: 14569190",
+            "process_entry": "True",
+            "doi": "10.1097/01.ede.0000082045.50073.66",
+            "pmid": "14569190",
+            "pmcid": "PMC1351073",
+            "xmlid": "B30"
+        },
+        {
+            "bibentry": "Poole, JA, Dooley, GP, Saito, R, Burrell, AM, Bailey, KL, Romberger, DJ. Muramic acid, endotoxin, 3-hydroxy fatty acids, and ergosterol content explain monocyte and epithelial cell inflammatory responses to agricultural dusts, J Toxicol Environ Health A, 2010, 73, 684, 700, PMID: 20391112",
+            "process_entry": "True",
+            "doi": "10.1080/15287390903578539",
+            "pmid": "20391112",
+            "pmcid": "PMC2856089",
+            "xmlid": "B31"
+        },
+        {
+            "bibentry": "Poole, JA, Wyatt, TA, Von Essen, SG, Hervert, J, Parks, C, Mathisen, T. Repeat organic dust exposure-induced monocyte inflammation is associated with protein kinase C activity, J Allergy Clin Immunol, 2007, 120, 366, 373, PMID: 17555806",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2007.04.033",
+            "pmid": "17555806",
+            "xmlid": "B32"
+        },
+        {
+            "bibentry": "Poole, JA, Wyatt, TA, Kielian, T, Oldenburg, P, Gleason, AM, Bauer, A. Toll-like receptor 2 regulates organic dust-induced airway inflammation, Am J Respir Cell Mol Biol, 2011, 45, 711, 719, PMID: 21278324",
+            "process_entry": "True",
+            "doi": "10.1165/rcmb.2010-0427OC",
+            "pmid": "21278324",
+            "pmcid": "PMC3208620",
+            "xmlid": "B33"
+        },
+        {
+            "bibentry": "Bauer, C, Kielian, T, Wyatt, TA, Romberger, DJ, West, WW, Gleason, AM. Myeloid differentiation factor 88-dependent signaling is critical for acute organic dust-induced airway inflammation in mice, Am J Respir Cell Mol Biol, 2013, 48, 781, 789, PMID: 23492189",
+            "process_entry": "True",
+            "doi": "10.1165/rcmb.2012-0479OC",
+            "pmid": "23492189",
+            "pmcid": "PMC3727869",
+            "xmlid": "B34"
+        },
+        {
+            "bibentry": "Robbe, P, Spierenburg, EA, Draijer, C, Brandsma, CA, Telenga, E, van Oosterhout, AJ. Shifted T-cell polarisation after agricultural dust exposure in mice and men, Thorax, 2014, 69, 630, 637, PMID: 24536057",
+            "process_entry": "True",
+            "doi": "10.1136/thoraxjnl-2013-204295",
+            "pmid": "24536057",
+            "xmlid": "B35"
+        },
+        {
+            "bibentry": "Poole, JA, Gleason, AM, Bauer, C, West, WW, Alexis, N, van Rooijen, N. CD11c(+)/CD11b(+) cells are critical for organic dust-elicited murine lung inflammation, Am J Respir Cell Mol Biol, 2012, 47, 652, 659, PMID: 22822029",
+            "process_entry": "True",
+            "doi": "10.1165/rcmb.2012-0095OC",
+            "pmid": "22822029",
+            "pmcid": "PMC3547108",
+            "xmlid": "B36"
+        },
+        {
+            "bibentry": "Robbe, P, Draijer, C, Borg, TR, Luinge, M, Timens, W, Wouters, IM. Distinct macrophage phenotypes in allergic and nonallergic lung inflammation, Am J Physiol Lung Cell Mol Physiol, 2015, 308, L358, 67, PMID: 25502502",
+            "process_entry": "True",
+            "doi": "10.1152/ajplung.00341.2014",
+            "pmid": "25502502",
+            "xmlid": "B37"
+        },
+        {
+            "bibentry": "Poole, JA, Gleason, AM, Bauer, C, West, WW, Alexis, N, Reynolds, SJ. αβ T cells and a mixed Th1/Th17 response are important in organic dust-induced airway disease, Ann Allergy Asthma Immunol, 2012, 109, 266, 273.e2, PMID: 23010233",
+            "process_entry": "True",
+            "doi": "10.1016/j.anai.2012.06.015",
+            "pmid": "23010233",
+            "pmcid": "PMC4019222",
+            "xmlid": "B38"
+        },
+        {
+            "bibentry": "Guillam, MT, Martin, S, Le Guelennec, M, Puterflam, J, Le Bouquin, S, Huneau-Salaün, A. Dust exposure and health of workers in duck hatcheries, Ann Agric Environ Med, 2017, 24, 360, 365, PMID: 28954471",
+            "process_entry": "True",
+            "doi": "10.26444/aaem/75670",
+            "pmid": "28954471",
+            "xmlid": "B39"
+        },
+        {
+            "bibentry": "Hinson, AV, Lokossou, VK, Schlünssen, V, Agodokpessi, G, Sigsgaard, T, Fayomi, B. Cotton dust exposure and respiratory disorders among textile workers at a textile company in the southern part of Benin, Int J Environ Res Public Health, 2016, 13, E895, PMID: 27618081",
+            "process_entry": "True",
+            "doi": "10.3390/ijerph13090895",
+            "pmid": "27618081",
+            "pmcid": "PMC5036728",
+            "xmlid": "B40"
+        },
+        {
+            "bibentry": "Christiani, DC, Ye, TT, Zhang, S, Wegman, DH, Eisen, EA, Ryan, LA. Cotton dust and endotoxin exposure and long-term decline in lung function: results of a longitudinal study, Am J Ind Med, 1999, 35, 321, 331, PMID: 10086207",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-0274(199904)35:4<321::aid-ajim1>3.0.co;2-l",
+            "pmid": "10086207",
+            "xmlid": "B41"
+        },
+        {
+            "bibentry": "Glindmeyer, HW, Lefante, JJ, Jones, RN, Rando, RJ, Abdel Kader, HM, Weill, H. Exposure-related declines in the lung function of cotton textile workers. Relationship to current workplace standards, Am Rev Respir Dis, 1991, 144, 675, 683, PMID: 1892310",
+            "process_entry": "True",
+            "doi": "10.1164/ajrccm/144.3_pt_1.675",
+            "pmid": "1892310",
+            "xmlid": "B42"
+        },
+        {
+            "bibentry": "Dimich-Ward, H, Beking, K, DyBuncio, A, Chan-Yeung, M, Du, W, Karlen, B. Occupational exposure influences on gender differences in respiratory health, Lung, 2012, 190, 147, 154, PMID: 22083421",
+            "process_entry": "True",
+            "doi": "10.1007/s00408-011-9344-x",
+            "pmid": "22083421",
+            "xmlid": "B43"
+        },
+        {
+            "bibentry": "Viegas, S, Faísca, VM, Dias, H, Clérigo, A, Carolino, E, Viegas, C. Occupational exposure to poultry dust and effects on the respiratory system in workers, J Toxicol Environ Health A, 2013, 76, 230, 239, PMID: 23514065",
+            "process_entry": "True",
+            "doi": "10.1080/15287394.2013.757199",
+            "pmid": "23514065",
+            "xmlid": "B44"
+        },
+        {
+            "bibentry": "Parsons, MA, Beach, J, Senthilselvan, A. Association of living in a farming environment with asthma incidence in Canadian children, J Asthma, 2017, 54, 239, 249, PMID: 27383380",
+            "process_entry": "True",
+            "doi": "10.1080/02770903.2016.1206564",
+            "pmid": "27383380",
+            "xmlid": "B45"
+        },
+        {
+            "bibentry": "Kääriö, H, Nieminen, JK, Karvonen, AM, Huttunen, K, Schröder, PC, Vaarala, O. Circulating dendritic cells, farm exposure and asthma at early age, Scand J Immunol, 2016, 83, 18, 25, PMID: 26368653",
+            "process_entry": "True",
+            "doi": "10.1111/sji.12389",
+            "pmid": "26368653",
+            "xmlid": "B46"
+        },
+        {
+            "bibentry": "Viegas, S, Caetano, LA, Korkalainen, M, Faria, T, Pacífico, C, Carolino, E. Cytotoxic and inflammatory potential of air samples from occupational settings with exposure to organic dust, Toxics, 2017, 5, E8, PMID: 29051440",
+            "process_entry": "True",
+            "doi": "10.3390/toxics5010008",
+            "pmid": "29051440",
+            "pmcid": "PMC5606674",
+            "xmlid": "B47"
+        },
+        {
+            "bibentry": "Hoppe Parr, KA, Hađina, S, Kilburg-Basnyat, B, Wang, Y, Chavez, D, Thorne, PS. Modification of sample processing for the Limulus amebocyte lysate assay enhances detection of inflammogenic endotoxin in intact bacteria and organic dust, Innate Immun, 2017, 23, 307, 318, PMID: 28359219",
+            "process_entry": "True",
+            "doi": "10.1177/1753425917694084",
+            "pmid": "28359219",
+            "pmcid": "PMC5814115",
+            "xmlid": "B48"
+        }
+    ],
+    "localid": "MED-31552717",
+    "doi": "10.4168/aair.2019.11.6.818",
+    "pmid": "10.4168/aair.2019.11.6.818",
+    "pmcid": "31552717",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31552717/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,426)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),428,178)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),184,204)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),90,245)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Quality assessment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),145,156)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),351,215)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),238,139)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[1]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[1]/td[1]),1,21)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[5]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[5]/td[1]),1,22)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[6]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[6]/td[1]),1,27)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[7]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[7]/td[1]),1,30)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[8]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[8]/td[1]),1,24)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[12]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[12]/td[1]),1,25)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[15]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[15]/td[1]),1,21)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[18]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[18]/td[1]),1,28)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[20]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[20]/td[1]),1,27)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[22]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[22]/td[1]),1,17)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[23]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[23]/td[1]),1,33)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[24]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[24]/td[1]),1,20)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[25]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[25]/td[1]),1,29)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[26]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[26]/td[1]),1,21)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[27]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[27]/td[1]),1,25)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[29]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[29]/td[1]),1,20)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[31]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/alternatives/table/tbody/tr[31]/td[1]),1,23)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),91,252)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,702)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),704,404)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,613)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),615,468)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B39",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,168)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B40",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),170,184)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B41",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),355,176)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),532,368)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B45",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,492)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B47",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),183,294)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

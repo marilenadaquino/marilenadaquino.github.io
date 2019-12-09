@@ -1,0 +1,759 @@
+{
+    "references": [
+        {
+            "bibentry": "Chang, AE, Karnell, LH, Menck, HR. The National Cancer Data Base report on cutaneous and noncutaneous melanoma: a summary of 84,836 cases from the past decade. The American College of Surgeons Commission on Cancer and the American Cancer Society, Cancer, 1998, 83, 1664, 1678, PMID: 9781962",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1097-0142(19981015)83:8<1664::aid-cncr23>3.0.co;2-g",
+            "pmid": "9781962",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Vaysse, C, Pautier, P, Filleron, T, Maisongrosse, V, Rodier, JF, Lavoue, V. A large retrospective multicenter study of vaginal melanomas: implications for new management, Melanoma Res, 2013, 23, 138, 146, PMID: 23449321",
+            "process_entry": "True",
+            "doi": "10.1097/cmr.0b013e32835e590e",
+            "pmid": "23449321",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Mert, I, Semaan, A, Winer, I, Morris, RT, Ali-Fehmi, R. Vulvar/vaginal melanoma: an updated surveillance epidemiology and end results database review, comparison with cutaneous melanoma and significance of racial disparities, Int J Gynecol Cancer, 2013, 23, 1118, 1125, PMID: 23765206",
+            "process_entry": "True",
+            "doi": "10.1097/igc.0b013e3182980ffb",
+            "pmid": "23765206",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Mihajlovic, M, Vlajkovic, S, Jovanovic, P, Stefanovic, V. Primary mucosal melanomas: a comprehensive review, Int J Clin Exp Pathol, 2012, 5, 739, 753, PMID: 23071856",
+            "process_entry": "True",
+            "pmid": "23071856",
+            "pmcid": "PMC3466987",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Yi, JH, Yi, SY, Lee, HR, Lee, SI, Lim, DH, Kim, JH. Dacarbazine-based chemotherapy as first-line treatment in noncutaneous metastatic melanoma: multicenter, retrospective analysis in Asia, Melanoma Res, 2011, 21, 223, 227, PMID: 21471822",
+            "process_entry": "True",
+            "doi": "10.1097/cmr.0b013e3283457743",
+            "pmid": "21471822",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Hodi, FS, O'Day, SJ, McDermott, DF, Weber, RW, Sosman, JA, Haanen, JB. Improved survival with ipilimumab in patients with metastatic melanoma, N Engl J Med, 2010, 363, 711, 723, PMID: 20525992",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1003466",
+            "pmid": "20525992",
+            "pmcid": "PMC3549297",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Robert, C, Long, GV, Brady, B, Dutriaux, C, Maio, M, Mortier, L. Nivolumab in previously untreated melanoma without BRAF mutation, N Engl J Med, 2015, 372, 320, 330, PMID: 25399552",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa1412082",
+            "pmid": "25399552",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Weber, JS, D'Angelo, SP, Minor, D, Hodi, FS, Gutzmer, R, Neyns, B. Nivolumab versus chemotherapy in patients with advanced melanoma who progressed after anti-CTLA-4 treatment (CheckMate 037): a randomised, controlled, open-label, phase 3 trial, Lancet Oncol, 2015, 16, 375, 384, PMID: 25795410",
+            "process_entry": "True",
+            "doi": "10.1016/s1470-2045(15)70076-8",
+            "pmid": "25795410",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Larkin, J, Ascierto, PA, Dréno, B, Atkinson, V, Liszkay, G, Maio, M. Combined vemurafenib and cobimetinib in BRAF-mutated melanoma, N Engl J Med, 2014, 371, 1867, 1876, PMID: 25265494",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa1408868",
+            "pmid": "25265494",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Long, GV, Stroyakovskiy, D, Gogas, H, Levchenko, E, de Braud, F, Larkin, J. Dabrafenib and trametinib versus dabrafenib and placebo for Val600 BRAF-mutant melanoma: a multicentre, double-blind, phase 3 randomised controlled trial, Lancet, 2015, 386, 444, 451, PMID: 26037941",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(15)60898-4",
+            "pmid": "26037941",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Udager, AM, Frisch, NK, Hong, LJ, Stasenko, M, Johnston, CM, Liu, JR. Gynecologic melanomas: a clinicopathologic and molecular analysis, Gynecol Oncol, 2017, 147, 351, 357, PMID: 28844540",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2017.08.023",
+            "pmid": "28844540",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Rouzbahman, M, Kamel-Reid, S, Al Habeeb, A, Butler, M, Dodge, J, Laframboise, S. Malignant melanoma of vulva and vagina: a histomorphological review and mutation analysis-a single-center study, J Low Genit Tract Dis, 2015, 19, 350, 353, PMID: 26225944",
+            "process_entry": "True",
+            "doi": "10.1097/lgt.0000000000000142",
+            "pmid": "26225944",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Kalinsky, K, Lee, S, Rubin, KM, Lawrence, DP, Iafrarte, AJ, Borger, DR. A phase 2 trial of dasatinib in patients with locally advanced or stage IV mucosal, acral, or vulvovaginal melanoma: a trial of the ECOG-ACRIN Cancer Research Group (E2607), Cancer, 2017, 123, 2688, 2697, PMID: 28334439",
+            "process_entry": "True",
+            "doi": "10.1002/cncr.30663",
+            "pmid": "28334439",
+            "pmcid": "PMC5498223",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Hodi, FS, Corless, CL, Giobbie-Hurder, A, Fletcher, JA, Zhu, M, Marino-Enriquez, A. Imatinib for melanomas harboring mutationally activated or amplified KIT arising on mucosal, acral, and chronically sun-damaged skin, J Clin Oncol, 2013, 31, 3182, 3190, PMID: 23775962",
+            "process_entry": "True",
+            "doi": "10.1200/JCO.2012.47.7836",
+            "pmid": "23775962",
+            "pmcid": "PMC4878082",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Guo, J, Carvajal, RD, Dummer, R, Hauschild, A, Daud, A, Bastian, BC. Efficacy and safety of nilotinib in patients with KIT-mutated metastatic or inoperable melanoma: final results from the global, single-arm, phase II TEAM trial, Ann Oncol, 2017, 28, 1380, 1387, PMID: 28327988",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdx079",
+            "pmid": "28327988",
+            "pmcid": "PMC5452069",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Schiavone, MB, Broach, V, Shoushtari, AN, Carvajal, RD, Alektiar, K, Kollmeier, MA. Combined immunotherapy and radiation for treatment of mucosal melanomas of the lower genital tract, Gynecol Oncol Rep, 2016, 16, 42, 46, PMID: 27331137",
+            "process_entry": "True",
+            "doi": "10.1016/j.gore.2016.04.001",
+            "pmid": "27331137",
+            "pmcid": "PMC4899413",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Chanal, J, Kramkimel, N, Guegan, S, Moguelet, P, Fourchotte, V, Avril, MF. Locally advanced unresectable vaginal melanoma: response with anti-programmed death receptor 1, J Low Genit Tract Dis, 2016, 20, e4, 5, PMID: 26704337",
+            "process_entry": "True",
+            "doi": "10.1097/lgt.0000000000000168",
+            "pmid": "26704337",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "D'Angelo, SP, Larkin, J, Sosman, JA, Lebbé, C, Brady, B, Neyns, B. Efficacy and safety of nivolumab alone or in combination with ipilimumab in patients with mucosal melanoma: a pooled analysis, J Clin Oncol, 2017, 35, 226, 235, PMID: 28056206",
+            "process_entry": "True",
+            "doi": "10.1200/JCO.2016.67.9258",
+            "pmid": "28056206",
+            "pmcid": "PMC5559888",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Del Vecchio, M, Di Guardo, L, Ascierto, PA, Grimaldi, AM, Sileni, VC, Pigozzo, J. Efficacy and safety of ipilimumab 3mg/kg in patients with pretreated, metastatic, mucosal melanoma, Eur J Cancer, 2014, 50, 121, 127, PMID: 24100024",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejca.2013.09.007",
+            "pmid": "24100024",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Ditto, A, Bogani, G, Martinelli, F, Di Donato, V, Laufer, J, Scasso, S. Surgical management and prognostic factors of vulvovaginal melanoma, J Low Genit Tract Dis, 2016, 20, e24, 9, PMID: 27030881",
+            "process_entry": "True",
+            "doi": "10.1097/lgt.0000000000000204",
+            "pmid": "27030881",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Gershenwald, JE, Scolyer, RA, Hess, KR. Melanoma staging: evidence-based changes in the American Joint Committee on Cancer eighth edition cancer staging manual, CA Cancer J Clin, 2017, 67, 472, 492, PMID: 29028110",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21409",
+            "pmid": "29028110",
+            "pmcid": "PMC5978683",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Massard, C, Borget, I, Farace, F, Aspeslagh, S, Le Deley, MC, Le Tourneau, C. RECIST response and variation of circulating tumour cells in phase 1 trials: a prospective multicentric study, Eur J Cancer, 2017, 83, 185, 193, PMID: 28743036",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejca.2017.05.016",
+            "pmid": "28743036",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Nagarajan, P, Curry, JL, Ning, J, Piao, J, Torres-Cabala, CA, Aung, PP. Tumor thickness and mitotic rate robustly predict melanoma-specific survival in patients with primary vulvar melanoma: a retrospective review of 100 Cases, Clin Cancer Res, 2017, 23, 2093, 2104, PMID: 27864417",
+            "process_entry": "True",
+            "doi": "10.1158/1078-0432.ccr-16-2126",
+            "pmid": "27864417",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Ditto, A, Bogani, G, Martinelli, F, Raspagliesi, F. Treatment of genital melanoma: are we ready for innovative therapies, Int J Gynecol Cancer, 2017, 27, 1063",
+            "process_entry": "True",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "McGuire, SE, Frank, SJ, Eifel, PJ. Treatment of recurrent vaginal melanoma with external beam radiation therapy and palladium-103 brachytherapy, Brachytherapy, 2008, 7, 359, 363, PMID: 18778972",
+            "process_entry": "True",
+            "doi": "10.1016/j.brachy.2008.04.005",
+            "pmid": "18778972",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Del Vecchio, M. AACR update on 5-year survival rates, efficacy and long-term safety in previously treated advanced/metastatic melanoma patients receiving mono-immunotherapy with nivolumab, Recenti Prog Med, 2016, 107, 414, 417, PMID: 27571556",
+            "process_entry": "True",
+            "doi": "10.1701/2332.25062",
+            "pmid": "27571556",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Ascierto, PA, Del Vecchio, M, Robert, C, Mackiewicz, A, Chiarion-Sileni, V, Arance, A. Ipilimumab 10 mg/kg versus ipilimumab 3 mg/kg in patients with unresectable or metastatic melanoma: a randomised, double-blind, multicentre, phase 3 trial, Lancet Oncol, 2017, 18, 611, 622, PMID: 28359784",
+            "process_entry": "True",
+            "doi": "10.1016/s1470-2045(17)30231-0",
+            "pmid": "28359784",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Postow, MA, Luke, JJ, Bluth, MJ, Ramaiya, N, Panageas, KS, Lawrence, DP. Ipilimumab for patients with advanced mucosal melanoma, Oncologist, 2013, 18, 726, 732, PMID: 23716015",
+            "process_entry": "True",
+            "doi": "10.1634/theoncologist.2012-0464",
+            "pmid": "23716015",
+            "pmcid": "PMC4063400",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "Alexander, M, Mellor, JD, McArthur, G, Kee, D. Ipilimumab in pretreated patients with unresectable or metastatic cutaneous, uveal and mucosal melanoma, Med J Aust, 2014, 201, 49, 53, PMID: 24999899",
+            "process_entry": "True",
+            "doi": "10.5694/mja13.10448",
+            "pmid": "24999899",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Zimmer, L, Eigentler, TK, Kiecker, F, Simon, J, Utikal, J, Mohr, P. Open-label, multicenter, single-arm phase II DeCOG-study of ipilimumab in pretreated patients with different subtypes of metastatic melanoma, J Transl Med, 2015, 13, 351, PMID: 26541511",
+            "process_entry": "True",
+            "doi": "10.1186/s12967-015-0716-5",
+            "pmid": "26541511",
+            "pmcid": "PMC4635983",
+            "xmlid": "B30"
+        }
+    ],
+    "localid": "MED-31576688",
+    "doi": "10.3802/jgo.2019.30.e94",
+    "pmid": "10.3802/jgo.2019.30.e94",
+    "pmcid": "31576688",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576688/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),332,292)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),332,292)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),332,292)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),332,292)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,239)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),241,449)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),241,449)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),241,449)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),241,449)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),241,449)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),852,294)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),852,294)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),852,294)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),852,294)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),852,294)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),103,253)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),103,253)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),103,253)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),103,253)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[4]),83,66)",
+                "containers_title": [
+                    "MATERIALS AND METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[5]),148,131)",
+                "containers_title": [
+                    "MATERIALS AND METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[6]),537,118)",
+                "containers_title": [
+                    "MATERIALS AND METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),358,330)",
+                "containers_title": [
+                    "RESULTS",
+                    "2. Treatment and oncologic outcomes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),95,90)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),95,90)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),186,85)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),186,85)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),272,156)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),272,156)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),272,156)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),429,214)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,122)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "B26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "B27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,130)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),281,135)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),281,135)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),281,135)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "B30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),281,135)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),417,275)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

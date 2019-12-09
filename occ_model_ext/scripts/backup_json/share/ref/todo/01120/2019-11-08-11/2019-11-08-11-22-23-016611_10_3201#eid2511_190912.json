@@ -1,0 +1,101 @@
+{
+    "references": [
+        {
+            "bibentry": "Martens L, Kuster S, de Vos W, Kersten M, Berkhout H, Hagen F. Macrolide-resistant Mycoplasma genitalium in southeastern region of the Netherlands, 2014–2017. Emerg Infect Dis. 2019; 25: 1297–303. DOI: 10.3201/eid2507.181556 PMID: 31211669",
+            "process_entry": "True",
+            "doi": "10.3201/eid2507.181556",
+            "pmid": "31211669",
+            "pmcid": "PMC6590771",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Anderson T, Coughlan E, Werno A. Mycoplasma genitalium macrolide and fluoroquinolone resistance detection and clinical implications in a selected cohort in New Zealand. J Clin Microbiol. 2017; 55: 3242–8. DOI: 10.1128/JCM.01087-17 PMID: 28878004",
+            "process_entry": "True",
+            "doi": "10.1128/JCM.01087-17",
+            "pmid": "28878004",
+            "pmcid": "PMC5654908",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Pond MJ, Nori AV, Witney AA, Lopeman RC, Butcher PD, Sadiq ST. High prevalence of antibiotic-resistant Mycoplasma genitalium in nongonococcal urethritis: the need for routine testing and the inadequacy of current treatment options. Clin Infect Dis. 2014; 58: 631–7. DOI: 10.1093/cid/cit752 PMID: 24280088",
+            "process_entry": "True",
+            "doi": "10.1093/cid/cit752",
+            "pmid": "24280088",
+            "pmcid": "PMC3922211",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Jensen JS, Bradshaw CS, Tabrizi SN, Fairley CK, Hamasuna R. Azithromycin treatment failure in Mycoplasma genitalium-positive patients with nongonococcal urethritis is associated with induced macrolide resistance. Clin Infect Dis. 2008; 47: 1546–53. DOI: 10.1086/593188 PMID: 18990060",
+            "process_entry": "True",
+            "doi": "10.1086/593188",
+            "pmid": "18990060",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Jensen JS, Cusini M, Gomberg M, Moi H. 2016 European guideline on Mycoplasma genitalium infections. J Eur Acad Dermatol Venereol. 2016; 30: 1650–6. DOI: 10.1111/jdv.13849 PMID: 27505296",
+            "process_entry": "True",
+            "doi": "10.1111/jdv.13849",
+            "pmid": "27505296",
+            "xmlid": "R5"
+        }
+    ],
+    "localid": "MED-31436528",
+    "doi": "10.3201/eid2511.190912",
+    "pmid": "10.3201/eid2511.190912",
+    "pmcid": "31436528",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31436528/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),1,244)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,179)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,179)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),181,126)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),308,229)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

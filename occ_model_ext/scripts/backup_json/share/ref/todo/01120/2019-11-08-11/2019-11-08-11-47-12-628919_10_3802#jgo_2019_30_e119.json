@@ -1,0 +1,188 @@
+{
+    "references": [
+        {
+            "bibentry": "Bray, F, Ferlay, J, Soerjomataram, I, Siegel, RL, Torre, LA, Jemal, A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries, CA Cancer J Clin, 2018, 68, 394, 424, PMID: 30207593",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21492",
+            "pmid": "30207593",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Tewari, KS, Monk, BJ. Evidence-based treatment paradigms for management of invasive cervical carcinoma, J Clin Oncol, 2019",
+            "process_entry": "True",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Tewari, KS, Sill, MW, Long, HJ, 3rd, Penson, RT, Huang, H, Ramondetta, LM. Improved survival with bevacizumab in advanced cervical cancer, N Engl J Med, 2014, 370, 734, 743, PMID: 24552320",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1309748",
+            "pmid": "24552320",
+            "pmcid": "PMC4010094",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Karamperopoulos, D, Kouzis, A. Cancer in ancient Greek physicians, Athens, Stamoulis, 1902",
+            "process_entry": "True",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Rigoni-Stern, DA. Statistical facts related to cancerous diseases, G Serv Progress Patologia Terapia, 1842, 2, 507, 517",
+            "process_entry": "True",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Papanicolaou, GN, Traut, HF. The diagnostic value of vaginal smears in carcinoma of the uterus, Am J Obstet Gynecol, 1941, 42, 193, 206",
+            "process_entry": "True",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Dürst, M, Gissmann, L, Ikenberg, H, zur Hausen, H. A papillomavirus DNA from a cervical carcinoma and its prevalence in cancer biopsy samples from different geographic regions, Proc Natl Acad Sci U S A, 1983, 80, 3812, 3815, PMID: 6304740",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.80.12.3812",
+            "pmid": "6304740",
+            "pmcid": "PMC394142",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Tewari, KS, Taylor, JA, Liao, SY, DiSaia, PJ, Burger, RA, Monk, BJ. Development and assessment of a general theory of cervical carcinogenesis utilizing a severe combined immunodeficiency murine-human xenograft model, Gynecol Oncol, 2000, 77, 137, 148, PMID: 10739703",
+            "process_entry": "True",
+            "doi": "10.1006/gyno.2000.5729",
+            "pmid": "10739703",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Harper, DM, Nieminen, P, Donders, G, Einstein, MH, Garcia, F, Huh, WK. The efficacy and safety of tipapkinogen sovacivec therapeutic HPV vaccine in cervical intraepithelial neoplasia grades 2 and 3: Randomized controlled phase II trial with 2.5 years of follow-up, Gynecol Oncol, 2019, 153, 521, 529, PMID: 30955915",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2019.03.250",
+            "pmid": "30955915",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Park, YC, Ouh, YT, Sung, MH, Park, HG, Kim, TJ, Cho, CH. A phase 1/2a, dose-escalation, safety and preliminary efficacy study of oral therapeutic vaccine in subjects with cervical intraepithelial neoplasia 3, J Gynecol Oncol, 2019, 30, e88, PMID: 31576684",
+            "process_entry": "True",
+            "doi": "10.3802/jgo.2019.30.e88",
+            "pmid": "31576684",
+            "pmcid": "PMC6779607",
+            "xmlid": "B10"
+        }
+    ],
+    "localid": "MED-31576704",
+    "doi": "10.3802/jgo.2019.30.e119",
+    "pmid": "10.3802/jgo.2019.30.e119",
+    "pmcid": "31576704",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576704/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,127)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),323,387)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),927,284)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,318)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),320,316)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),715,336)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),1258,311)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[2]),2000,196)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[2]),2673,263)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,177)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),669,158)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

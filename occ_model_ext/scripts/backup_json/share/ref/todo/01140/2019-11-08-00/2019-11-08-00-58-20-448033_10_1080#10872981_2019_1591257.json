@@ -1,0 +1,299 @@
+{
+    "references": [
+        {
+            "bibentry": "Lang, VJ, Schuwirth, L, Durning, SJ, et al. Assessment of clinical reasoning In, Trowbridge, RL, Rencic, JJ, Durning, SJ, editors. Teaching clinical reasoning, ACP teaching medicine series. Philadelphia (PA): Americal College of Physicians: VersaPress; 2015. pp. 117–154.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Charlin, B, Roy, L, Brailovsky, C, et al. The script concordance test: a tool to assess the reflective clinician. Teach Learn Med. 2000; 12(4): 189–9. PMID: 11273368",
+            "process_entry": "True",
+            "doi": "10.1207/s15328015tlm1204_5",
+            "pmid": "11273368",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Humbert, AJ, Besinger, B, Miech, EJ. Assessing clinical reasoning skills in scenarios of uncertainty: convergent validity for a script concordance test in an emergency medicine clerkship and residency. Acad Emerg Med. 2011; 18: 627–634. PMID: 21676061",
+            "process_entry": "True",
+            "doi": "10.1111/j.1553-2712.2011.01084.x",
+            "pmid": "21676061",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Pinnock, R, Young, L, Spence, F, et al. Can think aloud be used to teach and assess clinical reasoning in graduate medical education? J Grad Med Educ. 2015; 7(3): 334–337. PMID: 26457135",
+            "process_entry": "True",
+            "doi": "10.4300/JGME-D-14-00601.1",
+            "pmid": "26457135",
+            "pmcid": "PMC4597940",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Wiggins, GP, McTighe, J. Understanding by design, expanded. 2nd ed. Danvers (MA): Association for Supervision and Curriculum Development; 2005.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Mitchell, S, Richter, D, Eldredge, J, et al. Providing feedback that matters: a model for evaluating students in a developmental problembased learning curriculum. Association of American Medical Colleges. Western Group on Educational Affairs (AAMC/WGEA) Conference Asilomar, CA March 30-April 3, 2012.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "NEJM Knowledge+ Exploring the ACGME core competencies. [ updated Jun 2016; cited 2018 Jul 15]. Available from: https://knowledgeplus.nejm.org/blog/exploring-acgme-core-competencies/",
+            "process_entry": "True",
+            "url": "https://knowledgeplus.nejm.org/blog/exploring-acgme-core-competencies/",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Shraw, G, Dennison, RS. Assessing metacognitive awareness. Contemp Educ Psychol. 1994; 19: 460–475.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Health Science Reasoning Test (HSRT) 2019 Available from: https://www.insightassessment.com/Products/Products-Summary/Critical-Thinking-Skills-Tests/Health-Sciences-Reasoning-Test-HSRT",
+            "process_entry": "True",
+            "url": "https://www.insightassessment.com/Products/Products-Summary/Critical-Thinking-Skills-Tests/Health-Sciences-Reasoning-Test-HSRT",
+            "xmlid": "CIT0009"
+        }
+    ],
+    "localid": "MED-30935299",
+    "doi": "10.1080/10872981.2019.1591257",
+    "pmid": "10.1080/10872981.2019.1591257",
+    "pmcid": "30935299",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30935299/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),70,211)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),282,353)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),636,101)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2–4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),731,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "[2–4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),731,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),636,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),636,101)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2–4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),731,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),738,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),957,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1142,5)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),957,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1142,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1149,75)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1218,5)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1149,75)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1218,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1225,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1359,295)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),871,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1001,314)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),1,132)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[2]),766,98)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[2]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[3]),1,249)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[7]),439,291)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),833,150)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

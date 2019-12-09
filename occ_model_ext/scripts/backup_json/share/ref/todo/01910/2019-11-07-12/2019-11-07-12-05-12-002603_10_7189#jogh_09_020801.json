@@ -1,0 +1,968 @@
+{
+    "references": [
+        {
+            "bibentry": "Hill, K, Pebley, AR. Child Mortality in the Developing World. Popul Dev Rev. 1989; 15: 657-87. DOI: 10.2307/1972594",
+            "process_entry": "True",
+            "doi": "10.2307/1972594",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Bellagio Study Group on Child Survival. Knowledge into action for child survival. 2003;362:323-7.",
+            "process_entry": "True",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "United Nations. Millennium development goals report 2015. New York, NY. United Nations. 2015. Available: http://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG%202015%20rev%20(July%201).pdf. Accessed: 25 April 2017.",
+            "process_entry": "True",
+            "url": "http://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG%202015%20rev%20(July%201).pdf. Accessed: 25 April 2017.",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "United Nations. Department of Economic and Social Affairs. Transforming our world: the 2030 agenda for sustainable development. Resolution adopted by the General Assembly 2015. Available: https://sustainabledevelopment.un.org/post2015/transformingourworld. Accessed: 25 April 2017.",
+            "process_entry": "True",
+            "url": "https://sustainabledevelopment.un.org/post2015/transformingourworld. Accessed: 25 April 2017.",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Chopra, M, Mason, E, Borrazzo, J, Campbell, H, Rudan, I, Liu, L. Ending of preventable deaths from pneumonia and diarrhoea: an achievable goal. Lancet. 2013; 381: 1499-506. DOI: 10.1016/S0140-6736(13)60319-0 PMID: 23582721",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(13)60319-0",
+            "pmid": "23582721",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Snyder, JD, Merson, MH. The magnitude of the global problem of acute diarrhoeal disease: a review of active surveillance data. Bull World Health Organ. 1982; 60: 605. PMID: 6982783",
+            "process_entry": "True",
+            "pmid": "6982783",
+            "pmcid": "PMC2536091",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Santosham, M, Greenough, WB, III. Oral rehydration therapy: a global perspective. J Pediatr. 1991; 118: S44-51. DOI: 10.1016/S0022-3476(05)81425-8 PMID: 2007956",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3476(05)81425-8",
+            "pmid": "2007956",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Victora, CG, Bryce, J, Fontaine, O, Monasch, R. Reducing deaths from diarrhoea through oral rehydration therapy. Bull World Health Organ. 2000; 78: 1246-55. PMID: 11100619",
+            "process_entry": "True",
+            "pmid": "11100619",
+            "pmcid": "PMC2560623",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "World Health Organization. Programme for the Control of Diarrheal Diseases. The treatment of diarrhea: A manual for physicians and other senior health workers. Geneva, Switzerland: WHO Press, 1980.",
+            "process_entry": "True",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Mahalanabis, D, Choudhuri, A, Bagchi, N, Bhattacharya, A, Simpson, T. Oral fluid therapy of cholera among Bangladesh refugees. Johns Hopkins Med J. 1973; 132: 197-205. PMID: 4698667",
+            "process_entry": "True",
+            "pmid": "4698667",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Chung, AW. The effect of oral feeding at different levels on the absorption of foodstuffs in infantile diarrhea. J Pediatr. 1948; 33: 1-13. DOI: 10.1016/S0022-3476(48)80147-2 PMID: 18868991",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3476(48)80147-2",
+            "pmid": "18868991",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Haltalin, KC, Nelson, JD, Ring, R, III, Sladoje, M, Hinton, LV. Double-blind treatment study of shigellosis comparing ampicillin, sulfadiazine, and placebo. J Pediatr. 1967; 70: 970-81. DOI: 10.1016/S0022-3476(67)80275-0 PMID: 5338090",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3476(67)80275-0",
+            "pmid": "5338090",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Hoffman, SL, Moechtar, MA, Simanjuntak, CH, Punjabi, NH, Kumala, S, Sutoto. Rehydration and maintenance therapy of cholera patients in Jakarta: citrate-based versus bicarbonate-based oral rehydration salt solution. J Infect Dis. 1985; 152: 1159-65. DOI: 10.1093/infdis/152.6.1159 PMID: 3905981",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/152.6.1159",
+            "pmid": "3905981",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "Munos, MK, Walker, CLF, Black, RE. The effect of oral rehydration solution and recommended home fluids on diarrhoea mortality. Int J Epidemiol. 2010; 39: i75-87. DOI: 10.1093/ije/dyq025 PMID: 20348131",
+            "process_entry": "True",
+            "doi": "10.1093/ije/dyq025",
+            "pmid": "20348131",
+            "pmcid": "PMC2845864",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Black, RE. The prophylaxis and therapy of secretory diarrhea. Med Clin North Am. 1982; 66: 611-21. DOI: 10.1016/S0025-7125(16)31410-9 PMID: 7043125",
+            "process_entry": "True",
+            "doi": "10.1016/s0025-7125(16)31410-9",
+            "pmid": "7043125",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "Black, RE. Persistent diarrhea in children of developing countries. Pediatr Infect Dis J. 1993; 12: 751-61, discussion 62-4. DOI: 10.1097/00006454-199309000-00010 PMID: 8414804",
+            "process_entry": "True",
+            "doi": "10.1097/00006454-199309000-00010",
+            "pmid": "8414804",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "Bhandari, N, Bhan, M, Sazawal, S. Mortality associated with acute watery diarrhea, dysentery and persistent diarrhea in rural north India. Acta Paediatr. 1992; 81: 3-6. DOI: 10.1111/j.1651-2227.1992.tb12363.x PMID: 12286021",
+            "process_entry": "True",
+            "doi": "10.1111/j.1651-2227.1992.tb12363.x",
+            "pmid": "12286021",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "World Health Organization. The treatment of diarrhoea: a manual for physicians and other senior health workers. 4th ed. Geneva, Switzerland: WHO Press; 2005.",
+            "process_entry": "True",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Sazawal, S, Black, RE, Bhan, MK, Bhandari, N, Sinha, A, Jalla, S. Zinc supplementation in young children with acute diarrhea in India. N Engl J Med. 1995; 333: 839-44. DOI: 10.1056/NEJM199509283331304 PMID: 7651474",
+            "process_entry": "True",
+            "doi": "10.1056/nejm199509283331304",
+            "pmid": "7651474",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Bhutta, ZA, Black, RE, Brown, KH, Gardner, JM, Gore, S, Hidayat, A. Prevention of diarrhea and pneumonia by zinc supplementation in children in developing countries: pooled analysis of randomized controlled trials. Zinc Investigators’ Collaborative Group. J Pediatr. 1999; 135: 689-97. DOI: 10.1016/S0022-3476(99)70086-7 PMID: 10586170",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3476(99)70086-7",
+            "pmid": "10586170",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Bryce, J, Victora, CG, Habicht, JP, Vaughan, JP, Black, RE. The multi-country evaluation of the integrated management of childhood illness strategy: lessons for the evaluation of public health interventions. Am J Public Health. 2004; 94: 406-15. DOI: 10.2105/AJPH.94.3.406 PMID: 14998804",
+            "process_entry": "True",
+            "doi": "10.2105/ajph.94.3.406",
+            "pmid": "14998804",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Gera, T, Shah, D, Garner, P, Richardson, M, Sachdev, HS. Integrated management of childhood illness (IMCI) strategy for children under five. Cochrane Database Syst Rev. 2016; CD010123. DOI: 10.1002/14651858.CD010123.pub2 PMID: 27378094",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD010123.pub2",
+            "pmid": "27378094",
+            "pmcid": "PMC4943011",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "World Health Organization. The analytic review of the integrated management of childhood illness strategy. Final Report. 2003. Available: http://apps.who.int/iris/bitstream/10665/42965/1/9241591730.pdf. Accessed: 1 June 2017.",
+            "process_entry": "True",
+            "url": "http://apps.who.int/iris/bitstream/10665/42965/1/9241591730.pdf. Accessed: 1 June 2017.",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Costello AM. Dalglish SL on behalf of the Strategic Review Study Team. Towards a Grand Convergence for child survival and health: A strategic review of options for the future building on lessons learnt from IMNCI. Geneva, Switzerland: WHO Press; 2016.",
+            "process_entry": "True",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Liu, L, Oza, S, Hogan, D, Chu, Y, Perin, J, Zhu, J. Global, regional, and national causes of under-5 mortality in 2000-15: an updated systematic analysis with implications for the Sustainable Development Goals. Lancet. 2016; 388: 3027-35. DOI: 10.1016/S0140-6736(16)31593-8 PMID: 27839855",
+            "process_entry": "True",
+            "doi": "10.1016/S0140-6736(16)31593-8",
+            "pmid": "27839855",
+            "pmcid": "PMC5161777",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "You D, Hug L, Ejdemyr S, Beise J. Levels and trends in child mortality. Report 2015. Estimates developed by the UN Inter-agency Group for Child Mortality Estimation. Available: https://www.unicef.org/publications/files/Child_Mortality_Report_2015_Web_9_Sept_15.pdf. Accessed 26 April 2017.",
+            "process_entry": "True",
+            "url": "https://www.unicef.org/publications/files/Child_Mortality_Report_2015_Web_9_Sept_15.pdf. Accessed 26 April 2017.",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "United Nations, Department of Economic and Social Affairs, Population Division. World population prospects. Population indicators. 2017. Available: https://esa.un.org/unpd/wpp/Download/Standard/Population/. Accessed: 7 July 2017.",
+            "process_entry": "True",
+            "url": "https://esa.un.org/unpd/wpp/Download/Standard/Population/. Accessed: 7 July 2017.",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "Stover J. AIM: A Computer Program for Making HIV/AIDS Projections and Examining the Demographic and Social Impacts of AIDS. 2009. Available: http://data.unaids.org/pub/manual/2009/20090414_aim_manual_2009_en.pdf. Accessed: 25 April 2017.",
+            "process_entry": "True",
+            "url": "http://data.unaids.org/pub/manual/2009/20090414_aim_manual_2009_en.pdf. Accessed: 25 April 2017.",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "Fischer Walker, CL, Walker, N. The Lives Saved Tool (LiST) as a model for diarrhea mortality reduction. BMC Med. 2014; 12: 70. DOI: 10.1186/1741-7015-12-70 PMID: 24779400",
+            "process_entry": "True",
+            "doi": "10.1186/1741-7015-12-70",
+            "pmid": "24779400",
+            "pmcid": "PMC4234397",
+            "xmlid": "R29"
+        },
+        {
+            "bibentry": "Roser M. Child Mortality. 2017. [cited 2017 Apr 26]. Available from: http://ourworldindata.org/child-mortality.",
+            "process_entry": "True",
+            "url": "http://ourworldindata.org/child-mortality.",
+            "xmlid": "R30"
+        },
+        {
+            "bibentry": "United Nations. Department of Economic and Social Affairs. World economic situation and prospects as of mid-2017. 2017. Available: https://www.un.org/development/desa/dpad/document_gem/global-economic-monitoring-unit/world-economic-situation-and-prospects-wesp-report/. Accessed: 24 September 2017.",
+            "process_entry": "True",
+            "url": "https://www.un.org/development/desa/dpad/document_gem/global-economic-monitoring-unit/world-economic-situation-and-prospects-wesp-report/. Accessed: 24 September 2017.",
+            "xmlid": "R31"
+        },
+        {
+            "bibentry": "Bern, C, Martines, J, de Zoysa, I, Glass, RI. The magnitude of the global problem of diarrhoeal disease: a ten-year update. Bull World Health Organ. 1992; 70: 705-14. PMID: 1486666",
+            "process_entry": "True",
+            "pmid": "1486666",
+            "pmcid": "PMC2393403",
+            "xmlid": "R32"
+        },
+        {
+            "bibentry": "Kosek, M, Bern, C, Guerrant, RL. The global burden of diarrhoeal disease, as estimated from studies published between 1992 and 2000. Bull World Health Organ. 2003; 81: 197-204. PMID: 12764516",
+            "process_entry": "True",
+            "pmid": "12764516",
+            "pmcid": "PMC2572419",
+            "xmlid": "R33"
+        },
+        {
+            "bibentry": "GBD Diarrhoeal Disease Collaborators Estimates of the global, regional, and national morbidity, mortality, and aetiologies of diarrhoea in 195 countries: a systematic analysis for the Global Burden of Disease Study 2016. Lancet Infect Dis. 2018; 18: 1211-28. DOI: 10.1016/S1473-3099(18)30362-1 PMID: 30243583",
+            "process_entry": "True",
+            "doi": "10.1016/S1473-3099(18)30362-1",
+            "pmid": "30243583",
+            "pmcid": "PMC6202444",
+            "xmlid": "R34"
+        },
+        {
+            "bibentry": "Requejo, JH, Bryce, J, Barros, AJ, Berman, P, Bhutta, Z, Chopra, M. Countdown to 2015 and beyond: fulfilling the health agenda for women and children. Lancet. 2015; 385: 466-76. DOI: 10.1016/S0140-6736(14)60925-9 PMID: 24990815",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(14)60925-9",
+            "pmid": "24990815",
+            "xmlid": "R35"
+        },
+        {
+            "bibentry": "Young, M, Wolfheim, C, Marsh, DR, Hammamy, D. World Health Organization/United Nations Children’s Fund joint statement on integrated community case management: an equity-focused strategy to improve access to essential treatment services for children. Am J Trop Med Hyg. 2012; 87: 6-10. DOI: 10.4269/ajtmh.2012.12-0221 PMID: 23136272",
+            "process_entry": "True",
+            "doi": "10.4269/ajtmh.2012.12-0221",
+            "pmid": "23136272",
+            "pmcid": "PMC3748523",
+            "xmlid": "R36"
+        },
+        {
+            "bibentry": "Tracking progress towards universal coverage for women’s, children’s and adolescents’ health. Countdown to 2030 The 2017 Report. Washington, DC: United Nations Children's Fund (UNICEF) and the World Health Organization (WHO), 2017.",
+            "process_entry": "True",
+            "xmlid": "R37"
+        },
+        {
+            "bibentry": "Lamberti, LM, Ashraf, S, Walker, CLF, Black, RE. A systematic review of the effect of rotavirus vaccination on diarrhea outcomes among children younger than 5 years. Pediatr Infect Dis J. 2016; 35: 992-8. DOI: 10.1097/INF.0000000000001232 PMID: 27254030",
+            "process_entry": "True",
+            "doi": "10.1097/inf.0000000000001232",
+            "pmid": "27254030",
+            "xmlid": "R38"
+        },
+        {
+            "bibentry": "Ruel, MT, Alderman, H. Maternal, Child Nutrition Study G. Nutrition-sensitive interventions and programmes: how can they help to accelerate progress in improving maternal and child nutrition? Lancet. 2013; 382: 536-51. DOI: 10.1016/S0140-6736(13)60843-0 PMID: 23746780",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(13)60843-0",
+            "pmid": "23746780",
+            "xmlid": "R39"
+        },
+        {
+            "bibentry": "The World Bank. IBRD-IDA. Poverty Data. 2017. Available: https://data.worldbank.org/topic/poverty. Accessed: 24 September 2017.",
+            "process_entry": "True",
+            "url": "https://data.worldbank.org/topic/poverty. Accessed: 24 September 2017.",
+            "xmlid": "R40"
+        },
+        {
+            "bibentry": "Mayo-Wilson, E, Imdad, A, Herzer, K, Yakoob, MY, Bhutta, ZA. Vitamin A supplements for preventing mortality, illness, and blindness in children aged under 5: systematic review and meta-analysis. BMJ. 2011; 343: d5094. DOI: 10.1136/bmj.d5094 PMID: 21868478",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.d5094",
+            "pmid": "21868478",
+            "pmcid": "PMC3162042",
+            "xmlid": "R41"
+        },
+        {
+            "bibentry": "Risk Factors Collaborators GBD Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990-2016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet. 2017; 390: 1345-422. DOI: 10.1016/S0140-6736(17)32366-8 PMID: 28919119",
+            "process_entry": "True",
+            "doi": "10.1016/S0140-6736(17)32366-8",
+            "pmid": "28919119",
+            "pmcid": "PMC5614451",
+            "xmlid": "R42"
+        },
+        {
+            "bibentry": "Fischer Walker, CL, Perin, J, Aryee, MJ, Boschi-Pinto, C, Black, RE. Diarrhea incidence in low-and middle-income countries in 1990 and 2010: a systematic review. BMC Public Health. 2012; 12: 220. DOI: 10.1186/1471-2458-12-220 PMID: 22436130",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2458-12-220",
+            "pmid": "22436130",
+            "pmcid": "PMC3323412",
+            "xmlid": "R43"
+        },
+        {
+            "bibentry": "World Health Organization Weekly Epidemiological Record -Relevé éptdôm hebd. 1989; 68: 313-20.",
+            "process_entry": "True",
+            "xmlid": "R44"
+        },
+        {
+            "bibentry": "Chopra, M, Mason, E, Borrazzo, J, Campbell, H, Rudan, I, Liu, L. Ending of preventable deaths from pneumonia and diarrhoea: an achievable goal. Lancet. 2013; 381: 1499-506. DOI: 10.1016/S0140-6736(13)60319-0 PMID: 23582721",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(13)60319-0",
+            "pmid": "23582721",
+            "xmlid": "R45"
+        },
+        {
+            "bibentry": "Wolfheim, C, Fontaine, O, Merson, MH. Evolution of the World Health Organization’s programnatic actions for the control of diarrheal diseases. J Glob Health. 2019; 9: 020802 DOI: 10.7189/jogh.09.020802",
+            "process_entry": "True",
+            "doi": "10.7189/jogh.09.020802",
+            "xmlid": "R46"
+        }
+    ],
+    "localid": "MED-31673345",
+    "doi": "10.7189/jogh.09.020801",
+    "pmid": "10.7189/jogh.09.020801",
+    "pmcid": "31673345",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673345/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,112)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),114,145)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),260,200)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),260,200)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),576,148)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,119)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),121,258)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),121,258)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),184,197)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),382,148)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),531,202)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),531,202)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),531,202)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),909,114)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),909,114)",
+                "containers_title": "",
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/boxed-text/p[1]),1015,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),909,114)",
+                "containers_title": "",
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/boxed-text/p[1]),1015,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),1223,169)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),1393,98)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),1492,80)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),1573,232)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/boxed-text/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[1]),1573,232)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/boxed-text/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[3]),1,94)",
+                "containers_title": "",
+                "pl_string": "[21-24]",
+                "pl_xpath": "substring(string(/article/body/boxed-text/p[3]),87,7)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "R22",
+                "pl_string": "[21-24]",
+                "pl_xpath": "substring(string(/article/body/boxed-text/p[3]),87,7)",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[3]),1,94)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "R23",
+                "pl_string": "[21-24]",
+                "pl_xpath": "substring(string(/article/body/boxed-text/p[3]),87,7)",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[3]),1,94)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/boxed-text/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[3]),1,94)",
+                "containers_title": "",
+                "pl_string": "[21-24]",
+                "pl_xpath": "substring(string(/article/body/boxed-text/p[3]),87,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/boxed-text/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/boxed-text/p[3]),96,271)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,183)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),407,122)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,193)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),195,231)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,170)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1303,218)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1522,194)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,142)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),447,184)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),327,169)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),497,109)",
+                "containers_title": [
+                    "METHODS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "R31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),580,132)",
+                "containers_title": [
+                    "RESULTS",
+                    "Trends in child mortality due to diarrheal disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),146,201)",
+                "containers_title": [
+                    "RESULTS",
+                    "Drivers of diarrhea mortality reduction in LMIC 1980-2015"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),190,82)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "R32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),546,149)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "R33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),821,169)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1088,177)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[25,34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1257,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1088,177)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[25,34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1257,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "R35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),271,219)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "R36",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),491,162)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "R37",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),654,171)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "R38",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),826,238)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "R39",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,162)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "R40",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),164,137)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "R41",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),302,161)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,165)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "R42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),826,160)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "R33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1148,154)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[33,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),1239,7)"
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "R43",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1148,154)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[33,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),1239,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1621,232)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "R44",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),142,170)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[44,45]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[6]),249,7)"
+            },
+            {
+                "n_rp": 57,
+                "xref_id": "R45",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),142,170)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[44,45]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[6]),249,7)"
+            }
+        ]
+    ]
+}

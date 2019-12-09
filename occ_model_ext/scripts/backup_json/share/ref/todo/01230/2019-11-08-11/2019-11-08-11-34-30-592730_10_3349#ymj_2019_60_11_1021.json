@@ -1,0 +1,410 @@
+{
+    "references": [
+        {
+            "bibentry": "Hollingsworth, JM, Miller, DC, Daignault, S, Hollenbeck, BK. Rising incidence of small renal masses: a need to reassess treatment effect, J Natl Cancer Inst, 2006, 98, 1331, 1334, PMID: 16985252",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/djj362",
+            "pmid": "16985252",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Capitanio, U, Montorsi, F. Renal cancer, Lancet, 2016, 387, 894, 906, PMID: 26318520",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(15)00046-x",
+            "pmid": "26318520",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Edge, BE, Byrd, DR, Compton, CC, Fritz, AG, Greene, FL, Trotti, A, 3rd. AJCC cancer staging handbook: from the AJCC cancer staging mannual, 7th ed, Chicago (IL), Springer, 2011",
+            "process_entry": "True",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Ramaswamy, K, Kheterpal, E, Pham, H, Mohan, S, Stifelman, M, Taneja, S. Significance of pathologic T3a upstaging in clinical T1 renal masses undergoing nephrectomy, Clin Genitourin Cancer, 2015, 13, 344, 349, PMID: 25680295",
+            "process_entry": "True",
+            "doi": "10.1016/j.clgc.2015.01.001",
+            "pmid": "25680295",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Nayak, JG, Patel, P, Saarela, O, Liu, Z, Kapoor, A, Finelli, A. Pathological upstaging of clinical T1 to pathological T3a renal cell carcinoma: a multi-institutional analysis of short-term outcomes, Urology, 2016, 94, 154, 160, PMID: 27041471",
+            "process_entry": "True",
+            "doi": "10.1016/j.urology.2016.03.029",
+            "pmid": "27041471",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Mouracade, P, Kara, O, Dagenais, J, Maurice, MJ, Nelson, RJ, Malkoc, E. Perioperative morbidity, oncological outcomes and predictors of pT3a upstaging for patients undergoing partial nephrectomy for cT1 tumors, World J Urol, 2017, 35, 1425, 1433, PMID: 28197727",
+            "process_entry": "True",
+            "doi": "10.1007/s00345-017-2004-x",
+            "pmid": "28197727",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Thompson, RH, Cheville, JC, Lohse, CM, Webster, WS, Zincke, H, Kwon, ED. Reclassification of patients with pT3 and pT4 renal cell carcinoma improves prognostic accuracy, Cancer, 2005, 104, 53, 60, PMID: 15895375",
+            "process_entry": "True",
+            "doi": "10.1002/cncr.21125",
+            "pmid": "15895375",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Bonsib, SM, Gibson, D, Mhoon, M, Greene, GF. Renal sinus involvement in renal cell carcinomas, Am J Surg Pathol, 2000, 24, 451, 458, PMID: 10716160",
+            "process_entry": "True",
+            "doi": "10.1097/00000478-200003000-00015",
+            "pmid": "10716160",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Kim, C, Choi, HJ, Cho, KS. Diagnostic value of multidetector computed tomography for renal sinus fat invasion in renal cell carcinoma patients, Eur J Radiol, 2014, 83, 914, 918, PMID: 24713489",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejrad.2014.02.025",
+            "pmid": "24713489",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Ramsey, S, Lamb, GW, Aitchison, M, McMillan, DC. Prospective study of the relationship between the systemic inflammatory response, prognostic scoring systems and relapse-free and cancer-specific survival in patients undergoing potentially curative resection for renal cancer, BJU Int, 2008, 101, 959, 963, PMID: 18190639",
+            "process_entry": "True",
+            "doi": "10.1111/j.1464-410x.2007.07363.x",
+            "pmid": "18190639",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Saito, K, Kihara, K. Role of C-reactive protein in urological cancers: a useful biomarker for predicting outcomes, Int J Urol, 2013, 20, 161, 171, PMID: 22897628",
+            "process_entry": "True",
+            "doi": "10.1111/j.1442-2042.2012.03121.x",
+            "pmid": "22897628",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Han, JH, Yoon, YE, Kim, SY, Cho, YI, Rha, KH, Choi, YD. Preoperative lymphocyte-monocyte ratio ameliorates the accuracy of differential diagnosis in non-metastatic infiltrative renal masses, Yonsei Med J, 2017, 58, 388, 394, PMID: 28120570",
+            "process_entry": "True",
+            "doi": "10.3349/ymj.2017.58.2.388",
+            "pmid": "28120570",
+            "pmcid": "PMC5290019",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Ohno, Y, Nakashima, J, Ohori, M, Hatano, T, Tachibana, M. Pretreatment neutrophil-to-lymphocyte ratio as an independent predictor of recurrence in patients with nonmetastatic renal cell carcinoma, J Urol, 2010, 184, 873, 878, PMID: 20643463",
+            "process_entry": "True",
+            "doi": "10.1016/j.juro.2010.05.028",
+            "pmid": "20643463",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "de Martino, M, Pantuck, AJ, Hofbauer, S, Waldert, M, Shariat, SF, Belldegrun, AS. Prognostic impact of preoperative neutrophilto-lymphocyte ratio in localized nonclear cell renal cell carcinoma, J Urol, 2013, 190, 1999, 2004, PMID: 23831313",
+            "process_entry": "True",
+            "doi": "10.1016/j.juro.2013.06.082",
+            "pmid": "23831313",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Viers, BR, Houston Thompson, R, Boorjian, SA, Lohse, CM, Leibovich, BC, Tollefson, MK. Preoperative neutrophil-lymphocyte ratio predicts death among patients with localized clear cell renal carcinoma undergoing nephrectomy, Urol Oncol, 2014, 32, 1277, 1284, PMID: 25017696",
+            "process_entry": "True",
+            "doi": "10.1016/j.urolonc.2014.05.014",
+            "pmid": "25017696",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Ficarra, V, Novara, G, Secco, S, Macchi, V, Porzionato, A, De Caro, R. Preoperative aspects and dimensions used for an anatomical (PADUA) classification of renal tumors in patients who are candidates for nephron-sparing surgery, Eur Urol, 2009, 56, 786, 793, PMID: 19665284",
+            "process_entry": "True",
+            "doi": "10.1016/j.eururo.2009.07.040",
+            "pmid": "19665284",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Bertini, R, Roscigno, M, Freschi, M, Strada, E, Petralia, G, Pasta, A. Renal sinus fat invasion in pT3a clear cell renal cell carcinoma affects outcomes of patients without nodal involvement or distant metastases, J Urol, 2009, 181, 2027, 2032, PMID: 19286201",
+            "process_entry": "True",
+            "doi": "10.1016/j.juro.2009.01.048",
+            "pmid": "19286201",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Koo, KC, Kim, JC, Cho, KS, Choi, YD, Hong, SJ, Yang, SC. Oncological outcomes after partial vs radical nephrectomy in renal cell carcinomas of ≤7 cm with presumed renal sinus fat invasion on preoperative imaging, BJU Int, 2016, 117, 87, 93, PMID: 25099267",
+            "process_entry": "True",
+            "doi": "10.1111/bju.12893",
+            "pmid": "25099267",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Sokhi, HK, Mok, WY, Patel, U. Stage T3a renal cell carcinoma: staging accuracy of CT for sinus fat, perinephric fat or renal vein invasion, Br J Radiol, 2015, 88, 20140504, PMID: 25410425",
+            "process_entry": "True",
+            "doi": "10.1259/bjr.20140504",
+            "pmid": "25410425",
+            "pmcid": "PMC4277383",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Grivennikov, SI, Greten, FR, Karin, M. Immunity, inflammation, and cancer, Cell, 2010, 140, 883, 899, PMID: 20303878",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2010.01.025",
+            "pmid": "20303878",
+            "pmcid": "PMC2866629",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Liang, W, Ferrara, N. The complex role of neutrophils in tumor angiogenesis and metastasis, Cancer Immunol Res, 2016, 4, 83, 91, PMID: 26839309",
+            "process_entry": "True",
+            "doi": "10.1158/2326-6066.cir-15-0313",
+            "pmid": "26839309",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Speiser, DE, Ho, PC, Verdeil, G. Regulatory circuits of T cell function in cancer, Nat Rev Immunol, 2016, 16, 599, 611, PMID: 27526640",
+            "process_entry": "True",
+            "doi": "10.1038/nri.2016.80",
+            "pmid": "27526640",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Gabrilovich, DI, Ostrand-Rosenberg, S, Bronte, V. Coordinated regulation of myeloid cells by tumors, Nat Rev Immunol, 2012, 12, 253, 268, PMID: 22437938",
+            "process_entry": "True",
+            "doi": "10.1038/nri3175",
+            "pmid": "22437938",
+            "pmcid": "PMC3587148",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Diakos, CI, Charles, KA, McMillan, DC, Clarke, SJ. Cancer-related inflammation and treatment effectiveness, Lancet Oncol, 2014, 15, e493, e503, PMID: 25281468",
+            "process_entry": "True",
+            "doi": "10.1016/s1470-2045(14)70263-3",
+            "pmid": "25281468",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Sejima, T, Iwamoto, H, Morizane, S, Hinata, N, Yao, A, Isoyama, T. The significant immunological characteristics of peripheral blood neutrophil-to-lymphocyte ratio and Fas ligand expression incidence in nephrectomized tumor in late recurrence from renal cell carcinoma, Urol Oncol, 2013, 31, 1343, 1349, PMID: 22153754",
+            "process_entry": "True",
+            "doi": "10.1016/j.urolonc.2011.09.008",
+            "pmid": "22153754",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Fox, P, Hudson, M, Brown, C, Lord, S, Gebski, V, De Souza, P. Markers of systemic inflammation predict survival in patients with advanced renal cell cancer, Br J Cancer, 2013, 109, 147, 153, PMID: 23778526",
+            "process_entry": "True",
+            "doi": "10.1038/bjc.2013.300",
+            "pmid": "23778526",
+            "pmcid": "PMC3708579",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Koo, KC, Lee, KS, Cho, KS, Rha, KH, Hong, SJ, Chung, BH. Comprehensive analysis and validation of contemporary survival prognosticators in Korean patients with metastatic renal cell carcinoma treated with targeted therapy: prognostic impact of pretreatment neutrophil-to-lymphocyte ratio, Int Urol Nephrol, 2016, 48, 985, 992, PMID: 26946137",
+            "process_entry": "True",
+            "doi": "10.1007/s11255-016-1252-9",
+            "pmid": "26946137",
+            "xmlid": "B27"
+        }
+    ],
+    "localid": "MED-31637883",
+    "doi": "10.3349/ymj.2019.60.11.1021",
+    "pmid": "10.3349/ymj.2019.60.11.1021",
+    "pmcid": "31637883",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31637883/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),114,688)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),803,221)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),348,97)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,246)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),248,355)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),604,243)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1171,133)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "CT data interpretation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),297,182)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),643,139)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),783,261)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),297,259)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),147,442)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,417)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),569,404)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),85,92)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),382,270)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),653,117)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

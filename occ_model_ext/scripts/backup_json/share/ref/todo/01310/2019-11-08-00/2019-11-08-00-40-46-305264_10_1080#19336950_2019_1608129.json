@@ -1,0 +1,796 @@
+{
+    "references": [
+        {
+            "bibentry": "Bourinet, E, Altier, C, Hildebrand, ME, et al. Calcium-permeable ion channels in pain signaling. Physiol Rev. 2014; 94: 81–140. PMID: 24382884",
+            "process_entry": "True",
+            "doi": "10.1152/physrev.00023.2013",
+            "pmid": "24382884",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Park, J, Luo, ZD. Calcium channel functions in pain processing. Channels. 2010; 4: 510–517. PMID: 21150297",
+            "process_entry": "True",
+            "doi": "10.4161/chan.4.6.12869",
+            "pmid": "21150297",
+            "pmcid": "PMC3052250",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Moutal, A, White, KA, Chefdeville, A, et al. Dysregulation of CRMP2 post-translational modifications drive its pathological functions. Mol Neurobiol. 2019.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Francois-Moutal, L, Wang, Y, Moutal, A, et al. A membrane-delimited N-myristoylated CRMP2 peptide aptamer inhibits CaV2.2 trafficking and reverses inflammatory and postoperative pain behaviors. Pain. 2015; 156: 1247–1264. PMID: 25782368",
+            "process_entry": "True",
+            "doi": "10.1097/j.pain.0000000000000147",
+            "pmid": "25782368",
+            "pmcid": "PMC5766324",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Moutal, A, Chew, LA, Yang, X, et al. (S)-lacosamide inhibition of CRMP2 phosphorylation reduces postoperative and neuropathic pain behaviors through distinct classes of sensory neurons identified by constellation pharmacology. Pain. 2016; 157: 1448–1463. PMID: 26967696",
+            "process_entry": "True",
+            "doi": "10.1097/j.pain.0000000000000555",
+            "pmid": "26967696",
+            "pmcid": "PMC4936788",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Moutal, A, Eyde, N, Telemi, E, et al. Efficacy of (S)-Lacosamide in preclinical models of cephalic pain. Pain Rep. 2016; 1:pii: e565.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Moutal, A, Francois-Moutal, L, Perez-Miller, S, et al. Lacosamide binding to collapsin response mediator protein 2 (CRMP2) regulates CaV2.2 activity by subverting its phosphorylation by Cdk5. Mol Neurobiol. 2016; 53: 1959–1976. PMID: 25846820",
+            "process_entry": "True",
+            "doi": "10.1007/s12035-015-9141-2",
+            "pmid": "25846820",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Xie, JY, Chew, LA, Yang, X, et al. Sustained relief of ongoing experimental neuropathic pain by a CRMP2 peptide aptamer with low abuse potential. Pain. 2016; 157: 2124–2140. PMID: 27537210",
+            "process_entry": "True",
+            "doi": "10.1097/j.pain.0000000000000628",
+            "pmid": "27537210",
+            "pmcid": "PMC4991564",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Moutal, A, Wang, Y, Yang, X, et al. Dissecting the role of the CRMP2-neurofibromin complex on pain behaviors. Pain. 2017; 158: 2203–2221. PMID: 28767512",
+            "process_entry": "True",
+            "doi": "10.1097/j.pain.0000000000001026",
+            "pmid": "28767512",
+            "pmcid": "PMC6359908",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Moutal, A, Yang, X, Li, W, et al. CRISPR/Cas9 editing of Nf1 gene identifies CRMP2 as a therapeutic target in neurofibromatosis type 1-related pain that is reversed by (S)-Lacosamide. Pain. 2017; 158: 2301–2319. PMID: 28809766",
+            "process_entry": "True",
+            "doi": "10.1097/j.pain.0000000000001002",
+            "pmid": "28809766",
+            "pmcid": "PMC6362827",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Moutal, A, Cai, S, Luo, S, et al. CRMP2 is necessary for neurofibromatosis type 1 related pain. Channels. 2018; 12: 47–50. PMID: 28837387",
+            "process_entry": "True",
+            "doi": "10.1080/19336950.2017.1370524",
+            "pmid": "28837387",
+            "pmcid": "PMC5972793",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Moutal, A, Sun, L, Yang, X, et al. CRMP2-neurofibromin interface drives NF1-related Pain. Neuroscience. 2018; 381: 79–90. PMID: 29655575",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuroscience.2018.04.002",
+            "pmid": "29655575",
+            "pmcid": "PMC5963520",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Yu, J, Moutal, A, Dorame, A, et al. Phosphorylated CRMP2 regulates spinal nociceptive neurotransmission. Mol Neurobiol. 2018.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Khanna, R, Yu, J, Yang, X, et al. Targeting the CaValpha-CaVbeta interaction yields an antagonist of the N-type CaV2.2 channel with broad antinociceptive efficacy. Pain. 2019.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Moutal, A, Li, W, Wang, Y, et al. Homology-guided mutational analysis reveals the functional requirements for antinociceptive specificity of collapsin response mediator protein 2-derived peptides. Br J Pharmacol. 2018; 175: 2244–2260. PMID: 28161890",
+            "process_entry": "True",
+            "doi": "10.1111/bph.13737",
+            "pmid": "28161890",
+            "pmcid": "PMC5980424",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Brittain, JM, Piekarz, AD, Wang, Y, et al. An atypical role for collapsin response mediator protein 2 (CRMP-2) in neurotransmitter release via interaction with presynaptic voltage-gated calcium channels. J Biol Chem. 2009; 284: 31375–31390. PMID: 19755421",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M109.009951",
+            "pmid": "19755421",
+            "pmcid": "PMC2781534",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Chi, XX, Schmutzler, BS, Brittain, JM, et al. Regulation of N-type voltage-gated calcium channels (Cav2.2) and transmitter release by collapsin response mediator protein-2 (CRMP-2) in sensory neurons. J Cell Sci. 2009; 122: 4351–4362. PMID: 19903690",
+            "process_entry": "True",
+            "doi": "10.1242/jcs.053280",
+            "pmid": "19903690",
+            "pmcid": "PMC2779133",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Brittain, JM, Duarte, DB, Wilson, SM, et al. Suppression of inflammatory and neuropathic pain by uncoupling CRMP-2 from the presynaptic Ca(2)(+) channel complex. Nat Med. 2011; 17: 822–829. PMID: 21642979",
+            "process_entry": "True",
+            "doi": "10.1038/nm.2345",
+            "pmid": "21642979",
+            "pmcid": "PMC3219927",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Moutal, A, Luo, S, Largent-Milnes, TM, et al. Cdk5-mediated CRMP2 phosphorylation is necessary and sufficient for peripheral neuropathic pain. Neurobiol Pain. 2019;5.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Martins-de-Souza, D, Cassoli, JS, Nascimento, JM, et al. The protein interactome of collapsin response mediator protein-2 (CRMP2/DPYSL2) reveals novel partner proteins in brain tissue. Proteomics Clin Appl. 2015; 9: 817–831. PMID: 25921334",
+            "process_entry": "True",
+            "doi": "10.1002/prca.201500004",
+            "pmid": "25921334",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Wilson, SM, Schmutzler, BS, Brittain, JM, et al. Inhibition of transmitter release and attenuation of AIDS therapy-induced and tibial nerve injury-related painful peripheral neuropathy by novel synthetic Ca2+ channel peptides. J Biol Chem. 2012; 287: 35065–35077. PMID: 22891239",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M112.378695",
+            "pmid": "22891239",
+            "pmcid": "PMC3471755",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Dustrude, ET, Moutal, A, Yang, X, et al. Hierarchical CRMP2 posttranslational modifications control NaV1.7 function. Proc Natl Acad Sci USA. 2016; 113: E8443–E8452. PMID: 27940916",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1610531113",
+            "pmid": "27940916",
+            "pmcid": "PMC5206544",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Piekarz, AD, Due, MR, Khanna, M, et al. CRMP-2 peptide mediated decrease of high and low voltage-activated calcium channels, attenuation of nociceptor excitability, and anti-nociception in a model of AIDS therapy-induced painful peripheral neuropathy. Mol Pain. 2012; 8: 54. PMID: 22828369",
+            "process_entry": "True",
+            "doi": "10.1186/1744-8069-8-54",
+            "pmid": "22828369",
+            "pmcid": "PMC3502107",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Choe, W, Messinger, RB, Leach, E, et al. TTA-P2 is a potent and selective blocker of T-type calcium channels in rat sensory neurons and a novel antinociceptive agent. MolPharmacol. 2011; 80: 900–910.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Todorovic, SM, Jevtovic-Todorovic, V. Regulation of T-type calcium channels in the peripheral pain pathway. Channels. 2007; 1: 238–245. PMID: 18708751",
+            "process_entry": "True",
+            "doi": "10.4161/chan.4953",
+            "pmid": "18708751",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Garcia-Caballero, A, Gadotti, VM, Stemkowski, P, et al. The deubiquitinating enzyme USP5 modulates neuropathic and inflammatory pain by enhancing Cav3.2 channel activity. Neuron. 2014; 83: 1144–1158. PMID: 25189210",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2014.07.036",
+            "pmid": "25189210",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Brustovetsky, T, Pellman, JJ, Yang, XF, et al. Collapsin response mediator protein 2 (CRMP2) interacts with N-methyl-D-aspartate (NMDA) receptor and Na+/Ca2+ exchanger and regulates their functional activity. J Biol Chem. 2014; 289: 7470–7482. PMID: 24474686",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M113.518472",
+            "pmid": "24474686",
+            "pmcid": "PMC3953261",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Dustrude, ET, Perez-Miller, S, Francois-Moutal, L, et al. A single structurally conserved SUMOylation site in CRMP2 controls NaV1.7 function. Channels. 2017; 11: 316–328. PMID: 28277940",
+            "process_entry": "True",
+            "doi": "10.1080/19336950.2017.1299838",
+            "pmid": "28277940",
+            "pmcid": "PMC5555265",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Cai, S, Bellampalli, SS, Yu, J, et al. (-)-Hardwickiic acid and Hautriwaic acid induce antinociception via blockade of tetrodotoxin-sensitive voltage-dependent sodium channels. ACS Chem Neurosci. 2019; 10: 1716–1728. PMID: 30525440",
+            "process_entry": "True",
+            "doi": "10.1021/acschemneuro.8b00617",
+            "pmid": "30525440",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-31025580",
+    "doi": "10.1080/19336950.2019.1608129",
+    "pmid": "10.1080/19336950.2019.1608129",
+    "pmcid": "31025580",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31025580/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,125)",
+                "containers_title": "",
+                "pl_string": "Regulators of voltage-gated calcium channels (VGCCs) shape a diversity of biological functions within the nervous system 1,2. In chronic pain, proteins regulating the N-type (CaV2.2) VGCCs can modulate nociception [1]. One such protein is the collapsin response mediator protein 2 (CRMP2) [3–15]. Our continuing studies have established CRMP2 as a bona fide binding partner and regulator of the presynaptic trafficking of CaV2.2 [4,8,13,15–18]. In neuropathic pain, increased phosphorylation of CRMP2 by cyclin-dependent kinase 5 defines the presynaptic content for CaV2.2, but not for CaV2.3 (i.e. the R-type) VGCCs [3,13,19]. In a proteomic study, the L-type VGCC was shown to be part of the CRMP2 interactome [20] likely though a motif in the C-terminus in the CaV1.2 L-type channel [21]. While CRMP2-dependent regulation of CaV2.1 (i.e. the P/Q-type) VGCC has never been investigated, CRMP2 interaction domains found in CaV2.2 are poorly conserved in CaV2.1 or other channels [21]. In investigating CRMP2 phosphorylation with the small molecule (S)-lacosamide, we found that only calcium influx via N-type, but not other high-voltage gated channels, was blocked [5]. Collectively, these results hinted at a specific action of CRMP2 on N-type VGCCs.",
+                "pl_xpath": "/article/body/p[1]"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,125)",
+                "containers_title": "",
+                "pl_string": "Regulators of voltage-gated calcium channels (VGCCs) shape a diversity of biological functions within the nervous system 1,2. In chronic pain, proteins regulating the N-type (CaV2.2) VGCCs can modulate nociception [1]. One such protein is the collapsin response mediator protein 2 (CRMP2) [3–15]. Our continuing studies have established CRMP2 as a bona fide binding partner and regulator of the presynaptic trafficking of CaV2.2 [4,8,13,15–18]. In neuropathic pain, increased phosphorylation of CRMP2 by cyclin-dependent kinase 5 defines the presynaptic content for CaV2.2, but not for CaV2.3 (i.e. the R-type) VGCCs [3,13,19]. In a proteomic study, the L-type VGCC was shown to be part of the CRMP2 interactome [20] likely though a motif in the C-terminus in the CaV1.2 L-type channel [21]. While CRMP2-dependent regulation of CaV2.1 (i.e. the P/Q-type) VGCC has never been investigated, CRMP2 interaction domains found in CaV2.2 are poorly conserved in CaV2.1 or other channels [21]. In investigating CRMP2 phosphorylation with the small molecule (S)-lacosamide, we found that only calcium influx via N-type, but not other high-voltage gated channels, was blocked [5]. Collectively, these results hinted at a specific action of CRMP2 on N-type VGCCs.",
+                "pl_xpath": "/article/body/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),127,92)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),220,77)",
+                "containers_title": "",
+                "pl_string": "[3–15]",
+                "pl_xpath": "substring(string(/article/body/p[1]),290,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[1]),298,147)",
+                "containers_title": "",
+                "pl_string": "[4,8,13,15–18]",
+                "pl_xpath": "substring(string(/article/body/p[1]),430,14)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[1]),298,147)",
+                "containers_title": "",
+                "pl_string": "[4,8,13,15–18]",
+                "pl_xpath": "substring(string(/article/body/p[1]),430,14)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[1]),298,147)",
+                "containers_title": "",
+                "pl_string": "[4,8,13,15–18]",
+                "pl_xpath": "substring(string(/article/body/p[1]),430,14)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/p[1]),298,147)",
+                "containers_title": "",
+                "pl_string": "[4,8,13,15–18]",
+                "pl_xpath": "substring(string(/article/body/p[1]),430,14)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/p[1]),298,147)",
+                "containers_title": "",
+                "pl_string": "[4,8,13,15–18]",
+                "pl_xpath": "substring(string(/article/body/p[1]),430,14)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/p[1]),446,182)",
+                "containers_title": "",
+                "pl_string": "[3,13,19]",
+                "pl_xpath": "substring(string(/article/body/p[1]),618,9)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/p[1]),446,182)",
+                "containers_title": "",
+                "pl_string": "[3,13,19]",
+                "pl_xpath": "substring(string(/article/body/p[1]),618,9)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/p[1]),446,182)",
+                "containers_title": "",
+                "pl_string": "[3,13,19]",
+                "pl_xpath": "substring(string(/article/body/p[1]),618,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/p[1]),629,163)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/p[1]),629,163)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/p[1]),793,193)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/p[1]),987,184)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,61)",
+                "containers_title": "",
+                "pl_string": "[11,19]",
+                "pl_xpath": "substring(string(/article/body/p[2]),54,7)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,61)",
+                "containers_title": "",
+                "pl_string": "[11,19]",
+                "pl_xpath": "substring(string(/article/body/p[2]),54,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),63,219)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),283,234)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[2]),518,145)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[2]),664,155)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[2]),820,118)",
+                "containers_title": "",
+                "pl_string": "[1,24,25]",
+                "pl_xpath": "substring(string(/article/body/p[2]),928,9)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[2]),820,118)",
+                "containers_title": "",
+                "pl_string": "[1,24,25]",
+                "pl_xpath": "substring(string(/article/body/p[2]),928,9)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/p[2]),820,118)",
+                "containers_title": "",
+                "pl_string": "[1,24,25]",
+                "pl_xpath": "substring(string(/article/body/p[2]),928,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/p[2]),939,125)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/p[2]),1065,239)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,211)",
+                "containers_title": "",
+                "pl_string": "[19,27]",
+                "pl_xpath": "substring(string(/article/body/p[3]),170,7)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,211)",
+                "containers_title": "",
+                "pl_string": "[19,27]",
+                "pl_xpath": "substring(string(/article/body/p[3]),170,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),426,84)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[3]/xref[18]",
+                "context_xpath": "substring(string(/article/body/p[3]),2946,72)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/p[3]/table-wrap/table-wrap-foot/fn/p/xref",
+                "context_xpath": "substring(string(/article/body/p[3]/table-wrap/table-wrap-foot/fn/p),244,160)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[9,10,12,13,22,28]",
+                "pl_xpath": "substring(string(/article/body/p[4]),45,18)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[9,10,12,13,22,28]",
+                "pl_xpath": "substring(string(/article/body/p[4]),45,18)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[9,10,12,13,22,28]",
+                "pl_xpath": "substring(string(/article/body/p[4]),45,18)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[9,10,12,13,22,28]",
+                "pl_xpath": "substring(string(/article/body/p[4]),45,18)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[9,10,12,13,22,28]",
+                "pl_xpath": "substring(string(/article/body/p[4]),45,18)"
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[9,10,12,13,22,28]",
+                "pl_xpath": "substring(string(/article/body/p[4]),45,18)"
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[11,13,17,18]",
+                "pl_xpath": "substring(string(/article/body/p[4]),234,13)"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[11,13,17,18]",
+                "pl_xpath": "substring(string(/article/body/p[4]),234,13)"
+            },
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[11,13,17,18]",
+                "pl_xpath": "substring(string(/article/body/p[4]),234,13)"
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,247)",
+                "containers_title": "",
+                "pl_string": "[11,13,17,18]",
+                "pl_xpath": "substring(string(/article/body/p[4]),234,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec/sec[1]/p),1,69)",
+                "containers_title": [
+                    "Methods",
+                    "Preparation of rat DRG cultures (acutely dissociated neurons)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec/sec[3]/p[1]),1,96)",
+                "containers_title": [
+                    "Methods",
+                    "Whole-cell electrophysiological recordings of calcium currents in acutely dissociated DRG neurons"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec/sec[3]/p[1]),444,101)",
+                "containers_title": [
+                    "Methods",
+                    "Whole-cell electrophysiological recordings of calcium currents in acutely dissociated DRG neurons"
+                ]
+            }
+        ]
+    ]
+}

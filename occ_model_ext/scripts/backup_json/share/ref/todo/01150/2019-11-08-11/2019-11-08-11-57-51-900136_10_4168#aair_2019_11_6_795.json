@@ -1,0 +1,583 @@
+{
+    "references": [
+        {
+            "bibentry": "Park, HJ, Kim, EJ, Yoon, D, Lee, JK, Chang, WS, Lim, YM. Prevalence of self-reported allergic diseases and IgE levels: a 2010 KNHANES analysis, Allergy Asthma Immunol Res, 2017, 9, 329, 339, PMID: 28497920",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2017.9.4.329",
+            "pmid": "28497920",
+            "pmcid": "PMC5446948",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Yoo, KH, Ahn, HR, Park, JK, Kim, JW, Nam, GH, Hong, SK. Burden of respiratory disease in Korea: an observational study on allergic rhinitis, asthma, COPD, and rhinosinusitis, Allergy Asthma Immunol Res, 2016, 8, 527, 534, PMID: 27582404",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2016.8.6.527",
+            "pmid": "27582404",
+            "pmcid": "PMC5011053",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Lee, YJ, Kwon, SH, Hong, SH, Nam, JH, Song, HJ, Lee, JS. Health Care utilization and direct costs in mild, moderate, and severe adult asthma: a descriptive study using the 2014 South Korean health insurance database, Clin Ther, 2017, 39, 527, 536, PMID: 28196623",
+            "process_entry": "True",
+            "doi": "10.1016/j.clinthera.2017.01.025",
+            "pmid": "28196623",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Kim, MH, Kim, SH, Park, SY, Ban, GY, Kim, JH, Jung, JW. Characteristics of adult severe refractory asthma in Korea analyzed from the severe asthma registry, Allergy Asthma Immunol Res, 2019, 11, 43, 54, PMID: 30479076",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2019.11.1.43",
+            "pmid": "30479076",
+            "pmcid": "PMC6267188",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Global Initiative for Asthma, Global strategy for asthma management and prevention, Fontana, WI, Global Initiative for Asthma, 2017",
+            "process_entry": "True",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Juniper, EF, Kline, PA, Vanzieleghem, MA, Ramsdale, EH, O'Byrne, PM, Hargreave, FE. Effect of long-term treatment with an inhaled corticosteroid (budesonide) on airway hyperresponsiveness and clinical asthma in nonsteroid-dependent asthmatics, Am Rev Respir Dis, 1990, 142, 832, 836, PMID: 2221590",
+            "process_entry": "True",
+            "doi": "10.1164/ajrccm/142.4.832",
+            "pmid": "2221590",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Pauwels, RA, Löfdahl, CG, Postma, DS, Tattersfield, AE, O'Byrne, P, Barnes, PJ. Effect of inhaled formoterol and budesonide on exacerbations of asthma, N Engl J Med, 1997, 337, 1405, 1411, PMID: 9358137",
+            "process_entry": "True",
+            "doi": "10.1056/nejm199711133372001",
+            "pmid": "9358137",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Suissa, S, Ernst, P, Benayoun, S, Baltzan, M, Cai, B. Low-dose inhaled corticosteroids and the prevention of death from asthma, N Engl J Med, 2000, 343, 332, 336, PMID: 10922423",
+            "process_entry": "True",
+            "doi": "10.1056/nejm200008033430504",
+            "pmid": "10922423",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Calverley, PM, Anderson, JA, Celli, B, Ferguson, GT, Jenkins, C, Jones, PW. Salmeterol and fluticasone propionate and survival in chronic obstructive pulmonary disease, N Engl J Med, 2007, 356, 775, 789, PMID: 17314337",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa063070",
+            "pmid": "17314337",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Ernst, P, Gonzalez, AV, Brassard, P, Suissa, S. Inhaled corticosteroid use in chronic obstructive pulmonary disease and the risk of hospitalization for pneumonia, Am J Respir Crit Care Med, 2007, 176, 162, 166, PMID: 17400730",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200611-1630oc",
+            "pmid": "17400730",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Drummond, MB, Dasenbrook, EC, Pitz, MW, Murphy, DJ, Fan, E. Inhaled corticosteroids in patients with stable chronic obstructive pulmonary disease: a systematic review and meta-analysis, JAMA, 2008, 300, 2407, 2416, PMID: 19033591",
+            "process_entry": "True",
+            "doi": "10.1001/jama.2008.717",
+            "pmid": "19033591",
+            "pmcid": "PMC4804462",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Singh, S, Amin, AV, Loke, YK. Long-term use of inhaled corticosteroids and the risk of pneumonia in chronic obstructive pulmonary disease: a meta-analysis, Arch Intern Med, 2009, 169, 219, 229, PMID: 19204211",
+            "process_entry": "True",
+            "doi": "10.1001/archinternmed.2008.550",
+            "pmid": "19204211",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Sin, DD, Tashkin, D, Zhang, X, Radner, F, Sjöbring, U, Thorén, A. Budesonide and the risk of pneumonia: a meta-analysis of individual patient data, Lancet, 2009, 374, 712, 719, PMID: 19716963",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(09)61250-2",
+            "pmid": "19716963",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Kew, KM, Seniukovich, A. Inhaled steroids and risk of pneumonia for chronic obstructive pulmonary disease, Cochrane Database Syst Rev, 2014, CD010115, PMID: 24615270",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd010115.pub2",
+            "pmid": "24615270",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "O'Byrne, PM, Pedersen, S, Carlsson, LG, Radner, F, Thorén, A, Peterson, S. Risks of pneumonia in patients with asthma taking inhaled corticosteroids, Am J Respir Crit Care Med, 2011, 183, 589, 595, PMID: 20889908",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.201005-0694oc",
+            "pmid": "20889908",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Lee, CH, Jang, EJ, Hyun, MK, Lee, NR, Kim, K, Yim, JJ. Risk of hospital admission or emergency room visit for pneumonia in patients using respiratory inhalers: a case-crossover study, Respirology, 2013, 18, 1116, 1127, PMID: 23711281",
+            "process_entry": "True",
+            "doi": "10.1111/resp.12127",
+            "pmid": "23711281",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Suissa, S, Dell'Aniello, S, Ernst, P. Comparative effectiveness of LABA-ICS versus LAMA as initial treatment in COPD targeted by blood eosinophils: a population-based cohort study, Lancet Respir Med, 2018, 6, 855, 862, PMID: 30343028",
+            "process_entry": "True",
+            "doi": "10.1016/s2213-2600(18)30368-0",
+            "pmid": "30343028",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Almirall, J, Bolíbar, I, Serra-Prat, M, Palomera, E, Roig, J, Hospital, I. Inhaled drugs as risk factors for community-acquired pneumonia, Eur Respir J, 2010, 36, 1080, 1087, PMID: 20525710",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00022909",
+            "pmid": "20525710",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "To, M, To, Y, Yamada, H, Ogawa, C, Otomo, M, Suzuki, N. Influence of inhaled corticosteroids on community-acquired pneumonia in patients with bronchial asthma, Intern Med, 2004, 43, 674, 678, PMID: 15468964",
+            "process_entry": "True",
+            "doi": "10.2169/internalmedicine.43.674",
+            "pmid": "15468964",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Charlson, ME, Pompei, P, Ales, KL, MacKenzie, CR. A new method of classifying prognostic comorbidity in longitudinal studies: development and validation, J Chronic Dis, 1987, 40, 373, 383, PMID: 3558716",
+            "process_entry": "True",
+            "doi": "10.1016/0021-9681(87)90171-8",
+            "pmid": "3558716",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Almirall, J, Bolíbar, I, Serra-Prat, M, Roig, J, Hospital, I, Carandell, E. New evidence of risk factors for community-acquired pneumonia: a population-based study, Eur Respir J, 2008, 31, 1274, 1284, PMID: 18216057",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00095807",
+            "pmid": "18216057",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "McKeever, T, Harrison, TW, Hubbard, R, Shaw, D. Inhaled corticosteroids and the risk of pneumonia in people with asthma: a case-control study, Chest, 2013, 144, 1788, 1794, PMID: 23990003",
+            "process_entry": "True",
+            "doi": "10.1378/chest.13-0871",
+            "pmid": "23990003",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Farr, BM, Woodhead, MA, Macfarlane, JT, Bartlett, CL, McCraken, JS, Wadsworth, J. Risk factors for community-acquired pneumonia diagnosed by general practitioners in the community, Respir Med, 2000, 94, 422, 427, PMID: 10868703",
+            "process_entry": "True",
+            "doi": "10.1053/rmed.1999.0743",
+            "pmid": "10868703",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "LaCroix, AZ, Lipson, S, Miles, TP, White, L. Prospective study of pneumonia hospitalizations and mortality of U.S. older people: the role of chronic conditions, health behaviors, and nutritional status, Public Health Rep, 1989, 104, 350, 360, PMID: 2502806",
+            "process_entry": "True",
+            "pmid": "2502806",
+            "pmcid": "PMC1579936",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Talbot, TR, Hartert, TV, Mitchel, E, Halasa, NB, Arbogast, PG, Poehling, KA. Asthma as a risk factor for invasive pneumococcal disease, N Engl J Med, 2005, 352, 2082, 2090, PMID: 15901861",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa044113",
+            "pmid": "15901861",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Koivula, I, Sten, M, Mäkelä, PH. Risk factors for pneumonia in the elderly, Am J Med, 1994, 96, 313, 320, PMID: 8166149",
+            "process_entry": "True",
+            "doi": "10.1016/0002-9343(94)90060-4",
+            "pmid": "8166149",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Juhn, YJ, Kita, H, Yawn, BP, Boyce, TG, Yoo, KH, McGree, ME. Increased risk of serious pneumococcal disease in patients with asthma, J Allergy Clin Immunol, 2008, 122, 719, 723, PMID: 18790525",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2008.07.029",
+            "pmid": "18790525",
+            "pmcid": "PMC2811957",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Nannini, LJ, Cates, CJ, Lasserson, TJ, Poole, P. Combined corticosteroid and long-acting beta-agonist in one inhaler versus long-acting beta-agonists for chronic obstructive pulmonary disease, Cochrane Database Syst Rev, 2007, CD006829, PMID: 17943918",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd006829",
+            "pmid": "17943918",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "Cazeiro, C, Silva, C, Mayer, S, Mariany, V, Wainwright, CE, Zhang, L. Inhaled corticosteroids and respiratory infections in children with asthma: a meta-analysis, Pediatrics, 2017, 139, 139",
+            "process_entry": "True",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Marzoratti, L, Iannella, HA, Waterer, GW. Inhaled corticosteroids and the increased risk of pneumonia, Ther Adv Respir Dis, 2013, 7, 225, 234, PMID: 23445751",
+            "process_entry": "True",
+            "doi": "10.1177/1753465813480550",
+            "pmid": "23445751",
+            "xmlid": "B30"
+        },
+        {
+            "bibentry": "Halpin, DM, Gray, J, Edwards, SJ, Morais, J, Singh, D. Budesonide/formoterol vs. salmeterol/fluticasone in COPD: a systematic review and adjusted indirect comparison of pneumonia in randomised controlled trials, Int J Clin Pract, 2011, 65, 764, 774, PMID: 21676119",
+            "process_entry": "True",
+            "doi": "10.1111/j.1742-1241.2011.02685.x",
+            "pmid": "21676119",
+            "xmlid": "B31"
+        },
+        {
+            "bibentry": "Monsó, E, Ruiz, J, Rosell, A, Manterola, J, Fiz, J, Morera, J. Bacterial infection in chronic obstructive pulmonary disease. A study of stable and exacerbated outpatients using the protected specimen brush, Am J Respir Crit Care Med, 1995, 152, 1316, 1320, PMID: 7551388",
+            "process_entry": "True",
+            "doi": "10.1164/ajrccm.152.4.7551388",
+            "pmid": "7551388",
+            "xmlid": "B32"
+        },
+        {
+            "bibentry": "Martin, RJ, Chu, HW, Honour, JM, Harbeck, RJ. Airway inflammation and bronchial hyperresponsiveness after Mycoplasma pneumoniae infection in a murine model, Am J Respir Cell Mol Biol, 2001, 24, 577, 582, PMID: 11350827",
+            "process_entry": "True",
+            "doi": "10.1165/ajrcmb.24.5.4315",
+            "pmid": "11350827",
+            "xmlid": "B33"
+        },
+        {
+            "bibentry": "Hansbro, PM, Beagley, KW, Horvat, JC, Gibson, PG. Role of atypical bacterial infection of the lung in predisposition/protection of asthma, Pharmacol Ther, 2004, 101, 193, 210, PMID: 15030999",
+            "process_entry": "True",
+            "doi": "10.1016/j.pharmthera.2003.10.007",
+            "pmid": "15030999",
+            "xmlid": "B34"
+        },
+        {
+            "bibentry": "Barbier, M, Agustí, A, Albertí, S. Fluticasone propionate reduces bacterial airway epithelial invasion, Eur Respir J, 2008, 32, 1283, 1288, PMID: 18684852",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00020608",
+            "pmid": "18684852",
+            "xmlid": "B35"
+        },
+        {
+            "bibentry": "Dowling, RB, Johnson, M, Cole, PJ, Wilson, R. Effect of fluticasone propionate and salmeterol on Pseudomonas aeruginosa infection of the respiratory mucosa in vitro, Eur Respir J, 1999, 14, 363, 369, PMID: 10515415",
+            "process_entry": "True",
+            "doi": "10.1034/j.1399-3003.1999.14b21.x",
+            "pmid": "10515415",
+            "xmlid": "B36"
+        },
+        {
+            "bibentry": "Sasaki, A, Ouchi, K, Makata, H, Hashimoto, K, Matsubara, T, Furukawa, S. The effect of inhaled corticosteroids on Chlamydophila pneumoniae and Mycoplasma pneumoniae infection in children with bronchial asthma, J Infect Chemother, 2009, 15, 99, 103, PMID: 19396519",
+            "process_entry": "True",
+            "doi": "10.1007/s10156-009-0673-0",
+            "pmid": "19396519",
+            "xmlid": "B37"
+        },
+        {
+            "bibentry": "Blotta, MH, DeKruyff, RH, Umetsu, DT. Corticosteroids inhibit IL-12 production in human monocytes and enhance their capacity to induce IL-4 synthesis in CD4+ lymphocytes, J Immunol, 1997, 158, 5589, 5595, PMID: 9190905",
+            "process_entry": "True",
+            "pmid": "9190905",
+            "xmlid": "B38"
+        },
+        {
+            "bibentry": "Laitinen, K, Laurila, AL, Leinonen, M, Saikku, P. Reactivation of Chlamydia pneumoniae infection in mice by cortisone treatment, Infect Immun, 1996, 64, 1488, 1490, PMID: 8606126",
+            "process_entry": "True",
+            "pmid": "8606126",
+            "pmcid": "PMC173951",
+            "xmlid": "B39"
+        },
+        {
+            "bibentry": "Zhang, L, Prietsch, SO, Mendes, AP, Von Groll, A, Rocha, GP, Carrion, L. Inhaled corticosteroids increase the risk of oropharyngeal colonization by Streptococcus pneumoniae in children with asthma, Respirology, 2013, 18, 272, 277, PMID: 23039314",
+            "process_entry": "True",
+            "doi": "10.1111/j.1440-1843.2012.02280.x",
+            "pmid": "23039314",
+            "xmlid": "B40"
+        },
+        {
+            "bibentry": "Hojo, M, Iikura, M, Hirano, S, Sugiyama, H, Kobayashi, N, Kudo, K. Increased risk of nontuberculous mycobacterial infection in asthmatic patients using long-term inhaled corticosteroid therapy, Respirology, 2012, 17, 185, 190, PMID: 21995339",
+            "process_entry": "True",
+            "doi": "10.1111/j.1440-1843.2011.02076.x",
+            "pmid": "21995339",
+            "xmlid": "B41"
+        },
+        {
+            "bibentry": "Andréjak, C, Nielsen, R, Thomsen, VO, Duhaut, P, Sørensen, HT, Thomsen, RW. Chronic respiratory disease, inhaled corticosteroids and risk of non-tuberculous mycobacteriosis, Thorax, 2013, 68, 256, 262, PMID: 22781123",
+            "process_entry": "True",
+            "doi": "10.1136/thoraxjnl-2012-201772",
+            "pmid": "22781123",
+            "xmlid": "B42"
+        },
+        {
+            "bibentry": "Hilty, M, Burke, C, Pedro, H, Cardenas, P, Bush, A, Bossley, C. Disordered microbial communities in asthmatic airways, PLoS One, 2010, 5, e8578, PMID: 20052417",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0008578",
+            "pmid": "20052417",
+            "pmcid": "PMC2798952",
+            "xmlid": "B43"
+        },
+        {
+            "bibentry": "Wedzicha, JA, Calverley, PM, Seemungal, TA, Hagan, G, Ansari, Z, Stockley, RA. The prevention of chronic obstructive pulmonary disease exacerbations by salmeterol/fluticasone propionate or tiotropium bromide, Am J Respir Crit Care Med, 2008, 177, 19, 26, PMID: 17916806",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200707-973oc",
+            "pmid": "17916806",
+            "xmlid": "B44"
+        },
+        {
+            "bibentry": "Malo de Molina, R, Mortensen, EM, Restrepo, MI, Copeland, LA, Pugh, MJ, Anzueto, A. Inhaled corticosteroid use is associated with lower mortality for subjects with COPD and hospitalised with pneumonia, Eur Respir J, 2010, 36, 751, 757, PMID: 20413535",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00077509",
+            "pmid": "20413535",
+            "xmlid": "B45"
+        },
+        {
+            "bibentry": "Choi, JY, Yoon, HK, Lee, JH, Yoo, KH, Kim, BY, Bae, HW. Current status of asthma care in South Korea: nationwide the Health Insurance Review and Assessment Service database, J Thorac Dis, 2017, 9, 3208, 3214, PMID: 29221297",
+            "process_entry": "True",
+            "doi": "10.21037/jtd.2017.08.109",
+            "pmid": "29221297",
+            "pmcid": "PMC5708454",
+            "xmlid": "B46"
+        },
+        {
+            "bibentry": "Zeiger, RS, Hay, JW, Contreras, R, Chen, W, Quinn, VP, Seal, B. Asthma costs and utilization in a managed care organization, J Allergy Clin Immunol, 2008, 121, 885, 892.e5, PMID: 18313133",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2007.12.1178",
+            "pmid": "18313133",
+            "xmlid": "B47"
+        },
+        {
+            "bibentry": "Rabe, KF, Vermeire, PA, Soriano, JB, Maier, WC. Clinical management of asthma in 1999: the Asthma Insights and Reality in Europe (AIRE) study, Eur Respir J, 2000, 16, 802, 807, PMID: 11153575",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.00.16580200",
+            "pmid": "11153575",
+            "xmlid": "B48"
+        },
+        {
+            "bibentry": "Kim, CK, Callaway, Z, Choi, J, Kim, HB, Kwon, EM, Chang, YS. Multicenter adherence study of asthma medication for children in Korea, Allergy Asthma Immunol Res, 2019, 11, 222, 230, PMID: 30661314",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2019.11.2.222",
+            "pmid": "30661314",
+            "pmcid": "PMC6340803",
+            "xmlid": "B49"
+        },
+        {
+            "bibentry": "Klemets, P, Lyytikäinen, O, Ruutu, P, Ollgren, J, Kaijalainen, T, Leinonen, M. Risk of invasive pneumococcal infections among working age adults with asthma, Thorax, 2010, 65, 698, 702, PMID: 20685743",
+            "process_entry": "True",
+            "doi": "10.1136/thx.2009.132670",
+            "pmid": "20685743",
+            "xmlid": "B50"
+        }
+    ],
+    "localid": "MED-31552715",
+    "doi": "10.4168/aair.2019.11.6.795",
+    "pmid": "10.4168/aair.2019.11.6.795",
+    "pmcid": "31552715",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31552715/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,461)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),73,545)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),619,759)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),633,240)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Study design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,500)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),502,104)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,396)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,204)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),360,184)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),831,581)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,246)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),467,355)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),256,743)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1,688)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B41",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),690,332)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1023,304)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B46",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),105,269)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1524,199)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

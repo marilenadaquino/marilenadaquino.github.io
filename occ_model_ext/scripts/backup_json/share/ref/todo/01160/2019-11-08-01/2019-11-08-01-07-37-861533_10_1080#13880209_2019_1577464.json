@@ -1,0 +1,700 @@
+{
+    "references": [
+        {
+            "bibentry": "Bani-Hani, AH, Leslie, JA, Asanuma, H, Dinarello, CA, Campbell, MT, Meldrum, DR, Zhang, H, Hile, K, Meldrum, KK. 2009 IL-18 neutralization ameliorates obstruction-induced epithelial-mesenchymal transition and renal fibrosis. Kidney Int. 76: 500–511. PMID: 19536084",
+            "process_entry": "True",
+            "doi": "10.1038/ki.2009.216",
+            "pmid": "19536084",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Boor, P, Ostendorf, T, Floege, J. 2010 Renal fibrosis: novel insights into mechanisms and therapeutic targets. Nat Rev Nephrol. 6: 643–656. PMID: 20838416",
+            "process_entry": "True",
+            "doi": "10.1038/nrneph.2010.120",
+            "pmid": "20838416",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Carew, RM, Wang, B, Kantharidis, P. 2012 The role of EMT in renal fibrosis. Cell Tissue Res. 347: 103–116. PMID: 21845400",
+            "process_entry": "True",
+            "doi": "10.1007/s00441-011-1227-1",
+            "pmid": "21845400",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Chevalier, RL, Forbes, MS, Thornhill, BA. 2009 Ureteral obstruction as a model of renal interstitial fibrosis and obstructive nephropathy. Kidney Int. 75: 1145–1152. PMID: 19340094",
+            "process_entry": "True",
+            "doi": "10.1038/ki.2009.86",
+            "pmid": "19340094",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Ding, H, Zhou, D, Hao, S, Zhou, L, He, W, Nie, J, Hou, FF, Liu, Y. 2012 Sonic hedgehog signaling mediates epithelial-mesenchymal communication and promotes renal fibrosis. J Am Soc Nephrol: Jasn. 23: 801–813. PMID: 22302193",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2011060614",
+            "pmid": "22302193",
+            "pmcid": "PMC3338290",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Fan, JM, Ng, YY, Hill, PA, Nikolic-Paterson, DJ, Mu, W, Atkins, RC, Lan, HY. 1999 Transforming growth factor-beta regulates tubular epithelial-myofibroblast transdifferentiation in vitro. Kidney Int. 56: 1455–1467. PMID: 10504497",
+            "process_entry": "True",
+            "doi": "10.1046/j.1523-1755.1999.00656.x",
+            "pmid": "10504497",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hertig, A, Anglicheau, D, Verine, J, Pallet, N, Touzot, M, Ancel, PY, Mesnard, L, Brousse, N, Baugey, E, Glotz, D, et al. 2008 Early epithelial phenotypic changes predict graft fibrosis. J Am Soc Nephrol. 19: 1584–1591. PMID: 18434568",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2007101160",
+            "pmid": "18434568",
+            "pmcid": "PMC2488257",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Iwano, M, Plieth, D, Danoff, TM, Xue, C, Okada, H, Neilson, EG. 2002 Evidence that fibroblasts derive from epithelium during tissue fibrosis. J Clin Invest. 110: 341–350. PMID: 12163453",
+            "process_entry": "True",
+            "doi": "10.1172/JCI15518",
+            "pmid": "12163453",
+            "pmcid": "PMC151091",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Jiang, L, Xu, L, Mao, J, Li, J, Fang, L, Zhou, Y, Liu, W, He, W, Zhao, AZ, Yang, J, et al. 2013 Rheb/mTORC1 signaling promotes kidney fibroblast activation and fibrosis. J Am Soc Nephrol: Jasn. 24: 1114–1126. PMID: 23661807",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2012050476",
+            "pmid": "23661807",
+            "pmcid": "PMC3699820",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Jin, YR, Jin, JL, Li, CH, Piao, XX, Jin, NG. 2012 Ursolic acid enhances mouse liver regeneration after partial hepatectomy. Pharm Biol. 50: 523–528. PMID: 22136205",
+            "process_entry": "True",
+            "doi": "10.3109/13880209.2011.611143",
+            "pmid": "22136205",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kalluri, R, Neilson, EG. 2003 Epithelial-mesenchymal transition and its implications for fibrosis. J Clin Invest. 112: 1776–1784. PMID: 14679171",
+            "process_entry": "True",
+            "doi": "10.1172/JCI200320530",
+            "pmid": "14679171",
+            "pmcid": "PMC297008",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Lan, HY. 2011 Diverse roles of TGF-β/Smads in renal fibrosis and inflammation. Int J Biol Sci. 7: 1056–1067. PMID: 21927575",
+            "process_entry": "True",
+            "doi": "10.7150/ijbs.7.1056",
+            "pmid": "21927575",
+            "pmcid": "PMC3174390",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Lange-Sperandio, B, Trautmann, A, Eickelberg, O, Jayachandran, A, Oberle, S, Schmidutz, F, Rodenbeck, B, Homme, M, Horuk, R, Schaefer, F. 2007 Leukocytes induce epithelial to mesenchymal transition after unilateral ureteral obstruction in neonatal mice. Am J Pathol. 171: 861–871. PMID: 17675578",
+            "process_entry": "True",
+            "doi": "10.2353/ajpath.2007.061199",
+            "pmid": "17675578",
+            "pmcid": "PMC1959504",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Liu, Y. 2010 New insights into epithelial-mesenchymal transition in kidney fibrosis. J Am Soc Nephrol: Jasn. 21: 212–222. PMID: 20019167",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2008121226",
+            "pmid": "20019167",
+            "pmcid": "PMC4554339",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Livak, KJ, Schmittgen, TD. 2001 Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods. 25: 402–408. PMID: 11846609",
+            "process_entry": "True",
+            "doi": "10.1006/meth.2001.1262",
+            "pmid": "11846609",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Murakami, S, Takashima, H, Sato-Watanabe, M, Chonan, S, Yamamoto, K, Saitoh, M, Saito, S, Yoshimura, H, Sugawara, K, Yang, J, et al. 2004 Ursolic acid, an antagonist for transforming growth factor (TGF)-beta1. FEBS Lett. 566: 55–59. PMID: 15147868",
+            "process_entry": "True",
+            "doi": "10.1016/j.febslet.2004.04.036",
+            "pmid": "15147868",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Naber, HP, Drabsch, Y, Snaar-Jagalska, BE, ten Dijke, P, van Laar, T. 2013 Snail and Slug, key regulators of TGF-β-induced EMT, are sufficient for the induction of single-cell invasion. Biochem Biophy Res Commun. 435: 58–63.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Pai, PG, Chamari Nawarathna, S, Kulkarni, A, Habeeba, U, Reddy, CS, Teerthanath, S, Shenoy, JP. 2012 Nephroprotective effect of ursolic acid in a murine model of gentamicin-induced renal damage. ISRN Pharmacol. 2012: 1.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Piera-Velazquez, S, Li, Z, Jimenez, SA. 2011 Role of endothelial-mesenchymal transition (EndoMT) in the pathogenesis of fibrotic disorders. Am J Pathol. 179: 1074–1080. PMID: 21763673",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajpath.2011.06.001",
+            "pmid": "21763673",
+            "pmcid": "PMC3157273",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Rowe, RG, Lin, Y, Shimizu-Hirota, R, Hanada, S, Neilson, EG, Greenson, JK, Weiss, SJ. 2011 Hepatocyte-derived Snail1 propagates liver fibrosis progression. Mol Cell Biol. 31: 2392–2403. PMID: 21482667",
+            "process_entry": "True",
+            "doi": "10.1128/MCB.01218-10",
+            "pmid": "21482667",
+            "pmcid": "PMC3133420",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Ryu, ES, Kim, MJ, Shin, HS, Jang, YH, Choi, HS, Jo, I, Johnson, RJ, Kang, DH. 2013 Uric acid-induced phenotypic transition of renal tubular cells as a novel mechanism of chronic kidney disease. Am J Physiol Renal. 304: F471–F480.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Seva Pessoa, B, van der Lubbe, N, Verdonk, K, Roks, AJ, Hoorn, EJ, Danser, AH. 2013 Key developments in renin-angiotensin-aldosterone system inhibition. Nat Rev Nephrol. 9: 26–36. PMID: 23165302",
+            "process_entry": "True",
+            "doi": "10.1038/nrneph.2012.249",
+            "pmid": "23165302",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Shyu, MH, Kao, TC, Yen, GC. 2008 Hsian-tsao (Mesona procumbens Heml.) prevents against rat liver fibrosis induced by CCl 4 via inhibition of hepatic stellate cells activation. Food Chem Toxicol. 46: 3707–3713. PMID: 18929613",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2008.09.051",
+            "pmid": "18929613",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Sultana, N. 2011 Clinically useful anticancer, antitumor, and antiwrinkle agent, ursolic acid and related derivatives as medicinally important natural product. J Enzyme Inhibit Med Chem. 26: 616–642.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Thiery, JP, Acloque, H, Huang, RY, Nieto, MA. 2009 Epithelial-mesenchymal transitions in development and disease. Cell. 139: 871–890. PMID: 19945376",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2009.11.007",
+            "pmid": "19945376",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Wang, X, Ikejima, K, Kon, K, Arai, K, Aoyama, T, Okumura, K, Abe, W, Sato, N, Watanabe, S. 2011 Ursolic acid ameliorates hepatic fibrosis in the rat by specific induction of apoptosis in hepatic stellate cells. J Hepatol. 55: 379–387. PMID: 21168456",
+            "process_entry": "True",
+            "doi": "10.1016/j.jhep.2010.10.040",
+            "pmid": "21168456",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Wolf, G, Ritz, E. 2005 Combination therapy with ACE inhibitors and angiotensin II receptor blockers to halt progression of chronic renal disease: pathophysiology and indications. Kidney Int. 67: 799–812. PMID: 15698420",
+            "process_entry": "True",
+            "doi": "10.1111/j.1523-1755.2005.00145.x",
+            "pmid": "15698420",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Wu, C-F, Chiang, W-C, Lai, C-F, Chang, F-C, Chen, Y-T, Chou, Y-H, Wu, T-H, Linn, GR, Ling, H, Wu, K-D, et al. 2013 Transforming growth factor β-1 stimulates profibrotic epithelial signaling to activate pericyte-myofibroblast transition in obstructive kidney fibrosis. Am J Pathol. 182: 118–131. PMID: 23142380",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajpath.2012.09.009",
+            "pmid": "23142380",
+            "pmcid": "PMC3538028",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Xu-Dubois, YC, Galichon, P, Brocheriou, I, Baugey, E, Morichon, R, Jouanneau, C, Ouali, N, Rondeau, E, Hertig, A. 2014 Expression of the transcriptional regulator snail1 in kidney transplants displaying epithelial-to-mesenchymal transition features. Nephrol Dial Transplant. 29:2136–2144.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Yang, F, Huang, XR, Chung, AC, Hou, CC, Lai, KN, Lan, HY. 2010 Essential role for Smad3 in angiotensin II-induced tubular epithelial-mesenchymal transition. J Pathol. 221: 390–401. PMID: 20593491",
+            "process_entry": "True",
+            "doi": "10.1002/path.2721",
+            "pmid": "20593491",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Yoshino, J, Monkawa, T, Tsuji, M, Inukai, M, Itoh, H, Hayashi, M. 2007 Snail1 is involved in the renal epithelial-mesenchymal transition. Biochem Biophys Res Commun. 362: 63–68. PMID: 17692821",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2007.07.146",
+            "pmid": "17692821",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Zhou, D, Tan, RJ, Zhou, L, Li, Y, Liu, Y. 2013 Kidney tubular β-catenin signaling controls interstitial fibroblast fate via epithelial-mesenchymal communication. Sci Rep. 3: 1878. PMID: 23698793",
+            "process_entry": "True",
+            "doi": "10.1038/srep01878",
+            "pmid": "23698793",
+            "pmcid": "PMC3662012",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Zhou, Y, Li, JS, Zhang, X, Wu, YJ, Huang, K, Zheng, L. 2010 Ursolic acid inhibits early lesions of diabetic nephropathy. Int J Mol Med. 26: 565–570. PMID: 20818497",
+            "process_entry": "True",
+            "doi": "10.3892/ijmm_00000500",
+            "pmid": "20818497",
+            "xmlid": "CIT0033"
+        }
+    ],
+    "localid": "MED-30905239",
+    "doi": "10.1080/13880209.2019.1577464",
+    "pmid": "10.1080/13880209.2019.1577464",
+    "pmcid": "30905239",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30905239/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0032",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),95,142)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0003",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),315,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0008",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),503,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0007",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),657,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0027",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,142)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0022",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),304,186)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),491,139)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0024",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),121,123)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0010",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),245,125)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jin et al.2012; Pai et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),335,33)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0018",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),245,125)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jin et al. 2012; Pai et al.2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),335,33)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0023",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),371,156)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shyu et al.2008; Wang et al. 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),490,35)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0026",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),371,156)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shyu et al. 2008; Wang et al.2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),490,35)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0033",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),528,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0016",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),682,110)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0004",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),287,66)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Experimental protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0009",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),81,149)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Histological and immunohistochemical examination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0028",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,86)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Western blot analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1332,114)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Real-time PCR"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0032",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,94)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0014",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),259,218)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0011",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),478,130)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0002",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),609,293)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0025",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),240,125)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0019",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),435,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0008",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),570,175)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0001",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),746,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Bani-Hani et al.2009; Piera-Velazquez et al. 2011; Ding et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),812,69)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),746,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Bani-Hani et al. 2009; Piera-Velazquez et al.2011; Ding et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),812,69)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0005",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),746,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Bani-Hani et al. 2009; Piera-Velazquez et al. 2011; Ding et al.2012)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),812,69)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0020",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,157)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0031",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),159,277)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),437,111)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0017",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),686,124)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0013",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),811,130)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0021",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),942,168)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0012",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,104)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0006",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),106,120)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0030",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),279,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

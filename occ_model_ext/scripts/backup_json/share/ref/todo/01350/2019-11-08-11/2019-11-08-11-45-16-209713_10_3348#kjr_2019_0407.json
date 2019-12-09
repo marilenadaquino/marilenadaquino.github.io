@@ -1,0 +1,900 @@
+{
+    "references": [
+        {
+            "bibentry": "Yoon, YE, Hong, YJ, Kim, HK, Kim, JA, Na, JO, Yang, DH. 2014 Korean guidelines for appropriate utilization of cardiovascular magnetic resonance imaging: a joint report of The Korean Society of Cardiology and The Korean Society of Radiology, Korean Circ J, 2014, 44, 359, 385, PMID: 25469139",
+            "process_entry": "True",
+            "doi": "10.4070/kcj.2014.44.6.359",
+            "pmid": "25469139",
+            "pmcid": "PMC4248609",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Kim, YJ, Yong, HS, Kim, SM, Kim, JA, Yang, DH, Hong, YJ. Korean Society of Radiology, Korean Society of Cardiology, Korean guidelines for the appropriate use of cardiac CT, Korean J Radiol, 2015, 16, 251, 285, PMID: 25741189",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2015.16.2.251",
+            "pmid": "25741189",
+            "pmcid": "PMC4347263",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "ASCI Practice Guideline Working Group, Beck, KS, Kim, JA, Choe, YH, Hian, SK, Hoe, J, Hong, YJ. 2017 multimodality appropriate use criteria for noninvasive cardiac imaging: expert consensus of the Asian Society of Cardiovascular Imaging, Korean J Radiol, 2017, 18, 871, 880, PMID: 29089819",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2017.18.6.871",
+            "pmid": "29089819",
+            "pmcid": "PMC5639152",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Goo, HW. Comparison between three-dimensional navigator-gated whole-heart MRI and two-dimensional cine MRI in quantifying ventricular volumes, Korean J Radiol, 2018, 19, 704, 714, PMID: 29962876",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.19.4.704",
+            "pmid": "29962876",
+            "pmcid": "PMC6005949",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Cui, C, Yin, G, Lu, M, Chen, X, Cheng, S, Li, L. Retrospective electrocardiography-gated real-time cardiac cine MRI at 3T: comparison with conventional segmented cine MRI, Korean J Radiol, 2019, 20, 114, 125, PMID: 30627027",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.0243",
+            "pmid": "30627027",
+            "pmcid": "PMC6315079",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Goo, HW. Semiautomatic three-dimensional threshold-based cardiac computed tomography ventricular volumetry in repaired tetralogy of Fallot: comparison with cardiac magnetic resonance imaging, Korean J Radiol, 2019, 20, 102, 113, PMID: 30627026",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.0237",
+            "pmid": "30627026",
+            "pmcid": "PMC6315063",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Lee, JW, Jeong, YJ, Lee, G, Lee, NK, Lee, HW, Kim, JY. Predictive value of cardiac magnetic resonance imaging-derived myocardial strain for poor outcomes in patients with acute myocarditis, Korean J Radiol, 2017, 18, 643, 654, PMID: 28670159",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2017.18.4.643",
+            "pmid": "28670159",
+            "pmcid": "PMC5447640",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Pizzino, F, Recupero, A, Pugliatti, P, Maffei, S, Di Bella, G. RE: multi-parameter CMR approach in acute myocarditis to improve diagnosis and prognostic stratification, Korean J Radiol, 2018, 19, 366, 367, PMID: 29520196",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.19.2.366",
+            "pmid": "29520196",
+            "pmcid": "PMC5840067",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Lee, HG, Shim, J, Choi, JI, Kim, YH, Oh, YW, Hwang, SH. Use of cardiac computed tomography and magnetic resonance imaging in case management of atrial fibrillation with catheter ablation, Korean J Radiol, 2019, 20, 695, 708, PMID: 30993921",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.0774",
+            "pmid": "30993921",
+            "pmcid": "PMC6470091",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Min, JY, Ko, SM, Song, IY, Yi, JG, Hwang, HK, Shin, JK. Comparison of the diagnostic accuracies of 1.5T and 3T stress myocardial perfusion cardiovascular magnetic resonance for detecting significant coronary artery disease, Korean J Radiol, 2018, 19, 1007, 1020, PMID: 30386133",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.19.6.1007",
+            "pmid": "30386133",
+            "pmcid": "PMC6201977",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Lim, J, Park, EA, Song, YS, Lee, W. Single-dose gadoterate meglumine for 3T late gadolinium enhancement MRI for the assessment of chronic myocardial infarction: intra-individual comparison with conventional double-dose 1.5T MRI, Korean J Radiol, 2018, 19, 372, 380, PMID: 29713214",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.19.3.372",
+            "pmid": "29713214",
+            "pmcid": "PMC5904463",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Wang, L, Chen, Y, Zhang, B, Chen, W, Wang, C, Song, L. Self-gated late gadolinium enhancement at 7T to image rats with reperfused acute myocardial infarction, Korean J Radiol, 2018, 19, 247, 255, PMID: 29520182",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.19.2.247",
+            "pmid": "29520182",
+            "pmcid": "PMC5840053",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Chen, Y, Zheng, X, Jin, H, Deng, S, Ren, D, Greiser, A. Role of myocardial extracellular volume fraction measured with magnetic resonance imaging in the prediction of left ventricular functional outcome after revascularization of chronic total occlusion of coronary arteries, Korean J Radiol, 2019, 20, 83, 93, PMID: 30627024",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2018.0069",
+            "pmid": "30627024",
+            "pmcid": "PMC6315067",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Karimi, S, Pourmehdi, M, Naderi, M. RE: prediction of the left ventricular functional outcome by myocardial extracellular volume fraction measured using magnetic resonance imaging: methodological issue, Korean J Radiol, 2019, 20, 1001, 1002, PMID: 31132827",
+            "process_entry": "True",
+            "doi": "10.3348/kjr.2019.0062",
+            "pmid": "31132827",
+            "pmcid": "PMC6536790",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Cerqueira, MD, Weissman, NJ, Dilsizian, V, Jacobs, AK, Kaul, S, Laskey, WK. American Heart Association Writing Group on Myocardial Segmentation and Registration for Cardiac Imaging, Standardized myocardial segmentation and nomenclature for tomographic imaging of the heart. A statement for healthcare professionals from the Cardiac Imaging Committee of the Council on Clinical Cardiology of the American Heart Association, Circulation, 2002, 105, 539, 542, PMID: 11815441",
+            "process_entry": "True",
+            "doi": "10.1161/hc0402.102975",
+            "pmid": "11815441",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Hundley, WG, Bluemke, D, Bogaert, JG, Friedrich, MG, Higgins, CB, Lawson, MA. Society for Cardiovascular Magnetic Resonance guidelines for reporting cardiovascular magnetic resonance examinations, J Cardiovasc Magn Reson, 2009, 11, 5, PMID: 19257889",
+            "process_entry": "True",
+            "doi": "10.1186/1532-429X-11-5",
+            "pmid": "19257889",
+            "pmcid": "PMC2662831",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Schulz-Menger, J, Bluemke, DA, Bremerich, J, Flamm, SD, Fogel, MA, Friedrich, MG. Standardized image interpretation and post processing in cardiovascular magnetic resonance: Society for Cardiovascular Magnetic Resonance (SCMR) board of trustees task force on standardized post processing, J Cardiovasc Magn Reson, 2013, 15, 35, PMID: 23634753",
+            "process_entry": "True",
+            "doi": "10.1186/1532-429X-15-35",
+            "pmid": "23634753",
+            "pmcid": "PMC3695769",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Maceira, AM, Prasad, SK, Khan, M, Pennell, DJ. Normalized left ventricular systolic and diastolic function by steady state free precession cardiovascular magnetic resonance, J Cardiovasc Magn Reson, 2006, 8, 417, 426, PMID: 16755827",
+            "process_entry": "True",
+            "doi": "10.1080/10976640600572889",
+            "pmid": "16755827",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Hudsmith, LE, Petersen, SE, Francis, JM, Robson, MD, Neubauer, S. Normal human left and right ventricular and left atrial dimensions using steady state free precession magnetic resonance imaging, J Cardiovasc Magn Reson, 2005, 7, 775, 782, PMID: 16353438",
+            "process_entry": "True",
+            "doi": "10.1080/10976640500295516",
+            "pmid": "16353438",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Hamdan, A, Kelle, S, Schnackenburg, B, Fleck, E, Nagel, E. Improved quantitative assessment of left ventricular volumes using TGrE approach after application of extracellular contrast agent at 3 Tesla, J Cardiovasc Magn Reson, 2007, 9, 845, 853, PMID: 18066743",
+            "process_entry": "True",
+            "doi": "10.1080/10976640701693600",
+            "pmid": "18066743",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Thiele, H, Paetsch, I, Schnackenburg, B, Bornstedt, A, Grebe, O, Wellnhofer, E. Improved accuracy of quantitative assessment of left ventricular volume and ejection fraction by geometric models with steady-state free precession, J Cardiovasc Magn Reson, 2002, 4, 327, 339, PMID: 12234104",
+            "process_entry": "True",
+            "doi": "10.1081/jcmr-120013298",
+            "pmid": "12234104",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Puntmann, VO, Gebker, R, Duckett, S, Mirelis, J, Schnackenburg, B, Graefe, M. Left ventricular chamber dimensions and wall thickness by cardiovascular magnetic resonance: comparison with transthoracic echocardiography, Eur Heart J Cardiovasc Imaging, 2013, 14, 240, 246, PMID: 22815376",
+            "process_entry": "True",
+            "doi": "10.1093/ehjci/jes145",
+            "pmid": "22815376",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Alfakih, K, Plein, S, Thiele, H, Jones, T, Ridgway, JP, Sivananthan, MU. Normal human left and right ventricular dimensions for MRI as assessed by turbo gradient echo and steady-state free precession imaging sequences, J Magn Reson Imaging, 2003, 17, 323, 329, PMID: 12594722",
+            "process_entry": "True",
+            "doi": "10.1002/jmri.10262",
+            "pmid": "12594722",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Alfakih, K, Plein, S, Bloomer, T, Jones, T, Ridgway, J, Sivananthan, M. Comparison of right ventricular volume measurements between axial and short axis orientation using steady-state free precession magnetic resonance imaging, J Magn Reson Imaging, 2003, 18, 25, 32, PMID: 12815636",
+            "process_entry": "True",
+            "doi": "10.1002/jmri.10329",
+            "pmid": "12815636",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Clarke, CJ, Gurka, MJ, Norton, PT, Kramer, CM, Hoyer, AW. Assessment of the accuracy and reproducibility of RV volume measurements by CMR in congenital heart disease, JACC Cardiovasc Imaging, 2012, 5, 28, 37, PMID: 22239890",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcmg.2011.05.007",
+            "pmid": "22239890",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Mohiaddin, RH, Kilner, PJ, Rees, S, Longmore, DB. Magnetic resonance volume flow and jet velocity mapping in aortic coarctation, J Am Coll Cardiol, 1993, 22, 1515, 1521, PMID: 8227813",
+            "process_entry": "True",
+            "doi": "10.1016/0735-1097(93)90565-i",
+            "pmid": "8227813",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Mohiaddin, RH, Pennell, DJ. MR blood flow measurement. Clinical application in the heart and circulation, Cardiol Clin, 1998, 16, 161, 187, PMID: 9627755",
+            "process_entry": "True",
+            "doi": "10.1016/s0733-8651(05)70007-2",
+            "pmid": "9627755",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "Rebergen, SA, van der Wall, EE, Doornbos, J, de Roos, A. Magnetic resonance measurement of velocity and flow: technique, validation, and cardiovascular applications, Am Heart J, 1993, 126, 1439, 1456, PMID: 8249802",
+            "process_entry": "True",
+            "doi": "10.1016/0002-8703(93)90544-j",
+            "pmid": "8249802",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "O'Brien, KR, Cowan, BR, Jain, M, Stewart, RA, Kerr, AJ, Young, AA. MRI phase contrast velocity and flow errors in turbulent stenotic jets, J Magn Reson Imaging, 2008, 28, 210, 218, PMID: 18581344",
+            "process_entry": "True",
+            "doi": "10.1002/jmri.21395",
+            "pmid": "18581344",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Holland, BJ, Printz, BF, Lai, WW. Baseline correction of phase-contrast images in congenital cardiovascular magnetic resonance, J Cardiovasc Magn Reson, 2010, 12, 11, PMID: 20205725",
+            "process_entry": "True",
+            "doi": "10.1186/1532-429X-12-11",
+            "pmid": "20205725",
+            "pmcid": "PMC2845128",
+            "xmlid": "B30"
+        },
+        {
+            "bibentry": "Chernobelsky, A, Shubayev, O, Comeau, CR, Wolff, SD. Baseline correction of phase contrast images improves quantification of blood flow in the great vessels, J Cardiovasc Magn Reson, 2007, 9, 681, 685, PMID: 17578724",
+            "process_entry": "True",
+            "doi": "10.1080/10976640601187588",
+            "pmid": "17578724",
+            "xmlid": "B31"
+        },
+        {
+            "bibentry": "Holloway, BJ, Rosewarne, D, Jones, RG. Imaging of thoracic aortic disease, Br J Radiol, 2011, 84 Spec No 3, S338, S354, PMID: 22723539",
+            "process_entry": "True",
+            "doi": "10.1259/bjr/30655825",
+            "pmid": "22723539",
+            "pmcid": "PMC3473913",
+            "xmlid": "B32"
+        },
+        {
+            "bibentry": "Hiratzka, LF, Bakris, GL, Beckman, JA, Bersin, RM, Carr, VF, Casey, DE, Jr. 2010 ACCF/AHA/AATS/ACR/ASA/SCA/SCAI/SIR/STS/SVM guidelines for the diagnosis and management of patients with thoracic aortic disease. A report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines, American Association for Thoracic Surgery, American College of Radiology, American Stroke Association, Society of Cardiovascular Anesthesiologists, Society for Cardiovascular Angiography and Interventions, Society of Interventional Radiology, Society of Thoracic Surgeons, and Society for Vascular Medicine, J Am Coll Cardiol, 2010, 55, e27, e129, PMID: 20359588",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2010.02.015",
+            "pmid": "20359588",
+            "xmlid": "B33"
+        },
+        {
+            "bibentry": "Glockner, JF. MR angiography interpretation: techniques and pitfalls, Magn Reson Imaging Clin N Am, 2005, 13, 23, 40, PMID: 15760755",
+            "process_entry": "True",
+            "doi": "10.1016/j.mric.2004.12.006",
+            "pmid": "15760755",
+            "xmlid": "B34"
+        },
+        {
+            "bibentry": "Kalb, B, Sharma, P, Tigges, S, Ray, GL, Kitajima, HD, Costello, JR. MR imaging of pulmonary embolism: diagnostic accuracy of contrast-enhanced 3D MR pulmonary angiography, contrast-enhanced low-flip angle 3D GRE, and nonenhanced free-induction FISP sequences, Radiology, 2012, 263, 271, 278, PMID: 22438448",
+            "process_entry": "True",
+            "doi": "10.1148/radiol.12110224",
+            "pmid": "22438448",
+            "xmlid": "B35"
+        },
+        {
+            "bibentry": "Grosse-Wortmann, L, Al-Otay, A, Goo, HW, Macgowan, CK, Coles, JG, Benson, LN. Anatomical and functional evaluation of pulmonary veins in children by magnetic resonance imaging, J Am Coll Cardiol, 2007, 49, 993, 1002, PMID: 17336724",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2006.09.052",
+            "pmid": "17336724",
+            "xmlid": "B36"
+        },
+        {
+            "bibentry": "Sakuma, H, Ichikawa, Y, Chino, S, Hirano, T, Makino, K, Takeda, K. Detection of coronary artery stenosis with whole-heart coronary magnetic resonance angiography, J Am Coll Cardiol, 2006, 48, 1946, 1950, PMID: 17112982",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2006.07.055",
+            "pmid": "17112982",
+            "xmlid": "B37"
+        }
+    ],
+    "localid": "MED-31606953",
+    "doi": "10.3348/kjr.2019.0407",
+    "pmid": "10.3348/kjr.2019.0407",
+    "pmcid": "31606953",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31606953/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),220,394)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),220,394)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),220,394)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),271,178)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),271,178)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),271,178)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),450,249)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),450,249)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),450,249)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),817,114)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),817,114)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),817,114)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),817,114)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),817,114)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p/list/list-item[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p/list/list-item[2]/p),160,76)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Visual Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p/list/list-item[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p/list/list-item[2]/p),237,99)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Visual Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[1]/p/list/list-item[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[1]/p/list/list-item[3]/p),1,126)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "1. General"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[2]/p/list/list-item[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[2]/p/list/list-item[1]/p),163,71)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "2. LV volumes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[2]/p/list/list-item[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[2]/p/list/list-item[1]/p),163,71)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "2. LV volumes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[3]/p/list/list-item[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[3]/p/list/list-item[1]/p),1,123)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "3. LV mass"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[3]/p/list/list-item[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[3]/p/list/list-item[2]/p),117,73)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "3. LV mass"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[4]/p/list/list-item[3]/p[2]/list/list-item[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[4]/p/list/list-item[3]/p[2]/list/list-item[1]/p),1,76)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "4. Quick assessment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[4]/p/list/list-item[3]/p[2]/list/list-item[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[4]/p/list/list-item[3]/p[2]/list/list-item[1]/p),1,76)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "4. Quick assessment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/sec[4]/p/list/list-item[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/sec[4]/p/list/list-item[4]/p[1]),1,77)",
+                "containers_title": [
+                    "Left Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to",
+                    "4. Quick assessment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[1]/p/list/list-item[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[1]/p/list/list-item[1]/p),4,128)",
+                "containers_title": [
+                    "Right Ventricular Functional Assessment",
+                    "Visual Assessment",
+                    "I. What-to-see"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p/list/list-item/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p/list/list-item/p),4,93)",
+                "containers_title": [
+                    "Right Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "I. What-to-see"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p/list/list-item[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p/list/list-item[1]/p),223,168)",
+                "containers_title": [
+                    "Right Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p/list/list-item[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p/list/list-item[1]/p),223,168)",
+                "containers_title": [
+                    "Right Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p/list/list-item[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p/list/list-item[3]/p),384,53)",
+                "containers_title": [
+                    "Right Ventricular Functional Assessment",
+                    "Quantitative Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[2]/p/list/list-item[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[2]/p/list/list-item[3]/p),4,226)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Visual Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[2]/p/list/list-item[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[2]/p/list/list-item[3]/p),4,226)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Visual Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[3]/p/list/list-item[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[3]/p/list/list-item[2]/p),4,74)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Visual Assessment",
+                    "III. Pitfalls"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/sec[3]/p/list/list-item[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/sec[3]/p/list/list-item[3]/p),4,89)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Visual Assessment",
+                    "III. Pitfalls"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[1]/p/list/list-item[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[1]/p/list/list-item[4]/p[1]),4,39)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Quantitative Assessment",
+                    "I. What-to-see"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/list/list-item[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p/list/list-item[2]/p),4,127)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Quantitative Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "B30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/list/list-item[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p/list/list-item[4]/p),4,77)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Quantitative Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "B31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/list/list-item[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p/list/list-item[4]/p),4,77)",
+                "containers_title": [
+                    "Flow Imaging",
+                    "Quantitative Assessment",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "B32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[2]/p[2]/list/list-item[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[2]/p[2]/list/list-item[1]/p),1,146)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[2]/p[2]/list/list-item[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[2]/p[2]/list/list-item[1]/p),1,146)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[2]/p[2]/list/list-item[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[2]/p[2]/list/list-item[4]/p),1,150)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[3]/p[2]/list/list-item[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[3]/p[2]/list/list-item[2]/p),1,114)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "B35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[3]/p[2]/list/list-item[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[3]/p[2]/list/list-item[2]/p),1,114)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "B36",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[3]/p[2]/list/list-item[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[3]/p[2]/list/list-item[2]/p),1,114)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "B37",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[2]/p/list/list-item[4]/p[2]/list/list-item[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[2]/p/list/list-item[4]/p[2]/list/list-item[2]/p),1,140)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "II. How-to"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[5]/sec/sec[3]/p/list/list-item/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/sec[3]/p/list/list-item/p),4,148)",
+                "containers_title": [
+                    "MR Angiography",
+                    "Visual and Quantitative Assessments",
+                    "III. Pitfall"
+                ]
+            }
+        ]
+    ]
+}

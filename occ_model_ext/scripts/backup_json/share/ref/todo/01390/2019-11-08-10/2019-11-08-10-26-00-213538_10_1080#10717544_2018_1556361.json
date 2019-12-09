@@ -1,0 +1,992 @@
+{
+    "references": [
+        {
+            "bibentry": "Ansenberger-Fricano, K, Ganini, D, Mao, M, et al. (2013). The peroxidase activity of mitochondrial superoxide dismutase. Free Radic Biol Med 54: 116–24. PMID: 22982047",
+            "process_entry": "True",
+            "doi": "10.1016/j.freeradbiomed.2012.08.573",
+            "pmid": "22982047",
+            "pmcid": "PMC4155036",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Balasubramanian, V, Sterling, P (2009). Receptive fields and functional architecture in the retina. J Physiol (Lond) 587: 2753–67. PMID: 19525561",
+            "process_entry": "True",
+            "doi": "10.1113/jphysiol.2009.170704",
+            "pmid": "19525561",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Busch, S, Kannt, A, Kolibabka, M, et al. (2014). Systemic treatment with erythropoietin protects the neurovascular unit in a rat model of retinal neurodegeneration. PLoS One 9: e102013. PMID: 25013951",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0102013",
+            "pmid": "25013951",
+            "pmcid": "PMC4094460",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Capsoni, S, Covaceuszach, S, Ugolini, G, et al. (2009). Delivery of NGF to the brain: intranasal versus ocular administration in anti-NGF transgenic mice. JAD 16: 371–88. PMID: 19221427",
+            "process_entry": "True",
+            "doi": "10.3233/jad-2009-0953",
+            "pmid": "19221427",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chen, YY, Liu, SL, Hu, DP, et al. (2014). N -methyl-N -nitrosourea-induced retinal degeneration in mice. Exp Eye Res 121: 102–13. PMID: 24509257",
+            "process_entry": "True",
+            "doi": "10.1016/j.exer.2013.12.019",
+            "pmid": "24509257",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Colella, P, Iodice, C, Di Vicino, U, et al. (2011). Non-erythropoietic erythropoietin derivatives protect from light-induced and genetic photoreceptor degeneration. Hum Mol Genet 20: 2251–62. PMID: 21421996",
+            "process_entry": "True",
+            "doi": "10.1093/hmg/ddr115",
+            "pmid": "21421996",
+            "pmcid": "PMC3090200",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Cronin, T, Léveillard, T, Sahel, JA (2007). Retinal degenerations: from cell signaling to cell therapy; pre-clinical and clinical issues. Curr Gene Ther 7: 121–9. PMID: 17430131",
+            "process_entry": "True",
+            "doi": "10.2174/156652307780363143",
+            "pmid": "17430131",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Curcio, CA, Packer, O, Kalina, RE (1987). A whole mount method for sequential analysis of photoreceptor and ganglion cell topography in a single retina. Vision Res 27: 9–15. PMID: 3303679",
+            "process_entry": "True",
+            "doi": "10.1016/0042-6989(87)90137-4",
+            "pmid": "3303679",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "De Rosa, R, Garcia, AA, Braschi, C, et al. (2005). Intranasal administration of nerve growth factor (NGF) rescues recognition memory deficits in AD11 anti-NGF transgenic mice. Proc Natl Acad Sci USA 102: 3811–6. PMID: 15728733",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0500195102",
+            "pmid": "15728733",
+            "pmcid": "PMC553297",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Fangueiro, JF, Veiga, F, Silva, AM, et al. (2016). Ocular drug delivery -new strategies for targeting anterior and posterior segments of the eye. Curr Pharm Des 22: 1135–46. PMID: 26675225",
+            "process_entry": "True",
+            "doi": "10.2174/1381612822666151216145900",
+            "pmid": "26675225",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Farmer, EE, Davoine, C (2007). Reactive electrophile species. Curr Opin Plant Biol 10: 380–6. PMID: 17646124",
+            "process_entry": "True",
+            "doi": "10.1016/j.pbi.2007.04.019",
+            "pmid": "17646124",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Fletcher, L, Kohli, S, Sprague, SM, et al. (2009). Intranasal delivery of erythropoietin plus insulin-like growth factor-I for acute neuroprotection in stroke. Laboratory investigation. J Neurosurg 111: 164–70. PMID: 19284235",
+            "process_entry": "True",
+            "doi": "10.3171/2009.2.jns081199",
+            "pmid": "19284235",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Frey, IIWH, Liu, J, Chen, X, et al. (1997). Delivery of 125I-NGF to the brain via the olfactory route. Drug Deliv 4: 87–92.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Garcia-Rodriguez, JC, Sosa-Teste, I (2009). The nasal route as a potential pathway for delivery of erythropoietin in the treatment of acuteischemic stroke in humans. Sci World J 9: 970–81.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Genc, S, Zadeoglulari, Z, Oner, MG, et,al. (2011). Intranasal erythropoietin therapy in nervous system disorders. Expert Opin Drug Deliv 8: 19–32. PMID: 21143002",
+            "process_entry": "True",
+            "doi": "10.1517/17425247.2011.540236",
+            "pmid": "21143002",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Guo, C, Li, M, Qi, X, et al. (2016). Intranasal delivery of nanomicelle curcumin promotes corneal epithelial wound healing in streptozotocin-induced diabetic mice. Sci Rep 6: 29753. PMID: 27405815",
+            "process_entry": "True",
+            "doi": "10.1038/srep29753",
+            "pmid": "27405815",
+            "pmcid": "PMC5378915",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Hartong, DT, Berson, EL, Dryja, TP (2006). Retinitis pigmentosa. Lancet 368: 1795–809. PMID: 17113430",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(06)69740-7",
+            "pmid": "17113430",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Illum, L (2002). Nasal drug delivery: new developments and strategies. Drug Discov Today 7: 1184–9. PMID: 12547019",
+            "process_entry": "True",
+            "doi": "10.1016/s1359-6446(02)02529-1",
+            "pmid": "12547019",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Johnson, NJ, Hanson, LR, Frey, WH (2010). Trigeminal pathways deliver a low molecular weight drug from the nose to the brain and orofacial structures. Mol Pharm 7: 884–93. PMID: 20420446",
+            "process_entry": "True",
+            "doi": "10.1021/mp100029t",
+            "pmid": "20420446",
+            "pmcid": "PMC2892271",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Kinoshita, J, Iwata, N, Maejima, T, et al. (2015). N-Methyl-N-Nitrosourea-induced acute alteration of retinal function and morphology in monkeys. Invest Ophthalmol Vis Sci 56: 7146–58. PMID: 26529049",
+            "process_entry": "True",
+            "doi": "10.1167/iovs.15-16929",
+            "pmid": "26529049",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Kretschmer, F, Sajgo, S, Kretschmer, V, Badea, TC (2015). A system to measure the Optokinetic and Optomotor response in mice. J Neurosci Methods 256: 91–105. PMID: 26279344",
+            "process_entry": "True",
+            "doi": "10.1016/j.jneumeth.2015.08.007",
+            "pmid": "26279344",
+            "pmcid": "PMC4651724",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Liu, XF, Fawcett, JR, Thorne, RG, et al. (2001). Intranasal administration of insulin-like growth factor-I bypasses the blood-brain barrier and protects against focal cerebral ischemic damage. J Neurol Sci 187: 91–7. PMID: 11440750",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-510x(01)00532-9",
+            "pmid": "11440750",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Maiese, K (2016). Regeneration in the nervous system with erythropoietin. Front Biosci 21: 561–96.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Meira, LB, Moroski-Erkul, CA, Green, SL, et al. (2009). Aag-initiated base excision repair drives alkylation-induced retinal degeneration in mice. PNAS 106: 888–93. PMID: 19139400",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0807030106",
+            "pmid": "19139400",
+            "pmcid": "PMC2621254",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Merelli, A, Caltana, L, Lazarowski, A, et al. (2011). Experimental evidence of the potential use of erythropoietin by intranasal administration as a neuroprotective agent in cerebral hypoxia. Drug Metabol Drug Interact 26: 65–9. PMID: 21756166",
+            "process_entry": "True",
+            "doi": "10.1515/dmdi.2011.007",
+            "pmid": "21756166",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Moreno, ML, Mérida, S, Bo sch-Morell, F, et al. (2018). Autophagy dysfunction and oxidativestress, two related mechanisms implicated in retinitis pigmentosa. Front Physiol 9: 1008. PMID: 30093867",
+            "process_entry": "True",
+            "doi": "10.3389/fphys.2018.01008",
+            "pmid": "30093867",
+            "pmcid": "PMC6070619",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Neveling, K, den Hollander, AI, Cremers, FP, et al. (2013). Identification and analysis of inherited retinal disease genes. Methods Mol Biol 935: 3–23. PMID: 23150357",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-62703-080-9_1",
+            "pmid": "23150357",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Osikov, MV, Telesheva, LF, Ageev, YI (2015). Effect of erythropoietin on lymphocytes apoptosis in experimental chronic renal failure. Bull Exp Biol Med 159: 348–50. PMID: 26205722",
+            "process_entry": "True",
+            "doi": "10.1007/s10517-015-2959-9",
+            "pmid": "26205722",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Pietrowsky, R, Strüben, C, Mölle, M, et al. (1996). Brain potential changes after intranasal vs. intravenous administration of vasopressin: evidence for a direct nose-brain pathway for peptide effects in humans. Biol Psychiatry 39: 332–40. PMID: 8704064",
+            "process_entry": "True",
+            "doi": "10.1016/0006-3223(95)00180-8",
+            "pmid": "8704064",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Rex, TS, Allocca, M, Domenici, L, et al. (2004). Systemic but not intraocular Epo gene transfer protects the retina from light-and genetic-induced degeneration. Mol Ther 10: 855–61. PMID: 15509503",
+            "process_entry": "True",
+            "doi": "10.1016/j.ymthe.2004.07.027",
+            "pmid": "15509503",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Robert, T, Blanc, R, Smajda, S, et al. (2016). Endovascular treatment of cribriform plate dural arteriovenous fistulas: technical difficulties and complications avoidance. J NeuroIntervent Surg 8: 954–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Souzeau, E, Thompson, JA, McLaren, TL, et al. (2018). Maternal uniparental isodisomy of chromosome 6 unmasks a novel variant in TULP1 in a patient with early onset retinal dystrophy. Mol Vis 24: 478–84. PMID: 30090012",
+            "process_entry": "True",
+            "pmid": "30090012",
+            "pmcid": "PMC6066270",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Takahashi, Y, Kakizaki, H, Nakano, T, et al. (2010). The ethmoidal sinus roof: anatomical relationships with the intracranial cavity. Ophthalmic Plast Reconstr Surg 26: 372–4. PMID: 20592638",
+            "process_entry": "True",
+            "doi": "10.1097/iop.0b013e3181c94e81",
+            "pmid": "20592638",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Tao, Y, Chen, T, Fang, W, et al. (2015). The temporal topography of the N-Methyl-N-nitrosourea induced photoreceptor degeneration in mouse retina. Sci Rep 5: 18612. PMID: 26685797",
+            "process_entry": "True",
+            "doi": "10.1038/srep18612",
+            "pmid": "26685797",
+            "pmcid": "PMC4685653",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Tao, Y, Chen, T, Liu, B, et al. (2015). The neurotoxic effects of N-methyl-N-nitrosourea on the electrophysiological property and visual signal transmission of rat's retina. Toxicol Appl Pharmacol 286: 44–52. PMID: 25796171",
+            "process_entry": "True",
+            "doi": "10.1016/j.taap.2015.03.013",
+            "pmid": "25796171",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Tao, Y, Ma, Z, Liu, B, et al. (2018). Hemin supports the survival of photoreceptors injured by N-Methyl-N-nitrosourea: The contributory role of neuroglobin in photoreceptor degeneration. Brain Res 1678: 47–55. PMID: 29038003",
+            "process_entry": "True",
+            "doi": "10.1016/j.brainres.2017.10.007",
+            "pmid": "29038003",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Thorne, RG, Emory, CR, Ala, TA, et al. (1995). Quantitative analysis of the olfactory pathway for drug delivery to the brain. Brain Res 692: 278–83. PMID: 8548316",
+            "process_entry": "True",
+            "doi": "10.1016/0006-8993(95)00637-6",
+            "pmid": "8548316",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Thorne, RG, Pronk, GJ, Padmanabhan, V, et al. (2004). Delivery of insulin-like growth factor-I to the rat brain and spinal cord along olfactory and trigeminal pathways following intranasal administration. Neuroscience 127: 481–96. PMID: 15262337",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuroscience.2004.05.029",
+            "pmid": "15262337",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Thrimawithana, TR, Young, S, Bunt, CR, et al. (2011). Drug delivery to the posterior segment of the eye. Drug Discov Today 16: 270–7. PMID: 21167306",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis.2010.12.004",
+            "pmid": "21167306",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "White, DV, Sincoff, EH, Abdulrauf, SI (2005). Anterior ethmoidal artery: microsurgical anatomy and technical considerations. Neurosurgery 56: 406–10.",
+            "process_entry": "True",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Wiessner, C, Allegrini, PR, Ekatodramis, D, et al. (2001). Increased cerebral infarct volumes in polyglobulic mice overexpressing erythropoietin. J Cereb Blood Flow Metab 21: 857–64. PMID: 11435798",
+            "process_entry": "True",
+            "doi": "10.1097/00004647-200107000-00011",
+            "pmid": "11435798",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Yang, JP, Liu, HJ, Cheng, SM, et al. (2009). Direct transport of VEGF from the nasal cavity to brain. Neurosci Lett 449: 108–11. PMID: 18996442",
+            "process_entry": "True",
+            "doi": "10.1016/j.neulet.2008.10.090",
+            "pmid": "18996442",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Yoshizawa, K, Yang, J, Senzaki, H, et al. (2000). Caspase-3 inhibitor rescues N -methyl-N -nitrosourea-induced retinal degeneration in Sprague-Dawley rats. Exp Eye Res 71: 629–35. PMID: 11095915",
+            "process_entry": "True",
+            "doi": "10.1006/exer.2000.0921",
+            "pmid": "11095915",
+            "xmlid": "CIT0043"
+        }
+    ],
+    "localid": "MED-30744451",
+    "doi": "10.1080/10717544.2018.1556361",
+    "pmid": "10.1080/10717544.2018.1556361",
+    "pmcid": "30744451",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30744451/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0017",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),180,123)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0032",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),462,190)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Souzeau et al.,2018; Moreno et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),608,42)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0026",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),462,190)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Souzeau et al., 2018; Moreno et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),608,42)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0010",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1207,216)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fangueiro et al.,2016; Thrimawithana et al., 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1370,51)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0039",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1207,216)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Fangueiro et al., 2016; Thrimawithana et al.,2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1370,51)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0029",
+                "rp_string": "1996",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),239,130)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),679,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0014",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),924,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste,2009; Illum, 2002)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1146,49)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0018",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),924,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste, 2009; Illum,2002)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1146,49)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0028",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1397,168)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0023",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1658,192)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0041",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1851,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0015",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),2284,108)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),2393,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0002",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),309,163)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Tao et al.,2015; Kinoshita et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),429,41)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0020",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),309,163)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Tao et al., 2015; Kinoshita et al.,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),429,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0024",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),697,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1012,179)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0004",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1285,178)",
+                "containers_title": [
+                    "Method and materials",
+                    "Animal administration and study design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0012",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1867,111)",
+                "containers_title": [
+                    "Method and materials",
+                    "Animal administration and study design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,177)",
+                "containers_title": [
+                    "Method and materials",
+                    "Optokinetic behavioral test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0008",
+                "rp_string": "1987",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,122)",
+                "containers_title": [
+                    "Spectral-Domain optical coherence tomography (SD-OCT)",
+                    "Histology assessment and immunohistochemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0005",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,139)",
+                "containers_title": [
+                    "Spectral-Domain optical coherence tomography (SD-OCT)",
+                    "TUNEL assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0043",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),249,151)",
+                "containers_title": [
+                    "Spectral-Domain optical coherence tomography (SD-OCT)",
+                    "TUNEL assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0036",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),119,122)",
+                "containers_title": [
+                    "Spectral-Domain optical coherence tomography (SD-OCT)",
+                    "Assay of superoxide dismutase (SOD) activity and malondialdehyde (MDA) content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0027",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[1]),1017,222)",
+                "containers_title": [
+                    "Results",
+                    "INas delivery of EPO mediated functional rescue"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0011",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p),815,113)",
+                "containers_title": [
+                    "Results",
+                    "Mechanisms responsible for the protection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0001",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p),1263,213)",
+                "containers_title": [
+                    "Results",
+                    "Mechanisms responsible for the protection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0007",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),1,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0039",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),248,233)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0010",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),482,179)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0014",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),771,177)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste,2009; De Rosa et al., 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),888,58)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0009",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),771,177)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste, 2009; De Rosa et al.,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),888,58)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0023",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1,89)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Maiese,2016; Busch et al., 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),55,33)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0003",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1,89)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Maiese, 2016; Busch et al.,2014)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),55,33)"
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0030",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),255,168)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Rex et al.,2004; Colella et al., 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),382,39)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0006",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),255,168)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Rex et al., 2004; Colella et al.,2011)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),382,39)"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0025",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),808,131)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0004",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),940,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Capsoni et al.,2009; Takahashi et al., 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1124,45)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0033",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),940,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Capsoni et al., 2009; Takahashi et al.,2010)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1124,45)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0018",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1289,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Illum,2002; Robert et al., 2016; White et al., 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1395,53)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0031",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1289,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Illum, 2002; Robert et al.,2016; White et al., 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1395,53)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0040",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1289,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Illum, 2002; Robert et al., 2016; White et al.,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1395,53)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0014",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1731,293)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste,2009; Frey et al., 1997; Thorne et al., 1995)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1946,76)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0013",
+                "rp_string": "1997",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1731,293)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste, 2009; Frey et al.,1997; Thorne et al., 1995)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1946,76)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0037",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1731,293)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Garcia-Rodriguez & Sosa-Teste, 2009; Frey et al., 1997; Thorne et al.,1995)",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),1946,76)"
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0038",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),2025,156)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0019",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),2182,193)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0042",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),1,230)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0016",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),232,142)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0041",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),1,150)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0022",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),152,109)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0042",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),626,214)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

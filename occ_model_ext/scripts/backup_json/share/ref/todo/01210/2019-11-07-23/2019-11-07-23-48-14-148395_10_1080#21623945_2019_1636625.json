@@ -1,0 +1,878 @@
+{
+    "references": [
+        {
+            "bibentry": "Lindsay, ME, Dietz, HC. Lessons on the pathogenesis of aneurysm from heritable conditions. Nature. 2011; 473(7347): 308–316. PMID: 21593863",
+            "process_entry": "True",
+            "doi": "10.1038/nature10145",
+            "pmid": "21593863",
+            "pmcid": "PMC3622871",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Aggarwal, S, Qamar, A, Sharma, V, et al. Abdominal aortic aneurysm: A comprehensive review. Exp Clin Cardiol. 2011; 16(1): 11–15. PMID: 21523201",
+            "process_entry": "True",
+            "pmid": "21523201",
+            "pmcid": "PMC3076160",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Tanaka, H, Zaima, N, Sasaki, T, et al. Adventitial vasa vasorum arteriosclerosis in abdominal aortic aneurysm. PLoS One. 2013; 8(2): e57398. PMID: 23460850",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0057398",
+            "pmid": "23460850",
+            "pmcid": "PMC3583902",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Tanaka, H, Zaima, N, Sasaki, T, et al. Hypoperfusion of the adventitial vasa vasorum develops an abdominal aortic aneurysm. PLoS One. 2015; 10(8): e0134386. PMID: 26308526",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0134386",
+            "pmid": "26308526",
+            "pmcid": "PMC4550325",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Kugo, H, Zaima, N, Tanaka, H, et al. Adipocyte in vascular wall can induce the rupture of abdominal aortic aneurysm. Sci Rep. 2016; 6: 31268. PMID: 27499372",
+            "process_entry": "True",
+            "doi": "10.1038/srep31268",
+            "pmid": "27499372",
+            "pmcid": "PMC4976321",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Kugo, H, Zaima, N, Tanaka, H, et al. Pathological analysis of the ruptured vascular wall of hypoperfusion-induced abdominal aortic aneurysm animal model. J Oleo Sci. 2017; 66(5): 499–506. PMID: 28381776",
+            "process_entry": "True",
+            "doi": "10.5650/jos.ess16219",
+            "pmid": "28381776",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Tanaka, H, Zaima, N, Sasaki, T, et al. Imaging mass spectrometry reveals a unique distribution of triglycerides in the abdominal aortic aneurysmal wall. J Vasc Res. 2015; 52(2): 127–135. PMID: 26345185",
+            "process_entry": "True",
+            "doi": "10.1159/000439169",
+            "pmid": "26345185",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Doderer, SA, Gabel, G, Kokje, VBC, et al. Adventitial adipogenic degeneration is an unidentified contributor to aortic wall weakening in the abdominal aortic aneurysm. J Vasc Surg. 2017; 67(6): 1891–1900. PMID: 28912007",
+            "process_entry": "True",
+            "doi": "10.1016/j.jvs.2017.05.088",
+            "pmid": "28912007",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Gabel, G, Northoff, BH, Weinzierl, I, et al. Molecular fingerprint for terminal abdominal aortic aneurysm disease. J Am Heart Assoc. 2017; 6(12): e006798. PMID: 29191809",
+            "process_entry": "True",
+            "doi": "10.1161/JAHA.117.006798",
+            "pmid": "29191809",
+            "pmcid": "PMC5779007",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Krueger, F, Kappert, K, Foryst-Ludwig, A, et al. AT1-receptor blockade attenuates outward aortic remodeling associated with diet-induced obesity in mice. Clin Sci (Lond). 2017; 131(15): 1989–2005. PMID: 28646121",
+            "process_entry": "True",
+            "doi": "10.1042/cs20170131",
+            "pmid": "28646121",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Niestrawska, JA, Regitnig, P, Viertler, C, et al. The role of tissue remodeling in mechanics and pathogenesis of abdominal aortic aneurysms. Acta Biomater. 2019; 88: 149–161. PMID: 30735809",
+            "process_entry": "True",
+            "doi": "10.1016/j.actbio.2019.01.070",
+            "pmid": "30735809",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hashimoto, K, Kugo, H, Tanaka, H, et al. The effect of a high-fat diet on the development of abdominal aortic aneurysm in a vascular hypoperfusion-induced animal model. J Vasc Res. 2018; 55(2): 63–74. PMID: 29393228",
+            "process_entry": "True",
+            "doi": "10.1159/000481780",
+            "pmid": "29393228",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Chamberlain, G, Fox, J, Ashton, B, et al. Concise review: mesenchymal stem cells: their phenotype, differentiation capacity, immunological features, and potential for homing. Stem Cells. 2007; 25(11): 2739–2749. PMID: 17656645",
+            "process_entry": "True",
+            "doi": "10.1634/stemcells.2007-0197",
+            "pmid": "17656645",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Rosen, ED, MacDougald, OA. Adipocyte differentiation from the inside out. Nat Rev Mol Cell Biol. 2006; 7(12): 885–896. PMID: 17139329",
+            "process_entry": "True",
+            "doi": "10.1038/nrm2066",
+            "pmid": "17139329",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Jiang, C, Sun, J, Dai, Y, et al. HIF-1A and C/EBPs transcriptionally regulate adipogenic differentiation of bone marrow-derived MSCs in hypoxia. Stem Cell Res Ther. 2015; 6: 21. PMID: 25889814",
+            "process_entry": "True",
+            "doi": "10.1186/s13287-015-0014-4",
+            "pmid": "25889814",
+            "pmcid": "PMC4559195",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Nobusue, H, Onishi, N, Shimizu, T, et al. Regulation of MKL1 via actin cytoskeleton dynamics drives adipocyte differentiation. Nat Commun. 2014; 5: 3368. PMID: 24569594",
+            "process_entry": "True",
+            "doi": "10.1038/ncomms4368",
+            "pmid": "24569594",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Ciavarella, C, Alviano, F, Gallitto, E, et al. Human vascular wall mesenchymal stromal cells contribute to abdominal aortic aneurysm pathogenesis through an impaired immunomodulatory activity and increased levels of matrix metalloproteinase-9. Circ J. 2015; 79(7): 1460–1469. PMID: 25854712",
+            "process_entry": "True",
+            "doi": "10.1253/circj.cj-14-0857",
+            "pmid": "25854712",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Ciavarella, C, Gallitto, E, Ricci, F, et al. The crosstalk between vascular MSCs and inflammatory mediators determines the pro-calcific remodelling of human atherosclerotic aneurysm. Stem Cell Res Ther. 2017; 8(1): 99. PMID: 28446225",
+            "process_entry": "True",
+            "doi": "10.1186/s13287-017-0554-x",
+            "pmid": "28446225",
+            "pmcid": "PMC5406974",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Kugo, H, Moriyama, T, Adipocytes, ZN. Abdominal aortic aneurysm: putative potential role of adipocytes in the process of AAA development. Curr Drug Targets. 2018; 19(11): 1228–1232. PMID: 29336260",
+            "process_entry": "True",
+            "doi": "10.2174/1389450119666180115164103",
+            "pmid": "29336260",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Kugo, H, Tanaka, H, Moriyama, T, et al. Pathological implication of adipocytes in AAA development and the rupture. Ann Vasc Dis. 2018; 11(2): 159–168. PMID: 30116407",
+            "process_entry": "True",
+            "doi": "10.3400/avd.ra.17-00130",
+            "pmid": "30116407",
+            "pmcid": "PMC6094042",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Iinuma, S, Aikawa, E, Tamai, K, et al. Transplanted bone marrow-derived circulating PDGFRalpha+ cells restore type VII collagen in recessive dystrophic epidermolysis bullosa mouse skin graft. J Immunol. 2015; 194(4): 1996–2003. PMID: 25601922",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.1400914",
+            "pmid": "25601922",
+            "pmcid": "PMC4319308",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Palumbo, R, Galvez, BG, Pusterla, T, et al. Cells migrating to sites of tissue damage in response to the danger signal HMGB1 require NF-kappaB activation. J Cell Biol. 2007; 179(1): 33–40. PMID: 17923528",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200704015",
+            "pmid": "17923528",
+            "pmcid": "PMC2064729",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Klein, D, Weisshardt, P, Kleff, V, et al. Vascular wall-resident CD44+ multipotent stem cells give rise to pericytes and smooth muscle cells and contribute to new vessel maturation. PLoS One. 2011; 6(5): e20540. PMID: 21637782",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0020540",
+            "pmid": "21637782",
+            "pmcid": "PMC3102739",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Klein, D. Vascular wall-resident multipotent stem cells of mesenchymal nature within the process of vascular remodeling: cellular basis, clinical relevance, and implications for stem cell therapy. Stem Cells Int. 2016; 2016: 1905846. PMID: 26880936",
+            "process_entry": "True",
+            "doi": "10.1155/2016/1905846",
+            "pmid": "26880936",
+            "pmcid": "PMC4736960",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Police, SB, Thatcher, SE, Charnigo, R, et al. Obesity promotes inflammation in periaortic adipose tissue and angiotensin II-induced abdominal aortic aneurysm formation. Arterioscler Thromb Vasc Biol. 2009; 29(10): 1458–1464. PMID: 19608970",
+            "process_entry": "True",
+            "doi": "10.1161/ATVBAHA.109.192658",
+            "pmid": "19608970",
+            "pmcid": "PMC2753598",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Kurobe, H, Hirata, Y, Matsuoka, Y, et al. Protective effects of selective mineralocorticoid receptor antagonist against aortic aneurysm progression in a novel murine model. J Surg Res. 2013; 185(1): 455–462. PMID: 23731681",
+            "process_entry": "True",
+            "doi": "10.1016/j.jss.2013.05.002",
+            "pmid": "23731681",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Li, MW, Mian, MO, Barhoumi, T, et al. Endothelin-1 overexpression exacerbates atherosclerosis and induces aortic aneurysms in apolipoprotein E knockout mice. Arterioscler Thromb Vasc Biol. 2013; 33(10): 2306–2315. PMID: 23887640",
+            "process_entry": "True",
+            "doi": "10.1161/atvbaha.113.302028",
+            "pmid": "23887640",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Blomkalns, AL, Gavrila, D, Thomas, M, et al. CD14 directs adventitial macrophage precursor recruitment: role in early abdominal aortic aneurysm formation. J Am Heart Assoc. 2013; 2(2): e000065. PMID: 23537804",
+            "process_entry": "True",
+            "doi": "10.1161/JAHA.112.000065",
+            "pmid": "23537804",
+            "pmcid": "PMC3647288",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Sakaue, T, Suzuki, J, Hamaguchi, M, et al. Perivascular adipose tissue angiotensin II type 1 receptor promotes vascular inflammation and aneurysm formation. Hypertension. 2017; 70(4): 780–789. PMID: 28760942",
+            "process_entry": "True",
+            "doi": "10.1161/hypertensionaha.117.09512",
+            "pmid": "28760942",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Zhang, ZB, Ruan, CC, Lin, JR, et al. Perivascular adipose tissue-derived PDGF-D contributes to aortic aneurysm formation during obesity. Diabetes. 2018; 67(8): 1549–1560. PMID: 29794241",
+            "process_entry": "True",
+            "doi": "10.2337/db18-0098",
+            "pmid": "29794241",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Folkesson, M, Vorkapic, E, Gulbins, E, et al. Inflammatory cells, ceramides, and expression of proteases in perivascular adipose tissue adjacent to human abdominal aortic aneurysms. J Vasc Surg. 2017; 65(4): 1171–1179 e1171. PMID: 26960947",
+            "process_entry": "True",
+            "doi": "10.1016/j.jvs.2015.12.056",
+            "pmid": "26960947",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Thanassoulis, G, Massaro, JM, Corsini, E, et al. Periaortic adipose tissue and aortic dimensions in the Framingham Heart Study. J Am Heart Assoc. 2012; 1(6): e000885. PMID: 23316310",
+            "process_entry": "True",
+            "doi": "10.1161/JAHA.112.000885",
+            "pmid": "23316310",
+            "pmcid": "PMC3540669",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Dias-Neto, M, Meekel, JP, van Schaik, TG, et al. High density of periaortic adipose tissue in abdominal aortic aneurysm. Eur J Vasc Endovasc Surg. 2018; 56(5): 663–671. PMID: 30115505",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejvs.2018.07.008",
+            "pmid": "30115505",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Kugo, H, Zaima, N, Mouri, Y, et al. The preventive effect of fish oil on abdominal aortic aneurysm development. Biosci Biotechnol Biochem. 2016; 80(6): 1186–1191. PMID: 27022887",
+            "process_entry": "True",
+            "doi": "10.1080/09168451.2016.1146073",
+            "pmid": "27022887",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Kanda, Y. Investigation of the freely available easy-to-use software ‘EZR’ for medical statistics. Bone Marrow Transplant. 2013; 48(3): 452–458. PMID: 23208313",
+            "process_entry": "True",
+            "doi": "10.1038/bmt.2012.244",
+            "pmid": "23208313",
+            "pmcid": "PMC3590441",
+            "xmlid": "CIT0035"
+        }
+    ],
+    "localid": "MED-31250691",
+    "doi": "10.1080/21623945.2019.1636625",
+    "pmid": "10.1080/21623945.2019.1636625",
+    "pmcid": "31250691",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31250691/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),357,167)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),518,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),357,167)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),518,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,122)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),117,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,122)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),117,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),124,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),344,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),124,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),344,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),535,243)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),772,5)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),535,243)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),772,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),779,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),960,91)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1052,173)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1226,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),981,196)",
+                "containers_title": [
+                    "Results",
+                    "Time-dependent changes of adipocyte differentiation-related factors in the hypoperfusion-induced vascular wall"
+                ],
+                "pl_string": "[4,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1051,6)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),981,196)",
+                "containers_title": [
+                    "Results",
+                    "Time-dependent changes of adipocyte differentiation-related factors in the hypoperfusion-induced vascular wall"
+                ],
+                "pl_string": "[4,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1051,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,194)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),196,174)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),371,111)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),566,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),929,95)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1308,82)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1391,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),118,83)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),506,189)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[5,6,12,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),680,14)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),506,189)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[5,6,12,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),680,14)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),506,189)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[5,6,12,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),680,14)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),506,189)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[5,6,12,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),680,14)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),506,189)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[5,6,12,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),680,14)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),696,153)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1094,192)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1287,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1422,166)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),1580,7)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1422,166)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),1580,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1805,219)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),2025,169)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,143)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[25–30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),136,7)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "",
+                "pl_string": "[25–30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),136,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "",
+                "pl_string": "[25–30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),136,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "",
+                "pl_string": "[25–30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),136,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "",
+                "pl_string": "[25–30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),136,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,143)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[25–30]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),136,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),145,116)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),262,94)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),357,107)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),682,103)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1380,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),1,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Induction of hypoperfusion of the abdominal aortic wall"
+                ],
+                "pl_string": "[4–6,34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),99,8)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),1,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Induction of hypoperfusion of the abdominal aortic wall"
+                ],
+                "pl_string": "[4–6,34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),99,8)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),1,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Induction of hypoperfusion of the abdominal aortic wall"
+                ],
+                "pl_string": "[4–6,34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),99,8)"
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),304,120)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Statistical analyses"
+                ]
+            }
+        ]
+    ]
+}

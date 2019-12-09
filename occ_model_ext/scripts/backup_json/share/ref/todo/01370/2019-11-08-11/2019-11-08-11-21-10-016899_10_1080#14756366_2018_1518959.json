@@ -1,0 +1,884 @@
+{
+    "references": [
+        {
+            "bibentry": "Campanini, B, Pieroni, M, Raboni, S, et al. Inhibitors of the sulfur assimilation pathway in bacterial pathogens as enhancers of antibiotic therapy. Curr Med Chem 2015; 22: 187–213. PMID: 25388010",
+            "process_entry": "True",
+            "doi": "10.2174/0929867321666141112122553",
+            "pmid": "25388010",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Mozzarelli, A, Bettati, S, Campanini, B, et al. The multifaceted pyridoxal 5’-phosphate-dependent O-acetylserine sulfhydrylase. Biochim Biophys Acta 2011; 1814: 1497–510. PMID: 21549222",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbapap.2011.04.011",
+            "pmid": "21549222",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Spyrakis, F, Felici, P, Bayden, AS, et al. Fine tuning of the active site modulates specificity in the interaction of O-acetylserine sulfhydrylase isozymes with serine acetyltransferase. Biochimica et Biophysica Acta (BBA) − Proteins and Proteomics 2013; 1834: 169–81. PMID: 23000429",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbapap.2012.09.009",
+            "pmid": "23000429",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Spyrakis, F, Singh, R, Cozzini, P, et al. Isozyme-specific ligands for O-acetylserine sulfhydrylase, a novel antibiotic target. PLoS ONE 2013; 8: e77558. PMID: 24167577",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0077558",
+            "pmid": "24167577",
+            "pmcid": "PMC3805590",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Bhave, DP, Muse, WB, Carroll, KS. Drug targets in mycobacterial sulfur metabolism. Infect Disord Drug Targets 2007; 7: 140–58. PMID: 17970225",
+            "process_entry": "True",
+            "doi": "10.2174/187152607781001772",
+            "pmid": "17970225",
+            "pmcid": "PMC3106421",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Palde, PB, Bhaskar, A, Pedró Rosa, LE, et al. First-in-class inhibitors of sulfur metabolism with bactericidal activity against non-replicating M. tuberculosis. ACS Chem Biol 2016; 11: 172–84. PMID: 26524379",
+            "process_entry": "True",
+            "doi": "10.1021/acschembio.5b00517",
+            "pmid": "26524379",
+            "pmcid": "PMC4729198",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Chattopadhyay, A, Meier, M, Ivaninskii, S, et al. Structure, mechanism, and conformational dynamics of O-acetylserine sulfhydrylase from Salmonella typhimurium: comparison of A and B isozymes. Biochemistry 2007; 46: 8315–30. PMID: 17583914",
+            "process_entry": "True",
+            "doi": "10.1021/bi602603c",
+            "pmid": "17583914",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Rabeh, WM, Cook, PF. Structure and mechanism of O-acetylserine sulfhydrylase. J Biol Chem 2004; 279: 26803–6. PMID: 15073190",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.r400001200",
+            "pmid": "15073190",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Benoni, R, Bei, OD, Paredi, G, et al. Modulation of Escherichia coli serine acetyltransferase catalytic activity in the cysteine synthase complex. FEBS Letters 2017; 591: 1212–24. PMID: 28337759",
+            "process_entry": "True",
+            "doi": "10.1002/1873-3468.12630",
+            "pmid": "28337759",
+            "pmcid": "PMC5957530",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Turnbull, AL, Surette, MG. L-Cysteine is required for induced antibiotic resistance in actively swarming Salmonella enterica serovar Typhimurium. Microbiology (Reading, Engl) 2008; 154: 3410–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Turnbull, AL, Surette, MG. Cysteine biosynthesis, oxidative stress and antibiotic resistance in Salmonella typhimurium. Res Microbiol 2010; 161: 643–50. PMID: 20600858",
+            "process_entry": "True",
+            "doi": "10.1016/j.resmic.2010.06.004",
+            "pmid": "20600858",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Salsi, E, Bayden, AS, Spyrakis, F, et al. Design of O-acetylserine sulfhydrylase inhibitors by mimicking nature. J Med Chem 2010; 53: 345–56. PMID: 19928859",
+            "process_entry": "True",
+            "doi": "10.1021/jm901325e",
+            "pmid": "19928859",
+            "pmcid": "PMC2804909",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Pieroni, M, Annunziato, G, Beato, C, et al. Rational design, synthesis, and preliminary structure-activity relationships of α-substituted-2-phenylcyclopropane carboxylic acids as inhibitors of salmonella typhimurium o-acetylserine sulfhydrylase. J Med Chem 2016; 59: 2567–78. PMID: 26894308",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01775",
+            "pmid": "26894308",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Hulanicka, MD, Garrett, C, Jagura-Burdzy, G, Kredich, NM. Cloning and characterization of the cysAMK region of Salmonella typhimurium. J Bacteriol 1986; 168: 322–7. PMID: 3531173",
+            "process_entry": "True",
+            "doi": "10.1128/jb.168.1.322-327.1986",
+            "pmid": "3531173",
+            "pmcid": "PMC213454",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Hullo, M-F, Auger, S, Soutourina, O, et al. Conversion of methionine to cysteine in bacillus subtilis and its regulation. J Bacteriol 2007; 189: 187–97. PMID: 17056751",
+            "process_entry": "True",
+            "doi": "10.1128/JB.01273-06",
+            "pmid": "17056751",
+            "pmcid": "PMC1797209",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Richter, MF, Drown, BS, Riley, AP, et al. Predictive compound accumulation rules yield a broad-spectrum antibiotic. Nature 2017; 545: 299–304. PMID: 28489819",
+            "process_entry": "True",
+            "doi": "10.1038/nature22308",
+            "pmid": "28489819",
+            "pmcid": "PMC5737020",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Tiz, DB, Kikelj, D, Zidar, N. Overcoming problems of poor drug penetration into bacteria: challenges and strategies for medicinal chemists. Exp Opin Drug Disc 2018; 13: 497–507.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Delcour, AH. Outer membrane permeability and antibiotic resistance. Biochimica et Biophysica Acta (BBA) -Proteins and Proteomics 2009; 1794: 808–16. PMID: 19100346",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbapap.2008.11.005",
+            "pmid": "19100346",
+            "pmcid": "PMC2696358",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Lambert, PA. Cellular impermeability and uptake of biocides and antibiotics in Gram‐positive bacteria and mycobacteria. J App Microbiol 2002; 92: 46S–54S.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Brown, ED, Wright, GD. Antibacterial drug discovery in the resistance era. Nature 2016; 529: 336–43. PMID: 26791724",
+            "process_entry": "True",
+            "doi": "10.1038/nature17042",
+            "pmid": "26791724",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "O’Shea, R, Moser, HE. Physicochemical properties of antibacterial compounds: implications for drug discovery. J Med Chem 2008; 51: 2871–8. PMID: 18260614",
+            "process_entry": "True",
+            "doi": "10.1021/jm700967e",
+            "pmid": "18260614",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Brown, DG, May-Dracka, TL, Gagnon, MM, Tommasi, R. Trends and exceptions of physical properties on antibacterial activity for Gram-positive and Gram-negative pathogens. J Med Chem 2014; 57: 10144–61. PMID: 25402200",
+            "process_entry": "True",
+            "doi": "10.1021/jm501552x",
+            "pmid": "25402200",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Huczyński, A, Janczak, J, Stefańska, J, et al. Synthesis and antimicrobial activity of amide derivatives of polyether antibiotic-salinomycin. Bioorg Med Chem Lett 2012; 22: 4697–702. PMID: 22721714",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2012.05.081",
+            "pmid": "22721714",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Benoni, R, Beck, CM, Garza-Sánchez, F, et al. Activation of an anti-bacterial toxin by the biosynthetic enzyme CysK: mechanism of binding, interaction specificity and competition with cysteine synthase. Sci Rep 2017; 7: 8817. PMID: 28821763",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-09022-6",
+            "pmid": "28821763",
+            "pmcid": "PMC5562914",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Annunziato, G, Pieroni, M, Benoni, R, et al. Cyclopropane-1,2-dicarboxylic acids as new tools for the biophysical investigation of O-acetylserine sulfhydrylases by fluorimetric methods and saturation transfer difference (STD) NMR. J Enzyme Inhib Med Chem 2016; 31: 78–87.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Gaitonde, MK. A spectrophotometric method for the direct determination of cysteine in the presence of other naturally occurring amino acids. Biochem J 1967; 104: 627–33. PMID: 6048802",
+            "process_entry": "True",
+            "doi": "10.1042/bj1040627",
+            "pmid": "6048802",
+            "pmcid": "PMC1270629",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Yung-Chi, C, Prusoff, WH. Relationship between the inhibition constant (KI) and the concentration of inhibitor which causes 50 per cent inhibition (I50) of an enzymatic reaction. Biochem Pharmacol 1973; 22: 3099–108. PMID: 4202581",
+            "process_entry": "True",
+            "doi": "10.1016/0006-2952(73)90196-2",
+            "pmid": "4202581",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Amori, L, Katkevica, S, Bruno, A, et al. Design and synthesis of trans-2-substituted-cyclopropane-1-carboxylic acids as the first non-natural small molecule inhibitors of O-acetylserine sulfhydrylase. Med Chem Commun 2012; 3: 1111–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Magalhães, J, Annunziato, G, Franko, N, et al. Integration of Enhanced Sampling Methods with Saturation Transfer Difference Experiments to Identify Protein Druggable Pockets. J Chem Inf Model 2018; 58: 710–23. PMID: 29481752",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jcim.7b00733",
+            "pmid": "29481752",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Fu, J, Cheng, K, Zhang, Z, et al. Synthesis, structure and structure-activity relationship analysis of caffeic acid amides as potential antimicrobials. Eur J Med Chem 2010; 45: 2638–43. PMID: 20181415",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2010.01.066",
+            "pmid": "20181415",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Hitchings, GH. Curatore. Inhibition of folate metabolism in chemotherapy: the origins and uses of co-trimoxazole [Internet]. Berlin Heidelberg: Springer-Verlag; 1983 Available from: //www.springer.com/us/book/9783642818929 [last accessed 22 Jun 2018].",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Ballatore, C, Huryn, DM, Smith, AB. Carboxylic acid (bio)isosteres in drug design. Chem Med Chem 2013; 8: 385–95. PMID: 23361977",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201200585",
+            "pmid": "23361977",
+            "pmcid": "PMC3640829",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Lassalas, P, Gay, B, Lasfargeas, C, et al. Structure property relationships of carboxylic acid isosteres. J Med Chem 2016; 59: 3183–203. PMID: 26967507",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01963",
+            "pmid": "26967507",
+            "pmcid": "PMC4833640",
+            "xmlid": "CIT0033"
+        }
+    ],
+    "localid": "MED-30362368",
+    "doi": "10.1080/14756366.2018.1518959",
+    "pmid": "10.1080/14756366.2018.1518959",
+    "pmcid": "30362368",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30362368/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1–4",
+                "pl_string": "1–4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),218,304)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "",
+                "pl_string": "1–4",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),218,304)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "1–4",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),218,304)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "1–4",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),218,304)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1–4",
+                "pl_string": "1–4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),218,304)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),524,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),524,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),524,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),524,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1589,132)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),223,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),330,186)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0001",
+                "rp_string": "1–4",
+                "pl_string": "1–4",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "1–4",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "1–4",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "",
+                "pl_string": "1–4",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0001",
+                "rp_string": "1–4",
+                "pl_string": "1–4",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,150)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),205,157)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),364,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),838,256)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,131)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),60,11)",
+                "pl_string": "h\n14\n\n,\n\n15"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,131)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),60,11)",
+                "pl_string": "h\n14\n\n,\n\n15"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,114)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0017",
+                "rp_string": "17–19",
+                "pl_string": "17–19",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),117,197)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "",
+                "pl_string": "17–19",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),117,197)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "",
+                "pl_string": "17–19",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),117,197)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0017",
+                "rp_string": "17–19",
+                "pl_string": "17–19",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),117,197)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),651,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),1,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),470,115)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1,78)",
+                "containers_title": [
+                    "Methods",
+                    "Synthetic chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,119)",
+                "containers_title": [
+                    "Methods",
+                    "Protein preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),616,225)",
+                "containers_title": [
+                    "Methods",
+                    "Determination of dissociation constants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),843,170)",
+                "containers_title": [
+                    "Methods",
+                    "Determination of dissociation constants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,112)",
+                "containers_title": [
+                    "Methods",
+                    "Activity assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),401,159)",
+                "containers_title": [
+                    "Methods",
+                    "Activity assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,100)",
+                "containers_title": [
+                    "Methods",
+                    "Activity assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),751,139)",
+                "containers_title": [
+                    "Experimental",
+                    "General information"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/sec/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[1]),1,241)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[1]),244,245)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[2]),1,164)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/sec/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[2]),340,141)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec/p[2]),396,11)",
+                "pl_string": "y\n16\n\n,\n\n17"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/sec/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[2]),340,141)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec/p[2]),396,11)",
+                "pl_string": "y\n16\n\n,\n\n17"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/sec/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[3]),359,236)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/sec/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec/p[3]),597,132)",
+                "containers_title": [
+                    "Results",
+                    "Rationale for modifications"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),850,175)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "Regarding the C2 phenyl ring (Scheme 1), small electron donor groups (EDGs) such as the amino moiety (compound 12, KdOASS-A = 1.4 μM), when not substituted, allowed to maintain good binding properties, whereas bulkier groups such as the nitro and a substituted alkylamine (compound 8, KdOASS-A = 61 μM; compound 10, KdOASS-A = 155 μM) weakened the interaction of the molecule with the active pocket, thus decreasing the affinity. It is possible to conclude that expansion of the series towards the para position of the phenyl ring, unless carried out with small groups, is detrimental for the activity of the compounds. To increase the polarity of the molecule, substitution of the C2 phenyl ring with a pyridine showed to be a more fruitful strategy, with high affinity toward both isoforms (compound 5, KdOASS-A = 0.4 μM, KdOASS-B = 6.1 μM). Even though the carboxylic acid group is essential for the binding to OASS13,27,28, its scarce diffusion across biological membranes is a well-known issue32,33. Therefore, to preserve the key interactions with the target, we carried out the replacement of the carboxylic acid by several isosters (Scheme 2). Substitution with a sulphonamide led to molecules unable to elicit significant changes in the fluorescence emission of the cofactor, potentially indicating that the compounds did not bind to the active site of the enzyme. This prompted us to further investigate the mechanism of inhibition of these molecules, since the residual activity at saturating concentrations is significant (about 40 − 50%, Figure 3, panel A). The molecules are poorly soluble in the buffer used for activity assays, compound 24 having a solubility limit of about 250 μM and compound 25 of about 50 μM. This hampers the accurate determination of the inhibition mechanism due to limitations to the range of inhibitor concentration that can be explored. However, since partial inhibition is a typical feature of allosteric inhibitors, we used a method developed by our group24 to assess if compound 25 is able to displace a low affinity active site binder, 1-ethylcyclopropane-1,2-dicarboxylic acid, that forms a highly fluorescent complex with OASS. Compound 25 is unable to displace the compound up to an equimolar concentration of about 200 μM. This is a strong indication that compound 25 is not able to compete for binding to the active site with 1-ethylcyclopropane-1,2-dicarboxylic acid. Therefore, either the dissociation constant of compound 25 for OASS-B is much higher than 170 μM (the Kd of 1-ethylcyclopropane-1,2-dicarboxylic acid for OASS-B) or compound 25 does not bind to the active site of the enzyme (Figure 3, panel B). Unfortunately, replacement of the carboxylic acid by a tetrazole resulted in the decrease of the binding affinity (compound 29, KdOASS-A = 90 μM). Additional derivatization of the carboxylic acid group to deliver a small series of amides (compounds 16–22) was attempted as well in order to gain further insights into the anchoring groups that can be tolerated by StOASS. Either unsubstituted or substituted amides, regardless of the moiety attached to the nitrogen atom, had in general a detrimental effect on the binding constant. Rather surprisingly, the good activity of the tertiary amide 16 (compound 16, IC50 OASS-A = 17.2 μM) represents an exception to the SAR information collected. Indeed, from the bulk of experimental data so far described, it can be speculated that carboxylic acid replacement is tolerable if at that position the presence of a sharable hydrogen is granted. By contrast, the lack of a hydrogen for H-bond formation in compound 16 makes difficult its collocation within the SAR. With the help of computational methods, further efforts on the study of the mechanism of binding for this molecule will help in the explanation of this odd result.",
+                "pl_xpath": "/article/body/sec[5]/p[2]"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),850,175)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "Regarding the C2 phenyl ring (Scheme 1), small electron donor groups (EDGs) such as the amino moiety (compound 12, KdOASS-A = 1.4 μM), when not substituted, allowed to maintain good binding properties, whereas bulkier groups such as the nitro and a substituted alkylamine (compound 8, KdOASS-A = 61 μM; compound 10, KdOASS-A = 155 μM) weakened the interaction of the molecule with the active pocket, thus decreasing the affinity. It is possible to conclude that expansion of the series towards the para position of the phenyl ring, unless carried out with small groups, is detrimental for the activity of the compounds. To increase the polarity of the molecule, substitution of the C2 phenyl ring with a pyridine showed to be a more fruitful strategy, with high affinity toward both isoforms (compound 5, KdOASS-A = 0.4 μM, KdOASS-B = 6.1 μM). Even though the carboxylic acid group is essential for the binding to OASS13,27,28, its scarce diffusion across biological membranes is a well-known issue32,33. Therefore, to preserve the key interactions with the target, we carried out the replacement of the carboxylic acid by several isosters (Scheme 2). Substitution with a sulphonamide led to molecules unable to elicit significant changes in the fluorescence emission of the cofactor, potentially indicating that the compounds did not bind to the active site of the enzyme. This prompted us to further investigate the mechanism of inhibition of these molecules, since the residual activity at saturating concentrations is significant (about 40 − 50%, Figure 3, panel A). The molecules are poorly soluble in the buffer used for activity assays, compound 24 having a solubility limit of about 250 μM and compound 25 of about 50 μM. This hampers the accurate determination of the inhibition mechanism due to limitations to the range of inhibitor concentration that can be explored. However, since partial inhibition is a typical feature of allosteric inhibitors, we used a method developed by our group24 to assess if compound 25 is able to displace a low affinity active site binder, 1-ethylcyclopropane-1,2-dicarboxylic acid, that forms a highly fluorescent complex with OASS. Compound 25 is unable to displace the compound up to an equimolar concentration of about 200 μM. This is a strong indication that compound 25 is not able to compete for binding to the active site with 1-ethylcyclopropane-1,2-dicarboxylic acid. Therefore, either the dissociation constant of compound 25 for OASS-B is much higher than 170 μM (the Kd of 1-ethylcyclopropane-1,2-dicarboxylic acid for OASS-B) or compound 25 does not bind to the active site of the enzyme (Figure 3, panel B). Unfortunately, replacement of the carboxylic acid by a tetrazole resulted in the decrease of the binding affinity (compound 29, KdOASS-A = 90 μM). Additional derivatization of the carboxylic acid group to deliver a small series of amides (compounds 16–22) was attempted as well in order to gain further insights into the anchoring groups that can be tolerated by StOASS. Either unsubstituted or substituted amides, regardless of the moiety attached to the nitrogen atom, had in general a detrimental effect on the binding constant. Rather surprisingly, the good activity of the tertiary amide 16 (compound 16, IC50 OASS-A = 17.2 μM) represents an exception to the SAR information collected. Indeed, from the bulk of experimental data so far described, it can be speculated that carboxylic acid replacement is tolerable if at that position the presence of a sharable hydrogen is granted. By contrast, the lack of a hydrogen for H-bond formation in compound 16 makes difficult its collocation within the SAR. With the help of computational methods, further efforts on the study of the mechanism of binding for this molecule will help in the explanation of this odd result.",
+                "pl_xpath": "/article/body/sec[5]/p[2]"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),850,175)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "Regarding the C2 phenyl ring (Scheme 1), small electron donor groups (EDGs) such as the amino moiety (compound 12, KdOASS-A = 1.4 μM), when not substituted, allowed to maintain good binding properties, whereas bulkier groups such as the nitro and a substituted alkylamine (compound 8, KdOASS-A = 61 μM; compound 10, KdOASS-A = 155 μM) weakened the interaction of the molecule with the active pocket, thus decreasing the affinity. It is possible to conclude that expansion of the series towards the para position of the phenyl ring, unless carried out with small groups, is detrimental for the activity of the compounds. To increase the polarity of the molecule, substitution of the C2 phenyl ring with a pyridine showed to be a more fruitful strategy, with high affinity toward both isoforms (compound 5, KdOASS-A = 0.4 μM, KdOASS-B = 6.1 μM). Even though the carboxylic acid group is essential for the binding to OASS13,27,28, its scarce diffusion across biological membranes is a well-known issue32,33. Therefore, to preserve the key interactions with the target, we carried out the replacement of the carboxylic acid by several isosters (Scheme 2). Substitution with a sulphonamide led to molecules unable to elicit significant changes in the fluorescence emission of the cofactor, potentially indicating that the compounds did not bind to the active site of the enzyme. This prompted us to further investigate the mechanism of inhibition of these molecules, since the residual activity at saturating concentrations is significant (about 40 − 50%, Figure 3, panel A). The molecules are poorly soluble in the buffer used for activity assays, compound 24 having a solubility limit of about 250 μM and compound 25 of about 50 μM. This hampers the accurate determination of the inhibition mechanism due to limitations to the range of inhibitor concentration that can be explored. However, since partial inhibition is a typical feature of allosteric inhibitors, we used a method developed by our group24 to assess if compound 25 is able to displace a low affinity active site binder, 1-ethylcyclopropane-1,2-dicarboxylic acid, that forms a highly fluorescent complex with OASS. Compound 25 is unable to displace the compound up to an equimolar concentration of about 200 μM. This is a strong indication that compound 25 is not able to compete for binding to the active site with 1-ethylcyclopropane-1,2-dicarboxylic acid. Therefore, either the dissociation constant of compound 25 for OASS-B is much higher than 170 μM (the Kd of 1-ethylcyclopropane-1,2-dicarboxylic acid for OASS-B) or compound 25 does not bind to the active site of the enzyme (Figure 3, panel B). Unfortunately, replacement of the carboxylic acid by a tetrazole resulted in the decrease of the binding affinity (compound 29, KdOASS-A = 90 μM). Additional derivatization of the carboxylic acid group to deliver a small series of amides (compounds 16–22) was attempted as well in order to gain further insights into the anchoring groups that can be tolerated by StOASS. Either unsubstituted or substituted amides, regardless of the moiety attached to the nitrogen atom, had in general a detrimental effect on the binding constant. Rather surprisingly, the good activity of the tertiary amide 16 (compound 16, IC50 OASS-A = 17.2 μM) represents an exception to the SAR information collected. Indeed, from the bulk of experimental data so far described, it can be speculated that carboxylic acid replacement is tolerable if at that position the presence of a sharable hydrogen is granted. By contrast, the lack of a hydrogen for H-bond formation in compound 16 makes difficult its collocation within the SAR. With the help of computational methods, further efforts on the study of the mechanism of binding for this molecule will help in the explanation of this odd result.",
+                "pl_xpath": "/article/body/sec[5]/p[2]"
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),850,175)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "Regarding the C2 phenyl ring (Scheme 1), small electron donor groups (EDGs) such as the amino moiety (compound 12, KdOASS-A = 1.4 μM), when not substituted, allowed to maintain good binding properties, whereas bulkier groups such as the nitro and a substituted alkylamine (compound 8, KdOASS-A = 61 μM; compound 10, KdOASS-A = 155 μM) weakened the interaction of the molecule with the active pocket, thus decreasing the affinity. It is possible to conclude that expansion of the series towards the para position of the phenyl ring, unless carried out with small groups, is detrimental for the activity of the compounds. To increase the polarity of the molecule, substitution of the C2 phenyl ring with a pyridine showed to be a more fruitful strategy, with high affinity toward both isoforms (compound 5, KdOASS-A = 0.4 μM, KdOASS-B = 6.1 μM). Even though the carboxylic acid group is essential for the binding to OASS13,27,28, its scarce diffusion across biological membranes is a well-known issue32,33. Therefore, to preserve the key interactions with the target, we carried out the replacement of the carboxylic acid by several isosters (Scheme 2). Substitution with a sulphonamide led to molecules unable to elicit significant changes in the fluorescence emission of the cofactor, potentially indicating that the compounds did not bind to the active site of the enzyme. This prompted us to further investigate the mechanism of inhibition of these molecules, since the residual activity at saturating concentrations is significant (about 40 − 50%, Figure 3, panel A). The molecules are poorly soluble in the buffer used for activity assays, compound 24 having a solubility limit of about 250 μM and compound 25 of about 50 μM. This hampers the accurate determination of the inhibition mechanism due to limitations to the range of inhibitor concentration that can be explored. However, since partial inhibition is a typical feature of allosteric inhibitors, we used a method developed by our group24 to assess if compound 25 is able to displace a low affinity active site binder, 1-ethylcyclopropane-1,2-dicarboxylic acid, that forms a highly fluorescent complex with OASS. Compound 25 is unable to displace the compound up to an equimolar concentration of about 200 μM. This is a strong indication that compound 25 is not able to compete for binding to the active site with 1-ethylcyclopropane-1,2-dicarboxylic acid. Therefore, either the dissociation constant of compound 25 for OASS-B is much higher than 170 μM (the Kd of 1-ethylcyclopropane-1,2-dicarboxylic acid for OASS-B) or compound 25 does not bind to the active site of the enzyme (Figure 3, panel B). Unfortunately, replacement of the carboxylic acid by a tetrazole resulted in the decrease of the binding affinity (compound 29, KdOASS-A = 90 μM). Additional derivatization of the carboxylic acid group to deliver a small series of amides (compounds 16–22) was attempted as well in order to gain further insights into the anchoring groups that can be tolerated by StOASS. Either unsubstituted or substituted amides, regardless of the moiety attached to the nitrogen atom, had in general a detrimental effect on the binding constant. Rather surprisingly, the good activity of the tertiary amide 16 (compound 16, IC50 OASS-A = 17.2 μM) represents an exception to the SAR information collected. Indeed, from the bulk of experimental data so far described, it can be speculated that carboxylic acid replacement is tolerable if at that position the presence of a sharable hydrogen is granted. By contrast, the lack of a hydrogen for H-bond formation in compound 16 makes difficult its collocation within the SAR. With the help of computational methods, further efforts on the study of the mechanism of binding for this molecule will help in the explanation of this odd result.",
+                "pl_xpath": "/article/body/sec[5]/p[2]"
+            },
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),850,175)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "Regarding the C2 phenyl ring (Scheme 1), small electron donor groups (EDGs) such as the amino moiety (compound 12, KdOASS-A = 1.4 μM), when not substituted, allowed to maintain good binding properties, whereas bulkier groups such as the nitro and a substituted alkylamine (compound 8, KdOASS-A = 61 μM; compound 10, KdOASS-A = 155 μM) weakened the interaction of the molecule with the active pocket, thus decreasing the affinity. It is possible to conclude that expansion of the series towards the para position of the phenyl ring, unless carried out with small groups, is detrimental for the activity of the compounds. To increase the polarity of the molecule, substitution of the C2 phenyl ring with a pyridine showed to be a more fruitful strategy, with high affinity toward both isoforms (compound 5, KdOASS-A = 0.4 μM, KdOASS-B = 6.1 μM). Even though the carboxylic acid group is essential for the binding to OASS13,27,28, its scarce diffusion across biological membranes is a well-known issue32,33. Therefore, to preserve the key interactions with the target, we carried out the replacement of the carboxylic acid by several isosters (Scheme 2). Substitution with a sulphonamide led to molecules unable to elicit significant changes in the fluorescence emission of the cofactor, potentially indicating that the compounds did not bind to the active site of the enzyme. This prompted us to further investigate the mechanism of inhibition of these molecules, since the residual activity at saturating concentrations is significant (about 40 − 50%, Figure 3, panel A). The molecules are poorly soluble in the buffer used for activity assays, compound 24 having a solubility limit of about 250 μM and compound 25 of about 50 μM. This hampers the accurate determination of the inhibition mechanism due to limitations to the range of inhibitor concentration that can be explored. However, since partial inhibition is a typical feature of allosteric inhibitors, we used a method developed by our group24 to assess if compound 25 is able to displace a low affinity active site binder, 1-ethylcyclopropane-1,2-dicarboxylic acid, that forms a highly fluorescent complex with OASS. Compound 25 is unable to displace the compound up to an equimolar concentration of about 200 μM. This is a strong indication that compound 25 is not able to compete for binding to the active site with 1-ethylcyclopropane-1,2-dicarboxylic acid. Therefore, either the dissociation constant of compound 25 for OASS-B is much higher than 170 μM (the Kd of 1-ethylcyclopropane-1,2-dicarboxylic acid for OASS-B) or compound 25 does not bind to the active site of the enzyme (Figure 3, panel B). Unfortunately, replacement of the carboxylic acid by a tetrazole resulted in the decrease of the binding affinity (compound 29, KdOASS-A = 90 μM). Additional derivatization of the carboxylic acid group to deliver a small series of amides (compounds 16–22) was attempted as well in order to gain further insights into the anchoring groups that can be tolerated by StOASS. Either unsubstituted or substituted amides, regardless of the moiety attached to the nitrogen atom, had in general a detrimental effect on the binding constant. Rather surprisingly, the good activity of the tertiary amide 16 (compound 16, IC50 OASS-A = 17.2 μM) represents an exception to the SAR information collected. Indeed, from the bulk of experimental data so far described, it can be speculated that carboxylic acid replacement is tolerable if at that position the presence of a sharable hydrogen is granted. By contrast, the lack of a hydrogen for H-bond formation in compound 16 makes difficult its collocation within the SAR. With the help of computational methods, further efforts on the study of the mechanism of binding for this molecule will help in the explanation of this odd result.",
+                "pl_xpath": "/article/body/sec[5]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1901,297)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,884 @@
+{
+    "references": [
+        {
+            "bibentry": "Taniguchi, Y. The bromodomain and extra-terminal domain (BET) family: functional anatomy of BET paralogous proteins. Int J Mol Sci 2016; 17: pii: E1849.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Deeney, JT, Belkina, AC, Shirihai, OS, et al. BET bromodomain proteins Brd2, Brd3 and Brd4 selectively regulate metabolic pathways in the pancreatic beta-cell. PLoS One 2016; 11: e0151329. PMID: 27008626",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0151329",
+            "pmid": "27008626",
+            "pmcid": "PMC4805167",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Smith, SG, Zhou, MM. The bromodomain: a new target in emerging epigenetic medicine. ACS Chem Biol 2016; 11: 598–608. PMID: 26596782",
+            "process_entry": "True",
+            "doi": "10.1021/acschembio.5b00831",
+            "pmid": "26596782",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Lolli, G, Caflisch, A. High-throughput fragment docking into the BAZ2B bromodomain: efficient in silico screening for x-ray crystallography. ACS Chem Biol 2016; 11: 800–7. PMID: 26942307",
+            "process_entry": "True",
+            "doi": "10.1021/acschembio.5b00914",
+            "pmid": "26942307",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Padmanabhan, B, Mathur, S, Manjula, R, Tripathi, S. Bromodomain and extra-terminal (BET) family proteins: new therapeutic targets in major diseases. J Biosci 2016; 41: 295–311. PMID: 27240990",
+            "process_entry": "True",
+            "doi": "10.1007/s12038-016-9600-6",
+            "pmid": "27240990",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Aird, F, Kandela, I, Mantis, C. Reproducibility project: cancer B, replication study: BET bromodomain inhibition as a therapeutic strategy to target c-Myc. Elife 2017; 6: pii: e21253.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Bid, HK, Kerk, S. BET bromodomain inhibitor (JQ1) and tumor angiogenesis. Oncoscience 2016; 3: 316–7. PMID: 28105454",
+            "process_entry": "True",
+            "doi": "10.18632/oncoscience.326",
+            "pmid": "28105454",
+            "pmcid": "PMC5235918",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Devaiah, BN, Gegonne, A, Singer, DS. Bromodomain 4: a cellular Swiss army knife. J Leukoc Biol 2016; 100: 679–86. PMID: 27450555",
+            "process_entry": "True",
+            "doi": "10.1189/jlb.2RI0616-250R",
+            "pmid": "27450555",
+            "pmcid": "PMC5014741",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Fujisawa, T, Filippakopoulos, P. Functions of bromodomain-containing proteins and their roles in homeostasis and cancer. Nat Rev Mol Cell Biol 2017; 18: 246–62. PMID: 28053347",
+            "process_entry": "True",
+            "doi": "10.1038/nrm.2016.143",
+            "pmid": "28053347",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Noguchi-Yachide, T. BET bromodomain as a target of epigenetic therapy. Chem Pharm Bull (Tokyo) 2016; 64: 540–7. PMID: 27250788",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.c16-00225",
+            "pmid": "27250788",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Jimenez, I, Baruchel, A, Doz, F, Schulte, J. Bromodomain and extraterminal protein inhibitors in pediatrics: a review of the literature. Pediatr Blood Cancer 2017; 64: e26334.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Theodoulou, NH, Tomkinson, NC, Prinjha, RK, Humphreys, PG. Clinical progress and pharmacology of small molecule bromodomain inhibitors. Curr Opin Chem Biol 2016; 33: 58–66. PMID: 27295577",
+            "process_entry": "True",
+            "doi": "10.1016/j.cbpa.2016.05.028",
+            "pmid": "27295577",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Romero, FA, Taylor, AM, Crawford, TD, et al. Disrupting acetyl-lysine recognition: progress in the development of bromodomain inhibitors. J Med Chem 2016; 59: 1271–98. PMID: 26572217",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01514",
+            "pmid": "26572217",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Huang, W, Zheng, X, Yang, Y, et al. An overview on small molecule inhibitors of BRD4. Mini Rev Med Chem 2016; 16: 1403–14. PMID: 27290915",
+            "process_entry": "True",
+            "doi": "10.2174/1389557516666160611014130",
+            "pmid": "27290915",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Filippakopoulos, P, Qi, J, Picaud, S, et al. Selective inhibition of BET bromodomains. Nature 2010; 468: 1067–73. PMID: 20871596",
+            "process_entry": "True",
+            "doi": "10.1038/nature09504",
+            "pmid": "20871596",
+            "pmcid": "PMC3010259",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Amorim, S, Stathis, A, Gleeson, M, et al. Bromodomain inhibitor OTX015 in patients with lymphoma or multiple myeloma: a dose-escalation, open-label, pharmacokinetic, phase 1 study. Lancet Haematol 2016; 3: e196–204. PMID: 27063978",
+            "process_entry": "True",
+            "doi": "10.1016/s2352-3026(16)00021-1",
+            "pmid": "27063978",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Berthon, C, Raffoux, E, Thomas, X, et al. Bromodomain inhibitor OTX015 in patients with acute leukaemia: a dose-escalation, phase 1 study. Lancet Haematol 2016; 3: e186–95. PMID: 27063977",
+            "process_entry": "True",
+            "doi": "10.1016/s2352-3026(15)00247-1",
+            "pmid": "27063977",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Gaudio, E, Tarantelli, C, Ponzoni, M, et al. Bromodomain inhibitor OTX015 (MK-8628) combined with targeted agents shows strong in vivo antitumor activity in lymphoma. Oncotarget 2016; 7: 58142–7. PMID: 27494885",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.10983",
+            "pmid": "27494885",
+            "pmcid": "PMC5295419",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Albrecht, BK, Gehling, VS, Hewitt, MC, et al. Identification of a benzoisoxazoloazepine inhibitor (CPI-0610) of the bromodomain and extra-terminal (BET) family as a candidate for human clinical trials. J Med Chem 2016; 59: 1330–9. PMID: 26815195",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01882",
+            "pmid": "26815195",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Siu, KT, Ramachandran, J, Yee, AJ, et al. Preclinical activity of CPI-0610, a novel small-molecule bromodomain and extra-terminal protein inhibitor in the therapy of multiple myeloma. Leukemia 2017; 31: 1760–9. PMID: 27890933",
+            "process_entry": "True",
+            "doi": "10.1038/leu.2016.355",
+            "pmid": "27890933",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Picaud, S, Da Costa, D, Thanasopoulou, A, et al. PFI-1, a highly selective protein interaction inhibitor, targeting BET bromodomains. Cancer Res 2013; 73: 3336–46. PMID: 23576556",
+            "process_entry": "True",
+            "doi": "10.1158/0008-5472.CAN-12-3292",
+            "pmid": "23576556",
+            "pmcid": "PMC3673830",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Fish, PV, Filippakopoulos, P, Bish, G, et al. Identification of a chemical probe for bromo and extra C-terminal bromodomain inhibition through optimization of a fragment-derived hit. J Med Chem 2012; 55: 9831–7. PMID: 23095041",
+            "process_entry": "True",
+            "doi": "10.1021/jm3010515",
+            "pmid": "23095041",
+            "pmcid": "PMC3506127",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Medina, FG, Marrero, JG, Macias-Alonso, M, et al. Coumarin heterocyclic derivatives: chemical synthesis and biological activity. Nat Prod Rep 2015; 32: 1472–507. PMID: 26151411",
+            "process_entry": "True",
+            "doi": "10.1039/c4np00162a",
+            "pmid": "26151411",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Emami, S, Dadashpour, S. Current developments of coumarin-based anti-cancer agents in medicinal chemistry. Eur J Med Chem 2015; 102: 611–30. PMID: 26318068",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2015.08.033",
+            "pmid": "26318068",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Dandriyal, J, Singla, R, Kumar, M, Jaitak, V. Recent developments of C-4 substituted coumarin derivatives as anticancer agents. Eur J Med Chem 2016; 119: 141–68. PMID: 27155469",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.03.087",
+            "pmid": "27155469",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Ristic, MN, Radulovic, NS, Dekic, BR, et al. Synthesis and spectral characterization of asymmetric azines containing a coumarin moiety: the discovery of new antimicrobial and antioxidant agents. Chem Biodivers 2018; 16: e1800486. PMID: 30359472",
+            "process_entry": "True",
+            "doi": "10.1002/cbdv.201800486",
+            "pmid": "30359472",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Hu, Y, Shen, Y, Wu, X, et al. Synthesis and biological evaluation of coumarin derivatives containing imidazole skeleton as potential antibacterial agents. Eur J Med Chem 2018; 143: 958–69. PMID: 29232586",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.11.100",
+            "pmid": "29232586",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Morsy, SA, Farahat, AA, Nasr, MNA, Tantawy, AS. Synthesis, molecular modeling and anticancer activity of new coumarin containing compounds. Saudi Pharm J 2017; 25: 873–83. PMID: 28951673",
+            "process_entry": "True",
+            "doi": "10.1016/j.jsps.2017.02.003",
+            "pmid": "28951673",
+            "pmcid": "PMC5605891",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Leal, LK, Ferreira, AA, Bezerra, GA, et al. Antinociceptive, anti-inflammatory and bronchodilator activities of Brazilian medicinal plants containing coumarin: a comparative study. J Ethnopharmacol 2000; 70: 151–9. PMID: 10771205",
+            "process_entry": "True",
+            "doi": "10.1016/s0378-8741(99)00165-8",
+            "pmid": "10771205",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Squadrito, F, Altavilla, D, Campo, GM, et al. Cloricromene, a coumarine derivative, protects against lethal endotoxin shock in rats. Eur J Pharmacol 1992; 210: 107–13. PMID: 1601052",
+            "process_entry": "True",
+            "doi": "10.1016/0014-2999(92)90660-v",
+            "pmid": "1601052",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Boerner, D, Metz, K, Eberhardt, R. Acceptability, safety and efficacy of picumast dihydrochloride on long-term use in patients with perennial bronchial asthma. Arzneimittelforschung 1989; 39: 1372–4. PMID: 2576367",
+            "process_entry": "True",
+            "pmid": "2576367",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Morris, GK, Mitchell, JR. Warfarin sodium in prevention of deep venous thrombosis and pulmonary embolism in patients with fractured neck of femur. Lancet 1976; 2: 869–72. PMID: 62111",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(76)90536-5",
+            "pmid": "62111",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Hadler, MR, Redfern, R, Rowe, FP. Laboratory evaluation of difenacoum as a rodenticide. J Hyg (Lond) 1975; 74: 441–8. PMID: 1056964",
+            "process_entry": "True",
+            "doi": "10.1017/s0022172400046957",
+            "pmid": "1056964",
+            "pmcid": "PMC2130595",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Hu, Y, Stumpfe, D, Bajorath, J. Recent advances in scaffold hopping. J Med Chem 2017; 60: 1238–46. PMID: 28001064",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b01437",
+            "pmid": "28001064",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Ho, SY, Alam, J, Jeyaraj, DA, et al. Scaffold hopping and optimization of maleimide based porcupine inhibitors. J Med Chem 2017; 60: 6678–92. PMID: 28671458",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.7b00662",
+            "pmid": "28671458",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Magalhaes, J, Franko, N, Annunziato, G, et al. Discovery of novel fragments inhibiting O-acetylserine sulphhydrylase by combining scaffold hopping and ligand-based drug design. J Enzyme Inhib Med Chem 2018; 33: 1444–52. PMID: 30221554",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1512596",
+            "pmid": "30221554",
+            "pmcid": "PMC6147075",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Floresta, G, Rescifina, A, Marrazzo, A, et al. Hyphenated 3D-QSAR statistical model-scaffold hopping analysis for the identification of potentially potent and selective sigma-2 receptor ligands. Eur J Med Chem 2017; 139: 884–91. PMID: 28866257",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.08.053",
+            "pmid": "28866257",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Tuo, W, Bollier, M, Leleu-Chavain, N, et al. Development of novel oxazolo[5,4-d]pyrimidines as competitive CB2 neutral antagonists based on scaffold hopping. Eur J Med Chem 2018; 146: 68–78. PMID: 29360044",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.01.034",
+            "pmid": "29360044",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "De Luca, L, Ferro, S, Morreale, F, et al. Fragment hopping approach directed at design of HIV IN-LEDGF/p75 interaction inhibitors. J Enzyme Inhib Med Chem 2013; 28: 1002–9. PMID: 22803661",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2012.703184",
+            "pmid": "22803661",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Blaquiere, N, Castanedo, GM, Burch, JD, et al. Scaffold-hopping approach to discover potent, selective, and efficacious inhibitors of NF-κB inducing kinase. J Med Chem 2018; 61: 6801–13. PMID: 29940120",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.8b00678",
+            "pmid": "29940120",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Schrodinger, L. Schrodinger software suite. New York: Schrödinger, LLC; 2011.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Kontoyianni, M, McClellan, LM, Sokol, GS. Evaluation of docking performance: comparative data on docking algorithms. J Med Chem 2004; 47: 558–65. PMID: 14736237",
+            "process_entry": "True",
+            "doi": "10.1021/jm0302997",
+            "pmid": "14736237",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Zhang, Y, Yang, S, Jiao, Y, et al. An integrated virtual screening approach for VEGFR-2 inhibitors. J Chem Inf Model 2013; 53: 3163–77. PMID: 24266594",
+            "process_entry": "True",
+            "doi": "10.1021/ci400429g",
+            "pmid": "24266594",
+            "xmlid": "CIT0043"
+        }
+    ],
+    "localid": "MED-30879350",
+    "doi": "10.1080/14756366.2019.1587417",
+    "pmid": "10.1080/14756366.2019.1587417",
+    "pmcid": "30879350",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30879350/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,217)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0006",
+                "rp_string": "6–10",
+                "pl_string": "6–10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),709,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "6–10",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),709,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "6–10",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),709,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "6–10",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),709,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "6–10",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),709,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0006",
+                "rp_string": "6–10",
+                "pl_string": "6–10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),709,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0011",
+                "rp_string": "11–14",
+                "pl_string": "The bromodomain and extra-terminal (BET) family proteins, mainly including BRD2, BRD3, BRD4, and BRDT, are a kind of epigenetic regulatory proteins that selectively bind to acetylated lysines (KAc) of histone, thus translate chromatin status into transcription activation through RNA polymerase II and play critical roles in the regulation of gene transcription1–3. Among the BET family proteins, BRD4 has not just received a lot of attention, but been the most extensively studied one. The KAc residues bind into a hydrophobic pocket of the BRD4 proteins specifically with conserved asparagine (Asn140), also forming a water molecule-mediated hydrogen bonding interactions with tyrosine (Tyr97)4,5. Small molecule BRD4 inhibitors can block the binding, which leads to profound disruption of transcriptional programmes resulting in therapeutic potential in several conditions, such as inflammation and oncologic diseases6–10. In the last few years, a number of high-affinity small molecule ligands of BRD have been identified (Figure 1)11–14, wherein JQ-1 was the first reported potent BRD4 inhibitor and has been employed widely to evaluate its therapeutic potential in a great many preclinical human disease models15. Several JQ-1 analogues, such as OTX-01516–18 and CPI-061019,20 have subsequently advanced into clinical trials for the treatment of solid tumours, haematological malignancies and other forms of human cancer. It was also worthy of attention that PFI-1, a dihydroquinazolinone compound reported to be a potent BRD inhibitor obtained through optimization of a fragment-derived hit21. However, the solubility and pharmacokinetics of PFI-1 are suboptimal22. Notwithstanding the above discovery, potent BRD4 inhibitors with novel chemotypes are still in high demand for only limited BRD4 inhibitors available in clinical trials.",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),937,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "11–14",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),937,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "11–14",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),937,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "11–14",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),937,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0011",
+                "rp_string": "11–14",
+                "pl_string": "The bromodomain and extra-terminal (BET) family proteins, mainly including BRD2, BRD3, BRD4, and BRDT, are a kind of epigenetic regulatory proteins that selectively bind to acetylated lysines (KAc) of histone, thus translate chromatin status into transcription activation through RNA polymerase II and play critical roles in the regulation of gene transcription1–3. Among the BET family proteins, BRD4 has not just received a lot of attention, but been the most extensively studied one. The KAc residues bind into a hydrophobic pocket of the BRD4 proteins specifically with conserved asparagine (Asn140), also forming a water molecule-mediated hydrogen bonding interactions with tyrosine (Tyr97)4,5. Small molecule BRD4 inhibitors can block the binding, which leads to profound disruption of transcriptional programmes resulting in therapeutic potential in several conditions, such as inflammation and oncologic diseases6–10. In the last few years, a number of high-affinity small molecule ligands of BRD have been identified (Figure 1)11–14, wherein JQ-1 was the first reported potent BRD4 inhibitor and has been employed widely to evaluate its therapeutic potential in a great many preclinical human disease models15. Several JQ-1 analogues, such as OTX-01516–18 and CPI-061019,20 have subsequently advanced into clinical trials for the treatment of solid tumours, haematological malignancies and other forms of human cancer. It was also worthy of attention that PFI-1, a dihydroquinazolinone compound reported to be a potent BRD inhibitor obtained through optimization of a fragment-derived hit21. However, the solubility and pharmacokinetics of PFI-1 are suboptimal22. Notwithstanding the above discovery, potent BRD4 inhibitors with novel chemotypes are still in high demand for only limited BRD4 inhibitors available in clinical trials.",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),937,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),937,296)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The bromodomain and extra-terminal (BET) family proteins, mainly including BRD2, BRD3, BRD4, and BRDT, are a kind of epigenetic regulatory proteins that selectively bind to acetylated lysines (KAc) of histone, thus translate chromatin status into transcription activation through RNA polymerase II and play critical roles in the regulation of gene transcription1–3. Among the BET family proteins, BRD4 has not just received a lot of attention, but been the most extensively studied one. The KAc residues bind into a hydrophobic pocket of the BRD4 proteins specifically with conserved asparagine (Asn140), also forming a water molecule-mediated hydrogen bonding interactions with tyrosine (Tyr97)4,5. Small molecule BRD4 inhibitors can block the binding, which leads to profound disruption of transcriptional programmes resulting in therapeutic potential in several conditions, such as inflammation and oncologic diseases6–10. In the last few years, a number of high-affinity small molecule ligands of BRD have been identified (Figure 1)11–14, wherein JQ-1 was the first reported potent BRD4 inhibitor and has been employed widely to evaluate its therapeutic potential in a great many preclinical human disease models15. Several JQ-1 analogues, such as OTX-01516–18 and CPI-061019,20 have subsequently advanced into clinical trials for the treatment of solid tumours, haematological malignancies and other forms of human cancer. It was also worthy of attention that PFI-1, a dihydroquinazolinone compound reported to be a potent BRD inhibitor obtained through optimization of a fragment-derived hit21. However, the solubility and pharmacokinetics of PFI-1 are suboptimal22. Notwithstanding the above discovery, potent BRD4 inhibitors with novel chemotypes are still in high demand for only limited BRD4 inhibitors available in clinical trials.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1235,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1235,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1235,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1235,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1451,173)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1626,72)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,119)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),122,328)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "26–29",
+                "pl_string": "26–29",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),452,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "",
+                "pl_string": "26–29",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),452,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "",
+                "pl_string": "26–29",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),452,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "",
+                "pl_string": "26–29",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),452,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "26–29",
+                "pl_string": "26–29",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),452,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),670,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The natural products, normally with unique chemical structure, have long played an important role in drug discovery23. Coumarin (benzo-α-pyrone) skeleton found in nature has been considered as a privileged pharmacophore ascribed to the ability to exert noncovalent interactions (hydrogen bonds, hydrophobic, van der Waals force, metal coordination, and electrostatic interactions, etc.), with the various active sites in therapy targets24,25. Coumarins skeleton have gained momentous attention in the last decades as a lead structure for the discovery of orally bioavailable anti-cancer, anti-HCV, anti-HIV, anti-Alzheimer, and anti-inflammatory agents26–29. Several coumarin-based derivatives, such as Cloricromene30, Picumast31, Warfarin sodium32, and Difenacoum33 (Figure 2, coumarin skeleton marked in red) were approved for therapeutic purposes in clinic.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),670,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The natural products, normally with unique chemical structure, have long played an important role in drug discovery23. Coumarin (benzo-α-pyrone) skeleton found in nature has been considered as a privileged pharmacophore ascribed to the ability to exert noncovalent interactions (hydrogen bonds, hydrophobic, van der Waals force, metal coordination, and electrostatic interactions, etc.), with the various active sites in therapy targets24,25. Coumarins skeleton have gained momentous attention in the last decades as a lead structure for the discovery of orally bioavailable anti-cancer, anti-HCV, anti-HIV, anti-Alzheimer, and anti-inflammatory agents26–29. Several coumarin-based derivatives, such as Cloricromene30, Picumast31, Warfarin sodium32, and Difenacoum33 (Figure 2, coumarin skeleton marked in red) were approved for therapeutic purposes in clinic.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),670,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The natural products, normally with unique chemical structure, have long played an important role in drug discovery23. Coumarin (benzo-α-pyrone) skeleton found in nature has been considered as a privileged pharmacophore ascribed to the ability to exert noncovalent interactions (hydrogen bonds, hydrophobic, van der Waals force, metal coordination, and electrostatic interactions, etc.), with the various active sites in therapy targets24,25. Coumarins skeleton have gained momentous attention in the last decades as a lead structure for the discovery of orally bioavailable anti-cancer, anti-HCV, anti-HIV, anti-Alzheimer, and anti-inflammatory agents26–29. Several coumarin-based derivatives, such as Cloricromene30, Picumast31, Warfarin sodium32, and Difenacoum33 (Figure 2, coumarin skeleton marked in red) were approved for therapeutic purposes in clinic.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),670,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The natural products, normally with unique chemical structure, have long played an important role in drug discovery23. Coumarin (benzo-α-pyrone) skeleton found in nature has been considered as a privileged pharmacophore ascribed to the ability to exert noncovalent interactions (hydrogen bonds, hydrophobic, van der Waals force, metal coordination, and electrostatic interactions, etc.), with the various active sites in therapy targets24,25. Coumarins skeleton have gained momentous attention in the last decades as a lead structure for the discovery of orally bioavailable anti-cancer, anti-HCV, anti-HIV, anti-Alzheimer, and anti-inflammatory agents26–29. Several coumarin-based derivatives, such as Cloricromene30, Picumast31, Warfarin sodium32, and Difenacoum33 (Figure 2, coumarin skeleton marked in red) were approved for therapeutic purposes in clinic.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,76)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0035",
+                "rp_string": "35–38",
+                "pl_string": "Scaffold hopping is a powerful and promising strategy for drug discovery34. It has been extensively used for the design of structurally novel bioactive molecules35–38, which generally incorporates ring opening, ring closure, heterocycle replacement, and shape/topology-based scaffold hopping39,40. Herein, we applied the heterocycle replacement and shape-based scaffold hopping strategy towards PFI-1, a BRD inhibitor developed by Pfizer Worldwide R&D. First, we analysed the binding mode of PFI-1 binds to the BRD4 bromodomain. X-ray crystallographic analysis reveals that PFI-1 binds to BRD4 with three key hydrogen bonds interactions, which are displayed in Figure 3(A). The carbonyl oxygen and NH group of the dihydroquinazolinone forms two critical hydrogen bonds with the conserved residue Asn140. Moreover, the carbonyl oxygen interacts with the conserved residue Tyr97 via a water-mediated hydrogen bond. The anisole group occupies the WPF (formed by residues W97, P98 and F99) shelf and forms hydrophobic interaction with Asp145, Ile146, and Met149. The sulphonamide forms two additional hydrogen bonds with two water molecules. With this structural information in mind, we hypothesised that rational replacement of the dihydroquinazolinone core via coumarin skeleton based on scaffold hopping would be tolerated (Figure 3(B)). Thus, a series of novel coumarin derivatives were designed. As shown in Figure 3(C), the docking mode of coumarin derivative 1 binds to BRD4 was consistent with that of PFI-1. The alignment results depicted in Figure 3(D) also indicated that 1 almost took the same interaction conformation as PFI-1 except that the hydrogen-bond interaction between NH and Asn140 was lost.",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ]
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "",
+                "pl_string": "35–38",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ]
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "",
+                "pl_string": "35–38",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ]
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "",
+                "pl_string": "35–38",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0035",
+                "rp_string": "35–38",
+                "pl_string": "Scaffold hopping is a powerful and promising strategy for drug discovery34. It has been extensively used for the design of structurally novel bioactive molecules35–38, which generally incorporates ring opening, ring closure, heterocycle replacement, and shape/topology-based scaffold hopping39,40. Herein, we applied the heterocycle replacement and shape-based scaffold hopping strategy towards PFI-1, a BRD inhibitor developed by Pfizer Worldwide R&D. First, we analysed the binding mode of PFI-1 binds to the BRD4 bromodomain. X-ray crystallographic analysis reveals that PFI-1 binds to BRD4 with three key hydrogen bonds interactions, which are displayed in Figure 3(A). The carbonyl oxygen and NH group of the dihydroquinazolinone forms two critical hydrogen bonds with the conserved residue Asn140. Moreover, the carbonyl oxygen interacts with the conserved residue Tyr97 via a water-mediated hydrogen bond. The anisole group occupies the WPF (formed by residues W97, P98 and F99) shelf and forms hydrophobic interaction with Asp145, Ile146, and Met149. The sulphonamide forms two additional hydrogen bonds with two water molecules. With this structural information in mind, we hypothesised that rational replacement of the dihydroquinazolinone core via coumarin skeleton based on scaffold hopping would be tolerated (Figure 3(B)). Thus, a series of novel coumarin derivatives were designed. As shown in Figure 3(C), the docking mode of coumarin derivative 1 binds to BRD4 was consistent with that of PFI-1. The alignment results depicted in Figure 3(D) also indicated that 1 almost took the same interaction conformation as PFI-1 except that the hydrogen-bond interaction between NH and Asn140 was lost.",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ],
+                "pl_string": "Scaffold hopping is a powerful and promising strategy for drug discovery34. It has been extensively used for the design of structurally novel bioactive molecules35–38, which generally incorporates ring opening, ring closure, heterocycle replacement, and shape/topology-based scaffold hopping39,40. Herein, we applied the heterocycle replacement and shape-based scaffold hopping strategy towards PFI-1, a BRD inhibitor developed by Pfizer Worldwide R&D. First, we analysed the binding mode of PFI-1 binds to the BRD4 bromodomain. X-ray crystallographic analysis reveals that PFI-1 binds to BRD4 with three key hydrogen bonds interactions, which are displayed in Figure 3(A). The carbonyl oxygen and NH group of the dihydroquinazolinone forms two critical hydrogen bonds with the conserved residue Asn140. Moreover, the carbonyl oxygen interacts with the conserved residue Tyr97 via a water-mediated hydrogen bond. The anisole group occupies the WPF (formed by residues W97, P98 and F99) shelf and forms hydrophobic interaction with Asp145, Ile146, and Met149. The sulphonamide forms two additional hydrogen bonds with two water molecules. With this structural information in mind, we hypothesised that rational replacement of the dihydroquinazolinone core via coumarin skeleton based on scaffold hopping would be tolerated (Figure 3(B)). Thus, a series of novel coumarin derivatives were designed. As shown in Figure 3(C), the docking mode of coumarin derivative 1 binds to BRD4 was consistent with that of PFI-1. The alignment results depicted in Figure 3(D) also indicated that 1 almost took the same interaction conformation as PFI-1 except that the hydrogen-bond interaction between NH and Asn140 was lost.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),79,228)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Design of new BRD4 inhibitors containing a coumarin scaffold"
+                ],
+                "pl_string": "Scaffold hopping is a powerful and promising strategy for drug discovery34. It has been extensively used for the design of structurally novel bioactive molecules35–38, which generally incorporates ring opening, ring closure, heterocycle replacement, and shape/topology-based scaffold hopping39,40. Herein, we applied the heterocycle replacement and shape-based scaffold hopping strategy towards PFI-1, a BRD inhibitor developed by Pfizer Worldwide R&D. First, we analysed the binding mode of PFI-1 binds to the BRD4 bromodomain. X-ray crystallographic analysis reveals that PFI-1 binds to BRD4 with three key hydrogen bonds interactions, which are displayed in Figure 3(A). The carbonyl oxygen and NH group of the dihydroquinazolinone forms two critical hydrogen bonds with the conserved residue Asn140. Moreover, the carbonyl oxygen interacts with the conserved residue Tyr97 via a water-mediated hydrogen bond. The anisole group occupies the WPF (formed by residues W97, P98 and F99) shelf and forms hydrophobic interaction with Asp145, Ile146, and Met149. The sulphonamide forms two additional hydrogen bonds with two water molecules. With this structural information in mind, we hypothesised that rational replacement of the dihydroquinazolinone core via coumarin skeleton based on scaffold hopping would be tolerated (Figure 3(B)). Thus, a series of novel coumarin derivatives were designed. As shown in Figure 3(C), the docking mode of coumarin derivative 1 binds to BRD4 was consistent with that of PFI-1. The alignment results depicted in Figure 3(D) also indicated that 1 almost took the same interaction conformation as PFI-1 except that the hydrogen-bond interaction between NH and Asn140 was lost.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/table-wrap/table-wrap-foot/fn/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/table-wrap/table-wrap-foot/fn/p),1,213)",
+                "containers_title": [
+                    "Results and discussion",
+                    "SAR studies of coumarin derivatives"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),308,315)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Assessment of pharmacokinetic (PK) properties for 13"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p),1,171)",
+                "containers_title": [
+                    "Experimental section",
+                    "Computer aided drug design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p),174,170)",
+                "containers_title": [
+                    "Experimental section",
+                    "Computer aided drug design"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p),1035,121)",
+                "containers_title": [
+                    "Experimental section",
+                    "Computer aided drug design"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,649 @@
+{
+    "references": [
+        {
+            "bibentry": "Álvarez, C, Torrado, JJ, Cadórniga, R (1999). Stereoselective drug release from ketoprofen and ricobendazole matrix tablets. Chirality 11: 611–5. PMID: 10467311",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1520-636x(1999)11:8&lt;611::aid-chir1&gt;3.0.co;2-z",
+            "pmid": "10467311",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Asghar, W, Pittman, E, Jamali, F (2015). Most chiral drugs have been used as racemates while the beneficial effects are often attributed mainly to one of the enantiomers. DARU J Pharm Sci 23: 50–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Barbanoj, MJ, Antonijoan, RM, Gich, I (2001). Clinical pharmacokinetics of dexketoprofen. Clin Pharmacokinet 40: 245–62. PMID: 11368291",
+            "process_entry": "True",
+            "doi": "10.2165/00003088-200140040-00002",
+            "pmid": "11368291",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Bressolle, F, Rochette, A, Khier, S, et al. (2009). Population pharmacokinetics of the two enantiomers of tramadol and O-demethyl tramadol after surgery in children. Brit J Anaesth 102: 390–9. PMID: 19189983",
+            "process_entry": "True",
+            "doi": "10.1093/bja/aen405",
+            "pmid": "19189983",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Brocks, DR (2000). Stereoselective pharmacokinetics of desbutylhalofantrine, a metabolite of halofantrine, in the rat after administration of the racemic metabolite or parent drug. Biopharm Drug Dispos 21: 365–71. PMID: 11523065",
+            "process_entry": "True",
+            "doi": "10.1002/bdd.251",
+            "pmid": "11523065",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Duddu, SP, Vakilynejad, M, Jamali, F, Grant, DJW (1993). Stereoselective dissolution of propranolol hydrochloride from hydroxypropylmethylcellulose matrices. Pharm Res 10: 1648–53. PMID: 8290480",
+            "process_entry": "True",
+            "doi": "10.1023/a:1018937123058",
+            "pmid": "8290480",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hamdy, DA, Brocks, DR (2009). Nonlinear stereoselective pharmacokinetics of ketoconazole in rat after administration of racemate. Chirality 21: 704–12. PMID: 18988259",
+            "process_entry": "True",
+            "doi": "10.1002/chir.20669",
+            "pmid": "18988259",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Jamali, F, Brocks, DR (1990). Clinical pharmacokinetics of ketoprofen and its enantiomers. Clin Pharmacokinet 19: 197–217. PMID: 2203580",
+            "process_entry": "True",
+            "doi": "10.2165/00003088-199019030-00004",
+            "pmid": "2203580",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Jin, SP, Feng, L, He, WY, et al. (2010). Preparation and release behavior in vitro of aspirin/chitosan nanospheres by nucleation and ionic crosslinking in emulsion. Acta Phys Chim Sin 26: 2581–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Jonathan, MC, Michael, JO (2003). Stereochemistry in Drug Action. Prim Care Companion J Clin Psychiatry 5: 70–3. PMID: 15156233",
+            "process_entry": "True",
+            "doi": "10.4088/pcc.v05n0202",
+            "pmid": "15156233",
+            "pmcid": "PMC353039",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kunz, CM, Vakily, M, Jamali, F (1994). Stereoselective release of racemic drugs in the presence of chiral excipients. Pharm Res S-305. AAPS Annual Meeting PDD 7521.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Maggi, L, Massolini, G, De Lorenzi, E, et al. (1996). Evaluation of stereoselective dissolution of verapamil hydrochloride from matriz tablets press-coated with chiral excipients. Int J Pharm 136: 43–52.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Majid, V, Fakheddin, J (1994). Human Pharmacokinetics of tiaprofenic acid after regular and sustained release formulations: lack of chiral inversion and stereoselective release. J Pharma Sci 83: 495–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Muller, N, Payan, E, Lapicque, F, et al. (1990). Pharmacological aspects of chiral non-steroidal antiinflammatory drugs. Fund Clin Pharmacol 4: 617–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Nagilla, R, Deshmukh, DD, Duran, SH, Ravis, WR (2007). Stereoselective pharmacokinetics of ketorolac in calves after a single intravenous and oral dose. J Vet Pharmacol Ther 30: 437–42. PMID: 17803736",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2885.2007.00892.x",
+            "pmid": "17803736",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Sakajiri, T, Kikuchi, T, Simon, I, et al. (2006). Molecular dynamics approach to study the discrepancies in the thermal behavior of amylose and chitosan conformations. Theochem 764: 133–40.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Shantha, KL, Harding, DRK (2002). Synthesis and characterization of chemically modified chitosan microspheres. Carbohydr Pol 48: 247–53.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Shen, Q, Wang, L, Zhou, H, et al. (2013). Stereoselective binding of chiral drugs to plasma proteins. Acta Pharmacol Sin 34: 998–1006. PMID: 23852086",
+            "process_entry": "True",
+            "doi": "10.1038/aps.2013.78",
+            "pmid": "23852086",
+            "pmcid": "PMC3733166",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Sinha, VR, Singla, AK, Wadhawan, S, et al. (2004). Chitosan microspheres as a potential carrier for drugs. Int J Pharm 274: 1–33. PMID: 15072779",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2003.12.026",
+            "pmid": "15072779",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Solinis, MA, Cruz, Y, Hernandez, RM, et al. (2002a). Release of ketoprofen enantiomers from HPMC K100M matrices diffusion studies. Int J Pharm 239: 61–8. PMID: 12052691",
+            "process_entry": "True",
+            "doi": "10.1016/s0378-5173(02)00047-9",
+            "pmid": "12052691",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Solinis, MA, Cruz, Y, Calvo, B, et al. (2002b). Release of salbutamol sulphate and ketoprofen enantiomers from matrices containing HPMC and cellulose derivatives. Chirality 14: 806–812. PMID: 12395398",
+            "process_entry": "True",
+            "doi": "10.1002/chir.10143",
+            "pmid": "12395398",
+            "xmlid": "CIT1021"
+        },
+        {
+            "bibentry": "Solinís, MA, Lugará, S, Calvo, B, et al. (1998). Release of salbutamol sulfate enantiomers from hydroxypropylmethylcellulose matrices. Int J Pharm 161: 37–43.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Srichana, T, Suedee, R (2001). Evaluation of stereoselective dissolution of racemic salbutamol matrices prepared with commonly used excipients and 1H-NMR study. Drug Dev Ind Pharm 27: 457–64. PMID: 11448053",
+            "process_entry": "True",
+            "doi": "10.1081/ddc-100104321\t",
+            "pmid": "11448053",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Suedee, R, Brain, K, Heard, CM (1997). Enantioselective retardation of rac-propranolol from matrices containing cellulose derivatives. Chirality 9: 307–12.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Suedee, R, Srichana, T, Martin, GP (2000). Evaluation of matrices containing molecularly imprinted polymers in the enantioselective-controlled delivery of β-blockers. J Control Rel 66: 135–47.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Vakily, M, Pasutto, FM, Daneshtalab, M, Jamali, F (1995). Inclusion complexation of heptakis (2,6-di-ethyl)-b-cyclodextrin with tiaprofenic acid: pharmacokinetic consequences of a pH-dependent release and stereoselective dissolution. J Pharm Sci 84: 1014–9. PMID: 7500270",
+            "process_entry": "True",
+            "doi": "10.1002/jps.2600840819",
+            "pmid": "7500270",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Wang, SH, Liang, ZH, Zeng, S (2007a). Monitoring release of ketoprofen enantiomers from biodegradable poly (D,L-lactide-co-glycolide) injectable implants. Inter J Pharm 337: 102–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Wang, QX, Qiu, J, Wang, P, et al. (2005). Stereoselective kinetic study of hexaconazole enantiomers in the rabbit. Chirality 17: 186–92. PMID: 15825196",
+            "process_entry": "True",
+            "doi": "10.1002/chir.20152",
+            "pmid": "15825196",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Wang, Q, Qiu, J, Zhou, Z, et al. (2009). Stereoselective pharmacokinetics of diniconazole enantiomers in rabbits. Chirality 21: 699–703. PMID: 18973222",
+            "process_entry": "True",
+            "doi": "10.1002/chir.20667",
+            "pmid": "18973222",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Wang, SH, Yin, LN, Liang, ZH, et al. (2007b). Stereoselective behavior of a novel biodegradable racemic ketoprofen injectable Implant in rats. Chirality 19: 769–74. PMID: 17687761",
+            "process_entry": "True",
+            "doi": "10.1002/chir.20453",
+            "pmid": "17687761",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Yamada, T, Onishi, H, Machida, Y (2001). In vitro and in vivo evaluation of sustained release chitosan-adjuvanteded ketoprofen microspheres. Yakugaku Zasshi 121: 239–45. PMID: 11265119",
+            "process_entry": "True",
+            "doi": "10.1248/yakushi.121.239",
+            "pmid": "11265119",
+            "xmlid": "CIT0030"
+        }
+    ],
+    "localid": "MED-30744429",
+    "doi": "10.1080/10717544.2018.1556360",
+    "pmid": "10.1080/10717544.2018.1556360",
+    "pmcid": "30744429",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30744429/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0010",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,120)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0014",
+                "rp_string": "1990",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),248,165)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Muller et al.,1990; Barbanoj et al., 2001)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),368,43)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),248,165)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Muller et al., 1990; Barbanoj et al.,2001)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),368,43)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0018",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),414,134)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0002",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),549,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "1993",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),119,224)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0013",
+                "rp_string": "1994",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin,1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0025",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al.,1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0012",
+                "rp_string": "1996",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al.,1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0023",
+                "rp_string": "1997",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al.,1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0021",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al.,1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0001",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al.,1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0024",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al.,2000; Srichana & Suedee, 2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0022",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee,2001; Solinis et al., 2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0020",
+                "rp_string": "2002a",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),344,570)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Majid & Fakheddin, 1994; Vakily et al., 1995; Maggi et al., 1996; Suedee et al., 1997; Solinís et al., 1998; Álvarez et al., 1999; Suedee et al., 2000; Srichana & Suedee, 2001; Solinis et al.,2002a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),531,199)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0005",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,354)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Brocks,2000; Wang et al., 2005; Nagilla et al., 2007; Bressolle et al., 2009; Hamdy & Brocks, 2009; Wang et al., 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1348,118)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0027",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,354)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Brocks, 2000; Wang et al.,2005; Nagilla et al., 2007; Bressolle et al., 2009; Hamdy & Brocks, 2009; Wang et al., 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1348,118)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,354)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Brocks, 2000; Wang et al., 2005; Nagilla et al.,2007; Bressolle et al., 2009; Hamdy & Brocks, 2009; Wang et al., 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1348,118)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0004",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,354)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Brocks, 2000; Wang et al., 2005; Nagilla et al., 2007; Bressolle et al.,2009; Hamdy & Brocks, 2009; Wang et al., 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1348,118)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0007",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,354)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Brocks, 2000; Wang et al., 2005; Nagilla et al., 2007; Bressolle et al., 2009; Hamdy & Brocks,2009; Wang et al., 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1348,118)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0028",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1114,354)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Brocks, 2000; Wang et al., 2005; Nagilla et al., 2007; Bressolle et al., 2009; Hamdy & Brocks, 2009; Wang et al.,2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1348,118)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0008",
+                "rp_string": "1990",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),256,546)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0026",
+                "rp_string": "2007a",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),256,546)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wang et al.,2007a; 2007b)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),774,26)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0029",
+                "rp_string": "2007b",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),256,546)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wang et al., 2007a;2007b)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),774,26)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0030",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),176,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Yamada et al.,2001; Sinha et al., 2004)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),271,40)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0019",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),176,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Yamada et al., 2001; Sinha et al.,2004)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),271,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0017",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,110)",
+                "containers_title": [
+                    "Material and methods",
+                    "Preparation of rac-KET, S-KET, and R-KET microspheres"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "2007a",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),128,121)",
+                "containers_title": [
+                    "Material and methods",
+                    "In vitro release test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0028",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1105,105)",
+                "containers_title": [
+                    "Material and methods",
+                    "In vitro release test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0016",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),175,135)",
+                "containers_title": [
+                    "Material and methods",
+                    "Molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT1021",
+                "rp_string": "2002b",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),767,138)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Release of KET enantiomers from microspheres"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0025",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),1,142)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Release of KET enantiomers from microspheres"
+                ],
+                "pl_string": "(Vakily et al.,1995; Wang et al., 2007a)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),101,40)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0026",
+                "rp_string": "2007a",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),1,142)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Release of KET enantiomers from microspheres"
+                ],
+                "pl_string": "(Vakily et al., 1995; Wang et al.,2007a)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),101,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0009",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),416,145)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Release of KET enantiomers from microspheres"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0026",
+                "rp_string": "2007a",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),88,198)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Release of KET enantiomers from microspheres"
+                ]
+            }
+        ]
+    ]
+}

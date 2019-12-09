@@ -1,0 +1,544 @@
+{
+    "references": [
+        {
+            "bibentry": "Williamson, JR, Chang, K, Frangos, M, et al. Hyperglycemic pseudohypoxia and diabetic complications. Diabetes 1993; 42: 801–13. PMID: 8495803",
+            "process_entry": "True",
+            "doi": "10.2337/diab.42.6.801",
+            "pmid": "8495803",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "American Diabetes Association Prevention or delay of type 2 diabetes: standards of medical care in diabetes-2018. Diabetes Care 2018; 41: 51.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Davidson, EP, Coppey, LJ, Shevalye, H, et al. Vascular and neural complications in type 2 diabetic rats: improvement by sacubitril/valsartan greater than valsartan alone. Diabetes 2018; 67: 1616–26. PMID: 29941448",
+            "process_entry": "True",
+            "doi": "10.2337/db18-0062",
+            "pmid": "29941448",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Brownlee, M. Biochemistry and molecular biology of diabetic complications. Nature 2001; 414: 813–20. PMID: 11742414",
+            "process_entry": "True",
+            "doi": "10.1038/414813a",
+            "pmid": "11742414",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Boulton, AJ. The pathogenesis of diabetic foot problems: an overview. Diabetes 1996; 13: 58–61.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Nakayama, M, Nakamura, J, Hamada, Y, et al. Aldose reductase inhibition ameliorates pupillary light reflex and f-wave latency in patients with mild diabetic neuropathy. Diabetes Care 2001; 24: 1093–8. PMID: 11375376",
+            "process_entry": "True",
+            "doi": "10.2337/diacare.24.6.1093",
+            "pmid": "11375376",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Alexiou, P, Pegklidou, K, Chatzopoulou, M, et al. Aldose reductase enzyme and its implication to major health problems of the 21(st) century. Curr Med Chem 2009; 16: 734–52. PMID: 19199934",
+            "process_entry": "True",
+            "doi": "10.2174/092986709787458362",
+            "pmid": "19199934",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Alim, Z, Kilinç, N, Şengül, B, Beydemir, Ş. Inhibition behaviours of some phenolic acids on rat kidney aldose reductase enzyme: an in vitro study. J Enzym Inhib Med Chem 2017; 32: 277–84.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Han, Z, Hao, X, Gao, Z, et al. Multifunctional aldose reductase inhibitors based on 2h-benzothiazine 1,1-dioxide. RSC Adv 2016; 6: 12761–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Balestri, F, Quattrini, L, Coviello, V, et al. Acid derivatives of pyrazolo[1,5-a]pyrimidine: the first class of aldose reductase differential inhibitors. Cell Chem Biol 2018; 25: 1414–8. PMID: 30122369",
+            "process_entry": "True",
+            "doi": "10.1016/j.chembiol.2018.07.008",
+            "pmid": "30122369",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Da Settimo, F, Primofiore, G, La Motta, C, et al. Naphtho[1,2-d]isothiazole acetic acid derivatives as a novel class of selective aldose reductase inhibitors. J Med Chem 2005; 48: 6897–907. PMID: 16250648",
+            "process_entry": "True",
+            "doi": "10.1021/jm050382p",
+            "pmid": "16250648",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Sartini, S, Cosconati, S, Marinelli, L, et al. Benzofuroxane derivatives as multi-effective agents for the treatment of cardiovascular diabetic complications. Synthesis, functional evaluation, and molecular modeling studies. J Med Chem 2012; 55: 10523. PMID: 23134227",
+            "process_entry": "True",
+            "doi": "10.1021/jm301124s",
+            "pmid": "23134227",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Maccari, R, Ottana, R. Targeting aldose reductase for the treatment of diabetes complications and inflammatory diseases: new insights and future directions. J Med Chem 2015; 58: 2047–67. PMID: 25375908",
+            "process_entry": "True",
+            "doi": "10.1021/jm500907a",
+            "pmid": "25375908",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Nicolaou, I, Demopoulos, VJ. Substituted pyrrol-1-ylacetic acids that combine aldose reductase enzyme inhibitory activity and ability to prevent the nonenzymatic irreversible modification of proteins from monosaccharides. J Med Chem 2003; 46: 417–26. PMID: 12540241",
+            "process_entry": "True",
+            "doi": "10.1021/jm0209477",
+            "pmid": "12540241",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Chatzopoulou, M, Mamadou, E, Juskova, M, et al. Structure-activity relations on [1-(3,5-difluoro-4-hydroxyphenyl)-1H -pyrrol-3-yl]phenylmethanone. The effect of methoxy substitution on aldose reductase inhibitory activity and selectivity. Bioorgan Med Chem 2011; 19: 1426–33.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Maccari, R, Vitale, RM, Ottana, R, et al. Structure–activity relationships and molecular modelling of new 5-arylidene-4-thiazolidinone derivatives as aldose reductase inhibitors and potential anti-inflammatory agents. Eur J Med Chem 2014; 81: 1–14. PMID: 24819954",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.05.003",
+            "pmid": "24819954",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Polyxeni, A, Demopoulos, VJ. A diverse series of substituted benzenesulfonamides as aldose reductase inhibitors with antioxidant activity: design, synthesis, and in vitro activity. J Med Chem 2010; 53: 7756–66. PMID: 20936791",
+            "process_entry": "True",
+            "doi": "10.1021/jm101008m",
+            "pmid": "20936791",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "La Motta, C, Sartini, S, Salerno, S, et al. Acetic acid aldose reductase inhibitors bearing a five-membered heterocyclic core with potent topical activity in a visual impairment rat model. J Med Chem 2008; 51: 3182–93. PMID: 18452283",
+            "process_entry": "True",
+            "doi": "10.1021/jm701613h",
+            "pmid": "18452283",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Hao, X, Qin, X, Hussain, S, et al. Chiral resolution, determination of absolute configuration, and biological evaluation of (1,2-benzothiazin-4-yl)acetic acid enantiomers as aldose reductase inhibitors. J Enzym Inhib Med Chem 2015; 30: 846–51.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Qin, X, Hao, X, Han, H, et al. Design and synthesis of potent and multifunctional aldose reductase inhibitors based on quinoxalinones. J Med Chem 2015; 58: 1254–67. PMID: 25602762",
+            "process_entry": "True",
+            "doi": "10.1021/jm501484b",
+            "pmid": "25602762",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Han, Z, Hao, X, Ma, B, Zhu, C. A series of pyrido[2,3-b] pyrazin-3(4 h) -one derivatives as aldose reductase inhibitors with antioxidant activity. Eur J Med Chem 2016; 121: 308–17. PMID: 27267001",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.05.036",
+            "pmid": "27267001",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Zhu, S, Zhang, S, Hao, X, et al. Pyridothiadiazine derivatives as aldose reductase inhibitors having antioxidant activity. J Enzym Inhib Med Chem 2016; 31: 126–30.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Silva, JP, Areias, FM, Proença, FM, Coutinho, OP. Oxidative stress protection by newly synthesized nitrogen compounds with pharmacological potential. Life Sci 2006; 78: 1256–67. PMID: 16253284",
+            "process_entry": "True",
+            "doi": "10.1016/j.lfs.2005.06.033",
+            "pmid": "16253284",
+            "xmlid": "CIT0023"
+        }
+    ],
+    "localid": "MED-31347930",
+    "doi": "10.1080/14756366.2019.1643336",
+    "pmid": "10.1080/14756366.2019.1643336",
+    "pmcid": "31347930",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31347930/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),119,189)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),119,189)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),309,158)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0005",
+                "rp_string": "5–7",
+                "pl_string": "5–7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,292)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "pl_string": "5–7",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,292)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "pl_string": "5–7",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,292)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0005",
+                "rp_string": "5–7",
+                "pl_string": "5–7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,292)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "pl_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1386,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "pl_string": "8–10",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1386,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "pl_string": "8–10",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1386,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "pl_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1386,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0011",
+                "rp_string": "11–15",
+                "pl_string": "11–15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "pl_string": "11–15",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "pl_string": "11–15",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "pl_string": "11–15",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "pl_string": "11–15",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0011",
+                "rp_string": "11–15",
+                "pl_string": "11–15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),621,237)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),621,237)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "pl_string": "16–18",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),621,237)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "pl_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),621,237)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19–22",
+                "pl_string": "19–22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0022",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19–22",
+                "pl_string": "19–22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0022",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,303)",
+                "containers_title": [
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,303)",
+                "containers_title": [
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),481,219)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ]
+    ]
+}

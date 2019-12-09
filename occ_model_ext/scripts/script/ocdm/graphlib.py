@@ -38,6 +38,7 @@ class GraphEntity(object):
     FOAF = Namespace("http://xmlns.com/foaf/0.1/")
     FRBR = Namespace("http://purl.org/vocab/frbr/core#")
     LITERAL = Namespace("http://www.essepuntato.it/2010/06/literalreification/")
+    OA = Namespace("http://www.w3.org/ns/oa#") # new
     OCO = Namespace("https://w3id.org/oc/ontology/")
     PRISM = Namespace("http://prismstandard.org/namespaces/basic/2.0/")
     PRO = Namespace("http://purl.org/spar/pro/")
@@ -47,11 +48,17 @@ class GraphEntity(object):
     has_publication_date = PRISM.publicationDate
     bibliographic_reference = BIRO.BibliographicReference
     references = BIRO.references
-    has_content = C4O.hasContent
-    is_context_of = C4O.isContextOf # new
     denotes = C4O.denotes # new
+    has_content = C4O.hasContent
+    intextref_pointer = C4O.InTextReferencePointer # new
+    is_context_of = C4O.isContextOf # new
+    singleloc_pointer_list = C4O.SingleLocationPointerList # new
     has_element = CO.element
+    citation = CITO.Citation
     cites = CITO.cites
+    citation_characterisation = CITO.hasCitationCharacterisation
+    has_citing_entity = CITO.hasCitingEntity
+    has_cited_entity = CITO.hasCitedEntity
     doi = DATACITE.doi
     occ = DATACITE.occ
     pmid = DATACITE.pmid
@@ -65,38 +72,36 @@ class GraphEntity(object):
     url = DATACITE.url
     uses_identifier_scheme = DATACITE.usesIdentifierScheme
     title = DCTERMS.title
+    caption = DEO.Caption # new
+    discourse_element = DOCO.DiscourseElement # new
+    footnote = DOCO.Footnote # new
+    paragraph = DOCO.Paragraph # new
     part = DOCO.Part
+    section = DOCO.Section # new
+    section_title = DOCO.SectionTitle # new
+    sentence = DOCO.Sentence # new
+    table = DOCO.Table # new
+    text_chunk = DOCO.TextChunk # new
     academic_proceedings = FABIO.AcademicProceedings
     book = FABIO.Book
     book_chapter = FABIO.BookChapter
     book_series = FABIO.BookSeries
     book_set = FABIO.BookSet
-    caption = DEO.Caption # new
     data_file = FABIO.DataFile
-    discourse_element = DOCO.DiscourseElement # new
     expression = FABIO.Expression
     expression_collection = FABIO.ExpressionCollection
-    footnote = DOCO.Footnote # new
     has_sequence_identifier = FABIO.hasSequenceIdentifier
-    intextref_pointer = C4O.InTextReferencePointer # new
     journal = FABIO.Journal
     journal_article = FABIO.JournalArticle
     journal_issue = FABIO.JournalIssue
     journal_volume = FABIO.JournalVolume
     manifestation = FABIO.Manifestation
-    paragraph = DOCO.Paragraph # new
     proceedings_paper = FABIO.ProceedingsPaper
     reference_book = FABIO.ReferenceBook
     reference_entry = FABIO.ReferenceEntry
     report_document = FABIO.ReportDocument
-    section = DOCO.Section # new
-    section_title = DOCO.SectionTitle # new
-    sentence = DOCO.Sentence # new
     series = FABIO.Series
-    singleloc_pointer_list = C4O.SingleLocationPointerList # new
     specification_document = FABIO.SpecificationDocument
-    table = DOCO.Table # new
-    text_chunk = DOCO.TextChunk # new
     thesis = FABIO.Thesis
     agent = FOAF.Agent
     family_name = FOAF.familyName
@@ -116,6 +121,9 @@ class GraphEntity(object):
     is_document_context_for = PRO.isDocumentContextFor
     role_in_time = PRO.RoleInTime
     with_role = PRO.withRole
+    note = OA.Annotation # new
+    has_body = OA.hasBody # new
+    has_annotation = OCO.hasAnnotation # new (inverse of OA.hasTarget)
     has_next = OCO.hasNext
 
     # This constructor creates a new instance of an RDF resource
@@ -410,11 +418,11 @@ class GraphEntity(object):
 class GraphSet(object):
     # Labels
     labels = {
-        "an": "annotation",
+        "an": "annotation", # new
         "ar": "agent role",
         "be": "bibliographic entry",
         "br": "bibliographic resource",
-        "ci": "citation", # new TODO change here and add annotations
+        "ci": "citation", # new
         "de": "discourse element", # new
         "id": "identifier",
         "pl": "single location pointer list", # new
@@ -441,10 +449,11 @@ class GraphSet(object):
         # The following structure of URL is quite important for the other classes
         # developed and should not be changed. The only part that can change is the
         # value of the base_iri
+        self.g_an = base_iri + "an/" # new
         self.g_ar = base_iri + "ar/"
         self.g_be = base_iri + "be/"
         self.g_br = base_iri + "br/"
-        self.g_cp = base_iri + "cp/" # new TODO change and add annotations
+        self.g_ci = base_iri + "ci/" # new
         self.g_de = base_iri + "de/" # new
         self.g_id = base_iri + "id/"
         self.g_pl = base_iri + "pl/" # new
@@ -454,10 +463,11 @@ class GraphSet(object):
 
         # Local paths
         self.info_dir = info_dir
+        self.an_info_path = info_dir + "an.txt" # new
         self.ar_info_path = info_dir + "ar.txt"
         self.be_info_path = info_dir + "be.txt"
         self.br_info_path = info_dir + "br.txt"
-        self.cp_info_path = info_dir + "cp.txt" # new TODO change and add annotations
+        self.ci_info_path = info_dir + "ci.txt" # new
         self.de_info_path = info_dir + "de.txt" # new
         self.id_info_path = info_dir + "id.txt"
         self.pl_info_path = info_dir + "pl.txt" # new
@@ -478,19 +488,26 @@ class GraphSet(object):
             return self.res_to_entity[res]
 
     # Add resources related to bibliographic entities
+    # TODO add_an , add_ci
+    def add_an(self, resp_agent, source_agent=None, source=None, res=None): # new
+        return self._add(self.g_an, GraphEntity.note, res, resp_agent,
+                        source_agent, source, self.an_info_path, "an")
+
     def add_ar(self, resp_agent, source_agent=None, source=None, res=None):
-        return self._add(
-            self.g_ar, GraphEntity.role_in_time, res, resp_agent,
-            source_agent, source, self.ar_info_path, "ar")
+        return self._add(self.g_ar, GraphEntity.role_in_time, res, resp_agent,
+                        source_agent, source, self.ar_info_path, "ar")
 
     def add_be(self, resp_agent, source_agent=None, source=None, res=None):
-        return self._add(
-            self.g_be, GraphEntity.bibliographic_reference, res, resp_agent,
-            source_agent, source, self.be_info_path, "be")
+        return self._add(self.g_be, GraphEntity.bibliographic_reference, res, resp_agent,
+                        source_agent, source, self.be_info_path, "be")
 
     def add_br(self, resp_agent, source_agent=None, source=None, res=None):
         return self._add(self.g_br, GraphEntity.expression, res, resp_agent,
-                         source_agent, source, self.br_info_path, "br")
+                        source_agent, source, self.br_info_path, "br")
+
+    def add_ci(self, resp_agent, source_agent=None, source=None, res=None): # new
+        return self._add(self.g_ci, GraphEntity.citation, res, resp_agent,
+                        source_agent, source, self.ci_info_path, "ci")
 
     def add_de(self, resp_agent, source_agent=None, source=None, res=None): # new
         return self._add(self.g_de, GraphEntity.discourse_element, res, resp_agent,
@@ -513,8 +530,7 @@ class GraphSet(object):
                          source_agent, source, self.ra_info_path, "ra")
 
     def add_re(self, resp_agent, source_agent=None, source=None, res=None):
-        return self._add(
-            self.g_re, GraphEntity.manifestation, res, resp_agent,
+        return self._add(self.g_re, GraphEntity.manifestation, res, resp_agent,
             source_agent, source, self.re_info_path, "re")
 
     def _add(self, graph_url, main_type, res, resp_agent, source_agent,
@@ -583,9 +599,10 @@ class GraphSet(object):
         self.r_count += 1
 
     def _set_ns(self, g):
+        g.namespace_manager.bind("an", Namespace(self.g_an)) # new
         g.namespace_manager.bind("ar", Namespace(self.g_ar))
         g.namespace_manager.bind("be", Namespace(self.g_be))
-        g.namespace_manager.bind("cp", Namespace(self.g_cp)) # new TODO change and add annotations
+        g.namespace_manager.bind("ci", Namespace(self.g_ci)) # new
         g.namespace_manager.bind("de", Namespace(self.g_de)) # new
         g.namespace_manager.bind("br", Namespace(self.g_br))
         g.namespace_manager.bind("id", Namespace(self.g_id))
@@ -605,8 +622,11 @@ class GraphSet(object):
         g.namespace_manager.bind("foaf", GraphEntity.FOAF)
         g.namespace_manager.bind("frbr", GraphEntity.FRBR)
         g.namespace_manager.bind("literal", GraphEntity.LITERAL)
+        g.namespace_manager.bind("oa", GraphEntity.OA)
+        g.namespace_manager.bind("oco", GraphEntity.OCO)
         g.namespace_manager.bind("prism", GraphEntity.PRISM)
         g.namespace_manager.bind("pro", GraphEntity.PRO)
+
 
     @staticmethod
     def get_graph_iri(g):

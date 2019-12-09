@@ -1,0 +1,84 @@
+{
+    "references": [
+        {
+            "bibentry": "Carroll, CL, Dangayach, NS, Khan, R, et al. On behalf of the SoMe-CCCPR (Social media collaboration of critical care practitioners and researchers), lessons learned from web and social media based educational initiatives by pulmonary, critical care & sleep societies, CHEST (2019): doi: DOI: 10.1016/j.chest.2018.12.009.",
+            "process_entry": "True",
+            "doi": "10.1016/j.chest.2018.12.009.",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Sterling, M, Leung, P, Wright, D, et al. The use of social media in graduate medical education: a systemic review. Acad Med. 2017; 92(7): 1043–1. PMID: 28225466",
+            "process_entry": "True",
+            "doi": "10.1097/ACM.0000000000001617",
+            "pmid": "28225466",
+            "pmcid": "PMC5487290",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Bergl, PA, Narang, A, Arora, VM. Maintaining a Twitter feed to advance an internal medicine residency program’s educational mission. JMIR Med Educ. 2015; 1: e5. PMID: 27731845",
+            "process_entry": "True",
+            "doi": "10.2196/mededu.4434",
+            "pmid": "27731845",
+            "pmcid": "PMC5041360",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Go, PH, Klaassen, Z, Chamberlain, RS. Attitudes and practices of surgery residency program directors toward the use of social networking profiles to select residency candidates: A nationwide survey analysis. J Surg Educ. 2012; 69: 292–300. PMID: 22483127",
+            "process_entry": "True",
+            "doi": "10.1016/j.jsurg.2011.11.008",
+            "pmid": "22483127",
+            "xmlid": "CIT0004"
+        }
+    ],
+    "localid": "MED-30982419",
+    "doi": "10.1080/10872981.2019.1599277",
+    "pmid": "10.1080/10872981.2019.1599277",
+    "pmcid": "30982419",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30982419/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,179)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),181,114)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[3]),289,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),181,114)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[3]),289,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[3]),296,268)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

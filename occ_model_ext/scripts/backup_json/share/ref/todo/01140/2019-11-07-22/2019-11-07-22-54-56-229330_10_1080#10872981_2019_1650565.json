@@ -1,0 +1,67 @@
+{
+    "references": [
+        {
+            "bibentry": "Graffam, B. Active learning in medical education: strategies for beginning implementation. Med Teach. 2007; 29(1): 38–1. England. PMID: 17538832",
+            "process_entry": "True",
+            "doi": "10.1080/01421590601176398",
+            "pmid": "17538832",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Kurtz, JB, Lourie, MA, Holman, EE, et al. Creating assessments as an active learning strategy: what are students’ perceptions? A mixed methods study Med Educ Online. 2019; 24(1): 1630239 Taylor & Francis. PMID: 31248355",
+            "process_entry": "True",
+            "doi": "10.1080/10872981.2019.1630239",
+            "pmid": "31248355",
+            "pmcid": "PMC6610530",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Minhas, PS, Ghosh, A, Swanzy, L. The effects of passive and active learning on student preference and performance in an undergraduate basic science course. Anat Sci Educ. 2012; 5(4): 200–207. USA. PMID: 22434661",
+            "process_entry": "True",
+            "doi": "10.1002/ase.1274",
+            "pmid": "22434661",
+            "xmlid": "CIT0003"
+        }
+    ],
+    "localid": "MED-31389768",
+    "doi": "10.1080/10872981.2019.1650565",
+    "pmid": "10.1080/10872981.2019.1650565",
+    "pmcid": "31389768",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31389768/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),1,98)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),154,227)",
+                "containers_title": "",
+                "pl_string": "[1,3]",
+                "pl_xpath": "substring(string(/article/body/p[2]),375,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),154,227)",
+                "containers_title": "",
+                "pl_string": "[1,3]",
+                "pl_xpath": "substring(string(/article/body/p[2]),375,5)"
+            }
+        ]
+    ]
+}

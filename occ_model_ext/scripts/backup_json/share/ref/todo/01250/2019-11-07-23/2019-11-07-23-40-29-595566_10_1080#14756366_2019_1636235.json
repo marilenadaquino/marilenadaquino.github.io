@@ -1,0 +1,897 @@
+{
+    "references": [
+        {
+            "bibentry": "Erlanson, DA, Fesik, SW, Hubbard, RE, et al. Twenty years on: the impact of fragments on drug discovery. Nature Rev Drug Discov 2016; 15: 605–19. PMID: 27417849",
+            "process_entry": "True",
+            "doi": "10.1038/nrd.2016.109",
+            "pmid": "27417849",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Erlanson, DA. Introduction to fragment-based drug discovery and X-ray crystallography In, Davies, T, Hyvönen, M, eds. Fragment-based drug discovery and X-ray crystallography. Topics in current chemistry. Vol. 317 Berlin and Heidelberg: Springer; 2012: 1–32.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Silvestre, HL, Blundell, TL, Abell, C, Ciulli, A. Integrated biophysical approach to fragment screening and validation for fragment-based lead discovery. Proc Natl Acad Sci USA 2013; 110: 12984–9. PMID: 23872845",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1304045110",
+            "pmid": "23872845",
+            "pmcid": "PMC3740835",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Mashalidis, EH, Śledź, P, Lang, S, Abell, C. A Three-stage biophysical screening cascade for fragment-based drug discovery. Nat Protoc 2013; 8: 2309–24. PMID: 24157549",
+            "process_entry": "True",
+            "doi": "10.1038/nprot.2013.130",
+            "pmid": "24157549",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Bollag, G, Hirth, P, Tsai, J, et al. Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma. Nature 2010; 467: 596–9. PMID: 20823850",
+            "process_entry": "True",
+            "doi": "10.1038/nature09454",
+            "pmid": "20823850",
+            "pmcid": "PMC2948082",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Roberts, A, Davids, M, Pagel, JM, et al. Targeting BCL2 with venetoclax in relapsed chronic lymphocytic leukemia. N Engl J Med 2016; 374: 311–22. PMID: 26639348",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa1513257",
+            "pmid": "26639348",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Chen, IJ, Hubbard, RE. Lessons for fragment library design: analysis of output from multiple screening campaigns. J Comput Aided Mol Des 2009; 23: 603–20. PMID: 19495994",
+            "process_entry": "True",
+            "doi": "10.1007/s10822-009-9280-5",
+            "pmid": "19495994",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Harner, MJ, Mueller, L, Robbins, KJ, Reily, MD. NMR in drug design. Arch Biochem Biophys 2017; 628: 132–47. PMID: 28619618",
+            "process_entry": "True",
+            "doi": "10.1016/j.abb.2017.06.005",
+            "pmid": "28619618",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Mayer, M, Meyer, B. Characterization of ligand binding by saturation transfer difference NMR spectroscopy. Angew Chem Int Ed Engl 1999; 38: 1784–8. PMID: 29711196",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1521-3773(19990614)38:12<1784::aid-anie1784>3.0.co;2-q",
+            "pmid": "29711196",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Meyer, B, Peters, T. NMR spectroscopy techniques for screening and identifying ligand binding to protein receptors. Angew Chem Int Ed Engl 2003; 42: 864–90. PMID: 12596167",
+            "process_entry": "True",
+            "doi": "10.1002/anie.200390233",
+            "pmid": "12596167",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Cala, O, Guilliere, F, Krimm, I. NMR-based analysis of protein-ligand interactions. Anal Bioanal Chem 2014; 406: 943–56. PMID: 23591643",
+            "process_entry": "True",
+            "doi": "10.1007/s00216-013-6931-0",
+            "pmid": "23591643",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Wagstaff, JL, Taylor, SL, Howard, MJ. Recent developments and applications of saturation transfer difference nuclear magnetic resonance (STD NMR) spectroscopy. Mol Biosyst 2013; 9: 571–7. PMID: 23232937",
+            "process_entry": "True",
+            "doi": "10.1039/c2mb25395j",
+            "pmid": "23232937",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Cala, O, Krimm, I. Ligand-orientation based fragment selection in STD NMR screening. J Med Chem 2015; 58: 8739–42. PMID: 26492576",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01114",
+            "pmid": "26492576",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Dalvit, C, Pevarello, P, Tatò, M, et al. Identification of compounds with binding affinity to proteins via magnetization transfer from bulk water. J Biomol NMR 2000; 18: 65–8. PMID: 11061229",
+            "process_entry": "True",
+            "doi": "10.1023/a:1008354229396",
+            "pmid": "11061229",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Dalvit, C, Fogliatto, G, Stewart, A, et al. WaterLOGSY as a method for primary NMR screening: practical aspects and range of applicability. J Biomol NMR 2001; 21: 349–59. PMID: 11824754",
+            "process_entry": "True",
+            "doi": "10.1023/a:1013302231549",
+            "pmid": "11824754",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Huang, R, Leung, IKH. Chapter fourteen -protein–small molecule interactions by WaterLOGSY In, Joshua Wand, A, editor. Methods in enzymology. Vol. 615 London: Academic Press; 2019: 477–500.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Huang, R, Bonnichon, A, Claridge, TD, Leung, IK. Protein-ligand binding affinity determination by the waterLOGSY method: an optimised approach considering ligand rebinding. Sci Rep 2017; 7: 43727. PMID: 28256624",
+            "process_entry": "True",
+            "doi": "10.1038/srep43727",
+            "pmid": "28256624",
+            "pmcid": "PMC5335602",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Antanasijevic, A, Ramirez, B, Caffrey, M. Comparison of the sensitivities of WaterLOGSY and saturation transfer difference NMR experiments. J Biomol NMR 2014; 60: 37–44. PMID: 25015532",
+            "process_entry": "True",
+            "doi": "10.1007/s10858-014-9848-9",
+            "pmid": "25015532",
+            "pmcid": "PMC4201884",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Antanasijevic, A, Kingsley, C, Basu, A, et al. Application of virus-like particles (VLP) to NMR characterization of viral membrane protein interactions. J Biomol NMR 2016; 64: 255–65. PMID: 26921030",
+            "process_entry": "True",
+            "doi": "10.1007/s10858-016-0025-1",
+            "pmid": "26921030",
+            "pmcid": "PMC4826305",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Chu, S, Zhou, G, Gochin, M. Evaluation of ligand-based NMR screening methods to characterize small molecule binding to HIV-1 glycoprotein-41. Org Biomol Chem 2017; 15: 5210–9. PMID: 28590477",
+            "process_entry": "True",
+            "doi": "10.1039/c7ob00954b",
+            "pmid": "28590477",
+            "pmcid": "PMC5530879",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Chappuis, Q, Milani, J, Vuichoud, B, et al. Hyperpolarized water to study protein–ligand interactions. J Phys Chem Lett 2015; 6: 1674–8. PMID: 26263332",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jpclett.5b00403",
+            "pmid": "26263332",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Johnson, EC, Feher, VA, Peng, JW, et al. Application of NMR SHAPES screening to an RNA target. J Am Chem Soc 2003; 125: 15724–5. PMID: 14677945",
+            "process_entry": "True",
+            "doi": "10.1021/ja037499s",
+            "pmid": "14677945",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Asencio-Hernández, J, Kieffer, B, Delsuc, MA. NMR WaterLOGSY reveals weak binding of bisphenol A with amyloid fibers of a conserved 11 residue peptide from androgen receptor. PLoS One 2016; 11: e0161948. PMID: 27583469",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0161948",
+            "pmid": "27583469",
+            "pmcid": "PMC5008648",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ludwig, C, Michiels, PJA, Wu, X, et al. SALMON: solvent accessibility, ligand binding, and mapping of ligand orientation by NMR spectroscopy. J Med Chem 2008; 51: 1–3. PMID: 18062662",
+            "process_entry": "True",
+            "doi": "10.1021/jm701020f",
+            "pmid": "18062662",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Ludwig, C, Michiels, PJA, Lodi, A, et al. Evaluation of solvent accessibility epitopes for different dehydrogenase inhibitors. ChemMedChem 2008; 3: 1371–6. PMID: 18576452",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.200800110",
+            "pmid": "18576452",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Geist, L, Mayer, M, Cockcroft, XL, et al. Direct NMR probing of hydration shells of protein ligand interfaces and its application to drug design. J Med Chem 2017; 60: 8708–15. PMID: 28910100",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.7b00845",
+            "pmid": "28910100",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Aguirre, C, ten Brink, T, Guichou, JF, et al. Comparing binding modes of analogous fragments using NMR in fragment-based drug design: application to PRDX5. PLoS One 2014; 9: e102300. PMID: 25025339",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0102300",
+            "pmid": "25025339",
+            "pmcid": "PMC4099364",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Barelier, S, Pons, J, Gehring, K, et al. Ligand specificity in fragment-based drug design. J Med Chem 2010; 53: 5256–66. PMID: 20575554",
+            "process_entry": "True",
+            "doi": "10.1021/jm100496j",
+            "pmid": "20575554",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Trott, O, Olson, AJ. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J Comput Chem 2010; 31: 455–61. PMID: 19499576",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21334",
+            "pmid": "19499576",
+            "pmcid": "PMC3041641",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Mayer, M, Meyer, B. Group epitope mapping by saturation transfer difference NMR to identify segments of a ligand in direct contact with a protein receptor. J Am Chem Soc 2001; 123: 6108–17. PMID: 11414845",
+            "process_entry": "True",
+            "doi": "10.1021/ja0100120",
+            "pmid": "11414845",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Fasano, M, Curry, S, Terreno, E, et al. The extraordinary ligand binding properties of human serum albumin. IUBMB Life 2005; 57: 787–96. PMID: 16393781",
+            "process_entry": "True",
+            "doi": "10.1080/15216540500404093",
+            "pmid": "16393781",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Murray, CW, Carr, MG, Callaghan, O, et al. Fragment-based drug discovery applied to Hsp90. Discovery of two lead series with high ligand efficiency. J Med Chem 2010; 53: 5942–55. PMID: 20718493",
+            "process_entry": "True",
+            "doi": "10.1021/jm100059d",
+            "pmid": "20718493",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Petros, AM, Dinges, J, Augeri, DJ, et al. Discovery of a potent inhibitor of the antiapoptotic protein Bcl-xL from NMR and parallel synthesis. J Med Chem 2006; 49: 656–63. PMID: 16420051",
+            "process_entry": "True",
+            "doi": "10.1021/jm0507532",
+            "pmid": "16420051",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Szczepina, MG, Bleile, D, Müllegger, J, et al. WaterLOGSY NMR experiments in conjunction with molecular-dynamics simulations identify immobilized water molecules that bridge peptide mimic MDWNMHAA to anticarbohydrate antibody SYA/J6. Chem Eur J 2011; 17: 11438–45. PMID: 21887835",
+            "process_entry": "True",
+            "doi": "10.1002/chem.201101464",
+            "pmid": "21887835",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31286785",
+    "doi": "10.1080/14756366.2019.1636235",
+    "pmid": "10.1080/14756366.2019.1636235",
+    "pmcid": "31286785",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31286785/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0002",
+                "rp_string": "2–4",
+                "pl_string": "2–4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),177,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "2–4",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),177,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "2–4",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),177,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0002",
+                "rp_string": "2–4",
+                "pl_string": "2–4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),177,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),584,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),584,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),792,254)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,67)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),69,115)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),69,115)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),443,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),614,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),720,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),887,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),887,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1053,247)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "NMR is a well-established method for screening fragment libraries8. One of the most popular ligand-observed NMR experiments is the saturation-transfer difference (STD) experiment9–12. The STD spectrum displays the NMR peaks of a small molecule only if the latter binds to the protein in the timescale of the experiment. In addition, the size of the individual 1H STD signals reflects the proximity of the corresponding proton to the protein. We have previously shown that fragment binding mode can be characterised using the so-called epitope mapping approach, through the quantitative analysis of STD spectra13. The WaterLOGSY experiment14,15 is another popular experiment for the studies of molecular interactions16. WaterLOGSY is used for the identification of protein ligands and the determination of protein-ligand binding constants17. The experiment provides some key advantages. First, compound solubility can be checked which prevents the selection of false positive hits due to compound aggregation in the fragment screening experiments14,15. Also, WaterLOGSY has been reported to be more sensitive compared to STD18–20, and the development of dissolution dynamic nuclear polarisation (D-DNP) WaterLOGSY may provide an even more sensitive NMR method to detect protein-ligand interactions21. Finally, WaterLOGSY is of particular interest for low proton density receptors such as nucleic acids22 or for highly solvated proteins such as amyloid fibers23.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1053,247)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "NMR is a well-established method for screening fragment libraries8. One of the most popular ligand-observed NMR experiments is the saturation-transfer difference (STD) experiment9–12. The STD spectrum displays the NMR peaks of a small molecule only if the latter binds to the protein in the timescale of the experiment. In addition, the size of the individual 1H STD signals reflects the proximity of the corresponding proton to the protein. We have previously shown that fragment binding mode can be characterised using the so-called epitope mapping approach, through the quantitative analysis of STD spectra13. The WaterLOGSY experiment14,15 is another popular experiment for the studies of molecular interactions16. WaterLOGSY is used for the identification of protein ligands and the determination of protein-ligand binding constants17. The experiment provides some key advantages. First, compound solubility can be checked which prevents the selection of false positive hits due to compound aggregation in the fragment screening experiments14,15. Also, WaterLOGSY has been reported to be more sensitive compared to STD18–20, and the development of dissolution dynamic nuclear polarisation (D-DNP) WaterLOGSY may provide an even more sensitive NMR method to detect protein-ligand interactions21. Finally, WaterLOGSY is of particular interest for low proton density receptors such as nucleic acids22 or for highly solvated proteins such as amyloid fibers23.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1053,247)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "NMR is a well-established method for screening fragment libraries8. One of the most popular ligand-observed NMR experiments is the saturation-transfer difference (STD) experiment9–12. The STD spectrum displays the NMR peaks of a small molecule only if the latter binds to the protein in the timescale of the experiment. In addition, the size of the individual 1H STD signals reflects the proximity of the corresponding proton to the protein. We have previously shown that fragment binding mode can be characterised using the so-called epitope mapping approach, through the quantitative analysis of STD spectra13. The WaterLOGSY experiment14,15 is another popular experiment for the studies of molecular interactions16. WaterLOGSY is used for the identification of protein ligands and the determination of protein-ligand binding constants17. The experiment provides some key advantages. First, compound solubility can be checked which prevents the selection of false positive hits due to compound aggregation in the fragment screening experiments14,15. Also, WaterLOGSY has been reported to be more sensitive compared to STD18–20, and the development of dissolution dynamic nuclear polarisation (D-DNP) WaterLOGSY may provide an even more sensitive NMR method to detect protein-ligand interactions21. Finally, WaterLOGSY is of particular interest for low proton density receptors such as nucleic acids22 or for highly solvated proteins such as amyloid fibers23.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1301,160)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,427)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,427)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,427)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,427)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,427)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),524,245)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),678,5)",
+                "pl_string": "r24,2"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),524,245)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),678,5)",
+                "pl_string": "r24,2"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),770,204)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),163,214)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biology"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),163,214)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biology"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,61)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),386,84)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),320,223)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Quantitative comparison of WaterLOGSY signals of ligands free and bound to the protein receptor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),320,223)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Quantitative comparison of WaterLOGSY signals of ligands free and bound to the protein receptor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),266,151)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Quantitative comparison of WaterLOGSY signals of ligands free and bound to the protein receptor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),266,151)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Quantitative comparison of WaterLOGSY signals of ligands free and bound to the protein receptor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),1463,255)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Quantitative comparison of WaterLOGSY signals of ligands free and bound to the protein receptor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/fig[2]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/fig[2]/caption/p),714,61)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Quantitative comparison of WaterLOGSY signals of ligands free and bound to the protein receptor"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),326,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structural information from WaterLOGSY spectra"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),651,177)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structural information from WaterLOGSY spectra"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),488,258)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structural information from WaterLOGSY spectra"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),465,96)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structural information from WaterLOGSY spectra"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[5]),1234,94)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Structural information from WaterLOGSY spectra"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,147)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of ligand exchangeable protons on the WaterLOGSY experiment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,147)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of ligand exchangeable protons on the WaterLOGSY experiment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),112,283)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of the ligand affinity"
+                ],
+                "pl_string": "The dissociation constant for fragment binding to proteins typically ranges from low micromolar to millimolar. In the examples reported here, the affinities are 330 µM for compound 1 bound to PRDX527, 790 µM for compound 4 bound to HSP9032, greater than 1 mM for compound 3 and 6 bound to GP (unpublished data), 300 µM for compound 5 bound to Bcl-xL33 and 50 µM for compound 7 bound to PRDX527. One feature of the examples for PRDX5 discussed here is that a weakly binding fragment (1, 330 µM) can bind with a defined orientation whereas a stronger binding compound (7, 50 µM) binds in two alternate orientations. These differences are seen in the X-ray crystal structures and are reported by the WaterLOGSY signals. This suggests that this WaterLOGSY-based method can be used to determine the binding orientation for fragments binding with a range of affinities to a protein target.",
+                "pl_xpath": "/article/body/sec[3]/sec[5]/p"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),112,283)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of the ligand affinity"
+                ],
+                "pl_string": "The dissociation constant for fragment binding to proteins typically ranges from low micromolar to millimolar. In the examples reported here, the affinities are 330 µM for compound 1 bound to PRDX527, 790 µM for compound 4 bound to HSP9032, greater than 1 mM for compound 3 and 6 bound to GP (unpublished data), 300 µM for compound 5 bound to Bcl-xL33 and 50 µM for compound 7 bound to PRDX527. One feature of the examples for PRDX5 discussed here is that a weakly binding fragment (1, 330 µM) can bind with a defined orientation whereas a stronger binding compound (7, 50 µM) binds in two alternate orientations. These differences are seen in the X-ray crystal structures and are reported by the WaterLOGSY signals. This suggests that this WaterLOGSY-based method can be used to determine the binding orientation for fragments binding with a range of affinities to a protein target.",
+                "pl_xpath": "/article/body/sec[3]/sec[5]/p"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),112,283)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of the ligand affinity"
+                ],
+                "pl_string": "The dissociation constant for fragment binding to proteins typically ranges from low micromolar to millimolar. In the examples reported here, the affinities are 330 µM for compound 1 bound to PRDX527, 790 µM for compound 4 bound to HSP9032, greater than 1 mM for compound 3 and 6 bound to GP (unpublished data), 300 µM for compound 5 bound to Bcl-xL33 and 50 µM for compound 7 bound to PRDX527. One feature of the examples for PRDX5 discussed here is that a weakly binding fragment (1, 330 µM) can bind with a defined orientation whereas a stronger binding compound (7, 50 µM) binds in two alternate orientations. These differences are seen in the X-ray crystal structures and are reported by the WaterLOGSY signals. This suggests that this WaterLOGSY-based method can be used to determine the binding orientation for fragments binding with a range of affinities to a protein target.",
+                "pl_xpath": "/article/body/sec[3]/sec[5]/p"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),112,283)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of the ligand affinity"
+                ],
+                "pl_string": "The dissociation constant for fragment binding to proteins typically ranges from low micromolar to millimolar. In the examples reported here, the affinities are 330 µM for compound 1 bound to PRDX527, 790 µM for compound 4 bound to HSP9032, greater than 1 mM for compound 3 and 6 bound to GP (unpublished data), 300 µM for compound 5 bound to Bcl-xL33 and 50 µM for compound 7 bound to PRDX527. One feature of the examples for PRDX5 discussed here is that a weakly binding fragment (1, 330 µM) can bind with a defined orientation whereas a stronger binding compound (7, 50 µM) binds in two alternate orientations. These differences are seen in the X-ray crystal structures and are reported by the WaterLOGSY signals. This suggests that this WaterLOGSY-based method can be used to determine the binding orientation for fragments binding with a range of affinities to a protein target.",
+                "pl_xpath": "/article/body/sec[3]/sec[5]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),687,159)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Assessing the epitope mapping of ligands using STD and WaterLOGSY"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),847,194)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Assessing the epitope mapping of ligands using STD and WaterLOGSY"
+                ]
+            }
+        ]
+    ]
+}

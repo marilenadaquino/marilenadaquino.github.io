@@ -1,0 +1,772 @@
+{
+    "references": [
+        {
+            "bibentry": "(a) Supuran, CT. Carbonic anhydrases: novel therapeutic applications for inhibitors and activators. Nat Rev Drug Discov 2008; 7: 168–81. PMID: 18167490",
+            "process_entry": "True",
+            "doi": "10.1038/nrd2467",
+            "pmid": "18167490",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Khan, FA, Mushtaq, S, Naz, S, et al. Sulfonamides as potential bioactive scaffolds. Curr Org Chem 2018; 22: 818–30.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Ammazzalorso, A, De Filippis, B, Giampietro, L, Amoroso, R. N-acylsulfonamides: synthetic routes and biological potential in medicinal chemistry. Chem Biol Drug Des 2017; 90: 1094–105. PMID: 28632928",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.13043",
+            "pmid": "28632928",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Meanwell, NA. Synopsis of some recent tactical application of bioisosteres in drug design. J Med Chem 2011; 54: 2529–91. PMID: 21413808",
+            "process_entry": "True",
+            "doi": "10.1021/jm1013693",
+            "pmid": "21413808",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Pilot-Matias, T, Tripathi, R, Cohen, D, et al. In vitro and in vivo antiviral activity and resistance profile of the hepatitis C virus NS3/4A protease inhibitor ABT-450. Antimicrob Agents Chemother 2015; 59: 988–97. PMID: 25451053",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.04227-14",
+            "pmid": "25451053",
+            "pmcid": "PMC4335891",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Souers, AJ, Leverson, JD, Boghaert, ER, et al. ABT-199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while sparing platelets. Nat Med 2013; 19: 202–8. PMID: 23291630",
+            "process_entry": "True",
+            "doi": "10.1038/nm.3048",
+            "pmid": "23291630",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Asaki, T, Kuwano, K, Morrison, K, et al. An oral and selective IP prostacyclin receptor agonist for the treatment of pulmonary arterial hypertension. J Med Chem 2015; 58: 7128–37. PMID: 26291199",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b00698",
+            "pmid": "26291199",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Winton, VJ, Aldrich, C, Kiessling, LL. Carboxylate surrogates enhance the antimycobacterial activity of UDP-galactopyranose mutase probes. ACS Infect Dis 2016; 2: 538–43. PMID: 27626294",
+            "process_entry": "True",
+            "doi": "10.1021/acsinfecdis.6b00021",
+            "pmid": "27626294",
+            "pmcid": "PMC5745143",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Patil, V, Kale, M, Raichurkar, A, et al. Design and synthesis of triazolopyrimidine acylsulfonamides as novel anti-mycobacterial leads acting through inhibition of acetohydroxyacid synthase. Bioorg Med Chem Lett 2014; 24: 2222–5. PMID: 24703230",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2014.02.054",
+            "pmid": "24703230",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Koroniak, L, Ciustea, M, Gutierrez, JA, Richards, N. Synthesis and characterization of an N-acylsulfonamide inhibitor of human asparagine synthetase. Org Lett 2003; 5: 2033–6. PMID: 12790521",
+            "process_entry": "True",
+            "doi": "10.1021/ol034212n",
+            "pmid": "12790521",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Ohashi, M, Oyama, T, Miyachi, H. Different structures of the two peroxisome proliferator-activated receptor gamma (PPARγ) ligand-binding domains in homodimeric complex with partial agonist, but not full agonist. Bioorg Med Chem Lett 2015; 25: 2639–44. PMID: 25987371",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2015.04.076",
+            "pmid": "25987371",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Ammazzalorso, A, De Lellis, L, Florio, R, et al. Cytotoxic effect of a family of peroxisome proliferator-activated receptor antagonists in colorectal and pancreatic cancer cell lines. Chem Biol Drug Des 2017; 90: 1029–35. PMID: 28544586",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.13026",
+            "pmid": "28544586",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "(a) Sapegin, A, Kalinin, S, Angeli, A, et al. Unprotected primary sulfonamide group facilitates ring-forming cascade en route to polycyclic [1,4]oxazepine-based carbonic anhydrase inhibitors. Bioorg Chem 2018; 76: 140–6. PMID: 29175585",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2017.11.014",
+            "pmid": "29175585",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "(a) Petrou, A, Geronikaki, A, Terzi, E, et al. Inhibition of carbonic anhydrase isoforms I, II, IX and XII with secondary sulfonamides incorporating benzothiazole scaffolds. J Enzyme Inhib Med Chem 2016; 31: 1306–11. PMID: 26745009",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1128427",
+            "pmid": "26745009",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "(a) D’Ascenzio, M, Guglielmi, P, Carradori, S, et al. Open saccharin-based secondary sulfonamides as potent and selective inhibitors of cancer-related carbonic anhydrase IX and XII isoforms. J Enzyme Inhib Med Chem 2017; 32: 51–9. PMID: 27784170",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2016.1235040",
+            "pmid": "27784170",
+            "pmcid": "PMC6009879",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Alp, C, Maresca, A, Alp, NA, et al. Secondary/tertiary benzenesulfonamides with inhibitory action against the cytosolic human carbonic anhydrase isoforms I and II. J Enzyme Inhib Med Chem 2013; 28: 294–8. PMID: 22380772",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2012.658788",
+            "pmid": "22380772",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "(a) Alterio, V, Di Fiore, A, D’Ambrosio, K, et al. Multiple binding modes of inhibitors to carbonic anhydrases: how to design specific drugs targeting 15 different isoforms? Chem Rev 2012; 112: 4421–68. PMID: 22607219",
+            "process_entry": "True",
+            "doi": "10.1021/cr200176r",
+            "pmid": "22607219",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Yıldırım, A, Atmaca, U, Keskin, A, et al. N-Acylsulfonamides strongly inhibit human carbonic anhydrase isoenzymes I and II. Bioorg Med Chem 2015; 23: 2598–605. PMID: 25863492",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2014.12.054",
+            "pmid": "25863492",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "(a) Awadallah, FM, Bua, S, Mahmoud, WR, et al. Inhibition studies on a panel of human carbonic anhydrases with N1-substituted secondary sulfonamides incorporating thiazolinone or imidazolone-indole tails. J Enzyme Inhib Med Chem 2018; 33: 629–38. PMID: 29536779",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1446432",
+            "pmid": "29536779",
+            "pmcid": "PMC6009853",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "(a) Di Fiore, A, Maresca, A, Alterio, V, et al. Carbonic anhydrase inhibitors: x-ray crystallographic studies for the binding of N-substituted benzenesulfonamides to human isoform II. Chem Commun (Camb) 2011; 47: 11636–8. PMID: 21952494",
+            "process_entry": "True",
+            "doi": "10.1039/c1cc14575d",
+            "pmid": "21952494",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Ammazzalorso, A, Giancristofaro, A, D’Angelo, A, et al. Benzothiazole-based N-(phenylsulfonyl)amides as a novel family of PPARα antagonists. Bioorg Med Chem Lett 2011; 21: 4869–72. PMID: 21742490",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2011.06.028",
+            "pmid": "21742490",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Ammazzalorso, A, D'Angelo, A, Giancristofaro, A, et al. Fibrate-derived N-(methylsulfonyl)amides with antagonistic properties on PPARα. Eur J Med Chem 2012; 58: 317–22. PMID: 23137448",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2012.10.019",
+            "pmid": "23137448",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Giampietro, L, D’Angelo, A, Giancristofaro, A, et al. Effect of stilbene and chalcone scaffolds incorporation in clofibric acid on PPARα agonistic activity. Med Chem 2014; 10: 59–65. PMID: 23432317",
+            "process_entry": "True",
+            "doi": "10.2174/157340641001131226123613",
+            "pmid": "23432317",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "D’Ascenzio, M, Carradori, S, Secci, D, et al. Selective inhibition of human carbonic anhydrases by novel amide derivatives of probenecid: synthesis, biological evaluation and molecular modelling studies. Bioorg Med Chem 2014; 22: 3982–8. PMID: 25027802",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2014.06.003",
+            "pmid": "25027802",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "De Monte, C, Carradori, S, Secci, D, et al. Cyclic tertiary sulfamates: selective inhibition of the tumor-associated carbonic anhydrases IX and XII by N-and O-substituted acesulfame derivatives. Eur J Med Chem 2014; 84: 240–6. PMID: 25019479",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.07.014",
+            "pmid": "25019479",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Labute, P. Protonate3D: assignment of ionization states and hydrogen coordinates to macromolecular structures. Proteins 2009; 75: 187–205. PMID: 18814299",
+            "process_entry": "True",
+            "doi": "10.1002/prot.22234",
+            "pmid": "18814299",
+            "pmcid": "PMC3056144",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "(a) Akdemir, A, De Monte, C, Carradori, S, Supuran, CT. Computational investigation of the selectivity of salen and tetrahydrosalen compounds towards the tumor-associated hCA XII isozyme. J Enzyme Inhib Med Chem 2015; 30: 114–8. PMID: 24666302",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.892936",
+            "pmid": "24666302",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Florio, R, De Lellis, L, di Giacomo, V, et al. Effects of PPARα inhibition in head and neck paraganglioma cells. PLoS One 2017; 12: e0178995. PMID: 28594934",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0178995",
+            "pmid": "28594934",
+            "pmcid": "PMC5464765",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Benedetti, E, d'Angelo, M, Ammazzalorso, A, et al. PPARα antagonist AA452 triggers metabolic reprogramming and increases sensitivity to radiation therapy in human glioblastoma primary cells. J Cell Physiol 2017; 232: 1458–66. PMID: 27736000",
+            "process_entry": "True",
+            "doi": "10.1002/jcp.25648",
+            "pmid": "27736000",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ammazzalorso, A, Carrieri, A, Verginelli, F, et al. Synthesis, in vitro evaluation, and molecular modeling investigation of benzenesulfonimide Peroxisome Proliferator-Activated Receptors α antagonists. Eur J Med Chem 2016; 114: 191–200. PMID: 26974385",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.02.064",
+            "pmid": "26974385",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Khalifah, RG. The carbon dioxide hydration activity of carbonic anhydrase. I. Stop flow kinetic studies on the native human isoenzymes B and C. J Biol Chem 1971; 246: 2561–73. PMID: 4994926",
+            "process_entry": "True",
+            "pmid": "4994926",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Mocan, A, Carradori, S, Locatelli, M, et al. Bioactive isoflavones from Pueraria lobata root and starch: Different extraction techniques and carbonic anhydrase inhibition. Food Chem Toxicol 2018; 112: 441–7. PMID: 28807875",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2017.08.009",
+            "pmid": "28807875",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "(a) Supuran, CT. Advances in structure-based drug discovery of carbonic anhydrase inhibitors. Expert Opin Drug Discov 2017; 12: 61–88. PMID: 27783541",
+            "process_entry": "True",
+            "doi": "10.1080/17460441.2017.1253677",
+            "pmid": "27783541",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "(a) Supuran, CT. How many carbonic anhydrase inhibition mechanisms exist? J Enzyme Inhib Med Chem 2016; 31: 345–60. PMID: 26619898",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1122001",
+            "pmid": "26619898",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "(a) Supuran, CT. Carbonic anhydrase inhibitors in the treatment and prophylaxis of obesity. Expert Opin Ther Pat 2003; 13: 1545–50.",
+            "process_entry": "True",
+            "doi": "10.1021/jm060807n",
+            "pmid": "17125255",
+            "xmlid": "CIT0035"
+        }
+    ],
+    "localid": "MED-31074307",
+    "doi": "10.1080/14756366.2019.1611801",
+    "pmid": "10.1080/14756366.2019.1611801",
+    "pmcid": "31074307",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31074307/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),121,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),121,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),121,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),121,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),322,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),686,267)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),686,267)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),686,267)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),954,331)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),954,331)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),954,331)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),954,331)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Sulphonamides and their N-acyl derivatives represent common functional groups occurring in natural and synthetic drugs. The different biological activities played by these compounds attracted the attention of medicinal chemists, and a great number of lead compounds of pharmaceutical interest were discovered to date1–3. Indeed, N-acylsulphonamides have been widely used in medicinal chemistry as bioisosteres of carboxylic acids, given the similarity in terms of H-bond properties and acidity4. The bioisosteric replacement of carboxylic group with N-acylsulphonamide produced novel compounds showing pharmacological activity, sometimes improved with respect to the parent compounds. Paritaprevir (NS3 protease inhibitor)5, Venetoclax (Bcl-2 inhibitor)6, and Selexipag (prostacyclin receptor agonist)7 are N-acylsulphonamide drugs recently approved by FDA for the treatment of HCV infection, tumours, and pulmonary arterial hypertension, respectively. A number of N-acylsulphonamide derivatives, targeting different enzymes or receptors, have been submitted to clinical or preclinical evaluation: among them, inhibitors of bacterial enzymes8,9, asparagine synthetase inhibitors10, agonists and antagonists of nuclear receptor peroxisome proliferator-activated receptors (PPARs)11,12.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),954,331)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0013",
+                "rp_string": "13–16",
+                "pl_string": "13–16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "13–16",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "",
+                "pl_string": "13–16",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "",
+                "pl_string": "13–16",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0013",
+                "rp_string": "13–16",
+                "pl_string": "13–16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),286,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),603,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),603,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),230,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),230,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/sec[1]/p),25,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Chemistry",
+                    "General procedure for the synthesis of esters (29 and 31)",
+                    "Ethyl (4-benzoylphenoxy)acetate (29)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[3]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[3]/sec[1]/p),25,80)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Chemistry",
+                    "General procedure for the synthesis of acids (30 and 32)",
+                    "(4-Benzoylphenoxy)acetic acid (30)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1581,79)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "CA inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1581,79)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "CA inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),583,254)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),403,136)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),165,114)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),165,114)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),751,159)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0031",
+                "rp_string": "31–35",
+                "pl_string": "31–35",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p),1,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "",
+                "pl_string": "31–35",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p),1,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "",
+                "pl_string": "31–35",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p),1,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "",
+                "pl_string": "31–35",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p),1,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "",
+                "pl_string": "31–35",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p),1,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0031",
+                "rp_string": "31–35",
+                "pl_string": "31–35",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/caption/p),1,178)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[2]/caption/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[2]/caption/p),1,183)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[2]/caption/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[2]/caption/p),1,183)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthetic approach and in vitro CA inhibition studies"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,611 @@
+{
+    "references": [
+        {
+            "bibentry": "Jayson, GC, Kohn, EC, Kitchener, HC, Ledermann, JA. Ovarian cancer, Lancet, 2014, 384, 1376, 1388, PMID: 24767708",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(13)62146-7",
+            "pmid": "24767708",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Hata, K, Hata, T, Manabe, A, Kitao, M. Ovarian tumors of low malignant potential: transvaginal Doppler ultrasound features, Gynecol Oncol, 1992, 45, 259, 264, PMID: 1612501",
+            "process_entry": "True",
+            "doi": "10.1016/0090-8258(92)90301-x",
+            "pmid": "1612501",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Gotlieb, WH, Soriano, D, Achiron, R, Zalel, Y, Davidson, B, Kopolovic, J. CA 125 measurement and ultrasonography in borderline tumors of the ovary, Am J Obstet Gynecol, 2000, 183, 541, 546, PMID: 10992171",
+            "process_entry": "True",
+            "doi": "10.1067/mob.2000.105940",
+            "pmid": "10992171",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Ratnavelu, ND, Brown, AP, Mallett, S, Scholten, RJ, Patel, A, Founta, C. Intraoperative frozen section analysis for the diagnosis of early stage ovarian cancer in suspicious pelvic masses, Cochrane Database Syst Rev, 2016, 3, CD010360, PMID: 26930463",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD010360.pub2",
+            "pmid": "26930463",
+            "pmcid": "PMC6457848",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Twaalfhoven, FC, Peters, AA, Trimbos, JB, Hermans, J, Fleuren, GJ. The accuracy of frozen section diagnosis of ovarian tumors, Gynecol Oncol, 1991, 41, 189, 192, PMID: 1869093",
+            "process_entry": "True",
+            "doi": "10.1016/0090-8258(91)90306-p",
+            "pmid": "1869093",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Rose, PG, Rubin, RB, Nelson, BE, Hunter, RE, Reale, FR. Accuracy of frozen-section (intraoperative consultation) diagnosis of ovarian tumors, Am J Obstet Gynecol, 1994, 171, 823, 826, PMID: 8092236",
+            "process_entry": "True",
+            "doi": "10.1016/0002-9378(94)90105-8",
+            "pmid": "8092236",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Pinto, PB, Andrade, LA, Derchain, SF. Accuracy of intraoperative frozen section diagnosis of ovarian tumors, Gynecol Oncol, 2001, 81, 230, 232, PMID: 11330954",
+            "process_entry": "True",
+            "doi": "10.1006/gyno.2001.6133",
+            "pmid": "11330954",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Gol, M, Baloglu, A, Yigit, S, Dogan, M, Aydin, C, Yensel, U. Accuracy of frozen section diagnosis in ovarian tumors: is there a change in the course of time, Int J Gynecol Cancer, 2003, 13, 593, 597, PMID: 14675341",
+            "process_entry": "True",
+            "doi": "10.1046/j.1525-1438.2003.13389.x",
+            "pmid": "14675341",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Ilvan, S, Ramazanoglu, R, Ulker Akyildiz, E, Calay, Z, Bese, T, Oruc, N. The accuracy of frozen section (intraoperative consultation) in the diagnosis of ovarian masses, Gynecol Oncol, 2005, 97, 395, 399, PMID: 15863135",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2005.01.037",
+            "pmid": "15863135",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Taskiran, C, Erdem, O, Onan, A, Bozkurt, N, Yaman-Tunc, S, Ataoglu, O. The role of frozen section evaluation in the diagnosis of adnexal mass, Int J Gynecol Cancer, 2008, 18, 235, 240, PMID: 17587313",
+            "process_entry": "True",
+            "doi": "10.1111/j.1525-1438.2007.00995.x",
+            "pmid": "17587313",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Rakhshan, A, Zham, H, Kazempour, M. Accuracy of frozen section diagnosis in ovarian masses: experience at a tertiary oncology center, Arch Gynecol Obstet, 2009, 280, 223, 228, PMID: 19116727",
+            "process_entry": "True",
+            "doi": "10.1007/s00404-008-0899-6",
+            "pmid": "19116727",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Stewart, CJ, Brennan, BA, Hammond, IG, Leung, YC, McCartney, AJ. Intraoperative assessment of ovarian tumors: a 5-year review with assessment of discrepant diagnostic cases, Int J Gynecol Pathol, 2006, 25, 216, 222, PMID: 16810056",
+            "process_entry": "True",
+            "doi": "10.1097/01.pgp.0000215295.45738.ed",
+            "pmid": "16810056",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Brun, JL, Cortez, A, Rouzier, R. Factors influencing the use and accuracy of frozen section diagnosis of epithelial ovarian tumors, Am J Obstet Gynecol, 2008, 199, 244.e1, 244.e7, PMID: 18486086",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajog.2008.04.002",
+            "pmid": "18486086",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Puls, L, Heidtman, E, Hunter, JE, Crane, M, Stafford, J. The accuracy of frozen section by tumor weight for ovarian epithelial neoplasms, Gynecol Oncol, 1997, 67, 16, 19, PMID: 9345350",
+            "process_entry": "True",
+            "doi": "10.1006/gyno.1997.4836",
+            "pmid": "9345350",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Tangjitgamol, S, Jesadapatrakul, S, Manusirivithaya, S, Sheanakul, C. Accuracy of frozen section in diagnosis of ovarian mass, Int J Gynecol Cancer, 2004, 14, 212, 219, PMID: 15086718",
+            "process_entry": "True",
+            "doi": "10.1111/j.1048-891x.2004.014202.x",
+            "pmid": "15086718",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "FIGO (International Federation of Gynecology and Obstetrics) annual report on the results of treatment in gynecological cancer, Int J Gynaecol Obstet, 2003, 83, Suppl 1, ix, xxii, 1, 229, PMID: 14763164",
+            "process_entry": "True",
+            "pmid": "14763164",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Meinhold-Heerlein, I, Fotopoulou, C, Harter, P, Kurzeder, C, Mustea, A, Wimberger, P. The new WHO classification of ovarian, fallopian tube, and primary peritoneal cancer and its clinical implications, Arch Gynecol Obstet, 2016, 293, 695, 700, PMID: 26894303",
+            "process_entry": "True",
+            "doi": "10.1007/s00404-016-4035-8",
+            "pmid": "26894303",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Fauvet, R, Boccara, J, Dufournet, C, Poncelet, C, Daraï, E. Laparoscopic management of borderline ovarian tumors: results of a French multicenter study, Ann Oncol, 2005, 16, 403, 410, PMID: 15653700",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdi083",
+            "pmid": "15653700",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Ronnett, BM, Kajdacsy-Balla, A, Gilks, CB, Merino, MJ, Silva, E, Werness, BA. Mucinous borderline ovarian tumors: points of general agreement and persistent controversies regarding nomenclature, diagnostic criteria, and behavior, Hum Pathol, 2004, 35, 949, 960, PMID: 15297962",
+            "process_entry": "True",
+            "doi": "10.1016/j.humpath.2004.03.006",
+            "pmid": "15297962",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Storms, AA, Sukumvanich, P, Monaco, SE, Beriwal, S, Krivak, TC, Olawaiye, AB. Mucinous tumors of the ovary: diagnostic challenges at frozen section and clinical implications, Gynecol Oncol, 2012, 125, 75, 79, PMID: 22155795",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2011.12.424",
+            "pmid": "22155795",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Pongsuvareeyakul, T, Khunamornpong, S, Settakorn, J, Sukpan, K, Suprasert, P, Siriaunkgul, S. Accuracy of frozen-section diagnosis of ovarian mucinous tumors, Int J Gynecol Cancer, 2012, 22, 400, 406, PMID: 22246404",
+            "process_entry": "True",
+            "doi": "10.1097/igc.0b013e31823dc328",
+            "pmid": "22246404",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Bige, O, Demir, A, Saygili, U, Gode, F, Uslu, T, Koyuncuoglu, M. Frozen section diagnoses of 578 ovarian tumors made by pathologists with and without expertise on gynecologic pathology, Gynecol Oncol, 2011, 123, 43, 46, PMID: 21767870",
+            "process_entry": "True",
+            "doi": "10.1016/j.ygyno.2011.06.030",
+            "pmid": "21767870",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Lehner, R, Wenzl, R, Heinzl, H, Husslein, P, Sevelda, P. Influence of delayed staging laparotomy after laparoscopic removal of ovarian masses later found malignant, Obstet Gynecol, 1998, 92, 967, 971, PMID: 9840559",
+            "process_entry": "True",
+            "doi": "10.1016/s0029-7844(98)00323-8",
+            "pmid": "9840559",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Houck, K, Nikrui, N, Duska, L, Chang, Y, Fuller, AF, Bell, D. Borderline tumors of the ovary: correlation of frozen and permanent histopathologic diagnosis, Obstet Gynecol, 2000, 95, 839, 843, PMID: 10831977",
+            "process_entry": "True",
+            "doi": "10.1016/s0029-7844(99)00656-0",
+            "pmid": "10831977",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Kim, JH, Kim, TJ, Park, YG, Lee, SH, Lee, CW, Song, MJ. Clinical analysis of intra-operative frozen section proven borderline tumors of the ovary, J Gynecol Oncol, 2009, 20, 176, 180, PMID: 19809552",
+            "process_entry": "True",
+            "doi": "10.3802/jgo.2009.20.3.176",
+            "pmid": "19809552",
+            "pmcid": "PMC2757563",
+            "xmlid": "B25"
+        }
+    ],
+    "localid": "MED-31576689",
+    "doi": "10.3802/jgo.2019.30.e95",
+    "pmid": "10.3802/jgo.2019.30.e95",
+    "pmcid": "31576689",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31576689/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,78)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),276,147)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),276,147)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),742,209)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),952,141)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),288,77)",
+                "containers_title": [
+                    "MATERIALS AMD METHODS",
+                    "3. Final histological diagnosis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),592,96)",
+                "containers_title": [
+                    "MATERIALS AMD METHODS",
+                    "3. Final histological diagnosis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,250)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,250)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),252,244)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),616,284)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),901,293)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),132,88)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),132,88)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),934,237)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),934,237)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),266,204)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),945,235)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1181,234)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,222)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,222)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,222)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,222)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),224,158)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

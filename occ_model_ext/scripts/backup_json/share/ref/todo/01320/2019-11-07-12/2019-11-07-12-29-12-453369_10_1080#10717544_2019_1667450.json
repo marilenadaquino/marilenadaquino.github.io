@@ -1,0 +1,637 @@
+{
+    "references": [
+        {
+            "bibentry": "Baruteau, J, Waddington, SN, Alexander, IE, et al. (2017). Gene therapy for monogenic liver diseases: clinical successes, current challenges and future prospects. J Inherit Metab Dis 40: 497–517. PMID: 28567541",
+            "process_entry": "True",
+            "doi": "10.1007/s10545-017-0053-3",
+            "pmid": "28567541",
+            "pmcid": "PMC5500673",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bruix, J, Gores, GJ, Mazzaferro, V (2014). Hepatocellular carcinoma: clinical frontiers and perspectives. Gut 63: 844–55. PMID: 24531850",
+            "process_entry": "True",
+            "doi": "10.1136/gutjnl-2013-306627",
+            "pmid": "24531850",
+            "pmcid": "PMC4337888",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Caskey, CF, Hu, X, Ferrara, KW (2011). Leveraging the power of ultrasound for therapeutic design and optimization. J Control Release 156: 297–306. PMID: 21835212",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2011.07.032",
+            "pmid": "21835212",
+            "pmcid": "PMC3243361",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Chamming’s, F, Latorre-Ossa, H, Le Frère-Belda, MA, et al. (2013). Shear wave elastography of tumour growth in a human breast cancer model with pathological correlation. Eur Radiol 23: 2079–86. PMID: 23553589",
+            "process_entry": "True",
+            "doi": "10.1007/s00330-013-2828-8",
+            "pmid": "23553589",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chamming’s, F, Le-Frère-Belda, M-A, Latorre-Ossa, H, et al. (2016). Supersonic shear wave elastography of response to anti-cancer therapy in a xenograft tumor model. Ultrasound Med Biol 42: 924–30. PMID: 26746382",
+            "process_entry": "True",
+            "doi": "10.1016/j.ultrasmedbio.2015.12.001",
+            "pmid": "26746382",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Chen, L, Wang, Z, Zhan, X, et al. (2007). Association of net-1 gene expression with human hepatocellular carcinoma. Int J Surg Pathol 15: 346–53. PMID: 17913940",
+            "process_entry": "True",
+            "doi": "10.1177/1066896907306083",
+            "pmid": "17913940",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Das, SK, Menezes, ME, Bhatia, S, et al. (2015). Gene therapies for cancer: strategies, challenges and successes. J Cell Physiol 230: 259–71. PMID: 25196387",
+            "process_entry": "True",
+            "doi": "10.1002/jcp.24791",
+            "pmid": "25196387",
+            "pmcid": "PMC4363073",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Davidson, BL, Mccray, PB, Jr.(2011). Current prospects for RNA interference-based therapies. Nat Rev Genet 12: 329–40. PMID: 21499294",
+            "process_entry": "True",
+            "doi": "10.1038/nrg2968",
+            "pmid": "21499294",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "El Kaffas, A, Bekah, D, Rui, M, et al. (2013). Investigating longitudinal changes in the mechanical properties of mcf-7 cells exposed to paclitaxol using particle tracking microrheology. Phys Med Biol 58: 923–36. PMID: 23340402",
+            "process_entry": "True",
+            "doi": "10.1088/0031-9155/58/4/923",
+            "pmid": "23340402",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Elyas, E, Papaevangelou, E, Alles, EJ, et al. (2017). Correlation of ultrasound shear wave elastography with pathological analysis in a xenografic tumour model. Sci Rep 7: 165. PMID: 28279018",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-00144-5",
+            "pmid": "28279018",
+            "pmcid": "PMC5427848",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Evans, A, Whelehan, P, Thomson, K, et al. (2012). Invasive breast cancer: relationship between shear-wave elastographic findings and histologic prognostic factors. Radiology 263: 673–7. PMID: 22523322",
+            "process_entry": "True",
+            "doi": "10.1148/radiol.12111317",
+            "pmid": "22523322",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Falou, O, Sadeghi-Naini, A, Prematilake, S, et al. (2013). Evaluation of neoadjuvant chemotherapy response in women with locally advanced breast cancer using ultrasound elastography. Transl Oncol 6: 17–24. PMID: 23418613",
+            "process_entry": "True",
+            "doi": "10.1593/tlo.12412",
+            "pmid": "23418613",
+            "pmcid": "PMC3573650",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Ferrara, K, Pollard, R, Borden, M (2007). Ultrasound microbubble contrast agents: fundamentals and application to gene and drug delivery. Annu Rev Biomed Eng 9: 415–47. PMID: 17651012",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.bioeng.8.061505.095852",
+            "pmid": "17651012",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Forner, A, Gilabert, M, Bruix, J, et al. (2014). Treatment of intermediate-stage hepatocellular carcinoma. Nat Rev Clin Oncol 11: 525–35. PMID: 25091611",
+            "process_entry": "True",
+            "doi": "10.1038/nrclinonc.2014.122",
+            "pmid": "25091611",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Geis, NA, Katus, HA, Bekeredjian, R (2012). Microbubbles as a vehicle for gene and drug delivery: current clinical implications and future perspectives. Curr Pharm Des 18: 2166–83. PMID: 22352771",
+            "process_entry": "True",
+            "doi": "10.2174/138161212800099946",
+            "pmid": "22352771",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "He, S, Wei, YZ, Wang, GL, et al. (2013). Study of RNA interference targeting net-1 combination with sorafenib for hepatocellular carcinoma therapy in vitro and in vivo. Gastroenterol Res Pract 2013: 685150. PMID: 24307893",
+            "process_entry": "True",
+            "doi": "10.1155/2013/685150",
+            "pmid": "24307893",
+            "pmcid": "PMC3838818",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Hong, CA, Nam, YS (2014). Functional nanostructures for effective delivery of small interfering RNA therapeutics. Theranostics 4: 1211–32. PMID: 25285170",
+            "process_entry": "True",
+            "doi": "10.7150/thno.8491",
+            "pmid": "25285170",
+            "pmcid": "PMC4183999",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Kasai, Y, Moriyasu, F, Saito, K, et al. (2015). Value of shear wave elastography for predicting hepatocellular carcinoma and esophagogastric varices in patients with chronic liver disease. J Med Ultrason (2001) 42: 349–55. PMID: 26576786",
+            "process_entry": "True",
+            "doi": "10.1007/s10396-014-0603-3",
+            "pmid": "26576786",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Kumar, SR, Markusic, DM, Biswas, M, et al. (2016). Clinical development of gene therapy: results and lessons from recent successes. Mol Ther Methods Clin Dev 3: 16034. PMID: 27257611",
+            "process_entry": "True",
+            "doi": "10.1038/mtm.2016.34",
+            "pmid": "27257611",
+            "pmcid": "PMC4879992",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Li, J, Jamin, Y, Boult, JK, et al. (2014). Tumour biomechanical response to the vascular disrupting agent zd6126 in vivo assessed by magnetic resonance elastography. Br J Cancer 110: 1727–32. PMID: 24569471",
+            "process_entry": "True",
+            "doi": "10.1038/bjc.2014.76",
+            "pmid": "24569471",
+            "pmcid": "PMC3974089",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Li, T, Xue, Y, Wang, G, et al. (2016). Multi-target sirna: therapeutic strategy for hepatocellular carcinoma. J Cancer 7: 1317–27. PMID: 27390607",
+            "process_entry": "True",
+            "doi": "10.7150/jca.15157",
+            "pmid": "27390607",
+            "pmcid": "PMC4934040",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Lu, YS, Kashida, Y, Kulp, SK, et al. (2007). Efficacy of a novel histone deacetylase inhibitor in murine models of hepatocellular carcinoma. Hepatology (Baltimore, Md) 46: 1119–30.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Piscaglia, F, Marinelli, S, Bota, S, et al. (2014). The role of ultrasound elastographic techniques in chronic liver disease: current status and future perspectives. Eur J Radiol 83: 450–5. PMID: 23891139",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejrad.2013.06.009",
+            "pmid": "23891139",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ronot, M, Di Renzo, S, Gregoli, B, et al. (2015). Characterization of fortuitously discovered focal liver lesions: additional information provided by shearwave elastography. Eur Radiol 25: 346–58. PMID: 25231131",
+            "process_entry": "True",
+            "doi": "10.1007/s00330-014-3370-z",
+            "pmid": "25231131",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Shanbhogue, AK, Prasad, SR, Takahashi, N, et al. (2011). Recent advances in cytogenetics and molecular biology of adult hepatocellular tumors: Implications for imaging and management. Radiology 258: 673–93. PMID: 21339346",
+            "process_entry": "True",
+            "doi": "10.1148/radiol.10100376",
+            "pmid": "21339346",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Wells, RG (2008). The role of matrix stiffness in regulating cell behavior. Hepatology 47: 1394–400. PMID: 18307210",
+            "process_entry": "True",
+            "doi": "10.1002/hep.22193",
+            "pmid": "18307210",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Wu, B, Qiao, Q, Han, X, et al. (2016). Targeted nanobubbles in low-frequency ultrasound-mediated gene transfection and growth inhibition of hepatocellular carcinoma cells. Tumor Biol 37: 12113–21.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Yoo, JJ, Yu, SJ, Na, J, et al. (2019). Hexokinase-ii inhibition synergistically augments the anti-tumor efficacy of sorafenib in hepatocellular carcinoma. Int J Mol Sci 20: pii: E1292.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Zhang, J, Wang, J, Chen, L, et al. (2014). Expression and function of net-1 in human skin squamous cell carcinoma. Arch Dermatol Res 306: 385–97. PMID: 24196235",
+            "process_entry": "True",
+            "doi": "10.1007/s00403-013-1423-9",
+            "pmid": "24196235",
+            "pmcid": "PMC4000423",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-31544556",
+    "doi": "10.1080/10717544.2019.1667450",
+    "pmid": "10.1080/10717544.2019.1667450",
+    "pmcid": "31544556",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31544556/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0014",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),138,146)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),285,90)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0007",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),376,277)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Das et al.,2015; Kumar et al., 2016; Baruteau et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),467,60)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0019",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),376,277)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Das et al., 2015; Kumar et al.,2016; Baruteau et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),467,60)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0001",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),376,277)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Das et al., 2015; Kumar et al., 2016; Baruteau et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),467,60)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0008",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),376,277)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0029",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),654,161)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),816,158)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0015",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),975,311)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0013",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),975,311)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0027",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1878,264)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0009",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,254)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0023",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),256,145)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0004",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),402,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chamming’s et al.,2013; Li et al., 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),509,41)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0020",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),402,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chamming’s et al., 2013; Li et al.,2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),509,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0027",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Therapeutic process"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0002",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),363,396)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Therapeutic process"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0010",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),133,207)",
+                "containers_title": [
+                    "Materials and methods",
+                    "US-SWE"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0018",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,199)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0025",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,199)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),201,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0004",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),502,172)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0027",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),961,203)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0011",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),204,136)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),341,132)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0026",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),474,218)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0010",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),144,215)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0005",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),584,154)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0012",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1121,184)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0003",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),79,350)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0017",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),79,350)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0022",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),386,243)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0028",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),630,197)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

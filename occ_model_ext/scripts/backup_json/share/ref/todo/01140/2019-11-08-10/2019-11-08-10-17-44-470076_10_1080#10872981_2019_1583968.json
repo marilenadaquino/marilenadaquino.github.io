@@ -1,0 +1,176 @@
+{
+    "references": [
+        {
+            "bibentry": "Association of American Medical Colleges Length of academic levels distribution in US and Canadian medical schools. AAMC Curriculum Inventory Context. 2017 [ cited 2017 8 21]; 4(1). Available from: https://www.aamc.org/download/481048/data/ciic04-6jun2017.pdf",
+            "process_entry": "True",
+            "url": "https://www.aamc.org/download/481048/data/ciic04-6jun2017.pdf",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Muller, JH, Jain, S, Loeser, H, et al. Lessons learned about integrating a medical school curriculum: perceptions of students, faculty and curriculum leaders. Med Educ. 2008; 42(8): 778–4. PMID: 18627445",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2923.2008.03110.x",
+            "pmid": "18627445",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Prober, CG, Khan, S. Medical education re-imagined: a call to action. Acad Med. 2013; 88(10): 1407–1410. PMID: 23969367",
+            "process_entry": "True",
+            "doi": "10.1097/acm.0b013e3182a368bd",
+            "pmid": "23969367",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Goldman, E, Schroth, WS. Deconstructing integration: a framework for the rational application of integration as a guiding curricular strategy. Acad Med. 2012; 87(6): 729–734. PMID: 22534596",
+            "process_entry": "True",
+            "doi": "10.1097/acm.0b013e318253cad4",
+            "pmid": "22534596",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Fischel, JE, Olvet, DM, Iuli, RJ, et al. Curriculum reform and evolution: innovative content and processes at one US medical school. Med Teach. 2018; 11: 1–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Association of American Medical Colleges Curriculum change in US medical schools: implementation of change. AAMC Curriculum Inventory Context. 2017 [ cited 2017 9 19]; 4(1). Available from: https://www.aamc.org/download/481043/data/ciic04-1jan2017.pdf",
+            "process_entry": "True",
+            "url": "https://www.aamc.org/download/481043/data/ciic04-1jan2017.pdf",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Burke, MJ, Bonaminio, G, Walling, A. Implementing a systematic course/curricular peer review process. Acad Med. 2002; 77(9): 930–931.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Hollander, H, Loeser, H, Irby, D. An anticipatory quality improvement process for curricular reform. Acad Med. 2002; 77(9): 930.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Goldman, EF, Swayze, SS, Swinehart, SE, et al. Effecting curricular change through comprehensive course assessment: using structure and process to change outcomes. Acad Med. 2012; 87(3): 300–307. PMID: 22373621",
+            "process_entry": "True",
+            "doi": "10.1097/acm.0b013e318244739c",
+            "pmid": "22373621",
+            "xmlid": "CIT0009"
+        }
+    ],
+    "localid": "MED-30810513",
+    "doi": "10.1080/10872981.2019.1583968",
+    "pmid": "10.1080/10872981.2019.1583968",
+    "pmcid": "30810513",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30810513/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),158,209)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),158,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),361,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),158,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),361,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,182)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1730,165)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1836,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1836,5)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1730,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1836,5)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1730,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1730,165)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6–9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1836,5)"
+            }
+        ]
+    ]
+}

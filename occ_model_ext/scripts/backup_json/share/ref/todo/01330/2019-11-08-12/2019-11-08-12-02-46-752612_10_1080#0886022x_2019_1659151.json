@@ -1,0 +1,804 @@
+{
+    "references": [
+        {
+            "bibentry": "Aronis, KN, Zhao, D, Hoogeveen, RC, et al. Associations of lipoprotein(a) levels with incident atrial fibrillation and ischemic stroke: the ARIC (Atherosclerosis Risk in Communities) Study. J Am Heart Assoc. 2017; 6: pii: e007372.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ishikawa, S, Kotani, K, Kario, K, et al. Inverse association between serum lipoprotein(a) and cerebral hemorrhage in the Japanese population. Thromb Res. 2013; 131: e54–e58. PMID: 23260441",
+            "process_entry": "True",
+            "doi": "10.1016/j.thromres.2012.11.032",
+            "pmid": "23260441",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Kim, H, Kim, KH, Ahn, SV, et al. Risk of major cardiovascular events among incident dialysis patients: a Korean national population-based study. Int J Cardiol. 2015; 198: 95–101. PMID: 26159246",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijcard.2015.06.120",
+            "pmid": "26159246",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Fu, J, Huang, J, Lei, M, et al. Prevalence and impact on stroke in patients receiving maintenance hemodialysis versus peritoneal dialysis: a prospective observational study. PLoS One. 2015; 10: e0140887. PMID: 26485155",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0140887",
+            "pmid": "26485155",
+            "pmcid": "PMC4617449",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Findlay, M, MacIsaac, R, MacLeod, MJ, et al. Renal replacement modality and stroke risk in end-stage renal disease-a national registry study. Nephrol Dial Transplant. 2018; 33: 1564–1571. PMID: 29069522",
+            "process_entry": "True",
+            "doi": "10.1093/ndt/gfx291",
+            "pmid": "29069522",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Weng, SF, Shen, YC, Wang, JJ, et al. Reduced risk of new onset stroke after kidney transplantation in Asian dialysis patients: a propensity score-matched, competing risk study in Taiwan. QJM. 2019; 112: 489–495. PMID: 30821331",
+            "process_entry": "True",
+            "doi": "10.1093/qjmed/hcz051",
+            "pmid": "30821331",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Bansal, VK, Herzog, CA, Sarnak, MJ, et al. Oral anticoagulants to prevent stroke in nonvalvular atrial fibrillation in patients with CKD stage 5D: an NKF-KDOQI Controversies Report. Am J Kidney Dis. 2017; 70: 859–868. PMID: 28941763",
+            "process_entry": "True",
+            "doi": "10.1053/j.ajkd.2017.08.003",
+            "pmid": "28941763",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Nave, AH, Lange, KS, Leonards, CO, et al. Lipoprotein (a) as a risk factor for ischemic stroke: a meta-analysis. Atherosclerosis. 2015; 242: 496–503. PMID: 26298741",
+            "process_entry": "True",
+            "doi": "10.1016/j.atherosclerosis.2015.08.021",
+            "pmid": "26298741",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Zhang, W, Zhang, XA. Prognostic value of serum lipoprotein(a) levels in patients with acute ischemic stroke. Neuroreport. 2014; 25: 262–266. PMID: 24356104",
+            "process_entry": "True",
+            "doi": "10.1097/wnr.0000000000000094",
+            "pmid": "24356104",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Erqou, S, Kaptoge, S, Perry, PL, et al. Lipoprotein(a) concentration and the risk of coronary heart disease, stroke, and nonvascular mortality. JAMA. 2009; 302: 412–423. PMID: 19622820",
+            "process_entry": "True",
+            "doi": "10.1001/jama.2009.1063",
+            "pmid": "19622820",
+            "pmcid": "PMC3272390",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Langsted, A, Kamstrup, PR, Nordestgaard, BG. High lipoprotein(a) and low risk of major bleeding in brain and airways in the general population: a Mendelian Randomization Study. Clin Chem. 2017; 63: 1714–1723. PMID: 28877919",
+            "process_entry": "True",
+            "doi": "10.1373/clinchem.2017.276931",
+            "pmid": "28877919",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Longenecker, JC, Klag, MJ, Marcovina, SM, et al. High lipoprotein(a) levels and small apolipoprotein(a) size prospectively predict cardiovascular events in dialysis patients. J Am Soc Nephrol. 2005; 16: 1794–1802. PMID: 15800123",
+            "process_entry": "True",
+            "doi": "10.1681/asn.2004110922",
+            "pmid": "15800123",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Longenecker, JC, Coresh, J, Marcovina, SM, et al. Lipoprotein(a) and prevalent cardiovascular disease in a dialysis population: the Choices for Healthy Outcomes in Caring for ESRD (CHOICE) study. Am J Kidney Dis. 2003; 42: 108–116. PMID: 12830462",
+            "process_entry": "True",
+            "doi": "10.1016/s0272-6386(03)00413-x",
+            "pmid": "12830462",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Mikolasevic, I, Zutelija, M, Mavrinac, V, et al. Dyslipidemia in patients with chronic kidney disease: etiology and management. Int J Nephrol Renovasc Dis. 2017; 10: 35–45. PMID: 28223836",
+            "process_entry": "True",
+            "doi": "10.2147/IJNRD.S101808",
+            "pmid": "28223836",
+            "pmcid": "PMC5304971",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "World Medical Association World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects. J Am Coll Dentists. 2014; 81: 14–18. PMID: 25951678",
+            "process_entry": "True",
+            "pmid": "25951678",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Zhan, X, Chen, Y, Yan, C, et al. Apolipoprotein B/apolipoprotein A1 ratio and mortality among incident peritoneal dialysis patients. Lipids Health Dis. 2018; 17: 117. PMID: 29776362",
+            "process_entry": "True",
+            "doi": "10.1186/s12944-018-0771-z",
+            "pmid": "29776362",
+            "pmcid": "PMC5960196",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Wang, HH, Hung, SY, Sung, JM, et al. Risk of stroke in long-term dialysis patients compared with the general population. Am J Kidney Dis. 2014; 63: 604–611. PMID: 24290244",
+            "process_entry": "True",
+            "doi": "10.1053/j.ajkd.2013.10.013",
+            "pmid": "24290244",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Drew, DA, Sarnak, MJ. Ischemic and hemorrhagic stroke: high incidence in hemodialysis and peritoneal dialysis patients. Am J Kidney Dis. 2014; 63: 547–548. PMID: 24670482",
+            "process_entry": "True",
+            "doi": "10.1053/j.ajkd.2014.01.009",
+            "pmid": "24670482",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Tu, WJ, Dong, X, Zhao, SJ, et al. Prognostic value of plasma neuroendocrine biomarkers in patients with acute ischaemic stroke. J Neuroendocrinol. 2013; 25: 771–778. PMID: 23701638",
+            "process_entry": "True",
+            "doi": "10.1111/jne.12052",
+            "pmid": "23701638",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Contaifer, D, Jr,, Carl, DE, Warncke, UO, et al. Unsupervised analysis of combined lipid and coagulation data reveals coagulopathy subtypes among dialysis patients. J Lipid Res. 2017; 58: 586–599. PMID: 27993949",
+            "process_entry": "True",
+            "doi": "10.1194/jlr.P068833",
+            "pmid": "27993949",
+            "pmcid": "PMC5335589",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Brophy, DF, Carl, DE, Mohammed, BM, et al. Differences in coagulation between hemodialysis and peritoneal dialysis. Perit Dial Int. 2014; 34: 33–40. PMID: 24293664",
+            "process_entry": "True",
+            "doi": "10.3747/pdi.2013.00036",
+            "pmid": "24293664",
+            "pmcid": "PMC3923690",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Saeed, A, Virani, SS. Lipoprotein(a) and cardiovascular disease: current state and future directions for an enigmatic lipoprotein. Front Biosci (Landmark Ed). 2018; 23: 1099–1112. PMID: 28930591",
+            "process_entry": "True",
+            "doi": "10.2741/4635",
+            "pmid": "28930591",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Law, RH, Caradoc-Davies, T, Cowieson, N, et al. The X-ray crystal structure of full-length human plasminogen. Cell Rep. 2012; 1: 185–190. PMID: 22832192",
+            "process_entry": "True",
+            "doi": "10.1016/j.celrep.2012.02.012",
+            "pmid": "22832192",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Miles, LA, Hawley, SB, Baik, N, et al. Plasminogen receptors: the sine qua non of cell surface plasminogen activation. Front Biosci. 2005; 10: 1754–1762. PMID: 15769664",
+            "process_entry": "True",
+            "pmid": "15769664",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Romagnuolo, R, DeMarco, K, Scipione, CA, et al. Apolipoprotein(a) inhibits the conversion of Glu-plasminogen to Lys-plasminogen on the surface of vascular endothelial and smooth muscle cells. Thromb Res. 2018; 169: 1–7. PMID: 29990619",
+            "process_entry": "True",
+            "doi": "10.1016/j.thromres.2018.07.002",
+            "pmid": "29990619",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Anglés-Cano, E, de la Peña Díaz, A, Loyau, S. Inhibition of fibrinolysis by lipoprotein(a). Ann N Y Acad Sci. 2001; 936: 261–275. PMID: 11460483",
+            "process_entry": "True",
+            "doi": "10.1111/j.1749-6632.2001.tb03514.x",
+            "pmid": "11460483",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Mercier, E, Branger, B, Vecina, F, et al. Tissue factor coagulation pathway and blood cells activation state in renal insufficiency. Hematol J. 2001; 2: 18–25. PMID: 11920229",
+            "process_entry": "True",
+            "doi": "10.1038/sj/thj/6200072",
+            "pmid": "11920229",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Maroney, SA, Cooley, BC, Ferrel, JP, et al. Absence of hematopoietic tissue factor pathway inhibitor mitigates bleeding in mice with hemophilia. Proc Natl Acad Sci USA. 2012; 109: 3927–3931. PMID: 22355108",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1119858109",
+            "pmid": "22355108",
+            "pmcid": "PMC3309760",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Caplice, NM, Panetta, C, Peterson, TE, et al. Lipoprotein (a) binds and inactivates tissue factor pathway inhibitor: a novel link between lipoproteins and thrombosis. Blood. 2001; 98: 2980–2987. PMID: 11698280",
+            "process_entry": "True",
+            "doi": "10.1182/blood.v98.10.2980",
+            "pmid": "11698280",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Uchiyama, S, Nakaya, N, Mizuno, K, et al. Risk factors for stroke and lipid-lowering effect of pravastatin on the risk of stroke in Japanese patients with hypercholesterolemia: analysis of data from the MEGA Study, a large randomized controlled trial. J Neurol Sci. 2009; 284: 72–76. PMID: 19423132",
+            "process_entry": "True",
+            "doi": "10.1016/j.jns.2009.04.002",
+            "pmid": "19423132",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Wang, H, Zhao, J, Gui, Y, et al. Elevated lipoprotein (a) and risk of poor functional outcome in Chinese patients with ischemic stroke and type 2 diabetes. Neurotox Res. 2018; 33: 868–875. PMID: 29264843",
+            "process_entry": "True",
+            "doi": "10.1007/s12640-017-9850-6",
+            "pmid": "29264843",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Gurdasani, D, Sjouke, B, Tsimikas, S, et al. Lipoprotein(a) and risk of coronary, cerebrovascular, and peripheral artery disease: the EPIC-Norfolk prospective population study. Arterioscler Thromb Vasc Biol. 2012; 32: 3058–3065. PMID: 23065826",
+            "process_entry": "True",
+            "doi": "10.1161/ATVBAHA.112.255521",
+            "pmid": "23065826",
+            "pmcid": "PMC4210842",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Canoui-Poitrine, F, Luc, G, Bard, JM, et al. Relative contribution of lipids and apolipoproteins to incident coronary heart disease and ischemic stroke: the PRIME Study. Cerebrovasc Dis. 2010; 30: 252–259. PMID: 20664258",
+            "process_entry": "True",
+            "doi": "10.1159/000319067",
+            "pmid": "20664258",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Arora, P, Kalra, R, Callas, PW, et al. Lipoprotein(a) and risk of ischemic stroke in the REGARDS study. Arterioscler Thromb Vasc Biol. 2019; 39: 810–818. PMID: 30786745",
+            "process_entry": "True",
+            "doi": "10.1161/atvbaha.118.311857",
+            "pmid": "30786745",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31498021",
+    "doi": "10.1080/0886022X.2019.1659151",
+    "pmid": "10.1080/0886022X.2019.1659151",
+    "pmcid": "31498021",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31498021/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),120,92)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),213,364)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,84)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),86,83)",
+                "containers_title": [
+                    "Background"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),86,83)",
+                "containers_title": [
+                    "Background"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),86,83)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),86,83)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,97)",
+                "containers_title": [
+                    "Background"
+                ],
+                "pl_string": "[5,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),261,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,97)",
+                "containers_title": [
+                    "Background"
+                ],
+                "pl_string": "[5,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),261,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),268,114)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),383,154)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),159,235)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),395,156)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),552,131)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),684,151)",
+                "containers_title": [
+                    "Background"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),827,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),684,151)",
+                "containers_title": [
+                    "Background"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),827,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),140,299)",
+                "containers_title": [
+                    "Background"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,178)",
+                "containers_title": [
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),168,229)",
+                "containers_title": [
+                    "Methods",
+                    "Cohort and registration of clinical data"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),147,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0017",
+                "rp_string": "17–19",
+                "pl_string": "17–19",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),288,200)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "",
+                "pl_string": "17–19",
+                "pl_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),288,200)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "",
+                "pl_string": "17–19",
+                "pl_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),288,200)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0017",
+                "rp_string": "17–19",
+                "pl_string": "17–19",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),288,200)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,209)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),202,7)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,209)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),202,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,168)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),251,109)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),432,131)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),555,7)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),432,131)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),555,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),564,128)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),693,92)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1022,247)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1270,167)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1438,48)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1487,211)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,149)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),151,275)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),115,220)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),336,192)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),529,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),529,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),688,239)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),688,239)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),733,161)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

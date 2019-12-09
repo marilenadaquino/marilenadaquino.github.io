@@ -1,0 +1,202 @@
+{
+    "references": [
+        {
+            "bibentry": "Ferlay JEMDR, et al. GLOBOCAN 2012 -Cancer Incidence and Mortality Worldwide: IARC CancerBase 2012. Available: http://gco.iarc.fr/today/fact-sheets-cancers. Accessed: 11 March 2019.",
+            "process_entry": "True",
+            "url": "http://gco.iarc.fr/today/fact-sheets-cancers. Accessed: 11 March 2019.",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Strasser-Weippl, K, Chavarri-Guerra, Y, Villarreal-Garza, C, Bychkovsky, BL, Debiasi, M, Liedke, PE. Progress and remaining challenges for cancer control in Latin America and the Caribbean. Lancet Oncol. 2015; 16: 1405-38. DOI: 10.1016/S1470-2045(15)00218-1 PMID: 26522157",
+            "process_entry": "True",
+            "doi": "10.1016/s1470-2045(15)00218-1",
+            "pmid": "26522157",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Trostle, J. Research capacity building in international health: definitions, evaluations and strategies for success. Soc Sci Med. 1992; 35: 1321-4. DOI: 10.1016/0277-9536(92)90035-O PMID: 1462171",
+            "process_entry": "True",
+            "doi": "10.1016/0277-9536(92)90035-o",
+            "pmid": "1462171",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "MINSAP. Programa Integral para el Control del Cáncer en Cuba. Estrategia Nacional para el Control del Cáncer. EDUMED.2013-2015.",
+            "process_entry": "True",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Allemani, C, Matsuda, T, Di Carlo, V, Harewood, R, Matz, M, Nikšić, M. Global surveillance of trends in cancer survival 2000-14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries. Lancet. 2018; 391: 1023-75. DOI: 10.1016/S0140-6736(17)33326-3 PMID: 29395269",
+            "process_entry": "True",
+            "doi": "10.1016/S0140-6736(17)33326-3",
+            "pmid": "29395269",
+            "pmcid": "PMC5879496",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Joachim, C, Godaert, L, Dramé, M, Véronique-Baudin, J, Macni, J, Smith-Ravin, J. Overall survival in elderly patients with colorectal cancer: A population-based study in the Caribbean. Cancer Epidemiol. 2017; 48: 85-91. DOI: 10.1016/j.canep.2017.03.005 PMID: 28426981",
+            "process_entry": "True",
+            "doi": "10.1016/j.canep.2017.03.005",
+            "pmid": "28426981",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Sanchez Ayendez, M, Suarez-Perez, E, Vazquez, MO, Velez-Almodovar, H, Nazario, CM. Knowledge and beliefs of breast cancer among elderly women in Puerto Rico. P R Health Sci J. 2001; 20: 351-9. PMID: 11845667",
+            "process_entry": "True",
+            "pmid": "11845667",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Oliver-Vazquez, M, Sanchez-Ayendez, M, Suarez-Perez, E, Velez-Almodovar, H. Planning a breast cancer health promotion. Qualitative and quantitative data on Puerto Rican elderly women. Promot Educ. 1999; 6: 16-9, 44, 54. DOI: 10.1177/102538239900600405 PMID: 10693219",
+            "process_entry": "True",
+            "doi": "10.1177/102538239900600405",
+            "pmid": "10693219",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Suarez-Perez, E, Sanchez-Ayendez, M, Oliver-Vazquez, M, Velez Almodovar, H, Rosario-Rosado, R, Nazario-Delgado, C. Knowledge and beliefs of breast cancer among elderly Puerto Rican women: validation process of scales. P R Health Sci J. 1998; 17: 365-73. PMID: 10028545",
+            "process_entry": "True",
+            "pmid": "10028545",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Joachim, C, Veronique-Baudin, J, Almont, T, Ulric-Gervaise, S, Macni, J, Pierre-Louis, O. Cohort profile: the Martinique Cancer Registry and the quality of life prostate cancer cohort (QoL Prostate-MQ): challenges and prospects for reducing disparities in the Caribbean. BMJ Open. 2018; 8: e021540. DOI: 10.1136/bmjopen-2018-021540 PMID: 30049695",
+            "process_entry": "True",
+            "doi": "10.1136/bmjopen-2018-021540",
+            "pmid": "30049695",
+            "pmcid": "PMC6067331",
+            "xmlid": "R10"
+        }
+    ],
+    "localid": "MED-31360443",
+    "doi": "10.7189/jogh.09.020304",
+    "pmid": "10.7189/jogh.09.020304",
+    "pmcid": "31360443",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31360443/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,114)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),273,142)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),684,340)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/p[3]),273,167)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),257,200)",
+                "containers_title": [
+                    "PUBLIC HEALTH COOPERATION IN THE CARIBBEAN: FOCUS ON CANCER MANAGEMENT"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[2]),825,85)",
+                "containers_title": [
+                    "ROLE OF POPULATION-BASED CANCER REGISTRIES IN SCIENTIFIC COOPERATION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1,161)",
+                "containers_title": [
+                    "CANCER IN THE ELDERLY IN THE CARIBBEAN: THE NEED FOR ACTION IN AGING RESEARCH"
+                ],
+                "pl_string": "[6-9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),156,5)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "R7",
+                "pl_string": "[6-9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),156,5)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1,161)",
+                "containers_title": [
+                    "CANCER IN THE ELDERLY IN THE CARIBBEAN: THE NEED FOR ACTION IN AGING RESEARCH"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "R8",
+                "pl_string": "[6-9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),156,5)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1,161)",
+                "containers_title": [
+                    "CANCER IN THE ELDERLY IN THE CARIBBEAN: THE NEED FOR ACTION IN AGING RESEARCH"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1,161)",
+                "containers_title": [
+                    "CANCER IN THE ELDERLY IN THE CARIBBEAN: THE NEED FOR ACTION IN AGING RESEARCH"
+                ],
+                "pl_string": "[6-9]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),156,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),1019,241)",
+                "containers_title": [
+                    "CANCER IN THE ELDERLY IN THE CARIBBEAN: THE NEED FOR ACTION IN AGING RESEARCH"
+                ]
+            }
+        ]
+    ]
+}

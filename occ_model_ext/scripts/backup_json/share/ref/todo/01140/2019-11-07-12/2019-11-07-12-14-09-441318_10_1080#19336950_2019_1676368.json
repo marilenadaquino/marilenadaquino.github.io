@@ -1,0 +1,938 @@
+{
+    "references": [
+        {
+            "bibentry": "Olsen, RW, Sieghart, W. International union of pharmacology. LXX. Subtypes of gamma-aminobutyric acid(A) receptors: classification on the basis of subunit composition, pharmacology, and function. Update. Pharmacol Rev. 2008; 60: 243–260. PMID: 18790874",
+            "process_entry": "True",
+            "doi": "10.1124/pr.108.00505",
+            "pmid": "18790874",
+            "pmcid": "PMC2847512",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Smith, GB, Olsen, RW. Functional domains of GABAA receptors. Trends Pharmacol Sci. 1995; 16: 162–168. PMID: 7624971",
+            "process_entry": "True",
+            "doi": "10.1016/s0165-6147(00)89009-4",
+            "pmid": "7624971",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Bollan, K, Robertson, LA, Tang, H, et al. Multiple assembly signals in gamma-aminobutyric acid (type A) receptor subunits combine to drive receptor construction and composition. Biochem Soc Trans. 2003; 31: 875–879. PMID: 12887325",
+            "process_entry": "True",
+            "doi": "10.1042/",
+            "pmid": "12887325",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Ehya, N, Sarto, I, Wabnegger, L, et al. Identification of an amino acid sequence within GABA(A) receptor beta3 subunits that is important for receptor assembly. J Neurochem. 2003; 84: 127–135. PMID: 12485409",
+            "process_entry": "True",
+            "doi": "10.1046/j.1471-4159.2003.01509.x",
+            "pmid": "12485409",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Klausberger, T, Sarto, I, Ehya, N, et al. Alternate use of distinct intersubunit contacts controls GABAA receptor assembly and stoichiometry. J Neurosci. 2001; 21: 9124–9133. PMID: 11717345",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.21-23-09124.2001",
+            "pmid": "11717345",
+            "pmcid": "PMC6763904",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Taylor, PM, Connolly, CN, Kittler, JT, et al. Identification of residues within GABA(A) receptor alpha subunits that mediate specific assembly with receptor beta subunits. J Neurosci. 2000; 20: 1297–1306. PMID: 10662819",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.20-04-01297.2000",
+            "pmid": "10662819",
+            "pmcid": "PMC6772372",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Taylor, PM, Thomas, P, Gorrie, GH, et al. Identification of amino acid residues within GABA(A) receptor beta subunits that mediate both homomeric and heteromeric receptor expression. J Neurosci. 1999; 19: 6360–6371. PMID: 10414965",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.19-15-06360.1999",
+            "pmid": "10414965",
+            "pmcid": "PMC6782825",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Connolly, CN, Krishek, BJ, McDonald, BJ, et al. Assembly and cell surface expression of heteromeric and homomeric gamma-aminobutyric acid type A receptors. J Biol Chem. 1996; 271: 89–96. PMID: 8550630",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.271.1.89",
+            "pmid": "8550630",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Bonnert, TP, McKernan, RM, Farrar, S, et al. Theta, a novel gamma-aminobutyric acid type a receptor subunit. Proc Natl Acad Sci Usa. 1999; 96: 9891–9896. PMID: 10449790",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.96.17.9891",
+            "pmid": "10449790",
+            "pmcid": "PMC22306",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Saras, A, Gisselmann, G, Vogt-Eisele, AK, et al. Histamine action on vertebrate GABAA receptors: direct channel gating and potentiation of GABA responses. J Biol Chem. 2008; 283: 10470–10475. PMID: 18281286",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m709993200",
+            "pmid": "18281286",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Hoerbelt, P, Ramerstorfer, J, Ernst, M, et al. Mutagenesis and computational docking studies support the existence of a histamine binding site at the extracellular beta3+beta3-interface of homooligomeric beta3 GABAA receptors. Neuropharmacology. 2016; 108: 252–263. PMID: 27140694",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuropharm.2016.04.042",
+            "pmid": "27140694",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Sarto-Jackson, I, Sieghart, W. Assembly of GABA(A) receptors (Review). Mol Membr Biol. 2008; 25: 302–310. PMID: 18446616",
+            "process_entry": "True",
+            "doi": "10.1080/09687680801914516",
+            "pmid": "18446616",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Charych, EI, Liu, F, Moss, SJ, et al. GABA(A) receptors and their associated proteins: implications in the etiology and treatment of schizophrenia and related disorders. Neuropharmacology. 2009; 57: 481–495. PMID: 19631671",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuropharm.2009.07.027",
+            "pmid": "19631671",
+            "pmcid": "PMC2836902",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Tretter, V, Mukherjee, J, Maric, H-M, et al. Gephyrin, the enigmatic organizer at GABAergic synapses. Front Cell Neurosci. 2012; 6: 23. PMID: 22615685",
+            "process_entry": "True",
+            "doi": "10.3389/fncel.2012.00023",
+            "pmid": "22615685",
+            "pmcid": "PMC3351755",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Thomas, P, Smart, TG. HEK293 cell line: a vehicle for the expression of recombinant proteins. J Pharmacol Toxicol Methods. 2005; 51: 187–200. PMID: 15862464",
+            "process_entry": "True",
+            "doi": "10.1016/j.vascn.2004.08.014",
+            "pmid": "15862464",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Cooper, ST, Millar, NS. Host cell-specific folding and assembly of the neuronal nicotinic acetylcholine receptor alpha7 subunit. J Neurochem. 1997; 68: 2140–2151. PMID: 9109542",
+            "process_entry": "True",
+            "doi": "10.1046/j.1471-4159.1997.68052140.x",
+            "pmid": "9109542",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Koperniak, TM, Garg, BK, Boltax, J, et al. Cell-specific effects on surface alpha7 nicotinic receptor expression revealed by over-expression and knockdown of rat RIC3 protein. J Neurochem. 2013; 124: 300–309. PMID: 23157401",
+            "process_entry": "True",
+            "doi": "10.1111/jnc.12095",
+            "pmid": "23157401",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Lansdell, SJ, Gee, VJ, Harkness, PC, et al. RIC-3 enhances functional expression of multiple nicotinic acetylcholine receptor subtypes in mammalian cells. Mol Pharmacol. 2005; 68: 1431–1438. PMID: 16120769",
+            "process_entry": "True",
+            "doi": "10.1124/mol.105.017459",
+            "pmid": "16120769",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Millar, NS. RIC-3: a nicotinic acetylcholine receptor chaperone. Br J Pharmacol. 2008; 153(Suppl 1): S177–183. PMID: 18246096",
+            "process_entry": "True",
+            "doi": "10.1038/sj.bjp.0707661",
+            "pmid": "18246096",
+            "pmcid": "PMC2268041",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Gu, S, Matta, JA, Lord, B, et al. Brain alpha7 nicotinic acetylcholine receptor assembly requires NACHO. Neuron. 2016; 89: 948–955. PMID: 26875622",
+            "process_entry": "True",
+            "doi": "10.1016/j.neuron.2016.01.018",
+            "pmid": "26875622",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Matta, JA, Gu, S, Davini, WB, et al. NACHO mediates nicotinic acetylcholine receptor function throughout the brain. Cell Rep. 2017; 19: 688–696. PMID: 28445721",
+            "process_entry": "True",
+            "doi": "10.1016/j.celrep.2017.04.008",
+            "pmid": "28445721",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Chen, ZW, Chang, CS, Leil, TA, et al. GABAA receptor-associated protein regulates GABAA receptor cell-surface number in Xenopus laevis oocytes. Mol Pharmacol. 2005; 68: 152–159. PMID: 15814572",
+            "process_entry": "True",
+            "doi": "10.1124/mol.104.009878",
+            "pmid": "15814572",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Nymann-Andersen, J, Wang, H, Chen, L, et al. Subunit specificity and interaction domain between GABA(A) receptor-associated protein (GABARAP) and GABA(A) receptors. J Neurochem. 2002; 80: 815–823. PMID: 11948245",
+            "process_entry": "True",
+            "doi": "10.1046/j.0022-3042.2002.00762.x",
+            "pmid": "11948245",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Charych, EI, Yu, W, Miralles, CP, et al. The brefeldin A-inhibited GDP/GTP exchange factor 2, a protein involved in vesicular trafficking, interacts with the beta subunits of the GABA receptors. J Neurochem. 2004; 90: 173–189.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Goto, H, Terunuma, M, Kanematsu, T, et al. Direct interaction of N-ethylmaleimide-sensitive factor with GABA(A) receptor beta subunits. Mol Cell Neurosci. 2005; 30: 197–206. PMID: 16095914",
+            "process_entry": "True",
+            "doi": "10.1016/j.mcn.2005.07.006",
+            "pmid": "16095914",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Kittler, JT, Rostaing, P, Schiavo, G, et al. The subcellular distribution of GABARAP and its ability to interact with NSF suggest a role for this protein in the intracellular transport of GABA(A) receptors. Mol Cell Neurosci. 2001; 18: 13–25. PMID: 11461150",
+            "process_entry": "True",
+            "doi": "10.1006/mcne.2001.1005",
+            "pmid": "11461150",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Terunuma, M, Jang, I-S, Ha, SH, et al. GABAA receptor phospho-dependent modulation is regulated by phospholipase C-related inactive protein type 1, a novel protein phosphatase 1 anchoring protein. J Neurosci. 2004; 24: 7074–7084. PMID: 15306641",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.1323-04.2004",
+            "pmid": "15306641",
+            "pmcid": "PMC6729171",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Bedford, FK, Kittler, JT, Muller, E, et al. GABA(A) receptor cell surface number and subunit stability are regulated by the ubiquitin-like protein Plic-1. Nat Neurosci. 2001; 4: 908–916. PMID: 11528422",
+            "process_entry": "True",
+            "doi": "10.1038/nn0901-908",
+            "pmid": "11528422",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Iwashita, Y, Fukuchi, N, Waki, M, et al. Genome-wide repression of NF-kappaB target genes by transcription factor MIBP1 and its modulation by O-linked beta-N-acetylglucosamine (O-GlcNAc) transferase. J Biol Chem. 2012; 287: 9887–9900. PMID: 22294689",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M111.298521",
+            "pmid": "22294689",
+            "pmcid": "PMC3323019",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Di, XJ, Han, DY, Wang, YJ, et al. SAHA enhances Proteostasis of epilepsy-associated alpha1(A322D)beta2gamma2 GABA(A) receptors. Chem Biol. 2013; 20: 1456–1468. PMID: 24211135",
+            "process_entry": "True",
+            "doi": "10.1016/j.chembiol.2013.09.020",
+            "pmid": "24211135",
+            "pmcid": "PMC3872227",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Schneider, CA, Rasband, WS, Eliceiri, KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012; 9: 671–675. PMID: 22930834",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.2089",
+            "pmid": "22930834",
+            "pmcid": "PMC5554542",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Schindelin, J, Arganda-Carreras, I, Frise, E, et al. Fiji: an open-source platform for biological-image analysis. Nat Methods. 2012; 9: 676–682. PMID: 22743772",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.2019",
+            "pmid": "22743772",
+            "pmcid": "PMC3855844",
+            "xmlid": "CIT0032"
+        }
+    ],
+    "localid": "MED-31610743",
+    "doi": "10.1080/19336950.2019.1676368",
+    "pmid": "10.1080/19336950.2019.1676368",
+    "pmcid": "31610743",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31610743/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),306,128)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),608,459)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),608,459)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1061,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),608,459)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1061,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,292)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),294,202)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "pl_string": "[3–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),294,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0005",
+                "pl_string": "[3–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),294,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "pl_string": "[3–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),294,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),294,202)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),497,219)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),805,243)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1049,149)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),282,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/sec/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec/p[1]),191,99)",
+                "containers_title": [
+                    "Results",
+                    "The IC loop of θ disrupts β3 homomeric plasma membrane expression"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/sec/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec/p[2]),1,93)",
+                "containers_title": [
+                    "Results",
+                    "The IC loop of θ disrupts β3 homomeric plasma membrane expression"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec/p[2]),86,7)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec/p[2]),1,93)",
+                "containers_title": [
+                    "Results",
+                    "The IC loop of θ disrupts β3 homomeric plasma membrane expression"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec/p[2]),86,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,147)",
+                "containers_title": [
+                    "The α3 subunit rescues chimeric functional expression"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),153,325)",
+                "containers_title": [
+                    "The β3 subunit also rescues chimeric functional expression"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),277,197)",
+                "containers_title": [
+                    "The β3 subunit also rescues chimeric functional expression"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),446,226)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),754,195)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,7,12]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),940,8)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),754,195)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,7,12]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),940,8)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),754,195)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,7,12]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),940,8)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),950,328)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,14]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),1270,7)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),950,328)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,14]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[1]),1270,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),132,219)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),870,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),781,337)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1119,256)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1503,242)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1503,242)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),70,164)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),235,80)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),535,240)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),104,186)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[16–19]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),282,7)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0017",
+                "pl_string": "[16–19]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),282,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),104,186)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0018",
+                "pl_string": "[16–19]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),282,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),104,186)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),104,186)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[16–19]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),282,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),291,171)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[17–21]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),454,7)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0018",
+                "pl_string": "[17–21]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),454,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),291,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0019",
+                "pl_string": "[17–21]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),454,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),291,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0020",
+                "pl_string": "[17–21]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),454,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),291,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),291,171)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[17–21]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),454,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),149,152)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),302,87)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),390,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24–27]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[7]),613,7)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0025",
+                "pl_string": "[24–27]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[7]),613,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),390,231)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0026",
+                "pl_string": "[24–27]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[7]),613,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),390,231)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),390,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24–27]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[7]),613,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),622,122)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[14,28]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[7]),736,7)"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),622,122)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[14,28]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[7]),736,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[5]/p[7]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[7]),745,147)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[5]/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[8]),952,87)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec[4]/p),1379,100)",
+                "containers_title": [
+                    "Methods",
+                    "Western blot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[6]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec[6]/p),1,74)",
+                "containers_title": [
+                    "Methods",
+                    "Immunofluorescence quantification"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/sec[6]/p),67,7)"
+            },
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[6]/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/sec[6]/p),1,74)",
+                "containers_title": [
+                    "Methods",
+                    "Immunofluorescence quantification"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/sec[6]/p),67,7)"
+            }
+        ]
+    ]
+}

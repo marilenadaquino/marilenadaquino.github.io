@@ -1,0 +1,396 @@
+{
+    "references": [
+        {
+            "bibentry": "Austin, P. C, &, Tu, J. V. (2004a). Automated variable selection methods for logistic regression produced unstable models for predicting acute myocardial infarction mortality. Journal of Clinical Epidemiology, 57, 1138–1146. doi: DOI: 10.1016/j.jclinepi.2004.04.003 PMID: 15567629",
+            "process_entry": "True",
+            "doi": "10.1016/j.jclinepi.2004.04.003",
+            "pmid": "15567629",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Blignaut, R. J,, Vergnani, T, &, Jacobs, J. J. (2014). Correlates of sexual activity versus nonactivity of incoming first-year students at a South African university. Journal of AIDS Research, 13(1), 81–91. doi: DOI: 10.2989/16085906.2014.901977",
+            "process_entry": "True",
+            "doi": "10.2989/16085906.2014.901977",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Efron, B, &, Tibshirani, R. J. (1993). An introduction to the bootstrap. New York: Chapman and Hall.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Freedman, D. A, &, Berk, R. A. (2008). Weighting regressions by propensity scores. Evaluation Review, 32, 392–409. doi: DOI: 10.1177/0193841X08317586 PMID: 18591709",
+            "process_entry": "True",
+            "doi": "10.1177/0193841x08317586",
+            "pmid": "18591709",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Hilbe, J. M. (2009). Logistic regression models. London: CHapman & Hall/CRC.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Kirchoff, R. (2010). Confidence intervals for estimators of welfare indices under complex sampling (Master's Thesis). Stellenbosch: Stellenbosch University.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Kleinbaum, D. G. (1994). Logistic regression: A self-learning text. New York: Springer-Verlag.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Kutner, M. H,, Nachtsheim, C. J,, Neter, J, &, Li, W. (2005). Applied linear statistical models (5th ed). Singapore: McGraw-Hill/Irwin.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Luus, R,, Neethling, A, &, De Wet, T. (2012) Effectiveness of weighting and bootstrap in the estimation of welfare indices under complex sampling. South African Statistical Journal, 46, 85–114.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Raftery, A. E. (1995). Bayesian model Seletion in social research. Sociological Methodology, 25, 111–163. doi: DOI: 10.2307/271063",
+            "process_entry": "True",
+            "doi": "10.2307/271063",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "S. I. (2008). SAS/STAT 9.2 user's guide. Cary, NC: SAS Institute Inc.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Steyerberg, E. W,, Harrel, F. E, Jr, Borsboom, G. J,, Eijkemans, M. J,, Vergouwe, Y, &, Habbema, J. D. (2001). Internal validation of predictive models: Efficiency of some procedures for logistic regression analysis. Journal of Clinical Epidemiology, 54, 774–781. doi: DOI: 10.1016/S0895-4356(01)00341-9 PMID: 11470385",
+            "process_entry": "True",
+            "doi": "10.1016/s0895-4356(01)00341-9",
+            "pmid": "11470385",
+            "xmlid": "CIT0012"
+        }
+    ],
+    "localid": "MED-31264524",
+    "doi": "10.1080/17290376.2019.1636708",
+    "pmid": "10.1080/17290376.2019.1636708",
+    "pmcid": "31264524",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31264524/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "2004a",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),318,210)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0009",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0004",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Freedman & Berk,2008; Luus et al., 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),210,41)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0009",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Freedman & Berk, 2008; Luus et al.,2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),210,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0003",
+                "rp_string": "1993",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),235,301)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0001",
+                "rp_string": "2004a",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),111,355)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Austin & Tu,2004a; Raftery, 1995)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),430,34)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0010",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),111,355)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Austin & Tu, 2004a; Raftery,1995)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),430,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "1994",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),396,397)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ],
+                "pl_string": "(Kleinbaum,1994; Kutner, Nachtsheim, Neter, & Li, 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),497,55)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),396,397)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ],
+                "pl_string": "(Kleinbaum, 1994; Kutner, Nachtsheim, Neter, & Li,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),497,55)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "1994",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,283)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ],
+                "pl_string": "(Kleinbaum,1994; Kutner et al., 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),197,37)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,283)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ],
+                "pl_string": "(Kleinbaum, 1994; Kutner et al.,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),197,37)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0007",
+                "rp_string": "1994",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),285,223)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ],
+                "pl_string": "(Kleinbaum,1994; Kutner et al., 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),469,37)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0008",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),285,223)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ],
+                "pl_string": "(Kleinbaum, 1994; Kutner et al.,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),469,37)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0007",
+                "rp_string": "1994",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),825,285)",
+                "containers_title": [
+                    "Methods",
+                    "Logistic regression"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),1,195)",
+                "containers_title": [
+                    "Methods",
+                    "Bootstrapping and the data set characteristics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0012",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),197,155)",
+                "containers_title": [
+                    "Methods",
+                    "Bootstrapping and the data set characteristics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0006",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),257,114)",
+                "containers_title": [
+                    "Methods",
+                    "Sample weighting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0006",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[3]),191,166)",
+                "containers_title": [
+                    "Methods",
+                    "Sample weighting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0009",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[4]),1,133)",
+                "containers_title": [
+                    "Methods",
+                    "Sample weighting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0009",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[4]),135,201)",
+                "containers_title": [
+                    "Methods",
+                    "Sample weighting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0002",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[7]),113,348)",
+                "containers_title": [
+                    "Methods",
+                    "Sample weighting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0010",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),212,155)",
+                "containers_title": [
+                    "Methods",
+                    "Variable selection methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0011",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),137,176)",
+                "containers_title": [
+                    "Methods",
+                    "Goodness-of-fit statistics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0005",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[2]),1,181)",
+                "containers_title": [
+                    "Methods",
+                    "Goodness-of-fit statistics"
+                ]
+            }
+        ]
+    ]
+}

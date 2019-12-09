@@ -1,0 +1,839 @@
+{
+    "references": [
+        {
+            "bibentry": "World Health Organization, Media Centre, Cancer. Available from: http://www.who.int/mediacentre/factsheets/fs297/en/ [last accessed 30 Jun 2018].",
+            "process_entry": "True",
+            "url": "http://www.who.int/mediacentre/factsheets/fs297/en/ [last accessed 30 Jun 2018].",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Cancer statistic center Available from: https://cancerstatisticscenter.cancer.org.",
+            "process_entry": "True",
+            "url": "https://cancerstatisticscenter.cancer.org.",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Frankish, H. 15 million new cancer cases per year by 2020, says WHO. Lancet 2003; 361: 1278. PMID: 12699963",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(03)13038-3",
+            "pmid": "12699963",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Belpomme, D, Irigaray, P, Sasco, AJ, et al. The growing incidence of cancer: role of lifestyle and screening detection. Int. J. Oncol 2007; 30: 1037–49. PMID: 17390005",
+            "process_entry": "True",
+            "doi": "10.3892/ijo.30.5.1037",
+            "pmid": "17390005",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Abdel-Maksoud, MS, Kim, MR, El-Gamal, MI, et al. Design, synthesis, in vitro antiproliferative evaluation, and kinase inhibitory effects of a new series of imidazo[2,1-b] thiazole derivatives. Eur J Med Chem 2015; 95: 453–63. PMID: 25841200",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2015.03.065",
+            "pmid": "25841200",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Gamal El-Din, MM, El-Gamal, MI, Abdel-Maksoud, MS, et al. Synthesis and in vitro antiproliferative activity of new 1,3,4-oxadiazole derivatives possessing sulfonamide moiety. Eur J Med Chem 2015; 90: 45–52. PMID: 25461310",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.11.011",
+            "pmid": "25461310",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Gamal El-Din, MM, El-Gamal, MI, Abdel-Maksoud, MS, et al. Design, synthesis, and in vitro antiproliferative and kinase inhibitory effects of pyrimidinylpyrazole derivatives terminating with arylsulfonamido or cyclic sulfamide substituents. J Enz Inhibit Med Chem 2016; 31: 111–22.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Sharma, A, Shah, SR, Illum, H, Dowell, J. Vemurafenib: targeted inhibition of mutated BRAF for treatment of advanced melanoma and its potential in other malignancies. Drugs 2012; 72: 2207–22. PMID: 23116250",
+            "process_entry": "True",
+            "doi": "10.2165/11640870-000000000-00000",
+            "pmid": "23116250",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Rheault, TR, Stellwagen, JC, Adjabeng, GM, et al. Discovery of Dabrafenib: a selective inhibitor of Raf kinases with antitumor activity against B-Raf-driven tumors. ACS Med Chem Lett 2013; 4: 358–62. PMID: 24900673",
+            "process_entry": "True",
+            "doi": "10.1021/ml4000063",
+            "pmid": "24900673",
+            "pmcid": "PMC4027516",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Karoulia, Z, Gavathiotis, E, Poulikakos, PI. New perspectives for targeting RAF kinase in human cancer. Nature Rev Cancer 2017; 17: 676–91. PMID: 28984291",
+            "process_entry": "True",
+            "doi": "10.1038/nrc.2017.79",
+            "pmid": "28984291",
+            "pmcid": "PMC6000833",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "BRAFTOVI and MEKTOVI, Array BioPharma Inc. FDA approves encorafenib and binimetinib in combination for unresectable or metastatic melanoma with BRAF mutations. Available from: https://www.fda.gov/drugs/informationondrugs/approveddrugs/ucm611981.htm [last accessed 24 Sep 2018].",
+            "process_entry": "True",
+            "url": "https://www.fda.gov/drugs/informationondrugs/approveddrugs/ucm611981.htm [last accessed 24 Sep 2018].",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Sim, TB, Hong, JH, et al. Synthesis of 1H-pyrazole-1-carboxamide derivatives and their antiproliferative activity against melanoma cell line. Arch Pharm Chem Life Sci 2011; 344: 197–204.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Oh, CH. Design and synthesis of 3-(3-chloro-4-substituted phenyl)-4-(pyridin-4-yl)-1H-pyrazole-1-carboxamide derivatives and their antiproliferative activity against melanoma cell line. Bull Korean Chem Soc 2011; 32: 821–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Choi, HS, Cho, HG, et al. Design, synthesis and antiproliferative activity of 3,4-diarylpyrazole-1-carboxamide derivatives against melanoma cell line. Arch Pharm Chem Life Sci 2011; 344: 745–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Choi, WK, El-Gamal, MI, Choi, HS, et al. New diarylureas and diarylamides containing 1,3,4-triarylpyrazole scaffold: Synthesis, antiproliferative evaluation against melanoma cell lines, ERK kinase inhibition and molecular docking studies. Eur J Med Chem 2011; 46: 5754–62. PMID: 22014559",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2011.08.013",
+            "pmid": "22014559",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Choi, WK, El-Gamal, MI, Choi, HS, et al. Synthesis and antiproliferative activity of new aminoisoquinolinylurea derivatives against melanoma cell line. Bull Korean Chem Soc 2012; 33: 2991–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Park, YS, Chi, DY, et al. New triarylpyrazoles as broad-spectrum anticancer agents: Design, synthesis and biological evaluation. Eur J Med Chem 2013; 65: 315–22. PMID: 23732996",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2013.04.067",
+            "pmid": "23732996",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Choi, HS, Yoo, KH, et al. Antiproliferative diarylpyrazole derivatives as dual inhibitors of the ERK pathway and COX-2. Chem Biol Drug Des 2013; 82: 336–47. PMID: 23834707",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.12186",
+            "pmid": "23834707",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Gamal El-Din, MM, El-Gamal, MI, Abdel-Maksoud, MS, et al. Design, synthesis, broad-spectrum antiproliferative activity and kinase inhibitory effect of triarylpyrazole derivatives possessing arylamides or arylureas moieties. Eur J Med Chem 2016; 119: 122–31. PMID: 27155467",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.04.048",
+            "pmid": "27155467",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Khan, MA, El-Gamal, MI, Tarazi, H, et al. Design and synthesis of a new series of highly potent RAF kinase-inhibiting triarylpyrazole derivatives possessing antiproliferative activity against melanoma cells. Future Med Chem 2016; 8: 2197–211. PMID: 27845592",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2016-0057",
+            "pmid": "27845592",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "El-Gamal, MI, Abdel-Maksoud, MS, Gamal El-Din, MM, et al. Synthesis, in vitro antiproliferative and antiinflammatory activities and kinase inhibitory effects of new 1,3,4-triarylpyrazole derivatives. Anti-Cancer Agent Med Chem 2017; 17: 75–84.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "National Cancer Institute, USA. NCI-60 screening methodology. Available from: https://dtp.cancer.gov/discovery_development/nci-60/methodology.htm [last accessed 24 Sep 2018].",
+            "process_entry": "True",
+            "url": "https://dtp.cancer.gov/discovery_development/nci-60/methodology.htm [last accessed 24 Sep 2018].",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Kinase Assays (Reaction Biology Corp.) accessed on 24 Sep 2018. Available from: http://www.reactionbiology.com/ [last accessed 24 Sep 2018].",
+            "process_entry": "True",
+            "url": "http://www.reactionbiology.com/ [last accessed 24 Sep 2018].",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Bubici, C, Papa, S. JNK signalling in cancer: in need of new, smarter therapeutic targets. Br J Pharmacol 2014; 171: 24–37. PMID: 24117156",
+            "process_entry": "True",
+            "doi": "10.1111/bph.12432",
+            "pmid": "24117156",
+            "pmcid": "PMC3874694",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Sanguinetti, MC, Tristani-Firouzi, M. hERG potassium channels and cardiac arrhythmia. Nature 2006; 440: 463–9. PMID: 16554806",
+            "process_entry": "True",
+            "doi": "10.1038/nature04710",
+            "pmid": "16554806",
+            "xmlid": "CIT0025"
+        }
+    ],
+    "localid": "MED-30362383",
+    "doi": "10.1080/14756366.2018.1530225",
+    "pmid": "10.1080/14756366.2018.1530225",
+    "pmcid": "30362383",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30362383/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),76,92)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),169,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),271,113)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),271,113)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5–7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,112)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),289,58)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),348,98)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),447,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),565,250)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),95,7)",
+                "pl_string": "s7,12–2"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "12–21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),95,7)",
+                "pl_string": "s7,12–2"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p),1,85)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "Synthesis of N1-(4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)ethane1,2-diamine (8) and N1-(4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)propane-1,3-diamine (9)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[4]/p),1,614)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1a)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[5]/p),1,721)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Bromo-N-(2-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1b)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[6]/p),1,646)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Chloro-N-(2-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1c)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[7]/p),1,690)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Fluoro-N-(2-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1d)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[8]/p),1,739)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Methoxy-N-(2-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)benzenesulfonamide (1e)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[9]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[9]/p),1,710)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)-4-methylbenzenesulfonamide (1f)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[10]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[10]/p),1,637)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)-4-(trifluoromethyl)benzenesulfonamide (1g)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[11]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[11]/p),1,745)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "3-Fluoro-N-(2-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)benzenesulfonamide (1h)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[12]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[12]/p),1,819)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)naphthalene-1-sulfonamide (1i)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[13]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[13]/p),1,735)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) benzenesulfonamide (2a)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[14]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[14]/p),1,789)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Bromo-N-(3-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) benzenesulfonamide (2b)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[15]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[15]/p),1,799)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Chloro-N-(3-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) benzenesulfonamide (2c)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[16]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[16]/p),1,718)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Fluoro-N-(3-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) benzenesulfonamide (2d)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[17]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[17]/p),1,789)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Methoxy-N-(3-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino) propyl)benzenesulfonamide (2e)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[18]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[18]/p),1,771)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)-4-methylbenzenesulfonamide (2f)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[19]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[19]/p),1,704)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)-4-(trifluoromethyl)benzenesulfonamide (2g)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[20]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[20]/p),1,733)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "3-Fluoro-N-(3-((4-(3-(3-methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)benzenesulfonamide (2h)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[21]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[21]/p),1,753)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Methoxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) naphthalene-1-sulfonamide (2i)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[23]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[23]/p),1,708)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-Hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1j)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[24]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[24]/p),1,664)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Bromo-N-(2-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1k)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[25]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[25]/p),1,734)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Chloro-N-(2-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1l)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[26]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[26]/p),1,700)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Fluoro-N-(2-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl) benzenesulfonamide (1m)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[27]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[27]/p),1,671)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-Hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)-4-methylbenzenesulfonamide (1n)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[29]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[29]/p),1,715)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "3-Fluoro-N-(2-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino) ethyl)benzenesulfonamide (1p)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[30]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[30]/p),1,756)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(2-((4-(3-(3-Hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)ethyl)naphthalene-1-sulfonamide (1q)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[32]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[32]/p),1,758)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Bromo-N-(3-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)benzenesulfonamide (2k)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[33]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[33]/p),1,763)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Chloro-N-(3-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) benzenesulfonamide (2l)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[34]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[34]/p),1,736)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "4-Fluoro-N-(3-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)benzenesulfonamide (2m)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[35]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[35]/p),1,765)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)-4-methylbenzenesulfonamide (2n)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[36]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[36]/p),1,767)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl)-4-(trifluoromethyl)benzenesulfonamide (2o)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[37]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[37]/p),1,795)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "3-Fluoro-N-(3-((4-(3-(3-hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino) propyl) benzenesulfonamide (2p)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[38]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[38]/p),1,887)",
+                "containers_title": [
+                    "Experimental",
+                    "Chemistry",
+                    "N-(3-((4-(3-(3-Hydroxyphenyl)-1-phenyl-1H-pyrazol-4-yl)pyridin-2-yl)amino)propyl) naphthalene-1-sulfonamide (2q)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,164)",
+                "containers_title": [
+                    "Experimental",
+                    "Antiproliferative screening of the target compounds against NCI-55 cancer cell line panel"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,142)",
+                "containers_title": [
+                    "Experimental",
+                    "In vitro kinase screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/sec[1]/p[1]),1,98)",
+                "containers_title": [
+                    "Result and discussion",
+                    "Biology",
+                    "Antiproliferative activity of the target compounds",
+                    "Single-dose testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),308,151)",
+                "containers_title": [
+                    "Result and discussion",
+                    "Biology",
+                    "Kinase profiling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[2]),166,94)",
+                "containers_title": [
+                    "Result and discussion",
+                    "Biology",
+                    "Plasma stability"
+                ]
+            }
+        ]
+    ]
+}

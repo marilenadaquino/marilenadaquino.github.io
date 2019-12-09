@@ -1,0 +1,852 @@
+{
+    "references": [
+        {
+            "bibentry": "Michigan Department of Health and Human Services. Legionellosis outbreak—Genesee County, June, 2014–March, 2015 full analysis. 2016 [cited 2018 Jun 22]. https://www.michigan.gov/documents/mdhhs/6-14_to_3-15_Legionellosis_Report_Full_Analysis_Results_511708_7.pdf",
+            "process_entry": "True",
+            "url": "https://www.michigan.gov/documents/mdhhs/6-14_to_3-15_Legionellosis_Report_Full_Analysis_Results_511708_7.pdf",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Michigan Department of Health and Human Services. Legionellosis outbreak—Genesee County, May 2015–October 2015 full analysis. 2016 [cited 2018 Jun 22]. https://gchd.us/wp-content/uploads/2016/08/Updated-LD-Report-4-11-16.pdf",
+            "process_entry": "True",
+            "url": "https://gchd.us/wp-content/uploads/2016/08/Updated-LD-Report-4-11-16.pdf",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Michigan Department of Health and Human Services. Epidemiology of Legionnaires’ disease in Genesee County, Michigan, 2014–2017 chart book. 2018 [cited 2018 Jun 22]. https://content.govdelivery.com/attachments/MIDHHS/2018/05/29/file_attachments/1014713/GC%2BLegionella%2BChartBook%2BFINAL.pdf",
+            "process_entry": "True",
+            "url": "https://content.govdelivery.com/attachments/MIDHHS/2018/05/29/file_attachments/1014713/GC%2BLegionella%2BChartBook%2BFINAL.pdf",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Pieper KJ, Martin R, Tang M, Walters L, Parks J, Roy S, et al. Evaluating lead in water levels during the Flint Water Crisis and associated remediation interventions. Environ Sci Technol. 2017; 52: 8124–32. DOI: 10.1021/acs.est.8b00791 PMID: 29932326",
+            "process_entry": "True",
+            "doi": "10.1021/acs.est.8b00791",
+            "pmid": "29932326",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Dooling KL, Toews KA, Hicks LA, Garrison LE, Bachaus B, Zansky S, et al. Active Bacterial Core Surveillance for Legionellosis -United States, 2011-2013. MMWR Morb Mortal Wkly Rep. 2015; 64: 1190–3. DOI: 10.15585/mmwr.mm6442a2 PMID: 26513329",
+            "process_entry": "True",
+            "doi": "10.15585/mmwr.mm6442a2",
+            "pmid": "26513329",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Marston BJ, Lipman HB, Breiman RF. Surveillance for Legionnaires’ disease. Risk factors for morbidity and mortality. Arch Intern Med. 1994; 154: 2417–22. DOI: 10.1001/archinte.1994.00420210049006 PMID: 7979837",
+            "process_entry": "True",
+            "doi": "10.1001/archinte.1994.00420210049006",
+            "pmid": "7979837",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Rhoads WJ, Garner E, Ji P, Zhu N, Parks J, Schwake DO, et al. Distribution system operational deficiencies coincide with reported Legionnaires’ disease clusters in Flint, Michigan. Environ Sci Technol. 2017; 51: 11986–95. DOI: 10.1021/acs.est.7b01589 PMID: 28849909",
+            "process_entry": "True",
+            "doi": "10.1021/acs.est.7b01589",
+            "pmid": "28849909",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Schwake DO, Garner E, Strom OR, Pruden A, Edwards MA. Legionella DNA markers in tap water coincident with a spike in Legionnaires’ disease in Flint, MI. Environ Sci Technol Lett. 2016; 3: 311–5. DOI: 10.1021/acs.estlett.6b00192",
+            "process_entry": "True",
+            "doi": "10.1021/acs.estlett.6b00192",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Zahran S, McElmurry SP, Kilgore PE, Mushinski D, Press J, Love NG, et al. Assessment of the Legionnaires’ disease outbreak in Flint, Michigan. Proc Natl Acad Sci U S A. 2018; 115: E1730–9. DOI: 10.1073/pnas.1718679115 PMID: 29432149",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1718679115",
+            "pmid": "29432149",
+            "pmcid": "PMC5828617",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Michigan Department of Health and Human Services. MDHHS response to Flint Area Community Health and Environment Partnership, Proceedings of the National Academy of Sciences Article. February 5, 2018 [cited 2018 Jun 22]. https://www.michigan.gov/documents/mdhhs/MDHHS_Response_to_FACHEP_Proceedings_of_the_National_Academy_of_Sciences_Article_FINAL_613088_7.pdf",
+            "process_entry": "True",
+            "url": "https://www.michigan.gov/documents/mdhhs/MDHHS_Response_to_FACHEP_Proceedings_of_the_National_Academy_of_Sciences_Article_FINAL_613088_7.pdf",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Sabria M, Yu VL. Hospital-acquired legionellosis: solutions for a preventable infection. Lancet Infect Dis. 2002; 2: 368–73. DOI: 10.1016/S1473-3099(02)00291-8 PMID: 12144900",
+            "process_entry": "True",
+            "doi": "10.1016/s1473-3099(02)00291-8",
+            "pmid": "12144900",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Hicks LA, Garrison LE, Nelson GE, Hampton LM; Centers for Disease Control and Prevention (CDC). Legionellosis --United States, 2000-2009. MMWR Morb Mortal Wkly Rep. 2011; 60: 1083–6. PMID: 21849965",
+            "process_entry": "True",
+            "pmid": "21849965",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Centers for Disease Control and Prevention. Procedures for the recovery of Legionella from the environment [cited 2018 Jun 22]. https://www.epa.gov/sites/production/files/2018-11/documents/cdc_legionella_method.pdf",
+            "process_entry": "True",
+            "url": "https://www.epa.gov/sites/production/files/2018-11/documents/cdc_legionella_method.pdf",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "Bolger AM, Lohse M, Usadel B. Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics. 2014; 30: 2114–20. DOI: 10.1093/bioinformatics/btu170 PMID: 24695404",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/btu170",
+            "pmid": "24695404",
+            "pmcid": "PMC4103590",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, et al. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol. 2012; 19: 455–77. DOI: 10.1089/cmb.2012.0021 PMID: 22506599",
+            "process_entry": "True",
+            "doi": "10.1089/cmb.2012.0021",
+            "pmid": "22506599",
+            "pmcid": "PMC3342519",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. DNA–DNA hybridization values and their relationship to whole-genome sequence similarities. 2007;57:81–91.",
+            "process_entry": "True",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "Gardner SN, Slezak T, Hall BG. kSNP3.0: SNP detection and phylogenetic analysis of genomes without genome alignment or reference genome. Bioinformatics. 2015; 31: 2877–8. DOI: 10.1093/bioinformatics/btv271 PMID: 25913206",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/btv271",
+            "pmid": "25913206",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "Gaia V, Fry NK, Afshar B, Lück PC, Meugnier H, Etienne J, et al. Consensus sequence-based scheme for epidemiological typing of clinical and environmental isolates of Legionella pneumophila. J Clin Microbiol. 2005; 43: 2047–52. DOI: 10.1128/JCM.43.5.2047-2052.2005 PMID: 15872220",
+            "process_entry": "True",
+            "doi": "10.1128/JCM.43.5.2047-2052.2005",
+            "pmid": "15872220",
+            "pmcid": "PMC1153775",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Gordon M, Yakunin E, Valinsky L, Chalifa-Caspi V, Moran-Gilad J; ESCMID Study Group for Legionella Infections. A bioinformatics tool for ensuring the backwards compatibility of Legionella pneumophila typing in the genomic era. Clin Microbiol Infect. 2017; 23: 306–10. DOI: 10.1016/j.cmi.2017.01.002 PMID: 28082190",
+            "process_entry": "True",
+            "doi": "10.1016/j.cmi.2017.01.002",
+            "pmid": "28082190",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Mérault N, Rusniok C, Jarraud S, Gomez-Valero L, Cazalet C, Marin M, et al; DELPH-I Study Group. Specific real-time PCR for simultaneous detection and identification of Legionella pneumophila serogroup 1 in water and clinical samples. Appl Environ Microbiol. 2011; 77: 1708–17. DOI: 10.1128/AEM.02261-10 PMID: 21193672",
+            "process_entry": "True",
+            "doi": "10.1128/AEM.02261-10",
+            "pmid": "21193672",
+            "pmcid": "PMC3067292",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Rodriguez-R LM, Konstantinidis KT. Bypassing cultivation to identify bacterial species: culture-independent genomic approaches identify credibly distinct clusters, avoid cultivation bias, and provide true insights into microbial species [cited 2019 Sep 4]. https://www.asmscience.org/content/journal/microbe/10.1128/microbe.9.111.1",
+            "process_entry": "True",
+            "url": "https://www.asmscience.org/content/journal/microbe/10.1128/microbe.9.111.1",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Berkelman RL, Pruden A. Prevention of Legionnaires’ disease in the 21st century by advancing science and public health practice. Emerg Infect Dis. 2017; 23: 1905–7. DOI: 10.3201/eid2311.171429",
+            "process_entry": "True",
+            "doi": "10.3201/eid2311.171429",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "Phin N, Parry-Ford F, Harrison T, Stagg HR, Zhang N, Kumar K, et al. Epidemiology and clinical management of Legionnaires’ disease. Lancet Infect Dis. 2014; 14: 1011–21. DOI: 10.1016/S1473-3099(14)70713-3 PMID: 24970283",
+            "process_entry": "True",
+            "doi": "10.1016/s1473-3099(14)70713-3",
+            "pmid": "24970283",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Perola O, Kauppinen J, Kusnetsov J, Kärkkäinen UM, Lück PC, Katila ML. Persistent Legionella pneumophila colonization of a hospital water supply: efficacy of control methods and a molecular epidemiological analysis. APMIS. 2005; 113: 45–53. DOI: 10.1111/j.1600-0463.2005.apm1130107.x PMID: 15676014",
+            "process_entry": "True",
+            "doi": "10.1111/j.1600-0463.2005.apm1130107.x",
+            "pmid": "15676014",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Rangel-Frausto MS, Rhomberg P, Hollis RJ, Pfaller MA, Wenzel RP, Helms CM, et al. Persistence of Legionella pneumophila in a hospital’s water system: a 13-year survey. Infect Control Hosp Epidemiol. 1999; 20: 793–7. DOI: 10.1086/501586 PMID: 10614601",
+            "process_entry": "True",
+            "doi": "10.1086/501586",
+            "pmid": "10614601",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "Scaturro M, Fontana S, Dell’eva I, Helfer F, Marchio M, Stefanetti MV, et al. A multicenter study of viable PCR using propidium monoazide to detect Legionella in water samples. Diagn Microbiol Infect Dis. 2016; 85: 283–8. DOI: 10.1016/j.diagmicrobio.2016.04.009 PMID: 27133308",
+            "process_entry": "True",
+            "doi": "10.1016/j.diagmicrobio.2016.04.009",
+            "pmid": "27133308",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "Raphael BH, Baker DJ, Nazarian E, Lapierre P, Bopp D, Kozak-Muiznieks NA, et al. Genomic resolution of outbreak-associated Legionella pneumophila serogroup 1 isolates from New York State. Appl Environ Microbiol. 2016; 82: 3582–90. DOI: 10.1128/AEM.00362-16 PMID: 27060122",
+            "process_entry": "True",
+            "doi": "10.1128/AEM.00362-16",
+            "pmid": "27060122",
+            "pmcid": "PMC4959152",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "Ginevra C, Jacotin N, Diancourt L, Guigon G, Arquilliere R, Meugnier H, et al. Legionella pneumophila sequence type 1/Paris pulsotype subtyping by spoligotyping. J Clin Microbiol. 2012; 50: 696–701. DOI: 10.1128/JCM.06180-11 PMID: 22205819",
+            "process_entry": "True",
+            "doi": "10.1128/JCM.06180-11",
+            "pmid": "22205819",
+            "pmcid": "PMC3295150",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "Qin T, Zhang W, Liu W, Zhou H, Ren H, Shao Z, et al. Population structure and minimum core genome typing of Legionella pneumophila. Sci Rep. 2016; 6: 21356. DOI: 10.1038/srep21356 PMID: 26888563",
+            "process_entry": "True",
+            "doi": "10.1038/srep21356",
+            "pmid": "26888563",
+            "pmcid": "PMC4766850",
+            "xmlid": "R29"
+        },
+        {
+            "bibentry": "Borchardt J, Helbig JH, Lück PC. Occurrence and distribution of sequence types among Legionella pneumophila strains isolated from patients in Germany: common features and differences to other regions of the world. Eur J Clin Microbiol Infect Dis. 2008; 27: 29–36. DOI: 10.1007/s10096-007-0392-3 PMID: 17909867",
+            "process_entry": "True",
+            "doi": "10.1007/s10096-007-0392-3",
+            "pmid": "17909867",
+            "xmlid": "R30"
+        },
+        {
+            "bibentry": "Reimer AR, Au S, Schindle S, Bernard KA. Legionella pneumophila monoclonal antibody subgroups and DNA sequence types isolated in Canada between 1981 and 2009: Laboratory Component of National Surveillance. Eur J Clin Microbiol Infect Dis. 2010; 29: 191–205. DOI: 10.1007/s10096-009-0840-3 PMID: 19960359",
+            "process_entry": "True",
+            "doi": "10.1007/s10096-009-0840-3",
+            "pmid": "19960359",
+            "xmlid": "R31"
+        },
+        {
+            "bibentry": "Kozak-Muiznieks NA, Morrison SS, Mercante JW, Ishaq MK, Johnson T, Caravas J, et al. Comparative genome analysis reveals a complex population structure of Legionella pneumophila subspecies. Infect Genet Evol. 2018; 59: 172–85. DOI: 10.1016/j.meegid.2018.02.008 PMID: 29427765",
+            "process_entry": "True",
+            "doi": "10.1016/j.meegid.2018.02.008",
+            "pmid": "29427765",
+            "xmlid": "R32"
+        },
+        {
+            "bibentry": "Mercante JW, Caravas JA, Ishaq MK, Kozak-Muznieks NA, Raphael BH, Winchell JM. Genomic heterogeneity differentiates clinical and environmental subgroups of Legionella pneumophila sequence type 1. PLoS One. 2018;13:e0206110",
+            "process_entry": "True",
+            "xmlid": "R33"
+        },
+        {
+            "bibentry": "Byrne BG, McColm S, McElmurry SP, Kilgore PE, Sobeck J, Sadler R, et al. Prevalence of infection-competent serogroup 6 Legionella pneumophila within premise plumbing in southeast Michigan. MBio. 2018; 9: e00016–8. DOI: 10.1128/mBio.00016-18 PMID: 29437918",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00016-18",
+            "pmid": "29437918",
+            "pmcid": "PMC5801461",
+            "xmlid": "R34"
+        },
+        {
+            "bibentry": "Wadowsky RM, Wolford R, McNamara AM, Yee RB. Effect of temperature, pH, and oxygen level on the multiplication of naturally occurring Legionella pneumophila in potable water. Appl Environ Microbiol. 1985; 49: 1197–205. PMID: 4004233",
+            "process_entry": "True",
+            "pmid": "4004233",
+            "pmcid": "PMC238529",
+            "xmlid": "R35"
+        },
+        {
+            "bibentry": "Rhoads WJ, Ji P, Pruden A, Edwards MA. Water heater temperature set point and water use patterns influence Legionella pneumophila and associated microorganisms at the tap. Microbiome. 2015; 3: 67. DOI: 10.1186/s40168-015-0134-1 PMID: 26627188",
+            "process_entry": "True",
+            "doi": "10.1186/s40168-015-0134-1",
+            "pmid": "26627188",
+            "pmcid": "PMC4666224",
+            "xmlid": "R36"
+        },
+        {
+            "bibentry": "Donohue MJ, O’Connell K, Vesper SJ, Mistry JH, King D, Kostich M, et al. Widespread molecular detection of Legionella pneumophila Serogroup 1 in cold water taps across the United States. Environ Sci Technol. 2014; 48: 3145–52. DOI: 10.1021/es4055115 PMID: 24548208",
+            "process_entry": "True",
+            "doi": "10.1021/es4055115",
+            "pmid": "24548208",
+            "xmlid": "R37"
+        }
+    ],
+    "localid": "MED-31625848",
+    "doi": "10.3201/eid2511.181032",
+    "pmid": "10.3201/eid2511.181032",
+    "pmcid": "31625848",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31625848/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),130,211)",
+                "containers_title": "",
+                "pl_string": "(1,2)",
+                "pl_xpath": "substring(string(/article/body/p[1]),335,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),130,211)",
+                "containers_title": "",
+                "pl_string": "(1,2)",
+                "pl_xpath": "substring(string(/article/body/p[1]),335,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),342,169)",
+                "containers_title": "",
+                "pl_string": "(1–3)",
+                "pl_xpath": "substring(string(/article/body/p[1]),505,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "(1–3)",
+                "pl_xpath": "substring(string(/article/body/p[1]),505,5)",
+                "context_xpath": "substring(string(/article/body/p[1]),342,169)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),342,169)",
+                "containers_title": "",
+                "pl_string": "(1–3)",
+                "pl_xpath": "substring(string(/article/body/p[1]),505,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),512,397)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[1]),910,229)",
+                "containers_title": "",
+                "pl_string": "(5,6)",
+                "pl_xpath": "substring(string(/article/body/p[1]),1083,5)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[1]),910,229)",
+                "containers_title": "",
+                "pl_string": "(5,6)",
+                "pl_xpath": "substring(string(/article/body/p[1]),1083,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[1]),910,229)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,263)",
+                "containers_title": "",
+                "pl_string": "(7,8)",
+                "pl_xpath": "substring(string(/article/body/p[2]),258,5)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,263)",
+                "containers_title": "",
+                "pl_string": "(7,8)",
+                "pl_xpath": "substring(string(/article/body/p[2]),258,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),265,411)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),265,411)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[2]),734,165)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[2]),900,230)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[2]),1131,376)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[2]),1131,376)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p),1338,100)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Water Sample Collection and Legionella Isolation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[1]),881,105)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Whole-Genome Analysis of L. pneumophila Isolates"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[1]),881,105)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Whole-Genome Analysis of L. pneumophila Isolates"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[2]),201,120)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Whole-Genome Analysis of L. pneumophila Isolates"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[2]),201,120)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Whole-Genome Analysis of L. pneumophila Isolates"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[2]),396,135)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Whole-Genome Analysis of L. pneumophila Isolates"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[2]),396,135)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Whole-Genome Analysis of L. pneumophila Isolates"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),1,124)",
+                "containers_title": [
+                    "Materials and Methods",
+                    "Serogroup Analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec/p[5]),251,224)",
+                "containers_title": [
+                    "Results",
+                    "Legionella Isolate Characterization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),276,274)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(22,23)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),542,7)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),276,274)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(22,23)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),542,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),861,196)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),417,221)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(24–26)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),630,7)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "",
+                "pl_string": "(24–26)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),630,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),417,221)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),417,221)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(24–26)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),630,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1368,231)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),420,272)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,188)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),190,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),190,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "R30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),190,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "R31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),190,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "R32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),190,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "R32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),389,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "R33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),577,201)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),142,257)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),400,343)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "R35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),112,324)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "R36",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),112,324)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "R37",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),112,324)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[9]),1,317)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(1–3)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[9]),312,5)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "",
+                "pl_string": "(1–3)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[9]),312,5)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[9]),1,317)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[9]),1,317)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(1–3)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[9]),312,5)"
+            }
+        ]
+    ]
+}

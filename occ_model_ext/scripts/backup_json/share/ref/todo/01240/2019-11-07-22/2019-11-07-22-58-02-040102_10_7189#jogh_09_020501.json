@@ -1,0 +1,802 @@
+{
+    "references": [
+        {
+            "bibentry": "United Nations Inter-Agency Group for Child Mortality Estimation (UN IGME). ‘Levels & Trends in Child Mortality: Report 2018, Estimates developed by the United Nations Inter-Agency Group for Child Mortality Estimation 2018. New York: United Nations Children’s Fund; 2018.",
+            "process_entry": "True",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Liu, L, Oza, S, Hogan, D, Chu, Y, Perin, J, Zhu, J. Global, regional, and national causes of under-5 mortality in 2000–15: an updated systematic analysis with implications for the Sustainable Development Goals. Lancet. 2016; 388: 3027-35. DOI: 10.1016/S0140-6736(16)31593-8 PMID: 27839855",
+            "process_entry": "True",
+            "doi": "10.1016/S0140-6736(16)31593-8",
+            "pmid": "27839855",
+            "pmcid": "PMC5161777",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Oza, S, Cousens, SN, Lawn, JE. Estimation of daily risk of neonatal death, including the day of birth, in 186 countries in 2013: a vital-registration and modelling-based study. Lancet Glob Health. 2014; 2: e635-44. DOI: 10.1016/S2214-109X(14)70309-2 PMID: 25442688",
+            "process_entry": "True",
+            "doi": "10.1016/s2214-109x(14)70309-2",
+            "pmid": "25442688",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Lawn, JE, Cousens, S, Zupan, J. Lancet Neonatal Survival Steering Team. 4 million neonatal deaths: when? where? why? Lancet. 2005; 365: 891-900. DOI: 10.1016/S0140-6736(05)71048-5 PMID: 15752534",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(05)71048-5",
+            "pmid": "15752534",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Countdown to 2030. Maternal, Newborn & Child Survival. Nigeria-country profile. Available: http://profiles.countdown2030.org/#/cp/NGA. Accessed: 29 January 2019.",
+            "process_entry": "True",
+            "url": "http://profiles.countdown2030.org/#/cp/NGA. Accessed: 29 January 2019.",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Adewemimo, A, Kalter, HD, Perin, J, Koffi, AK, Quinley, J, Black, RE. Direct estimates of cause-specific mortality fractions and rates of under-five deaths in the northern and southern regions of Nigeria by verbal autopsy interview. PLoS One. 2017; 12: e0178129. DOI: 10.1371/journal.pone.0178129 PMID: 28562611",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0178129",
+            "pmid": "28562611",
+            "pmcid": "PMC5451023",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Gülmezoglu AM, Lawrie TA, Hezelgrave N, Oladapo OT, Souza JP, Gielen N, et al. Interventions to Reduce Maternal and Newborn Morbidity and Mortality. In: Black RE, Laxminarayan R, Temmerman M, et al, editors. Reproductive, Maternal, Newborn, and Child Health: Disease Control Priorities, Third Edition (Volume 2). Washington (DC): The International Bank for Reconstruction and Development / The World Bank; 2016. Available: https://www.ncbi.nlm.nih.gov/books/NBK361904/. Accessed: 28 November 2018.",
+            "process_entry": "True",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK361904/. Accessed: 28 November 2018.",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Sankar, MJ, Natarajan, CK, Das, RR, Agarwal, R, Chandrasekaran, A, Paul, VK. When do newborns die? A systematic review of timing of overall and cause-specific neonatal deaths in developing countries. J Perinatol. 2016; 36 Suppl 1: S1-11. DOI: 10.1038/jp.2016.27 PMID: 27109087",
+            "process_entry": "True",
+            "doi": "10.1038/jp.2016.27",
+            "pmid": "27109087",
+            "pmcid": "PMC4848744",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "National Population Commission (NPC) [Nigeria] and ICF International. Nigeria Demographic and Health Survey 2013. Abuja, Nigeria, and Rockville, Maryland, USA: NPC and ICF International; 2014.",
+            "process_entry": "True",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Koffi, AK, Kalter, HD, Loveth, EN, Quinley, J, Monehin, J, Black, RE. Beyond causes of death: The social determinants of mortality among children aged 1-59 months in Nigeria from 2009 to 2013. PLoS One. 2017; 12: e0177025. DOI: 10.1371/journal.pone.0177025 PMID: 28562610",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0177025",
+            "pmid": "28562610",
+            "pmcid": "PMC5451019",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Kalter, HD, Salgado, R, Babille, M, Koffi, AK, Black, RE. Social autopsy for maternal and child deaths: a comprehensive literature review to examine the concept and the development of the method. Popul Health Metr. 2011; 9: 45. DOI: 10.1186/1478-7954-9-45 PMID: 21819605",
+            "process_entry": "True",
+            "doi": "10.1186/1478-7954-9-45",
+            "pmid": "21819605",
+            "pmcid": "PMC3160938",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Aguilar AM, Alvarado R, Cordero D, Kelly P, Zamora A, Salgado R. Mortality survey in Bolivia: The final report. Investigating and identifying the causes of death for children under five. The Basic Support for Institutionalizing Child Survival (BASICS) Project. Arlington, VA, 1998. Available: http://pdf.usaid.gov/pdf_docs/PNACF082. pdf. Accessed: 13 October 2018.",
+            "process_entry": "True",
+            "url": "http://pdf.usaid.gov/pdf_docs/PNACF082. pdf. Accessed: 13 October 2018.",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Mobley, CC, Boerma, JT, Titus, S, Lohrke, B, Shangula, K, Black, RE. Validation study of a verbal autopsy method for causes of childhood mortality in Namibia. J Trop Pediatr. 1996; 42: 365-9. DOI: 10.1093/tropej/42.6.365 PMID: 9009566",
+            "process_entry": "True",
+            "doi": "10.1093/tropej/42.6.365",
+            "pmid": "9009566",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "Kalter, HD, Hossain, M, Burnham, G, Khan, NZ, Saha, S, Ali, MDA. Validation of caregiver interviews to diagnose common causes of severe neonatal illness. Paediatr Perinat Epidemiol. 1999; 13: 99-113. DOI: 10.1046/j.1365-3016.1999.00151.x PMID: 9987789",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-3016.1999.00151.x",
+            "pmid": "9987789",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Mwaniki, MK, Talbert, AW, Njuguna, P, English, M, Were, E, Lowe, BS. Clinical indicators of bacterial meningitis among neonates and young infants in rural Kenya. BMC Infect Dis. 2011; 11: 301. DOI: 10.1186/1471-2334-11-301 PMID: 22044635",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2334-11-301",
+            "pmid": "22044635",
+            "pmcid": "PMC3217941",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "Kalter, HD, Perin, J, Black, RE. Validating hierarchical verbal autopsy expert algorithms in a large data set with known causes of death. J Glob Health. 2016; 6: 010601. DOI: 10.7189/jogh.06.010601 PMID: 26953965",
+            "process_entry": "True",
+            "doi": "10.7189/jogh.06.010601",
+            "pmid": "26953965",
+            "pmcid": "PMC4766791",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "Grambsch, PM, Therneau, TM. Proportional hazards tests and diagnostics based on weighted residuals. Biometrika. 1994; 81: 515-26. DOI: 10.1093/biomet/81.3.515",
+            "process_entry": "True",
+            "doi": "10.1093/biomet/81.3.515",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "Blossfeld H-P, Golsch K, Rohwer G, editors. Event history analysis with Stata. Mahwah, N.J: Erlbaum; 2007.",
+            "process_entry": "True",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Ata, N, Sozer, MT. Cox regression models with nonproportional hazards applied to lung cancer survival data. Hacet J Math Stat. 2007; 36: 157-67.",
+            "process_entry": "True",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Therneau TM, Grambsch PM. Modelling Survival Data: Extending the Cox Model. Springer, New York; 2000.",
+            "process_entry": "True",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Darmstadt, GL, Bhutta, ZA, Cousens, S, Adam, T, Walker, N, de Bernis, L, Lancet Neonatal Survival Steering Team. Evidence-based, cost-effective interventions: how many newborn babies can we save? Lancet. 2005; 365: 977-88. DOI: 10.1016/S0140-6736(05)71088-6 PMID: 15767001",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(05)71088-6",
+            "pmid": "15767001",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Welaga, P, Moyer, CA, Aborigo, R, Adongo, P, Williams, J, Hodgson, A. Why are babies dying in the first month after birth? A 7-year study of neonatal mortality in northern Ghana. PLoS One. 2013; 8: e58924. DOI: 10.1371/journal.pone.0058924 PMID: 23527050",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0058924",
+            "pmid": "23527050",
+            "pmcid": "PMC3602544",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "Martines, J, Paul, V, Bhutta, ZA, Koblinsky, M, Saucat, A, Walker, N. Neonatal survival: a call for action. Lancet. 2005; 365: 1189-97. DOI: 10.1016/S0140-6736(05)71882-1 PMID: 15794974",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(05)71882-1",
+            "pmid": "15794974",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Mckeown, RE. The epidemiologic transition: changing patterns of mortality and population dynamics. Am J Lifestyle Med. 2009; 1(1 Suppl): 19S-26S. DOI: 10.1016/S0140-6736(05)71882-1 PMID: 15794974",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(05)71882-1",
+            "pmid": "15794974",
+            "xmlid": "R24"
+        }
+    ],
+    "localid": "MED-31360450",
+    "doi": "10.7189/jogh.09.020501",
+    "pmid": "10.7189/jogh.09.020501",
+    "pmcid": "31360450",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31360450/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,158)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),160,77)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),231,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),160,77)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),231,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),424,195)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),172,295)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),172,295)",
+                "containers_title": "",
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/p[2]),461,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),172,295)",
+                "containers_title": "",
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/p[2]),461,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),468,358)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[2]),960,353)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,127)",
+                "containers_title": "",
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/p[3]),122,5)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,127)",
+                "containers_title": "",
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/p[3]),122,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),235,407)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[3]),643,224)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/p[4]),205,253)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[1]),1,263)",
+                "containers_title": [
+                    "METHODS",
+                    "Study sites and sample"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p[1]),1,169)",
+                "containers_title": [
+                    "METHODS",
+                    "Data collection tools and VASA interview"
+                ],
+                "pl_string": "[6,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p[1]),163,6)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p[1]),1,169)",
+                "containers_title": [
+                    "METHODS",
+                    "Data collection tools and VASA interview"
+                ],
+                "pl_string": "[6,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p[1]),163,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p[1]),171,357)",
+                "containers_title": [
+                    "METHODS",
+                    "Data collection tools and VASA interview"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p[1]),529,295)",
+                "containers_title": [
+                    "METHODS",
+                    "Data collection tools and VASA interview"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),1,120)",
+                "containers_title": [
+                    "METHODS",
+                    "Cause of deaths determination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),122,312)",
+                "containers_title": [
+                    "METHODS",
+                    "Cause of deaths determination"
+                ],
+                "pl_string": "[6,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),279,6)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),122,312)",
+                "containers_title": [
+                    "METHODS",
+                    "Cause of deaths determination"
+                ],
+                "pl_string": "[6,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),279,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),122,312)",
+                "containers_title": [
+                    "METHODS",
+                    "Cause of deaths determination"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),426,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),122,312)",
+                "containers_title": [
+                    "METHODS",
+                    "Cause of deaths determination"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),426,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p),719,120)",
+                "containers_title": [
+                    "METHODS",
+                    "Cause of deaths determination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),129,194)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ],
+                "pl_string": "[17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),315,7)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),129,194)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ],
+                "pl_string": "[17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),315,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),324,116)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),432,7)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),324,116)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),432,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),563,267)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),831,173)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),1005,160)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/sec[6]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[6]/p[4]),1166,215)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,421)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),365,5)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,421)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),365,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,421)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[6,21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),412,9)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,421)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[6,21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),412,9)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,421)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[6,21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),412,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),751,248)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1000,129)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),483,161)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,214)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),500,104)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),896,143)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1223,216)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),1,246)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[6,10]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[8]),130,6)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),1,246)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[6,10]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[8]),130,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),455,231)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),687,185)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[13,14,16]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[8]),832,10)"
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),687,185)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[13,14,16]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[8]),832,10)"
+            },
+            {
+                "n_rp": 50,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),687,185)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "[13,14,16]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[8]),832,10)"
+            }
+        ]
+    ]
+}

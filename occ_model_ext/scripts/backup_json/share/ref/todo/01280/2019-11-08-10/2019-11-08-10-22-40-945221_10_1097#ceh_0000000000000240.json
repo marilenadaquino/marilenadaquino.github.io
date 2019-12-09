@@ -1,0 +1,621 @@
+{
+    "references": [
+        {
+            "bibentry": "Issenberg, SB. The scope of simulation-based healthcare education. Simul Healthc. 2006; 1: 203–208. PMID: 19088590",
+            "process_entry": "True",
+            "doi": "10.1097/01.sih.0000246607.36504.5a",
+            "pmid": "19088590",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Dreyfus, SE. The five-stage model of adult skill acquisition. Bull Sci Tech Soc. 2004; 24: 177–181.",
+            "process_entry": "True",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Leathard, HL, Cook, MJ. Learning for holistic care: addressing practical wisdom (phronesis) and the spiritual sphere. J Adv Nurs. 2009; 65: 1318–1327. PMID: 19243460",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2648.2008.04949.x",
+            "pmid": "19243460",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Svenaeus, F. Hermeneutics of medicine in the wake of Gadamer: the issue of phronesis. Theor Med Bioeth. 2003; 24: 407–431. PMID: 14760869",
+            "process_entry": "True",
+            "doi": "10.1023/b:meta.0000006935.10835.b2",
+            "pmid": "14760869",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Vaughan-Graham, J, Cott, C. Practical wisdom the role of professional practice knowledge in the clinical reasoning of Bobath instructors. J Eval Clin Pract. 2017; 23: 935–948. PMID: 27723216",
+            "process_entry": "True",
+            "doi": "10.1111/jep.12641",
+            "pmid": "27723216",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Sexton, JB, Thomas, EJ, Helmreich, RL. Error, stress, and teamwork in medicine and aviation: cross sectional surveys. BMJ. 2000; 320: 745–749. PMID: 10720356",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.320.7237.745",
+            "pmid": "10720356",
+            "pmcid": "PMC27316",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Shapiro, MJ, Morey, JC, Small, SD. Simulation based teamwork training for emergency department staff: does it improve clinical team performance when added to an existing didactic teamwork curriculum? Qual Saf Health Care. 2004; 13: 417–421. PMID: 15576702",
+            "process_entry": "True",
+            "doi": "10.1136/qshc.2003.005447",
+            "pmid": "15576702",
+            "pmcid": "PMC1743923",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Kostopoulos, KC, Yiannis, EP, Gregory, P. Structure and function of team learning emergence: a multilevel empirical validation. J Manag. 2013; 39: 6.",
+            "process_entry": "True",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Brown JSD, P. Organizational learning and communities of practice: toward a unified view of working, learning and innovation. Organ Sci. 1991; 2: 40–57.",
+            "process_entry": "True",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Crossan ML, H, White, R, Djurfeldt, L. Organisational learning: dimensions for a theory. Int J Organizational Anal. 1995; 3: 337–360.",
+            "process_entry": "True",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Wenger, E. Communities of Practice: Learning, Meaning, and Identity. Cambridge, United Kingdom, New York, NY: Cambridge University Press; 1998.",
+            "process_entry": "True",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Cohen MDB, P. Organizational routines as stored in procedural evidence from a laboratory study. Organ Sci. 1994; 5: 554–568.",
+            "process_entry": "True",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Schulz, M. The uncertain relevance of newness: organisational learning and knowledge flows. Acad Manage J. 2001; 44: 661–682.",
+            "process_entry": "True",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "Walsh JPU, GR. Organizational memory. Acad Manag Rev. 1991; 16: 57–91.",
+            "process_entry": "True",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Weick, KE, Roberts, KH. Collective minds in organizations: heedful interrelating on flight decks. Administrative Sci Q. 1993; 38: 357–381.",
+            "process_entry": "True",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "Allvin, R, Berndtzon, M, Carlzon, L. Confident but not theoretically grounded—experienced simulation educators' perceptions of their own professional development. Adv Med Educ Pract. 2017; 8: 99–108. PMID: 28176931",
+            "process_entry": "True",
+            "doi": "10.2147/AMEP.S123517",
+            "pmid": "28176931",
+            "pmcid": "PMC5268374",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "Polit, DF, Beck, CT. Nursing Research: Generating and Assessing Evidence of Nursing Practice. 7th ed Philadelphia, PA: Lippincott, Williams, & Wilkins; 2011.",
+            "process_entry": "True",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "Braun, VCV. Using thematic analysis in psychology. Qual Res Psychol. 2006; 3: 77–101.",
+            "process_entry": "True",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Kitto, SC, Chesters, J, Grbich, C. Quality in qualitative research. Med J Aust. 2008; 188: 243–246. PMID: 18279135",
+            "process_entry": "True",
+            "pmid": "18279135",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Lincoln, YS, Guba, EG. Naturalistic Inquiry. Beverly Hills, CA: Sage Publications; 1985.",
+            "process_entry": "True",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Burgess, A, Nestel, D. Facilitating the development of professional identity through peer assisted learning in medical education. Adv Med Educ Pract. 2014; 5: 403–406. PMID: 25378965",
+            "process_entry": "True",
+            "doi": "10.2147/AMEP.S72653",
+            "pmid": "25378965",
+            "pmcid": "PMC4217768",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Fraser, SW, Greenhalgh, T. Coping with complexity: educating for capability. BMJ. 2001; 323: 799–803. PMID: 11588088",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.323.7316.799",
+            "pmid": "11588088",
+            "pmcid": "PMC1121342",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "Dieckmann, P, Birkvad Rasmussen, M, Issenberg, SB. Long-term experiences of being a simulation-educator: a multinational interview study. Med Teach. 2018; 40: 713–720. PMID: 29793384",
+            "process_entry": "True",
+            "doi": "10.1080/0142159x.2018.1471204",
+            "pmid": "29793384",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Ziv, A, Ben-David, S, Ziv, M. Simulation based medical education: an opportunity to learn from errors. Med Teach. 2005; 27: 193–199. PMID: 16011941",
+            "process_entry": "True",
+            "doi": "10.1080/01421590500126718",
+            "pmid": "16011941",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Ostergaard, D, Dieckmann, P, Lippert, A. Simulation and CRM. Best Pract Res Clin Anaesthesiol. 2011; 25: 239–249. PMID: 21550548",
+            "process_entry": "True",
+            "doi": "10.1016/j.bpa.2011.02.003",
+            "pmid": "21550548",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "McPherson, K, Headrick, L, Moss, F. Working and learning together: good quality care depends on it, but how can we achieve it? Qual Health Care. 2001; 10(suppl 2): ii46–ii53. PMID: 11700379",
+            "process_entry": "True",
+            "doi": "10.1136/qhc.0100046..",
+            "pmid": "11700379",
+            "pmcid": "PMC1765751",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "Aggarwal, R, Mytton, OT, Derbrew, M. Training and simulation for patient safety. Qual Saf Health Care. 2010; 19(suppl 2): i34–i43. PMID: 20693215",
+            "process_entry": "True",
+            "doi": "10.1136/qshc.2009.038562",
+            "pmid": "20693215",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "Heaven, C, Clegg, J, Maguire, P. Transfer of communication skills training from workshop to workplace: the impact of clinical supervision. Patient Educ Couns. 2006; 60: 313–325. PMID: 16242900",
+            "process_entry": "True",
+            "doi": "10.1016/j.pec.2005.08.008",
+            "pmid": "16242900",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "World Health Organization. Transforming and scaling up health professional education and training. In: Policy Brief on Regulation of Health Professions Education. Geneva, Switzerland: WHO Press; 2013.",
+            "process_entry": "True",
+            "xmlid": "R29"
+        }
+    ],
+    "localid": "MED-30768445",
+    "doi": "10.1097/CEH.0000000000000240",
+    "pmid": "10.1097/CEH.0000000000000240",
+    "pmcid": "30768445",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30768445/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/sup/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),340,211)",
+                "containers_title": "",
+                "pl_string": "1",
+                "pl_xpath": "/article/body/p[1]/sup"
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[2]/sup[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[2]),92,408)",
+                "containers_title": "",
+                "pl_string": "2",
+                "pl_xpath": "/article/body/p[2]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/sup[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),92,408)",
+                "containers_title": "",
+                "pl_string": "3–5",
+                "pl_xpath": "/article/body/p[2]/sup[2]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/sup[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),92,408)",
+                "containers_title": "",
+                "pl_string": "3–5",
+                "pl_xpath": "/article/body/p[2]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "3–5",
+                "pl_xpath": "/article/body/p[2]/sup[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),92,408)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "3–5",
+                "pl_xpath": "/article/body/p[2]/sup[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),92,408)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[3]/sup[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,153)",
+                "containers_title": "",
+                "pl_string": "6,7",
+                "pl_xpath": "/article/body/p[3]/sup[1]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[3]/sup[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,153)",
+                "containers_title": "",
+                "pl_string": "6,7",
+                "pl_xpath": "/article/body/p[3]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/sup[2]/xref",
+                "context_xpath": "substring(string(/article/body/p[3]),155,263)",
+                "containers_title": "",
+                "pl_string": "8",
+                "pl_xpath": "/article/body/p[3]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/sup[3]/xref",
+                "context_xpath": "substring(string(/article/body/p[3]),505,113)",
+                "containers_title": "",
+                "pl_string": "8",
+                "pl_xpath": "/article/body/p[3]/sup[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[4]/sup[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/p[4]/sup[1]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[4]/sup[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/p[4]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/p[4]/sup[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/p[4]/sup[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": "",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/p[4]/sup[2]"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/p[4]/sup[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/p[4]/sup[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": "",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/p[4]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/p[4]/sup[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,264)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/p[5]/sup/xref",
+                "context_xpath": "substring(string(/article/body/p[5]),138,174)",
+                "containers_title": "",
+                "pl_string": "16",
+                "pl_xpath": "/article/body/p[5]/sup"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[1]/sup/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,126)",
+                "containers_title": [
+                    "METHODS"
+                ],
+                "pl_string": "17",
+                "pl_xpath": "/article/body/sec[1]/p[1]/sup"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[6]/sup/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,170)",
+                "containers_title": [
+                    "METHODS"
+                ],
+                "pl_string": "18",
+                "pl_xpath": "/article/body/sec[1]/p[6]/sup"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[7]/sup/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),139,140)",
+                "containers_title": [
+                    "METHODS"
+                ],
+                "pl_string": "19,20",
+                "pl_xpath": "/article/body/sec[1]/p[7]/sup"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[7]/sup/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),139,140)",
+                "containers_title": [
+                    "METHODS"
+                ],
+                "pl_string": "19,20",
+                "pl_xpath": "/article/body/sec[1]/p[7]/sup"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[1]/sup[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),384,304)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "21,22",
+                "pl_xpath": "/article/body/sec[3]/p[1]/sup[1]"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[1]/sup[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),384,304)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "21,22",
+                "pl_xpath": "/article/body/sec[3]/p[1]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[1]/sup[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),787,248)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "16,23",
+                "pl_xpath": "/article/body/sec[3]/p[1]/sup[2]"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[1]/sup[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),787,248)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "16,23",
+                "pl_xpath": "/article/body/sec[3]/p[1]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[2]/sup[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,443)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "24",
+                "pl_xpath": "/article/body/sec[3]/p[2]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[2]/sup[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),445,271)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "25",
+                "pl_xpath": "/article/body/sec[3]/p[2]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[3]/sup[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,269)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "26,27",
+                "pl_xpath": "/article/body/sec[3]/p[3]/sup[1]"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[3]/sup[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,269)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "26,27",
+                "pl_xpath": "/article/body/sec[3]/p[3]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[3]/sup[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),415,572)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "28",
+                "pl_xpath": "/article/body/sec[3]/p[3]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[3]/sup[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),415,572)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "6",
+                "pl_xpath": "/article/body/sec[3]/p[3]/sup[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/p[5]/sup[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),1,499)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "11",
+                "pl_xpath": "/article/body/sec[3]/p[5]/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/p[5]/sup[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),1,499)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "29",
+                "pl_xpath": "/article/body/sec[3]/p[5]/sup[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[6]/sup/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),168,303)",
+                "containers_title": [
+                    "DISCUSSION"
+                ],
+                "pl_string": "19",
+                "pl_xpath": "/article/body/sec[3]/p[6]/sup"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,839 @@
+{
+    "references": [
+        {
+            "bibentry": "Requejo, JH, Bryce, J, Barros, AJD, Berman, P, Bhutta, Z, Chopra, M. Countdown to 2015 and beyond: fulfilling the health agenda for women and children. Lancet. 2015; 385: 466-76. DOI: 10.1016/S0140-6736(14)60925-9 PMID: 24990815",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(14)60925-9",
+            "pmid": "24990815",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "World Health Organization. Bridging the “Know-Do” Gap: Meeting on Knowledge Translation in Global Health Geneva: WHO; 2005.",
+            "process_entry": "True",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Friberg, IK, Kinney, MV, Lawn, JE, Kerber, KJ, Odubanjo, MO, Bergh, A-M. Sub-Saharan Africa’s Mothers, Newborns, and Children: How Many Lives Could Be Saved with Targeted Health Interventions? PLoS Med. 2010; 7: e1000295. DOI: 10.1371/journal.pmed.1000295 PMID: 20574515",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pmed.1000295",
+            "pmid": "20574515",
+            "pmcid": "PMC2888572",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Peterson, HB, Haidar, J, Merialdi, M, Say, L, Gulmezoglu, AM, Fajans, PJ. Preventing maternal and newborn deaths globally: using innovation and science to address challenges in implementing life-saving interventions. Obstet Gynecol. 2012; 120: 636-42. DOI: 10.1097/AOG.0b013e3182632cc1 PMID: 22914474",
+            "process_entry": "True",
+            "doi": "10.1097/aog.0b013e3182632cc1",
+            "pmid": "22914474",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Freedman, LP, Graham, WJ, Brazier, E, Smith, JM, Ensor, T, Fauveau, V. Practical lessons from global safe motherhood initiatives: time for a new focus on implementation. Lancet. 2007; 370: 1383-91. DOI: 10.1016/S0140-6736(07)61581-5 PMID: 17933654",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(07)61581-5",
+            "pmid": "17933654",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Kruk, ME, Yamey, G, Angell, SY, Beith, A, Cotlear, D, Guanais, F. Transforming Global Health by Improving the Science of Scale-Up. PLoS Biol. 2016; 14: e1002360. DOI: 10.1371/journal.pbio.1002360 PMID: 26934704",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pbio.1002360",
+            "pmid": "26934704",
+            "pmcid": "PMC4775018",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Ben Charif, A, Zomahoun, HTV, LeBlanc, A, Langlois, L, Wolfenden, L, Yoong, SL. Effective strategies for scaling up evidence-based practices in primary care: a systematic review. Implement Sci. 2017; 12: 139. DOI: 10.1186/s13012-017-0672-y PMID: 29166911",
+            "process_entry": "True",
+            "doi": "10.1186/s13012-017-0672-y",
+            "pmid": "29166911",
+            "pmcid": "PMC5700621",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Barker, PM, Reid, A, Schall, MW. A framework for scaling up health interventions: lessons from large-scale improvement initiatives in Africa. Implement Sci. 2016; 11: 12. DOI: 10.1186/s13012-016-0374-x PMID: 26821910",
+            "process_entry": "True",
+            "doi": "10.1186/s13012-016-0374-x",
+            "pmid": "26821910",
+            "pmcid": "PMC4731989",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Milat, AJ, Bauman, A, Redman, S. Narrative review of models and success factors for scaling up public health interventions. Implement Sci. 2015; 10: 113. DOI: 10.1186/s13012-015-0301-6 PMID: 26264351",
+            "process_entry": "True",
+            "doi": "10.1186/s13012-015-0301-6",
+            "pmid": "26264351",
+            "pmcid": "PMC4533941",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "World Health Organization and ExpandNet. Nine Steps for Developing a Scaling Up Strategy. Geneva, Switzerland: World Health Organization, 2010.",
+            "process_entry": "True",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Subramanian, S, Naimoli, J, Matsubayashi, T, Peters, D. Do we have the right models for scaling up health services to achieve the Millennium Development Goals? BMC Health Serv Res. 2011; 11: 336. DOI: 10.1186/1472-6963-11-336 PMID: 22168915",
+            "process_entry": "True",
+            "doi": "10.1186/1472-6963-11-336",
+            "pmid": "22168915",
+            "pmcid": "PMC3260120",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Hanson, K, Ranson, MK, Oliveira-Cruz, V, Mills, A. Expanding access to priority health interventions: a framework for understanding the constraints to scaling-up. J Int Dev. 2003; 15: 1-14. DOI: 10.1002/jid.963",
+            "process_entry": "True",
+            "doi": "10.1002/jid.963",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Tomlinson, M, Chopra, M, Sanders, D, Bradshaw, D, Hendricks, M, Greenfield, D. Setting Priorities in Child Health Research Investments for South Africa. PLoS Med. 2007; 4: e259. DOI: 10.1371/journal.pmed.0040259 PMID: 17760497",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pmed.0040259",
+            "pmid": "17760497",
+            "pmcid": "PMC1952202",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "Imdad, A, Mullany, L, Baqui, A, El Arifeen, S, Tielsch, J, Khatry, S. The effect of umbilical cord cleansing with chlorhexidine on omphalitis and neonatal mortality in community settings in developing countries: a meta-analysis. BMC Public Health. 2013; 13: S15. DOI: 10.1186/1471-2458-13-S3-S15 PMID: 24564621",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2458-13-S3-S15",
+            "pmid": "24564621",
+            "pmcid": "PMC3847355",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Arifeen, SE, Mullany, LC, Shah, R, Mannan, I, Rahman, SM, Talukder, MRR. The effect of cord cleansing with chlorhexidine on neonatal mortality in rural Bangladesh: a community-based, cluster-randomised trial. Lancet. 2012; 379: 1022-8. DOI: 10.1016/S0140-6736(11)61848-5 PMID: 22322124",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(11)61848-5",
+            "pmid": "22322124",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "National Technical Working Commitee on Newborn Health (Bangladesh). Application of 7.1% chlorhexidine solution in the newborn umbilical cord: National Guideline, Bangladesh 2014. Dhaka: Government of Bangladesh, 2014.",
+            "process_entry": "True",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "WHO and ExpandNet. Nine steps for developing a scaling-up strategy. Geneva: WHO, 2010.",
+            "process_entry": "True",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "World Health Organization and ExpandNet. Practical guidance for scaling up health service innovations. Geneva: WHO, 2009.",
+            "process_entry": "True",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Igras, S, Sinai, I, Mukabatsinda, M, Ngabo, F, Jennings, V, Lundgren, R. Systems approach to monitoring and evaluation guides scale up of the Standard Days Method of family planning in Rwanda. Glob Health Sci Pract. 2014; 2: 234. DOI: 10.9745/GHSP-D-13-00165 PMID: 25276581",
+            "process_entry": "True",
+            "doi": "10.9745/GHSP-D-13-00165",
+            "pmid": "25276581",
+            "pmcid": "PMC4168622",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Smith, JM, de Graft-Johnson, J, Zyaee, P, Ricca, J, Fullerton, J. Scaling up high-impact interventions: How is it done? Int J Gynaecol Obstet. 2015; 130: S4-10. DOI: 10.1016/j.ijgo.2015.03.010 PMID: 26115856",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijgo.2015.03.010",
+            "pmid": "26115856",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Omimo, A, Taranta, D, Ghiron, L, Kabiswa, C, Aibe, S, Kodande, M. Applying ExpandNet’s Systematic approach to scaling up in an integrated population, health and environment project in East Africa. Soc Sci. 2018; 7: 8 DOI: 10.3390/socsci7010008",
+            "process_entry": "True",
+            "doi": "10.3390/socsci7010008",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "NIPORT, Mitra and Associates and ICF International. Bangladesh Demographic and Health Survey 2014. Dhaka, Bangladesh and Rockville, Maryland: National Institute of Population Research and Training, Mitra and Associates, and ICF International, 2016.",
+            "process_entry": "True",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "National Institute of Population Research and Training (NIPORT). International Centre for Diarrhoeal Disease Research Bi, b), and MEASURE Evaluation. Bangladesh Maternal Mortality and Health Care Survey 2016: Preliminary Report. Dhaka, Bangladesh, and Chapel Hill, NC, USA: NIPORT, icddr,b, and MEASURE Evaluation, 2017.",
+            "process_entry": "True",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "World Health Organization. WHO recommendations on postnatal care of the mother and newborn. Geneva: WHO; 2013.",
+            "process_entry": "True",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Glasgow, RE. Evaluating the public health impact of health promotion interventions: the RE-AIM framework. Am J Public Health. 1999; 89: 1322-7. DOI: 10.2105/AJPH.89.9.1322 PMID: 10474547",
+            "process_entry": "True",
+            "doi": "10.2105/ajph.89.9.1322",
+            "pmid": "10474547",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "Chamberlain, P, Brown, CH, Saldana, L. Observational measure of implementation progress in community based settings: The Stages of implementation completion (SIC). Implement Sci. 2011; 6: 116. DOI: 10.1186/1748-5908-6-116 PMID: 21974914",
+            "process_entry": "True",
+            "doi": "10.1186/1748-5908-6-116",
+            "pmid": "21974914",
+            "pmcid": "PMC3197550",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "Halcomb, EJ, Davidson, PM. Is verbatim transcription of interview data always necessary? Appl Nurs Res. 2006; 19: 38-42. DOI: 10.1016/j.apnr.2005.06.001 PMID: 16455440",
+            "process_entry": "True",
+            "doi": "10.1016/j.apnr.2005.06.001",
+            "pmid": "16455440",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "Ritchie J, Lewis J. Qualitative Research Practice: A Guide for Social Science Students and Researchers. London: Sage Publications; 2003.",
+            "process_entry": "True",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "Bentley, ME, Pelto, GH, Straus, WL, Schumann, DA, Adegbola, C, de la Pena, E. Rapid ethnographic assessment: Applications in a diarrhea management program. Soc Sci Med. 1988; 27: 107-16. DOI: 10.1016/0277-9536(88)90168-2 PMID: 3212501",
+            "process_entry": "True",
+            "doi": "10.1016/0277-9536(88)90168-2",
+            "pmid": "3212501",
+            "xmlid": "R29"
+        },
+        {
+            "bibentry": "Damschroder, LJ, Aron, D, Keith, R, Kirsh, S, Alexander, J, Lowery, J. Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science. Implement Sci. 2009; 4: 50. DOI: 10.1186/1748-5908-4-50 PMID: 19664226",
+            "process_entry": "True",
+            "doi": "10.1186/1748-5908-4-50",
+            "pmid": "19664226",
+            "pmcid": "PMC2736161",
+            "xmlid": "R30"
+        },
+        {
+            "bibentry": "SocioCultural Research Consultants L. Dedoose Version 6.1.18, web application for managing, analyzing, and presenting qualitative and mixed method research data Los Angeles, CA: SocioCultural Research Consultants, LLC 2015.",
+            "process_entry": "True",
+            "xmlid": "R31"
+        },
+        {
+            "bibentry": "StataCorp. Stata Statistical Software: Release 15. College Station, TX: StataCorp LP; 2015.",
+            "process_entry": "True",
+            "xmlid": "R32"
+        },
+        {
+            "bibentry": "Mridha, MK, Anwar, I, Koblinsky, M. Public-sector Maternal Health Programmes and Services for Rural Bangladesh. J Health Popul Nutr. 2009; 27: 124-38. DOI: 10.3329/jhpn.v27i2.3326 PMID: 19489411",
+            "process_entry": "True",
+            "doi": "10.3329/jhpn.v27i2.3326",
+            "pmid": "19489411",
+            "pmcid": "PMC2761780",
+            "xmlid": "R33"
+        },
+        {
+            "bibentry": "World Health Organization Maximizing Positive Synergies Collaborative Group, Samb, B, Evans, T, Dybul, M, Atun, R, Moatti, JP. An assessment of interactions between global health initiatives and country health systems. Lancet. 2009; 373: 2137-69. DOI: 10.1016/S0140-6736(09)60919-3 PMID: 19541040",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(09)60919-3",
+            "pmid": "19541040",
+            "xmlid": "R34"
+        },
+        {
+            "bibentry": "Proctor EK, Silmere H, Raghavan R, Hovmand P, Aarons GA, Bunger A, et al. Outcomes for implementation research: conceptual distinctions, measurement challenges, and research agenda. Adm Policy Ment Health Ment Health Serv Res. 2011;38.",
+            "process_entry": "True",
+            "xmlid": "R35"
+        },
+        {
+            "bibentry": "Aqil, A, Lippeveld, T, Hozumi, D. PRISM framework: a paradigm shift for designing, strengthening and evaluating routine health information systems. Health Policy Plan. 2009; 24: 217-28. DOI: 10.1093/heapol/czp010 PMID: 19304786",
+            "process_entry": "True",
+            "doi": "10.1093/heapol/czp010",
+            "pmid": "19304786",
+            "pmcid": "PMC2670976",
+            "xmlid": "R36"
+        },
+        {
+            "bibentry": "Stanton, CK, Rawlins, B, Drake, M, dos Anjos, M, Cantor, D, Chongo, L. Measuring Coverage in MNCH: Testing the Validity of Women’s Self-Report of Key Maternal and Newborn Health Interventions during the Peripartum Period in Mozambique. PLoS One. 2013; 8: e60694. DOI: 10.1371/journal.pone.0060694 PMID: 23667427",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0060694",
+            "pmid": "23667427",
+            "pmcid": "PMC3646219",
+            "xmlid": "R37"
+        }
+    ],
+    "localid": "MED-31656605",
+    "doi": "10.7189/jogh.09.020410",
+    "pmid": "10.7189/jogh.09.020410",
+    "pmcid": "31656605",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31656605/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,272)",
+                "containers_title": "",
+                "pl_string": "[1-3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),117,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "pl_string": "[1-3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),117,5)",
+                "context_xpath": "substring(string(/article/body/p[1]),1,272)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,272)",
+                "containers_title": "",
+                "pl_string": "[1-3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),117,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,272)",
+                "containers_title": "",
+                "pl_string": "[4-6]",
+                "pl_xpath": "substring(string(/article/body/p[1]),267,5)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "pl_string": "[4-6]",
+                "pl_xpath": "substring(string(/article/body/p[1]),267,5)",
+                "context_xpath": "substring(string(/article/body/p[1]),1,272)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,272)",
+                "containers_title": "",
+                "pl_string": "[4-6]",
+                "pl_xpath": "substring(string(/article/body/p[1]),267,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),274,123)",
+                "containers_title": "",
+                "pl_string": "[7-9]",
+                "pl_xpath": "substring(string(/article/body/p[1]),391,5)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "R8",
+                "pl_string": "[7-9]",
+                "pl_xpath": "substring(string(/article/body/p[1]),391,5)",
+                "context_xpath": "substring(string(/article/body/p[1]),274,123)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[1]),274,123)",
+                "containers_title": "",
+                "pl_string": "[7-9]",
+                "pl_xpath": "substring(string(/article/body/p[1]),391,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[1]),398,232)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": "",
+                "pl_string": "[7-12]",
+                "pl_xpath": "substring(string(/article/body/p[1]),712,6)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "R8",
+                "pl_string": "[7-12]",
+                "pl_xpath": "substring(string(/article/body/p[1]),712,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "R9",
+                "pl_string": "[7-12]",
+                "pl_xpath": "substring(string(/article/body/p[1]),712,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "R10",
+                "pl_string": "[7-12]",
+                "pl_xpath": "substring(string(/article/body/p[1]),712,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "R11",
+                "pl_string": "[7-12]",
+                "pl_xpath": "substring(string(/article/body/p[1]),712,6)",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": "",
+                "pl_string": "[7-12]",
+                "pl_xpath": "substring(string(/article/body/p[1]),712,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": "",
+                "pl_string": "[6,13]",
+                "pl_xpath": "substring(string(/article/body/p[1]),863,6)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/p[1]),631,239)",
+                "containers_title": "",
+                "pl_string": "[6,13]",
+                "pl_xpath": "substring(string(/article/body/p[1]),863,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),250,124)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),375,201)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),375,201)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,108)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),290,237)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),528,388)",
+                "containers_title": "",
+                "pl_string": "[19-21]",
+                "pl_xpath": "substring(string(/article/body/p[3]),724,7)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "R20",
+                "pl_string": "[19-21]",
+                "pl_xpath": "substring(string(/article/body/p[3]),724,7)",
+                "context_xpath": "substring(string(/article/body/p[3]),528,388)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[3]),528,388)",
+                "containers_title": "",
+                "pl_string": "[19-21]",
+                "pl_xpath": "substring(string(/article/body/p[3]),724,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[1]),1,273)",
+                "containers_title": [
+                    "METHODS",
+                    "Setting and intervention"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[1]),275,171)",
+                "containers_title": [
+                    "METHODS",
+                    "Setting and intervention"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[1]),530,198)",
+                "containers_title": [
+                    "METHODS",
+                    "Setting and intervention"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[2]),1,289)",
+                "containers_title": [
+                    "METHODS",
+                    "Setting and intervention"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[2]),398,338)",
+                "containers_title": [
+                    "METHODS",
+                    "Setting and intervention"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1,230)",
+                "containers_title": [
+                    "METHODS",
+                    "Outcomes framework and measures"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),232,259)",
+                "containers_title": [
+                    "METHODS",
+                    "Outcomes framework and measures"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[2]/p[1]),1157,121)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Qualitative interviews with national stakeholders (Adoption and Incorporation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[2]/p[2]),1,145)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Qualitative interviews with national stakeholders (Adoption and Incorporation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[2]/p[2]),1,145)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Qualitative interviews with national stakeholders (Adoption and Incorporation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "R30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[2]/p[2]),147,315)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Qualitative interviews with national stakeholders (Adoption and Incorporation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "R31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[2]/p[2]),463,107)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Qualitative interviews with national stakeholders (Adoption and Incorporation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[2]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[2]/p[2]),463,107)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Qualitative interviews with national stakeholders (Adoption and Incorporation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "R32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[4]/p),1245,85)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Facility readiness assessment (Implementation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "R33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/sec[5]/p),1,249)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources and analysis",
+                    "Health management information system data (Implementation)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),707,342)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,211)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,220)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,220)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,220)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "R35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),861,245)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1107,212)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1320,229)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "R36",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),222,188)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "R37",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),1097,229)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

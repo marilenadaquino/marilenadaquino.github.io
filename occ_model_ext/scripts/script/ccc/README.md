@@ -9,8 +9,9 @@
 ## TODO
 
 ### other
- * graphlib add annotations and control prefixes everywhere
+ * graphlib - add methods for annotations (hasBody and hasAnnotation) and control prefixes everywhere
  * refactor the URI patter for all the entities that need the prefix
+ * method for associating titles and sections
  * jats2oc.py - run again BEE to create rp_n in JSON that start from 1 and not 0
  * trick for json labels (part of/reference)
  * NOTE FOR Silvio: provided_url to be changed

@@ -1,0 +1,994 @@
+{
+    "references": [
+        {
+            "bibentry": "Lombard, V, Golaconda Ramulu, H, Drula, E, et al. The carbohydrate-active enzymes database (cazy) in 2013. Nucleic Acids Res 2014; 42: D490–5. PMID: 24270786",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gkt1178",
+            "pmid": "24270786",
+            "pmcid": "PMC3965031",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Moracci, M, Nucci, R, Febbraio, F, et al. Expression and extensive characterization of a beta-glycosidase from the extreme thermoacidophilic archaeon sulfolobus-solfataricus in Escherichia coli –authenticity of the recombinant enzyme. Enzyme Microb Technol 1995; 17: 992–7. PMID: 8541022",
+            "process_entry": "True",
+            "doi": "10.1016/0141-0229(95)00012-7",
+            "pmid": "8541022",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Tiwari, R, Kumar, K, Singh, S, et al. Molecular detection and environment-specific diversity of glycosyl hydrolase family 1 beta-glucosidase in different habitats. Front Microbiol 2016; 7:1597.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Halkier, BA, Gershenzon, J. Biology and biochemistry of glucosinolates. Annu Rev Plant Biol 2006; 57: 303–33. PMID: 16669764",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.arplant.57.032905.105228",
+            "pmid": "16669764",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Ugidos-Rodriguez, S, Matallana-Gonzalez, MC, Sanchez-Mata, MC. Lactose malabsorption and intolerance: a review. Food Funct 2018; 9: 4056–68. PMID: 29999504",
+            "process_entry": "True",
+            "doi": "10.1039/c8fo00555a",
+            "pmid": "29999504",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Mackenzie, LF, Wang, QP, Warren, RAJ, Withers, SG. Glycosynthases: mutant glycosidases for oligosaccharide synthesis. J Am Chem Soc 1998; 120: 5583–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Moracci, M, Trincone, A, Perugino, G, et al. Restoration of the activity of active-site mutants of the hyperthermophilic beta-glycosidase from sulfolobus solfataricus: dependence of the mechanism on the action of external nucleophiles. Biochemistry 1998; 37: 17262–70. PMID: 9860840",
+            "process_entry": "True",
+            "doi": "10.1021/bi981855f",
+            "pmid": "9860840",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Jahn, M, Marles, J, Warren, RAJ, Withers, SG. Thioglycoligases: mutant glycosidases for thioglycoside synthesis. Angew Chem Int Ed 2003; 42: 352.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Perugino, G, Trincone, A, Giordano, A, et al. Activity of hyperthermophilic glycosynthases is significantly enhanced at acidic ph. Biochemistry 2003; 42: 8484–93. PMID: 12859194",
+            "process_entry": "True",
+            "doi": "10.1021/bi0345384",
+            "pmid": "12859194",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Jahn, M, Chen, HM, Mullegger, J, et al. Thioglycosynthases: double mutant glycosidases that serve as scaffolds for thioglycoside synthesis. Chem Commun 2004; 3: 274–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Mullegger, J, Jahn, M, Chen, HM, et al. Engineering of a thioglycoligase: randomized mutagenesis of the acid-base residue leads to the identification of improved catalysts. Protein Eng Des Sel 2005; 18: 33–40. PMID: 15790578",
+            "process_entry": "True",
+            "doi": "10.1093/protein/gzi003",
+            "pmid": "15790578",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Drone, J, Feng, HY, Tellier, C, et al. Thermus thermophilus glycosynthases for the efficient synthesis of galactosyl and glucosyl beta-(1 -> 3)-glycosides. Eur J Org Chem 2005; 10: 1977–83.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Perugino, G, Falcicchio, P, Corsaro, MM, et al. Preparation of a glycosynthase from the beta-glycosidase of the hyperthermophilic archaeon pyrococcus horikoshii. Biocatal Biotransformation 2006; 24: 23–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Hommalai, G, Withers, SG, Chuenchor, W, et al. Enzymatic synthesis of cello-oligosaccharides by rice bglu1 beta-glucosidase glycosynthase mutants. Glycobiology 2007; 17: 744–53. PMID: 17405771",
+            "process_entry": "True",
+            "doi": "10.1093/glycob/cwm039",
+            "pmid": "17405771",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Cobucci-Ponzano, B, Strazzulli, A, Rossi, M, Moracci, M. Glycosynthases in biocatalysis. Adv Synth Catal 2011; 353: 2284–300.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Cobucci-Ponzano, B, Perugino, G, Strazzulli, A, et al. Thermophilic glycosynthases for oligosaccharides synthesis. Meth Enzymol 2012; 510: 273–300. PMID: 22608732",
+            "process_entry": "True",
+            "doi": "10.1016/b978-0-12-415931-0.00015-x",
+            "pmid": "22608732",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Koshland, DE. Stereochemistry and the mechanism of enzymatic reactions. Biol Rev 1953; 28: 416–36.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Burmeister, WP, Cottaz, S, Rollin, P, et al. High resolution x-ray crystallography shows that ascorbate is a cofactor for myrosinase and substitutes for the function of the catalytic base. J Biol Chem 2000; 275: 39385–93. PMID: 10978344",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m006796200",
+            "pmid": "10978344",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Davies, GJ, Wilson, KS, Henrissat, B. Nomenclature for sugar-binding subsites in glycosyl hydrolases. Biochem J 1997; 321: 557–9. PMID: 9020895",
+            "process_entry": "True",
+            "doi": "10.1042/bj3210557",
+            "pmid": "9020895",
+            "pmcid": "PMC1218105",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Withers, SG, Dombroski, D, Berven, LA, et al. Direct 1h n.M.R. determination of the stereochemical course of hydrolyses catalysed by glucanase components of the cellulase complex. Biochem Biophys Res Commun 1986; 139: 487–94. PMID: 3094517",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-291x(86)80017-1",
+            "pmid": "3094517",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Withers, SG, Warren, RAJ, Street, IP, et al. Unequivocal demonstration of the involvement of a glutamate residue as a nucleophile in the mechanism of a retaining glycosidase. J Am Chem Soc 1990; 112: 5887–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Wang, Q, Trimbur, D, Graham, R, et al. Identification of the acid/base catalyst in agrobacterium-faecalis beta-glucosidase by kinetic-analysis of mutants. Biochemistry 1995; 34: 14554–62. PMID: 7578061",
+            "process_entry": "True",
+            "doi": "10.1021/bi00044a034",
+            "pmid": "7578061",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Barrett, T, Suresh, CG, Tolley, SP, et al. The crystal structure of a cyanogenic beta-glucosidase from white clover, a family 1 glycosyl hydrolase. Structure 1995; 3: 951–60. PMID: 8535788",
+            "process_entry": "True",
+            "doi": "10.1016/s0969-2126(01)00229-5",
+            "pmid": "8535788",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Khan, S, Pozzo, T, Megyeri, M, et al. Aglycone specificity of thermotoga neapolitana β-glucosidase 1A modified by mutagenesis, leading to increased catalytic efficiency in quercetin-3-glucoside hydrolysis. BMC Biochem 2011; 12: 11. PMID: 21345211",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2091-12-11",
+            "pmid": "21345211",
+            "pmcid": "PMC3056771",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Hill, AD, Reilly, PJ. Computational analysis of glycoside hydrolase family 1 specificities. Biopolymers 2008; 89: 1021–31. PMID: 18615662",
+            "process_entry": "True",
+            "doi": "10.1002/bip.21052",
+            "pmid": "18615662",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Badieyan, S, Bevan, DR, Zhang, CM. Probing the active site chemistry of beta-glucosidases along the hydrolysis reaction pathway. Biochemistry 2012; 51: 8907–18. PMID: 23043218",
+            "process_entry": "True",
+            "doi": "10.1021/bi300675x",
+            "pmid": "23043218",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Czjzek, M, Cicek, M, Zamboni, V, et al. Crystal structure of a monocotyledon (maize zmglu1) beta-glucosidase and a model of its complex with p-nitrophenyl beta-d-thioglucoside. Biochem J 2001; 354: 37–46. PMID: 11171077",
+            "process_entry": "True",
+            "doi": "10.1042/0264-6021:3540037",
+            "pmid": "11171077",
+            "pmcid": "PMC1221626",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Schubert, M, Poon, DKY, Wicki, J, et al. Probing electrostatic interactions along the reaction pathway of a glycoside hydrolase: histidine characterization by nmr spectroscopy. Biochemistry 2007; 46: 7383–95. PMID: 17547373",
+            "process_entry": "True",
+            "doi": "10.1021/bi700249m",
+            "pmid": "17547373",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Moracci, M, Ciaramella, M, Nucci, R, et al. Thermostable beta-glycosidase from sulfolobus-solfataricus. Biocatalysis 1994; 11: 89–103.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Aguilar, CF, Sanderson, I, Moracci, M, et al. Crystal structure of the beta-glycosidase from the hyperthermophilic archeon sulfolobus solfataricus: resilience as a key factor in thermostability. J Mol Biol 1997; 271: 789–802. PMID: 9299327",
+            "process_entry": "True",
+            "doi": "10.1006/jmbi.1997.1215",
+            "pmid": "9299327",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Gloster, TM, Roberts, S, Ducros, VMA, et al. Structural studies of the beta-glycosidase from sulfolobus solfataricus in complex with covalently and noncovalently bound inhibitors. Biochemistry 2004; 43: 6101–9. PMID: 15147194",
+            "process_entry": "True",
+            "doi": "10.1021/bi049666m",
+            "pmid": "15147194",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Gloster, TM, Roberts, S, Perugino, G, et al. Structural, kinetic, and thermodynamic analysis of glucoimidazole-derived glycosidase inhibitors. Biochemistry 2006; 45: 11879–84. PMID: 17002288",
+            "process_entry": "True",
+            "doi": "10.1021/bi060973x",
+            "pmid": "17002288",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Moracci, M, Capalbo, L, Ciaramella, M, Rossi, M. Identification of two glutamic acid residues essential for catalysis in the beta-glycosidase from the thermoacidophilic archaeon sulfolobus solfataricus. Protein Eng 1996; 9: 1191–5. PMID: 9010932",
+            "process_entry": "True",
+            "doi": "10.1093/protein/9.12.1191",
+            "pmid": "9010932",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Bradford, MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 1976; 72: 248–54. PMID: 942051",
+            "process_entry": "True",
+            "doi": "10.1006/abio.1976.9999",
+            "pmid": "942051",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Leatherbarrow, RJ. Grafit. Staines, U.K: Erithacus Software Ltd; 1992.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Inoue, K, Kitahara, K, Aikawa, Y, et al. Hplc separation of all aldopentoses and aldohexoses on an anion-exchange stationary phase prepared from polystyrene-based copolymer and diamine: the effect of naoh eluent concentration. Molecules 2011; 16: 5905–15. PMID: 21760572",
+            "process_entry": "True",
+            "doi": "10.3390/molecules16075905",
+            "pmid": "21760572",
+            "pmcid": "PMC6264582",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Namchuk, MN, Withers, SG. Mechanism of agrobacterium beta-glucosidase: kinetic analysis of the role of noncovalent enzyme/substrate interactions. Biochemistry 1995; 34: 16194–202. PMID: 8519777",
+            "process_entry": "True",
+            "doi": "10.1021/bi00049a035",
+            "pmid": "8519777",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Ducros, VMA, Tarling, CA, Zechel, DL, et al. Anatomy of glycosynthesis: structure and kinetics of the humicola insolens cel7b e197a and e197s glycosynthase mutants. Chem Biol 2003; 10: 619–28. PMID: 12890535",
+            "process_entry": "True",
+            "doi": "10.1016/s1074-5521(03)00143-1",
+            "pmid": "12890535",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Shaikh, FA, Mullegger, J, He, S, Withers, SG. Identification of the catalytic nucleophile in family 42 beta-galactosidases by intermediate trapping and peptide mapping: Yesz from Bacillus subtilis. FEBS Lett 2007; 581: 2441–6. PMID: 17485082",
+            "process_entry": "True",
+            "doi": "10.1016/j.febslet.2007.04.053",
+            "pmid": "17485082",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Horovitz, A. Double-mutant cycles: a powerful tool for analyzing protein structure and function. Fold Des 1996; 1: R121–6. PMID: 9080186",
+            "process_entry": "True",
+            "doi": "10.1016/s1359-0278(96)00056-9",
+            "pmid": "9080186",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Carter, PJ, Winter, G, Wilkinson, AJ, Fersht, AR. The use of double mutants to detect structural changes in the active site of the tyrosyl-trna synthetase (bacillus stearothermophilus). Cell 1984; 38: 835–40. PMID: 6488318",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(84)90278-2",
+            "pmid": "6488318",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Fersht, AR, Matouschek, A, Serrano, L. The folding of an enzyme. I. Theory of protein engineering analysis of stability and pathway of protein folding. J Mol Biol 1992; 224: 771–82. PMID: 1569556",
+            "process_entry": "True",
+            "doi": "10.1016/0022-2836(92)90561-w",
+            "pmid": "1569556",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Roth, TA, Minasov, G, Morandi, S, et al. Thermodynamic cycle analysis and inhibitor design against beta-lactamase. Biochemistry 2003; 42: 14483–91. PMID: 14661960",
+            "process_entry": "True",
+            "doi": "10.1021/bi035054a",
+            "pmid": "14661960",
+            "xmlid": "CIT0043"
+        }
+    ],
+    "localid": "MED-31072150",
+    "doi": "10.1080/14756366.2019.1608198",
+    "pmid": "10.1080/14756366.2019.1608198",
+    "pmcid": "31072150",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31072150/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,339)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),342,298)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),642,263)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0006",
+                "rp_string": "6–16",
+                "pl_string": "6–16",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "6–16",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0006",
+                "rp_string": "6–16",
+                "pl_string": "6–16",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),907,248)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,86)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),89,254)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),345,267)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "20–25",
+                "pl_string": "20–25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "",
+                "pl_string": "20–25",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "",
+                "pl_string": "20–25",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "",
+                "pl_string": "20–25",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "",
+                "pl_string": "20–25",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "",
+                "pl_string": "20–25",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "20–25",
+                "pl_string": "20–25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,366)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),628,300)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),238,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0029",
+                "rp_string": "29–32",
+                "pl_string": "29–32",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),238,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "",
+                "pl_string": "29–32",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),238,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "",
+                "pl_string": "29–32",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),238,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "",
+                "pl_string": "29–32",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),238,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,156)",
+                "containers_title": [
+                    "Experimentals",
+                    "Site-directed mutagenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1,135)",
+                "containers_title": [
+                    "Experimentals",
+                    "Enzyme expression and purification"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),193,115)",
+                "containers_title": [
+                    "Experimentals",
+                    "Enzyme expression and purification"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1518,127)",
+                "containers_title": [
+                    "Experimentals",
+                    "Enzyme characterisation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1,70)",
+                "containers_title": [
+                    "Experimentals",
+                    "Inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,133)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of substrate-binding determinants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),136,389)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of substrate-binding determinants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),1,311)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of substrate-binding determinants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),457,215)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of substrate-binding determinants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),946,166)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of substrate-binding determinants"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),127,238)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),127,238)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),367,316)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[1]/p),1,15)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[2]/p),1,31)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),1,312)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),315,152)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[5]),760,203)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C4-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,264)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C2-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),187,131)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C2-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),618,189)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C2-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),1321,190)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Effect of H150 on C2-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0041",
+                "rp_string": "41–43",
+                "pl_string": "41–43",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,115)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Double-mutant cycles of H150 and the C2-OH"
+                ]
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "",
+                "pl_string": "41–43",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,115)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Double-mutant cycles of H150 and the C2-OH"
+                ]
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "",
+                "pl_string": "41–43",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,115)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Double-mutant cycles of H150 and the C2-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0041",
+                "rp_string": "41–43",
+                "pl_string": "41–43",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,115)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Double-mutant cycles of H150 and the C2-OH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[7]),1,130)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Double-mutant cycles of H150 and the C2-OH"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,831 @@
+{
+    "references": [
+        {
+            "bibentry": "Hooi, JKY, Lai, WY, Ng, WK, et al. Global prevalence of Helicobacter pylori infection: systematic review and meta-analysis. Gastroenterology 2017; 153: 420–9. PMID: 28456631",
+            "process_entry": "True",
+            "doi": "10.1053/j.gastro.2017.04.022",
+            "pmid": "28456631",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Take, S, Mizuno, M, Ishiki, K, et al. Seventeen-year effects of eradicating Helicobacter pylori on the prevention of gastric cancer in patients with peptic ulcer; a prospective cohort study. J Gastroenterol 2015; 50: 638–44. PMID: 25351555",
+            "process_entry": "True",
+            "doi": "10.1007/s00535-014-1004-5",
+            "pmid": "25351555",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Graham, DY. Helicobacter pylori update: gastric cancer, reliable therapy, and possible benefits. Gastroenterology 2015; 148: 719–31. PMID: 25655557",
+            "process_entry": "True",
+            "doi": "10.1053/j.gastro.2015.01.040",
+            "pmid": "25655557",
+            "pmcid": "PMC4375058",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Uemura, N, Okamoto, S, Yamamoto, S, et al. Helicobacter pylori infection and the development of gastric cancer. N Engl J Med 2001; 345: 784–9. PMID: 11556297",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa001999",
+            "pmid": "11556297",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Shiota, S, Reddy, R, Alsarraj, A, et al. Antibiotic resistance of Helicobacter pylori among male United States veterans. Clin Gastroenterol Hepatol 2015; 13: 1616–24. PMID: 25681693",
+            "process_entry": "True",
+            "doi": "10.1016/j.cgh.2015.02.005",
+            "pmid": "25681693",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Savoldi, A, Carrara, E, Graham, DY, et al. Prevalence of antibiotic resistance in Helicobacter pylori: a systematic review and meta-analysis in World Health Organization regions. Gastroenterology 2018; 155: 1372–82. PMID: 29990487",
+            "process_entry": "True",
+            "doi": "10.1053/j.gastro.2018.07.007",
+            "pmid": "29990487",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Marcus, EA, Scott, DR. Gastric colonization by H. pylori In: Kim, N, ed. Helicobacter pylori. Singapore: Springer; 2016: 23–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Eaton, KA, Krakowka, S. Effect of gastric pH on urease-dependent colonization of gnotobiotic piglets by Helicobacter pylori. Infect Immun 1994; 62: 3604–7. PMID: 8063376",
+            "process_entry": "True",
+            "pmid": "8063376",
+            "pmcid": "PMC303008",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Eaton, KA, Brooks, CL, Morgan, DR, Krakowka, S. Essential role of urease in pathogenesis of gastritis induced by Helicobacter pylori in gnotobiotic piglets. Infect Immun 1991; 59: 2470–5. PMID: 2050411",
+            "process_entry": "True",
+            "pmid": "2050411",
+            "pmcid": "PMC258033",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Sachs, G, Weeks, DL, Wen, Y, et al. Acid acclimation by Helicobacter pylori. Physiology 2005; 20: 429–38. PMID: 16287992",
+            "process_entry": "True",
+            "doi": "10.1152/physiol.00032.2005",
+            "pmid": "16287992",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Ronci, M, Del Prete, S, Puca, V, et al. Identification and characterization of the α-CA in the outer membrane vesicles produced by Helicobacter pylori. J Enzyme Inhib Med Chem 2019; 34: 189–95. PMID: 30734607",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1539716",
+            "pmid": "30734607",
+            "pmcid": "PMC6327981",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Nishimori, I, Minakuchi, T, Morimoto, K, et al. Carbonic anhydrase inhibitors: DNA cloning and inhibition studies of the alpha-carbonic anhydrase from Helicobacter pylori, a new target for developing sulfonamide and sulfamate gastric drugs. J Med Chem 2006; 49: 2117–26. PMID: 16539401",
+            "process_entry": "True",
+            "doi": "10.1021/jm0512600",
+            "pmid": "16539401",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Nishimori, I, Onishi, S, Takeuchi, H, Supuran, CT. The alpha and beta classes carbonic anhydrases from Helicobacter pylori as novel drug targets. Curr Pharm Des 2008; 14: 622–30. PMID: 18336307",
+            "process_entry": "True",
+            "doi": "10.2174/138161208783877875",
+            "pmid": "18336307",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Modak, JK, Modakh, JK, Liu, YC, et al. Structural basis for the inhibition of Helicobacter pylori α-carbonic anhydrase by sulfonamides. PLoS One 2015; 10: e0127149. PMID: 26010545",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0127149",
+            "pmid": "26010545",
+            "pmcid": "PMC4444264",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Modak, JK, Liu, YC, Supuran, CT, Roujeinikova, A. Structure-activity relationship for sulfonamide inhibition of Helicobacter pylori α-carbonic anhydrase. J Med Chem 2016; 59: 11098–109. PMID: 28002963",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b01333",
+            "pmid": "28002963",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Puscas, I, Buzas, G. Treatment of duodenal ulcers with ethoxzolamide, an inhibitor of gastric mucosa carbonic anhydrase. Int J Clin Pharmacol Ther Toxicol 1986; 24: 97–9. PMID: 3957499",
+            "process_entry": "True",
+            "pmid": "3957499",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Vălean, S, Vlaicu, R, Ionescu, I. Treatment of gastric ulcer with carbonic anhydrase inhibitors. Ann N Y Acad Sci 1984; 429: 597–600. PMID: 6588915",
+            "process_entry": "True",
+            "doi": "10.1111/j.1749-6632.1984.tb12394.x",
+            "pmid": "6588915",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Puscas, I. Treatment of gastroduodenal ulcers with carbonic anhydrase inhibitors. Ann N Y Acad Sci 1984; 429: 587–91. PMID: 6378030",
+            "process_entry": "True",
+            "doi": "10.1111/j.1749-6632.1984.tb12392.x",
+            "pmid": "6378030",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Graham, D, Lew, GM, Klein, D, et al. Effect of treatment of Helicobacter pylori infection on the long-term recurrence of gastric or duodenal ulcer. A randomized, controlled study. Ann Intern Med 1992; 116: 705–8. PMID: 1558340",
+            "process_entry": "True",
+            "doi": "10.7326/0003-4819-116-9-705",
+            "pmid": "1558340",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Haas, R, Meyer, TF, van Putten, JP. Aflagellated mutants of Helicobacter pylori generated by genetic transformation of naturally competent strains using transposon shuttle mutagenesis. Mol Microbiol 1993; 8: 753–60. PMID: 8332066",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.1993.tb01618.x",
+            "pmid": "8332066",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Akopyants, NS, Eaton, KA, Berg, DE. Adaptive mutation and cocolonization during Helicobacter pylori infection of gnotobiotic piglets. Infect Immun 1995; 63: 116–21. PMID: 7806346",
+            "process_entry": "True",
+            "pmid": "7806346",
+            "pmcid": "PMC172966",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Lee, A, O'Rourke, J, De Ungria, MC, et al. A standardized mouse model of Helicobacter pylori infection: introducing the Sydney strain. Gastroenterology 1997; 112: 1386–97. PMID: 9098027",
+            "process_entry": "True",
+            "doi": "10.1016/s0016-5085(97)70155-0",
+            "pmid": "9098027",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Alm, RA, Ling, LS, Moir, DT, et al. Genomic-sequence comparison of two unrelated isolates of the human gastric pathogen Helicobacter pylori. Nature 1999; 397: 176–80. PMID: 9923682",
+            "process_entry": "True",
+            "doi": "10.1038/16495",
+            "pmid": "9923682",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Clinical and Laboratory Standards Institute 2015 Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically. Approved standard, 10th ed, supplement M07-A10. Wayne, PA: Clinical and Laboratory Standards Institute.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Makobongo, MO, Kovachi, T, Gancz, H, et al. In vitro antibacterial activity of acyl-lysyl oligomers against Helicobacter pylori. Antimicrob Agents Chemother 2009; 53: 4231–9. PMID: 19620333",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.00510-09",
+            "pmid": "19620333",
+            "pmcid": "PMC2764229",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Clinical and Laboratory Standards Institute 2016 Methods for antimicrobial dilution and disk susceptibility testing of infrequently isolated or fastidious bacteria. 3rd ed CLSI guideline M45. Wayne, PA: Clinical and Laboratory Standards Institute.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Haas, CE, Nix, DE, Schentag, JJ. In vitro selection of resistant Helicobacter pylori. Antimicrob Agents Chemother 1990; 34: 1637–41. PMID: 2285275",
+            "process_entry": "True",
+            "doi": "10.1128/aac.34.9.1637",
+            "pmid": "2285275",
+            "pmcid": "PMC171897",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Wang, G, Wilson, TJ, Jiang, Q, Taylor, DE. Spontaneous mutations that confer antibiotic resistance in Helicobacter pylori. Antimicrob Agents Chemother 2001; 45: 727–33. PMID: 11181351",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.45.3.727-733.2001",
+            "pmid": "11181351",
+            "pmcid": "PMC90364",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Kulick, S, Moccia, C, Kraft, C, Suerbaum, S. The Helicobacter pylori mutY homologue HP0142 is an antimutator gene that prevents specific C to A transversions. Arch Microbiol 2008; 189: 263–70. PMID: 17989957",
+            "process_entry": "True",
+            "doi": "10.1007/s00203-007-0315-9",
+            "pmid": "17989957",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Quigley, EM, Turnberg, LA. pH of the microclimate lining human gastric and duodenal mucosa in vivo. Studies in control subjects and in duodenal ulcer patients. Gastroenterology 1987; 92: 1876–84. PMID: 3569763",
+            "process_entry": "True",
+            "doi": "10.1016/0016-5085(87)90619-6",
+            "pmid": "3569763",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Petschow, BW, Batema, RP, Ford, LL. Susceptibility of Helicobacter pylori to bactericidal properties of medium-chain monoglycerides and free fatty acids. Antimicrob Agents Chemother 1996; 40: 302–6. PMID: 8834870",
+            "process_entry": "True",
+            "doi": "10.1128/aac.40.2.302",
+            "pmid": "8834870",
+            "pmcid": "PMC163106",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Nishizawa, T, Suzuki, H. Mechanisms of Helicobacter pylori antibiotic resistance and molecular testing. Front Mol Biosci 2014; 1: 19. PMID: 25988160",
+            "process_entry": "True",
+            "doi": "10.3389/fmolb.2014.00019",
+            "pmid": "25988160",
+            "pmcid": "PMC4428472",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Kuo, CJ, Guo, RT, Lu, IL, et al. Structure-based inhibitors exhibit differential activities against Helicobacter pylori and Escherichia coli undecaprenyl pyrophosphate synthases. J Biomed Biotechnol 2008; 2008: 841312. PMID: 18382620",
+            "process_entry": "True",
+            "doi": "10.1155/2008/841312",
+            "pmid": "18382620",
+            "pmcid": "PMC2276626",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Maren, TH, Brechue, WF, Bar-Ilan, A. Relations among IOP reduction, ocular disposition and pharmacology of the carbonic anhydrase inhibitor ethoxzolamide. Exp Eye Res 1992; 55: 73–9. PMID: 1397133",
+            "process_entry": "True",
+            "doi": "10.1016/0014-4835(92)90094-9",
+            "pmid": "1397133",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Swenson, ER. Safety of carbonic anhydrase inhibitors. Expert Opin Drug Saf 2014; 13: 459–72. PMID: 24611470",
+            "process_entry": "True",
+            "doi": "10.1517/14740338.2014.897328",
+            "pmid": "24611470",
+            "xmlid": "CIT0035"
+        }
+    ],
+    "localid": "MED-31530039",
+    "doi": "10.1080/14756366.2019.1663416",
+    "pmid": "10.1080/14756366.2019.1663416",
+    "pmcid": "31530039",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31530039/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,122)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),124,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),124,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),263,82)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),440,81)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),522,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),105,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "pl_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),259,93)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "pl_string": "8–10",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),259,93)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "pl_string": "8–10",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),259,93)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "pl_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),259,93)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),713,115)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),829,208)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,370)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,370)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),372,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),589,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,92)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),94,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),242,128)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),556,415)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,156)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,156)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,156)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,156)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),786,112)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and culture conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1,82)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Determining minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),1,198)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Determining minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,198)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Isolation and characterisation of an H. pylori P12 mutant resistant to EZA"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),407,138)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Isolation and characterisation of an H. pylori P12 mutant resistant to EZA"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,120)",
+                "containers_title": [
+                    "Materials and methods",
+                    "MICs of commercial antibiotics against the EZA-resistant mutant and its WT parent"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),1,286)",
+                "containers_title": [
+                    "Results and discussion",
+                    "H. pylori growth inhibition by EZA, AAZ and MZA is time-, concentration- and pH-dependent"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),1,331)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Isolation and characterisation of H. pylori P12 mutant with decreased susceptibility to EZA"
+                ],
+                "pl_string": "Estimation of the frequency of spontaneous resistant mutants using a single selection step with 2 mM EZA yielded a value of <5 × 10−9, which is significantly lower than the previously reported frequencies of spontaneous mutations leading to H. pylori resistance to rifampicin (10−6)29, metronidazole, or tetracycline (10−5–10−6)31. This observation prompted us to determine whether the mutation(s) associated with resistance to EZA incurred a fitness cost. Indeed, MutE showed reduced growth in comparison to the parental strain (Figure 4); the doubling time of P12 WT was 5 h, whereas the doubling time of MutE was 6 h.",
+                "pl_xpath": "/article/body/sec[3]/sec[3]/p[2]"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),1,331)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Isolation and characterisation of H. pylori P12 mutant with decreased susceptibility to EZA"
+                ],
+                "pl_string": "Estimation of the frequency of spontaneous resistant mutants using a single selection step with 2 mM EZA yielded a value of <5 × 10−9, which is significantly lower than the previously reported frequencies of spontaneous mutations leading to H. pylori resistance to rifampicin (10−6)29, metronidazole, or tetracycline (10−5–10−6)31. This observation prompted us to determine whether the mutation(s) associated with resistance to EZA incurred a fitness cost. Indeed, MutE showed reduced growth in comparison to the parental strain (Figure 4); the doubling time of P12 WT was 5 h, whereas the doubling time of MutE was 6 h.",
+                "pl_xpath": "/article/body/sec[3]/sec[3]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0012",
+                "rp_string": "12–15",
+                "pl_string": "12–15",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0013",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0014",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0015",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0012",
+                "rp_string": "12–15",
+                "pl_string": "12–15",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0013",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0014",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0015",
+                "pl_string": "12–15",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),1,205)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[3]),228,154)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[3]),497,107)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Identification of genetic determinants linked to EZA resistance"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),843,250)",
+                "containers_title": [
+                    "Conclusion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),843,250)",
+                "containers_title": [
+                    "Conclusion"
+                ],
+                "pl_string": "(e.g. glaucoma34); its side effects are generally tolerable35, and its pharmacokinetic properties are well understood. Taken together, our findings suggest that developing EZA into a more effective anti-H. pylori agent may offer a faster and cost-effective route towards new antimicrobials with a novel mechanism of action, and that investigations of the in vivo antimicrobial action of this compound are warranted. A number of potential limitations to such approach need to be considered and addressed in follow-up studies. Activity of EZA against H. pylori is relatively weak in comparison to existing antibiotics, and a systematic structure-activity relationship study is needed to determine if it can serve as a starting point for a drug discovery programme. In addition, it was beyond the scope of this work to examine potential antimicrobial activity of EZA against other bacteria, which leaves open the question of specificity towards H. pylori.",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),975,951)"
+            }
+        ]
+    ]
+}

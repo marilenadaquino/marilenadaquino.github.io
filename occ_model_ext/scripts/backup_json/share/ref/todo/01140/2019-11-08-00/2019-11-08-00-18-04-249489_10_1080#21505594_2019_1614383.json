@@ -1,0 +1,4119 @@
+{
+    "references": [
+        {
+            "bibentry": "Brown, GD, Denning, DW, Gow, NA, et al. Hidden killers: human fungal infections. Sci Transl Med. 2012; 4: 165rv13.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Drgona, L, Khachatryan, A, Stephens, J, et al. Clinical and economic burden of invasive fungal diseases in Europe: focus on pre-emptive and empirical treatment of Aspergillus and Candida species. Eur J Clin Microbiol Infect Dis. 2014; 33: 7–21. PMID: 24026863",
+            "process_entry": "True",
+            "doi": "10.1007/s10096-013-1944-3",
+            "pmid": "24026863",
+            "pmcid": "PMC3892112",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Menzin, J, Meyers, JL, Friedman, M, et al. The economic costs to United States hospitals of invasive fungal infections in transplant patients. Am J Infect Control. 2011; 39: e15–20. PMID: 20961657",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajic.2010.06.009",
+            "pmid": "20961657",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Casadevall, A, Perfect, JR. Cryptococcus neoformans. Washington DC: ASM Press; 1998.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Heitman, J, Kozel, TR, Kwon-Chung, KJ, et al. Cryptococcus. From human pathogen to model yeast. Washington (DC): ASM Press; 2011.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Park, BI, Wannemuehler, KA, Marston, BJ, et al. Estimation of the current global burden of cryptococcal meningitis among persons living with HIV/AIDS. AIDS. 2009; 23: 525–530. PMID: 19182676",
+            "process_entry": "True",
+            "doi": "10.1097/qad.0b013e328322ffac",
+            "pmid": "19182676",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Rajasingham, R, Smith, RM, Park, BJ, et al. Global burden of disease of HIV-associated cryptococcal meningitis: an updated analysis. Lancet Infect Dis. 2017; 17: 873–881. PMID: 28483415",
+            "process_entry": "True",
+            "doi": "10.1016/S1473-3099(17)30243-8",
+            "pmid": "28483415",
+            "pmcid": "PMC5818156",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Martin, TR, Frevert, CW. Innate immunity in the lungs. Proc Am Thoracic Soc 2005; 2: 403–411.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Casadevall, A, Steenbergen, JN, Nosanchuk, JD. ‘Ready made‘ virulence and ‘dual use‘ virulence factors in pathogenic environmental fungi–the Cryptococcus neoformans paradigm. Curr Opin Microbiol. 2003; 6: 332–337. PMID: 12941400",
+            "process_entry": "True",
+            "doi": "10.1016/s1369-5274(03)00082-1",
+            "pmid": "12941400",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Littman, ML, Borok, R. Relation of the pigeon to cryptococcosis: natural carrier state, heat resistance and survival of Cryptococcus neoformans. Mycopathol Mycol Appl. 1968; 35: 329–345. PMID: 5696726",
+            "process_entry": "True",
+            "doi": "10.1007/bf02050749",
+            "pmid": "5696726",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Neilson, JB, Ivey, MH, Bulmer, GS. Cryptococcus neoformans: pseudohyphal forms surviving culture with acanthamoeba polyphaga. Infect Immun. 1978; 20: 262–266. PMID: 352931",
+            "process_entry": "True",
+            "pmid": "352931",
+            "pmcid": "PMC421581",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Steenbergen, JN, Shuman, HA, Casadevall, A. Cryptococcus neoformans interactions with amoebae suggest an explanation for its virulence and intracellular pathogenic strategy in macrophages. Proc Natl Acad Sci U S A. 2001; 98: 15245–15250. PMID: 11742090",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.261418798",
+            "pmid": "11742090",
+            "pmcid": "PMC65014",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Apidianakis, Y, Rahme, LG, Heitman, J, et al. Challenge of Drosophila melanogaster with Cryptococcus neoformans and role of the innate immune response. Eukaryot Cell. 2004; 3: 413–419. PMID: 15075271",
+            "process_entry": "True",
+            "doi": "10.1128/EC.3.2.413-419.2004",
+            "pmid": "15075271",
+            "pmcid": "PMC387633",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Mylonakis, E, Moreno, R, El Khoury, JB, et al. Galleria mellonella as a model system to study Cryptococcus neoformans pathogenesis. Infect Immun. 2005; 73: 3842–3850. PMID: 15972469",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.73.7.3842-3850.2005",
+            "pmid": "15972469",
+            "pmcid": "PMC1168598",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Warpeha, KM, Park, YD, Williamson, PR. Susceptibility of intact germinating Arabidopsis thaliana to human fungal pathogens Cryptococcus neoformans and C. gattii. Appl Environ Microbiol. 2013; 79: 2979–2988. PMID: 23435895",
+            "process_entry": "True",
+            "doi": "10.1128/AEM.03697-12",
+            "pmid": "23435895",
+            "pmcid": "PMC3623154",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Venn-Watson, S, Daniels, R, Smith, C. Thirty year retrospective evaluation of pneumonia in a bottlenose dolphin Tursiops truncatus population. Dis Aquat Organ. 2012; 99: 237–242. PMID: 22832722",
+            "process_entry": "True",
+            "doi": "10.3354/dao02471",
+            "pmid": "22832722",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Malik, R, Martin, P, Wigney, DI, et al. Nasopharyngeal cryptococcosis. Aust Vet J. 1997; 75: 483–488. PMID: 9258419",
+            "process_entry": "True",
+            "doi": "10.1111/j.1751-0813.1997.tb14377.x",
+            "pmid": "9258419",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Steenbergen, JN, Casadevall, A. The origin and maintenance of virulence for the human pathogenic fungus Cryptococcus neoformans. Microbes Infect. 2003; 5: 667–675. PMID: 12787743",
+            "process_entry": "True",
+            "doi": "10.1016/s1286-4579(03)00092-3",
+            "pmid": "12787743",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Casadevall, A. Amoeba provide insight into the origin of virulence in pathogenic fungi. Adv Exp Med Biol. 2012; 710: 1–10. PMID: 22127880",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4419-5638-5_1",
+            "pmid": "22127880",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Velagapudi, R, Hsueh, YP, Geunes-Boyer, S, et al. Spores as infectious propagules of Cryptococcus neoformans. Infect Immun. 2009; 77: 4345–4355. PMID: 19620339",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00542-09",
+            "pmid": "19620339",
+            "pmcid": "PMC2747963",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Giles, SS, Dagenais, TR, Botts, MR, et al. Elucidating the pathogenesis of spores from the human fungal pathogen Cryptococcus neoformans. Infect Immun. 2009; 77: 3491–3500. PMID: 19451235",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00334-09",
+            "pmid": "19451235",
+            "pmcid": "PMC2715683",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Botts, MR, Hull, CM. Dueling in the lung: how Cryptococcus spores race the host for survival. Curr Opin Microbiol. 2010; 13: 437–442. PMID: 20570552",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2010.05.003",
+            "pmid": "20570552",
+            "pmcid": "PMC2920366",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Esher, SK, Zaragoza, O, Alspaugh, JA. Cryptococcal pathogenic mechanisms: a dangerous trip from the environment to the brain. Mem Inst Oswaldo Cruz. 2018; 113: e180057. PMID: 29668825",
+            "process_entry": "True",
+            "doi": "10.1590/0074-02760180057",
+            "pmid": "29668825",
+            "pmcid": "PMC5909089",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Kronstad, J, Saikia, S, Nielson, ED, et al. Adaptation of Cryptococcus neoformans to mammalian hosts: integrated regulation of metabolism and virulence. Eukaryot Cell. 2012; 11: 109–118. PMID: 22140231",
+            "process_entry": "True",
+            "doi": "10.1128/EC.05273-11",
+            "pmid": "22140231",
+            "pmcid": "PMC3272904",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Kozubowski, L, Lee, SC, Heitman, J. Signalling pathways in the pathogenesis of Cryptococcus. Cell Microbiol. 2009; 11: 370–380. PMID: 19170685",
+            "process_entry": "True",
+            "doi": "10.1111/j.1462-5822.2008.01273.x",
+            "pmid": "19170685",
+            "pmcid": "PMC3310389",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Robert, VA, Casadevall, A. Vertebrate endothermy restricts most fungi as potential pathogens. J Infect Dis. 2009; 200: 1623–1626. PMID: 19827944",
+            "process_entry": "True",
+            "doi": "10.1086/644642",
+            "pmid": "19827944",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Bergman, A, Casadevall, A. Mammalian endothermy optimally restricts fungi and metabolic costs. MBio. 2010; 1: e00212–10. PMID: 21060737",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00212-10",
+            "pmid": "21060737",
+            "pmcid": "PMC2975364",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Petzold, EW, Himmelreich, U, Mylonakis, E, et al. Characterization and regulation of the trehalose synthesis pathway and its importance in the pathogenicity of Cryptococcus neoformans. Infect Immun. 2006; 74: 5877–5887. PMID: 16988267",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00624-06",
+            "pmid": "16988267",
+            "pmcid": "PMC1594924",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Giles, SS, Batinic-Haberle, I, Perfect, JR, et al. Cryptococcus neoformans mitochondrial superoxide dismutase: an essential link between antioxidant function and high-temperature growth. Eukaryot Cell. 2005; 4: 46–54. PMID: 15643059",
+            "process_entry": "True",
+            "doi": "10.1128/EC.4.1.46-54.2005",
+            "pmid": "15643059",
+            "pmcid": "PMC544162",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Kraus, PR, Fox, DS, Cox, GM, et al. The Cryptococcus neoformans MAP kinase Mpk1 regulates cell integrity in response to antifungal drugs and loss of calcineurin function. Mol Microbiol. 2003; 48: 1377–1387. PMID: 12787363",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2003.03508.x",
+            "pmid": "12787363",
+            "pmcid": "PMC1635492",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Alspaugh, JA, Cavallo, LM, Perfect, JR, et al. RAS1 regulates filamentation, mating and growth at high temperature of Cryptococcus neoformans. Mol Microbiol. 2000; 36: 352–365. PMID: 10792722",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2000.01852.x",
+            "pmid": "10792722",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Gerwien, F, Skrahina, V, Kasper, L, et al. Metals in fungal virulence. FEMS Microbiol Rev. 2018; 42:1–21. doi:ARTN fux050.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Kronstad, JW, Hu, G, Jung, WH. An encapsulation of iron homeostasis and virulence in Cryptococcus neoformans. Trends Microbiol. 2013; 21: 457–465. PMID: 23810126",
+            "process_entry": "True",
+            "doi": "10.1016/j.tim.2013.05.007",
+            "pmid": "23810126",
+            "pmcid": "PMC3769505",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Bairwa, G, Hee Jung, W, Kronstad, JW. Iron acquisition in fungal pathogens of humans. Metallomics. 2017; 9: 215–227. PMID: 28217776",
+            "process_entry": "True",
+            "doi": "10.1039/c6mt00301j",
+            "pmid": "28217776",
+            "pmcid": "PMC5734051",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Saikia, S, Oliveira, D, Hu, G, et al. Role of ferric reductases in iron acquisition and virulence in the fungal pathogen Cryptococcus neoformans. Infect Immun. 2014; 82: 839–850. PMID: 24478097",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01357-13",
+            "pmid": "24478097",
+            "pmcid": "PMC3911385",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Cadieux, B, Lian, T, Hu, G, et al. The mannoprotein cig1 supports iron acquisition from heme and virulence in the pathogenic fungus Cryptococcus neoformans. J Infect Dis. 2013; 207: 1339–1347. PMID: 23322859",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/jit029",
+            "pmid": "23322859",
+            "pmcid": "PMC3603535",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Selvig, K, Alspaugh, JA. pH response pathways in fungi: adapting to host-derived and environmental signals. Mycobiology. 2011; 39: 249–256. PMID: 22783112",
+            "process_entry": "True",
+            "doi": "10.5941/MYCO.2011.39.4.249",
+            "pmid": "22783112",
+            "pmcid": "PMC3385132",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Ost, KS, O‘Meara, TR, Huda, N, et al. The Cryptococcus neoformans alkaline response pathway: identification of a novel rim pathway activator. PLoS Genet. 2015; 11: e1005159. PMID: 25859664",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1005159",
+            "pmid": "25859664",
+            "pmcid": "PMC4393102",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "O‘Meara, TR, Holmer, SM, Selvig, K, et al. Cryptococcus neoformans rim101 is associated with cell wall remodeling and evasion of the host immune responses. MBio. 2013; 4: e00522–12. PMID: 23322637",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00522-12",
+            "pmid": "23322637",
+            "pmcid": "PMC3551547",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "O‘Meara, TR, Norton, D, Price, MS, et al. Interaction of Cryptococcus neoformans rim101 and protein kinase A regulates capsule. PLoS Pathog. 2010; 6: e1000776. PMID: 20174553",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1000776",
+            "pmid": "20174553",
+            "pmcid": "PMC2824755",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Ost, KS, Esher, SK, Leopold Wager, CM, et al. Rim pathway-mediated alterations in the fungal cell wall influence immune recognition and inflammation. MBio. 2017; 8: e02290–16. PMID: 28143983",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.02290-16",
+            "pmid": "28143983",
+            "pmcid": "PMC5285508",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Missall, TA, Cherry-Harris, JF, Lodge, JK. Two glutathione peroxidases in the fungal pathogen Cryptococcus neoformans are expressed in the presence of specific substrates. Microbiology. 2005; 151: 2573–2581. PMID: 16079336",
+            "process_entry": "True",
+            "doi": "10.1099/mic.0.28132-0",
+            "pmid": "16079336",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Missall, TA, Lodge, JK. Function of the thioredoxin proteins in Cryptococcus neoformans during stress or virulence and regulation by putative transcriptional modulators. Mol Microbiol. 2005; 57: 847–858. PMID: 16045626",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2005.04735.x",
+            "pmid": "16045626",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Missall, TA, Moran, JM, Corbett, JA, et al. Distinct stress responses of two functional laccases in Cryptococcus neoformans are revealed in the absence of the thiol-specific antioxidant Tsa1. Eukaryot Cell. 2005; 4: 202–208. PMID: 15643075",
+            "process_entry": "True",
+            "doi": "10.1128/EC.4.1.202-208.2005",
+            "pmid": "15643075",
+            "pmcid": "PMC544170",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Chaturvedi, V, Wong, B, Newman, SL. Oxidative killing of Cryptococcus neoformans by human neutrophils. evidence that fungal mannitol protects by scavenging reactive oxygen intermediates. J Immunol. 1996; 156: 3836–3840. PMID: 8621921",
+            "process_entry": "True",
+            "pmid": "8621921",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Brown, SM, Upadhya, R, Shoemaker, JD, et al. Isocitrate dehydrogenase is important for nitrosative stress resistance in Cryptococcus neoformans, but oxidative stress resistance is not dependent on glucose-6-phosphate dehydrogenase. Eukaryot Cell. 2010; 9: 971–980. PMID: 20400467",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00271-09",
+            "pmid": "20400467",
+            "pmcid": "PMC2901651",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Chow, ED, Liu, OW, O‘Brien, S, et al. Exploration of whole-genome responses of the human AIDS-associated yeast pathogen Cryptococcus neoformans var grubii: nitric oxide stress and body temperature. Curr Genet. 2007; 52: 137–148. PMID: 17661046",
+            "process_entry": "True",
+            "doi": "10.1007/s00294-007-0147-9",
+            "pmid": "17661046",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "de Jesus-Berrios, M, Liu, L, Nussbaum, JC, et al. Enzymes that counteract nitrosative stress promote fungal virulence. Curr Biol. 2003; 13: 1963–1968. PMID: 14614821",
+            "process_entry": "True",
+            "doi": "10.1016/j.cub.2003.10.029",
+            "pmid": "14614821",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Pirofski, LA, Casadevall, A. What is infectiveness and how is it involved in infection and immunity? BMC Immunol. 2015; 16: 13. PMID: 25887484",
+            "process_entry": "True",
+            "doi": "10.1186/s12865-015-0076-1",
+            "pmid": "25887484",
+            "pmcid": "PMC4374184",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Schaller, M, Borelli, C, Korting, HC, et al. Hydrolytic enzymes as virulence factors of Candida albicans. Mycoses. 2005; 48: 365–377. PMID: 16262871",
+            "process_entry": "True",
+            "doi": "10.1111/j.1439-0507.2005.01165.x",
+            "pmid": "16262871",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Singh, G, Singh, G, Jadeja, D, et al. Lipid hydrolizing enzymes in virulence: Mycobacterium tuberculosis as a model system. Crit Rev Microbiol. 2010; 36: 259–269. PMID: 20500016",
+            "process_entry": "True",
+            "doi": "10.3109/1040841x.2010.482923",
+            "pmid": "20500016",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Toth, R, Toth, A, Vagvolgyi, C, et al. Candida parapsilosis secreted lipase as an important virulence factor. Curr Protein Pept Sci. 2017; 18: 1043–1049. PMID: 27526931",
+            "process_entry": "True",
+            "doi": "10.2174/1389203717666160813163054",
+            "pmid": "27526931",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Zimmer, BL, Roberts, GD. Rapid selective urease test for presumptive identification of Cryptococcus neoformans. J Clin Microbiol. 1979; 10: 380–381. PMID: 385622",
+            "process_entry": "True",
+            "pmid": "385622",
+            "pmcid": "PMC273173",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Fu, MS, Coelho, C, De Leon-Rodriguez, CM, et al. Cryptococcus neoformans urease affects the outcome of intracellular pathogenesis by modulating phagolysosomal pH. PLoS Pathog. 2018; 14: e1007144. PMID: 29906292",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1007144",
+            "pmid": "29906292",
+            "pmcid": "PMC6021110",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Cox, GM, Mukherjee, J, Cole, GT, et al. Urease as a virulence factor in experimental cryptococcosis. Infect Immun. 2000; 68: 443–448. PMID: 10639402",
+            "process_entry": "True",
+            "doi": "10.1128/iai.68.2.443-448.2000",
+            "pmid": "10639402",
+            "pmcid": "PMC97161",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Olszewski, MA, Noverr, MC, Chen, GH, et al. Urease expression by Cryptococcus neoformans promotes microvascular sequestration, thereby enhancing central nervous system invasion. Am J Pathol. 2004; 164: 1761–1771. PMID: 15111322",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9440(10)63734-0",
+            "pmid": "15111322",
+            "pmcid": "PMC1615675",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Taylor-Robinson, SD, Jackson, N, Buckley, C. Helicobacter pylori, ammonia and the brain. Gut. 1997; 40: 805–806. PMID: 9245939",
+            "process_entry": "True",
+            "doi": "10.1136/gut.40.6.805",
+            "pmid": "9245939",
+            "pmcid": "PMC1027211",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Singh, A, Panting, RJ, Varma, A, et al. Factors required for activation of urease as a virulence determinant in Cryptococcus neoformans. MBio. 2013; 4: e00220–13. PMID: 23653445",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00220-13",
+            "pmid": "23653445",
+            "pmcid": "PMC3663189",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Cherniak, R, Jones, RG, Reiss, E. Structure determination of Cryptococcus neoformans serotype A-variant glucuronoxylomannan by 13C-n.m.r. spectroscopy. Carbohydr Res. 1988; 172: 113–138. PMID: 3280130",
+            "process_entry": "True",
+            "doi": "10.1016/s0008-6215(00)90846-2",
+            "pmid": "3280130",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "Murphy, JW, Mosley, RL, Cherniak, R, et al. Serological, electrophoretic, and biological properties of Cryptococcus neoformans antigens. Infect Immun. 1988; 56: 424–431. PMID: 3123390",
+            "process_entry": "True",
+            "pmid": "3123390",
+            "pmcid": "PMC259299",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "Cherniak, R, Reiss, E, Turner, S. A galactoxylomannan antigen of Cryptococcus neoformans serotype A. Carbohydr Res. 1982; 103: 239–250.",
+            "process_entry": "True",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Heiss, C, Klutts, JS, Wang, Z, et al. The structure of Cryptococcus neoformans galactoxylomannan contains beta-D-glucuronic acid. Carbohydr Res. 2009; 344: 915–920. PMID: 19345342",
+            "process_entry": "True",
+            "doi": "10.1016/j.carres.2009.03.00",
+            "pmid": "19345342",
+            "pmcid": "PMC2695399",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Murphy, JW. Influence of cryptococcal antigens on cell-mediated immunity. Rev Infect Dis. 1988; 10(Suppl 2): S432–5. PMID: 2973118",
+            "process_entry": "True",
+            "doi": "10.1093/cid/10.supplement_2.s432",
+            "pmid": "2973118",
+            "xmlid": "CIT0063"
+        },
+        {
+            "bibentry": "Vartivarian, SE, Reyes, GH, Jacobson, ES, et al. Localization of mannoprotein in Cryptococcus neoformans. J Bacteriol. 1989; 171: 6850–6852. PMID: 2687257",
+            "process_entry": "True",
+            "doi": "10.1128/jb.171.12.6850-6852.1989",
+            "pmid": "2687257",
+            "pmcid": "PMC210586",
+            "xmlid": "CIT0064"
+        },
+        {
+            "bibentry": "Rodrigues, ML, Alvarez, M, Fonseca, FL, et al. Binding of the wheat germ lectin to Cryptococcus neoformans suggests an association of chitinlike structures with yeast budding and capsular glucuronoxylomannan. Eukaryot Cell. 2008; 7: 602–609. PMID: 18039942",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00307-07",
+            "pmid": "18039942",
+            "pmcid": "PMC2292635",
+            "xmlid": "CIT0065"
+        },
+        {
+            "bibentry": "Pierini, LM, Doering, TL. Spatial and temporal sequence of capsule construction in Cryptococcus neoformans. Mol Microbiol. 2001; 41: 105–115. PMID: 11454204",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2001.02504.x",
+            "pmid": "11454204",
+            "xmlid": "CIT0066"
+        },
+        {
+            "bibentry": "Frases, S, Pontes, B, Nimrichter, L, et al. Capsule of Cryptococcus neoformans grows by enlargement of polysaccharide molecules. Proc Natl Acad Sci U S A. 2009; 106: 1228–1233. PMID: 19164571",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0808995106",
+            "pmid": "19164571",
+            "pmcid": "PMC2633523",
+            "xmlid": "CIT0067"
+        },
+        {
+            "bibentry": "Zaragoza, O, Rodrigues, ML, De Jesus, M, et al. The capsule of the fungal pathogen Cryptococcus neoformans. Adv Appl Microbiol. 2009; 68: 133–216. PMID: 19426855",
+            "process_entry": "True",
+            "doi": "10.1016/S0065-2164(09)01204-0",
+            "pmid": "19426855",
+            "pmcid": "PMC2739887",
+            "xmlid": "CIT0068"
+        },
+        {
+            "bibentry": "O‘Meara, TR, Alspaugh, JA. The Cryptococcus neoformans capsule: a sword and a shield. Clin Microbiol Rev. 2012; 25: 387–408. PMID: 22763631",
+            "process_entry": "True",
+            "doi": "10.1128/CMR.00001-12",
+            "pmid": "22763631",
+            "pmcid": "PMC3416491",
+            "xmlid": "CIT0069"
+        },
+        {
+            "bibentry": "Doering, TL. How does Cryptococcus get its coat? Trends Microbiol. 2000; 8: 547–553. PMID: 11115750",
+            "process_entry": "True",
+            "doi": "10.1016/s0966-842x(00)01890-4",
+            "pmid": "11115750",
+            "xmlid": "CIT0070"
+        },
+        {
+            "bibentry": "Doering, TL. How sweet it is! Cell wall biogenesis and polysaccharide capsule formation in Cryptococcus neoformans. Annu Rev Microbiol. 2009; 63: 223–247. PMID: 19575556",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.micro.62.081307.162753",
+            "pmid": "19575556",
+            "pmcid": "PMC2880894",
+            "xmlid": "CIT0071"
+        },
+        {
+            "bibentry": "Wang, ZA, Li, LX, Doering, TL. Unraveling synthesis of the cryptococcal cell wall and capsule. Glycobiology. 2018; 28: 719–730. PMID: 29648596",
+            "process_entry": "True",
+            "doi": "10.1093/glycob/cwy030",
+            "pmid": "29648596",
+            "pmcid": "PMC6142866",
+            "xmlid": "CIT0072"
+        },
+        {
+            "bibentry": "Ding, H, Mayer, FL, Sanchez-Leon, E, et al. Networks of fibers and factors: regulation of capsule formation in Cryptococcus neoformans. F1000Res. 2016; 5.",
+            "process_entry": "True",
+            "xmlid": "CIT0073"
+        },
+        {
+            "bibentry": "Agustinho, DP, Miller, LC, Li, LX, et al. Peeling the onion: the outer layers of Cryptococcus neoformans. Mem Inst Oswaldo Cruz. 2018; 113: e180040. PMID: 29742198",
+            "process_entry": "True",
+            "doi": "10.1590/0074-02760180040",
+            "pmid": "29742198",
+            "pmcid": "PMC5951675",
+            "xmlid": "CIT0074"
+        },
+        {
+            "bibentry": "Casadevall, A, Coelho, C, Cordero, RJB, et al. The capsule of Cryptococcus neoformans. Virulence. 2018; 1–10.",
+            "process_entry": "True",
+            "xmlid": "CIT0075"
+        },
+        {
+            "bibentry": "Rodrigues, ML, Casadevall, A, Zaragoza, O. The architecture and antigenic composition of the polysaccharide capsule In, Heitman, J, Kozel, TR, Kwon-Chung, KJ, et al, editors. Cryptococcus from human pathogen to model yeast. Washington (D.C): ASM Press; 2011 p. 43–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0076"
+        },
+        {
+            "bibentry": "Rodrigues, ML, Nimrichter, L, Oliveira, DL, et al. Vesicular polysaccharide export in Cryptococcus neoformans is a eukaryotic solution to the problem of fungal trans-cell wall transport. Eukaryot Cell. 2007; 6: 48–59. PMID: 17114598",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00318-06",
+            "pmid": "17114598",
+            "pmcid": "PMC1800364",
+            "xmlid": "CIT0077"
+        },
+        {
+            "bibentry": "Nimrichter, L, de Souza, MM, Del Poeta, M, et al. Extracellular vesicle-associated transitory cell wall components and their impact on the interaction of fungi with host cells. Front Microbiol. 2016; 7: 1034. PMID: 27458437",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2016.01034",
+            "pmid": "27458437",
+            "pmcid": "PMC4937017",
+            "xmlid": "CIT0078"
+        },
+        {
+            "bibentry": "Oliveira, DL, Freire-de-Lima, CG, Nosanchuk, JD, et al. Extracellular vesicles from Cryptococcus neoformans modulate macrophage functions. Infect Immun. 2010; 78: 1601–1609. PMID: 20145096",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01171-09",
+            "pmid": "20145096",
+            "pmcid": "PMC2849392",
+            "xmlid": "CIT0079"
+        },
+        {
+            "bibentry": "Chang, YC, Kwon-Chung, KJ. Complementation of a capsule-deficient mutation of Cryptococcus neoformans restores its virulence. Mol Cell Biol. 1994; 14: 4912–4919. PMID: 8007987",
+            "process_entry": "True",
+            "doi": "10.1128/mcb.14.7.4912",
+            "pmid": "8007987",
+            "pmcid": "PMC358863",
+            "xmlid": "CIT0080"
+        },
+        {
+            "bibentry": "Kozel, TR, Gotschlich, EC. The capsule of Cryptococcus neoformans passively inhibits phagocytosis of the yeast by macrophages. J Immunol. 1982; 129: 1675–1680. PMID: 7050244",
+            "process_entry": "True",
+            "pmid": "7050244",
+            "xmlid": "CIT0081"
+        },
+        {
+            "bibentry": "Kozel, TR, Mastroianni, RP. Inhibition of phagocytosis by cryptococcal polysaccharide: dissociation of the attachment and ingestion phases of phagocytosis. Infect Immun. 1976; 14: 62–67. PMID: 780279",
+            "process_entry": "True",
+            "pmid": "780279",
+            "pmcid": "PMC420844",
+            "xmlid": "CIT0082"
+        },
+        {
+            "bibentry": "Aksenov, SI, Babyeva, IP, Golubev, VI. On the mechanism of adaptation of micro-organisms to conditions of extreme low humidity. Life Sci Space Res. 1973; 11: 55–61. PMID: 12523380",
+            "process_entry": "True",
+            "pmid": "12523380",
+            "xmlid": "CIT0083"
+        },
+        {
+            "bibentry": "Zaragoza, O, Chrisman, CJ, Castelli, MV, et al. Capsule enlargement in Cryptococcus neoformans confers resistance to oxidative stress suggesting a mechanism for intracellular survival. Cell Microbiol. 2008; 10: 2043–2057. PMID: 18554313",
+            "process_entry": "True",
+            "doi": "10.1111/j.1462-5822.2008.01186.x",
+            "pmid": "18554313",
+            "pmcid": "PMC4405381",
+            "xmlid": "CIT0084"
+        },
+        {
+            "bibentry": "Cordero, RJ, Frases, S, Guimaraes, AJ, et al. Evidence for branching in cryptococcal capsular polysaccharides and consequences on its biological activity. Mol Microbiol. 2011; 79: 1101–1117. PMID: 21208301",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2010.07511.x",
+            "pmid": "21208301",
+            "pmcid": "PMC3035750",
+            "xmlid": "CIT0085"
+        },
+        {
+            "bibentry": "Vecchiarelli, A, Pericolini, E, Gabrielli, E, et al. Elucidating the immunological function of the Cryptococcus neoformans capsule. Future Microbiol. 2013; 8: 1107–1116. PMID: 24020739",
+            "process_entry": "True",
+            "doi": "10.2217/fmb.13.84",
+            "pmid": "24020739",
+            "xmlid": "CIT0086"
+        },
+        {
+            "bibentry": "Vecchiarelli, A. Immunoregulation by capsular components of Cryptococcus neoformans. Med Mycol. 2000; 38: 407–417. PMID: 11204878",
+            "process_entry": "True",
+            "doi": "10.1080/mmy.38.6.407.417",
+            "pmid": "11204878",
+            "xmlid": "CIT0087"
+        },
+        {
+            "bibentry": "Dong, ZM, Murphy, JW. Mobility of human neutrophils in response to Cryptococcus neoformans cells, culture filtrate antigen, and individual components of the antigen. Infect Immun. 1993; 61: 5067–5077. PMID: 8225584",
+            "process_entry": "True",
+            "pmid": "8225584",
+            "pmcid": "PMC281285",
+            "xmlid": "CIT0088"
+        },
+        {
+            "bibentry": "Dong, ZM, Murphy, JW. Cryptococcal polysaccharides induce L-selectin shedding and tumor necrosis factor receptor loss from the surface of human neutrophils. J Clin Invest. 1996; 97: 689–698. PMID: 8609224",
+            "process_entry": "True",
+            "doi": "10.1172/jci118466",
+            "pmid": "8609224",
+            "pmcid": "PMC507105",
+            "xmlid": "CIT0089"
+        },
+        {
+            "bibentry": "Ellerbroek, PM, Hoepelman, AI, Wolbers, F, et al. Cryptococcal glucuronoxylomannan inhibits adhesion of neutrophils to stimulated endothelium in vitro by affecting both neutrophils and endothelial cells. Infect Immun. 2002; 70: 4762–4771. PMID: 12183517",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.70.9.4762-4771.2002",
+            "pmid": "12183517",
+            "pmcid": "PMC128235",
+            "xmlid": "CIT0090"
+        },
+        {
+            "bibentry": "Ellerbroek, PM, Ulfman, LH, Hoepelman, AI, et al. Cryptococcal glucuronoxylomannan interferes with neutrophil rolling on the endothelium. Cell Microbiol. 2004; 6: 581–592. PMID: 15104598",
+            "process_entry": "True",
+            "doi": "10.1111/j.1462-5822.2004.00384.x",
+            "pmid": "15104598",
+            "xmlid": "CIT0091"
+        },
+        {
+            "bibentry": "Dong, ZM, Murphy, JW. Cryptococcal polysaccharides bind to CD18 on human neutrophils. Infect Immun. 1997; 65: 557–563. PMID: 9009313",
+            "process_entry": "True",
+            "pmid": "9009313",
+            "pmcid": "PMC176096",
+            "xmlid": "CIT0092"
+        },
+        {
+            "bibentry": "Blackstock, R, Hall, NK. Non-specific immunosuppression by Cryptococcus neoformans infection. Mycopathologia. 1984; 86: 35–43. PMID: 6234468",
+            "process_entry": "True",
+            "doi": "10.1007/bf00437227",
+            "pmid": "6234468",
+            "xmlid": "CIT0093"
+        },
+        {
+            "bibentry": "Murphy, JW, Cozad, GC. Immunological unresponsiveness induced by cryptococcal capsular polysaccharide assayed by the hemolytic plaque technique. Infect Immun. 1972; 5: 896–901. PMID: 4564405",
+            "process_entry": "True",
+            "pmid": "4564405",
+            "pmcid": "PMC422459",
+            "xmlid": "CIT0094"
+        },
+        {
+            "bibentry": "Vecchiarelli, A, Pericolini, E, Gabrielli, E, et al. Cryptococcus neoformans galactoxylomannan is a potent negative immunomodulator, inspiring new approaches in anti-inflammatory immunotherapy. Immunotherapy. 2011; 3: 997–1005. PMID: 21843086",
+            "process_entry": "True",
+            "doi": "10.2217/imt.11.86",
+            "pmid": "21843086",
+            "xmlid": "CIT0095"
+        },
+        {
+            "bibentry": "Blackstock, R. Cryptococcal capsular polysaccharide utilizes an antigen-presenting cell to induce a T-suppressor cell to secrete TsF. J Med Vet Mycol. 1996; 34: 19–30. PMID: 8786467",
+            "process_entry": "True",
+            "doi": "10.1080/02681219680000041",
+            "pmid": "8786467",
+            "xmlid": "CIT0096"
+        },
+        {
+            "bibentry": "Blackstock, R, Casadevall, A. Presentation of cryptococcal capsular polysaccharide (GXM) on activated antigen-presenting cells inhibits the T-suppressor response and enhances delayed-type hypersensitivity and survival. Immunology. 1997; 92: 334–339. PMID: 9486105",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2567.1997.00357.x",
+            "pmid": "9486105",
+            "xmlid": "CIT0097"
+        },
+        {
+            "bibentry": "Vecchiarelli, A. The cellular responses induced by the capsular polysaccharide of Cryptococcus neoformans differ depending on the presence or absence of specific protective antibodies. Curr Mol Med. 2005; 5: 413–420. PMID: 15977997",
+            "process_entry": "True",
+            "doi": "10.2174/1566524054022585",
+            "pmid": "15977997",
+            "xmlid": "CIT0098"
+        },
+        {
+            "bibentry": "Chiapello, LS, Baronetti, JL, Aoki, MP, et al. Immunosuppression, interleukin-10 synthesis and apoptosis are induced in rats inoculated with Cryptococcus neoformans glucuronoxylomannan. Immunology. 2004; 113: 392–400. PMID: 15500627",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2567.2004.01970.x",
+            "pmid": "15500627",
+            "xmlid": "CIT0099"
+        },
+        {
+            "bibentry": "De Jesus, M, Nicola, AM, Frases, S, et al. Galactoxylomannan-mediated immunological paralysis results from specific B cell depletion in the context of widespread immune system damage. J Immunol. 2009; 183: 3885–3894. PMID: 19684080",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.0900449",
+            "pmid": "19684080",
+            "pmcid": "PMC2737596",
+            "xmlid": "CIT0100"
+        },
+        {
+            "bibentry": "Chiapello, LS, Baronetti, JL, Garro, AP, et al. Cryptococcus neoformans glucuronoxylomannan induces macrophage apoptosis mediated by nitric oxide in a caspase-independent pathway. Int Immunol. 2008; 20: 1527–1541. PMID: 18927317",
+            "process_entry": "True",
+            "doi": "10.1093/intimm/dxn112",
+            "pmid": "18927317",
+            "xmlid": "CIT0101"
+        },
+        {
+            "bibentry": "Monari, C, Pericolini, E, Bistoni, G, et al. Cryptococcus neoformans capsular glucuronoxylomannan induces expression of fas ligand in macrophages. J Immunol. 2005; 174: 3461–3468. PMID: 15749881",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.174.6.3461",
+            "pmid": "15749881",
+            "xmlid": "CIT0102"
+        },
+        {
+            "bibentry": "Villena, SN, Pinheiro, RO, Pinheiro, CS, et al. Capsular polysaccharides galactoxylomannan and glucuronoxylomannan from Cryptococcus neoformans induce macrophage apoptosis mediated by Fas ligand. Cell Microbiol. 2008; 10: 1274–1285. PMID: 18284419",
+            "process_entry": "True",
+            "doi": "10.1111/j.1462-5822.2008.01125.x",
+            "pmid": "18284419",
+            "xmlid": "CIT0103"
+        },
+        {
+            "bibentry": "Geunes-Boyer, S, Beers, MF, Perfect, JR, et al. Surfactant protein D facilitates Cryptococcus neoformans infection. Infect Immun. 2012; 80: 2444–2453. PMID: 22547543",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.05613-11",
+            "pmid": "22547543",
+            "pmcid": "PMC3416458",
+            "xmlid": "CIT0104"
+        },
+        {
+            "bibentry": "Holmer, SM, Evans, KS, Asfaw, YG, et al. Impact of surfactant protein D, interleukin-5, and eosinophilia on Cryptococcosis. Infect Immun. 2014; 82: 683–693. PMID: 24478083",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00855-13",
+            "pmid": "24478083",
+            "pmcid": "PMC3911392",
+            "xmlid": "CIT0105"
+        },
+        {
+            "bibentry": "Chaskes, S, Tyndall, RL. Pigment production by Cryptococcus neoformans and other Cryptococcus species from aminophenols and diaminobenzenes. J Clin Microbiol. 1978; 7: 146–152. PMID: 344335",
+            "process_entry": "True",
+            "pmid": "344335",
+            "pmcid": "PMC274883",
+            "xmlid": "CIT0106"
+        },
+        {
+            "bibentry": "Nurudeen, TA, Ahearn, DG. Regulation of melanin production by Cryptococcus neoformans. J Clin Microbiol. 1979; 10: 724–729. PMID: 44517",
+            "process_entry": "True",
+            "pmid": "44517",
+            "pmcid": "PMC273255",
+            "xmlid": "CIT0107"
+        },
+        {
+            "bibentry": "Pukkila-Worley, R, Gerrald, QD, Kraus, PR, et al. Transcriptional network of multiple capsule and melanin genes governed by the Cryptococcus neoformans cyclic AMP cascade. Eukaryot Cell. 2005; 4: 190–201. PMID: 15643074",
+            "process_entry": "True",
+            "doi": "10.1128/EC.4.1.190-201.2005",
+            "pmid": "15643074",
+            "pmcid": "PMC544166",
+            "xmlid": "CIT0108"
+        },
+        {
+            "bibentry": "Kwon-Chung, KJ, Polacheck, I, Popkin, TJ. Melanin-lacking mutants of Cryptococcus neoformans and their virulence for mice. J Bacteriol. 1982; 150: 1414–1421. PMID: 6804444",
+            "process_entry": "True",
+            "pmid": "6804444",
+            "pmcid": "PMC216368",
+            "xmlid": "CIT0109"
+        },
+        {
+            "bibentry": "Salas, SD, Bennett, JE, Kwon-Chung, KJ, et al. Effect of the laccase gene CNLAC1, on virulence of Cryptococcus neoformans. J Exp Med. 1996; 184: 377–386. PMID: 8760791",
+            "process_entry": "True",
+            "doi": "10.1084/jem.184.2.377",
+            "pmid": "8760791",
+            "pmcid": "PMC2192698",
+            "xmlid": "CIT0110"
+        },
+        {
+            "bibentry": "Rosas, AL, Casadevall, A. Melanization affects susceptibility of Cryptococcus neoformans to heat and cold. FEMS Microbiol Lett. 1997; 153: 265–272. PMID: 9271852",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-6968.1997.tb12584.x",
+            "pmid": "9271852",
+            "xmlid": "CIT0111"
+        },
+        {
+            "bibentry": "Wang, Y, Casadevall, A. Decreased susceptibility of melanized Cryptococcus neoformans to UV light. Appl Environ Microbiol. 1994; 60: 3864–3866. PMID: 7986054",
+            "process_entry": "True",
+            "pmid": "7986054",
+            "pmcid": "PMC201897",
+            "xmlid": "CIT0112"
+        },
+        {
+            "bibentry": "Nosanchuk, JD, Casadevall, A. Impact of melanin on microbial virulence and clinical resistance to antimicrobial compounds. Antimicrob Agents Chemother. 2006; 50: 3519–3528. PMID: 17065617",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.00545-06",
+            "pmid": "17065617",
+            "pmcid": "PMC1635213",
+            "xmlid": "CIT0113"
+        },
+        {
+            "bibentry": "Wang, Y, Casadevall, A. Growth of Cryptococcus neoformans in presence of L-Dopa decreases its susceptibility to amphotericin B. Antimicrob Agents Chemother. 1994; 38: 2648–2650. PMID: 7872761",
+            "process_entry": "True",
+            "doi": "10.1128/aac.38.11.2648",
+            "pmid": "7872761",
+            "pmcid": "PMC188256",
+            "xmlid": "CIT0114"
+        },
+        {
+            "bibentry": "van Duin, D, Casadevall, A, Nosanchuk, JD. Melanization of Cryptococcus neoformans and Histoplasma capsulatum reduces their susceptibilities to amphotericin B and caspofungin. Antimicrob Agents Chemother. 2002; 46: 3394–3400. PMID: 12384341",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.46.11.3394-3400.2002",
+            "pmid": "12384341",
+            "pmcid": "PMC128748",
+            "xmlid": "CIT0115"
+        },
+        {
+            "bibentry": "Cordero, RJB, Robert, V, Cardinali, G, et al. Impact of yeast pigmentation on heat capture and latitudinal distribution. Curr Biol. 2018; 28: 2657–64 e3. PMID: 30078567",
+            "process_entry": "True",
+            "doi": "10.1016/j.cub.2018.06.034",
+            "pmid": "30078567",
+            "pmcid": "PMC6245944",
+            "xmlid": "CIT0116"
+        },
+        {
+            "bibentry": "Noverr, MC, Williamson, PR, Fajardo, RS, et al. CNLAC1 is required for extrapulmonary dissemination of Cryptococcus neoformans but not pulmonary persistence. Infect Immun. 2004; 72: 1693–1699. PMID: 14977977",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.72.3.1693-1699.2004",
+            "pmid": "14977977",
+            "pmcid": "PMC356011",
+            "xmlid": "CIT0117"
+        },
+        {
+            "bibentry": "Mednick, AJ, Nosanchuk, JD, Casadevall, A. Melanization of Cryptococcus neoformans affects lung inflammatory responses during cryptococcal infection. Infect Immun. 2005; 73: 2012–2019. PMID: 15784542",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.73.4.2012-2019.2005",
+            "pmid": "15784542",
+            "pmcid": "PMC1087470",
+            "xmlid": "CIT0118"
+        },
+        {
+            "bibentry": "Liu, L, Tewari, RP, Williamson, PR. Laccase protects Cryptococcus neoformans from antifungal activity of alveolar macrophages. Infect Immun. 1999; 67: 6034–6039. PMID: 10531264",
+            "process_entry": "True",
+            "pmid": "10531264",
+            "pmcid": "PMC96990",
+            "xmlid": "CIT0119"
+        },
+        {
+            "bibentry": "Rosas, AL, MacGill, RS, Nosanchuk, JD, et al. Activation of the alternative complement pathway by fungal melanins. Clin Diagn Lab Immunol. 2002; 9: 144–148. PMID: 11777844",
+            "process_entry": "True",
+            "doi": "10.1128/CDLI.9.1.144-148.2002",
+            "pmid": "11777844",
+            "pmcid": "PMC119864",
+            "xmlid": "CIT0120"
+        },
+        {
+            "bibentry": "Diamond, RD, Bennett, JE. Growth of Cryptococcus neoformans within human macrophages in vitro. Infect Immun. 1973; 7: 231–236. PMID: 4697791",
+            "process_entry": "True",
+            "pmid": "4697791",
+            "pmcid": "PMC422665",
+            "xmlid": "CIT0121"
+        },
+        {
+            "bibentry": "Tucker, SC, Casadevall, A. Replication of Cryptococcus neoformans in macrophages is accompanied by phagosomal permeabilization and accumulation of vesicles containing polysaccharide in the cytoplasm. Proc Natl Acad Sci U S A. 2002; 99: 3165–3170. PMID: 11880650",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.052702799",
+            "pmid": "11880650",
+            "pmcid": "PMC122490",
+            "xmlid": "CIT0122"
+        },
+        {
+            "bibentry": "Smith, LM, Dixon, EF, May, RC. The fungal pathogen Cryptococcus neoformans manipulates macrophage phagosome maturation. Cell Microbiol. 2015; 17: 702–713. PMID: 25394938",
+            "process_entry": "True",
+            "doi": "10.1111/cmi.12394",
+            "pmid": "25394938",
+            "xmlid": "CIT0123"
+        },
+        {
+            "bibentry": "De Leon-Rodriguez, CM, Rossi, DCP, Fu, MS, et al. The outcome of the Cryptococcus neoformans-macrophage interaction depends on phagolysosomal membrane integrity. J Immunol. 2018; 201: 583–603. PMID: 29858266",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.1700958",
+            "pmid": "29858266",
+            "pmcid": "PMC6245949",
+            "xmlid": "CIT0124"
+        },
+        {
+            "bibentry": "Ma, H, Croudace, JE, Lammas, DA, et al. Expulsion of live pathogenic yeast by macrophages. Curr Biol. 2006; 16: 2156–2160. PMID: 17084701",
+            "process_entry": "True",
+            "doi": "10.1016/j.cub.2006.09.032",
+            "pmid": "17084701",
+            "xmlid": "CIT0125"
+        },
+        {
+            "bibentry": "Alvarez, M, Casadevall, A. Phagosome extrusion and host-cell survival after Cryptococcus neoformans phagocytosis by macrophages. Curr Biol. 2006; 16: 2161–2165. PMID: 17084702",
+            "process_entry": "True",
+            "doi": "10.1016/j.cub.2006.09.061",
+            "pmid": "17084702",
+            "xmlid": "CIT0126"
+        },
+        {
+            "bibentry": "Alvarez, M, Casadevall, A. Cell-to-cell spread and massive vacuole formation after Cryptococcus neoformans infection of murine macrophages. BMC Immunol. 2007; 8: 16. PMID: 17705844",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2172-8-16",
+            "pmid": "17705844",
+            "pmcid": "PMC1988836",
+            "xmlid": "CIT0127"
+        },
+        {
+            "bibentry": "Ma, H, Croudace, JE, Lammas, DA, et al. Direct cell-to-cell spread of a pathogenic yeast. BMC Immunol. 2007; 8: 15. PMID: 17705831",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2172-8-15",
+            "pmid": "17705831",
+            "pmcid": "PMC1976318",
+            "xmlid": "CIT0128"
+        },
+        {
+            "bibentry": "McFadden, D, Zaragoza, O, Casadevall, A. The capsular dynamics of Cryptococcus neoformans. Trends Microbiol. 2006; 14: 497–505. PMID: 16996739",
+            "process_entry": "True",
+            "doi": "10.1016/j.tim.2006.09.003",
+            "pmid": "16996739",
+            "xmlid": "CIT0129"
+        },
+        {
+            "bibentry": "Zaragoza, O. Multiple disguises for the same party: the concepts of morphogenesis and phenotypic variations in Cryptococcus neoformans. Front Microbiol. 2011; 2: 181. PMID: 21922016",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2011.00181",
+            "pmid": "21922016",
+            "pmcid": "PMC3167222",
+            "xmlid": "CIT0130"
+        },
+        {
+            "bibentry": "Vartivarian, SE, Anaissie, EJ, Cowart, RE, et al. Regulation of cryptococcal capsular polysaccharide by iron. J Infect Dis. 1993; 167: 186–190. PMID: 8418165",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/167.1.186",
+            "pmid": "8418165",
+            "xmlid": "CIT0131"
+        },
+        {
+            "bibentry": "Granger, DL, Perfect, JR, Durack, DT. Virulence of Cryptococcus neoformans. regulation of capsule synthesis by carbon dioxide. J Clin Invest. 1985; 76: 508–516. PMID: 3928681",
+            "process_entry": "True",
+            "doi": "10.1172/jci112000",
+            "pmid": "3928681",
+            "pmcid": "PMC423853",
+            "xmlid": "CIT0132"
+        },
+        {
+            "bibentry": "Zaragoza, O, Fries, BC, Casadevall, A. Induction of capsule growth in Cryptococcus neoformans by mammalian serum and CO(2). Infect Immun. 2003; 71: 6155–6164. PMID: 14573631",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.71.11.6155-6164.2003",
+            "pmid": "14573631",
+            "pmcid": "PMC219591",
+            "xmlid": "CIT0133"
+        },
+        {
+            "bibentry": "Zaragoza, O, Casadevall, A. Experimental modulation of capsule size in Cryptococcus neoformans. Biol Proced Online. 2004; 6: 10–15. PMID: 15103395",
+            "process_entry": "True",
+            "doi": "10.1251/bpo68",
+            "pmid": "15103395",
+            "pmcid": "PMC389900",
+            "xmlid": "CIT0134"
+        },
+        {
+            "bibentry": "Feldmesser, M, Kress, Y, Casadevall, A. Dynamic changes in the morphology of Cryptococcus neoformans during murine pulmonary infection. Microbiology. 2001; 147: 2355–2365. PMID: 11496012",
+            "process_entry": "True",
+            "doi": "10.1099/00221287-147-8-2355",
+            "pmid": "11496012",
+            "xmlid": "CIT0135"
+        },
+        {
+            "bibentry": "Chrisman, CJ, Albuquerque, P, Guimaraes, AJ, et al. Phospholipids trigger C ryptococcus neoformans capsular enlargement during interactions with amoebae and macrophages. PLoS Pathog. 2011; 7: e1002047. PMID: 21637814",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1002047",
+            "pmid": "21637814",
+            "pmcid": "PMC3102711",
+            "xmlid": "CIT0136"
+        },
+        {
+            "bibentry": "Garcia-Rodas, R, Casadevall, A, Rodriguez-Tudela, JL, et al. Cryptococcus neoformans capsular enlargement and cellular gigantism during Galleria mellonella infection. PLoS One. 2011; 6: e24485. PMID: 21915338",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0024485",
+            "pmid": "21915338",
+            "pmcid": "PMC3168503",
+            "xmlid": "CIT0137"
+        },
+        {
+            "bibentry": "Zaragoza, O, Taborda, CP, Casadevall, A. The efficacy of complement-mediated phagocytosis of Cryptococcus neoformans is dependent on the location of C3 in the polysaccharide capsule and involves both direct and indirect C3-mediated interactions. Euro J Immnunol. 2003; 33: 1957–1967.",
+            "process_entry": "True",
+            "xmlid": "CIT0138"
+        },
+        {
+            "bibentry": "Robertson, EJ, Najjuka, G, Rolfes, MA, et al. Cryptococcus neoformans ex vivo capsule size is associated with intracranial pressure and host immune response in HIV-associated cryptococcal meningitis. J Infect Dis. 2014; 209: 74–82. PMID: 23945372",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/jit435",
+            "pmid": "23945372",
+            "pmcid": "PMC3864387",
+            "xmlid": "CIT0139"
+        },
+        {
+            "bibentry": "McFadden, DC, Fries, BC, Wang, F, et al. Capsule structural heterogeneity and antigenic variation in Cryptococcus neoformans. Eukaryot Cell. 2007; 6: 1464–1473. PMID: 17601878",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00162-07",
+            "pmid": "17601878",
+            "pmcid": "PMC1951120",
+            "xmlid": "CIT0140"
+        },
+        {
+            "bibentry": "Charlier, C, Chretien, F, Baudrimont, M, et al. Capsule structure changes associated with Cryptococcus neoformans crossing of the blood-brain barrier. Am J Pathol. 2005; 166: 421–432. PMID: 15681826",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9440(10)62265-1",
+            "pmid": "15681826",
+            "pmcid": "PMC1602336",
+            "xmlid": "CIT0141"
+        },
+        {
+            "bibentry": "Gates, MA, Thorkildson, P, Kozel, TR. Molecular architecture of the Cryptococcus neoformans capsule. Mol Microbiol. 2004; 52: 13–24. PMID: 15049807",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2003.03957.x",
+            "pmid": "15049807",
+            "xmlid": "CIT0142"
+        },
+        {
+            "bibentry": "Maxson, ME, Dadachova, E, Casadevall, A, et al. Radial mass density, charge, and epitope distribution in the Cryptococcus neoformans capsule. Eukaryot Cell. 2007; 6: 95–109. PMID: 17114596",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00306-06",
+            "pmid": "17114596",
+            "pmcid": "PMC1800357",
+            "xmlid": "CIT0143"
+        },
+        {
+            "bibentry": "Romani, L, Bistoni, F, Puccetti, P. Adaptation of Candida albicans to the host environment: the role of morphogenesis in virulence and survival in mammalian hosts. Curr Opin Microbiol. 2003; 6: 338–343. PMID: 12941401",
+            "process_entry": "True",
+            "doi": "10.1016/s1369-5274(03)00081-x",
+            "pmid": "12941401",
+            "xmlid": "CIT0144"
+        },
+        {
+            "bibentry": "San-Blas, G, Travassos, LR, Fries, BC, et al. Fungal morphogenesis and virulence. Med Mycol. 2000; 38(Suppl 1): 79–86. PMID: 11204167",
+            "process_entry": "True",
+            "doi": "10.1080/mmy.38.s1.79.86",
+            "pmid": "11204167",
+            "xmlid": "CIT0145"
+        },
+        {
+            "bibentry": "Trevijano-Contador, N, Rueda, C, Zaragoza, O. Fungal morphogenetic changes inside the mammalian host. Semin Cell Dev Biol. 2016; 57: 100–109. PMID: 27101887",
+            "process_entry": "True",
+            "doi": "10.1016/j.semcdb.2016.04.008",
+            "pmid": "27101887",
+            "xmlid": "CIT0146"
+        },
+        {
+            "bibentry": "Lee, SC, Phadke, S, Sun, S, et al. Pseudohyphal growth of Cryptococcus neoformans is a reversible dimorphic transition in response to ammonium that requires Amt1 and Amt2 ammonium permeases. Eukaryot Cell. 2012; 11: 1391–1398. PMID: 23002105",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00242-12",
+            "pmid": "23002105",
+            "pmcid": "PMC3486016",
+            "xmlid": "CIT0147"
+        },
+        {
+            "bibentry": "Lin, J, Idnurm, A, Lin, X. Morphology and its underlying genetic regulation impact the interaction between Cryptococcus neoformans and its hosts. Med Mycol. 2015; 53: 493–504. PMID: 25841056",
+            "process_entry": "True",
+            "doi": "10.1093/mmy/myv012",
+            "pmid": "25841056",
+            "pmcid": "PMC4577057",
+            "xmlid": "CIT0148"
+        },
+        {
+            "bibentry": "Okagaki, LH, Strain, AK, Nielsen, JN, et al. Cryptococcal cell morphology affects host cell interactions and pathogenicity. PLoS Pathog. 2010; 6: e1000953. PMID: 20585559",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1000953",
+            "pmid": "20585559",
+            "pmcid": "PMC2887476",
+            "xmlid": "CIT0149"
+        },
+        {
+            "bibentry": "Zaragoza, O, Garcia-Rodas, R, Nosanchuk, JD, et al. Fungal cell gigantism during mammalian infection. PLoS Pathog. 2010; 6: e1000945. PMID: 20585557",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1000945",
+            "pmid": "20585557",
+            "pmcid": "PMC2887474",
+            "xmlid": "CIT0150"
+        },
+        {
+            "bibentry": "Zaragoza, O, Nielsen, K. Titan cells in Cryptococcus neoformans: cells with a giant impact. Curr Opin Microbiol. 2013; 16: 409–413. PMID: 23588027",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2013.03.006",
+            "pmid": "23588027",
+            "pmcid": "PMC3723695",
+            "xmlid": "CIT0151"
+        },
+        {
+            "bibentry": "Okagaki, LH, Nielsen, K. Titan cells confer protection from phagocytosis in Cryptococcus neoformans infections. Eukaryot Cell. 2012; 11: 820–826. PMID: 22544904",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00121-12",
+            "pmid": "22544904",
+            "pmcid": "PMC3370461",
+            "xmlid": "CIT0152"
+        },
+        {
+            "bibentry": "Gerstein, AC, Fu, MS, Mukaremera, L, et al. Polyploid titan cells produce haploid and aneuploid progeny to promote stress adaptation. MBio. 2015; 6: e01340–15. PMID: 26463162",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.01340-15",
+            "pmid": "26463162",
+            "pmcid": "PMC4620463",
+            "xmlid": "CIT0153"
+        },
+        {
+            "bibentry": "Crabtree, JN, Okagaki, LH, Wiesner, DL, et al. Titan cell production enhances the virulence of Cryptococcus neoformans. Infect Immun. 2012; 80: 3776–3785. PMID: 22890995",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00507-12",
+            "pmid": "22890995",
+            "pmcid": "PMC3486048",
+            "xmlid": "CIT0154"
+        },
+        {
+            "bibentry": "Garcia-Barbazan, I, Trevijano-Contador, N, Rueda, C, et al. The formation of titan cells in Cryptococcus neoformans depends on the mouse strain and correlates with induction of Th2-type responses. Cell Microbiol. 2016; 18: 111–124. PMID: 26243235",
+            "process_entry": "True",
+            "doi": "10.1111/cmi.12488",
+            "pmid": "26243235",
+            "xmlid": "CIT0155"
+        },
+        {
+            "bibentry": "Hommel, B, Mukaremera, L, Cordero, RJB, et al. Titan cells formation in Cryptococcus neoformans is finely tuned by environmental conditions and modulated by positive and negative genetic regulators. PLoS Pathog. 2018; 14: e1006982. PMID: 29775480",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1006982",
+            "pmid": "29775480",
+            "pmcid": "PMC5959062",
+            "xmlid": "CIT0156"
+        },
+        {
+            "bibentry": "Trevijano-Contador, N, de Oliveira, HC, Garcia-Rodas, R, et al. Cryptococcus neoformans can form titan-like cells in vitro in response to multiple signals. PLoS Pathog. 2018; 14: e1007007. PMID: 29775477",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1007007",
+            "pmid": "29775477",
+            "pmcid": "PMC5959073",
+            "xmlid": "CIT0157"
+        },
+        {
+            "bibentry": "Dambuza, IM, Drake, T, Chapuis, A, et al. The Cryptococcus neoformans titan cell is an inducible and regulated morphotype underlying pathogenesis. PLoS Pathog. 2018; 14: e1006978. PMID: 29775474",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1006978",
+            "pmid": "29775474",
+            "pmcid": "PMC5959070",
+            "xmlid": "CIT0158"
+        },
+        {
+            "bibentry": "Homer, CM, Summers, DK, Goranov, AI, et al. Intracellular action of a secreted peptide required for fungal virulence. Cell Host Microbe. 2016; 19: 849–864. PMID: 27212659",
+            "process_entry": "True",
+            "doi": "10.1016/j.chom.2016.05.001",
+            "pmid": "27212659",
+            "pmcid": "PMC5186401",
+            "xmlid": "CIT0159"
+        },
+        {
+            "bibentry": "Lee, H, Chang, YC, Nardone, G, et al. TUP1 disruption in Cryptococcus neoformans uncovers a peptide-mediated density-dependent growth phenomenon that mimics quorum sensing. Mol Microbiol. 2007; 64: 591–601. PMID: 17462010",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2007.05666.x",
+            "pmid": "17462010",
+            "xmlid": "CIT0160"
+        },
+        {
+            "bibentry": "Okagaki, LH, Wang, Y, Ballou, ER, et al. Cryptococcal titan cell formation is regulated by G-protein signaling in response to multiple stimuli. Eukaryot Cell. 2011 Epub ahead of print",
+            "process_entry": "True",
+            "xmlid": "CIT0161"
+        },
+        {
+            "bibentry": "Choi, J, Vogl, AW, Kronstad, JW. Regulated expression of cyclic AMP-dependent protein kinase A reveals an influence on cell size and the secretion of virulence factors in Cryptococcus neoformans. Mol Microbiol. 2012; 85: 700–715. PMID: 22717009",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2012.08134.x",
+            "pmid": "22717009",
+            "xmlid": "CIT0162"
+        },
+        {
+            "bibentry": "Tseng, HK, Huang, TY, Wu, AY, et al. How Cryptococcus interacts with the blood-brain barrier. Future Microbiol. 2015; 10: 1669–1682. PMID: 26437710",
+            "process_entry": "True",
+            "doi": "10.2217/fmb.15.83",
+            "pmid": "26437710",
+            "xmlid": "CIT0163"
+        },
+        {
+            "bibentry": "Colombo, AC, Rodrigues, ML. Fungal colonization of the brain: anatomopathological aspects of neurological cryptococcosis. An Acad Bras Cienc. 2015; 87: 1293–1309. PMID: 26247147",
+            "process_entry": "True",
+            "doi": "10.1590/0001-3765201520140704",
+            "pmid": "26247147",
+            "xmlid": "CIT0164"
+        },
+        {
+            "bibentry": "Chen, SH, Stins, MF, Huang, SH, et al. Cryptococcus neoformans induces alterations in the cytoskeleton of human brain microvascular endothelial cells. J Med Microbiol. 2003; 52: 961–970. PMID: 14532340",
+            "process_entry": "True",
+            "doi": "10.1099/jmm.0.05230-0",
+            "pmid": "14532340",
+            "xmlid": "CIT0165"
+        },
+        {
+            "bibentry": "Shi, M, Colarusso, P, Mody, CH. Real-time in vivo imaging of fungal migration to the central nervous system. Cell Microbiol. 2012; 14: 1819–1827. PMID: 22966777",
+            "process_entry": "True",
+            "doi": "10.1111/cmi.12027",
+            "pmid": "22966777",
+            "xmlid": "CIT0166"
+        },
+        {
+            "bibentry": "Jong, A, Wu, CH, Shackleford, GM, et al. Involvement of human CD44 during Cryptococcus neoformans infection of brain microvascular endothelial cells. Cell Microbiol. 2008; 10: 1313–1326. PMID: 18248627",
+            "process_entry": "True",
+            "doi": "10.1111/j.1462-5822.2008.01128.x",
+            "pmid": "18248627",
+            "xmlid": "CIT0167"
+        },
+        {
+            "bibentry": "Vu, K, Eigenheer, RA, Phinney, BS, et al. Cryptococcus neoformans promotes its transmigration into the central nervous system by inducing molecular and cellular changes in brain endothelial cells. Infect Immun. 2013; 81: 3139–3147. PMID: 23774597",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00554-13",
+            "pmid": "23774597",
+            "pmcid": "PMC3754227",
+            "xmlid": "CIT0168"
+        },
+        {
+            "bibentry": "Liu, TB, Kim, JC, Wang, Y, et al. Brain inositol is a novel stimulator for promoting Cryptococcus penetration of the blood-brain barrier. PLoS Pathog. 2013; 9: e1003247. PMID: 23592982",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1003247",
+            "pmid": "23592982",
+            "pmcid": "PMC3617100",
+            "xmlid": "CIT0169"
+        },
+        {
+            "bibentry": "Santangelo, R, Zoellner, H, Sorrell, T, et al. Role of extracellular phospholipases and mononuclear phagocytes in dissemination of cryptococcosis in a murine model. Infect Immun. 2004; 72: 2229–2239. PMID: 15039347",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.72.4.2229-2239.2004",
+            "pmid": "15039347",
+            "pmcid": "PMC375158",
+            "xmlid": "CIT0170"
+        },
+        {
+            "bibentry": "Na Pombejra, S, Salemi, M, Phinney, BS, et al. The metalloprotease, Mpr1, engages annexinA2 to promote the transcytosis of fungal cells across the blood-brain barrier. Front Cell Infect Microbiol. 2017; 7: 296. PMID: 28713781",
+            "process_entry": "True",
+            "doi": "10.3389/fcimb.2017.00296",
+            "pmid": "28713781",
+            "pmcid": "PMC5492700",
+            "xmlid": "CIT0171"
+        },
+        {
+            "bibentry": "Charlier, C, Nielsen, K, Daou, S, et al. Evidence for a role of monocytes in dissemination and brain invasion by Cryptococcus neoformans. Infect Immun. 2009; 77: 120–127. PMID: 18936186",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01065-08",
+            "pmid": "18936186",
+            "pmcid": "PMC2612285",
+            "xmlid": "CIT0172"
+        },
+        {
+            "bibentry": "Sorrell, TC, Juillard, PG, Djordjevic, JT, et al. Cryptococcal transmigration across a model brain blood-barrier: evidence of the Trojan horse mechanism and differences between Cryptococcus neoformans var. grubii strain H99 and Cryptococcus gattii strain R265. Microbes Infect. 2016; 18: 57–67. PMID: 26369713",
+            "process_entry": "True",
+            "doi": "10.1016/j.micinf.2015.08.017",
+            "pmid": "26369713",
+            "xmlid": "CIT0173"
+        },
+        {
+            "bibentry": "Santiago-Tirado, FH, Onken, MD, Cooper, JA, et al. Trojan horse transit contributes to blood-brain barrier crossing of a eukaryotic pathogen. MBio. 2017; 8: e02183–16. PMID: 28143979",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.02183-16",
+            "pmid": "28143979",
+            "pmcid": "PMC5285505",
+            "xmlid": "CIT0174"
+        }
+    ],
+    "localid": "MED-31119976",
+    "doi": "10.1080/21505594.2019.1614383",
+    "pmid": "10.1080/21505594.2019.1614383",
+    "pmcid": "31119976",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31119976/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),96,95)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),192,179)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),365,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),192,179)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[1]),365,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),138,102)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,180)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),399,111)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,96)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),464,162)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),620,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),464,162)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),620,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,140)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),142,207)",
+                "containers_title": [
+                    "Epidemiology, incidence and disease"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),480,96)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),577,101)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),879,167)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ],
+                "pl_string": "[11–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1038,7)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "[11–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1038,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),879,167)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "",
+                "pl_string": "[11–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1038,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),879,167)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "",
+                "pl_string": "[11–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1038,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),879,167)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),879,167)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ],
+                "pl_string": "[11–15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1038,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1047,132)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1171,7)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1047,132)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1171,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1458,149)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1599,7)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1458,149)",
+                "containers_title": [
+                    "Cryptococcus as environmental pathogen"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1599,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),89,98)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis"
+                ],
+                "pl_string": "[20–22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),179,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "",
+                "pl_string": "[20–22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),179,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),89,98)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),89,98)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis"
+                ],
+                "pl_string": "[20–22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),179,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),188,147)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),208,238)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),1,223)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),225,150)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),509,101)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),683,131)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),815,179)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[28–31]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),986,7)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "",
+                "pl_string": "[28–31]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),986,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),815,179)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "",
+                "pl_string": "[28–31]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),986,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),815,179)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),815,179)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[28–31]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),986,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,198)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),200,87)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),487,193)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),672,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "",
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),672,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),487,193)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),487,193)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),672,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),1,197)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),199,145)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),345,151)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[39–41]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),488,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "",
+                "pl_string": "[39–41]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),488,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),345,151)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),345,151)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[39–41]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),488,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),221,134)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[42–44]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),329,7)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "",
+                "pl_string": "[42–44]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),329,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),221,134)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),221,134)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[42–44]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),329,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),221,134)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),756,145)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),902,126)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[47,48]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),1020,7)"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),902,126)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Adaptation mechanisms to host conditions"
+                ],
+                "pl_string": "[47,48]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),1020,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,214)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),345,99)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ],
+                "pl_string": "[50–52]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),436,7)"
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "",
+                "pl_string": "[50–52]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),436,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),345,99)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),345,99)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ],
+                "pl_string": "[50–52]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),436,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),684,137)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),863,77)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),941,61)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1003,370)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1003,370)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ],
+                "pl_string": "[56,57]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1365,7)"
+            },
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1003,370)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ],
+                "pl_string": "[56,57]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1365,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1374,94)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),91,129)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[59–62]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),212,7)"
+            },
+            {
+                "n_rp": 64,
+                "xref_id": "",
+                "pl_string": "[59–62]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),212,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),91,129)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 65,
+                "xref_id": "",
+                "pl_string": "[59–62]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),212,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),91,129)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),91,129)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[59–62]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),212,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),221,160)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[63–65]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),306,7)"
+            },
+            {
+                "n_rp": 68,
+                "xref_id": "",
+                "pl_string": "[63–65]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),306,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),221,160)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),221,160)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[63–65]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),306,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[2]),103,122)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[2]),217,7)"
+            },
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[2]),103,122)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[2]),217,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0068",
+                "rp_string": "68",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),1,120)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[68–71]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),112,7)"
+            },
+            {
+                "n_rp": 73,
+                "xref_id": "",
+                "pl_string": "[68–71]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),112,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),1,120)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 74,
+                "xref_id": "",
+                "pl_string": "[68–71]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),112,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),1,120)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),1,120)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[68–71]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),112,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),122,207)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[72–76]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),320,7)"
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "",
+                "pl_string": "[72–76]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),320,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),122,207)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 78,
+                "xref_id": "",
+                "pl_string": "[72–76]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),320,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),122,207)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 79,
+                "xref_id": "",
+                "pl_string": "[72–76]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),320,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),122,207)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),122,207)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[72–76]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),320,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),410,149)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0078",
+                "rp_string": "78",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),560,271)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),560,271)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0080",
+                "rp_string": "80",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[4]),72,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0081",
+                "rp_string": "81",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[4]),353,81)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[81,82]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[4]),426,7)"
+            },
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0082",
+                "rp_string": "82",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[4]),353,81)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[81,82]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[4]),426,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0083",
+                "rp_string": "83",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[5]),1,111)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[83–85]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[5]),104,7)"
+            },
+            {
+                "n_rp": 88,
+                "xref_id": "",
+                "pl_string": "[83–85]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[5]),104,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[5]),1,111)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0085",
+                "rp_string": "85",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[5]),1,111)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[83–85]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[5]),104,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0086",
+                "rp_string": "86",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),93,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[86,87]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),257,7)"
+            },
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0087",
+                "rp_string": "87",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),93,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[86,87]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),257,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0088",
+                "rp_string": "88",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),431,168)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0089",
+                "rp_string": "89",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),431,168)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0089",
+                "rp_string": "89",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),600,171)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[89–91]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),730,7)"
+            },
+            {
+                "n_rp": 95,
+                "xref_id": "",
+                "pl_string": "[89–91]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),730,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),600,171)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0091",
+                "rp_string": "91",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),600,171)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[89–91]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),730,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[6]),600,171)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0093",
+                "rp_string": "93",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),1,204)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[93,94]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),197,7)"
+            },
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0094",
+                "rp_string": "94",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),1,204)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[93,94]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),197,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0095",
+                "rp_string": "95",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),298,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[95–99]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),429,7)"
+            },
+            {
+                "n_rp": 101,
+                "xref_id": "",
+                "pl_string": "[95–99]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),429,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),298,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 102,
+                "xref_id": "",
+                "pl_string": "[95–99]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),429,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),298,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 103,
+                "xref_id": "",
+                "pl_string": "[95–99]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),429,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),298,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 104,
+                "xref_id": "CIT0099",
+                "rp_string": "99",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),298,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[95–99]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),429,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 105,
+                "xref_id": "CIT0100",
+                "rp_string": "100",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),587,147)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[100–103]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),663,9)"
+            },
+            {
+                "n_rp": 106,
+                "xref_id": "",
+                "pl_string": "[100–103]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),663,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),587,147)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 107,
+                "xref_id": "",
+                "pl_string": "[100–103]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),663,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),587,147)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ]
+            },
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0103",
+                "rp_string": "103",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[7]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),587,147)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[100–103]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[7]),663,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0104",
+                "rp_string": "104",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[8]),80,328)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[104,105]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[8]),266,9)"
+            },
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0105",
+                "rp_string": "105",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[8]),80,328)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "The polysaccharide capsule"
+                ],
+                "pl_string": "[104,105]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[8]),266,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 111,
+                "xref_id": "CIT0106",
+                "rp_string": "106",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),150,143)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[106,107]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),283,9)"
+            },
+            {
+                "n_rp": 112,
+                "xref_id": "CIT0107",
+                "rp_string": "107",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),150,143)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[106,107]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),283,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 113,
+                "xref_id": "CIT0108",
+                "rp_string": "108",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),294,172)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0109",
+                "rp_string": "109",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),80,88)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[109,110]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),158,9)"
+            },
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0110",
+                "rp_string": "110",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),80,88)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[109,110]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),158,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 116,
+                "xref_id": "CIT0111",
+                "rp_string": "111",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),169,144)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[111–113]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),303,9)"
+            },
+            {
+                "n_rp": 117,
+                "xref_id": "",
+                "pl_string": "[111–113]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),303,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),169,144)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            },
+            {
+                "n_rp": 118,
+                "xref_id": "CIT0113",
+                "rp_string": "113",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),169,144)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[111–113]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),303,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 119,
+                "xref_id": "CIT0114",
+                "rp_string": "114",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),314,79)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[114,115]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),383,9)"
+            },
+            {
+                "n_rp": 120,
+                "xref_id": "CIT0115",
+                "rp_string": "115",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),314,79)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ],
+                "pl_string": "[114,115]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),383,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 121,
+                "xref_id": "CIT0116",
+                "rp_string": "116",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),394,158)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 122,
+                "xref_id": "CIT0117",
+                "rp_string": "117",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[3]),170,87)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 123,
+                "xref_id": "CIT0118",
+                "rp_string": "118",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[3]),258,100)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 124,
+                "xref_id": "CIT0119",
+                "rp_string": "119",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[3]),258,100)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 125,
+                "xref_id": "CIT0120",
+                "rp_string": "120",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[3]),486,233)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Virulence factors",
+                    "Melanin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "CIT0121",
+                "rp_string": "121",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),439,82)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ],
+                "pl_string": "[121,122]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),511,9)"
+            },
+            {
+                "n_rp": 127,
+                "xref_id": "CIT0122",
+                "rp_string": "122",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),439,82)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ],
+                "pl_string": "[121,122]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),511,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 128,
+                "xref_id": "CIT0123",
+                "rp_string": "123",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),788,144)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 129,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),933,165)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 130,
+                "xref_id": "CIT0122",
+                "rp_string": "122",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),1099,113)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 131,
+                "xref_id": "CIT0124",
+                "rp_string": "124",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),1213,192)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 132,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[1]),1406,159)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 133,
+                "xref_id": "CIT0125",
+                "rp_string": "125",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),379,83)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ],
+                "pl_string": "[125,126]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),452,9)"
+            },
+            {
+                "n_rp": 134,
+                "xref_id": "CIT0126",
+                "rp_string": "126",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),379,83)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ],
+                "pl_string": "[125,126]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),452,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 135,
+                "xref_id": "CIT0127",
+                "rp_string": "127",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),463,83)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ],
+                "pl_string": "[127,128]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),536,9)"
+            },
+            {
+                "n_rp": 136,
+                "xref_id": "CIT0128",
+                "rp_string": "128",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),463,83)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Phagocytosis avoidance and intracellular pathogenesis"
+                ],
+                "pl_string": "[127,128]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),536,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 137,
+                "xref_id": "CIT0129",
+                "rp_string": "129",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),1,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[129,130]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),130,9)"
+            },
+            {
+                "n_rp": 138,
+                "xref_id": "CIT0130",
+                "rp_string": "130",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),1,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[129,130]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),130,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 139,
+                "xref_id": "CIT0131",
+                "rp_string": "131",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),271,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[131–134]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),435,9)"
+            },
+            {
+                "n_rp": 140,
+                "xref_id": "",
+                "pl_string": "[131–134]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),435,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),271,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            },
+            {
+                "n_rp": 141,
+                "xref_id": "",
+                "pl_string": "[131–134]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),435,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),271,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            },
+            {
+                "n_rp": 142,
+                "xref_id": "CIT0134",
+                "rp_string": "134",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),271,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[131–134]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),435,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 143,
+                "xref_id": "CIT0135",
+                "rp_string": "135",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),446,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[135–137]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),609,9)"
+            },
+            {
+                "n_rp": 144,
+                "xref_id": "",
+                "pl_string": "[135–137]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),609,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),446,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            },
+            {
+                "n_rp": 145,
+                "xref_id": "CIT0137",
+                "rp_string": "137",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),446,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[135–137]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),609,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 146,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),727,136)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 147,
+                "xref_id": "CIT0138",
+                "rp_string": "138",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),864,83)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 148,
+                "xref_id": "CIT0139",
+                "rp_string": "139",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),948,249)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 149,
+                "xref_id": "CIT0140",
+                "rp_string": "140",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[3]),1,116)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[140,141]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[3]),107,9)"
+            },
+            {
+                "n_rp": 150,
+                "xref_id": "CIT0141",
+                "rp_string": "141",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[3]),1,116)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[140,141]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[3]),107,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 151,
+                "xref_id": "CIT0141",
+                "rp_string": "141",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[3]),118,179)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 152,
+                "xref_id": "CIT0142",
+                "rp_string": "142",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),1,121)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[142,143]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),112,9)"
+            },
+            {
+                "n_rp": 153,
+                "xref_id": "CIT0143",
+                "rp_string": "143",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),1,121)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ],
+                "pl_string": "[142,143]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),112,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 154,
+                "xref_id": "CIT0143",
+                "rp_string": "143",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),123,120)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 155,
+                "xref_id": "CIT0142",
+                "rp_string": "142",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),294,139)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Capsular phenotypic variations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 156,
+                "xref_id": "CIT0144",
+                "rp_string": "144",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),198,237)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[144–146]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),425,9)"
+            },
+            {
+                "n_rp": 157,
+                "xref_id": "",
+                "pl_string": "[144–146]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),425,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),198,237)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ]
+            },
+            {
+                "n_rp": 158,
+                "xref_id": "CIT0146",
+                "rp_string": "146",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),198,237)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[144–146]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),425,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 159,
+                "xref_id": "CIT0147",
+                "rp_string": "147",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),504,114)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[147,148]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),538,9)"
+            },
+            {
+                "n_rp": 160,
+                "xref_id": "CIT0148",
+                "rp_string": "148",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),504,114)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[147,148]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),538,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 161,
+                "xref_id": "CIT0135",
+                "rp_string": "135",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),747,132)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[135,149,150]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),865,13)"
+            },
+            {
+                "n_rp": 162,
+                "xref_id": "CIT0149",
+                "rp_string": "149",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),747,132)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[135,149,150]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),865,13)"
+            },
+            {
+                "n_rp": 163,
+                "xref_id": "CIT0150",
+                "rp_string": "150",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),747,132)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[135,149,150]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),865,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 164,
+                "xref_id": "CIT0151",
+                "rp_string": "151",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1029,57)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 165,
+                "xref_id": "CIT0149",
+                "rp_string": "149",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1228,165)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[149,150,152]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1379,13)"
+            },
+            {
+                "n_rp": 166,
+                "xref_id": "CIT0150",
+                "rp_string": "150",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1228,165)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[149,150,152]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1379,13)"
+            },
+            {
+                "n_rp": 167,
+                "xref_id": "CIT0152",
+                "rp_string": "152",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1228,165)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[149,150,152]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1379,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 168,
+                "xref_id": "CIT0153",
+                "rp_string": "153",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1507,228)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 169,
+                "xref_id": "CIT0154",
+                "rp_string": "154",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1813,213)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[154,155]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1942,9)"
+            },
+            {
+                "n_rp": 170,
+                "xref_id": "CIT0155",
+                "rp_string": "155",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1813,213)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[154,155]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[1]),1942,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 171,
+                "xref_id": "CIT0156",
+                "rp_string": "156",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),212,128)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[156–158]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),330,9)"
+            },
+            {
+                "n_rp": 172,
+                "xref_id": "",
+                "pl_string": "[156–158]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),330,9)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),212,128)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ]
+            },
+            {
+                "n_rp": 173,
+                "xref_id": "CIT0158",
+                "rp_string": "158",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),212,128)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[156–158]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),330,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 174,
+                "xref_id": "CIT0159",
+                "rp_string": "159",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),726,236)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[159,160]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),818,9)"
+            },
+            {
+                "n_rp": 175,
+                "xref_id": "CIT0160",
+                "rp_string": "160",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),726,236)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[159,160]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),818,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 176,
+                "xref_id": "CIT0156",
+                "rp_string": "156",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),726,236)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[156,157]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),860,9)"
+            },
+            {
+                "n_rp": 177,
+                "xref_id": "CIT0157",
+                "rp_string": "157",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),726,236)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[156,157]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),860,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 178,
+                "xref_id": "CIT0156",
+                "rp_string": "156",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),726,236)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 179,
+                "xref_id": "CIT0157",
+                "rp_string": "157",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),963,72)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[157,158]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1025,9)"
+            },
+            {
+                "n_rp": 180,
+                "xref_id": "CIT0158",
+                "rp_string": "158",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),963,72)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[157,158]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1025,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 181,
+                "xref_id": "CIT0150",
+                "rp_string": "150",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1036,101)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[150,157,158,161,162]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1115,21)"
+            },
+            {
+                "n_rp": 182,
+                "xref_id": "CIT0157",
+                "rp_string": "157",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1036,101)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[150,157,158,161,162]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1115,21)"
+            },
+            {
+                "n_rp": 183,
+                "xref_id": "CIT0158",
+                "rp_string": "158",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1036,101)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[150,157,158,161,162]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1115,21)"
+            },
+            {
+                "n_rp": 184,
+                "xref_id": "CIT0161",
+                "rp_string": "161",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1036,101)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[150,157,158,161,162]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1115,21)"
+            },
+            {
+                "n_rp": 185,
+                "xref_id": "CIT0162",
+                "rp_string": "162",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1036,101)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[150,157,158,161,162]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1115,21)"
+            }
+        ],
+        [
+            {
+                "n_rp": 186,
+                "xref_id": "CIT0149",
+                "rp_string": "149",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1254,196)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[149,161]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1440,9)"
+            },
+            {
+                "n_rp": 187,
+                "xref_id": "CIT0161",
+                "rp_string": "161",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1254,196)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ],
+                "pl_string": "[149,161]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1440,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 188,
+                "xref_id": "CIT0161",
+                "rp_string": "161",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1451,114)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Mechanisms for evasion of host immune response",
+                    "Cryptococcal morphogenesis and immune evasion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 189,
+                "xref_id": "CIT0163",
+                "rp_string": "163",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),276,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[163,164]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),439,9)"
+            },
+            {
+                "n_rp": 190,
+                "xref_id": "CIT0164",
+                "rp_string": "164",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),276,173)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[163,164]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),439,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 191,
+                "xref_id": "CIT0165",
+                "rp_string": "165",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),91,113)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[165,166]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),194,9)"
+            },
+            {
+                "n_rp": 192,
+                "xref_id": "CIT0166",
+                "rp_string": "166",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),91,113)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[165,166]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),194,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 193,
+                "xref_id": "CIT0167",
+                "rp_string": "167",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),205,218)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[167,168]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),280,9)"
+            },
+            {
+                "n_rp": 194,
+                "xref_id": "CIT0168",
+                "rp_string": "168",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),205,218)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[167,168]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),280,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 195,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),205,218)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[56,169,170,171]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),406,16)"
+            },
+            {
+                "n_rp": 196,
+                "xref_id": "CIT0169",
+                "rp_string": "169",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),205,218)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[56,169,170,171]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),406,16)"
+            },
+            {
+                "n_rp": 197,
+                "xref_id": "CIT0170",
+                "rp_string": "170",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),205,218)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[56,169,170,171]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),406,16)"
+            },
+            {
+                "n_rp": 198,
+                "xref_id": "CIT0171",
+                "rp_string": "171",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),205,218)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[56,169,170,171]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),406,16)"
+            }
+        ],
+        [
+            {
+                "n_rp": 199,
+                "xref_id": "CIT0056",
+                "rp_string": "[56",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[3]),1,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "The second mechanisms involves damage of the tight junctions of the BBB and cross of the cryptococcal cells between the endothelial cells (paracellular passage) [56,141,168].",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[3]"
+            },
+            {
+                "n_rp": 200,
+                "xref_id": "CIT0141",
+                "rp_string": "141",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[3]),1,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "The second mechanisms involves damage of the tight junctions of the BBB and cross of the cryptococcal cells between the endothelial cells (paracellular passage) [56,141,168].",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[3]"
+            },
+            {
+                "n_rp": 201,
+                "xref_id": "CIT0168",
+                "rp_string": "168]",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[3]),1,174)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "The second mechanisms involves damage of the tight junctions of the BBB and cross of the cryptococcal cells between the endothelial cells (paracellular passage) [56,141,168].",
+                "pl_xpath": "/article/body/sec[3]/sec[4]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 202,
+                "xref_id": "CIT0172",
+                "rp_string": "172",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),479,203)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 203,
+                "xref_id": "CIT0173",
+                "rp_string": "173",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),683,131)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[173,174]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),804,9)"
+            },
+            {
+                "n_rp": 204,
+                "xref_id": "CIT0174",
+                "rp_string": "174",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),683,131)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ],
+                "pl_string": "[173,174]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),804,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 205,
+                "xref_id": "CIT0174",
+                "rp_string": "174",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[4]),901,200)",
+                "containers_title": [
+                    "Cryptococcal pathogenesis",
+                    "Dissemination to the brain"
+                ]
+            }
+        ]
+    ]
+}

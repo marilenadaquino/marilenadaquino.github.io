@@ -1,0 +1,766 @@
+{
+    "references": [
+        {
+            "bibentry": "Tarazi, H, Odeh, RA, Al-Qawasmeh, R, et al. Design, synthesis and SAR analysis of potent BACE1 inhibitors: possible lead drug candidates for Alzheimer’s disease. Eur J Med Chem 2017; 125: 1213–24. PMID: 27871037",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.11.021",
+            "pmid": "27871037",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Götz, J, Schild, A, Hoerndli, F, Pennanen, L. Amyloid-induced neurofibrillary tangle formation in Alzheimer’s disease: insight from transgenic mouse and tissue-culture models. Int J Dev Neurosci 2004; 22: 453–65. PMID: 15465275",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijdevneu.2004.07.013",
+            "pmid": "15465275",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cutsuridis, V, Moustafa, AA. Multiscale models of pharmacological, immunological and neurostimulation treatments in Alzheimer’s disease. Drug Discov Today Dis Model 2016; 19: 85–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Martinez, A, Gil, C, Perez, DI. Glycogen synthase kinase 3 inhibitors in the next horizon for Alzheimer’s disease treatment. Int J Alzheimers Dis 2011; 2011: 1–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Hooper, C, Killick, R, Lovestone, S. The GSK3 hypothesis of Alzheimer’s disease. J Neurochem 2008; 104: 1433–9. PMID: 18088381",
+            "process_entry": "True",
+            "doi": "10.1111/j.1471-4159.2007.05194.x",
+            "pmid": "18088381",
+            "pmcid": "PMC3073119",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Beurel, E, Grieco, SF, Jope, RJ. Glycogen synthase kinase-3 (GSK3): regulation, actions and diseases. Pharmacol Ther 2015; 148: 114–31. PMID: 25435019",
+            "process_entry": "True",
+            "doi": "10.1016/j.pharmthera.2014.11.016",
+            "pmid": "25435019",
+            "pmcid": "PMC4340754",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hamann, M, Alonso, D, Martín-Aparicio, E. Glycogen synthase kinase-3 (GSK-3) inhibitory activity and structure-activity relationship (SAR) studies of the manzamine alkaloids. Potential for Alzheimer’s disease. J Nat Prod 2007; 70: 1397–405. PMID: 17708655",
+            "process_entry": "True",
+            "doi": "10.1021/np060092r",
+            "pmid": "17708655",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Bidon-chanal, A, Fuertes, A, Alonso, D, et al. Evidence for a new binding mode to GSK-3: allosteric regulation by the marine compound palinurin. Eur J Med Chem 2013; 60: 479–89. PMID: 23354070",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2012.12.014",
+            "pmid": "23354070",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Arnost, M, Pierce, A, Haar, E. T, et al. 3-Aryl-4-(arylhydrazono)-1 H-pyrazol-5-ones: highly ligand efficient and potent inhibitors of GSK3beta. Bioorg Med Chem Lett 2010; 20: 1661–4. PMID: 20138514",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2010.01.072",
+            "pmid": "20138514",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Patel, DS, Bharatam, PV. Selectivity criterion for pyrazolo[3,4-b]pyrid[az]ine derivatives as GSK-3 inhibitors: CoMFA and molecular docking studies. Eur J Med Chem 2008; 43: 949–57. PMID: 17707953",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2007.06.016",
+            "pmid": "17707953",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Witherington, J, Bordas, V, Garland, SL, et al. 5-Aryl-pyrazolo[3,4-b]pyridines: potent inhibitors of glycogen synthase kinase-3 (GSK-3). Bioorg Med Chem Lett 2003; 13: 1577–80. PMID: 12699759",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(03)00134-3",
+            "pmid": "12699759",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Witherington, J, Bordas, V, Gaiba, A, et al. 6-Heteroaryl-pyrazolo[3,4-b]pyridines: potent and selective inhibitors of glycogen synthase kinase-3 (GSK-3). Bioorg Med Chem Lett 2003; 13: 3059–62. PMID: 12941333",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(03)00646-2",
+            "pmid": "12941333",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Witherington, J, Bordas, V, Haigh, D, et al. 5-Aryl-pyrazolo[3,4-b]pyridazines: potent inhibitors of glycogen synthase kinase-3 (GSK-3). Bioorg Med Chem Lett 2003; 13: 1581–4. PMID: 12699760",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(03)00135-5",
+            "pmid": "12699760",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Dessalew, N, Patel, DS, Bharatam, PV. 3D-QSAR and molecular docking studies on pyrazolopyrimidine derivatives as glycogen synthase kinase-3beta inhibitors. J Mol Graph Model 2007; 25: 885–95. PMID: 17018257",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmgm.2006.08.009",
+            "pmid": "17018257",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Berg, S, Bergh, M, Hellberg, S, et al. Discovery of novel potent and highly selective glycogen synthase kinase-3β (GSK3β) inhibitors for Alzheimer’s disease: design, synthesis, and characterization of pyrazines. J Med Chem 2012; 55: 9107–19. PMID: 22489897",
+            "process_entry": "True",
+            "doi": "10.1021/jm201724m",
+            "pmid": "22489897",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Martinez, A, Alonso, M, Castro, A, et al. First non-ATP competitive glycogen synthase kinase 3 β (GSK-3β) inhibitors: thiadiazolidinones (TDZD) as potential drugs for the treatment of Alzheimer’s disease. J Med Chem 2002; 45: 1292–9. PMID: 11881998",
+            "process_entry": "True",
+            "doi": "10.1021/jm011020u",
+            "pmid": "11881998",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Pérez, DI, Pistolozzi, M, Palomo, V, et al. 5-Imino-1,2-4-thiadiazoles and quinazolines derivatives as glycogen synthase kinase β (GSK-3β) and phosphodiesterase 7 (PDE7) inhibitors: determination of blood-brain barrier penetration and binding to human serum albumin. Eur J Pharm Sci 2012; 45: 677–84. PMID: 22306656",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2012.01.007",
+            "pmid": "22306656",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Prati, F, De Simone, A, Bisignano, P, et al. Multitarget drug discovery for Alzheimer’s disease: triazinones as BACE-1 and GSK-3β inhibitors. Angew Chem Int Ed Engl 2015; 54: 1578–82. PMID: 25504761",
+            "process_entry": "True",
+            "doi": "10.1002/anie.201410456",
+            "pmid": "25504761",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Legraverend, M. Recent advances in the synthesis of purine derivatives and their precursors. Tetrahedron 2008; 64: 8585–603.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Lim, FPL, Dolzhenko, AV. 1,3,5-Triazine-based analogues of purine: From isosteres to privileged scaffolds in medicinal chemistry. Eur J Med Chem 2014; 85: 371–90. PMID: 25105925",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.07.112",
+            "pmid": "25105925",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Lin, C, Sun, C, Liu, X, et al. Design, synthesis, and in vitro biological evaluation of novel 6-methyl-7-substituted-7-deaza purine nucleoside analogs as anti-influenza A agents. Antiviral Res 2016; 129: 13–20. PMID: 26802557",
+            "process_entry": "True",
+            "doi": "10.1016/j.antiviral.2016.01.005",
+            "pmid": "26802557",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Šála, M, Kögler, M, Placková, P, et al. Purine analogs as phosphatidylinositol 4-kinase IIIβ inhibitors. Bioorg Med Chem Lett 2016; 26: 2706–12. PMID: 27090557",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2016.04.002",
+            "pmid": "27090557",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Stamos, JL, Chu, MLH, Enos, MD, et al. Structural basis of GSK-3 inhibition by N-terminal phosphorylation and by the Wnt receptor LRP6. Elife 2014; 2014: 1–22.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Small-Molecule Drug Discovery Suite 2015-3 Schrödinger. New York (NY): LLC; 2015.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Forli, S, Olson, AJ. A force field with discrete displaceable waters and desolvations entropy for hydrated ligand docking. J Med Chem 2012; 55: 623–38. PMID: 22148468",
+            "process_entry": "True",
+            "doi": "10.1021/jm2005145",
+            "pmid": "22148468",
+            "pmcid": "PMC3319101",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Cosconati, S, Forli, S, Perryman, AL, et al. Virtual screening with AutoDock: theory and practice. Expert Opin Drug Discov 2010; 5: 597–607. PMID: 21532931",
+            "process_entry": "True",
+            "doi": "10.1517/17460441.2010.484460",
+            "pmid": "21532931",
+            "pmcid": "PMC3083070",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Morris, GM, Huey, R, Lindstrom, W, et al. Autodock4 and AutoDockTools4: automated docking with selective receptor flexibility. J Comput Chem 2009; 30: 2785–91. PMID: 19399780",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21256",
+            "pmid": "19399780",
+            "pmcid": "PMC2760638",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Radoux, CJ, Olsson, TSG, Pitt, WR, et al. Identifying Interactions that determine fragment binding at protein hotspots. J Med Chem 2016; 59: 4314–25. PMID: 27043011",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01980",
+            "pmid": "27043011",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Zegzouti, H, Zdanovskaia, M, Hsiao, K, Goueli, SA. ADP-Glo: A Bioluminescent and homogeneous ADP monitoring assay for kinases. Assay Drug Dev Technol. 2009; 7(6): 560–72. PMID: 20105026",
+            "process_entry": "True",
+            "doi": "10.1089/adt.2009.0222",
+            "pmid": "20105026",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Baki, A, Bielik, A, Molnár, L, et al. A high throughput luminescent assay for glycogen synthase kinase-3beta inhibitors. Assay Drug Dev Technol 2007; 5: 75–84. PMID: 17355201",
+            "process_entry": "True",
+            "doi": "10.1089/adt.2006.029",
+            "pmid": "17355201",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Colomer, JP, Moyano, EL. New application of heterocyclic diazonium salts. Synthesis of pyrazolo[3,4-d][1,2,3]triazin-4-ones and imidazo[4,5-d][1,2,3]triazin-4-ones. Tetrahedron Lett 2011; 52: 1561–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Leost, M, Schultz, C, Link, A, et al. Paullones are potent inhibitors of glycogen synthase kinase-3β and cyclin-dependent kinase 5/p25. Eur J Biochem 2000; 267: 5983–94. PMID: 10998059",
+            "process_entry": "True",
+            "doi": "10.1046/j.1432-1327.2000.01673.x",
+            "pmid": "10998059",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Corre, LL, Tak-Tak, L, Guillard, A, et al. Microwave-assisted preparation of 4-amino-3-cyano-5-methoxycarbonyl-N-arylpyrazoles as building blocks for the diversity-oriented synthesis of pyrazole-based polycyclic scaffolds. Org Biomol Chem 2015; 13: 409–23. PMID: 25369050",
+            "process_entry": "True",
+            "doi": "10.1039/c4ob01951b",
+            "pmid": "25369050",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Desai, ND, Shah, RD. Improved protocol for Thorpe reaction: synthesis of 4‐amino‐1‐arylpyrazole using solid–liquid phase‐transfer conditions. Synth Commun 2008; 38: 316–27.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Wu, M-H, Hu, J-H, Shen, D-S, et al. Regiospecific synthesis of 6-aryl-3-cyano-5-alkylamino/arylamino-1-p-tolyl-1 H-pyrazolo[4,3-d]pyrimidin-7(6 H)-ones via iminophosphorane-mediated annulation. Tetrahedron 2010; 66: 5112–20.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Kamal, A, Sastry, KNV, Chandrasekhar, D, et al. One-pot, three-component approach to the synthesis of 3,4,5-trisubstituted pyrazoles. J Org Chem 2015; 80: 4325–35. PMID: 25849582",
+            "process_entry": "True",
+            "doi": "10.1021/jo502946g",
+            "pmid": "25849582",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Ledenyova, IV, Didenko, VV, Shikhaliev, KS. Chemistry of pyrazolo-3(5)-diazonium salts (review). Chem Heterocycl Compd 2014; 50: 1214–43.",
+            "process_entry": "True",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Di, L, Kerns, EH, Fan, K, et al. High throughput artificial membrane permeability assay for blood-brain barrier. Eur J Med Chem 2003; 38: 223–32. PMID: 12667689",
+            "process_entry": "True",
+            "doi": "10.1016/s0223-5234(03)00012-6",
+            "pmid": "12667689",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Metin-Armağan, D, Gezen-Ak, D, Dursun, E, et al. J Okadaic acid-induced tau hyperphosphorylation and the downregulation of Pin1 expression in primary cortical neurons. Chem Neuroanat 2018; 92: 41–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Wu, X, Kosaraju, J, Tam, KY. SLM, a novel carbazole-based fluorophore attenuates okadaic acid-induced tau hyperphosphorylation via down-regulating GSK-3β activity in SH-SY5Y cells. Eur J Pharm Sci 2017; 110: 101–8. PMID: 28359686",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2017.03.037",
+            "pmid": "28359686",
+            "xmlid": "CIT0040"
+        }
+    ],
+    "localid": "MED-30362380",
+    "doi": "10.1080/14756366.2018.1530223",
+    "pmid": "10.1080/14756366.2018.1530223",
+    "pmcid": "30362380",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30362380/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),138,98)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),380,242)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),522,234)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),522,234)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,100)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,100)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),212,239)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Moreover, a full etiopathological hypothesis for AD has been proposed based on GSK-3 dysfunction5,6. Therefore, this kinase is one of the main targets studied for the treatment of the neurodegenerative disease. Over the last few years, different heterocyclic compounds have been described as GSK-3 inhibitors including natural products as manzamine alkaloids7 and palinurine8, but a great number of chemical substances come from synthetic approaches. Among them, pyrazol-5-ones9, pyrazolo-fused derivatives10–14, pyrazines15, thiadiazolidinones16,17, triazinones18, are good examples. Some of them contain privileged scaffolds, as the pyrazole nucleus, and others can be classified as purine analogues, since they are structurally related to purine due to their fused five and six-membered nitrogen heterocycles19.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),212,239)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Moreover, a full etiopathological hypothesis for AD has been proposed based on GSK-3 dysfunction5,6. Therefore, this kinase is one of the main targets studied for the treatment of the neurodegenerative disease. Over the last few years, different heterocyclic compounds have been described as GSK-3 inhibitors including natural products as manzamine alkaloids7 and palinurine8, but a great number of chemical substances come from synthetic approaches. Among them, pyrazol-5-ones9, pyrazolo-fused derivatives10–14, pyrazines15, thiadiazolidinones16,17, triazinones18, are good examples. Some of them contain privileged scaffolds, as the pyrazole nucleus, and others can be classified as purine analogues, since they are structurally related to purine due to their fused five and six-membered nitrogen heterocycles19.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),452,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10–14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),452,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),452,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),452,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),544,5)",
+                "pl_string": "s16,1"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),452,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),544,5)",
+                "pl_string": "s16,1"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),452,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),586,229)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0020",
+                "rp_string": "20–22",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),216,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[1]/p),1,133)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling",
+                    "Protein preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[1]/p),635,168)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling",
+                    "Protein preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p),152,160)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling",
+                    "Docking"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p),243,5)",
+                "pl_string": "d26,2"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p),152,160)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling",
+                    "Docking"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p),243,5)",
+                "pl_string": "d26,2"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[5]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[5]/p[1]),1,148)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling",
+                    "Hotspot analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[1]/p[1]),130,94)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biology",
+                    "Inhibition of GSK-3β"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec[1]/p[2]),1,77)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biology",
+                    "Inhibition of GSK-3β"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,227)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),249,93)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,63)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[15]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[15]),196,151)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0033",
+                "rp_string": "33–36",
+                "rp_xpath": "/article/body/sec[3]/p[16]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[16]),100,111)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[16]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[16]),397,136)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[17]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[17]),1,220)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[18]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[18]),386,148)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[18]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[18]),535,119)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[19]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[19]),1,139)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p[21]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[21]),384,108)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/table-wrap[3]/table-wrap-foot/fn/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap[3]/table-wrap-foot/fn/p),1,71)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/p[23]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[23]),345,162)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/p[23]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[23]),345,162)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ]
+    ]
+}

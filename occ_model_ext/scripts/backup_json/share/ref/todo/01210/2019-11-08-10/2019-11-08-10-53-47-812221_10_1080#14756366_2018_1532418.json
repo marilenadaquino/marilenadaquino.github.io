@@ -1,0 +1,771 @@
+{
+    "references": [
+        {
+            "bibentry": "Di Marzo, V. New approaches and challenges to targeting the endocannabinoid system. Nat Rev Drug Discov 2018; 17: 623–39. PMID: 30116049",
+            "process_entry": "True",
+            "doi": "10.1038/nrd.2018.115",
+            "pmid": "30116049",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Palermo, G, Rothlisberger, U, Cavalli, A, De Vivo, M. Computational insights into function and inhibition of fatty acid amide hydrolase. Eur J Med Chem 2015; 91: 15–26. PMID: 25240419",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.09.037",
+            "pmid": "25240419",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Bracey, M, Hanson, M, Masuda, K, et al. Structural adaptions in a membrane enzyme that terminates endocannabinoid signaling. Science 2002; 298: 1793–6. PMID: 12459591",
+            "process_entry": "True",
+            "doi": "10.1126/science.1076535",
+            "pmid": "12459591",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "McKinney, MK, Cravatt, BF. Structure and function of fatty acid amide hydrolase. Annu Rev Biochem 2005; 74: 411–32. PMID: 15952893",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.biochem.74.082803.133450",
+            "pmid": "15952893",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Tuo, W, Leleu-Chavain, N, Spencer, J, et al. Therapeutic potential of fatty acid amide hydrolase, monoacylglycerol lipase, and n-acylethanolamine acid amidase inhibitors. J Med Chem 2017; 60: 4–46. PMID: 27766867",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b00538",
+            "pmid": "27766867",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Kathuria, S, Gaetani, S, Fegley, D, et al. Modulation of anxiety through blockade of anandamide hydrolysis. Nat Med 2003; 9: 76–81. PMID: 12461523",
+            "process_entry": "True",
+            "doi": "10.1038/nm803",
+            "pmid": "12461523",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Justinova, Z, Mangieri, R, Bortolato, M, et al. Fatty acid amide hydrolase inhibition heightens anandamide signaling without producing reinforcing effects in primates. Biol Psychiat 2008; 64: 930–7. PMID: 18814866",
+            "process_entry": "True",
+            "doi": "10.1016/j.biopsych.2008.08.008",
+            "pmid": "18814866",
+            "pmcid": "PMC2701259",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Li, GL, Winter, H, Arends, R, et al. Assessment of the pharmacology and tolerability of pf-04457845, an irreversible inhibitor of fatty acid amide hydrolase-1, in healthy subjects. Br J Clin Pharmacol 2012; 73: 706–16. PMID: 22044402",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2125.2011.04137.x",
+            "pmid": "22044402",
+            "pmcid": "PMC3403198",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Pawsey, S, Wood, M, Browne, H, et al. Safety, tolerability and pharmacokinetics of FAAH inhibitor v158866: a double-blind, randomised, placebo-controlled phase I study in healthy volunteers. Drugs R D 2016; 16: 181–91. PMID: 26987975",
+            "process_entry": "True",
+            "doi": "10.1007/s40268-016-0127-y",
+            "pmid": "26987975",
+            "pmcid": "PMC4875922",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Wagenlehner, FME, van Till, JWO, Houbiers, JGA, et al. Fatty acid amide hydrolase inhibitor treatment in men with chronic prostatitis/chronic pelvic pain syndrome: an adaptive double-blind, randomized controlled trial. Urology 2017; 103: 191–7. PMID: 28254462",
+            "process_entry": "True",
+            "doi": "10.1016/j.urology.2017.02.029",
+            "pmid": "28254462",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "van Esbroeck, ACM, Janssen, APA, Cognetta, AB, III, et al. Activity-based protein profiling reveals off-target proteins of the FAAH inhibitor BIA 10-2474. Science 2017; 356: 1084–7. PMID: 28596366",
+            "process_entry": "True",
+            "doi": "10.1126/science.aaf7497",
+            "pmid": "28596366",
+            "pmcid": "PMC5641481",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "US Food and Drug Administration FDA works with regulatory partners to understand French-based Biotrial phase 1 clinical study. 22 January 2016 Retrieved 23 January 2016. https://www.fda.gov/Drugs/DrugSafety/ucm482740.htm",
+            "process_entry": "True",
+            "url": "https://www.fda.gov/Drugs/DrugSafety/ucm482740.htm",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Huggins, JP, Smart, TS, Langman, S, et al. An efficient randomised, placebo-controlled clinical trial with the irreversible fatty acid amide hydrolase-1 inhibitor pf-04457845, which modulates endocannabinoids but fails to induce effective analgesia in patients with pain due to osteoarthritis of the knee. Pain 2012; 153: 1837–46. PMID: 22727500",
+            "process_entry": "True",
+            "doi": "10.1016/j.pain.2012.04.020",
+            "pmid": "22727500",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Vernalis, P Vernalis plc Completes Investment in its NCE Development [press release]. 2015 Retrieved from http://www.vernalis.com/media-centre/latest-releases/708-vernalis-plc-completes-investment-in-its-nce-development-pipeline (URL checked 28 May 2018).",
+            "process_entry": "True",
+            "url": "http://www.vernalis.com/media-centre/latest-releases/708-vernalis-plc-completes-investment-in-its-nce-development-pipeline (URL checked 28 May 2018).",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Fowler, CJ. The potential of inhibitors of endocannabinoid metabolism as anxiolytic and antidepressive drugs-A practical view. Eur Neuropsychopharmacol 2015; 25: 749–62. PMID: 25791296",
+            "process_entry": "True",
+            "doi": "10.1016/j.euroneuro.2015.02.005",
+            "pmid": "25791296",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Patel, S, Hill, MN, Cheer, JF, et al. The endocannabinoid system as a target for novel anxiolytic drugs. Neurosci Biobehav Rev 2017; 76: 56–66. PMID: 28434588",
+            "process_entry": "True",
+            "doi": "10.1016/j.neubiorev.2016.12.033",
+            "pmid": "28434588",
+            "pmcid": "PMC5407316",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Storr, M, Keenan, C, Emmerdinger, D, et al. Targeting endocannabinoid degradation protects against experimental colitis in mice: involvement of CB 1 and CB 2 receptors. J Mol Med 2008; 86: 925–36. PMID: 18493729",
+            "process_entry": "True",
+            "doi": "10.1007/s00109-008-0359-6",
+            "pmid": "18493729",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Sałaga, M, Mokrowiecka, A, Zakrzewski, PK, et al. Experimental colitis in mice is attenuated by changes in the levels of endocannabinoid metabolites induced by selective inhibition of fatty acid amide hydrolase (FAAH). J Crohns Colitis 2014; 8: 998–1009. PMID: 24530133",
+            "process_entry": "True",
+            "doi": "10.1016/j.crohns.2014.01.025",
+            "pmid": "24530133",
+            "pmcid": "PMC4136976",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Fowler, CJ, Tiger, G, Stenström, A. Ibuprofen inhibits rat brain deamidation of anandamide at pharmacologically relevant concentrations. Mode of inhibition and structure-activity relationship. J Pharmacol Exp Ther 1997; 283: 729–34. PMID: 9353392",
+            "process_entry": "True",
+            "pmid": "9353392",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Fowler, CJ, Janson, U, Johnson, RM, et al. Inhibition of anandamide hydrolysis by the enantiomers of ibuprofen, ketorolac, and flurbiprofen. Arch Biochem Biophys 1999; 362: 191–6. PMID: 9989926",
+            "process_entry": "True",
+            "doi": "10.1006/abbi.1998.1025",
+            "pmid": "9989926",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Favia, AD, Habrant, D, Scarpelli, R, et al. Identification and characterization of carprofen as a multitarget fatty acid amide hydrolase/cyclooxygenase inhibitor. J Med Chem 2012; 55: 8807–26. PMID: 23043222",
+            "process_entry": "True",
+            "doi": "10.1021/jm3011146",
+            "pmid": "23043222",
+            "pmcid": "PMC3764917",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Holt, S, Paylor, B, Boldrup, L, et al. Inhibition of fatty acid amide hydrolase, a key endocannabinoid metabolizing enzyme, by analogues of ibuprofen and indomethacin. Eur J Pharmacol 2007; 565: 26–36. PMID: 17397826",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2007.02.051",
+            "pmid": "17397826",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Karlsson, J, Morgillo, CM, Deplano, A, et al. Interaction of the N-(3-Methylpyridin-2-yl)amide derivatives of flurbiprofen and ibuprofen with FAAH: enantiomeric selectivity and binding mode. PLoS One 2015; 10: e0142711. PMID: 26565710",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0142711",
+            "pmid": "26565710",
+            "pmcid": "PMC4643906",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Cocco, M, Congiu, C, Onnis, V, et al. Synthesis of ibuprofen heterocyclic amides and investigation of their analgesic and toxicological properties. Eur J Med Chem 2003; 38: 513–18. PMID: 12767601",
+            "process_entry": "True",
+            "doi": "10.1016/s0223-5234(03)00074-6",
+            "pmid": "12767601",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Fowler, CJ, Björklund, E, Lichtman, AH, et al. Inhibitory properties of ibuprofen and its amide analogues towards the hydrolysis and cyclooxygenation of the endocannabinoid anandamide. J Enzyme Inhib Med Chem 2013; 28: 172–82. PMID: 22225576",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2011.643304",
+            "pmid": "22225576",
+            "pmcid": "PMC3606911",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Deplano, A, Morgillo, CM, Demurtas, M, et al. Novel propanamides as fatty acid amide hydrolase inhibitors. Eur J Med Chem 2017; 136: 523–42. PMID: 28535469",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.05.033",
+            "pmid": "28535469",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Gustin, DJ, Ma, Z, Min, X, et al. Identification of potent, noncovalent fatty acid amide hydrolase (FAAH) inhibitors. Bioorg Med Chem Lett 2011; 21: 2492–6. PMID: 21392988",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2011.02.052",
+            "pmid": "21392988",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Sastry, GM, Adzhigirey, M, Day, T, et al. Protein and ligand preparation: parameters, protocols, and influence on virtual screening enrichments. J Comput Aid Mol Des 2013; 27: 221–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Schrödinger Release 2017-1: Maestro, Schrödinger, LLC, New York, NY, 2017.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Lodola, A, Castelli, R, Mor, M, Rivara, S. Fatty acid amide hydrolase inhibitors: a patent review (2009–2014). Expert Opin Ther Pat 2015; 25: 1247–66. PMID: 26413912",
+            "process_entry": "True",
+            "doi": "10.1517/13543776.2015.1067683",
+            "pmid": "26413912",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Shelley, JC, Cholleti, A, Frye, L, et al. Epik: a software program for pK(a) prediction and protonation state generation for drug-like molecules. J Comput Aided Mol Des 2007; 21: 681–91. PMID: 17899391",
+            "process_entry": "True",
+            "doi": "10.1007/s10822-007-9133-z",
+            "pmid": "17899391",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Sherman, W, Day, T, Jacobson, MP, et al. Novel procedure for modeling ligand/receptor induced fit effects. J Med Chem 2006; 49: 534–53. PMID: 16420040",
+            "process_entry": "True",
+            "doi": "10.1021/jm050540c",
+            "pmid": "16420040",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Schrödinger Suite 2017-1 Induced Fit Docking protocol; Glide, Schrödinger, LLC, New York, NY, 2017; Prime, Schrödinger, LLC, New York, NY, 2017.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Boldrup, L, Wilson, SJ, Barbier, AJ, Fowler, CJ. A simple stopped assay for fatty acid amide hydrolase avoiding the use of a chloroform extraction phase. J Biochem Biophys Methods 2004; 60: 171–7. PMID: 15262451",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbbm.2004.04.020",
+            "pmid": "15262451",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Wilson, AA, Hicks, JW, Sadovski, O, et al. Carbonyl‐labeled carbamates as fatty acid amide hydrolase radiotracers for positron emission tomography. J Med Chem 2013; 56: 201–9. PMID: 23214511",
+            "process_entry": "True",
+            "doi": "10.1021/jm301492y",
+            "pmid": "23214511",
+            "pmcid": "PMC3544278",
+            "xmlid": "CIT0035"
+        }
+    ],
+    "localid": "MED-30688118",
+    "doi": "10.1080/14756366.2018.1532418",
+    "pmid": "10.1080/14756366.2018.1532418",
+    "pmcid": "30688118",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30688118/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,236)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),549,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),734,78)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),813,475)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),197,276)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0008",
+                "rp_string": "8–10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),474,156)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "A number of different classes of FAAH inhibitors have been described in the literature, including carbamate derivatives, α-ketoheterocycles, piperazinyl, and piperidinyl ureas and boronic acids5. Inhibition of FAAH increases NAE levels in the brain and other tissues, but does not produce the sorts of behaviours seen with Δ-tetrahydrocannabinol, the main psychoactive ingredient of cannabis6,7 thereby making the enzyme a potentially exciting target for drug development. In humans, most FAAH inhibitors are well-tolerated8–10, the exception being BIA10-2474 which produced its toxic effects by presumed off-target effects11,12. In animal models, FAAH inhibition produces potentially beneficial effects in a variety of animal models of pain, but this has not been translated into the clinic10,13,14. However, other indications remain of great interest, not least in the field of anxiety/depression15,16 and intestinal inflammation17,18.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),474,156)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "A number of different classes of FAAH inhibitors have been described in the literature, including carbamate derivatives, α-ketoheterocycles, piperazinyl, and piperidinyl ureas and boronic acids5. Inhibition of FAAH increases NAE levels in the brain and other tissues, but does not produce the sorts of behaviours seen with Δ-tetrahydrocannabinol, the main psychoactive ingredient of cannabis6,7 thereby making the enzyme a potentially exciting target for drug development. In humans, most FAAH inhibitors are well-tolerated8–10, the exception being BIA10-2474 which produced its toxic effects by presumed off-target effects11,12. In animal models, FAAH inhibition produces potentially beneficial effects in a variety of animal models of pain, but this has not been translated into the clinic10,13,14. However, other indications remain of great interest, not least in the field of anxiety/depression15,16 and intestinal inflammation17,18.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),474,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),631,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),631,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),631,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),802,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,98)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),207,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),315,298)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),315,298)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),614,67)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),682,132)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table-wrap-foot/fn/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table-wrap-foot/fn/p),1,46)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table-wrap-foot/fn/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table-wrap-foot/fn/p),505,89)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),1,135)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),137,105)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),243,81)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),436,108)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),436,108)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),436,108)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),650,132)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ],
+                "pl_string": "The crystal structure of the fatty acid amide hydrolase (FAAH) (PDB ID: 3QK5)27 has been downloaded from the Protein Data Bank website. Both monomers A and B were treated with the Protein Preparation Wizard28 tool implemented in Maestro ver. 11.129 in order to add all the hydrogen atoms and assign the correct bond orders. Moreover, the co-crystallised ligand (QK5), as well as all the crystallographic water molecules, were removed. Residue Lys142 was considered in its deprotonated form, according to the proposed catalytic mechanism2,3,30. The 3 D structure of amides described above was built using the Graphical User Interface of Maestro ver. 11.129, as (S)-enantiomers in view of our data with (S)-Ibu-AM5, which was ten-fold more potent inhibitor than the (R)-enantiomer23. The protonation state of these amides at pH 7.4 in water has been calculated using the Epik module31, revealing the protonation of the nitrogen atom of the piperazine ring only of compounds 30–34 characterised by a methylene bridge between the aryl and the piperazine rings. Finally, each compound was then minimised with the OPLS_2005 force field using the Polak-Ribiere Conjugate Gradient (PRCG) algorithm and 2500 iteration steps.",
+                "pl_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),650,132)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ],
+                "pl_string": "The crystal structure of the fatty acid amide hydrolase (FAAH) (PDB ID: 3QK5)27 has been downloaded from the Protein Data Bank website. Both monomers A and B were treated with the Protein Preparation Wizard28 tool implemented in Maestro ver. 11.129 in order to add all the hydrogen atoms and assign the correct bond orders. Moreover, the co-crystallised ligand (QK5), as well as all the crystallographic water molecules, were removed. Residue Lys142 was considered in its deprotonated form, according to the proposed catalytic mechanism2,3,30. The 3 D structure of amides described above was built using the Graphical User Interface of Maestro ver. 11.129, as (S)-enantiomers in view of our data with (S)-Ibu-AM5, which was ten-fold more potent inhibitor than the (R)-enantiomer23. The protonation state of these amides at pH 7.4 in water has been calculated using the Epik module31, revealing the protonation of the nitrogen atom of the piperazine ring only of compounds 30–34 characterised by a methylene bridge between the aryl and the piperazine rings. Finally, each compound was then minimised with the OPLS_2005 force field using the Polak-Ribiere Conjugate Gradient (PRCG) algorithm and 2500 iteration steps.",
+                "pl_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[1]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[1]/p),783,274)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "FAAH receptor and ibuprofen amides preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[2]/p),1,106)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "Induced-Fit docking protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[2]/p),1,106)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "Induced-Fit docking protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0002",
+                "rp_string": "Supplementary Figure S2-A",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[2]/p),1105,314)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "Induced-Fit docking protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[36]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[36]/sec[2]/p),1105,314)",
+                "containers_title": [
+                    "Experimental",
+                    "Computational studies",
+                    "Induced-Fit docking protocol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[37]/sec/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[37]/sec/p[1]),605,355)",
+                "containers_title": [
+                    "Experimental",
+                    "Pharmacology",
+                    "FAAH assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),236,246)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),365,255)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0001",
+                "rp_string": "Supplementary Figure S1",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),844,200)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0002",
+                "rp_string": "Supplementary Figure S2",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1432,142)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0003",
+                "rp_string": "Supplementary Figure S3",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),710,305)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,879 @@
+{
+    "references": [
+        {
+            "bibentry": "Huston, SM, Mody, CH. Cryptococcosis: an emerging respiratory mycosis. Clin Chest Med. 2009; 30: 253–64, vi. PMID: 19375632",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccm.2009.02.006",
+            "pmid": "19375632",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Smith, RM, Mba-Jonas, A, Tourdjman, M, et al. Treatment and outcomes among patients with Cryptococcus gattii infections in the United States Pacific Northwest. PLoS One. 2014; 9: e88875. PMID: 24586423",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0088875",
+            "pmid": "24586423",
+            "pmcid": "PMC3929541",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Ngamskulrungroj, P, Chang, Y, Sionov, E, et al. The primary target organ of cryptococcus gattii is different from that of Cryptococcus neoformans in a murine model. MBio. 2012; 3.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Speed, B, Dunt, D. Clinical and host differences between infections with the two varieties of Cryptococcus neoformans. Clin Infect Dis. 1995; 21: 28–34. discussion 5–6. PMID: 7578756",
+            "process_entry": "True",
+            "doi": "10.1093/clinids/21.1.28",
+            "pmid": "7578756",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Buchanan, KL, Doyle, HA. Requirement for CD4(+) T lymphocytes in host resistance against Cryptococcus neoformans in the central nervous system of immunized mice. Infect Immun. 2000; 68: 456–462. PMID: 10639404",
+            "process_entry": "True",
+            "doi": "10.1128/iai.68.2.456-462.2000",
+            "pmid": "10639404",
+            "pmcid": "PMC97163",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Uicker, WC, McCracken, JP, Buchanan, KL. Role of CD4+ T cells in a protective immune response against Cryptococcus neoformans in the central nervous system. Med Mycol. 2006; 44: 1–11. PMID: 16805087",
+            "process_entry": "True",
+            "doi": "10.1080/13693780500088424",
+            "pmid": "16805087",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Huffnagle, GB, Yates, JL, Lipscomb, MF. Immunity to a pulmonary Cryptococcus neoformans infection requires both CD4+ and CD8+ T cells. J Exp Med. 1991; 173: 793–800. PMID: 1672543",
+            "process_entry": "True",
+            "doi": "10.1084/jem.173.4.793",
+            "pmid": "1672543",
+            "pmcid": "PMC2190813",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Angkasekwinai, P, Sringkarin, N, Supasorn, O, et al. Cryptococcus gattii infection dampens Th1 and Th17 responses by attenuating dendritic cell function and pulmonary chemokine expression in the immunocompetent hosts. Infect Immun. 2014; 82: 3880–3890. PMID: 24980974",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01773-14",
+            "pmid": "24980974",
+            "pmcid": "PMC4187835",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Milam, JE, Herring-Palmer, AC, Pandrangi, R, et al. Modulation of the pulmonary type 2 T-cell response to Cryptococcus neoformans by intratracheal delivery of a tumor necrosis factor alpha-expressing adenoviral vector. Infect Immun. 2007; 75: 4951–4958. PMID: 17646355",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00176-07",
+            "pmid": "17646355",
+            "pmcid": "PMC2044519",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Muller, U, Piehler, D, Stenzel, W, et al. Lack of IL-4 receptor expression on T helper cells reduces T helper 2 cell polyfunctionality and confers resistance in allergic bronchopulmonary mycosis. Mucosal Immunol. 2012; 5: 299–310. PMID: 22333910",
+            "process_entry": "True",
+            "doi": "10.1038/mi.2012.9",
+            "pmid": "22333910",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kechichian, TB, Shea, J, Del Poeta, M. Depletion of alveolar macrophages decreases the dissemination of a glucosylceramide-deficient mutant of Cryptococcus neoformans in immunodeficient mice. Infect Immun. 2007; 75: 4792–4798. PMID: 17664261",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00587-07",
+            "pmid": "17664261",
+            "pmcid": "PMC2044542",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Leopold Wager, CM, Hole, CR, Wozniak, KL, et al. Cryptococcus and phagocytes: complex interactions that influence disease outcome. Front Microbiol. 2016; 7: 105. PMID: 26903984",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2016.00105",
+            "pmid": "26903984",
+            "pmcid": "PMC4746234",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Charlier, C, Nielsen, K, Daou, S, et al. Evidence of a role for monocytes in dissemination and brain invasion by Cryptococcus neoformans. Infect Immun. 2009; 77: 120–127. PMID: 18936186",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01065-08",
+            "pmid": "18936186",
+            "pmcid": "PMC2612285",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Arora, S, Olszewski, MA, Tsang, TM, et al. Effect of cytokine interplay on macrophage polarization during chronic pulmonary infection with Cryptococcus neoformans. Infect Immun. 2011; 79: 1915–1926. PMID: 21383052",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01270-10",
+            "pmid": "21383052",
+            "pmcid": "PMC3088136",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Sabiiti, W, Robertson, E, Beale, MA, et al. Efficient phagocytosis and laccase activity affect the outcome of HIV-associated cryptococcosis. J Clin Invest. 2014; 124: 2000–2008. PMID: 24743149",
+            "process_entry": "True",
+            "doi": "10.1172/JCI72950",
+            "pmid": "24743149",
+            "pmcid": "PMC4001551",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Ma, H, Hagen, F, Stekel, DJ, et al. The fatal fungal outbreak on Vancouver Island is characterized by enhanced intracellular parasitism driven by mitochondrial regulation. Proc Natl Acad Sci U S A. 2009; 106: 12980–12985. PMID: 19651610",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0902963106",
+            "pmid": "19651610",
+            "pmcid": "PMC2722359",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Hatthakaroon, C, Pharkjaksu, S, Chongtrakool, P, et al. Molecular epidemiology of cryptococcal genotype VNIc/ST5 in Siriraj Hospital, Thailand. PLoS One. 2017; 12: e0173744. PMID: 28323835",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0173744",
+            "pmid": "28323835",
+            "pmcid": "PMC5360237",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Supasorn, O, Sringkarin, N, Srimanote, P, et al. Matrix metalloproteinases contribute to the regulation of chemokine expression and pulmonary inflammation in Cryptococcus infection. Clin Exp Immunol. 2016; 183: 431–440. PMID: 26445891",
+            "process_entry": "True",
+            "doi": "10.1111/cei.12725",
+            "pmid": "26445891",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Cho, JS, Oh, YJ, Kim, OS, et al. The effects of arginase inhibitor on lung oxidative stress and inflammation caused by pneumoperitoneum in rats. BMC Anesthesiol. 2015; 15: 129. PMID: 26415531",
+            "process_entry": "True",
+            "doi": "10.1186/s12871-015-0112-y",
+            "pmid": "26415531",
+            "pmcid": "PMC4587728",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Voelz, K, Lammas, DA, May, RC. Cytokine signaling regulates the outcome of intracellular macrophage parasitism by Cryptococcus neoformans. Infect Immun. 2009; 77: 3450–3457. PMID: 19487474",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00297-09",
+            "pmid": "19487474",
+            "pmcid": "PMC2715691",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Davis, MJ, Tsang, TM, Qiu, Y, et al. Macrophage M1/M2 polarization dynamically adapts to changes in cytokine microenvironments in Cryptococcus neoformans infection. MBio. 2013; 4: e00264–13. PMID: 23781069",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00264-13",
+            "pmid": "23781069",
+            "pmcid": "PMC3684832",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Leopold Wager, CM, Wormley, FL, Jr. Classical versus alternative macrophage activation: the Ying and the Yang in host defense against pulmonary fungal infections. Mucosal Immunol. 2014; 7: 1023–1035. PMID: 25073676",
+            "process_entry": "True",
+            "doi": "10.1038/mi.2014.65",
+            "pmid": "25073676",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Price, MS, Perfect, JR. Host defenses against cryptococcosis. Immunol Invest. 2011; 40: 786–808. PMID: 21985306",
+            "process_entry": "True",
+            "doi": "10.3109/08820139.2011.605196",
+            "pmid": "21985306",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Stenzel, W, Muller, U, Kohler, G, et al. IL-4/IL-13-dependent alternative activation of macrophages but not microglial cells is associated with uncontrolled cerebral cryptococcosis. Am J Pathol. 2009; 174: 486–496. PMID: 19147811",
+            "process_entry": "True",
+            "doi": "10.2353/ajpath.2009.080598",
+            "pmid": "19147811",
+            "pmcid": "PMC2630557",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Thompson, GR, 3rd, Albert, N, Hodge, G, et al. Phenotypic differences of Cryptococcus molecular types and their implications for virulence in a Drosophila model of infection. Infect Immun. 2014; 82: 3058–3065. PMID: 24799631",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01805-14",
+            "pmid": "24799631",
+            "pmcid": "PMC4097627",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Bojarczuk, A, Miller, KA, Hotham, R, et al. Cryptococcus neoformans intracellular proliferation and capsule size determines early macrophage control of infection. Sci Rep. 2016; 6: 21489. PMID: 26887656",
+            "process_entry": "True",
+            "doi": "10.1038/srep21489",
+            "pmid": "26887656",
+            "pmcid": "PMC4757829",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Freij, JB, Fu, MS, De Leon Rodriguez, CM, et al. Conservation of intracellular pathogenic strategy among distantly related cryptococcal species. Infect Immun. 2018; 86.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Gordon, S, Martinez, FO. Alternative activation of macrophages: mechanism and functions. Immunity. 2010; 32: 593–604. PMID: 20510870",
+            "process_entry": "True",
+            "doi": "10.1016/j.immuni.2010.05.007",
+            "pmid": "20510870",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Hancock, A, Armstrong, L, Gama, R, et al. Production of interleukin 13 by alveolar macrophages from normal and fibrotic lung. Am J Respir Cell Mol Biol. 1998; 18: 60–65. PMID: 9448046",
+            "process_entry": "True",
+            "doi": "10.1165/ajrcmb.18.1.2627",
+            "pmid": "9448046",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Kang, CM, Jang, AS, Ahn, MH, et al. Interleukin-25 and interleukin-13 production by alveolar macrophages in response to particles. Am J Respir Cell Mol Biol. 2005; 33: 290–296. PMID: 15961726",
+            "process_entry": "True",
+            "doi": "10.1165/rcmb.2005-0003oc",
+            "pmid": "15961726",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Blackstock, R, Murphy, JW. Role of interleukin-4 in resistance to Cryptococcus neoformans infection. Am J Respir Cell Mol Biol. 2004; 30: 109–117. PMID: 12855407",
+            "process_entry": "True",
+            "doi": "10.1165/rcmb.2003-0156oc",
+            "pmid": "12855407",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Muller, U, Stenzel, W, Kohler, G, et al. IL-13 induces disease-promoting type 2 cytokines, alternatively activated macrophages and allergic inflammation during pulmonary infection of mice with Cryptococcus neoformans. J Immunol. 2007; 179: 5367–5377. PMID: 17911623",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.179.8.5367",
+            "pmid": "17911623",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Zhang, Y, Wang, F, Tompkins, KC, et al. Robust Th1 and Th17 immunity supports pulmonary clearance but cannot prevent systemic dissemination of highly virulent Cryptococcus neoformans H99. Am J Pathol. 2009; 175: 2489–2500. PMID: 19893050",
+            "process_entry": "True",
+            "doi": "10.2353/ajpath.2009.090530",
+            "pmid": "19893050",
+            "pmcid": "PMC2789623",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Murdock, BJ, Teitz-Tennenbaum, S, Chen, GH, et al. Early or late IL-10 blockade enhances Th1 and Th17 effector responses and promotes fungal clearance in mice with cryptococcal lung infection. J Immunol. 2014; 193: 4107–4116. PMID: 25225664",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.1400650",
+            "pmid": "25225664",
+            "pmcid": "PMC4193595",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-30520685",
+    "doi": "10.1080/21505594.2018.1556150",
+    "pmid": "10.1080/21505594.2018.1556150",
+    "pmcid": "30520685",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30520685/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),666,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),792,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),666,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),792,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),799,157)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),950,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),799,157)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),950,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,161)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),156,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "[5–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),156,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,161)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,161)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),156,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),163,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),297,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),507,6)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),297,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),507,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),645,154)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11–13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),791,7)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "",
+                "pl_string": "[11–13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),791,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),645,154)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),645,154)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11–13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),791,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),978,123)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1102,152)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1255,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),413,109)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cryptococcus strain"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),827,184)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cryptococcus strain"
+                ],
+                "pl_string": "[8,15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1004,6)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),827,184)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cryptococcus strain"
+                ],
+                "pl_string": "[8,15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1004,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,97)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Macrophage culture"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),109,45)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In vitro phagocytosis and intracellular proliferation assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,204)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Murine model of Cryptococcus infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),397,276)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Murine model of Cryptococcus infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),351,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Alveolar macrophage isolation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),469,133)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Antigen-specific cytokine production"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[12]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[12]/p),1,74)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Arginase activity assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),121,263)",
+                "containers_title": [
+                    "Results",
+                    "Differences in phagocytosis rate and intracellular proliferation rate of C. neoformans and C. gattii by macrophages"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,196)",
+                "containers_title": [
+                    "Results",
+                    "The high uptake rate of C. neoformans but not high intracellular proliferation rate of C. gattii correlated with the cryptococcal virulence in a murine model of cryptococcosis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),1,140)",
+                "containers_title": [
+                    "Results",
+                    "The high uptake rate of C. neoformans but not high intracellular proliferation rate of C. gattii correlated with the cryptococcal virulence in a murine model of cryptococcosis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,184)",
+                "containers_title": [
+                    "Results",
+                    "Infection with high-uptake C. neoformans potentiated the induction of alternatively activated macrophages"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),177,7)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,184)",
+                "containers_title": [
+                    "Results",
+                    "Infection with high-uptake C. neoformans potentiated the induction of alternatively activated macrophages"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),177,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),186,159)",
+                "containers_title": [
+                    "Results",
+                    "Infection with high-uptake C. neoformans potentiated the induction of alternatively activated macrophages"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,249)",
+                "containers_title": [
+                    "Results",
+                    "C. neoformans strains with high uptake rate promotes type 2 immune responses"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),251,292)",
+                "containers_title": [
+                    "Results",
+                    "C. neoformans strains with high uptake rate promotes type 2 immune responses"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,344)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),224,7)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,344)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),224,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),818,94)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),913,116)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1338,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1875,212)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),237,187)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,20]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),416,7)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),237,187)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,20]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),416,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),925,78)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1004,203)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1199,7)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1004,203)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1199,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),331,257)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[8,31–34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),578,9)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),331,257)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[8,31–34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),578,9)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),331,257)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[8,31–34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),578,9)"
+            }
+        ]
+    ]
+}

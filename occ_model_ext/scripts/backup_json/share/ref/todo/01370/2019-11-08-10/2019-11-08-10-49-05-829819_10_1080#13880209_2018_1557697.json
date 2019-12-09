@@ -1,0 +1,937 @@
+{
+    "references": [
+        {
+            "bibentry": "Ahmad, T, Shinkafi, TS, Routray, I, Mahmood, A, Ali, S. 2012 Aqueous extract of dried flower buds of Syzygium aromaticum inhibits inflammation and oxidative stress. J Basic Clin Pharm. 3: 323–327. PMID: 24826043",
+            "process_entry": "True",
+            "doi": "10.4103/0976-0105.103813",
+            "pmid": "24826043",
+            "pmcid": "PMC3979236",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Babior, BM. 1984 Oxidants from phagocytes: agents of defense and destruction. Blood. 64: 959–966. PMID: 6386073",
+            "process_entry": "True",
+            "pmid": "6386073",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Babior, BM. 2000 Phagocytes and oxidative stress. Am J Med. 109: 33–44. PMID: 10936476",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9343(00)00481-2",
+            "pmid": "10936476",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Banerjee, S, Panda, CK, Das, S. 2006 Clove (Syzygium aromaticum L.), a potential chemopreventive agent for lung cancer. Carcinogenesis. 27: 1645–1654. PMID: 16501250",
+            "process_entry": "True",
+            "doi": "10.1093/carcin/bgi372",
+            "pmid": "16501250",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Barnes, PJ, Adcock, IM. 2009 Glucocorticoid resistance in inflammatory diseases. Lancet. 373: 1905–1917. PMID: 19482216",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(09)60326-3",
+            "pmid": "19482216",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Butler, GS, Overall, CM. 2013 Matrix metalloproteinase processing of signaling molecules to regulate inflammation. Periodontol 2000. 63: 123–148. PMID: 23931058",
+            "process_entry": "True",
+            "doi": "10.1111/prd.12035",
+            "pmid": "23931058",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Cataldo, DD, Gueders, MM, Rocks, N, Sounni, NE, Evrard, B, Bartsch, P, Louis, R, Noel, A, Foidart, JM. 2003 Pathogenic role of matrix metalloproteases and their inhibitors in asthma and chronic obstructive pulmonary disease and therapeutic relevance of matrix metalloproteases inhibitors. Cell Mol Biol (Noisy-le-Grand). 49: 875–884. PMID: 14656045",
+            "process_entry": "True",
+            "pmid": "14656045",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Ciccocioppo, R, Di Sabatino, A, Bauer, M, Della Riccia, DN, Bizzini, F, Biagi, F, Cifone, MG, Corazza, GR, Schuppan, D. 2005 Matrix metalloproteinase pattern in celiac duodenal mucosa. Lab Invest. 85: 397–407. PMID: 15608660",
+            "process_entry": "True",
+            "doi": "10.1038/labinvest.3700225",
+            "pmid": "15608660",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Corry, DB, Rishi, K, Kanellis, J, Kiss, A, Song, LZ, Xu, J, Feng, Z, Werb, L, Kheradmand, F. 2002 Decreased allergic lung inflammatory cell egression and increased susceptibility to asphyxiation in MMP2-deficiency. Nat Immunol. 3: 347–353. PMID: 11887181",
+            "process_entry": "True",
+            "doi": "10.1038/ni773",
+            "pmid": "11887181",
+            "pmcid": "PMC2814346",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Corry, DB, Kiss, A, Song, LZ, Song, L, Xu, J, Lee, SH, Werb, Z, Kheradmand, F. 2004 Overlapping and independent contributions of MMP2 and MMP9 to lung allergic inflammatory cell egression through decreased CC chemokines. FASEB J. 18: 995–997. PMID: 15059974",
+            "process_entry": "True",
+            "doi": "10.1096/fj.03-1412fje",
+            "pmid": "15059974",
+            "pmcid": "PMC2771179",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Cortés-Rojas, DF, De Souza, CRF, Oliveira, WP. 2014 Clove (Syzygium aromaticum): a precious spice. Asian Pac J Trop Biomed. 4: 90–96. PMID: 25182278",
+            "process_entry": "True",
+            "doi": "10.1016/S2221-1691(14)60215-X",
+            "pmid": "25182278",
+            "pmcid": "PMC3819475",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Dahlgren, C, Karlsson, A. 1999 Respiratory burst in human neutrophils. J. Immunol. Meth. 232: 3–14.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Dudonne, S, Vitrac, X, Coutiere, P, Woillez, M, Merillon, JM. 2009 Comparative study of antioxidant properties and total phenolic content of 30 plant extracts of industrial interest using DPPH, ABTS, FRAP, SOD, and ORAC assays. J Agric Food Chem. 57: 1768–1774. PMID: 19199445",
+            "process_entry": "True",
+            "doi": "10.1021/jf803011r",
+            "pmid": "19199445",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "El-Benna, J, Dang, PM, Gougerot-Pocidalo, MA, Elbim, C. 2005 Phagocyte NADPH oxidase: a multicomponent enzyme essential for host defenses. Arch Immunol Ther Exp (Warsz). 53: 199–206. PMID: 15995580",
+            "process_entry": "True",
+            "pmid": "15995580",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "El-Benna, J, Dang, PM. 2007 Analysis of protein phosphorylation in human neutrophils. Methods Mol Biol. 412: 85–96. PMID: 18453107",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-59745-467-4_7",
+            "pmid": "18453107",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Fabbri, LM, Romagnoli, M, Corbetta, L, Casoni, G, Busljetic, K, Turato, G, Ligabue, G, Ciaccia, A, Saetta, M, Papi, A. 2003 Differences in airway inflammation in patients with fixed airflow obstruction due to asthma or chronic obstructive pulmonary disease. Am J Respir Crit Care Med. 167: 418–424. PMID: 12426229",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200203-183oc",
+            "pmid": "12426229",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Fabricant, DS, Farnsworth, NR. 2001 The value of plants used in traditional medicine for drug discovery. Environ Health Perspect. 109: 69–75. PMID: 11250806",
+            "process_entry": "True",
+            "doi": "10.1289/ehp.01109s169",
+            "pmid": "11250806",
+            "pmcid": "PMC1240543",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Fanjul-Fernandez, M, Folgueras, AR, Cabrera, S, Lopez, OC. 2010 Matrix metalloproteinases: evolution, gene regulation and functional analysis in mouse models. Biochim Biophys Acta. 1803: 3–19. PMID: 19631700",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamcr.2009.07.004",
+            "pmid": "19631700",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Gelderman, MP, Lefkowitz, DL, Lefkowitz, SS, Bollen, A, Moguilevsky, N. 1998 Exposure of macrophages to an enzymatically inactive macrophage mannose receptor ligand augments killing of Candida albicans. Proc Soc Exp Biol Med. 217: 81–88. PMID: 9421210",
+            "process_entry": "True",
+            "doi": "10.3181/00379727-217-44208",
+            "pmid": "9421210",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Gibson, PG, Simpson, JL, Saltos, N. 2001 Heterogeneity of airway inflammation in persistent asthma: evidence of neutrophilic inflammation and increased sputum interleukin-8. Chest. 119: 1329–1336. PMID: 11348936",
+            "process_entry": "True",
+            "doi": "10.1378/chest.119.5.1329",
+            "pmid": "11348936",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Gil, MI, Tomas-Barberan, FA, Hess-Pierce, B, Holcroft, DM, Kader, AA. 2000 Antioxidant activity of pomegranate juice and its relationship with phenolic composition and processing. J Agric Food Chem. 48: 4581–4589. PMID: 11052704",
+            "process_entry": "True",
+            "doi": "10.1021/jf000404a",
+            "pmid": "11052704",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Hamini-Kadar, N, Hamdane, F, Boutoutaou, R, Kihal, M, Henni, JE. 2014 Antifungal activity of clove (Syzygium aromaticum L.) essential oil against phytopathogenic fungi of tomato (Solanum lycopersicum L.) in Algeria. JEBAS. 2: 447–454.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Hampton, MB, Kettle, AJ, Winterbourn, CC. 1998 Inside the neutrophil phagosome: oxidants, myeloperoxidase, and bacterial killing. Blood. 92: 3007–3017. PMID: 9787133",
+            "process_entry": "True",
+            "pmid": "9787133",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Hussein, G, Miyashiro, H, Nakamura, N, Hattori, M, Kakiuchi, N, Shimotohno, K. 2000 Inhibitory effects of Sudanese medicinal plant extracts on hepatitis C virus (HCV) protease. Phytother Res. 14: 510–516. PMID: 11054840",
+            "process_entry": "True",
+            "doi": "10.1002/1099-1573(200011)14:7<510::aid-ptr646>3.0.co;2-b",
+            "pmid": "11054840",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Huxley, RR, Neil, H. 2003 The relation between dietary flavonol intake and coronary heart disease mortality: a metaanalysis of prospective cohort studies. Eur J Clin Nutr. 57: 904–908. PMID: 12879084",
+            "process_entry": "True",
+            "doi": "10.1038/sj.ejcn.1601624",
+            "pmid": "12879084",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Jirovetz, L, Buchbauer, G, Stoilova, I, Stoyanova, A, Krastanov, A, Schmidt, E. 2006 Chemical composition and antioxidant properties of clove leaf essential oil. J Agric Food Chem. 54: 6303–6307. PMID: 16910723",
+            "process_entry": "True",
+            "doi": "10.1021/jf060608c",
+            "pmid": "16910723",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Klebanoff, SJ. 2005 Myeloperoxidase: friend and foe. J Leukoc Biol. 77: 598–625. PMID: 15689384",
+            "process_entry": "True",
+            "doi": "10.1189/jlb.1204697",
+            "pmid": "15689384",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Kumar, PS, Febriyanti, RM, Sofyan, FF, Luftimas, DE, Abdulah, R. 2014 Anticancer potential of Syzygium aromaticum L. in MCF-7 human breast cancer cell lines. Pharmacognosy Res. 6: 350–354. PMID: 25276075",
+            "process_entry": "True",
+            "doi": "10.4103/0974-8490.138291",
+            "pmid": "25276075",
+            "pmcid": "PMC4166826",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Lee, KG, Shibamoto, T. 2001 Antioxidant property of aroma extract isolated from clove buds [ Syzygium aromaticum (L.) Merr. et Perry]. Food Chem. 74: 443–448.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Lincoln, JA, Lefkowitz, DL, Cain, T, Castro, A, Mills, KC, Lefkowitz, SS, Moguilevsky, N, Bollen, A. 1995 Exogenous myeloperoxidase enhances bacterial phagocytosis and intracellular killing by macrophages. Infect Immun. 63: 3042–3047. PMID: 7622228",
+            "process_entry": "True",
+            "pmid": "7622228",
+            "pmcid": "PMC173414",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Meijer, MJW, Mieremet-Ooms, MAC, van der Zon, AM, van Duijn, W, van Hogezand, RA, Sier, CFM, Hommes, DW, Lamers, CBHW, Verspaget, HW. 2007 Increased mucosal matrix metalloproteinase-1-2-3 and -9 activity in patients with inflammatory bowel disease and the relation with Crohn’s disease phenotype. Dig Liver Dis. 39: 733–739. PMID: 17602907",
+            "process_entry": "True",
+            "doi": "10.1016/j.dld.2007.05.010",
+            "pmid": "17602907",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Milind, P, Deepa, K. 2011 Clove: a champion spice. Int J Res Ayurveda Pharm. 2: 47–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Minihane, AM, Vinoy, S, Russell, WR, Baka, A, Roche, HM, Tuohy, KM, Teeling, JL, Blaak, EE, Fenech, M, Vauzour, D. 2015 Low-grade inflammation, diet composition and health: current research evidence and its translation. Br J Nutr. 114: 999–1012. PMID: 26228057",
+            "process_entry": "True",
+            "doi": "10.1017/S0007114515002093",
+            "pmid": "26228057",
+            "pmcid": "PMC4579563",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Nam, H, Kim, MM. 2013 Eugenol with antioxidant activity inhibits MMP-9 related to metastasis in human fibrosarcoma cells. Food Chem Toxicol. 55: 106–112. PMID: 23313798",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2012.12.050",
+            "pmid": "23313798",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Nelson, S, Summer, WR. 1998 Innate immunity, cytokines, and pulmonary host defense. Infect Dis Clin North Am. 12: 555–567. PMID: 9779378",
+            "process_entry": "True",
+            "doi": "10.1016/s0891-5520(05)70198-7",
+            "pmid": "9779378",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Noda, Y, Kaneyuki, T, Mori, A, Packer, L. 2002 Antioxidant activities of pomegranate fruit extract and its anthocyanidins: delphinidin, cyanidin, and pelargonidin. J Agric Food Chem. 50: 166–171. PMID: 11754562",
+            "process_entry": "True",
+            "doi": "10.1021/jf0108765",
+            "pmid": "11754562",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Nuñez, L, Aquino, MD. 2012 Microbicide activity of clove essential oil (Eugenia caryophyllata). Braz J Microbiol. 43: 1255–1260. PMID: 24031950",
+            "process_entry": "True",
+            "doi": "10.1590/S1517-83822012000400003",
+            "pmid": "24031950",
+            "pmcid": "PMC3769004",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Pesci, A, Balbi, B, Majori, M, Cacciani, G, Bertacco, S, Alciato, P, Donner, CF. 1998 Inflammatory cells and mediators in bronchial lavage of patients with chronic obstructive pulmonary disease. Eur Respir J. 12: 380–386. PMID: 9727789",
+            "process_entry": "True",
+            "doi": "10.1183/09031936.98.12020380",
+            "pmid": "9727789",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Punchard, NA, Whelan, CJ, Adcock, I. 2004 Editorial: The journal of inflammation. J Inflamm. 1: 1.",
+            "process_entry": "True",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Robert, MC, Arafat, SN, Spurr-Michaud, S, Chodosh, J, Dohlman, CH, Gipson, IK. 2016 Tear matrix metalloproteinases and myeloperoxidase levels in patients with boston keratoprosthesis type I. Cornea. 35: 1008–1014. PMID: 27191670",
+            "process_entry": "True",
+            "doi": "10.1097/ICO.0000000000000893",
+            "pmid": "27191670",
+            "pmcid": "PMC4899168",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Schonbeck, U, Mach, F, Libby, P. 1998 Generation of biologically active IL-1 beta by matrix metalloproteinases: a novel caspase-1-independent pathway of IL-1 beta processing. J Immunol. 161: 3340–3346. PMID: 9759850",
+            "process_entry": "True",
+            "pmid": "9759850",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Shan, B, Cai, YZ, Sun, M, Corke, H. 2005 Antioxidant capacity of 26 spice extracts and characterization of their phenolic constituents. J Agric Food Chem. 53: 7749–7759. PMID: 16190627",
+            "process_entry": "True",
+            "doi": "10.1021/jf051513y",
+            "pmid": "16190627",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Temple, NJ, Gladwin, KK. 2003 Fruit, vegetables, and the prevention of cancer: research challenges. Nutrition. 19: 467–470. PMID: 12714102",
+            "process_entry": "True",
+            "doi": "10.1016/s0899-9007(02)01037-7",
+            "pmid": "12714102",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Van den Steen, PE, Proost, P, Wuyts, A, Van Damme, J, Opdenakker, G. 2000 Neutrophil gelatinase B potentiates interleukin-8 tenfold by amino terminal processing, whereas it degrades CTAP-III, PF-4, and GRO-alphaand leaves RANTES and MCP-2 intact. Blood. 96: 2673–2681. PMID: 11023497",
+            "process_entry": "True",
+            "pmid": "11023497",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Udby, L, Borregaard, N. 2007 Subcellular fractionation of human neutrophils and analysis of subcellular markers. Methods Mol Biol. 412: 35–56. PMID: 18453104",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-59745-467-4_4",
+            "pmid": "18453104",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Zore, GB, Thakre, AD, Jadhav, S, Karuppayil, SM. 2011 Terpenoids inhibit Candida albicans growth by affecting membrane integrity and arrest of cell cycle. Phytomedicine. 18: 1181–1190. PMID: 21596542",
+            "process_entry": "True",
+            "doi": "10.1016/j.phymed.2011.03.008",
+            "pmid": "21596542",
+            "xmlid": "CIT0050"
+        }
+    ],
+    "localid": "MED-30707845",
+    "doi": "10.1080/13880209.2018.1557697",
+    "pmid": "10.1080/13880209.2018.1557697",
+    "pmcid": "30707845",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30707845/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0035",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0043",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),289,242)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0023",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),838,243)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0002",
+                "rp_string": "1984",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),838,243)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Babior1984, 2000)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1061,18)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0003",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),838,243)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Babior 1984,2000)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1061,18)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0002",
+                "rp_string": "1984",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1082,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0013",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1301,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0029",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1301,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0007",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0005",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),316,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0016",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),96,258)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0034",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),107,196)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Milind and Deepa2011; Cortés-Rojas et al. 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),253,48)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),107,196)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Milind and Deepa 2011; Cortés-Rojas et al.2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),253,48)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0039",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),304,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0024",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),304,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0022",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),304,170)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hamini-Kadar et al.2014; Zore et al. 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),429,43)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0050",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),304,170)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hamini-Kadar et al. 2014; Zore et al.2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),429,43)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0031",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),475,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0001",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),475,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0004",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),475,215)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Banerjee et al.2006; Kumar et al. 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),648,40)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0030",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),475,215)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Banerjee et al. 2006; Kumar et al.2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),648,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0014",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),305,136)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Ethics statement and isolation of human neutrophils"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0049",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),1,145)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation of azurophilic granules and measurement of MPO activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0008",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[2]/sec[13]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[13]/p),1,191)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Zymography"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0041",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),147,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0042",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),335,227)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Pesci et al.1998, Fabbri et al. 2003)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),522,38)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0015",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),335,227)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Pesci et al. 1998, Fabbri et al.2003)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),522,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0017",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),195,161)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0006",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),357,317)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0010",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),1,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0009",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),161,133)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Corry et al.2002, 2004)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[6]),268,24)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0010",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),161,133)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Corry et al. 2002,2004)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[6]),268,24)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0010",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),295,212)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0026",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1,209)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0044",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,249)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0033",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),251,178)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0048",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),430,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0045",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),430,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0032",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),590,105)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0037",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),696,227)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Nelson and Summer1998; Gibson et al. 2001)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),878,43)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0019",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),696,227)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Nelson and Summer 1998; Gibson et al.2001)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),878,43)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0025",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),196,277)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Huxley and Neil2003; Temple and Gladwin 2003)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),425,46)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0047",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),196,277)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Huxley and Neil 2003; Temple and Gladwin2003)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[9]),425,46)"
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0046",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),630,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0027",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),766,121)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0012",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),1,224)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0020",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),226,112)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Gil et al.2000; Noda et al. 2002)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[10]),302,34)"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0038",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),226,112)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Gil et al. 2000; Noda et al.2002)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[10]),302,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0011",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),339,319)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

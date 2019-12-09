@@ -1,0 +1,846 @@
+{
+    "references": [
+        {
+            "bibentry": "Azevedo, AS, Follain, G, Patthabhiraman, S, et al. Metastasis of circulating tumor cells: favorable soil or suitable biomechanics, or both? Cell Adh Migr. 2015; 9: 345–356. PMID: 26312653",
+            "process_entry": "True",
+            "doi": "10.1080/19336918.2015.1059563",
+            "pmid": "26312653",
+            "pmcid": "PMC4955369",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Apoorva, F, Loiben, AM, Shah, SB, et al. How biophysical forces regulate human B cell lymphomas. Cell Rep. 2018; 23: 499–511. PMID: 29642007",
+            "process_entry": "True",
+            "doi": "10.1016/j.celrep.2018.03.069",
+            "pmid": "29642007",
+            "pmcid": "PMC5965297",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Mierke, CT. Physical view on migration modes. Cell Adh Migr. 2015; 9: 367–379. PMID: 26192136",
+            "process_entry": "True",
+            "doi": "10.1080/19336918.2015.1066958",
+            "pmid": "26192136",
+            "pmcid": "PMC4955371",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Riehl, BD, Lee, JS, Ha, L, et al. Fluid-flow-induced mesenchymal stem cell migration: role of focal adhesion kinase and RhoA kinase sensors. J Royal Soc Interface. 2015; 12:1351–1362.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Huang, Y, Agrawal, B, Sun, DD, et al. Microfluidics-based devices: new tools for studying cancer and cancer stem cell migration. Biomicrofluidics. 2011; 5: 013412.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Shamloo, A, Amirifar, L. A microfluidic device for 2D to 3D and 3D to 3D cell navigation. J Micromech Microeng. 2016; 26: 015003.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Nakayama, KH, Surya, VN, Gole, M, et al. Nanoscale patterning of extracellular matrix alters endothelial function under shear stress. Nano Lett. 2016; 16: 410–419. PMID: 26670737",
+            "process_entry": "True",
+            "doi": "10.1021/acs.nanolett.5b04028",
+            "pmid": "26670737",
+            "pmcid": "PMC4758680",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Polacheck, WJ, Charest, JL, Kamm, RD. Interstitial flow influences direction of tumor cell migration through competing mechanisms. PNAS. 2011; 108: 11115–11120. PMID: 21690404",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1103581108",
+            "pmid": "21690404",
+            "pmcid": "PMC3131352",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "McGarry, JG, Klein-Nulend, J, Mullender, MG, et al. A comparison of strain and fluid shear stress in stimulating bone cell responses –a computational and experimental study. FASEB J. 2004; 18: 482-+.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Thompson, WR, Rubin, CT, Rubin, J. Mechanical regulation of signaling pathways in bone. Gene. 2012; 503: 179–193. PMID: 22575727",
+            "process_entry": "True",
+            "doi": "10.1016/j.gene.2012.04.076",
+            "pmid": "22575727",
+            "pmcid": "PMC3371109",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Weinbaum, S, Cowin, SC, Zeng, Y. A model for the excitation of osteocytes by mechanical losding-induced bone fluid shear stresses. J Biomech. 1994; 27: 339–360. PMID: 8051194",
+            "process_entry": "True",
+            "doi": "10.1016/0021-9290(94)90010-8",
+            "pmid": "8051194",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Bentolila, V, Boyce, T. M,, Fyhrie, D. P, etal. Intracortical remodeling in adult rat long bones after fatigue loading. Bone. 1998; 23: 275–281. PMID: 9737350",
+            "process_entry": "True",
+            "doi": "10.1016/s8756-3282(98)00104-5",
+            "pmid": "9737350",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Herman, BC, Cardoso, L, Majeska, RJ, et al. Activation of bone remodeling after fatigue: differential response to linear microcracks and diffuse damage. Bone. 2010; 47: 766–772. PMID: 20633708",
+            "process_entry": "True",
+            "doi": "10.1016/j.bone.2010.07.006",
+            "pmid": "20633708",
+            "pmcid": "PMC2939191",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Wang, L, Ye, TJ, Deng, LF, et al. Repair of microdamage in osteonal cortical bone adjacent to bone screw. PLoS ONE. 2014; 9:e89343–e89349.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Liu, CL, Li, SN, Ji, BH, et al. Flow-induced migration of osteoclasts and regulations of calcium signaling pathways. Cell. Mol. Bioeng. 2015; 8: 213–223.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Verbruggen, SW, Vaughan, TJ, McNamara, LM. Fluid flow in the osteocyte mechanical environment: a fluid-structure interaction approach. Biomech Model Mechanobiol. 2014; 13: 85–97. PMID: 23567965",
+            "process_entry": "True",
+            "doi": "10.1007/s10237-013-0487-y",
+            "pmid": "23567965",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Raschke, WC, Baird, S, Ralph, P, et al. Functional macrophage cell lines transformed by Abelson leukemia-virus. Cell. 1978; 15: 261–267. PMID: 212198",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(78)90101-0",
+            "pmid": "212198",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Boyle, WJ, Simonet, WS, Lacey, DL. Osteoclast differentiation and activation. Nature. 2003; 423: 337–342. PMID: 12748652",
+            "process_entry": "True",
+            "doi": "10.1038/nature01658",
+            "pmid": "12748652",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Sundaram, K, Nishimura, R, Senn, J, et al. RANK ligand signaling modulates the matrix metalloproteinase-9 gene expression during osteoclast differentiation. Exp Cell Res. 2007; 313: 168–178. PMID: 17084841",
+            "process_entry": "True",
+            "doi": "10.1016/j.yexcr.2006.10.001",
+            "pmid": "17084841",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Gomes, RR, Carson, MCF, Carson, DD. Perlecan-stimulated nodules undergo chondrogenic maturation in response to rhBMP-2 treatment in vitro. Connect Tissue Res. 2003; 44 Suppl 1: 196–201. PMID: 12952197",
+            "process_entry": "True",
+            "doi": "10.1080/03008200390181645",
+            "pmid": "12952197",
+            "pmcid": "PMC1387051",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Li, P, Liu, CL, Hu, M, et al. Fluid flow-induced calcium response in osteoclasts: signaling pathways. Ann Biomed Eng. 2014; 42: 1250–1260. PMID: 24710796",
+            "process_entry": "True",
+            "doi": "10.1007/s10439-014-0984-x",
+            "pmid": "24710796",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Hadjidakis, DJ, Androulakis, LI. Bone remodeling In, Creatsas, G, Mastorakos, G, Chrousos, GP, editors. New York: Annals of the New York Academy of Sciences. Women’s health and disease: gynecologic, endocrine, and reproductive issues. 2006 p. 385–396.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Fazzalari, NL, Forwood, MR, Smith, K, et al. Assessment of cancellous bone quality in severe osteoarthrosis: bone mineral density, mechanics, and microdamage. Bone. 1998; 22: 381–388. PMID: 9556139",
+            "process_entry": "True",
+            "doi": "10.1016/s8756-3282(97)00298-6",
+            "pmid": "9556139",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Koszyca, B, Fazzalari, NL, Vernonroberts, B. Trabecular microfractures –nature and distribution in the proximal femur. Clin Orthop Relat Res. 1989, Jul(244): 208–216.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Norman, TL, Wang, Z. Microdamage of human cortical bone: incidence and morphology in long bones. Bone. 1997; 20: 375–379. PMID: 9108359",
+            "process_entry": "True",
+            "doi": "10.1016/s8756-3282(97)00004-5",
+            "pmid": "9108359",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Robling, AG, Castillo, AB, Turner, CH. Biomechanical and molecular regulation of bone remodeling. Annu Rev Biomed Eng. 2006; 8: 455–498. PMID: 16834564",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.bioeng.8.061505.095721",
+            "pmid": "16834564",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Waldorf, EI, Christenson, KB, Cooney, LA, et al. Microdamage repair and remodeling requires mechanical loading. J Bone Miner Res. 2010; 25: 734–745. PMID: 19821772",
+            "process_entry": "True",
+            "doi": "10.1359/jbmr.091016",
+            "pmid": "19821772",
+            "pmcid": "PMC3153328",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Yan, WW, Cai, B, Liu, Y, et al. Effects of wall shear stress and its gradient on tumor cell adhesion in curved microvessels. Biomech Model Mechanobiol. 2012; 11: 641–653. PMID: 21818636",
+            "process_entry": "True",
+            "doi": "10.1007/s10237-011-0339-6",
+            "pmid": "21818636",
+            "pmcid": "PMC4887283",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "McAllister, TND. T. and F. JA. Fluid shear stress stimulates prostaglandin and nitric oxide release in bone marrow-derived preosteoclast-like cells. Biochem Biophys Res Commun. 2000; 270: 643–648. PMID: 10753677",
+            "process_entry": "True",
+            "doi": "10.1006/bbrc.2000.2467",
+            "pmid": "10753677",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Boudot, C, Saidak, Z, Boulanouar, AK, et al. Implication of the calcium sensing receptor and the Phosphoinositide 3-kinase/Akt pathway in the extracellular calcium-mediated migration of RAW 264.7 osteoclast precursor cells. Bone. 2010; 46: 1416–1423. PMID: 20149906",
+            "process_entry": "True",
+            "doi": "10.1016/j.bone.2010.01.383",
+            "pmid": "20149906",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Ishii, M, Kikuta, J, Shimazu, Y, et al. Chemorepulsion by blood S1P regulates osteoclast precursor mobilization and bone remodeling in vivo. J Exp Med. 2010; 207: 2793–2798. PMID: 21135136",
+            "process_entry": "True",
+            "doi": "10.1084/jem.20101474",
+            "pmid": "21135136",
+            "pmcid": "PMC3005230",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Li, P, Hu, M, Sun, SJ, et al. Fluid flow-induced calcium response in early or late differentiated osteoclasts. Ann Biomed Eng. 2012; 40: 1874–1883. PMID: 22532320",
+            "process_entry": "True",
+            "doi": "10.1007/s10439-012-0554-z",
+            "pmid": "22532320",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Baroukh, B, Cherruau, M,, Dobigny, C, etal. Osteoclasts differentiate from resident precursors in an in vivo model of synchronized resorption: a temporal and spatial study in rats. Bone. 2000; 27: 627–634. PMID: 11062348",
+            "process_entry": "True",
+            "doi": "10.1016/s8756-3282(00)00372-0",
+            "pmid": "11062348",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Martin, RB. Targeted bone remodeling involves BMU steering as well as activation. Bone. 2007; 40: 1574–1580. PMID: 17398173",
+            "process_entry": "True",
+            "doi": "10.1016/j.bone.2007.02.023",
+            "pmid": "17398173",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Schaffler, MB, Choi, K, Milgrom, C. Aging and matrix microdamage accumulation in human compact bone. Bone. 1995; 17: 521–525. PMID: 8835305",
+            "process_entry": "True",
+            "doi": "10.1016/8756-3282(95)00370-3",
+            "pmid": "8835305",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Andrade, I, Silva, TA, Silva, GAB, et al. The role of tumor necrosis factor receptor type 1 in orthodontic tooth movement. J Dent Res. 2007; 86: 1089–1094. PMID: 17959902",
+            "process_entry": "True",
+            "doi": "10.1177/154405910708601113",
+            "pmid": "17959902",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Tian, J, Qi, WT, Zhang, YH, et al. Bioaggregate inhibits osteoclast differentiation, fusion, and bone resorption in vitro. J Endod. 2015; 41: 1500–1506. PMID: 26233260",
+            "process_entry": "True",
+            "doi": "10.1016/j.joen.2015.05.018",
+            "pmid": "26233260",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Kanakis, I, Theocharis, AD, Noulas, AV, et al. State of the art of biochemical markers in metastatic bone disease and the role of bisphosphonates as therapeutic agents. Current Pharm Anal. 2005; 1: 225–241.",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        }
+    ],
+    "localid": "MED-31131719",
+    "doi": "10.1080/19336918.2019.1619433",
+    "pmid": "10.1080/19336918.2019.1619433",
+    "pmcid": "31131719",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31131719/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),408,204)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),606,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),408,204)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),606,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),613,231)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),931,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),221,182)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),396,6)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),396,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),221,182)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),221,182)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),396,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),537,255)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),784,7)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),784,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),537,255)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),537,255)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),784,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),385,103)",
+                "containers_title": [
+                    "Numerical simulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p),1,129)",
+                "containers_title": [
+                    "Cell culture"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p),131,161)",
+                "containers_title": [
+                    "Cell culture"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p),284,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p),131,161)",
+                "containers_title": [
+                    "Cell culture"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p),284,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p),169,107)",
+                "containers_title": [
+                    "Time-lapsed imaging for cell migration and inhibition of calcium signaling pathways"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p),717,106)",
+                "containers_title": [
+                    "Time-lapsed imaging for cell migration and inhibition of calcium signaling pathways"
+                ],
+                "pl_string": "[15,21]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p),749,7)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[6]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p),717,106)",
+                "containers_title": [
+                    "Time-lapsed imaging for cell migration and inhibition of calcium signaling pathways"
+                ],
+                "pl_string": "[15,21]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p),749,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[9]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[9]/p[2]),1,232)",
+                "containers_title": [
+                    "RAW264.7 cells migrate toward the low-FSS region that is dependent on FSS magnitude and gradient"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[11]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),1,136)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[11]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),138,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),267,7)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "",
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),267,7)",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),138,137)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[11]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),138,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12–14]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),267,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[11]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),276,170)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23–27]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),438,7)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "",
+                "pl_string": "[23–27]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),438,7)",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),276,170)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "",
+                "pl_string": "[23–27]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),438,7)",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),276,170)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "",
+                "pl_string": "[23–27]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),438,7)",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),276,170)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[11]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),276,170)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23–27]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[1]),438,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[11]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[1]),447,215)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[11]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[2]),1,185)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[11]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[3]),183,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[11]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[3]),515,149)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[30,31]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[3]),656,7)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[11]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[3]),515,149)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[30,31]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[3]),656,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[11]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[3]),665,213)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[21,32]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[3]),870,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[11]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[3]),665,213)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[21,32]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[3]),870,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[11]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[3]),879,214)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),1,161)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),239,118)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[25,34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[4]),346,10)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),239,118)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[25,34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[4]),346,10)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),239,118)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[25,34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[4]),346,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),358,191)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[4]),541,7)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),358,191)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[36,37]",
+                "pl_xpath": "substring(string(/article/body/sec[11]/p[4]),541,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[11]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[11]/p[4]),679,93)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,586 @@
+{
+    "references": [
+        {
+            "bibentry": "Micale, N, Scarbaci, K, Troiano, V, et al. Peptide-based proteasome inhibitors in anticancer drug design. Med Res Rev 2014; 34: 1001–69. PMID: 24585725",
+            "process_entry": "True",
+            "doi": "10.1002/med.21312",
+            "pmid": "24585725",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ettari, R, Previti, S, Bitto, A, et al. Immunoproteasome-selective inhibitors: a promising strategy to treat hematologic malignancies, autoimmune and inflammatory diseases. Curr Med Chem 2016; 23: 1217–38. PMID: 26965184",
+            "process_entry": "True",
+            "doi": "10.2174/0929867323666160318173706",
+            "pmid": "26965184",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Ferrington, DA, Gregerson, DS. Immunoproteasome: structure, function, and antigen presentation. Prog Mol Biol Transl Sci 2012; 109: 75–112. PMID: 22727420",
+            "process_entry": "True",
+            "doi": "10.1016/B978-0-12-397863-9.00003-1",
+            "pmid": "22727420",
+            "pmcid": "PMC4405001",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Ettari, R, Zappalà, M, Grasso, S, et al. Immunoproteasome-selective and non-selective inhibitors: a promising approach for the treatment of multiple myeloma. Pharmacol Ther 2018; 182: 176–92. PMID: 28911826",
+            "process_entry": "True",
+            "doi": "10.1016/j.pharmthera.2017.09.001",
+            "pmid": "28911826",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Parlati, F, Lee, SJ, Aujay, M, et al. Carfilzomib can induce tumor cell death through selective inhibition of the chymotrypsin-like activity of the proteasome. Blood 2009; 114: 3439–47. PMID: 19671918",
+            "process_entry": "True",
+            "doi": "10.1182/blood-2009-05-223677",
+            "pmid": "19671918",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Ettari, R, Bonaccorso, C, Micale, N, et al. Development of novel peptidomimetics containing a vinyl sulfone moiety as proteasome inhibitors. Chem Med Chem 2011; 6: 1228–37. PMID: 21506279",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201100093",
+            "pmid": "21506279",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Micale, N, Ettari, R, Lavecchia, A, et al. Development of peptidomimetic boronates as proteasome inhibitors. Eur J Med Chem 2013; 64: 23–34. PMID: 23639651",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2013.03.032",
+            "pmid": "23639651",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Scarbaci, K, Troiano, V, Micale, N, et al. Identification of a new series of amides as non-covalent proteasome inhibitors. Eur J Med Chem 2014; 76: 1–9. PMID: 24561716",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.01.022",
+            "pmid": "24561716",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Troiano, V, Scarbaci, K, Ettari, R, et al. Optimization of peptidomimetic boronates bearing a P3 bicyclic scaffold as proteasome inhibitors. Eur J Med Chem 2014; 83: 1–14. PMID: 24946214",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.06.017",
+            "pmid": "24946214",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Scarbaci, K, Troiano, V, Ettari, R, et al. Development of novel selective peptidomimetics, containing a boronic acid moiety, targeting the 20S proteasome as anticancer agents. Chem Med Chem 2014; 9: 1801–16. PMID: 24891205",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201402075",
+            "pmid": "24891205",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Di Giovanni, C, Ettari, R, Sarno, SA, et al. Identification of noncovalent proteasome inhibitors with high selectivity for chymotrypsin-like activity by a multistep structure-based virtual screening. Eur J Med Chem 2016; 121: 578–91. PMID: 27318981",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.05.049",
+            "pmid": "27318981",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Pizzino, G, Bitto, A, Pallio, G, et al. Blockade of the JNK signalling as a rational therapeutic approach to modulate the early and late steps of the inflammatory cascade in polymicrobial sepsis. Mediators Inflamm 2015; 2015: 1.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Greenstein, S, Krett, NL, Kurosawa, Y, et al. Characterization of the MM.1 human multiple myeloma (MM) cell lines: a model system to elucidate the characteristics, behavior, and signaling of steroid-sensitive and -resistant MM cells. Exp Hematol 2003; 31: 271–82. PMID: 12691914",
+            "process_entry": "True",
+            "doi": "10.1016/s0301-472x(03)00023-7",
+            "pmid": "12691914",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Malara, NM, Leotta, A, Sidoti, A, et al. Ageing, hormonal behaviour and cyclin D1 in ductal breast carcinomas. Breast 2006; 15: 81–9. PMID: 16473739",
+            "process_entry": "True",
+            "doi": "10.1016/j.breast.2004.12.008",
+            "pmid": "16473739",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Huang, X, Di Liberto, M, Jayabalan, D, et al. Prolonged early G(1) arrest by selective CDK4/CDK6 inhibition sensitizes myeloma cells to cytotoxic killing through cell cycle-coupled loss of IRF4. Blood 2012; 120: 1095–106. PMID: 22718837",
+            "process_entry": "True",
+            "doi": "10.1182/blood-2012-03-415984",
+            "pmid": "22718837",
+            "pmcid": "PMC3412331",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Yang, Z, Liu, S, Zhu, M, et al. PS341 inhibits hepatocellular and colorectal cancer cells through the FOXO3/CTNNB1 signaling pathway. Sci Rep 2016; 6: 22090. PMID: 26915315",
+            "process_entry": "True",
+            "doi": "10.1038/srep22090",
+            "pmid": "26915315",
+            "pmcid": "PMC4768146",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Németh, ZH, Wong, HR, Odoms, K, et al. Proteasome inhibitors induce inhibitory kappa B (I kappa B) kinase activation, I kappa B alpha degradation, and nuclear factor kappa B activation in HT-29 cells. Mol Pharmacol 2004; 65: 342–9. PMID: 14742676",
+            "process_entry": "True",
+            "doi": "10.1124/mol.65.2.342",
+            "pmid": "14742676",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Dolcet, X, Llobet, D, Encinas, M, et al. Proteasome inhibitors induce death but activate NF-kappaB on endometrial carcinoma cell lines and primary culture explants. J Biol Chem 2006; 281: 22118–30. PMID: 16735506",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m601350200",
+            "pmid": "16735506",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Juvekar, A, Manna, S, Ramaswami, S, et al. Bortezomib induces nuclear translocation of IκBα resulting in gene specific suppression of NFκB-dependent transcription and induction of apoptosis in CTCL. Mol Cancer Res 2011; 9: 183–94. PMID: 21224428",
+            "process_entry": "True",
+            "doi": "10.1158/1541-7786.MCR-10-0368",
+            "pmid": "21224428",
+            "pmcid": "PMC3078042",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Tyagi, A, Agarwal, C, Harrison, G, et al. Silibinin causes cell cycle arrest and apoptosis in human bladder transitional cell carcinoma cells by regulating CDKI-CDK-cyclin cascade, and caspase 3 and PARP cleavages. Carcinogenesis 2004; 25: 1711–20. PMID: 15117815",
+            "process_entry": "True",
+            "doi": "10.1093/carcin/bgh180",
+            "pmid": "15117815",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Brauns, SC, Dealtry, G, Milne, P, et al. Caspase-3 activation and induction of PARP cleavage by cyclic dipeptide cyclo(Phe-Pro) in HT-29 cells. Anticancer Res 2005; 25: 4197–202. PMID: 16309216",
+            "process_entry": "True",
+            "pmid": "16309216",
+            "xmlid": "CIT0021"
+        }
+    ],
+    "localid": "MED-31307247",
+    "doi": "10.1080/14756366.2019.1594802",
+    "pmid": "10.1080/14756366.2019.1594802",
+    "pmcid": "31307247",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31307247/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),378,196)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,278)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),280,164)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,478)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "i20S is the major form of the proteasome expressed in cells of hematopoietic origin, in particular in multiple myeloma (MM) cells4; however, Parlati et al. demonstrated that a specific inhibition of either β5i or β5c alone is insufficient to produce an antitumor response, differently, a selective inhibition of both β5i and β5c is fundamental to promote an antitumor effect in MM, non-Hodgkin lymphoma, and leukaemia cells with a reduction of the toxicity in non-tumour cells5.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,478)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "i20S is the major form of the proteasome expressed in cells of hematopoietic origin, in particular in multiple myeloma (MM) cells4; however, Parlati et al. demonstrated that a specific inhibition of either β5i or β5c alone is insufficient to produce an antitumor response, differently, a selective inhibition of both β5i and β5c is fundamental to promote an antitumor effect in MM, non-Hodgkin lymphoma, and leukaemia cells with a reduction of the toxicity in non-tumour cells5.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0006",
+                "rp_string": "6–11",
+                "pl_string": "6–11",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0008",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0010",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0006",
+                "rp_string": "6–11",
+                "pl_string": "6–11",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0008",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0010",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0011",
+                "pl_string": "6–11",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,381)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),522,303)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0008",
+                "rp_string": "8–9",
+                "pl_string": "8–9",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),522,303)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0009",
+                "pl_string": "8–9",
+                "pl_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),522,303)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0008",
+                "rp_string": "8–9",
+                "pl_string": "8–9",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),522,303)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),325,86)",
+                "containers_title": [
+                    "Materials and method",
+                    "Assessment of ubiquitin, cyclins, CDKs, NF-kB by western blot assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),415,385)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,266)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,210)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0015",
+                "rp_string": "15–16",
+                "pl_string": "15–16",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "pl_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),212,183)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0016",
+                "pl_string": "15–16",
+                "pl_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),212,183)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0015",
+                "rp_string": "15–16",
+                "pl_string": "15–16",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "pl_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),212,183)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0017",
+                "rp_string": "17–19",
+                "pl_string": "17–19",
+                "rp_xpath": "/article/body/sec[3]/p[14]/xref",
+                "pl_xpath": "/article/body/sec[3]/p[14]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[14]),244,309)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0018",
+                "pl_string": "17–19",
+                "pl_xpath": "/article/body/sec[3]/p[14]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[14]),244,309)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0019",
+                "pl_string": "17–19",
+                "pl_xpath": "/article/body/sec[3]/p[14]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[14]),244,309)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0017",
+                "rp_string": "17–19",
+                "pl_string": "17–19",
+                "rp_xpath": "/article/body/sec[3]/p[14]/xref",
+                "pl_xpath": "/article/body/sec[3]/p[14]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[14]),244,309)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0020",
+                "rp_string": "20–21",
+                "pl_string": "20–21",
+                "rp_xpath": "/article/body/sec[3]/p[15]/xref[1]",
+                "pl_xpath": "/article/body/sec[3]/p[15]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[15]),99,157)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0021",
+                "pl_string": "20–21",
+                "pl_xpath": "/article/body/sec[3]/p[15]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[15]),99,157)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0020",
+                "rp_string": "20–21",
+                "pl_string": "20–21",
+                "rp_xpath": "/article/body/sec[3]/p[15]/xref[1]",
+                "pl_xpath": "/article/body/sec[3]/p[15]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[15]),99,157)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ]
+    ]
+}

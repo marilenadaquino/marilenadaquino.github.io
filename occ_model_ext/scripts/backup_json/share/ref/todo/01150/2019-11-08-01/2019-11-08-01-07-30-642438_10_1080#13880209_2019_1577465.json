@@ -1,0 +1,612 @@
+{
+    "references": [
+        {
+            "bibentry": "Ahmed, S, Johnson, K, Ahmed, O, Iqbal, N. 2014 Advances in the management of colorectal cancer: from biology to treatment. Int J Colorect Dis. 29: 1031–1042.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Candela, M, Turroni, S, Biagi, E, Carbonero, F, Rampelli, S, Fiorentini, C, Brigidi, P. 2014 Inflammation and colorectal cancer, when microbiota-host mutualism breaks. World J Gastroenterol. 20: 908–922. PMID: 24574765",
+            "process_entry": "True",
+            "doi": "10.3748/wjg.v20.i4.908",
+            "pmid": "24574765",
+            "pmcid": "PMC3921544",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cheng, KW, Tseng, CH, Tzeng, CC, Leu, YL, Cheng, TC, Wang, JY, Chang, JM, Lu, YC, Cheng, CM, Chen, IJ. 2018 Pharmacological inhibition of bacterial beta-glucuronidase prevents irinotecan-induced diarrhea without impairing its antitumor efficacy in vivo. Pharmacol Res. 1: 41–49.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "El-Khadragy, MF, Nabil, HM, Hassan, BN, Tohamy, AA, Waaer, HF, Yehia, HM, Alharbi, AM, Moneim, AEA. 2018 Bone marrow cell therapy on 1,2-dimethylhydrazine (DMH)-induced colon cancer in rats. Cell Physiol Biochem. 45: 1072–1083. PMID: 29439258",
+            "process_entry": "True",
+            "doi": "10.1159/000487349",
+            "pmid": "29439258",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Feng, S, Song, J. 1999 Relationship of beta-glucuronidase to differentiation and invasion of human colorectal carcinoma. Chin Med J. 112: 854–857. PMID: 11717961",
+            "process_entry": "True",
+            "pmid": "11717961",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Grivennikov, S, Karin, E, Terzic, J, Mucida, D, Yu, GY, Vallabhapurapu, S, Scheller, J, Rose-John, S, Cheroutre, H, Eckmann, L, et al. 2009 IL-6 and Stat3 are required for survival of intestinal epithelial cells and development of colitis-associated cancer. Cancer Cell. 15: 103–113. PMID: 19185845",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccr.2009.01.001",
+            "pmid": "19185845",
+            "pmcid": "PMC2667107",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Han, J, Theiss, AL. 2014 Stat3: friend or foe in colitis and colitis-associated cancer? Inflamm Bowel Dis. 20: 2405–2411. PMID: 25185686",
+            "process_entry": "True",
+            "doi": "10.1097/MIB.0000000000000180",
+            "pmid": "25185686",
+            "pmcid": "PMC4428549",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Kawee-Ai, A, Kim, SM. 2014 Application of microalgal fucoxanthin for the reduction of colon cancer risk: inhibitory activity of fucoxanthin against beta-glucuronidase and DLD-1 cancer cells. Nat Prod Commun. 9: 921–924. PMID: 25230493",
+            "process_entry": "True",
+            "pmid": "25230493",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Kim, ER, Chang, DK. 2014 Colorectal cancer in inflammatory bowel disease: the risk, pathogenesis, prevention and diagnosis. World J Gastroenterol. 20: 9872–9881. PMID: 25110418",
+            "process_entry": "True",
+            "doi": "10.3748/wjg.v20.i29.9872",
+            "pmid": "25110418",
+            "pmcid": "PMC4123369",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Klimesova, K, Kverka, M, Zakostelska, Z, Hudcovic, T, Hrncir, T, Stepankova, R, Rossmann, P, Ridl, J, Kostovcik, M, Mrazek, J, et al. 2013 Altered gut microbiota promotes colitis-associated cancer in IL-1 receptor-associated kinase M-deficient mice. Inflamm Bowel Dis. 19: 1266–1277. PMID: 23567778",
+            "process_entry": "True",
+            "doi": "10.1097/MIB.0b013e318281330a",
+            "pmid": "23567778",
+            "pmcid": "PMC3744230",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Li, J, Fan, ZZ, Sun, J, Xu, JH. 2011 In vitro antimetastatic effect of Changweiqing through antiinvasion of hypoxic colorectal carcinoma LoVo cells. Chin J Integr Med. 17: 517–524. PMID: 21725877",
+            "process_entry": "True",
+            "doi": "10.1007/s11655-011-0785-0",
+            "pmid": "21725877",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Lin, L, Liu, A, Peng, Z, Lin, HJ, Li, PK, Li, C, Lin, J. 2011 STAT3 is necessary for proliferation and survival in colon cancer-initiating cells. Cancer Res. 71: 7226–7237. PMID: 21900397",
+            "process_entry": "True",
+            "doi": "10.1158/0008-5472.CAN-10-4660",
+            "pmid": "21900397",
+            "pmcid": "PMC4295768",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Markowitz, SD, Bertagnolli, MM. 2009 Molecular origins of cancer: molecular basis of colorectal cancer. N Engl J Med. 361: 2449–2460. PMID: 20018966",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMra0804588",
+            "pmid": "20018966",
+            "pmcid": "PMC2843693",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Moossavi, S, Bishehsari, F. 2012 Inflammation in sporadic colorectal cancer. Arch Iran Med. 15: 166–170. PMID: 22369306",
+            "process_entry": "True",
+            "doi": "012153/aim.0012",
+            "pmid": "22369306",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Nagy, N, Bronckart, Y, Camby, I, Legendre, H, Lahm, H, Kaltner, H, Hadari, Y, Van Ham, P, Yeaton, P, Pector, JC, et al. 2002 Galectin-8 expression decreases in cancer compared with normal and dysplastic human colon tissue and acts significantly on human colon cancer cell migration as a suppressor. Gut. 50: 392–401. PMID: 11839721",
+            "process_entry": "True",
+            "doi": "10.1136/gut.50.3.392",
+            "pmid": "11839721",
+            "pmcid": "PMC1773143",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Peeters, PJ, Bazelier, MT, Leufkens, HG, de Vries, F, De Bruin, ML. 2015 The risk of colorectal cancer in patients with type 2 diabetes: associations with treatment stage and obesity. Diabetes Care. 38: 495–502. PMID: 25552419",
+            "process_entry": "True",
+            "doi": "10.2337/dc14-1175",
+            "pmid": "25552419",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Reynoso-Camacho, R, Guerrero-Villanueva, G, Figueroa, JdD, Gallegos-Corona, MA, Mendoza, S, Loarca-Piña, G, Ramos-Gomez, M. 2015 Anticarcinogenic effect of corn tortilla against 1,2-dimethylhydrazine (DMH)-induced colon carcinogenesis in Sprague-Dawley rats. Plant Foods Hum Nutr (Dordrecht, Netherlands). 70: 146–152.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Sheflin, AM, Whitney, AK, Weir, TL. 2014 Cancer-promoting effects of microbial dysbiosis. Curr Oncol Rep. 16: 406–414. PMID: 25123079",
+            "process_entry": "True",
+            "doi": "10.1007/s11912-014-0406-0",
+            "pmid": "25123079",
+            "pmcid": "PMC4180221",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Siegel, R, Naishadham, D, Jemal, A. 2013 Cancer statistics, 2013. CA: Cancer J Clin. 63: 11–30. PMID: 23335087",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21166",
+            "pmid": "23335087",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Simon, K. 2016 Colorectal cancer development and advances in screening. Clin Interv Aging. 11: 967–976. PMID: 27486317",
+            "process_entry": "True",
+            "doi": "10.2147/CIA.S109285",
+            "pmid": "27486317",
+            "pmcid": "PMC4958365",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Sobhani, I, Tap, J, Roudot-Thoraval, F, Roperch, JP, Letulle, S, Langella, P, Corthier, G, Tran Van Nhieu, J, Furet, JP. 2011 Microbial dysbiosis in colorectal cancer (CRC) patients. PLoS One. 6: e16393. PMID: 21297998",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0016393",
+            "pmid": "21297998",
+            "pmcid": "PMC3029306",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Spitzner, M, Roesler, B, Bielfeld, C, Emons, G, Gaedcke, J, Wolff, HA, Rave-Fränk, M, Kramer, F, Beissbarth, T, Kitz, J, et al. 2014 STAT3 inhibition sensitizes colorectal cancer to chemoradiotherapy in vitro and in vivo. Int J Cancer. 134: 997–1007. PMID: 23934972",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.28429",
+            "pmid": "23934972",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Summart, R, Chewonarin, T. 2014 Purple rice extract supplemented diet reduces DMH-induced aberrant crypt foci in the rat colon by inhibition of bacterial β-glucuronidase. Asian Pac J Cancer Prev. 15: 749–755. PMID: 24568490",
+            "process_entry": "True",
+            "pmid": "24568490",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Sun, Y, Li, Y. 1988 Induction of beta-glucuronidase activity during dimethylhydrazine carcinogenesis and additive effects of cholic acid and indole. Cancer Lett. 39: 69–76. PMID: 3345507",
+            "process_entry": "True",
+            "doi": "10.1016/0304-3835(88)90041-9",
+            "pmid": "3345507",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Waszkiewicz, N, Szajda, SD, Konarzewska-Duchnowska, E, Zalewska-Szajda, B, Gałązkowski, R, Sawko, A, Nammous, H, Buko, V, Szulc, A, Zwierz, K, et al. 2015 Serum β-glucuronidase as a potential colon cancer marker: a preliminary study. Postepy Higieny i Medycyny Doswiadczalnej (Online). 69: 436–439. PMID: 25897103",
+            "process_entry": "True",
+            "doi": "10.5604/17322693.1148704",
+            "pmid": "25897103",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Xu, JH, Deng, WL, Fan, ZZ. 2010 Effects of changwelqing on nuclear translocation of Y-box binding protein-1 and expression of P-glycoprotein in human colon cancer cell line with drug-resistance induced by vincristine. Zhongguo Zhong Xi Yi Jie He Za Zhi Zhongguo Zhongxiyi Jiehe Zazhi = Chin J Integr Trad West Med. 30: 743–747.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Zhang, Y, Sun, XW, Xu, JH, Lu, H, Fan, ZZ, Sun, J, Zhang, XX. 2012 Effects of medicated serum prepared with Chinese herbal medicine Changweiqing on pharmacokinetics of oxaliplatin in colon cancer cells. Zhong Xi Yi Jie He Xue Bao = J Chin Integr Med. 10: 901–910.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Zhang, Y, Zhang, Q, Fan, Z, Sun, J, Liu, X, Cheng, L, Li, A, Xu, J. 2015 A Chinese herbal formula, Chang-Wei-Qin, synergistically enhances antitumor effect of oxaliplatin. Pathol Oncol Res. 21: 389–397. PMID: 25103530",
+            "process_entry": "True",
+            "doi": "10.1007/s12253-014-9831-5",
+            "pmid": "25103530",
+            "xmlid": "CIT0028"
+        }
+    ],
+    "localid": "MED-30905249",
+    "doi": "10.1080/13880209.2019.1577465",
+    "pmid": "10.1080/13880209.2019.1577465",
+    "pmcid": "30905249",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30905249/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0019",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),98,114)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),213,158)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0004",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),593,133)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0020",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),837,163)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0013",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1001,97)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1099,171)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1271,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0018",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,169)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0002",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),171,166)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0021",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),338,239)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0026",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),653,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0026",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),653,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),882,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),882,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0027",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1034,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(2012, 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1047,12)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0028",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1034,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(2012,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1047,11)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0027",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1034,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al.2012, 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1281,24)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0028",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1034,273)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al. 2012,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1281,24)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0006",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),508,66)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Animal model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0010",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,69)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Microbiota analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0017",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,83)",
+                "containers_title": [
+                    "Materials and methods",
+                    "β-Glucuronidase determination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0015",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1,114)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Serum d-lactose and endotoxin determination"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0012",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),1,77)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Western blotting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0023",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),152,217)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "1988",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),370,150)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0003",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),521,169)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0005",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),691,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0008",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),832,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0025",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1004,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0014",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),269,236)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0007",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,154)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0012",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),156,224)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0022",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),381,146)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

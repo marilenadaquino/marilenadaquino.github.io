@@ -1,0 +1,1134 @@
+{
+    "references": [
+        {
+            "bibentry": "Hastie, SW. Standish Group 2015 Chaos Report-Q&A with Jennifer Lynch. 2015. https://www.infoq.com/articles/standish-chaos-2015 Accessed October 4, 2015.",
+            "process_entry": "True",
+            "url": "https://www.infoq.com/articles/standish-chaos-2015 Accessed October 4, 2015.",
+            "xmlid": "ocz123-B1"
+        },
+        {
+            "bibentry": "Larman, C. Agile and Iterative Development: A Manager's Guide. London: Pearson Education; 2003.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B2"
+        },
+        {
+            "bibentry": "Sittig, DF, Wright, A, Osheroff, JA. et al Grand challenges in clinical decision support. J Biomed Inform 2008; 41 2: 387–92. PMID: 18029232",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbi.2007.09.003",
+            "pmid": "18029232",
+            "pmcid": "PMC2660274",
+            "xmlid": "ocz123-B3"
+        },
+        {
+            "bibentry": "Middleton, B, Sittig, DF, Wright, A. Clinical decision support: a 25 year retrospective and a 25 year vision. Yearb Med Inform 2016; 25(Suppl 1): S103–16.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B4"
+        },
+        {
+            "bibentry": "Osheroff, JA, Teich, J, Levick, D. et al Improving Outcomes with Clinical Decision Support: An Implementer's Guide. Chicago: Health care Information and Management Systems Society; 2012.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B5"
+        },
+        {
+            "bibentry": "Dolley, S. Big data's role in precision public health. Front Public Health 2018; 6: 68. PMID: 29594091",
+            "process_entry": "True",
+            "doi": "10.3389/fpubh.2018.00068",
+            "pmid": "29594091",
+            "pmcid": "PMC5859342",
+            "xmlid": "ocz123-B6"
+        },
+        {
+            "bibentry": "Kruse, CS, Goswamy, R, Raval, Y, Marawi, S. Challenges and opportunities of big data in health care: a systematic review. JMIR Med Inform 2016; 4 4: e38. PMID: 27872036",
+            "process_entry": "True",
+            "doi": "10.2196/medinform.5359",
+            "pmid": "27872036",
+            "pmcid": "PMC5138448",
+            "xmlid": "ocz123-B7"
+        },
+        {
+            "bibentry": "Frey, LJ, Bernstam, EV, Denny, JC. Precision medicine informatics. J Am Med Inform Assoc 2016; 23 4: 668–70. PMID: 27274018",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocw053",
+            "pmid": "27274018",
+            "pmcid": "PMC4926751",
+            "xmlid": "ocz123-B8"
+        },
+        {
+            "bibentry": "Caraballo, PJ, Bielinski, SJ, St Sauver, JL, Weinshilboum, RM. Electronic medical record-integrated pharmacogenomics and related clinical decision support concepts. Clin Pharmacol Ther 2017; 102 2: 254–64. PMID: 28390138",
+            "process_entry": "True",
+            "doi": "10.1002/cpt.707",
+            "pmid": "28390138",
+            "xmlid": "ocz123-B9"
+        },
+        {
+            "bibentry": "Freimuth, RR, Formea, CM, Hoffman, JM, Matey, E, Peterson, JF, Boyce, RD. Implementing genomic clinical decision support for drug-based precision medicine. CPT Pharmacometrics Syst Pharmacol 2017; 6 3: 153–5. PMID: 28109071",
+            "process_entry": "True",
+            "doi": "10.1002/psp4.12173",
+            "pmid": "28109071",
+            "pmcid": "PMC5351408",
+            "xmlid": "ocz123-B10"
+        },
+        {
+            "bibentry": "Sitapati, A, Kim, H, Berkovich, B. et al Integrated precision medicine: the role of electronic health records in delivering personalized treatment. Syst Biol Med 2017; 9 3: e1378.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B11"
+        },
+        {
+            "bibentry": "Warner, JL, Rioth, MJ, Mandl, KD. et al SMART precision cancer medicine: a FHIR-based app to provide genomic information at the point of care. J Am Med Inform Assoc 2016; 23 4: 701–10. PMID: 27018265",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocw015",
+            "pmid": "27018265",
+            "pmcid": "PMC6080684",
+            "xmlid": "ocz123-B12"
+        },
+        {
+            "bibentry": "Marco-Ruiz, L, Pedrinaci, C, Maldonado, JA, Panziera, L, Chen, R, Bellika, JG. Publication, discovery and interoperability of clinical decision support systems: a linked data approach. J Biomed Inform 2016; 62: 243–64. PMID: 27401856",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbi.2016.07.011",
+            "pmid": "27401856",
+            "xmlid": "ocz123-B13"
+        },
+        {
+            "bibentry": "Agency for Healthcare Research and Quality. Welcome to CDS connect. https://cds.ahrq.gov/cdsconnect. Accessed November 29, 2018.",
+            "process_entry": "True",
+            "url": "https://cds.ahrq.gov/cdsconnect. Accessed November 29, 2018.",
+            "xmlid": "ocz123-B14"
+        },
+        {
+            "bibentry": "HL7. FHIR overview. https://www.hl7.org/fhir/overview.html. Accessed October 29, 2017.",
+            "process_entry": "True",
+            "url": "https://www.hl7.org/fhir/overview.html. Accessed October 29, 2017.",
+            "xmlid": "ocz123-B15"
+        },
+        {
+            "bibentry": "Benson, T, Grieve, G. Principles of Health Interoperability: SNOMED CT, HL7, and FHIR. 3rd ed. London: Springer; 2016.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B16"
+        },
+        {
+            "bibentry": "CDS Hooks. 2018 http://cds-hooks.org/. Accessed October 29, 2017.",
+            "process_entry": "True",
+            "url": "http://cds-hooks.org/. Accessed October 29, 2017.",
+            "xmlid": "ocz123-B17"
+        },
+        {
+            "bibentry": "Payne, HE, Lister, C, West, JH, Bernhardt, JM. Behavioral functionality of mobile apps in health interventions: a systematic review of the literature. JMIR mHealth uHealth 2015; 3 1: e20. PMID: 25803705",
+            "process_entry": "True",
+            "doi": "10.2196/mhealth.3335",
+            "pmid": "25803705",
+            "pmcid": "PMC4376122",
+            "xmlid": "ocz123-B18"
+        },
+        {
+            "bibentry": "Friedman, CP, Wong, AK, Blumenthal, D. Achieving a nationwide learning health system. Sci Transl Med 2010; 2 57: 57cm29.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B19"
+        },
+        {
+            "bibentry": "Maddox, TM, Albert, NM, Borden, WB. et al The learning healthcare system and cardiovascular care: a scientific statement from the American Heart Association. Circulation 2017; 135 14: e826–57. PMID: 28254835",
+            "process_entry": "True",
+            "doi": "10.1161/cir.0000000000000480",
+            "pmid": "28254835",
+            "xmlid": "ocz123-B20"
+        },
+        {
+            "bibentry": "Richesson, RL, Green, BB, Laws, R. et al Pragmatic (trial) informatics: a perspective from the NIH Health Care Systems Research Collaboratory. J Am Med Inform Assoc 2017; 24 5: 996–1001. PMID: 28340241",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocx016",
+            "pmid": "28340241",
+            "xmlid": "ocz123-B21"
+        },
+        {
+            "bibentry": "Banos, O, Villalonga, C, Garcia, R. et al Design, implementation and validation of a novel open framework for agile development of mobile health applications. Biomed Eng Online 2015; 14 Suppl 2: S6.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B22"
+        },
+        {
+            "bibentry": "Kannan, V, Willett, DL. Agile clinical decision support development. Agile alliance experience reports. 2016 https://www.agilealliance.org/resources/experience-reports/agile-clinical-decision-support-developments/ Accessed March 28, 2016.",
+            "process_entry": "True",
+            "url": "https://www.agilealliance.org/resources/experience-reports/agile-clinical-decision-support-developments/ Accessed March 28, 2016.",
+            "xmlid": "ocz123-B23"
+        },
+        {
+            "bibentry": "Kannan, V, Basit, MA, Willett, DL. Agile clinical decision support development. In: AMIA 2017 Annual Symposium. Washington, DC: American Medical Informatics Association; 2017: 103–4.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B24"
+        },
+        {
+            "bibentry": "Kannan, V, Basit, MA, Youngblood, JE. et al Agile co-development for clinical adoption and adaptation of innovative technologies. In: IEEE Healthcare Innovations and Point of Care Technologies (HI-POCT); 2017: 56–9.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B25"
+        },
+        {
+            "bibentry": "Kannan, V, Fish, JS, Mutz, JM. et al Rapid development of specialty population registries and quality measures from electronic health record data: an agile framework. Methods Inf Med 2017; 56: e74–83. PMID: 28930362",
+            "process_entry": "True",
+            "doi": "10.3414/ME16-02-0031",
+            "pmid": "28930362",
+            "pmcid": "PMC5608102",
+            "xmlid": "ocz123-B26"
+        },
+        {
+            "bibentry": "Robertson, GE, Wakefield, EC, Cohn, JR, O'Brien, T, Ziegler, SD, Fardell, EJ. The development of delta: using agile to develop a decision aid for pediatric oncology clinical trial enrollment. JMIR Res Protoc 2018; 7 5: e119. PMID: 29728347",
+            "process_entry": "True",
+            "doi": "10.2196/resprot.9258",
+            "pmid": "29728347",
+            "pmcid": "PMC5960036",
+            "xmlid": "ocz123-B27"
+        },
+        {
+            "bibentry": "Shattuck, D, Haile, LT, Simmons, RG. Lessons from the dot contraceptive efficacy study: analysis of the use of agile development to improve recruitment and enrollment for mHealth research. JMIR mHealth uHealth 2018; 6 4: e99. PMID: 29678802",
+            "process_entry": "True",
+            "doi": "10.2196/mhealth.9661",
+            "pmid": "29678802",
+            "pmcid": "PMC5935800",
+            "xmlid": "ocz123-B28"
+        },
+        {
+            "bibentry": "Ambler, SW. Agile Modeling: Effective Practices for Extreme Programming and the Unified Process. Hoboken, NJ: Wiley; 2002.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B29"
+        },
+        {
+            "bibentry": "Agile vs. waterfall: survey shows agile is now the norm. 2017 https://techbeacon.com/survey-agile-new-norm. Accessed June 26, 2018.",
+            "process_entry": "True",
+            "url": "https://techbeacon.com/survey-agile-new-norm. Accessed June 26, 2018.",
+            "xmlid": "ocz123-B30"
+        },
+        {
+            "bibentry": "Rubin, KS. Essential Scrum: A Practical Guide to the Most Popular Agile Process. Boston: Addison-Wesley Professional; 2012.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B31"
+        },
+        {
+            "bibentry": "Cohn, M. User Stories Applied: For Agile Software Development. Boston: Addison Wesley Longman; 2004.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B32"
+        },
+        {
+            "bibentry": "Cohn, M. User stories. 2018 https://www.mountaingoatsoftware.com/agile/user-stories. Accessed May 2, 2018.",
+            "process_entry": "True",
+            "url": "https://www.mountaingoatsoftware.com/agile/user-stories. Accessed May 2, 2018.",
+            "xmlid": "ocz123-B33"
+        },
+        {
+            "bibentry": "Cohn, M. Agile Estimating and Planning. Upper Saddle River, NJ: Prentice Hall; 2005.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B34"
+        },
+        {
+            "bibentry": "Agile Estimating and Planning by Mike Cohn. 2018 https://www.mountaingoatsoftware.com/books/agile-estimating-and-planning. Accessed April 19, 2018.",
+            "process_entry": "True",
+            "url": "https://www.mountaingoatsoftware.com/books/agile-estimating-and-planning. Accessed April 19, 2018.",
+            "xmlid": "ocz123-B35"
+        },
+        {
+            "bibentry": "Usman, M, Mendes, E, Weidt, F, Britto, R. Effort estimation in agile software development: a systematic literature review. In: PROMISE ’14 Proceedings of the 10th International Conference on Predictive Models in Software Engineering; 2014.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B36"
+        },
+        {
+            "bibentry": "Rosenberg D, Stephens M. Use Case Driven Object Modeling with UML: Theory and Practice. 2nd ed. New York: Apress; 2013.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B37"
+        },
+        {
+            "bibentry": "Larman, C. Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development. 3rd ed Upper Saddle River, NJ: Prentice Hall; 2004.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B38"
+        },
+        {
+            "bibentry": "Adzic, G. Specification by Example: How Successful Teams Deliver the Right Software. Shelter Island, NY: Manning; 2011.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B39"
+        },
+        {
+            "bibentry": "Gregory, J, Crispin, L. More Agile Testing: Learning Journeys for the Whole Team. Boston: Addison-Wesley Professional; 2014.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B40"
+        },
+        {
+            "bibentry": "Patton, J, Economy, P. User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O'Reilly Media, Inc; 2014.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B41"
+        },
+        {
+            "bibentry": "Adzic, G. Test Driven NET Development with FitNesse. London: Neuri Limited; 2008.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B42"
+        },
+        {
+            "bibentry": "FitNesse: The fully integrated standalone wiki and acceptance testing framework. http://fitnesse.org/. Accessed June 26, 2018.",
+            "process_entry": "True",
+            "url": "http://fitnesse.org/. Accessed June 26, 2018.",
+            "xmlid": "ocz123-B43"
+        },
+        {
+            "bibentry": "Agile Alliance. INVEST. 2018 https://www.agilealliance.org/glossary/invest. Accessed November 27, 2018.",
+            "process_entry": "True",
+            "url": "https://www.agilealliance.org/glossary/invest. Accessed November 27, 2018.",
+            "xmlid": "ocz123-B44"
+        },
+        {
+            "bibentry": "Lattenkamp, K. SPIDR—five simple techniques for a perfectly split user story. 2017 https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story. Accessed November 25, 2018.",
+            "process_entry": "True",
+            "url": "https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story. Accessed November 25, 2018.",
+            "xmlid": "ocz123-B45"
+        },
+        {
+            "bibentry": "Nikolov, Y. DbFit-automated open source database testing. 2016 http://www.methodsandtools.com/tools/dbfit.php. Accessed August 1, 2017.",
+            "process_entry": "True",
+            "url": "http://www.methodsandtools.com/tools/dbfit.php. Accessed August 1, 2017.",
+            "xmlid": "ocz123-B46"
+        },
+        {
+            "bibentry": "Keshvani, N, Kulkarni, N, Parks, CJ. et al Test-driven development of clinical decision support for atrial fibrillation In: AMIA Clinical Informatics Conference. Scottsdale, AZ: American Medical Informatics Association; 2018.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B47"
+        },
+        {
+            "bibentry": "Kannan, V, Fish, J, Willett, DL. Agile model driven development of electronic health record-based specialty population registries. In: 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI). Las Vegas, NV, USA: IEEE. 2016: 465–68.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B48"
+        },
+        {
+            "bibentry": "Kannan, V, Fish, JS, Mutz, JM. et al Rapid development of specialty population registries and quality measures from electronic health record data: supplementary material. Methods Inf Med 2017; 56: e74–83. PMID: 28930362",
+            "process_entry": "True",
+            "doi": "10.3414/ME16-02-0031",
+            "pmid": "28930362",
+            "pmcid": "PMC5608102",
+            "xmlid": "ocz123-B49"
+        },
+        {
+            "bibentry": "Youngblood, JE, Fish, JS, Willett, DL. UT Southwestern Davies Enterprise Award EHR-based specialty registries. 2017 https://www.himss.org/library/ut-southwestern-davies-enterprise-award. Accessed December 8, 2018.",
+            "process_entry": "True",
+            "url": "https://www.himss.org/library/ut-southwestern-davies-enterprise-award. Accessed December 8, 2018.",
+            "xmlid": "ocz123-B50"
+        },
+        {
+            "bibentry": "Wright, A, Sittig, DF, Ash, JS. et al Governance for clinical decision support: case studies and recommended practices from leading institutions. J Am Med Inform Assoc 2011; 18 2: 187–94. PMID: 21252052",
+            "process_entry": "True",
+            "doi": "10.1136/jamia.2009.002030",
+            "pmid": "21252052",
+            "pmcid": "PMC3116253",
+            "xmlid": "ocz123-B51"
+        },
+        {
+            "bibentry": "Wright, A, Hickman, TT, McEvoy, D. et al Analysis of clinical decision support system malfunctions: a case series and survey. J Am Med Inform Assoc 2016; 23 6: 1068–76. PMID: 27026616",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocw005",
+            "pmid": "27026616",
+            "pmcid": "PMC5070518",
+            "xmlid": "ocz123-B52"
+        },
+        {
+            "bibentry": "Kassakian, SZ, Yackel, TR, Gorman, PN, Dorr, DA. Clinical decision support malfunctions in a commercial electronic health record. Appl Clin Inform 2017; 8 3: 910–23. PMID: 28880046",
+            "process_entry": "True",
+            "doi": "10.4338/ACI-2017-01-RA-0006",
+            "pmid": "28880046",
+            "pmcid": "PMC6220702",
+            "xmlid": "ocz123-B53"
+        },
+        {
+            "bibentry": "Ray, S, McEvoy, DS, Aaron, S, Hickman, T-T, Wright, A. Using statistical anomaly detection models to find clinical decision support malfunctions. J Am Med Inform Assoc 2018; 25 7: 862–71. PMID: 29762678",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocy041",
+            "pmid": "29762678",
+            "pmcid": "PMC6016695",
+            "xmlid": "ocz123-B54"
+        },
+        {
+            "bibentry": "Basit, MA, Baldwin, KL, Kannan, V. et al Agile acceptance test-driven development of clinical decision support advisories: feasibility of using open source software. JMIR Med Inform 2018; 6 2: e23. PMID: 29653922",
+            "process_entry": "True",
+            "doi": "10.2196/medinform.9679",
+            "pmid": "29653922",
+            "pmcid": "PMC5924365",
+            "xmlid": "ocz123-B55"
+        },
+        {
+            "bibentry": "Sittig, DF, Singh, H. Toward more proactive approaches to safety in the electronic health record era. Jt Comm J Qual Patient Saf 2017; 43 10: 540–7. PMID: 28942779",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcjq.2017.06.005",
+            "pmid": "28942779",
+            "xmlid": "ocz123-B56"
+        },
+        {
+            "bibentry": "Johnson, JR. It's your job. In: Third International Conference on Extreme Programming. Alghero, Italy. 2002.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B57"
+        },
+        {
+            "bibentry": "Standish. Exceeding Value Boston: The Standish Group International; 2014.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B58"
+        },
+        {
+            "bibentry": "Ambler, S. The disciplined agile (DA) framework: a foundation for business agility. 2017 http://www.disciplinedagiledelivery.com/.",
+            "process_entry": "True",
+            "url": "http://www.disciplinedagiledelivery.com/.",
+            "xmlid": "ocz123-B59"
+        },
+        {
+            "bibentry": "Ambler, S, Lines, M. An executive's guide to disciplined agile: winning the race to business agility. CreateSpace. 2017.",
+            "process_entry": "True",
+            "xmlid": "ocz123-B60"
+        },
+        {
+            "bibentry": "Horsky, J, Schiff, GD, Johnston, D, Mercincavage, L, Bell, D, Middleton, B. Interface design principles for usable decision support: a targeted review of best practices for clinical prescribing interventions. J Biomed Inform 2012; 45 6: 1202–16. PMID: 22995208",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbi.2012.09.002",
+            "pmid": "22995208",
+            "xmlid": "ocz123-B61"
+        },
+        {
+            "bibentry": "Horsky, J, Phansalkar, S, Desai, A, Bell, D, Middleton, B. Design of decision support interventions for medication prescribing. Int J Med Inform 2013; 82 6: 492–503. PMID: 23490305",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijmedinf.2013.02.003",
+            "pmid": "23490305",
+            "xmlid": "ocz123-B62"
+        },
+        {
+            "bibentry": "Jeffery, AD, Novak, LL, Kennedy, B, Dietrich, MS, Mion, LC. Participatory design of probability-based decision support tools for in-hospital nurses. J Am Med Inform Assoc 2017; 24 6: 1102–10. PMID: 28637180",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocx060",
+            "pmid": "28637180",
+            "pmcid": "PMC6580937",
+            "xmlid": "ocz123-B63"
+        },
+        {
+            "bibentry": "Miller, K, Mosby, D, Capan, M. et al Interface, information, interaction: a narrative review of design and functional requirements for clinical decision support. J Am Med Inform Assoc 2018; 25 5: 585–92. PMID: 29126196",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocx118",
+            "pmid": "29126196",
+            "pmcid": "PMC6018977",
+            "xmlid": "ocz123-B64"
+        }
+    ],
+    "localid": "MED-31512730",
+    "doi": "10.1093/jamia/ocz123",
+    "pmid": "10.1093/jamia/ocz123",
+    "pmcid": "31512730",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31512730/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "ocz123-B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),279,180)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),455,3)",
+                "pl_string": ".1,"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "ocz123-B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),279,180)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),455,3)",
+                "pl_string": ".1,"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "ocz123-B3",
+                "rp_string": "3–5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,239)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "ocz123-B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table/tbody/tr[1]/td/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[1]/td),1,104)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[1]/td),101,3)",
+                "pl_string": "a6,"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "ocz123-B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table/tbody/tr[1]/td/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[1]/td),1,104)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[1]/td),101,3)",
+                "pl_string": "a6,"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "ocz123-B8",
+                "rp_string": "8–12",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table/tbody/tr[2]/td/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[2]/td),1,90)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "ocz123-B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table/tbody/tr[3]/td/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[3]/td),1,143)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "ocz123-B18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table/tbody/tr[4]/td/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[4]/td),1,41)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "ocz123-B19",
+                "rp_string": "19–21",
+                "rp_xpath": "/article/body/sec[1]/table-wrap/table/tbody/tr[5]/td/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/table-wrap/table/tbody/tr[5]/td),1,134)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "ocz123-B22",
+                "rp_string": "22–28",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,331)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "ocz123-B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[1]),205,360)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "ocz123-B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/fig[1]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/fig[1]/caption/p),164,38)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "ocz123-B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[2]),306,64)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[2]),365,4)",
+                "pl_string": ".1,3"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "ocz123-B30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[2]),306,64)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[2]),365,4)",
+                "pl_string": ".1,3"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "ocz123-B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[3]),1,374)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "ocz123-B25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[4]),109,285)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "ocz123-B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[4]),109,285)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "ocz123-B34",
+                "rp_string": "34–36",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p[6]),220,351)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "User stories as effective lightweight requirements for agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "ocz123-B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),133,307)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "Role of user stories in overall agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "ocz123-B31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),441,166)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "Role of user stories in overall agile development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "ocz123-B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[1]),647,367)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "Applying user stories in agile CDS development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "ocz123-B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[2]),1,231)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "Applying user stories in agile CDS development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "ocz123-B41",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[3]),1,380)",
+                "containers_title": [
+                    "INTRODUCTION",
+                    "Applying user stories in agile CDS development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "ocz123-B42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),753,126)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Software and supplies"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),873,5)",
+                "pl_string": ".42,4"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "ocz123-B43",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),753,126)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Software and supplies"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),873,5)",
+                "pl_string": ".42,4"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "ocz123-B32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[1]),1,93)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Procedures",
+                    "Writing a user story"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[1]),88,5)",
+                "pl_string": ".32,3"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "ocz123-B33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[1]),1,93)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Procedures",
+                    "Writing a user story"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[1]),88,5)",
+                "pl_string": ".32,3"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "ocz123-B32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[6]),1,106)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Procedures",
+                    "Writing a user story"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[6]),101,5)",
+                "pl_string": ".32,4"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "ocz123-B44",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[6]),1,106)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Procedures",
+                    "Writing a user story"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[6]),101,5)",
+                "pl_string": ".32,4"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "ocz123-B45",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/sec/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/sec/p[7]),260,151)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Procedures",
+                    "Writing a user story"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "ocz123-B39",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[1]/p),181,328)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Acceptance criteria, or conditions of satisfaction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "ocz123-B42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[1]/p),510,350)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Acceptance criteria, or conditions of satisfaction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "ocz123-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[1]),1,311)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Estimating and planning with user stories"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "ocz123-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[1]),313,391)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Estimating and planning with user stories"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "ocz123-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[2]),1,202)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Estimating and planning with user stories"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "ocz123-B34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[3]),403,120)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Estimating and planning with user stories"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[3]),517,5)",
+                "pl_string": ".34,3"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "ocz123-B35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[3]),403,120)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Estimating and planning with user stories"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[2]/p[3]),517,5)",
+                "pl_string": ".34,3"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "ocz123-B48",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[3]/p[2]),1,266)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Scaling user stories for larger projects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "ocz123-B49",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[3]/p[2]),268,133)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Deriving CDS effectiveness measures from a user story",
+                    "Scaling user stories for larger projects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "ocz123-B50",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[4]),103,158)",
+                "containers_title": [
+                    "RESULTS",
+                    "Measures of CDS effectiveness derived from user stories"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "ocz123-B51",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[1]/p[1]),1,250)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "Governance of CDS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "ocz123-B52",
+                "rp_string": "52–54",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),1,159)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "CDS defect reduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "ocz123-B55",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),367,120)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "CDS defect reduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),481,5)",
+                "pl_string": ".55,5"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "ocz123-B56",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),367,120)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "CDS defect reduction"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[2]/p),481,5)",
+                "pl_string": ".55,5"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "ocz123-B57",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[3]/p),1,414)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "CDS team productivity and sustainable pace"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "ocz123-B50",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[3]/p),610,340)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "CDS team productivity and sustainable pace"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "ocz123-B59",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[4]/p[1]),567,304)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "Adoption of agile delivery of new features more generally"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "ocz123-B29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[4]/p[2]),332,366)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Practical implications",
+                    "Adoption of agile delivery of new features more generally"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "ocz123-B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[1]),166,306)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Limitations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "ocz123-B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[1]),473,327)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Limitations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "ocz123-B51",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[2]),102,355)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Limitations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "ocz123-B39",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[2]),639,229)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Limitations"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[2]),862,5)",
+                "pl_string": ".39,5"
+            },
+            {
+                "n_rp": 52,
+                "xref_id": "ocz123-B55",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[2]),639,229)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Limitations"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[3]/p[2]),862,5)",
+                "pl_string": ".39,5"
+            }
+        ]
+    ]
+}

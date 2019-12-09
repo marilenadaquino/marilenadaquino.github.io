@@ -1,0 +1,416 @@
+{
+    "references": [
+        {
+            "bibentry": "Jutel, M, Kosowska, A, Smolinska, S. Allergen immunotherapy: past, present, and future, Allergy Asthma Immunol Res, 2016, 8, 191, 197, PMID: 26922928",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2016.8.3.191",
+            "pmid": "26922928",
+            "pmcid": "PMC4773206",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Cox, L, Nelson, H, Lockey, R, Calabria, C, Chacko, T, Finegold, I. Allergen immunotherapy: a practice parameter third update, J Allergy Clin Immunol, 2011, 127, S1, S55, PMID: 21122901",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2010.09.034",
+            "pmid": "21122901",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Sohn, MH. Efficacy and safety of subcutaneous allergen immunotherapy for allergic rhinitis, Allergy Asthma Immunol Res, 2018, 10, 1, 3, PMID: 29178670",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2018.10.1.1",
+            "pmid": "29178670",
+            "pmcid": "PMC5705477",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Lee, JH, Kim, SC, Choi, H, Jung, CG, Ban, GY, Shin, YS. A retrospective study of clinical response predictors in subcutaneous allergen immunotherapy with house dust mites for allergic rhinitis, Allergy Asthma Immunol Res, 2018, 10, 18, 24, PMID: 29178674",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2018.10.1.18",
+            "pmid": "29178674",
+            "pmcid": "PMC5705479",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Huang, Y, Wang, C, Cao, F, Zhao, Y, Lou, H, Zhang, L. Comparison of long-term efficacy of subcutaneous immunotherapy in pediatric and adult patients with allergic rhinitis, Allergy Asthma Immunol Res, 2019, 11, 68, 78, PMID: 30479078",
+            "process_entry": "True",
+            "doi": "10.4168/aair.2019.11.1.68",
+            "pmid": "30479078",
+            "pmcid": "PMC6267190",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "Lee, J, Lee, H, Noh, S, Bae, BG, Shin, JU, Park, CO. Retrospective analysis on the effects of house dust mite specific immunotherapy for more than 3 years in atopic dermatitis, Yonsei Med J, 2016, 57, 393, 398, PMID: 26847292",
+            "process_entry": "True",
+            "doi": "10.3349/ymj.2016.57.2.393",
+            "pmid": "26847292",
+            "pmcid": "PMC4740532",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Cox, L. Accelerated immunotherapy schedules: review of efficacy and safety, Ann Allergy Asthma Immunol, 2006, 97, 126, 137, PMID: 16937741",
+            "process_entry": "True",
+            "doi": "10.1016/s1081-1206(10)60003-8",
+            "pmid": "16937741",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "Schmitt, J, Stadler, E, Küster, D, Wüstenberg, EG. Medical care and treatment of allergic rhinitis: a population-based cohort study based on routine healthcare utilization data, Allergy, 2016, 71, 850, 858, PMID: 26749452",
+            "process_entry": "True",
+            "doi": "10.1111/all.12838",
+            "pmid": "26749452",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Kim, ME, Kim, JE, Sung, JM, Lee, JW, Choi, GS, Nahm, DH. Safety of accelerated schedules of subcutaneous allergen immunotherapy with house dust mite extract in patients with atopic dermatitis, J Korean Med Sci, 2011, 26, 1159, 1164, PMID: 21935270",
+            "process_entry": "True",
+            "doi": "10.3346/jkms.2011.26.9.1159",
+            "pmid": "21935270",
+            "pmcid": "PMC3172652",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Casanovas, M, Martín, R, Jiménez, C, Caballero, R, Fernández-Caldas, E. Safety of an ultra-rush immunotherapy build-up schedule with therapeutic vaccines containing depigmented and polymerized allergen extracts, Int Arch Allergy Immunol, 2006, 139, 153, 158, PMID: 16374026",
+            "process_entry": "True",
+            "doi": "10.1159/000090392",
+            "pmid": "16374026",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Cardona, R, Lopez, E, Beltrán, J, Sánchez, J. Safety of immunotherapy in patients with rhinitis, asthma or atopic dermatitis using an ultra-rush buildup. A retrospective study, Allergol Immunopathol (Madr), 2014, 42, 90, 95, PMID: 23265265",
+            "process_entry": "True",
+            "doi": "10.1016/j.aller.2012.07.005",
+            "pmid": "23265265",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Morais-Almeida, M, Arêde, C, Sampaio, G, Borrego, LM. Ultrarush schedule of subcutaneous immunotherapy with modified allergen extracts is safe in paediatric age, Asia Pac Allergy, 2016, 6, 35, 42, PMID: 26844218",
+            "process_entry": "True",
+            "doi": "10.5415/apallergy.2016.6.1.35",
+            "pmid": "26844218",
+            "pmcid": "PMC4731479",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Mellerup, MT, Hahn, GW, Poulsen, LK, Malling, H. Safety of allergen-specific immunotherapy. Relation between dosage regimen, allergen extract, disease and systemic side-effects during induction treatment, Clin Exp Allergy, 2000, 30, 1423, 1429, PMID: 10998019",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2222.2000.00910.x",
+            "pmid": "10998019",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Chait, I, Allkins, V. Remission of life-long atopic dermatitis after hyposensitisation to house dust mite, Practitioner, 1985, 229, 609, 612, PMID: 4034468",
+            "process_entry": "True",
+            "pmid": "4034468",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Hanifin, JM, Rajka, G. Diagnostic features of atopic dermatitis, Acta Derm Venereol (Stockh), 1980, 92, 44, 47",
+            "process_entry": "True",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Futamura, M, Leshem, YA, Thomas, KS, Nankervis, H, Williams, HC, Simpson, EL. A systematic review of Investigator Global Assessment (IGA) in atopic dermatitis (AD) trials: many options, no standards, J Am Acad Dermatol, 2016, 74, 288, 294, PMID: 26685719",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaad.2015.09.062",
+            "pmid": "26685719",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Brożek, JL, Bousquet, J, Agache, I, Agarwal, A, Bachert, C, Bosnic-Anticevich, S. Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines-2016 revision, J Allergy Clin Immunol, 2017, 140, 950, 958, PMID: 28602936",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2017.03.050",
+            "pmid": "28602936",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Malling, HJ, Weeke, B. Immunotherapy: position paper of the European Academy of Allergology and Clinical Immunology, Allergy, 1993, 48, 9, 35, PMID: 8342741",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.1993.tb04754.x",
+            "pmid": "8342741",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Cox, L, Larenas-Linnemann, D, Lockey, RF, Passalacqua, G. Speaking the same language: The World Allergy Organization subcutaneous immunotherapy systemic reaction grading system, J Allergy Clin Immunol, 2010, 125, 569, 574, 574.e1, 574.e7, PMID: 20144472",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2009.10.060",
+            "pmid": "20144472",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Molina-Sáenz, MM, Villa-Arango, AM, Cardona-Villa, R. Safety of subcutaneous immunotherapy with tyrosine-adsorbed house dust mite extracts in patients with allergic disease, Rev Alerg Mex, 2017, 64, 52, 65, PMID: 28188713",
+            "process_entry": "True",
+            "doi": "10.29262/ram.v64i1.233",
+            "pmid": "28188713",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "Park, KH, Lee, SC, Son, YW, Jeong, KY, Shin, YS, Shin, JU. Different responses in induction of allergen specific immunoglobulin G4 and IgE-Blocking factors for three mite subcutaneous immunotherapy products, Yonsei Med J, 2016, 57, 1427, 1434, PMID: 27593871",
+            "process_entry": "True",
+            "doi": "10.3349/ymj.2016.57.6.1427",
+            "pmid": "27593871",
+            "pmcid": "PMC5011275",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Novak, N, Bieber, T, Hoffmann, M, Fölster-Holst, R, Homey, B, Werfel, T. Efficacy and safety of subcutaneous allergen-specific immunotherapy with depigmented polymerized mite extract in atopic dermatitis, J Allergy Clin Immunol, 2012, 130, 925, 931.e4, PMID: 22947344",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2012.08.004",
+            "pmid": "22947344",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Tuft, L. Studies in atopic dermatitis. V. Problems in inhalant hyposensitization and results of treatment, J Allergy, 1960, 31, 1, 11, PMID: 13839774",
+            "process_entry": "True",
+            "doi": "10.1016/0021-8707(60)90019-8",
+            "pmid": "13839774",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Nahm, DH, Kim, ME, Kwon, B, Cho, SM, Ahn, A. Clinical efficacy of subcutaneous allergen immunotherapy in patients with atopic dermatitis, Yonsei Med J, 2016, 57, 1420, 1426, PMID: 27593870",
+            "process_entry": "True",
+            "doi": "10.3349/ymj.2016.57.6.1420",
+            "pmid": "27593870",
+            "pmcid": "PMC5011274",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Werfel, T, Breuer, K, Ruéff, F, Przybilla, B, Worm, M, Grewe, M. Usefulness of specific immunotherapy in patients with atopic dermatitis and allergic sensitization to house dust mites: a multi-centre, randomized, dose-response study, Allergy, 2006, 61, 202, 205, PMID: 16409197",
+            "process_entry": "True",
+            "doi": "10.1111/j.1398-9995.2006.00974.x",
+            "pmid": "16409197",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Nahm, DH. Personalized immunomodulatory therapy for atopic dermatitis: an allergist's view, Ann Dermatol, 2015, 27, 355, 363, PMID: 26273148",
+            "process_entry": "True",
+            "doi": "10.5021/ad.2015.27.4.355",
+            "pmid": "26273148",
+            "pmcid": "PMC4530142",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Jutel, M, Agache, I, Bonini, S, Burks, AW, Calderon, M, Canonica, W. International consensus on allergy immunotherapy, J Allergy Clin Immunol, 2015, 136, 556, 568, PMID: 26162571",
+            "process_entry": "True",
+            "doi": "10.1016/j.jaci.2015.04.047",
+            "pmid": "26162571",
+            "xmlid": "B27"
+        }
+    ],
+    "localid": "MED-31552719",
+    "doi": "10.4168/aair.2019.11.6.846",
+    "pmid": "10.4168/aair.2019.11.6.846",
+    "pmcid": "31552719",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31552719/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,395)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,395)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,1463)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,278)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),280,313)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),386,606)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Patients"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),993,345)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Patients"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),263,317)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Assessment of SR"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),218,716)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),935,284)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1220,300)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1220,300)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,802)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,489)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),196,483)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),680,614)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1,851)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ]
+    ]
+}

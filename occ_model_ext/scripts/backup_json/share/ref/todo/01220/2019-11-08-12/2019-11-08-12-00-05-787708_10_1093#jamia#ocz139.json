@@ -1,0 +1,356 @@
+{
+    "references": [
+        {
+            "bibentry": "Gottesman, O, Kuivaniemi, H, Tromp, G. et al The electronic medical records and genomics (eMERGE) network: past, present, and future. Genet Med 2013; 15 10: 761–71. PMID: 23743551",
+            "process_entry": "True",
+            "doi": "10.1038/gim.2013.72",
+            "pmid": "23743551",
+            "pmcid": "PMC3795928",
+            "xmlid": "ocz139-B1"
+        },
+        {
+            "bibentry": "Kirby, JC, Speltz, P, Rasmussen, LV. et al PheKB: a catalog and workflow for creating electronic phenotype algorithms for transportability. J Am Med Inform Assoc 2016; 23: 1046–52. PMID: 27026615",
+            "process_entry": "True",
+            "doi": "10.1093/jamia/ocv202",
+            "pmid": "27026615",
+            "pmcid": "PMC5070514",
+            "xmlid": "ocz139-B2"
+        },
+        {
+            "bibentry": "Kim, Y. Convolutional neural networks for sentence classification. In: 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP); 2014: 1746–51.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B3"
+        },
+        {
+            "bibentry": "Conneau, A, Schwenk, H, Barrault, L, Lecun, Y. Very deep convolutional networks for text classification. In: 15th Conference of the European Chapter of the Association for Computational Linguistics; 2017: 1107–16.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B4"
+        },
+        {
+            "bibentry": "Lai, S, Xu, L, Liu, K, Zhao, J. Recurrent convolutional neural networks for text classification. In: Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence; 2015: 2267–73.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B5"
+        },
+        {
+            "bibentry": "Chen, G, Ye, D, Xing, Z, Chen, J, Cambria, E. Ensemble application of convolutional and recurrent neural networks for multi-label text categorization. In: 2017 International Joint Conference on Neural Networks (IJCNN); 2017: 2377–83.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B6"
+        },
+        {
+            "bibentry": "Segura-Bedmar, I, Colón-Ruíz, C, Tejedor-Alonso, MA, Moro-Moro, M. Predicting of anaphylaxis in big data EMR by exploring machine learning approaches. J Biomed Inform 2018; 87: 50–9. PMID: 30266231",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbi.2018.09.012",
+            "pmid": "30266231",
+            "xmlid": "ocz139-B7"
+        },
+        {
+            "bibentry": "Glicksberg, BS, Miotto, R, Johnson, KW, Shameer, K, Li, L, Dudley, Chen R. Automated disease cohort selection using word embeddings from electronic health records. Pac Symp Biocomput 2018; 23: 145–56. PMID: 29218877",
+            "process_entry": "True",
+            "pmid": "29218877",
+            "pmcid": "PMC5788312",
+            "xmlid": "ocz139-B8"
+        },
+        {
+            "bibentry": "Antunes, R, Figueira Silva, J, Pereira, A, Matos, S. Rule-based and machine learning hybrid system for patient cohort selection. In: 12th International Joint Conference on Biomedical Engineering Systems and Technologies BIOSTEC; 2019.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B9"
+        },
+        {
+            "bibentry": "Pyysalo, S, Ginter, F, Moen, H, Salakoski, T, Ananiadou, S. Distributional semantics resources for biomedical text processing. In: Proceedings of LBM; 2013: 39–44.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B10"
+        },
+        {
+            "bibentry": "Hochreiter, S, Schmidhuber, J. Long short-term memory. Neural Comput 1997; 9 8: 1735–80. PMID: 9377276",
+            "process_entry": "True",
+            "doi": "10.1162/neco.1997.9.8.1735",
+            "pmid": "9377276",
+            "xmlid": "ocz139-B11"
+        },
+        {
+            "bibentry": "Cho, K, Van Merriënboer, B, Gulcehre, C. et al Learning phrase representations using RNN encoder–decoder for statistical machine translation. In: Empirical Methods in Natural Language Processing (EMNLP); 2014: 1724–34.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B12"
+        },
+        {
+            "bibentry": "Dai, AM, Qv, L. Semi-supervised sequence learning. In: Advances in Neural Information Processing Systems 28 (NIPS 2015); 2015: 3079–87.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B13"
+        },
+        {
+            "bibentry": "Kingma DP, Ba J. Adam: A method for stochastic optimization. In: International Conference on Learning Representations (ICLR 2015); 2015:1–15.",
+            "process_entry": "True",
+            "xmlid": "ocz139-B14"
+        }
+    ],
+    "localid": "MED-31532478",
+    "doi": "10.1093/jamia/ocz139",
+    "pmid": "10.1093/jamia/ocz139",
+    "pmcid": "31532478",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31532478/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "ocz139-B1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),280,180)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "ocz139-B3",
+                "rp_string": "3–6",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),408,264)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "ocz139-B7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),79,94)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "ocz139-B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),174,287)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "ocz139-B8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,231)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "ocz139-B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),1,588)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "ocz139-B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),1,401)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "ocz139-B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),183,298)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "ocz139-B10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),586,97)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "ocz139-B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1,113)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "ocz139-B4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),1,112)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "ocz139-B5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[6]),151,213)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "ocz139-B11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[6]),365,183)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "ocz139-B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[6]),783,119)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "ocz139-B12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[6]),903,126)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "ocz139-B6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[7]),1,163)",
+                "containers_title": [
+                    "MATERIALS AND METHODS",
+                    "Methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "ocz139-B13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),419,179)",
+                "containers_title": [
+                    "RESULTS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "ocz139-B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,214)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "ocz139-B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),442,148)",
+                "containers_title": [
+                    "DISCUSSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "ocz139-B9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1,236)",
+                "containers_title": [
+                    "CONCLUSION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "ocz139-B3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),142,307)",
+                "containers_title": [
+                    "CONCLUSION"
+                ]
+            }
+        ]
+    ]
+}

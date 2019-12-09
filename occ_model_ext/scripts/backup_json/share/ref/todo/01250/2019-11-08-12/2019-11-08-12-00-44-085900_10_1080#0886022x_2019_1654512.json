@@ -1,0 +1,701 @@
+{
+    "references": [
+        {
+            "bibentry": "Julian, BA, Waldo, FB, Rifai, A, et al. IgA nephropathy, the most common glomerulonephritis worldwide. A neglected disease in the United States? Am J Med. 1988; 84(1): 129–132.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "D’Amico, G, Colasanti, G, Barbiano di Belgioioso, G, et al. Long-term follow-up of IgA mesangial nephropathy: clinico-histological study in 374 patients. Semin Nephrol. 1987; 7: 355–358. PMID: 3445015",
+            "process_entry": "True",
+            "pmid": "3445015",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Radford, MG, Jr, Donadio, JV, Jr, Bergstralh, EJ, et al. Predicting renal outcome in IgA nephropathy. J Am Soc Nephrol. 1997; 8(2): 199–207. PMID: 9048338",
+            "process_entry": "True",
+            "pmid": "9048338",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Ibels, LS, Gyory, AZ. IgA nephropathy: analysis of the natural history, important factors in the progression of renal disease, and a review of the literature. Medicine (Baltimore). 1994; 73(2): 79–102. PMID: 8152367",
+            "process_entry": "True",
+            "pmid": "8152367",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Hogg, RJ, Silva, FG, Wyatt, RJ, et al. Prognostic indicators in children with IgA nephropathy—report of the Southwest Pediatric Nephrology Study Group. Pediatr Nephrol. 1994; 8(1): 15–20. PMID: 8142218",
+            "process_entry": "True",
+            "doi": "10.1007/bf00868251",
+            "pmid": "8142218",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Alamartine, E, Sabatier, JC, Guerin, C, et al. Prognostic factors in mesangial IgA glomerulonephritis: an extensive study with univariate and multivariate analyses. Am J Kidney Dis. 1991; 18(1): 12–19. PMID: 2063844",
+            "process_entry": "True",
+            "doi": "10.1016/s0272-6386(12)80284-8",
+            "pmid": "2063844",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Johnston, PA, Brown, JS, Braumholtz, DA, et al. Clinico-pathological correlations and long-term follow-up of 253 United Kingdom patients with IgA nephropathy: a report from the MRC Glomerulonephritis Registry. Q J Med. 1992; 84(304): 619–627. PMID: 1484940",
+            "process_entry": "True",
+            "pmid": "1484940",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Katafuchi, R, Kiyoshi, Y, Oh, Y, et al. Glomerular score as a prognosticator in IgA nephropathy: its usefulness and limitation. Clin Nephrol. 1998; 49(1): 1–8. PMID: 9491278",
+            "process_entry": "True",
+            "pmid": "9491278",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Bartosik, LP, Lajoie, G, Sugar, L, et al. Predicting progression in IgA nephropathy. Am J Kidney Dis. 2001; 38(4): 728–735. PMID: 11576875",
+            "process_entry": "True",
+            "doi": "10.1053/ajkd.2001.27689",
+            "pmid": "11576875",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Donadio, JV, Bergstralh, EJ, Grande, JP, et al. Proteinuria patterns and their association with subsequent end-stage renal disease in IgA nephropathy. Nephrol Dial Transplant. 2002; 17(7): 1197–1203. PMID: 12105241",
+            "process_entry": "True",
+            "doi": "10.1093/ndt/17.7.1197",
+            "pmid": "12105241",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "To, KF, Choi, PC, Szeto, CC, et al. Outcome of IgA nephropathy in adults graded by chronic histological lesions. Am J Kidney Dis. 2000; 35(3): 392–400. PMID: 10692264",
+            "process_entry": "True",
+            "doi": "10.1016/s0272-6386(00)70191-0",
+            "pmid": "10692264",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Zhang, JJ, Jiang, L, Liu, G, et al. Elevation of serum von Willebrand factor and anti-endothelial cell antibodies in patients with immunoglobulin A nephropathy are associated with intrarenal arterial lesions. Nephrol (Carlton). 2008; 13(8): 712–720.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Cattran, DC, Coppo, R, Cook, HT, Working Group of the International IgA Nephropathy Network and the Renal Pathology Society, et al. The Oxford classification of IgA nephropathy: rationale, clinicopathological correlations, and classification. Kidney Int. 2009; 76(5): 534–545. PMID: 19571791",
+            "process_entry": "True",
+            "doi": "10.1038/ki.2009.243",
+            "pmid": "19571791",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Mubarak, M. The prevalence of IgA nephropathy in Pakistan: only a tip of the iceberg. J Pak Med Assoc. 2009; 59(10): 733. PMID: 19813698",
+            "process_entry": "True",
+            "pmid": "19813698",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Kazi, JI, Mubarak, M. IgA nephropathy. J Coll Physicians Surg Pak. 2010; 20(12): 779–780. PMID: 21205539",
+            "process_entry": "True",
+            "doi": "12.2010/jcpsp.779780",
+            "pmid": "21205539",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Mittal, N, Joshi, K, Rane, S, et al. Primary IgA nephropathy in north India: is it different? Postgrad Med J. 2012; 88(1035): 15–20. PMID: 22052882",
+            "process_entry": "True",
+            "doi": "10.1136/postgradmedj-2011-130077",
+            "pmid": "22052882",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Koyama, A, Igarashi, M, Kobayashi, M. Natural history and risk factors for immunoglobulin A nephropathy in Japan Research Group on Progressive Renal Diseases. Am J Kidney Dis. 1997; 29(4): 526–532. PMID: 9100040",
+            "process_entry": "True",
+            "doi": "10.1016/s0272-6386(97)90333-4",
+            "pmid": "9100040",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Fan, P, Song, J, Chen, Q, et al. The influence of environmental factors on clinical pathological changes of patients with immunoglobulin A nephropathy from different areas of China. Ren Fail. 2018; 40(1): 597–602. PMID: 30373437",
+            "process_entry": "True",
+            "doi": "10.1080/0886022X.2018.1532907",
+            "pmid": "30373437",
+            "pmcid": "PMC6211320",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Frimat, L, Briancon, S, Hestin, D, et al. IgA nephropathy: prognostic classification of end-stage renal failure. Nephrol Dial Transplant. 1997; 12: 2569–2575. PMID: 9430853",
+            "process_entry": "True",
+            "doi": "10.1093/ndt/12.12.2569",
+            "pmid": "9430853",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Feiner, HD, Cabili, S, Baldwin, DS, et al. Intrarenal vascular sclerosis in IgA nephropathy. Clin. Nephrol. 1982; 18(4): 183–192. PMID: 7140032",
+            "process_entry": "True",
+            "pmid": "7140032",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Wu, J, Chen, X, Xie, Y, et al. Characteristics and risk factors of intrarenal arterial lesions in patients with IgA nephropathy. Nephrol Dial Transplant. 2005; 20(4): 719–727. PMID: 15701667",
+            "process_entry": "True",
+            "doi": "10.1093/ndt/gfh716",
+            "pmid": "15701667",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Hernández, E, Toledo, T, Alamo, C, et al. Elevation of von Willebrand factor levels in patients with IgA nephropathy: effect of ACE inhibition. Am J Kidney Dis. 1997; 30(3): 397–403. PMID: 9292569",
+            "process_entry": "True",
+            "doi": "10.1016/s0272-6386(97)90285-7",
+            "pmid": "9292569",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "D’Amico, G. Natural history of idiopathic IgA nephropathy: Role of clinical and histological prognostic factors. Am J Kidney Dis. 2000; 36: 227–237. PMID: 10922300",
+            "process_entry": "True",
+            "doi": "10.1053/ajkd.2000.8966",
+            "pmid": "10922300",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Donadio, JV, Bergstralh, EJ, Oxford, KP, et al. Clinical and histopathologic associations with impaired renal function in IgA nephropathy. Mayo Nephrology Collaborative Group. Clin Nephrol. 1994; 41: 65–71. PMID: 8004831",
+            "process_entry": "True",
+            "pmid": "8004831",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Trimarchi, H, Barratt, J, Cattran, DC, IgAN Classification Working Group of the International IgA Nephropathy Network and the Renal Pathology Society, Conference Participants, et al. Oxford Classification of IgA nephropathy 2016: an update from the IgA Nephropathy Classification Working Group. Kidney Int. 2017; 91(5): 1014–1021. PMID: 28341274",
+            "process_entry": "True",
+            "doi": "10.1016/j.kint.2017.02.003",
+            "pmid": "28341274",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Haas, M, Verhave, JC, Liu, Z-H, et al. A multicenter study of the predictive value of crescents in IgA nephropathy. J Am Soc Nephrol. 2017; 28(2): 691–701. PMID: 27612994",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2016040433",
+            "pmid": "27612994",
+            "pmcid": "PMC5280027",
+            "xmlid": "CIT0026"
+        }
+    ],
+    "localid": "MED-31517550",
+    "doi": "10.1080/0886022X.2019.1654512",
+    "pmid": "10.1080/0886022X.2019.1654512",
+    "pmcid": "31517550",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31517550/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0002",
+                "rp_string": "2–5",
+                "pl_string": "2–5",
+                "rp_xpath": "/article/body/sec[1]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),128,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "2–5",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),128,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "2–5",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),128,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "",
+                "pl_string": "2–5",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),128,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0002",
+                "rp_string": "2–5",
+                "pl_string": "2–5",
+                "rp_xpath": "/article/body/sec[1]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),128,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),459,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),459,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),459,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),459,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),584,151)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,7–10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),726,8)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "rp_string": "7–10",
+                "pl_string": "[3,7–10]",
+                "rp_xpath": "/article/body/sec[1]/p/xref[5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),726,8)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),584,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "rp_string": "7–10",
+                "pl_string": "[3,7–10]",
+                "rp_xpath": "/article/body/sec[1]/p/xref[5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p),726,8)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),584,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "7–10",
+                "pl_xpath": "/article/body/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),584,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "7–10",
+                "pl_xpath": "/article/body/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),584,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "",
+                "pl_string": "7–10",
+                "pl_xpath": "/article/body/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),584,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),1,113)",
+                "containers_title": [
+                    "Methods",
+                    "Renal biopsy"
+                ],
+                "pl_string": "[8,11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),104,9)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),1,113)",
+                "containers_title": [
+                    "Methods",
+                    "Renal biopsy"
+                ],
+                "pl_string": "[8,11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),104,9)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),1,113)",
+                "containers_title": [
+                    "Methods",
+                    "Renal biopsy"
+                ],
+                "pl_string": "[8,11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),104,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),1280,313)",
+                "containers_title": [
+                    "Methods",
+                    "Renal biopsy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[1,14–18]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),151,9)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0014",
+                "rp_string": "14–18",
+                "pl_string": "[1,14–18]",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),151,9)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0014",
+                "rp_string": "14–18",
+                "pl_string": "[1,14–18]",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),151,9)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "",
+                "pl_string": "14–18",
+                "pl_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),162,147)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),310,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,6,9,19]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),460,10)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),310,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,6,9,19]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),460,10)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),310,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,6,9,19]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),460,10)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),310,161)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[3,6,9,19]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),460,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),281,169)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),342,10)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),281,169)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),342,10)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),281,169)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),342,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),744,200)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1184,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),650,119)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[4,23–26]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),759,9)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0023",
+                "rp_string": "23–26",
+                "pl_string": "[4,23–26]",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),759,9)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),650,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0023",
+                "rp_string": "23–26",
+                "pl_string": "[4,23–26]",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),759,9)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),650,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "",
+                "pl_string": "23–26",
+                "pl_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),650,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "",
+                "pl_string": "23–26",
+                "pl_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),650,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "",
+                "pl_string": "23–26",
+                "pl_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),650,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

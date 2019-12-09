@@ -1,0 +1,616 @@
+{
+    "references": [
+        {
+            "bibentry": "Park, JT. Postoperative acute kidney injury. Korean J Anesthesiol. 2017; 70(3): 258–266. PMID: 28580076",
+            "process_entry": "True",
+            "doi": "10.4097/kjae.2017.70.3.258",
+            "pmid": "28580076",
+            "pmcid": "PMC5453887",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Malhotra, R, Kashani, KB, Macedo, E, et al. A risk prediction score for acute kidney injury in the intensive care unit. Nephrol Dial Transplant. 2017; 32(5): 814–822. PMID: 28402551",
+            "process_entry": "True",
+            "doi": "10.1093/ndt/gfx026",
+            "pmid": "28402551",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Wen, J, Cheng, Q, Zhao, J, et al. Hospital-acquired acute kidney injury in Chinese very elderly persons. J Nephrol. 2013; 26(3): 572–579. PMID: 22641583",
+            "process_entry": "True",
+            "doi": "10.5301/jn.5000182",
+            "pmid": "22641583",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Venkatachalam, MA, Weinberg, JM, Kriz, W, et al. Failed tubule recovery, AKI-CKD transition, and kidney disease progression. J Am Soc Nephrol. 2015; 26(8): 1765–1776. PMID: 25810494",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2015010006",
+            "pmid": "25810494",
+            "pmcid": "PMC4520181",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lagny, MG, Jouret, F, Koch, JN, et al. Incidence and outcomes of acute kidney injury after cardiac surgery using either criteria of the RIFLE classification. BMC Nephrol. 2015; 16(1): 76. PMID: 26025079",
+            "process_entry": "True",
+            "doi": "10.1186/s12882-015-0066-9",
+            "pmid": "26025079",
+            "pmcid": "PMC4448315",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "da Rocha, EP, Yokota, LG, Sampaio, BM, et al. Urinary neutrophil gelatinase-associated lipocalin is excellent predictor of acute kidney injury in septic elderly patients. Aging Dis. 2018; 9(2): 182–191. PMID: 29896409",
+            "process_entry": "True",
+            "doi": "10.14336/AD.2017.0307",
+            "pmid": "29896409",
+            "pmcid": "PMC5963341",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Yokota, LG, Sampaio, BM, Rocha, EP, et al. Acute kidney injury in elderly patients: narrative review on incidence, risk factors, and mortality. Int J Nephrol Renovasc Dis. 2018; 11: 217–224. PMID: 30147352",
+            "process_entry": "True",
+            "doi": "10.2147/IJNRD.S170203",
+            "pmid": "30147352",
+            "pmcid": "PMC6097506",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Gong, Y, Zhang, F, Ding, F, et al. Elderly patients with acute kidney injury (AKI): clinical features and risk factors for mortality. Arch Gerontol Geriatr. 2012; 54(2): e47–51. PMID: 21684023",
+            "process_entry": "True",
+            "doi": "10.1016/j.archger.2011.05.011",
+            "pmid": "21684023",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Gaipov, A, Solak, Y, Turkmen, K, et al. Serum uric acid may predict development of progressive acute kidney injury after open heart surgery. Ren Fail. 2015; 37(1): 96–102. PMID: 25347234",
+            "process_entry": "True",
+            "doi": "10.3109/0886022x.2014.976130",
+            "pmid": "25347234",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Shenoy, P, Harugeri, A. Elderly patients' participation in clinical trials. Perspect Clin Res. 2015; 6(4): 184–189. PMID: 26623388",
+            "process_entry": "True",
+            "doi": "10.4103/2229-3485.167099",
+            "pmid": "26623388",
+            "pmcid": "PMC4640010",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Shimomura, A, Obi, Y, Fazl Alizadeh, R, et al. Association of pre-operative estimated GFR on post-operative pulmonary complications in laparoscopic surgeries. Sci Rep. 2017; 7(1): 6504. PMID: 28747700",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-06842-4",
+            "pmid": "28747700",
+            "pmcid": "PMC5529443",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Fan, L, Levey, AS, Gudnason, V, et al. Comparing GFR estimating equations using cystatin C and creatinine in elderly individuals. J Am Soc Nephrol. 2015; 26(8): 1982–1989. PMID: 25527647",
+            "process_entry": "True",
+            "doi": "10.1681/ASN.2014060607",
+            "pmid": "25527647",
+            "pmcid": "PMC4520174",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Matsushita, K, Selvin, E, Bash, LD, et al. Risk implications of the new CKD Epidemiology Collaboration (CKD-EPI) equation compared with the MDRD Study equation for estimated GFR: the Atherosclerosis Risk in Communities (ARIC) Study. Am J Kidney Dis. 2010; 55(4): 648–659. PMID: 20189275",
+            "process_entry": "True",
+            "doi": "10.1053/j.ajkd.2009.12.016",
+            "pmid": "20189275",
+            "pmcid": "PMC2858455",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Fujii, T, Uchino, S, Takinami, M, et al. Validation of the kidney disease improving global outcomes criteria for AKI and comparison of three criteria in hospitalized patients. Clin J Am Soc Nephrol. 2014; 9(5): 848–854. PMID: 24578334",
+            "process_entry": "True",
+            "doi": "10.2215/CJN.09530913",
+            "pmid": "24578334",
+            "pmcid": "PMC4011454",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Bragadottir, G, Redfors, B, Ricksten, SE. Assessing glomerular filtration rate (GFR) in critically ill patients with acute kidney injury–true GFR versus urinary creatinine clearance and estimating equations. Crit Care. 2013; 17(3): R108. PMID: 23767877",
+            "process_entry": "True",
+            "doi": "10.1186/cc12777",
+            "pmid": "23767877",
+            "pmcid": "PMC4056314",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Thiele, RH, Isbell, JM, Rosner, MH. AKI associated with cardiac surgery. Clin J Am Soc Nephrol. 2015; 10(3): 500–514. PMID: 25376763",
+            "process_entry": "True",
+            "doi": "10.2215/CJN.07830814",
+            "pmid": "25376763",
+            "pmcid": "PMC4348689",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Wang, Y, Bellomo, R. Cardiac surgery-associated acute kidney injury: risk factors, pathophysiology and treatment. Nat Rev Nephrol. 2017; 13(11): 697–711. PMID: 28869251",
+            "process_entry": "True",
+            "doi": "10.1038/nrneph.2017.119",
+            "pmid": "28869251",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "O'Connor, ME, Hewson, RW, Kirwan, CJ, et al. Acute kidney injury and mortality 1 year after major non-cardiac surgery. Br J Surg. 2017; 104(7): 868–876. PMID: 28218392",
+            "process_entry": "True",
+            "doi": "10.1002/bjs.10498",
+            "pmid": "28218392",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Deng, Y, Yuan, J, Chi, R, et al. The incidence, risk factors and outcomes of postoperative acute kidney injury in neurosurgical critically ill patients. Sci Rep. 2017; 7(1): 4245. PMID: 28652590",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-04627-3",
+            "pmid": "28652590",
+            "pmcid": "PMC5484679",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Jayaraman, R, Sunder, S, Sathi, S, et al. Post cardiac surgery acute kidney injury: a woebegone status rejuvenated by the novel biomarkers. Nephrourol Mon. 2014; 6(4): e19598. PMID: 25068144",
+            "process_entry": "True",
+            "doi": "10.5812/numonthly.19598",
+            "pmid": "25068144",
+            "pmcid": "PMC4109123",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Inal, BB, Oguz, O, Emre, T, et al. Evaluation of MDRD, Cockcroft-Gault, and CKD-EPI formulas in the estimated glomerular filtration rate. Clin Lab. 2014; 60(10): 1685–1694. PMID: 25651715",
+            "process_entry": "True",
+            "pmid": "25651715",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Masson, I, Flamant, M, Maillard, N, et al. MDRD versus CKD-EPI equation to estimate glomerular filtration rate in kidney transplant recipients. Transplantation. 2013; 95(10): 1211–1217. PMID: 23511243",
+            "process_entry": "True",
+            "doi": "10.1097/tp.0b013e318288caa6",
+            "pmid": "23511243",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Martensson, J, Bellomo, R. Perioperative renal failure in elderly patients. Curr Opin Anaesthesiol. 2015; 28(2): 123–130. PMID: 25674985",
+            "process_entry": "True",
+            "doi": "10.1097/aco.0000000000000171",
+            "pmid": "25674985",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Maltais, F, Decramer, M, Casaburi, R, et al. An Official American Thoracic Society/European Respiratory Society Statement: update on limb muscle dysfunction in chronic obstructive pulmonary disease. Am J Respir Crit Care Med. 2014; 189(9): e15–e62. PMID: 24787074",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.201402-0373ST",
+            "pmid": "24787074",
+            "pmcid": "PMC4098112",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Tarantini, L, Barbati, G, Cioffi, G, et al. Clinical implications of the CKD epidemiology collaboration (CKD-EPI) equation compared with the modification of diet in renal disease (MDRD) study equation for the estimation of renal dysfunction in patients with cardiovascular disease. Intern Emerg Med. 2015; 10(8): 955–963. PMID: 26123617",
+            "process_entry": "True",
+            "doi": "10.1007/s11739-015-1260-2",
+            "pmid": "26123617",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Bell, S, Dekker, FW, Vadiveloo, T, et al. Risk of postoperative acute kidney injury in patients undergoing orthopaedic surgery–development and validation of a risk score and effect of acute kidney injury on survival: observational cohort study. BMJ. 2015; 351(19): h5639. PMID: 26561522",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.h5639",
+            "pmid": "26561522",
+            "pmcid": "PMC4641433",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Shlipak, MG, Coca, SG, Wang, Z, et al. Presurgical serum cystatin C and risk of acute kidney injury after cardiac surgery. Am J Kidney Dis. 2011; 58(3): 366–373. PMID: 21601336",
+            "process_entry": "True",
+            "doi": "10.1053/j.ajkd.2011.03.015",
+            "pmid": "21601336",
+            "pmcid": "PMC3159705",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Alge, JL, Arthur, JM. Biomarkers of AKI: a review of mechanistic relevance and potential therapeutic implications. Clin J Am Soc Nephrol. 2015; 10(1): 147–155. PMID: 25092601",
+            "process_entry": "True",
+            "doi": "10.2215/CJN.12191213",
+            "pmid": "25092601",
+            "pmcid": "PMC4284423",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Wetzels, JF, Kiemeney, LA, Swinkels, DW, et al. Age-and gender-specific reference values of estimated GFR in Caucasians: the Nijmegen Biomedical Study. Kidney Int. 2007; 72(5): 632–637. PMID: 17568781",
+            "process_entry": "True",
+            "doi": "10.1038/sj.ki.5002374",
+            "pmid": "17568781",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-31517563",
+    "doi": "10.1080/0886022X.2019.1662440",
+    "pmid": "10.1080/0886022X.2019.1662440",
+    "pmcid": "31517563",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31517563/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,152)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),154,105)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),253,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),154,105)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),253,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),260,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),438,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0005",
+                "rp_string": "5–7",
+                "pl_string": "5–7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),98,273)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "",
+                "pl_string": "5–7",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),98,273)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "5–7",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),98,273)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0005",
+                "rp_string": "5–7",
+                "pl_string": "5–7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),98,273)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),372,98)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),586,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),790,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),156,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),144,257)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Study population"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),393,7)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),144,257)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Study population"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),393,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),96,162)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Study population"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),385,280)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),42,177)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),211,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),42,177)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),211,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),220,107)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,128)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),130,154)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),120,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),479,86)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),566,209)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),767,7)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),566,209)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),767,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),776,97)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),136,743)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),276,281)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),558,214)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),928,212)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

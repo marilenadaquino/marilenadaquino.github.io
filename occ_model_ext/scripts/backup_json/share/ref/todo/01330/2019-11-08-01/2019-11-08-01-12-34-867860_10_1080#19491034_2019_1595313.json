@@ -1,0 +1,1559 @@
+{
+    "references": [
+        {
+            "bibentry": "Cain, NE, Jahed, Z, Schoenhofen, A. et al Conserved SUN-KASH interfaces mediate LINC complex-dependent nuclear movement and positioning. Curr Biol. 2018; 28: 3086–3097 e3084. PMID: 30245107",
+            "process_entry": "True",
+            "doi": "10.1016/j.cub.2018.08.001",
+            "pmid": "30245107",
+            "pmcid": "PMC6219386",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "D’Angelo, MA, Hetzer, MW. The role of the nuclear envelope in cellular organization. Cell Mol Life Sci. 2006; 63: 316–332. PMID: 16389459",
+            "process_entry": "True",
+            "doi": "10.1007/s00018-005-5361-3",
+            "pmid": "16389459",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Wente, SR, Rout, MP. The nuclear pore complex and nuclear transport. Cold Spring Harb Perspect Biol. 2010; 2: a000562. PMID: 20630994",
+            "process_entry": "True",
+            "doi": "10.1101/cshperspect.a000562",
+            "pmid": "20630994",
+            "pmcid": "PMC2944363",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Ungricht, R, Kutay, U. Mechanisms and functions of nuclear envelope remodelling. Nat Rev Mol Cell Biol. 2017; 18: 229–245. PMID: 28120913",
+            "process_entry": "True",
+            "doi": "10.1038/nrm.2016.153",
+            "pmid": "28120913",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lee, YL, Burke, B. LINC complexes and nuclear positioning. Semin Cell Dev Biol. 2018; 82: 67–76. PMID: 29191370",
+            "process_entry": "True",
+            "doi": "10.1016/j.semcdb.2017.11.008",
+            "pmid": "29191370",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Burke, B. LINC complexes as regulators of meiosis. Curr Opin Cell Biol. 2018; 52: 22–29. PMID: 29414590",
+            "process_entry": "True",
+            "doi": "10.1016/j.ceb.2018.01.005",
+            "pmid": "29414590",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Starr, DA, Fridolfsson, HN. Interactions between nuclei and the cytoskeleton are mediated by SUN-KASH nuclear-envelope bridges. Annu Rev Cell Dev Bi. 2010; 26: 421–444.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Sosa, BA, Rothballer, A, Kutay, U, et al. LINC complexes form by binding of three KASH peptides to domain interfaces of trimeric SUN proteins. Cell. 2012; 149: 1035–1047. PMID: 22632968",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2012.03.046",
+            "pmid": "22632968",
+            "pmcid": "PMC3383001",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Hieda, M. Implications for diverse functions of the LINC complexes based on the structure. Cells. 2017; 6.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Crisp, M, Liu, Q, Roux, K, et al. Coupling of the nucleus and cytoplasm: role of the LINC complex. J Cell Biol. 2006; 172: 41–53. PMID: 16380439",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200509124",
+            "pmid": "16380439",
+            "pmcid": "PMC2063530",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "McGee, MD, Rillo, R, Anderson, AS, et al. UNC-83 is a KASH protein required for nuclear migration and is recruited to the outer nuclear membrane by a physical interaction with the SUN protein UNC-84. Mol Biol Cell. 2006; 17: 1790–1801. PMID: 16481402",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E05-09-0894",
+            "pmid": "16481402",
+            "pmcid": "PMC1415293",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Padmakumar, VC, Libotte, T, Lu, W, et al. The inner nuclear membrane protein Sun1 mediates the anchorage of Nesprin-2 to the nuclear envelope. J Cell Sci. 2005; 118: 3419–3430. PMID: 16079285",
+            "process_entry": "True",
+            "doi": "10.1242/jcs.02471",
+            "pmid": "16079285",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Haque, F, Lloyd, DJ, Smallwood, DT, et al. SUN1 interacts with nuclear lamin A and cytoplasmic nesprins to provide a physical connection between the nuclear lamina and the cytoskeleton. Mol Cell Biol. 2006; 26: 3738–3751. PMID: 16648470",
+            "process_entry": "True",
+            "doi": "10.1128/MCB.26.10.3738-3751.2006",
+            "pmid": "16648470",
+            "pmcid": "PMC1488999",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Bone, CR, Tapley, EC, Gorjanacz, M, et al. The Caenorhabditis elegans SUN protein UNC-84 interacts with lamin to transfer forces from the cytoplasm to the nucleoskeleton during nuclear migration. Mol Biol Cell. 2014; 25: 2853–2865. PMID: 25057012",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E14-05-0971",
+            "pmid": "25057012",
+            "pmcid": "PMC4161519",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Luxton, GW, Starr, DA. KASHing up with the nucleus: novel functional roles of KASH proteins at the cytoplasmic surface of the nucleus. Curr Opin Cell Biol. 2014; 28: 69–75. PMID: 24704701",
+            "process_entry": "True",
+            "doi": "10.1016/j.ceb.2014.03.002",
+            "pmid": "24704701",
+            "pmcid": "PMC4061269",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Baum, DA, Baum, B. An inside-out origin for the eukaryotic cell. BMC Biol. 2014; 12: 76. PMID: 25350791",
+            "process_entry": "True",
+            "doi": "10.1186/s12915-014-0076-2",
+            "pmid": "25350791",
+            "pmcid": "PMC4210606",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Mejat, A, Misteli, T. LINC complexes in health and disease. Nucleus. 2010; 1: 40–52. PMID: 21327104",
+            "process_entry": "True",
+            "doi": "10.4161/nucl.1.1.10530",
+            "pmid": "21327104",
+            "pmcid": "PMC3035119",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Meinke, P, Nguyen, TD, Wehnert, MS. The LINC complex and human disease. Biochem Soc Trans. 2011; 39: 1693–1697. PMID: 22103509",
+            "process_entry": "True",
+            "doi": "10.1042/bst20110658",
+            "pmid": "22103509",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Janin, A, Bauer, D, Ratti, F, et al. Nuclear envelopathies: a complex LINC between nuclear envelope and pathology. Orphanet J Rare Dis. 2017; 12:147. PMID: 28100251",
+            "process_entry": "True",
+            "doi": "10.1186/s13023-016-0522-z",
+            "pmid": "28100251",
+            "pmcid": "PMC5241937",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Zhou, Z, Du, X, Cai, Z. et al Structure of Sad1-UNC84 homology (SUN) domain defines features of molecular bridge in nuclear envelope. J Biol Chem. 2012; 287: 5317–5326. PMID: 22170055",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M111.304543",
+            "pmid": "22170055",
+            "pmcid": "PMC3285312",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Malone, CJ, Fixsen, WD, Horvitz, HR, et al. UNC-84 localizes to the nuclear envelope and is required for nuclear migration and anchoring during C. elegans development. Development. 1999; 126: 3171–3181. PMID: 10375507",
+            "process_entry": "True",
+            "pmid": "10375507",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Starr, DA, Hermann, GJ, Malone, CJ, et al. unc-83 encodes a novel component of the nuclear envelope and is essential for proper nuclear migration. Development. 2001; 128: 5039–5050. PMID: 11748140",
+            "process_entry": "True",
+            "pmid": "11748140",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Meyerzon, M, Fridolfsson, HN, Ly, N, et al. UNC-83 is a nuclear-specific cargo adaptor for kinesin-1-mediated nuclear migration. Development. 2009; 136: 2725–2733. PMID: 19605495",
+            "process_entry": "True",
+            "doi": "10.1242/dev.038596",
+            "pmid": "19605495",
+            "pmcid": "PMC2730402",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Fridolfsson, HN, Ly, N, Meyerzon, M, et al. UNC-83 coordinates kinesin-1 and dynein activities at the nuclear envelope during nuclear migration. Dev Biol. 2010; 338: 237–250. PMID: 20005871",
+            "process_entry": "True",
+            "doi": "10.1016/j.ydbio.2009.12.004",
+            "pmid": "20005871",
+            "pmcid": "PMC2826220",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Fridolfsson, HN, Herrera, LA, Brandt, JN, et al. Genetic analysis of nuclear migration and anchorage to study LINC complexes during development of caenorhabditis elegans. Methods Mol Biol. 2018; 1840: 163–180. PMID: 30141045",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4939-8691-0_13",
+            "pmid": "30141045",
+            "pmcid": "PMC6410724",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Hedgecock, EM, Thomson, JN. A gene required for nuclear and mitochondrial attachment in the nematode Caenorhabditis elegans. Cell. 1982; 30: 321–330. PMID: 6889924",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(82)90038-1",
+            "pmid": "6889924",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Starr, DA, Han, M. Role of ANC-1 in tethering nuclei to the actin cytoskeleton. Science. 2002; 298: 406–409. PMID: 12169658",
+            "process_entry": "True",
+            "doi": "10.1126/science.1075119",
+            "pmid": "12169658",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "D’Alessandro, M, Hnia, K, Gache, V. et al Amphiphysin 2 orchestrates nucleus positioning and shape by linking the nuclear envelope to the actin and microtubule cytoskeleton. Dev Cell. 2015; 35: 186–198. PMID: 26506308",
+            "process_entry": "True",
+            "doi": "10.1016/j.devcel.2015.09.018",
+            "pmid": "26506308",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Palazzo, AF, Joseph, HL, Chen, YJ, et al. Cdc42, dynein, and dynactin regulate MTOC reorientation independent of Rho-regulated microtubule stabilization. Curr Biol. 2001; 11: 1536–1541. PMID: 11591323",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-9822(01)00475-4",
+            "pmid": "11591323",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Gomes, ER, Jani, S, Gundersen, GG. Nuclear movement regulated by Cdc42, MRCK, myosin, and actin flow establishes MTOC polarization in migrating cells. Cell. 2005; 121: 451–463. PMID: 15882626",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2005.02.022",
+            "pmid": "15882626",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Luxton, GW, Gomes, ER, Folker, ES, et al. Linear arrays of nuclear envelope proteins harness retrograde actin flow for nuclear movement. Science. 2010; 329: 956–959. PMID: 20724637",
+            "process_entry": "True",
+            "doi": "10.1126/science.1189072",
+            "pmid": "20724637",
+            "pmcid": "PMC3938394",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Arsenovic, PT, Ramachandran, I, Bathula, K, et al. Nesprin-2G, a component of the nuclear LINC complex, is subject to myosin-dependent tension. Biophys J. 2016; 110: 34–43. PMID: 26745407",
+            "process_entry": "True",
+            "doi": "10.1016/j.bpj.2015.11.014",
+            "pmid": "26745407",
+            "pmcid": "PMC4805861",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Wang, WJ, Shi, ZB, Jiao, S, et al. Structural insights into SUN-KASH complexes across the nuclear envelope. Cell Res. 2012; 22: 1440–1452. PMID: 22945352",
+            "process_entry": "True",
+            "doi": "10.1038/cr.2012.126",
+            "pmid": "22945352",
+            "pmcid": "PMC3463262",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Nie, S, Ke, H, Gao, F, et al. Coiled-coil domains of SUN proteins as intrinsic dynamic regulators. Structure. 2016; 24: 80–91. PMID: 26688217",
+            "process_entry": "True",
+            "doi": "10.1016/j.str.2015.10.024",
+            "pmid": "26688217",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Xu, Y, Li, W, Ke, H, et al. Structural conservation of the autoinhibitory domain in SUN proteins. Biochem Biophys Res Commun. 2018; 496: 1337–1343. PMID: 29408528",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2018.02.015",
+            "pmid": "29408528",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Jahed, Z, Vu, UT, Fadavi, D, et al. A molecular model for LINC complex regulation: activation of SUN2 for KASH binding. Mol Biol Cell. 2018b; 29: 2012–2023. PMID: 29995584",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E18-04-0266",
+            "pmid": "29995584",
+            "pmcid": "PMC6232973",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Schwaiger, I, Sattler, C, Hostetter, DR, et al. The myosin coiled-coil is a truly elastic protein structure. Nat Mater. 2002; 1: 232–235. PMID: 12618784",
+            "process_entry": "True",
+            "doi": "10.1038/nmat776",
+            "pmid": "12618784",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Rose, A, Meier, I. Scaffolds, levers, rods and springs: diverse cellular functions of long coiled-coil proteins. Cell Mol Life Sci. 2004; 61: 1996–2009. PMID: 15316650",
+            "process_entry": "True",
+            "doi": "10.1007/s00018-004-4039-6",
+            "pmid": "15316650",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Sosa, BA, Kutay, U, Schwartz, TU. Structural insights into LINC complexes. Curr Opin Struct Biol. 2013; 23: 285–291. PMID: 23597672",
+            "process_entry": "True",
+            "doi": "10.1016/j.sbi.2013.03.005",
+            "pmid": "23597672",
+            "pmcid": "PMC4077334",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Cain, NE, Tapley, EC, McDonald, KL, et al. The SUN protein UNC-84 is required only in force-bearing cells to maintain nuclear envelope architecture. J Cell Biol. 2014; 206: 163–172. PMID: 25023515",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201405081",
+            "pmid": "25023515",
+            "pmcid": "PMC4107780",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Majumder, S, Willey, PT, DeNies, MS, et al. A synthetic biology platform for the reconstitution and mechanistic dissection of LINC complex assembly. J Cell Sci. 2018; 132:1–16.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Ding, ZY, Wang, YH, Huang, YC, et al. Outer nuclear membrane protein Kuduk modulates the LINC complex and nuclear envelope architecture. J Cell Biol. 2017; 216: 2827–2841. PMID: 28716842",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201606043",
+            "pmid": "28716842",
+            "pmcid": "PMC5584142",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Jahed, Z, Fadavi, D, Vu, UT, et al. Molecular insights into the mechanisms of SUN1 oligomerization in the nuclear envelope. Biophys J. 2018a; 114: 1190–1203. PMID: 29539404",
+            "process_entry": "True",
+            "doi": "10.1016/j.bpj.2018.01.015",
+            "pmid": "29539404",
+            "pmcid": "PMC5883562",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Lu, W, Gotzmann, J, Sironi, L. et al Sun1 forms immobile macromolecular assemblies at the nuclear envelope. Biochim Biophys Acta. 2008; 1783: 2415–2426. PMID: 18845190",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamcr.2008.09.001",
+            "pmid": "18845190",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Liu, Q, Pante, N, Misteli, T, et al. Functional association of Sun1 with nuclear pore complexes. J Cell Biol. 2007; 178: 785–798. PMID: 17724119",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200704108",
+            "pmid": "17724119",
+            "pmcid": "PMC2064544",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Penkner, A, Tang, L, Novatchkova, M, et al. The nuclear envelope protein Matefin/SUN-1 is required for homologous pairing in C. elegans meiosis. Dev Cell. 2007; 12: 873–885. PMID: 17543861",
+            "process_entry": "True",
+            "doi": "10.1016/j.devcel.2007.05.004",
+            "pmid": "17543861",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Ding, X, Xu, R, Yu, J, et al. SUN1 is required for telomere attachment to nuclear envelope and gametogenesis in mice. Dev Cell. 2007; 12: 863–872. PMID: 17543860",
+            "process_entry": "True",
+            "doi": "10.1016/j.devcel.2007.03.018",
+            "pmid": "17543860",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Chikashige, Y, Tsutsumi, C, Yamane, M, et al. Meiotic proteins bqt1 and bqt2 tether telomeres to form the bouquet arrangement of chromosomes. Cell. 2006; 125: 59–69. PMID: 16615890",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2006.01.048",
+            "pmid": "16615890",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Hennen, J, Saunders, CA, Mueller, JD, et al. Fluorescence fluctuation spectroscopy reveals differential SUN protein oligomerization in living cells. Mol Biol Cell. 2018; 29: 1003–1011. PMID: 29514929",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E17-04-0233",
+            "pmid": "29514929",
+            "pmcid": "PMC5921568",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Link, J, Leubner, M, Schmitt, J, et al. Analysis of meiosis in SUN1 deficient mice reveals a distinct role of SUN2 in mammalian meiotic LINC complex formation and function. PLoS Genet. 2014; 10: e1004099. PMID: 24586178",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1004099",
+            "pmid": "24586178",
+            "pmcid": "PMC3937131",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Zhu, R, Antoku, S, Gundersen, GG. Centrifugal displacement of nuclei reveals multiple LINC complex mechanisms for homeostatic nuclear positioning. Curr Biol. 2017; 27: 3097–3110 e3095. PMID: 28988861",
+            "process_entry": "True",
+            "doi": "10.1016/j.cub.2017.08.073",
+            "pmid": "28988861",
+            "pmcid": "PMC5688853",
+            "xmlid": "CIT0051"
+        }
+    ],
+    "localid": "MED-30888237",
+    "doi": "10.1080/19491034.2019.1595313",
+    "pmid": "10.1080/19491034.2019.1595313",
+    "pmcid": "30888237",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30888237/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),279,94)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),460,188)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),649,210)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1043,138)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1175,5)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1043,138)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[5,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1175,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,175)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),177,235)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[8–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,6)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "[8–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),177,235)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "[8–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),177,235)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "[8–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),177,235)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),177,235)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[8–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),405,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),413,200)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[6,13,14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),603,9)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),413,200)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[6,13,14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),603,9)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),413,200)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[6,13,14]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),603,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),614,351)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[7,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),791,6)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),614,351)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[7,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),791,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,162)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),164,234)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[5,6,17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),386,11)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),164,234)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[5,6,17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),386,11)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),164,234)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[5,6,17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),386,11)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),164,234)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ],
+                "pl_string": "[5,6,17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),386,11)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),565,154)",
+                "containers_title": [
+                    "LINC complexes are essential for force transmission across the nuclear envelope"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),1,170)",
+                "containers_title": [
+                    "Crystal structure of the SUN/KASH complex"
+                ],
+                "pl_string": "[8,20]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p[1]),164,6)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),1,170)",
+                "containers_title": [
+                    "Crystal structure of the SUN/KASH complex"
+                ],
+                "pl_string": "[8,20]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p[1]),164,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),172,236)",
+                "containers_title": [
+                    "Crystal structure of the SUN/KASH complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),1436,200)",
+                "containers_title": [
+                    "Crystal structure of the SUN/KASH complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[2]),1,122)",
+                "containers_title": [
+                    "Crystal structure of the SUN/KASH complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[2]),434,192)",
+                "containers_title": [
+                    "Crystal structure of the SUN/KASH complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,118)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),207,138)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),346,91)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),438,126)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ],
+                "pl_string": "[7,23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),554,9)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),438,126)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ],
+                "pl_string": "[7,23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),554,9)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),438,126)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ],
+                "pl_string": "[7,23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),554,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),565,82)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),648,114)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),864,92)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1062,68)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1122,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1062,68)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1122,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),80,124)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),205,82)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),373,180)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),554,141)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),696,163)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,344)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),664,76)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1673,140)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1814,125)",
+                "containers_title": [
+                    "Conserved residues are required for functional LINC complex in live cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),468,152)",
+                "containers_title": [
+                    "Conserved cysteines regulate LINC complex function during nuclear positioning"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),621,238)",
+                "containers_title": [
+                    "Conserved cysteines regulate LINC complex function during nuclear positioning"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1363,208)",
+                "containers_title": [
+                    "Conserved cysteines regulate LINC complex function during nuclear positioning"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),525,136)",
+                "containers_title": [
+                    "Conserved cysteines regulate LINC complex function during nuclear positioning"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),913,171)",
+                "containers_title": [
+                    "Conserved cysteines regulate LINC complex function during nuclear positioning"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),83,144)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[8,33]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),220,6)"
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),83,144)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[8,33]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),220,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),228,223)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),443,7)"
+            },
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),228,223)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),443,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),452,135)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),588,156)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1134,117)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1252,96)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),1340,7)"
+            },
+            {
+                "n_rp": 61,
+                "xref_id": "",
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),1340,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1252,96)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            },
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1252,96)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),1340,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),248,148)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[37,38]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),388,7)"
+            },
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),248,148)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[37,38]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),388,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),477,175)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),653,169)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),266,167)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),434,190)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),758,266)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[8,20,34]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[4]),1014,9)"
+            },
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),758,266)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[8,20,34]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[4]),1014,9)"
+            },
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),758,266)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[8,20,34]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[4]),1014,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),1325,172)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),233,154)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),379,7)"
+            },
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),233,154)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),379,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),388,54)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[43–45]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),434,7)"
+            },
+            {
+                "n_rp": 76,
+                "xref_id": "",
+                "pl_string": "[43–45]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),434,7)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),388,54)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),388,54)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[43–45]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),434,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),567,194)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[9,31]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),754,6)"
+            },
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),567,194)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[9,31]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),754,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),762,208)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[6,46–48]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),960,9)"
+            },
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),762,208)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[6,46–48]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),960,9)"
+            },
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[5]/p[5]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[5]),762,208)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[6,46–48]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[5]),960,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),1,229)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),231,127)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),359,149)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[41,43]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),500,7)"
+            },
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),359,149)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[41,43]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),500,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),509,169)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[44,50]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),670,7)"
+            },
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),509,169)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[44,50]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),670,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),679,205)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[9,43,44,49]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),871,12)"
+            },
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),679,205)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[9,43,44,49]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),871,12)"
+            },
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),679,205)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[9,43,44,49]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),871,12)"
+            },
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),679,205)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ],
+                "pl_string": "[9,43,44,49]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[6]),871,12)"
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[5]/p[6]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[6]),1015,211)",
+                "containers_title": [
+                    "Other factors that influence force transmission through LINC complex"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/back/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/back/sec[1]/p),1,165)",
+                "containers_title": [
+                    "Acknowledgments"
+                ]
+            }
+        ]
+    ]
+}

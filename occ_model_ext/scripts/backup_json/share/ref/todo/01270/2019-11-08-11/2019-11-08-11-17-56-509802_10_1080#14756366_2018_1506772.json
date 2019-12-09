@@ -1,0 +1,741 @@
+{
+    "references": [
+        {
+            "bibentry": "Smithburn, KC, Hughes, TP, Burke, AW, Paul, JH. A neurotropic virus isolated from the blood of a native of Uganda. Am J Trop Med Hyg 1940; s1–20: 471–92.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Lanciotti, RS, Roehrig, JT, Deubel, V, et al. Origin of the West Nile virus responsible for an outbreak of encephalitis in the northeastern United States. Science 1999; 286: 2333–7. PMID: 10600742",
+            "process_entry": "True",
+            "doi": "10.1126/science.286.5448.2333",
+            "pmid": "10600742",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "McMullen, AR, May, FJ, Li, L, et al. Evolution of new genotype of West Nile virus in North America. Emerging Infect Dis 2011; 17: 785–93. PMID: 21529385",
+            "process_entry": "True",
+            "doi": "10.3201/eid1705.101707",
+            "pmid": "21529385",
+            "pmcid": "PMC3321787",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Centers for Disease Control and Prevention CDC) [cited 2018 Sept 5]. Available from: www.cdc.gov/westnile/index.html",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Sejvar, JJ. West Nile virus: an historical overview. Ochsner J 2003; 5: 6–10.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Colpitts, TM, Conway, MJ, Montgomery, RR, Fikrig, E. West Nile virus: biology, transmission, and human infection. Clin Microbiol Rev 2012; 25: 635–48. PMID: 23034323",
+            "process_entry": "True",
+            "doi": "10.1128/CMR.00045-12",
+            "pmid": "23034323",
+            "pmcid": "PMC3485754",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Holbrook, MR. Historical perspectives on flavivirus research. Viruses 2017; 9: 97.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Suthar, MS, Diamond, MS, Gale, M. West Nile virus infection and immunity. Nat Rev Microbiol 2013; 11: 115–28. PMID: 23321534",
+            "process_entry": "True",
+            "doi": "10.1038/nrmicro2950",
+            "pmid": "23321534",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Schechter, I, Berger, A. On the size of the active site in proteases. I. Papain. Biochem Biophys Res Commun 1967; 27: 157–62. PMID: 6035483",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-291x(67)80055-x",
+            "pmid": "6035483",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Chappell, KJ, Stoermer, MJ, Fairlie, DP, Young, PR. West Nile virus NS2B/NS3 protease as an antiviral target. Curr Med Chem 2008; 15: 2771–84. PMID: 18991636",
+            "process_entry": "True",
+            "doi": "10.2174/092986708786242804",
+            "pmid": "18991636",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Stoermer, MJ, Chappell, KJ, Liebscher, S, et al. Potent cationic inhibitors of West Nile virus NS2B/NS3 protease with serum stability, cell permeability and antiviral activity. J Med Chem 2008; 51: 5714–21. PMID: 18729351",
+            "process_entry": "True",
+            "doi": "10.1021/jm800503y",
+            "pmid": "18729351",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Kisselev, AF, Goldberg, AL. Proteasome inhibitors: from research tools to drug candidates. Chem Biol 2001; 8: 739–58. PMID: 11514224",
+            "process_entry": "True",
+            "doi": "10.1016/s1074-5521(01)00056-4",
+            "pmid": "11514224",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Hammamy, MZ, Haase, C, Hammami, M, et al. Development and characterization of new peptidomimetic inhibitors of the West Nile virus NS2B-NS3 protease. ChemMedChem 2013; 8: 231–41. PMID: 23307694",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201200497",
+            "pmid": "23307694",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Bastos, LA, Behnam, MA, El Sherif, Y, et al. Dual inhibitors of the dengue and West Nile virus NS2B-NS3 proteases: synthesis, biological evaluation and docking studies of novel peptide-hybrids. Bioorg Med Chem 2015; 23: 5748–55. PMID: 26233795",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2015.07.012",
+            "pmid": "26233795",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Behnam, MAM, Graf, D, Bartenschlager, R, et al. Discovery of nanomolar dengue and West Nile virus protease inhibitors containing a 4-benzyloxyphenylglycine residue. J Med Chem 2015; 58: 9354–70. PMID: 26562070",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.5b01441",
+            "pmid": "26562070",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Oleksyszyn, J, Powers, JC. Irreversible inhibition of serine proteases by peptidyl derivatives of alpha-aminoalkylphosphonate diphenyl esters. Biochem Bioph Res Co 1989; 161: 143–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Oleksyszyn, J, Powers, JC. Irreversible inhibition of serine proteases by peptide derivatives of (alpha-aminoalkyl)phosphonate diphenyl esters. Biochemistry 1991; 30: 485–93. PMID: 1988040",
+            "process_entry": "True",
+            "doi": "10.1021/bi00216a026",
+            "pmid": "1988040",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Sienczyk, M, Oleksyszyn, J. Irreversible inhibition of serine proteases –design and in vivo activity of diaryl alpha-aminophosphonate derivatives. Curr Med Chem 2009; 16: 1673–87. PMID: 19442139",
+            "process_entry": "True",
+            "doi": "10.2174/092986709788186246",
+            "pmid": "19442139",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Oleksyszyn, J, Powers, JC. Amino acid and peptide phosphonate derivatives as specific inhibitors of serine peptidases Methods in Enzymology 1994;244:423–441.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Oleksyszyn, J, Subotkowska, L, Mastalerz, P. Diphenyl 1-aminoalkanephosphonates. Synthesis 1979; 1979: 985–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Hamilton, R, Walker, BJ, Walker, B. A convenient synthesis of N-protected diphenyl phosphonate ester analogues of ornithine, lysine and homolysine. Tetrahedron Lett 1993; 34: 2847–50.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Peterlin-Mašič, L, Kikelj, D. Arginine mimetics. Tetrahedron 2001; 57: 7073–105.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Van der Veken, P, El Sayed, I, Joossens, J, et al. Lewis acid catalyzed synthesis of N-protected diphenyl 1-aminoalkyl-phosphonates. Synthesis 2004; 2005: 634–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ewa, B, Maciej, W, Marcin, S, et al. The development of first Staphylococcus aureus SplB protease inhibitors: phosphonic analogues of glutamine. Bioorg Med Chem Lett 2012; 22: 5574–8. PMID: 22858096",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2012.07.011",
+            "pmid": "22858096",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Joossens, J, Van der Veken, P, Lambeir, AM, et al. Development of irreversible diphenyl phosphonate inhibitors for urokinase plasminogen activator. J Med Chem 2004; 47: 2411–3. PMID: 15115382",
+            "process_entry": "True",
+            "doi": "10.1021/jm0499209",
+            "pmid": "15115382",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Sienczyk, M, Oleksyszyn, J. A convenient synthesis of new alpha-aminoalkylphosphonates, aromatic analogues of arginine as inhibitors of trypsin-like enzymes. Tetrahedron Lett 2004; 45: 7251–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Oleksyszyn, J, Boduszek, B, Kam, CM, Powers, JC. Novel amidine-containing peptidyl phosphonates as irreversible inhibitors for blood coagulation and related serine proteases. J Med Chem 1994; 37: 226–31. PMID: 8295209",
+            "process_entry": "True",
+            "doi": "10.1021/jm00028a004",
+            "pmid": "8295209",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Magdolen, P, Meciarova, M, Toma, S. Ultrasound effect on the synthesis of 4-alkyl-(aryl)aminobenzaldehydes. Tetrahedron 2001; 57: 4781–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Stein, RL, Trainor, DA. Mechanism of inactivation of human leukocyte elastase by a chloromethyl ketone: kinetic and solvent isotope effect studies. Biochemistry 1986; 25: 5414–9. PMID: 3022790",
+            "process_entry": "True",
+            "doi": "10.1021/bi00367a011",
+            "pmid": "3022790",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Bissell, ER, Mitchell, AR, Smith, RE. Synthesis and chemistry of “7-amino-4-(trifluoromethyl)coumarin and its amino-acid and peptide derivatives. J Org Chem 1980; 45: 2283–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Trott, O, Olson, AJ. Software news and update autodock vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J Comput Chem 2009; 31: 455–61.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Erbel, P, Schiering, N, D’Arcy, A, et al. Structural basis for the activation of flaviviral NS3 proteases from dengue and West Nile virus. Nat Struct Mol Biol 2006; 13: 372–3. PMID: 16532006",
+            "process_entry": "True",
+            "doi": "10.1038/nsmb1073",
+            "pmid": "16532006",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Hof, P, Mayr, I, Huber, R, et al. The 1.8 angstrom crystal structure of human cathepsin G in complex with Suc-Val-Pro-Phe(P)-(OPh)(2): a janus-faced proteinase with two opposite specificities. Embo J 1996; 15: 5481–91. PMID: 8896442",
+            "process_entry": "True",
+            "doi": "10.1002/j.1460-2075.1996.tb00933.x",
+            "pmid": "8896442",
+            "pmcid": "PMC452293",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Lechtenberg, BC, Kasperkiewicz, P, Robinson, H, et al. The elastase-PK101 structure: mechanism of an ultrasensitive activity-based probe revealed. ACS Chem Biol 2015; 10: 945–51. PMID: 25581168",
+            "process_entry": "True",
+            "doi": "10.1021/cb500909n",
+            "pmid": "25581168",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "DeLano, WL. The PyMOL molecular graphics system. San Carlos (CA): DeLano Scientific; 2002.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Winiarski, L, Oleksyszyn, J, Sienczyk, M. Human neutrophil elastase phosphonic inhibitors with improved potency of action. J Med Chem 2012; 55: 6541–53. PMID: 22720718",
+            "process_entry": "True",
+            "doi": "10.1021/jm300599x",
+            "pmid": "22720718",
+            "xmlid": "CIT0036"
+        }
+    ],
+    "localid": "MED-30362835",
+    "doi": "10.1080/14756366.2018.1506772",
+    "pmid": "10.1080/14756366.2018.1506772",
+    "pmcid": "30362835",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30362835/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),142,80)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),478,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3–6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),695,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1006,104)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1315,83)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),568,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),839,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1144,108)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1144,108)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,98)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),191,235)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),427,235)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),663,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),812,266)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),146,224)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),371,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),371,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0019",
+                "rp_string": "19,20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1,127)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),403,278)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),682,142)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),825,241)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1067,277)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1492,125)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),2141,132)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),2274,277)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),2552,157)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),2552,157)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),2710,355)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),2710,355)",
+                "containers_title": [
+                    "Chemistry",
+                    "Inhibitors synthesis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),982,239)",
+                "containers_title": [
+                    "Chemistry",
+                    "In vitro NS2B/NS3 protease inhibition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),432,590)",
+                "containers_title": [
+                    "Chemistry",
+                    "Control proteases inhibition assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,238)",
+                "containers_title": [
+                    "Chemistry",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),240,135)",
+                "containers_title": [
+                    "Chemistry",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),376,238)",
+                "containers_title": [
+                    "Chemistry",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),376,238)",
+                "containers_title": [
+                    "Chemistry",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),615,152)",
+                "containers_title": [
+                    "Chemistry",
+                    "Molecular docking"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1430,193)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Inhibitor P1 position screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),804,237)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of peptide chain elongation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1307,201)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Influence of peptide chain elongation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,241)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "references": [
+        {
+            "bibentry": "Ahmed, HMA. Anatomical challenges, electronic working length determination and current developments in root canal preparation of primary molar teeth. Int Endod J. 2013; 46(11): 1011–3. PMID: 23711096",
+            "process_entry": "True",
+            "doi": "10.1111/iej.12134",
+            "pmid": "23711096",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Deboni, MC, Brozoski, MA, Traina, AA, et al. Surgical management of dentigerous cyst and keratocystic odontogenic tumor in children: a conservative approach and 7-year follow-up. Appl Oral Sci. 2012; 20(2): 282–285.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Manjunatha, BS, Chikkaramaiah, S, Panja, P, et al. Impacted maxillary second premolars: a report of four cases. BMJ Case Rep. 2014; 2014: 1–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Santos, BZ, Beltrame, AP, Bolan, M, et al. DC of inflammatory origin. J Dent Child (Chic). 2014; 81(2): 112–116. PMID: 25198956",
+            "process_entry": "True",
+            "pmid": "25198956",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lin, HP, Wang, YP, Chen, HM, et al. A clinicopathological study of 338 DCs. J Oral Pathol Med. 2013; 42(6): 462–467. PMID: 23278191",
+            "process_entry": "True",
+            "doi": "10.1111/jop.12042",
+            "pmid": "23278191",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Yao, L, Xu, X, Ren, M, et al. Inflammatory DC of mandibular first premolar associated with endodontically treated primary first molar: a rare case report. Eur J Paediatr Dent. 2015; 16(3): 201–204. PMID: 26418922",
+            "process_entry": "True",
+            "pmid": "26418922",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Shibata, Y, Asaumi, J, Yanagi, Y, et al. Radiographic examination of dentigerous cysts in the transitional dentition. Dentomaxillofac Radiol. 2004; 33(1): 17–20. PMID: 15140817",
+            "process_entry": "True",
+            "doi": "10.1259/dmfr/24148363",
+            "pmid": "15140817",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Benn, A, Altini, M. DCs of inﬂ ammatory origin. A clinicopathologic study. Oral Surg Oral Med Oral Pathol Oral Radiol Endod. 1996; 81(2): 203–209. PMID: 8665316",
+            "process_entry": "True",
+            "doi": "10.1016/s1079-2104(96)80416-1",
+            "pmid": "8665316",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Taysi, M, Ozden, C, Cankaya, AB, et al. Conservative approach to a large DC in an 11-year-old patient. J Istanb Univ Fac Dent. 2016; 50(3): 51–56.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        }
+    ],
+    "localid": "MED-31339472",
+    "doi": "10.1080/19932820.2019.1643208",
+    "pmid": "10.1080/19932820.2019.1643208",
+    "pmcid": "31339472",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31339472/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),315,205)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),158,95)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[3]),247,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),158,95)",
+                "containers_title": "",
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/p[3]),247,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[3]),254,170)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[6]),1,67)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[6]),163,80)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[6]),244,185)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[6]),528,68)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/p[8]),1,153)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

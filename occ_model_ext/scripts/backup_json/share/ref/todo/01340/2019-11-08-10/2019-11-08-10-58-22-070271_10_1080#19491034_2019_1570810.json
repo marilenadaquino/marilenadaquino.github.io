@@ -1,0 +1,1704 @@
+{
+    "references": [
+        {
+            "bibentry": "Backman, L, Appelkvist, EL, Sundberg, A, et al. Modulation of metabolism in HepG2 cells upon treatment with cyclosporin A and Nva2-cyclosporin. Exp Mol Pathol. 1991; 54: 242–254. PMID: 1647968",
+            "process_entry": "True",
+            "doi": "10.1016/0014-4800(91)90034-u",
+            "pmid": "1647968",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Lopez-Riera, M,, Conde, I,, Tolosa, L. et al. New microRNA biomarkers for drug-induced steatosis and their potential to predict the contribution of drugs to non-alcoholic fatty liver disease. Front Pharmacol. 2017; 8: 3. PMID: 28179883",
+            "process_entry": "True",
+            "doi": "10.3389/fphar.2017.00003",
+            "pmid": "28179883",
+            "pmcid": "PMC5263149",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Benet, M,, Guzmán, C,, Pisonero-Vaquero, S. et al. Repression of the nuclear receptor small heterodimer partner by steatotic drugs and in advanced nonalcoholic fatty liver disease. Mol Pharmacol. 2015; 87: 582–594. PMID: 25576488",
+            "process_entry": "True",
+            "doi": "10.1124/mol.114.096313",
+            "pmid": "25576488",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Lausada, N, de Gomez Dumm, IN, Raimondi, JC, et al. Effect of cyclosporine and sirolimus on fatty acid desaturase activities in cultured HEPG2 cells. Transplant Proc. 2009; 41: 1865–1870. PMID: 19545746",
+            "process_entry": "True",
+            "doi": "10.1016/j.transproceed.2009.03.063",
+            "pmid": "19545746",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lieberman-Aiden, E,, Van Berkum, N. L,, Williams, L. et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science. 2009; 326: 289–293. PMID: 19815776",
+            "process_entry": "True",
+            "doi": "10.1126/science.1181369",
+            "pmid": "19815776",
+            "pmcid": "PMC2858594",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Dixon, JR, Selvaraj, S, Yue, F, et al. Topological domains in mammalian genomes identified by analysis of chromatin interactions. Nature. 2012; 485: 376–380.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Nora, EP, Lajoie, BR, Schulz, EG, et al. Spatial partitioning of the regulatory landscape of the X-inactivation centre. Nature. 2012; 485: 381–385.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Guelen, L, Pagie, L, Brasset, E, et al. Domain organization of human chromosomes revealed by mapping of nuclear lamina interactions. Nature. 2008; 453: 948–951.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Burke, B, Stewart, CL. The nuclear lamins: flexibility in function. Nat Rev Mol Cell Biol. 2013; 14: 13–24. PMID: 23212477",
+            "process_entry": "True",
+            "doi": "10.1038/nrm3488",
+            "pmid": "23212477",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Reddy, KL, Zullo, JM, Bertolino, E, et al. Transcriptional repression mediated by repositioning of genes to the nuclear lamina. Nature. 2008; 452: 243–247. PMID: 18272965",
+            "process_entry": "True",
+            "doi": "10.1038/nature06727",
+            "pmid": "18272965",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Lund, EG, Oldenburg, AR, Collas, P. Enriched domain detector: a program for detection of wide genomic enrichment domains robust against local variations. Nucleic Acids Res. 2014; 42: e92. PMID: 24782521",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gku324",
+            "pmid": "24782521",
+            "pmcid": "PMC4066758",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Gesson, K, Rescheneder, P, Skoruppa, MP, et al. A-type lamins bind both hetero-and euchromatin, the latter being regulated by lamina-associated polypeptide 2 alpha. Genome Res. 2016; 26: 462–473. PMID: 26798136",
+            "process_entry": "True",
+            "doi": "10.1101/gr.196220.115",
+            "pmid": "26798136",
+            "pmcid": "PMC4817770",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Lund, EG, Duband-Goulet, I, Oldenburg, A, et al. Distinct features of lamin A-interacting chromatin domains mapped by ChIP-sequencing from sonicated or micrococcal nuclease-digested chromatin. Nucleus. 2015; 6: 30–38. PMID: 25602132",
+            "process_entry": "True",
+            "doi": "10.4161/19491034.2014.990855",
+            "pmid": "25602132",
+            "pmcid": "PMC4615303",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Rønningen, T, Shah, A, Oldenburg, AR, et al. Prepatterning of differentiation-driven nuclear lamin A/C-associated chromatin domains by GlcNAcylated histone H2B. Genome Res. 2015; 25: 1825–1835. PMID: 26359231",
+            "process_entry": "True",
+            "doi": "10.1101/gr.193748.115",
+            "pmid": "26359231",
+            "pmcid": "PMC4665004",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Cesarini, E, Mozzetta, C, Marullo, F, et al. Lamin A/C sustains PcG protein architecture, maintaining transcriptional repression at target genes. J Cell Biol. 2015; 211: 533–551. PMID: 26553927",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201504035",
+            "pmid": "26553927",
+            "pmcid": "PMC4639869",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Marullo, F, Cesarini, E, Antonelli, L, et al. Nucleoplasmic Lamin A/C and Polycomb group of proteins: an evolutionarily conserved interplay. Nucleus. 2016; 7: 103–111. PMID: 26930442",
+            "process_entry": "True",
+            "doi": "10.1080/19491034.2016.1157675",
+            "pmid": "26930442",
+            "pmcid": "PMC4916880",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Pascual-Reguant, L, Blanco, E, Galan, S, et al. Lamin B1 mapping reveals the existence of dynamic and functional euchromatin lamin B1 domains. Nat Commun. 2018; 9: 3420. PMID: 30143639",
+            "process_entry": "True",
+            "doi": "10.1038/s41467-018-05912-z",
+            "pmid": "30143639",
+            "pmcid": "PMC6109041",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Lund, E, Oldenburg, AR, Delbarre, E, et al. Lamin A/C-promoter interactions specify chromatin state-dependent transcription outcomes. Genome Res. 2013; 23: 1580–1589.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Peric-Hupkes, D, Meuleman, W, Pagie, L, et al. Molecular maps of the reorganization of genome-nuclear lamina interactions during differentiation. Mol Cell. 2010; 38: 603–613.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Robson, MI, de Las Heras, JI, Czapiewski, R, et al. Constrained release of lamina-associated enhancers and genes from the nuclear envelope during T-cell activation facilitates their association in chromosome compartments. Genome Res. 2017; 27: 1126–1138. PMID: 28424353",
+            "process_entry": "True",
+            "doi": "10.1101/gr.212308.116",
+            "pmid": "28424353",
+            "pmcid": "PMC5495065",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Bronshtein, I, Kepten, E, Kanter, I, et al. Loss of lamin A function increases chromatin dynamics in the nuclear interior. Nat Commun. 2015; 6: 8044. PMID: 26299252",
+            "process_entry": "True",
+            "doi": "10.1038/ncomms9044",
+            "pmid": "26299252",
+            "pmcid": "PMC4560783",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Camps, J, Wangsa, D, Falke, M, et al. Loss of lamin B1 results in prolongation of S phase and decondensation of chromosome territories. FASEB J. 2014; 28: 3423–3434.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Jennings, P, Koppelstaetter, C, Aydin, S, et al. Cyclosporine A induces senescence in renal tubular epithelial cells. Am J Physiol Renal Physiol. 2007; 293: F831–F838. PMID: 17596534",
+            "process_entry": "True",
+            "doi": "10.1152/ajprenal.00005.2007",
+            "pmid": "17596534",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Barrowman, J, Hamblet, C, Kane, MS, et al. Requirements for efficient proteolytic cleavage of prelamin A by ZMPSTE24. PLoS One. 2012; 7: e32120. PMID: 22355414",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0032120",
+            "pmid": "22355414",
+            "pmcid": "PMC3280227",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Koppelstaetter, C, Kern, G, Leierer, G, et al. Effect of cyclosporine, tacrolimus and sirolimus on cellular senescence in renal epithelial cells. Toxicol In Vitro. 2018; 48: 86–92. PMID: 29309803",
+            "process_entry": "True",
+            "doi": "10.1016/j.tiv.2018.01.004",
+            "pmid": "29309803",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Lenain, C, de Graaf, CA, Pagie, L, et al. Massive reshaping of genome-nuclear lamina interactions during oncogene-induced senescence. Genome Res. 2017; 27: 1634–1644. PMID: 28916540",
+            "process_entry": "True",
+            "doi": "10.1101/gr.225763.117",
+            "pmid": "28916540",
+            "pmcid": "PMC5630027",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Paulsen, J, Sekelja, M, Oldenburg, AR, et al. Chrom3D: three-dimensional genome modeling from Hi-C and nuclear lamin-genome contacts. Genome Biol. 2017; 18: 21. PMID: 28137286",
+            "process_entry": "True",
+            "doi": "10.1186/s13059-016-1146-2",
+            "pmid": "28137286",
+            "pmcid": "PMC5278575",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Paulsen, J, Liyakat Ali, TM, Collas, P. Computational 3D genome modeling using Chrom3D. Nat Protoc. 2018; 13: 1137–1152. PMID: 29700484",
+            "process_entry": "True",
+            "doi": "10.1038/nprot.2018.009",
+            "pmid": "29700484",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Wang, Y, Lichter-Konecki, U, Anyane-Yeboa, K, et al. A mutation abolishing the ZMPSTE24 cleavage site in prelamin A causes a progeroid disorder. J Cell Sci. 2016; 129: 1975–1980.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Shimi, T, Pfleghaar, K, Kojima, S-I, et al. The A-and B-type nuclear lamin networks: microdomains involved in chromatin organization and transcription. Genes Dev. 2008; 22: 3409–3421.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Lau, HY, Ramanujulu, PM, Guo, D, et al. An improved isoprenylcysteine carboxylmethyltransferase inhibitor induces cancer cell death and attenuates tumor growth in vivo. Cancer Biol Ther. 2014; 15: 1280–1291. PMID: 24971579",
+            "process_entry": "True",
+            "doi": "10.4161/cbt.29692",
+            "pmid": "24971579",
+            "pmcid": "PMC4128870",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Kind, J, Pagie, L, de Vries, SS, et al. Genome-wide maps of nuclear lamina interactions in single human cells. Cell. 2015; 163: 134–147.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Kind, J, Pagie, L, Ortabozkoyun, H, et al. Single-cell dynamics of genome-nuclear lamina interactions. Cell. 2013; 153: 178–192.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Akhtar, W, de Jong, J, Pindyurin, AV, et al. Chromatin position effects assayed by thousands of reporters integrated in parallel. Cell. 2013; 154: 914–927. PMID: 23953119",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2013.07.018",
+            "pmid": "23953119",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Briand, N, Guénantin, A-C, Jeziorowska, D, et al. The lipodystrophic hotspot lamin A p.R482W mutation deregulates the mesodermal inducer T/Brachyury and early vascular differentiation gene networks. Hum Mol Genet. 2018; 27: 1447–1459. PMID: 29438482",
+            "process_entry": "True",
+            "doi": "10.1093/hmg/ddy055",
+            "pmid": "29438482",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Oldenburg, A, Briand, N, Sørensen, AL, et al. A lipodystrophy-causing lamin A mutant alters conformation and epigenetic regulation of the anti-adipogenic MIR335 locus. J Cell Biol. 2017; 216: 2731–2743. PMID: 28751304",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.201701043",
+            "pmid": "28751304",
+            "pmcid": "PMC5584164",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "van Koningsbruggen, S, Gierlinski, M, Schofield, P, et al. High-resolution whole-genome sequencing reveals that specific chromatin domains from most human chromosomes associate with nucleoli. Mol Biol Cell. 2010; 21: 3735–3748. PMID: 20826608",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E10-06-0508",
+            "pmid": "20826608",
+            "pmcid": "PMC2965689",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Solovei, I, Wang, AS, Thanisch, K, et al. LBR and lamin A/C sequentially tether peripheral heterochromatin and inversely regulate differentiation. Cell. 2013; 152: 584–598.",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Milon, BC, Cheng, H, Tselebrovsky, MV, et al. Role of histone deacetylases in gene regulation at nuclear lamina. PLoS One. 2012; 7: e49692. PMID: 23226217",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0049692",
+            "pmid": "23226217",
+            "pmcid": "PMC3511463",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Poleshko, A, Shah, PP, Gupta, M, et al. Genome-nuclear lamina interactions regulate cardiac stem cell lineage restriction. Cell. 2017; 171: 573–587. PMID: 29033129",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2017.09.018",
+            "pmid": "29033129",
+            "pmcid": "PMC5683101",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Towbin, BD, González-Aguilera, C, Sack, R, et al. Step-wise methylation of histone H3K9 positions heterochromatin at the nuclear periphery. Cell. 2012; 150: 934–947.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Shachar, S, Voss, TC, Pegoraro, G, et al. Identification of gene positioning factors using high-throughput imaging mapping. Cell. 2015; 162: 911–923. PMID: 26276637",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2015.07.035",
+            "pmid": "26276637",
+            "pmcid": "PMC4538709",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Perovanovic, J, Breen, M, Choyke, P, et al. Laminopathies disrupt epigenomic developmental programs and cell fate. Sci Transl Med. 2016; 8: 335ra58.",
+            "process_entry": "True",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Duband-Goulet, I, Woerner, S, Gasparini, S, et al. Subcellular localization of SREBP1 depends on its interaction with the C-terminal region of wild-type and disease related A-type lamins. Exp Cell Res. 2011; 317: 2800–2813.",
+            "process_entry": "True",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Shirley, JW, Ty, S, Takebayashi, S, et al. a high-throughput tool for analyzing FISH images. Bioinformatics. 2011; 27: 933–938. PMID: 21310746",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/btr053",
+            "pmid": "21310746",
+            "pmcid": "PMC3065689",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Delbarre, E, Ivanauskiene, K, Spirkoski, J, et al. PML protein organizes heterochromatin domains where it regulates histone H3.3 deposition by ATRX/DAXX. Genome Res. 2017; 27: 913–921.",
+            "process_entry": "True",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Langmead, B, Trapnell, C, Pop, M, et al. Ultrafast and memory-efficient alignment of short DNA sequences to the human genome. Genome Biol. 2009; 10: R25. PMID: 19261174",
+            "process_entry": "True",
+            "doi": "10.1186/gb-2009-10-3-r25",
+            "pmid": "19261174",
+            "pmcid": "PMC2690996",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Quinlan, AR, Hall, IM. BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics. 2010; 26: 841–842. PMID: 20110278",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/btq033",
+            "pmid": "20110278",
+            "pmcid": "PMC2832824",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Neph, S, Kuehn, MS, Reynolds, AP, et al. BEDOPS: high-performance genomic feature operations. Bioinformatics. 2012; 28: 1919–1920. PMID: 22576172",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/bts277",
+            "pmid": "22576172",
+            "pmcid": "PMC3389768",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Stajich, JE, Block, D, Boulez, K, et al. The Bioperl toolkit: perl modules for the life sciences. Genome Res. 2002; 12: 1611–1618.",
+            "process_entry": "True",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Team, RCR. A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing; 2015 Available from: https:/www.R-project.org.",
+            "process_entry": "True",
+            "url": "https:/www.R-project.org.",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Consortium, EP. An integrated encyclopedia of DNA elements in the human genome. Nature. 2012; 489: 57–74. PMID: 22955616",
+            "process_entry": "True",
+            "doi": "10.1038/nature11247",
+            "pmid": "22955616",
+            "pmcid": "PMC3439153",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Servant, N, Skaletsky, H, Koutseva, N, et al. HiC-Pro: an optimized and flexible pipeline for Hi-C data processing. Genome Biol. 2015; 16: 259. PMID: 26619908",
+            "process_entry": "True",
+            "doi": "10.1186/s13059-015-0831-x",
+            "pmid": "26619908",
+            "pmcid": "PMC4665391",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Filippova, D, Patro, R, Duggal, G, et al. Identification of alternative topological domains in chromatin. Algorithms Mol Biol. 2014; 9: 14. PMID: 24868242",
+            "process_entry": "True",
+            "doi": "10.1186/1748-7188-9-14",
+            "pmid": "24868242",
+            "pmcid": "PMC4019371",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Trapnell, C, Williams, BA, Pertea, G, et al. Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation. Nat Biotechnol. 2010; 28: 511–515.",
+            "process_entry": "True",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Kim, D, Pertea, G, Trapnell, C, et al. TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions. Genome Biol. 2013; 14: R36. PMID: 23618408",
+            "process_entry": "True",
+            "doi": "10.1186/gb-2013-14-4-r36",
+            "pmid": "23618408",
+            "pmcid": "PMC4053844",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Langmead, B, Salzberg, SL. Fast gapped-read alignment with Bowtie 2. Nat Methods. 2012; 9: 357–359. PMID: 22388286",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.1923",
+            "pmid": "22388286",
+            "pmcid": "PMC3322381",
+            "xmlid": "CIT0057"
+        }
+    ],
+    "localid": "MED-30663495",
+    "doi": "10.1080/19491034.2019.1570810",
+    "pmid": "10.1080/19491034.2019.1570810",
+    "pmcid": "30663495",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30663495/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),163,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),163,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),170,168)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),170,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),330,7)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),170,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),330,7)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),170,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),330,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),339,145)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,211)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,211)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),206,5)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,211)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),206,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),213,211)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),213,211)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),425,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),562,118)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),673,6)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),562,118)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),673,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),681,138)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),811,7)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "",
+                "pl_string": "[12–16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),811,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),681,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "",
+                "pl_string": "[12–16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),811,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),681,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "[12–16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),811,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),681,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),681,138)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),811,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),820,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15,18–20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),68,13)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15,18–20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),68,13)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15,18–20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),68,13)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15,18–20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),68,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),139,216)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),216,7)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),139,216)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),216,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),139,216)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),347,7)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),139,216)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),347,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),144,94)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ],
+                "pl_string": "[4,23]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),231,6)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),144,94)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ],
+                "pl_string": "[4,23]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),231,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),239,110)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]/fig/caption/p),252,70)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,253)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),255,137)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),393,156)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),550,147)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ],
+                "pl_string": "[1,2,23,25]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),685,11)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),550,147)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ],
+                "pl_string": "[1,2,23,25]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),685,11)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),550,147)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ],
+                "pl_string": "[1,2,23,25]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),685,11)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),550,147)",
+                "containers_title": [
+                    "Results",
+                    "CsA elicits pre-lamin A accumulation"
+                ],
+                "pl_string": "[1,2,23,25]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),685,11)"
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1146,126)",
+                "containers_title": [
+                    "Results",
+                    "Gene expression changes associated with LAD dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),239,184)",
+                "containers_title": [
+                    "Results",
+                    "Prediction of radial repositioning of loci by CsA"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),415,7)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),239,184)",
+                "containers_title": [
+                    "Results",
+                    "Prediction of radial repositioning of loci by CsA"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),415,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[2]),219,262)",
+                "containers_title": [
+                    "Results",
+                    "FISH analysis validates predictions on locus repositioning from 3D models"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),316,227)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,176)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),178,152)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),331,94)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),426,164)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),185,243)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),758,119)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),795,10)"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),758,119)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),795,10)"
+            },
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),758,119)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),795,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),758,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,15,18,35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),944,16)"
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,15,18,35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),944,16)"
+            },
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,15,18,35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),944,16)"
+            },
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,15,18,35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),944,16)"
+            },
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[13,15,18,35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),944,16)"
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),878,219)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,154)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[21,22,38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),72,10)"
+            },
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,154)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[21,22,38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),72,10)"
+            },
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,154)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[21,22,38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),72,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),156,195)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),1,92)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),102,166)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),102,166)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[39,40]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[7]),155,7)"
+            },
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),102,166)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[39,40]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[7]),155,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),102,166)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),269,276)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),546,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),690,118)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),809,262)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),809,262)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,35,36,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[7]),966,13)"
+            },
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),809,262)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,35,36,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[7]),966,13)"
+            },
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),809,262)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,35,36,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[7]),966,13)"
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),809,262)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[27,35,36,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[7]),966,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),809,262)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),1,178)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Plasmids and transfections"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p),157,370)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Immunoblotting"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p[1]),1,32)",
+                "containers_title": [
+                    "Materials and methods",
+                    "FISH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p[2]),213,157)",
+                "containers_title": [
+                    "Materials and methods",
+                    "FISH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[6]/p),1,39)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Immuno-FISH"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[7]/p),1,32)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-sequencing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),94,176)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-seq data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),444,108)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-seq data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),1414,100)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-seq data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),1414,100)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-seq data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),1515,80)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-seq data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/sec[8]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[8]/p),1515,80)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ChIP-seq data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[4]/sec[9]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[1]/p),73,106)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D genome modeling using chrom3D",
+                    "Hi-C data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[4]/sec[9]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[1]/p),73,106)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D genome modeling using chrom3D",
+                    "Hi-C data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[4]/sec[9]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[1]/p),397,70)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D genome modeling using chrom3D",
+                    "Hi-C data processing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[9]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[2]/p),1,93)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D genome modeling using chrom3D",
+                    "3D models"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[2]/p),86,7)"
+            },
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[9]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[2]/p),1,93)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D genome modeling using chrom3D",
+                    "3D models"
+                ],
+                "pl_string": "[27,28]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[2]/p),86,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[4]/sec[9]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[9]/sec[2]/p),95,178)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D genome modeling using chrom3D",
+                    "3D models"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/sec[10]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[10]/p),145,46)",
+                "containers_title": [
+                    "Materials and methods",
+                    "RNA-seq and gene expression analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[4]/sec[10]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[10]/p),192,174)",
+                "containers_title": [
+                    "Materials and methods",
+                    "RNA-seq and gene expression analysis"
+                ],
+                "pl_string": "[56,57]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[10]/p),358,7)"
+            },
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[4]/sec[10]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[10]/p),192,174)",
+                "containers_title": [
+                    "Materials and methods",
+                    "RNA-seq and gene expression analysis"
+                ],
+                "pl_string": "[56,57]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[10]/p),358,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/sec[10]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[10]/p),367,130)",
+                "containers_title": [
+                    "Materials and methods",
+                    "RNA-seq and gene expression analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[5]/sec/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[5]/sec/p),144,68)",
+                "containers_title": [
+                    "Statistical analyses",
+                    "Data access"
+                ]
+            }
+        ]
+    ]
+}

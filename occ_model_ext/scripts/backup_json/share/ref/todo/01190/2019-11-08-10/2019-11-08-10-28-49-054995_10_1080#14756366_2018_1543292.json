@@ -1,0 +1,611 @@
+{
+    "references": [
+        {
+            "bibentry": "a) Supuran, CT. Carbonic anhydrases: novel therapeutic applications for inhibitors and activators. Nat Rev Drug Discov 2008; 7: 168–81. b), Supuran, CT. How many carbonic anhydrase inhibition mechanisms exist? J Enzyme Inhib Med Chem 2016; 31: 345–60.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "a) Supuran, CT, Alterio, V, Di Fiore, A, et al. Inhibition of carbonic anhydrase IX targets primary tumors, metastases, and cancer stem cells: three for the price of one. Med Res Rev 2018; 38: 1799–836. b), Neri, D, Supuran, CT. Interfering with pH regulation in tumours as a therapeutic strategy. Nat Rev Drug Discov 2011; 10: 767–77.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "a) Temperini, C, Scozzafava, A, Supuran, CT. Carbonic anhydrase activation and the drug design. Curr Pharm Des 2008; 14: 708–15. b), Supuran, CT. Carbonic anhydrases and metabolism. Metabolites 2018; 8: 25.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrase activators. Future Med Chem 2018; 10: 561–73. PMID: 29478330",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2017-0223",
+            "pmid": "29478330",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Briganti, F, Mangani, S, Orioli, P, et al. Carbonic anhydrase activators: X-ray crystallographic and spectroscopic investigations for the interaction of isozymes I and II with histamine. Biochemistry 1997; 36: 10384–92. PMID: 9265618",
+            "process_entry": "True",
+            "doi": "10.1021/bi970760v",
+            "pmid": "9265618",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Akocak, S, Lolak, N, Vullo, D, et al. Synthesis and biological evaluation of histamine Schiff bases as carbonic anhydrase I, II, IV, VII, and IX activators. J Enzyme Inhib Med Chem 2017; 32: 1305–12. PMID: 29072105",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2017.1386660",
+            "pmid": "29072105",
+            "pmcid": "PMC6010137",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Saada, MC, Vullo, D, Montero, JL, et al. Mono-and di-halogenated histamine, histidine and carnosine derivatives are potent carbonic anhydrase I, II, VII, XII and XIV activators. Bioorg Med Chem 2014; 22: 4752–8. PMID: 25082511",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2014.07.005",
+            "pmid": "25082511",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "a) Draghici, B, Vullo, D, Akocak, S, et al. Ethylene bis-imidazoles are highly potent and selective activators for isozymes VA and VII of carbonic anhydrase, with a potential nootropic effect. Chem Commun (Camb) 2014; 50: 5980–3. b), Angeli, A, Chiaramonte, N, Manetti, D, et al. Investigation of piperazines as human carbonic anhydrase I, II, IV and VII activators. J Enzyme Inhib Med Chem 2018; 33: 303–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "a) Supuran, CT. Applications of carbonic anhydrases inhibitors in renal and central nervous system diseases. Expert Opin Ther Pat 2018; 28: 713–21. b), Canto de Souza, L, Provensi, G, Vullo, D, et al. Carbonic anhydrase activation enhances object recognition memory in mice through phosphorylation of the extracellular signal-regulated kinase in the cortex and the hippocampus. Neuropharmacology 2017; 118: 148–56.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Mollica, A, Macedonio, G, Stefanucci, A, et al. Five-and six-membered nitrogen-containing compounds as selective carbonic anhydrase activators. Molecules 2017; 22: 2178.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Maccallini, C, Di Matteo, M, Vullo, D, et al. Indazole, pyrazole, and oxazole derivatives targeting nitric oxide synthases and carbonic anhydrases. Chem Med Chem 2016; 11: 1695–9. PMID: 27377568",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201600204",
+            "pmid": "27377568",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Le Duc, Y, Licsandru, E, Vullo, D, et al. Carbonic anhydrases activation with 3-amino-1H-1,2,4-triazole-1-carboxamides: Discovery of subnanomolar isoform II activators. Bioorg Med Chem 2017; 25: 1681–6. PMID: 28161251",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2017.01.031",
+            "pmid": "28161251",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Chhabria, MT, Patel, S, Modi, P, Brahmkshatriya, PS. Thiazole: a review on chemistry, synthesis and therapeutic importance of its derivatives. Curr Top Med Chem 2016; 16: 2841–62. PMID: 27150376",
+            "process_entry": "True",
+            "doi": "10.2174/1568026616666160506130731",
+            "pmid": "27150376",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Scozzafava, A, Saramet, I, Banciu, MD, et al. Carbonic anhydrase activity modulators: synthesis of inhibitors and activators incorporating 2-substituted-thiazol-4-yl-methyl scaffolds. J Enzyme Inhib 2001; 16: 351–8. PMID: 11916140",
+            "process_entry": "True",
+            "doi": "10.1080/14756360109162383",
+            "pmid": "11916140",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Khalifah, RG. The carbon dioxide hydration activity of car-bonic anhydrase. I. Stop-flow kinetic studies on the native human isoenzymes B and C. J Biol Chem 1971; 246: 2561–73. PMID: 4994926",
+            "process_entry": "True",
+            "pmid": "4994926",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Supuran, CT, Barboiu, M, Luca, C, et al. Carbonic anhydrase activators. Part 14. Synthesis of mono-and bis-pyridinium salt derivatives of 2-amino-5-(2-aminoethyl)-and 2-amino-5-(3-aminopropyl)-1,3,4-thiadiazole, and their interaction with isozyme II. Eur J Med Chem 1996; 31: 597–606.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Ilies, MA, Banciu, MD, Ilies, M, et al. Carbonic anhydrase activators. Part 17. Synthesis and activation study of a series of 1-(1,2,4-triazole-(1H)-3-yl)-2,4,6-trisubstituted-pyridinium salts against isozymes I, II, and IV. Eur J Med Chem 1997; 32: 911–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "a) Licsandru, E, Tanc, M, Kocsis, I, et al. A class of carbonic anhydrase I –Selective activators. J Enzyme Inhib Med Chem 2017; 32: 37–46. b), Angeli, A, Vaiano, F, Mari, F, et al. Psychoactive substances belonging to the amphetamine class potently activate brain carbonic anhydrase isoforms VA, VB, VII, and XII. J Enzyme Inhib Med Chem 2017; 32: 1253–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "a) Stefanucci, A, Angeli, A, Dimmito, MP, et al. Activation of β-and γ-carbonic anhydrases from pathogenic bacteria with tripeptides. J Enzyme Inhib Med Chem 2018; 33: 945–50. b), Angeli, A, Kuuslahti, M, Parkkila, S, Supuran, CT. Activation studies with amines and amino acids of the α-carbonic anhydrase from the pathogenic protozoan Trypanosoma cruzi. Bioorg Med Chem 2018; 26: 4187–90.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "a) Angeli, A, Buonanno, M, Donald, WA, et al. The zinc –but not cadmium –containing ζ-carbonic from the diatom Thalassiosira weissflogii is potently activated by amines and amino acids. Bioorg Chem 2018; 80: 261–5. b), Angeli, A, Del Prete, S, Alasmary, FAS, et al. The first activation studies of the η-carbonic anhydrase from the malaria parasite Plasmodium falciparum with amines and amino acids. Bioorg Chem 2018; 80: 94–8. c), Angeli, A, Donald, WA, Parkkila, S, Supuran, CT. Activation studies with amines and amino acids of the β-carbonic anhydrase from the pathogenic protozoan Leishmania donovani chagasi. Bioorg Chem 2018; 78: 406–10. d), Angeli, A, Alasmary, FAS, Del Prete, S, et al. The first activation study of a δ-carbonic anhydrase: TweCAδ from the diatom Thalassiosira weissflogii is effectively activated by amines and amino acids. J Enzyme Inhib Med Chem 2018; 33: 680–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "a) Vullo, D, De Luca, V, Scozzafava, A, et al. The first activation study of a bacterial carbonic anhydrase (CA). The thermostable α-CA from Sulfurihydrogenibium yellowstonense YO3AOP1 is highly activated by amino acids and amines. Bioorg Med Chem Lett 2012; 22: 6324–7. b), Innocenti, A, Zimmerman, SA, Scozzafava, A, et al. Carbonic anhydrase activators: activation of the archaeal beta-class (Cab) and gamma-class (Cam) carbonic anhydrases with amino acids and amines. Bioorg Med Chem Lett 2008; 18: 6194–8. c), Vullo, D, Del Prete, S, Osman, SM, et al. Comparison of the amine/amino acid activation profiles of the β-and γ-carbonic anhydrases from the pathogenic bacterium Burkholderia pseudomallei. J Enzyme Inhib Med Chem 2018; 33: 25–30. d), Vullo, D, Del Prete, S, Osman, SM, et al. Burkholderia pseudomallei γ-carbonic anhydrase is strongly activated by amino acids and amines. Bioorg Med Chem Lett 2017; 27: 77–80. e), Borras, J, Scozzafava, A, Menabuoni, L, et al. Carbonic anhydrase inhibitors: synthesis of water-soluble, topically effective intraocular pressure lowering aromatic/heterocyclic sulfonamides containing 8-quinoline-sulfonyl moieties: is the tail more important than the ring? Bioorg Med Chem 1999; 7: 2397–406.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "a) Krall, N, Pretto, F, Decurtins, W, et al. A small-molecule drug conjugate for the treatment of carbonic anhydrase IX expressing tumors. Angew Chem Int Ed Engl 2014; 53: 4231–5. b), Rehman, SU, Chohan, ZH, Gulnaz, F, Supuran, CT. In-vitro antibacterial, antifungal and cytotoxic activities of some coumarins and their metal complexes. J Enzyme Inhib Med Chem 2005; 20: 333–40. c), Clare, BW, Supuran, CT. Carbonic anhydrase activators. 3: Structure‐activity correlations for a series of isozyme II activators. J Pharm Sci 1994; 83: 768–73. d), Dubois, L, Peeters, S, Lieuwes, NG, et al. Specific inhibition of carbonic anhydrase IX activity enhances the in vivo therapeutic effect of tumor irradiation. Radiother Oncol 2011; 99: 424–31. e), Chohan, ZH, Munawar, A, Supuran, CT. Transition metal ion complexes of Schiff-bases. Synthesis, characterization and antibacterial properties. Met Based Drugs 2001; 8: 137–43. f), Zimmerman, SA, Ferry, JG, Supuran, CT. Inhibition of the archaeal β-class (Cab) and γ-class (Cam) carbonic anhydrases. Curr Top Med Chem 2007; 7: 901–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "a) Supuran, CT, Nicolae, A, Popescu, A. Carbonic anhydrase inhibitors. Part 35. Synthesis of Schiff bases derived from sulfanilamide and aromatic aldehydes: the first inhibitors with equally high affinity towards cytosolic and membrane-bound isozymes. Eur J Med Chem 1996; 31: 431–8. b), Pacchiano, F, Aggarwal, M, Avvaru, BS, et al. Selective hydrophobic pocket binding observed within the carbonic anhydrase II active site accommodate different 4-substituted-ureido-benzenesulfonamides and correlate to inhibitor potency. Chem Commun (Camb) 2010; 46: 8371–3. c), Ozensoy Guler, O, Capasso, C, Supuran, CT. A magnificent enzyme superfamily: carbonic anhydrases, their purification and characterization. J Enzyme Inhib Med Chem 2016; 31: 689–94. d), De Simone, G, Langella, E, Esposito, D, et al. Insights into the binding mode of sulfamates and sulfamides to hCA II: crystallographic studies and binding free energy calculations. J Enzyme Inhib Med Chem 2017; 32: 1002–11.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        }
+    ],
+    "localid": "MED-30734616",
+    "doi": "10.1080/14756366.2018.1543292",
+    "pmid": "10.1080/14756366.2018.1543292",
+    "pmcid": "30734616",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30734616/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),370,295)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),370,295)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),246,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),246,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),606,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),606,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),129,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),129,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),129,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),129,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),129,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),262,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),262,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),262,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),262,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),262,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "One of the main drawback with the activator of amine and amino-acid types is their lack of selectivity for various CA isoforms. Based on this fact, derivatized histamine6,7, substituted histidine6,7 and bis-imidazoles compounds8 were reported as CA activators. Heterocyclic scaffolds were also studied such as piperazine9, diketopiperazine10, indazole, pyrazole, oxazole11, triazole12 and thiadiazole13, leading to active carbonic anhydrase activators with enhanced selectivity. The thiazole scaffold is a privileged one in drug discovery, but very few CA activators incorporating this heterocyclic scaffold were reported so far. In 2001, thiazole activators compounds 1, 2 and 3 depicted in Figure 1 were reported as micromolar CA activators against hCA I and hCA II, whereas compounds 4, 5 and 6 were found to be inactive14.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),631,196)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/fig/caption/p),1,42)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[3]/p),1,541)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-{2-[4–(3-Chloro-phenyl)-thiazol-2-yl]-ethyl}-nicotinamide (10a)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[4]/p),1,393)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-{2-[4–(3-Chloro-phenyl)-thiazol-2-yl]-ethyl}-isonicotinamide (10b)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[5]/p),1,430)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-{2-[4–(3-Chloro-phenyl)-thiazol-2-yl]-ethyl}-2-pyridin-4-yl-acetamide (10c)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[6]/p),42,482)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[(4–(2-Chloro-phenyl)-thiazol-2-yl)methyl]-isonicotinamide (13a)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[7]/p),1,550)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[(4–(4-Chloro-phenyl)-thiazol-2-yl)methyl]-nicotinamide (13b)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[8]/p),1,617)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[(4–(3-Chloro-phenyl)-thiazol-2-yl)methyl]-nicotinamide (13c)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[9]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[9]/p),1,521)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[(4–(3-Chloro-phenyl)-thiazol-2-yl)methyl]-isonicotinamide (13d)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[10]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[10]/p),1,565)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[(4–(2-Methoxy-phenyl)-thiazol-2-yl)methyl]-isonicotinamide (13e)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[11]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[11]/p),1,618)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[(4–(2-Methoxy-phenyl)-thiazol-2-yl)methyl]-3-pyridin-3-yl-propionamide (13f)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[12]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[12]/p),1,597)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-(3-Methoxy-benzyl)-2–(2-pyridin-3-yl-thiazol-4-yl)-acetamide (16a)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[13]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[13]/p),1,465)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "N-[2-Pyridin-3-yl)ethyl)-2–(2-(pyridin-3-yl)thiazol-4-yl]acetamide (16b)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1,380)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Carbonic anhydrase assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),479,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Carbonic anhydrase assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0016",
+                "rp_string": "16–23",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),479,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Carbonic anhydrase assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),1,186)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/list/list-item[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]/list/list-item[1]/p),581,104)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CA activation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/list/list-item[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]/list/list-item[2]/p),1,191)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CA activation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/list/list-item[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]/list/list-item[2]/p),1,191)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CA activation"
+                ]
+            }
+        ]
+    ]
+}

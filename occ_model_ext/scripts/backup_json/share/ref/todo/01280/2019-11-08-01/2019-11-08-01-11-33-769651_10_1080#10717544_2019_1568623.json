@@ -1,0 +1,642 @@
+{
+    "references": [
+        {
+            "bibentry": "Arima, H, Motoyama, K, Higashi, T (2017). Potential use of cyclodextrins as drug carriers and active pharmaceutical ingredients. Chem Pharm Bull 65: 341. PMID: 28381674",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.c16-00779",
+            "pmid": "28381674",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bulani, VD, Kothavade, PS, Kundaikar, HS, et al. (2016). Inclusion complex of ellagic acid with β-cyclodextrin: characterization and in vitro anti-inflammatory evaluation. J Mol Struct 1105: 308–15.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Chen, W, Zheng, R, Baade, PD, et al. (2016). Cancer statistics in China, 2015. Ca Cancer J Clin 66: 115–32. PMID: 26808342",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21338",
+            "pmid": "26808342",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Desantis, CE, Fedewa, SA, Goding, SA, et al. (2016). Breast cancer statistics, 2015: convergence of incidence rates between black and white women. Ca Cancer J Clin 66: 31–42. PMID: 26513636",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21320",
+            "pmid": "26513636",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Eid, EEM, Abdul, AB, Suliman, FEO, et al. (2011). Characterization of the inclusion complex of zerumbone with hydroxypropyl-β-cyclodextrin. Carbohyd Polym 83: 1707–14.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Gao, W, Zhang, J, Yang, H, et al. (2011). Glaucocalyxin A induces apoptosis in human leukemia HL-60 cells through mitochondria-mediated death pathway. Toxicol in Vitro 25: 51–63. PMID: 20851175",
+            "process_entry": "True",
+            "doi": "10.1016/j.tiv.2010.09.006",
+            "pmid": "20851175",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hafner, V, Czock, D, Burhenne, J, et al. (2010). Pharmacokinetics of sulfobutylether-beta-cyclodextrin and voriconazole in patients with end-stage renal failure during treatment with two hemodialysis systems and hemodiafiltration. Antimicrob Agents Ch 54: 2596.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Hu, L, Zhang, H, Song, W, et al. (2012). Investigation of inclusion complex of cilnidipine with hydroxypropyl-β-cyclodextrin. Carbohydr Polym 90: 1719–24. PMID: 22944438",
+            "process_entry": "True",
+            "doi": "10.1016/j.carbpol.2012.07.057",
+            "pmid": "22944438",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Kadari, A, Gudem, S, Kulhari, H, et al. (2017). Enhanced oral bioavailability and anticancer efficacy of fisetin by encapsulating as inclusion complex with HPβCD in polymeric nanoparticles. Drug Deliv 24: 224. PMID: 28156161",
+            "process_entry": "True",
+            "doi": "10.1080/10717544.2016.1245366",
+            "pmid": "28156161",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Kulkarni, AD, Belgamwar, VS (2017). Inclusion complex of chrysin with sulfobutyl ether-β-cyclodextrin (Captisol®;): preparation, characterization, molecular modelling and in vitro anticancer activity. J Mol Struct 1128: 563–71.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Li, B, Chen, S, Shi, Z, Chen, Y (2000). Jaridonin, a novel ent-Kaurene diterpenoids from Isodon rubescens, inducing apoptosis via production of reactive oxygen species esophageal cancer cells. Phytochemistry 53: 855–9. PMID: 10820792",
+            "process_entry": "True",
+            "doi": "10.1016/s0031-9422(99)00578-6",
+            "pmid": "10820792",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Liu, G, Ding, L, Yang, Y, et al. (2006). Anti-oxidative action of ent-kaurene diterpenoids. Res Chem Intermed 32: 787–94.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Loh, G, Tan, Y, Peh, K (2016). Enhancement of norfloxacin solubility via inclusion complexation with β-cyclodextrin and its derivative hydroxypropyl-β-cyclodextrin. Asian J Pharm Sci 11: 536–46.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Luke, DR, Konrad, T, Bharat, D, Schlamm, HT (2010). Review of the basic and clinical pharmacology of sulfobutylether-beta-cyclodextrin (SBECD). J Pharm Sci 99: 3291–301. PMID: 20213839",
+            "process_entry": "True",
+            "doi": "10.1002/jps.22109",
+            "pmid": "20213839",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Nair, AB, Attimarad, M, Al-Dhubiab, BE, et al. (2014). Enhanced oral bioavailability of acyclovir by inclusion complex using hydroxypropyl-β-cyclodextrin. Drug Deliv 21: 540–7. PMID: 24215288",
+            "process_entry": "True",
+            "doi": "10.3109/10717544.2013.853213",
+            "pmid": "24215288",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Pan, H, Wang, HB, Yu, YB, et al. (2017). Original research paper. A superior preparation method for daidzein-hydroxypropyl-β-cyclodextrin complexes with improved solubility and dissolution: supercritical fluid process. Acta Pharmaceut 67: 85.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Ren, L, Ma, B, Chen, G, et al. (2013). Quantitative determination of glaucocalyxin A in rat plasma by LC-MS/MS: application to a preclinical pharmacokinetic study. Anal Methods 5: 4890–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Shang, X, Ma, S, Wu, J, Bai, S (2011). Preparation of glaucocalyxin A-hydroxypropy-β-cyclodextrin inclusion complex. Chinese J New Drugs 20: 1243–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Sivakumar, K, Parinamachivayam, G, Krishnan, MM, et al. (2018). Preparation, characterization and molecular modeling studies of the beta-cyclodextrin inclusion complex with benzoguanamine and its analytical application as chemosensor for the selective sensing of Ce 4+. Spectrochim Acta A 200: 212–25.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Tang, L, Jin, X, Hu, X, et al. (2016). Glaucocalyxin A inhibits the growth of liver cancer focus and SMMC-7721 cells. Oncol Lett 11: 1173–8. PMID: 26893714",
+            "process_entry": "True",
+            "doi": "10.3892/ol.2015.4002",
+            "pmid": "26893714",
+            "pmcid": "PMC4733948",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Uchida, R, Iwamoto, K, Nagayama, S, et al. (2015). Effect of γ-cyclodextrin inclusion complex on the absorption of R-α-lipoic acid in rats. Int J Mol Sci 16: 10105–20. PMID: 25946345",
+            "process_entry": "True",
+            "doi": "10.3390/ijms160510105",
+            "pmid": "25946345",
+            "pmcid": "PMC4463635",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Wang, H, Xie, X, Zhang, F, et al. (2011). Evaluation of cholesterol depletion as a marker of nephrotoxicity in vitro for novel β-cyclodextrin derivatives. Food Chem Toxicol 49: 1387–93. PMID: 21426923",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2011.03.026",
+            "pmid": "21426923",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Zhang, D, Li, Z, Shi, L, et al. (2008). Advances in research on cytotoxinic activity of ent-kaurane diterpenoids. Chinese J Org Chem 28: 1911–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Zhang, Q, Polyakov, NE, Chistyachenko, YS, et al. (2018). Preparation of curcumin self-micelle solid dispersion with enhanced bioavailability and cytotoxic activity by mechanochemistry. Drug Deliv 25: 198–209. PMID: 29302995",
+            "process_entry": "True",
+            "doi": "10.1080/10717544.2017.1422298",
+            "pmid": "29302995",
+            "pmcid": "PMC6058497",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Zhang, C, Qu, Y, Jia, Y, et al. (2015). Preparation and antitumor effects of glaucocalyxin A-γ-cyclodextrin clathrate. Int J Clin Exp Med 8: 14388. PMID: 26550426",
+            "process_entry": "True",
+            "pmid": "26550426",
+            "pmcid": "PMC4613111",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Zhang, Y, Sha, D, Sha, M, Yuan, C (1991). Determination of glaucocalyxin A in the leaves of Plectranthus japonicus (Burm.) Koidz. var. glaucocalyx (Maxim.) Koidz. by HPLC. China J Chinese Materia Medica 16: 679.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Zhu, J, Sun, Y, Lu, Y, et al. (2018). Glaucocalyxin A exerts anticancer effect on osteosarcoma by inhibiting GLI1 nuclear translocation via regulating PI3K/Akt pathway. Cell Death Dis 9: 708. PMID: 29899333",
+            "process_entry": "True",
+            "doi": "10.1038/s41419-018-0684-9",
+            "pmid": "29899333",
+            "pmcid": "PMC5999605",
+            "xmlid": "CIT0027"
+        }
+    ],
+    "localid": "MED-30896265",
+    "doi": "10.1080/10717544.2019.1568623",
+    "pmid": "10.1080/10717544.2019.1568623",
+    "pmcid": "30896265",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30896265/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0026",
+                "rp_string": "1991",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al.,1991; Li et al., 2000)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),181,36)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0011",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al., 1991; Li et al.,2000)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),181,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0011",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),220,276)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0026",
+                "rp_string": "1991",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),220,276)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al.,1991; Liu et al., 2006)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),457,37)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0012",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),220,276)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al., 1991; Liu et al.,2006)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),457,37)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0023",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),497,138)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al.,2008; Gao et al., 2011; Tang et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),560,56)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),497,138)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al., 2008; Gao et al.,2011; Tang et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),560,56)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0020",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),497,138)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al., 2008; Gao et al., 2011; Tang et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),560,56)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0027",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),636,296)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0022",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1085,225)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0001",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),123,155)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Arima et al.,2017; Sivakumar et al., 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),233,43)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0019",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),123,155)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Arima et al., 2017; Sivakumar et al.,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),233,43)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0014",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Luke et al.,2010; Hafner et al., 2010; Wang et al., 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),588,58)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0007",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Luke et al., 2010; Hafner et al.,2010; Wang et al., 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),588,58)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0022",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Luke et al., 2010; Hafner et al., 2010; Wang et al.,2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),588,58)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0005",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),649,201)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Eid et al.,2011; Hu et al., 2012; Kadari et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),793,55)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0008",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),649,201)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Eid et al., 2011; Hu et al.,2012; Kadari et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),793,55)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0009",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),649,201)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Eid et al., 2011; Hu et al., 2012; Kadari et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),793,55)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0018",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1396,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0003",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),167,170)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al.,2016; Desantis et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),239,41)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0004",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),167,170)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al., 2016; Desantis et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),239,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0025",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),549,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0024",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p),382,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Materials",
+                    "Cell lines and cell culture"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0026",
+                "rp_string": "1991",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[3]/p),397,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Materials",
+                    "Chromatographic conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0008",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),553,196)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation and solubility studies of the inclusion compound",
+                    "Preparation of GLA-SBE-β-CD inclusion complex"
+                ],
+                "pl_string": "(Hu et al.,2012; Kulkarni & Belgamwar, 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),703,44)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0010",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),553,196)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation and solubility studies of the inclusion compound",
+                    "Preparation of GLA-SBE-β-CD inclusion complex"
+                ],
+                "pl_string": "(Hu et al., 2012; Kulkarni & Belgamwar,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),703,44)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0015",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p),1,307)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation and solubility studies of the inclusion compound",
+                    "Investigation of solubilization effect of GLA-SBE-β-CD"
+                ],
+                "pl_string": "(Nair et al.,2014; Loh et al., 2016; Pan et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p),252,54)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0013",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p),1,307)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation and solubility studies of the inclusion compound",
+                    "Investigation of solubilization effect of GLA-SBE-β-CD"
+                ],
+                "pl_string": "(Nair et al., 2014; Loh et al.,2016; Pan et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p),252,54)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0016",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p),1,307)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation and solubility studies of the inclusion compound",
+                    "Investigation of solubilization effect of GLA-SBE-β-CD"
+                ],
+                "pl_string": "(Nair et al., 2014; Loh et al., 2016; Pan et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p),252,54)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0002",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,140)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Characterization"
+                ],
+                "pl_string": "(Bulani et al.,2016; Kulkarni & Belgamwar, 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),91,48)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0010",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,140)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Characterization"
+                ],
+                "pl_string": "(Bulani et al., 2016; Kulkarni & Belgamwar,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),91,48)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0017",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p[1]),1,133)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Pharmacokinetic study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0025",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p[3]),758,238)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Inhibition of GLA and its inclusion complex on the growth of S180 tumor in tumor-bearing nude mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0025",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p[3]),1144,241)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Inhibition of GLA and its inclusion complex on the growth of S180 tumor in tumor-bearing nude mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0021",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p[1]),1,140)",
+                "containers_title": [
+                    "Characterization",
+                    "Pharmacokinetic study"
+                ]
+            }
+        ]
+    ]
+}

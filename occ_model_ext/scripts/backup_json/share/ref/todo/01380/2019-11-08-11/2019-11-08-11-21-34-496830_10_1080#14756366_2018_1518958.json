@@ -1,0 +1,846 @@
+{
+    "references": [
+        {
+            "bibentry": "Kabeya, LM, de Marchi, AA, Kanashiro, A, et al. Inhibition of horseradish peroxidase catalytic activity by new 3-phenylcoumarin derivatives: synthesis and structure-activity relationships. Bioorg Med Chem. 2007; 15: 1516–24. PMID: 17112729",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2006.10.068",
+            "pmid": "17112729",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Wang, B, Li, N, Liu, T, et al. Synthesis and biological evaluation of novel neoflavonoid derivatives as potential antidiabetic agents. RSC Adv. 2017; 7: 34448–60.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Keresztury, G, Holly, S, Komlósi, V, et al. Analysis of the vibrational spectra of new OH-containing E-4-arylmethylene-3-isochromanones and 3-arylcoumarins. J Biochem Biophys Methods. 2006; 69: 163–77. PMID: 16624418",
+            "process_entry": "True",
+            "doi": "10.1016/j.jbbm.2006.03.004",
+            "pmid": "16624418",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Zhao, H, Yan, B, Peterson, LB, et al. 3-Arylcoumarin derivatives manifest anti-proliferative activity through Hsp90 inhibition. ACS Med Chem Lett. 2012; 3: 327–31. PMID: 23316269",
+            "process_entry": "True",
+            "doi": "10.1021/ml300018e",
+            "pmid": "23316269",
+            "pmcid": "PMC3539803",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Billard, C, Menasria, F, Quiney, C, et al. 4-Arylcoumarin analogues of combretastatins stimulate apoptosis of leukemic cells from chronic lymphocytic leukemia patients. Exp Hematol. 2008; 36: 1625–33. PMID: 18922614",
+            "process_entry": "True",
+            "doi": "10.1016/j.exphem.2008.07.008",
+            "pmid": "18922614",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "de Souza Santos, M, Freire de Morais Del Lama, MP, Deliberto, LA, et al. In situ screening of 3-arylcoumarin derivatives reveals new inhibitors of mast cell degranulation. Arch Pharm Res. 2013; 36: 731–8. PMID: 23519647",
+            "process_entry": "True",
+            "doi": "10.1007/s12272-013-0084-8",
+            "pmid": "23519647",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Matos, MJ, Hogger, V, Gaspar, A, et al. Synthesis and adenosine receptors binding affinities of a series of 3-arylcoumarins. J Pharm Pharmacol. 2013; 65: 1590–7. PMID: 24118065",
+            "process_entry": "True",
+            "doi": "10.1111/jphp.12135",
+            "pmid": "24118065",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Limper, C, Wang, Y, Ruhl, S, et al. Compounds isolated from Psoralea corylifolia seeds inhibit protein kinase activity and induce apoptotic cell death in mammalian cells. J Pharm Pharmacol. 2013; 65: 1393–408. PMID: 23927478",
+            "process_entry": "True",
+            "doi": "10.1111/jphp.12107",
+            "pmid": "23927478",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Yu, K, Fu, YJ, Zu, YG, et al. Cajanuslactone, a new coumarin with anti-bacterial activity from pigeon pea [Cajanus cajan (L.) Millsp.] leaves. Food Chem. 2010; 121: 1150–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "ElSeedi, HR. Antimicrobial arylcoumarins from Asphodelus microcarpus. J Nat Prod. 2007; 70: 118–20. PMID: 17253862",
+            "process_entry": "True",
+            "doi": "10.1021/np060444u",
+            "pmid": "17253862",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Canning, C, Sun, S, Ji, X, et al. Antibacterial and cytotoxic activity of isoprenylated coumarin mammea A/AA isolated from Mammea africana. J Ethnopharmacol. 2013; 147: 259–62. PMID: 23466248",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2013.02.026",
+            "pmid": "23466248",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Kirkiacharian, S, Lormier, AT, Chidiack, H, et al. Synthesis and binding affinity to human alpha and beta estrogen receptors of various 7-hydroxycoumarins substituted at 4-and 3,4-positions. IL Farmaco. 2005; 36: 981–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Matos, MJ, Vilar, S, García-Morales, V, et al. Insight into the functional and structural properties of 3-arylcoumarin as an interesting scaffold in monoamine oxidase B inhibition. ChemMedChem. 2014; 9: 1488–500. PMID: 24715707",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201300533",
+            "pmid": "24715707",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Ferino, G, Cadoni, E, Matos, MJ, et al. MAO inhibitory activity of 2-arylbenzofurans versus 3-arylcoumarins: synthesis, in vitro study, and docking calculations. ChemMedChem. 2013; 8: 956–66. PMID: 23589499",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201300048",
+            "pmid": "23589499",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Xiao, CF, Tao, LY, Sun, HY, et al. Design, synthesis and antitumor activity of a series of novel coumarin-stilbenes hybrids, the 3-arylcoumarins. Chin Chem Lett. 2010; 21: 1295–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kalaiselvan, V, Kalaivani, M, Vijayakumar, A, et al. Current knowledge and future direction of research on soy isoflavones as a therapeutic agents. Pharmacogn Rev. 2010; 4: 111–7. PMID: 22228950",
+            "process_entry": "True",
+            "doi": "10.4103/0973-7847.70900",
+            "pmid": "22228950",
+            "pmcid": "PMC3249910",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Norouzzadeh, M, Amiri, F, Saboor-Yaraghi, AA, et al. Does resveratrol improve insulin signalling in HepG2 cells. Can J Diabetes. 2017; 41: 211–6. PMID: 28024794",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcjd.2016.09.015",
+            "pmid": "28024794",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Sérée, E, Burcelin, R, Savouret, JF. Le resvératrol en complément thérapeutique: une piste pour la prévention du diabète de type 2. Médecine Des Maladies Métaboliques. 2009; 3: 486–90.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Emami, S, Ghanbarimasir, Z. Recent advances of chroman-4-one derivatives: synthetic approaches and bioactivities. Eur J Med Chem. 2015; 93: 539–63. PMID: 25743215",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2015.02.048",
+            "pmid": "25743215",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Reis, J, Gaspar, A, Milhazes, N, et al. Chromone as a privileged scaffold in drug discovery: recent advances. J Med Chem. 2017; 60: 7941–57. PMID: 28537720",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b01720",
+            "pmid": "28537720",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Mimaki, Y, Al, EAE. Phenolics with PPARǀLigand〣inding Activity Obtained from Licorice (Glycyrrhiza uralensis Roots) and Ameliorative Effects of Glycyrin on Genetically Diabetic KK〢 y Mice. Cheminform, 2004; 35(14): 4267–72.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Di, CML, Zanardelli, M, Bartolucci, G, et al. In vitro evidence for the use of astragali radix extracts as adjuvant against oxaliplatin-induced neurotoxicity. Planta Medica. 2015; 81: 1045–55. PMID: 26039263",
+            "process_entry": "True",
+            "doi": "10.1055/s-0035-1546117",
+            "pmid": "26039263",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Di, CML, Zanardelli, M, Failli, P, et al. Oxaliplatin-induced oxidative stress in nervous system-derived cellular models: could it correlate with in vivo neuropathy. Free Radic Biol Med. 2013; 61: 143–50. PMID: 23548635",
+            "process_entry": "True",
+            "doi": "10.1016/j.freeradbiomed.2013.03.019",
+            "pmid": "23548635",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Mannelli, LDC, Zanardelli, M, Landini, I, et al. Effect of the SOD mimetic MnL4 on in vitro and in vivo oxaliplatin toxicity: possible aid in chemotherapy induced neuropathy. Free Radic Biol Med. 2016; 93: 67–76. PMID: 26828020",
+            "process_entry": "True",
+            "doi": "10.1016/j.freeradbiomed.2016.01.023",
+            "pmid": "26828020",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Ramesh, B, Pugalendi, KV. Antioxidant role of Umbelliferone in STZ-diabetic rats. Life Sci. 2006; 79: 306–10. PMID: 16464472",
+            "process_entry": "True",
+            "doi": "10.1016/j.lfs.2006.01.005",
+            "pmid": "16464472",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Ramesh, B, Pugalendi, KV. Antihyperglycemic effect of umbelliferone in streptozotocin-diabetic rats. J Med Food. 2006; 9: 562–6. PMID: 17201645",
+            "process_entry": "True",
+            "doi": "10.1089/jmf.2006.9.562",
+            "pmid": "17201645",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Ramesh, B, Viswanathan, P, Pugalendi, KV. Protective effect of Umbelliferone on membranous fatty acid composition in streptozotocin-induced diabetic rats. Eur J Pharmacol. 2007; 566: 231–9. PMID: 17477917",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2007.03.045",
+            "pmid": "17477917",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Veselinović, JB, Veselinović, AM, Vitnik, ŽJ, et al. Antioxidant properties of selected 4-phenyl hydroxycoumarins: integrated in vitro and computational studies. Chem Biol Interact. 2014; 214: 49–56. PMID: 24602768",
+            "process_entry": "True",
+            "doi": "10.1016/j.cbi.2014.02.010",
+            "pmid": "24602768",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Ismaili, L, Nadaradjane, A, Nicod, L, et al. Synthesis and antioxidant activity evaluation of new hexahydropyrimido [5,4-c]quinoline-2,5-diones and 2-thioxohexahydropyrimido[5,4-c]quinoline-5-ones obtained by Biginelli reaction in two steps. Eur J Med Chem. 2008; 39: 1270–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Zhang, K, Ding, W, Jie, S, et al. Antioxidant and antitumor activities of 4-arylcoumarins and 4-aryl-3,4-dihydrocoumarins. Biochimie. 2014; 48: 16–22.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Mata, R, Cristians, S, Escandón-Rivera, S, et al. Mexican antidiabetic herbs: valuable sources of inhibitors of α-glucosidases. J Nat Prod. 2013; 76: 468–83. PMID: 23398496",
+            "process_entry": "True",
+            "doi": "10.1021/np300869g",
+            "pmid": "23398496",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Rivera-Chávez, J, Figueroa, M, González, MDC, et al. α-Glucosidase inhibitors from a xylaria feejeensis associated with Hintonia latiflora. J Nat Prod. 2015; 78: 730–6. PMID: 25706243",
+            "process_entry": "True",
+            "doi": "10.1021/np500897y",
+            "pmid": "25706243",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Liu, D, He, W, Wang, Z, et al. Design, synthesis and biological evaluation of 3′-benzylated analogs of 3′-epi-neoponkoranol as potent α-glucosidase inhibitors. Eur J Med Chem. 2016; 110: 224–36. PMID: 26840363",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.01.029",
+            "pmid": "26840363",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Ni, Z, Zhuge, Z, Li, W, et al. Inhibitory effects of hydroxysafflor yellow A on the formation of advanced glycation end products in vitro. Biol Pharm Bull. 2012; 35: 2050–3. PMID: 22971594",
+            "process_entry": "True",
+            "doi": "10.1248/bpb.b12-00249",
+            "pmid": "22971594",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Zou, XQ, Peng, SM, Hu, CP, et al. Synthesis, characterization and vasculoprotective effects of nitric oxide-donating derivatives of chrysin. Bioorg Med Chem. 2010; 18: 3020–5. PMID: 20395149",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2010.03.056",
+            "pmid": "20395149",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Déciga-Campos, M, Rivero-Cruz, I, Arriaga-Alba, M, et al. Acute toxicity and mutagenic activity of Mexican plants used in traditional medicine. J Ethnopharmacol. 2007; 110: 334–42. PMID: 17101253",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2006.10.001",
+            "pmid": "17101253",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Cristians, S, Bye, R, Navarrete, A, Mata, R. Gastroprotective effect of Hintonia latiflora, and Hintonia standleyana, aqueous extracts and compounds. J Ethnopharmacol. 2012; 145: 530–5. PMID: 23183088",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2012.11.025",
+            "pmid": "23183088",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Guerrero-Analco, J, Medina-Campos, O, Brindis, F, et al. Antidiabetic properties of selected Mexican copalchis of the Rubiaceae family. Phytochemistry. 2007; 68: 2087–95. PMID: 17575991",
+            "process_entry": "True",
+            "doi": "10.1016/j.phytochem.2007.05.006",
+            "pmid": "17575991",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Rhodes, CN, Brown, DR. Catalytic activity of acid-treated montmorillonite in polar and non-polar reaction media. Catal Lett. 1994; 24: 285–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Jang, JH, Park, JE, Han, JS, et al. Scopoletin inhibits α-glucosidase in vitro and alleviates postprandial hyperglycemia in mice with diabetes. Eur J Pharmacol. 2018; 834: 152–6. PMID: 30031794",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2018.07.032",
+            "pmid": "30031794",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Muralidhara, SB. Early oxidative stress in testis and epididymal sperm in streptozotocin-induced diabetic mice: its progression and genotoxic consequences. Reprod Toxicol. 2017; 23: 578–87.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Oak, JH, Youn, JY, Cai, H. Aminoguanidine inhibits aortic hydrogen peroxide production, VSMC NOX activity and hypercontractility in diabetic mice. Cardiovasc Diabetol. 2009; 8: 65–71. PMID: 20040119",
+            "process_entry": "True",
+            "doi": "10.1186/1475-2840-8-65",
+            "pmid": "20040119",
+            "pmcid": "PMC2811700",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Villaño, D, Fernández-Pachón, MS, Moyá, ML, et al. Radical scavenging ability of polyphenolic compounds towards DPPH free radical. Talanta. 2007; 71: 230–5. PMID: 19071293",
+            "process_entry": "True",
+            "doi": "10.1016/j.talanta.2006.03.050",
+            "pmid": "19071293",
+            "xmlid": "CIT0043"
+        }
+    ],
+    "localid": "MED-30362362",
+    "doi": "10.1080/14756366.2018.1518958",
+    "pmid": "10.1080/14756366.2018.1518958",
+    "pmcid": "30362362",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30362362/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),231,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "9–11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Arylcoumarin is a class of naturally-occurring compounds, the basic skeleton of which is arylbenzopyranones. It mainly includes 3-arylcoumarin and 4-arylcoumarin. Arylcoumarin was discovered in abundance existence in some plants. Later on, scientists conducted a lot of syntheses and activity experiments on the basis of the natural structure of arylcoumarins by splitting and derivatisation1–3. Among them, the research on 3-arylcoumarins received great attention. Studies have shown that arylcoumarins exhibit a variety of activities, such as anti-cancer4, anti-leukemia5, anticoagulant, anti-allergic6, anti-inflammatory7, antioxidant8, antimicrobial9–11, estrogen receptor affinity12, adenosine receptor affinity7, and monoamine oxidase B inhibition activity13,14. Rich pharmacological activity has stimulated interest in the research of arylcoumarins. These compounds have similarities in chemical structure with coumarins, flavones, isoflavones, and trans-stilbenes and they are related to each other in the process of biosynthesis in plants15. Therefore, they are highly regarded by researchers. Isoflavones, the most abundant phytoestrogens in soy beans, are structurally similar to 3-arylcoumarin derivatives. The compounds have been found effective in the management of diabetes by acting on peroxisome proliferator-activated receptors16. Researchers found that resveratrol appears a good candidate as a neutraceutical support for the therapy of obesity and type II diabetes17,18. In recent years, coumarins and flavonoids have received wide attention owing to their excellent advanced glycation end products (AGEs) inhibitory and anti-inflammatory activities19,20. Minpei Kuroda et al.21 reported that 3-arylcoumarins have the effect of significantly decreasing the blood glucose levels of genetically diabetic mice. Antioxidant compounds, its free radical scavenger properties imply a protective effect against oxidative stress in the early stages of diabetic nephropathy, leading to symptom relief and improvement in organ function. Antioxidant compounds in reducing diabetes-related neurotoxicity by the restoration of the nervous fiber myelination with the normalisation of pain behavior22. These antioxidants fully protected astrocytes from the caspase 3 apoptotic signaling activation induced by toxic substance and it is well known that glia has a pivotal role in neuropathy development and astrocytes may be involved in the maintenance of neuropathic pain23,24.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),467,302)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),858,193)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1220,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1350,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1350,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1492,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1492,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[18]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1677,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2047,159)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[20]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2207,274)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2207,274)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,145)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),147,68)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),216,89)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,77)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[1]),1,165)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro antioxidant activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[1]/p[2]),781,49)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro antioxidant activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/title),8,44)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "2.2.2. In vitro α-glucosidase inhibitory activity31"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/p),1,142)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "2.2.2. In vitro α-glucosidase inhibitory activity31"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[2]/p),144,78)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "2.2.2. In vitro α-glucosidase inhibitory activity31"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[3]/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/title),1,48)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro inhibitory activity of AGEs formation34"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p[1]),1,146)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro inhibitory activity of AGEs formation34"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[3]/p[2]),123,156)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro inhibitory activity of AGEs formation34"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[4]/p),1,125)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Oral toxicity to mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[5]/p),1,71)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Acute hypoglycemic assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[6]/p),1,163)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effects of daily treatment with compounds 11, 17, and 35 in STZ-induced diabetic mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[6]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[6]/p),495,213)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effects of daily treatment with compounds 11, 17, and 35 in STZ-induced diabetic mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/sec[7]/p),1,76)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Oral glucose tolerance test of compounds 11, 17, and 35 on in STZ-induced diabetic mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),366,193)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),560,176)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),737,125)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[3]/p[1]),1,165)",
+                "containers_title": [
+                    "Experimental",
+                    "Biological activity",
+                    "In vitro antioxidant activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/sec[3]/p[2]),1,165)",
+                "containers_title": [
+                    "Experimental",
+                    "Biological activity",
+                    "In vitro antioxidant activity"
+                ]
+            }
+        ]
+    ]
+}

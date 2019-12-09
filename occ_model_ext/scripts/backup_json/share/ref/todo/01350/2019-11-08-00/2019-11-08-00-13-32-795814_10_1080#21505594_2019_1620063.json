@@ -1,0 +1,2094 @@
+{
+    "references": [
+        {
+            "bibentry": "Zhang, FL, Casey, PJ. Protein prenylation: molecular mechanisms and functional consequences. Annu Rev Biochem. 1996; 65: 241–269. PMID: 8811180",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.bi.65.070196.001325",
+            "pmid": "8811180",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Omer, CA, Gibbs, JB. Protein prenylation in eukaryotic microorganisms: genetics, biology and biochemistry. Mol Microbiol. 1994; 11: 219–225. PMID: 8170384",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.1994.tb00302.x",
+            "pmid": "8170384",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Wang, M, Casey, PJ. Protein prenylation: unique fats make their mark on biology. Nat Rev Mol Cell Biol. 2016; 17: 110–122. PMID: 26790532",
+            "process_entry": "True",
+            "doi": "10.1038/nrm.2015.11",
+            "pmid": "26790532",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Blanden, MJ, Suazo, KF, Hildebrandt, ER, et al. Efficient farnesylation of an extended C-terminal C(x)3X sequence motif expands the scope of the prenylated proteome. J Biol Chem. 2018; 293: 2770–2785. PMID: 29282289",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M117.805770",
+            "pmid": "29282289",
+            "pmcid": "PMC5827447",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Seabra, MC, Reiss, Y, Casey, PJ, et al. Protein farnesyltransferase and geranylgeranyltransferase share a common α subunit. Cell. 1991; 65: 429–434. PMID: 2018975",
+            "process_entry": "True",
+            "doi": "10.1016/0092-8674(91)90460-g",
+            "pmid": "2018975",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Mabanglo, MF, Hast, MA, Lubock, NB, et al. Crystal structures of the fungal pathogen Aspergillus fumigatus protein farnesyltransferase complexed with substrates and inhibitors reveal features for antifungal drug design. Protein Sci. 2014; 23: 289–301. PMID: 24347326",
+            "process_entry": "True",
+            "doi": "10.1002/pro.2411",
+            "pmid": "24347326",
+            "pmcid": "PMC3945837",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Scott Reid, T, Terry, KL, Casey, PJ, et al. Crystallographic analysis of CaaX prenyltransferases complexed with substrates defines rules of protein substrate selectivity. J Mol Biol. 2004; 343: 417–433. PMID: 15451670",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2004.08.056",
+            "pmid": "15451670",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Moores, SL, Schaber, MD, Mosser, SD, et al. Sequence dependence of protein isoprenylation. J Biol Chem. 1991; 266: 14603–14610. PMID: 1860864",
+            "process_entry": "True",
+            "pmid": "1860864",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Trueblood, CE, Ohya, Y, Rine, J. Genetic evidence for in vivo cross-specificity of the CaaX-box protein prenyltransferases farnesyltransferase and geranylgeranyltransferase-I in Saccharomyces cerevisiae. Mol Cell Biol. 1993; 13: 4260–4275. PMID: 8321228",
+            "process_entry": "True",
+            "doi": "10.1128/mcb.13.7.4260",
+            "pmid": "8321228",
+            "pmcid": "PMC359976",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Casey, PJ, Seabra, MC. Protein Prenyltransferases. J Biol Chem. 1996; 271: 5289–5292. PMID: 8621375",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.271.10.5289",
+            "pmid": "8621375",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Schafer, WR, Rine, J. Protein prenylation: genes, enzymes, targets, and functions. Annu Rev Genet. 1992; 26: 209–237. PMID: 1482112",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.ge.26.120192.001233",
+            "pmid": "1482112",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Fortwendel, JR. Ras-mediated signal transduction and virulence in human pathogenic fungi. Fungal genomics Biol. 2012; 2: 105.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Harris, SD. Cdc42/Rho GTPases in fungi: variations on a common theme. Mol Microbiol. 2011; 79: 1123–1127. PMID: 21338413",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2010.07525.x",
+            "pmid": "21338413",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Philips, M, Cox, A. Geranylgeranyltransferase I as a target for anti-cancer drugs. J Clin Invest. 2007; 117: 1223–1225. PMID: 17476354",
+            "process_entry": "True",
+            "doi": "10.1172/JCI32108",
+            "pmid": "17476354",
+            "pmcid": "PMC1857249",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Xu, N, Shen, N, Wang, XX, et al. Protein prenylation and human diseases: a balance of protein farnesylation and geranylgeranylation. Sci China Life Sci. 2015; 58: 328–335. PMID: 25862656",
+            "process_entry": "True",
+            "doi": "10.1007/s11427-015-4836-1",
+            "pmid": "25862656",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Shen, M, Pan, P, Li, Y, et al. Farnesyltransferase and geranylgeranyltransferase I: structures, mechanism, inhibitors and molecular modeling. Drug Discov Today. 2015; 20: 267–276. PMID: 25450772",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis.2014.10.002",
+            "pmid": "25450772",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Alspaugh, JA. Targeting protein localization for anti-infective therapy. Virulence. 2017; 8: 1105–1107. PMID: 28658594",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2017.1342921",
+            "pmid": "28658594",
+            "pmcid": "PMC5711423",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Qiao, J, Gao, P, Jiang, X, et al. In vitro antifungal activity of farnesyltransferase inhibitors against clinical isolates of Aspergillus and Candida. Ann Clin Microbiol Antimicrob. 2013; 12: 37. PMID: 24314136",
+            "process_entry": "True",
+            "doi": "10.1186/1476-0711-12-37",
+            "pmid": "24314136",
+            "pmcid": "PMC4029545",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Palsuledesai, CC, Distefano, MD. Protein prenylation: enzymes, therapeutics, and biotechnology applications. ACS Chem Biol. 2015; 10: 51–62. PMID: 25402849",
+            "process_entry": "True",
+            "doi": "10.1021/cb500791f",
+            "pmid": "25402849",
+            "pmcid": "PMC4301080",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Ochocki, JD, Distefano, MD. Prenyltransferase Inhibitors: treating human ailments from cancer to parasitic infections. Medchemcomm. 2013; 4: 476–492. PMID: 25530833",
+            "process_entry": "True",
+            "doi": "10.1039/C2MD20299A",
+            "pmid": "25530833",
+            "pmcid": "PMC4270290",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Song, JL, White, TC. RAM2: an essential gene in the prenylation pathway of Candida albicans. Microbiology. 2003; 149: 249–259. PMID: 12576598",
+            "process_entry": "True",
+            "doi": "10.1099/mic.0.25887-0",
+            "pmid": "12576598",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "McGeady, P, Logan, DA, Wansley, DL. A protein-farnesyl transferase inhibitor interferes with the serum-induced conversion of Candida albicans from a cellular yeast form to a filamentous form. FEMS Microbiol Lett. 2002; 213: 41–44. PMID: 12127486",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-6968.2002.tb11283.x",
+            "pmid": "12127486",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Vallim, MA, Fernandes, L, Alspaugh, JA. The RAM1 gene encoding a protein-farnesyltransferase beta-subunit homologue is essential in Cryptococcus neoformans. Microbiology. 2004; 150: 1925–1935. PMID: 15184578",
+            "process_entry": "True",
+            "doi": "10.1099/mic.0.27030-0",
+            "pmid": "15184578",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Hast, MA, Nichols, CB, Armstrong, SM, et al. Structures of Cryptococcus neoformans protein farnesyltransferase reveal strategies for developing inhibitors that target fungal pathogens. J Biol Chem. 2011; 286: 35149–35162. PMID: 21816822",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M111.250506",
+            "pmid": "21816822",
+            "pmcid": "PMC3186413",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Hast, MA, Beese, LS. Structure of protein geranylgeranyltransferase-I from the human pathogen Candida albicans complexed with a lipid substrate. J Biol Chem. 2008; 283: 31933–31940. PMID: 18713740",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M805330200",
+            "pmid": "18713740",
+            "pmcid": "PMC2581548",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "He, B, Chen, P, Chen, SY, et al. RAM2, an essential gene of yeast, and RAM1 encode the two polypeptide components of the farnesyltransferase that prenylates a-factor and Ras proteins. Proc Natl Acad Sci U S A. 1991; 88: 11373–11377. PMID: 1763050",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.88.24.11373",
+            "pmid": "1763050",
+            "pmcid": "PMC53137",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Nakayama, H, Ueno, K, Uno, J, et al. Growth defects resulting from inhibiting ERG20 and RAM2 in Candida glabrata. FEMS Microbiol Lett. 2011; 317: 27–33. PMID: 21204938",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-6968.2010.02205.x",
+            "pmid": "21204938",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Esher, SK, Ost, KS, Kozubowski, L, et al. Relative contributions of prenylation and postprenylation processing in C ryptococcus neoformans pathogenesis. Mol Biol Physiol. 2016; 1: 1–18.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Yang, W, Urano, J, Tamanoi, F. Protein farnesylation is critical for maintaining normal cell morphology and canavanine resistance in Schizosaccharomyces pombe. J Biol Chem. 2000; 275: 429–438. PMID: 10617635",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.275.1.429",
+            "pmid": "10617635",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Goodman, LE, Judd, SR, Farnsworth, CC, et al. Mutants of Saccharomyces cerevisiae defective in the farnesylation of Ras proteins. Proc Natl Acad Sci U S A. 1990; 87: 9665–9669. PMID: 2124698",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.87.24.9665",
+            "pmid": "2124698",
+            "pmcid": "PMC55233",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Kelly, R, Card, D, Register, E, et al. Geranylgeranyltransferase I of Candida albicans: null mutants or enzyme inhibitors produce unexpected phenotypes. J Bacteriol. 2000; 182: 704–713. PMID: 10633104",
+            "process_entry": "True",
+            "doi": "10.1128/jb.182.3.704-713.2000",
+            "pmid": "10633104",
+            "pmcid": "PMC94333",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Selvig, K, Ballou, ER, Nichols, CB, et al. Restricted substrate specificity for the geranylgeranyltransferase-i enzyme in C ryptococcus neoformans: implications for virulence. Eukaryot Cell. 2013; 12: 1462–1471. PMID: 24014765",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00193-13",
+            "pmid": "24014765",
+            "pmcid": "PMC3837929",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Norton, TS, Al Abdallah, Q, Hill, AM, et al. The Aspergillus fumigatus farnesyltransferase β-subunit, RamA, mediates growth, virulence, and antifungal susceptibility. Virulence. 2017; 8: 1401–1416. PMID: 28489963",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2017.1328343",
+            "pmid": "28489963",
+            "pmcid": "PMC5711395",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Yelton, MM, Hamer, JE, Timberlake, WE. Transformation of Aspergillus nidulans by using a trpC plasmid. Genetics. 1984; 81: 1470–1474.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Da Silva Ferreira, ME, Kress, MRVZ, Savoldi, M, et al. The akuB KU80 mutant deficient for nonhomologous end joining is a powerful tool for analyzing pathogenicity in A spergillus fumigatus. Eukaryot Cell. 2006; 5: 207–211. PMID: 16400184",
+            "process_entry": "True",
+            "doi": "10.1128/EC.5.1.207-211.2006",
+            "pmid": "16400184",
+            "pmcid": "PMC1360264",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Al Abdallah, Q, Martin-Vicente, A, Souza, ACO, et al. C-terminus proteolysis and palmitoylation cooperate for optimal plasma membrane localization of RasA in A spergillus fumigatus. Front Microbiol. 2018; 9:562. PMID: 29387050",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2018.00009",
+            "pmid": "29387050",
+            "pmcid": "PMC5776110",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Calvo, AM, Bok, J, Brooks, W, et al. veA is required for toxin and sclerotial production in A spergillus parasiticus. Appl Environ Microbiol. 2004; 70: 4733–4739. PMID: 15294809",
+            "process_entry": "True",
+            "doi": "10.1128/AEM.70.8.4733-4739.2004",
+            "pmid": "15294809",
+            "pmcid": "PMC492383",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Al Abdallah, Q, Ge, W, Fortwendel, JR. A simple and universal system for gene manipulation in A spergillus fumigatus: in vitro-assembled Cas9-guide RNA ribonucleoproteins coupled with microhomology repair templates. mSphere. 2017; 2: e00446–17. PMID: 29202040",
+            "process_entry": "True",
+            "doi": "10.1128/mSphere.00446-17",
+            "pmid": "29202040",
+            "pmcid": "PMC5700375",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Helmschrott, C, Sasse, A, Samantaray, S, et al. Upgrading fungal gene expression on demand: improved systems for doxycycline-dependent silencing in Aspergillus fumigatus. Appl Environ Microbiol. 2013; 79: 1751–1754. PMID: 23275515",
+            "process_entry": "True",
+            "doi": "10.1128/AEM.03626-12",
+            "pmid": "23275515",
+            "pmcid": "PMC3591957",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Roemer, T, Jiang, B, Davison, J, et al. Large-scale essential gene identification in Candida albicans and applications to antifungal drug discovery. Mol Microbiol. 2003; 50: 167–181. PMID: 14507372",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2003.03697.x",
+            "pmid": "14507372",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Fortwendel, JR, Juvvadi, PR, Pinchai, N, et al. Differential effects of inhibiting chitin and 1,3-{beta}-D-glucan synthesis in ras and calcineurin mutants of Aspergillus fumigatus. Antimicrob Agents Chemother. 2009; 53: 476–482. PMID: 19015336",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.01154-08",
+            "pmid": "19015336",
+            "pmcid": "PMC2630655",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "CLSI Reference method for broth dilution antifungal susceptibility testing of filamentous fungi; approved standard -second edition. CLSI document M38-A2. Wayne (PA): Clinical and Laboratory Standards Institute; 2008.",
+            "process_entry": "True",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Koenig, S, Rühmann, B, Sieber, V, et al. Quantitative assay of β-(1,3)–β-(1,6)–glucans from fermentation broth using aniline blue. Carbohydr Polym. 2017; 174: 57–64. PMID: 28821106",
+            "process_entry": "True",
+            "doi": "10.1016/j.carbpol.2017.06.047",
+            "pmid": "28821106",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Bhabhra, R, Askew, DS. Thermotolerance and virulence of Aspergillus fumigatus: role of the fungal nucleolus. Med Mycol. 2005; 43(Suppl 1): S87–93. PMID: 16110798",
+            "process_entry": "True",
+            "doi": "10.1080/13693780400029486",
+            "pmid": "16110798",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Albrecht, D, Guthke, R, Brakhage, AA, et al. Integrative analysis of the heat shock response in Aspergillus fumigatus. BMC Genomics. 2010; 11:32. PMID: 20053297",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2164-11-11",
+            "pmid": "20053297",
+            "pmcid": "PMC2820453",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Alspaugh, JA, Cavallo, LM, Perfect, JR, et al. RAS1 regulates filamentation, mating and growth at high temperature of Cryptococcus neoformans. Mol Microbiol. 2000; 36: 352–365. PMID: 10792722",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2000.01852.x",
+            "pmid": "10792722",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Dichtl, K, Helmschrott, C, Dirr, F, et al. Deciphering cell wall integrity signalling in Aspergillus fumigatus: identification and functional characterization of cell wall stress sensors and relevant Rho GTPases. Mol Microbiol. 2012; 83: 506–519. PMID: 22220813",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2011.07946.x",
+            "pmid": "22220813",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Bhabhra, R, Miley, MD, Mylonakis, E, et al. Disruption of the Aspergillus fumigatus gene encoding nucleolar protein CgrA impairs thermotolerant growth and reduces virulence. Infect Immun. 2004; 72: 4731–4740. PMID: 15271935",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.72.8.4731-4740.2004",
+            "pmid": "15271935",
+            "pmcid": "PMC470587",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Chang, YC, Tsai, HF, Karos, M, et al. THTA, a thermotolerance gene of Aspergillus fumigatus. Fungal Genet Biol. 2004; 41: 888–896. PMID: 15338574",
+            "process_entry": "True",
+            "doi": "10.1016/j.fgb.2004.06.004",
+            "pmid": "15338574",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Adams, AEM, Johnson, DI, Longnecker, RM, et al. CDC42 and CDC43, two additional genes involved in budding and the establishment of cell polarity in the yeast Saccharomyces cerevisiae. J Cell Biol. 1990; 111: 131–142. PMID: 2195038",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.111.1.131",
+            "pmid": "2195038",
+            "pmcid": "PMC2116161",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Johnson, DI, Pringle, JR. Molecular characterization of CDC42, a Saccharomyces cerevisiae gene involved in the development of cell polarity. J Cell Biol. 1990; 111: 143–152. PMID: 2164028",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.111.1.143",
+            "pmid": "2164028",
+            "pmcid": "PMC2116164",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Ushinsky, SC, Harcus, D, Ash, J, et al. CDC42 is required for polarized growth in human pathogen Candida albicans. Eukaryot Cell. 2002; 1: 95–104. PMID: 12455975",
+            "process_entry": "True",
+            "doi": "10.1128/EC.1.1.95-104.2002",
+            "pmid": "12455975",
+            "pmcid": "PMC118047",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Ballou, ER, Nichols, CB, Miglia, KJ, et al. Two CDC42 paralogues modulate Cryptococcus neoformans thermotolerance and morphogenesis under host physiological conditions. Mol Microbiol. 2010; 75: 763–780. PMID: 20025659",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2009.07019.x",
+            "pmid": "20025659",
+            "pmcid": "PMC3685590",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Kwon, MJ, Arentshorst, M, Roos, ED, et al. Functional characterization of Rho GTPases in Aspergillus niger uncovers conserved and diverged roles of Rho proteins within filamentous fungi. Mol Microbiol. 2011; 79: 1151–1167. PMID: 21205013",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2010.07524.x",
+            "pmid": "21205013",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Virag, A, Lee, MP, Si, H, et al. Regulation of hyphal morphogenesis by cdc42 and rac1 homologues in Aspergillus nidulans. Mol Microbiol. 2007; 66: 1579–1596. PMID: 18005099",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2007.06021.x",
+            "pmid": "18005099",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Si, H, Rittenour, WR, Harris, SD. Roles of Aspergillus nidulans Cdc42/Rho GTPase regulators in hyphal morphogenesis and development. Mycologia. 2016; 108: 543–555. PMID: 26932184",
+            "process_entry": "True",
+            "doi": "10.3852/15-232",
+            "pmid": "26932184",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Li, H, Barker, BM, Grahl, N, et al. The small GTPase RacA mediates intracellular reactive oxygen species production, polarized growth, and virulence in the human fungal pathogen Aspergillus fumigatus. Eukaryot Cell. 2011; 10: 174–186. PMID: 21183690",
+            "process_entry": "True",
+            "doi": "10.1128/EC.00288-10",
+            "pmid": "21183690",
+            "pmcid": "PMC3067399",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Chi, MH, Craven, KD. RacA-mediated ROS signaling is required for polarized cell differentiation in conidiogenesis of Aspergillus fumigatus. PLoS One. 2016; 11: 1–13.",
+            "process_entry": "True",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Beauvais, A, Bruneau, JM, Mol, PC, et al. Glucan synthase complex of Aspergillus fumigatus. J Bacteriol. 2001; 183: 2273–2279. PMID: 11244067",
+            "process_entry": "True",
+            "doi": "10.1128/JB.183.7.2273-2279.2001",
+            "pmid": "11244067",
+            "pmcid": "PMC95134",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "Dichtl, K, Samantaray, S, Aimanianda, V, et al. Aspergillus fumigatus devoid of cell wall β-1,3-glucan is viable, massively sheds galactomannan and is killed by septum formation inhibitors. Mol Microbiol. 2015; 95: 458–471. PMID: 25425041",
+            "process_entry": "True",
+            "doi": "10.1111/mmi.12877",
+            "pmid": "25425041",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "Inoue, SB, Qadota, H, Arisawa, M, et al. Prenylation of Rho1p is required for activation of yeast 1, 3-beta-glucan synthase. J Biol Chem. 1999; 274: 38119–38124. PMID: 10608882",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.274.53.38119",
+            "pmid": "10608882",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Qiao, J, Sun, Y, Gao, L, et al. Lonafarnib synergizes with azoles against Aspergillus spp. and Exophiala spp. Med Mycol. 2018;56: 452–457.",
+            "process_entry": "True",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Valiante, V, Macheleidt, J, Föge, M, et al. The Aspergillus fumigatus cell wall integrity signalling pathway: drug target, compensatory pathways and virulence. Front Microbiol. 2015; 6: 1–12. PMID: 25653648",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2015.00001",
+            "pmid": "25653648",
+            "pmcid": "PMC4299510",
+            "xmlid": "CIT0063"
+        }
+    ],
+    "localid": "MED-31131706",
+    "doi": "10.1080/21505594.2019.1620063",
+    "pmid": "10.1080/21505594.2019.1620063",
+    "pmcid": "31131706",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31131706/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,179)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),780,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),982,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "[1–3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),982,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),780,208)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),780,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),982,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),989,107)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1090,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "[1–3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1090,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),989,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),989,107)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1090,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1097,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),150,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),361,5)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),150,217)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,6]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),361,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),470,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),659,7)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),470,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),659,7)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),470,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),659,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),668,49)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),718,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),843,6)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),718,132)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),843,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,171)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),165,6)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,171)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),165,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),173,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),514,86)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),592,7)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),514,86)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),592,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),792,240)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,14–18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1022,9)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),792,240)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,14–18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1022,9)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),792,240)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,14–18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1022,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1033,153)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1173,12)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1033,153)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1173,12)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1033,153)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1173,12)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1033,153)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16,19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1173,12)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1187,92)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[18,21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1268,10)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1187,92)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[18,21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1268,10)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1187,92)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[18,21–24]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1268,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1280,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1563,9)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1280,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1563,9)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[18]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1280,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),1563,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),102,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),102,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),102,175)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),278,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),278,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),441,102)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[26,30]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),455,7)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),441,102)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[26,30]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),455,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),441,102)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),544,110)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),655,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),655,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),655,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),851,246)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),136,120)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),257,135)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),575,233)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),575,233)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),575,233)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),809,170)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1651,194)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),2007,217)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[1]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[1]/td[1]),1,13)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[1]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[1]/td[2]),1,18)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[2]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[2]/td[2]),1,13)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[4]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap[1]/table/tbody/tr[4]/td[2]),1,14)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Genetic manipulation of A. fumigatus"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,194)",
+                "containers_title": [
+                    "Materials and methods",
+                    "C. albicans strains"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1,251)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Growth conditions and analyses"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),293,238)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cell wall stress analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,79)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Analysis of cell wall β-glucan content"
+                ],
+                "pl_string": "[41,43]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),72,7)"
+            },
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,79)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Analysis of cell wall β-glucan content"
+                ],
+                "pl_string": "[41,43]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),72,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1,111)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Quantification of cell wall total chitin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p[1]),142,184)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Virulence studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/fig/caption/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]/fig/caption/p[2]),1,172)",
+                "containers_title": [
+                    "Results",
+                    "GGtase-I activity is important for A. fumigatus cell wall stress response and composition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/fig/caption/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]/fig/caption/p[2]),174,267)",
+                "containers_title": [
+                    "Results",
+                    "GGtase-I activity is important for A. fumigatus cell wall stress response and composition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/fig/caption/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]/fig/caption/p[2]),174,267)",
+                "containers_title": [
+                    "Results",
+                    "GGtase-I activity is important for A. fumigatus cell wall stress response and composition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),137,244)",
+                "containers_title": [
+                    "Results",
+                    "The shared prenyltransferase α-subunit, RamB, is essential for A. fumigatus growth and virulence"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),382,204)",
+                "containers_title": [
+                    "Results",
+                    "The shared prenyltransferase α-subunit, RamB, is essential for A. fumigatus growth and virulence"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/fig/caption/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]/fig/caption/p[2]),71,105)",
+                "containers_title": [
+                    "Results",
+                    "The shared prenyltransferase α-subunit, RamB, is essential for A. fumigatus growth and virulence"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),98,131)",
+                "containers_title": [
+                    "Results",
+                    "Both α- and β-subunits of GGTase-I are required for C. albicans virulence in murine model of disseminated infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),230,184)",
+                "containers_title": [
+                    "Results",
+                    "Both α- and β-subunits of GGTase-I are required for C. albicans virulence in murine model of disseminated infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),230,184)",
+                "containers_title": [
+                    "Results",
+                    "Both α- and β-subunits of GGTase-I are required for C. albicans virulence in murine model of disseminated infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),557,277)",
+                "containers_title": [
+                    "Results",
+                    "Both α- and β-subunits of GGTase-I are required for C. albicans virulence in murine model of disseminated infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,241)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),357,96)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),585,141)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,348)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[44,45]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),192,7)"
+            },
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,348)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[44,45]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),192,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),472,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),472,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),472,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),617,115)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),934,228)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),934,228)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1163,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1401,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1401,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),224,209)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),434,121)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),556,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),676,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),676,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),676,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),676,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),676,138)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[55,56]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),806,7)"
+            },
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),676,138)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[55,56]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),806,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),815,111)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),927,98)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1017,7)"
+            },
+            {
+                "n_rp": 102,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),927,98)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[57,58]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),1017,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 103,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1026,163)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 104,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),446,158)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[59–61]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),596,7)"
+            },
+            {
+                "n_rp": 105,
+                "xref_id": "",
+                "pl_string": "[59–61]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),596,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),446,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 106,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),446,158)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[59–61]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),596,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 107,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),605,100)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),900,84)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1141,183)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1967,210)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 111,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),566,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 112,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),566,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 113,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),566,165)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),327,217)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),545,219)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 116,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1,169)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 117,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),124,164)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),263,7)"
+            },
+            {
+                "n_rp": 118,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),124,164)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),263,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 119,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),306,5)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 120,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),471,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,21,31,62]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),689,12)"
+            },
+            {
+                "n_rp": 121,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),471,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,21,31,62]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),689,12)"
+            },
+            {
+                "n_rp": 122,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),471,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,21,31,62]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),689,12)"
+            },
+            {
+                "n_rp": 123,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),471,231)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[9,21,31,62]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),689,12)"
+            }
+        ],
+        [
+            {
+                "n_rp": 124,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),971,103)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 125,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),971,103)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1075,191)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 127,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1417,243)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,17,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1520,9)"
+            },
+            {
+                "n_rp": 128,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1417,243)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,17,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1520,9)"
+            },
+            {
+                "n_rp": 129,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1417,243)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,17,24]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[8]),1520,9)"
+            }
+        ]
+    ]
+}

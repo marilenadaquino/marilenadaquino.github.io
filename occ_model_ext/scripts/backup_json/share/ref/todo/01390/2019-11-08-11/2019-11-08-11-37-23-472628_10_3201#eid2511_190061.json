@@ -1,0 +1,158 @@
+{
+    "references": [
+        {
+            "bibentry": "Huang D, Jiang Y, Liu X, Wang B, Shi J, Su Z, et al. A cluster of symptomatic and asymptomatic infections of severe fever with thrombocytopenia syndrome caused by person-to-person transmission. Am J Trop Med Hyg. 2017; 97: 396–402. DOI: 10.4269/ajtmh.17-0059 PMID: 28722592",
+            "process_entry": "True",
+            "doi": "10.4269/ajtmh.17-0059",
+            "pmid": "28722592",
+            "pmcid": "PMC5544100",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Chen H, Hu K, Zou J, Xiao J. A cluster of cases of human-to-human transmission caused by severe fever with thrombocytopenia syndrome bunyavirus. Int J Infect Dis. 2013; 17: e206–8. DOI: 10.1016/j.ijid.2012.11.006 PMID: 23218674",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijid.2012.11.006",
+            "pmid": "23218674",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Zhang YZ, He YW, Dai YA, Xiong Y, Zheng H, Zhou DJ, et al. Hemorrhagic fever caused by a novel Bunyavirus in China: pathogenesis and correlates of fatal outcome. Clin Infect Dis. 2012; 54: 527–33. DOI: 10.1093/cid/cir804 PMID: 22144540",
+            "process_entry": "True",
+            "doi": "10.1093/cid/cir804",
+            "pmid": "22144540",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Gai ZT, Zhang Y, Liang MF, Jin C, Zhang S, Zhu CB, et al. Clinical progress and risk factors for death in severe fever with thrombocytopenia syndrome patients. J Infect Dis. 2012; 206: 1095–102. DOI: 10.1093/infdis/jis472 PMID: 22850122",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/jis472",
+            "pmid": "22850122",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Kim UJ, Kim DM, Ahn JH, Kang SJ, Jang HC, Park KH, et al. Successful treatment of rapidly progressing severe fever with thrombocytopenia syndrome with neurological complications using intravenous immunoglobulin and corticosteroid. Antivir Ther. 2016; 21: 637–40. DOI: 10.3851/IMP3036 PMID: 26886410",
+            "process_entry": "True",
+            "doi": "10.3851/imp3036",
+            "pmid": "26886410",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Fischer WA, Brown J, Wohl DA, Loftis AJ, Tozay S, Reeves E, et al. Ebola virus ribonucleic acid detection in semen more than two years after resolution of acute Ebola virus infection. Open Forum Infect Dis. 2017; 4: ofx155. DOI: 10.1093/ofid/ofx155 PMID: 29670927",
+            "process_entry": "True",
+            "doi": "10.1093/ofid/ofx155",
+            "pmid": "29670927",
+            "pmcid": "PMC5897835",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Medina FA, Torres G, Acevedo J, Fonseca S, Casiano L, De León-Rodríguez CM, et al. Duration of the presence of infectious Zika virus in semen and serum. J Infect Dis. 2019; 219: 31–40. PMID: 30059980",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/jiy462",
+            "pmid": "30059980",
+            "xmlid": "R7"
+        }
+    ],
+    "localid": "MED-31625854",
+    "doi": "10.3201/eid2511.190061",
+    "pmid": "10.3201/eid2511.190061",
+    "pmcid": "31625854",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31625854/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),234,160)",
+                "containers_title": "",
+                "pl_string": "(1,2)",
+                "pl_xpath": "substring(string(/article/body/p[1]),306,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),234,160)",
+                "containers_title": "",
+                "pl_string": "(1,2)",
+                "pl_xpath": "substring(string(/article/body/p[1]),306,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),234,160)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),395,132)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),528,100)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[4]),1,158)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[4]),540,198)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[6]),100,192)",
+                "containers_title": "",
+                "pl_string": "(6,7)",
+                "pl_xpath": "substring(string(/article/body/p[6]),286,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[6]),100,192)",
+                "containers_title": "",
+                "pl_string": "(6,7)",
+                "pl_xpath": "substring(string(/article/body/p[6]),286,5)"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "references": [
+        {
+            "bibentry": "Bourinet E, Altier C, Hildebrand ME, et al Calcium-permeable ion channels in pain signaling. Physiol Rev. 2014; 94(1): 81–140. PMID: 24382884",
+            "process_entry": "True",
+            "doi": "10.1152/physrev.00023.2013",
+            "pmid": "24382884",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Cavanaugh, DJ, Chesler, AT, Jackson, AC, et al. Trpv1 reporter mice reveal highly restricted brain distribution and functional expression in arteriolar smooth muscle cells. J Neurosci. 2011; 31(13): 5067–5077. PMID: 21451044",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.6451-10.2011",
+            "pmid": "21451044",
+            "pmcid": "PMC3087977",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Basso L, Aboushousha R, Fan CY, et al TRPV1 promotes opioid analgesia during inflammation. Sci Signal. 2019; 12(575): eaav0711. PMID: 30940767",
+            "process_entry": "True",
+            "doi": "10.1126/scisignal.aav0711",
+            "pmid": "30940767",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Ji-R-R, Samad, TA, Jin, S-X, et al. p38 MAPK activation by NGF in primary sensory neurons after inflammation increases TRPV1 levels and maintains heat hyperalgesia. Neuron. 2002; 36(1): 57–68. Cited 2009 6 21 Available from http://www.ncbi.nlm.nih.gov/pubmed/12367506 PMID: 12367506",
+            "process_entry": "True",
+            "doi": "10.1016/s0896-6273(02)00908-x",
+            "pmid": "12367506",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/12367506",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Iftinca, M, Flynn, R, Basso, L, et al. The stress protein heat shock cognate 70 (Hsc70) inhibits the transient receptor potential vanilloid type 1 (TRPV1) channel. Mol Pain. 2016; 12: 174480691666394.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Tian Q, Hu J, Xie C, et al Recovery from tachyphylaxis of TRPV1 coincides with recycling to the surface membrane. Proc Natl Acad Sci USA. 2019; 116(11): 5170–5175. PMID: 30804201",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1819635116",
+            "pmid": "30804201",
+            "pmcid": "PMC6421460",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Morenilla-Palao, C, Planells-Cases, R, García-Sanz, N, et al. Regulated exocytosis contributes to protein kinase C potentiation of vanilloid receptor activity. J Biol Chem. 2004; 279(24): 25665–25672. PMID: 15066994",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m311515200",
+            "pmid": "15066994",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Rathje, M, Fang, H, Bachman, JL, et al. AMPA receptor pHluorin-GluA2 reports NMDA receptor-induced intracellular acidification in hippocampal neurons. Proc Natl Acad Sci U S A. 2013; 110(35): 14426–14431. PMID: 23940334",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1312982110",
+            "pmid": "23940334",
+            "pmcid": "PMC3761605",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Ashby, MC, De La Rue SA, Ralph GS, et al. Removal of AMPA receptors (AMPARs) from synapses is preceded by transient endocytosis of extrasynaptic AMPARs. J Neurosci. 2004; 24(22): 5172–5176. PMID: 15175386",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.1042-04.2004",
+            "pmid": "15175386",
+            "pmcid": "PMC3309030",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "François, A, Schüetter, N, Laffray, S, et al. The low-threshold calcium channel Cav3.2 determines low-threshold mechanoreceptor function. Cell Rep. 2015; 10(3): 370–382. PMID: 25600872",
+            "process_entry": "True",
+            "doi": "10.1016/j.celrep.2014.12.042",
+            "pmid": "25600872",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Candelas, M, Reynders, A, Arango-Lievano, M, et al. Cav3.2 T-type calcium channels shape electrical firing in mouse Lamina II neurons. Sci Rep. 2019; 9(1): 3112. PMID: 30816223",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-019-39703-3",
+            "pmid": "30816223",
+            "pmcid": "PMC6395820",
+            "xmlid": "CIT0011"
+        }
+    ],
+    "localid": "MED-31262222",
+    "doi": "10.1080/19336950.2019.1638695",
+    "pmid": "10.1080/19336950.2019.1638695",
+    "pmcid": "31262222",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31262222/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,204)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),206,184)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),490,325)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),490,325)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),816,270)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,155)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/p[4]),1,255)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/p[6]),1,108)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[7]),785,187)",
+                "containers_title": "",
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/p[7]),966,5)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[7]),785,187)",
+                "containers_title": "",
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/p[7]),966,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[7]),973,426)",
+                "containers_title": "",
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/p[7]),1391,7)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[7]),973,426)",
+                "containers_title": "",
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/p[7]),1391,7)"
+            }
+        ]
+    ]
+}

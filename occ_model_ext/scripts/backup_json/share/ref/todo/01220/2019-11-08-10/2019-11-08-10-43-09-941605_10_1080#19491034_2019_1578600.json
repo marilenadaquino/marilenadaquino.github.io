@@ -1,0 +1,1361 @@
+{
+    "references": [
+        {
+            "bibentry": "Robinson, SR, Oliver, AW, Chevassut, TJ, et al. The 3ʹ to 5ʹ exoribonuclease DIS3: from structure and mechanisms to biological functions and role in human disease. Biomolecules. 2015; 5: 1515–1539. PMID: 26193331",
+            "process_entry": "True",
+            "doi": "10.3390/biom5031515",
+            "pmid": "26193331",
+            "pmcid": "PMC4598762",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Tomecki, R, Drazkowska, K, Kucinski, I, et al. Multiple myeloma-associated hDIS3 mutations cause perturbations in cellular RNA metabolism and suggest hDIS3 PIN domain as a potential drug target. Nucleic Acids Res. 2014; 42: 1270–1290. PMID: 24150935",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gkt930",
+            "pmid": "24150935",
+            "pmcid": "PMC3902924",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Smith, SB, Kiss, DL, Turk, E, et al. Pronounced and extensive microtubule defects in a Saccharomyces cerevisiae DIS3 mutant. Yeast. 2011; 28: 755–769. PMID: 21919057",
+            "process_entry": "True",
+            "doi": "10.1002/yea.1899",
+            "pmid": "21919057",
+            "pmcid": "PMC3367412",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Murakami, H, Goto, DB, Toda, T, et al. Ribonuclease activity of Dis3 is required for mitotic progression and provides a possible link between heterochromatin and kinetochore function. PLoS One. 2007; 2: e317. PMID: 17380189",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0000317",
+            "pmid": "17380189",
+            "pmcid": "PMC1820850",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Snee, MJ, Wilson, WC, Zhu, Y, et al. Collaborative control of cell cycle progression by the RNA exonuclease DIS3 and RAS is conserved across species. Genetics. 2016; 203: 749–762. PMID: 27029730",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.116.187930",
+            "pmid": "27029730",
+            "pmcid": "PMC4896191",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Ryu, D, Kim, HJ, Joung, JG, et al. Comprehensive genomic profiling of IgM multiple myeloma identifies IRF4 as a prognostic marker. Oncotarget. 2016; 7: 47127–47133. PMID: 27223072",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.9478",
+            "pmid": "27223072",
+            "pmcid": "PMC5216929",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Weissbach, S, Langer, C, Puppe, B, et al. The molecular spectrum and clinical impact of DIS3 mutations in multiple myeloma. Br J Haematol. 2014 DOI: DOI: 10.1111/bjh.13256.",
+            "process_entry": "True",
+            "doi": "10.1111/bjh.13256.",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Chapman, MA, Lawrence, MS, Keats, JJ, et al. Initial genome sequencing and analysis of multiple myeloma. Nature. 2011; 471: 467–472. PMID: 21430775",
+            "process_entry": "True",
+            "doi": "10.1038/nature09837",
+            "pmid": "21430775",
+            "pmcid": "PMC3560292",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Hanahan, D, Weinberg, RA. Hallmarks of cancer: the next generation. Cell. 2011; 144: 646–674. PMID: 21376230",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2011.02.013",
+            "pmid": "21376230",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Geigl, JB, Obenauf, AC, Schwarzbraun, T, et al. Defining ‘chromosomal instability’. Trends Genet. 2008; 24: 64–69. PMID: 18192061",
+            "process_entry": "True",
+            "doi": "10.1016/j.tig.2007.11.006",
+            "pmid": "18192061",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Pfau, SJ, Amon, A. Chromosomal instability and aneuploidy in cancer: from yeast to man. EMBO Rep. 2012; 13: 515–527. PMID: 22614003",
+            "process_entry": "True",
+            "doi": "10.1038/embor.2012.65",
+            "pmid": "22614003",
+            "pmcid": "PMC3367249",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Stirling, PC, Shen, Y, Corbett, R, et al. Genome destabilizing mutator alleles drive specific mutational trajectories in Saccharomyces cerevisiae. Genetics. 2014; 196: 403–412. PMID: 24336748",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.113.159806",
+            "pmid": "24336748",
+            "pmcid": "PMC3914614",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Stirling, PC, Bloom, MS, Solanki-Patil, T, et al. The complete spectrum of yeast chromosome instability genes identifies candidate CIN cancer genes and functional roles for ASTRA complex components. PLoS Genet. 2011; 7: e1002057. PMID: 21552543",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1002057",
+            "pmid": "21552543",
+            "pmcid": "PMC3084213",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Stirling, PC, Crisp, MJ, Basrai, MA, et al. Mutability and mutational spectrum of chromosome transmission fidelity genes. Chromosoma. 2012; 121: 263–275. PMID: 22198145",
+            "process_entry": "True",
+            "doi": "10.1007/s00412-011-0356-3",
+            "pmid": "22198145",
+            "pmcid": "PMC3350768",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Ben-Aroya, S, Coombes, C, Kwok, T, et al. Toward a comprehensive temperature-sensitive mutant repository of the essential genes of Saccharomyces cerevisiae. Mol Cell. 2008; 30: 248–258. PMID: 18439903",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2008.02.021",
+            "pmid": "18439903",
+            "pmcid": "PMC4130347",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Bendl, J, Stourac, J, Salanda, O, et al. PredictSNP: robust and accurate consensus classifier for prediction of disease-related mutations. PLoS Comput Biol. 2014; 10: e1003440. PMID: 24453961",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pcbi.1003440",
+            "pmid": "24453961",
+            "pmcid": "PMC3894168",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Lionetti, M, Barbieri, M, Todoerti, K, et al. A compendium of DIS3 mutations and associated transcriptional signatures in plasma cell dyscrasias. Oncotarget. 2015; 6: 26129–26141. PMID: 26305418",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.4674",
+            "pmid": "26305418",
+            "pmcid": "PMC4694891",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Lorentzen, E, Basquin, J, Tomecki, R, et al. Structure of the active subunit of the yeast exosome core, Rrp44: diverse modes of substrate recruitment in the RNase II nuclease family. Mol Cell. 2008; 29: 717–728. PMID: 18374646",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2008.02.018",
+            "pmid": "18374646",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Schneider, C, Leung, E, Brown, J, et al. The N-terminal PIN domain of the exosome subunit Rrp44 harbors endonuclease activity and tethers Rrp44 to the yeast core exosome. Nucleic Acids Res. 2009; 37: 1127–1140. PMID: 19129231",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gkn1020",
+            "pmid": "19129231",
+            "pmcid": "PMC2651783",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Costanzo, M, VanderSluis, B, Koch, EN, et al. A global genetic interaction network maps a wiring diagram of cellular function. Science. 2016; 353 DOI: DOI: 10.1126/science.aaf1420.",
+            "process_entry": "True",
+            "doi": "10.1126/science.aaf1420.",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Winzeler, EA, Shoemaker, DD, Astromoff, A, et al. Functional characterization of the S. cerevisiae genome by gene deletion and parallel analysis. Science. 1999; 285: 901–906. PMID: 10436161",
+            "process_entry": "True",
+            "doi": "10.1126/science.285.5429.901",
+            "pmid": "10436161",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Breslow, DK, Cameron, DM, Collins, SR, et al. A comprehensive strategy enabling high-resolution functional analysis of the yeast genome. Nat Methods. 2008; 5: 711–718. PMID: 18622397",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.1234",
+            "pmid": "18622397",
+            "pmcid": "PMC2756093",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Li, Z, Vizeacoumar, FJ, Bahr, S, et al. Systematic exploration of essential yeast gene function with temperature-sensitive mutants. Nat Biotechnol. 2011; 29: 361–367. PMID: 21441928",
+            "process_entry": "True",
+            "doi": "10.1038/nbt.1832",
+            "pmid": "21441928",
+            "pmcid": "PMC3286520",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Schneider, C, Kudla, G, Wlotzka, W, et al. Transcriptome-wide analysis of exosome targets. Mol Cell. 2012; 48: 422–433. PMID: 23000172",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2012.08.013",
+            "pmid": "23000172",
+            "pmcid": "PMC3526797",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Yoon, JH, Choi, EJ, Parker, R. Dcp2 phosphorylation by Ste20 modulates stress granule assembly and mRNA decay in Saccharomyces cerevisiae. J Cell Biol. 2010; 189: 813–827. PMID: 20513766",
+            "process_entry": "True",
+            "doi": "10.1083/jcb.200912019",
+            "pmid": "20513766",
+            "pmcid": "PMC2878948",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Teixeira, D, Sheth, U, Valencia-Sanchez, MA, et al. Processing bodies require RNA for assembly and contain nontranslating mRNAs. Rna. 2005; 11: 371–382. PMID: 15703442",
+            "process_entry": "True",
+            "doi": "10.1261/rna.7258505",
+            "pmid": "15703442",
+            "pmcid": "PMC1370727",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Herrero, AB, Moreno, S. Lsm1 promotes genomic stability by controlling histone mRNA decay. Embo J. 2011; 30: 2008–2018. PMID: 21487390",
+            "process_entry": "True",
+            "doi": "10.1038/emboj.2011.117",
+            "pmid": "21487390",
+            "pmcid": "PMC3098488",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Loll-Krippleber, R, Brown, GW. P-body proteins regulate transcriptional rewiring to promote DNA replication stress resistance. Nat Commun. 2017; 8: 558. PMID: 28916784",
+            "process_entry": "True",
+            "doi": "10.1038/s41467-017-00632-2",
+            "pmid": "28916784",
+            "pmcid": "PMC5601920",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Paul, B, Montpetit, B. Altered RNA processing and export lead to retention of mRNAs near transcription sites and nuclear pore complexes or within the nucleolus. Mol Biol Cell. 2016; 27: 2742–2756. PMID: 27385342",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E16-04-0244",
+            "pmid": "27385342",
+            "pmcid": "PMC5007094",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Vinton, PJ, Weinert, T. A slowed cell cycle stabilizes the budding yeast genome. Genetics. 2017; 206: 811–828. PMID: 28468908",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.116.197590",
+            "pmid": "28468908",
+            "pmcid": "PMC5499188",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Novoa, CA, Ang, JS, Stirling, PC. The a-like faker assay for measuring yeast chromosome III stability. Methods Mol Biol. 2018; 1672: 1–9. PMID: 29043612",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4939-7306-4_1",
+            "pmid": "29043612",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Yuen, KW, Warren, CD, Chen, O, et al. Systematic genome instability screens in yeast and their potential relevance to cancer. Proc Natl Acad Sci U S A. 2007; 104: 3925–3930. PMID: 17360454",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0610642104",
+            "pmid": "17360454",
+            "pmcid": "PMC1820685",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Gomez-Gonzalez, B, Garcia-Rubio, M, Bermejo, R, et al. Genome-wide function of THO/TREX in active genes prevents R-loop-dependent replication obstacles. Embo J. 2011 DOI: DOI: 10.1038/emboj.2011.206",
+            "process_entry": "True",
+            "doi": "10.1038/emboj.2011.206",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Luna, R, Jimeno, S, Marin, M, et al. Interdependence between transcription and mRNP processing and export, and its impact on genetic stability. Mol Cell. 2005; 18: 711–722. PMID: 15949445",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2005.05.001",
+            "pmid": "15949445",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Gavalda, S, Gallardo, M, Luna, R, et al. R-loop mediated transcription-associated recombination in trf4Delta mutants reveals new links between RNA surveillance and genome integrity. PLoS One. 2013; 8: e65541. PMID: 23762389",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0065541",
+            "pmid": "23762389",
+            "pmcid": "PMC3676323",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Chan, YA, Aristizabal, MJ, Lu, PY, et al. Genome-wide profiling of yeast DNA:RNA hybrid prone sites with DRIP-chip. PLoS Genet. 2014; 10: e1004288. PMID: 24743342",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1004288",
+            "pmid": "24743342",
+            "pmcid": "PMC3990523",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Wahba, L, Amon, JD, Koshland, D, et al. RNase H and multiple RNA biogenesis factors cooperate to prevent RNA:DNA hybrids from generating genome instability. Mol Cell. 2011; 44: 978–988. PMID: 22195970",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2011.10.017",
+            "pmid": "22195970",
+            "pmcid": "PMC3271842",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Chang, EY, Stirling, PC. Replication fork protection factors controlling R-loop bypass and suppression. Genes (Basel). 2017; 8 DOI: DOI: 10.3390/genes8010033.",
+            "process_entry": "True",
+            "doi": "10.3390/genes8010033.",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Tsanova, B, Spatrick, P, Jacobson, A, et al. The RNA exosome affects iron response and sensitivity to oxidative stress. Rna. 2014; 20: 1057–1067. PMID: 24860016",
+            "process_entry": "True",
+            "doi": "10.1261/rna.043257.113",
+            "pmid": "24860016",
+            "pmcid": "PMC4114685",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Chan, YA, Hieter, P, Stirling, PC. Mechanisms of genome instability induced by RNA-processing defects. Trends Genet. 2014; 30: 245–253. PMID: 24794811",
+            "process_entry": "True",
+            "doi": "10.1016/j.tig.2014.03.005",
+            "pmid": "24794811",
+            "pmcid": "PMC4039741",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Tong, AH, Lesage, G, Bader, GD, et al. Global mapping of the yeast genetic interaction network. Science. 2004; 303: 808–813. PMID: 14764870",
+            "process_entry": "True",
+            "doi": "10.1126/science.1091317",
+            "pmid": "14764870",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Young, BP, Loewen, CJ. Balony: a software package for analysis of data generated by synthetic genetic array experiments. BMC Bioinformatics. 2013; 14: 354. PMID: 24305553",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2105-14-354",
+            "pmid": "24305553",
+            "pmcid": "PMC4234492",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Schneider, CA, Rasband, WS, Eliceiri, KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012; 9: 671–675. PMID: 22930834",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.2089",
+            "pmid": "22930834",
+            "pmcid": "PMC5554542",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Hopper, AK, Schultz, LD, Shapiro, RA. Processing of intervening sequences: a new yeast mutant which fails to excise intervening sequences from precursor tRNAs. Cell. 1980; 19: 741–751. PMID: 7363329",
+            "process_entry": "True",
+            "doi": "10.1016/s0092-8674(80)80050-x",
+            "pmid": "7363329",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Wu, J, Bao, A, Chatterjee, K, et al. Genome-wide screen uncovers novel pathways for tRNA processing and nuclear-cytoplasmic dynamics. Genes Dev. 2015; 29: 2633–2644. PMID: 26680305",
+            "process_entry": "True",
+            "doi": "10.1101/gad.269803.115",
+            "pmid": "26680305",
+            "pmcid": "PMC4699390",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Allmang, C, Mitchell, P, Petfalski, E, et al. Degradation of ribosomal RNA precursors by the exosome. Nucleic Acids Res. 2000; 28: 1684–1691. PMID: 10734186",
+            "process_entry": "True",
+            "doi": "10.1093/nar/28.8.1684",
+            "pmid": "10734186",
+            "pmcid": "PMC102825",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Guex, N, Peitsch, MC. SWISS-MODEL and the Swiss-PdbViewer: an environment for comparative protein modeling. Electrophoresis. 1997; 18: 2714–2723. PMID: 9504803",
+            "process_entry": "True",
+            "doi": "10.1002/elps.1150181505",
+            "pmid": "9504803",
+            "xmlid": "CIT0047"
+        }
+    ],
+    "localid": "MED-30724665",
+    "doi": "10.1080/19491034.2019.1578600",
+    "pmid": "10.1080/19491034.2019.1578600",
+    "pmcid": "30724665",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30724665/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),98,164)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),263,128)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2–4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),385,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "[2–4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),385,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),263,128)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),263,128)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2–4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),385,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),392,135)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),528,234)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,234)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),236,260)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6–8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "[6–8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),236,260)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),236,260)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6–8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),490,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),497,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,182)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),184,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),380,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),661,179)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),832,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),661,179)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),832,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,205)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1,148)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),141,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1,148)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),141,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/fig/caption/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]/fig/caption/p),213,125)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/fig/caption/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]/fig/caption/p),472,161)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),149,124)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),265,7)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),149,124)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),265,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),274,153)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),603,206)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1010,217)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1376,103)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characterization of DIS3 alleles"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),162,152)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),1,242)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ],
+                "pl_string": "[21–23]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),235,7)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "",
+                "pl_string": "[21–23]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),235,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),1,242)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ]
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),1,242)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ],
+                "pl_string": "[21–23]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),235,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),403,94)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),648,321)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]/fig/caption/p),81,131)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Genomic profiling of the cancer-associated dis3e729k indicates mitotic defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),144,150)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DIS3 mutations induce distinct RNA processing defects"
+                ],
+                "pl_string": "[25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),286,7)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),144,150)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DIS3 mutations induce distinct RNA processing defects"
+                ],
+                "pl_string": "[25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),286,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),977,342)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DIS3 mutations induce distinct RNA processing defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),977,342)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DIS3 mutations induce distinct RNA processing defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),1,237)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DIS3 mutations induce distinct RNA processing defects"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),547,216)",
+                "containers_title": [
+                    "Results and discussion",
+                    "The dis3e729k allele alters cell cycle progression in the context of kinetochore deficiency"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1040,292)",
+                "containers_title": [
+                    "Results and discussion",
+                    "The dis3e729k allele alters cell cycle progression in the context of kinetochore deficiency"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,119)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),263,217)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),472,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),263,217)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),472,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,151)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),144,7)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1,151)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),144,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),153,157)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),311,175)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),478,7)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "",
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),478,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),311,175)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ]
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),311,175)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),478,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),487,136)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1068,259)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1068,259)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[36,39]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1249,7)"
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1068,259)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ],
+                "pl_string": "[36,39]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1249,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),1832,174)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Mutations in the DIS3 exonuclease domain cause genome instability, but not DNA damage"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),123,212)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Perspective"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),336,317)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Perspective"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),467,5)"
+            },
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),336,317)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Perspective"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),467,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),654,201)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Perspective"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[2]),349,127)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Perspective"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),87,82)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Yeast growth and strains"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),311,150)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chromosome instability assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,200)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Synthetic genetic array"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,200)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Synthetic genetic array"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,200)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Synthetic genetic array"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),259,57)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Synthetic genetic array"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1269,99)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Synthetic genetic array"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),462,81)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Microscopy"
+                ],
+                "pl_string": "[13,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),535,7)"
+            },
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),462,81)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Microscopy"
+                ],
+                "pl_string": "[13,43]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[1]),535,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[1]),115,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Northern blot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[2]),1,63)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Northern blot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[2]),450,49)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Northern blot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,56)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Fluorescence in situ hybridization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),276,289)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Fluorescence in situ hybridization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),293,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Gene ontology and protein structure analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),293,107)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Gene ontology and protein structure analysis"
+                ]
+            }
+        ]
+    ]
+}

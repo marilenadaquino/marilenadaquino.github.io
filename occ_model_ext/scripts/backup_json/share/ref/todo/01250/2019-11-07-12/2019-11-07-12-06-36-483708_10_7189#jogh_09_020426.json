@@ -1,0 +1,797 @@
+{
+    "references": [
+        {
+            "bibentry": "Atun, R, Davies, JI, Gale, EA, Bärnighausen, T, Beran, D, Kengne, AP. Diabetes in sub-Saharan Africa: from clinical care to health policy. Lancet Diabetes Endocrinol. 2017; 5: 622-67. DOI: 10.1016/S2213-8587(17)30181-X PMID: 28688818",
+            "process_entry": "True",
+            "doi": "10.1016/s2213-8587(17)30181-x",
+            "pmid": "28688818",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Jamison, DT, Alwan, A, Mock, CN, Nugent, R, Watkins, D, Adeyi, O. Universal health coverage and intersectoral action for health: key messages from Disease Control Priorities. Lancet. 2018; 391: 1108-20. DOI: 10.1016/S0140-6736(17)32906-9 PMID: 29179954",
+            "process_entry": "True",
+            "doi": "10.1016/S0140-6736(17)32906-9",
+            "pmid": "29179954",
+            "pmcid": "PMC5996988",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Chiu, M, Austin, PC, Manuel, DG, Shah, BR, Tu, JV. Deriving ethnic-specific BMI cutoff points for assessing diabetes risk. Diabetes Care. 2011; 34: 1741-8. DOI: 10.2337/dc10-2300 PMID: 21680722",
+            "process_entry": "True",
+            "doi": "10.2337/dc10-2300",
+            "pmid": "21680722",
+            "pmcid": "PMC3142051",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Mokdad, AH, Ford, ES, Bowman, BA, Dietz, WH, Vinicor, F, Bales, VS. Prevalence of obesity, diabetes, and obesity-related health risk factors, 2001. JAMA. 2003; 289: 76-9. DOI: 10.1001/jama.289.1.76 PMID: 12503980",
+            "process_entry": "True",
+            "doi": "10.1001/jama.289.1.76",
+            "pmid": "12503980",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Gujral, UP, Mohan, V, Pradeepa, R, Deepa, M, Anjana, RM, Narayan, K. Ethnic differences in the prevalence of diabetes in underweight and normal weight individuals: The CARRS and NHANES studies. Diabetes Res Clin Pract. 2018; 146: 34-40. DOI: 10.1016/j.diabres.2018.09.011 PMID: 30244052",
+            "process_entry": "True",
+            "doi": "10.1016/j.diabres.2018.09.011",
+            "pmid": "30244052",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Kramer, CK, Zinman, B, Retnakaran, R. Are metabolically healthy overweight and obesity benign conditions: A systematic review and meta-analysis. Ann Intern Med. 2013; 159: 758-69. DOI: 10.7326/0003-4819-159-11-201312030-00008 PMID: 24297192",
+            "process_entry": "True",
+            "doi": "10.7326/0003-4819-159-11-201312030-00008",
+            "pmid": "24297192",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Stefan, N, Schick, F, Häring, H-U. Causes, characteristics, and consequences of metabolically unhealthy normal weight in humans. Cell Metab. 2017; 26: 292-300. DOI: 10.1016/j.cmet.2017.07.008 PMID: 28768170",
+            "process_entry": "True",
+            "doi": "10.1016/j.cmet.2017.07.008",
+            "pmid": "28768170",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Murphy, N, Cross, AJ, Abubakar, M, Jenab, M, Aleksandrova, K, Boutron-Ruault, M-C. A nested case–control study of metabolically defined body size phenotypes and risk of colorectal cancer in the European Prospective Investigation into Cancer and Nutrition (EPIC). PLoS Med. 2016; 13: e1001988. DOI: 10.1371/journal.pmed.1001988 PMID: 27046222",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pmed.1001988",
+            "pmid": "27046222",
+            "pmcid": "PMC4821615",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Feeley, A, Musenge, E, Pettifor, JM, Norris, SA. Changes in dietary habits and eating practices in adolescents living in urban South Africa: The birth to twenty cohort. Nutrition. 2012; 28: e1-6. DOI: 10.1016/j.nut.2011.11.025 PMID: 22465902",
+            "process_entry": "True",
+            "doi": "10.1016/j.nut.2011.11.025",
+            "pmid": "22465902",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "George, AM, Jacob, AG, Fogelfeld, L. Lean diabetes mellitus: An emerging entity in the era of obesity. World J Diabetes. 2015; 6: 613. DOI: 10.4239/wjd.v6.i4.613 PMID: 25987958",
+            "process_entry": "True",
+            "doi": "10.4239/wjd.v6.i4.613",
+            "pmid": "25987958",
+            "pmcid": "PMC4434081",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Akombi, BJ, Agho, KE, Hall, JJ, Wali, N, Renzaho, A, Merom, D. Stunting, wasting and underweight in sub-Saharan Africa: a systematic review. Int J Environ Res Public Health. 2017; 14: 863. DOI: 10.3390/ijerph14080863 PMID: 28788108",
+            "process_entry": "True",
+            "doi": "10.3390/ijerph14080863",
+            "pmid": "28788108",
+            "pmcid": "PMC5580567",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Davies, JI, Macnab, AJ, Byass, P, Norris, SA, Nyirenda, M, Singhal, A. Developmental origins of health and disease in Africa—influencing early life. Lancet Glob Health. 2018; 6: e244-5. DOI: 10.1016/S2214-109X(18)30036-6 PMID: 29433658",
+            "process_entry": "True",
+            "doi": "10.1016/s2214-109x(18)30036-6",
+            "pmid": "29433658",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Agyemang, C, Beune, E, Meeks, K, Owusu-Dabo, E, Agyei-Baffour, P, Aikins, AGAd-G, et al. Rationale and cross-sectional study design of the Research on Obesity and type 2 Diabetes among African Migrants: the RODAM study. BMJ Open. 2014; 4: e004877. DOI: 10.1136/bmjopen-2014-004877 PMID: 24657884",
+            "process_entry": "True",
+            "doi": "10.1136/bmjopen-2014-004877",
+            "pmid": "24657884",
+            "pmcid": "PMC3963103",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "Organization, WH. Global database on body mass index: an interactive surveillance tool for monitoring nutrition transition. Public Health Nutr. 2006; 9: 658-60.",
+            "process_entry": "True",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Bull, FC, Maslin, TS, Armstrong, T. Global physical activity questionnaire (GPAQ): nine country reliability and validity study. J Phys Act Health. 2009; 6: 790-804. DOI: 10.1123/jpah.6.6.790 PMID: 20101923",
+            "process_entry": "True",
+            "doi": "10.1123/jpah.6.6.790",
+            "pmid": "20101923",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "Wallace, TM, Levy, JC, Matthews, DR. Use and abuse of HOMA modeling. Diabetes Care. 2004; 27: 1487-95. DOI: 10.2337/diacare.27.6.1487 PMID: 15161807",
+            "process_entry": "True",
+            "doi": "10.2337/diacare.27.6.1487",
+            "pmid": "15161807",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "Riobó Serván, P. Obesidad y diabetes. Nutr Hosp. 2013; 28: 138-43. PMID: 24010754",
+            "process_entry": "True",
+            "doi": "10.3305/nh.2013.28.sup5.6929",
+            "pmid": "24010754",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "Hartmann, B, Lanzinger, S, Bramlage, P, Groß, F, Danne, T, Wagner, S. Lean diabetes in middle-aged adults: A joint analysis of the German DIVE and DPV registries. PLoS One. 2017; 12: e0183235. DOI: 10.1371/journal.pone.0183235 PMID: 28827839",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0183235",
+            "pmid": "28827839",
+            "pmcid": "PMC5565180",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Hartmann, B, Bramlage, P, Schneider, S, Tschöpe, D, Gitt, A. Impact of body weight on antidiabetic treatment and predictors of weight control under real-world conditions: a 2-year follow-up of DiaRegis cohort. Acta Diabetol. 2015; 52: 1093-101. DOI: 10.1007/s00592-015-0794-0 PMID: 26239142",
+            "process_entry": "True",
+            "doi": "10.1007/s00592-015-0794-0",
+            "pmid": "26239142",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Tobias, DK, Pan, A, Jackson, CL, O’reilly, EJ, Ding, EL, Willett, WC. Body-mass index and mortality among adults with incident type 2 diabetes. N Engl J Med. 2014; 370: 233-44. DOI: 10.1056/NEJMoa1304501 PMID: 24428469",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1304501",
+            "pmid": "24428469",
+            "pmcid": "PMC3966911",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Hanson, MA, Gluckman, P. Early developmental conditioning of later health and disease: physiology or pathophysiology? Physiol Rev. 2014; 94: 1027-76. DOI: 10.1152/physrev.00029.2013 PMID: 25287859",
+            "process_entry": "True",
+            "doi": "10.1152/physrev.00029.2013",
+            "pmid": "25287859",
+            "pmcid": "PMC4187033",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Galbete, C, Nicolaou, M, Meeks, K, Klipstein-Grobusch, K, Aikins, AG, Ado, JAikins Ad-G, Addo J, et al. Dietary patterns and type 2 diabetes among Ghanaian migrants in Europe and their compatriots in Ghana: the RODAM study. Nutr Diabetes. 2018; 8: 25. DOI: 10.1038/s41387-018-0029-x PMID: 29695705",
+            "process_entry": "True",
+            "doi": "10.1038/s41387-018-0029-x",
+            "pmid": "29695705",
+            "pmcid": "PMC5917045",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "Cheung, BM, Li, C. Diabetes and hypertension: is there a common metabolic pathway? Curr Atheroscler Rep. 2012; 14: 160-6. DOI: 10.1007/s11883-012-0227-2 PMID: 22281657",
+            "process_entry": "True",
+            "doi": "10.1007/s11883-012-0227-2",
+            "pmid": "22281657",
+            "pmcid": "PMC3314178",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Landsberg, L, Molitch, M. Diabetes and hypertension: pathogenesis, prevention and treatment. Clin Exp Hypertens. 2004; 26: 621-8. DOI: 10.1081/CEH-200031945 PMID: 15702616",
+            "process_entry": "True",
+            "doi": "10.1081/ceh-200031945",
+            "pmid": "15702616",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Gress, TW, Nieto, FJ, Shahar, E, Wofford, MR, Brancati, FL. Hypertension and antihypertensive therapy as risk factors for type 2 diabetes mellitus. N Engl J Med. 2000; 342: 905-12. DOI: 10.1056/NEJM200003303421301 PMID: 10738048",
+            "process_entry": "True",
+            "doi": "10.1056/nejm200003303421301",
+            "pmid": "10738048",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "Price, AJ, Crampin, AC, Amberbir, A, Kayuni-Chihana, N, Musicha, C, Tafatatha, T. Prevalence of obesity, hypertension, and diabetes, and cascade of care in sub-Saharan Africa: a cross-sectional, population-based study in rural and urban Malawi. Lancet Diabetes Endocrinol. 2018; 6: 208-22. DOI: 10.1016/S2213-8587(17)30432-1 PMID: 29371076",
+            "process_entry": "True",
+            "doi": "10.1016/S2213-8587(17)30432-1",
+            "pmid": "29371076",
+            "pmcid": "PMC5835666",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "Goodpaster, BH, Krishnaswami, S, Resnick, H, Kelley, DE, Haggerty, C, Harris, TB. Association between regional adipose tissue distribution and both type 2 diabetes and impaired glucose tolerance in elderly men and women. Diabetes Care. 2003; 26: 372-9. DOI: 10.2337/diacare.26.2.372 PMID: 12547865",
+            "process_entry": "True",
+            "doi": "10.2337/diacare.26.2.372",
+            "pmid": "12547865",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "Lumb, A. Diabetes and exercise. Clin Med (Lond). 2014; 14: 673-6. DOI: 10.7861/clinmedicine.14-6-673 PMID: 25468857",
+            "process_entry": "True",
+            "doi": "10.7861/clinmedicine.14-6-673",
+            "pmid": "25468857",
+            "pmcid": "PMC4954144",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "Meeks, KA, Stronks, K, Adeyemo, A, Addo, J, Bahendeka, S, Beune, E. Peripheral insulin resistance rather than beta cell dysfunction accounts for geographical differences in impaired fasting blood glucose among sub-Saharan African individuals: findings from the RODAM study. Diabetologia. 2017; 60: 854-64. DOI: 10.1007/s00125-017-4216-4 PMID: 28144712",
+            "process_entry": "True",
+            "doi": "10.1007/s00125-017-4216-4",
+            "pmid": "28144712",
+            "pmcid": "PMC6518094",
+            "xmlid": "R29"
+        },
+        {
+            "bibentry": "Lau, DC, Teoh, H. Impact of current and emerging glucose-lowering drugs on body weight in type 2 diabetes. Can J Diabetes. 2015; 39: S148-54. DOI: 10.1016/j.jcjd.2015.09.090 PMID: 26654858",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcjd.2015.09.090",
+            "pmid": "26654858",
+            "xmlid": "R30"
+        },
+        {
+            "bibentry": "Grams, J, Garvey, WT. Weight loss and the prevention and treatment of type 2 diabetes using lifestyle therapy, pharmacotherapy, and bariatric surgery: mechanisms of action. Curr Obes Rep. 2015; 4: 287-302. DOI: 10.1007/s13679-015-0155-x PMID: 26627223",
+            "process_entry": "True",
+            "doi": "10.1007/s13679-015-0155-x",
+            "pmid": "26627223",
+            "xmlid": "R31"
+        },
+        {
+            "bibentry": "Kalyani, RR, Tra, Y, Egan, J, Ferrucci, L, Brancati, F. Hyperglycemia is associated with relatively lower lean body mass in older adults. J Nutr Health Aging. 2014; 18: 737-43. DOI: 10.1007/s12603-014-0538-9 PMID: 25286453",
+            "process_entry": "True",
+            "doi": "10.1007/s12603-014-0445-0",
+            "pmid": "25286453",
+            "pmcid": "PMC4414396",
+            "xmlid": "R32"
+        }
+    ],
+    "localid": "MED-31673340",
+    "doi": "10.7189/jogh.09.020426",
+    "pmid": "10.7189/jogh.09.020426",
+    "pmcid": "31673340",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673340/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,145)",
+                "containers_title": "",
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/p[1]),140,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,145)",
+                "containers_title": "",
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/p[1]),140,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[1]),147,208)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[1]),356,130)",
+                "containers_title": "",
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/p[1]),480,5)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[1]),356,130)",
+                "containers_title": "",
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/p[1]),480,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/p[1]),487,383)",
+                "containers_title": "",
+                "pl_string": "[6-8]",
+                "pl_xpath": "substring(string(/article/body/p[1]),864,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "R7",
+                "pl_string": "[6-8]",
+                "pl_xpath": "substring(string(/article/body/p[1]),864,5)",
+                "context_xpath": "substring(string(/article/body/p[1]),487,383)",
+                "containers_title": ""
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/p[1]),487,383)",
+                "containers_title": "",
+                "pl_string": "[6-8]",
+                "pl_xpath": "substring(string(/article/body/p[1]),864,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,141)",
+                "containers_title": "",
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/p[2]),135,6)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,141)",
+                "containers_title": "",
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/p[2]),135,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),143,135)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),279,225)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/p[2]),505,202)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[3]),1,176)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[3]),431,239)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/p[4]),1,259)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/p),207,65)",
+                "containers_title": [
+                    "METHODS",
+                    "Study setting and population"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p),285,142)",
+                "containers_title": [
+                    "METHODS",
+                    "Underweight/normal weight individuals with Type 2 diabetes"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p[1]),430,195)",
+                "containers_title": [
+                    "METHODS",
+                    "Measurements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[4]/p[2]),949,198)",
+                "containers_title": [
+                    "METHODS",
+                    "Measurements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,259)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),261,164)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),426,532)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ],
+                "pl_string": "[18-20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),950,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "R19",
+                "pl_string": "[18-20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),950,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),426,532)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),426,532)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ],
+                "pl_string": "[18-20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),950,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),959,388)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ],
+                "pl_string": "[11,21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1339,7)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),959,388)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ],
+                "pl_string": "[11,21]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1339,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),319,264)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),1006,185)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),1192,159)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),125,155)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),602,168)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),1,325)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),327,92)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),420,111)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[5]),1,261)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[5]),254,7)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[5]),1,261)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[5]),254,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[6]),1,89)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[7]),116,200)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[7]),574,224)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[8]),1,276)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[8]),465,222)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Interpretation of key findings"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "R30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),533,342)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Strengths and limitations"
+                ],
+                "pl_string": "[30-32]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),742,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "R31",
+                "pl_string": "[30-32]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),742,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),533,342)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Strengths and limitations"
+                ]
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "R32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),533,342)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Strengths and limitations"
+                ],
+                "pl_string": "[30-32]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),742,7)"
+            }
+        ]
+    ]
+}

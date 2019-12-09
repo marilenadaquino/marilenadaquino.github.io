@@ -1,0 +1,874 @@
+{
+    "references": [
+        {
+            "bibentry": "Storey, S. Targeting apoptosis: selected anticancer strategies. Nat Rev Drug Discov 2008; 7: 971–2. PMID: 19043447",
+            "process_entry": "True",
+            "doi": "10.1038/nrd2662",
+            "pmid": "19043447",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Lain, S, Hollick, JJ, Campbell, J, et al. Discovery, in vivo activity, and mechanism of action of a small-molecule p53 activator. Cancer Cell 2008; 13: 454–63. PMID: 18455128",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccr.2008.03.004",
+            "pmid": "18455128",
+            "pmcid": "PMC2742717",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Flygare, JA, Beresini, M, Budha, N, et al. Discovery of a potent small-molecule antagonist of inhibitor of apoptosis (IAP) proteins and clinical candidate for the treatment of cancer (GDC-0152). J Med Chem 2012; 55: 4101–13. PMID: 22413863",
+            "process_entry": "True",
+            "doi": "10.1021/jm300060k",
+            "pmid": "22413863",
+            "pmcid": "PMC3366583",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Souers, AJ, Leverson, JD, Boghaert, ER, et al. ABT-199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while sparing platelets. Nat Med 2013; 19: 202. PMID: 23291630",
+            "process_entry": "True",
+            "doi": "10.1038/nm.3048",
+            "pmid": "23291630",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Putt, KS, Chen, GW, Pearson, JM, et al. Small-molecule activation of procaspase-3 to caspase-3 as a personalized anticancer strategy. Nat Chem Biol 2006; 2: 543. PMID: 16936720",
+            "process_entry": "True",
+            "doi": "10.1038/nchembio814",
+            "pmid": "16936720",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Krepela, E, Procházka, J, Liu, X, et al. Increased expression of Apaf-1 and procaspase-3 and the functionality of intrinsic apoptosis apparatus in non-small cell lung carcinoma. Bchm 2004; 385: 153–68.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Fink, D, Schlagbauer-Wadl, H, Selzer, E, et al. Elevated procaspase levels in human melanoma. Melanoma Res 2001; 11: 385–93. PMID: 11479427",
+            "process_entry": "True",
+            "doi": "10.1097/00008390-200108000-00009",
+            "pmid": "11479427",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Persad, R, Liu, C, Wu, T-T, et al. Overexpression of caspase-3 in hepatocellular carcinomas. Mod Pathol 2004; 17: 861. PMID: 15098015",
+            "process_entry": "True",
+            "doi": "10.1038/modpathol.3800146",
+            "pmid": "15098015",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "O’Donovan, N, Crown, J, Stunell, H, et al. Caspase 3 in breast cancer. Clin Cancer Res 2003; 9: 738. PMID: 12576443",
+            "process_entry": "True",
+            "pmid": "12576443",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Keith, FI, Tamara, W-S, Eric, DH, et al. Characterization of the interleukin-1β-converting enzyme/ced-3-family protease, caspase-3/CPP32, in hodgkin’s disease: lack of caspase-3 expression in nodular lymphocyte predominance hodgkin’s disease. Am J Pathol 1999; 154: 1439–47. PMID: 10329597",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9440(10)65398-9",
+            "pmid": "10329597",
+            "pmcid": "PMC1866604",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Akira, N, Yohko, N, Hitoshi, I, et al. High levels of expression and nuclear localization of interleukin-1 b converting enzyme (ICE) and CPP32 in favorable human neuroblastomas. Cancer Res 1997; 57: 4578–84. PMID: 9377572",
+            "process_entry": "True",
+            "pmid": "9377572",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Svingen, PA, Loegering, D, Rodriquez, J, et al. Components of the cell death machine and drug sensitivity of the national cancer institute cell line panel. Clin Cancer Res 2004; 10: 6807. PMID: 15501957",
+            "process_entry": "True",
+            "doi": "10.1158/1078-0432.ccr-0778-02",
+            "pmid": "15501957",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Howard, SR, Paul, JH. Derivatives of procaspase-activating compound 1 (PAC-1) and their anticancer activities. Curr Med Chem 2016; 23: 201–41. PMID: 26630918",
+            "process_entry": "True",
+            "doi": "10.2174/0929867323666151127201829",
+            "pmid": "26630918",
+            "pmcid": "PMC4968085",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Huan, LC, Truc, LC, Phuong, CV, et al. N′-[(E)-Arylidene]-2-(2,3-dihydro-3-oxo-4H-1,4-benzoxazin-4-yl)-acetohydrazides: synthesis and evaluation of caspase activation activity and cytotoxicity. Chem Biodivers 2018; 15: e1800322. PMID: 30054973",
+            "process_entry": "True",
+            "doi": "10.1002/cbdv.201800322",
+            "pmid": "30054973",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Peterson, QP, Goode, DR, West, DC, et al. PAC-1 activates procaspase-3 in vitro through relief of zinc-mediated inhibition. J Mol Biol 2009; 388: 144–58. PMID: 19281821",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2009.03.003",
+            "pmid": "19281821",
+            "pmcid": "PMC2714579",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Peterson, QP, Hsu, DC, Goode, DR, et al. Procaspase-3 activation as an anti-cancer strategy: structure − activity relationship of procaspase-activating compound 1 (PAC-1) and its cellular co-localization with caspase-3. J Med Chem 2009; 52: 5721–31. PMID: 19708658",
+            "process_entry": "True",
+            "doi": "10.1021/jm900722z",
+            "pmid": "19708658",
+            "pmcid": "PMC2749958",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Asif, M. Chemical characteristics, synthetic methods, and biological potential of quinazoline and quinazolinone derivatives. Int J Med Chem 2014; 2014: 1–27.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Skehan, P, Storeng, R, Scudiero, D, et al. New colorimetric cytotoxicity assay for anticancer-drug screening. J Natl Cancer Inst 1990; 82: 1107–12. PMID: 2359136",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/82.13.1107",
+            "pmid": "2359136",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Tung, TT, Oanh, DTK, Dung, PTP, et al. New benzothiazole/thiazole-containing hydroxamic acids as potent histone deacetylase inhibitors and antitumor agents. Med Chem 2013; 9: 1051–7. PMID: 23521008",
+            "process_entry": "True",
+            "doi": "10.2174/15734064113099990027",
+            "pmid": "23521008",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Nam, NH, Huong, TL, Dung, DTM, et al. Synthesis, bioevaluation and docking study of 5-substitutedphenyl-1,3,4-thiadiazole-based hydroxamic acids as histone deacetylase inhibitors and antitumor agents. J Enzyme Inhib Med Chem 2014; 29: 611–8. PMID: 24020585",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2013.832238",
+            "pmid": "24020585",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "You, YJ, Kim, Y, Nam, NH, et al. Antitumor activity of unsaturated fatty acid esters of 4'-demethyldeoxypodophyllotoxin. Bioorg Med Chem Lett 2003; 13: 2629–32. PMID: 12873481",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(03)00558-4",
+            "pmid": "12873481",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Thuong, PT, Na, MK, Dang, NH, et al. Antioxidant activities of Vietnamese medicinal plants. Nat Prod Sci 2006; 12: 29–37.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Wu, L, Smythe, AM, Stinson, SF, et al. Multidrug-resistant phenotype of disease-oriented panels of human tumor cell lines used for anticancer drug screening. Cancer Res 1992; 52: 3029. PMID: 1350507",
+            "process_entry": "True",
+            "pmid": "1350507",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Molecular Operating Environment (MOE). 2009.10; Chemical Computing Group ULC, 1010 Sherbooke St. West, Suite #910, Montreal, QC, Canada, H3A 2R7, 2009.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Walters, J, Pop, C, Scott Fiona, L, et al. A constitutively active and uninhibitable caspase-3 zymogen efficiently induces apoptosis. Biochem J 2009; 424: 335. PMID: 19788411",
+            "process_entry": "True",
+            "doi": "10.1042/BJ20090825",
+            "pmid": "19788411",
+            "pmcid": "PMC2805924",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Velázquez-Delgado, EM, Hardy, JA. Zinc-mediated allosteric inhibition of caspase-6. J Biol Chem 2012; 287: 36000–11. PMID: 22891250",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M112.397752",
+            "pmid": "22891250",
+            "pmcid": "PMC3476268",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Huong, TTL, Dung, DTM, Huan, NV, et al. Novel N-hydroxybenzamides incorporating 2-oxoindoline with unexpected potent histone deacetylase inhibitory effects and antitumor cytotoxicity. Bioorg Chem 2017; 71: 160–9. PMID: 28196602",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2017.02.002",
+            "pmid": "28196602",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Dassault Systèmes BIOVIA. Discovery Studio Modeling Environment. San Diego, CA, USA: Accelrys Inc; 2016.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Špulák, M, Novák, Z, Palát, K, et al. The unambiguous synthesis and NMR assignment of 4-alkoxy and 3-alkylquinazolines. Tetrahedron 2013; 69: 1705–11.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Palla, G, Predieri, G, Domiano, P, et al. Conformational behaviour and E/Z isomerization of N-acyl and N-aroylhydrazones. Tetrahedron 1986; 42: 3649–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Häcker, H-G, Sisay, MT, Gütschow, M. Allosteric modulation of caspases. Pharmacol Ther 2011; 132: 180–95. PMID: 21807025",
+            "process_entry": "True",
+            "doi": "10.1016/j.pharmthera.2011.07.003",
+            "pmid": "21807025",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Thomsen, ND, Koerber, JT, Wells, JA. Structural snapshots reveal distinct mechanisms of procaspase-3 and -7 activation. Proc Natl Acad Sci USA 2013; 110: 8477. PMID: 23650375",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1306759110",
+            "pmid": "23650375",
+            "pmcid": "PMC3666719",
+            "xmlid": "CIT0032"
+        }
+    ],
+    "localid": "MED-30734614",
+    "doi": "10.1080/14756366.2018.1555536",
+    "pmid": "10.1080/14756366.2018.1555536",
+    "pmcid": "30734614",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30734614/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),59,92)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),153,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),490,364)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Cancer is one of two leading killers worldwide currently. The primary cause of cancer development and progression is the dysregulation of apoptosis1. Compounds such as p53 disruptors (tenovin-1)2 and inhibitors of XIAP (GDC-0152)3 or Bcl-2 (ABT-199)4 act directly on proteins in the apoptotic pathway to induce apoptosis and lead to the death of cancer cells. Caspases are a family of cysteine proteases enzymes important for maintaining homeostasis through regulating cell death. A number of studies have demonstrated that direct activation of procaspase-3 by small molecules could have advantages over the above apoptosis-inducing compounds, because procaspase-3 is found overexpressed in various human tumours, including those of colon cancer5, lung cancer6, melanoma7, hepatoma8, breast cancer9, lymphoma10, and neuroblastoma11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,158)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Despite the significant potential role of caspases in cancer pathology12, very few caspase-specific activators have been developed thus far5,13,14. PAC-1, the first procaspase activating compound (Figure 1), is among the first procaspase activating compounds reported in recent years which shows promising in vivo antitumor activity profile5. Studies on the structure-activity relationships of PAC-1 and other related compounds pointed out that the acyl hydrazone moiety (B-region, Figure 1) plays an important role for their broad bioactivity, owing to their ability to form stable complexes with zinc15,16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,158)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Despite the significant potential role of caspases in cancer pathology12, very few caspase-specific activators have been developed thus far5,13,14. PAC-1, the first procaspase activating compound (Figure 1), is among the first procaspase activating compounds reported in recent years which shows promising in vivo antitumor activity profile5. Studies on the structure-activity relationships of PAC-1 and other related compounds pointed out that the acyl hydrazone moiety (B-region, Figure 1) plays an important role for their broad bioactivity, owing to their ability to form stable complexes with zinc15,16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,158)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Despite the significant potential role of caspases in cancer pathology12, very few caspase-specific activators have been developed thus far5,13,14. PAC-1, the first procaspase activating compound (Figure 1), is among the first procaspase activating compounds reported in recent years which shows promising in vivo antitumor activity profile5. Studies on the structure-activity relationships of PAC-1 and other related compounds pointed out that the acyl hydrazone moiety (B-region, Figure 1) plays an important role for their broad bioactivity, owing to their ability to form stable complexes with zinc15,16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,158)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Despite the significant potential role of caspases in cancer pathology12, very few caspase-specific activators have been developed thus far5,13,14. PAC-1, the first procaspase activating compound (Figure 1), is among the first procaspase activating compounds reported in recent years which shows promising in vivo antitumor activity profile5. Studies on the structure-activity relationships of PAC-1 and other related compounds pointed out that the acyl hydrazone moiety (B-region, Figure 1) plays an important role for their broad bioactivity, owing to their ability to form stable complexes with zinc15,16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),161,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),358,270)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),165,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1131,175)",
+                "containers_title": [
+                    "Material and methods",
+                    "Cytotoxicity assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0019",
+                "rp_string": "19–22",
+                "pl_string": "19–22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1131,175)",
+                "containers_title": [
+                    "Material and methods",
+                    "Cytotoxicity assay"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1131,175)",
+                "containers_title": [
+                    "Material and methods",
+                    "Cytotoxicity assay"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1131,175)",
+                "containers_title": [
+                    "Material and methods",
+                    "Cytotoxicity assay"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1131,175)",
+                "containers_title": [
+                    "Material and methods",
+                    "Cytotoxicity assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1308,147)",
+                "containers_title": [
+                    "Material and methods",
+                    "Cytotoxicity assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,106)",
+                "containers_title": [
+                    "Material and methods",
+                    "Docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),488,239)",
+                "containers_title": [
+                    "Material and methods",
+                    "Docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),729,130)",
+                "containers_title": [
+                    "Material and methods",
+                    "Docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),927,156)",
+                "containers_title": [
+                    "Material and methods",
+                    "Docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1366,173)",
+                "containers_title": [
+                    "Material and methods",
+                    "Docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),373,241)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,153)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),369,147)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),599,233)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),956,113)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1170,142)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1170,142)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1314,121)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1437,172)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1611,104)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),660,127)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,144)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Bioactivity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0019",
+                "rp_string": "19–22",
+                "pl_string": "19–22",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "pl_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,144)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Bioactivity"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,144)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Bioactivity"
+                ]
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,144)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Bioactivity"
+                ]
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "",
+                "pl_string": "19–22",
+                "pl_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,144)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Bioactivity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),765,361)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Bioactivity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),1,222)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),431,216)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),649,431)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),835,11)",
+                "pl_string": "e\n31\n\n,\n\n32"
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),649,431)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),835,11)",
+                "pl_string": "e\n31\n\n,\n\n32"
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),649,432)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[3]),529,207)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[4]),641,336)",
+                "containers_title": [
+                    "Results and discussions",
+                    "Molecular docking studies of 5 b, 5n, 5t, and 7b"
+                ]
+            }
+        ]
+    ]
+}

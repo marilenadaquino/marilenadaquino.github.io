@@ -1,0 +1,992 @@
+{
+    "references": [
+        {
+            "bibentry": "http://www.un.org/millenniumgoals/. Accessed: 13 December 2018.",
+            "process_entry": "True",
+            "url": "http://www.un.org/millenniumgoals/. Accessed: 13 December 2018.",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "The Millennium Development Goals Report 2015. New York: United Nations; 2015.",
+            "process_entry": "True",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "http://www.un.org/sustainabledevelopment/sustainable-development-goals/. Accessed: 13 December 2018.",
+            "process_entry": "True",
+            "url": "http://www.un.org/sustainabledevelopment/sustainable-development-goals/. Accessed: 13 December 2018.",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Programme for control of diarrhoeal diseases, resolution WHA31.44 (24 May 1978). Handbook of resolutions and decisions of the World Health Assembly and the Executive Board, Volume II, 3rd ed, 1973-1978. Geneva: World Health Organization; 1979.",
+            "process_entry": "True",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Black, RE, Fontaine, O, Lamberti, L, Bhan, MK, Huicho, L, El Arifeen, S. Global control of childhood diarrhea mortality 1980-2015. J Glob Health. 2019; 2: 020801 DOI: 10.7189/jogh.09.020801",
+            "process_entry": "True",
+            "doi": "10.7189/jogh.09.020801",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Mahalanabis, D, Choudhuri, AB, Bagchi, NG, Bhattacharya, AK, Simpson, TW. Oral fluid therapy of cholera among Bangladesh refugees. Johns Hopkins Med J. 1973; 132: 197-205. PMID: 4698667",
+            "process_entry": "True",
+            "pmid": "4698667",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Mahalanabis, D, Merson, MH, Barua, D. Oral rehydration therapy -recent advances. World Health Forum. 1981; 2: 245-9.",
+            "process_entry": "True",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Merson, MH. Oral rehydration therapy -from theory to practice. WHO Chron. 1986; 40: 116-8. PMID: 3788130",
+            "process_entry": "True",
+            "pmid": "3788130",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "The treatment of diarrhoea. A manual for physicians and other senior health workers. Geneva: World Health Organization; ISBN 92 4 159318 0; fourth revision of document WHO/CDD/SER/80.2 and supersedes document WHO/CDR/95.3 (1995); 2005.",
+            "process_entry": "True",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Huilan, S, Zhen, LG, Mathan, MM, Mathew, MM, Olarte, J, Espejo, R. Etiology of acute diarrhoea among children in developing countries: a multicentre study in five countries. Bull World Health Organ. 1991; 69: 549-55. PMID: 1659953",
+            "process_entry": "True",
+            "pmid": "1659953",
+            "pmcid": "PMC2393250",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Hoffman, SL, Moechtar, MA, Simanjuntak, CH, Punjabi, NH, Kumala, S, Sutoto. Rehydration and maintenance therapy of cholera patients in Jakarta: citrate-based versus bicarbonate-based oral rehydration salt solution. J Infect Dis. 1985; 152: 1159-65. DOI: 10.1093/infdis/152.6.1159 PMID: 3905981",
+            "process_entry": "True",
+            "doi": "10.1093/infdis/152.6.1159",
+            "pmid": "3905981",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "Islam, MR. Citrate can effectively replace bicarbonate in oral rehydration salts for cholera and infantile diarrhoea. Bull World Health Organ. 1986; 64: 145-50. PMID: 3015443",
+            "process_entry": "True",
+            "pmid": "3015443",
+            "pmcid": "PMC2490925",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Department of Child and Adolescent Health and Development. The evolution of diarrhoeal and acute respiratory disease control at WHO. Geneva: World Health Organization, 1999. (WHO/CHS/CAH/99.12)",
+            "process_entry": "True",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "WHO-UNICEF Joint Statement on the clinical management of acute diarrhoea. New York/Geneva: The United Nations Children’s Fund/World Health Organization; 2004. (WHO/FCH/CAH/04.7 or UNICEF/PD/Diarrhoea/01).",
+            "process_entry": "True",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "Diarrhoeal Disease Control Programme Persistent diarrhoea in children in developing countries: memorandum from a WHO meeting. Bull World Health Organ. 1988; 66: 709-17. PMID: 3266111",
+            "process_entry": "True",
+            "pmid": "3266111",
+            "pmcid": "PMC2491148",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "International Working Group on Persistent Diarrhoea Evaluation of an algorithm for the treatment of persistent diarrhoea: a multicentre study. Bull World Health Organ. 1996; 74: 479-89. PMID: 9002328",
+            "process_entry": "True",
+            "pmid": "9002328",
+            "pmcid": "PMC2486858",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "The rational use of drugs in the management of acute diarrhoea in children. Geneva: World Health Organization; 1990.",
+            "process_entry": "True",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "The Zimbabwe, Bangladesh, South Africa (ZIMBASA) Dysentery Study Group Multicenter, randomized, double blind clinical trial of short course versus standard course oral ciprofloxacin for Shigella dysenteriae type 1 dysentery in children. Pediatr Infect Dis J. 2002; 21: 1136-41. DOI: 10.1097/00006454-200212000-00010 PMID: 12488664",
+            "process_entry": "True",
+            "doi": "10.1097/01.inf.0000040824.83814.a9",
+            "pmid": "12488664",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Guidelines for the control of shigellosis, including epidemics due to Shigella dysenteriae type 1. Geneva, World Health Organization; 2005.",
+            "process_entry": "True",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Feachem, RG, Hogan, RC, Merson, MH. Diarrhoeal disease control: reviews of potential interventions. Bull World Health Organ. 1983; 61: 637-40. PMID: 6354505",
+            "process_entry": "True",
+            "pmid": "6354505",
+            "pmcid": "PMC2536145",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Habicht, JP. WHO Expert Consultation on the optimal duration of exclusive breastfeeding: the process, recommendations, and challenges for the future. Adv Exp Med Biol. 2004; 554: 79-87. DOI: 10.1007/978-1-4757-4242-8_8 PMID: 15384568",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4757-4242-8_8",
+            "pmid": "15384568",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Marquis, GS, Habicht, JP, Lanata, CF, Black, RE, Rasmussen, KM. Association of breastfeeding and stunting in Peruvian toddlers: an example of reverse causality. Int J Epidemiol. 1997; 26: 349-56. DOI: 10.1093/ije/26.2.349 PMID: 9169170",
+            "process_entry": "True",
+            "doi": "10.1093/ije/26.2.349",
+            "pmid": "9169170",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "Martines, JC, Ashworth, A, Kirkwood, B. Breastfeeding among the urban poor in Southern Brazil: reasons for termination in the first 6 months of life. Bull World Health Organ. 1989; 67: 151-61. PMID: 2743537",
+            "process_entry": "True",
+            "pmid": "2743537",
+            "pmcid": "PMC2491243",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Barros, FC, Semer, TC, Tonioli Filho, S, Tomasi, E, Victora, CG. The impact of lactation centres on breastfeeding patterns, morbidity and growth: a birth cohort study. Acta Paediatr. 1995; 84: 1221-6. DOI: 10.1111/j.1651-2227.1995.tb13537.x PMID: 8580615",
+            "process_entry": "True",
+            "doi": "10.1111/j.1651-2227.1995.tb13537.x",
+            "pmid": "8580615",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Ashworth, A, Feachem, RG. Interventions for the control of diarrhoeal diseases among young children: weaning education. Bull World Health Organ. 1985; 63: 1115-27. PMID: 3879675",
+            "process_entry": "True",
+            "pmid": "3879675",
+            "pmcid": "PMC2536465",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "Research on improving infant feeding practices to prevent diarrhoea or reduce its severity: memorandum from a JHU/WHO meeting. Bull World Health Organ. 1989; 67: 27-33. PMID: 2706725",
+            "process_entry": "True",
+            "pmid": "2706725",
+            "pmcid": "PMC2491214",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "Mata, LJ, Kromal, RA, Urrutia, JJ, Garcia, B. Effect of infection on food intake and the nutritional state: perspectives as viewed from the village. Am J Clin Nutr. 1977; 30: 1215-27. DOI: 10.1093/ajcn/30.8.1215 PMID: 888779",
+            "process_entry": "True",
+            "doi": "10.1093/ajcn/30.8.1215",
+            "pmid": "888779",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "Rivera, J, Martorell, R, Lutter, CK. Interaction of dietary intake and diarrheal disease in child growth. Arch Latinoam Nutr. 1989; 39: 292-307. PMID: 2490883",
+            "process_entry": "True",
+            "pmid": "2490883",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "Brown, KH, Gastañaduy, AS, Saavedra, JM, Lembcke, J, Rivas, D, Robertson, AD. Effect of continued oral feeding on clinical and nutritional outcomes of acute diarrhea in children. J Pediatr. 1988; 112: 191-200. DOI: 10.1016/S0022-3476(88)80055-6 PMID: 3339500",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3476(88)80055-6",
+            "pmid": "3339500",
+            "xmlid": "R29"
+        },
+        {
+            "bibentry": "Huttly, SR, Blum, D, Kirkwood, BR, Emeh, RN, Okeke, N, Ajala, M. The Imo State (Nigeria) Drinking Water Supply and Sanitation Project: Impact on dracunculiasis, diarrhoea and nutritional status. Trans R Soc Trop Med Hyg. 1990; 84: 316-21. DOI: 10.1016/0035-9203(90)90300-4 PMID: 2143854",
+            "process_entry": "True",
+            "doi": "10.1016/0035-9203(90)90300-4",
+            "pmid": "2143854",
+            "xmlid": "R30"
+        },
+        {
+            "bibentry": "Gorter, AC, Sandiford, P, Smith, GD, Pauw, JP. Water supply, sanitation and diarrhoeal disease in Nicaragua: results from a case-control study. Int J Epidemiol. 1991; 20: 527-33. DOI: 10.1093/ije/20.2.527 PMID: 1917260",
+            "process_entry": "True",
+            "doi": "10.1093/ije/20.2.527",
+            "pmid": "1917260",
+            "xmlid": "R31"
+        },
+        {
+            "bibentry": "Ejemot, RI, Ehiri, JE, Meremikwu, MM, Critchley, JA. Hand washing for preventing diarrhoea. Cochrane Database Syst Rev. 2008; 1: CD004265. PMID: 18254044",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd004265.pub2",
+            "pmid": "18254044",
+            "xmlid": "R32"
+        },
+        {
+            "bibentry": "Barreto, ML, Santos, LM, Assis, AM, Araújo, MP, Farenzena, GG, Santos, PA. Effects of vitamin A supplementation on diarrhoea and acute lower respiratory tract infections in young children in Brazil. Lancet. 1994; 344: 228-31. DOI: 10.1016/S0140-6736(94)92998-X PMID: 7913157",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(94)92998-x",
+            "pmid": "7913157",
+            "xmlid": "R33"
+        },
+        {
+            "bibentry": "Bhandari, N, Mazumder, S, Taneja, S, Dube, B, Agarwal, RC, Mahalanabis, D. The Effectiveness of zinc supplementation plus ORS compared to ORS alone as a treatment for acute diarrhea in a primary health care setting: A cluster randomized trial. Pediatrics. 2008; 121: e1279-85. DOI: 10.1542/peds.2007-1939 PMID: 18450870",
+            "process_entry": "True",
+            "doi": "10.1542/peds.2007-1939",
+            "pmid": "18450870",
+            "xmlid": "R34"
+        },
+        {
+            "bibentry": "Baqui, AH, Black, RE, El Arifeen, S, Yunus, M, Chakraborty, J, Ahmed, S. Effect of zinc supplementation started during diarrhoea on morbidity and mortality in Bangladeshi children: community randomised trial. BMJ. 2002; 325: 1059-66. DOI: 10.1136/bmj.325.7372.1059 PMID: 12424162",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.325.7372.1059",
+            "pmid": "12424162",
+            "pmcid": "PMC131175",
+            "xmlid": "R35"
+        },
+        {
+            "bibentry": "Hirschhorn, N. Saving children’s lives: a communication campaign in Egypt. Dev Commun Rep. 1985; 51: 13-4. PMID: 12340538",
+            "process_entry": "True",
+            "pmid": "12340538",
+            "xmlid": "R36"
+        },
+        {
+            "bibentry": "Rasmuson, M, Seidel, R, Gabbidon, H. Dietary management of diarrhea: The Gambian experience. J Edu Nutr Behav. 1990; 22: 15-23. DOI: 10.1016/S0022-3182(12)80288-3",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3182(12)80288-3",
+            "xmlid": "R37"
+        },
+        {
+            "bibentry": "Keusch GT, Fontaine O, Bhargava A, Boschi-Pinto C, Bhutta ZA, Gotuzzo E, et al. Chapter 19: Diarrheal diseases. In: Jamison DT, Breman JG, Measham AR, Alleyne G, Claeson M, Evans DB, Jha P, Mills A, Musgrove P, editors. Disease Control Priorities in Developing Countries. 2nd edition. Washington (DC): World Bank; 2006.",
+            "process_entry": "True",
+            "xmlid": "R38"
+        },
+        {
+            "bibentry": "Naugle, DA, Hornik, RC. Systematic review of the effectiveness of mass media interventions for child survival in low-and middle-income countries. J Health Commun. 2014; 19 (suppl 1): 190-215. DOI: 10.1080/10810730.2014.918217 PMID: 25207453",
+            "process_entry": "True",
+            "doi": "10.1080/10810730.2014.918217",
+            "pmid": "25207453",
+            "pmcid": "PMC4205927",
+            "xmlid": "R39"
+        },
+        {
+            "bibentry": "World Health Organization. Caring for newborns and children in the community. Available: http://www.who.int/maternal_child_adolescent/documents/community-care-newborns-children/en/. Accessed: 28 August 2019.",
+            "process_entry": "True",
+            "url": "http://www.who.int/maternal_child_adolescent/documents/community-care-newborns-children/en/. Accessed: 28 August 2019.",
+            "xmlid": "R40"
+        },
+        {
+            "bibentry": "World Health Organization. Managing programs to improve child health. Available: http://www.who.int/maternal_child_adolescent/documents/9789241598729/en/. Accessed: 13 December 2018.",
+            "process_entry": "True",
+            "url": "http://www.who.int/maternal_child_adolescent/documents/9789241598729/en/. Accessed: 13 December 2018.",
+            "xmlid": "R41"
+        },
+        {
+            "bibentry": "World Health Organization. The analytic review of the integrated management of childhood illness strategy. Final Report. Geneva: World Health Organization; 2003.",
+            "process_entry": "True",
+            "xmlid": "R42"
+        },
+        {
+            "bibentry": "Bryce, J, Victora, CG, Habicht, JP, Vaughan, JP, Black, RE. The multi-country evaluation of the integrated management of childhood illness strategy: lessons for the evaluation of public health interventions. Am J Public Health. 2004; 94: 406-15. DOI: 10.2105/AJPH.94.3.406 PMID: 14998804",
+            "process_entry": "True",
+            "doi": "10.2105/ajph.94.3.406",
+            "pmid": "14998804",
+            "xmlid": "R43"
+        },
+        {
+            "bibentry": "Gera, T, Shah, D, Garner, P, Richardson, M, Sachdev, HS. Integrated management of childhood illness (IMCI) strategy for children under five. Cochrane Database Syst Rev. 2016; 22: CD010123. DOI: 10.1002/14651858.CD010123.pub2 PMID: 27378094",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD010123.pub2",
+            "pmid": "27378094",
+            "pmcid": "PMC4943011",
+            "xmlid": "R44"
+        },
+        {
+            "bibentry": "World Health Organization. Towards a Grand Convergence for Child Survival and Health: A strategic review of options for the future building on lessons learnt from IMNCI. Geneva: World Health Organization; 2016.",
+            "process_entry": "True",
+            "xmlid": "R45"
+        },
+        {
+            "bibentry": "Costello, A, Peterson, S, Rasanathan, K, Daelmans, B, Bahl, R. “Where’s the leadership?” The future commitments of UNICEF and WHO for global child health. BMJ. 2018; 362: k3219. DOI: 10.1136/bmj.k3219 PMID: 30061193",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.k3219",
+            "pmid": "30061193",
+            "pmcid": "PMC6064977",
+            "xmlid": "R46"
+        }
+    ],
+    "localid": "MED-31673346",
+    "doi": "10.7189/jogh.09.020802",
+    "pmid": "10.7189/jogh.09.020802",
+    "pmcid": "31673346",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673346/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),1,178)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),180,188)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),180,188)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/p[4]),164,234)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),391,121)",
+                "containers_title": [
+                    "Early history of CDD program development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,280)",
+                "containers_title": [
+                    "Early history of CDD program development"
+                ],
+                "pl_string": "[6-8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),117,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "R7",
+                "pl_string": "[6-8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),117,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,280)",
+                "containers_title": [
+                    "Early history of CDD program development"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,280)",
+                "containers_title": [
+                    "Early history of CDD program development"
+                ],
+                "pl_string": "[6-8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),117,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),282,139)",
+                "containers_title": [
+                    "Early history of CDD program development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),111,155)",
+                "containers_title": [
+                    "Early history of CDD program development"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),161,183)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),202,197)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),391,7)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),202,197)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[11,12]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),391,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),612,84)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),612,84)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[1]/p),894,251)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "R15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[2]/p),1,143)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "R16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[2]/p),145,187)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[3]/p),174,206)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[4]/p),210,174)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[4]/p),376,7)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "R19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[4]/p),210,174)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[18,19]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[4]/p),376,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "R20",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[5]/p),98,186)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "R21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),1,187)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),180,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "R22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),1,187)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[21,22]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),180,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "R23",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[6]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),871,150)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),1013,7)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "R24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[6]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),871,150)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[6]/p),1013,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),1,224)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),217,7)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[7]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),1,224)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),217,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[7]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),226,269)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[7]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),496,272)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[7]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),496,272)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[7]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[7]/p),496,272)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[8]/p),1,195)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[30,31]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[8]/p),188,7)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "R31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[8]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[8]/p),1,195)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[30,31]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[8]/p),188,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R32",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[8]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[8]/p),407,73)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R33",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[9]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[9]/p),1,168)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[10]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),191,122)",
+                "containers_title": [
+                    "Support to research"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[10]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),314,424)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),730,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "R35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[10]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),314,424)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),730,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "R34",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[10]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),739,147)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),878,7)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "R35",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/list/list-item[10]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),739,147)",
+                "containers_title": [
+                    "Support to research"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/list/list-item[10]/p),878,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/fig/caption/p),52,86)",
+                "containers_title": [
+                    "Support to national program implementation",
+                    "Local production of ORS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "R36",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),413,127)",
+                "containers_title": [
+                    "Support to national program implementation",
+                    "Behavior change communication"
+                ],
+                "pl_string": "[36-38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),532,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "R37",
+                "pl_string": "[36-38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),532,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),413,127)",
+                "containers_title": [
+                    "Support to national program implementation",
+                    "Behavior change communication"
+                ]
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "R38",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),413,127)",
+                "containers_title": [
+                    "Support to national program implementation",
+                    "Behavior change communication"
+                ],
+                "pl_string": "[36-38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[2]),532,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "R39",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p[3]),1,180)",
+                "containers_title": [
+                    "Support to national program implementation",
+                    "Behavior change communication"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "R40",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[6]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[4]),1100,182)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "R41",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[6]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[5]),592,197)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "R42",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[6]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[7]),1,218)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ],
+                "pl_string": "[42-44]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[7]),134,7)"
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "R43",
+                "pl_string": "[42-44]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[7]),134,7)",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[7]),1,218)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ]
+            },
+            {
+                "n_rp": 50,
+                "xref_id": "R44",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[6]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[7]),1,218)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ],
+                "pl_string": "[42-44]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[7]),134,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "R40",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[6]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[7]),1,218)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "R45",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[6]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[7]),1,218)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "R45",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[6]/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[8]),1,156)",
+                "containers_title": [
+                    "Beyond the CDD Program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "R46",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[7]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[4]),1,138)",
+                "containers_title": [
+                    "CONCLUSIONS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[7]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[7]/p[5]),1,248)",
+                "containers_title": [
+                    "CONCLUSIONS"
+                ]
+            }
+        ]
+    ]
+}

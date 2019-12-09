@@ -1,0 +1,926 @@
+{
+    "references": [
+        {
+            "bibentry": "Bock, N, Dargaville, TR, Woodruff, MA (2012). Electrospraying of polymers with therapeutic molecules: state of the art. Prog Polym Sci 37: 1510–51.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bock, N, Woodruff, MA, Hutmacher, DW, et al. (2011). Electrospraying, a reproducible method for production of polymeric microspheres for biomedical applications. Polymers 3: 131–49.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Browne, S, Zeugolis, DI, Pandit, A (2013). Collagen: finding a solution for the source. Tissue Engin Part A 19: 1491–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Chen, LL, Lei, LH, Ding, PH, et al. (2011). Osteogenic effect of drynariae rhizoma extracts and naringin on Mc3t3-e1 cells and an induced rat alveolar bone resorption model. Arch Oral Biol 56: 1655–62. PMID: 21764032",
+            "process_entry": "True",
+            "doi": "10.1016/j.archoralbio.2011.06.008",
+            "pmid": "21764032",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chen, R, Qi, QL, Wang, MT, et al. (2016). Therapeutic potential of naringin: an overview. Pharm Biol 54: 1–8. PMID: 25885942",
+            "process_entry": "True",
+            "doi": "10.3109/13880209.2014.1003354",
+            "pmid": "25885942",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Cheng, TL, Schindeler, A, Little, DG (2016). Bmp-2 delivered via sucrose acetate isobutyrate (saib) improves bone repair in a rat open fracture model. J Orthop Res 34: 1168–76. PMID: 26679381",
+            "process_entry": "True",
+            "doi": "10.1002/jor.23131",
+            "pmid": "26679381",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Cheng, TL, Valtchev, P, Murphy, CM, et al. (2013). A sugar-based phase-transitioning delivery system for bone tissue engineering. eCM 26: 208–21. PMID: 24146213",
+            "process_entry": "True",
+            "pmid": "24146213",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Edlund, U, Albertsson, A (2000). Morphology engineering of a novel poly(l-lactide)/poly(1,5-dioxepan-2-one) microsphere system for controlled drug delivery. J Polym Sci A Polym Chem 38: 786–96.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Feng, T, Wang, K, Liu, F, et al. (2017). Structural characterization and bioavailability of ternary nanoparticles consisting of amylose, α-linoleic acid and β-lactoglobulin complexed with naringin. Int J Biol Macro 99: 365–74.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Hollinger, JO, Uludag, H, Winn, SR (1998). Sustained release emphasizing recombinant human bone morphogenetic protein-2. Adv Drug Deliv Rev 31: 303–18. PMID: 10837631",
+            "process_entry": "True",
+            "doi": "10.1016/s0169-409x(97)00126-9",
+            "pmid": "10837631",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Hong, Y, Li, Y, Yin, Y, et al. (2008). Electrohydrodynamic atomization of quasi-monodisperse drug-loaded spherical/wrinkled microparticles. J Aerosol Sci 39: 525–36.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hu, C, Chen, Z, Wu, S, et al. (2017). Micelle or polymersome formation by PCL-PEG-PCL copolymers as drug delivery systems. Chin Chem Lett 28: 1905–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Huang, X, Brazel, CS (2001). On the importance and mechanisms of burst release in matrix-controlled drug delivery systems. J Control Release 73: 121–36. PMID: 11516493",
+            "process_entry": "True",
+            "doi": "10.1016/s0168-3659(01)00248-6",
+            "pmid": "11516493",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Ji, Y, Wang, L, Watts, DC, et al. (2014). Controlled-release naringin nanoscaffold for osteoporotic bone healing. Dental Mater 30: 1263–73.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Komori, T, Yagi, H, Nomura, S, et al. (1997). Targeted disruption of Cbfa1 results in a complete lack of bone formation owing to maturational arrest of osteoblasts. Cell 89: 755–64. PMID: 9182763",
+            "process_entry": "True",
+            "doi": "10.1016/s0092-8674(00)80258-5",
+            "pmid": "9182763",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Lin, X, Xu, Y, Tang, X, et al. (2015). A uniform ultra-small microsphere/SAIB hybrid depot with low burst release for long-term continuous drug release. Pharm Res 32: 3708–21. PMID: 26077999",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-015-1731-1",
+            "pmid": "26077999",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Liu, M, Li, Y, Yang, ST (2017). Effects of naringin on the proliferation and osteogenic differentiation of human amniotic fluid-derived stem cells. J Tissue Eng Regen Med 11: 276–84. PMID: 24915843",
+            "process_entry": "True",
+            "doi": "10.1002/term.1911",
+            "pmid": "24915843",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Liu, G, Ma, C, Wang, P, et al. (2017). Pilose antler peptide potentiates osteoblast differentiation and inhibits osteoclastogenesis via manipulating the NF-kB pathway. Biochem Biophys Res Commun 491: 388–95. PMID: 28733032",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2017.07.091",
+            "pmid": "28733032",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Liu, X, Zhao, K, Gong, T, et al. (2014). Delivery of growth factors using a smart porous nanocomposite scaffold to repair a mandibular bone defect. Biomacromolecules 15: 1019–30. PMID: 24467335",
+            "process_entry": "True",
+            "doi": "10.1021/bm401911p",
+            "pmid": "24467335",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Ma, X, Lv, J, Sun, X, et al. (2016). Naringin ameliorates bone loss induced by sciatic neurectomy and increases semaphorin 3a expression in denervated bone. Sci Rep 6: 245–62.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Miraoui, H, Oudina, K, Petite, H, et al. (2009). Fibroblast growth factor receptor 2 promotes osteogenic differentiation in mesenchymal cells via Erk1/2 and protein kinase C signaling. J Biol Chem 284: 4897–904. PMID: 19117954",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m805432200",
+            "pmid": "19117954",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Mu, L, Feng, SS (2002). Vitamin E TPGS used as emulsifier in the solvent evaporation/extraction technique for fabrication of polymeric nanospheres for controlled release of paclitaxel (taxol). J Control Release 80: 129–44. PMID: 11943393",
+            "process_entry": "True",
+            "doi": "10.1016/s0168-3659(02)00025-1",
+            "pmid": "11943393",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Okumu, FW, Dao, l. N, Fielder, PJ, et al. (2002). Sustained delivery of human growth hormone from a novel gel system: SABER. Biomaterials 23: 4353–8. PMID: 12219825",
+            "process_entry": "True",
+            "doi": "10.1016/s0142-9612(02)00174-6",
+            "pmid": "12219825",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Zhang, P, Dai, KR, Yan, SG, et al. (2009). Effects of naringin on the proliferation and osteogenic differentiation of human bone mesenchymal stem cell. Eur J Pharmacol 607: 1–5. PMID: 19326565",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2009.01.035",
+            "pmid": "19326565",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Place, ES, Evans, ND, Stevens, MM (2009). Complexity in biomaterials for tissue engineering. Nature Mater 8: 457–70. PMID: 19458646",
+            "process_entry": "True",
+            "doi": "10.1038/nmat2441",
+            "pmid": "19458646",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Ramazani, F, Chen, W, Van nostrum, CF, et al. (2016). Strategies for encapsulation of small hydrophilic and amphiphilic drugs in PLGA microspheres: state-of-the-art and challenges. Int J Pharm 499: 358–67. PMID: 26795193",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2016.01.020",
+            "pmid": "26795193",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Reynolds, RC, Chappel, CI (1998). Sucrose acetate isobutyrate (SAIB): historical aspects of its use in beverages and a review of toxicity studies prior to 1988. Food Chem Toxicol 36: 81–93. PMID: 9519846",
+            "process_entry": "True",
+            "doi": "10.1016/s0278-6915(97)80300-6",
+            "pmid": "9519846",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Shamma, R, Elkasabgy, NA, Mahmoud, AA, et al. (2017). Design of novel injectable in-situ forming scaffolds for non-surgical treatment of periapical lesions: in-vitro and in-vivo evaluation. Int J Pharm 521: 306–17. PMID: 28235624",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2017.02.058",
+            "pmid": "28235624",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Singh, SK, Bhunia, BK, Bhardwaj, N, et al. (2016). Reloadable silk-hydrogel hybrid scaffolds for sustained and targeted delivery of molecules. Mol Pharmaceutics 13: 4066–81.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ss, L, Bj, H, Sr, K, et al. (2013). Bone regeneration with low dose bmp-2 amplified by biomimetic supramolecular nanofibers within collagen scaffolds. Biomaterials 34: 452–9. PMID: 23099062",
+            "process_entry": "True",
+            "doi": "10.1016/j.biomaterials.2012.10.005",
+            "pmid": "23099062",
+            "pmcid": "PMC3496771",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Tsui, VWK, Wong, RWK, Rabie, ABM (2008). The inhibitory effects of naringin on the growth of periodontal pathogens in vitro. Phytother Res 22: 401–6. PMID: 18167053",
+            "process_entry": "True",
+            "doi": "10.1002/ptr.2338",
+            "pmid": "18167053",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Valo, H, Peltonen, L, Vehviläinen, S, et al. (2009). Electrospray encapsulation of hydrophilic and hydrophobic drugs in poly (l-lactic acid) nanoparticles. Small 5: 1791–8. PMID: 19360725",
+            "process_entry": "True",
+            "doi": "10.1002/smll.200801907",
+            "pmid": "19360725",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Wang, H, Li, C, Li, J, et al. (2017). Naringin enhances osteogenic differentiation through the activation of Erk signaling in human bone marrow mesenchymal stem cells. Iran J Basic Med Sci 20: 408. PMID: 28804610",
+            "process_entry": "True",
+            "doi": "10.22038/IJBMS.2017.8582",
+            "pmid": "28804610",
+            "pmcid": "PMC5425923",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Wong, RWK, Rabie, ABM (2006). Effect of naringin on bone cells. J Orthop Res 24: 2045–50. PMID: 16944474",
+            "process_entry": "True",
+            "doi": "10.1002/jor.20279",
+            "pmid": "16944474",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Wu, JB, Fong, YC, Tsai, HY, et al. (2008). Naringin-induced bone morphogenetic protein-2 expression via Pi3k, Akt, C-fos/c-jun and Ap-1 pathway in osteoblasts. Eur J Pharmacol 588: 333–41. PMID: 18495116",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2008.04.030",
+            "pmid": "18495116",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Xu, T, Wang, L, Tao, Y, et al. (2016). The function of naringin in inducing secretion of osteoprotegerin and inhibiting formation of osteoclasts. Evid Based Complement Alternat Med 2016: 1–8981650.",
+            "process_entry": "True",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Yao, S, Liu, H, Yu, S, et al. (2016). Drug-nanoencapsulated PLGA microspheres prepared by emulsion electrospray with controlled release behavior. Regen Biomater 3: 309–17. PMID: 27699061",
+            "process_entry": "True",
+            "doi": "10.1093/rb/rbw033",
+            "pmid": "27699061",
+            "pmcid": "PMC5043157",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Yu, M, You, D, Zhuang, J, et al. (2017). Controlled release of naringin in metal-organic frameworks (mofs) loaded mineralized collagen coating to simultaneously enhance osseointegration and antibacterial activity. ACS Appl Mater Interfaces 9: 19698–705. PMID: 28548484",
+            "process_entry": "True",
+            "doi": "10.1021/acsami.7b05296",
+            "pmid": "28548484",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Zhao, HY, Wu, J, Zhu, JJ, et al. (2015). Research advances in tissue engineering materials for sustained release of growth factors. Biomed Res Int 2015: 1–808202.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        }
+    ],
+    "localid": "MED-30799644",
+    "doi": "10.1080/10717544.2019.1568620",
+    "pmid": "10.1080/10717544.2019.1568620",
+    "pmcid": "30799644",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30799644/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0039",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,259)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0019",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),261,314)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0004",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,182)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al.,2011; Ma et al., 2016; Xu et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),129,52)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0020",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,182)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al., 2011; Ma et al.,2016; Xu et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),129,52)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0036",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,182)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chen et al., 2011; Ma et al., 2016; Xu et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),129,52)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0031",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),184,228)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0014",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,318)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0029",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),320,333)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0038",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),320,333)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),723,452)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hollinger et al.,1998; Browne et al., 2013; Ss et al., 2013; Cheng et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),872,81)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0003",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),723,452)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hollinger et al., 1998; Browne et al.,2013; Ss et al., 2013; Cheng et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),872,81)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0030",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),723,452)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hollinger et al., 1998; Browne et al., 2013; Ss et al.,2013; Cheng et al., 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),872,81)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0006",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),723,452)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hollinger et al., 1998; Browne et al., 2013; Ss et al., 2013; Cheng et al.,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),872,81)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0026",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),723,452)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0023",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0027",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0006",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),189,237)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0013",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),722,144)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),867,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0026",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,208)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0037",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,269)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0032",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),271,207)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Valo et al.,2009; Bock et al., 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),439,37)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0001",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),271,207)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Valo et al., 2009; Bock et al.,2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),439,37)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0008",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),479,172)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0014",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),652,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0017",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/sec[3]/p),357,127)",
+                "containers_title": [
+                    "Methods and materials",
+                    "Osteoblast-microsphere interactions",
+                    "Alizarin Red-S (ARS) staining"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0022",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),104,169)",
+                "containers_title": [
+                    "Results",
+                    "Characterization of Ng-microspheres and Ng-m-SAIB depot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0012",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),274,167)",
+                "containers_title": [
+                    "Results",
+                    "Characterization of Ng-microspheres and Ng-m-SAIB depot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0009",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),442,129)",
+                "containers_title": [
+                    "Results",
+                    "Characterization of Ng-microspheres and Ng-m-SAIB depot"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0038",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),775,165)",
+                "containers_title": [
+                    "Results",
+                    "In vitro release of Ng-microspheres and Ng-m-SAIB depots"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0005",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,172)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0002",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),174,186)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0025",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),361,130)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0037",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),625,129)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0011",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),427,301)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0034",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,321)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0035",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,321)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0024",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,321)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0018",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,321)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0014",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,208)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0027",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),647,309)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Reynolds & Chappel,1998; Huang & Brazel, 2001; Okumu et al., 2002; Cheng et al., 2013; Lin et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),849,105)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0013",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),647,309)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Reynolds & Chappel, 1998; Huang & Brazel,2001; Okumu et al., 2002; Cheng et al., 2013; Lin et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),849,105)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0023",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),647,309)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Reynolds & Chappel, 1998; Huang & Brazel, 2001; Okumu et al.,2002; Cheng et al., 2013; Lin et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),849,105)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0007",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),647,309)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Reynolds & Chappel, 1998; Huang & Brazel, 2001; Okumu et al., 2002; Cheng et al.,2013; Lin et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),849,105)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),647,309)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Reynolds & Chappel, 1998; Huang & Brazel, 2001; Okumu et al., 2002; Cheng et al., 2013; Lin et al.,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),849,105)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1177,192)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1501,181)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),320,160)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0015",
+                "rp_string": "1997",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,239)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0021",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,239)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0033",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),241,127)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0038",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),568,217)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0006",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p),461,161)",
+                "containers_title": [
+                    "Conclusion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0028",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p),851,268)",
+                "containers_title": [
+                    "Conclusion"
+                ]
+            }
+        ]
+    ]
+}

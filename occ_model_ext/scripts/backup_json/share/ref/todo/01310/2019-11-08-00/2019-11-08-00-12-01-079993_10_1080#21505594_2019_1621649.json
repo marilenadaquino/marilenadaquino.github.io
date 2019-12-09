@@ -1,0 +1,3363 @@
+{
+    "references": [
+        {
+            "bibentry": "Clark, RE, Squire, LR. An animal model of recognition memory and medial temporal lobe amnesia: history and current issues. Neuropsychologia. 2010; 48(8): 2234–2244, ISSN 0028-3932.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "O’Callaghan, D, Vergunst, A. Non-mammalian animal models to study infectious disease: worms or fly fishing. Curr Opin Microbiol. 2010; 13: 79–85. PMID: 20045373",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2009.12.005",
+            "pmid": "20045373",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Fuchs, BB, Mylonakis, E. Using non-mammalian hosts to study fungal virulence and host defense. Curr Opin Microbiol. 2006; 9: 346–351. PMID: 16814595",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2006.06.004",
+            "pmid": "16814595",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Van den Driessche, F, Vanhoutte, B, Brackman, G, et al. Evaluation of combination therapy for Burkholderia cenocepacia lung infection in different in vitro and in vivo models. PloS One. 2017; 12: e0172723. PMID: 28248999",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0172723",
+            "pmid": "28248999",
+            "pmcid": "PMC5332113",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Pham, LN, Dionne, MS, Shirasu-Hiza, M, et al. A specific primed immune response in Drosophila is dependent on phagocytes. PLoS Pathog. 2007; 3: e26. PMID: 17352533",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.0030026",
+            "pmid": "17352533",
+            "pmcid": "PMC1817657",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Tsai, CJ-Y, Loh, JMS, Proft, T. Galleria mellonella infection models for the study of bacterial diseases and for antimicrobial drug testing. Virulence. 2016; 7: 214–229. PMID: 26730990",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2015.1135289",
+            "pmid": "26730990",
+            "pmcid": "PMC4871635",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Panayidou, S, Ioannidou, E, Apidianakis, Y. Human pathogenic bacteria, fungi, and viruses in Drosophila: disease modeling, lessons, and shortcomings. Virulence. 2014; 5: 253–269. PMID: 24398387",
+            "process_entry": "True",
+            "doi": "10.4161/viru.27524",
+            "pmid": "24398387",
+            "pmcid": "PMC3956501",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Brunke, S, Quintin, J, Kasper, L, et al. Of mice, flies–and men? Comparing fungal infection models for large-scale screening efforts. Dis Model Mech. 2015; 8: 473–486. PMID: 25786415",
+            "process_entry": "True",
+            "doi": "10.1242/dmm.019901",
+            "pmid": "25786415",
+            "pmcid": "PMC4415897",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Conery, AL, Larkins‐Ford, J, Ausubel, FM, et al. High‐throughput screening for novel anti‐infectives using a C. elegans pathogenesis model. Curr Protoc Chem Biol. 2014; 6: 25–37. PMID: 24652621",
+            "process_entry": "True",
+            "doi": "10.1002/9780470559277.ch130160",
+            "pmid": "24652621",
+            "pmcid": "PMC4021578",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Holt, WV. Exploitation of non-mammalian model organisms in epigenetic research In: Fazeli A, Holt W, editors. Periconception in physiology and medicine. Advances in experimental medicine and biology. Vol. 1014. Cham: Springer; 2017 p. 155–173.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kavanagh, K, Reeves, EP. Exploiting the potential of insects for in vivo pathogenicity testing of microbial pathogens. FEMS Microbiol Rev. 2004; 28: 101–112. PMID: 14975532",
+            "process_entry": "True",
+            "doi": "10.1016/j.femsre.2003.09.002",
+            "pmid": "14975532",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Browne, N, Heelan, M, Kavanagh, K. An analysis of the structural and functional similarities of insect hemocytes and mammalian phagocytes. Virulence. 2013; 4: 597–603. PMID: 23921374",
+            "process_entry": "True",
+            "doi": "10.4161/viru.25906",
+            "pmid": "23921374",
+            "pmcid": "PMC3906293",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Irazoqui, JE, Urbach, JM, Ausubel, FM. Evolution of host innate defence: insights from Caenorhabditis elegans and primitive invertebrates. Nat Rev Immunol. 2010; 10: 47. PMID: 20029447",
+            "process_entry": "True",
+            "doi": "10.1038/nri2689",
+            "pmid": "20029447",
+            "pmcid": "PMC2965059",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Kavanagh, K, Sheehan, G. The use of galleria mellonella larvae to identify novel antimicrobial agents against fungal species of medical interest. J Fungi. 2018; 4: 113.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Freires, IA, Sardi, JDCO, de Castro, RD, et al. Alternative animal and non-animal models for drug discovery and development: bonus or burden? Pharm Res. 2017; 34: 681–686. PMID: 27858217",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-016-2069-z",
+            "pmid": "27858217",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Trevijano-Contador, N, Zaragoza, O. Immune response of galleria mellonella against human fungal pathogens. J Fungi. 2018; 5: 3.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Singulani, JL, Scorzoni, L, De Oliveira, HC, et al. Applications of invertebrate animal models to dimorphic fungal infections. J Fungi. 2018; 4: 118.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Champion, O, Titball, R, Bates, S. Standardization of G. mellonella larvae to provide reliable and reproducible results in the study of fungal pathogens. J Fungi. 2018; 4: 108.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Arvanitis, M, Glavis-Bloom, J, Mylonakis, E. Invertebrate models of fungal infection. Biochim Biophys Acta (BBA) -Mol Basis Dis. 2013; 1832: 1378–1383.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Lionakis, MS. Drosophila and Galleria insect model hosts: new tools for the study of fungal virulence, pharmacology and immunology. Virulence. 2011; 2: 521–527. PMID: 22186764",
+            "process_entry": "True",
+            "doi": "10.4161/viru.2.6.18520",
+            "pmid": "22186764",
+            "pmcid": "PMC3260546",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Junqueira, JC. Models hosts for the study of oral candidiasis In: Mylonakis E, Ausubel F, Gilmore M, Casadevall A, editors. Recent advances on model hosts. Advances in experimental medicine and biology. Vol. 710. New York (NY): Springer; 2012 p. 95–105.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Mylonakis, E. Galleria mellonella and the study of fungal pathogenesis: making the case for another genetically tractable model host. Mycopathologia. 2008; 165: 1–3. PMID: 18060516",
+            "process_entry": "True",
+            "doi": "10.1007/s11046-007-9082-z",
+            "pmid": "18060516",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "London, R, Orozco, BS, Mylonakis, E. The pursuit of cryptococcal pathogenesis: heterologous hosts and the study of cryptococcal host–pathogen interactions. FEMS Yeast Res. 2006; 6: 567–573. PMID: 16696652",
+            "process_entry": "True",
+            "doi": "10.1111/j.1567-1364.2006.00056.x",
+            "pmid": "16696652",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Kwadha, CA, Ong’amo, GO, Ndegwa, PN, et al. The biology and control of the greater wax moth, Galleria mellonella. Insects. 2017; 8: 61.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Nathan, S. New to Galleria mellonella: modeling an ExPEC infection. Virulence. 2014; 5: 371–374. PMID: 24569500",
+            "process_entry": "True",
+            "doi": "10.4161/viru.28338",
+            "pmid": "24569500",
+            "pmcid": "PMC3979862",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Fleming, ID, Krezalek, MA, Belogortseva, N, et al. Modeling Acinetobacter baumannii wound infections: the critical role of iron. J Trauma Acute Care Surg. 2017; 82: 557. PMID: 28030490",
+            "process_entry": "True",
+            "doi": "10.1097/TA.0000000000001338",
+            "pmid": "28030490",
+            "pmcid": "PMC5322184",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Yang, H-F, Pan, A-J, Hu, L-F, et al. Galleria mellonella as an in vivo model for assessing the efficacy of antimicrobial agents against Enterobacter cloacae infection. J Microbiol Immunol Infect. 2017; 50: 55–61. PMID: 25682237",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmii.2014.11.011",
+            "pmid": "25682237",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Desalermos, A, Fuchs, BB, Mylonakis, E. Selecting an invertebrate model host for the study of fungal pathogenesis. PLoS Pathog. 2012; 8: e1002451. PMID: 22319439",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1002451",
+            "pmid": "22319439",
+            "pmcid": "PMC3271057",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Andrea, A, Krogfelt, KA, Jenssen, H. Methods and challenges of using the greater wax moth (Galleria mellonella) as a model organism in antimicrobial compound discovery. Microorganisms. 2019; 7: 85.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Jorjão, AL, Oliveira, LD, Scorzoni, L, et al. From moths to caterpillars: ideal conditions for Galleria mellonella rearing for in vivo microbiological studies. Virulence. 2018; 9: 383–389. PMID: 29130369",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2017.1397871",
+            "pmid": "29130369",
+            "pmcid": "PMC5955185",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Klass, MR. Aging in the nematode Caenorhabditis elegans: major biological and environmental factors influencing life span. Mech Ageing Dev. 1977; 6: 413–429. PMID: 926867",
+            "process_entry": "True",
+            "doi": "10.1016/0047-6374(77)90043-4",
+            "pmid": "926867",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Economos, A, Lints, F. Growth rate and life span in Drosophila. I. Methods and mechanisms of variation of growth rate. Mech Ageing Dev. 1984; 27: 1–13. PMID: 6436587",
+            "process_entry": "True",
+            "doi": "10.1016/0047-6374(84)90078-2",
+            "pmid": "6436587",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Lemaitre, B, Hoffmann, J. The host defense of Drosophila melanogaster. Annu Rev Immunol. 2007; 25: 697–743. PMID: 17201680",
+            "process_entry": "True",
+            "doi": "10.1146/annurev.immunol.25.022106.141615",
+            "pmid": "17201680",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Pereira, T, de Barros, P, Fugisaki, L, et al. Recent advances in the use of galleria mellonella model to study immune responses against human pathogens. J Fungi. 2018; 4: 128.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Kim, CH, Shin, YP, Noh, MY, et al. An insect multiligand recognition protein functions as an opsonin for the phagocytosis of microorganisms. J Biol Chem. 2010; 285: 25243–25250. PMID: 20519517",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M110.134940",
+            "pmid": "20519517",
+            "pmcid": "PMC2919087",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Wu, G, Liu, Y, Ding, Y, et al. Ultrastructural and functional characterization of circulating hemocytes from Galleria mellonella larva: cell types and their role in the innate immunity. Tissue Cell. 2016; 48: 297–304. PMID: 27378036",
+            "process_entry": "True",
+            "doi": "10.1016/j.tice.2016.06.007",
+            "pmid": "27378036",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Mak, P, Zdybicka-Barabas, A, Cytryńska, M. A different repertoire of Galleria mellonella antimicrobial peptides in larvae challenged with bacteria and fungi. Dev Comp Immunol. 2010; 34: 1129–1136. PMID: 20558200",
+            "process_entry": "True",
+            "doi": "10.1016/j.dci.2010.06.005",
+            "pmid": "20558200",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Wojda, I. Immunity of the greater wax moth Galleria mellonella. Insect Sci. 2017; 24: 342–357. PMID: 26847724",
+            "process_entry": "True",
+            "doi": "10.1111/1744-7917.12325",
+            "pmid": "26847724",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Brown, SE, Howard, A, Kasprzak, AB, et al. A peptidomics study reveals the impressive antimicrobial peptide arsenal of the wax moth Galleria mellonella. Insect Biochem Mol Biol. 2009; 39: 792–800. PMID: 19786100",
+            "process_entry": "True",
+            "doi": "10.1016/j.ibmb.2009.09.004",
+            "pmid": "19786100",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Eisenhardt, M, Schlupp, P, Höfer, F, et al. The therapeutic potential of the insect metalloproteinase inhibitor against infections caused by Pseudomonas aeruginosa. J Pharm Pharmacol. 2019;71:316–328.",
+            "process_entry": "True",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "ANWAr mohAmed, A, Ansari, MJ, Al-Ghamdi, A, et al. Effect of larval nutrition on the development and mortality of Galleria mellonella (Lepidoptera: Pyralidae). Revista Colombiana de Entomología. 2014; 40: 49–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Banville, N, Browne, N, Kavanagh, K. Effect of nutrient deprivation on the susceptibility of Galleria mellonella larvae to infection. Virulence. 2012; 3: 497–503. PMID: 23076277",
+            "process_entry": "True",
+            "doi": "10.4161/viru.21972",
+            "pmid": "23076277",
+            "pmcid": "PMC3524148",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Khalil, MA, Moawad, SS, Hefzy, EM. In vivo activity of co-trimoxazole combined with colistin against Acinetobacter baumannii producing OXA-23 in a Galleria mellonella model. J Med Microbiol. 2018; 68: 52–59. PMID: 30422109",
+            "process_entry": "True",
+            "doi": "10.1099/jmm.0.000872",
+            "pmid": "30422109",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Wei, W, Yang, H, Hu, L, et al. Activity of levofloxacin in combination with colistin against Acinetobacter baumannii: in vitro and in a Galleria mellonella model. J Microbiol Immunol Infect. 2017; 50: 821–830. PMID: 26725481",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmii.2015.10.010",
+            "pmid": "26725481",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Chung, J-H, Bhat, A, Kim, C-J, et al. Combination therapy with polymyxin B and netropsin against clinical isolates of multidrug-resistant Acinetobacter baumannii. Sci Rep. 2016; 6: 28168. PMID: 27306928",
+            "process_entry": "True",
+            "doi": "10.1038/srep28168",
+            "pmid": "27306928",
+            "pmcid": "PMC4910107",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Yang, H, Lv, N, Hu, L, et al. In vivo activity of vancomycin combined with colistin against multidrug-resistant strains of Acinetobacter baumannii in a Galleria mellonella model. Infect Dis (Auckl). 2016; 48: 189–194.",
+            "process_entry": "True",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Cruz-Muñiz, MY, López-Jacome, LE, Hernández-Durán, M, et al. Repurposing the anticancer drug mitomycin C for the treatment of persistent Acinetobacter baumannii infections. Int J Antimicrob Agents. 2017; 49: 88–92. PMID: 27939675",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijantimicag.2016.08.022",
+            "pmid": "27939675",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Regeimbal, JM, Jacobs, AC, Corey, BW, et al. Personalized therapeutic cocktail of wild environmental phages rescues mice from A. baumannii wound infections. Antimicrob Agents Chemother. 2016 Sep;60(10):5806–5816.",
+            "process_entry": "True",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Betts, JW, Hornsey, M, Wareham, DW, et al. In vitro and in vivo activity of theaflavin–epicatechin combinations versus multidrug-resistant acinetobacter baumannii. Infect Dis Ther. 2017; 6: 435–442. PMID: 28639145",
+            "process_entry": "True",
+            "doi": "10.1007/s40121-017-0161-2",
+            "pmid": "28639145",
+            "pmcid": "PMC5595775",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Papp-Wallace, KM, Becka, SA, Zeiser, ET, et al. Overcoming an extremely drug resistant (XDR) pathogen: avibactam restores susceptibility to ceftazidime for Burkholderia cepacia complex isolates from cystic fibrosis patients. ACS Infect Dis. 2017; 3: 502–511. PMID: 28264560",
+            "process_entry": "True",
+            "doi": "10.1021/acsinfecdis.7b00020",
+            "pmid": "28264560",
+            "pmcid": "PMC5560099",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Roszniowski, B, Latka, A, Maciejewska, B, et al. The temperate Burkholderia phage AP3 of the Peduovirinae shows efficient antimicrobial activity against B. cenocepacia of the IIIA lineage. Appl Microbiol Biotechnol. 2017; 101: 1203–1216. PMID: 27770178",
+            "process_entry": "True",
+            "doi": "10.1007/s00253-016-7924-7",
+            "pmid": "27770178",
+            "pmcid": "PMC5247547",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Mil‐Homens, D, Ferreira‐Dias, S, Fialho, A. Fish oils against Burkholderia and Pseudomonas aeruginosa: in vitro efficacy and their therapeutic and prophylactic effects on infected Galleria mellonella larvae. J Appl Microbiol. 2016; 120: 1509–1519. PMID: 27012860",
+            "process_entry": "True",
+            "doi": "10.1111/jam.13145",
+            "pmid": "27012860",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Naguib, MM, Valvano, MA. Vitamin E increases antimicrobial sensitivity by inhibiting bacterial lipocalin antibiotic binding. mSphere. 2018; 3: e00564–00518.",
+            "process_entry": "True",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Nale, JY, Chutia, M, Carr, P, et al. ‘Get in early’; biofilm and wax moth (Galleria mellonella) models reveal new insights into the therapeutic potential of Clostridium difficile bacteriophages. Front Microbiol. 2016; 7: 1383. PMID: 27630633",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2016.01383",
+            "pmid": "27630633",
+            "pmcid": "PMC5005339",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Yang, H, Chen, G, Hu, L, et al. Enhanced efficacy of imipenem-colistin combination therapy against multiple-drug-resistant Enterobacter cloacae: in vitro activity and a Galleria mellonella model. J Microbiol Immunol Infect. 2018; 51: 70–75. PMID: 26906264",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmii.2016.01.003",
+            "pmid": "26906264",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Manohar, P, Nachimuthu, R, Lopes, BS. The therapeutic potential of bacteriophages targeting gram-negative bacteria using Galleria mellonella infection model. BMC Microbiol. 2018; 18: 97. PMID: 30170558",
+            "process_entry": "True",
+            "doi": "10.1186/s12866-018-1234-4",
+            "pmid": "30170558",
+            "pmcid": "PMC6119258",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Tharmalingam, N, Port, J, Castillo, D, et al. Repurposing the anthelmintic drug niclosamide to combat Helicobacter pylori. Sci Rep. 2018; 8: 3701. PMID: 29487357",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-018-22037-x",
+            "pmid": "29487357",
+            "pmcid": "PMC5829259",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Jiang, L, Greene, MK, Insua, JL, et al. Clearance of intracellular Klebsiella pneumoniae infection using gentamicin-loaded nanoparticles. J Control Release. 2018; 279: 316–325. PMID: 29704616",
+            "process_entry": "True",
+            "doi": "10.1016/j.jconrel.2018.04.040",
+            "pmid": "29704616",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Majkowska-Skrobek, G, Latka, A, Berisio, R, et al. Phage-borne depolymerases decrease Klebsiella pneumoniae resistance to innate defense mechanisms. Front Microbiol. 2018; 9: 2517. PMID: 30405575",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2018.02517",
+            "pmid": "30405575",
+            "pmcid": "PMC6205948",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "Majkowska-Skrobek, G, Łątka, A, Berisio, R, et al. Capsule-targeting depolymerase, derived from Klebsiella KP36 phage, as a tool for the development of anti-virulent strategy. Viruses. 2016; 8: 324.",
+            "process_entry": "True",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "D’andrea, MM, Marmo, P, De Angelis, LH, et al. ϕBO1E, a newly discovered lytic bacteriophage targeting carbapenemase-producing Klebsiella pneumoniae of the pandemic Clonal Group 258 clade II lineage. Sci Rep. 2017; 7: 2614. PMID: 28572684",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-02788-9",
+            "pmid": "28572684",
+            "pmcid": "PMC5453958",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Aparecida Procópio Gomes, L, Alves Figueiredo, LM, Luiza do Rosário Palma, A, et al. Punica granatum L. (Pomegranate) extract: in vivo study of antimicrobial activity against Porphyromonas gingivalis in Galleria mellonella model. Sci World J. 2016; 2016:5, Article ID 8626987.",
+            "process_entry": "True",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Zheng, Z, Tharmalingam, N, Liu, Q, et al. Synergistic efficacy of aedes aegypti antimicrobial peptide cecropin A2 and tetracycline against pseudomonas aeruginosa. Antimicrob Agents Chemother. 2017; 61: e00686–00617. PMID: 28483966",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.00686-17",
+            "pmid": "28483966",
+            "pmcid": "PMC5487646",
+            "xmlid": "CIT0063"
+        },
+        {
+            "bibentry": "Ciociola, T, Giovati, L, Giovannelli, A, et al. The activity of a mammalian proline-rich peptide against Gram-negative bacteria, including drug-resistant strains, relies on a nonmembranolytic mode of action. Infect Drug Resist. 2018; 11: 969. PMID: 30046246",
+            "process_entry": "True",
+            "doi": "10.2147/IDR.S165179",
+            "pmid": "30046246",
+            "pmcid": "PMC6054295",
+            "xmlid": "CIT0064"
+        },
+        {
+            "bibentry": "D’Angelo, F, Baldelli, V, Halliday, N, et al. Identification of FDA-approved drugs as antivirulence agents targeting the pqs quorum-sensing system of Pseudomonas aeruginosa. Antimicrob Agents Chemother. 2018; 62: e01296–01218. PMID: 30201815",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.01296-18",
+            "pmid": "30201815",
+            "pmcid": "PMC6201120",
+            "xmlid": "CIT0065"
+        },
+        {
+            "bibentry": "Forti, F, Roach, DR, Cafora, M, et al. Design of a broad-range bacteriophage cocktail that reduces Pseudomonas aeruginosa biofilms and treats acute infections in two animal models. Antimicrob Agents Chemother. 2018 May;62(6):e02573–e02617.",
+            "process_entry": "True",
+            "xmlid": "CIT0066"
+        },
+        {
+            "bibentry": "Olszak, T, Shneider, MM, Latka, A, et al. The O-specific polysaccharide lyase from the phage LKA1 tailspike reduces Pseudomonas virulence. Sci Rep. 2017; 7: 16302. PMID: 29176754",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-16411-4",
+            "pmid": "29176754",
+            "pmcid": "PMC5701251",
+            "xmlid": "CIT0067"
+        },
+        {
+            "bibentry": "Siriyong, T, Voravuthikunchai, SP, Coote, PJ. Steroidal alkaloids and conessine from the medicinal plant Holarrhena antidysenterica restore antibiotic efficacy in a Galleria mellonella model of multidrug-resistant Pseudomonas aeruginosa infection. BMC Complement Altern Med. 2018; 18: 285. PMID: 30340578",
+            "process_entry": "True",
+            "doi": "10.1186/s12906-018-2348-9",
+            "pmid": "30340578",
+            "pmcid": "PMC6194700",
+            "xmlid": "CIT0068"
+        },
+        {
+            "bibentry": "Paškevičius, Š, Starkevič, U, Misiūnas, A, et al. Plant-expressed pyocins for control of Pseudomonas aeruginosa. PloS One. 2017; 12: e0185782. PMID: 28973027",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0185782",
+            "pmid": "28973027",
+            "pmcid": "PMC5626474",
+            "xmlid": "CIT0069"
+        },
+        {
+            "bibentry": "Mirza, ZR, Hasan, T, Seidel, V, et al. Geraniol as a novel antivirulence agent against bacillary dysentery-causing Shigella sonnei. Virulence. 2018; 9: 450–455. PMID: 29256316",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2017.1412031",
+            "pmid": "29256316",
+            "pmcid": "PMC5955184",
+            "xmlid": "CIT0070"
+        },
+        {
+            "bibentry": "Skinner, K, Sandoe, JA, Rajendran, R, et al. Efficacy of rifampicin combination therapy for the treatment of enterococcal infections assessed in vivo using a Galleria mellonella infection model. Int J Antimicrob Agents. 2017; 49: 507–511. PMID: 28235571",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijantimicag.2016.12.006",
+            "pmid": "28235571",
+            "xmlid": "CIT0071"
+        },
+        {
+            "bibentry": "Marini, E, Magi, G, Ferretti, G, et al. Attenuation of Listeria monocytogenes virulence by Cannabis sativa L. essential oil. Front Cell Infect Microbiol. 2018 Aug 22; 8:293.",
+            "process_entry": "True",
+            "xmlid": "CIT0072"
+        },
+        {
+            "bibentry": "Upadhyay, A, Venkitanarayanan, K. In vivo efficacy of trans-cinnamaldehyde, carvacrol, and thymol in attenuating Listeria monocytogenes infection in a Galleria mellonella model. J Nat Med. 2016; 70: 667–672. PMID: 27094514",
+            "process_entry": "True",
+            "doi": "10.1007/s11418-016-0990-4",
+            "pmid": "27094514",
+            "xmlid": "CIT0073"
+        },
+        {
+            "bibentry": "Meir, M, Bifani, P, Barkan, D. The addition of avibactam renders piperacillin an effective treatment for Mycobacterium abscessus infection in an in vivo model. Antimicrob Resist Infect Control. 2018; 7: 151. PMID: 30564307",
+            "process_entry": "True",
+            "doi": "10.1186/s13756-018-0448-4",
+            "pmid": "30564307",
+            "pmcid": "PMC6293638",
+            "xmlid": "CIT0074"
+        },
+        {
+            "bibentry": "Dong, C-L, Li, L-X, Cui, Z-H, et al. Synergistic effect of pleuromutilins with other antimicrobial agents against staphylococcus aureus in vitro and in an experimental galleria mellonella model. Front Pharmacol. 2017; 8: 553. PMID: 28874907",
+            "process_entry": "True",
+            "doi": "10.3389/fphar.2017.00553",
+            "pmid": "28874907",
+            "pmcid": "PMC5572081",
+            "xmlid": "CIT0075"
+        },
+        {
+            "bibentry": "Silva, L, Hora, G, Soares, T, et al. Myricetin protects Galleria mellonella against Staphylococcus aureus infection and inhibits multiple virulence factors. Sci Rep. 2017; 7: 2823. PMID: 28588273",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-02712-1",
+            "pmid": "28588273",
+            "pmcid": "PMC5460262",
+            "xmlid": "CIT0076"
+        },
+        {
+            "bibentry": "Ferro, TA, Araújo, JM, dos Santos Pinto, BL, et al. Cinnamaldehyde inhibits staphylococcus aureus virulence factors and protects against infection in a galleria mellonella model. Front Microbiol. 2016; 7: 2052. PMID: 28066373",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2016.02052",
+            "pmid": "28066373",
+            "pmcid": "PMC5174152",
+            "xmlid": "CIT0077"
+        },
+        {
+            "bibentry": "Mishra, B, Wang, X, Lushnikova, T, et al. Antibacterial, antifungal, anticancer activities and structural bioinformatics analysis of six naturally occurring temporins. Peptides. 2018;106:9–20.",
+            "process_entry": "True",
+            "xmlid": "CIT0078"
+        },
+        {
+            "bibentry": "Johnston, T, Hendricks, GL, Shen, S, et al. Raf-kinase inhibitor GW5074 shows antibacterial activity against methicillin-resistant Staphylococcus aureus and potentiates the activity of gentamicin. Future Med Chem. 2016; 8: 1941–1952. PMID: 27652456",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2016-0104",
+            "pmid": "27652456",
+            "pmcid": "PMC5619112",
+            "xmlid": "CIT0079"
+        },
+        {
+            "bibentry": "Normark, BH, Normark, S. Evolution and spread of antibiotic resistance. J Intern Med. 2002; 252: 91–106. PMID: 12190884",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2796.2002.01026.x",
+            "pmid": "12190884",
+            "xmlid": "CIT0080"
+        },
+        {
+            "bibentry": "Bonev, BB, Brown, NM. Bacterial resistance to antibiotics: from molecules to man. Hoboken (NJ): John Wiley & Sons; 2019.",
+            "process_entry": "True",
+            "xmlid": "CIT0081"
+        },
+        {
+            "bibentry": "Minrovic, BM, Jung, D, Melander, RJ, et al. A new class of adjuvants enables lower dosing of colistin against acinetobacter baumannii. ACS Infect Dis. 2018;4(9):1368–1376.",
+            "process_entry": "True",
+            "xmlid": "CIT0082"
+        },
+        {
+            "bibentry": "Huggins, WM, Minrovic, BM, Corey, BW, et al. 1, 2, 4-Triazolidine-3-thiones as narrow spectrum antibiotics against multidrug-resistant Acinetobacter baumannii. ACS Med Chem Lett. 2016; 8: 27–31. PMID: 28105270",
+            "process_entry": "True",
+            "doi": "10.1021/acsmedchemlett.6b00296",
+            "pmid": "28105270",
+            "pmcid": "PMC5238477",
+            "xmlid": "CIT0083"
+        },
+        {
+            "bibentry": "Tran, T, Chiem, K, Jani, S, et al. Identification of a small molecule inhibitor of the aminoglycoside 6ʹ-N-acetyltransferase type Ib [AAC (6ʹ)-Ib] using mixture-based combinatorial libraries. Int J Antimicrob Agents. 2018; 51: 752–761. PMID: 29410367",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijantimicag.2018.01.019",
+            "pmid": "29410367",
+            "pmcid": "PMC6592615",
+            "xmlid": "CIT0084"
+        },
+        {
+            "bibentry": "Jin, WB, Xu, C, Cheng, Q, et al. Investigation of synergistic antimicrobial effects of the drug combinations of meropenem and 1, 2-benzisoselenazol-3 (2H)-one derivatives on carbapenem-resistant Enterobacteriaceae producing NDM-1. Eur J Med Chem. 2018;155:285–302. DOI: DOI: 10.1016/j.ejmech.2018.06.007",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.06.007",
+            "xmlid": "CIT0085"
+        },
+        {
+            "bibentry": "Vellé, A, Maguire, R, Kavanagh, K, et al. Steroid–auI–NHC complexes: synthesis and antibacterial activity. ChemMedChem. 2017; 12: 841–844. PMID: 28463422",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201700257",
+            "pmid": "28463422",
+            "xmlid": "CIT0086"
+        },
+        {
+            "bibentry": "Proschak, A, Kramer, J, Proschak, E, et al. Bacterial zincophore [S, S]-ethylenediamine-N, N′-disuccinic acid is an effective inhibitor of MBLs. J Antimicrob Chemother. 2017; 73: 425–430.",
+            "process_entry": "True",
+            "xmlid": "CIT0087"
+        },
+        {
+            "bibentry": "Hubble, VB, Hubbard, BA, Minrovic, BM, et al. Using small-molecule adjuvants to repurpose azithromycin for use against pseudomonas aeruginosa. ACS Infect Dis. 2019;5(1):141–151.",
+            "process_entry": "True",
+            "xmlid": "CIT0088"
+        },
+        {
+            "bibentry": "Jakobsen, V, Viganor, L, Blanco-Fernández, A, et al. Tetrameric and polymeric silver complexes of the omeprazole scaffold; Synthesis, structure, in vitro and in vivo antimicrobial activities and DNA interaction. J Inorg Biochem. 2018;186:317–328.",
+            "process_entry": "True",
+            "xmlid": "CIT0089"
+        },
+        {
+            "bibentry": "Lyu, Y, Yang, X, Goswami, S, et al. Amphiphilic tobramycin–lysine conjugates sensitize multidrug resistant gram-negative bacteria to rifampicin and minocycline. J Med Chem. 2017; 60: 3684–3702. PMID: 28409644",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b01742",
+            "pmid": "28409644",
+            "xmlid": "CIT0090"
+        },
+        {
+            "bibentry": "Gorityala, BK, Guchhait, G, Goswami, S, et al. Hybrid antibiotic overcomes resistance in P. aeruginosa by enhancing outer membrane penetration and reducing efflux. J Med Chem. 2016; 59: 8441–8455. PMID: 27524179",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b00867",
+            "pmid": "27524179",
+            "xmlid": "CIT0091"
+        },
+        {
+            "bibentry": "Balasubramanian, S, Skaf, J, Holzgrabe, U, et al. A new bioactive compound from the marine sponge-derived Streptomyces sp. SBT348 inhibits staphylococcal growth and biofilm formation. Front Microbiol. 2018; 9: 1473. PMID: 30050506",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2018.01473",
+            "pmid": "30050506",
+            "pmcid": "PMC6050364",
+            "xmlid": "CIT0092"
+        },
+        {
+            "bibentry": "Tharmalingam, N, Jayamani, E, Rajamuthiah, R, et al. Activity of a novel protonophore against methicillin-resistant Staphylococcus aureus. Future Med Chem. 2017; 9: 1401–1411. PMID: 28771026",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2017-0047",
+            "pmid": "28771026",
+            "pmcid": "PMC5941710",
+            "xmlid": "CIT0093"
+        },
+        {
+            "bibentry": "Cascioferro, S, Maggio, B, Raffa, D, et al. Synthesis and biofilm formation reduction of pyrazole-4-carboxamide derivatives in some Staphylococcus aureus strains. Eur J Med Chem. 2016; 123: 58–68. PMID: 27474923",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.07.030",
+            "pmid": "27474923",
+            "xmlid": "CIT0094"
+        },
+        {
+            "bibentry": "Aneja, B, Azam, M, Alam, S, et al. Natural product-based 1, 2, 3-triazole/sulfonate analogues as potential chemotherapeutic agents for bacterial infections. ACS Omega. 2018; 3: 6912–6930. PMID: 30023966",
+            "process_entry": "True",
+            "doi": "10.1021/acsomega.8b00582",
+            "pmid": "30023966",
+            "pmcid": "PMC6044994",
+            "xmlid": "CIT0095"
+        },
+        {
+            "bibentry": "Dolan, N, Gavin, DP, Eshwika, A, et al. Synthesis, antibacterial and anti-MRSA activity, in vivo toxicity and a structure–activity relationship study of a quinoline thiourea. Bioorg Med Chem Lett. 2016; 26: 630–635. PMID: 26639761",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2015.11.058",
+            "pmid": "26639761",
+            "xmlid": "CIT0096"
+        },
+        {
+            "bibentry": "Lazarini, JG, Sardi, JDCO, Franchin, M, et al. Bioprospection of Eugenia brasiliensis, a Brazilian native fruit, as a source of anti-inflammatory and antibiofilm compounds. Biomed Pharmacother. 2018; 102: 132–139. PMID: 29550636",
+            "process_entry": "True",
+            "doi": "10.1016/j.biopha.2018.03.034",
+            "pmid": "29550636",
+            "xmlid": "CIT0097"
+        },
+        {
+            "bibentry": "Cruz, L, Lopes, L, de Camargo Ribeiro, F, et al. Anti-candida albicans activity of thiazolylhydrazone derivatives in invertebrate and murine models. J Fungi. 2018; 4: 134.",
+            "process_entry": "True",
+            "xmlid": "CIT0098"
+        },
+        {
+            "bibentry": "Lange, A, Beier, S, Huson, DH, et al. Genome sequence of Galleria mellonella (greater wax moth). Genome Announc. 2018; 6: e01220–01217. PMID: 29326202",
+            "process_entry": "True",
+            "doi": "10.1128/genomeA.01220-17",
+            "pmid": "29326202",
+            "pmcid": "PMC5764926",
+            "xmlid": "CIT0099"
+        },
+        {
+            "bibentry": "Heitmueller, M, Billion, A, Dobrindt, U, et al. Epigenetic mechanisms regulate innate immunity against uropathogenic and commensal-like Escherichia coli in the surrogate insect model Galleria mellonella. Infect Immun. 2017 Sep;85(10):e00336–e00417.",
+            "process_entry": "True",
+            "xmlid": "CIT0100"
+        },
+        {
+            "bibentry": "Mukherjee, K, Vilcinskas, A. Development and immunity-related microRNAs of the lepidopteran model host Galleria mellonella. BMC Genomics. 2014; 15: 705. PMID: 25149864",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2164-15-705",
+            "pmid": "25149864",
+            "pmcid": "PMC4156658",
+            "xmlid": "CIT0101"
+        },
+        {
+            "bibentry": "Lange, A, Schäfer, A, Bender, A, et al. Galleria mellonella: a novel invertebrate model to distinguish intestinal symbionts from pathobionts. Front Immunol. 2018 Sep; 9:2114. PubMed PMID: 30283451; PubMed Central PMCID: PMC6156133.",
+            "process_entry": "True",
+            "xmlid": "CIT0102"
+        },
+        {
+            "bibentry": "Sheehan, G, Kavanagh, K. Proteomic analysis of the responses of candida albicans during infection of galleria mellonella larvae. J Fungi. 2019; 5: 7.",
+            "process_entry": "True",
+            "xmlid": "CIT0103"
+        },
+        {
+            "bibentry": "Mukherjee, K, Vilcinskas, A. The entomopathogenic fungus Metarhizium robertsii communicates with the insect host Galleria mellonella during infection. Virulence. 2018; 9: 402–413. PMID: 29166834",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2017.1405190",
+            "pmid": "29166834",
+            "pmcid": "PMC5955202",
+            "xmlid": "CIT0104"
+        },
+        {
+            "bibentry": "Loh, JM, Adenwalla, N, Wiles, S, et al. Galleria mellonella larvae as an infection model for group A streptococcus. Virulence. 2013; 4: 419–428. PMID: 23652836",
+            "process_entry": "True",
+            "doi": "10.4161/viru.24930",
+            "pmid": "23652836",
+            "pmcid": "PMC3714134",
+            "xmlid": "CIT0105"
+        },
+        {
+            "bibentry": "Rossoni, RD, Fuchs, BB, de Barros, PP, et al. Lactobacillus paracasei modulates the immune system of Galleria mellonella and protects against Candida albicans infection. PloS One. 2017; 12: e0173332. PMID: 28267809",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0173332",
+            "pmid": "28267809",
+            "pmcid": "PMC5340386",
+            "xmlid": "CIT0106"
+        },
+        {
+            "bibentry": "de Melo, NR, Abdrahman, A, Greig, C, et al. Myriocin significantly increases the mortality of a non-mammalian model host during Candida pathogenesis. PLoS One. 2013; 8: e78905. PMID: 24260135",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0078905",
+            "pmid": "24260135",
+            "pmcid": "PMC3829820",
+            "xmlid": "CIT0107"
+        },
+        {
+            "bibentry": "Thelaus, J, Lundmark, E, Lindgren, P, et al. Galleria mellonella reveals niche differences between highly pathogenic and closely related strains of Francisella spp. Front Cell Infect Microbiol. 2018 Jun 5;8:188. PubMed PMID: 29922601; PubMed Central PMCID: PMC5996057.",
+            "process_entry": "True",
+            "xmlid": "CIT0108"
+        },
+        {
+            "bibentry": "Wagley, S, Borne, R, Harrison, J, et al. Galleria mellonella as an infection model to investigate virulence of Vibrio parahaemolyticus. Virulence. 2018; 9: 197–207. PMID: 28960137",
+            "process_entry": "True",
+            "doi": "10.1080/21505594.2017.1384895",
+            "pmid": "28960137",
+            "pmcid": "PMC5801645",
+            "xmlid": "CIT0109"
+        },
+        {
+            "bibentry": "Blandino, G, Fazio, D, Di Marco, R. Probiotics: overview of microbiological and immunological characteristics. Expert Rev Anti Infect Ther. 2008; 6: 497–508. PMID: 18662116",
+            "process_entry": "True",
+            "doi": "10.1586/14787210.6.4.497",
+            "pmid": "18662116",
+            "xmlid": "CIT0110"
+        },
+        {
+            "bibentry": "Sá, NP, Lima, CM, Dos Santos, A, et al. A phenylthiazole derivative demonstrates efficacy on treatment of the cryptococcosis & candidiasis in animal models. Future Sci OA. 2018; 4: FSO305–FSO305. PMID: 30057783",
+            "process_entry": "True",
+            "doi": "10.4155/fsoa-2018-0001",
+            "pmid": "30057783",
+            "pmcid": "PMC6060395",
+            "xmlid": "CIT0111"
+        },
+        {
+            "bibentry": "Rossoni, RD, Barbosa, JO, Vilela, SFG, et al. Competitive interactions between C. albicans, C. glabrata and C. krusei during biofilm formation and development of experimental candidiasis. PLoS One. 2015; 10: e0131700. PMID: 26146832",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0131700",
+            "pmid": "26146832",
+            "pmcid": "PMC4493022",
+            "xmlid": "CIT0112"
+        }
+    ],
+    "localid": "MED-31142220",
+    "doi": "10.1080/21505594.2019.1621649",
+    "pmid": "10.1080/21505594.2019.1621649",
+    "pmcid": "31142220",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31142220/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,325)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),652,170)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),816,5)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),652,170)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),816,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),916,208)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1125,316)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1125,316)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1435,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1125,316)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1435,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1619,160)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1773,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1619,160)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1773,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,268)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11–13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),674,7)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "",
+                "pl_string": "[11–13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),674,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),430,252)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11–13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),674,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),683,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),162,250)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,351)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16–23]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),154,9)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,351)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16–23]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),154,9)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,351)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,16–23]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),154,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[1]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[1]/td[1]),1,22)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[1]),1,14)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[2]),1,10)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[3]),1,9)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[2]/td[4]),1,9)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[3]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[3]/td[1]),1,18)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[4]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[4]/td[1]),1,20)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[5]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[1]/table/tbody/tr[5]/td[1]),1,17)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[2]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[2]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[3]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[3]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[4]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[4]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[5]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[5]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[7]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[7]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[9]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[9]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[11]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[11]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[13]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[13]/td[3]),1,3)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[14]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[14]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[16]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[16]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[18]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[18]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[20]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[20]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[22]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[22]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[24]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[24]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[26]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[26]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[28]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[28]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[30]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[30]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[32]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[32]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[34]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[34]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[35]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[35]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[36]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[36]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[37]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[37]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[39]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[39]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[41]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[41]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0064",
+                "rp_string": "64",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[43]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[43]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[45]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[45]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[47]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[47]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[49]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[49]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0068",
+                "rp_string": "68",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[51]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[51]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0069",
+                "rp_string": "69",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[53]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[53]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[55]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[55]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[57]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[57]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0070",
+                "rp_string": "70",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[59]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[59]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[62]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[62]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[64]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[64]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[65]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[65]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0074",
+                "rp_string": "74",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[67]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[67]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0075",
+                "rp_string": "75",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[69]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[69]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[71]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[71]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[72]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[72]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0078",
+                "rp_string": "78",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[74]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[74]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[76]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]/table-wrap[2]/table/tbody/tr[76]/td[3]),1,4)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),390,195)",
+                "containers_title": [
+                    "In vivo model"
+                ],
+                "pl_string": "[24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),577,7)"
+            },
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),390,195)",
+                "containers_title": [
+                    "In vivo model"
+                ],
+                "pl_string": "[24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),577,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),743,101)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),845,153)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),999,221)",
+                "containers_title": [
+                    "In vivo model"
+                ],
+                "pl_string": "[28–32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1167,7)"
+            },
+            {
+                "n_rp": 73,
+                "xref_id": "",
+                "pl_string": "[28–32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1167,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),999,221)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            },
+            {
+                "n_rp": 74,
+                "xref_id": "",
+                "pl_string": "[28–32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1167,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),999,221)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            },
+            {
+                "n_rp": 75,
+                "xref_id": "",
+                "pl_string": "[28–32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1167,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),999,221)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            },
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),999,221)",
+                "containers_title": [
+                    "In vivo model"
+                ],
+                "pl_string": "[28–32]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/p),1167,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0082",
+                "rp_string": "82",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[1]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[1]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0083",
+                "rp_string": "83",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[2]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[2]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[3]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[3]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0085",
+                "rp_string": "85",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[4]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[4]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0086",
+                "rp_string": "86",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[5]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[5]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0087",
+                "rp_string": "87",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[6]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[6]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0088",
+                "rp_string": "88",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[7]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[7]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0089",
+                "rp_string": "89",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[8]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[8]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0090",
+                "rp_string": "90",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[9]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[9]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0091",
+                "rp_string": "91",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[10]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[10]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[11]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[11]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0093",
+                "rp_string": "93",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[12]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[12]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0094",
+                "rp_string": "94",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[13]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[13]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0095",
+                "rp_string": "95",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[14]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[14]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0096",
+                "rp_string": "96",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[15]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[15]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0097",
+                "rp_string": "97",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[16]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[16]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0098",
+                "rp_string": "98",
+                "rp_xpath": "/article/body/sec[2]/p/table-wrap/table/tbody/tr[17]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p/table-wrap/table/tbody/tr[17]/td[3]),1,4)",
+                "containers_title": [
+                    "In vivo model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),189,153)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p),1,471)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ],
+                "pl_string": "[6,12,34]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p),11,9)"
+            },
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p),1,471)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ],
+                "pl_string": "[6,12,34]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p),11,9)"
+            },
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p),1,471)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ],
+                "pl_string": "[6,12,34]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[1]/p),11,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/list/list-item[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[2]/p),1,16)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ],
+                "pl_string": "[6,35]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[2]/p),10,6)"
+            },
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/list/list-item[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[2]/p),1,16)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ],
+                "pl_string": "[6,35]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]/list/list-item[2]/p),10,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),477,144)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),920,213)",
+                "containers_title": [
+                    "In vivo model",
+                    "Immune system"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 102,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),1,289)",
+                "containers_title": [
+                    "In vivo model",
+                    "Antimicrobial peptides (AMPs) and immune-relevant proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 103,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,279)",
+                "containers_title": [
+                    "In vivo model",
+                    "Antimicrobial peptides (AMPs) and immune-relevant proteins"
+                ],
+                "pl_string": "[37–39]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),272,7)"
+            },
+            {
+                "n_rp": 104,
+                "xref_id": "",
+                "pl_string": "[37–39]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),272,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,279)",
+                "containers_title": [
+                    "In vivo model",
+                    "Antimicrobial peptides (AMPs) and immune-relevant proteins"
+                ]
+            },
+            {
+                "n_rp": 105,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,279)",
+                "containers_title": [
+                    "In vivo model",
+                    "Antimicrobial peptides (AMPs) and immune-relevant proteins"
+                ],
+                "pl_string": "[37–39]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),272,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 106,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),494,146)",
+                "containers_title": [
+                    "In vivo model",
+                    "Antimicrobial peptides (AMPs) and immune-relevant proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 107,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1040,109)",
+                "containers_title": [
+                    "In vivo model",
+                    "Antimicrobial peptides (AMPs) and immune-relevant proteins"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),74,297)",
+                "containers_title": [
+                    "In vivo model",
+                    "Influence of diet on larval and immune health"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),74,297)",
+                "containers_title": [
+                    "In vivo model",
+                    "Influence of diet on larval and immune health"
+                ],
+                "pl_string": "[30,42]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),363,7)"
+            },
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),74,297)",
+                "containers_title": [
+                    "In vivo model",
+                    "Influence of diet on larval and immune health"
+                ],
+                "pl_string": "[30,42]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),363,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 111,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),1,275)",
+                "containers_title": [
+                    "In vivo model",
+                    "Influence of diet on larval and immune health"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 112,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),457,264)",
+                "containers_title": [
+                    "In vivo model",
+                    "Influence of diet on larval and immune health"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 113,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),78,187)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),266,169)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),266,169)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 116,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),266,169)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 117,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),436,170)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 118,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),202,187)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 119,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),161,188)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Acinetobacter baumanni (A. baumanni)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 120,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),464,144)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Burkholderia spp"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 121,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),609,174)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Burkholderia spp"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 122,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),784,264)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Burkholderia spp"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 123,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),295,118)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Burkholderia spp"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 124,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[3]),476,113)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Burkholderia spp"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 125,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),213,200)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Clostridium difficile (C. difficile)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),171,163)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Enterobacter cloacae (E. cloacae)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 127,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),384,226)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Escherichia coli (E. coli)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 128,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),1,231)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Helicobacter pylori (H. pylori)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 129,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),254,147)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Klebsiella pneumoniae (K. pneumoniae)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 130,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),709,157)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Klebsiella pneumoniae (K. pneumoniae)"
+                ],
+                "pl_string": "[59,60]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),858,7)"
+            },
+            {
+                "n_rp": 131,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),709,157)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Klebsiella pneumoniae (K. pneumoniae)"
+                ],
+                "pl_string": "[59,60]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),858,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 132,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),1078,71)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Klebsiella pneumoniae (K. pneumoniae)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 133,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[3]/sec[9]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[9]/p),299,129)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Porphyromonas gingivalis (P. gingivalis)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 134,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[1]),466,155)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 135,
+                "xref_id": "CIT0064",
+                "rp_string": "64",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[1]),890,132)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 136,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[2]),620,109)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 137,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[3]),547,64)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 138,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[4]),176,225)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 139,
+                "xref_id": "CIT0068",
+                "rp_string": "68",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[5]),530,174)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 140,
+                "xref_id": "CIT0069",
+                "rp_string": "69",
+                "rp_xpath": "/article/body/sec[3]/sec[10]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[10]/p[6]),360,282)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Pseudomonas aeruginosa (P. aereuginosa)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 141,
+                "xref_id": "CIT0070",
+                "rp_string": "70",
+                "rp_xpath": "/article/body/sec[3]/sec[11]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[11]/p),183,166)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Shigella sonnei"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 142,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[3]/sec[13]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[13]/p),505,109)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Enterococcus spp"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 143,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[3]/sec[14]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[14]/p[1]),311,145)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Listeria monocytogenes (L. monocytogenes)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 144,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[3]/sec[14]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[14]/p[2]),640,140)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Listeria monocytogenes (L. monocytogenes)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 145,
+                "xref_id": "CIT0074",
+                "rp_string": "74",
+                "rp_xpath": "/article/body/sec[3]/sec[15]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[15]/p),491,134)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Mycobacterium abscessus (M. abscessus)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 146,
+                "xref_id": "CIT0075",
+                "rp_string": "75",
+                "rp_xpath": "/article/body/sec[3]/sec[16]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[16]/p[1]),559,112)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Staphylococcus aureus (S.aureus)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 147,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[3]/sec[16]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[16]/p[2]),150,293)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Staphylococcus aureus (S.aureus)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 148,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[3]/sec[16]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[16]/p[3]),273,152)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Staphylococcus aureus (S.aureus)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 149,
+                "xref_id": "CIT0078",
+                "rp_string": "78",
+                "rp_xpath": "/article/body/sec[3]/sec[16]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[16]/p[4]),197,87)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Staphylococcus aureus (S.aureus)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 150,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[3]/sec[16]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[16]/p[5]),325,151)",
+                "containers_title": [
+                    "G. mellonella as a tool for studying antimicrobial drugs against pathogens",
+                    "Staphylococcus aureus (S.aureus)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 151,
+                "xref_id": "CIT0080",
+                "rp_string": "80",
+                "rp_xpath": "/article/body/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),96,134)",
+                "containers_title": [
+                    "Novel drugs"
+                ],
+                "pl_string": "[80,81]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),222,7)"
+            },
+            {
+                "n_rp": 152,
+                "xref_id": "CIT0081",
+                "rp_string": "81",
+                "rp_xpath": "/article/body/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),96,134)",
+                "containers_title": [
+                    "Novel drugs"
+                ],
+                "pl_string": "[80,81]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p),222,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 153,
+                "xref_id": "CIT0082",
+                "rp_string": "82",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[1]),273,176)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 154,
+                "xref_id": "CIT0083",
+                "rp_string": "83",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[2]),265,249)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 155,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[3]),311,276)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 156,
+                "xref_id": "CIT0085",
+                "rp_string": "85",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[4]),374,178)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 157,
+                "xref_id": "CIT0086",
+                "rp_string": "86",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[5]),311,324)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 158,
+                "xref_id": "CIT0087",
+                "rp_string": "87",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[6]),435,143)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 159,
+                "xref_id": "CIT0088",
+                "rp_string": "88",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[7]),527,160)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 160,
+                "xref_id": "CIT0089",
+                "rp_string": "89",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[8]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[8]),428,251)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 161,
+                "xref_id": "CIT0090",
+                "rp_string": "90",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[9]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[9]),821,150)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 162,
+                "xref_id": "CIT0091",
+                "rp_string": "91",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[10]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[10]),356,169)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 163,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[11]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[11]),345,143)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 164,
+                "xref_id": "CIT0093",
+                "rp_string": "93",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[12]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[12]),340,111)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 165,
+                "xref_id": "CIT0094",
+                "rp_string": "94",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[13]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[13]),360,148)",
+                "containers_title": [
+                    "Novel drugs",
+                    "Antimicrobial testing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 166,
+                "xref_id": "CIT0095",
+                "rp_string": "95",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[1]),1,277)",
+                "containers_title": [
+                    "Novel drugs",
+                    "In vivo toxicity screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 167,
+                "xref_id": "CIT0095",
+                "rp_string": "95",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[1]),343,137)",
+                "containers_title": [
+                    "Novel drugs",
+                    "In vivo toxicity screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 168,
+                "xref_id": "CIT0096",
+                "rp_string": "96",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[2]),269,168)",
+                "containers_title": [
+                    "Novel drugs",
+                    "In vivo toxicity screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 169,
+                "xref_id": "CIT0097",
+                "rp_string": "97",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[4]),345,95)",
+                "containers_title": [
+                    "Novel drugs",
+                    "In vivo toxicity screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 170,
+                "xref_id": "CIT0098",
+                "rp_string": "98",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p[5]),181,93)",
+                "containers_title": [
+                    "Novel drugs",
+                    "In vivo toxicity screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 171,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),81,226)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 172,
+                "xref_id": "CIT0097",
+                "rp_string": "97",
+                "rp_xpath": "/article/body/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[1]),436,77)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 173,
+                "xref_id": "CIT0099",
+                "rp_string": "99",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),1,162)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 174,
+                "xref_id": "CIT0100",
+                "rp_string": "100",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),164,104)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[100,101]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),186,9)"
+            },
+            {
+                "n_rp": 175,
+                "xref_id": "CIT0101",
+                "rp_string": "101",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),164,104)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[100,101]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),186,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 176,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),164,104)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[6,102]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),260,7)"
+            },
+            {
+                "n_rp": 177,
+                "xref_id": "CIT0102",
+                "rp_string": "102",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),164,104)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[6,102]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),260,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 178,
+                "xref_id": "CIT0100",
+                "rp_string": "100",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),402,181)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[100,101,103,104]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),565,17)"
+            },
+            {
+                "n_rp": 179,
+                "xref_id": "CIT0101",
+                "rp_string": "101",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),402,181)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[100,101,103,104]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),565,17)"
+            },
+            {
+                "n_rp": 180,
+                "xref_id": "CIT0103",
+                "rp_string": "103",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),402,181)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[100,101,103,104]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),565,17)"
+            },
+            {
+                "n_rp": 181,
+                "xref_id": "CIT0104",
+                "rp_string": "104",
+                "rp_xpath": "/article/body/sec[5]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[2]),402,181)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[100,101,103,104]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[2]),565,17)"
+            }
+        ],
+        [
+            {
+                "n_rp": 182,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),1,168)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 183,
+                "xref_id": "CIT0105",
+                "rp_string": "105",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),490,263)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[105–107]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),743,9)"
+            },
+            {
+                "n_rp": 184,
+                "xref_id": "",
+                "pl_string": "[105–107]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),743,9)",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),490,263)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            },
+            {
+                "n_rp": 185,
+                "xref_id": "CIT0107",
+                "rp_string": "107",
+                "rp_xpath": "/article/body/sec[5]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[3]),490,263)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[105–107]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[3]),743,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 186,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),129,201)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 187,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),331,270)",
+                "containers_title": [
+                    "Limitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 188,
+                "xref_id": "CIT0108",
+                "rp_string": "108",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),602,252)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[108,109]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[4]),844,9)"
+            },
+            {
+                "n_rp": 189,
+                "xref_id": "CIT0109",
+                "rp_string": "109",
+                "rp_xpath": "/article/body/sec[5]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[5]/p[4]),602,252)",
+                "containers_title": [
+                    "Limitation"
+                ],
+                "pl_string": "[108,109]",
+                "pl_xpath": "substring(string(/article/body/sec[5]/p[4]),844,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 190,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 191,
+                "xref_id": "CIT0110",
+                "rp_string": "110",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 192,
+                "xref_id": "CIT0083",
+                "rp_string": "83",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[83,84,86,90,92]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),743,16)"
+            },
+            {
+                "n_rp": 193,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[83,84,86,90,92]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),743,16)"
+            },
+            {
+                "n_rp": 194,
+                "xref_id": "CIT0086",
+                "rp_string": "86",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[83,84,86,90,92]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),743,16)"
+            },
+            {
+                "n_rp": 195,
+                "xref_id": "CIT0090",
+                "rp_string": "90",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[83,84,86,90,92]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),743,16)"
+            },
+            {
+                "n_rp": 196,
+                "xref_id": "CIT0092",
+                "rp_string": "92",
+                "rp_xpath": "/article/body/sec[6]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[1]),454,306)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[83,84,86,90,92]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[1]),743,16)"
+            }
+        ],
+        [
+            {
+                "n_rp": 197,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),1,327)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[28,29]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),144,7)"
+            },
+            {
+                "n_rp": 198,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),1,327)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[28,29]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),144,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 199,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),1,327)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[79,93]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),320,7)"
+            },
+            {
+                "n_rp": 200,
+                "xref_id": "CIT0093",
+                "rp_string": "93",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),1,327)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[79,93]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),320,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 201,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),329,184)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[4,48,66,111,112]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),495,17)"
+            },
+            {
+                "n_rp": 202,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),329,184)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[4,48,66,111,112]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),495,17)"
+            },
+            {
+                "n_rp": 203,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),329,184)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[4,48,66,111,112]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),495,17)"
+            },
+            {
+                "n_rp": 204,
+                "xref_id": "CIT0111",
+                "rp_string": "111",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),329,184)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[4,48,66,111,112]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),495,17)"
+            },
+            {
+                "n_rp": 205,
+                "xref_id": "CIT0112",
+                "rp_string": "112",
+                "rp_xpath": "/article/body/sec[6]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[6]/p[2]),329,184)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "[4,48,66,111,112]",
+                "pl_xpath": "substring(string(/article/body/sec[6]/p[2]),495,17)"
+            }
+        ]
+    ]
+}

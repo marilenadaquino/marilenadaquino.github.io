@@ -1,0 +1,755 @@
+{
+    "references": [
+        {
+            "bibentry": "Cox, FE. History of the discovery of the malaria parasites and their vectors. Parasit Vectors 2010; 3: 5. PMID: 20205846",
+            "process_entry": "True",
+            "doi": "10.1186/1756-3305-3-5",
+            "pmid": "20205846",
+            "pmcid": "PMC2825508",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "World Malaria Report 2011. World Health Organization: Geneva. 13/12/2011.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "WHO Malaria Report 2014. World Health Organization: Geneva.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Sinha, S, Medhi, B, Sehgal, R. Challenges of drug resistant malaria. Parasite 2014; 21: 61. PMID: 25402734",
+            "process_entry": "True",
+            "doi": "10.1051/parasite/2014059",
+            "pmid": "25402734",
+            "pmcid": "PMC4234044",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Day, T, Greenfield, SA. Bioactivity of a peptide derived from acetylcholinesterase in hippocampal organotypic cultures. Exp Brain Res 2004; 155: 500. PMID: 14685807",
+            "process_entry": "True",
+            "doi": "10.1007/s00221-003-1757-1",
+            "pmid": "14685807",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Qi, Z, Verma, R, Gehring, C, et al. Ca 2+ signaling by plant Arabidopsis thaliana pep peptides depends on AtPepR1, a receptor with guanylyl cyclase activity, and cGMP-activated Ca 2+ channels. Proc Natl Acad Sci USA 2010; 107: 21193 PMID: 21088220",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1000191107",
+            "pmid": "21088220",
+            "pmcid": "PMC3000296",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Thompson, A, Lin, W, Chun, E, et al. Structure of the nociceptin/orphanin FQ receptor in complex with a peptide mimetic. Nature 2012; 485: 495.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Lacknoneng, P. Homing peptides as target delivery vehicles. Inter Biol 2010; 2: 326–37.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Craik, DJ, Fairlie, DP, Liras, S, Price, D. The future of peptidebased drugs. Chem Biol Drug Des 2013; 81: 136–47. PMID: 23253135",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.12055",
+            "pmid": "23253135",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Carta, F, Scozzafava, A, Supuran, CT. Sulfonamides: a patent review (2008–2012). Expert Opin Ther Pat 2012; 22: 747–58. PMID: 22697257",
+            "process_entry": "True",
+            "doi": "10.1517/13543776.2012.698264",
+            "pmid": "22697257",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Scozzafava, A, Carta, F, Supuran, CT. secondary and tertiary sulfonamides: a patent review (2008–2012). Expert Opin Ther Pat 2013; 23: 203–13. PMID: 23148584",
+            "process_entry": "True",
+            "doi": "10.1517/13543776.2013.742065",
+            "pmid": "23148584",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Krungkrai, J, Krungkrai, SR, Supuran, CT. Carbonic anhydrase inhibitors: inhibition of Plasmodium falciparum carbonic anhydrase with aromatic/heterocyclic sulfonamides—in vitro and in vivo studies. Bioorg Med Chem Lett 2008; 18: 5466–71. PMID: 18805693",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2008.09.030",
+            "pmid": "18805693",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Krungkrai, J, Scozzafava, A, Reungprapavut, S, et al. Carbonic anhydrase inhibitors. Inhibition of Plasmodium falciparum carbonic anhydrase with aromatic sulfonamides: towards antimalarials with a novelmechanism of action? Bioorg Med Chem 2005; 13: 483–9. PMID: 15598570",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2004.10.015",
+            "pmid": "15598570",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Johann, L, Pegraro, S, Dormeyer, M, et al. Sulfonylphenyl-ureido benzamidines: a novel structural class of poten antimalarial agents. Bioorg MedChem Lett 2004; 14: 1979–82.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Domınguez, JN, Leon, C, Rodrigues, J, et al. Synthesis and antimalarial activity of sulfonamide chalcone derivatives. Il Farmaco 2005; 60: 307–11. PMID: 15848205",
+            "process_entry": "True",
+            "doi": "10.1016/j.farmac.2005.01.005",
+            "pmid": "15848205",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Ryckebusch, A, Deprez-Poulain, R, Debreu-Fontaine, MA, et al. Parallel synthesis and anti-malarial activity of a sulfonamide library. Bioorg Med Chem Lett 2002; 12: 2595–8. PMID: 12182868",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(02)00475-4",
+            "pmid": "12182868",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Posner, GH, Maxwell, JP, O'Dowd, H, et al. Antimalarial sulfide, sulfone, and sulfonamide trioxanes. Bioorg Med Chem 2000; 8: 1361–70. PMID: 10896113",
+            "process_entry": "True",
+            "doi": "10.1016/s0968-0896(00)00079-1",
+            "pmid": "10896113",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Parai, MK, Panda, G, Srivastava, K, Puri, SK. Design, synthesis and antimalarial activity ofbenzene and isoquinoline sulfonamide derivatives. Bioorg Med Chem Lett 2008; 18: 776–81. Molecules 2011, 16 8097. PMID: 18039570",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2007.11.038",
+            "pmid": "18039570",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Martyn, DC, Cortese, JF, Tyndall, E, et al. Antiplasmodial activity of piperazine sulfonamides. Bioorg Med Chem Lett 2010; 20: 218–21. PMID: 19914069",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2009.10.130",
+            "pmid": "19914069",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Ekoue-Kovi, K, Yearick, K, Iwaniuk, DP, et al. Synthesis and antimalarial activity of new 4-amino-7-chloroquinolylamides, sulfonamides, ureas and thioureas. Bioorg Med Chem 2009; 17: 270–83. PMID: 19041248",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2008.11.009",
+            "pmid": "19041248",
+            "pmcid": "PMC2647815",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Kahn, CM. The Merck veterinary manual, 9th edn Merck: Whitehouse Station; 2005.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Spoo, JW, Riviere, JE. Sulfonamides In, Adams, HR, ed. Veterinary pharmacology and therapeutics. Ames, IO: Iowa State University Press; 2001: 796–817.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Barea, C, Pabón, A, Castillo, D, et al. New salicylamide and sulfonamide derivatives of quinoxaline 1,4-di-N-oxide with antileishmanial and antimalarial activities. Bioorg Med Chem Lett 2011; 21: 4498–502. PMID: 21724395",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2011.05.125",
+            "pmid": "21724395",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Primas, N, Verhaeghe, P, Cohen, A, et al. A new synthetic route to original sulfonamide derivatives in 2-trichloromethylquinazoline series: a structure-activity relationship study of antiplasmodial activity. Molecules 2012; 17: 8105–17. PMID: 22766802",
+            "process_entry": "True",
+            "doi": "10.3390/molecules17078105",
+            "pmid": "22766802",
+            "pmcid": "PMC6269066",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Salahuddin, A, Inam, A, van Zyl, RL, et al. Synthesis and evaluation of 7-chloro-4-(piperazin-1-yl)quinoline-sulfonamide as hybrid antiprotozoal agents. Bioorgan Med Chem 2013; 21: 3080–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Ugwu, DI, Okoro, UC, Ukoha, PO, et al. Synthesis, characterization, molecular docking and in vitro antimalarial properties of new carboxamides bearing sulphonamide. Eur J Med Chem 2017; 135: 349–69. PMID: 28460310",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.04.029",
+            "pmid": "28460310",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Sharma, R, Soman, SS. Design and synthesis of novel diamide derivatives of glycine as antihyperglycemic agents. Synth Commun 2016; 46: 1307–17.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Ugwuja, DI, Okoro, UC, Ugwu, DI. Synthesis of N-aryl substituted p-toluenesulphonamides via nickel catalyzed amidation reaction and their antibacterial, antifungal andantioxidant activities evaluation. Pak J Pharm Sci 2018; 31: 1209–16. PMID: 30033403",
+            "process_entry": "True",
+            "pmid": "30033403",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Reinders, P, Vianen, P, Van der Keur, M, et al. Computer software for testing drug susceptibility of malaria parasites. Cytometry 1995; 19: 273 PMID: 7537650",
+            "process_entry": "True",
+            "doi": "10.1002/cyto.990190312",
+            "pmid": "7537650",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Peters, W, Portus, JH, Robinson, BL. The chemotherapy of rodent malaria, XXII The value of drug resistant strains of berghei in screening for blood schizontocidal activity. Ann Trop Med Parasitol 1975; 69: 155–71. PMID: 1098584",
+            "process_entry": "True",
+            "pmid": "1098584",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Kalra, B S, Chawla, S, Gupta, P, Valecha, N. Screening of antimalarial drugs: an overview. Indian J Pharmacol 2006; 38: 5–12.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Reitman, S, Frankel, S. A colorimetioc method for the determination of serum glutamic oxaloacetic and glutamic pyruvic transaminase. Am J Clin Pathol 1957; 28: 56–63. PMID: 13458125",
+            "process_entry": "True",
+            "doi": "10.1093/ajcp/28.1.56",
+            "pmid": "13458125",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Kaplan, A, Teeng, LL. Selected methods of clinical chemistry, W.R. Faulkner and S. Meits. Washington, DC: AACC; 1982; 9: 357–63.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Karlgren, M, Bergstrom, CAS. How physicochemical properties of drug affect their metabolism and clearance In, Wilson, AGE, editor. New horizons in predictive drug metabolism and pharmacokinetics. Cambridge, UK: Royal Society of Chemistry; 2015; 49: 1–26.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Ugwu, DI, Okoro, UC, Ukoha, PO, et al. Novel anti-inflammatory and analgesic agents: synthesis, molecular docking and in vivo studies. J Enzym Inhibit Med Chem 2018; 33: 405–15. DOI: 10.1080/14756366.2018.1426573",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1426573",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "McNally, VA, Rajabi, M, Gbaj, A, et al. Design, synthesis and enzymatic evaluation of 6-bridged imidazolyluracil derivatives as inhibitors of human thymidine phosphorylase. J Pharm Pharmacol 2007; 59: 537. PMID: 17430637",
+            "process_entry": "True",
+            "doi": "10.1211/jpp.59.4.0008",
+            "pmid": "17430637",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Veber, DF, Johnson, SR, Cheng, H-Y, et al. Molecular properties that influence the oral bioavailability of drug candidates. J Med Chem 2002; 45: 2615–23. PMID: 12036371",
+            "process_entry": "True",
+            "doi": "10.1021/jm020017n",
+            "pmid": "12036371",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Petit, J, Meurice, N, Kaiser, C, Maggiora, G. Softening the rule of Five-where to draw the line? Bioorg Med Chem 2012; 20: 5343–51. PMID: 22222160",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2011.11.064",
+            "pmid": "22222160",
+            "pmcid": "PMC4209914",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Carvalho, LH, Brandão, MGL, Santos-Filho, D, et al. Antimalarial activity of crude extracts from Brazilian plants studied in vivo in Plasmodium berghei-infected mice and in vitro against Plasmodium falciparum in culture. Braz J Med Biol Res 1991; 24: 1113. PMID: 1823001",
+            "process_entry": "True",
+            "pmid": "1823001",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "De Souza, NB, Andrade, IM, Carneiro, PF, et al. Blood shizonticidal activities of phenazines and naphthoquinoidal compounds against Plasmodium falciparum in vitro and in mice malaria studies. Mem Inst Oswaldo Cruz 2014; 109: 546. PMID: 25099332",
+            "process_entry": "True",
+            "doi": "10.1590/0074-0276130603",
+            "pmid": "25099332",
+            "pmcid": "PMC4156448",
+            "xmlid": "CIT0040"
+        }
+    ],
+    "localid": "MED-31392901",
+    "doi": "10.1080/14756366.2019.1651313",
+    "pmid": "10.1080/14756366.2019.1651313",
+    "pmcid": "31392901",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31392901/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,97)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),231,179)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),411,332)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),744,160)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),905,119)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1025,224)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1250,390)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,94)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),475,172)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,215)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "14–20",
+                "pl_string": "14–20",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0015",
+                "pl_string": "14–20",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0016",
+                "pl_string": "14–20",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0017",
+                "pl_string": "14–20",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0018",
+                "pl_string": "14–20",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0019",
+                "pl_string": "14–20",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0020",
+                "pl_string": "14–20",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "14–20",
+                "pl_string": "14–20",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),217,84)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),652,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),652,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23–25",
+                "pl_string": "23–25",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),856,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0024",
+                "pl_string": "23–25",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),856,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0025",
+                "pl_string": "23–25",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),856,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23–25",
+                "pl_string": "23–25",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),856,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/title),1,97)",
+                "containers_title": [
+                    "Material and methods",
+                    "General procedure for the synthesis of substituted benzene sulphonamoyl Alkanamides (3a and 3b)26"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/title),1,47)",
+                "containers_title": [
+                    "Material and methods",
+                    "General procedure of preparing compound 6a–6e27"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec[1]/p),138,146)",
+                "containers_title": [
+                    "Material and methods",
+                    "Antimicrobial activity",
+                    "Sensitivity test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),968,207)",
+                "containers_title": [
+                    "Material and methods",
+                    "In vitro antimalarial assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),44,153)",
+                "containers_title": [
+                    "Material and methods",
+                    "In vivo antimalaria test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),200,109)",
+                "containers_title": [
+                    "Material and methods",
+                    "Liver function tests (LFTs)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p),129,86)",
+                "containers_title": [
+                    "Material and methods",
+                    "Renal or kidney function test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,145)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),147,186)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1781,35)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),2299,169)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),2469,170)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),426,115)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vivo antimalarial"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),602,256)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vivo antimalarial"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),859,190)",
+                "containers_title": [
+                    "Results and discussion",
+                    "In vivo antimalarial"
+                ]
+            }
+        ]
+    ]
+}

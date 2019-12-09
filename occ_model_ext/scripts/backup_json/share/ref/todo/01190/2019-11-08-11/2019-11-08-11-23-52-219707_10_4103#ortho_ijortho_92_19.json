@@ -1,0 +1,845 @@
+{
+    "references": [
+        {
+            "bibentry": "Brown, DE, Lichtman, DM. The evaluation of chronic wrist pain, Orthop Clin North Am, 1984, 15, 183, 92, PMID: 6728441",
+            "process_entry": "True",
+            "pmid": "6728441",
+            "xmlid": "ref1"
+        },
+        {
+            "bibentry": "Kelly, EP, Stanley, JK. Arthroscopy of the wrist, J Hand Surg Br, 1990, 15, 236, 42, PMID: 2366023",
+            "process_entry": "True",
+            "doi": "10.1016/0266-7681(90)90130-v",
+            "pmid": "2366023",
+            "xmlid": "ref2"
+        },
+        {
+            "bibentry": "Adolfsson, L. Arthroscopy for the diagnosis of posttraumatic wrist pain, J Hand Surg Br, 1992, 17, 46, 50, PMID: 1640143",
+            "process_entry": "True",
+            "doi": "10.1016/0266-7681(92)90010-y",
+            "pmid": "1640143",
+            "xmlid": "ref3"
+        },
+        {
+            "bibentry": "Nelson, DL. The importance of the physical examination, Hand Clin, 1997, 13, 13, 5, PMID: 9048179",
+            "process_entry": "True",
+            "pmid": "9048179",
+            "xmlid": "ref4"
+        },
+        {
+            "bibentry": "Herbert, TJ, Faithfull, RG, McCann, DJ, Ireland, J. Bilateral arthrography of the wrist, J Hand Surg Br, 1990, 15, 233, 5, PMID: 2366022",
+            "process_entry": "True",
+            "doi": "10.1016/0266-7681(90)90129-r",
+            "pmid": "2366022",
+            "xmlid": "ref5"
+        },
+        {
+            "bibentry": "Metz, VM, Mann, FA, Gilula, LA. Lack of correlation between site of wrist pain and location of noncommunicating defects shown by three-compartment wrist arthrography, AJR Am J Roentgenol, 1993, 160, 1239, 43, PMID: 8498225",
+            "process_entry": "True",
+            "doi": "10.2214/ajr.160.6.8498225",
+            "pmid": "8498225",
+            "xmlid": "ref6"
+        },
+        {
+            "bibentry": "Ritt, MJ. Arthroscopy: The giant leap forward in wrist surgery, J Hand Surg Br, 2001, 26, 238, 40, PMID: 11386775",
+            "process_entry": "True",
+            "doi": "10.1054/jhsb.2001.0617",
+            "pmid": "11386775",
+            "xmlid": "ref7"
+        },
+        {
+            "bibentry": "Chloros, GD, Wiesler, ER, Poehling, GG. Current concepts in wrist arthroscopy, Arthroscopy, 2008, 24, 343, 54, PMID: 18308188",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2007.10.006",
+            "pmid": "18308188",
+            "xmlid": "ref8"
+        },
+        {
+            "bibentry": "Chen, YC. Arthroscopy of the wrist and finger joints, Orthop Clin North Am, 1979, 10, 723, 33, PMID: 460845",
+            "process_entry": "True",
+            "pmid": "460845",
+            "xmlid": "ref9"
+        },
+        {
+            "bibentry": "Zlatkin, MB, Chao, PC, Osterman, AL, Schnall, MD, Dalinka, MK, Kressel, HY. Chronic wrist pain: Evaluation with high-resolution MR imaging, Radiology, 1989, 173, 723, 9, PMID: 2813777",
+            "process_entry": "True",
+            "doi": "10.1148/radiology.173.3.2813777",
+            "pmid": "2813777",
+            "xmlid": "ref10"
+        },
+        {
+            "bibentry": "Zanetti, M, Bräm, J, Hodler, J. Triangular fibrocartilage and intercarpal ligaments of the wrist: Does MR arthrography improve standard MRI, J Magn Reson Imaging, 1997, 7, 590, 4, PMID: 9170047",
+            "process_entry": "True",
+            "doi": "10.1002/jmri.1880070322",
+            "pmid": "9170047",
+            "xmlid": "ref11"
+        },
+        {
+            "bibentry": "Johnstone, DJ, Thorogood, S, Smith, WH, Scott, TD. A comparison of magnetic resonance imaging and arthroscopy in the investigation of chronic wrist pain, J Hand Surg Br, 1997, 22, 714, 8, PMID: 9457571",
+            "process_entry": "True",
+            "doi": "10.1016/s0266-7681(97)80431-7",
+            "pmid": "9457571",
+            "xmlid": "ref12"
+        },
+        {
+            "bibentry": "Morley, J, Bidwell, J, Bransby-Zachary, M. A comparison of the findings of wrist arthroscopy and magnetic resonance imaging in the investigation of wrist pain, J Hand Surg Br, 2001, 26, 544, 6, PMID: 11884109",
+            "process_entry": "True",
+            "doi": "10.1054/jhsb.2001.0645",
+            "pmid": "11884109",
+            "xmlid": "ref13"
+        },
+        {
+            "bibentry": "Schweitzer, ME, Brahme, SK, Hodler, J, Hanker, GJ, Lynch, TP, Flannigan, BD. Chronic wrist pain: Spin-echo and short tau inversion recovery MR imaging and conventional and MR arthrography, Radiology, 1992, 182, 205, 11, PMID: 1727283",
+            "process_entry": "True",
+            "doi": "10.1148/radiology.182.1.1727283",
+            "pmid": "1727283",
+            "xmlid": "ref14"
+        },
+        {
+            "bibentry": "Scheck, RJ, Romagnolo, A, Hierner, R, Pfluger, T, Wilhelm, K, Hahn, K. The carpal ligaments in MR arthrography of the wrist: Correlation with standard MRI and wrist arthroscopy, J Magn Reson Imaging, 1999, 9, 468, 74, PMID: 10194719",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1522-2586(199903)9:3<468::aid-jmri16>3.0.co;2-t",
+            "pmid": "10194719",
+            "xmlid": "ref15"
+        },
+        {
+            "bibentry": "Meier, R, Schmitt, R, Krimmer, H. Wrist lesions in MRI arthrography compared with wrist arthroscopy, Handchir Mikrochir Plast Chir, 2005, 37, 85, 9, PMID: 15877268",
+            "process_entry": "True",
+            "doi": "10.1055/s-2004-830376",
+            "pmid": "15877268",
+            "xmlid": "ref16"
+        },
+        {
+            "bibentry": "Mahmood, A, Fountain, J, Vasireddy, N, Waseem, M. Wrist MRI arthrogram v wrist arthroscopy: What are we finding, Open Orthop J, 2012, 6, 194, 8, PMID: 22675410",
+            "process_entry": "True",
+            "doi": "10.2174/1874325001206010194",
+            "pmid": "22675410",
+            "pmcid": "PMC3367475",
+            "xmlid": "ref17"
+        },
+        {
+            "bibentry": "Asaad, AM, Andronic, A, Newby, MP, Harrison, JW. Diagnostic accuracy of single-compartment magnetic resonance arthrography in detecting common causes of chronic wrist pain, J Hand Surg Eur Vol, 2017, 42, 580, 5, PMID: 28488454",
+            "process_entry": "True",
+            "doi": "10.1177/1753193417695180",
+            "pmid": "28488454",
+            "xmlid": "ref18"
+        },
+        {
+            "bibentry": "Mohamadi, A, Claessen, FM, Ozkan, S, Kolovich, GP, Ring, D, Chen, NC. Diagnostic wrist arthroscopy for nonspecific wrist pain, Hand (N Y), 2017, 12, 193, 6, PMID: 28344533",
+            "process_entry": "True",
+            "doi": "10.1177/1558944716661993",
+            "pmid": "28344533",
+            "pmcid": "PMC5349414",
+            "xmlid": "ref19"
+        },
+        {
+            "bibentry": "North, ER, Meyer, S. Wrist injuries: Correlation of clinical and arthroscopic findings, J Hand Surg Am, 1990, 15, 915, 20, PMID: 2269783",
+            "process_entry": "True",
+            "doi": "10.1016/0363-5023(90)90015-j",
+            "pmid": "2269783",
+            "xmlid": "ref20"
+        },
+        {
+            "bibentry": "Magee, T. Comparison of 3-T MRI and arthroscopy of intrinsic wrist ligament and TFCC tears, AJR Am J Roentgenol, 2009, 192, 80, 5, PMID: 19098183",
+            "process_entry": "True",
+            "doi": "10.2214/ajr.08.1089",
+            "pmid": "19098183",
+            "xmlid": "ref21"
+        },
+        {
+            "bibentry": "Rüegger, C, Schmid, MR, Pfirrmann, CW, Nagy, L, Gilula, LA, Zanetti, M. Peripheral tear of the triangular fibrocartilage: Depiction with MR arthrography of the distal radioulnar joint, AJR Am J Roentgenol, 2007, 188, 187, 92, PMID: 17179363",
+            "process_entry": "True",
+            "doi": "10.2214/ajr.05.2056",
+            "pmid": "17179363",
+            "xmlid": "ref22"
+        },
+        {
+            "bibentry": "Lee, RK, Griffith, JF, Ng, AW, Nung, RC, Yeung, DK. Wrist traction during MR arthrography improves detection of triangular fibrocartilage complex and intrinsic ligament tears and visibility of articular cartilage, AJR Am J Roentgenol, 2016, 206, 155, 61, PMID: 26700348",
+            "process_entry": "True",
+            "doi": "10.2214/ajr.15.14948",
+            "pmid": "26700348",
+            "xmlid": "ref23"
+        },
+        {
+            "bibentry": "Andersson, JK, Andernord, D, Karlsson, J, Fridén, J. Efficacy of magnetic resonance imaging and clinical tests in diagnostics of wrist ligament injuries: A systematic review, Arthroscopy, 2015, 31, 2014, 2000, PMID: 26095820",
+            "process_entry": "True",
+            "doi": "10.1016/j.arthro.2015.04.090",
+            "pmid": "26095820",
+            "xmlid": "ref24"
+        },
+        {
+            "bibentry": "Cerezal, L, Abascal, F, García-Valtuille, R, Del Piñal, F. Wrist MR arthrography: How, why, when, Radiol Clin North Am, 2005, 43, 709, 31, viii, PMID: 15893533",
+            "process_entry": "True",
+            "doi": "10.1016/j.rcl.2005.02.004",
+            "pmid": "15893533",
+            "xmlid": "ref25"
+        },
+        {
+            "bibentry": "Saupe, N, Prüssmann, KP, Luechinger, R, Bösiger, P, Marincek, B, Weishaupt, D. MR imaging of the wrist: Comparison between 1.5-and 3-T MR imaging –Preliminary experience, Radiology, 2005, 234, 256, 64, PMID: 15550374",
+            "process_entry": "True",
+            "doi": "10.1148/radiol.2341031596",
+            "pmid": "15550374",
+            "xmlid": "ref26"
+        },
+        {
+            "bibentry": "Lenk, S, Ludescher, B, Martirosan, P, Schick, F, Claussen, CD, Schlemmer, HP. 3.0 T high-resolution MR imaging of carpal ligaments and TFCC, Rofo, 2004, 176, 664, 7, PMID: 15122464",
+            "process_entry": "True",
+            "doi": "10.1055/s-2004-813112",
+            "pmid": "15122464",
+            "xmlid": "ref27"
+        },
+        {
+            "bibentry": "Sutherland, JK, Nozaki, T, Kaneko, Y, Yu, HJ, Rafijah, G, Hitt, D. Initial experience with 3D isotropic high-resolution 3 T MR arthrography of the wrist, BMC Musculoskelet Disord, 2016, 17, 30, PMID: 26772813",
+            "process_entry": "True",
+            "doi": "10.1186/s12891-016-0890-5",
+            "pmid": "26772813",
+            "pmcid": "PMC4715345",
+            "xmlid": "ref28"
+        }
+    ],
+    "localid": "MED-31673180",
+    "doi": "10.4103/ortho.IJOrtho_92_19",
+    "pmid": "10.4103/ortho.IJOrtho_92_19",
+    "pmcid": "31673180",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673180/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "ref1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,216)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),526,119)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "ref3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),526,119)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "ref4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,280)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "ref5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),355,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "ref6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),355,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "ref7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),266,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "ref10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "ref11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "ref12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "ref13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "ref15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "ref16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "ref17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "ref18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,132)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "ref10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[2]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[2]/td[1]),1,17)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "ref12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[3]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[3]/td[1]),1,19)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "ref13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[4]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[4]/td[1]),1,16)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[6]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[6]/td[1]),1,20)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "ref15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[7]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[7]/td[1]),1,16)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "ref16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[8]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[8]/td[1]),1,15)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "ref17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[9]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[9]/td[1]),1,17)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "ref18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[10]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[1]/table/tbody/tr[10]/td[1]),1,15)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "ref10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[2]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[2]/td[1]),1,17)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "ref12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[3]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[3]/td[1]),1,19)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "ref13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[4]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[4]/td[1]),1,16)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[6]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[6]/td[1]),1,20)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "ref15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[7]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[7]/td[1]),1,16)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "ref16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[8]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[8]/td[1]),1,15)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "ref17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[9]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[9]/td[1]),1,17)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "ref18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[10]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[2]/table/tbody/tr[10]/td[1]),1,15)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "ref10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[2]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[2]/td[1]),1,17)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "ref12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[3]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[3]/td[1]),1,19)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "ref13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[4]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[4]/td[1]),1,16)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "ref14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[6]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[6]/td[1]),1,20)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "ref15",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[7]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[7]/td[1]),1,16)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "ref16",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[8]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[8]/td[1]),1,15)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "ref17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[9]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[9]/td[1]),1,17)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "ref18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[10]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap[3]/table/tbody/tr[10]/td[1]),1,15)",
+                "containers_title": [
+                    "Results",
+                    "Comparison to previously published literature"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "ref7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),124,158)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "ref19",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),398,330)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "ref3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,159)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "ref2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),161,280)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "ref21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),437,217)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "ref22",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),992,440)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "ref24",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),150,175)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "ref25",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),125,257)",
+                "containers_title": [
+                    "Discussion",
+                    "Limitations and pitfalls"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "ref21",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),772,133)",
+                "containers_title": [
+                    "Discussion",
+                    "Limitations and pitfalls"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "ref28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),906,311)",
+                "containers_title": [
+                    "Discussion",
+                    "Limitations and pitfalls"
+                ]
+            }
+        ]
+    ]
+}

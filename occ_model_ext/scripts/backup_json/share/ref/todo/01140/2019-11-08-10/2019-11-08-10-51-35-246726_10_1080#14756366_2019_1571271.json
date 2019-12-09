@@ -1,0 +1,645 @@
+{
+    "references": [
+        {
+            "bibentry": "Macedonio, G, Stefanucci, A, Maccallini, C, et al. Hemopressin peptides as modulators of the endocannabinoid system and their potential applications as therapeutic tools. Protein Pept Lett 2016; 23: 1045–51. PMID: 27748182",
+            "process_entry": "True",
+            "doi": "10.2174/0929866523666161007152435",
+            "pmid": "27748182",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ahn, K, McKinney, MK, Cravatt, BF. Enzymatic pathways that regulate endocannabinoid signaling in the nervous system. Chem Rev 2008; 108: 1687–707. PMID: 18429637",
+            "process_entry": "True",
+            "doi": "10.1021/cr0782067",
+            "pmid": "18429637",
+            "pmcid": "PMC3150828",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Aghazadeh Tabrizi, M, Baraldi, PG, Ruggiero, E, et al. Synthesis and structure activity relationship investigation of triazolo[1,5-a]pyrimidines as CB2 cannabinoid receptor inverse agonists. Eur J Med Chem 2016; 113: 11–27. PMID: 26922225",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.02.032",
+            "pmid": "26922225",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Stefanucci, A, Macedonio, G, Dvorácskó, S, et al. Novel Fubinaca/Rimonabant hybrids as endocannabinoid system modulators. Amino Acids 2018; 50: 1595–605. PMID: 30145711",
+            "process_entry": "True",
+            "doi": "10.1007/s00726-018-2636-1",
+            "pmid": "30145711",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Nomura, DK, Long, JZ, Niessen, S, et al. Monoacylglycerol lipase regulates a fatty acid network that promotes cancer pathogenesis. Cell 2010; 140: 49–61. PMID: 20079333",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2009.11.027",
+            "pmid": "20079333",
+            "pmcid": "PMC2885975",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Scalvini, L, Piomelli, D, Mor, M. Monoglyceride lipase: structure and inhibitors. Chem Phys Lipids 2016; 197: 13–24. PMID: 26216043",
+            "process_entry": "True",
+            "doi": "10.1016/j.chemphyslip.2015.07.011",
+            "pmid": "26216043",
+            "pmcid": "PMC4728057",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Granchi, C, Caligiuri, I, Minutolo, F, et al. A patent review of monoacylglycerol lipase (MAGL) inhibitors (2013-2017). Expert Opin Ther Pat 2017; 27: 1341–51. PMID: 29053063",
+            "process_entry": "True",
+            "doi": "10.1080/13543776.2018.1389899",
+            "pmid": "29053063",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Schlosburg, JE, Blankman, JL, Long, JZ, et al. Chronic monoacylglycerol lipase blockade causes functional antagonism of the endocannabinoid system. Nat Neurosci 2010; 13: 1113–9. PMID: 20729846",
+            "process_entry": "True",
+            "doi": "10.1038/nn.2616",
+            "pmid": "20729846",
+            "pmcid": "PMC2928870",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Granchi, C, Rizzolio, F, Palazzolo, S, et al. Structural optimization of 4-chlorobenzoylpiperidine derivatives for the development of potent, reversible, and selective monoacylglycerol lipase (MAGL) inhibitors. J Med Chem 2016; 59: 10299–314. PMID: 27809504",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b01459",
+            "pmid": "27809504",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Granchi, C, Caligiuri, I, Bertelli, E, et al. Development of terphenyl-2-methyloxazol-5(4 H)-one derivatives as selective reversible MAGL inhibitors. J Enzyme Inhib Med Chem 2017; 32: 1240–52. PMID: 28936880",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2017.1375484",
+            "pmid": "28936880",
+            "pmcid": "PMC6009861",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Granchi, C, Rizzolio, F, Bordoni, V, et al. Tuccinardi T. 4-Aryliden-2-methyloxazol-5(4 H)-one as a new scaffold for selective reversible MAGL inhibitors. J Enzyme Inhib Med Chem 2016; 31: 137–46. PMID: 25669350",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1010530",
+            "pmid": "25669350",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Tuccinardi, T, Poli, G, Romboli, V, et al. Extensive consensus docking evaluation for ligand pose prediction and virtual screening studies. J Chem Inf Model 2014; 54: 2980–6. PMID: 25211541",
+            "process_entry": "True",
+            "doi": "10.1021/ci500424n",
+            "pmid": "25211541",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Poli, G, Martinelli, A, Tuccinardi, T. Reliability analysis and optimization of the consensus docking approach for the development of virtual screening studies. J Enzyme Inhib Med Chem 2016; 31: 167–73.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Poli, G, Giuntini, N, Martinelli, A, Tuccinardi, T. Application of a FLAP-consensus docking mixed strategy for the identification of new fatty acid amide hydrolase inhibitors. J Chem Inf Model 2015; 55: 667–75. PMID: 25746133",
+            "process_entry": "True",
+            "doi": "10.1021/ci5006806",
+            "pmid": "25746133",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Chiarelli, LR, Mori, M, Barlocco, D, et al. Discovery and development of novel salicylate synthase (MbtI) furanic inhibitors as antitubercular agents. Eur J Med Chem 2018; 155: 754–63. PMID: 29940465",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.06.033",
+            "pmid": "29940465",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Schalk-Hihi, C, Schubert, C, Alexander, R, et al. Crystal structure of a soluble form of human monoglyceride lipase in complex with an inhibitor at 1.35 Å resolution. Protein Sci 2011; 20: 670–83. PMID: 21308848",
+            "process_entry": "True",
+            "doi": "10.1002/pro.596",
+            "pmid": "21308848",
+            "pmcid": "PMC3081545",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Poli, G, Jha, V, Martinelli, A, et al. Development of a fingerprint-based scoring function for the prediction of the binding mode of carbonic anhydrase II inhibitors. Int J Mol Sci 2018; 19: 1851.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Morris, GM, Ruth, H, Lindstrom, W, et al. AutoDock4 and AutoDockTools4: automated docking with selective receptor flexibility. J Comput Chem 2009; 30: 2785–91. PMID: 19399780",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21256",
+            "pmid": "19399780",
+            "pmcid": "PMC2760638",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Allen, WJ, Balius, TE, Mukherjee, S, et al. 6: impact of new features and current docking performance. J Comput Chem 2015; 36: 1132–56. PMID: 25914306",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.23905",
+            "pmid": "25914306",
+            "pmcid": "PMC4469538",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "McGann, M. FRED pose prediction and virtual screening accuracy. J Chem Inf Model 2011; 51: 578–96. PMID: 21323318",
+            "process_entry": "True",
+            "doi": "10.1021/ci100436p",
+            "pmid": "21323318",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Verdonk, ML, Cole, JC, Hartshorn, MJ, et al. Improved protein-ligand docking using GOLD. Proteins Struct Funct Genet 2003; 52: 609–23. PMID: 12910460",
+            "process_entry": "True",
+            "doi": "10.1002/prot.10465",
+            "pmid": "12910460",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Tuccinardi, T, Granchi, C, Rizzolio, F, et al. Identification and characterization of a new reversible MAGL inhibitor. Bioorganic Med Chem 2014; 22: 3285–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Tuccinardi, T, Poli, G, Dell'Agnello, M, et al. Receptor-based virtual screening evaluation for the identification of estrogen receptor β ligands. J Enzyme Inhib Med Chem 2015; 30: 662–70. PMID: 25265323",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.959946",
+            "pmid": "25265323",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Durrant, JD, McCammon, JA. BINANA: a novel algorithm for ligand-binding characterization. J Mol Graph Model 2011; 29: 888–93. PMID: 21310640",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmgm.2011.01.004",
+            "pmid": "21310640",
+            "pmcid": "PMC3099006",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Case, DA, Babin, V, Berryman, JT, et al. AMBER, version 14. San Francisco (CA): University of California; 2015 Available from: http://ambermd.org/.",
+            "process_entry": "True",
+            "url": "http://ambermd.org/.",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "De Leo, M, Huallpa, CG, Alvarado, B, et al. New diterpenes from Salvia pseudorosmarinus and their activity as inhibitors of monoacylglycerol lipase (MAGL). Fitoterapia 2018; 130: 251–8. PMID: 30240845",
+            "process_entry": "True",
+            "doi": "10.1016/j.fitote.2018.09.010",
+            "pmid": "30240845",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Dömötör, O, Tuccinardi, T, Karcz, D, et al. Interaction of anticancer reduced Schiff base coumarin derivatives with human serum albumin investigated by fluorescence quenching and molecular modeling. Bioorg Chem 2014; 52: 16–23. PMID: 24291035",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2013.10.003",
+            "pmid": "24291035",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Milella, L, Milazzo, S, De Leo, M, et al. α-Glucosidase and α-amylase inhibitors from arcytophyllum thymifolium. J Nat Prod 2016; 79: 2104–12. PMID: 27509358",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jnatprod.6b00484",
+            "pmid": "27509358",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Poli, G, Lapillo, M, Granchi, C, et al. Binding investigation and preliminary optimisation of the 3-amino-1,2,4-triazin-5(2 H)-one core for the development of new Fyn inhibitors. J Enzyme Inhib Med Chem 2018; 33: 956–61. PMID: 29747534",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1469017",
+            "pmid": "29747534",
+            "pmcid": "PMC6009924",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Baroni, M, Cruciani, G, Sciabola, S, et al. A common reference framework for analyzing/comparing proteins and ligands. fingerprints for ligands and proteins (FLAP): theory and application. J Chem Inf Model 2007; 47: 279–94. PMID: 17381166",
+            "process_entry": "True",
+            "doi": "10.1021/ci600253e",
+            "pmid": "17381166",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Poli, G, Tuccinardi, T, Rizzolio, F, et al. Identification of new fyn kinase inhibitors using a FLAP-based approach. J Chem Inf Model 2013; 53: 2538–47. PMID: 24001328",
+            "process_entry": "True",
+            "doi": "10.1021/ci4002553",
+            "pmid": "24001328",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Poli, G, Scarpino, A, Aissaoui, M, et al. Identification of lactate dehydrogenase 5 inhibitors using pharmacophore-driven consensus docking. Curr Bioact Compd 2018; 14: 197–204.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Muccioli, GG, Labar, G, Lambert, DM. CAY10499, a novel monoglyceride lipase inhibitor evidenced by an expeditious MGL assay. Chembiochem 2008; 9: 2704–10. PMID: 18855964",
+            "process_entry": "True",
+            "doi": "10.1002/cbic.200800428",
+            "pmid": "18855964",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Bononi, G, Granchi, C, Lapillo, M, et al. Discovery of long-chain salicylketoxime derivatives as monoacylglycerol lipase (MAGL) inhibitors. Eur J Med Chem 2018; 157: 817–36. PMID: 30144699",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.08.038",
+            "pmid": "30144699",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-30696302",
+    "doi": "10.1080/14756366.2019.1571271",
+    "pmid": "10.1080/14756366.2019.1571271",
+    "pmcid": "30696302",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30696302/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),270,173)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0002",
+                "rp_string": "2–4",
+                "pl_string": "2–4",
+                "rp_xpath": "/article/body/sec[1]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1015,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "2–4",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1015,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "2–4",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1015,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0002",
+                "rp_string": "2–4",
+                "pl_string": "2–4",
+                "rp_xpath": "/article/body/sec[1]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1015,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1461,168)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),1631,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2160,134)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9–11",
+                "pl_string": "9–11",
+                "rp_xpath": "/article/body/sec[1]/p/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2296,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2296,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2296,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9–11",
+                "pl_string": "9–11",
+                "rp_xpath": "/article/body/sec[1]/p/xref[7]",
+                "pl_xpath": "/article/body/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2296,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2650,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),2866,352)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),3220,444)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p),4317,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),131,194)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Fingerprint-based CD analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),327,132)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Fingerprint-based CD analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),461,165)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Fingerprint-based CD analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),57,197)",
+                "containers_title": [
+                    "Materials and methods",
+                    "MD simulations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),256,55)",
+                "containers_title": [
+                    "Materials and methods",
+                    "MD simulations"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0027",
+                "rp_string": "27–29",
+                "pl_string": "27–29",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "pl_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),165,173)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Binding energy evaluation"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "",
+                "pl_string": "27–29",
+                "pl_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),165,173)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Binding energy evaluation"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "",
+                "pl_string": "27–29",
+                "pl_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),165,173)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Binding energy evaluation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0027",
+                "rp_string": "27–29",
+                "pl_string": "27–29",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "pl_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),165,173)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Binding energy evaluation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),442,184)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),838,240)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1629,229)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),2341,249)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),3931,258)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),186,210)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[8]),432,141)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ]
+    ]
+}

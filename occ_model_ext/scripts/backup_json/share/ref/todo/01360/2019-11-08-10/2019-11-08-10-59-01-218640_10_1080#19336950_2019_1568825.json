@@ -1,0 +1,921 @@
+{
+    "references": [
+        {
+            "bibentry": "Curtis, BM, Catterall, WA. Purification of the calcium antagonist receptor of the voltage-sensitive calcium channel from skeletal muscle transverse tubules. Biochemistry. 1984; 23: 2113–2118. PMID: 6329263",
+            "process_entry": "True",
+            "doi": "10.1021/bi00305a001",
+            "pmid": "6329263",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Tanabe, T, Takeshima H, Mikami A, et al. Primary structure of the receptor for calcium channel blockers from skeletal muscle. Nature. 1987; 328: 313–318. PMID: 3037387",
+            "process_entry": "True",
+            "doi": "10.1038/328313a0",
+            "pmid": "3037387",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Wu, J, Yan, Z, Li, Z, et al. Structure of the voltage-gated calcium channel Cav1.1 complex. Science. 2015; 350: aad2395-1–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Garcia, J, Tanabe, T, Beam, KG, et al. Relationship of calcium transients to calcium currents and charge movements in myotubes expressing skeletal and cardiac dihydropyridine receptors. J.Gen.Physiol. 1994; 103: 125–147. PMID: 8169595",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.103.1.125",
+            "pmid": "8169595",
+            "pmcid": "PMC2216852",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lipscombe, D, Andrade, A, Allen, SE. Alternative splicing: functional diversity among voltage-gated calcium channels and behavioral consequences. Biochim Biophys Acta. 1828; 1522–9: 2013.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Polster, A, Perni, S, Bichraoui, H, et al. Stac adaptor proteins regulate trafficking and function of muscle and neuronal L-type Ca2+ channels. Proc Natl Acad Sci U S A. 2015; 112: 602–606. PMID: 25548159",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1423113112",
+            "pmid": "25548159",
+            "pmcid": "PMC4299259",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Wu, F, Quinonez, M, DiFranco, M, et al. Stac3 enhances expression of human CaV1.1 in Xenopus oocytes and reveals gating pore currents in HypoPP mutant channels. J Gen Physiol. 2018; 150: 475–489.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Tanabe, T, Beam, KG, Powell, JA, et al. Restoration of excitation-contraction coupling and slow calcium current in dysgenic muscle by dihydropyridine receptor complementary DNA. Nature. 1988; 336: 134–139. PMID: 2903448",
+            "process_entry": "True",
+            "doi": "10.1038/336134a0",
+            "pmid": "2903448",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Catterall, WA, Wisedchaisri, G, Zheng, N. The chemical basis for electrical signaling. Nat Chem Biol. 2017; 13: 455–463. PMID: 28406893",
+            "process_entry": "True",
+            "doi": "10.1038/nchembio.2353",
+            "pmid": "28406893",
+            "pmcid": "PMC5464002",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Beyl, S, Depil K, Hohaus A, et al. Neutralisation of a single voltage sensor affects gating determinants in all four pore-Forming S6 segments of Cav1.2: A cooperative gating model. Pflugers Arch Eur J Physiol. 2012; 464: 391–401. PMID: 22941337",
+            "process_entry": "True",
+            "doi": "10.1007/s00424-012-1144-5",
+            "pmid": "22941337",
+            "pmcid": "PMC3790253",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Beyl, S, Hohaus, A, Andranovits, S, et al. Upward movement of IS4 and IIIS4 is a rate-limiting stage in Cav1.2 activation. Pflügers Arch -Eur J Physiol. 2016; 468: 1895–1907. PMID: 27796578",
+            "process_entry": "True",
+            "doi": "10.1007/s00424-016-1895-5",
+            "pmid": "27796578",
+            "pmcid": "PMC5138263",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Tuluc, P, Yarov-Yarovoy, V, Benedetti, B, et al. Molecular interactions in the voltage sensor controlling gating properties of CaV calcium channels. Structure. 2016; 24: 261–271. PMID: 26749449",
+            "process_entry": "True",
+            "doi": "10.1016/j.str.2015.11.011",
+            "pmid": "26749449",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Wu, J, Yan, Z, Li, Z, et al. Structure of the voltage-gated calcium channel Cav1.1 at 3.6 Å resolution. Nature. 2016; 537: 191–196. PMID: 27580036",
+            "process_entry": "True",
+            "doi": "10.1038/nature19321",
+            "pmid": "27580036",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Rios, E, Brum, G. Involvement of dihydropyridine receptors in excitation–contraction coupling in skeletal muscle. Nature. 1987; 325: 717–720. PMID: 2434854",
+            "process_entry": "True",
+            "doi": "10.1038/325717a0",
+            "pmid": "2434854",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Melzer, W, Herrmann-Frank, A, Lüttgau, H-C. The role of Ca2+ ions in excitation-contraction coupling of skeletal muscle fibres. Biochim. Biophys Acta. 1995; 1241: 59–116.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Tuluc, P, Molenda N, Schlick B, et al. A Cav1.1 Ca2+ channel splice variant with high conductance and voltage-sensitivity alters EC coupling in developing skeletal muscle. Biophys J. 2009; 96: 35–44. PMID: 19134469",
+            "process_entry": "True",
+            "doi": "10.1016/j.bpj.2008.09.027",
+            "pmid": "19134469",
+            "pmcid": "PMC2710043",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Costé de Bagneaux, P, Campiglio, M, Benedetti, B, et al. Role of putative voltage-sensor countercharge D4 in regulating gating properties of CaV1.2 and CaV1.3 calcium channels. Channels. 2018; 12: 249–261. PMID: 30001160",
+            "process_entry": "True",
+            "doi": "10.1080/19336950.2018.1482183",
+            "pmid": "30001160",
+            "pmcid": "PMC6161609",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Sultana, N, Dines B, Benedetti A, et al. Restricting calcium currents is required for correct fiber type specification in skeletal muscle. Development. 2016; 143: 1547–1559. PMID: 26965373",
+            "process_entry": "True",
+            "doi": "10.1242/dev.129676",
+            "pmid": "26965373",
+            "pmcid": "PMC4909858",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Nakai, J, Adams, BA, Imoto, K, et al. Critical roles of the S3 segment and S3-S4 linker of repeat I in activation of L-type calcium channels. Proc Natl Acad Sci. 1994; 91: 1014–1018. PMID: 8302825",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.91.3.1014",
+            "pmid": "8302825",
+            "pmcid": "PMC521444",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Tuluc, P, Benedetti, B, Coste De Bagneaux, P, et al. Two distinct voltage-sensing domains control voltage sensitivity and kinetics of current activation in CaV1.1 calcium channels. J Gen Physiol. 2016; 147: 437–449. PMID: 27185857",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.201611568",
+            "pmid": "27185857",
+            "pmcid": "PMC4886277",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Tuluc, P, Flucher, BE. Divergent biophysical properties, gating mechanisms, and possible functions of the two skeletal muscle CaV1.1 calcium channel splice variants. J Muscle Res Cell Motil. 2011; 32: 249–256. PMID: 22057633",
+            "process_entry": "True",
+            "doi": "10.1007/s10974-011-9270-9",
+            "pmid": "22057633",
+            "pmcid": "PMC4913837",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Flucher, BE, Campiglio, M. STAC proteins: the missing link in skeletal muscle EC coupling and new regulators of calcium channel function. Biochim Biophys Acta -Mol Cell Res. 2018 Available from: DOI: 10.1016/j.bbamcr.2018.12.004",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamcr.2018.12.004",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Dayal, A, Schrötter, K, Pan, Y, et al. The Ca2+influx through the mammalian skeletal muscle dihydropyridine receptor is irrelevant for muscle performance. Nat Commun. 2017; 8: 1–14. PMID: 28232747",
+            "process_entry": "True",
+            "doi": "10.1038/s41467-016-0009-6",
+            "pmid": "28232747",
+            "pmcid": "PMC5431875",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Flucher, BE, Tuluc, P. How and why are calcium currents curtailed in the skeletal muscle voltage-gated calcium channels? J. Physiol. 2017; 595: 1451–1463.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Pantazis, A, Savalli, N, Sigg, D, et al. Functional heterogeneity of the four voltage sensors of a human L-type calcium channel. Proc Natl Acad Sci. 2014; 111: 18381–18386. PMID: 25489110",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1411127112",
+            "pmid": "25489110",
+            "pmcid": "PMC4280600",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Grabner, M, Dirksen, RT, Beam, KG. Tagging with green fluorescent protein reveals a distinct subcellular distribution of L-type and non-L-type Ca2+ channels expressed in dysgenic myotubes. Proc Natl Acad Sci USA. 1903–1908; 95: 1998.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Campiglio, M, Di Biase, V, Tuluc, P, et al. Stable incorporation versus dynamic exchange of β subunits in a native Ca2+ channel complex. J Cell Sci. 2013; 126: 2092–2101. PMID: 23447673",
+            "process_entry": "True",
+            "doi": "10.1242/jcs.jcs124537",
+            "pmid": "23447673",
+            "pmcid": "PMC4148589",
+            "xmlid": "CIT0027"
+        }
+    ],
+    "localid": "MED-30638110",
+    "doi": "10.1080/19336950.2019.1568825",
+    "pmid": "10.1080/19336950.2019.1568825",
+    "pmcid": "30638110",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30638110/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),164,274)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),164,274)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),164,274)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),710,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),895,5)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),710,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),895,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1178,276)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1349,5)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1178,276)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[6,7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1349,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,174)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),169,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,174)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),169,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),176,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),429,222)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),487,5)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),429,222)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),487,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),823,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),823,177)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1162,162)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1306,6)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1162,162)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1306,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1325,254)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1736,160)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[10–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1888,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "[10–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1888,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1736,160)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1736,160)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[10–12]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1888,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/fig/caption/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]/fig/caption/p),496,140)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]/fig/caption/p),629,6)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/fig/caption/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]/fig/caption/p),496,140)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]/fig/caption/p),629,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,324)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),317,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,324)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),317,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),326,255)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,16–18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),570,10)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),326,255)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,16–18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),570,10)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),326,255)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,16–18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),570,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),582,328)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),720,7)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),582,328)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),720,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),582,328)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,220)",
+                "containers_title": [
+                    "Results",
+                    "Effects of the K165R substitution on the current parameters of the adult Cav1.1a splice variant"
+                ],
+                "pl_string": "[4,21]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),214,6)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,220)",
+                "containers_title": [
+                    "Results",
+                    "Effects of the K165R substitution on the current parameters of the adult Cav1.1a splice variant"
+                ],
+                "pl_string": "[4,21]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),214,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,75)",
+                "containers_title": [
+                    "Results",
+                    "Effects of the K165R substitution on the current parameters of the embryonic Cav1.1e splice variant"
+                ],
+                "pl_string": "[18,21]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),68,7)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,75)",
+                "containers_title": [
+                    "Results",
+                    "Effects of the K165R substitution on the current parameters of the embryonic Cav1.1e splice variant"
+                ],
+                "pl_string": "[18,21]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),68,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),77,246)",
+                "containers_title": [
+                    "Results",
+                    "Effects of the K165R substitution on the current parameters of the embryonic Cav1.1e splice variant"
+                ],
+                "pl_string": "[12,16]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),315,7)"
+            },
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),77,246)",
+                "containers_title": [
+                    "Results",
+                    "Effects of the K165R substitution on the current parameters of the embryonic Cav1.1e splice variant"
+                ],
+                "pl_string": "[12,16]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),315,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),448,263)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1324,293)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1618,298)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,7,22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1907,8)"
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1618,298)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,7,22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1907,8)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1618,298)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6,7,22]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),1907,8)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),352,292)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),636,7)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),352,292)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[23,24]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),636,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),204,201)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),397,7)"
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),204,201)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[19,20]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),397,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),1,181)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,16]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),174,7)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),1,181)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[12,16]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),174,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),183,268)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),452,307)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),273,197)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),471,249)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),1,255)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1,95)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Expression plasmids"
+                ],
+                "pl_string": "[16,26]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),88,7)"
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1,95)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Expression plasmids"
+                ],
+                "pl_string": "[16,26]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),88,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p),1,331)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Immunofluorescence and antibodies"
+                ],
+                "pl_string": "[17,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[3]/p),76,7)"
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[3]/p),1,331)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Immunofluorescence and antibodies"
+                ],
+                "pl_string": "[17,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[3]/p),76,7)"
+            }
+        ]
+    ]
+}

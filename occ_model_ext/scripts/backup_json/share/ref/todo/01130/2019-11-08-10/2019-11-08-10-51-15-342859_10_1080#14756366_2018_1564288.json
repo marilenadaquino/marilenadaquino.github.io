@@ -1,0 +1,1428 @@
+{
+    "references": [
+        {
+            "bibentry": "OMS World malaria report 2016. 2016.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Status report on artemisinin and ACT resistance September 2015. 2015 Available from: http://www.who.int/malaria/publications/atoz/status-rep-artemisinin-resistance-sept2015.pdf [last accessed 28 Jul 2017].",
+            "process_entry": "True",
+            "url": "http://www.who.int/malaria/publications/atoz/status-rep-artemisinin-resistance-sept2015.pdf [last accessed 28 Jul 2017].",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Foods and Drugs Authority –FDA GHANA 2015 Available from: https://fdaghana.gov.gh/records/.",
+            "process_entry": "True",
+            "url": "https://fdaghana.gov.gh/records/.",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Hartwig, CL, Lauterwasser, EM, Mahajan, SS, et al. Investigating the antimalarial action of 1, 2, 4-trioxolanes with fluorescent chemical probes. J Med Chem 2011; 54: 156–67.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Miller, LH, Ackerman, HC, Su, XZ, Wellems, TE. Malaria biology and disease pathogenesis: insights for new treatments. Nat Med 2013; 19: 156–67. PMID: 23389616",
+            "process_entry": "True",
+            "doi": "10.1038/nm.3073",
+            "pmid": "23389616",
+            "pmcid": "PMC4783790",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Sharma, N, Mohanakrishnan, D, Shard, A, et al. Stilbene-chalcone hybrids: design, synthesis and evaluation as a new class of antimalarial scaffolds that trigger cell death through stage specific apoptosis. J Med Chem 2012; 55: 297–311. PMID: 22098429",
+            "process_entry": "True",
+            "doi": "10.1021/jm201216y",
+            "pmid": "22098429",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Capela, R, Oliveira, R, Goncalves, LM, et al. Artemisinin-dipeptidyl vinyl sulfone hybrid molecules: design, synthesis and preliminary SAR for antiplasmodial activity and falcipain-2 inhibition. Bioorg Med Chem Lett 2009; 19: 3229–32. PMID: 19435664",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2009.04.100",
+            "pmid": "19435664",
+            "pmcid": "PMC2742655",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "N'Guessan, AJB, Megnassan, E, Ziao, N, et al. Artemisinin-dipeptidyl vinyl sulfone hybrid inhibitors of Plasmodium falciparum falcipain 2 with favorable pharmacokinetic profile. J Drug Des Devel 2017; 1: 11–28.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Grelb, MH. Drug discovery for malaria: a very challenging and timely endeavor. Curr Opin Chem Biol 2007; 11: 440–5. PMID: 17761335",
+            "process_entry": "True",
+            "doi": "10.1016/j.cbpa.2007.05.038",
+            "pmid": "17761335",
+            "pmcid": "PMC1993815",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Bekono, BD, Ntie-Kang, F, Owono, OLC, et al. Targeting cysteine proteases from Plasmodium falciparum: a general overview, rational drug design and computational approaches for drug discovery. Curr Drug Targets 2018; 19: 501–26. PMID: 28003005",
+            "process_entry": "True",
+            "doi": "10.2174/1389450117666161221122432",
+            "pmid": "28003005",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Teixeira, C, Gomes, JRB, Gomes, P. Falcipains, Plasmodium falciparum cysteine proteases as key drug targets against malaria. Curr Med Chem 2011; 18: 1555–72. PMID: 21428877",
+            "process_entry": "True",
+            "doi": "10.2174/092986711795328328",
+            "pmid": "21428877",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hans, RH, Gut, J, Rosenthal, PJ, et al. Comparison of the antiplasmodial and falcipain-2 inhibitory activity of b-amino alcohol thiolactone-chalcone and isatin-chalcone hybrids. Bioorg Med Chem Lett 2010; 20: 2234–7. PMID: 20206517",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2010.02.017",
+            "pmid": "20206517",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Subramanian, S, Sijwali, PS, Rosenthal, PJ. Falcipain cysteine proteases require bipartite motifs for trafficking to the Plasmodium falciparum food vacuole. J Biol Chem 2007; 282: 24961–9. PMID: 17565983",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m703316200",
+            "pmid": "17565983",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Hogg, T, Nagarajan, K, Herzberg, S, et al. Structural and Functional Characterization of Falcipain-2, a Hemoglobin from the Malaria Parasite Plasmodium falciparum. J Biol Chem 2006; 281: 25425–37. PMID: 16777845",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m603776200",
+            "pmid": "16777845",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Kerr, ID, Lee, JH, Pandey, KC, et al. Structures of falcipain-2 and falcipain-3 bound to small molecule inhibitors: implications for substrate specificity. J Med Chem 2009; 52: 852–7. PMID: 19128015",
+            "process_entry": "True",
+            "doi": "10.1021/jm8013663",
+            "pmid": "19128015",
+            "pmcid": "PMC2651692",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Frecer, V, Kabelac, M, De Nardi, P, et al. Structure-based design of inhibitors of NS3 serine protease of hepatitis C virus. J Mol Graph Model 2004; 22: 209–20. PMID: 14629979",
+            "process_entry": "True",
+            "doi": "10.1016/s1093-3263(03)00161-x",
+            "pmid": "14629979",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Frecer, V, Burello, E, Miertus, S. Combinatorial design of nonsymmetrical cyclic urea inhibitors of aspartic protease of HIV-1. Bioorg Med Chem 2005; 13: 5492–501. PMID: 16054372",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2005.06.026",
+            "pmid": "16054372",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Frecer, V, Berti, F, Benedetti, F, et al. Design of peptidomimetic inhibitors of aspartic protease of HIV-1 containing -Phe Psi Pro-core and displaying favourable ADME-related properties. J Mol Graph Model 2008; 27: 376–87. PMID: 18678515",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmgm.2008.06.006",
+            "pmid": "18678515",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Dali, B, Keita, M, Megnassan, E, et al. Insight into selectivity of peptidomimetic inhibitors with modified statine core for plasmepsin II of Plasmodium falciparum over human cathepsin D. Chem Biol Drug Des 2012; 79: 411–30. PMID: 22129033",
+            "process_entry": "True",
+            "doi": "10.1111/j.1747-0285.2011.01276.x",
+            "pmid": "22129033",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Megnassan, E, Keita, M, Bieri, C, et al. Design of novel dihydroxynaphthoic acid inhibitors of Plasmodium falciparum lactate dehydrogenase. Med Chem 2012; 8: 970–84. PMID: 22741776",
+            "process_entry": "True",
+            "doi": "10.2174/157340612802084324",
+            "pmid": "22741776",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Owono Owono, LC, Keita, M, Megnassan, E, et al. Design of thymidine analogues targeting thymidilate kinase of Mycobacterium tuberculosis. Tuberc Res Treat 2013; 2013: 670836. PMID: 23634301",
+            "process_entry": "True",
+            "doi": "10.1155/2013/670836",
+            "pmid": "23634301",
+            "pmcid": "PMC3619541",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Keita, M, Kumar, A, Dali, B, et al. Quantitative structure-activity relationships and design of thymine-like inhibitors of thymidine monophosphate kinase of Mycobacterium tuberculosis with favourable pharmacokinetic profiles. RSC Adv 2014; 4: 55853–66.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Frecer, V, Seneci, P, Miertus, S. Computer-assisted combinatorial design of bicyclic thymidine analogs as inhibitors of Mycobacterium tuberculosis thymidine monophosphate kinase. J Comput Aided Mol Des 2011; 25: 31–49. PMID: 21082329",
+            "process_entry": "True",
+            "doi": "10.1007/s10822-010-9399-4",
+            "pmid": "21082329",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Owono Owono, LC, Ntie-Kang, F, Keita, M, et al. Virtually designed triclosan-based inhibitors of enoyl-acyl carrier protein reductase of Mycobacterium tuberculosis and of Plasmodium falciparum. Mol Inform 2015; 34: 292–307. PMID: 27490275",
+            "process_entry": "True",
+            "doi": "10.1002/minf.201400141",
+            "pmid": "27490275",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Kouassi, AF, Kone, M, Keita, M, et al. Computer-aided design of orally bioavailable pyrrolidine carboxamide inhibitors of enoyl-acyl carrier protein reductase of Mycobacterium tuberculosis with favorable pharmacokinetic profiles. Int J Mol Sci 2015; 16: 29744–71. PMID: 26703572",
+            "process_entry": "True",
+            "doi": "10.3390/ijms161226196",
+            "pmid": "26703572",
+            "pmcid": "PMC4691139",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Esmel, A, Keita, M, Megnassan, E, et al. Insight into binding mode of nitrile inhibitors of Plasmodium falciparum Falcipain-3, QSAR and Pharmacophore models, virtual design of new analogues with favorable pharmacokinetic profiles. J Comput Chem Molec Model 2017; 2: 103–24.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Insight-II Insight-II and Discover molecular modeling and simulation package, Version 2005. San Diego, CA: Accelrys, Inc; 2005.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Gilson, MK, Honig, B. The inclusion of electrostatic hydration energies in molecular mechanics calculations. J Comput Aided Mol Des 1991; 5: 5–20. PMID: 2072125",
+            "process_entry": "True",
+            "doi": "10.1007/bf00173467",
+            "pmid": "2072125",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Rocchia, W, Sridharan, S, Nicholls, A, et al. Rapid grid-based construction of the molecular surface and the use of induced surface charge to calculate reaction field energies: applications to the molecular systems and geometric objects. J Comput Chem 2002; 23: 128–37. PMID: 11913378",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.1161",
+            "pmid": "11913378",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Discovery Studio molecular modeling and simulation program. Version 2.5. San Diego, CA: Accelrys, Inc; 2009.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Böttcher, CJF. Theory of electric polarization. Amsterdam, Netherlands: Elsevier; 1973.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Miertus, S, Scrocco, E, Tomasi, J. Electrostatic interaction of a solute with a continuum. A direct utilization of ab initio molecular potentials for the prevision of solvent effects. Chem Phys 1981; 55: 117–29.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Li, H, Sutter, J, Hoffmann, R. Pharmacophore perception development and use in drug design. In: Güner OF, ed. hypoGen: an automated system for generating 3D predictive pharmacophore model. La Jolla, CA: International University Line; 2000.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "QikProp QikProp Version 3.7, Release 14. New York, NY: X Schrödinger, LLC; 2014.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Duffy, EM, Jorgensen, WL. Prediction of properties from simulations: free energies of solvation in hexadecane, octanol, and water. J Am Chem Soc 2000; 122: 2878–88.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Jorgensen, WL, Duffy, EM. Prediction of drug solubility from Monte Carlo simulations. Bioorg Med Chem Lett 2000; 10: 1155–8. PMID: 10866370",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(00)00172-4",
+            "pmid": "10866370",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Jorgensen, WL, Duffy, EM. Prediction of drug solubility from structure. Adv Drug Deliv Rev 2002; 54: 355–66. PMID: 11922952",
+            "process_entry": "True",
+            "doi": "10.1016/s0169-409x(02)00008-x",
+            "pmid": "11922952",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "MOE Molecular Operating Environment (MOE); H3A 2R7. Montreal, QC: Chemical Computing Group Inc; 2014",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Maple, JR, Hwang, M-J, Stockfisch, TP, et al. Derivation of class II force fields. I. Methodology and quantum force field for the alkyl functional group and alkane molecules. J Comput Chem 1994; 15: 162–82.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Willett, P. Molecular similarity in drug design. In: Dean PM, ed. Similarity-searching and clustering algorithms for processing databases of two-dimensional and three-dimensional chemical structures. Glasgow, UK: Chapman and Hall. 1994: 110–137.",
+            "process_entry": "True",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Lipinski, CA, Lombardo, F, Dominy, BW, Feeney, PJ. Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings. Adv Drug Deliv Rev 2001; 46: 3–26. PMID: 11259830",
+            "process_entry": "True",
+            "doi": "10.1016/s0169-409x(00)00129-0",
+            "pmid": "11259830",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Schechter, I, Berger, A. On the size of the active site in proteases. I. Papain. Biochem Biophys Res Commun 1967; 27: 157–62. PMID: 6035483",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-291x(67)80055-x",
+            "pmid": "6035483",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Freire, E. Do enthalpy and entropy distinguish first in class from best in class. Drug Discov Today 2008; 13: 869–74. PMID: 18703160",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis2008.07.005",
+            "pmid": "18703160",
+            "pmcid": "PMC2581116",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "N'Guessan, H, Megnassan, E. In silico design of phosphonic arginine and hydroxamic acid inhibitors of Plasmodium falciparum M17 leucyl aminopeptidase with favorable pharmacokinetic profile. J Drug Design Med Chem 2017; 3: 86–113.",
+            "process_entry": "True",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Cotereon, JM, Catterick, D, Castro, J, et al. Falcipain inhibitors: optimization studies of the 2-pyrimidine-carbonitrile lead series. J Med Chem 2010; 53: 6129–52. PMID: 20672841",
+            "process_entry": "True",
+            "doi": "10.1021/jm100556b",
+            "pmid": "20672841",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Fagnidi, YKH, Toi, B, Megnassan, E, et al. In silico design of Plasmodium falciparum cysteine protease falcipain 2 inhibitors with favorable pharmacokinetic profile. J Anal Pharm Res 2018; 7: 298–309.",
+            "process_entry": "True",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Himangini, PDP, Vidushi, S, et al. Designing novel inhibitors against falcipain-2 of Plasmodium falciparum. Bioorg Med Chem Lett 2018; 28: 1566–9. PMID: 29602682",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2018.03.058",
+            "pmid": "29602682",
+            "xmlid": "CIT0047"
+        }
+    ],
+    "localid": "MED-30696325",
+    "doi": "10.1080/14756366.2018.1564288",
+    "pmid": "10.1080/14756366.2018.1564288",
+    "pmcid": "30696325",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30696325/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),119,115)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),236,207)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),445,200)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),647,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),647,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "4–6",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),647,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0004",
+                "rp_string": "4–6",
+                "pl_string": "4–6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),647,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),996,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),996,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "6–8",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),996,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "pl_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),996,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "9–11",
+                "pl_string": "9–11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1160,176)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1160,176)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "9–11",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1160,176)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0009",
+                "rp_string": "9–11",
+                "pl_string": "9–11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1160,176)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1338,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1502,268)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1772,134)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,196)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),523,154)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),679,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/fig/caption/p),88,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0016",
+                "rp_string": "16–26",
+                "pl_string": "16–26",
+                "rp_xpath": "/article/body/sec[2]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "",
+                "pl_string": "16–26",
+                "pl_xpath": "/article/body/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p),1,402)",
+                "containers_title": [
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,183)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Training sets"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1,316)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Model building and calculation of binding affinity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),1277,168)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Model building and calculation of binding affinity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1,176)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular mechanics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,248)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Solvation GFE"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),967,174)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Solvation GFE"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1143,142)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Solvation GFE"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,282)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Interaction energy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),285,160)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Interaction energy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),667,215)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Interaction energy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),187,142)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D-QSAR pharmacophore generation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1080,278)",
+                "containers_title": [
+                    "Materials and methods",
+                    "3D-QSAR pharmacophore generation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,463)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-related properties"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0035",
+                "rp_string": "35–37",
+                "pl_string": "35–37",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref[2]",
+                "pl_xpath": "/article/body/sec[2]/sec[7]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,463)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-related properties"
+                ]
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "",
+                "pl_string": "35–37",
+                "pl_xpath": "/article/body/sec[2]/sec[7]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,463)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-related properties"
+                ]
+            },
+            {
+                "n_rp": 49,
+                "xref_id": "",
+                "pl_string": "35–37",
+                "pl_xpath": "/article/body/sec[2]/sec[7]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,463)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-related properties"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),729,191)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-related properties"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),1,96)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Virtual combinatory library generation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),99,157)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Virtual combinatory library generation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),393,358)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Virtual combinatory library generation"
+                ],
+                "pl_string": "The analogue model building was performed with Molecular Operating Environment (MOE) program38. The library of analogues was enumerated by attaching R-groups (fragments, building blocks) onto HLCIC scaffold using the Quasar CombiDesign module of MOE38. Reagents and chemicals considered in this paper were selected from the directories of chemicals available from the commercial sources. Each analogue was built as a neutral molecule in the MOE program38, its geometry was refined by MM optimisation through smart minimiser of DS 2.530 meeting high convergence criteria (threshold on energy difference of 10−4 kcal·mol−1 and root mean square deviation (RMSD) of 10−5 Å), dielectric constant of 4, using class II consistent force field CFF39.",
+                "pl_xpath": "/article/body/sec[2]/sec[8]/p"
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),393,358)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Virtual combinatory library generation"
+                ],
+                "pl_string": "The analogue model building was performed with Molecular Operating Environment (MOE) program38. The library of analogues was enumerated by attaching R-groups (fragments, building blocks) onto HLCIC scaffold using the Quasar CombiDesign module of MOE38. Reagents and chemicals considered in this paper were selected from the directories of chemicals available from the commercial sources. Each analogue was built as a neutral molecule in the MOE program38, its geometry was refined by MM optimisation through smart minimiser of DS 2.530 meeting high convergence criteria (threshold on energy difference of 10−4 kcal·mol−1 and root mean square deviation (RMSD) of 10−5 Å), dielectric constant of 4, using class II consistent force field CFF39.",
+                "pl_xpath": "/article/body/sec[2]/sec[8]/p"
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),393,358)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Virtual combinatory library generation"
+                ],
+                "pl_string": "The analogue model building was performed with Molecular Operating Environment (MOE) program38. The library of analogues was enumerated by attaching R-groups (fragments, building blocks) onto HLCIC scaffold using the Quasar CombiDesign module of MOE38. Reagents and chemicals considered in this paper were selected from the directories of chemicals available from the commercial sources. Each analogue was built as a neutral molecule in the MOE program38, its geometry was refined by MM optimisation through smart minimiser of DS 2.530 meeting high convergence criteria (threshold on energy difference of 10−4 kcal·mol−1 and root mean square deviation (RMSD) of 10−5 Å), dielectric constant of 4, using class II consistent force field CFF39.",
+                "pl_xpath": "/article/body/sec[2]/sec[8]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p),1,182)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-based library focusing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p),185,111)",
+                "containers_title": [
+                    "Materials and methods",
+                    "ADME-based library focusing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),134,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Pharmacophore-based library focusing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),524,185)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Pharmacophore-based library focusing"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[11]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[11]/p),456,184)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In silico screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p),1,189)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/table-wrap/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/table-wrap/caption/p),1,147)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),257,286)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[1]/table-wrap-foot/fn[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[1]/table-wrap-foot/fn[7]/p),1,100)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[2]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[2]/caption/p),1,200)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,121)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[3]/table-wrap-foot/fn[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[3]/table-wrap-foot/fn[5]/p),1,143)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),1,147)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),1677,235)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/fig[5]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/fig[5]/caption/p),1,160)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[6]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[6]/caption/p),1,126)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[7]/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[7]/caption/p),1,94)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[7]),428,299)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ],
+                "pl_string": "During the VL enumeration, the R-groups listed in Table 9 were attached to positions R1–R6 of the HLCIC scaffold to form a virtual combinatorial library of the size: R1 × R2 × R3 × R4 × R5 × R6 = 128 × 10 × 128 × 2 × 2 × 2 = 1,310,720 analogues for the scaffold SC1 (Table 9) and R1 × R2 × R3 × R4 × R5 × R6 = 2 × 2 × 2 × 128 × 10 × 28 = 1,310,720 for SC2 (Table 9) resulting together in 1,310,720 × 2 = 2,621,440 analogues. In order to match the substitution pattern of the best training set inhibitor HLCIC1 and taking into account the reported structural information about S pockets filling suitable for substitution12 not excluded through the Lipinski’s rule violation (Mw > 500 g/mol)41, the VL underwent a focusing.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[7]"
+            },
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[7]),428,299)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ],
+                "pl_string": "During the VL enumeration, the R-groups listed in Table 9 were attached to positions R1–R6 of the HLCIC scaffold to form a virtual combinatorial library of the size: R1 × R2 × R3 × R4 × R5 × R6 = 128 × 10 × 128 × 2 × 2 × 2 = 1,310,720 analogues for the scaffold SC1 (Table 9) and R1 × R2 × R3 × R4 × R5 × R6 = 2 × 2 × 2 × 128 × 10 × 28 = 1,310,720 for SC2 (Table 9) resulting together in 1,310,720 × 2 = 2,621,440 analogues. In order to match the substitution pattern of the best training set inhibitor HLCIC1 and taking into account the reported structural information about S pockets filling suitable for substitution12 not excluded through the Lipinski’s rule violation (Mw > 500 g/mol)41, the VL underwent a focusing.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[7]"
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[8]/table-wrap-foot/fn[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[8]/table-wrap-foot/fn[1]/p),319,149)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[8]),133,105)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ],
+                "pl_string": "To increase the content of drug-like and orally bioavailable analogues, the initial VL was filtered in an ADME-based focusing step. Only those molecules that satisfied the Lipinski’s rule of five41 computed using QikProp16, were kept.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[8]"
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[8]),133,105)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ],
+                "pl_string": "To increase the content of drug-like and orally bioavailable analogues, the initial VL was filtered in an ADME-based focusing step. Only those molecules that satisfied the Lipinski’s rule of five41 computed using QikProp16, were kept.",
+                "pl_xpath": "/article/body/sec[3]/sec[1]/p[8]"
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),787,170)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap[9]/table-wrap-foot/fn[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap[9]/table-wrap-foot/fn[6]/p),1,86)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Results"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,355)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p),956,150)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "QSAR model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p),1108,263)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "QSAR model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p),1373,249)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "QSAR model"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),1,129)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "Binding mode of FP-2 inhibitors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),373,309)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "Binding mode of FP-2 inhibitors"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[2]),1791,283)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "3.2.3. Analysis of new inhibitors from in silico screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[2]),2076,277)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "3.2.3. Analysis of new inhibitors from in silico screening"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/table-wrap/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/table-wrap/caption/p),1,191)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion",
+                    "3.2.3. Analysis of new inhibitors from in silico screening"
+                ]
+            }
+        ]
+    ]
+}

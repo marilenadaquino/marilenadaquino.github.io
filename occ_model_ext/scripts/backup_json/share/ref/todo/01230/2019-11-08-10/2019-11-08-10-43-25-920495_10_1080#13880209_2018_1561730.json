@@ -1,0 +1,783 @@
+{
+    "references": [
+        {
+            "bibentry": "Asquith, DL, Miller, AM, McInnes, IB, Liew, FY. 2009 Animal models of rheumatoid arthritis. Eur J Immunol. 39: 2040–2044. PMID: 19672892",
+            "process_entry": "True",
+            "doi": "10.1002/eji.200939578",
+            "pmid": "19672892",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bendele, AM. 2001 Animal models of rheumatoid arthritis. J Musculoskelet Neuronal Interact. 1: 377–385. PMID: 15758488",
+            "process_entry": "True",
+            "pmid": "15758488",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Breedveld, FC, Weisman, MH, Kavanaugh, AF, Cohen, SB, Pavelka, K, van Vollenhoven, R, Sharp, J, Perez, JL, Spencer-Green, GT. 2006 The PREMIER study: a multicenter, randomized, double-blind clinical trial of combination therapy with adalimumab plus methotrexate versus methotrexate alone or adalimumab alone in patients with early, aggressive rheumatoid arthritis who had not had previous methotrexate treatment. Arthritis Rheum. 54: 26–37. PMID: 16385520",
+            "process_entry": "True",
+            "doi": "10.1002/art.21519",
+            "pmid": "16385520",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Burnstock, G. 2000 P2X receptors in sensory neurones. Br J Anaesth. 84: 476–488. PMID: 10823099",
+            "process_entry": "True",
+            "doi": "10.1093/oxfordjournals.bja.a013473",
+            "pmid": "10823099",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Chu, XQ, Gui, SY, Lin, XY, Wang, SM, Jiang, XJ, Zhang, YZ, Zhai, HY, Jiang, JQ. 2018 Evaluation of effects of a Chinese herb formula on adjuvant induced arthritis in rats. Int J Pharmacol. 14: 707–716.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Cockayne, DA, Hamilton, SG, Zhu, QM, Dunn, PM, Zhong, Y, Novakovic, S, Malmberg, AB, Cain, G, Berson, A, Kassotakis, L, et al. 2000 Urinary bladder hyporeflexia and reduced pain-related behaviour in P2X3-deficient mice. Nature. 407: 1011–1015. PMID: 11069181",
+            "process_entry": "True",
+            "doi": "10.1038/35039519",
+            "pmid": "11069181",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Dunn, PM, Zhong, Y, Burnstock, G. 2001 P2X receptors in peripheral neurons. Prog Neurobiol. 2: 107–134.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Editorial Committee of Chinese Materia Medica 2000 The administration bureau of traditional Chinese medicine: Chinese Materia Medica (Zhonghua Bencao). Shanghai: Shanghai Science and Technology, Vol. 5; p. 992–997.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Eltzschig, HK, Sitkovsky, MV, Robson, SC. 2012 Purinergic signaling during inflammation. N Engl J Med. 367: 2322–2333. PMID: 23234515",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMra1205750",
+            "pmid": "23234515",
+            "pmcid": "PMC3675791",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Fiebich, BL, Akter, S, Akundi, RS. 2014 The two-hit hypothesis for neuroinflammation: role of exogenous ATP in modulating inflammation in the brain. Front Cell Neurosci. 8: 260.260 PMID: 25225473",
+            "process_entry": "True",
+            "doi": "10.3389/fncel.2014.00260",
+            "pmid": "25225473",
+            "pmcid": "PMC4150257",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Franceschini, A, Adinolfi, E. 2014 P2X receptors: new players in cancer pain. World J Biol Chem. 5: 429–436. PMID: 25426266",
+            "process_entry": "True",
+            "doi": "10.4331/wjbc.v5.i4.429",
+            "pmid": "25426266",
+            "pmcid": "PMC4243147",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Hu, L, Lars, DH, Song, XG, Tang, ZL, Cai, RL, He, L, Luo, L. 2010 Effect of moxibustion on IL-1β and IL-2 in rat models of rheumatoid arthritis. Acupunct Tuina Sci. 8: 149–153.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Kurashima, Y, Kiyono, H, Kunisawa, J. 2015 Pathophysiological role of extracellular purinergic mediators in the control of intestinal inflammation. Mediators Inflamm. 2015: 427125. 427125 PMID: 25944982",
+            "process_entry": "True",
+            "doi": "10.1155/2015/427125",
+            "pmid": "25944982",
+            "pmcid": "PMC4405224",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Li, X, Tang, C, Wang, J, Guo, P, Wang, C, Wang, Y, Zhang, Z, Wu, H. 2018 Methylene blue relieves the development of osteoarthritis by upregulating lncRNA MEG3. Exp Ther Med. 15: 3856–3864. PMID: 29581742",
+            "process_entry": "True",
+            "doi": "10.3892/etm.2018.5918",
+            "pmid": "29581742",
+            "pmcid": "PMC5863598",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Li, Y. 2012 Experience on treating paralysis in TCM. Clin Res Tradit Chin Med. 16: 75.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Liu, C, Wang, YH, Chen, ZH, Qiu, SP. 2015 Study on therapeutic effect of Notopterygium incisum, Angelica pubescens and pair of them on adjuvant arthritis. J Liaoning Univ TCM. 12: 20–22.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Muller, CE. 2010 Emerging structures and ligands for P2X(3) and P2X(4) receptors-towards novel treatments of neuropathic pain. Purinergic Signal. 6: 145–158. PMID: 20806006",
+            "process_entry": "True",
+            "doi": "10.1007/s11302-010-9182-y",
+            "pmid": "20806006",
+            "pmcid": "PMC2912989",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "North, RA. 2003 The P2X3 subunit: a molecular target in pain therapeutics. Curr Opin Investig Drugs. 4: 833–840.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Seino, D, Tokunaga, A, Tachibana, T, Yoshiya, S, Dai, Y, Obata, K, Yamanaka, H, Kobayashi, K, Noguchi, K. 2006 The role of ERK signaling and the P2X receptor on mechanical pain evoked by movement of inflamed knee joint. Pain. 123: 193–203. PMID: 16616417",
+            "process_entry": "True",
+            "doi": "10.1016/j.pain.2006.02.032",
+            "pmid": "16616417",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Smolen, JS, Aletaha, D, Bijlsma, JWJ, Breedveld, FC, Boumpas, D, Burmester, G, Combe, B, Cutolo, M, de Wit, M, Dougados, M, et al. 2010 Treating rheumatoid arthritis to target: recommendations of an international task force. Ann Rheum Dis. 69: 631–637. PMID: 20215140",
+            "process_entry": "True",
+            "doi": "10.1136/ard.2009.123919",
+            "pmid": "20215140",
+            "pmcid": "PMC3015099",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Souslova, V, Cesare, P, Ding, Y, Akopian, AN, Stanfa, L, Suzuki, R, Carpenter, K, Dickenson, A, Boyce, S, Hill, R, et al. 2000 Warm-coding deficits and aberrant inflammatory pain in mice lacking P2X3 receptors. Nature. 407: 1015–1017. PMID: 11069182",
+            "process_entry": "True",
+            "doi": "10.1038/35039526",
+            "pmid": "11069182",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Stanfa, LC, Kontinen, VK, Dickenson, AH. 2000 Effects of spinally administered P2X receptor agonists and antagonists on the responses of dorsal horn neurones recorded in normal, carrageenan-inflamed and neuropathic rats. Br J Pharmacol. 2: 351–359.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Teixeira, JM, Bobinski, F, Parada, CA, Sluka, KA, Tambeli, CH. 2017 P2X3 and P2X2/3 receptors play a crucial role in articular hyperalgesia development through inflammatory mechanisms in the knee joint experimental synovitis. Mol Neurobiol. 54: 6174–6186. PMID: 27709491",
+            "process_entry": "True",
+            "doi": "10.1007/s12035-016-0146-2",
+            "pmid": "27709491",
+            "pmcid": "PMC5380594",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Thiriet, M. 2012 Signaling at the cell surface in the circulatory and ventilatory systems In: Biomathematical and biomechanical modeling of the circulatory and ventilatory systems. New York (NY): Springer; p. 157–271.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Xie, HY, Wang, YH, Wang, RR, Qiu, SP. 2014 Optimization of extraction technology for concoction of Notopterygii rhizoma et radix and Angelicae pubescentis radix by orthogonal test. Chin J Exp Tradit Med Form. 12: 10–13.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Xu, GY, Huang, LY. 2002 Peripheral inflammation sensitizes P2X receptor-mediated responses in rat dorsal root ganglion neurons. J Neurosci. 22: 93–102. PMID: 11756492",
+            "process_entry": "True",
+            "doi": "10.1523/JNEUROSCI.22-01-00093.2002",
+            "pmid": "11756492",
+            "pmcid": "PMC6757597",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Zamboulis, DE, Senior, JM, Clegg, PD, Gallagher, JA, Carter, SD, Milner, PI. 2013 Distribution of purinergic P2X receptors in the equine digit, cervical spinal cord and dorsal root ganglia. Purinergic Signal. 9: 383–393. PMID: 23381684",
+            "process_entry": "True",
+            "doi": "10.1007/s11302-013-9356-5",
+            "pmid": "23381684",
+            "pmcid": "PMC3757141",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Zhang, Q, Zhao, Y. 2005 Role of P2X purine receptor in primary nociception. J Fourth Mil Med Univ. 26: 95–97.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Zhang, SZ. 1999 Notopterygh rhizoma et radix was good at removing the wind evil of upper limbs. J Tradit Chin Med. 9: 520.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-30724643",
+    "doi": "10.1080/13880209.2018.1561730",
+    "pmid": "10.1080/13880209.2018.1561730",
+    "pmcid": "30724643",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30724643/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0007",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,112)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0024",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),166,149)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0022",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Stanfa et al.2000; Dunn et al. 2001; Zamboulis et al. 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),537,60)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0007",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Stanfa et al. 2000; Dunn et al.2001; Zamboulis et al. 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),537,60)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0027",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Stanfa et al. 2000; Dunn et al. 2001; Zamboulis et al.2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),537,60)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cockayne et al.2000; Stanfa et al. 2000; Eltzschig et al. 2012; Zamboulis et al. 2013; Kurashima et al. 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),677,110)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0022",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cockayne et al. 2000; Stanfa et al.2000; Eltzschig et al. 2012; Zamboulis et al. 2013; Kurashima et al. 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),677,110)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0009",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cockayne et al. 2000; Stanfa et al. 2000; Eltzschig et al.2012; Zamboulis et al. 2013; Kurashima et al. 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),677,110)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0027",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cockayne et al. 2000; Stanfa et al. 2000; Eltzschig et al. 2012; Zamboulis et al.2013; Kurashima et al. 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),677,110)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0013",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),316,473)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cockayne et al. 2000; Stanfa et al. 2000; Eltzschig et al. 2012; Zamboulis et al. 2013; Kurashima et al.2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),677,110)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0024",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),790,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0026",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1401,36)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Xu and Huang2002; Li et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1401,34)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1401,36)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Xu and Huang 2002; Li et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1401,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0021",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1438,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Souslova et al.2000; Xu and Huang 2002; Fiebich et al. 2014; Teixeira et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1534,83)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0026",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1438,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Souslova et al. 2000; Xu and Huang2002; Fiebich et al. 2014; Teixeira et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1534,83)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0010",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1438,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Souslova et al. 2000; Xu and Huang 2002; Fiebich et al.2014; Teixeira et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1534,83)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0023",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1438,181)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Souslova et al. 2000; Xu and Huang 2002; Fiebich et al. 2014; Teixeira et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1534,83)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0003",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[18]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1678,146)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0003",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1856,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Breedveld et al.2006; Smolen et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),2009,42)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0020",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[20]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1856,197)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Breedveld et al. 2006; Smolen et al.2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),2009,42)"
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0008",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),2375,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0015",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,116)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Li2012; Zhang 1999)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),95,20)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0029",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,116)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Li 2012; Zhang1999)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),95,20)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),118,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0028",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,398)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang and Zhao2005; Muller 2010; Zamboulis et al. 2013; Franceschini and Adinolfi 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),573,88)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0017",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,398)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang and Zhao 2005; Muller2010; Zamboulis et al. 2013; Franceschini and Adinolfi 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),573,88)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0027",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,398)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang and Zhao 2005; Muller 2010; Zamboulis et al.2013; Franceschini and Adinolfi 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),573,88)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0011",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),453,398)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang and Zhao 2005; Muller 2010; Zamboulis et al. 2013; Franceschini and Adinolfi2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),573,88)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),169,122)",
+                "containers_title": [
+                    "Materials and methods",
+                    "FCA-induced rat model of rheumatoid arthritis and tissue preparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0025",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,104)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Effect of NI on AA rats"
+                ],
+                "pl_string": "(Xie et al.2014; Liu et al. 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),70,33)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0016",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,104)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Effect of NI on AA rats"
+                ],
+                "pl_string": "(Xie et al. 2014; Liu et al.2015)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),70,33)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0025",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),106,129)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Effect of NI on AA rats"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0005",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,162)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0001",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),310,130)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0002",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),441,162)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0002",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),604,181)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Bendele2001; Hu et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),754,29)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0012",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),604,181)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Bendele 2001; Hu et al.2010)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),754,29)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0004",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,221)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Burnstock2000; Seino et al. 2006)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),186,34)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0019",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,221)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Burnstock 2000; Seino et al.2006)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),186,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0026",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),223,139)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Xu and Huang2002; Li et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),326,34)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),223,139)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Xu and Huang 2002; Li et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),326,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0018",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),363,154)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(North2003; Li et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),488,27)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),363,154)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(North 2003; Li et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),488,27)"
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0022",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),518,111)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0004",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),630,275)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Burnstock2000; Xu and Huang 2002)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),869,34)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0026",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),630,275)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Burnstock 2000; Xu and Huang2002)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),869,34)"
+            }
+        ]
+    ]
+}

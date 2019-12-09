@@ -1,0 +1,680 @@
+{
+    "references": [
+        {
+            "bibentry": "Afzal, MZ, Mercado, RR, Shirai, K (2018). Efficacy of metformin in combination with immune checkpoint inhibitors (anti-PD-1/anti-CTLA-4) in metastatic malignant melanoma. J ImmunoTher Cancer 6: 1–10. PMID: 29298730",
+            "process_entry": "True",
+            "doi": "10.1186/s40425-017-0311-9",
+            "pmid": "29298730",
+            "pmcid": "PMC5795275",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Cerezo, M, Tichet, M, Abbe, P (2013). Metformin blocks melanoma invasion and metastasis development in AMPK/p53-dependent manner. Mol Cancer Ther 12: 1605–15. PMID: 23741061",
+            "process_entry": "True",
+            "doi": "10.1158/1535-7163.mct-12-1226-t",
+            "pmid": "23741061",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Demurtas, D, Guichard, P, Martiel, I, et al. (2015). Direct visualization of dispersed lipid bicontinuous cubic phases by cryo-electron tomography. Nat Commun 6: 1–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Efrat, R, Aserin, A, Kesselman, E, et al. (2007). Liquid micellar discontinuous cubic mesophase from ternary monoolein/ethanol/water mixtures. Colloid Surface A 299: 133–45.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Evenbratt, H, Jonsson, C, Faergemann, J, et al. (2013). In vivo study of an instantly formed lipid-water cubic phase formulation for efficient topical delivery of aminolevulinic acid and methyl-aminolevulinate. Int J Pharm 452: 270–5. PMID: 23727140",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2013.05.047",
+            "pmid": "23727140",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Ferlay, J, Colombet, M, Soerjomataram, I, et al. (2018). Estimating the global cancer incidence and mortality in 2018: GLOBOCAN sources and methods. Int J Cancer 1–13.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Gupta, J, Nunes, C, Vyas, S, et al. (2011). Prediction of solubility parameters and miscibility of pharmaceutical compounds by molecular dynamics simulations. J Phys Chem B 115: 2014–23. PMID: 21306175",
+            "process_entry": "True",
+            "doi": "10.1021/jp108540n",
+            "pmid": "21306175",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Hosmer, JM, Steiner, AA, Lopes, LB (2013). Lamellar liquid crystalline phases for cutaneous delivery of paclitaxel: impact of the monoglyceride. Pharm Res 30: 694–706. PMID: 23135821",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-012-0908-0",
+            "pmid": "23135821",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Janjetovic, K, Harhaji-Trajkovic, L, Misirkic-Marjanovic, M, et al. (2011). In vitro and in vivo anti-melanoma action of metformin. Eur J Pharmacol 668: 373–82. PMID: 21806981",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2011.07.004",
+            "pmid": "21806981",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Li, M, Sharma, A, Yin, C, et al. (2017a). Metformin ameliorates hepatic steatosis and improves the induction of autophagy in HFD-induced obese mice. Mol Med Rep 16: 680–6. PMID: 28560428",
+            "process_entry": "True",
+            "doi": "10.3892/mmr.2017.6637",
+            "pmid": "28560428",
+            "pmcid": "PMC5482143",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Li, Q, Yao, WS, Yu, X, et al. (2017b). Drug-loaded pH-responsive polymeric micelles: Simulations and experiments of micelle formation, drug loading and drug release. Colloids Surf B Biointerfaces 158: 709–16. PMID: 28778054",
+            "process_entry": "True",
+            "doi": "10.1016/j.colsurfb.2017.07.063",
+            "pmid": "28778054",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Lukatsky, DB, Frenkel, D (2004). Multiple stalk formation as a pathway of defect-induced membrane fusion. Eur Phys J E Soft Matter 14: 3–6. PMID: 15221585",
+            "process_entry": "True",
+            "doi": "10.1140/epje/i2004-10005-5",
+            "pmid": "15221585",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Luo, ZL, Jiang, JW (2012). pH-sensitive drug loading/releasing in amphiphilic copolymer PAE-PEG: Integrating molecular dynamics and dissipative particle dynamics simulations. J Control Rel 162: 185–93.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Mazzio, E, Soliman, KFA (2018). Whole-transcriptomic profile of SK-MEL-3 melanoma cells treated with the histone deacetylase Inhibitor: trichostatin A. Cancer Genomics Proteomics 15: 349–64. PMID: 30194076",
+            "process_entry": "True",
+            "doi": "10.21873/cgp.20094",
+            "pmid": "30194076",
+            "pmcid": "PMC6199573",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Nazaruk, E, Szlęzak, M, Górecka, E, et al. (2014). Design and assembly of pH-sensitive lipidic cubic phase matrices for drug release. Langmuir 30: 1383–90. PMID: 24443890",
+            "process_entry": "True",
+            "doi": "10.1021/la403694e",
+            "pmid": "24443890",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Neto, FP, Bernardes, SS, Marinello, PC, et al. (2017). Metformin: oxidative and proliferative parameters in-vitro and in-vivo models of murine melanoma. Melanoma Res 27: 536–44. PMID: 28877050",
+            "process_entry": "True",
+            "doi": "10.1097/cmr.0000000000000391",
+            "pmid": "28877050",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Ningrum, VDA, Ikawati, Z, Sadewa, AH, et al. (2018). Patient-factors associated with metformin steady-state levels in type 2 diabetes mellitus with therapeutic dosage. J Clin Transl Endocrinol 12: 42–7. PMID: 29892566",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcte.2018.05.001",
+            "pmid": "29892566",
+            "pmcid": "PMC5992324",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Peng, X, Wen, X, Pan, X, et al. (2010). Design and in vitro evaluation of capsaicin transdermal controlled release cubic phase gels. AAPS PharmSciTech 11: 1405–10. PMID: 20839080",
+            "process_entry": "True",
+            "doi": "10.1208/s12249-010-9481-1",
+            "pmid": "20839080",
+            "pmcid": "PMC2974133",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Ramanujam, S, Schadendorf, D, Long, GV (2015). Systemic therapies for melanoma brain metastases: which drug for whom and when. Chin Clin Oncol 4: 1–13. PMID: 25841708",
+            "process_entry": "True",
+            "doi": "10.3978/j.issn.2304-3865.2015.03.03",
+            "pmid": "25841708",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Reese, CW, Strango, ZI, Dell, ZR, et al. (2015). Structural insights into the cubic-hexagonal phase transition kinetics of monoolein modulated by sucrose solutions. Phys Chem Chem Phys 17: 9194–204. PMID: 25758637",
+            "process_entry": "True",
+            "doi": "10.1039/c5cp00175g",
+            "pmid": "25758637",
+            "pmcid": "PMC4381959",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Rizwan, SB, Boyd, BJ, Rades, T, et al. (2010). Bicontinuous cubic liquid crystals as sustained delivery systems for peptides and proteins. Expert Opin Drug Del 7: 1133–44.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Shillcock, JC, Lipowsky, R (2005). Tension-induced fusion of bilayer membranes and vesicles. Nat Mater 4: 225–8. PMID: 15711550",
+            "process_entry": "True",
+            "doi": "10.1038/nmat1333",
+            "pmid": "15711550",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Simonetti, LD, Gelfuso, GM, Barbosa, JC, et al. (2009). Assessment of the percutaneous penetration of cisplatin: the effect of monoolein and the drug skin penetration pathway. Eur J Pharm Biopharm 73: 90–4. PMID: 19442727",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejpb.2009.04.016",
+            "pmid": "19442727",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Sun, M, Wu, C, Fu, Q, et al. (2016). Solvent-shift strategy to identify suitable polymers to inhibit humidity-induced solid-state crystallization of lacidipine amorphous solid dispersion. Int J Pham 503: 238–46.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Wang, Y, Zhou, ZX, Chen, WF, et al. (2018). Potentiating bacterial cancer therapy using hydroxychloroquine liposomes. J Control Rel 280: 39–50.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Yang, C, Chen, X, Qiu, H, et al. (2006). Dissipative particle dynamics simulation of phase behavior of aerosol OT/water system. J Phys Chem B 110: 21735–40. PMID: 17064133",
+            "process_entry": "True",
+            "doi": "10.1021/jp0623692",
+            "pmid": "17064133",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Yu, X, Du, L, Li, Y, et al. (2015). Improved anti-melanoma effect of a transdermal mitoxantrone ethosome gel. Biomed Pharmacother. 73: 6–11. PMID: 26211575",
+            "process_entry": "True",
+            "doi": "10.1016/j.biopha.2015.05.002",
+            "pmid": "26211575",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Yu, X, Du, L, Li, Y, et al. (2016). Melanoma therapy with transdermal mitoxantrone cubic phases. Drug Deliv 23: 1565–70. PMID: 25835224",
+            "process_entry": "True",
+            "doi": "10.3109/10717544.2015.1024898",
+            "pmid": "25835224",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Yu, X, Jin, Y, Du, L, et al. (2018). Transdermal cubic phases of metformin hydrochloride: In silico and in vitro studies of delivery mechanisms. Mol Pharm 15: 3121–32. PMID: 29979604",
+            "process_entry": "True",
+            "doi": "10.1021/acs.molpharmaceut.8b00209",
+            "pmid": "29979604",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-30905216",
+    "doi": "10.1080/10717544.2019.1587046",
+    "pmid": "10.1080/10717544.2019.1587046",
+    "pmcid": "30905216",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30905216/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0027",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0006",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),190,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0014",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),382,291)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),382,291)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0019",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),382,291)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0016",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),180,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0002",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),180,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cerezo et al.,2013; Li et al., 2017a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),358,38)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "2017a",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),180,218)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cerezo et al., 2013; Li et al.,2017a)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),358,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0027",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),455,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0028",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),85,135)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0021",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),221,147)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0015",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),369,300)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nazaruk et al.,2014; Demurtas et al., 2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),465,44)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0003",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),369,300)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nazaruk et al., 2014; Demurtas et al.,2015)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),465,44)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0008",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),369,300)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hosmer et al.,2013; Simonetti et al., 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),623,44)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0023",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),369,300)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Hosmer et al., 2013; Simonetti et al.,2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),623,44)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0024",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),165,138)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0007",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),304,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0013",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),448,208)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0018",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1,129)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In silico formulation optimization of met-loaded cubic phases"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0029",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[2]),87,94)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In silico formulation optimization of met-loaded cubic phases"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0013",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),206,173)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In silico formulation optimization of met-loaded cubic phases"
+                ],
+                "pl_string": "(Luo & Jiang,2012; Li et al., 2017b)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),341,36)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0011",
+                "rp_string": "2017b",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),206,173)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In silico formulation optimization of met-loaded cubic phases"
+                ],
+                "pl_string": "(Luo & Jiang, 2012; Li et al.,2017b)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),341,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0029",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[3]),539,80)",
+                "containers_title": [
+                    "Materials and methods",
+                    "In silico formulation optimization of met-loaded cubic phases"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0005",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),247,185)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Characterization of the cubic phases"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0017",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),860,109)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Permeation experiments"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0025",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),1,111)",
+                "containers_title": [
+                    "Materials and methods",
+                    "TUNEL immunohistochemical study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0026",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),184,260)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DPD modeling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),184,260)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DPD modeling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0004",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),251,345)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DPD modeling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0012",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),251,345)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DPD modeling"
+                ],
+                "pl_string": "(Lukatsky & Frenkel,2004; Shillcock & Lipowsky, 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),541,53)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0022",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),251,345)",
+                "containers_title": [
+                    "Results and discussion",
+                    "DPD modeling"
+                ],
+                "pl_string": "(Lukatsky & Frenkel, 2004; Shillcock & Lipowsky,2005)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),541,53)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0018",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),92,227)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Characteristics of the cubic phase"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0029",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),896,189)",
+                "containers_title": [
+                    "Results and discussion",
+                    "High efficient permeability of met by the cubic phase"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0009",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),369,128)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Apoptosis and necrosis of melanoma cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0009",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),498,174)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Apoptosis and necrosis of melanoma cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0029",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),673,80)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Apoptosis and necrosis of melanoma cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0020",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p),319,130)",
+                "containers_title": [
+                    "Conclusions"
+                ]
+            }
+        ]
+    ]
+}

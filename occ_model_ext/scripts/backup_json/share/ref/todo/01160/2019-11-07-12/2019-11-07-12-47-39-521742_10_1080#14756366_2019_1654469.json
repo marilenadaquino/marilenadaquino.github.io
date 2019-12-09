@@ -1,0 +1,406 @@
+{
+    "references": [
+        {
+            "bibentry": "Siegel, RL, Miller, KD, Jemal, A. Cancer statistics, 2019. CA Cancer J Clin 2019; 69: 7–34. PMID: 30620402",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21551",
+            "pmid": "30620402",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Zhou, Y, Bolton, EC, Jones, JO. Androgens and androgen receptor signaling in prostate tumorigenesis. J Mol Endocrinol 2015; 54: R15–29. PMID: 25351819",
+            "process_entry": "True",
+            "doi": "10.1530/jme-14-0203",
+            "pmid": "25351819",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Huggins, C, Stevens, RE, Jr, Hodges, CV. Studies on prostatic cancer: Ii. The effects of castration on advanced carcinoma of the prostate gland. JAMA Surg 1941; 43: 209–23.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Helsen, C, Van den Broeck, T, Voet, A, et al. Androgen receptor antagonists for prostate cancer therapy. Endocr Relat Cancer 2014; 21: T105–118. PMID: 24639562",
+            "process_entry": "True",
+            "doi": "10.1530/erc-13-0545",
+            "pmid": "24639562",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Scher, HI, Fizazi, K, Saad, F, et al. Increased survival with enzalutamide in prostate cancer after chemotherapy. New Engl J Med 2012; 367: 1187–97. PMID: 22894553",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa1207506",
+            "pmid": "22894553",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Armstrong, CM, Gao, AC. Drug resistance in castration resistant prostate cancer: Resistance mechanisms and emerging treatment strategies. Am J Clin Exp Urol 2015; 3: 64–76. PMID: 26309896",
+            "process_entry": "True",
+            "pmid": "26309896",
+            "pmcid": "PMC4539108",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Culig, Z. Molecular mechanisms of enzalutamide resistance in prostate cancer. Curr Mol Biol Rep 2017; 3: 230–5. PMID: 29214142",
+            "process_entry": "True",
+            "doi": "10.1007/s40610-017-0079-1",
+            "pmid": "29214142",
+            "pmcid": "PMC5700216",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Chang, KH, Ercole, CE, Sharifi, N. Androgen metabolism in prostate cancer: From molecular mechanisms to clinical consequences. Br J Cancer 2014; 111: 1249–54. PMID: 24867689",
+            "process_entry": "True",
+            "doi": "10.1038/bjc.2014.268",
+            "pmid": "24867689",
+            "pmcid": "PMC4183835",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Hamid, AR, Pfeiffer, MJ, Verhaegh, GW, et al. Aldo-keto reductase family 1 member c3 (akr1c3) is a biomarker and therapeutic target for castration-resistant prostate cancer. Mol Med 2013; 18: 1449–55. PMID: 23196782",
+            "process_entry": "True",
+            "doi": "10.2119/molmed.2012.00296",
+            "pmid": "23196782",
+            "pmcid": "PMC3563708",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Aggarwal, S, Thareja, S, Verma, A, et al. An overview on 5alpha-reductase inhibitors. Steroids 2010; 75: 109–53. PMID: 19879888",
+            "process_entry": "True",
+            "doi": "10.1016/j.steroids.2009.10.005",
+            "pmid": "19879888",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Uemura, M, Tamura, K, Chung, S, et al. Novel 5 alpha-steroid reductase (srd5a3, type-3) is overexpressed in hormone-refractory prostate cancer. Cancer Sci 2008; 99: 81–6. PMID: 17986282",
+            "process_entry": "True",
+            "doi": "10.1111/j.1349-7006.2007.00656.x",
+            "pmid": "17986282",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Li, J, Ding, Z, Wang, Z, et al. Androgen regulation of 5α-reductase isoenzymes in prostate cancer: Implications for prostate cancer prevention. PloS One 2011; 6: e28840. PMID: 22194926",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0028840",
+            "pmid": "22194926",
+            "pmcid": "PMC3237548",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Moore, CM, Robertson, NL, Jichi, F, et al. The effect of dutasteride on magnetic resonance imaging defined prostate cancer: mapped-a randomized, placebo controlled, double-blind clinical trial. J Urol 2017; 197: 1006–13. PMID: 27871928",
+            "process_entry": "True",
+            "doi": "10.1016/j.juro.2016.11.090",
+            "pmid": "27871928",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Andriole, GL, Humphrey, P, Ray, P, et al. Effect of the dual 5alpha-reductase inhibitor dutasteride on markers of tumor regression in prostate cancer. J Urol 2004; 172: 915–9. PMID: 15310997",
+            "process_entry": "True",
+            "doi": "10.1097/01.ju.0000136430.37245.b9",
+            "pmid": "15310997",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Hamid, AR, Verhaegh, GW, Smit, FP, et al. Dutasteride and enzalutamide synergistically suppress prostate tumor cell proliferation. J Urol 2015; 193: 1023–9. PMID: 25242390",
+            "process_entry": "True",
+            "doi": "10.1016/j.juro.2014.09.021",
+            "pmid": "25242390",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Lao, K, Sun, J, Wang, C, et al. Design, synthesis and biological evaluation of novel 3-oxo-4-oxa-5α-androst-17β-amide derivatives as dual 5α-reductase inhibitors and androgen receptor antagonists. Bioorg Med Chem Lett 2017; 27: 4212–7. PMID: 28757062",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2017.05.078",
+            "pmid": "28757062",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Lao, K, Sun, J, Wang, C, et al. Design, synthesis and biological evaluation of novel androst-3,5-diene-3-carboxylic acid derivatives as inhibitors of 5α-reductase type 1 and 2. Steroids 2017; 124: 29–34. PMID: 28549802",
+            "process_entry": "True",
+            "doi": "10.1016/j.steroids.2017.05.011",
+            "pmid": "28549802",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Zhou, J, Liu, B, Geng, G, Wu, JH. Study of the impact of the t877a mutation on ligand-induced helix-12 positioning of the androgen receptor resulted in design and synthesis of novel antiandrogens. Proteins 2010; 78: 623–37. PMID: 19787772",
+            "process_entry": "True",
+            "doi": "10.1002/prot.22592",
+            "pmid": "19787772",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Salvador, JA, Pinto, RM, Silvestre, SM. Steroidal 5α-reductase and 17α-hydroxylase/17,20-lyase (cyp17) inhibitors useful in the treatment of prostatic diseases. J Steroid Biochem Mol Biol 2013; 137: 199–222. PMID: 23688836",
+            "process_entry": "True",
+            "doi": "10.1016/j.jsbmb.2013.04.006",
+            "pmid": "23688836",
+            "xmlid": "CIT0019"
+        }
+    ],
+    "localid": "MED-31469015",
+    "doi": "10.1080/14756366.2019.1654469",
+    "pmid": "10.1080/14756366.2019.1654469",
+    "pmcid": "31469015",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31469015/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),189,83)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),273,171)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),445,102)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),145,142)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),288,163)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),452,274)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),328,276)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),605,163)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),769,201)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),185,93)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),185,93)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),409,116)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),526,224)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),116,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),116,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),228,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),216,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[8]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[8]/p),34,202)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "General procedure for the preparation of 2-hydroxymethylene-17β- (N,N-diethy-carboxamide)-androst-4-ene-3-one(7c)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[14]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[14]/p),245,230)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "2-methylene-17β-(N,N-diethy-carboxamide)-androst-4-ene-3-one (8c)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[18]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[18]/p),36,226)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "General procedure for the preparation of 17β-(N-isobutyl-carboxamide)-androst[3,2-c]pyrazole-4-ene (9a)"
+                ]
+            }
+        ]
+    ]
+}

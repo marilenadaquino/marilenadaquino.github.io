@@ -1,0 +1,3503 @@
+{
+    "references": [
+        {
+            "bibentry": "Shin, HY, Lee, JY, Song, J. Cause-of-death statistics in the Republic of Korea, 2014, J Korean Med Assoc, 2016, 59, 221, 232",
+            "process_entry": "True",
+            "xmlid": "B1"
+        },
+        {
+            "bibentry": "Lee, SW, Kim, HC, Lee, HS, Suh, I. Thirty-year trends in mortality from cardiovascular diseases in Korea, Korean Circ J, 2015, 45, 202, 209, PMID: 26023308",
+            "process_entry": "True",
+            "doi": "10.4070/kcj.2015.45.3.202",
+            "pmid": "26023308",
+            "pmcid": "PMC4446814",
+            "xmlid": "B2"
+        },
+        {
+            "bibentry": "Korean Statistical Information Service, Cause of Death Statistics, Daejeon, Korean Statistical Information Service, 2016",
+            "process_entry": "True",
+            "xmlid": "B3"
+        },
+        {
+            "bibentry": "Canadian Association of Cardiac Rehabilitation, Canadian guidelines for cardiac rehabilitation and cardiovascular disease prevention: translating knowledge into action, Winnipeg, Canadian Association of Cardiac Rehabilitation, 2009",
+            "process_entry": "True",
+            "xmlid": "B4"
+        },
+        {
+            "bibentry": "Scottish Intercollegiate Guidelines Network (SIGN), Cardiac rehabilitation: a national clinical guideline, Edinburgh, SIGN, 2017",
+            "process_entry": "True",
+            "xmlid": "B5"
+        },
+        {
+            "bibentry": "National Institute for Health and Care Excellence, Myocardial Infarction: Cardiac Rehabilitation and Prevention of Further Cardiovascular Disease (CG172), London, National Institute for Health and Care Excellence, 2013",
+            "process_entry": "True",
+            "xmlid": "B6"
+        },
+        {
+            "bibentry": "Smith, SC, Jr, Benjamin, EJ, Bonow, RO. AHA/ACCF secondary prevention and risk reduction therapy for patients with coronary and other atherosclerotic vascular disease: 2011 update: a guideline from the American Heart Association and American College of Cardiology Foundation endorsed by the World Heart Federation and the Preventive Cardiovascular Nurses Association, Circulation, 2011, 124, 2458, 2473, PMID: 22052934",
+            "process_entry": "True",
+            "doi": "10.1161/cir.0b013e318235eb4d",
+            "pmid": "22052934",
+            "xmlid": "B7"
+        },
+        {
+            "bibentry": "JCS Joint Working Group, Guidelines for rehabilitation in patients with cardiovascular disease (JCS 2012), Cir J, 2014, 78, 2022, 2093",
+            "process_entry": "True",
+            "xmlid": "B8"
+        },
+        {
+            "bibentry": "Piepoli, MF, Hoes, AW, Agewall, S. 2016 European guidelines on cardiovascular disease prevention in clinical practice: the sixth joint task force of the European Society of Cardiology and other societies on cardiovascular disease prevention in clinical practice (constituted by representatives of 10 societies and by invited experts)developed with the special contribution of the European Association for Cardiovascular Prevention & Rehabilitation (EACPR), Eur Heart J, 2016, 37, 2315, 2381, PMID: 27222591",
+            "process_entry": "True",
+            "doi": "10.1093/eurheartj/ehw106",
+            "pmid": "27222591",
+            "pmcid": "PMC4986030",
+            "xmlid": "B9"
+        },
+        {
+            "bibentry": "Steering Committee for Clinical Practice Guideline, Korean appraisal of guidelines for research & evaluation II, Seoul, Steering Committee for Clinical Practice Guideline, 2010",
+            "process_entry": "True",
+            "xmlid": "B10"
+        },
+        {
+            "bibentry": "Cardiac rehabilitation as secondary prevention. Cardiac rehabilitation guideline panel, Am Fam Physician, 1995, 52, 2257, 2264, PMID: 7484719",
+            "process_entry": "True",
+            "pmid": "7484719",
+            "xmlid": "B11"
+        },
+        {
+            "bibentry": "Balady, GJ, Ades, PA, Bittner, VA. Referral, enrollment, and delivery of cardiac rehabilitation/secondary prevention programs at clinical centers and beyond: a presidential advisory from the American Heart Association, Circulation, 2011, 124, 2951, 2960, PMID: 22082676",
+            "process_entry": "True",
+            "doi": "10.1161/cir.0b013e31823b21e2",
+            "pmid": "22082676",
+            "xmlid": "B12"
+        },
+        {
+            "bibentry": "Perk, J, De Backer, G, Gohlke, H. European guidelines on cardiovascular disease prevention in clinical practice (version 2012). The fifth joint task force of the European Society of Cardiology and other societies on cardiovascular disease prevention in clinical practice (constituted by representatives of nine societies and by invited experts), Eur Heart J, 2012, 33, 1635, 1701, PMID: 22555213",
+            "process_entry": "True",
+            "doi": "10.1093/eurheartj/ehs092",
+            "pmid": "22555213",
+            "xmlid": "B13"
+        },
+        {
+            "bibentry": "Anderson, L, Oldridge, N, Thompson, DR. Exercise-based cardiac rehabilitation for coronary heart disease: Cochrane systematic review and meta-analysis, J Am Coll Cardiol, 2016, 67, 1, 12, PMID: 26764059",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2015.10.044",
+            "pmid": "26764059",
+            "xmlid": "B14"
+        },
+        {
+            "bibentry": "Sumner, J, Harrison, A, Doherty, P. The effectiveness of modern cardiac rehabilitation: A systematic review of recent observational studies in non-attenders versus attenders, PLoS One, 2017, 12, e0177658, PMID: 28498869",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0177658",
+            "pmid": "28498869",
+            "pmcid": "PMC5428953",
+            "xmlid": "B15"
+        },
+        {
+            "bibentry": "Goodwin, L, Ostuzzi, G, Khan, N, Hotopf, MH, Moss-Morris, R. Can we identify the active ingredients of behaviour change interventions for coronary heart disease patients? A systematic review and meta-analysis, PLoS One, 2016, 11, e0153271, PMID: 27105435",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0153271",
+            "pmid": "27105435",
+            "pmcid": "PMC4841549",
+            "xmlid": "B16"
+        },
+        {
+            "bibentry": "Kim, C, Kim, DY, Moon, CJ. Prognostic influences of cardiac rehabilitation in Korean acute myocardial infarction patients, Ann Rehabil Med, 2011, 35, 375, 380, PMID: 22506147",
+            "process_entry": "True",
+            "doi": "10.5535/arm.2011.35.3.375",
+            "pmid": "22506147",
+            "pmcid": "PMC3309216",
+            "xmlid": "B17"
+        },
+        {
+            "bibentry": "Anderson, L, Taylor, RS. Cardiac rehabilitation for people with heart disease: an overview of Cochrane systematic reviews, Cochrane Database Syst Rev, 2014, CD011273, PMID: 25503364",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd011273.pub2",
+            "pmid": "25503364",
+            "xmlid": "B18"
+        },
+        {
+            "bibentry": "Shepherd, CW, While, AE. Cardiac rehabilitation and quality of life: a systematic review, Int J Nurs Stud, 2012, 49, 755, 771, PMID: 22197653",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijnurstu.2011.11.019",
+            "pmid": "22197653",
+            "xmlid": "B19"
+        },
+        {
+            "bibentry": "Abell, B, Glasziou, P, Hoffmann, T. The contribution of individual exercise training components to clinical outcomes in randomised controlled trials of cardiac rehabilitation: a systematic review and meta-regression, Sports Med Open, 2017, 3, 19, PMID: 28477308",
+            "process_entry": "True",
+            "doi": "10.1186/s40798-017-0086-z",
+            "pmid": "28477308",
+            "pmcid": "PMC5419959",
+            "xmlid": "B20"
+        },
+        {
+            "bibentry": "van Halewijn, G, Deckers, J, Tay, HY, van Domburg, R, Kotseva, K, Wood, D. Lessons from contemporary trials of cardiovascular prevention and rehabilitation: a systematic review and meta-analysis, Int J Cardiol, 2017, 232, 294, 303, PMID: 28094128",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijcard.2016.12.125",
+            "pmid": "28094128",
+            "xmlid": "B21"
+        },
+        {
+            "bibentry": "Chan, E, Giallauria, F, Vigorito, C, Smart, NA. Exercise training in heart failure patients with preserved ejection fraction: a systematic review and meta-analysis, Monaldi Arch Chest Dis, 2016, 86, 759, PMID: 27748473",
+            "process_entry": "True",
+            "doi": "10.4081/monaldi.2016.759",
+            "pmid": "27748473",
+            "xmlid": "B22"
+        },
+        {
+            "bibentry": "Pandey, A, Parashar, A, Kumbhani, D. Exercise training in patients with heart failure and preserved ejection fraction: meta-analysis of randomized control trials, Circ Heart Fail, 2015, 8, 33, 40, PMID: 25399909",
+            "process_entry": "True",
+            "doi": "10.1161/CIRCHEARTFAILURE.114.001615",
+            "pmid": "25399909",
+            "pmcid": "PMC4792111",
+            "xmlid": "B23"
+        },
+        {
+            "bibentry": "Haykowsky, M, Scott, J, Esch, B. Meta-analysis of the effects of exercise training on left ventricular remodeling following myocardial infarction: start early and go longer for greatest exercise benefits on remodeling, Trials, 2011, 12, 92, PMID: 21463531",
+            "process_entry": "True",
+            "doi": "10.1186/1745-6215-12-92",
+            "pmid": "21463531",
+            "pmcid": "PMC3083361",
+            "xmlid": "B24"
+        },
+        {
+            "bibentry": "Zhang, YM, Lu, Y, Tang, Y. The effects of different initiation time of exercise training on left ventricular remodeling and cardiopulmonary rehabilitation in patients with left ventricular dysfunction after myocardial infarction, Disabil Rehabil, 2016, 38, 268, 276, PMID: 25885667",
+            "process_entry": "True",
+            "doi": "10.3109/09638288.2015.1036174",
+            "pmid": "25885667",
+            "xmlid": "B25"
+        },
+        {
+            "bibentry": "Oldridge, N. Exercise-based cardiac rehabilitation in patients with coronary heart disease: meta-analysis outcomes revisited, Future Cardiol, 2012, 8, 729, 751, PMID: 23013125",
+            "process_entry": "True",
+            "doi": "10.2217/fca.12.34",
+            "pmid": "23013125",
+            "xmlid": "B26"
+        },
+        {
+            "bibentry": "Kim, C, Bang, HJ, Kim, JH. Recommendations for establishing cardiac rehabilitation programs; facility, equipment and staff: the Korean society of cardiac rehabilitation (KSCR) Position Statement, Ann Rehabil Med, 2010, 34, 491, 497",
+            "process_entry": "True",
+            "xmlid": "B27"
+        },
+        {
+            "bibentry": "The British Association for Cardiovascular Prevention and Rehabilitation, The BACPR standards and core components for cardiovascular prevention and rehabilitation 2012, London, British Association for Cardiovascular Prevention and Rehabilitation, 2012",
+            "process_entry": "True",
+            "xmlid": "B28"
+        },
+        {
+            "bibentry": "Clark, AM, Catto, S, Bowman, G, Macintyre, PD. Design matters in secondary prevention: individualization and supervised exercise improves the effectiveness of cardiac rehabilitation, Eur J Cardiovasc Prev Rehabil, 2011, 18, 761, 769, PMID: 21450605",
+            "process_entry": "True",
+            "doi": "10.1177/1741826710397107",
+            "pmid": "21450605",
+            "xmlid": "B29"
+        },
+        {
+            "bibentry": "Coulter, A, Entwistle, VA, Eccles, A, Ryan, S, Shepperd, S, Perera, R. Personalised care planning for adults with chronic or long-term health conditions, Cochrane Database Syst Rev, 2015, CD010523, PMID: 25733495",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD010523.pub2",
+            "pmid": "25733495",
+            "pmcid": "PMC6486144",
+            "xmlid": "B30"
+        },
+        {
+            "bibentry": "Hill, K, Walwyn, R, Camidge, D. A randomized feasibility trial of a new lifestyle referral assessment versus usual assessment in an acute cardiology setting, J Cardiovasc Nurs, 2016, 31, 507, 516, PMID: 26422640",
+            "process_entry": "True",
+            "doi": "10.1097/JCN.0000000000000294",
+            "pmid": "26422640",
+            "pmcid": "PMC4743063",
+            "xmlid": "B31"
+        },
+        {
+            "bibentry": "Weibel, L, Massarotto, P, Hediger, H, Mahrer-Imhof, R. Early education and counselling of patients with acute coronary syndrome. A pilot study for a randomized controlled trial, Eur J Cardiovasc Nurs, 2016, 15, 213, 222, PMID: 25341680",
+            "process_entry": "True",
+            "doi": "10.1177/1474515114556713",
+            "pmid": "25341680",
+            "xmlid": "B32"
+        },
+        {
+            "bibentry": "Fors, A, Swedberg, K, Ulin, K, Wolf, A, Ekman, I. Effects of person-centred care after an event of acute coronary syndrome: two-year follow-up of a randomised controlled trial, Int J Cardiol, 2017, 249, 42, 47, PMID: 28893432",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijcard.2017.08.069",
+            "pmid": "28893432",
+            "xmlid": "B33"
+        },
+        {
+            "bibentry": "Lespérance, F, Frasure-Smith, N. Depression in patients with cardiac disease: a practical review, J Psychosom Res, 2000, 48, 379, 391, PMID: 10880660",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3999(99)00102-6",
+            "pmid": "10880660",
+            "xmlid": "B34"
+        },
+        {
+            "bibentry": "Carney, RM, Freedland, KE. Depression, mortality, and medical morbidity in patients with coronary heart disease, Biol Psychiatry, 2003, 54, 241, 247, PMID: 12893100",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-3223(03)00111-2",
+            "pmid": "12893100",
+            "xmlid": "B35"
+        },
+        {
+            "bibentry": "Frasure-Smith, N, Lespérance, F. Recent evidence linking coronary heart disease and depression, Can J Psychiatry, 2006, 51, 730, 737, PMID: 17168247",
+            "process_entry": "True",
+            "doi": "10.1177/070674370605101202",
+            "pmid": "17168247",
+            "xmlid": "B36"
+        },
+        {
+            "bibentry": "Gehi, A, Haas, D, Pipkin, S, Whooley, MA. Depression and medication adherence in outpatients with coronary heart disease: findings from the Heart and Soul Study, Arch Intern Med, 2005, 165, 2508, 2513, PMID: 16314548",
+            "process_entry": "True",
+            "doi": "10.1001/archinte.165.21.2508",
+            "pmid": "16314548",
+            "pmcid": "PMC2776695",
+            "xmlid": "B37"
+        },
+        {
+            "bibentry": "Ades, PA, Waldmann, ML, McCann, WJ, Weaver, SO. Predictors of cardiac rehabilitation participation in older coronary patients, Arch Intern Med, 1992, 152, 1033, 1035, PMID: 1580707",
+            "process_entry": "True",
+            "doi": "10.1001/archinte.1992.00400170113021",
+            "pmid": "1580707",
+            "xmlid": "B38"
+        },
+        {
+            "bibentry": "Glazer, KM, Emery, CF, Frid, DJ, Banyasz, RE. Psychological predictors of adherence and outcomes among patients in cardiac rehabilitation, J Cardiopulm Rehabil, 2002, 22, 40, 46, PMID: 11839996",
+            "process_entry": "True",
+            "doi": "10.1097/00008483-200201000-00006",
+            "pmid": "11839996",
+            "xmlid": "B39"
+        },
+        {
+            "bibentry": "Frasure-Smith, N, Lespérance, F, Gravel, G. Depression and health-care costs during the first year following myocardial infarction, J Psychosom Res, 2000, 48, 471, 478, PMID: 10880668",
+            "process_entry": "True",
+            "doi": "10.1016/s0022-3999(99)00088-4",
+            "pmid": "10880668",
+            "xmlid": "B40"
+        },
+        {
+            "bibentry": "Shibeshi, WA, Young-Xu, Y, Blatt, CM. Anxiety worsens prognosis in patients with coronary artery disease, J Am Coll Cardiol, 2007, 49, 2021, 2027, PMID: 17512358",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2007.03.007",
+            "pmid": "17512358",
+            "xmlid": "B41"
+        },
+        {
+            "bibentry": "Murphy, BM, Higgins, RO, Jackson, AC. Anxiety, depression, and psychological adjustment after an acute cardiac event: handbook of psychocardiology, Singapore, Springer, 2015",
+            "process_entry": "True",
+            "xmlid": "B42"
+        },
+        {
+            "bibentry": "Richards, SH, Anderson, L, Jenkinson, CE. Psychological interventions for coronary heart disease, Cochrane Database Syst Rev, 2017, 4, CD002902, PMID: 28452408",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD002902.pub4",
+            "pmid": "28452408",
+            "pmcid": "PMC6478177",
+            "xmlid": "B43"
+        },
+        {
+            "bibentry": "Klainin-Yobas, P, Ng, SH, Stephen, PD, Lau, Y. Efficacy of psychosocial interventions on psychological outcomes among people with cardiovascular diseases: a systematic review and meta-analysis, Patient Educ Couns, 2016, 99, 512, 521, PMID: 27045976",
+            "process_entry": "True",
+            "doi": "10.1016/j.pec.2015.10.020",
+            "pmid": "27045976",
+            "xmlid": "B44"
+        },
+        {
+            "bibentry": "von Känel, R, Barth, J, Princip, M. Early psychological counseling for the prevention of posttraumatic stress induced by acute coronary syndrome: the MI-SPRINT randomized controlled trial, Psychother Psychosom, 2018, 87, 75, 84, PMID: 29462823",
+            "process_entry": "True",
+            "doi": "10.1159/000486099",
+            "pmid": "29462823",
+            "xmlid": "B45"
+        },
+        {
+            "bibentry": "American College of Sports Medicine, ACSM's guidelines for exercise testing and prescription, Philadelphia (PA), LWW, 2013",
+            "process_entry": "True",
+            "xmlid": "B46"
+        },
+        {
+            "bibentry": "American Association of Cardiovascular & Pulmonary Rehabilitation, Guidelines for cardia rehabilitation and secondary prevention programs, Champaign (IL), Human Kinetics, 2013",
+            "process_entry": "True",
+            "xmlid": "B47"
+        },
+        {
+            "bibentry": "Balady, G, Leitschuh, ML, Jacobs, AK, Merrell, D, Weiner, DA, Ryan, TJ. Safety and clinical use of exercise testing one to three days after percutaneous transluminal coronary angioplasty, Am J Cardiol, 1992, 69, 1259, 1264, PMID: 1585856",
+            "process_entry": "True",
+            "doi": "10.1016/0002-9149(92)91217-r",
+            "pmid": "1585856",
+            "xmlid": "B48"
+        },
+        {
+            "bibentry": "Horgan, J, Bethell, H, Carson, P. Working party report on cardiac rehabilitation, Br Heart J, 1992, 67, 412, 418, PMID: 1389724",
+            "process_entry": "True",
+            "doi": "10.1136/hrt.67.5.412",
+            "pmid": "1389724",
+            "pmcid": "PMC1024866",
+            "xmlid": "B49"
+        },
+        {
+            "bibentry": "Goble, AJ, Worcester, MC. Best practice guidelines for cardiac rehabilitation and secondary prevention, Victoria, Heart Research Centre, 1999",
+            "process_entry": "True",
+            "xmlid": "B50"
+        },
+        {
+            "bibentry": "Wright, DJ, Khan, KM, Gossage, EM, Saltissi, S. Assessment of a low-intensity cardiac rehabilitation programme using the six-minute walk test, Clin Rehabil, 2001, 15, 119, 124, PMID: 11330756",
+            "process_entry": "True",
+            "doi": "10.1191/026921501671364449",
+            "pmid": "11330756",
+            "xmlid": "B51"
+        },
+        {
+            "bibentry": "Tallaj, JA, Sanderson, B, Breland, J, Adams, C, Schumann, C, Bittner, V. Assessment of functional outcomes using the 6-minute walk test in cardiac rehabilitation: comparison of patients with and without left ventricular dysfunction, J Cardiopulm Rehabil, 2001, 21, 221, 224, PMID: 11508182",
+            "process_entry": "True",
+            "doi": "10.1097/00008483-200107000-00005",
+            "pmid": "11508182",
+            "xmlid": "B52"
+        },
+        {
+            "bibentry": "Verrill, DE, Barton, C, Beasley, W, Lippard, M, King, CN. Six-minute walk performance and quality of life comparisons in North Carolina cardiac rehabilitation programs, Heart Lung, 2003, 32, 41, 51, PMID: 12571547",
+            "process_entry": "True",
+            "doi": "10.1067/mhl.2003.7",
+            "pmid": "12571547",
+            "xmlid": "B53"
+        },
+        {
+            "bibentry": "Bellet, RN, Adams, L, Morris, NR. The 6-minute walk test in outpatient cardiac rehabilitation: validity, reliability and responsiveness-a systematic review, Physiotherapy, 2012, 98, 277, 286, PMID: 23122432",
+            "process_entry": "True",
+            "doi": "10.1016/j.physio.2011.11.003",
+            "pmid": "23122432",
+            "xmlid": "B54"
+        },
+        {
+            "bibentry": "Nogueira, PA, Leal, AC, Pulz, C, Nogueira, ID, Filho, JA. Clinical reliability of the 6 minute corridor walk test performed within a week of a myocardial infarction, Int Heart J, 2006, 47, 533, 540, PMID: 16960408",
+            "process_entry": "True",
+            "doi": "10.1536/ihj.47.533",
+            "pmid": "16960408",
+            "xmlid": "B55"
+        },
+        {
+            "bibentry": "Hanson, LC, McBurney, H, Taylor, NF. The retest reliability of the six-minute walk test in patients referred to a cardiac rehabilitation programme, Physiother Res Int, 2012, 17, 55, 61, PMID: 21755578",
+            "process_entry": "True",
+            "doi": "10.1002/pri.513",
+            "pmid": "21755578",
+            "xmlid": "B56"
+        },
+        {
+            "bibentry": "Harris, KM, Anderson, DR, Landers, JD, Emery, CF. Utility of walk tests in evaluating functional status among participants in an outpatient cardiac rehabilitation program, J Cardiopulm Rehabil Prev, 2017, 37, 329, 333, PMID: 28306686",
+            "process_entry": "True",
+            "doi": "10.1097/hcr.0000000000000242",
+            "pmid": "28306686",
+            "xmlid": "B57"
+        },
+        {
+            "bibentry": "Goto, Y. Current state of cardiac rehabilitation in Japan, Prog Cardiovasc Dis, 2014, 56, 557, 562, PMID: 24607022",
+            "process_entry": "True",
+            "doi": "10.1016/j.pcad.2013.12.001",
+            "pmid": "24607022",
+            "xmlid": "B58"
+        },
+        {
+            "bibentry": "Im, HW, Baek, S, Jee, S, Ahn, JM, Park, MW, Kim, WS. Barriers to outpatient hospital-based cardiac rehabilitation in Korean patients with acute coronary syndrome, Ann Rehabil Med, 2018, 42, 154, 165, PMID: 29560336",
+            "process_entry": "True",
+            "doi": "10.5535/arm.2018.42.1.154",
+            "pmid": "29560336",
+            "pmcid": "PMC5852219",
+            "xmlid": "B59"
+        },
+        {
+            "bibentry": "Ades, PA, Keteyian, SJ, Wright, JS. Increasing cardiac rehabilitation participation from 20% to 70%: a road map from the Million Hearts Cardiac Rehabilitation Collaborative, Mayo Clin Proc, 2017, 92, 234, 242, PMID: 27855953",
+            "process_entry": "True",
+            "doi": "10.1016/j.mayocp.2016.10.014",
+            "pmid": "27855953",
+            "pmcid": "PMC5292280",
+            "xmlid": "B60"
+        },
+        {
+            "bibentry": "Karmali, KN, Davies, P, Taylor, F, Beswick, A, Martin, N, Ebrahim, S. Promoting patient uptake and adherence in cardiac rehabilitation, Cochrane Database Syst Rev, 2014, CD007131, PMID: 24963623",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd007131.pub3",
+            "pmid": "24963623",
+            "xmlid": "B61"
+        },
+        {
+            "bibentry": "Cossette, S, Frasure-Smith, N, Dupuis, J, Juneau, M, Guertin, MC. Randomized controlled trial of tailored nursing interventions to improve cardiac rehabilitation enrollment, Nurs Res, 2012, 61, 111, 120, PMID: 22282154",
+            "process_entry": "True",
+            "doi": "10.1097/nnr.0b013e318240dc6b",
+            "pmid": "22282154",
+            "xmlid": "B62"
+        },
+        {
+            "bibentry": "Hillebrand, T, Frodermann, H, Lehr, D, Wirth, A. Increased participation in coronary groups by means of an outpatient care program, Herz Kreislauf, 1995, 27, 346, 349",
+            "process_entry": "True",
+            "xmlid": "B63"
+        },
+        {
+            "bibentry": "Jolly, K, Bradley, F, Sharp, S. Randomised controlled trial of follow up care in general practice of patients with myocardial infarction and angina: final results of the Southampton heart integrated care project (SHIP). The SHIP Collaborative Group, BMJ, 1999, 318, 706, 711, PMID: 10074017",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.318.7185.706",
+            "pmid": "10074017",
+            "pmcid": "PMC27782",
+            "xmlid": "B64"
+        },
+        {
+            "bibentry": "Price, JAD. A pilot trial of a coaching intervention designed to increase women's attendance at cardiac rehabilitation intake [dissertation], Toronto, University of Toronto, 2012, 182",
+            "process_entry": "True",
+            "xmlid": "B65"
+        },
+        {
+            "bibentry": "Pack, QR, Mansour, M, Barboza, JS. An early appointment to outpatient cardiac rehabilitation at hospital discharge improves attendance at orientation: a randomized, single-blind, controlled trial, Circulation, 2013, 127, 349, 355, PMID: 23250992",
+            "process_entry": "True",
+            "doi": "10.1161/circulationaha.112.121996",
+            "pmid": "23250992",
+            "xmlid": "B66"
+        },
+        {
+            "bibentry": "Wyer, S, Earll, L, Joseph, S, Harrison, J, Giles, M, Johnston, M. Increasing attendance at a cardiac rehabilitation programme: an intervention study using the Theory of Planned Behaviour, Coron Health Care, 2001, 5, 154, 159",
+            "process_entry": "True",
+            "xmlid": "B67"
+        },
+        {
+            "bibentry": "Arrigo, I, Brunner-LaRocca, H, Lefkovits, M, Pfisterer, M, Hoffmann, A. Comparative outcome one year after formal cardiac rehabilitation: the effects of a randomized intervention to improve exercise adherence, Eur J Cardiovasc Prev Rehabil, 2008, 15, 306, 311, PMID: 18525385",
+            "process_entry": "True",
+            "doi": "10.1097/hjr.0b013e3282f40e01",
+            "pmid": "18525385",
+            "xmlid": "B68"
+        },
+        {
+            "bibentry": "Duncan, KA, Pozehl, B. Staying on course: the effects of an adherence facilitation intervention on home exercise participation, Prog Cardiovasc Nurs, 2002, 17, 59, 65, 71, PMID: 11986538",
+            "process_entry": "True",
+            "doi": "10.1111/j.0889-7204.2002.01229.x",
+            "pmid": "11986538",
+            "xmlid": "B69"
+        },
+        {
+            "bibentry": "Sniehotta, FF, Scholz, U, Schwarzer, R. Action plans and coping plans for physical exercise: a longitudinal intervention study in cardiac rehabilitation, Br J Health Psychol, 2006, 11, 23, 37, PMID: 16480553",
+            "process_entry": "True",
+            "doi": "10.1348/135910705x43804",
+            "pmid": "16480553",
+            "xmlid": "B70"
+        },
+        {
+            "bibentry": "Reid, RD, Morrin, LI, Higginson, LA. Motivational counselling for physical activity in patients with coronary artery disease not participating in cardiac rehabilitation, Eur J Prev Cardiol, 2012, 19, 161, 166, PMID: 21450579",
+            "process_entry": "True",
+            "doi": "10.1177/1741826711400519",
+            "pmid": "21450579",
+            "xmlid": "B71"
+        },
+        {
+            "bibentry": "Grace, SL, Midence, L, Oh, P. Cardiac rehabilitation program adherence and functional capacity among women: a randomized controlled trial, Mayo Clin Proc, 2016, 91, 140, 148, PMID: 26682921",
+            "process_entry": "True",
+            "doi": "10.1016/j.mayocp.2015.10.021",
+            "pmid": "26682921",
+            "xmlid": "B72"
+        },
+        {
+            "bibentry": "Lynggaard, V, Nielsen, CV, Zwisler, AD, Taylor, RS, May, O. The patient education -learning and coping strategies -improves adherence in cardiac rehabilitation (LC-REHAB): a randomised controlled trial, Int J Cardiol, 2017, 236, 65, 70, PMID: 28259552",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijcard.2017.02.051",
+            "pmid": "28259552",
+            "xmlid": "B73"
+        },
+        {
+            "bibentry": "Grace, SL, Chessex, C, Arthur, H. Systematizing inpatient referral to cardiac rehabilitation 2010: Canadian Association of Cardiac Rehabilitation and Canadian Cardiovascular Society joint position paper endorsed by the Cardiac Care Network of Ontario, Can J Cardiol, 2011, 27, 192, 199, PMID: 21459268",
+            "process_entry": "True",
+            "doi": "10.1016/j.cjca.2010.12.007",
+            "pmid": "21459268",
+            "xmlid": "B74"
+        },
+        {
+            "bibentry": "Taylor, RS, Brown, A, Ebrahim, S. Exercise-based rehabilitation for patients with coronary heart disease: systematic review and meta-analysis of randomized controlled trials, Am J Med, 2004, 116, 682, 692, PMID: 15121495",
+            "process_entry": "True",
+            "doi": "10.1016/j.amjmed.2004.01.009",
+            "pmid": "15121495",
+            "xmlid": "B75"
+        },
+        {
+            "bibentry": "van den Berg-Emons, RJ, Bussmann, JB, Balk, AH, Stam, HJ. Factors associated with the level of movement-related everyday activity and quality of life in people with chronic heart failure, Phys Ther, 2005, 85, 1340, 1348, PMID: 16305272",
+            "process_entry": "True",
+            "pmid": "16305272",
+            "xmlid": "B76"
+        },
+        {
+            "bibentry": "ter Hoeve, N, Huisstede, BM, Stam, HJ, van Domburg, RT, Sunamura, M, van den Berg-Emons, RJ. Does cardiac rehabilitation after an acute cardiac syndrome lead to changes in physical activity habits? Systematic review, Phys Ther, 2015, 95, 167, 179, PMID: 25278337",
+            "process_entry": "True",
+            "doi": "10.2522/ptj.20130509",
+            "pmid": "25278337",
+            "xmlid": "B77"
+        },
+        {
+            "bibentry": "Cha, S, Park, JJ, Kim, S. Need for systematic efforts to modify health-related behaviors after acute myocardial infarction in Korea, Circ J, 2018, 82, 2523, 2529, PMID: 30068823",
+            "process_entry": "True",
+            "doi": "10.1253/circj.cj-17-1405",
+            "pmid": "30068823",
+            "xmlid": "B78"
+        },
+        {
+            "bibentry": "Aldcroft, SA, Taylor, NF, Blackstock, FC, O'Halloran, PD. Psychoeducational rehabilitation for health behavior change in coronary artery disease: a systematic review of controlled trials, J Cardiopulm Rehabil Prev, 2011, 31, 273, 281, PMID: 21734590",
+            "process_entry": "True",
+            "doi": "10.1097/hcr.0b013e318220a7c9",
+            "pmid": "21734590",
+            "xmlid": "B79"
+        },
+        {
+            "bibentry": "Tingström, PR, Kamwendo, K, Bergdahl, B. Effects of a problem-based learning rehabilitation programme on quality of life in patients with coronary artery disease, Eur J Cardiovasc Nurs, 2005, 4, 324, 330, PMID: 15923147",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejcnurse.2005.04.008",
+            "pmid": "15923147",
+            "xmlid": "B80"
+        },
+        {
+            "bibentry": "Carlson, JJ, Johnson, JA, Franklin, BA, VanderLaan, RL. Program participation, exercise adherence, cardiovascular outcomes, and program cost of traditional versus modified cardiac rehabilitation, Am J Cardiol, 2000, 86, 17, 23, PMID: 10867086",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9149(00)00822-5",
+            "pmid": "10867086",
+            "xmlid": "B81"
+        },
+        {
+            "bibentry": "Izawa, KP, Watanabe, S, Omiya, K. Effect of the self-monitoring approach on exercise maintenance during cardiac rehabilitation: a randomized, controlled trial, Am J Phys Med Rehabil, 2005, 84, 313, 321, PMID: 15829777",
+            "process_entry": "True",
+            "doi": "10.1097/01.phm.0000156901.95289.09",
+            "pmid": "15829777",
+            "xmlid": "B82"
+        },
+        {
+            "bibentry": "Fournier, M, Radel, R, Bailly, L. “As du Coeur” study: a randomized controlled trial on physical activity maintenance in cardiovascular patients, BMC Cardiovasc Disord, 2018, 18, 77, PMID: 29720097",
+            "process_entry": "True",
+            "doi": "10.1186/s12872-018-0809-1",
+            "pmid": "29720097",
+            "pmcid": "PMC5932761",
+            "xmlid": "B83"
+        },
+        {
+            "bibentry": "Ter Hoeve, N, Sunamura, M, Stam, HJ. Effects of two behavioral cardiac rehabilitation interventions on physical activity: a randomized controlled trial, Int J Cardiol, 2018, 255, 221, 228, PMID: 29425564",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijcard.2017.12.015",
+            "pmid": "29425564",
+            "xmlid": "B84"
+        },
+        {
+            "bibentry": "Kulik, A, Ruel, M, Jneid, H. Secondary prevention after coronary artery bypass graft surgery: a scientific statement from the American Heart Association, Circulation, 2015, 131, 927, 964, PMID: 25679302",
+            "process_entry": "True",
+            "doi": "10.1161/cir.0000000000000182",
+            "pmid": "25679302",
+            "xmlid": "B85"
+        },
+        {
+            "bibentry": "Hansen, D, Dendale, P, Leenders, M. Reduction of cardiovascular event rate: different effects of cardiac rehabilitation in CABG and PCI patients, Acta Cardiol, 2009, 64, 639, 644, PMID: 20058510",
+            "process_entry": "True",
+            "doi": "10.2143/ac.64.5.2042694",
+            "pmid": "20058510",
+            "xmlid": "B86"
+        },
+        {
+            "bibentry": "Hedbäck, B, Perk, J, Hörnblad, M, Ohlsson, U. Cardiac rehabilitation after coronary artery bypass surgery: 10-year results on mortality, morbidity and readmissions to hospital, J Cardiovasc Risk, 2001, 8, 153, 158, PMID: 11455847",
+            "process_entry": "True",
+            "doi": "10.1177/174182670100800306",
+            "pmid": "11455847",
+            "xmlid": "B87"
+        },
+        {
+            "bibentry": "Aldahash, R, Al Dera, HS. Physical therapy program improves the physiological impact towards better quality of life and low cardiac risk factors in patients following coronary artery bypass grafting. Systematic review, Acta Med Int, 2016, 3, 185, 195",
+            "process_entry": "True",
+            "xmlid": "B88"
+        },
+        {
+            "bibentry": "Kim, SY, Oh, JK, Youn, JH, Kim, YJ. The effect of cardiac rehabilitation i phase program on physical capacity after coronary artery bypass graft surgery, Korean J Sports Med, 2012, 30, 85, 91",
+            "process_entry": "True",
+            "xmlid": "B89"
+        },
+        {
+            "bibentry": "Hamm, LF, Sanderson, BK, Ades, PA. Core competencies for cardiac rehabilitation/secondary prevention professionals: 2010 update: position statement of the American Association of Cardiovascular and Pulmonary Rehabilitation, J Cardiopulm Rehabil Prev, 2011, 31, 2, 10, PMID: 21217254",
+            "process_entry": "True",
+            "doi": "10.1097/hcr.0b013e318203999d",
+            "pmid": "21217254",
+            "xmlid": "B90"
+        },
+        {
+            "bibentry": "Anderson, L, Thompson, DR, Oldridge, N. Exercise-based cardiac rehabilitation for coronary heart disease, Cochrane Database Syst Rev, 2016, CD001800, PMID: 26730878",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD001800.pub3",
+            "pmid": "26730878",
+            "pmcid": "PMC6491180",
+            "xmlid": "B91"
+        },
+        {
+            "bibentry": "Brown, A, Taylor, R, Noorani, H, Stone, J, Skidmore, B. Exercise-Based Cardiac Rehabilitation Programs for Coronary Artery Disease: a Systematic Clinical and Economic Review, Ottawa, Canadian Coordinating Office for Health Technology Assessment (CCOHTA), 2003",
+            "process_entry": "True",
+            "xmlid": "B92"
+        },
+        {
+            "bibentry": "Chen, YC, Tsai, JC, Liou, YM, Chan, P. Effectiveness of endurance exercise training in patients with coronary artery disease: a meta-analysis of randomised controlled trials, Eur J Cardiovasc Nurs, 2017, 16, 397, 408, PMID: 28565969",
+            "process_entry": "True",
+            "doi": "10.1177/1474515116684407",
+            "pmid": "28565969",
+            "xmlid": "B93"
+        },
+        {
+            "bibentry": "Liou, K, Ho, S, Fildes, J, Ooi, SY. High intensity interval versus moderate intensity continuous training in patients with coronary artery disease: a meta-analysis of physiological and clinical parameters, Heart Lung Circ, 2016, 25, 166, 174, PMID: 26375499",
+            "process_entry": "True",
+            "doi": "10.1016/j.hlc.2015.06.828",
+            "pmid": "26375499",
+            "xmlid": "B94"
+        },
+        {
+            "bibentry": "Choi, HY, Han, HJ, Choi, JW, Jung, HY, Joa, KL. Superior effects of high-intensity interval training compared to conventional therapy on cardiovascular and psychological aspects in myocardial infarction, Ann Rehabil Med, 2018, 42, 145, 153, PMID: 29560335",
+            "process_entry": "True",
+            "doi": "10.5535/arm.2018.42.1.145",
+            "pmid": "29560335",
+            "pmcid": "PMC5852218",
+            "xmlid": "B95"
+        },
+        {
+            "bibentry": "Kim, C, Choi, HE, Lim, MH. Effect of high interval training in acute myocardial infarction patients with drug-eluting stent, Am J Phys Med Rehabil, 2015, 94, 879, 886, PMID: 25802960",
+            "process_entry": "True",
+            "doi": "10.1097/phm.0000000000000290",
+            "pmid": "25802960",
+            "xmlid": "B96"
+        },
+        {
+            "bibentry": "Williams, MA, Haskell, WL, Ades, PA. Resistance exercise in individuals with and without cardiovascular disease: 2007 update: a scientific statement from the American Heart Association Council on clinical cardiology and council on nutrition, physical activity, and metabolism, Circulation, 2007, 116, 572, 584, PMID: 17638929",
+            "process_entry": "True",
+            "doi": "10.1161/circulationaha.107.185214",
+            "pmid": "17638929",
+            "xmlid": "B97"
+        },
+        {
+            "bibentry": "Hollings, M, Mavros, Y, Freeston, J, Fiatarone Singh, M. The effect of progressive resistance training on aerobic fitness and strength in adults with coronary heart disease: a systematic review and meta-analysis of randomised controlled trials, Eur J Prev Cardiol, 2017, 24, 1242, 1259, PMID: 28578612",
+            "process_entry": "True",
+            "doi": "10.1177/2047487317713329",
+            "pmid": "28578612",
+            "xmlid": "B98"
+        },
+        {
+            "bibentry": "Karagiannis, C, Savva, C, Mamais, I, Efstathiou, M, Monticone, M, Xanthos, T. Eccentric exercise in ischemic cardiac patients and functional capacity: A systematic review and meta-analysis of randomized controlled trials, Ann Phys Rehabil Med, 2017, 60, 58, 64, PMID: 27988306",
+            "process_entry": "True",
+            "doi": "10.1016/j.rehab.2016.10.007",
+            "pmid": "27988306",
+            "xmlid": "B99"
+        },
+        {
+            "bibentry": "Xanthos, PD, Gordon, BA, Kingsley, MI. Implementing resistance training in the rehabilitation of coronary heart disease: a systematic review and meta-analysis, Int J Cardiol, 2017, 230, 493, 508, PMID: 28040292",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijcard.2016.12.076",
+            "pmid": "28040292",
+            "xmlid": "B100"
+        },
+        {
+            "bibentry": "Kavanagh, T, Mertens, DJ, Hamm, LF. Prediction of long-term prognosis in 12 169 men referred for cardiac rehabilitation, Circulation, 2002, 106, 666, 671, PMID: 12163425",
+            "process_entry": "True",
+            "doi": "10.1161/01.cir.0000024413.15949.ed",
+            "pmid": "12163425",
+            "xmlid": "B101"
+        },
+        {
+            "bibentry": "Kavanagh, T, Mertens, DJ, Hamm, LF. Peak oxygen intake and cardiac mortality in women referred for cardiac rehabilitation, J Am Coll Cardiol, 2003, 42, 2139, 2143, PMID: 14680741",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2003.07.028",
+            "pmid": "14680741",
+            "xmlid": "B102"
+        },
+        {
+            "bibentry": "Mark, DB, Hlatky, MA, Harrell, FE, Jr, Lee, KL, Califf, RM, Pryor, DB. Exercise treadmill score for predicting prognosis in coronary artery disease, Ann Intern Med, 1987, 106, 793, 800, PMID: 3579066",
+            "process_entry": "True",
+            "doi": "10.7326/0003-4819-106-6-793",
+            "pmid": "3579066",
+            "xmlid": "B103"
+        },
+        {
+            "bibentry": "Mark, DB, Shaw, L, Harrell, FE, Jr. Prognostic value of a treadmill exercise score in outpatients with suspected coronary artery disease, N Engl J Med, 1991, 325, 849, 853, PMID: 1875969",
+            "process_entry": "True",
+            "doi": "10.1056/nejm199109193251204",
+            "pmid": "1875969",
+            "xmlid": "B104"
+        },
+        {
+            "bibentry": "Vanhees, L, Fagard, R, Thijs, L, Staessen, J, Amery, A. Prognostic significance of peak exercise capacity in patients with coronary artery disease, J Am Coll Cardiol, 1994, 23, 358, 363, PMID: 8294687",
+            "process_entry": "True",
+            "doi": "10.1016/0735-1097(94)90420-0",
+            "pmid": "8294687",
+            "xmlid": "B105"
+        },
+        {
+            "bibentry": "Kokkinos, P, Myers, J, Kokkinos, JP. Exercise capacity and mortality in black and white men, Circulation, 2008, 117, 614, 622, PMID: 18212278",
+            "process_entry": "True",
+            "doi": "10.1161/circulationaha.107.734764",
+            "pmid": "18212278",
+            "xmlid": "B106"
+        },
+        {
+            "bibentry": "Fletcher, GF, Balady, GJ, Amsterdam, EA. Exercise standards for testing and training: a statement for healthcare professionals from the American Heart Association, Circulation, 2001, 104, 1694, 1740, PMID: 11581152",
+            "process_entry": "True",
+            "doi": "10.1161/hc3901.095960",
+            "pmid": "11581152",
+            "xmlid": "B107"
+        },
+        {
+            "bibentry": "Kim, C, Moon, CJ, Lim, MH. Safety of monitoring exercise for early hospital-based cardiac rehabilitation, Ann Rehabil Med, 2012, 36, 262, 267, PMID: 22639752",
+            "process_entry": "True",
+            "doi": "10.5535/arm.2012.36.2.262",
+            "pmid": "22639752",
+            "pmcid": "PMC3358684",
+            "xmlid": "B108"
+        },
+        {
+            "bibentry": "Claes, J, Buys, R, Budts, W, Smart, N, Cornelissen, VA. Longer-term effects of home-based exercise interventions on exercise capacity and physical activity in coronary artery disease patients: a systematic review and meta-analysis, Eur J Prev Cardiol, 2017, 24, 244, 256, PMID: 27798366",
+            "process_entry": "True",
+            "doi": "10.1177/2047487316675823",
+            "pmid": "27798366",
+            "xmlid": "B109"
+        },
+        {
+            "bibentry": "Anderson, L, Sharp, GA, Norton, RJ. Home-based versus centre-based cardiac rehabilitation, Cochrane Database Syst Rev, 2017, 6, CD007130, PMID: 28665511",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD007130.pub4",
+            "pmid": "28665511",
+            "pmcid": "PMC6481471",
+            "xmlid": "B110"
+        },
+        {
+            "bibentry": "Huang, K, Liu, W, He, D. Telehealth interventions versus center-based cardiac rehabilitation of coronary artery disease: a systematic review and meta-analysis, Eur J Prev Cardiol, 2015, 22, 959, 971, PMID: 25488550",
+            "process_entry": "True",
+            "doi": "10.1177/2047487314561168",
+            "pmid": "25488550",
+            "xmlid": "B111"
+        },
+        {
+            "bibentry": "McClure, T, Haykowsky, MJ, Schopflocher, D, Hsu, ZY, Clark, AM. Home-based secondary prevention programs for patients with coronary artery disease: a meta-analysis of effects on anxiety, J Cardiopulm Rehabil Prev, 2013, 33, 59, 67, PMID: 23426558",
+            "process_entry": "True",
+            "doi": "10.1097/hcr.0b013e3182828f71",
+            "pmid": "23426558",
+            "xmlid": "B112"
+        },
+        {
+            "bibentry": "Heron, N, Kee, F, Donnelly, M, Cardwell, C, Tully, MA, Cupples, ME. Behaviour change techniques in home-based cardiac rehabilitation: a systematic review, Br J Gen Pract, 2016, 66, e747, 57, PMID: 27481858",
+            "process_entry": "True",
+            "doi": "10.3399/bjgp16X686617",
+            "pmid": "27481858",
+            "pmcid": "PMC5033311",
+            "xmlid": "B113"
+        },
+        {
+            "bibentry": "Lee, YH, Hur, SH, Sohn, J. Impact of home-based exercise training with wireless monitoring on patients with acute coronary syndrome undergoing percutaneous coronary intervention, J Korean Med Sci, 2013, 28, 564, 568, PMID: 23580444",
+            "process_entry": "True",
+            "doi": "10.3346/jkms.2013.28.4.564",
+            "pmid": "23580444",
+            "pmcid": "PMC3617309",
+            "xmlid": "B114"
+        },
+        {
+            "bibentry": "Chung, H, Ko, H, Thap, T. Smartphone-based cardiac rehabilitation program: feasibility study, PLoS One, 2016, 11, e0161268, PMID: 27551969",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0161268",
+            "pmid": "27551969",
+            "pmcid": "PMC4995057",
+            "xmlid": "B115"
+        },
+        {
+            "bibentry": "Lee, H, Chung, H, Ko, H. Dedicated cardiac rehabilitation wearable sensor and its clinical potential, PLoS One, 2017, 12, e0187108, PMID: 29088260",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0187108",
+            "pmid": "29088260",
+            "pmcid": "PMC5663433",
+            "xmlid": "B116"
+        },
+        {
+            "bibentry": "Rich, MW, Bosner, MS, Chung, MK, Shen, J, McKenzie, JP. Is age an independent predictor of early and late mortality in patients with acute myocardial infarction, Am J Med, 1992, 92, 7, 13, PMID: 1731513",
+            "process_entry": "True",
+            "doi": "10.1016/0002-9343(92)90008-y",
+            "pmid": "1731513",
+            "xmlid": "B117"
+        },
+        {
+            "bibentry": "Ades, PA, Savage, PD, Tischler, MD, Poehlman, ET, Dee, J, Niggel, J. Determinants of disability in older coronary patients, Am Heart J, 2002, 143, 151, 156, PMID: 11773926",
+            "process_entry": "True",
+            "doi": "10.1067/mhj.2002.119379",
+            "pmid": "11773926",
+            "xmlid": "B118"
+        },
+        {
+            "bibentry": "Pasquali, SK, Alexander, KP, Peterson, ED. Cardiac rehabilitation in the elderly, Am Heart J, 2001, 142, 748, 755, PMID: 11685158",
+            "process_entry": "True",
+            "doi": "10.1067/mhj.2001.119134",
+            "pmid": "11685158",
+            "xmlid": "B119"
+        },
+        {
+            "bibentry": "Audelin, MC, Savage, PD, Ades, PA. Exercise-based cardiac rehabilitation for very old patients (> or =75 years): focus on physical function, J Cardiopulm Rehabil Prev, 2008, 28, 163, 173, PMID: 18496314",
+            "process_entry": "True",
+            "doi": "10.1097/01.hcr.0000320066.58599.e5",
+            "pmid": "18496314",
+            "xmlid": "B120"
+        },
+        {
+            "bibentry": "Yamamoto, S, Hotta, K, Ota, E, Mori, R, Matsunaga, A. Effects of resistance training on muscle strength, exercise capacity, and mobility in middle-aged and elderly patients with coronary artery disease: a meta-analysis, J Cardiol, 2016, 68, 125, 134, PMID: 26690738",
+            "process_entry": "True",
+            "doi": "10.1016/j.jjcc.2015.09.005",
+            "pmid": "26690738",
+            "xmlid": "B121"
+        },
+        {
+            "bibentry": "Kim, JH. Effects of cardiac rehabilitation in elderly patients after myocardial infarction, J Korea Acad Ind Coop Soc, 2016, 17, 464, 471",
+            "process_entry": "True",
+            "xmlid": "B122"
+        },
+        {
+            "bibentry": "British Association for Cardiovascular Prevention and Rehabilitation, The BACPR standards and core components for cardiovascular disease prevention and rehabilitation 2017, London, British Association for Cardiovascular Prevention and Rehabilitation, 2017",
+            "process_entry": "True",
+            "xmlid": "B123"
+        },
+        {
+            "bibentry": "Ferrier, S, Blanchard, CM, Vallis, M, Giacomantonio, N. Behavioural interventions to increase the physical activity of cardiac patients: a review, Eur J Cardiovasc Prev Rehabil, 2011, 18, 15, 32, PMID: 20502341",
+            "process_entry": "True",
+            "doi": "10.1097/hjr.0b013e32833ace0e",
+            "pmid": "20502341",
+            "xmlid": "B124"
+        },
+        {
+            "bibentry": "Tierney, S, Mamas, M, Skelton, D. What can we learn from patients with heart failure about exercise adherence? A systematic review of qualitative papers, Health Psychol, 2011, 30, 401, 410, PMID: 21534681",
+            "process_entry": "True",
+            "doi": "10.1037/a0022848",
+            "pmid": "21534681",
+            "xmlid": "B125"
+        },
+        {
+            "bibentry": "Anderson, L, Brown, JP, Clark, AM. Patient education in the management of coronary heart disease, Cochrane Database Syst Rev, 2017, 6, CD008895, PMID: 28658719",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD008895.pub3",
+            "pmid": "28658719",
+            "pmcid": "PMC6481392",
+            "xmlid": "B126"
+        },
+        {
+            "bibentry": "Nieuwlaat, R, Wilczynski, N, Navarro, T. Interventions for enhancing medication adherence, Cochrane Database Syst Rev, 2014, CD000011, PMID: 25412402",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd000011.pub4",
+            "pmid": "25412402",
+            "xmlid": "B127"
+        },
+        {
+            "bibentry": "Chase, JA, Bogener, JL, Ruppar, TM, Conn, VS. The effectiveness of medication adherence interventions among patients with coronary artery disease: a meta-analysis. the journal of cardiovascular nursing, 2016, 31, 357, 366",
+            "process_entry": "True",
+            "xmlid": "B128"
+        },
+        {
+            "bibentry": "Adler, AJ, Martin, N, Mariani, J. Mobile phone text messaging to improve medication adherence in secondary prevention of cardiovascular disease, Cochrane Database Syst Rev, 2017, 4, CD011851, PMID: 28455948",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD011851.pub2",
+            "pmid": "28455948",
+            "pmcid": "PMC6478182",
+            "xmlid": "B129"
+        },
+        {
+            "bibentry": "Gandapur, Y, Kianoush, S, Kelli, HM. The role of mHealth for improving medication adherence in patients with cardiovascular disease: a systematic review, Eur Heart J Qual Care Clin Outcomes, 2016, 2, 237, 244, PMID: 29474713",
+            "process_entry": "True",
+            "doi": "10.1093/ehjqcco/qcw018",
+            "pmid": "29474713",
+            "pmcid": "PMC5862021",
+            "xmlid": "B130"
+        },
+        {
+            "bibentry": "Gandhi, S, Chen, S, Hong, L. Effect of mobile health interventions on the secondary prevention of cardiovascular disease: systematic review and meta-analysis, Can J Cardiol, 2017, 33, 219, 231, PMID: 27956043",
+            "process_entry": "True",
+            "doi": "10.1016/j.cjca.2016.08.017",
+            "pmid": "27956043",
+            "xmlid": "B131"
+        },
+        {
+            "bibentry": "Zullig, LL, Ramos, K, Bosworth, HB. Improving medication adherence in coronary heart disease, Curr Cardiol Rep, 2017, 19, 113, PMID: 28940020",
+            "process_entry": "True",
+            "doi": "10.1007/s11886-017-0918-y",
+            "pmid": "28940020",
+            "xmlid": "B132"
+        },
+        {
+            "bibentry": "Barth, J, Jacob, T, Daha, I, Critchley, JA. Psychosocial interventions for smoking cessation in patients with coronary heart disease, Cochrane Database Syst Rev, 2015, CD006886, PMID: 26148115",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd006886.pub2",
+            "pmid": "26148115",
+            "xmlid": "B133"
+        },
+        {
+            "bibentry": "Kotb, A, Hsieh, S, Wells, GA. The effect of telephone support interventions on coronary artery disease (CAD) patient outcomes during cardiac rehabilitation: a systematic review and meta-analysis, PLoS One, 2014, 9, e96581, PMID: 24798429",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0096581",
+            "pmid": "24798429",
+            "pmcid": "PMC4010507",
+            "xmlid": "B134"
+        },
+        {
+            "bibentry": "Rigotti, NA, Clair, C, Munafò, MR, Stead, LF. Interventions for smoking cessation in hospitalised patients, Cochrane Database Syst Rev, 2012, CD001837, PMID: 22592676",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD001837.pub3",
+            "pmid": "22592676",
+            "pmcid": "PMC4498489",
+            "xmlid": "B135"
+        },
+        {
+            "bibentry": "Rice, VH, Hartmann-Boyce, J, Stead, LF. Nursing interventions for smoking cessation, Cochrane Database Syst Rev, 2013, CD001188, PMID: 23939719",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd001188.pub4",
+            "pmid": "23939719",
+            "xmlid": "B136"
+        },
+        {
+            "bibentry": "Stead, LF, Koilpillai, P, Lancaster, T. Additional behavioural support as an adjunct to pharmacotherapy for smoking cessation, Cochrane Database Syst Rev, 2015, CD009670, PMID: 26457723",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.cd009670.pub3",
+            "pmid": "26457723",
+            "xmlid": "B137"
+        },
+        {
+            "bibentry": "Franck, C, Filion, KB, Eisenberg, MJ. Smoking cessation in patients with acute coronary syndrome, Am J Cardiol, 2018, 121, 1105, 1111, PMID: 29526275",
+            "process_entry": "True",
+            "doi": "10.1016/j.amjcard.2018.01.017",
+            "pmid": "29526275",
+            "xmlid": "B138"
+        },
+        {
+            "bibentry": "Eckel, RH, Jakicic, JM, Ard, JD. 2013 AHA/ACC guideline on lifestyle management to reduce cardiovascular risk: a report of the American College of Cardiology/American Heart Association task force on practice guidelines, Circulation, 2014, 129, S76, 99, PMID: 24222015",
+            "process_entry": "True",
+            "doi": "10.1161/01.cir.0000437740.48606.d1",
+            "pmid": "24222015",
+            "xmlid": "B139"
+        },
+        {
+            "bibentry": "National Heart Foundation of Australia and the Cardiac Society of Australia and New Zealand, Reducing risk in heart disease: an expert guide to clinical practice for secondary prevention of coronary heart disease, Melbourne, National Heart Foundation of Australia, 2012",
+            "process_entry": "True",
+            "xmlid": "B140"
+        },
+        {
+            "bibentry": "Committee of Clinical Practice Guideline of the Korean Society of Lipid and Atherosclerosis, Korean guidelines for the management of dyslipidemia, Seoul, The Korean Society of Lipid and Atherosclerosis, 2018",
+            "process_entry": "True",
+            "xmlid": "B141"
+        },
+        {
+            "bibentry": "The Committee of Hypertension Clinical Guideline of Korean Academy of Medical Sciences, Evidence-based Recommendations for Hypertension in Primary Care, Seoul, Korean Academy of Medical Sciences, Korea Centers for Disease Control & Prevention, 2018",
+            "process_entry": "True",
+            "xmlid": "B142"
+        },
+        {
+            "bibentry": "Sofi, F, Abbate, R, Gensini, GF, Casini, A. Accruing evidence on benefits of adherence to the Mediterranean diet on health: an updated systematic review and meta-analysis, Am J Clin Nutr, 2010, 92, 1189, 1196, PMID: 20810976",
+            "process_entry": "True",
+            "doi": "10.3945/ajcn.2010.29673",
+            "pmid": "20810976",
+            "xmlid": "B143"
+        },
+        {
+            "bibentry": "Estruch, R, Ros, E, Salas-Salvadó, J. Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts, N Engl J Med, 2018, 378, e34, PMID: 29897866",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa1800389",
+            "pmid": "29897866",
+            "xmlid": "B144"
+        },
+        {
+            "bibentry": "Singh, RB, Dubnov, G, Niaz, MA. Effect of an Indo-Mediterranean diet on progression of coronary artery disease in high risk patients (Indo-Mediterranean diet heart study): a randomised single-blind trial, Lancet, 2002, 360, 1455, 1461, PMID: 12433513",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(02)11472-3",
+            "pmid": "12433513",
+            "xmlid": "B145"
+        },
+        {
+            "bibentry": "de Lorgeril, M, Salen, P, Martin, JL, Monjaud, I, Delaye, J, Mamelle, N. Mediterranean diet, traditional risk factors, and the rate of cardiovascular complications after myocardial infarction: final report of the Lyon diet heart study, Circulation, 1999, 99, 779, 785, PMID: 9989963",
+            "process_entry": "True",
+            "doi": "10.1161/01.cir.99.6.779",
+            "pmid": "9989963",
+            "xmlid": "B146"
+        },
+        {
+            "bibentry": "Singh, RB, Rastogi, SS, Verma, R. Randomised controlled trial of cardioprotective diet in patients with recent acute myocardial infarction: results of one year follow up, BMJ, 1992, 304, 1015, 1019, PMID: 1586782",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.304.6833.1015",
+            "pmid": "1586782",
+            "pmcid": "PMC1881705",
+            "xmlid": "B147"
+        },
+        {
+            "bibentry": "McGowan, MP, Proulx, S. Nutritional supplements and serum lipids: does anything work, Curr Atheroscler Rep, 2009, 11, 470, 476, PMID: 19852889",
+            "process_entry": "True",
+            "doi": "10.1007/s11883-009-0070-2",
+            "pmid": "19852889",
+            "xmlid": "B148"
+        },
+        {
+            "bibentry": "Abdelhamid, AS, Brown, TJ, Brainard, JS. Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease, Cochrane Database Syst Rev, 2018, 7, CD003177, PMID: 30019766",
+            "process_entry": "True",
+            "doi": "10.1002/14651858.CD003177.pub3",
+            "pmid": "30019766",
+            "pmcid": "PMC6513557",
+            "xmlid": "B149"
+        },
+        {
+            "bibentry": "Kotwal, S, Jun, M, Sullivan, D, Perkovic, V, Neal, B. Omega 3 Fatty acids and cardiovascular outcomes: systematic review and meta-analysis, Circ Cardiovasc Qual Outcomes, 2012, 5, 808, 818, PMID: 23110790",
+            "process_entry": "True",
+            "doi": "10.1161/circoutcomes.112.966168",
+            "pmid": "23110790",
+            "xmlid": "B150"
+        },
+        {
+            "bibentry": "Rizos, EC, Elisaf, MS. Does supplementation with omega-3 PUFAs add to the prevention of cardiovascular disease, Curr Cardiol Rep, 2017, 19, 47, PMID: 28432658",
+            "process_entry": "True",
+            "doi": "10.1007/s11886-017-0856-8",
+            "pmid": "28432658",
+            "xmlid": "B151"
+        },
+        {
+            "bibentry": "Enns, JE, Yeganeh, A, Zarychanski, R. The impact of omega-3 polyunsaturated fatty acid supplementation on the incidence of cardiovascular events and complications in peripheral arterial disease: a systematic review and meta-analysis, BMC Cardiovasc Disord, 2014, 14, 70, PMID: 24885361",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2261-14-70",
+            "pmid": "24885361",
+            "pmcid": "PMC4065588",
+            "xmlid": "B152"
+        },
+        {
+            "bibentry": "Gong, J, Qin, X, Yuan, F. Efficacy and safety of sugarcane policosanol on dyslipidemia: a meta-analysis of randomized controlled trials, Mol Nutr Food Res, 2018, 62, 1700280",
+            "process_entry": "True",
+            "xmlid": "B153"
+        },
+        {
+            "bibentry": "Marazzi, G, Campolongo, G, Pelliccia, F. Comparison of low-dose statin versus low-dose statin + armolipid plus in high-intensity statin-intolerant patients with a previous coronary event and percutaneous coronary intervention (ADHERENCE trial), Am J Cardiol, 2017, 120, 893, 897, PMID: 28781026",
+            "process_entry": "True",
+            "doi": "10.1016/j.amjcard.2017.06.015",
+            "pmid": "28781026",
+            "xmlid": "B154"
+        },
+        {
+            "bibentry": "Xu, K, Liu, X, Li, Y. Safety and efficacy of policosanol in patients with high on-treatment platelet reactivity after drug-eluting stent implantation: two-year follow-up results, Cardiovasc Ther, 2016, 34, 337, 342, PMID: 27328023",
+            "process_entry": "True",
+            "doi": "10.1111/1755-5922.12204",
+            "pmid": "27328023",
+            "xmlid": "B155"
+        },
+        {
+            "bibentry": "Berthold, HK, Unverdorben, S, Degenhardt, R, Bulitta, M, Gouni-Berthold, I. Effect of policosanol on lipid levels among patients with hypercholesterolemia or combined hyperlipidemia: a randomized controlled trial, JAMA, 2006, 295, 2262, 2269, PMID: 16705107",
+            "process_entry": "True",
+            "doi": "10.1001/jama.295.19.2262",
+            "pmid": "16705107",
+            "xmlid": "B156"
+        },
+        {
+            "bibentry": "Ye, Y, Li, J, Yuan, Z. Effect of antioxidant vitamin supplementation on cardiovascular outcomes: a meta-analysis of randomized controlled trials, PLoS One, 2013, 8, e56803, PMID: 23437244",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0056803",
+            "pmid": "23437244",
+            "pmcid": "PMC3577664",
+            "xmlid": "B157"
+        },
+        {
+            "bibentry": "Lee, IM, Cook, NR, Gaziano, JM. Vitamin E in the primary prevention of cardiovascular disease and cancer: the women's health study: a randomized controlled trial, JAMA, 2005, 294, 56, 65, PMID: 15998891",
+            "process_entry": "True",
+            "doi": "10.1001/jama.294.1.56",
+            "pmid": "15998891",
+            "xmlid": "B158"
+        },
+        {
+            "bibentry": "Lee, IM, Cook, NR, Manson, JE, Buring, JE, Hennekens, CH. Beta-carotene supplementation and incidence of cancer and cardiovascular disease: the women's health study, J Natl Cancer Inst, 1999, 91, 2102, 2106, PMID: 10601381",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/91.24.2102",
+            "pmid": "10601381",
+            "xmlid": "B159"
+        },
+        {
+            "bibentry": "Loffredo, L, Perri, L, Di Castelnuovo, A, Iacoviello, L, De Gaetano, G, Violi, F. Supplementation with vitamin E alone is associated with reduced myocardial infarction: a meta-analysis, Nutr Metab Cardiovasc Dis, 2015, 25, 354, 363, PMID: 25779938",
+            "process_entry": "True",
+            "doi": "10.1016/j.numecd.2015.01.008",
+            "pmid": "25779938",
+            "xmlid": "B160"
+        },
+        {
+            "bibentry": "Myung, SK, Ju, W, Cho, B. Efficacy of vitamin and antioxidant supplements in prevention of cardiovascular disease: systematic review and meta-analysis of randomised controlled trials, BMJ, 2013, 346, f10, PMID: 23335472",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.f10",
+            "pmid": "23335472",
+            "pmcid": "PMC3548618",
+            "xmlid": "B161"
+        },
+        {
+            "bibentry": "World Health Organization, mHealth: new horizons for health through mobile technologies: based on the findings of the second global survey on eHealth (global observatory for eHealth series, volume 3), Geneva, World Health Organization, 2011",
+            "process_entry": "True",
+            "xmlid": "B162"
+        },
+        {
+            "bibentry": "Poushter, J. Smartphone Ownership and Internet Usage Continues to Climb in Emerging Economies, Washington, D.C, Pew Research Center, 2016, 2",
+            "process_entry": "True",
+            "xmlid": "B163"
+        },
+        {
+            "bibentry": "Clement, J. Mobile internet -statistics & facts [Internet], Hamburg, Statista, 2018, cited 2019 Jun 1, Available from, https://www.statista.com/topics/779/mobile-internet/",
+            "process_entry": "True",
+            "url": "https://www.statista.com/topics/779/mobile-internet/",
+            "xmlid": "B164"
+        },
+        {
+            "bibentry": "Mikulic, M. Number of mHealth app downloads worldwide from 2013 to 2017 [Internet], Hamburg, Statista, 2017, cited 2019 Jun 1, Available from, https://www.statista.com/statistics/625034/mobile-health-app-downloads/",
+            "process_entry": "True",
+            "url": "https://www.statista.com/statistics/625034/mobile-health-app-downloads/",
+            "xmlid": "B165"
+        },
+        {
+            "bibentry": "Clark, RA, Conway, A, Poulsen, V, Keech, W, Tirimacco, R, Tideman, P. Alternative models of cardiac rehabilitation: a systematic review, Eur J Prev Cardiol, 2015, 22, 35, 74, PMID: 23943649",
+            "process_entry": "True",
+            "doi": "10.1177/2047487313501093",
+            "pmid": "23943649",
+            "xmlid": "B166"
+        },
+        {
+            "bibentry": "Maddison, R, Pfaeffli, L, Whittaker, R. A mobile phone intervention increases physical activity in people with cardiovascular disease: results from the HEART randomized controlled trial, Eur J Prev Cardiol, 2015, 22, 701, 709, PMID: 24817694",
+            "process_entry": "True",
+            "doi": "10.1177/2047487314535076",
+            "pmid": "24817694",
+            "xmlid": "B167"
+        },
+        {
+            "bibentry": "Butler, L, Furber, S, Phongsavan, P, Mark, A, Bauman, A. Effects of a pedometer-based intervention on physical activity levels after cardiac rehabilitation: a randomized controlled trial, J Cardiopulm Rehabil Prev, 2009, 29, 105, 114, PMID: 19305235",
+            "process_entry": "True",
+            "doi": "10.1097/hcr.0b013e31819a01ff",
+            "pmid": "19305235",
+            "xmlid": "B168"
+        },
+        {
+            "bibentry": "Verheijden Klompstra, L, Jaarsma, T, Stromberg, A. Exergaming in older adults: a scoping review and implementation potential for patients with heart failure, Eur J Cardiovasc Nurs, 2014, 13, 388, 398, PMID: 24198306",
+            "process_entry": "True",
+            "doi": "10.1177/1474515113512203",
+            "pmid": "24198306",
+            "pmcid": "PMC4361694",
+            "xmlid": "B169"
+        },
+        {
+            "bibentry": "Devi, R, Powell, J, Singh, S. A web-based program improves physical activity outcomes in a primary care angina population: randomized controlled trial, J Med Internet Res, 2014, 16, e186, PMID: 25217464",
+            "process_entry": "True",
+            "doi": "10.2196/jmir.3340",
+            "pmid": "25217464",
+            "pmcid": "PMC4180351",
+            "xmlid": "B170"
+        },
+        {
+            "bibentry": "Lear, SA, Singer, J, Banner-Lukaris, D. Randomized trial of a virtual cardiac rehabilitation program delivered at a distance via the Internet, Circ Cardiovasc Qual Outcomes, 2014, 7, 952, 959, PMID: 25271050",
+            "process_entry": "True",
+            "doi": "10.1161/circoutcomes.114.001230",
+            "pmid": "25271050",
+            "xmlid": "B171"
+        },
+        {
+            "bibentry": "Reid, RD, Morrin, LI, Beaton, LJ. Randomized trial of an internet-based computer-tailored expert system for physical activity in patients with heart disease, Eur J Prev Cardiol, 2012, 19, 1357, 1364, PMID: 21903744",
+            "process_entry": "True",
+            "doi": "10.1177/1741826711422988",
+            "pmid": "21903744",
+            "xmlid": "B172"
+        },
+        {
+            "bibentry": "Coorey, GM, Neubeck, L, Mulley, J, Redfern, J. Effectiveness, acceptability and usefulness of mobile applications for cardiovascular disease self-management: Systematic review with meta-synthesis of quantitative and qualitative data, Eur J Prev Cardiol, 2018, 25, 505, 521, PMID: 29313363",
+            "process_entry": "True",
+            "doi": "10.1177/2047487317750913",
+            "pmid": "29313363",
+            "xmlid": "B173"
+        },
+        {
+            "bibentry": "Ho, PM, Bryson, CL, Rumsfeld, JS. Medication adherence: its importance in cardiovascular outcomes, Circulation, 2009, 119, 3028, 3035, PMID: 19528344",
+            "process_entry": "True",
+            "doi": "10.1161/circulationaha.108.768986",
+            "pmid": "19528344",
+            "xmlid": "B174"
+        },
+        {
+            "bibentry": "The Korean Nutrition Society, Dietary reference intakes for Koreans 2015, Seoul, The Korean Nutrition Society, 2016",
+            "process_entry": "True",
+            "xmlid": "B175"
+        },
+        {
+            "bibentry": "He, FJ, MacGregor, GA. Effect of modest salt reduction on blood pressure: a meta-analysis of randomized trials. Implications for public health, J Hum Hypertens, 2002, 16, 761, 770, PMID: 12444537",
+            "process_entry": "True",
+            "doi": "10.1038/sj.jhh.1001459",
+            "pmid": "12444537",
+            "xmlid": "B176"
+        },
+        {
+            "bibentry": "Sacks, FM, Svetkey, LP, Vollmer, WM. Effects on blood pressure of reduced dietary sodium and the dietary approaches to stop hypertension (DASH) diet, N Engl J Med, 2001, 344, 3, 10, PMID: 11136953",
+            "process_entry": "True",
+            "doi": "10.1056/nejm200101043440101",
+            "pmid": "11136953",
+            "xmlid": "B177"
+        },
+        {
+            "bibentry": "Zhang, Z, Xu, G, Liu, D, Zhu, W, Fan, X, Liu, X. Dietary fiber consumption and risk of stroke, Eur J Epidemiol, 2013, 28, 119, 130, PMID: 23430035",
+            "process_entry": "True",
+            "doi": "10.1007/s10654-013-9783-1",
+            "pmid": "23430035",
+            "xmlid": "B178"
+        },
+        {
+            "bibentry": "Threapleton, DE, Greenwood, DC, Evans, CE. Dietary fibre intake and risk of cardiovascular disease: systematic review and meta-analysis, BMJ, 2013, 347, f6879, PMID: 24355537",
+            "process_entry": "True",
+            "doi": "10.1136/bmj.f6879",
+            "pmid": "24355537",
+            "pmcid": "PMC3898422",
+            "xmlid": "B179"
+        }
+    ],
+    "localid": "MED-31646772",
+    "doi": "10.4070/kcj.2019.0194",
+    "pmid": "10.4070/kcj.2019.0194",
+    "pmcid": "31646772",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31646772/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "B1",
+                "rp_string": "1)",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),136,364)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),214,552)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,381)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,381)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "B6",
+                "rp_string": "6)",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,381)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,381)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,381)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "B9",
+                "rp_string": "9)",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,381)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),59,213)",
+                "containers_title": [
+                    "INTRODUCTION"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),189,279)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[3]),1,547)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),1,315)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),317,102)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),317,102)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "B6",
+                "rp_string": "6)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),317,102)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),317,102)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),317,102)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "B9",
+                "rp_string": "9)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[4]),317,102)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[5]),165,454)",
+                "containers_title": [
+                    "METHODS",
+                    "Research framework"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1182,212)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1395,472)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1868,204)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/table-wrap[1]/caption/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/table-wrap[1]/caption/title),1,20)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources",
+                    "Levels of evidence5)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/table-wrap[2]/caption/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/table-wrap[2]/caption/title),1,17)",
+                "containers_title": [
+                    "METHODS",
+                    "Data sources",
+                    "Recommendations5)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,351)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),353,675)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),291,820)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "B16",
+                "rp_string": "16)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),1762,77)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "B17",
+                "rp_string": "17)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),1,314)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[5]),109,268)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "B18",
+                "rp_string": "18)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[5]),109,268)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "B19",
+                "rp_string": "19)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[5]),109,268)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[6]),1,382)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[7]),401,907)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[8]),144,308)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[9]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[9]),180,121)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[10]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[10]),440,275)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[1]/p[1]),1,371)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[1]/p[2]),265,360)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "B6",
+                "rp_string": "6)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[1]/p[2]),626,105)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "B24",
+                "rp_string": "24)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[1]/p[3]),1,198)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "B25",
+                "rp_string": "25)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[1]/p[3]),1335,374)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[2]/p[1]),283,367)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "The organization of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[2]/p[2]),1,520)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "The organization of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "B26",
+                "rp_string": "26)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[2]/p[3]),1,556)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "The organization of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "B15",
+                "rp_string": "15)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[2]/p[3]),558,744)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "The organization of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "B27",
+                "rp_string": "27)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[2]/p[4]),1,348)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "The organization of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[3]/p[1]),1,214)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Cost-effectiveness of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[3]/p[2]),159,199)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Cost-effectiveness of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "B14",
+                "rp_string": "14)",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/sec[3]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/sec[3]/p[3]),1,436)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Introduction of cardiac rehabilitation",
+                    "Cost-effectiveness of cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "B28",
+                "rp_string": "28)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),675,158)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Use individualized assessments to develop care plans and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[2]),196,236)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Use individualized assessments to develop care plans and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "B29",
+                "rp_string": "29)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[3]),1,1884)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Use individualized assessments to develop care plans and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "B34",
+                "rp_string": "34)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),180,459)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Psychological evaluations and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "B41",
+                "rp_string": "41)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),640,237)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Psychological evaluations and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),1,1085)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Psychological evaluations and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[2]),1087,333)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Psychological evaluations and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "B43",
+                "rp_string": "43)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[3]),1,1107)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Psychological evaluations and interventions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "B46",
+                "rp_string": "46)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[1]),1,714)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Symptom-limited cardiopulmonary exercise test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 59,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[1]),716,113)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Symptom-limited cardiopulmonary exercise test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[1]),716,113)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Symptom-limited cardiopulmonary exercise test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "B47",
+                "rp_string": "47)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[1]),716,113)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Symptom-limited cardiopulmonary exercise test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[2]),1,557)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Symptom-limited cardiopulmonary exercise test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "B44",
+                "rp_string": "44)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[3]),610,522)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Symptom-limited cardiopulmonary exercise test"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[4]/p[1]),1,855)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Submaximal exercise test (6-minute walk test)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 65,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[4]/p[2]),1,229)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Submaximal exercise test (6-minute walk test)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "B54",
+                "rp_string": "54)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[4]/p[3]),1,432)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Submaximal exercise test (6-minute walk test)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "B55",
+                "rp_string": "55)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[4]/p[3]),856,553)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Submaximal exercise test (6-minute walk test)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "B57",
+                "rp_string": "57)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[4]/p[3]),1410,156)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Submaximal exercise test (6-minute walk test)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 69,
+                "xref_id": "B58",
+                "rp_string": "58)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[1]),100,528)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "B60",
+                "rp_string": "60)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[1]),629,226)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 71,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[2]),123,729)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[2]),853,143)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "B61",
+                "rp_string": "61)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[3]),1,400)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "B62",
+                "rp_string": "62)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[3]),402,1008)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "B73",
+                "rp_string": "73)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[3]),1411,172)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "B74",
+                "rp_string": "74)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[4]),1,566)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to improve cardiac rehabilitation participation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 77,
+                "xref_id": "B75",
+                "rp_string": "75)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[6]/p[1]),161,593)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to maintain long-term physical activities"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[6]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[6]/p[2]),1,366)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to maintain long-term physical activities"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 79,
+                "xref_id": "B79",
+                "rp_string": "79)",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[6]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[6]/p[3]),1,1278)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Assessments of cardiac rehabilitation",
+                    "Strategies to maintain long-term physical activities"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "B85",
+                "rp_string": "85)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[2]),1,446)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation in the case of coronary artery bypass surgery"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "B86",
+                "rp_string": "86)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[3]),1,648)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation in the case of coronary artery bypass surgery"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "B88",
+                "rp_string": "88)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[4]),1,476)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation in the case of coronary artery bypass surgery"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "B89",
+                "rp_string": "89)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[1]/p[4]),478,199)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Timing of cardiac rehabilitation in the case of coronary artery bypass surgery"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "B90",
+                "rp_string": "90)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[1]),93,304)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),1,356)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[2]),646,141)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "B91",
+                "rp_string": "91)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[3]),1,496)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "B93",
+                "rp_string": "93)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[4]),1,360)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "B94",
+                "rp_string": "94)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[5]),1,353)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "B95",
+                "rp_string": "95)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[5]),491,304)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "B96",
+                "rp_string": "96)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[2]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[2]/p[5]),491,304)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Aerobic exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[2]),1,555)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "B91",
+                "rp_string": "91)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[3]),1,354)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "B18",
+                "rp_string": "18)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[3]),1,354)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 95,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[4]),1,490)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 96,
+                "xref_id": "B97",
+                "rp_string": "97)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[4]),492,110)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "B98",
+                "rp_string": "98)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[5]),1134,218)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "B99",
+                "rp_string": "99)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[6]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[6]),1,252)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 99,
+                "xref_id": "B100",
+                "rp_string": "100)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[3]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[3]/p[7]),735,176)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Resistance exercise program"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[4]/p[2]),1,615)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Safety issues of exercise training in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 101,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[4]/p[2]),841,150)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Safety issues of exercise training in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 102,
+                "xref_id": "B101",
+                "rp_string": "101)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[4]/p[3]),1,519)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Safety issues of exercise training in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 103,
+                "xref_id": "B7",
+                "rp_string": "7)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[4]/p[4]),1,995)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Safety issues of exercise training in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 104,
+                "xref_id": "B107",
+                "rp_string": "107)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[4]/p[4]),997,226)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Safety issues of exercise training in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 105,
+                "xref_id": "B108",
+                "rp_string": "108)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[4]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[4]/p[5]),1,399)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Safety issues of exercise training in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 106,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[5]/p[2]),570,511)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Home-based cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 107,
+                "xref_id": "B109",
+                "rp_string": "109)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[5]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[5]/p[3]),313,118)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Home-based cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 108,
+                "xref_id": "B110",
+                "rp_string": "110)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[5]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[5]/p[4]),1,1243)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Home-based cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 109,
+                "xref_id": "B113",
+                "rp_string": "113)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[5]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[5]/p[4]),1245,216)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Home-based cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 110,
+                "xref_id": "B114",
+                "rp_string": "114)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[5]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[5]/p[5]),1,443)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Home-based cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 111,
+                "xref_id": "B115",
+                "rp_string": "115)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[5]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[5]/p[5]),1,443)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Home-based cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 112,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[6]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[6]/p[2]),1,177)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Cardiac rehabilitation for elderly patients"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 113,
+                "xref_id": "B117",
+                "rp_string": "117)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[6]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[6]/p[3]),1,1339)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Cardiac rehabilitation for elderly patients"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 114,
+                "xref_id": "B122",
+                "rp_string": "122)",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/sec[6]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/sec[6]/p[4]),1,206)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Exercise therapy for cardiac rehabilitation",
+                    "Cardiac rehabilitation for elderly patients"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 115,
+                "xref_id": "B123",
+                "rp_string": "123)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[1]/p[1]),1,565)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Need for educational components in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 116,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[1]/p[4]),223,431)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Need for educational components in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 117,
+                "xref_id": "B79",
+                "rp_string": "79)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[1]/p[5]),1,596)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Need for educational components in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 118,
+                "xref_id": "B77",
+                "rp_string": "77)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[1]/p[6]),132,958)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Need for educational components in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 119,
+                "xref_id": "B126",
+                "rp_string": "126)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[1]/p[7]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[1]/p[7]),1,444)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Need for educational components in cardiac rehabilitation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 120,
+                "xref_id": "B127",
+                "rp_string": "127)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/p[2]),1,394)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 121,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/p[3]),1325,101)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 122,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/p[3]),1325,101)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 123,
+                "xref_id": "B8",
+                "rp_string": "8)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/p[4]),1,567)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 124,
+                "xref_id": "B127",
+                "rp_string": "127)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/p[5]),186,412)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 125,
+                "xref_id": "B128",
+                "rp_string": "128)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/p[6]),1,722)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[2]/table-wrap/caption/title/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[2]/table-wrap/caption/title),1,40)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Contents of patient educational programs",
+                    "Education contents for CR in SIGN 20175)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 127,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[2]),146,567)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 128,
+                "xref_id": "B133",
+                "rp_string": "133)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[3]),1,268)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 129,
+                "xref_id": "B134",
+                "rp_string": "134)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[3]),680,126)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 130,
+                "xref_id": "B135",
+                "rp_string": "135)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[4]),207,196)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 131,
+                "xref_id": "B136",
+                "rp_string": "136)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[4]),792,397)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 132,
+                "xref_id": "B138",
+                "rp_string": "138)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[5]),1,179)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 133,
+                "xref_id": "B138",
+                "rp_string": "138)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[3]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[3]/p[5]),181,433)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Education for smoking cessation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 134,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/p[2]),1,750)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 135,
+                "xref_id": "B141",
+                "rp_string": "141)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[2]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[2]/td[1]),1,7)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 136,
+                "xref_id": "B141",
+                "rp_string": "141)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[3]/td[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[3]/td[1]),1,19)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 137,
+                "xref_id": "B175",
+                "rp_string": "175)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[3]/td[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[3]/td[1]),1,19)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 138,
+                "xref_id": "B176",
+                "rp_string": "176)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[4]/td[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[4]/td[1]),1,12)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 139,
+                "xref_id": "B177",
+                "rp_string": "177)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[4]/td[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[4]/td[1]),1,12)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 140,
+                "xref_id": "B178",
+                "rp_string": "178)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[5]/td[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[5]/td[1]),1,14)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 141,
+                "xref_id": "B179",
+                "rp_string": "179)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[5]/td[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[5]/td[1]),1,14)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 142,
+                "xref_id": "B142",
+                "rp_string": "142)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[7]/td[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[4]/table-wrap/alternatives/table/tbody/tr[7]/td[1]),1,11)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Diet program for patients with cardiovascular disease (proposal by the Korean Society of Clinical Nutrition)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 143,
+                "xref_id": "B6",
+                "rp_string": "6)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[2]),291,191)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 144,
+                "xref_id": "B148",
+                "rp_string": "148)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[3]),179,232)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 145,
+                "xref_id": "B149",
+                "rp_string": "149)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[4]),226,365)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 146,
+                "xref_id": "B149",
+                "rp_string": "149)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[4]),592,85)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 147,
+                "xref_id": "B153",
+                "rp_string": "153)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[5]),1,753)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 148,
+                "xref_id": "B155",
+                "rp_string": "155)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[6]),1,530)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 149,
+                "xref_id": "B157",
+                "rp_string": "157)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[7]),244,387)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 150,
+                "xref_id": "B158",
+                "rp_string": "158)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[7]),244,387)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 151,
+                "xref_id": "B160",
+                "rp_string": "160)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[5]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[5]/p[8]),1,571)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Recommendations for food supplements"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 152,
+                "xref_id": "B162",
+                "rp_string": "162)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[1]),142,313)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 153,
+                "xref_id": "B163",
+                "rp_string": "163)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[2]),214,504)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 154,
+                "xref_id": "B5",
+                "rp_string": "5)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[3]),1,310)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 155,
+                "xref_id": "B166",
+                "rp_string": "166)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[4]),1,1360)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 156,
+                "xref_id": "B167",
+                "rp_string": "167)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[4]),1362,285)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 157,
+                "xref_id": "B169",
+                "rp_string": "169)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[5]),215,1151)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 158,
+                "xref_id": "B171",
+                "rp_string": "171)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[5]),1367,438)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 159,
+                "xref_id": "B173",
+                "rp_string": "173)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[6]),1,661)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 160,
+                "xref_id": "B174",
+                "rp_string": "174)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[7]),1,314)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 161,
+                "xref_id": "B130",
+                "rp_string": "130)",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/sec[6]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/sec[6]/p[7]),608,539)",
+                "containers_title": [
+                    "LITERATURE REVIEW AND RESULTS",
+                    "Education for secondary prevention",
+                    "Information and communication technology-based modality for patient education"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 162,
+                "xref_id": "B3",
+                "rp_string": "3)",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,377)",
+                "containers_title": [
+                    "DISCUSSION AND CONCLUSIONS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 163,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),568,444)",
+                "containers_title": [
+                    "DISCUSSION AND CONCLUSIONS"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 164,
+                "xref_id": "B4",
+                "rp_string": "4)",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),125,268)",
+                "containers_title": [
+                    "DISCUSSION AND CONCLUSIONS"
+                ]
+            }
+        ]
+    ]
+}

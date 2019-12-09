@@ -1,0 +1,668 @@
+{
+    "references": [
+        {
+            "bibentry": "Bautista, AM, Tan, MA, Apostol, JM. 2017 Lipid-lowering property of Clausena anisum-olens in hypercholesterolemic rats. Pharm Biol. 55: 833–836. PMID: 28140741",
+            "process_entry": "True",
+            "doi": "10.1080/13880209.2016.1260596",
+            "pmid": "28140741",
+            "pmcid": "PMC6130512",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Chung, SY, Cheng, FC, Lee, MS, Lin, JY, Lin, MC, Wang, MF. 2006 Ginkgo biloba leaf extract (EGb761) combined with neuroprotective agents reduces the infarct volumes of gerbil ischemic brain. Am J Chin Med. 34: 803–817. PMID: 17080546",
+            "process_entry": "True",
+            "doi": "10.1142/s0192415x06004302",
+            "pmid": "17080546",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cruz-Correa, OF, Leon-Cachon, RB, Barrera-Saldana, HA, Soberon, X. 2017 Prediction of atorvastatin plasmatic concentrations in healthy volunteers using integrated pharmacogenetics sequencing. Pharmacogenomics. 18: 121–131. PMID: 27976987",
+            "process_entry": "True",
+            "doi": "10.2217/pgs-2016-0072",
+            "pmid": "27976987",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Deng, Y, Mo, YF, Chen, XM, Zhang, LZ, Liao, CF, Song, Y, Xu, C. 2016 Effect of Ginkgo biloba extract on the pharmacokinetics and metabolism of clopidogrel in rats. Phytother Res. 30: 1886–1892. PMID: 27487816",
+            "process_entry": "True",
+            "doi": "10.1002/ptr.5691",
+            "pmid": "27487816",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Dennison, TJ, Smith, JC, Badhan, RK, Mohammed, AR. 2017 Fixed-dose combination orally disintegrating tablets to treat cardiovascular disease: formulation, in vitro characterization and physiologically based pharmacokinetic modeling to assess bioavailability. Drug Des Devel Ther. 11: 811–826.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Dybro, AM, Damkier, P, Rasmussen, TB, Hellfritzsch, M. 2016 Statin-associated rhabdomyolysis triggered by drug-drug interaction with itraconazole. BMJ Case Rep. 2016: pii: bcr2016216457.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Eng, H, Scialis, RJ, Rotter, CJ, Lin, J, Lazzaro, S, Varma, MV, Di, L, Feng, B, West, M, Kalgutkar, AS. 2016 The antimicrobial agent fusidic acid inhibits organic anion transporting polypeptide-mediated hepatic clearance and may potentiate statin-induced myopathy. Drug Metab Dispos. 44: 692–699. PMID: 26888941",
+            "process_entry": "True",
+            "doi": "10.1124/dmd.115.067447",
+            "pmid": "26888941",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Etheridge, AS, Black, SR, Patel, PR, So, J, Mathews, JM. 2007 An in vitro evaluation of cytochrome P450 inhibition and P-glycoprotein interaction with goldenseal, Ginkgo biloba, grape seed, milk thistle, and ginseng extracts and their constituents. Planta Med. 73: 731–741. PMID: 17611934",
+            "process_entry": "True",
+            "doi": "10.1055/s-2007-981550",
+            "pmid": "17611934",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Guan, H, Qian, D, Ren, H, Zhang, W, Nie, H, Shang, E, Duan, J. 2014 Interactions of pharmacokinetic profile of different parts from Ginkgo biloba extract in rats. J Ethnopharmacol. 155: 758–768. PMID: 24953034",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2014.06.022",
+            "pmid": "24953034",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Higgins, JW, Ke, AB, Zamek-Gliszczynski, MJ. 2014 Clinical CYP3A inhibitor alternatives to ketoconazole, clarithromycin and itraconazole, are not transported into the liver by hepatic organic anion transporting polypeptides and organic cation transporter 1. Drug Metab Dispos. 42: 1780–1784. PMID: 25106415",
+            "process_entry": "True",
+            "doi": "10.1124/dmd.114.058784",
+            "pmid": "25106415",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Hsiao, SH, Chang, HJ, Hsieh, TH, Kao, SM, Yeh, PY, Wu, TJ. 2016 Rhabdomyolysis caused by the moderate CYP3A4 inhibitor fluconazole in a patient on stable atorvastatin therapy: a case report and literature review. J Clin Pharm Ther. 41: 575–578. PMID: 27430348",
+            "process_entry": "True",
+            "doi": "10.1111/jcpt.12425",
+            "pmid": "27430348",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Kadam, P, Ashavaid, TF, Ponde, CK, Rajani, RM. 2016 Genetic determinants of lipid-lowering response to atorvastatin therapy in an Indian population. J Clin Pharm Ther. 41: 329–333. PMID: 26932749",
+            "process_entry": "True",
+            "doi": "10.1111/jcpt.12369",
+            "pmid": "26932749",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Kasabri, V, Al-Hallaq, EK, Bustanji, YK, Abdul-Razzak, KK, Abaza, IF, Afifi, FU. 2017 Antiobesity and antihyperglycaemic effects of Adiantum capillus-veneris extracts: in vitro and in vivo evaluations. Pharm Biol. 55: 164–172. PMID: 27663206",
+            "process_entry": "True",
+            "doi": "10.1080/13880209.2016.1233567",
+            "pmid": "27663206",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Kashihara, Y, Ieiri, I, Yoshikado, T, Kazuya, M, Fukae, M, Kimura, M, Hirota, T, Matsuki, S, Irie, S, Izumi, N, et al. 2017 Small-dosing clinical study: pharmacokinetic, pharmacogenomic (SLCO2B1 and ABCG2), and interaction (atorvastatin and grapefruit juice) profiles of five probes for OATP2B1 and BCRP. J Pharm Sci. 106: 2688–2694. PMID: 28322941",
+            "process_entry": "True",
+            "doi": "10.1016/j.xphs.2017.03.010",
+            "pmid": "28322941",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Lin, CC, Cheng, WL, Hsu, SH, Chang, CM. 2003 The effects of Ginkgo biloba extracts on the memory and motor functions of rats with chronic cerebral insufficiency. Neuropsychobiology. 47: 47–51. PMID: 12606845",
+            "process_entry": "True",
+            "doi": "10.1159/000068875",
+            "pmid": "12606845",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Liu, JE, Ren, B, Tang, L, Tang, QJ, Liu, XY, Li, X, Bai, X, Zhong, WP, Meng, JX, Lin, HM, et al. 2016 The independent contribution of miRNAs to the missing heritability in CYP3A4/5 functionality and the metabolism of atorvastatin. Sci Rep. 6: 26544. PMID: 27211076",
+            "process_entry": "True",
+            "doi": "10.1038/srep26544",
+            "pmid": "27211076",
+            "pmcid": "PMC4876377",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Liu, XP, Luan, JJ, Goldring, CE. 2009 Comparison of the antioxidant activity amongst Gingko biloba extract and its main components. Zhong Yao Cai. 32: 736–740. PMID: 19771849",
+            "process_entry": "True",
+            "pmid": "19771849",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Palle, S, Neerati, P. 2017 Enhancement of oral bioavailability of rivastigmine with quercetin nanoparticles by inhibiting CYP3A4 and esterases. Pharmacol Rep. 69: 365–370. PMID: 28189992",
+            "process_entry": "True",
+            "doi": "10.1016/j.pharep.2016.12.002",
+            "pmid": "28189992",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Qi, XY, Liang, SC, Ge, GB, Liu, Y, Dong, PP, Zhang, JW, Wang, AX, Hou, J, Zhu, LL, Yang, L, et al. 2013 Inhibitory effects of sanguinarine on human liver cytochrome P450 enzymes. Food Chem Toxicol. 56: 392–397. PMID: 23500771",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2013.02.054",
+            "pmid": "23500771",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Qin, CZ, Ren, X, Tan, ZR, Chen, Y, Yin, JY, Yu, J, Qu, J, Zhou, HH, Liu, ZQ. 2014 A high-throughput inhibition screening of major human cytochrome P450 enzymes using an in vitro cocktail and liquid chromatography-tandem mass spectrometry. Biomed Chromatogr. 28: 197–203. PMID: 23946123",
+            "process_entry": "True",
+            "doi": "10.1002/bmc.3003",
+            "pmid": "23946123",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Rao, Z, Qin, H, Wei, Y, Zhou, Y, Zhang, G, Zhang, F, Shao, Y, Huang, J, Wu, X. 2014 Development of a dynamic multiple reaction monitoring method for determination of digoxin and six active components of Ginkgo biloba leaf extract in rat plasma. J Chromatogr B Analyt Technol Biomed Life Sci. 959: 27–35.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Roth, L, Rombouts, M, Schrijvers, DM, Martinet, W, De Meyer, GR. 2016 Cholesterol-independent effects of atorvastatin prevent cardiovascular morbidity and mortality in a mouse model of atherosclerotic plaque rupture. Vascul Pharmacol. 80: 50–58. PMID: 26826559",
+            "process_entry": "True",
+            "doi": "10.1016/j.vph.2016.01.007",
+            "pmid": "26826559",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Shu, N, Hu, M, Ling, Z, Liu, P, Wang, F, Xu, P, Zhong, Z, Sun, B, Zhang, M, Li, F, et al. 2016 The enhanced atorvastatin hepatotoxicity in diabetic rats was partly attributed to the upregulated hepatic Cyp3a and SLCO1B1. Sci Rep. 6: 33072. PMID: 27624558",
+            "process_entry": "True",
+            "doi": "10.1038/srep33072",
+            "pmid": "27624558",
+            "pmcid": "PMC5021965",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Sun, S, Wang, R, Fan, J, Zhang, G, Zhang, H. 2018 Effects of Danshen tablets on pharmacokinetics of atorvastatin calcium in rats and its potential mechanism. Pharm Biol. 56: 104–108. PMID: 29322864",
+            "process_entry": "True",
+            "doi": "10.1080/13880209.2018.1424209",
+            "pmid": "29322864",
+            "pmcid": "PMC6130457",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Turkanovic, J, Ward, MB, Gerber, JP, Milne, RW. 2017 Effect of garlic, Gingko, and St. John’s Wort extracts on the pharmacokinetics of fexofenadine: a mechanistic study. Drug Metab Dispos. 45: 569–575. PMID: 28188296",
+            "process_entry": "True",
+            "doi": "10.1124/dmd.116.073528",
+            "pmid": "28188296",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Wang, R, Zhang, H, Sun, S, Wang, Y, Chai, Y, Yuan, Y. 2016 Effect of Ginkgo leaf tablets on the pharmacokinetics of amlodipine in rats. Eur J Drug Metab Pharmacokinet. 41: 825–833. PMID: 26650374",
+            "process_entry": "True",
+            "doi": "10.1007/s13318-015-0312-3",
+            "pmid": "26650374",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Wang, YC, Hsieh, TC, Chou, CL, Wu, JL, Fang, TC. 2016 Risks of adverse events following coprescription of statins and calcium channel blockers: a nationwide population-based study. Medicine (Baltimore). 95: e2487. PMID: 26765458",
+            "process_entry": "True",
+            "doi": "10.1097/MD.0000000000002487",
+            "pmid": "26765458",
+            "pmcid": "PMC4718284",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Wei, KK, Zhang, LR. 2015 Interactions between CYP3A5*3 and POR*28 polymorphisms and lipid lowering response with atorvastatin. Clin Drug Investig. 35: 583–591.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Yang, Y, Li, Y, Wang, J, Sun, K, Tao, W, Wang, Z, Xiao, W, Pan, Y, Zhang, S, Wang, Y. 2017 Systematic investigation of Ginkgo biloba leaves for treating cardio-cerebrovascular diseases in an animal model. ACS Chem Biol. 12: 1363–1372. PMID: 28333443",
+            "process_entry": "True",
+            "doi": "10.1021/acschembio.6b00762",
+            "pmid": "28333443",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Zadoyan, G, Rokitta, D, Klement, S, Dienel, A, Hoerr, R, Gramatte, T, Fuhr, U. 2012 Effect of Ginkgo biloba special extract EGb 761® on human cytochrome P450 activity: a cocktail interaction study in healthy volunteers. Eur J Clin Pharmacol. 68: 553–560. PMID: 22189672",
+            "process_entry": "True",
+            "doi": "10.1007/s00228-011-1174-5",
+            "pmid": "22189672",
+            "pmcid": "PMC3332346",
+            "xmlid": "CIT0030"
+        }
+    ],
+    "localid": "MED-31188698",
+    "doi": "10.1080/13880209.2019.1622569",
+    "pmid": "10.1080/13880209.2019.1622569",
+    "pmcid": "31188698",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31188698/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0006",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,254)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Dybro et al.2016; Eng et al. 2016; Cruz-Correa et al. 2017; Dennison et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),171,82)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0007",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,254)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Dybro et al. 2016; Eng et al.2016; Cruz-Correa et al. 2017; Dennison et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),171,82)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,254)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Dybro et al. 2016; Eng et al. 2016; Cruz-Correa et al.2017; Dennison et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),171,82)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0005",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,254)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Dybro et al. 2016; Eng et al. 2016; Cruz-Correa et al. 2017; Dennison et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),171,82)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0012",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),256,231)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kadam et al.2016; Liu et al. 2016; Bautista et al. 2017; Kasabri et al. 2017; Kashihara et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),384,101)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0016",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),256,231)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kadam et al. 2016; Liu et al.2016; Bautista et al. 2017; Kasabri et al. 2017; Kashihara et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),384,101)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0001",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),256,231)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kadam et al. 2016; Liu et al. 2016; Bautista et al.2017; Kasabri et al. 2017; Kashihara et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),384,101)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0013",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),256,231)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kadam et al. 2016; Liu et al. 2016; Bautista et al. 2017; Kasabri et al.2017; Kashihara et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),384,101)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0014",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),256,231)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kadam et al. 2016; Liu et al. 2016; Bautista et al. 2017; Kasabri et al. 2017; Kashihara et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),384,101)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0022",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),488,320)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Roth et al.2016; Shu et al. 2016; Wang et al. 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),754,52)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0023",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),488,320)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Roth et al. 2016; Shu et al.2016; Wang et al. 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),754,52)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0026",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),488,320)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Roth et al. 2016; Shu et al. 2016; Wang et al.2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),754,52)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0028",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),809,130)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wei & Zhang2015; Hsiao et al. 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),901,36)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0011",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),809,130)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wei & Zhang 2015; Hsiao et al.2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),901,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0010",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),993,215)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Higgins et al.2014; Dybro et al. 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1167,39)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0006",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),993,215)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Higgins et al. 2014; Dybro et al.2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1167,39)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,219)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lin et al.2003; Chung et al. 2006; Yang et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),165,53)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0002",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,219)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lin et al. 2003; Chung et al.2006; Yang et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),165,53)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0029",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,219)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Lin et al. 2003; Chung et al. 2006; Yang et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),165,53)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),221,140)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Liu et al.2009; Guan et al. 2014; Rao et al. 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),308,51)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0009",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),221,140)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Liu et al. 2009; Guan et al.2014; Rao et al. 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),308,51)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),221,140)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Liu et al. 2009; Guan et al. 2014; Rao et al.2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),308,51)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0027",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),150,98)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Materials and reagents"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0024",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1,82)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Instrumentation and conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0026",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,240)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Pharmacokinetic study"
+                ],
+                "pl_string": "(Wang et al.2016; Sun et al. 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),205,34)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,240)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Pharmacokinetic study"
+                ],
+                "pl_string": "(Wang et al. 2016; Sun et al.2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),205,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),71,113)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Inhibitory effects of GLT on the metabolic stability of AC in rat liver microsomes"
+                ],
+                "pl_string": "(Qi et al.2013; Qin et al. 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),150,32)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),71,113)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Inhibitory effects of GLT on the metabolic stability of AC in rat liver microsomes"
+                ],
+                "pl_string": "(Qi et al. 2013; Qin et al.2014)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),150,32)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0004",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),276,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Deng et al.2016; Wang et al. 2016; Turkanovic et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),463,59)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0026",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),276,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Deng et al. 2016; Wang et al.2016; Turkanovic et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),463,59)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0025",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),276,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Deng et al. 2016; Wang et al. 2016; Turkanovic et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),463,59)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0008",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),525,279)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Etheridge et al.2007; Zadoyan et al. 2012; Palle & Neerati 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),737,65)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0030",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),525,279)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Etheridge et al. 2007; Zadoyan et al.2012; Palle & Neerati 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),737,65)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0018",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),525,279)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Etheridge et al. 2007; Zadoyan et al. 2012; Palle & Neerati2017)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),737,65)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),407,162)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

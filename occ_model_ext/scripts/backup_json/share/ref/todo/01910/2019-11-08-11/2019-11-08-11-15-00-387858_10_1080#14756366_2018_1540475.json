@@ -1,0 +1,758 @@
+{
+    "references": [
+        {
+            "bibentry": "Matsuzaki, T, Suzuki, T, Koyama, H, et al. Aquaporin-5 (aqp5), a water channel protein, in the rat salivary and lacrimal glands: Immunolocalization and effect of secretory stimulation. Cell Tissue Res 1999; 295: 513–21. PMID: 10022971",
+            "process_entry": "True",
+            "doi": "10.1007/s004410051257",
+            "pmid": "10022971",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Hoffert, JD, Leitch, V, Agre, P, King, LS. Hypertonic induction of aquaporin-5 expression through an erk-dependent pathway. J Biol Chem 2000; 275: 9070–7. PMID: 10722758",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.275.12.9070",
+            "pmid": "10722758",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Ma, T, Song, Y, Gillespie, A, et al. Defective secretion of saliva in transgenic mice lacking aquaporin-5 water channels. J Biol Chem 1999; 274: 20071–4. PMID: 10400615",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.274.29.20071",
+            "pmid": "10400615",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Delporte, C, Bryla, A, Perret, J. Aquaporins in salivary glands: from basic research to clinical applications. Int J Mol Sci 2016; 17: 166.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Jensen, HH, Login, FH, Park, JY, et al. Immunohistochemical evalulation of activated ras and rac1 as potential downstream effectors of aquaporin-5 in breast cancer in vivo. Biochem Biophys Res Commun 2017; 493: 1210–6. PMID: 28958942",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2017.09.125",
+            "pmid": "28958942",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "He, Z, Dong, W, Hu, J, Ren, X. Aqp5 promotes hepatocellular carcinoma metastasis via nf-kappab-regulated epithelial-mesenchymal transition. Biochem Biophys Res Commun 2017; 490: 343–8. PMID: 28619511",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2017.06.046",
+            "pmid": "28619511",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Ren, Y, Lu, H, Reinach, PS, et al. Hyperosmolarity-induced aqp5 upregulation promotes inflammation and cell death via jnk1/2 activation in human corneal epithelial cells. Sci Rep 2017; 7: 4727. PMID: 28680052",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-05145-y",
+            "pmid": "28680052",
+            "pmcid": "PMC5498491",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Hong, JH, Muhammad, E, Zheng, C, et al. Essential role of carbonic anhydrase xii in secretory gland fluid and HCO 3 (-) secretion revealed by disease causing human mutation. J Physiol 2015; 593: 5299–312. PMID: 26486891",
+            "process_entry": "True",
+            "doi": "10.1113/jp271378",
+            "pmid": "26486891",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "McKenna, R, Frost, SC. Overview of the carbonic anhydrase family. Sub-Cell Biochem 2014; 75: 3–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Gresz, V, Kwon, TH, Hurley, PT, et al. Identification and localization of aquaporin water channels in human salivary glands. Am J Physiol Gastrointest Liver Physiol 2001; 281: G247–54. PMID: 11408278",
+            "process_entry": "True",
+            "doi": "10.1152/ajpgi.2001.281.1.g247",
+            "pmid": "11408278",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Gresz, V, Kwon, TH, Gong, H, et al. Immunolocalization of aqp-5 in rat parotid and submandibular salivary glands after stimulation or inhibition of secretion in vivo. Am J Physiol Gastrointest Liver Physiol 2004; 287: G151–61. PMID: 14988067",
+            "process_entry": "True",
+            "doi": "10.1152/ajpgi.00480.2003",
+            "pmid": "14988067",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Verkman, AS, Matthay, MA, Song, Y. Aquaporin water channels and lung physiology. Am J Physiol Lung Cell Mol Physiol 2000; 278: L867–79. PMID: 10781416",
+            "process_entry": "True",
+            "doi": "10.1152/ajplung.2000.278.5.l867",
+            "pmid": "10781416",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Kreda, SM, Gynn, MC, Fenstermacher, DA, et al. Expression and localization of epithelial aquaporins in the adult human lung. Am J Respir Cell Mol Biol 2001; 24: 224–34. PMID: 11245621",
+            "process_entry": "True",
+            "doi": "10.1165/ajrcmb.24.3.4367",
+            "pmid": "11245621",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Li, J, Koo, NY, Cho, IH, et al. Expression of the Na+-HCO 3 − cotransporter and its role in phi regulation in guinea pig salivary glands. Am J Physiol Gastrointest Liver Physiol 2006; 291: G1031–40. PMID: 16782694",
+            "process_entry": "True",
+            "doi": "10.1152/ajpgi.00483.2005",
+            "pmid": "16782694",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Teos, LY, Zhang, Y, Cotrim, AP, et al. IP3R deficit underlies loss of salivary fluid secretion in Sjogren's syndrome. Sci Rep 2015; 5: 13953. PMID: 26365984",
+            "process_entry": "True",
+            "doi": "10.1038/srep13953",
+            "pmid": "26365984",
+            "pmcid": "PMC4568516",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Procino, G, Milano, S, Tamma, G, et al. Co-regulated pendrin and aquaporin 5 expression and trafficking in type-b intercalated cells under potassium depletion. Cell Physiol Biochem 2013; 32: 184–99. PMID: 24429825",
+            "process_entry": "True",
+            "doi": "10.1159/000356638",
+            "pmid": "24429825",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Weidenfeld, S, Kuebler, WM. Cytokine-regulation of Na(+)-K(+)-Cl(-) cotransporter 1 and cystic fibrosis transmembrane conductance regulator-potential role in pulmonary inflammation and edema formation. Front Immunol 2017; 8: 393. PMID: 28439270",
+            "process_entry": "True",
+            "doi": "10.3389/fimmu.2017.00393",
+            "pmid": "28439270",
+            "pmcid": "PMC5383711",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Hosoi, K. Physiological role of aquaporin 5 in salivary glands. Pflugers Arch 2016; 468: 519–39. PMID: 26537593",
+            "process_entry": "True",
+            "doi": "10.1007/s00424-015-1749-6",
+            "pmid": "26537593",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Nguyen, HV, Stuart-Tilley, A, Alper, SL, Melvin, JE. Cl(−)/HCO (3) (−) exchange is acetazolamide sensitive and activated by a muscarinic receptor-induced [Ca(2+)](i) increase in salivary acinar cells. Am J Physiol. Gastrointestinal Liver Physiol 2004; 286: G312–20.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Imiela, T, Budaj, A. Acetazolamide as add-on diuretic therapy in exacerbations of chronic heart failure: A pilot study. Clin Drug Investig 2017; 37: 1175–81.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Zhang, J, Yan, M, Gu, W, et al. Downregulation of aquaporins (aqp1 and aqp5) and Na,K-ATPase in porcine reproductive and respiratory syndrome virus-infected pig lungs. Inflammation 2018; 41: 1104–14. PMID: 29532265",
+            "process_entry": "True",
+            "doi": "10.1007/s10753-018-0762-2",
+            "pmid": "29532265",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Boron, WF, Chen, L, Parker, MD. Modular structure of sodium-coupled bicarbonate transporters. J Exp Biol 2009; 212: 1697–706. PMID: 19448079",
+            "process_entry": "True",
+            "doi": "10.1242/jeb.028563",
+            "pmid": "19448079",
+            "pmcid": "PMC2683013",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Bouchareb, R, Cote, N, Marie Chloe, B, et al. Carbonic anhydrase xii in valve interstitial cells promotes the regression of calcific aortic valve stenosis. J Mol Cell Cardiol 2015; 82: 104–15. PMID: 25771146",
+            "process_entry": "True",
+            "doi": "10.1016/j.yjmcc.2015.03.002",
+            "pmid": "25771146",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Feldshtein, M, Elkrinawi, S, Yerushalmi, B, et al. Hyperchlorhidrosis caused by homozygous mutation in CA12, encoding carbonic anhydrase XII. Am J Hum Genet 2010; 87: 713–20. PMID: 21035102",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajhg.2010.10.008",
+            "pmid": "21035102",
+            "pmcid": "PMC2978943",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Becker, HM, Klier, M, Deitmer, JW. Carbonic anhydrases and their interplay with acid/base-coupled membrane transporters. Sub-Cell Biochem 2014; 75: 105–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Orlowski, A, De Giusti, VC, Morgan, PE, et al. Binding of carbonic anhydrase IX to extracellular loop 4 of the NBCe1 Na+/HCO 3 − cotransporter enhances NBCe1-mediated HCO 3 − influx in the rat heart. Am J Physiol Cell Physiol 2012; 303: C69–80. PMID: 22538240",
+            "process_entry": "True",
+            "doi": "10.1152/ajpcell.00431.2011",
+            "pmid": "22538240",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Guler, O, Simone, G, Supuran, C. Drug design studies of the novel antitumor targets carbonic anhydrase ix and xii. Curr Med Chem 2010; 17: 1516–26. PMID: 20166929",
+            "process_entry": "True",
+            "doi": "10.2174/092986710790979999",
+            "pmid": "20166929",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Singh, S, Lomelino, CL, Mboge, MY, et al. Cancer drug development of carbonic anhydrase inhibitors beyond the active site. Molecules 2018; 23: 1045 (22 pages).",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Waheed, A, Sly, WS. Carbonic anhydrase xii functions in health and disease. Gene 2017; 623: 33–40. PMID: 28433659",
+            "process_entry": "True",
+            "doi": "10.1016/j.gene.2017.04.027",
+            "pmid": "28433659",
+            "pmcid": "PMC5851007",
+            "xmlid": "CIT0029"
+        }
+    ],
+    "localid": "MED-30451023",
+    "doi": "10.1080/14756366.2018.1540475",
+    "pmid": "10.1080/14756366.2018.1540475",
+    "pmcid": "30451023",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30451023/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,220)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,220)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),222,94)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),317,100)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),508,188)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),697,168)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,167)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),240,118)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),359,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),795,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),897,161)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1168,77)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1338,111)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1450,76)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),925,326)",
+                "containers_title": [
+                    "Material and methods",
+                    "Reagents and plasmids"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,107)",
+                "containers_title": [
+                    "Material and methods",
+                    "Adenovirus-transduced mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,98)",
+                "containers_title": [
+                    "Results",
+                    "Basolateral CA12 mutation disrupts the localisation of AQP5 in salivary glands"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),100,118)",
+                "containers_title": [
+                    "Results",
+                    "Basolateral CA12 mutation disrupts the localisation of AQP5 in salivary glands"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0011",
+                "rp_string": "11–13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),315,216)",
+                "containers_title": [
+                    "Results",
+                    "Basolateral CA12 mutation disrupts the localisation of AQP5 in salivary glands"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,119)",
+                "containers_title": [
+                    "Results",
+                    "Intracellular pH modulates AQP5 expression in SMG"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),121,110)",
+                "containers_title": [
+                    "Results",
+                    "Intracellular pH modulates AQP5 expression in SMG"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),872,262)",
+                "containers_title": [
+                    "Results",
+                    "Intracellular pH modulates AQP5 expression in SMG"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1762,156)",
+                "containers_title": [
+                    "Results",
+                    "Intracellular pH modulates AQP5 expression in SMG"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1919,39)",
+                "containers_title": [
+                    "Results",
+                    "Intracellular pH modulates AQP5 expression in SMG"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,115)",
+                "containers_title": [
+                    "Results",
+                    "CA12 E/K mutation modulates the volume regulation of AQP5"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,115)",
+                "containers_title": [
+                    "Results",
+                    "CA12 E/K mutation modulates the volume regulation of AQP5"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),425,75)",
+                "containers_title": [
+                    "Results",
+                    "CA12 E/K mutation modulates the volume regulation of AQP5"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),425,75)",
+                "containers_title": [
+                    "Results",
+                    "CA12 E/K mutation modulates the volume regulation of AQP5"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),824,118)",
+                "containers_title": [
+                    "Results",
+                    "CA12 E/K mutation modulates the volume regulation of AQP5"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,96)",
+                "containers_title": [
+                    "Results",
+                    "AQP5 is functionally associated with the transepithelial transporter AE2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),361,74)",
+                "containers_title": [
+                    "Results",
+                    "AQP5 is functionally associated with the transepithelial transporter AE2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),567,99)",
+                "containers_title": [
+                    "Results",
+                    "AQP5 is functionally associated with the transepithelial transporter AE2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/fig/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/fig/caption/p),393,95)",
+                "containers_title": [
+                    "Results",
+                    "AQP5 is functionally associated with the transepithelial transporter AE2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),1122,193)",
+                "containers_title": [
+                    "Results",
+                    "AQP5 is functionally associated with the transepithelial transporter NKCC1"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),119,163)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),119,163)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),130,66)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,201)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),203,90)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),294,179)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),474,139)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),474,139)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),474,139)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0027",
+                "rp_string": "27–29",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),301,99)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

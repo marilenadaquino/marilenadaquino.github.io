@@ -1,0 +1,596 @@
+{
+    "references": [
+        {
+            "bibentry": "Kim, J, Sudbery, P. Candida albicans, a major human fungal pathogen. J Microbiol 2011; 49: 171–7. PMID: 21538235",
+            "process_entry": "True",
+            "doi": "10.1007/s12275-011-1064-7",
+            "pmid": "21538235",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Fournier, P, Schwebel, C, Maubon, D. Antifungal use influences Candida species distribution and susceptibility in the intensive care unit. J Antimicrob Chemother 2011; 66: 2880–6. PMID: 21980066",
+            "process_entry": "True",
+            "doi": "10.1093/jac/dkr394",
+            "pmid": "21980066",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Diekema, D, Arbefeville, S, Boyken, L, et al. The changing epidemiology of healthcare-associated candidemia over three decades. Diagn Microbiol Infect Dis 2012; 73: 45–8. PMID: 22578938",
+            "process_entry": "True",
+            "doi": "10.1016/j.diagmicrobio.2012.02.001",
+            "pmid": "22578938",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Panackal, AA, Gribskov, JL, Staab, JF, et al. Clinical significance of azole antifungal drug cross-resistance in Candida glabrata. J Clin Microbiol 2006; 44: 1740–3. PMID: 16672401",
+            "process_entry": "True",
+            "doi": "10.1128/JCM.44.5.1740-1743.2006",
+            "pmid": "16672401",
+            "pmcid": "PMC1479212",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Redding, SW, Kirkpatrick, WR, Saville, S, et al. Multiple patterns of resistance to fluconazole in Candida glabrata isolates from a patient with oropharyngeal candidiasis receiving head and neck radiation. J Clin Microbiol 2003; 41: 619–22. PMID: 12574256",
+            "process_entry": "True",
+            "doi": "10.1128/JCM.41.2.619-622.2003",
+            "pmid": "12574256",
+            "pmcid": "PMC149712",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Capasso, C, Supuran, CT. An overview of the alpha, beta-and gamma-carbonic anhydrases from bacteria: can bacterial carbonic anhydrases shed new light on evolution of bacteria? J Enzyme Inhib Med Chem 2015; 30: 325–32. PMID: 24766661",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.910202",
+            "pmid": "24766661",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Supuran, CT, Capasso, C. Biomedical applications of prokaryotic carbonic anhydrases. Expert Opin Ther Pat 2018; 28: 745–54. PMID: 29973089",
+            "process_entry": "True",
+            "doi": "10.1080/13543776.2018.1497161",
+            "pmid": "29973089",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Supuran, CT. Bacterial carbonic anhydrases as drug targets: toward novel antibiotics? Front Pharmacol 2011; 2: 34. PMID: 21779249",
+            "process_entry": "True",
+            "doi": "10.3389/fphar.2011.00034",
+            "pmid": "21779249",
+            "pmcid": "PMC3132667",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Supuran, CT. Structure and function of carbonic anhydrases. Biochem J 2016; 473: 2023–32. PMID: 27407171",
+            "process_entry": "True",
+            "doi": "10.1042/bcj20160115",
+            "pmid": "27407171",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Neri, D, Supuran, CT. Interfering with pH regulation in tumours as a therapeutic strategy. Nat Rev Drug Discov 2011; 10: 767–77. PMID: 21921921",
+            "process_entry": "True",
+            "doi": "10.1038/nrd3554",
+            "pmid": "21921921",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Nocentini, A, Supuran, CT. Carbonic anhydrase inhibitors as antitumor/antimetastatic agents: a patent review (2008–2018). Expert Opin Ther Pat 2018; 28: 729–40. PMID: 30074415",
+            "process_entry": "True",
+            "doi": "10.1080/13543776.2018.1508453",
+            "pmid": "30074415",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Supuran, CT, Scozzafava, A. Carbonic anhydrases as targets for medicinal chemistry. Bioorg Med Chem 2007; 15: 4336–50. PMID: 17475500",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2007.04.020",
+            "pmid": "17475500",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrase inhibitors and their potential in a range of therapeutic areas. Expert Opin Ther Pat 2018; 28: 709–12. PMID: 30217119",
+            "process_entry": "True",
+            "doi": "10.1080/13543776.2018.1523897",
+            "pmid": "30217119",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Supuran, CT. How many carbonic anhydrase inhibition mechanisms exist? J Enzyme Inhib Med Chem 2016; 31: 345–60. PMID: 26619898",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1122001",
+            "pmid": "26619898",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrases: novel therapeutic applications for inhibitors and activators. Nat Rev Drug Discov 2008; 7: 168–81. PMID: 18167490",
+            "process_entry": "True",
+            "doi": "10.1038/nrd2467",
+            "pmid": "18167490",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Supuran, CT. Applications of carbonic anhydrases inhibitors in renal and central nervous system diseases. Expert Opin Ther Pat 2018; 28: 713–21. PMID: 30175635",
+            "process_entry": "True",
+            "doi": "10.1080/13543776.2018.1519023",
+            "pmid": "30175635",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Vullo, D, Lehneck, R, Poggeler, S, Supuran, CT. Sulfonamide inhibition studies of two beta-carbonic anhydrases from the ascomycete fungus Sordaria macrospora, CAS1 and CAS2. J Enzyme Inhib Med Chem 2018; 33: 390–6. PMID: 29363370",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1425687",
+            "pmid": "29363370",
+            "pmcid": "PMC6010127",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "da Silva Cardoso, V, Vermelho, AB, Ricci Junior, E, et al. Antileishmanial activity of sulphonamide nanoemulsions targeting the beta-carbonic anhydrase from Leishmania species. J Enzyme Inhib Med Chem 2018; 33: 850–7. PMID: 29708476",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1463221",
+            "pmid": "29708476",
+            "pmcid": "PMC6010131",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Borras, J, Scozzafava, A, Menabuoni, L, et al. Carbonic anhydrase inhibitors: synthesis of water-soluble, topically effective intraocular pressure lowering aromatic/heterocyclic sulfonamides containing 8-quinoline-sulfonyl moieties: is the tail more important than the ring? Bioorg Med Chem 1999; 7: 2397–406. PMID: 10632049",
+            "process_entry": "True",
+            "doi": "10.1016/s0968-0896(99)00190-x",
+            "pmid": "10632049",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Angeli, A, Abbas, G, Del Prete, S, et al. Selenides bearing benzenesulfonamide show potent inhibition activity against carbonic anhydrases from pathogenic bacteria Vibrio cholerae and Burkholderia pseudomallei. Bioorg Chem 2018; 79: 319–22. PMID: 29803078",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2018.05.015",
+            "pmid": "29803078",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Carta, F, Scozzafava, A, Supuran, CT. Sulfonamides: a patent review (2008–2012). Expert Opin Ther Pat 2012; 22: 747–58. PMID: 22697257",
+            "process_entry": "True",
+            "doi": "10.1517/13543776.2012.698264",
+            "pmid": "22697257",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Vullo, D, Del Prete, S, Di Fonzo, P, et al. Comparison of the Sulfonamide Inhibition Profiles of the beta-and gamma-Carbonic Anhydrases from the Pathogenic Bacterium Burkholderia pseudomallei. Molecules 2017; 22: 421.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Chohan, ZH, Scozzafava, A, Supuran, CT. Unsymmetrical 1,1'-disubstituted ferrocenes: synthesis of Co(ii), Cu(ii), Ni(ii) and Zn(ii) chelates of ferrocenyl -1-thiadiazolo-1'-tetrazole-1-thiadiazolo-1'-triazole and -1-tetrazolo-1'-triazole with antimicrobial properties. J Enzyme Inhib Med Chem 2002; 17: 261–6. PMID: 12530479",
+            "process_entry": "True",
+            "doi": "10.1080/1475636021000006261\t",
+            "pmid": "12530479",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Del Prete, S, Vullo, D, Osman, SM, et al. Sulfonamide inhibition profiles of the beta-carbonic anhydrase from the pathogenic bacterium Francisella tularensis responsible of the febrile illness tularemia. Bioorg Med Chem 2017; 25: 3555–61. PMID: 28511911",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2017.05.007",
+            "pmid": "28511911",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Supuran, CT, Scozzafava, A, Mastrolorenzo, A. Bacterial proteases: current therapeutic use and future prospects for the development of new antibiotics. Expert Opin Ther Pat 2001; 11: 221–59.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Supuran, CT, Capasso, C. An Overview of the Bacterial Carbonic Anhydrases. Metabolites 2017; 7: 56.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Supuran, CT. Advances in structure-based drug discovery of carbonic anhydrase inhibitors. Expert Opin Drug Discov 2017; 12: 61–88. PMID: 27783541",
+            "process_entry": "True",
+            "doi": "10.1080/17460441.2017.1253677",
+            "pmid": "27783541",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrases and metabolism. Metabolites 2018; 8: 25.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Chohan, ZH, Supuran, CT, Scozzafava, A. Metal binding and antibacterial activity of ciprofloxacin complexes. J Enzyme Inhib Med Chem 2005; 20: 303–7. PMID: 16119203",
+            "process_entry": "True",
+            "doi": "10.1080/14756360310001624948\t",
+            "pmid": "16119203",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ohndorf, UM, Schlicker, C, Steegborn, C. Crystallographic studies on carbonic anhydrases from fungal pathogens for structure-assisted drug development In, Supuran, CT, Winum, JY, Wang, B, eds. Drug design of zinc–enzyme inhibitors: functional, structural, and disease applications. Hoboken (NJ): John Wiley & Sons; 2009: 323–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Hall, RA, Mühlschlegel, FA. Fungal and nematode carbonic anhydrases: their inhibition in drug design In, Supuran, CT, Winum, JY, Wang, B, eds. Drug design of zinc-enzyme inhibitors. Functional, structural, and disease applications. Hoboken (NJ): John Wiley & Sons; 2009: 301–22.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Lehneck, R, Poggeler, S. Fungal carbonic anhydrases and their inhibition In, Supuran, CT, Capasso, C, eds. Zinc enzyme inhibitors -enzymes from microorganisms. Vol. 22 Topics in Medicinal Chemistry Switzerland: Springer International Publishing; 2017: 95–110.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Schlicker, C, Hall, RA, Vullo, D, et al. Structure and inhibition of the CO2-sensing carbonic anhydrase Can2 from the pathogenic fungus Cryptococcus neoformans. J Mol Biol 2009; 385: 1207–20. PMID: 19071134",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2008.11.037",
+            "pmid": "19071134",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Vullo, D, Leewattanapasuk, W, Muhlschlegel, FA, et al. Carbonic anhydrase inhibitors: inhibition of the beta-class enzyme from the pathogenic yeast Candida glabrata with sulfonamides, sulfamates and sulfamides. Bioorg Med Chem Lett 2013; 23: 2647–452. PMID: 23511020",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2013.02.092",
+            "pmid": "23511020",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Annunziato, G, Giovati, L, Angeli, A, et al. Discovering a new class of antifungal agents that selectively inhibits microbial carbonic anhydrases. J Enzyme Inhib Med Chem 2018; 33: 1537–44. PMID: 30284487",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1516652",
+            "pmid": "30284487",
+            "pmcid": "PMC6179086",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Akdemir, A, Güzel-Akdemir, Ö, Karalı, N, Supuran, CT. Isatin analogs as novel inhibitors of Candida spp. beta-carbonic anhydrase enzymes. Bioorg Med Chem 2016; 24: 1648–52. PMID: 26951893",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2016.02.036",
+            "pmid": "26951893",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Monti, SM, Maresca, A, Viparelli, F, et al. Dithiocarbamates are strong inhibitors of the beta-class fungal carbonic anhydrases from Cryptococcus neoformans, Candida albicans and Candida glabrata. Bioorg Med Chem Lett 2012; 22: 859–62. PMID: 22209456",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2011.12.033",
+            "pmid": "22209456",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Güzel-Akdemir, Ö, Angeli, A, Demir, K, et al. Novel thiazolidinone-containing compounds, without the well-known sulphonamide zinc-binding group acting as human carbonic anhydrase IX inhibitors. J Enzyme Inhib Med Chem 2018; 33: 1299–308. PMID: 30249139",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1499628",
+            "pmid": "30249139",
+            "pmcid": "PMC6161604",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Karali, N, Akdemir, A, Goktas, F, et al. Novel sulfonamide-containing 2-indolinones that selectively inhibit tumor-associated alpha carbonic anhydrases. Bioorg Med Chem 2017; 25: 3714–8. PMID: 28545816",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2017.05.029",
+            "pmid": "28545816",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Khalifah, RG. The carbon dioxide hydration activity of carbonic anhydrase. I. Stop-flow kinetic studies on the native human isoenzymes B and C. J Biol Chem 1971; 246: 2561–73. PMID: 4994926",
+            "process_entry": "True",
+            "pmid": "4994926",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Berrino, E, Bozdag, M, Del Prete, S, et al. Inhibition of α, β, γ, and δ-carbonic anhydrases from bacteria and diatoms with N'-aryl-N-hydroxy-ureas. J Enzyme Inhib Med Chem 2018; 33: 1194–8. PMID: 30044657",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1490733",
+            "pmid": "30044657",
+            "pmcid": "PMC6060382",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Bua, S, Berrino, E, Del Prete, S, et al. Synthesis of novel benzenesulfamide derivatives with inhibitory activity against human cytosolic carbonic anhydrase I and II and Vibrio cholerae α-and β-class enzymes. J Enzyme Inhib Med Chem 2018; 33: 1125–36. PMID: 29987956",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1467901",
+            "pmid": "29987956",
+            "pmcid": "PMC6041819",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Akocak, S, Lolak, N, Bua, S, et al. Synthesis and biological evaluation of novel N,N'-diaryl cyanoguanidines acting as potent and selective carbonic anhydrase II inhibitors. Bioorg Chem 2018; 77: 245–51. PMID: 29421699",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2018.01.022",
+            "pmid": "29421699",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Abo-Ashour, MF, Eldehna, WM, Nocentini, A, et al. Novel hydrazido benzenesulfonamides-isatin conjugates: Synthesis, carbonic anhydrase inhibitory activity and molecular modeling studies. Eur J Med Chem 2018; 157: 28–36. PMID: 30071407",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.07.054",
+            "pmid": "30071407",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Melis, C, Meleddu, R, Angeli, A, et al. Isatin: a privileged scaffold for the design of carbonic anhydrase inhibitors. J Enzyme Inhib Med Chem 2017; 32: 68–73. PMID: 27775452",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2016.1235042",
+            "pmid": "27775452",
+            "pmcid": "PMC6010117",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Eldehna, WM, Abo-Ashour, MF, Nocentini, A, et al. Novel 4/3-((4-oxo-5-(2-oxoindolin-3-ylidene)thiazolidin-2-ylidene)amino) benzenesulfonamides: Ssnthesis, carbonic anhydrase inhibitory activity, anticancer activity and molecular modelling studies. Eur J Med Chem 2017; 139: 250–62. PMID: 28802125",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.07.073",
+            "pmid": "28802125",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Supuran, CT. Bortezomib inhibits bacterial and fungal beta-carbonic anhydrases. Bioorg Med Chem 2016; 24: 4406–9. PMID: 27469982",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2016.07.035",
+            "pmid": "27469982",
+            "xmlid": "CIT0047"
+        }
+    ],
+    "localid": "MED-30724625",
+    "doi": "10.1080/14756366.2018.1564045",
+    "pmid": "10.1080/14756366.2018.1564045",
+    "pmcid": "30724625",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30724625/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),139,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),139,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),362,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),604,182)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),604,182)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6–14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),165,151)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6–16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),317,123)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0017",
+                "rp_string": "17–25",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),441,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0026",
+                "rp_string": "26–32",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),814,82)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0031",
+                "rp_string": "31–33",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),897,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0034",
+                "rp_string": "34–38",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,194)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),196,90)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),196,90)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,321)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1,135)",
+                "containers_title": [
+                    "Experimental",
+                    "CgNe103 enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1118,217)",
+                "containers_title": [
+                    "Experimental",
+                    "CgNe103 enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0041",
+                "rp_string": "41–47",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),1118,217)",
+                "containers_title": [
+                    "Experimental",
+                    "CgNe103 enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),443,349)",
+                "containers_title": [
+                    "Experimental",
+                    "Molecular docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/table-wrap/table-wrap-foot/fn/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/table-wrap/table-wrap-foot/fn/p),1,40)",
+                "containers_title": [
+                    "Results and discussion",
+                    "CgNce103 enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),117,231)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),349,246)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking studies"
+                ]
+            }
+        ]
+    ]
+}

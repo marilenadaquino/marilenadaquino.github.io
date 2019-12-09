@@ -1,0 +1,784 @@
+{
+    "references": [
+        {
+            "bibentry": "Heublein, H, Bader, A, Giri, S. Preclinical and clinical evidence for stem cell therapies as treatment for diabetic wounds. Drug Discov Today. 2015; 20(6): 703–717. PMID: 25603421",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis.2015.01.005",
+            "pmid": "25603421",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Drouin, P, Classification, A, Charbonnel, B, et al. Diagnosis and classification of diabetes mellitus. Diabetes Care. 2013; 36(Suppl 1): S67–S74. PMID: 23264425",
+            "process_entry": "True",
+            "doi": "10.2337/dc13-S067",
+            "pmid": "23264425",
+            "pmcid": "PMC3537273",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Wilmot, EG, Edwardson, CL, Achana, FA, et al. Sedentary time in adults and the association with diabetes, cardiovascular disease and death: systematic review and meta-analysis. Diabetologia. 2013; 56(4): 942–943.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Kalyani, RR, Corriere, M, Ferrucci, L. Age-related and disease-related muscle loss: the effect of diabetes, obesity, and other diseases. Lancet Diabetes Endocrinol. 2014; 2(10): 819–829. PMID: 24731660",
+            "process_entry": "True",
+            "doi": "10.1016/S2213-8587(14)70034-8",
+            "pmid": "24731660",
+            "pmcid": "PMC4156923",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lu, J, Hou, X, Zhang, L, et al. Association between body mass index and diabetic retinopathy in Chinese patients with type 2 diabetes. Acta Diabetol. 2015; 52(4): 701–708. PMID: 25604042",
+            "process_entry": "True",
+            "doi": "10.1007/s00592-014-0711-y",
+            "pmid": "25604042",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Alrubeaan, K, Youssef, AM, Subhani, SN, et al. Diabetic nephropathy and its risk factors in a society with a type 2 diabetes epidemic: a Saudi national diabetes registry-based study. Acta Ophthalmol. 2015; 93(2): e140–e147. PMID: 25270515",
+            "process_entry": "True",
+            "doi": "10.1111/aos.12532",
+            "pmid": "25270515",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Fineberg, D, Jandeleit-Dahm, KAM, Cooper, ME. Diabetic nephropathy: diagnosis and treatment. Nat Rev Endocrinol. 2013; 9(12): 713–723. PMID: 24100266",
+            "process_entry": "True",
+            "doi": "10.1038/nrendo.2013.184",
+            "pmid": "24100266",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Suissa, S, Hudson, M, Ernst, P. Leflunomide use and the risk of interstitial lung disease in rheumatoid arthritis. Arthritis Rheum. 2006; 54(5): 1435–1439. PMID: 16645972",
+            "process_entry": "True",
+            "doi": "10.1002/art.21806",
+            "pmid": "16645972",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Davis, BR, Whelton, PK. Benazepril plus amlodipine or hydrochlorothiazide for hypertension. New Eng J Med. 2008; 359(23): 2417. PMID: 19052124",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa0806182",
+            "pmid": "19052124",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Yu, WM, Wang, H, Ren, XJ, et al. Experimental study of leflunomide on renal protective effect and on inflammatory response of streptozotocin induced diabetic rats. Nephrology. 2012; 17(4): 380–389. PMID: 22243699",
+            "process_entry": "True",
+            "doi": "10.1111/j.1440-1797.2012.01563.x",
+            "pmid": "22243699",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Xue, L, Feng, X, Wang, C, et al. Benazepril hydrochloride improves diabetic nephropathy and decreases proteinuria by decreasing ANGPTL-4 expression. BMC Nephrol. 2017; 18(1): 307. PMID: 28978304",
+            "process_entry": "True",
+            "doi": "10.1186/s12882-017-0724-1",
+            "pmid": "28978304",
+            "pmcid": "PMC5628429",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Wenzel, P, Daiber, A, Oelze, M, et al. Mechanisms underlying recoupling of eNOS by HMG-CoA reductase inhibition in a rat model of streptozotocin-induced diabetes mellitus. Atherosclerosis. 2008; 198(1): 65–76. PMID: 18061195",
+            "process_entry": "True",
+            "doi": "10.1016/j.atherosclerosis.2007.10.003",
+            "pmid": "18061195",
+            "pmcid": "PMC2889614",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Hua, J, Guo, PS, Zhe, JJ, et al. Synergistic effects of leflunomide and benazepril in streptozotocin-induced diabetic nephropathy. Nephron Exp Nephrol. 2014; 126(3): 148–156. PMID: 24855017",
+            "process_entry": "True",
+            "doi": "10.1159/000362556",
+            "pmid": "24855017",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Akira, M, Takeshi, M, Hidenori, A, et al. Angiotensin II-dependent Src and Smad1 signaling pathway is crucial for the development of diabetic nephropathy. Lab Invest. 2006; 86(9): 927–939. PMID: 16767106",
+            "process_entry": "True",
+            "doi": "10.1038/labinvest.3700445",
+            "pmid": "16767106",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Murdaca, G, Spanò, F, Puppo, F. Use of leflunomide plus TNF-α inhibitors in rheumatoid arthritis. Expert Opin Drug Saf. 2013; 12(6): 801–804. PMID: 23889669",
+            "process_entry": "True",
+            "doi": "10.1517/14740338.2013.823947",
+            "pmid": "23889669",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Behrens, F, Finkenwirth, C, Pavelka, K, et al. Leflunomide in psoriatic arthritis: results from a large European prospective observational study. Arthritis Care Res. 2013; 65(3): 464–470.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Chen, J, Sun, J, Doscas, ME, et al. Control of hyperglycemia in male mice by leflunomide: mechanisms of action. J Endocrinol. 2018; 237(1): 43–58. PMID: 29496905",
+            "process_entry": "True",
+            "doi": "10.1530/JOE-17-0536",
+            "pmid": "29496905",
+            "pmcid": "PMC5839151",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Zhang, Q, Ji, Y, Lv, W, et al. Protective effects of leflunomide on renal lesions in a rat model if diabetic nephropathy. Ren Fail. 2016; 38(1): 124–130. PMID: 26512931",
+            "process_entry": "True",
+            "doi": "10.3109/0886022x.2015.1105024",
+            "pmid": "26512931",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Liu, Y, Qu, X, Chen, W, et al. Efficacy of leflunomide combined with prednisone in the treatment of refractory nephrotic syndrome. Ren Fail. 2016; 38(10): 1616. PMID: 27819170",
+            "process_entry": "True",
+            "doi": "10.3109/0886022x.2016.1172917",
+            "pmid": "27819170",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Niu, H, Nie, L, Liu, M, et al. Benazepril affects integrin-linked kinase and smooth muscle α-actin expression in diabetic rat glomerulus and cultured mesangial cells. BMC Nephrol. 2014; 15(1): 135. PMID: 25142208",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2369-15-135",
+            "pmid": "25142208",
+            "pmcid": "PMC4151867",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Ishimitsu, T, Akashiba, A, Kameda, T, et al. Benazepril slows progression of renal dysfunction in patients with non-diabetic renal disease. Nephrology. 2007; 12(3): 294–298. PMID: 17498126",
+            "process_entry": "True",
+            "doi": "10.1111/j.1440-1797.2007.00786.x",
+            "pmid": "17498126",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Lin, X, Zhou, X, Liu, D, et al. MicroRNA-29 regulates high-glucose-induced apoptosis in human retinal pigment epithelial cells through PTEN. In Vitro Cell Dev Biol Anim. 2016; 52(4): 419–426. PMID: 26822433",
+            "process_entry": "True",
+            "doi": "10.1007/s11626-015-9990-z",
+            "pmid": "26822433",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Wan-Xin, T, Tian-Lei, C, Ben, W, et al. Effect of mitofusin 2 overexpression on the proliferation and apoptosis of high-glucose-induced rat glomerular mesangial cells. J Nephrol. 2012; 25(6): 1023–1030. PMID: 22322822",
+            "process_entry": "True",
+            "doi": "10.5301/jn.5000089",
+            "pmid": "22322822",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Siragy, HM, Xue, C, Webb, RL. Beneficial effects of combined benazepril-amlodipine on cardiac nitric oxide, cGMP, and TNF-α production after cardiac ischemia. J Cardiovasc Pharmacol. 2006; 47(5): 636–642. PMID: 16775501",
+            "process_entry": "True",
+            "doi": "10.1097/01.fjc.0000211750.01326.b3",
+            "pmid": "16775501",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Manna, SK, Mukhopadhyay, A, Aggarwal, BB. Leflunomide suppresses TNF-induced cellular responses: effects on NF-κB, activator protein-1, c-jun N-terminal protein kinase, and apoptosis. J Immunol. 2000; 165(10): 5962–5969. PMID: 11067959",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.165.10.5962",
+            "pmid": "11067959",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Imose, M, Nagaki, M, Kimura, K, et al. Leflunomide protects from T-cell-mediated liver injury in mice through inhibition of nuclear factor kappaB. Hepatology. 2004; 40(5): 1160–1169. PMID: 15455409",
+            "process_entry": "True",
+            "doi": "10.1002/hep.20438",
+            "pmid": "15455409",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Manna, SK, Aggarwal, BB. Immunosuppressive leflunomide metabolite (A77 1726) blocks TNF-dependent nuclear factor-κB activation and gene expression. J Immunol. 1999; 162(4): 2095–2102. PMID: 9973483",
+            "process_entry": "True",
+            "pmid": "9973483",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Mezzano, S, Aros, C, Droguett, A, et al. NF-kappaB activation and overexpression of regulated genes in human diabetic nephropathy. Nephrol Dial Transplant. 2004; 19(10): 2505–2512. PMID: 15280531",
+            "process_entry": "True",
+            "doi": "10.1093/ndt/gfh207",
+            "pmid": "15280531",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Xu, W, Song, Y, Jiang-Ping, H, et al. Streptozotocin-induced diabetes increases amyloid plaque deposition in AD transgenic mice through modulating AGEs/RAGE/NF-κB pathway. Int J Neurosci. 2014; 124(8): 601–608. PMID: 24228859",
+            "process_entry": "True",
+            "doi": "10.3109/00207454.2013.866110",
+            "pmid": "24228859",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Iskender, H, Dokumacioglu, E, Sen, TM, et al. The effect of hesperidin and quercetin on oxidative stress, NF-κB and SIRT1 levels in a STZ-induced experimental diabetes model. Biomed Pharmacother. 2017; 90: 500–508. PMID: 28395272",
+            "process_entry": "True",
+            "doi": "10.1016/j.biopha.2017.03.102",
+            "pmid": "28395272",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Hills, CE, Squires, PE. The role of TGF-β and epithelial-to mesenchymal transition in diabetic nephropathy. Cytokine Growth Factor Rev. 2011; 22(3): 131–139. PMID: 21757394",
+            "process_entry": "True",
+            "doi": "10.1016/j.cytogfr.2011.06.002",
+            "pmid": "21757394",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Yadav, H, Quijano, C, Kamaraju, AK, et al. Protection from obesity and diabetes by blockade of TGF-β/Smad3 signaling. Cell Metab. 2011; 14(1): 67–79. PMID: 21723505",
+            "process_entry": "True",
+            "doi": "10.1016/j.cmet.2011.04.013",
+            "pmid": "21723505",
+            "pmcid": "PMC3169298",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Du, W, Huang, JH, Zhou, K, et al. Inhibition of TRPC6 degradation suppresses ischemic brain damage in rats. J Clin Invest. 2010; 120(10): 3480. PMID: 20811149",
+            "process_entry": "True",
+            "doi": "10.1172/JCI43165",
+            "pmid": "20811149",
+            "pmcid": "PMC2947234",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Mohammad, T, Nebojsa, K, Chava, KR, et al. TLR4 activation of TRPC6-dependent calcium signaling mediates endotoxin-induced lung vascular permeability and inflammation. J Exp Med. 2012; 209(11): 1953–1968. PMID: 23045603",
+            "process_entry": "True",
+            "doi": "10.1084/jem.20111355",
+            "pmid": "23045603",
+            "pmcid": "PMC3478927",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Chan, L, Shang, Q, Shi, G, et al. TRPC6-dependent inflammation mechanism of cardiac fibrosis induced by high salt in Wistar rats. Int J Cardiol. 2011; 152(Suppl 1): S92–S93.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Liu, N, Zhuang, Y, Zhou, Z, et al. NF-κB dependent up-regulation of TRPC6 by Aβ in BV-2 microglia cells increases COX-2 expression and contributes to hippocampus neuron damage. Neurosci Lett. 2017; 651: 1. PMID: 28458019",
+            "process_entry": "True",
+            "doi": "10.1016/j.neulet.2017.04.056",
+            "pmid": "28458019",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Li, Z, Xu, J, Xu, P, et al. Wnt/n‐catenin signalling pathway mediates high glucose induced cell injury through activation of TRPC6 in podocytes. Cell Prolif. 2013; 46(1): 76–85. PMID: 23294354",
+            "process_entry": "True",
+            "doi": "10.1111/cpr.12010",
+            "pmid": "23294354",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Fu, Y, Wang, C, Zhang, D, et al. Increased TRPC6 expression is associated with tubular epithelial cell proliferation and inflammation in diabetic nephropathy. Mol Immunol. 2018; 94: 75–81. PMID: 29288897",
+            "process_entry": "True",
+            "doi": "10.1016/j.molimm.2017.12.014",
+            "pmid": "29288897",
+            "xmlid": "CIT0038"
+        }
+    ],
+    "localid": "MED-31552773",
+    "doi": "10.1080/0886022X.2019.1665547",
+    "pmid": "10.1080/0886022X.2019.1665547",
+    "pmcid": "31552773",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31552773/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,179)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),174,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,179)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),174,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),181,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),181,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),181,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),181,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),323,67)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),128,87)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),216,105)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,160)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Animals and treatment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1196,124)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Animals and treatment"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),690,74)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Renal function indexes and serum TNF-α and IL-6 levels"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),130,116)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),247,87)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),406,120)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),527,130)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),658,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),846,162)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),87,99)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),187,133)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),321,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),466,166)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),178,207)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),178,207)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),130,7)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,137)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),130,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),139,134)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),265,7)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),139,134)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[5]),265,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),361,68)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),430,126)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),557,78)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),636,138)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),775,122)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),1,136)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),138,199)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[6]),329,7)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),138,199)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34,35]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[6]),329,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),338,153)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),492,107)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),600,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

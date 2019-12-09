@@ -1,0 +1,554 @@
+{
+    "references": [
+        {
+            "bibentry": "Bray, F, Ferlay, J, Soerjomataram, I, et al. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin 2018; 68: 394–424. PMID: 30207593",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21492",
+            "pmid": "30207593",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Wang, Q, Ma, C, Li, X, et al. Synthesis of novel sugar or azasugar modified anthra[1,2-d]imidazole-6,11-dione derivatives and biological evaluation. Carbohydrate Res 2018; 460: 29–33.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Gazieva, GA, Anikina, LV, Nechaeva, TV, et al. Synthesis and biological evaluation of new substituted thioglycolurils, their analogues and derivatives. Eur J Med Chem 2017; 140: 141–54. PMID: 28923382",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.09.009",
+            "pmid": "28923382",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Osmaniye, D, Kaya Cavusoglu, B, Saglik, B, et al. Synthesis and anticandidal activity of new imidazole-chalcones. Molecules 2018; 23: 831.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Liu, Y, Peng, Y, Lu, J, et al. Design, synthesis, and biological evaluation of new 1,2,3-triazolo-2′-deoxy-2′-fluoro-4′-azido nucleoside derivatives as potent anti-HBV agents. Eur J Med Chem 2018; 143: 137–49. PMID: 29174810",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.11.028",
+            "pmid": "29174810",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Hafez, HN, Alsalamah, SA, El-Gazzar, AR. Synthesis of thiophene and N-substituted thieno [3,2-d] pyrimidine derivatives as potent antitumor and antibacterial agents. Acta Pharm 2017; 67: 275–92. PMID: 28858838",
+            "process_entry": "True",
+            "doi": "10.1515/acph-2017-0028",
+            "pmid": "28858838",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Abdou, WM, Ganoub, NA, Sabry, E. Design, synthesis and pharmacological screening of β-amino, thiadiazole/thiadiazine-phosphonate based triazole motifs as antimicrobial/cytotoxic agents. Acta Pharm 2014; 64: 267–84. PMID: 25296674",
+            "process_entry": "True",
+            "doi": "10.2478/acph-2014-0023",
+            "pmid": "25296674",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Liu, Y, Xia, Y, Fan, Y, et al. N-Aryltriazole ribonucleosides with potent antiproliferative activity against drug-resistant pancreatic cancer. Bioorganic Med Chem Letters 2010; 20: 2503–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Çıkla-Süzgün, P, Kaushik-Basu, N, Basu, A, et al. Anti-cancer and anti-hepatitis C virus NS5B polymerase activity of etodolac 1,2,4-triazoles. J Enzyme Inhib Med Chem 2015; 30: 778–85. PMID: 25676325",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.971780",
+            "pmid": "25676325",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Mustafa, M, Abdelhamid, D, Abdelhafez, EMN, et al. Synthesis, antiproliferative, anti-tubulin activity, and docking study of new 1,2,4-triazoles as potential combretastatin analogues. Eur J Med Chem 2017; 141: 293–305. PMID: 29031074",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.09.063",
+            "pmid": "29031074",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Ohsumi, K, Hatanaka, T, Fujita, K, et al. Syntheses and antitumor activity of cis-restricted combretastatins: 5-membered heterocyclic analogues. Bioorg Med Chem Lett 1998; 8: 3153–8. PMID: 9873694",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(98)00579-4",
+            "pmid": "9873694",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Driowya, M, Leclercq, J, Verones, V, et al. Synthesis of triazoloquinazolinone based compounds as tubulin polymerization inhibitors and vascular disrupting agents. Eur J Med Chem 2016; 115: 393–405. PMID: 27031215",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.03.056",
+            "pmid": "27031215",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Alanazi, AM, Abdel-Aziz, AAM, Shawer, TZ, et al. Synthesis, antitumor and antimicrobial activity of some new 6-methyl-3-phenyl-4(3H)-quinazolinone analogues: in silico studies. J Enzyme Inhib Med Chem 2016; 31: 721–35. PMID: 26162029",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1060482",
+            "pmid": "26162029",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Fodor, M, Price, E, Wang, P, et al. Dual allosteric inhibition of SHP2 phosphatase. ACS Chem Biol 2018; 13: 647–56. PMID: 29304282",
+            "process_entry": "True",
+            "doi": "10.1021/acschembio.7b00980",
+            "pmid": "29304282",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Ferrini, S, Chandanshive, JZ, Lena, S, et al. Ruthenium-catalyzed synthesis of 5-amino-1,2,3-triazole-4-carboxylates for triazole-based scaffolds: beyond the Dimroth rearrangement. J Org Chem 2015; 80: 2562–72. PMID: 25654488",
+            "process_entry": "True",
+            "doi": "10.1021/jo502577e",
+            "pmid": "25654488",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Shao, B, Wei, X, Luo, M, et al. Inhibition of A20 expression in tumor microenvironment exerts anti-tumor effect through inducing myeloid-derived suppressor cells apoptosis. Sci Rep 2015; 5: 16437. PMID: 26561336",
+            "process_entry": "True",
+            "doi": "10.1038/srep16437",
+            "pmid": "26561336",
+            "pmcid": "PMC4642332",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Luan, Z, He, Y, He, F, et al. Rocaglamide overcomes tumor necrosis factor-related apoptosis-inducing ligand resistance in hepatocellular carcinoma cells by attenuating the inhibition of caspase-8 through cellular FLICE-like-inhibitory protein down regulation. Mol Med Rep 2015; 11: 203–11. PMID: 25333816",
+            "process_entry": "True",
+            "doi": "10.3892/mmr.2014.2718",
+            "pmid": "25333816",
+            "pmcid": "PMC4237083",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Hany, AME, Bahaa, GMY, Syed, NAB, et al. Synthesis, anticancer activity and molecular modeling studies of 1,2,4-triazole derivatives as EGFR inhibitors. Eur J Med Chem 2018; 156: 774–89. PMID: 30055463",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.07.024",
+            "pmid": "30055463",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Dantale, S, Reboul, V, Metzner, P, et al. First use of axially chiral thioamides for the stereocontrol of C-C bond formation. Chem A Eur J 2002; 8: 632–40.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Yang, CH, Li, GJ, Gong, CJ, et al. N, N-dialkylaniline-assisted thionation of carboxylic amides and esters. Tetrahedron 2015; 71: 637–42.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Zhang, HJ, Zhang, GR, Piao, HR, et al. Synthesis and characterisation of celastrol derivatives as potential anticancer agents. J Enzyme Inhib Med Chem 2018; 33: 190–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Sun, XY, Zhong, CY, Liu, MY, et al. Design, synthesis and activity evaluation of 2-ethyl-1-(4-substituted) phenyl-1 H-imidazole derivatives as potent antibacterial agents. Latin Am J Pharmacy 2018; 37: 768–74.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Nishida, H, Arikawa, Y, Hirase, K, et al. Identification of a novel fluoropyrrole derivative as a potassium-competitive acid blocker with long duration of action. Bioorg Med Chem 2017; 25: 3298–314. PMID: 28442261",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2017.04.014",
+            "pmid": "28442261",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Meng, LQ, Liu, C, Luo, YH, et al. Quinalizarin exerts an anti-tumour effect on lung cancer A549 cells by modulating the Akt, MAPK, STAT3 and p53 signalling pathways. Mol Med Rep 2018; 17: 2626–34. PMID: 29207064",
+            "process_entry": "True",
+            "doi": "10.3892/mmr.2017.8110",
+            "pmid": "29207064",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Wang, JR, Shen, GN, Luo, YH, et al. The compound 2-(naphthalene-2-thio)-5, 8-dimethoxy-1,4-naphthoquinone induces apoptosis via reactive oxygen species‐regulated mitogen-activated protein kinase, protein kinase B, and signal transducer and activator of transcription 3 signaling in human gastric cancer cells. Drug Dev Res 2018; 79: 295–306. PMID: 30222185",
+            "process_entry": "True",
+            "doi": "10.1002/ddr.21442",
+            "pmid": "30222185",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Wang, F, Wei, ZL, Sun, XR, et al. Apoptosis inducing factor is involved in stretch-induced apoptosis of myoblast via a caspase-9 independent pathway. J Cell Biochem 2017; 118: 829–38. PMID: 27735993",
+            "process_entry": "True",
+            "doi": "10.1002/jcb.25759",
+            "pmid": "27735993",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Hassan, M, Watari, H, AbuAlmaaty, A, et al. Sakuragi, apoptosis and molecular targeting therapy in cancer. BioMed Res Int 2014; 2014: 1–23.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Melissa, DA, Gunning, PW, Stehn, JR. Tumor suppressor tropomyosin Tpm2. 1 regulates sensitivity to apoptosis beyond anoikis characterized by changes in the levels of intrinsic apoptosis proteins. Cytoskeleton 2017; 74: 233–48. PMID: 28378936",
+            "process_entry": "True",
+            "doi": "10.1002/cm.21367",
+            "pmid": "28378936",
+            "xmlid": "CIT0028"
+        }
+    ],
+    "localid": "MED-31286781",
+    "doi": "10.1080/14756366.2019.1636044",
+    "pmid": "10.1080/14756366.2019.1636044",
+    "pmcid": "31286781",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31286781/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),129,100)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Triazole and its derivatives have a broad range of biological and pharmacological properties, such as anti-bacterial, anti-human immunodeficiency virus2, anti-microbial3, anti-fungal4, anti-viral5, and anti-cancer effects6–14. For example, Abdou et al. designed and synthesised the triazole structure of amino-thiadiazole/thiadiazide-phosphate esters and studied the anti-cancer characteristics on 10 cancer cell lines7. Although triazole derivatives can inhibit the proliferation of several cell types, their anti-cancer mechanism of action remains unclear.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Triazole and its derivatives have a broad range of biological and pharmacological properties, such as anti-bacterial, anti-human immunodeficiency virus2, anti-microbial3, anti-fungal4, anti-viral5, and anti-cancer effects6–14. For example, Abdou et al. designed and synthesised the triazole structure of amino-thiadiazole/thiadiazide-phosphate esters and studied the anti-cancer characteristics on 10 cancer cell lines7. Although triazole derivatives can inhibit the proliferation of several cell types, their anti-cancer mechanism of action remains unclear.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Triazole and its derivatives have a broad range of biological and pharmacological properties, such as anti-bacterial, anti-human immunodeficiency virus2, anti-microbial3, anti-fungal4, anti-viral5, and anti-cancer effects6–14. For example, Abdou et al. designed and synthesised the triazole structure of amino-thiadiazole/thiadiazide-phosphate esters and studied the anti-cancer characteristics on 10 cancer cell lines7. Although triazole derivatives can inhibit the proliferation of several cell types, their anti-cancer mechanism of action remains unclear.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Triazole and its derivatives have a broad range of biological and pharmacological properties, such as anti-bacterial, anti-human immunodeficiency virus2, anti-microbial3, anti-fungal4, anti-viral5, and anti-cancer effects6–14. For example, Abdou et al. designed and synthesised the triazole structure of amino-thiadiazole/thiadiazide-phosphate esters and studied the anti-cancer characteristics on 10 cancer cell lines7. Although triazole derivatives can inhibit the proliferation of several cell types, their anti-cancer mechanism of action remains unclear.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6–14",
+                "pl_string": "Triazole and its derivatives have a broad range of biological and pharmacological properties, such as anti-bacterial, anti-human immunodeficiency virus2, anti-microbial3, anti-fungal4, anti-viral5, and anti-cancer effects6–14. For example, Abdou et al. designed and synthesised the triazole structure of amino-thiadiazole/thiadiazide-phosphate esters and studied the anti-cancer characteristics on 10 cancer cell lines7. Although triazole derivatives can inhibit the proliferation of several cell types, their anti-cancer mechanism of action remains unclear.",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0006",
+                "rp_string": "6–14",
+                "pl_string": "Triazole and its derivatives have a broad range of biological and pharmacological properties, such as anti-bacterial, anti-human immunodeficiency virus2, anti-microbial3, anti-fungal4, anti-viral5, and anti-cancer effects6–14. For example, Abdou et al. designed and synthesised the triazole structure of amino-thiadiazole/thiadiazide-phosphate esters and studied the anti-cancer characteristics on 10 cancer cell lines7. Although triazole derivatives can inhibit the proliferation of several cell types, their anti-cancer mechanism of action remains unclear.",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "pl_xpath": "/article/body/sec[1]/p[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "",
+                "pl_string": "6–14",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),228,193)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),773,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1256,71)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1256,71)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),437,68)",
+                "containers_title": [
+                    "Material and methods",
+                    "The cell viability assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),135,143)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),279,140)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,174)",
+                "containers_title": [
+                    "Results and discussion",
+                    "The viability of lung cancer cells treated with 4a–4j"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[2]),727,93)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[2]),1300,49)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[5]),1,106)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[5]),1,106)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[5]),108,117)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[5]),364,114)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[5]),479,137)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

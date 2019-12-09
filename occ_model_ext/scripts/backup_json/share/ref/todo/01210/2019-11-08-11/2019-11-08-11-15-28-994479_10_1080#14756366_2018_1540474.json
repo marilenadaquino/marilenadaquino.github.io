@@ -1,0 +1,848 @@
+{
+    "references": [
+        {
+            "bibentry": "Hedstrom, L. IMP dehydrogenase: mechanism of action and inhibition. Chem Rev 2009; 109: 2903–28. PMID: 19480389",
+            "process_entry": "True",
+            "doi": "10.1021/cr900021w",
+            "pmid": "19480389",
+            "pmcid": "PMC2737513",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ratcliffe, AJ. Inosine 5’-monophosphate dehydrogenase inhibitors for the treatment of autoimmune diseases. Curr Opin Drug Discov Devel 2006; 9: 595–605.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Franchetti, P, Grifantini, M. Nucleoside and non-nucleoside IMP dehydrogenase inhibitors as antitumor and antiviral agents. Curr Med Chem 1999; 6: 599–614. PMID: 10390603",
+            "process_entry": "True",
+            "pmid": "10390603",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Tong, X, Smith, J, Bukreyeva, N, et al. Merimepodib, an IMPDH inhibitor, suppresses replication of Zika virus and other emerging viral pathogens. Antiviral Res 2018; 149: 34–40. PMID: 29126899",
+            "process_entry": "True",
+            "doi": "10.1016/j.antiviral.2017.11.004",
+            "pmid": "29126899",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Pua, KH, Stiles, DT, Sowa, ME, Verdine, GL. IMPDH2 is an intracellular target of the cyclophilin A and sanglifehrin A complex. Cell Rep 2017; 18: 432–42. PMID: 28076787",
+            "process_entry": "True",
+            "doi": "10.1016/j.celrep.2016.12.030",
+            "pmid": "28076787",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Suganuma, K, Sarwono, AEY, Mitsuhashi, S, et al. Mycophenolic acid and its derivatives as potential chemotherapeutic agents targeting inosine monophosphate dehydrogenase in Trypanosoma congolense. Antimicrob Agents Chemother 2016; 60: 4391–3. PMID: 27139487",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.02816-15",
+            "pmid": "27139487",
+            "pmcid": "PMC4914658",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Mitsuhashi, S, Takenaka, J, Iwamori, K, et al. Structure-activity relationships for inhibition of inosine monophosphate dehydrogenase and differentiation induction of K562 cells among the mycophenolic acid derivatives. Bioorganic Med Chem 2010; 18: 8106–11.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Umejiego, NN, Li, C, Riera, T, et al. Cryptosporidium parvum IMP dehydrogenase -identification of functional, structural, and dynamic properties that can be exploited for drug design. J Biol Chem 2004; 279: 40320–7. PMID: 15269207",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m407121200",
+            "pmid": "15269207",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Oprea, TI, Mestres, J. Drug repurposing: far beyond new targets for old drugs. Aaps J 2012; 14: 759–63. PMID: 22826034",
+            "process_entry": "True",
+            "doi": "10.1208/s12248-012-9390-1",
+            "pmid": "22826034",
+            "pmcid": "PMC3475856",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Bessoff, K, Sateriale, A, Lee, KK, Huston, CD. Drug repurposing screen reveals FDA-approved inhibitors of human HMG-CoA reductase and isoprenoid synthesis that block Cryptosporidium parvum growth. Antimicrob Agents Chemother 2013; 57: 1804–14. PMID: 23380723",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.02460-12",
+            "pmid": "23380723",
+            "pmcid": "PMC3623326",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Andrews, KT, Fisher, G, Skinner-Adams, TS. Drug repurposing and human parasitic protozoan diseases. Int J Parasitol Drugs Drug Resist 2014; 4: 95–111. PMID: 25057459",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpddr.2014.02.002",
+            "pmid": "25057459",
+            "pmcid": "PMC4095053",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Baici, A. Slow-onset enzyme inhibition and inactivation. Exp Stand Cond Enzym Charact 2013; 55–74.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Morrison, JF, Walsh, CT. The behavior and significance of slow-binding enzyme inhibitors Adv Enzymol Relat Areas Mol Biol. 1988; 61: 201–301. PMID: 3281418",
+            "process_entry": "True",
+            "doi": "10.1002/9780470123072.ch5",
+            "pmid": "3281418",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Zhang, J-H, Chung, TDY, Oldenburg, KR. A simple statistical parameter for use in evaluation and validation of high throughput screening assays. J Biomol Screen 1999; 4: 67–73. PMID: 10838414",
+            "process_entry": "True",
+            "doi": "10.1177/108705719900400206",
+            "pmid": "10838414",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Wang, W, Hedstrom, L. Kinetic mechanism of human inosine 5’-monophosphate dehydrogenase type II: random addition of substrates and ordered release of products. Biochemistry 1997; 36: 8479–83. PMID: 9214292",
+            "process_entry": "True",
+            "doi": "10.1021/bi970226n",
+            "pmid": "9214292",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Singh, J, Petter, RC, Baillie, TA, Whitty, A. The resurgence of covalent drugs. Nat Rev Drug Discov 2011; 10: 307–17. PMID: 21455239",
+            "process_entry": "True",
+            "doi": "10.1038/nrd3410",
+            "pmid": "21455239",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Bauer, RA. Covalent inhibitors in drug discovery: from accidental discoveries to avoided liabilities and designed therapies. Drug Discov Today 2015; 20: 1061–73. PMID: 26002380",
+            "process_entry": "True",
+            "doi": "10.1016/j.drudis.2015.05.005",
+            "pmid": "26002380",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Koppaka, V, Thompson, DC, Chen, Y, et al. Aldehyde dehydrogenase inhibitors: a comprehensive review of the pharmacology, mechanism of action, substrate specificity, and clinical application. Pharmacol Rev 2012; 64: 520–39. PMID: 22544865",
+            "process_entry": "True",
+            "doi": "10.1124/pr.111.005538",
+            "pmid": "22544865",
+            "pmcid": "PMC3400832",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Picón-Camacho, SM, Taylor, NGH, Bron, JE, et al. Effects of long duration, low dose bronopol exposure on the control of Ichthyophthirius multifiliis (Ciliophora), parasitising rainbow trout (Oncorhynchus mykiss Walbaum). Vet Parasitol 2012; 186: 237–44. PMID: 22154252",
+            "process_entry": "True",
+            "doi": "10.1016/j.vetpar.2011.11.022",
+            "pmid": "22154252",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "González, Á, Celada, JD, Melendre, PM, et al. Effects of different bronopol treatments on final survival rates in the artificial incubation of crayfish eggs (Pacifastacus leniusculus, Astacidae). Aquac Res 2013; 44: 354–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Schewe, T. Molecular actions of ebselen -an antiinflammatory antioxidant. Gen Pharmacol 1995; 26: 1153–69. PMID: 7590103",
+            "process_entry": "True",
+            "doi": "10.1016/0306-3623(95)00003-j",
+            "pmid": "7590103",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Sharma, V, Tewari, R, Sk, UH, et al. Ebselen sensitizes glioblastoma cells to Tumor Necrosis Factor (TNF alpha)-induced apoptosis through two distinct pathways involving NF-kappa B downregulation and Fas-mediated formation of death inducing signaling complex. Int J Cancer 2008; 123: 2204–12. PMID: 18709644",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.23771",
+            "pmid": "18709644",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Tewari, R, Sharma, V, Koul, N, et al. Ebselen abrogates TNFα induced pro-inflammatory response in glioblastoma. Mol Oncol 2009; 3: 77–83. PMID: 19383369",
+            "process_entry": "True",
+            "doi": "10.1016/j.molonc.2008.10.004",
+            "pmid": "19383369",
+            "pmcid": "PMC5527871",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Azad, GK, Tomar, RS. Ebselen, a promising antioxidant drug: Mechanisms of action and targets of biological pathways. Mol Biol Rep 2014; 41: 4865–79. PMID: 24867080",
+            "process_entry": "True",
+            "doi": "10.1007/s11033-014-3417-x",
+            "pmid": "24867080",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Thangamani, S, Younis, W, Seleem, MN. Repurposing clinical molecule ebselen to combat drug resistant pathogens. PLoS One 2015; 10: e0133877. PMID: 26222252",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0133877",
+            "pmid": "26222252",
+            "pmcid": "PMC4519285",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Saito, I, Asano, T, Sano, K, et al. Neuroprotective effect of an antioxidant, ebselen, in patients with delayed neurological deficits after aneurysmal subarachnoid hemorrhage. Neurosurgery 1998; 42: 269–78. PMID: 9482177",
+            "process_entry": "True",
+            "doi": "10.1097/00006123-199802000-00038",
+            "pmid": "9482177",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Yamaguchi, T, Sano, K, Takakura, K, et al. Ebselen in acute ischemic stroke: a placebo-controlled, double-blind clinical trial. Stroke 1998; 29: 12–7. PMID: 9445321",
+            "process_entry": "True",
+            "doi": "10.1161/01.str.29.1.12",
+            "pmid": "9445321",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Sauna, ZE, Peng, X, Nandigama, K, et al. The molecular basis of the action of disulfiram as a modulator of the multidrug resistance-linked ATP binding cassette transporters MDR1 (ABCB1) and MRP1 (ABCC1). Mol Pharmacol 2004; 65: 675–84. PMID: 14978246",
+            "process_entry": "True",
+            "doi": "10.1124/mol.65.3.675",
+            "pmid": "14978246",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Shepherd, JA, Waigh, RD, Gilbert, P. Antibacterial action of 2-bromo-2-nitropropane-1,3-diol (bronopol). Antimicrob Agents Chemother 1988; 32: 1693–8. PMID: 3075439",
+            "process_entry": "True",
+            "doi": "10.1128/aac.32.11.1693",
+            "pmid": "3075439",
+            "pmcid": "PMC175953",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Chiou, J, Wan, S, Chan, K-F, et al. Ebselen as a potent covalent inhibitor of New Delhi metallo-β-lactamase (NDM-1). Chem Commun 2015; 51: 9543–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Joice, AC, Harris, MT, Kahney, EW, et al. Exploring the mode of action of ebselen in Trypanosoma brucei hexokinase inhibition. Int J Parasitol Drugs Drug Resist 2013; 3: 154–60. PMID: 24533305",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpddr.2013.08.002",
+            "pmid": "24533305",
+            "pmcid": "PMC3862409",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Wang, W, Papov, VV, Minakawa, N, et al. Inactivation of inosine 5’-monophosphate dehydrogenase by the antiviral agent 5-ethynyl-1-beta-D-ribofuranosylimidazole-4-carboxamide 5’-monophosphate. Biochemistry 1996; 35: 95–101. PMID: 8555204",
+            "process_entry": "True",
+            "doi": "10.1021/bi951499q",
+            "pmid": "8555204",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Pal, S, Bera, B, Nair, V. Inhibition of inosine monophosphate dehydrogenase (IMPDH) by the antiviral compound, 2-vinylinosine monophosphate. Bioorganic Med. Chem 2002; 10: 3615–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Nair, V, Kamboj, RC. Inhibition of inosine monophosphate dehydrogenase (IMPDH) by 2-[2-(Z)-fluorovinyl]inosine 5′-monophosphate. Bioorganic Med Chem Lett 2003; 13: 645–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Cuny, GD, Suebsuwong, C, Ray, SS. Inosine-5’-monophosphate dehydrogenase (IMPDH) inhibitors: a patent and scientific literature review (2002-2016). Expert Opin Ther Pat 2017; 27: 677–90. PMID: 28074661",
+            "process_entry": "True",
+            "doi": "10.1080/13543776.2017.1280463",
+            "pmid": "28074661",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Skrott, Z, et al. Alcohol-abuse drug disulfiram targets cancer via p97 segregase adaptor NPL4. Nature 2017; 552: 194–9. PMID: 29211715",
+            "process_entry": "True",
+            "doi": "10.1038/nature25016",
+            "pmid": "29211715",
+            "pmcid": "PMC5730499",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Fellenberg, J, Kunz, P, Sähr, H, Depeweg, D. Overexpression of inosine 5’-monophosphate dehydrogenase type II mediates chemoresistance to human osteosarcoma cells. PLoS One 2010; 5: e12179. PMID: 20808934",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0012179",
+            "pmid": "20808934",
+            "pmcid": "PMC2922339",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Barnes, BJ, Izydore, RA, Eakin, AE, Hall, IH. Induction of Tmolt4 leukemia cell death by 3,3-disubstituted-6,6-pentamethylene-1,5-diazabicyclo[3.1.0]hexane-2-4-diones: specificity for type II inosine 5’-monophasphate dehydrogenase. J Pharmacol Exp Ther 2001; 298: 790–6. PMID: 11454943",
+            "process_entry": "True",
+            "pmid": "11454943",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Chen, L, Pankiewicz, KW. Recent development of IMP dehydrogenase inhibitors for the treatment of cancer. Curr Opin Drug Discov Devel 2007; 10: 403–12.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Xu, Y, et al. High expression of IMPDH2 is associated with aggressive features and poor prognosis of primary nasopharyngeal carcinoma. Sci Rep 2017; 7: 745. PMID: 28389646",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-00887-1",
+            "pmid": "28389646",
+            "pmcid": "PMC5429725",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Mukherjee, S, Weiner, WS, Schroeder, CE, et al. Ebselen inhibits hepatitis C virus NS3 helicase binding to nucleic acid and prevents viral replication. ACS Chem Biol 2014; 9: 2393–403. PMID: 25126694",
+            "process_entry": "True",
+            "doi": "10.1021/cb500512z",
+            "pmid": "25126694",
+            "pmcid": "PMC4201343",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Walther, M, Holzhütter, H-G, Kuban, RJ, et al. The inhibition of mammalian 15-lipoxygenases by the anti-inflammatory drug ebselen: dual-type mechanism involving covalent linkage and alteration of the iron ligand sphere. Mol Pharmacol 1999; 56: 196–203. PMID: 10385701",
+            "process_entry": "True",
+            "doi": "10.1124/mol.56.1.196",
+            "pmid": "10385701",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Węglarz-Tomczak, E, Burda-Grabowska, M, Giurg, M, et al. Identification of methionine aminopeptidase 2 as a molecular target of the organoselenium drug ebselen and its derivatives/analogues: Synthesis, inhibitory activity and molecular modeling study. Bioorganic Med. Chem. Lett 2016; 26: 5254–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Sarwono, AEY, et al. Identification and characterization of guanosine 5′-monophosphate reductase of Trypanosoma congolense as a drug target. Parasitol Int 2017; 66: 537–44. PMID: 28366788",
+            "process_entry": "True",
+            "doi": "10.1016/j.parint.2017.03.006",
+            "pmid": "28366788",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Patton, GC, Stenmark, P, Gollapalli, DR, et al. Cofactor mobility determines reaction outcome in the IMPDH and GMPR (β-α) 8 barrel enzymes. Nat Chem Biol 2011; 7: 950–8. PMID: 22037469",
+            "process_entry": "True",
+            "doi": "10.1038/nchembio.693",
+            "pmid": "22037469",
+            "pmcid": "PMC4552316",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Smith, S, Boitz, J, Chidambaram, ES, et al. The cystathionine-β -synthase domains on the guanosine 5′-monophosphate reductase and inosine 5′-monophosphate dehydrogenase enzymes from Leishmania regulate enzymatic activity in response to guanylate and adenylate nucleotide levels. Mol. Microbiol 2016; 100: 824–40. PMID: 26853689",
+            "process_entry": "True",
+            "doi": "10.1111/mmi.13352",
+            "pmid": "26853689",
+            "pmcid": "PMC4879609",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Gorla, SK, McNair, NN, Yang, G, et al. Validation of IMP dehydrogenase inhibitors in a mouse model of cryptosporidiosis. Antimicrob Agents Chemother 2014; 58: 1603–14. PMID: 24366728",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.02075-13",
+            "pmid": "24366728",
+            "pmcid": "PMC3957894",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Eltahan, R, Guo, F, Zhang, H, et al. Discovery of ebselen as an inhibitor of Cryptosporidium parvum glucose-6-phosphate isomerase (CpGPI) by high-throughput screening of existing drugs. Int J Parasitol Drugs Drug Resist 2018; 8: 43–9. PMID: 29414105",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpddr.2018.01.003",
+            "pmid": "29414105",
+            "pmcid": "PMC6114080",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Huang, K, Yang, S. Inhibitory effect of selenium on Cryptosporidium parvum infection in vitro and in vivo. Biol Trace Elem Res 2002; 90: 261–72. [pii]\\r10.1385/BTER:90:1-3:261 PMID: 12666840",
+            "process_entry": "True",
+            "doi": "10.1385/bter:90:1-3:261",
+            "pmid": "12666840",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Lu, J, Vlamis-Gardikas, A, Kandasamy, K, et al. Inhibition of bacterial thioredoxin reductase: an antibiotic mechanism targeting bacteria lacking glutathione. Faseb J 2013; 27: 1394–403. PMID: 23248236",
+            "process_entry": "True",
+            "doi": "10.1096/fj.12-223305",
+            "pmid": "23248236",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Fahey, RC, Brown, WC, Adams, WB, et al. Occurrence of glutathione in bacteria. J Bacteriol 1978; 133: 1126–9. PMID: 417060",
+            "process_entry": "True",
+            "pmid": "417060",
+            "pmcid": "PMC222142",
+            "xmlid": "CIT0051"
+        }
+    ],
+    "localid": "MED-30451014",
+    "doi": "10.1080/14756366.2018.1540474",
+    "pmid": "10.1080/14756366.2018.1540474",
+    "pmcid": "30451014",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30451014/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1–8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),604,194)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0009",
+                "rp_string": "9–11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),184,252)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec/p[2]),1,303)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Kinetics of IMPDH inhibition by hit compounds",
+                    "Irreversible inhibition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/sec/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/sec/p[2]),1,303)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Kinetics of IMPDH inhibition by hit compounds",
+                    "Irreversible inhibition"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),259,182)",
+                "containers_title": [
+                    "Results",
+                    "HTS of chemical library compounds"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),91,230)",
+                "containers_title": [
+                    "Results",
+                    "The irreversible inhibition of IMPDH by disulfiram and bronopol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),91,230)",
+                "containers_title": [
+                    "Results",
+                    "The irreversible inhibition of IMPDH by disulfiram and bronopol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[2]/p),132,39)",
+                "containers_title": [
+                    "Results",
+                    "The irreversible inhibition of IMPDH by disulfiram and bronopol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[3]/p),96,41)",
+                "containers_title": [
+                    "Results",
+                    "The irreversible inhibition of IMPDH by disulfiram and bronopol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[4]/p),97,39)",
+                "containers_title": [
+                    "Results",
+                    "The irreversible inhibition of IMPDH by disulfiram and bronopol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap/table-wrap-foot/fn[5]/p),87,37)",
+                "containers_title": [
+                    "Results",
+                    "The irreversible inhibition of IMPDH by disulfiram and bronopol"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/table-wrap/table-wrap-foot/fn[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/table-wrap/table-wrap-foot/fn[3]/p),171,70)",
+                "containers_title": [
+                    "Results",
+                    "The mixed mode IMPDH inhibition by ebselen"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),212,176)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),212,176)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),244,155)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),400,134)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),400,134)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0021",
+                "rp_string": "21–27",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),675,123)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),799,137)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),799,137)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0028",
+                "rp_string": "28–31",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),799,137)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0032",
+                "rp_string": "32–34",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),167,82)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),673,154)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),673,154)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),336,118)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),455,179)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0037",
+                "rp_string": "37–40",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),455,179)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,385)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0041",
+                "rp_string": "41–43",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),580,96)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),1,190)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),192,106)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),192,106)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),540,191)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),540,191)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),363,92)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),740,112)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),740,112)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/p[11]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[11]),486,398)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/p[11]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[11]),486,398)",
+                "containers_title": [
+                    "Discussions"
+                ]
+            }
+        ]
+    ]
+}

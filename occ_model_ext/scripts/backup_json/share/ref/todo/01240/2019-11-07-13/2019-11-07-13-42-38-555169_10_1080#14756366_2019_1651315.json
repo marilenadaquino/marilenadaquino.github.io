@@ -1,0 +1,699 @@
+{
+    "references": [
+        {
+            "bibentry": "(a) Alterio, V, Di Fiore, A, D’Ambrosio, K, et al. Multiple binding modes of inhibitors to carbonic anhydrases: how to design specific drugs targeting 15 different isoforms? Chem Rev 2012; 112: 4421–68; PMID: 22607219",
+            "process_entry": "True",
+            "doi": "10.1021/cr200176r",
+            "pmid": "22607219",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "(a) Carradori, S, Mollica, A, De Monte, C, et al. Nitric oxide donors and selective carbonic anhydrase inhibitors: a dual pharmacological approach for the treatment of glaucoma, cancer and osteoporosis. Molecules 2015; 20: 5667–79; PMID: 25838170",
+            "process_entry": "True",
+            "doi": "10.3390/molecules20045667",
+            "pmid": "25838170",
+            "pmcid": "PMC6272217",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "(a) Ronci, M, Del Prete, S, Puca, V, et al. Identification and characterization of the α-CA in the outer membrane vesicles produced by Helicobacter pylori. J Enzyme Inhib Med Chem 2019; 34: 189–95; PMID: 30734607",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1539716",
+            "pmid": "30734607",
+            "pmcid": "PMC6327981",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "(a) Neri, D, Supuran, CT. Interfering with pH regulation in tumours as a therapeutic strategy. Nat Rev Drug Discov 2011; 10: 767–77; PMID: 21921921",
+            "process_entry": "True",
+            "doi": "10.1038/nrd3554",
+            "pmid": "21921921",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "(a) Supuran, CT. Carbonic anhydrase activators. Future Med Chem 2018; 10: 561–73; PMID: 29478330",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2017-0223",
+            "pmid": "29478330",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "(a) Ammazzalorso, A, Carradori, S, Angeli, A, et al. Fibrate-based N-acylsulphonamides targeting carbonic anhydrases: synthesis, biochemical evaluation, and docking studies. J Enzyme Inhib Med Chem 2019; 34: 1051–61; PMID: 31074307",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2019.1611801",
+            "pmid": "31074307",
+            "pmcid": "PMC6522927",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "(a) Koyuncu, I, Tülüce, Y, Slahaddin Qadir, H, et al. Evaluation of the anticancer potential of a sulphonamide carbonic anhydrase IX inhibitor on cervical cancer cells. J Enzyme Inhib Med Chem 2019; 34: 703–11; PMID: 30810431",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2019.1579805",
+            "pmid": "30810431",
+            "pmcid": "PMC6394301",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "(a) Mocan, A, Carradori, S, Locatelli, M, et al. Bioactive isoflavones from Pueraria lobata root and starch: Different extraction techniques and carbonic anhydrase inhibition. Food Chem Toxicol 2018; 112: 441–7; PMID: 28807875",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2017.08.009",
+            "pmid": "28807875",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Mollica, A, Macedonio, G, Stefanucci, A, et al. Five-and six-membered nitrogen-containing compounds as selective Carbonic Anhydrase activators. Molecules 2017; 22: 2178–90.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "(a) D’Ascenzio, M, Guglielmi, P, Carradori, S, et al. Open saccharin-based secondary sulfonamides as potent and selective inhibitors of cancer-related carbonic anhydrase IX and XII isoforms. J Enzyme Inhib Med Chem 2017; 32: 51–9; PMID: 27784170",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2016.1235040",
+            "pmid": "27784170",
+            "pmcid": "PMC6009879",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "(a) Carradori, S, Secci, D, De Monte, C, et al. A novel library of saccharin and acesulfame derivatives as potent and selective inhibitors of carbonic anhydrase IX and XII isoforms. Bioorg Med Chem 2016; 24: 1095–105; PMID: 26810710",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2016.01.038",
+            "pmid": "26810710",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "(a) Supuran, CT. Advances in structure-based drug discovery of carbonic anhydrase inhibitors. Expert Opin Drug Discov 2017; 12: 61–88; PMID: 27783541",
+            "process_entry": "True",
+            "doi": "10.1080/17460441.2017.1253677",
+            "pmid": "27783541",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Maccallini, C, Di Matteo, M, Vullo, D, et al. Indazole, pyrazole, and oxazole derivatives targeting Nitric Oxide Synthases and Carbonic Anhydrases. ChemMedChem 2016; 11: 1695–9. PMID: 27377568",
+            "process_entry": "True",
+            "doi": "10.1002/cmdc.201600204",
+            "pmid": "27377568",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "(a) Weber, CE, Kuo, PC. The tumor microenvironment. Surg Oncol 2012; 21: 172–7; PMID: 21963199",
+            "process_entry": "True",
+            "doi": "10.1016/j.suronc.2011.09.001",
+            "pmid": "21963199",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Webb, BA, Chimenti, M, Jacobson, MP, Barber, DL. Dysregulated pH: a perfect storm for cancer progression. Nat Rev Cancer 2011; 11: 671–7. PMID: 21833026",
+            "process_entry": "True",
+            "doi": "10.1038/nrc3110",
+            "pmid": "21833026",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Parks, SK, Chiche, J, Pouyssegur, J. Disrupting proton dynamics and energy metabolism for cancer therapy. Nat Rev Cancer 2013; 13: 611–23. PMID: 23969692",
+            "process_entry": "True",
+            "doi": "10.1038/nrc3579",
+            "pmid": "23969692",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Supuran, CT. Carbonic anhydrase inhibitors as emerging agents for the treatment and imaging of hypoxic tumors. Expert Opin Investig Drugs 2018; 27: 963–70.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "(a) Supuran, CT. How many carbonic anhydrase inhibition mechanisms exist? J Enzyme Inhib Med Chem 2016; 31: 345–60; PMID: 26619898",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1122001",
+            "pmid": "26619898",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Langella, E, D'Ambrosio, K, D'Ascenzio, M, et al. A combined crystallographic and theoretical study explains the capability of carboxylic acids to adopt multiple binding modes within carbonic anhydrase active site. Chem Eur J 2016; 22: 97–100. PMID: 26507456",
+            "process_entry": "True",
+            "doi": "10.1002/chem.201503748",
+            "pmid": "26507456",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "D’Ambrosio, K, Carradori, S, Monti, SM, et al. Out of the active site binding pocket for carbonic anhydrase inhibitors. Chem Commun 2015; 51: 302–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Ferretti, R, Carradori, S, Guglielmi, P, et al. Enantiomers of triclabendazole sulfoxide: analytical and semipreparative HPLC separation, absolute configuration assignment, and transformation into sodium salt. J Pharm Biomed Anal 2017; 140: 38–44. PMID: 28340473",
+            "process_entry": "True",
+            "doi": "10.1016/j.jpba.2017.03.021",
+            "pmid": "28340473",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Cirilli, R, Guglielmi, P, Formica, FR, et al. The sodium salt of the enantiomers of ricobendazole: preparation, solubility and chiroptical properties. J Pharm Biomed Anal 2017; 139: 1–7. PMID: 28258982",
+            "process_entry": "True",
+            "doi": "10.1016/j.jpba.2017.01.057",
+            "pmid": "28258982",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Soeta, T, Matsuzaki, S, Ukaji, Y. A one-pot O-sulfinative Passerini/oxidation reaction: synthesis of α-(sulfonyloxy)amide derivatives. J Org Chem 2015; 80: 3688–94. PMID: 25751087",
+            "process_entry": "True",
+            "doi": "10.1021/acs.joc.5b00131",
+            "pmid": "25751087",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "(a) Carradori, S, Pierini, M, Menta, S, et al. 3-(Phenyl-4-oxy)-5phenyl-4,5-dihydro-(1H)-pyrazole: a fascinating molecular framework to study the enantioseparation ability of the amylose (3,5-dimethylphenylcarbamate) chiral stationary phase. Part I. Structure-enantioselectivity relationships. J Chromatogr A 2016; 1467: 221–7; PMID: 27461921",
+            "process_entry": "True",
+            "doi": "10.1016/j.chroma.2016.07.034",
+            "pmid": "27461921",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Sosi, I, Barreteau, H, Simcic, M, et al. Second-generation sulfonamide inhibitors of D-glutamic acid-adding enzyme: activity optimisation with conformationally rigid analogues of D-glutamic acid. Eur J Med Chem 2011; 46: 2880–94. PMID: 21524830",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2011.04.011",
+            "pmid": "21524830",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Pandey, SK, Mishra, M, Sharma, A, et al. Syntheses of low molecular hydroxamates as potent antiprotozoal and antifungal agents. Chem Biol Interface 2012; 2: 373–93.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Adler, MJ, Hamilton, AD. Oligophenylenaminones as scaffolds for α-helix mimicry. J Org Chem 2011; 76: 7040–7. PMID: 21739975",
+            "process_entry": "True",
+            "doi": "10.1021/jo200917d",
+            "pmid": "21739975",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Khalifah, RG. The carbon dioxide hydration activity of carbonic anhydrase. I. Stop flow kinetic studies on the native human isoenzymes B and C. J Biol Chem 1971; 246: 2561–73. PMID: 4994926",
+            "process_entry": "True",
+            "pmid": "4994926",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Cheng, HC. The power issue: determination of KB or Ki from IC50 –A closer look at the Cheng-Prusoff equation, the Schild plot and related power equations. J Pharmacol Toxicol Methods 2001; 46: 61–71. PMID: 12481843",
+            "process_entry": "True",
+            "doi": "10.1016/s1056-8719(02)00166-1",
+            "pmid": "12481843",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Gieling, RG, Babur, M, Mamnani, L, et al. Antimetastatic effect of sulfamate carbonic anhydrase IX inhibitors in breast carcinoma xenografts. J Med Chem 2012; 55: 5591–600. PMID: 22621623",
+            "process_entry": "True",
+            "doi": "10.1021/jm300529u",
+            "pmid": "22621623",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Carradori, S, Mollica, A, Ceruso, M, et al. New amide derivatives of Probenecid as selective inhibitors of carbonic anhydrase IX and XII: biological evaluation and molecular modelling studies. Bioorg Med Chem 2015; 23: 2975–81. PMID: 26007302",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2015.05.013",
+            "pmid": "26007302",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Labute, P. Protonate3D: assignment of ionization states and hydrogen coordinates to macromolecular structures. Proteins 2009; 75: 187–205. PMID: 18814299",
+            "process_entry": "True",
+            "doi": "10.1002/prot.22234",
+            "pmid": "18814299",
+            "pmcid": "PMC3056144",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Akdemir, A, De Monte, C, Carradori, S, Supuran, CT. Computational investigation of the selectivity of salen and tetrahydrosalen compounds towards the tumor-associated hCA XII isozyme. J Enzyme Inhib Med Chem 2015; 30: 114–8. PMID: 24666302",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.892936",
+            "pmid": "24666302",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Labute, P. The generalized born/volume integral implicit solvent model: estimation of the free energy of hydration using London dispersion instead of atomic surface area. J Comput Chem 2008; 29: 1693–8. PMID: 18307169",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.20933",
+            "pmid": "18307169",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31401897",
+    "doi": "10.1080/14756366.2019.1651315",
+    "pmid": "10.1080/14756366.2019.1651315",
+    "pmcid": "31401897",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31401897/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,336)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,336)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "pl_string": "1–3",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,336)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "pl_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,336)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),225,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),225,141)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0006",
+                "rp_string": "6–13",
+                "pl_string": "6–13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0008",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "pl_string": "6–13",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0006",
+                "rp_string": "6–13",
+                "pl_string": "6–13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),367,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0014",
+                "rp_string": "14–17",
+                "pl_string": "14–17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,421)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0015",
+                "pl_string": "14–17",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,421)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0016",
+                "pl_string": "14–17",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,421)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0017",
+                "pl_string": "14–17",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,421)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0014",
+                "rp_string": "14–17",
+                "pl_string": "14–17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref",
+                "pl_xpath": "/article/body/sec[1]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,421)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),214,139)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1292,294)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[1]),560,196)",
+                "containers_title": [
+                    "Chemistry and HPLC enantioseparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[4]),503,302)",
+                "containers_title": [
+                    "Chemistry and HPLC enantioseparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[2]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[6]),236,217)",
+                "containers_title": [
+                    "Chemistry and HPLC enantioseparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[2]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[7]),1,137)",
+                "containers_title": [
+                    "Chemistry and HPLC enantioseparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[7]),321,116)",
+                "containers_title": [
+                    "Chemistry and HPLC enantioseparation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,117)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1380,194)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1575,79)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1575,79)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Enzyme inhibition assays"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),622,162)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1398,113)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1512,116)",
+                "containers_title": [
+                    "Experimental protocols",
+                    "Molecular modelling studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/table-wrap/caption/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/table-wrap/caption/p),1,161)",
+                "containers_title": [
+                    "Carbonic anhydrase inhibition studies"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),916,112)",
+                "containers_title": [
+                    "Carbonic anhydrase inhibition studies"
+                ]
+            }
+        ]
+    ]
+}

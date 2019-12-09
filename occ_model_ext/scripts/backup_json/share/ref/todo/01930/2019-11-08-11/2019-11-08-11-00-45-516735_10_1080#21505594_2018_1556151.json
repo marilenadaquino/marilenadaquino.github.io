@@ -1,0 +1,2841 @@
+{
+    "references": [
+        {
+            "bibentry": "Raffa, RG, Raivio, TL. A third envelope stress signal transduction pathway in Escherichia coli. Mol Microbiol. 2002; 45: 1599–1611. PMID: 12354228",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2002.03112.x",
+            "pmid": "12354228",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Clarke, DJ. The Rcs phosphorelay: more than just a two-component pathway. Future Microbiol. 2010; 5: 1173–1184. PMID: 20722597",
+            "process_entry": "True",
+            "doi": "10.2217/fmb.10.83",
+            "pmid": "20722597",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Darwin, AJ. Stress relief during host infection: the phage shock protein response supports bacterial virulence in various ways. PLoS Pathog. 2013; 9: e1003388. PMID: 23853578",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1003388",
+            "pmid": "23853578",
+            "pmcid": "PMC3708866",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Merdanovic, M, Clausen, T, Kaiser, M, et al. Protein quality control in the bacterial periplasm. Annu Rev Microbiol. 2011; 65: 149–168. PMID: 21639788",
+            "process_entry": "True",
+            "doi": "10.1146/annurev-micro-090110-102925",
+            "pmid": "21639788",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Rowley, G, Spector, M, Kormanec, J, et al. Pushing the envelope: extracytoplasmic stress responses in bacterial pathogens. Nat Rev Microbiol. 2006; 4: 383–394. PMID: 16715050",
+            "process_entry": "True",
+            "doi": "10.1038/nrmicro1394",
+            "pmid": "16715050",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Raivio, TL. Everything old is new again: an update on current research on the Cpx envelope stress response. Biochim Biophys Acta. 2014; 1843: 1529–1541. PMID: 24184210",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamcr.2013.10.018",
+            "pmid": "24184210",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hunke, S, Keller, R, Muller, VS. Signal integration by the Cpx-envelope stress system. FEMS Microbiol Lett. 2012; 326: 12–22. PMID: 22092888",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-6968.2011.02436.x",
+            "pmid": "22092888",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Bury-Mone, S, Nomane, Y, Reymond, N, et al. Global analysis of extracytoplasmic stress signaling in Escherichia coli. PLoS Genet. 2009; 5: e1000651. PMID: 19763168",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pgen.1000651",
+            "pmid": "19763168",
+            "pmcid": "PMC2731931",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Vogt, SL, Evans, AD, Guest, RL, et al. The Cpx envelope stress response regulates and is regulated by small noncoding RNAs. J Bacteriol. 2014; 196: 4229–4238. PMID: 25246476",
+            "process_entry": "True",
+            "doi": "10.1128/JB.02138-14",
+            "pmid": "25246476",
+            "pmcid": "PMC4248847",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Labandeira-Rey, M, Brautigam, CA, Hansen, EJ. Characterization of the CpxRA regulon in Haemophilus ducreyi. Infect Immun. 2010; 78: 4779–4791. PMID: 20805330",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00678-10",
+            "pmid": "20805330",
+            "pmcid": "PMC2976327",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Dbeibo, L, van Rensburg, JJ, Smith, SN, et al. Evaluation of CpxRA as a therapeutic target for uropathogenic Escherichia coli infections. Infect Immun. 2018; 86(3). pii: e00798–17. PMID: 29311237",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00798-17",
+            "pmid": "29311237",
+            "pmcid": "PMC5820967",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Chao, Y, Vogel, J. A 3ʹ UTR-derived small RNA provides the regulatory noncoding arm of the inner membrane stress response. Mol Cell. 2016; 61: 352–363. PMID: 26805574",
+            "process_entry": "True",
+            "doi": "10.1016/j.molcel.2015.12.023",
+            "pmid": "26805574",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Grabowicz, M, Koren, D, Silhavy, TJ. The CpxQ sRNA negatively regulates skp to prevent mistargeting of beta-barrel outer membrane proteins into the cytoplasmic membrane. MBio. 2016; 7: e00312–16. PMID: 27048800",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00312-16",
+            "pmid": "27048800",
+            "pmcid": "PMC4817254",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Surmann, K, Cudic, E, Hammer, E, et al. Molecular and proteome analyses highlight the importance of the Cpx envelope stress system for acid stress and cell wall stability in Escherichia coli. Microbiologyopen. 2016; 5: 582–596. PMID: 27039284",
+            "process_entry": "True",
+            "doi": "10.1002/mbo3.353",
+            "pmid": "27039284",
+            "pmcid": "PMC4985592",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Delhaye, A, Collet, JF, Laloux, G. Fine-tuning of the Cpx envelope stress response is required for cell wall homeostasis in Escherichia coli. MBio. 2016; 7: e00047–16. PMID: 26908573",
+            "process_entry": "True",
+            "doi": "10.1128/mBio.00047-16",
+            "pmid": "26908573",
+            "pmcid": "PMC4791840",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Guest, RL, Wang, J, Wong, JL, et al. A bacterial stress response regulates respiratory protein complexes to control envelope stress adaptation. J Bacteriol. 2017; 199(20). pii: e00153–17. PMID: 28760851",
+            "process_entry": "True",
+            "doi": "10.1128/JB.00153-17",
+            "pmid": "28760851",
+            "pmcid": "PMC5637174",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Price, NL, Raivio, TL. Characterization of the Cpx regulon in Escherichia coli strain MC4100. J Bacteriol. 2009; 191: 1798–1815. PMID: 19103922",
+            "process_entry": "True",
+            "doi": "10.1128/JB.00798-08",
+            "pmid": "19103922",
+            "pmcid": "PMC2648356",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Humphreys, S, Rowley, G, Stevenson, A, et al. Role of the two-component regulator CpxAR in the virulence of Salmonella enterica serotype Typhimurium. Infect Immun. 2004; 72: 4654–4661. PMID: 15271926",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.72.8.4654-4661.2004",
+            "pmid": "15271926",
+            "pmcid": "PMC470642",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Debnath, I, Norton, JP, Barber, AE, et al. The Cpx stress response system potentiates the fitness and virulence of uropathogenic Escherichia coli. Infect Immun. 2013; 81: 1450–1459. PMID: 23429541",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01213-12",
+            "pmid": "23429541",
+            "pmcid": "PMC3647988",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Bontemps-Gallo, S, Madec, E, Lacroix, JM. The two-component system CpxAR is essential for virulence in the phytopathogen bacteria Dickeya dadantii EC3937. Environ Microbiol. 2015; 17(11): 4415–4428. PMID: 25856505",
+            "process_entry": "True",
+            "doi": "10.1111/1462-2920.12874",
+            "pmid": "25856505",
+            "pmcid": "PMC4600041",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Thomassin, JL, Giannakopoulou, N, Zhu, L, et al. The CpxRA two-component system is essential for Citrobacter rodentium virulence. Infect Immun. 2015; 83: 1919–1928. PMID: 25712925",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00194-15",
+            "pmid": "25712925",
+            "pmcid": "PMC4399039",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Tanner, JR, Li, L, Faucher, SP, et al. The CpxRA two-component system contributes to Legionella pneumophila virulence. Mol Microbiol. 2016; 100: 1017–1038. PMID: 26934669",
+            "process_entry": "True",
+            "doi": "10.1111/mmi.13365",
+            "pmid": "26934669",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Nakayama, S, Watanabe, H. Involvement of cpxA, a sensor of a two-component regulatory system, in the pH-dependent regulation of expression of Shigella sonnei virF gene. J Bacteriol. 1995; 177: 5062–5069. PMID: 7665485",
+            "process_entry": "True",
+            "doi": "10.1128/jb.177.17.5062-5069.1995",
+            "pmid": "7665485",
+            "pmcid": "PMC177285",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Gangaiah, D, Raterman, EL, Wu, H, et al. Both MisR (CpxR) and MisS (CpxA) are required for Neisseria gonorrhoeae infection in a murine model of lower genital tract infection. Infect Immun. 2017; 85(9). pii: e00307–17. PMID: 28652307",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00307-17",
+            "pmid": "28652307",
+            "pmcid": "PMC5563589",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Li, H, Liu, F, Peng, W, et al. The CpxA/CpxR two-component system affects biofilm formation and virulence in Actinobacillus pleuropneumoniae. Front Cell Infect Microbiol. 2018; 8: 72. PMID: 29662838",
+            "process_entry": "True",
+            "doi": "10.3389/fcimb.2018.00072",
+            "pmid": "29662838",
+            "pmcid": "PMC5890194",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "van Rensburg, JJ, Fortney, KR, Chen, L, et al. Development and validation of a high-throughput cell-based screen to identify activators of a bacterial two-component signal transduction system. Antimicrob Agents Chemother. 2015; 59: 3789–3799. PMID: 25870061",
+            "process_entry": "True",
+            "doi": "10.1128/AAC.00236-15",
+            "pmid": "25870061",
+            "pmcid": "PMC4468680",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "De Wulf, P, Akerley, BJ, Lin, EC. Presence of the Cpx system in bacteria. Microbiology. 2000; 146(Pt 2): 247–248. PMID: 10708362",
+            "process_entry": "True",
+            "doi": "10.1099/00221287-146-2-247",
+            "pmid": "10708362",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Raivio, TL, Silhavy, TJ. Transduction of envelope stress in Escherichia coli by the Cpx two-component system. J Bacteriol. 1997; 179: 7724–7733. PMID: 9401031",
+            "process_entry": "True",
+            "doi": "10.1128/jb.179.24.7724-7733.1997",
+            "pmid": "9401031",
+            "pmcid": "PMC179735",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Raivio, TL, Popkin, DL, Silhavy, TJ. The Cpx envelope stress response is controlled by amplification and feedback inhibition. J Bacteriol. 1999; 181: 5263–5272. PMID: 10464196",
+            "process_entry": "True",
+            "pmid": "10464196",
+            "pmcid": "PMC94031",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Zhou, X, Keller, R, Volkmer, R, et al. Structural basis for two-component system inhibition and pilus sensing by the auxiliary CpxP protein. J Biol Chem. 2011; 286: 9805–9814. PMID: 21239493",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M110.194092",
+            "pmid": "21239493",
+            "pmcid": "PMC3059015",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Cosma, CL, Danese, PN, Carlson, JH, et al. Mutational activation of the Cpx signal transduction pathway of Escherichia coli suppresses the toxicity conferred by certain envelope-associated stresses. Mol Microbiol. 1995; 18: 491–505. PMID: 8748033",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.1995.mmi_18030491.x",
+            "pmid": "8748033",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Pogliano, J, Dong, JM, De Wulf, P, et al. Aberrant cell division and random ftsz ring positioning in escherichia coli cpxA* mutants. J Bacteriol. 1998; 180: 3486–3490. PMID: 9642209",
+            "process_entry": "True",
+            "pmid": "9642209",
+            "pmcid": "PMC107311",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "De Wulf, P, Lin, EC. Cpx two-component signal transduction in Escherichia coli: excessive CpxR-P levels underlie CpxA* phenotypes. J Bacteriol. 2000; 182: 1423–1426. PMID: 10671468",
+            "process_entry": "True",
+            "doi": "10.1128/jb.182.5.1423-1426.2000",
+            "pmid": "10671468",
+            "pmcid": "PMC94433",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "De Wulf, P, Kwon, O, Lin, EC. The CpxRA signal transduction system of Escherichia coli: growth-related autoactivation and control of unanticipated target operons. J Bacteriol. 1999; 181: 6772–6778. PMID: 10542180",
+            "process_entry": "True",
+            "pmid": "10542180",
+            "pmcid": "PMC94143",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Danese, PN, Snyder, WB, Cosma, CL, et al. The Cpx two-component signal transduction pathway of Escherichia coli regulates transcription of the gene specifying the stress-inducible periplasmic protease, DegP. Genes Dev. 1995; 9: 387–398. PMID: 7883164",
+            "process_entry": "True",
+            "doi": "10.1101/gad.9.4.387",
+            "pmid": "7883164",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Danese, PN, Silhavy, TJ. CpxP, a stress-combative member of the Cpx regulon. J Bacteriol. 1998; 180: 831–839. PMID: 9473036",
+            "process_entry": "True",
+            "pmid": "9473036",
+            "pmcid": "PMC106961",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Danese, PN, Murphy, CK, Silhavy, TJ. Multicopy suppression of cold-sensitive sec mutations in Escherichia coli. J Bacteriol. 1995; 177: 4969–4973. PMID: 7665473",
+            "process_entry": "True",
+            "doi": "10.1128/jb.177.17.4969-4973.1995",
+            "pmid": "7665473",
+            "pmcid": "PMC177272",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Pogliano, J, Lynch, AS, Belin, D, et al. Regulation of Escherichia coli cell envelope proteins involved in protein folding and degradation by the Cpx two-component system. Genes Dev. 1997; 11: 1169–1182. PMID: 9159398",
+            "process_entry": "True",
+            "doi": "10.1101/gad.11.9.1169",
+            "pmid": "9159398",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Lima, BP, Lennon, CW, Ross, W, et al. In vitro evidence that RNA polymerase acetylation and acetyl phosphate-dependent CpxR phosphorylation affect cpxP transcription regulation. FEMS Microbiol Lett. 2016; 363: fnw011. PMID: 26790713",
+            "process_entry": "True",
+            "doi": "10.1093/femsle/fnw011",
+            "pmid": "26790713",
+            "pmcid": "PMC4902867",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Wolfe, AJ. Physiologically relevant small phosphodonors link metabolism to signal transduction. Curr Opin Microbiol. 2010; 13: 204–209. PMID: 20117041",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2010.01.002",
+            "pmid": "20117041",
+            "pmcid": "PMC2847653",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Zietz, BP, Dunkelberg, H. The history of the plague and the research on the causative agent Yersinia pestis. Int J Hyg Environ Health. 2004; 207: 165–178. PMID: 15031959",
+            "process_entry": "True",
+            "doi": "10.1078/1438-4639-00259",
+            "pmid": "15031959",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Galindo, CL, Rosenzweig, JA, Kirtley, ML, et al. Pathogenesis of Y. enterocolitica and Y. pseudotuberculosis in human yersiniosis. J Pathog. 2011; 2011: 182051. PMID: 22567322",
+            "process_entry": "True",
+            "doi": "10.4061/2011/182051",
+            "pmid": "22567322",
+            "pmcid": "PMC3335670",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Mikula, KM, Kolodziejczyk, R, Goldman, A. Yersinia infection tools-characterization of structure and function of adhesins. Front Cell Infect Microbiol. 2013; 2: 169. PMID: 23316485",
+            "process_entry": "True",
+            "doi": "10.3389/fcimb.2012.00169",
+            "pmid": "23316485",
+            "pmcid": "PMC3539135",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Grassl, GA, Bohn, E, Muller, Y, et al. Interaction of Yersinia enterocolitica with epithelial cells: invasin beyond invasion. Int J Med Microbiol. 2003; 293: 41–54. PMID: 12755365",
+            "process_entry": "True",
+            "doi": "10.1078/1438-4221-00243",
+            "pmid": "12755365",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Carlsson, KE, Liu, J, Edqvist, PJ, et al. Influence of the Cpx extracytoplasmic-stress-responsive pathway on Yersinia sp-eukaryotic cell contact. Infect Immun. 2007; 75: 4386–4399. PMID: 17620356",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01450-06",
+            "pmid": "17620356",
+            "pmcid": "PMC1951158",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Ellison, DW, Miller, VL. H-NS represses inv transcription in Yersinia enterocolitica through competition with RovA and interaction with YmoA. J Bacteriol. 2006; 188: 5101–5112. PMID: 16816182",
+            "process_entry": "True",
+            "doi": "10.1128/JB.00862-05",
+            "pmid": "16816182",
+            "pmcid": "PMC1539963",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Heroven, AK, Nagel, G, Tran, HJ, et al. RovA is autoregulated and antagonizes H-NS-mediated silencing of invasin and rovA expression in Yersinia pseudotuberculosis. Mol Microbiol. 2004; 53: 871–888. PMID: 15255899",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2004.04162.x",
+            "pmid": "15255899",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Nagel, G, Lahrz, A, Dersch, P. Environmental control of invasin expression in Yersinia pseudotuberculosis is mediated by regulation of RovA, a transcriptional activator of the SlyA/Hor family. Mol Microbiol. 2001; 41: 1249–1269. PMID: 11580832",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2001.02522.x",
+            "pmid": "11580832",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Revell, PA, Miller, VL. A chromosomally encoded regulator is required for expression of the Yersinia enterocolitica inv gene and for virulence. Mol Microbiol. 2000; 35: 677–685. PMID: 10672189",
+            "process_entry": "True",
+            "doi": "10.1046/j.1365-2958.2000.01740.x",
+            "pmid": "10672189",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Quade, N, Mendonca, C, Herbst, K, et al. Structural basis for intrinsic thermosensing by the master virulence regulator RovA of Yersinia. J Biol Chem. 2012; 287: 35796–35803. PMID: 22936808",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M112.379156",
+            "pmid": "22936808",
+            "pmcid": "PMC3476249",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Herbst, K, Bujara, M, Heroven, AK, et al. Intrinsic thermal sensing controls proteolysis of Yersinia virulence regulator RovA. PLoS Pathog. 2009; 5: e1000435. PMID: 19468295",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1000435",
+            "pmid": "19468295",
+            "pmcid": "PMC2676509",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Ellison, DW, Miller, VL. Regulation of virulence by members of the MarR/SlyA family. Curr Opin Microbiol. 2006; 9: 153–159. PMID: 16529980",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2006.02.003",
+            "pmid": "16529980",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Cathelyn, JS, Ellison, DW, Hinchliffe, SJ, et al. The RovA regulons of Yersinia enterocolitica and Yersinia pestis are distinct: evidence that many RovA-regulated genes were acquired more recently than the core genome. Mol Microbiol. 2007; 66: 189–205. PMID: 17784909",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2007.05907.x",
+            "pmid": "17784909",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Yang, F, Ke, Y, Tan, Y, et al. Cell membrane is impaired, accompanied by enhanced type III secretion system expression in Yersinia pestis deficient in RovA regulator. PLoS One. 2010; 5: e12840. PMID: 20862262",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0012840",
+            "pmid": "20862262",
+            "pmcid": "PMC2941471",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Zhang, Y, Gao, H, Wang, L, et al. Molecular characterization of transcriptional regulation of rovA by PhoP and RovA in Yersinia pestis. PLoS One. 2011; 6: e25484. PMID: 21966533",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0025484",
+            "pmid": "21966533",
+            "pmcid": "PMC3180457",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Heroven, AK, Dersch, P. RovM, a novel LysR-type regulator of the virulence activator gene rovA, controls cell invasion, virulence and motility of Yersinia pseudotuberculosis. Mol Microbiol. 2006; 62: 1469–1483. PMID: 17074075",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2006.05458.x",
+            "pmid": "17074075",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Heroven, AK, Sest, M, Pisano, F, et al. Crp induces switching of the CsrB and CsrC RNAs in Yersinia pseudotuberculosis and links nutritional status to virulence. Front Cell Infect Microbiol. 2012; 2: 158. PMID: 23251905",
+            "process_entry": "True",
+            "doi": "10.3389/fcimb.2012.00158",
+            "pmid": "23251905",
+            "pmcid": "PMC3523269",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Lawrenz, MB, Miller, VL. Comparative analysis of the regulation of rovA from the pathogenic yersiniae. J Bacteriol. 2007; 189: 5963–5975. PMID: 17573476",
+            "process_entry": "True",
+            "doi": "10.1128/JB.00528-07",
+            "pmid": "17573476",
+            "pmcid": "PMC1952055",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Nuss, AM, Schuster, F, Kathrin Heroven, A, et al. A direct link between the global regulator PhoP and the Csr regulon in Y. pseudotuberculosis through the small regulatory RNA CsrC. RNA Biol. 2014; 11: 580–593. PMID: 24786463",
+            "process_entry": "True",
+            "doi": "10.4161/rna.28676",
+            "pmid": "24786463",
+            "pmcid": "PMC4152364",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "Liu, J, Obi, IR, Thanikkal, EJ, et al. Phosphorylated CpxR restricts production of the RovA global regulator in Yersinia pseudotuberculosis. PLoS One. 2011; 6: e23314. PMID: 21876746",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0023314",
+            "pmid": "21876746",
+            "pmcid": "PMC3158067",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "Nuss, AM, Schuster, F, Roselius, L, et al. A precise temperature-responsive bistable switch controlling Yersinia virulence. PLoS Pathog. 2016; 12: e1006091. PMID: 28006011",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1006091",
+            "pmid": "28006011",
+            "pmcid": "PMC5179001",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Heroven, AK, Bohme, K, Rohde, M, et al. A Csr-type regulatory system, including small non-coding RNAs, regulates the global virulence regulator RovA of Yersinia pseudotuberculosis through RovM. Mol Microbiol. 2008; 68: 1179–1195. PMID: 18430141",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2008.06218.x",
+            "pmid": "18430141",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Dai, Q, Xu, L, Xiao, L, et al. RovM and CsrA negatively regulate urease expression in Yersinia pseudotuberculosis. Front Microbiol. 2018; 9: 348. PMID: 29535702",
+            "process_entry": "True",
+            "doi": "10.3389/fmicb.2018.00348",
+            "pmid": "29535702",
+            "pmcid": "PMC5835112",
+            "xmlid": "CIT0063"
+        },
+        {
+            "bibentry": "Zhao, R, Song, Y, Dai, Q, et al. A starvation-induced regulator, RovM, acts as a switch for planktonic/biofilm state transition in Yersinia pseudotuberculosis. Sci Rep. 2017; 7: 639. PMID: 28377623",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-017-00534-9",
+            "pmid": "28377623",
+            "pmcid": "PMC5428675",
+            "xmlid": "CIT0064"
+        },
+        {
+            "bibentry": "Song, Y, Xiao, X, Li, C, et al. The dual transcriptional regulator RovM regulates the expression of AR3-and T6SS4-dependent acid survival systems in response to nutritional status in Yersinia pseudotuberculosis. Environ Microbiol. 2015; 17(11): 4631–4645. PMID: 26234561",
+            "process_entry": "True",
+            "doi": "10.1111/1462-2920.12996",
+            "pmid": "26234561",
+            "xmlid": "CIT0065"
+        },
+        {
+            "bibentry": "Vadyvaloo, V, Hinz, AK. A LysR-Type transcriptional regulator, RovM, Senses nutritional cues suggesting that it is involved in metabolic adaptation of Yersinia pestis to the flea gut. PLoS One. 2015; 10: e0137508. PMID: 26348850",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0137508",
+            "pmid": "26348850",
+            "pmcid": "PMC4562620",
+            "xmlid": "CIT0066"
+        },
+        {
+            "bibentry": "Liu, L, Fang, H, Yang, H, et al. Reciprocal regulation of Yersinia pestis biofilm formation and virulence by RovM and RovA. Open Biol. 2016; 6.",
+            "process_entry": "True",
+            "xmlid": "CIT0067"
+        },
+        {
+            "bibentry": "Raivio, TL. Envelope stress responses and Gram-negative bacterial pathogenesis. Mol Microbiol. 2005; 56: 1119–1128. PMID: 15882407",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2958.2005.04625.x",
+            "pmid": "15882407",
+            "xmlid": "CIT0068"
+        },
+        {
+            "bibentry": "Dorel, C, Lejeune, P, Rodrigue, A. The Cpx system of Escherichia coli, a strategic signaling pathway for confronting adverse conditions and for settling biofilm communities? Res Microbiol. 2006; 157: 306–314. PMID: 16487683",
+            "process_entry": "True",
+            "doi": "10.1016/j.resmic.2005.12.003",
+            "pmid": "16487683",
+            "xmlid": "CIT0069"
+        },
+        {
+            "bibentry": "Flores-Kim, J, Darwin, AJ. Links between type III secretion and extracytoplasmic stress responses in Yersinia. Front Cell Infect Microbiol. 2012; 2: 125. PMID: 23087910",
+            "process_entry": "True",
+            "doi": "10.3389/fcimb.2012.00125",
+            "pmid": "23087910",
+            "pmcid": "PMC3467454",
+            "xmlid": "CIT0070"
+        },
+        {
+            "bibentry": "Liu, J, Thanikkal, EJ, Obi, IR, et al. Elevated CpxR~P levels repress the Ysc-Yop type III secretion system of Yersinia pseudotuberculosis. Res Microbiol. 2012; 163: 518–530. PMID: 22842077",
+            "process_entry": "True",
+            "doi": "10.1016/j.resmic.2012.07.010",
+            "pmid": "22842077",
+            "xmlid": "CIT0071"
+        },
+        {
+            "bibentry": "DiGiuseppe, PA, Silhavy, TJ. Signal detection and target gene induction by the CpxRA two-component system. J Bacteriol. 2003; 185: 2432–2440. PMID: 12670966",
+            "process_entry": "True",
+            "doi": "10.1128/JB.185.8.2432-2440.2003",
+            "pmid": "12670966",
+            "pmcid": "PMC152615",
+            "xmlid": "CIT0072"
+        },
+        {
+            "bibentry": "Carlsson, KE, Liu, J, Edqvist, PJ, et al. Extracytoplasmic-stress-responsive pathways modulate type III secretion in Yersinia pseudotuberculosis. Infect Immun. 2007; 75: 3913–3924. PMID: 17517869",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.01346-06",
+            "pmid": "17517869",
+            "pmcid": "PMC1951977",
+            "xmlid": "CIT0073"
+        },
+        {
+            "bibentry": "Yamamoto, K, Ishihama, A. Characterization of copper-inducible promoters regulated by CpxA/CpxR in Escherichia coli. Biosci Biotechnol Biochem. 2006; 70: 1688–1695. PMID: 16861804",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.60024",
+            "pmid": "16861804",
+            "xmlid": "CIT0074"
+        },
+        {
+            "bibentry": "De Wulf, P, McGuire, AM, Liu, X, et al. Genome-wide profiling of promoter recognition by the two-component response regulator CpxR-P in Escherichia coli. J Biol Chem. 2002; 277: 26652–26661. PMID: 11953442",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m203487200",
+            "pmid": "11953442",
+            "xmlid": "CIT0075"
+        },
+        {
+            "bibentry": "Avican, K, Fahlgren, A, Huss, M, et al. Reprogramming of Yersinia from virulent to persistent mode revealed by complex in vivo RNA-seq analysis. PLoS Pathog. 2015; 11: e1004600. PMID: 25590628",
+            "process_entry": "True",
+            "doi": "10.1371/journal.ppat.1004600",
+            "pmid": "25590628",
+            "pmcid": "PMC4295882",
+            "xmlid": "CIT0076"
+        },
+        {
+            "bibentry": "Horne, SM, Pruss, BM. Global gene regulation in Yersinia enterocolitica: effect of FliA on the expression levels of flagellar and plasmid-encoded virulence genes. Arch Microbiol. 2006; 185: 115–126. PMID: 16404569",
+            "process_entry": "True",
+            "doi": "10.1007/s00203-005-0077-1",
+            "pmid": "16404569",
+            "xmlid": "CIT0077"
+        },
+        {
+            "bibentry": "Volz, K. Structural conservation in the CheY superfamily. Biochemistry. 1993; 32: 11741–11753. PMID: 8218244",
+            "process_entry": "True",
+            "doi": "10.1021/bi00095a001",
+            "pmid": "8218244",
+            "xmlid": "CIT0078"
+        },
+        {
+            "bibentry": "Galperin, MY. Diversity of structure and function of response regulator output domains. Curr Opin Microbiol. 2010; 13: 150–159. PMID: 20226724",
+            "process_entry": "True",
+            "doi": "10.1016/j.mib.2010.01.005",
+            "pmid": "20226724",
+            "pmcid": "PMC3086695",
+            "xmlid": "CIT0079"
+        },
+        {
+            "bibentry": "Barbieri, CM, Wu, T, Stock, AM. Comprehensive analysis of OmpR phosphorylation, dimerization, and DNA binding supports a canonical model for activation. J Mol Biol. 2013; 425: 1612–1626. PMID: 23399542",
+            "process_entry": "True",
+            "doi": "10.1016/j.jmb.2013.02.003",
+            "pmid": "23399542",
+            "pmcid": "PMC3646996",
+            "xmlid": "CIT0080"
+        },
+        {
+            "bibentry": "Jubelin, G, Vianney, A, Beloin, C, et al. CpxR/OmpR interplay regulates curli gene expression in response to osmolarity in Escherichia coli. J Bacteriol. 2005; 187: 2038–2049. PMID: 15743952",
+            "process_entry": "True",
+            "doi": "10.1128/JB.187.6.2038-2049.2005",
+            "pmid": "15743952",
+            "pmcid": "PMC1064031",
+            "xmlid": "CIT0081"
+        },
+        {
+            "bibentry": "Bölin, I, Wolf-Watz, H. Molecular cloning of the temperature-inducible outer membrane protein 1 of Yersinia pseudotuberculosis. Infect Immun. 1984; 43: 72–78. PMID: 6317574",
+            "process_entry": "True",
+            "pmid": "6317574",
+            "pmcid": "PMC263390",
+            "xmlid": "CIT0082"
+        },
+        {
+            "bibentry": "Grabenstein, JP, Marceau, M, Pujol, C, et al. The response regulator PhoP of Yersinia pseudotuberculosis is important for replication in macrophages and for virulence. Infect Immun. 2004; 72: 4973–4984. PMID: 15321989",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.72.9.4973-4984.2004",
+            "pmid": "15321989",
+            "pmcid": "PMC517447",
+            "xmlid": "CIT0083"
+        },
+        {
+            "bibentry": "Wolfe, AJ, Parikh, N, Lima, BP, et al. Signal integration by the two-component signal transduction response regulator CpxR. J Bacteriol. 2008; 190: 2314–2322. PMID: 18223085",
+            "process_entry": "True",
+            "doi": "10.1128/JB.01906-07",
+            "pmid": "18223085",
+            "pmcid": "PMC2293188",
+            "xmlid": "CIT0084"
+        },
+        {
+            "bibentry": "Higuchi, R, Krummel, B, Saiki, RK. A general method of in vitro preparation and specific mutagenesis of DNA fragments: study of protein and DNA interactions. Nucleic Acids Res. 1988; 16: 7351–7367. PMID: 3045756",
+            "process_entry": "True",
+            "doi": "10.1093/nar/16.15.7351",
+            "pmid": "3045756",
+            "pmcid": "PMC338413",
+            "xmlid": "CIT0085"
+        },
+        {
+            "bibentry": "Francis, MS, Amer, AA, Milton, DL, et al. Site-directed mutagenesis and its application in studying the interactions of T3S components. Methods Mol Biol. 2017; 1531: 11–31. PMID: 27837478",
+            "process_entry": "True",
+            "doi": "10.1007/978-1-4939-6649-3_2",
+            "pmid": "27837478",
+            "xmlid": "CIT0086"
+        },
+        {
+            "bibentry": "Schneider, CA, Rasband, WS, Eliceiri, KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012; 9: 671–675. PMID: 22930834",
+            "process_entry": "True",
+            "doi": "10.1038/nmeth.2089",
+            "pmid": "22930834",
+            "pmcid": "PMC5554542",
+            "xmlid": "CIT0087"
+        },
+        {
+            "bibentry": "Pogliano, J, Dong, JM, De Wulf, P, et al. Aberrant cell division and random FtsZ ring positioning in Escherichia coli cpxA* mutants. J Bacteriol. 1998; 180: 3486–3490. PMID: 9642209",
+            "process_entry": "True",
+            "pmid": "9642209",
+            "pmcid": "PMC107311",
+            "xmlid": "CIT0088"
+        }
+    ],
+    "localid": "MED-30518290",
+    "doi": "10.1080/21505594.2018.1556151",
+    "pmid": "10.1080/21505594.2018.1556151",
+    "pmcid": "30518290",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30518290/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "",
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "",
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "",
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "",
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),516,236)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),746,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,178)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),341,6)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "",
+                "pl_string": "[8–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),341,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "[8–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),341,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,178)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,178)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),341,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),349,195)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),349,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),536,7)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),349,195)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),536,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,162)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),155,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,162)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),155,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),164,256)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),421,203)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),616,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "[12–15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),616,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),421,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "",
+                "pl_string": "[12–15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),616,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),421,203)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),421,203)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12–15]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),616,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),625,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),760,6)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),625,142)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[8,17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),760,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,262)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11,18–25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),252,10)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,262)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11,18–25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),252,10)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,262)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[11,18–25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),252,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),264,165)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),430,270)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,261)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,261)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),251,10)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,261)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),251,10)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,261)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[14,29,30]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),251,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),263,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[28, 31–35]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),463,11)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),263,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[28,31–35]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),463,10)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),263,212)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[28, 31–35]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),463,11)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),476,290)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[28,36–40]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),755,10)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),476,290)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[28,36–40]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),755,10)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),476,290)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[28,36–40]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),755,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),122,166)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),289,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),680,174)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[43,44]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),846,7)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),680,174)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[43,44]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),846,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "",
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 44,
+                "xref_id": "",
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "",
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "",
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 47,
+                "xref_id": "",
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),855,117)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[45–51]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),964,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),1,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),98,228)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[53,54]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),318,7)"
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),98,228)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[53,54]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),318,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),327,148)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[47,55]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),467,7)"
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),327,148)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[47,55]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),467,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),476,371)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[46,47,55–59]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),833,13)"
+            },
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),476,371)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[46,47,55–59]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),833,13)"
+            },
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),476,371)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[46,47,55–59]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),833,13)"
+            },
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),476,371)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[46,47,55–59]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),833,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),848,177)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[45,60]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),1017,7)"
+            },
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),848,177)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[45,60]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[7]),1017,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),1026,191)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[1]/p[7]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[7]),1218,224)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),1,89)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),220,309)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),530,310)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[57,59,62,63]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),826,13)"
+            },
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),530,310)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[57,59,62,63]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),826,13)"
+            },
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),530,310)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[57,59,62,63]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),826,13)"
+            },
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),530,310)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[57,59,62,63]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),826,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0064",
+                "rp_string": "64",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),985,120)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[64–67]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),1097,7)"
+            },
+            {
+                "n_rp": 69,
+                "xref_id": "",
+                "pl_string": "[64–67]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),1097,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),985,120)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 70,
+                "xref_id": "",
+                "pl_string": "[64–67]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),1097,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),985,120)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[1]/p[8]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[8]),985,120)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[64–67]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[8]),1097,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[1]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,128)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[45,60]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[9]),121,7)"
+            },
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[1]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[9]),1,128)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[45,60]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[9]),121,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),119,185)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[4,5,68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),292,11)"
+            },
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),119,185)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[4,5,68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),292,11)"
+            },
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0068",
+                "rp_string": "68",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),119,185)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[4,5,68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),292,11)"
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0070",
+                "rp_string": "70",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),119,185)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[4,5,68–70]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),292,11)"
+            }
+        ],
+        [
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),305,112)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),409,7)"
+            },
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),305,112)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),409,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),418,155)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),565,7)"
+            },
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),418,155)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),565,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),574,168)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),743,163)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,167)",
+                "containers_title": [
+                    "Results",
+                    "Elevated RovM levels in a CpxA phosphatase defective mutant"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),120,99)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),211,7)"
+            },
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),120,99)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),211,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),128,241)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),361,7)"
+            },
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),128,241)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),361,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),370,252)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[2]),1512,239)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,152)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),82,7)"
+            },
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,152)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),82,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,152)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[28,31]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),145,7)"
+            },
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),1,152)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[28,31]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),145,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),154,204)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),350,7)"
+            },
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),154,204)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[3]),350,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1,203)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[29,34,72]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),193,10)"
+            },
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1,203)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[29,34,72]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),193,10)"
+            },
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),1,203)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[29,34,72]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[4]),193,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),314,157)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),463,7)"
+            },
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),314,157)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ],
+                "pl_string": "[60,71]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),463,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 102,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),1132,123)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 103,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[5]),1256,234)",
+                "containers_title": [
+                    "Results",
+                    "Active CpxR isoform affects positively RovM accumulation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 104,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),411,141)",
+                "containers_title": [
+                    "Results",
+                    "Accumulated CpxR~P induces transcription from the rovM promoter"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 105,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1366,109)",
+                "containers_title": [
+                    "Results",
+                    "Accumulated CpxR~P induces transcription from the rovM promoter"
+                ],
+                "pl_string": "[56,62]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1467,7)"
+            },
+            {
+                "n_rp": 106,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1366,109)",
+                "containers_title": [
+                    "Results",
+                    "Accumulated CpxR~P induces transcription from the rovM promoter"
+                ],
+                "pl_string": "[56,62]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1467,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 107,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[56,57,62]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),129,10)"
+            },
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[56,57,62]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),129,10)"
+            },
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[56,57,62]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),129,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[45–49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),224,7)"
+            },
+            {
+                "n_rp": 111,
+                "xref_id": "",
+                "pl_string": "[45–49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),224,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ]
+            },
+            {
+                "n_rp": 112,
+                "xref_id": "",
+                "pl_string": "[45–49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),224,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ]
+            },
+            {
+                "n_rp": 113,
+                "xref_id": "",
+                "pl_string": "[45–49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),224,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ]
+            },
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,231)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[45–49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),224,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),233,139)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[49,56]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),364,7)"
+            },
+            {
+                "n_rp": 116,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),233,139)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[49,56]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),364,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 117,
+                "xref_id": "CIT0074",
+                "rp_string": "74",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,97)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[74,75]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),90,7)"
+            },
+            {
+                "n_rp": 118,
+                "xref_id": "CIT0075",
+                "rp_string": "75",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,97)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ],
+                "pl_string": "[74,75]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),90,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 119,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),99,146)",
+                "containers_title": [
+                    "Results",
+                    "Direct CpxR~P interaction with regulatory sequences within the rovM promoter"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 120,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),634,147)",
+                "containers_title": [
+                    "Results",
+                    "CpxR~P binding is required for endogenous rovM transcription"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 121,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),84,152)",
+                "containers_title": [
+                    "Results",
+                    "RovM and CpxR~P both contribute towards transcriptional silencing of rovA"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 122,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[1]),84,152)",
+                "containers_title": [
+                    "Results",
+                    "RovM and CpxR~P both contribute towards transcriptional silencing of rovA"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 123,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[2]),551,30)",
+                "containers_title": [
+                    "Results",
+                    "RovM and CpxR~P both contribute towards transcriptional silencing of rovA"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 124,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p[2]),638,320)",
+                "containers_title": [
+                    "Results",
+                    "RovM and CpxR~P both contribute towards transcriptional silencing of rovA"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 125,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 126,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),200,206)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 127,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),407,275)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[57,62]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),674,7)"
+            },
+            {
+                "n_rp": 128,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),407,275)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[57,62]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),674,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 129,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),683,103)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 130,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),787,176)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 131,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),964,119)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 132,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),1,201)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 133,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),532,206)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 134,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),902,364)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[45,60,71,73]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),1252,13)"
+            },
+            {
+                "n_rp": 135,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),902,364)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[45,60,71,73]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),1252,13)"
+            },
+            {
+                "n_rp": 136,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),902,364)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[45,60,71,73]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),1252,13)"
+            },
+            {
+                "n_rp": 137,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),902,364)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[45,60,71,73]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[2]),1252,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 138,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),1,169)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 139,
+                "xref_id": "CIT0078",
+                "rp_string": "78",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,77)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[78,79]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),70,7)"
+            },
+            {
+                "n_rp": 140,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,77)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[78,79]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),70,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 141,
+                "xref_id": "CIT0080",
+                "rp_string": "80",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),233,166)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 142,
+                "xref_id": "CIT0080",
+                "rp_string": "80",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),400,235)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 143,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1243,129)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 144,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),329,214)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 145,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),544,204)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 146,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),933,122)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[17,81]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),1047,7)"
+            },
+            {
+                "n_rp": 147,
+                "xref_id": "CIT0081",
+                "rp_string": "81",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),933,122)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[17,81]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),1047,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 148,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[47,56]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[6]),181,7)"
+            },
+            {
+                "n_rp": 149,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[47,56]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[6]),181,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 150,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[45,60]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[6]),241,7)"
+            },
+            {
+                "n_rp": 151,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),1,248)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[45,60]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[6]),241,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 152,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),250,142)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 153,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),527,88)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 154,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),616,125)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 155,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),742,201)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 156,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[3]/p[6]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[6]),944,157)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 157,
+                "xref_id": "CIT0082",
+                "rp_string": "82",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),235,157)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 158,
+                "xref_id": "CIT0083",
+                "rp_string": "83",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),393,112)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 159,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1408,97)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 160,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1506,171)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[11,34,84]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1666,10)"
+            },
+            {
+                "n_rp": 161,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1506,171)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[11,34,84]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1666,10)"
+            },
+            {
+                "n_rp": 162,
+                "xref_id": "CIT0084",
+                "rp_string": "84",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1506,171)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[11,34,84]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1666,10)"
+            }
+        ],
+        [
+            {
+                "n_rp": 163,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1678,142)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[56,62,64,65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1806,13)"
+            },
+            {
+                "n_rp": 164,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1678,142)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[56,62,64,65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1806,13)"
+            },
+            {
+                "n_rp": 165,
+                "xref_id": "CIT0064",
+                "rp_string": "64",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1678,142)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[56,62,64,65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1806,13)"
+            },
+            {
+                "n_rp": 166,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1678,142)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains, plasmids and growth conditions"
+                ],
+                "pl_string": "[56,62,64,65]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/sec[1]/p),1806,13)"
+            }
+        ],
+        [
+            {
+                "n_rp": 167,
+                "xref_id": "CIT0085",
+                "rp_string": "85",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),1,163)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Mutant construction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 168,
+                "xref_id": "CIT0086",
+                "rp_string": "86",
+                "rp_xpath": "/article/body/sec[4]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[2]/p),726,206)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Mutant construction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 169,
+                "xref_id": "CIT0087",
+                "rp_string": "87",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p[2]),1,135)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Protein production and western blot analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 170,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[4]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[6]/p),990,85)",
+                "containers_title": [
+                    "Materials and methods",
+                    "DNA foot-printing"
+                ]
+            }
+        ]
+    ]
+}

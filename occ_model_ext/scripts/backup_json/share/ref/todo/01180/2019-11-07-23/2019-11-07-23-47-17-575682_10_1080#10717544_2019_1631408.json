@@ -1,0 +1,808 @@
+{
+    "references": [
+        {
+            "bibentry": "Andrade, F, Das, NJ, Gener, P, et al. (2015). Biological assessment of self-assembled polymeric micelles for pulmonary administration of insulin. Nanomed Nanotechnol Biol Med 11: 1621–31.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Angelo, R, Rousseau, K, Grant, M, et al. (2009). Technosphere(R) insulin: defining the role of technosphere particles at the cellular level. J Diabetes Sci Technol 3: 545–54. PMID: 20144294",
+            "process_entry": "True",
+            "doi": "10.1177/193229680900300320",
+            "pmid": "20144294",
+            "pmcid": "PMC2769873",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Becker, RH, Frick, AD (2008). Clinical pharmacokinetics and pharmacodynamics of insulin glulisine. Clin Pharmacokinet 47: 7–20. PMID: 18076215",
+            "process_entry": "True",
+            "doi": "10.2165/00003088-200847010-00002",
+            "pmid": "18076215",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Cai, L, Zhu, Z (2007). Progress in non-invasive routes for insulin preparations. J China Pharm Univ 38: 105–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Cassidy, JP, Amin, N, Marino, M, et al. (2011). Insulin lung deposition and clearance following Technosphere ® insulin inhalation powder administration. Pharm Res 28: 2157–64. PMID: 21491144",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-011-0443-4",
+            "pmid": "21491144",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Chan, HK (2006). Dry powder aerosol delivery systems: current and future research directions. J Aerosol Med 19: 21–7. PMID: 16551211",
+            "process_entry": "True",
+            "doi": "10.1089/jam.2006.19.21",
+            "pmid": "16551211",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Chvatal, A, Ambrus, R, Party, P, et al. (2019). Formulation and comparison of spray dried non-porous and large porous particles containing meloxicam for pulmonary drug delivery. Int J Pharm 559: 68–75. PMID: 30677482",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2019.01.034",
+            "pmid": "30677482",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Courrier, HM, Butz, N, Vandamme, TF (2002). Pulmonary drug delivery systems: recent developments and prospects. Crit Rev Ther Drug Carrier Syst 19: 425. PMID: 12661699",
+            "process_entry": "True",
+            "doi": "10.1615/critrevtherdrugcarriersyst.v19.i45.40",
+            "pmid": "12661699",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Cuvelier, B, Eloy, P, Loira, C, et al. (2015). Minimal amounts of dipalmitoylphosphatidylcholine improve aerosol performance of spray-dried temocillin powders for inhalation. Int J Pharm 495: 981–90. PMID: 26456267",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2015.10.019",
+            "pmid": "26456267",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Fantasia, HC (2015). Inhaled insulin –a new delivery for an old drug. Nurs Womens Health 19: 67–70. PMID: 25690817",
+            "process_entry": "True",
+            "doi": "10.1111/1751-486x.12177",
+            "pmid": "25690817",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Flament, MP, Leterme, P, Gayot, A (2004). The influence of carrier roughness on adhesion, content uniformity and the in vitro deposition of terbutaline sulphate from dry powder inhalers. Int J Pharm 275: 201–9. PMID: 15081150",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2004.02.002",
+            "pmid": "15081150",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Frid, AH, Hirsch, LJ, Menchior, AR, et al. (2016). Worldwide injection technique questionnaire study: injecting complications and the role of the professional. Mayo Clin Proc 91: 1224–30. PMID: 27594186",
+            "process_entry": "True",
+            "doi": "10.1016/j.mayocp.2016.06.012",
+            "pmid": "27594186",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Harsch, IA (2005). Inhaled insulins: their potential in the treatment of diabetes mellitus. Treat Endocrinol 4: 131–8. PMID: 15898818",
+            "process_entry": "True",
+            "doi": "10.2165/00024677-200504030-00001",
+            "pmid": "15898818",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Healy, AM, Amaro, MI, Paluch, KJ, et al. (2014). Dry powders for oral inhalation free of lactose carrier particles. Adv Drug Deliv Rev 75: 32–52. PMID: 24735676",
+            "process_entry": "True",
+            "doi": "10.1016/j.addr.2014.04.005",
+            "pmid": "24735676",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Hickey, A. Pharmaceutical inhalation aerosol technology. 2nd ed. Boca Raton, FL: CRC Press 2003.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Hovelmann, U, Heise, T, Nosek, L, et al. (2017). Pharmacokinetic properties of fast-acting insulin aspart administered in different subcutaneous injection regions. Clin Drug Investig 37: 503–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Ishii, H, Niiya, T, Ono, Y, et al. (2017). Improvement of quality of life through glycemic control by liraglutide, a GLP-1 analog, in insulin-naive patients with type 2 diabetes mellitus: the PAGE1 study. Diabetol Metab Syndr 9: 3. PMID: 28074109",
+            "process_entry": "True",
+            "doi": "10.1186/s13098-016-0202-0",
+            "pmid": "28074109",
+            "pmcid": "PMC5219656",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Jiang, Z, Shi, D, Tu, Y, et al. (2018). Human proislet peptide promotes pancreatic progenitor cells to ameliorate diabetes via FOXO1/menin-mediated epigenetic regulation. Diabetes 67: 1345–55. PMID: 29716892",
+            "process_entry": "True",
+            "doi": "10.2337/db17-0885",
+            "pmid": "29716892",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Liang, HR, Tang, HW, Luo, H, Hu, DL (2006). Evaluation of experimental rat model of diabetic nephropathy induced by streptozotocin (STZ). Appl Prev Med 12: 133–5.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Liu, XB, Ye, JX, Quan, LH, et al. (2008). Pulmonary delivery of scutellarin solution and mucoadhesive particles in rats. Eur J Pharm Biopharm 70: 845–52. PMID: 18675905",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejpb.2008.07.004",
+            "pmid": "18675905",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Maker, AV, Sheikh, R, Bhagia, V (2017). Perioperative management of endocrine insufficiency after total pancreatectomy for neoplasia. Langenbecks Arch Surg 402: 873–83. PMID: 28733926",
+            "process_entry": "True",
+            "doi": "10.1007/s00423-017-1603-8",
+            "pmid": "28733926",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Nagai, Y, Ohshige, T, Arai, K, et al. (2013). Comparison between shorter straight and thinner microtapered insulin injection needles. Diabetes Technol Ther 15: 550–5. PMID: 23621793",
+            "process_entry": "True",
+            "doi": "10.1089/dia.2012.0334",
+            "pmid": "23621793",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Olivera, EM, Elbert, A, Lercari, JM, et al. (1996). [Current situation of diabetic patients in hemodialysis in Buenos Aires]. Medicina (Buenos Aires) 56: 657–65.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Pilcer, G, Amighi, K (2010). Formulation strategy and use of excipients in pulmonary drug delivery. Int J Pharm 392: 1–19. PMID: 20223286",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2010.03.017",
+            "pmid": "20223286",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Pilcer, G, Wauthoz, N, Amighi, K (2012). Lactose characteristics and the generation of the aerosol. Adv Drug Deliv Rev 64: 233–56. PMID: 21616107",
+            "process_entry": "True",
+            "doi": "10.1016/j.addr.2011.05.003",
+            "pmid": "21616107",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Potocka, E, Cassidy, JP, Haworth, P, et al. (2010). Pharmacokinetic characterization of the novel pulmonary delivery excipient fumaryl diketopiperazine. J Diabetes Sci Technol 4: 1164–73. PMID: 20920436",
+            "process_entry": "True",
+            "doi": "10.1177/193229681000400515",
+            "pmid": "20920436",
+            "pmcid": "PMC2956823",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Qian, H, Rui-Ming, LU. (2015). Current situation and progress of study on diabetes. Med Recapitulate 21:1.",
+            "process_entry": "True",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Rendell, M (2014). Technosphere Inhaled Insulin (Afrezza). Drugs Today 50: 813–28. PMID: 25588086",
+            "process_entry": "True",
+            "doi": "10.1358/dot.2014.50.12.2233894",
+            "pmid": "25588086",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Savill, JS, Wyllie, AH, Henson, JE, et al. (1989). Macrophage phagocytosis of aging neutrophils in inflammation. Programmed cell death in the neutrophil leads to its recognition by macrophages. J Clin Invest 83: 865–75. PMID: 2921324",
+            "process_entry": "True",
+            "doi": "10.1172/jci113970",
+            "pmid": "2921324",
+            "pmcid": "PMC303760",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Shi, J, Lin, W, Liao, H (2012). Optimization of preparation technology for Gefen instant granule by Z-comprehensive scoring method. Chin J Exp Tradition Med Formulae 18: 56–9.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Stegemann, S, Kopp, S, Borchard, G, et al. (2013). Developing and advancing dry powder inhalation towards enhanced therapeutics. Eur J Pharm Sci 48: 181–94. PMID: 23142635",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejps.2012.10.021",
+            "pmid": "23142635",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Vartiainen, V, Bimbo, LM, Hirvonen, J, et al. (2016). Drug permeation and cellular interaction of amino acid-coated drug combination powders for pulmonary delivery. Int J Pharm 504: 89–97. PMID: 27034001",
+            "process_entry": "True",
+            "doi": "10.1016/j.ijpharm.2016.03.052",
+            "pmid": "27034001",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Wang, Q, Mi, G, Hickey, D, et al. (2018). Azithromycin-loaded respirable microparticles for targeted pulmonary delivery for the treatment of pneumonia. Biomaterials 160: 107–23. PMID: 29407340",
+            "process_entry": "True",
+            "doi": "10.1016/j.biomaterials.2018.01.022",
+            "pmid": "29407340",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Wang, ZW, Lei, H (2011). Clinical research on aerosolizing insulin inhalation in the treatment of smear positive pulmonary tuberculosis with diabetes. Med J Chin People’s Health 23: 3–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Wenzel, P, Daiber, A, Oelze, M, et al. (2008). Mechanisms underlying recoupling of eNOS by HMG-CoA reductase inhibition in a rat model of streptozotocin-induced diabetes mellitus. Atherosclerosis 198: 65–76. PMID: 18061195",
+            "process_entry": "True",
+            "doi": "10.1016/j.atherosclerosis.2007.10.003",
+            "pmid": "18061195",
+            "pmcid": "PMC2889614",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Wong, TW (2009). Chitosan and its use in design of insulin delivery system. Recent Pat Drug Deliv Formul 3: 8–25. PMID: 19149726",
+            "process_entry": "True",
+            "doi": "10.2174/187221109787158346",
+            "pmid": "19149726",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Xue, W, Liu, X, Yu, W, et al. (2006). Preparation of protein-loaded microspheres with size < =10 μm by electrostatic droplet generation technology. Chin Sci Bull 51: 279–86.",
+            "process_entry": "True",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Zeng, XM, Pandhal, KH, Martin, GP (2000). The influence of lactose carrier on the content homogeneity and dispersibility of beclomethasone dipropionate from dry powder aerosols. Int J Pharm 197: 41–52. PMID: 10704792",
+            "process_entry": "True",
+            "doi": "10.1016/s0378-5173(99)00400-7",
+            "pmid": "10704792",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Zhang, L, Bi, R, Zhang, N (2008). Studies on the non-invasive ways of delivery of protein polypeptides. Chin J Pharm Anal 28: 333–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        }
+    ],
+    "localid": "MED-31257946",
+    "doi": "10.1080/10717544.2019.1631408",
+    "pmid": "10.1080/10717544.2019.1631408",
+    "pmcid": "31257946",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31257946/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0023",
+                "rp_string": "1996",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,213)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0022",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),368,214)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0018",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),726,180)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0016",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0012",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),131,240)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0004",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),372,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cai & Zhu,2007; Ishii et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),471,36)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0017",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),372,137)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Cai & Zhu, 2007; Ishii et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),471,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0037",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),510,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Xue et al.,2006; Wong, 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),688,29)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0036",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),510,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Xue et al., 2006; Wong,2009)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),688,29)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0039",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),720,369)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al.,2008; Stegemann et al., 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1044,43)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0031",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),720,369)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zhang et al., 2008; Stegemann et al.,2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1044,43)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0013",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1218,548)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0001",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1218,548)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0006",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1767,175)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chan,2006; Wang & Lei, 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1911,29)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0034",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1767,175)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Chan, 2006; Wang & Lei,2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),1911,29)"
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0014",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1943,294)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Healy et al.,2014; Chvatal et al., 2019)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),2194,41)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0007",
+                "rp_string": "2019",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1943,294)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Healy et al., 2014; Chvatal et al.,2019)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),2194,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0014",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Pilcer & Amighi,2010; Healy et al., 2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),148,42)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0014",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,191)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Pilcer & Amighi, 2010; Healy et al.,2014)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),148,42)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0025",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),193,115)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0038",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),309,278)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zeng et al.,2000; Hickey, 2003)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),553,32)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0015",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),309,278)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zeng et al., 2000; Hickey,2003)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),553,32)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0033",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),588,225)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0028",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,274)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Rendell,2014; Maker et al., 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),239,34)"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0021",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,274)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Rendell, 2014; Maker et al.,2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),239,34)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0002",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),276,202)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0020",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),479,235)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0010",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1079,239)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0026",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0033",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,162)",
+                "containers_title": [
+                    "Material and methods",
+                    "Synthesis of FDKP"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0033",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),230,249)",
+                "containers_title": [
+                    "Material and methods",
+                    "Preparation of ISN-loaded FDKP microparticle powder (ISN@FDKP-MPs)"
+                ],
+                "pl_string": "(Wang et al.,2018; Shi et al., 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),441,36)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),230,249)",
+                "containers_title": [
+                    "Material and methods",
+                    "Preparation of ISN-loaded FDKP microparticle powder (ISN@FDKP-MPs)"
+                ],
+                "pl_string": "(Wang et al., 2018; Shi et al.,2012)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),441,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0003",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),249,315)",
+                "containers_title": [
+                    "Material and methods",
+                    "Orthogonal design optimization of spray drying process for the preparation of INS@FDKP-MPs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0008",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[2]/sec[13]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[13]/p),78,406)",
+                "containers_title": [
+                    "Material and methods",
+                    "Safety of ISN@FDKP-MPs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0011",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),420,187)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0032",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),221,222)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0008",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),444,367)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0005",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),91,201)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0009",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),85,176)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0019",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),553,106)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0035",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),154,240)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0029",
+                "rp_string": "1989",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),559,195)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0033",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[11]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[11]),1,126)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

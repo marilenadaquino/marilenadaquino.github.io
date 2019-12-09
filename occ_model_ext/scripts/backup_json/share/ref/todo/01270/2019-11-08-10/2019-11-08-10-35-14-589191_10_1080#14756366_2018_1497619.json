@@ -1,0 +1,585 @@
+{
+    "references": [
+        {
+            "bibentry": "Smith, BD, Smith, GL, Hurria, A, et al. Future of cancer incidence in the United States: burdens upon an aging, changing nation. J Clin Oncol 2009; 27: 2758–65. PMID: 19403886",
+            "process_entry": "True",
+            "doi": "10.1200/jco.2008.20.8983",
+            "pmid": "19403886",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Ishida, J, Wang, HK, Bastow, KF, et al. Antitumor agents 201. Cytotoxicity of harmine and beta-carboline analogs. Bioorg Med Chem Lett 1999; 9: 3319–24. PMID: 10612592",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(99)00598-3",
+            "pmid": "10612592",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cao, RH, Chen, Q, Hou, XR, et al. Synthesis, acute toxicities and antitumor effects of novel 9-substituted β-carboline derivatives. Bioorg Med Chem 2004; 12: 4613–23. PMID: 15358288",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2004.06.038",
+            "pmid": "15358288",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Cao, RH, Guan, XD, Shi, BX, et al. Design, synthesis and 3D-QSAR of beta-carboline derivatives as potent antitumor agents. Eur J Med Chem 2010; 45: 2503–15. PMID: 20304536",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2010.02.036",
+            "pmid": "20304536",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Cao, RH, Fan, WX, Guo, L, et al. Synthesis and structure-activity relationships of harmine derivatives as potential antitumor agents. Eur J Med Chem 2013; 60: 135–43. PMID: 23291116",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2012.11.045",
+            "pmid": "23291116",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Shankaraiah, N, Siraj, KP, Nekkanti, S, et al. DNA-binding affinity and anticancer activity of β-carboline–chalcone conjugates as potential DNA intercalators: molecular modelling and synthesis. Bioorg Chem 2015; 59: 130–9. PMID: 25771335",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2015.02.007",
+            "pmid": "25771335",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "TAIRA, Z, KANZAWA, S, DOHARA, C, et al. Intercalation of six β-carboline derivatives into DNA. J Toxicol Environ Health 1997; 43: 83–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Cao, RH, Peng, WL, Chen, HS, et al. DNA binding properties of 9-substituted harmine derivatives. Biochem Biophys Res Commun 2005; 338: 1557–63. PMID: 16288723",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2005.10.121",
+            "pmid": "16288723",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Kamal, A, Sathish, M, Nayak, VL, et al. Design and synthesis of dithiocarbamate linked β-carboline derivatives: DNA topoisomerase II inhibition with DNA binding and apoptosis inducing ability. Bioorg Med Chem 2015; 23: 5511–26. PMID: 26264845",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2015.07.037",
+            "pmid": "26264845",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Figueiredo, PO, Perdomo, RT, Garcez, FR, et al. Further constituents of Galianthe thalictroides (Rubiaceae) and inhibition of DNA topoisomerases I and IIa by its cytotoxic β-carboline alkaloids. Bioorg Med Chem Lett 2014; 24: 1358–61. PMID: 24507920",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2014.01.039",
+            "pmid": "24507920",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Song, YC, Kesuma, D, Wang, J, et al. Specific inhibition of cyclin-dependent kinases and cell proliferation by harmine. Biochem Biophys Res Commun 2004; 317: 128–32. PMID: 15047157",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2004.03.019",
+            "pmid": "15047157",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Li, Y, Liang, FS, Jiang, W, et al. DH334, a beta-carboline anti-cancer drug, inhibits the CDK activity of budding yeast. Cancer Biol Ther 2007; 6: 1193–9. PMID: 17622795",
+            "process_entry": "True",
+            "pmid": "17622795",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Zhang, J, Li, Y, Guo, L, et al. DH166, a beta-carboline derivative, inhibits the kinase activity of PLK1. Cancer Biol Ther 2009; 8: 2374–83. PMID: 19855194",
+            "process_entry": "True",
+            "doi": "10.4161/cbt.8.24.10182",
+            "pmid": "19855194",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Insaf, F, Mohamed, AB, Aymen, BN, et al. Synthesis, cytotoxic, anti-lipoxygenase and anti-acetylcholinesterase capacities of novel derivatives from harmine. J Enzyme Inhib Med Chem 2016; 31: 23–33.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Insaf, F, Jalloul, B, Mansour, Z, et al. Synthesis of new isoxazoline derivatives from harmine and evaluation of their anti-Alzheimer, anti-cancer and anti-inflammatory activities. J Enzyme Inhib Med Chem 2015; 30: 371–6. PMID: 25068731",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2014.940932",
+            "pmid": "25068731",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Castro, AC, Dang, LC, Soucy, F, et al. Novel IKK inhibitors: β-carbolines. Bioorg Med Chem Lett 2003; 13: 2419–22. PMID: 12824047",
+            "process_entry": "True",
+            "doi": "10.1016/s0960-894x(03)00408-6",
+            "pmid": "12824047",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Posner, GH, D'Angelo, J, O'Neill, PM, et al. Anticancer activity of artemisinin-derived trioxanes. Expert Opin Ther Pat 2006; 16: 1665–72.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Alagbala, AA, McRiner, AJ, Borstnik, K, et al. Biological mechanisms of action of novel C-10 non-acetal trioxane dimers in prostate cancer cell lines. J Med Chem 2006; 49: 7836–42. PMID: 17181166",
+            "process_entry": "True",
+            "doi": "10.1021/jm060803i",
+            "pmid": "17181166",
+            "pmcid": "PMC5545891",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Posner, GH, McRiner, AJ, Paik, IH, et al. Anticancer and antimalarial efficacy and safety of artemisinin-derived trioxane dimers in rodents. J Med Chem 2004; 47: 1299–301. PMID: 14971910",
+            "process_entry": "True",
+            "doi": "10.1021/jm0303711",
+            "pmid": "14971910",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Jung, M, Lee, S, Ham, J, et al. Antitumor activity of novel deoxoartemisinin monomers, dimers, and trimer. J Med Chem 2003; 46: 987–94. PMID: 12620075",
+            "process_entry": "True",
+            "doi": "10.1021/jm020119d",
+            "pmid": "12620075",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Shi, BX, Cao, RH, Fan, WX, et al. Design, synthesis and in vitro and in vivo antitumor activities of novel bivalent β-carbolines. Eur J Med Chem 2013; 60: 10–22. PMID: 23279863",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2012.11.033",
+            "pmid": "23279863",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Wu, QF, Bai, ZS, Ma, Q, et al. Synthesis and biological evaluation of novel bivalent β-carbolines as potential antitumor agents. Med Chem Commun 2014; 5: 953–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Guo, L, Cao, RH, Fan, WX, et al. Design, synthesis and in vitro antitumor activities of novel bivalent β-carbolines. Chem J Chin Univer 2013; 60: 10–99.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Guo, L, Chen, W, Fan, WX, et al. Synthesis and preliminary evaluation of novel alkyl diamine linked bivalent β-carbolines as angiogenesis inhibitors. Med Chem Commun 2016; 7: 2177–83.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Chen, W, Zhang, GX, Guo, L, et al. Synthesis and biological evaluation of novel alkyl diamine linked bivalent β-carbolines as angiogenesis inhibitors. Eur J Med Chem 2016; 124: 249–61. PMID: 27592394",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.08.050",
+            "pmid": "27592394",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Sun, RQ, Liu, R, Zhou, C, et al. Synthesis and biological evaluation of piperazine group-linked bivalent β-carbolines as potential antitumor agents. Med Chem Commun 2015; 6: 2170–4.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Daoud, A, Song, J, Xiao, FY, et al. B-9-3, a novel β-carboline derivative exhibits anti-cancer activity via induction of apoptosis and inhibition of cell migration in vitro. Eur J Pharmacol 2014; 724: 219–30. PMID: 24380828",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2013.12.038",
+            "pmid": "24380828",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Ma, Q, Chen, W, Chen, W. Anti-tumor angiogenesis effect of a new compound: B-9-3 through interference with VEGFR2 signaling. Tumour Biol 2016; 37: 6107–16. PMID: 26611645",
+            "process_entry": "True",
+            "doi": "10.1007/s13277-015-4473-0",
+            "pmid": "26611645",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Xinjiang Huashidan Pharmaceutical Research Co, Ltd. EP 1634881 A1, 2006.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Reddy, POV, Mishra, S, Tantak, MP, et al. Design, synthesis and in vitro cytotoxicity studies of novel β-carbolinium bromides. Bioorg Med Chem Lett 2017; 27: 1379–84. PMID: 28254167",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2017.02.010",
+            "pmid": "28254167",
+            "pmcid": "PMC6368682",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Hadjaz, F, Yous, S, Lebegue, N, et al. A mild and efficient route to 2-benzyl tryptamine derivatives via ring-opening of β-carbolines. Tetrahedron 2008; 64: 10004–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Wu, QF, Cao, RH, Feng, MX, et al. Synthesis and in vitro cytotoxic evaluation of novel 3,4,5-trimethoxyphenyl substituted β-carboline derivatives. Eur J Med Chem 2009; 44: 533–40. PMID: 18462839",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2008.03.030",
+            "pmid": "18462839",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Du, HT, Tian, S, Chen, JC, et al. Synthesis and biological evaluation of N 9-substituted harmine derivatives as potential anticancer agents. Bioorg Med Chem Lett 2016; 26: 4015–9. PMID: 27397495",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2016.06.087",
+            "pmid": "27397495",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Kassa, J, Vachek, J. A comparison of the efficacy of pyridostigmine alone and the combination of pyridostigmine with anticholinergic drugs as pharmacological pretreatment of tabun-poisoned rats and mice. Toxicology 2002; 177: 179–85. PMID: 12135621",
+            "process_entry": "True",
+            "doi": "10.1016/s0300-483x(02)00219-6",
+            "pmid": "12135621",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-30734606",
+    "doi": "10.1080/14756366.2018.1497619",
+    "pmid": "10.1080/14756366.2018.1497619",
+    "pmcid": "30734606",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30734606/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),347,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),347,137)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0002",
+                "rp_string": "2–5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),485,139)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0006",
+                "rp_string": "6–8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),625,287)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Peganum harmala L. have been traditionally used for hundreds of years to treat the alimentary tract cancers and malaria in Northwest China. Harmine, originally isolated from the seeds of Peganum harmala L. in 1847, is the most representative natural occurring β-carboline alkaloid, having a common tricyclic pyrido [3,4-b] indole ring structure. In the past several decades, it has confirmed that harmine was the important active ingredients to treat the alimentary tract cancers2,3. Recent reports demonstrated that harmine and its derivatives had remarkable antitumor activities, together with potential neurotoxicity2–5. Moreover, it has been reported that harmine and its derivatives can exert antitumor activities through multiple mechanisms, such as DNA binding6–8, inhibition topoisomerases I and II9,10, CDK (cyclin-dependent kinase)11,12, PLK1 (polo-like kinase)13, lipoxygenase14,15 and IκB kinases16.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0017",
+                "rp_string": "17–20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,219)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0021",
+                "rp_string": "21–26",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),327,306)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),634,129)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),897,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),99,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ],
+                "pl_string": "All reagents were purchased from commercial suppliers and were dried and purified when necessary. The following intermediates 3a-3b29, 3c-3e21, 3f30, 3g31, 3h32, 4g-4h33 were prepared as previously described.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),99,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ],
+                "pl_string": "All reagents were purchased from commercial suppliers and were dried and purified when necessary. The following intermediates 3a-3b29, 3c-3e21, 3f30, 3g31, 3h32, 4g-4h33 were prepared as previously described.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),99,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ],
+                "pl_string": "All reagents were purchased from commercial suppliers and were dried and purified when necessary. The following intermediates 3a-3b29, 3c-3e21, 3f30, 3g31, 3h32, 4g-4h33 were prepared as previously described.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),99,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ],
+                "pl_string": "All reagents were purchased from commercial suppliers and were dried and purified when necessary. The following intermediates 3a-3b29, 3c-3e21, 3f30, 3g31, 3h32, 4g-4h33 were prepared as previously described.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),99,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ],
+                "pl_string": "All reagents were purchased from commercial suppliers and were dried and purified when necessary. The following intermediates 3a-3b29, 3c-3e21, 3f30, 3g31, 3h32, 4g-4h33 were prepared as previously described.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),99,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ],
+                "pl_string": "All reagents were purchased from commercial suppliers and were dried and purified when necessary. The following intermediates 3a-3b29, 3c-3e21, 3f30, 3g31, 3h32, 4g-4h33 were prepared as previously described.",
+                "pl_xpath": "/article/body/sec[2]/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),1,97)",
+                "containers_title": [
+                    "Biological evaluation",
+                    "In vitro cell growth inhibition assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1403,55)",
+                "containers_title": [
+                    "Biological evaluation",
+                    "Assay of acute toxicities"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[1]),151,252)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[1]),151,252)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p[1]),244,343)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Evaluation of antitumor activity of N9-heterobivalent β-carbolines in vivo"
+                ]
+            }
+        ]
+    ]
+}

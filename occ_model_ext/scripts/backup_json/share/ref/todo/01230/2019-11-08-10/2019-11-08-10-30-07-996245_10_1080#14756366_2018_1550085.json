@@ -1,0 +1,900 @@
+{
+    "references": [
+        {
+            "bibentry": "Holohan, C, Van Schaeybroeck, S, Longley, DB, Johnston, PG. Cancer drug resistance: an evolving paradigm. Nat Rev Cancer 2013; 13: 717–26.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Hurwitz, M. Chemotherapy in prostate cancer. Curr Oncol Rep 2015; 17: 44. PMID: 26216506",
+            "process_entry": "True",
+            "doi": "10.1007/s11912-015-0468-7",
+            "pmid": "26216506",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Prasad, V, De Jesús, K, Mailankody, S. The high price of anticancer drugs: origins, implications, barriers, solutions. Nat Rev Clin Oncol 2017; 14: 381–90. PMID: 28290490",
+            "process_entry": "True",
+            "doi": "10.1038/nrclinonc.2017.31",
+            "pmid": "28290490",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Li, WL, Sun, HH, Xu, ST, et al. Tubulin inhibitors targeting the colchicine binding site: a perspectiveof privileged structures. Future Med Chem 2017; 9: 1765–94. PMID: 28929799",
+            "process_entry": "True",
+            "doi": "10.4155/fmc-2017-0100",
+            "pmid": "28929799",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Lu, Y, Chen, J, Xiao, M, et al. An overview of tubulin inhibitors that interact with the colchicine binding site. Pharm Res 2012; 29: 2943–71. PMID: 22814904",
+            "process_entry": "True",
+            "doi": "10.1007/s11095-012-0828-z",
+            "pmid": "22814904",
+            "pmcid": "PMC3667160",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Perez, EA. Microtubule inhibitors: differentiating tubulin-inhibiting agents based on mechanisms of action, clinical activity, and resistance. Mol Cancer Therap 2009; 8: 2086–95. PMID: 19671735",
+            "process_entry": "True",
+            "doi": "10.1158/1535-7163.mct-09-0366",
+            "pmid": "19671735",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Kaur, R, Kaur, G, Gill, RK, et al. Recent developments in tubulin polymerization inhibitors: an overview. Eur J Med Chem 2014; 87: 89–124. PMID: 25240869",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.09.051",
+            "pmid": "25240869",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Bhattacharyya, B, Panda, D, Gupta, S, Banerjee, M. Anti-mitotic activity of colchicine and the structural basis for its interaction with tubulin. Med Res Rev 2008; 28: 155–83. PMID: 17464966",
+            "process_entry": "True",
+            "doi": "10.1002/med.20097",
+            "pmid": "17464966",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Lin, CM, Ho, HH, Pettit, GR, Hamel, E. Antimitotic natural products combretastatin A-4 and combretastatin A-2: studies on the mechanism of their inhibition of the binding of colchicine to tubulin. Biochemistry 1989; 28: 6984–91. PMID: 2819042",
+            "process_entry": "True",
+            "doi": "10.1021/bi00443a031",
+            "pmid": "2819042",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Gigant, B, Wang, C, Ravelli, RBG, et al. Structural basis for the regulation of tubulin by vinblastine. Nature 2005; 435: 519–22. PMID: 15917812",
+            "process_entry": "True",
+            "doi": "10.1038/nature03566",
+            "pmid": "15917812",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Sherbet, GV. Suppression of angiogenesis and tumour progression by combretastatin and derivatives. Cancer Lett 2017; 403: 289–95. PMID: 28688972",
+            "process_entry": "True",
+            "doi": "10.1016/j.canlet.2017.06.032",
+            "pmid": "28688972",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Pettit, GR, Toki, B, Herald, DL, et al. Antineoplastic agents. 379. Synthesis of phenstatin phosphate. J Med Chem 1998; 41: 1688–95. PMID: 9572894",
+            "process_entry": "True",
+            "doi": "10.1021/jm970644q",
+            "pmid": "9572894",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Pettit, GR, Grealish, MP, Herald, DL, et al. Antineoplastic agents. 443. Synthesis of the cancer cell growth inhibitor hydroxyphenstatin and its sodium diphosphate prodrug. J Med Chem 2000; 43: 2731–7. PMID: 10893310",
+            "process_entry": "True",
+            "doi": "10.1021/jm000045a",
+            "pmid": "10893310",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Dumontet, C, Jordan, MA. Microtubule-binding agents: a dynamic field of cancer therapeutics. Nat Rev Drug Disc 2010; 9: 790–803.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Jordan, MA, Wilson, L. Microtubules as a target for anticancer drugs. Nat Rev Cancer 2004; 4: 253–65. PMID: 15057285",
+            "process_entry": "True",
+            "doi": "10.1038/nrc1317",
+            "pmid": "15057285",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Nepali, K, Ojha, R, Sharma, S, et al. Tubulin inhibitors: a patent survey. Recent Pat Anticancer Drug Discov 2014; 9: 176–220. PMID: 23746164",
+            "process_entry": "True",
+            "doi": "10.2174/15748928113089990042",
+            "pmid": "23746164",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Marx, MA. Small-molecule, tubulin-binding compounds as vascular targeting agents. Expert Opin Ther Pat 2002; 12: 769–76.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Ojha, R, Sharma, S, Nepali, K. Anticancer agents targeting tubulin In, Zaman K, Atta-Ur-Rahman, eds. Topics in anticancer research. Oak Park, Illinois: Bentham Science; 2015: 156–270.",
+            "process_entry": "True",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Gholap, SS. Pyrrole: an emerging scaffold for construction of valuable therapeutic agents. Eur J Med Chem 2016; 110: 13–31. PMID: 26807541",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2015.12.017",
+            "pmid": "26807541",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Zbancioc, GN, Mangalagiu, II. Pyrrolopyridazine derivatives as blue organic luminophores: synthesis and properties. Part 2. Tetrahedron 2010; 66: 278–82.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Mitsumori, T, Bendikov, M, Sedo, J, Wudl, F. Synthesis and properties of novel highly fluorescent pyrrolopyridazine derivatives. Chem Mater 2003; 15: 3759–68.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "El Guesmi, N, Ahmed, SA, Althagafi, II, Khairou, KS. Photochromism of dihydroindolizines. Part XXI: multiaddressable photochromic performances based on pyrrolo[1,2-b]pyridazine photochromes: kinetics, substituent effect and solvatochromism. J Photochem Photobiol A 2017; 346: 287–95.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Mangalagiu, II. Recent achievements in the chemistry of 1,2-diazine. Curr Org Chem 2011; 15: 730–52.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Wermuth, CG. Are pyridazines privileged structures. Med Chem Comm 2011; 2: 935–41.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Butnariu, RM, Mangalagiu, II. New pyridazine derivatives: synthesis, chemistry and biological activity. Bioorg Med Chem 2009; 17: 2823–9. PMID: 19272782",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2009.02.028",
+            "pmid": "19272782",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Caprosu, MD, Butnariu, RM, Mangalagiu, II. Synthesis and antimicrobial activity of some new pyridazine derivatives. Heterocycles 2005; 65: 1971–879.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Antoci, V, Mantu, D, Cozma, DG, et al. Hybrid anticancer 1,2-diazine derivatives with multiple mechanism of action. Part 3. Med Hypotheses 2014; 82: 11–5. PMID: 24239342",
+            "process_entry": "True",
+            "doi": "10.1016/j.mehy.2013.10.024",
+            "pmid": "24239342",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Mantu, D, Maftei, D, Iurea, D, et al. Synthesis, structure and in vitro anticancer activity of new polycyclic 1,2-diazine. Med Chem Res 2014; 3: 2909–15.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Duan, JJ, Lu, Z, Jiang, B, et al. Discovery of pyrrolo[1,2-b]pyridazine-3-carboxamides as Janus kinase (JAK) inhibitors. Bioorg Med Chem Lett 2014; 24: 5721–6. PMID: 25453808",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2014.10.061",
+            "pmid": "25453808",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Tang, PC, Feng, J, Huang, J, et al. Discovery of pyrrolopyridazines as novel DGAT1 inhibitors. Bioorg Med Chem Lett 2009; 20: 6030–3.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Lim, J, Altman, MD, Baker, J, et al. Identification of N-(1H-pyrazol-4-yl)carboxamide inhibitors of interleukin-1 receptor associated kinase 4: bicyclic core modifications. Bioorg Med Chem Lett 2015; 25: 5384–8. PMID: 26403930",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2015.09.028",
+            "pmid": "26403930",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Chen, Z, Kim, SH, Barbosa, SA, et al. Pyrrolopyridazine MEK inhibitors. Bioorg Med Chem Lett 2006; 16: 628–32. PMID: 16275076",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2005.10.052",
+            "pmid": "16275076",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Ghinet, A, Abuhaie, CM, Gautret, P, et al. Studies on indolizines. Evaluation of their biological properties as microtubule-interacting agents and as melanoma targeting compounds. Eur J Med Chem 2015; 89: 115–27. PMID: 25462232",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.10.041",
+            "pmid": "25462232",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Frolova, LV, Magedov, IV, Romero, AE, et al. Exploring natural product chemistry and biology with multicomponent reactions. Discovery of a novel tubulin-targeting scaffold derived from the rigidin family of marine alkaloids. J Med Chem 2013; 56: 6886–900. PMID: 23927793",
+            "process_entry": "True",
+            "doi": "10.1021/jm400711t",
+            "pmid": "23927793",
+            "pmcid": "PMC3915529",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Zbancioc, GN, Caprosu, MC, Moldoveanu, CC, et al. Microwave assisted 1,3-dipolar cycloaddition reactions of 2-(4-halobenzoyl) phthalazinium methylides. Rev Roum Chim 2005; 50: 353–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Zbancioc, G, Mangalagiu, II. Microwave-assisted synthesis of highly fluorescent pyrrolopyridazine derivatives. Synlett 2006; 5: 804–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Caprosu, MC, Zbancioc, GN, Moldoveanu, CC, Mangalagiu, II. 3-dipolar cycloaddition reactions of p-halogenophenyl-phthalazinium ylides to activated alkenes and alkynes. Collect Czech Chem C 2004; 69: 426–34.",
+            "process_entry": "True",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Roman, M, Mangalagiu, II, Caprosu, M, Petrovanu, M. Studies on 3-methylpyridazinium ylides. Analele Stiintifice Ale Universitatii “Al. I. Cuza” Din Iasi, Chimie 1999; 7: 117–22. [Chem. Abstr. 132 (2000) 207810].",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Mangalagiu, II, Druta, I, Constantinescu, M, et al. Pyridazinium ylides. Regiochem Tetrahedron 1996; 52: 8853–62.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Trott, O, Olson, AJ. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J Comput Chem 2010; 31: 455–61. PMID: 19499576",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.21334",
+            "pmid": "19499576",
+            "pmcid": "PMC3041641",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Ravelli, RBG, Gigant, B, Curmi, PA, et al. Insight into tubulin regulation from a complex with colchicine and a stathmin-like domain. Nature 2004; 428: 198–202. PMID: 15014504",
+            "process_entry": "True",
+            "doi": "10.1038/nature02393",
+            "pmid": "15014504",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Hanwell, MD, Curtis, DE, Lonie, DC, et al. Avogadro: an advanced semantic chemical editor, visualization, and analysis platform. J Cheminform 2012; 4: 17. PMID: 22889332",
+            "process_entry": "True",
+            "doi": "10.1186/1758-2946-4-17",
+            "pmid": "22889332",
+            "pmcid": "PMC3542060",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Shoemaker, RH. The NCI60 human tumour cell line anticancer drug screen. Nat Rev Cancer 2006; 6: 813–23. PMID: 16990858",
+            "process_entry": "True",
+            "doi": "10.1038/nrc1951",
+            "pmid": "16990858",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Skehan, P, Storeng, R, Scudiero, D, et al. New colorimetric cytotoxicity assay for anticancer-drug screening. J Natl Cancer Inst 1990; 82: 1107–12. PMID: 2359136",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/82.13.1107",
+            "pmid": "2359136",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Boyd, RB. The NCI in vitro anticancer drug discovery screen: concept, implementation, and operation In, Teicher, B, ed. Anticancer drug development guide: preclinical screening, clinical trials, and approval. Totowa, NJ: Humana Press Inc; 1997: 23–42.",
+            "process_entry": "True",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Zbancioc, G, Zbancioc, AM, Mangalagiu, II. Ultrasound and microwave assisted synthesis of dihydroxyacetophenone derivatives with or without 1,2-diazine skeleton. Ultrason Sonochem 2014; 21: 802–11. PMID: 24139876",
+            "process_entry": "True",
+            "doi": "10.1016/j.ultsonch.2013.09.012",
+            "pmid": "24139876",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Kamal, A, Kumar, GB, Vishnuvardhan, MV, et al. Synthesis of phenstatin/isocombretastatin–chalcone conjugates as potent tubulin polymerization inhibitors and mitochondrial apoptotic inducers. Org Biomol Chem 2015; 13: 3963–81. PMID: 25721862",
+            "process_entry": "True",
+            "doi": "10.1039/c4ob02606c",
+            "pmid": "25721862",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Badhani, B, Kakkar, R. In silico studies on potential MCF-7 inhibitors: a combination of pharmacophore and 3D-QSAR modeling, virtual screening, molecular docking, and pharmacokinetic analysis. J Biomol Struct Dyn 2017; 35: 1950–67. PMID: 27401212",
+            "process_entry": "True",
+            "doi": "10.1080/07391102.2016.1202863",
+            "pmid": "27401212",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Lipinski, CA, Lombardo, F, Dominy, BW, Feeney, PJ. Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings. Adv Drug Deliv Rev 2001; 46: 3–26. PMID: 11259830",
+            "process_entry": "True",
+            "doi": "10.1016/s0169-409x(00)00129-0",
+            "pmid": "11259830",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Bennion, BJ, Be, NA, McNerney, MW, et al. Predicting a drug’s membrane permeability: a computational model validated with in vitro permeability assay data. J Phys Chem B 2017; 121: 5228–37. PMID: 28453293",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jpcb.7b02914",
+            "pmid": "28453293",
+            "xmlid": "CIT0050"
+        }
+    ],
+    "localid": "MED-30734610",
+    "doi": "10.1080/14756366.2018.1550085",
+    "pmid": "10.1080/14756366.2018.1550085",
+    "pmcid": "30734610",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30734610/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,256)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0004",
+                "rp_string": "4–7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),258,196)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),455,270)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Considerable efforts have been focussed in the past decades, on the design and development of new antiproliferative drugs with improved efficiency, limited toxicity, cost-effectiveness, which are synchronously less prone to develop multidrug resistance1–3. Among the variety of targets used in this huge anticancer fight, tubulin targeting appears to be a key focus in cancer treatment, the research in this field remaining very active in past years4–7. After the success of Colchicine8, combretastatin A-49, vincristine or vinblastine10 as anticancer drugs acting by inhibiting tubulin polymerisation, research efforts focused on developing new colchicine binding site inhibitors with improved pharmacological profiles4,11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),455,270)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Considerable efforts have been focussed in the past decades, on the design and development of new antiproliferative drugs with improved efficiency, limited toxicity, cost-effectiveness, which are synchronously less prone to develop multidrug resistance1–3. Among the variety of targets used in this huge anticancer fight, tubulin targeting appears to be a key focus in cancer treatment, the research in this field remaining very active in past years4–7. After the success of Colchicine8, combretastatin A-49, vincristine or vinblastine10 as anticancer drugs acting by inhibiting tubulin polymerisation, research efforts focused on developing new colchicine binding site inhibitors with improved pharmacological profiles4,11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),455,270)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Considerable efforts have been focussed in the past decades, on the design and development of new antiproliferative drugs with improved efficiency, limited toxicity, cost-effectiveness, which are synchronously less prone to develop multidrug resistance1–3. Among the variety of targets used in this huge anticancer fight, tubulin targeting appears to be a key focus in cancer treatment, the research in this field remaining very active in past years4–7. After the success of Colchicine8, combretastatin A-49, vincristine or vinblastine10 as anticancer drugs acting by inhibiting tubulin polymerisation, research efforts focused on developing new colchicine binding site inhibitors with improved pharmacological profiles4,11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),455,270)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Considerable efforts have been focussed in the past decades, on the design and development of new antiproliferative drugs with improved efficiency, limited toxicity, cost-effectiveness, which are synchronously less prone to develop multidrug resistance1–3. Among the variety of targets used in this huge anticancer fight, tubulin targeting appears to be a key focus in cancer treatment, the research in this field remaining very active in past years4–7. After the success of Colchicine8, combretastatin A-49, vincristine or vinblastine10 as anticancer drugs acting by inhibiting tubulin polymerisation, research efforts focused on developing new colchicine binding site inhibitors with improved pharmacological profiles4,11.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),455,270)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,332)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),334,222)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,268)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),270,555)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "Pyrrolo-fused derivatives comprise a class of biologically active heterocyclic compounds which can serve as promising scaffolds for the development of anticancer, antimicrobial, antiviral, antimalarial, antitubercular, anti-inflammatory, and enzyme inhibiting drugs19. Among the fused pyrrolo-heterocyclic compounds, pyrrolo[1,2-b]pyridazines and its condensed pyrrolo[2,1-a]phthalazine system are compounds well known for their strong luminescence20,21 and photochromic properties22, and at the same time are promising in the field of drug design23,24, some derivatives being reported to have antimicrobial25,26, antifungal25 or anticancer effects27,28, or to act as acyl CoA:diacylglycerol acyltransferase (DGAT1) inhibitors24, JAK inhibitors29, HER-2 tyrosine kinase inhibitors30, IRAK4 inhibitors31, or MEK inhibitors32.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,327)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The replacement of one of the substituted phenyl ring of phenstatin with pyrrolo-fused heterocycles has been a major focus in rational drug design in the recent years, as there are several reported biological active phenstatin analogues containing an indole ring5,19, an indolizine ring33, or a pyrrolo[2,3-d]pyrimidine ring34. However, to our knowledge, there are no reported analogues of phenstatin with pyrrolo[1,2-b]pyridazine or pyrrolo[2,1-a]phthalazine scaffolds, respectively.",
+                "pl_xpath": "/article/body/sec[1]/p[4]"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,327)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The replacement of one of the substituted phenyl ring of phenstatin with pyrrolo-fused heterocycles has been a major focus in rational drug design in the recent years, as there are several reported biological active phenstatin analogues containing an indole ring5,19, an indolizine ring33, or a pyrrolo[2,3-d]pyrimidine ring34. However, to our knowledge, there are no reported analogues of phenstatin with pyrrolo[1,2-b]pyridazine or pyrrolo[2,1-a]phthalazine scaffolds, respectively.",
+                "pl_xpath": "/article/body/sec[1]/p[4]"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,327)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The replacement of one of the substituted phenyl ring of phenstatin with pyrrolo-fused heterocycles has been a major focus in rational drug design in the recent years, as there are several reported biological active phenstatin analogues containing an indole ring5,19, an indolizine ring33, or a pyrrolo[2,3-d]pyrimidine ring34. However, to our knowledge, there are no reported analogues of phenstatin with pyrrolo[1,2-b]pyridazine or pyrrolo[2,1-a]phthalazine scaffolds, respectively.",
+                "pl_xpath": "/article/body/sec[1]/p[4]"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,327)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "The replacement of one of the substituted phenyl ring of phenstatin with pyrrolo-fused heterocycles has been a major focus in rational drug design in the recent years, as there are several reported biological active phenstatin analogues containing an indole ring5,19, an indolizine ring33, or a pyrrolo[2,3-d]pyrimidine ring34. However, to our knowledge, there are no reported analogues of phenstatin with pyrrolo[1,2-b]pyridazine or pyrrolo[2,1-a]phthalazine scaffolds, respectively.",
+                "pl_xpath": "/article/body/sec[1]/p[4]"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0035",
+                "rp_string": "35–39",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[2]),1,69)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/sec[2]/p[48]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/sec[2]/p[48]),1,69)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry",
+                    "General procedure for preparation of compounds 8a–t and 11a–d"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,198)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling"
+                ],
+                "pl_string": "Flexible docking experiments were carried out in Autodock Vina40, using a 18x22x22 Å3 grid box centered on the colchicine binding site of the α,β-tubulin heterodimer crystal structure (PDB: 1SA0)41. The 3 D structures of the compounds were constructed in Avogadro v1.2.042 and were subjected to 10,000 steepest descent steps of energy minimisation in the MMFF94 force field. One hundred poses were generated for each ligand, and the best-ranked models were chosen for further visual inspection in order to assess the consistency of the generated docking solutions relative to the docking poses of known inhibitor colchicine. Molecular graphics and visual analyses were performed in The PyMOL Molecular Graphics System, Version 1.8.2. (Schrödinger, LLC). Logp values were calculated using the ChemAxon/Chemicalize server (www.chemicalize.com).",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,198)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling"
+                ],
+                "pl_string": "Flexible docking experiments were carried out in Autodock Vina40, using a 18x22x22 Å3 grid box centered on the colchicine binding site of the α,β-tubulin heterodimer crystal structure (PDB: 1SA0)41. The 3 D structures of the compounds were constructed in Avogadro v1.2.042 and were subjected to 10,000 steepest descent steps of energy minimisation in the MMFF94 force field. One hundred poses were generated for each ligand, and the best-ranked models were chosen for further visual inspection in order to assess the consistency of the generated docking solutions relative to the docking poses of known inhibitor colchicine. Molecular graphics and visual analyses were performed in The PyMOL Molecular Graphics System, Version 1.8.2. (Schrödinger, LLC). Logp values were calculated using the ChemAxon/Chemicalize server (www.chemicalize.com).",
+                "pl_xpath": "/article/body/sec[2]/sec[2]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),200,175)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0043",
+                "rp_string": "43–45",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),122,109)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Cell proliferation assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),125,105)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),1,306)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0042",
+                "rp_string": "42–44",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[3]),1,161)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0043",
+                "rp_string": "43–45",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/table-wrap[2]/table-wrap-foot/fn[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/table-wrap[2]/table-wrap-foot/fn[2]/p),1,64)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological activity"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,544)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),234,3)",
+                "pl_string": "n5,"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,544)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),234,3)",
+                "pl_string": "n5,"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,544)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,544)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),241,5)",
+                "pl_string": ",47,4"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,544)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),241,5)",
+                "pl_string": ",47,4"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[5]),408,304)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular modelling"
+                ]
+            }
+        ]
+    ]
+}

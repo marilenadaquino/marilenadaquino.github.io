@@ -1,0 +1,882 @@
+{
+    "references": [
+        {
+            "bibentry": "Lehmann, KB, Neumann, R. Atlas und Grundriss der Bakteriologie und Lehrbuch der speziellen bakteriologischen Diagnostik. Munich: Lehmann; 1896.",
+            "process_entry": "True",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Barksdale, L. Corynebacterium diphtheriae and its relatives. Bacteriol Rev. 1970; 34: 378–422. PMID: 4322195",
+            "process_entry": "True",
+            "pmid": "4322195",
+            "pmcid": "PMC378364",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Burkovski, A. Diphtheria and its etiological agents In, Burkovski, A, editor. Corynebacterium diphtheriae and related toxigenic species. Dordrecht: Springer; 2014 p. 1–14.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Sangal, V, Hoskisson, PA. Corynephages: infections of the infectors In, Burkovski, A, editor. Corynebacterium diphtheriae and related toxigenic species. Dordrecht: Springer; 2014 p. 67–81.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Hirata, R, Jr,, Pereira, GA, Filardy, AA, et al. Potential pathogenic role of aggregative -adhering Corynebacterium diphtheriae of different clonal groups in endocarditis. Braz J Med Biol Res. 2008; 41: 986–991. PMID: 19099151",
+            "process_entry": "True",
+            "doi": "10.1590/s0100-879x2008001100007",
+            "pmid": "19099151",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Puliti, M, von Hunolstein, C, Marangi, M, et al. Experimental model of infection with non-toxigenic strains of Corynebacterium diphtheriae and development of septic arthritis. J Med Microbiol. 2006; 55: 229–235. PMID: 16434717",
+            "process_entry": "True",
+            "doi": "10.1099/jmm.0.46135-0",
+            "pmid": "16434717",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Peixoto, RS, Pereira, GA, Sanches Dos Santos, L, et al. Invasion of endothelial cells and arthritogenic potential of endocarditis-associated Corynebacterium diphtheriae. Microbiology. 2014; 160: 537–546. PMID: 24344208",
+            "process_entry": "True",
+            "doi": "10.1099/mic.0.069948-0",
+            "pmid": "24344208",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Peixoto, RS, Hacker, E, Antunes, CA, et al. Pathogenic properties of a Corynebacterium diphtheriae strain isolated from a case of osteomyelitis. J Med Microbiol. 2016; 65: 1311–1321. PMID: 27902402",
+            "process_entry": "True",
+            "doi": "10.1099/jmm.0.000362",
+            "pmid": "27902402",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Ishikawa, E, Ishikawa, T, Morita, YS, et al. Direct recognition of the mycobacterial glycolipid, trehalose dimycolate, by C-type lectin Mincle. J Exp Med. 2009; 206: 2879–2888. PMID: 20008526",
+            "process_entry": "True",
+            "doi": "10.1084/jem.20091750",
+            "pmid": "20008526",
+            "pmcid": "PMC2806462",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Werninghaus, K, Babiak, A, Gross, O, et al. Adjuvanticity of a synthetic cord factor analogue for subunit Mycobacterium tuberculosis vaccination requires FcRgamma-Syk-Card9 dependent innate immune activation. J Exp Med. 2009; 206: 89–97. PMID: 19139169",
+            "process_entry": "True",
+            "doi": "10.1084/jem.20081445",
+            "pmid": "19139169",
+            "pmcid": "PMC2626670",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Schoenen, H, Bodendorfer, B, Hitchens, K, et al. Cutting edge: mincle is essential for recognition and adjuvanticity of the mycobacterial cord factor and its synthetic analog trehalose-dibehenate. J Immunol. 2010; 184: 2756–2760. PMID: 20164423",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.0904013",
+            "pmid": "20164423",
+            "pmcid": "PMC3442336",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Deguine, J, Barton, GM. MyD88: a central player in innate immune signaling. F1000Prime Rep. 2014; 6: 97. PMID: 25580251",
+            "process_entry": "True",
+            "doi": "10.12703/P6-97",
+            "pmid": "25580251",
+            "pmcid": "PMC4229726",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Ott, L, Hacker, E, Kunert, T, et al. Analysis of Corynebacterium diphtheriae macrophage interaction: dispensability of corynomycolic acids for inhibition of phagolysosome maturation and identification of a new gene involved in synthesis of the corynomycolic acid layer. PLoS ONE. 2017; 12: e0180105. PMID: 28686600",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0180105",
+            "pmid": "28686600",
+            "pmcid": "PMC5501465",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Schick, J, Etschel, P, Bailo, R, et al. Toll-like receptor 2 and Mincle cooperatively sense corynebacterial cell wall glycolipids. Infect Immun. 2017; 85: e00075–17. PMID: 28483856",
+            "process_entry": "True",
+            "doi": "10.1128/IAI.00075-17",
+            "pmid": "28483856",
+            "pmcid": "PMC5478951",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Lang, R, Rutschman, RL, Greaves, DR, et al. Autocrine deactivation of macrophages in transgenic mice constitutively overexpressing IL-10 under control of the human CD68 promoter. J Immunol. 2002; 168: 3402–3411. PMID: 11907098",
+            "process_entry": "True",
+            "doi": "10.4049/jimmunol.168.7.3402",
+            "pmid": "11907098",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kawai, T, Adachi, O, Ogawa, T, et al. Unresponsiveness of MyD88-deficient mice to endotoxin. Immunity. 1999; 11: 115–122. PMID: 10435584",
+            "process_entry": "True",
+            "doi": "10.1016/s1074-7613(00)80086-2",
+            "pmid": "10435584",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "O’Neill, LA, Bowie, AG. The family of five: TIR-domain containing adaptors in Toll-like receptor signaling. Nat Rev Immunol. 2007; 7: 353–364. PMID: 17457343",
+            "process_entry": "True",
+            "doi": "10.1038/nri2079",
+            "pmid": "17457343",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Tripathi, P, Tripathi, P, Kashyap, L, et al. The role of nitric oxide in inflammatory reactions. FEMS Immunol Med Microbiol. 2007; 51: 443–452. PMID: 17903207",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-695x.2007.00329.x",
+            "pmid": "17903207",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Hemmi, H, Takeuchi, O, Kawai, T, et al. A Toll-like receptor recognizes bacterial DNA. Nature. 2000; 408: 740–745. PMID: 11130078",
+            "process_entry": "True",
+            "doi": "10.1038/35047123",
+            "pmid": "11130078",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Ott, L, Scholz, B, Hoeller, M, et al. Induction of the NFκ-B signal transduction pathway in response to Corynebacterium diphtheriae infection. Microbiology. 2013; 159: 126–135. PMID: 23125120",
+            "process_entry": "True",
+            "doi": "10.1099/mic.0.061879-0",
+            "pmid": "23125120",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Cerdeño-Tárraga, AM, Efstratiou, A, Dover, LG, et al. The complete genome sequence and analysis of Corynebacterium diphtheriae NCTC13129. Nucleic Acids Res. 2003; 31: 6516–6523. PMID: 14602910",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gkg874",
+            "pmid": "14602910",
+            "pmcid": "PMC275568",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Kulkarni, OP, Lichtnekert, J, Anders, HJ, et al. The immune system in tissue environments regaining homeostasis after injury: is “inflammation” always inflammation? Mediators Inflamm. 2016; 2016: 2856213. PMID: 27597803",
+            "process_entry": "True",
+            "doi": "10.1155/2016/2856213",
+            "pmid": "27597803",
+            "pmcid": "PMC4997018",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Medzhitov, R, Janeway, CA, Jr. Decoding the patterns of self and nonself by the innate immune system. Science. 2002; 296: 298–300. PMID: 11951031",
+            "process_entry": "True",
+            "doi": "10.1126/science.1068883",
+            "pmid": "11951031",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Shcheblyakov, DV, Logunov, DY, Tukhvatulin, AI, et al. Toll-like receptors (TLRs): the role in tumor progression. Acta Naturae. 2010; 2: 21–29. PMID: 22649649",
+            "process_entry": "True",
+            "pmid": "22649649",
+            "pmcid": "PMC3347570",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Takeuchi, O, Akira, S. Pattern recognition receptors and inflammation. Cell. 2010; 140: 805–820. PMID: 20303872",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2010.01.022",
+            "pmid": "20303872",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Hirano, T, Ishihara, K, Hibi, M. Roles of STAT3 in mediating the cell growth, differentiation and survival signals relayed through the IL-6 family of cytokine receptors. Oncogene. 2000; 19: 2548–2556. PMID: 10851053",
+            "process_entry": "True",
+            "doi": "10.1038/sj.onc.1203551",
+            "pmid": "10851053",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Solaroglu, I, Cahill, J, Jadhav, V, et al. A novel neuroprotectant granulocyte-colony stimulating factor. Stroke. 2006; 37: 1123–1128. PMID: 16514095",
+            "process_entry": "True",
+            "doi": "10.1161/01.str.0000208205.26253.96",
+            "pmid": "16514095",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Mitamura, T, Higashiyama, S, Taniguchi, N, et al. Diphtheria toxin binds to the epidermal growth factor (EGF)-like domain of human heparin-binding EGF-like growth factor/diphtheria toxin receptor and inhibits specifically its mitogenic activity. J Biol Chem. 1995; 270: 1015–1019. PMID: 7836353",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.270.3.1015",
+            "pmid": "7836353",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Bertuccini, L, Baldassarri, L, von Hunolstein, C. Internalization of non-toxigenic Coryne-bacterium diphtheriae by cultured human respiratory epithelial cells. Microb Pathog. 2004; 37: 111–118. PMID: 15351033",
+            "process_entry": "True",
+            "doi": "10.1016/j.micpath.2004.06.002",
+            "pmid": "15351033",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Nakao, H, Pruckler, JM, Mazurova, IZ, et al. Heterogeneity of diphtheria toxin gene, tox, and its regulatory element, dtxR, in Corynebacterium diphtheriae strains causing epidemic diphtheria in Russia and Ukraine. J Clin Microbiol. 1996; 34: 1711–1716. PMID: 8784575",
+            "process_entry": "True",
+            "pmid": "8784575",
+            "pmcid": "PMC229100",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Trost, E, Ott, L, Schneider, J, et al. The complete genome sequence of Corynebacterium pseudotuberculosis FRC41 isolated from a 12-year-old girl with necrotizing lymphadenitis reveals insights into gene-regulatory networks contributing to virulence. BMC Genomics. 2010; 11: 728. PMID: 21192786",
+            "process_entry": "True",
+            "doi": "10.1186/1471-2164-11-728",
+            "pmid": "21192786",
+            "pmcid": "PMC3022926",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Public Health Laboratory Service Diphtheria acquired during a cruise in the Baltic Sea. Commun Dis Rep CDR Wkly. 1997; 7: 207.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Abe, S, Takayama, K, Kinoshita, S. Taxonomical studies on glutamic acid producing bacteria. J Gen Microbiol. 1967; 13: 279–301.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Tsuchiya, S, Yamabe, M, Yamaguchi, Y, et al. Establishment and characterization of a human acute monocytic leukemia cell line (THP-1). Int J Cancer. 1980; 26: 171–176. PMID: 6970727",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.2910260208",
+            "pmid": "6970727",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31057086",
+    "doi": "10.1080/21505594.2019.1614384",
+    "pmid": "10.1080/21505594.2019.1614384",
+    "pmcid": "31057086",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31057086/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),128,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1,2]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),128,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),135,118)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),579,185)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),765,220)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),979,5)"
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "",
+                "pl_string": "[5–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),979,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),765,220)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),765,220)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[5–7]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),979,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),986,226)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),380,362)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),735,6)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "",
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),735,6)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),380,362)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),380,362)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[9–11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),735,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1179,192)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,159)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),161,101)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),263,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0029",
+                "rp_string": "[29]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[2]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[2]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0029",
+                "rp_string": "[29]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[3]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[3]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0006",
+                "rp_string": "[6]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[4]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[4]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0006",
+                "rp_string": "[6]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[5]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[5]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0030",
+                "rp_string": "[30]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[7]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[7]/td[3]),1,43)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0031",
+                "rp_string": "[31]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[9]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[9]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0032",
+                "rp_string": "[32]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[10]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[10]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0033",
+                "rp_string": "[33]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[12]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[12]/td[3]),1,18)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0034",
+                "rp_string": "[34]",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[14]/td[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p/table-wrap/table/tbody/tr[14]/td[3]),1,0)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Bacterial strains and growth conditions"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p[1]),399,468)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Isolation and culture of primary mouse macrophages and macrophage cell lines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[8]/p/sup[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[8]/p),753,298)",
+                "containers_title": [
+                    "Materials and methods",
+                    "TLR2 and TLR9 reporter assays"
+                ],
+                "pl_string": "−1",
+                "pl_xpath": "/article/body/sec[2]/sec[8]/p/sup[1]"
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),242,189)",
+                "containers_title": [
+                    "Results",
+                    "Survival of C. diphtheriae after internalization by primary macrophages from C57BL/6 mice, Clec4e- and Myd88-deficient mice"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),183,189)",
+                "containers_title": [
+                    "Results",
+                    "Influence of the adaptor protein Myd88 on C. diphtheriae infection"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),364,7)"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),183,189)",
+                "containers_title": [
+                    "Results",
+                    "Influence of the adaptor protein Myd88 on C. diphtheriae infection"
+                ],
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),364,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[2]),961,102)",
+                "containers_title": [
+                    "Results",
+                    "Response of THP-1 cells to C. diphtheriae infection"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),1,160)",
+                "containers_title": [
+                    "Results",
+                    "Recognition of C. diphtheriae by toll-like receptors in human epithelial cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),196,137)",
+                "containers_title": [
+                    "Results",
+                    "Recognition of intracellular bacteria by TLR9"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[9]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[9]/p),1,313)",
+                "containers_title": [
+                    "Results",
+                    "Influence of the diphtheria toxin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[9]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[9]/p),315,112)",
+                "containers_title": [
+                    "Results",
+                    "Influence of the diphtheria toxin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[9]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[9]/p),1043,377)",
+                "containers_title": [
+                    "Results",
+                    "Influence of the diphtheria toxin"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,254)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),247,7)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,254)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),247,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),256,269)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),517,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),256,269)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[24,25]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),517,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),929,312)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1087,7)"
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),929,312)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[26,27]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1087,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1350,294)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6–8]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1548,5)"
+            },
+            {
+                "n_rp": 42,
+                "xref_id": "",
+                "pl_string": "[6–8]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1548,5)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1350,294)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1350,294)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[6–8]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),1548,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1841,197)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),2039,199)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3064,227)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),146,228)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,208)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),681,277)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

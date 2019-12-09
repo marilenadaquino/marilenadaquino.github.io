@@ -1,0 +1,588 @@
+{
+    "references": [
+        {
+            "bibentry": "Anton, AH, Sayre, DF. 1962 A study of the factors affecting the aluminum oxide-trihydroxyindole procedure for the analysis of catecholamines. J Pharmacol Exp Ther. 138: 360–375. PMID: 14013351",
+            "process_entry": "True",
+            "pmid": "14013351",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Beedle, AM, Zamponi, GW. 2000 Block of voltage-dependent calcium channels by aliphatic monoamines. Biophys J. 79: 260–270. PMID: 10866952",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-3495(00)76288-6",
+            "pmid": "10866952",
+            "pmcid": "PMC1300930",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Chen, M, Ko, WC. 2016 Lack of effect of Z-butylidenephthalide on presynaptic N-type Ca 2+ channels in isolated guinea-pig ileum. Naunyn-Schmiedeberg's Arch Pharmacol. 389: 159–166. PMID: 26497186",
+            "process_entry": "True",
+            "doi": "10.1007/s00210-015-1183-5",
+            "pmid": "26497186",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Choquet, D, Korn, H. 1992 Mechanism of 4-aminopyridine action on voltage-gated potassium channels in lymphocytes. J Gen Physiol. 99: 217–240. PMID: 1613484",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.99.2.217",
+            "pmid": "1613484",
+            "pmcid": "PMC2216608",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Cleary, L, Vandeputte, C, Docherty, JR. 2003 Investigation of postjunctional α 1-and α 2-adrenoceptor subtypes in vas deferens from wild-type and α 2A/D-adrenoceptor knockout mice. Br J Pharmacol. 138: 1069–1076. PMID: 12684262",
+            "process_entry": "True",
+            "doi": "10.1038/sj.bjp.0705137",
+            "pmid": "12684262",
+            "pmcid": "PMC1573749",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Escande, D, Thuringer, D, Leguern, S, Cavero, I. 1988 The potassium channel opener cromakalim (BRL 34915) activates ATP-dependent K + channels in isolated cardiac myocytes. Biochem Biophys Res Commun. 154: 620–625. PMID: 2456760",
+            "process_entry": "True",
+            "doi": "10.1016/0006-291x(88)90184-2",
+            "pmid": "2456760",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Hsu, HT, Yang, YL, Chen, WC, Chen, CM, Ko, WC. 2014 Butylidenephthalide blocks potassium channels and enhances basal tension in isolated guinea-pig trachea. Biomed Res Int. 2014: 875230. PMID: 25114927",
+            "process_entry": "True",
+            "doi": "10.1155/2014/875230",
+            "pmid": "25114927",
+            "pmcid": "PMC4119919",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Kaplita, PV, Triggle, DJ. 1983 Actions of Ca 2+ antagonists on the guinea-pig ileal myenteric plexus preparation. Biochem Pharmacol. 32: 65–68. PMID: 6187349",
+            "process_entry": "True",
+            "doi": "10.1016/0006-2952(83)90653-6",
+            "pmid": "6187349",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Ko, WC. 1980 A newly isolated antispasmodic-butylidenephthalide. Japan J Pharmacol. 30: 85–91. PMID: 7401411",
+            "process_entry": "True",
+            "doi": "10.1254/jjp.30.85",
+            "pmid": "7401411",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Ko, WC, Lin, SC, Yeh, CY, Wang, YT. 1977 Alkylphthalides isolated from Ligusticum wallichii Franch and their in vitro inhibitory effect on rat uterine contraction induced by prostaglandin F 2α. Taiwan Yi Xue Hui Za Zhi. 76: 669–677. PMID: 271195",
+            "process_entry": "True",
+            "pmid": "271195",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Ko, WC, Sheu, JR, Leu, YR, Tzeng, SH, Chen, CM. 1997 Stereoselectivity of butylidenephthalide on voltage-dependent calcium channels in guinea-pig isolated ileum. J Pharm Pharmacol. 49: 1121–1125. PMID: 9401949",
+            "process_entry": "True",
+            "doi": "10.1111/j.2042-7158.1997.tb06053.x",
+            "pmid": "9401949",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Ko, WC, Wang, YT, Lin, LC. 1978 Phytochemical studies on spasmolytic constituents of Ligusticum wallichii Franch. Chemistry. 67: 74–76.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Liang, SX, D'arbe, M, Phillips, WD, Lavidis, NA. 2000 Development of fast purinergic transmission in the mouse vas deferens. Synapse. 37: 283–291. PMID: 10891865",
+            "process_entry": "True",
+            "doi": "10.1002/1098-2396(20000915)37:4&lt;283::aid-syn5&gt;3.0.co;2-w",
+            "pmid": "10891865",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Lin, LC, Wang, CB, Koh, VC, Ko, WC. 1984 Synthesis, properties, and molecular structure of alkylidenephthalides. Bull Inst Chem Acad Sin. 31: 9–15.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Maze, M, Segal, IS, Bloor, BC. 1988 Clonidine and other alpha2 adrenergic agonists: strategies for the rational use of these novel anesthetic agents. J Clin Anesth. 1: 146–157. PMID: 2908485",
+            "process_entry": "True",
+            "doi": "10.1016/0952-8180(88)90034-7",
+            "pmid": "2908485",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Minneman, KP, Mumford, GK, Abel, PW. 1988 High efficiency coupling of α 1 adrenergic receptors to inositol phospholipid metabolism revealed by denervation of rat vas deferens. J Pharmacol Exp Ther. 244: 226–230. PMID: 2826769",
+            "process_entry": "True",
+            "pmid": "2826769",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Mowry, DT, Ringwald, EL, Renoll, M. 1949 Vinyl aromatic compounds. VI. Alkylidenephthalides and related compounds. J Am Chem Soc. 71: 120–122.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Mulryan, K, Gitterman, DP, Lewis, CJ, Vial, C, Leckie, BJ, Cobb, AL, Brown, JE, Conley, EC, Buell, G, Pritchard, CA, et al. 2000 Reduced vas deferens contraction and male infertility in mice lacking P2X 1 receptors. Nature. 403: 86–89. PMID: 10638758",
+            "process_entry": "True",
+            "doi": "10.1038/47495",
+            "pmid": "10638758",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Roussinov, KS, Lazarova, M, Atanassova-Shopova, S. 1976 Experimental study of the effects of imidazol, papaverine and histamine on convulsive-seizure reactivity. Acta Physiol Pharmacol Bulg. 2: 78–87. PMID: 1015306",
+            "process_entry": "True",
+            "pmid": "1015306",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Shih, CH, Chen, CM, Ko, WC. 2016 Stereoselectivity of butylidenephthalide on non-adrenergic prejunctional voltage-dependent Ca 2+ channels in prostatic portion of rat vas deferens. Eur J Pharmacol. 786: 47–52. PMID: 27238973",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2016.05.036",
+            "pmid": "27238973",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Shih, CH, Chen, CM, Ko, WC. 2018 Mechanisms of butylidenephthalide for twitch facilitation in electrically stimulated mouse vas deferens. Pharm Biol. 56: 378–384. PMID: 30122096",
+            "process_entry": "True",
+            "doi": "10.1080/13880209.2018.1495749",
+            "pmid": "30122096",
+            "pmcid": "PMC6130712",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Swedin, G. 1971 Biphasic mechanical response of the isolated vas deferens to nerve stimulation. Acta Physiol Scand. 81: 574–576. PMID: 4397440",
+            "process_entry": "True",
+            "doi": "10.1111/j.1748-1716.1971.tb04936.x",
+            "pmid": "4397440",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Westfall, DP, Stitzel, RE, Rowe, JN. 1978 The postjunctional effects and neural release of purine compounds in the guinea-pig vas deferens. Eur J Pharmacol. 50: 27–38. PMID: 679974",
+            "process_entry": "True",
+            "doi": "10.1016/0014-2999(78)90250-9",
+            "pmid": "679974",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Westfall, TC, Westfall, DP. 2011 Neurotransmission: the autonomic and somatic motor nerve system, In, Brunton, LL, Chabner, BA, Knollmann, BC, editors. Goodman and Gilman's the pharmacological basis of therapeutics. New York (NY): McGraw-Hill; p. 171–218.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Ziogas, J, O'Farrell, M, Slaughter, M. 1995 Caffeine enhances sympathetic purinergic and noradrenergic transmission in the guinea-pig isolated vas deferens. N-S Arch Pharmacol. 352: 497–505.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        }
+    ],
+    "localid": "MED-31155999",
+    "doi": "10.1080/13880209.2019.1619781",
+    "pmid": "10.1080/13880209.2019.1619781",
+    "pmcid": "31155999",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31155999/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0010",
+                "rp_string": "1977",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),110,183)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0012",
+                "rp_string": "1978",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),342,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Ko et al.1978; Lin et al. 1984)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),476,32)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0014",
+                "rp_string": "1984",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),342,168)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Ko et al. 1978; Lin et al.1984)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),476,32)"
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0011",
+                "rp_string": "1997",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),511,263)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0003",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),775,119)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0020",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),895,269)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "1980",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0017",
+                "rp_string": "1949",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),12,220)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Drugs and animals"
+                ],
+                "pl_string": "(Mowry et al.1949; Lin et al. 1984)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),92,35)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0014",
+                "rp_string": "1984",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),12,220)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Drugs and animals"
+                ],
+                "pl_string": "(Mowry et al. 1949; Lin et al.1984)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),92,35)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "1980",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),1,244)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Contractile response by an exogenous agonist"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0009",
+                "rp_string": "1980",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p),867,177)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Contractile response by an exogenous agonist"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0001",
+                "rp_string": "1962",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),749,104)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Determination of NA release"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0022",
+                "rp_string": "1971",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),159,258)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Swedin1971; Kaplita and Triggle 1983)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),377,38)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0008",
+                "rp_string": "1983",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),159,258)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Swedin 1971; Kaplita and Triggle1983)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),377,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0023",
+                "rp_string": "1978",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),418,146)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "1988",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),565,322)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0013",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),565,322)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Liang et al.2000; Mulryan et al. 2000)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),773,39)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),565,322)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Liang et al. 2000; Mulryan et al.2000)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),773,39)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0005",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),565,322)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0015",
+                "rp_string": "1988",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1089,222)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0024",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1312,289)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0024",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),2000,144)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0019",
+                "rp_string": "1976",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),2324,184)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0025",
+                "rp_string": "1995",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),2618,403)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0010",
+                "rp_string": "1977",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3281,216)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0002",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3640,310)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0021",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),4178,85)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0024",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),4264,143)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0007",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[18]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),4545,209)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0004",
+                "rp_string": "1992",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[19]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),4545,209)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0007",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[20]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),4963,206)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0006",
+                "rp_string": "1988",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[21]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),4963,206)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0007",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),380,181)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "references": [
+        {
+            "bibentry": "Haviari S, Cassier P, Dananché C, Hulin M, Dauwalder O, Rouvière O, et al. Outbreak of Achromobacter xylosoxidans and Ochrobactrum anthropi infections after prostate biopsies, France, 2014. Emerg Infect Dis. 2016; 22: 1412–9. DOI: 10.3201/eid2208.151423 PMID: 27434277",
+            "process_entry": "True",
+            "doi": "10.3201/eid2208.151423",
+            "pmid": "27434277",
+            "pmcid": "PMC4982167",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Haviari S, Cassier P, Dananché C, Hulin M, Dauwalder O, Rouvière O, et al. Outbreak of Achromobacter xylosoxidans and Ochrobactrum anthropi infections after prostate biopsies, France, 2014. Emerg Infect Dis. 2016; 22: 1412–9. DOI: 10.3201/eid2208.151423 PMID: 27434277",
+            "process_entry": "True",
+            "doi": "10.3201/eid2208.151423",
+            "pmid": "27434277",
+            "pmcid": "PMC4982167",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Vandamme PA, Peeters C, Inganas E, Cnockaert M, Houf K, Spilker T, et al. Taxonomic dissection of Achromobacter denitrificans Coenye et al. 2003 and proposal of Achromobacter agilis sp. nov, nom. rev, Achromobacter pestifer sp. nov, nom. rev, Achromobacter kerstersii sp. nov. and Achromobacter deleyi sp. nov. Int J Syst Evol Microbiol. 2016; 66: 3708 –17. PMID: 27373279",
+            "process_entry": "True",
+            "doi": "10.1099/ijsem.0.001254",
+            "pmid": "27373279",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Spilker T, Vandamme P, Lipuma JJ. Identification and distribution of Achromobacter species in cystic fibrosis. J Cyst Fibros. 2013; 12: 298–301. DOI: 10.1016/j.jcf.2012.10.002 PMID: 23141756",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcf.2012.10.002",
+            "pmid": "23141756",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Amoureux L, Bador J, Verrier T, Mjahed H, DE Curraize C, Neuwirth C. Achromobacter xylosoxidans is the predominant Achromobacter species isolated from diverse non-respiratory samples. Epidemiol Infect. 2016; 144: 3527–30. DOI: 10.1017/S0950268816001564 PMID: 27535588",
+            "process_entry": "True",
+            "doi": "10.1017/s0950268816001564",
+            "pmid": "27535588",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "Coward A, Kenna DT, Perry C, Martin K, Doumith M, Turton JF. Use of nrdA gene sequence clustering to estimate the prevalence of different Achromobacter species among Cystic Fibrosis patients in the UK. J Cyst Fibros. 2016; 15: 479–85. DOI: 10.1016/j.jcf.2015.09.005 PMID: 26412052",
+            "process_entry": "True",
+            "doi": "10.1016/j.jcf.2015.09.005",
+            "pmid": "26412052",
+            "xmlid": "R6"
+        }
+    ],
+    "localid": "MED-31625846",
+    "doi": "10.3201/eid2511.161487",
+    "pmid": "10.3201/eid2511.161487",
+    "pmcid": "31625846",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31625846/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/p[1]),1,181)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R3",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),190,83)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R4",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),274,151)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "R5",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),426,154)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R6",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/p[2]),426,154)",
+                "containers_title": ""
+            }
+        ]
+    ]
+}

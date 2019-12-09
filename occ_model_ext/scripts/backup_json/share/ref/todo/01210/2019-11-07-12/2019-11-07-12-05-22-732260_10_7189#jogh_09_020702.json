@@ -1,0 +1,682 @@
+{
+    "references": [
+        {
+            "bibentry": "Chen, W, Zheng, R, Baade, PD, Zhang, S, Zeng, H, Bray, F. Cancer statistics in China, 2015. CA Cancer J Clin. 2016; 66: 115-32. DOI: 10.3322/caac.21338 PMID: 26808342",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21338",
+            "pmid": "26808342",
+            "xmlid": "R1"
+        },
+        {
+            "bibentry": "Gyawali, B, Sullivan, R. Economics of cancer medicines: For whose benefit? New Bioeth. 2017; 23: 95-104. DOI: 10.1080/20502877.2017.1314885 PMID: 28517989",
+            "process_entry": "True",
+            "doi": "10.1080/20502877.2017.1314885",
+            "pmid": "28517989",
+            "xmlid": "R2"
+        },
+        {
+            "bibentry": "Wang YQ, Du LB, Li HZ. Analysis of Cancer Incidence and Mortality in Zhejiang Cancer Registries, 2012. China Cancer. 2016:9-19.",
+            "process_entry": "True",
+            "xmlid": "R3"
+        },
+        {
+            "bibentry": "Zhu C, Du LB, Li HZ. An Analysis of Cancer Incidence and Mortality from Zhejiang Cancer Registries in 2011. China Cancer. 2018:15-22.",
+            "process_entry": "True",
+            "xmlid": "R4"
+        },
+        {
+            "bibentry": "Zhejiang Provincial Government [Internet]. Notice of Zhejiang Provincial Department of human resources and social security on inclusion of 15 drugs into the coverage of government catastrophic health insurance. Document No.9, Nov. 2014. Available: http://www.zj.gov.cn/art/2014/11/10/art_32432_185241.html. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.zj.gov.cn/art/2014/11/10/art_32432_185241.html. Accessed: 27 November 2018.",
+            "xmlid": "R5"
+        },
+        {
+            "bibentry": "World Health Organization. Measuring medicine prices, availability, affordability and price components (2nd edition). Geneva: World Health Organization; 2008.",
+            "process_entry": "True",
+            "xmlid": "R6"
+        },
+        {
+            "bibentry": "Hangzhou Statistics Bureau. Zhejiang, China. Statistical communique for Hangzhou's national economic and social development in 2015. Hangzhou People’s Government network. 2015. Available: http://www.hangzhou.gov.cn/art/2017/10/27/art_805865_12141116.html. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.hangzhou.gov.cn/art/2017/10/27/art_805865_12141116.html. Accessed: 27 November 2018.",
+            "xmlid": "R7"
+        },
+        {
+            "bibentry": "Hangzhou Statistics Bureau. Zhejiang, China. Statistical communique for Hangzhou's national economic and social development in 2016. Hangzhou People’s Government network. 2016. Available:http://www.hangzhou.gov.cn/art/2016/3/24/art_805865_663727.html. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.hangzhou.gov.cn/art/2016/3/24/art_805865_663727.html. Accessed: 27 November 2018.",
+            "xmlid": "R8"
+        },
+        {
+            "bibentry": "Hangzhou Municipal Human Resource and Social Security Bureau. Zhejiang, China. Inclusion of expensive medicines by the catastrophic health insurance program in Hangzhou. Hangzhou human resources and social security network. Document No. 168. 2015. Available: http://hrss.hangzhou.gov.cn/art/2015/9/10/art_1587913_28276248.html. Accessed: 6 October 2018.",
+            "process_entry": "True",
+            "url": "http://hrss.hangzhou.gov.cn/art/2015/9/10/art_1587913_28276248.html. Accessed: 6 October 2018.",
+            "xmlid": "R9"
+        },
+        {
+            "bibentry": "Notice on the establishment and improvement of government severe diseases insurance system. Office of the people's Government of Zhejiang. Document No.122. 2014. Available: http://hrss.hangzhou.gov.cn/art/2014/10/28/art_1587913_28276180.html. Accessed: 6 October 2018.",
+            "process_entry": "True",
+            "url": "http://hrss.hangzhou.gov.cn/art/2014/10/28/art_1587913_28276180.html. Accessed: 6 October 2018.",
+            "xmlid": "R10"
+        },
+        {
+            "bibentry": "Zhejiang Province Human Resources and Social Security Department. China. Interpretation of the Notice on the establishment and improvement of government severe diseases insurance system. Zhejiang Human Resources and Social Security. 2018. Available: http://www.zjhrss.gov.cn/art/2018/2/7/art_1390146_15482296.html. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.zjhrss.gov.cn/art/2018/2/7/art_1390146_15482296.html. Accessed: 27 November 2018.",
+            "xmlid": "R11"
+        },
+        {
+            "bibentry": "National Platform for the provincial pooled procurement of medicines. Available: https://db.yaozh.com/yaopinzhongbiao. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "https://db.yaozh.com/yaopinzhongbiao. Accessed: 27 November 2018.",
+            "xmlid": "R12"
+        },
+        {
+            "bibentry": "Zhejiang Provincial Bureau of Statistics. China. Zhejiang Statistics Yearbook 2015. Available: http://tjjdata.zj.gov.cn. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://tjjdata.zj.gov.cn. Accessed: 27 November 2018.",
+            "xmlid": "R13"
+        },
+        {
+            "bibentry": "China Charity Federation [Internet]. Erbitux Charity Aid Project. Available: http://www.ecpapccf.org.cn/index.html. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.ecpapccf.org.cn/index.html. Accessed: 27 November 2018.",
+            "xmlid": "R14"
+        },
+        {
+            "bibentry": "China Charity Federation. Glivec, Patient Aid Project. Available: https://www.gipap.org.cn/index.html. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "https://www.gipap.org.cn/index.html. Accessed: 27 November 2018.",
+            "xmlid": "R15"
+        },
+        {
+            "bibentry": "China Charity Federation [Internet]. Iressa Charity Aid Project. Available: http://www.iressaccf.org.cn/. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.iressaccf.org.cn/. Accessed: 27 November 2018.",
+            "xmlid": "R16"
+        },
+        {
+            "bibentry": "Cancer Foundation of China. Herceptin Aid Project. Available: http://www.cfchina.org.cn/list.php?catid=206. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.cfchina.org.cn/list.php?catid=206. Accessed: 27 November 2018.",
+            "xmlid": "R17"
+        },
+        {
+            "bibentry": "Zeng, H, Chen, W, Zheng, R, Zhang, S, Ji, JS, Zou, X. Changing cancer survival in China during 2003-15: a pooled analysis of 17 population-based cancer registries. Lancet Glob Health. 2018; 6: e555-67. DOI: 10.1016/S2214-109X(18)30127-X PMID: 29653628",
+            "process_entry": "True",
+            "doi": "10.1016/s2214-109x(18)30127-x",
+            "pmid": "29653628",
+            "xmlid": "R18"
+        },
+        {
+            "bibentry": "Jonker, DJ, O’Callaghan, CJ, Karapetis, CS, Zalcberg, JR, Tu, D, Au, HJ. Cetuximab for the treatment of colorectal cancer. N Engl J Med. 2007; 357: 2040. DOI: 10.1056/NEJMoa071834 PMID: 18003960",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa071834",
+            "pmid": "18003960",
+            "xmlid": "R19"
+        },
+        {
+            "bibentry": "Maemondo, M, Inoue, A, Kobayashi, K, Sugawara, S, Oizumi, S, Isobe, H. Gefitinib or chemotherapy for non-small-cell lung cancer with mutated EGFR. N Engl J Med. 2010; 362: 2380-8. DOI: 10.1056/NEJMoa0909530 PMID: 20573926",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa0909530",
+            "pmid": "20573926",
+            "xmlid": "R20"
+        },
+        {
+            "bibentry": "Hochhaus, A, Larson, RA, Guilhot, FRadich JP1, Branford S1, Hughes TP, et al. Long-term outcomes of imatinib treatment for chronic myeloid leukemia. N Engl J Med. 2017; 376: 917-27. DOI: 10.1056/NEJMoa1609324 PMID: 28273028",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1609324",
+            "pmid": "28273028",
+            "pmcid": "PMC5901965",
+            "xmlid": "R21"
+        },
+        {
+            "bibentry": "Joensuu, H, Eriksson, M, Sundby Hall, K, Hartmann, JT, Pink, D, Schutte, J. One vs. three years of adjuvant imatinib for operable gastrointestinal stromal tumor: a randomized trial. JAMA. 2012; 307: 1265-72. DOI: 10.1001/jama.2012.347 PMID: 22453568",
+            "process_entry": "True",
+            "doi": "10.1001/jama.2012.347",
+            "pmid": "22453568",
+            "xmlid": "R22"
+        },
+        {
+            "bibentry": "Baselga, J, Cortés, J, Kim, SB, Im, SA, Hegg, R, Im, YH. Pertuzumab plus trastuzumab plus docetaxel for metastatic breast cancer. N Engl J Med. 2012; 366: 109-19. DOI: 10.1056/NEJMoa1113216 PMID: 22149875",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1113216",
+            "pmid": "22149875",
+            "pmcid": "PMC5705202",
+            "xmlid": "R23"
+        },
+        {
+            "bibentry": "Bang, YJ, Van, CE, Feyereislova, A, Chung, HC, Shen, L, Sawaki, A. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomized controlled trial. Lancet. 2010; 376: 687-97. DOI: 10.1016/S0140-6736(10)61121-X PMID: 20728210",
+            "process_entry": "True",
+            "doi": "10.1016/s0140-6736(10)61121-x",
+            "pmid": "20728210",
+            "xmlid": "R24"
+        },
+        {
+            "bibentry": "Dunleavy, K, Pittaluga, S, Maeda, LS, Advani, R, Chen, CC, Hessler, J. Dose-adjusted EPOCH-rituximab therapy in primary mediastinal B-cell lymphoma. N Engl J Med. 2013; 368: 1408-16. DOI: 10.1056/NEJMoa1214561 PMID: 23574119",
+            "process_entry": "True",
+            "doi": "10.1056/NEJMoa1214561",
+            "pmid": "23574119",
+            "pmcid": "PMC4568999",
+            "xmlid": "R25"
+        },
+        {
+            "bibentry": "Drug Evaluation Center of China Food and Drug Administration. National Database of Registered Medicines. Available: http://202.96.26.102/. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://202.96.26.102/. Accessed: 27 November 2018.",
+            "xmlid": "R26"
+        },
+        {
+            "bibentry": "China Daily USA [Internet]. China Society. Cancer patients look to India for lifesaving drugs. Updated: 2015-01-28 07:38. Available: http://usa.chinadaily.com.cn/china/2015-01/28/content_19426279.htm. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://usa.chinadaily.com.cn/china/2015-01/28/content_19426279.htm. Accessed: 27 November 2018.",
+            "xmlid": "R27"
+        },
+        {
+            "bibentry": "National Health Commission of P.R.China. Instruction for implementation of the Health Poverty Alleviation Initiative (2016-06-21). Document No 26. 2016. Available: http://www.nhfpc.gov.cn/caiwusi/s7785/201606/d16de85e75644074843142dbc207f65d.shtml. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.nhfpc.gov.cn/caiwusi/s7785/201606/d16de85e75644074843142dbc207f65d.shtml. Accessed: 27 November 2018.",
+            "xmlid": "R28"
+        },
+        {
+            "bibentry": "Ministry of Human Resources and Social Security of the People’s Republic of China, Office of MOHRSS. Notice of the general office of Department of human resources and social security on negotiation of generic medicines payment. 2018. Document No.9. 2018. Available: http://www.sohu.com/a/224303673_464397. Accessed: 27 November 2018.",
+            "process_entry": "True",
+            "url": "http://www.sohu.com/a/224303673_464397. Accessed: 27 November 2018.",
+            "xmlid": "R29"
+        },
+        {
+            "bibentry": "Le Tourneau, C, Delord, JP, Gonçalves, A, Gavoille, C, Dubot, C, Isambert, N. Molecularly targeted therapy based on tumor molecular profiling versus conventional therapy for advanced cancer (Shiva): a multicentre, open-label, proof-of-concept, randomized, controlled phase 2 trial. Lancet Oncol. 2015; 16: 1324-34. DOI: 10.1016/S1470-2045(15)00188-6 PMID: 26342236",
+            "process_entry": "True",
+            "doi": "10.1016/s1470-2045(15)00188-6",
+            "pmid": "26342236",
+            "xmlid": "R30"
+        },
+        {
+            "bibentry": "Yang, X, Zhang, X. SWOT analysis and development suggestions on Direct to Patient pharmacy in China. Chinese Pharmaceutical Affairs. 2015; 29: 329-32.",
+            "process_entry": "True",
+            "xmlid": "R31"
+        }
+    ],
+    "localid": "MED-31673344",
+    "doi": "10.7189/jogh.09.020702",
+    "pmid": "10.7189/jogh.09.020702",
+    "pmcid": "31673344",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31673344/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "R1",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[1]),1,167)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "R2",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[1]),273,192)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/p[2]),192,126)",
+                "containers_title": "",
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/p[2]),312,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "R4",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/p[2]),192,126)",
+                "containers_title": "",
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/p[2]),312,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "R5",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/p[2]),319,230)",
+                "containers_title": ""
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "R6",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/sec[2]/p),1,243)",
+                "containers_title": [
+                    "METHODS",
+                    "Study design",
+                    "Patient affordability"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "R3",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/sec[1]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[1]/sec[2]/p),1705,105)",
+                "containers_title": [
+                    "METHODS",
+                    "Study design",
+                    "Patient affordability"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),653,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[7-9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),922,5)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "R8",
+                "pl_string": "[7-9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),922,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),653,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),653,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[7-9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),922,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),929,239)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1160,7)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "R11",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),929,239)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1160,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "R12",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1169,140)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "R13",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1310,168)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "R14",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1479,198)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[14-17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1669,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "R15",
+                "pl_string": "[14-17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1669,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1479,198)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "R16",
+                "pl_string": "[14-17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1669,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1479,198)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "R17",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1479,198)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[14-17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1669,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "R18",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)"
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "R19",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "R20",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "R21",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "R22",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "R23",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "R24",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "R25",
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ]
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "R26",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/sec[2]/p/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1678,275)",
+                "containers_title": [
+                    "METHODS",
+                    "Medicines, population, setting and data source"
+                ],
+                "pl_string": "[18-26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/sec[2]/p),1945,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/sec[3]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/sec[3]/p[2]),361,160)",
+                "containers_title": [
+                    "METHODS",
+                    "Statistical and sensitivity analyses"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "R9",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),358,427)",
+                "containers_title": [
+                    "RESULTS",
+                    "Changes of the financial impact on insurance spending"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "R7",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),358,427)",
+                "containers_title": [
+                    "RESULTS",
+                    "Changes of the financial impact on insurance spending"
+                ],
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),635,5)"
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "R8",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),358,427)",
+                "containers_title": [
+                    "RESULTS",
+                    "Changes of the financial impact on insurance spending"
+                ],
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),635,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),304,132)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Other factors might affect utilization of the study medicines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "R27",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),437,171)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Other factors might affect utilization of the study medicines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "R28",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),756,175)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Local generics to substitute the originators"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "R29",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[1]),285,224)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Implications for the government insurance programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "R10",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[2]),1270,137)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Implications for the government insurance programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "R30",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p[3]),653,221)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Implications for the government insurance programs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "R31",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),542,315)",
+                "containers_title": [
+                    "DISCUSSION",
+                    "Limitations"
+                ]
+            }
+        ]
+    ]
+}

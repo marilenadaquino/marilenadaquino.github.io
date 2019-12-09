@@ -1,0 +1,920 @@
+{
+    "references": [
+        {
+            "bibentry": "Chen, L, Yu, B, Zhang, Y, Gao, X, Zhu, L, Ma, T, Yang, H. 2015 Bioactivity-guided fractionation of an antidiarrheal Chinese herb Rhodiola kirilowii (Regel) Maxim reveals (–)-epicatechin-3-gallate and (–)-epigallocatechin-3-gallate as inhibitors of cystic fibrosis transmembrane conductance regulator. PLoS One. 10: e0119122. PMID: 25747701",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0119122",
+            "pmid": "25747701",
+            "pmcid": "PMC4352019",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Chiang, HM, Chen, HC, Wu, CS, Wu, PY, Wen, KC. 2015 Rhodiola plants: Chemistry and biological activity. J Food Drug Anal. 23: 359–369. PMID: 28911692",
+            "process_entry": "True",
+            "doi": "10.1016/j.jfda.2015.04.007",
+            "pmid": "28911692",
+            "xmlid": "CIT1008"
+        },
+        {
+            "bibentry": "Choe, KI, Kwon, JH, Park, KH, Oh, MH, Kim, MH, Kim, HH, Cho, SH, Chung, EK, Ha, SY, Lee, MW. 2012 The antioxidant and anti-inflammatory effects of phenolic compounds isolated from the root of Rhodiola sachalinensis A. BOR. Molecules (Basel, Switzerland). 17: 11484–11494.",
+            "process_entry": "True",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "El-sayed, NH, Awaad, AS, Hifnawy, MS, Mabry, TJ. 1999 A flavonol triglycoside from Chenopodium murale. Phytochemistry. 51: 591–593.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Fliniaux, O, Corbin, C, Ramsay, A, Renouard, S, Beejmohun, V, Doussot, J, Falguières, A, Ferroud, C, Lamblin, F, Lainé, E. 2014 Microwave-assisted extraction of herbacetin diglucoside from flax (Linum usitatissimum L.) seed cakes and its quantification using an RP-HPLC-UV system. Molecules. 19: 3025–3037. PMID: 24619301",
+            "process_entry": "True",
+            "doi": "10.3390/molecules19033025",
+            "pmid": "24619301",
+            "pmcid": "PMC6270660",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Galambosi, B. 2006 Demand and availability of Rhodiola rosea L. raw material. Wag Ur Fron. 16: 223–236.",
+            "process_entry": "True",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Hyuga, S, Hyuga, M, Yoshimura, M, Amakura, Y, Goda, Y, Hanawa, T. 2013 Herbacetin, a constituent of Ephedrae herba, suppresses the HGF-induced motility of human breast cancer MDA-MB-231 cells by inhibiting c-Met and Akt phosphorylation. Planta Med. 79: 1525–1530. PMID: 24081687",
+            "process_entry": "True",
+            "doi": "10.1055/s-0033-1350899",
+            "pmid": "24081687",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Jeong, HJ, Ryu, YB, Park, SJ, Kim, JH, Kwon, HJ, Kim, JH, Park, KH, Rho, MC, Lee, WS. 2009 Neuraminidase inhibitory activities of flavonols isolated from Rhodiola rosea roots and their in vitro anti-influenza viral activities. Bioorg Med Chem. 17: 6816–6823. PMID: 19729316",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2009.08.036",
+            "pmid": "19729316",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Kobayashi, K, Yamada, K, Murata, T, Hasegawa, T, Takano, F, Koga, K, Fushiya, S, Batkhuu, J, Yoshizaki, F. 2008 Constituents of Rhodiola rosea showing inhibitory effect on lipase activity in mouse plasma and alimentary canal. Planta Med. 74: 1716–1719. PMID: 18982538",
+            "process_entry": "True",
+            "doi": "10.1055/s-0028-1088318",
+            "pmid": "18982538",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Kurkin, VA, Zapesochnaya, GG, Kljaznika, G. 1982 Flavonoids of Rhodiola rosea 1.1 Tricin glucosides. Khim Prir Soedin. 5: 581–584.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Kurkin, VA, Zapesochnaya, GG, Shchavlinsky, AN. 1984a Flavonoids from the epigeal parts of Rhodiola rosea 1. Khim Prir Soedin. 5: 657–658.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kurkin, VA, Zapesochnaya, GG, Shchavlinsky, AN. 1984b Flavonoids of Rhodiola rosea rhizomes 3. Khim Prir Soedin. 3: 390–391.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Kwon, HJ, Ryu, YB, Jeong, HJ, Kim, JH, Park, SJ, Chang, JS, Kim, M, Rho, MC, Lee, WS. 2009 Rhodiosin, an antioxidant flavonol glycoside from Rhodiola rosea. J Korean Soc Appl Biol Chem. 52: 486–492.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Li, L, Sapkota, M, Kim, SW, Soh, Y. 2015 Herbacetin inhibits inducible nitric oxide synthase via JNK and nuclear factor-κB in LPS-stimulated RAW264.7 cells. Eur J Pharmacol. 765: 115–123. PMID: 26297979",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2015.08.032",
+            "pmid": "26297979",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Li, L, Sapkota, M, Kim, SW, Soh, Y. 2016 Herbacetin inhibits RANKL-mediated osteoclastogenesis in vitro and prevents inflammatory bone loss in vivo. Eur J Pharmacol. 777: 17–25. PMID: 26923730",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejphar.2016.02.057",
+            "pmid": "26923730",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Li, T, Zhang, H. 2008 Identification and comparative determination of rhodionin in traditional Tibetan medicinal plants of fourteen Rhodiola species by high-performance liquid chromatography-photodiode array detection and electrospray ionization-mass spectrometry. Chem Pharm Bull. 56: 807–814. PMID: 18520085",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.56.807",
+            "pmid": "18520085",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Ma, C, Hu, L, Fu, Q, Gu, X, Tao, G, Wang, H. 2013 Separation of four flavonoids from Rhodiola rosea by on-line combination of sample preparation and counter-current chromatography. J Chromatogr A. 1306: 12–19. PMID: 23890556",
+            "process_entry": "True",
+            "doi": "10.1016/j.chroma.2013.07.052",
+            "pmid": "23890556",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Ma, S, Hu, L, Ma, C, Lv, W, Wang, H. 2014 Application and recovery of ionic liquids in the preparative separation of four flavonoids from Rhodiola rosea by on-line three-dimensional liquid chromatography. J Sep Sci. 37: 2314–2321. PMID: 24916654",
+            "process_entry": "True",
+            "doi": "10.1002/jssc.201400305",
+            "pmid": "24916654",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Nakamura, S, Li, X, Matsuda, H, Ninomiya, K, Morikawa, T, Yamaguti, K, Yoshikawa, M. 2007 Bioactive constituents from Chinese natural medicines. XXVI. Chemical structures and hepatoprotective effects of constituents from roots of Rhodiola sachalinensis. Chem Pharm Bull. 55: 1505–1511. PMID: 17917296",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.55.1505",
+            "pmid": "17917296",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Nawwar, MAM, El-Sissi, HI, Barakat, HH. 1984 Flavonoid constituents of Ephedra alata. Phytochemistry. 23: 2937–2939.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Peschel, W, Kump, A, Horváth, A, Csupor, D. 2016 Age and harvest season affect the phenylpropenoid content in cultivated European Rhodiola rosea L. Ind Crop Prod. 83: 787–802.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Peschel, W, Kump, A, Zomborszki, ZP, Pfosser, M, Kainz, W, Csupor, D. 2018 Phenylpropenoid content in high-altitude cultivated Rhodiola rosea L. provenances according to plant part, harvest season and age. Ind Crop Prod. 111: 446–456.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Peschel, W, Prieto, JM, Karkour, C, Williamson, EM. 2013 Effect of provenance, plant part and processing on extract profiles from cultivated European Rhodiola rosea L. for medicinal use. Phytochemistry. 86: 92–102. PMID: 23137726",
+            "process_entry": "True",
+            "doi": "10.1016/j.phytochem.2012.10.005",
+            "pmid": "23137726",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Petsalo, A, Jalonen, J, Tolonen, A. 2006 Identification of flavonoids of Rhodiola rosea by liquid chromatography–tandem mass spectrometry. J Chromatogr A. 1112: 224–231. PMID: 16343518",
+            "process_entry": "True",
+            "doi": "10.1016/j.chroma.2005.11.056",
+            "pmid": "16343518",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Qiao, Y, Liu, X. 2013 In vitro free radical scavenging and protein oxidation inhibitory effects of herbacetin. Food Sci. 34: 106–110.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Qiao, Y, Xiang, Q, Yuan, L, Xu, L, Liu, Z, Liu, X. 2013 Herbacetin induces apoptosis in HepG2 cells: involvements of ROS and PI3K/Akt pathway. Food Chem Toxicol. 51: 426–433. PMID: 23063593",
+            "process_entry": "True",
+            "doi": "10.1016/j.fct.2012.09.036",
+            "pmid": "23063593",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Rhodiola rosea root and rhizome powder 2015 USP herbal medicines compendium; p. 1–4. U.S. Pharmacopeial Convention. https://hmc.usp.org/monographs/rhodiola-rosea-root-and-rhizome-powder-1-0.",
+            "process_entry": "True",
+            "url": "https://hmc.usp.org/monographs/rhodiola-rosea-root-and-rhizome-powder-1-0.",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Stewens, JF, Wollenweber, E, Ivancic, M, Hsu, VL, Sundberg, S, Deinzer, ML. 1999 Leaf surface flavonoids of Chrysothamnus. Phytochemistry. 51: 771–780.",
+            "process_entry": "True",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "van Diermen, D, Marston, A, Bravo, J, Reist, M, Carrupt, PA, Hostettmann, K. 2009 Monoamine oxidase inhibition by Rhodiola rosea L. roots. J Ethnopharmacol. 122: 397–401. PMID: 19168123",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2009.01.007",
+            "pmid": "19168123",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wei, X, Li, GH, Wang, XL, He, JX, Wang, XN, Ren, DM, Lou, HX, Shen, T. 2017 Chemical constituents from the leaves of Cinnamomum parthenoxylon (Jack) Meisn. (Lauraceae). Biochem Syst Ecol. 70: 95–98.",
+            "process_entry": "True",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Wollenweber, E, Dörr, M, Beyer, M, Roitman, JN, Puttoek, CF. 1997 Rare flavonoids from Odixia and Ozothamnus spp. (Asteraceae, Gnaphalieae). Zeitschrift Naturforschung C. 52: 571–576.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Zapesochnaya, GG, Kurkin, VA, Shchavlinsky, AN. 1985 Flavonoids of the epigeal part of Rhodiola rosea. II. Structures of new glycosides of herbacetin and of gossypetin. Chem Nat Compd. 4: 464–473.",
+            "process_entry": "True",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Zapesochnaya, GG, Kurkin, VA. 1983 Flavonoids of Rhodiola rosea rhizomes. 2. Flavonolignan and herbacetin glycosides. Khim Prir Soedin. 1: 23–32.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Zhou, JT, Li, CY, Wang, CH, Wang, YF, Wang, XD, Wang, HT, Zhu, Y, Jiang, MM, Gao, XM. 2015 Phenolic compounds from the roots of Rhodiola crenulata and their antioxidant and inducing IFN-γ production activities. Molecules (Basel, Switzerland). 20: 13725–13739.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31356124",
+    "doi": "10.1080/13880209.2019.1577460",
+    "pmid": "10.1080/13880209.2019.1577460",
+    "pmcid": "31356124",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31356124/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT1008",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),103,206)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,439)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0029",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,439)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0001",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,439)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0034",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,439)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0009",
+                "rp_string": "1982",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),329,732)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al.1982, 1984a, 1984b; Zapesochnaya and Kurkin 1983; Zapesochnaya et al. 1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),970,89)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0010",
+                "rp_string": "1984a",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),329,732)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al. 1982,1984a, 1984b; Zapesochnaya and Kurkin 1983; Zapesochnaya et al. 1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),970,89)"
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0011",
+                "rp_string": "1984b",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),329,732)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al. 1982, 1984a,1984b; Zapesochnaya and Kurkin 1983; Zapesochnaya et al. 1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),970,89)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0033",
+                "rp_string": "1983",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),329,732)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al. 1982, 1984a, 1984b; Zapesochnaya and Kurkin1983; Zapesochnaya et al. 1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),970,89)"
+            },
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0032",
+                "rp_string": "1985",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),329,732)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al. 1982, 1984a, 1984b; Zapesochnaya and Kurkin 1983; Zapesochnaya et al.1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),970,89)"
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0033",
+                "rp_string": "1983",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),114,328)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zapesochnaya and Kurkin1983; Zapesochnaya et al. 1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),385,55)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0032",
+                "rp_string": "1985",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),114,328)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Zapesochnaya and Kurkin 1983; Zapesochnaya et al.1985)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),385,55)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0031",
+                "rp_string": "1997",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wollenweber et al.1997; El-sayed et al. 1999; Stewens et al. 1999; Fliniaux et al. 2014; Wei et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),139,106)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0003",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wollenweber et al. 1997; El-sayed et al.1999; Stewens et al. 1999; Fliniaux et al. 2014; Wei et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),139,106)"
+            },
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0028",
+                "rp_string": "1999",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wollenweber et al. 1997; El-sayed et al. 1999; Stewens et al.1999; Fliniaux et al. 2014; Wei et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),139,106)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0004",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wollenweber et al. 1997; El-sayed et al. 1999; Stewens et al. 1999; Fliniaux et al.2014; Wei et al. 2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),139,106)"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0030",
+                "rp_string": "2017",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),1,293)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Wollenweber et al. 1997; El-sayed et al. 1999; Stewens et al. 1999; Fliniaux et al. 2014; Wei et al.2017)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),139,106)"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0009",
+                "rp_string": "1982",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),295,276)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al.1982; Zapesochnaya and Kurkin 1983)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),520,49)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0033",
+                "rp_string": "1983",
+                "rp_xpath": "/article/body/sec[1]/p[5]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[5]),295,276)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kurkin et al. 1982; Zapesochnaya and Kurkin1983)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[5]),520,49)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0012",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kwon et al.2009; Qiao and Liu 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),179,36)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0025",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Kwon et al. 2009; Qiao and Liu2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),179,36)"
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0018",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nakamura et al.2007; Hyuga et al. 2013; Qiao et al. 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),343,58)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0006",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nakamura et al. 2007; Hyuga et al.2013; Qiao et al. 2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),343,58)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0026",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Nakamura et al. 2007; Hyuga et al. 2013; Qiao et al.2013)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),343,58)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0008",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0007",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jeong et al.2009; Li et al. 2015, 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),493,40)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0013",
+                "rp_string": "2015",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jeong et al. 2009; Li et al.2015, 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),493,40)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0014",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,534)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Jeong et al. 2009; Li et al. 2015,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[6]),493,40)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1,118)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Plant and reference materials"
+                ],
+                "pl_string": "(Peschel et al.2016, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),91,26)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),1,118)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Plant and reference materials"
+                ],
+                "pl_string": "(Peschel et al. 2016,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),91,26)"
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0023",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,162)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Processing and extraction"
+                ],
+                "pl_string": "(Peschel et al.2013, 2016, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),129,32)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,162)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Processing and extraction"
+                ],
+                "pl_string": "(Peschel et al. 2013,2016, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),129,32)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1,162)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Processing and extraction"
+                ],
+                "pl_string": "(Peschel et al. 2013, 2016,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),129,32)"
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0019",
+                "rp_string": "1984",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,204)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Identification of the isolated flavonoids"
+                ],
+                "pl_string": "(Nawwar et al.1984; Jeong et al. 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),165,38)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0007",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,204)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Identification of the isolated flavonoids"
+                ],
+                "pl_string": "(Nawwar et al. 1984; Jeong et al.2009)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),165,38)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,227)",
+                "containers_title": [
+                    "Materials and methods",
+                    "HPLC quantitative analysis and validation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/sec[2]/p[1]),357,322)",
+                "containers_title": [
+                    "Materials and methods",
+                    "HPLC quantitative analysis and validation",
+                    "Derived parameters"
+                ],
+                "pl_string": "(Peschel et al.2016, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/sec[2]/p[1]),651,26)"
+            },
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/sec[2]/p[1]),357,322)",
+                "containers_title": [
+                    "Materials and methods",
+                    "HPLC quantitative analysis and validation",
+                    "Derived parameters"
+                ],
+                "pl_string": "(Peschel et al. 2016,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/sec[2]/p[1]),651,26)"
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),1,320)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Influence of drug origin – plants of different provenances"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p),757,100)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Influence of drug origin – plants of different provenances"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,188)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Isolation, identification and assays of 1 and 2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[1]),752,191)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Extraction of 1 and 2"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0023",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),1,271)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Flavonoid content of different plant parts"
+                ],
+                "pl_string": "(Peschel et al.2013, 2016)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),148,26)"
+            },
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),1,271)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Flavonoid content of different plant parts"
+                ],
+                "pl_string": "(Peschel et al. 2013,2016)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[2]),148,26)"
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0023",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[6]),693,271)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Flavonoid content in homogenously cultivated plants of different provenances"
+                ],
+                "pl_string": "(Peschel et al.2013, 2016, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[6]),930,32)"
+            },
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0021",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[6]),693,271)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Flavonoid content in homogenously cultivated plants of different provenances"
+                ],
+                "pl_string": "(Peschel et al. 2013,2016, 2018)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[6]),930,32)"
+            },
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0022",
+                "rp_string": "2018",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[6]),693,271)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Flavonoid content in homogenously cultivated plants of different provenances"
+                ],
+                "pl_string": "(Peschel et al. 2013, 2016,2018)",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[6]/p[6]),930,32)"
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0005",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[1]),606,172)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0012",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[2]),439,418)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0016",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[2]),439,418)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0017",
+                "rp_string": "2014",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[2]),439,418)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0002",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[2]),858,292)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0015",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[2]),1151,248)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0024",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p[2]),1400,137)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Overall range of flavonoid content"
+                ]
+            }
+        ]
+    ]
+}

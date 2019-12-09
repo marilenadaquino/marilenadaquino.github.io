@@ -1,0 +1,842 @@
+{
+    "references": [
+        {
+            "bibentry": "Siegel, RL, Miller, KD, Fedewa, SA, et al. Colorectal cancer statistics, 2017. CA Cancer J Clin. 2017; 67(3): 177–193. PMID: 28248415",
+            "process_entry": "True",
+            "doi": "10.3322/caac.21395",
+            "pmid": "28248415",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Harrison, S, Benziger, H. The molecular biology of colorectal carcinoma and its implications: a review. Surgeon. 2011; 9(4): 200–210. PMID: 21672660",
+            "process_entry": "True",
+            "doi": "10.1016/j.surge.2011.01.011",
+            "pmid": "21672660",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Ferlay, J, Soerjomataram, I, Dikshit, R, et al. Cancer incidence and mortality worldwide: sources, methods and major patterns in GLOBOCAN 2012. Int J Cancer. 2015; 136(5): E359–E386. PMID: 25220842",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.29210",
+            "pmid": "25220842",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Mody, K, Baldeo, C, Bekaii-Saab, T. Antiangiogenic therapy in colorectal cancer. Cancer J. 2018; 24(4): 165–170. PMID: 30119079",
+            "process_entry": "True",
+            "doi": "10.1097/ppo.0000000000000328",
+            "pmid": "30119079",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Tauro, M, Lynch, CC,. Cutting to the chase: how matrix metalloproteinase-2 activity controls breast-cancer-to-bone metastasis. Cancers (Basel). 2018; 10(6). DOI: DOI: 10.3390/cancers10060185",
+            "process_entry": "True",
+            "doi": "10.3390/cancers10060185",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Brew, K, Nagase, H. The tissue inhibitors of metalloproteinases (TIMPs): an ancient family with structural and functional diversity[J]. Biochim Biophys Acta. 2010; 1803(1): 55–71. PMID: 20080133",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamcr.2010.01.003",
+            "pmid": "20080133",
+            "pmcid": "PMC2853873",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Giannopoulos, G, Pavlakis, K, Parasi, A, et al. The expression of matrix metalloproteinases-2 and -9 and their tissue inhibitor 2 in pancreatic ductal and ampullary carcinoma and their relation to angiogenesis and clinicopathological parameters. Anticancer Res. 2008; 28(3B): 1875–1881. PMID: 18630474",
+            "process_entry": "True",
+            "pmid": "18630474",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Honkavuori-Toivola, M, Talvensaari-Mattila, A, Soini, Y, et al. Immunoreactivity for TIMP-2 is associated with a favorable prognosis in endometrial carcinoma. Tumour Biol. 2012; 33(4): 935–941. PMID: 22270451",
+            "process_entry": "True",
+            "doi": "10.1007/s13277-012-0321-7",
+            "pmid": "22270451",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Hsu, KW, Fang, WL, Huang, KH, et al. Notch1 pathway-mediated microRNA-151-5p promotes gastric cancer progression. Oncotarget. 2016; 7(25): 38036–38051. PMID: 27191259",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.9342",
+            "pmid": "27191259",
+            "pmcid": "PMC5122370",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Waheed, RM, Kalinovsky, T, Roomi, NW, et al. Inhibition of the SK-N-MC human neuroblastoma cell line in vivo and in vitro by a novel nutrient mixture. Oncol Rep. 2013; 29(5): 1714–1720. PMID: 23446555",
+            "process_entry": "True",
+            "doi": "10.3892/or.2013.2307",
+            "pmid": "23446555",
+            "pmcid": "PMC3658814",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Wang, W, Zhang, Y, Liu, M, et al. TIMP2 is a poor prognostic factor and predicts metastatic biological behavior in gastric cancer. Sci Rep. 2018; 8(1): 9629. PMID: 29941993",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-018-27897-x",
+            "pmid": "29941993",
+            "pmcid": "PMC6018464",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Santos, A, Lopes, C, Frias, C, et al. Immunohistochemical evaluation of MMP-2 and TIMP-2 in canine mammary tumours: a survival study. Vet J. 2011; 190(3): 396–402. PMID: 21269852",
+            "process_entry": "True",
+            "doi": "10.1016/j.tvjl.2010.12.003",
+            "pmid": "21269852",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Pietruszewska, W, Kobos, J, Gryczynski, M, et al. [Analysis of TIMP-1, TIMP-2 and TIMP-3 expression as a prognostic factor of laryngeal cancer progression]. Otolaryngol Pol. 2008; 62(4): 380–387. PMID: 18837208",
+            "process_entry": "True",
+            "doi": "10.1016/s0030-6657(08)70276-2",
+            "pmid": "18837208",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Vihinen, P, Kahari, VM. Matrix metalloproteinases in cancer: prognostic markers and therapeutic targets[J]. Int J Cancer. 2002; 99(2): 157–166. PMID: 11979428",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.10329",
+            "pmid": "11979428",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Bourboulia, D, Stetler-Stevenson, WG. Matrix metalloproteinases (MMPs) and tissue inhibitors of metalloproteinases (TIMPs): positive and negative regulators in tumor cell adhesion. Semin Cancer Biol. 2010; 20(3): 161–168. PMID: 20470890",
+            "process_entry": "True",
+            "doi": "10.1016/j.semcancer.2010.05.002",
+            "pmid": "20470890",
+            "pmcid": "PMC2941566",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Kessenbrock, K, Plaks, V, Werb, Z. Matrix metalloproteinases: regulators of the tumor microenvironment. Cell. 2010; 141(1): 52–67. PMID: 20371345",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2010.03.015",
+            "pmid": "20371345",
+            "pmcid": "PMC2862057",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Shuman, MLA, Jensen-Taubman, S, Stetler-Stevenson, WG. Matrix metalloproteinases: changing roles in tumor progression and metastasis. Am J Pathol. 2012; 181(6): 1895–1899. PMID: 23063657",
+            "process_entry": "True",
+            "doi": "10.1016/j.ajpath.2012.08.044",
+            "pmid": "23063657",
+            "pmcid": "PMC3506216",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Rauvala, M, Aglund, K, Puistola, U, et al. Matrix metalloproteinases-2 and -9 in cervical cancer: different roles in tumor progression. Int J Gynecol Cancer. 2006; 16(3): 1297–1302. PMID: 16803520",
+            "process_entry": "True",
+            "doi": "10.1111/j.1525-1438.2006.00448.x",
+            "pmid": "16803520",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Brun, JL, Cortez, A, Commo, F, et al. Serous and mucinous ovarian tumors express different profiles of MMP-2-7-9, MT1-MMP, and TIMP-1 and -2[J]. Int J Oncol. 2008; 33(6): 1239–1246. PMID: 19020757",
+            "process_entry": "True",
+            "pmid": "19020757",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Alakus, H, Afriani, N, Warnecke-Eberz, U, et al. Clinical impact of MMP and TIMP gene polymorphisms in gastric cancer[J]. World J Surg. 2010; 34(12): 2853–2859. PMID: 20730428",
+            "process_entry": "True",
+            "doi": "10.1007/s00268-010-0761-4",
+            "pmid": "20730428",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Murnane, MJ, Cai, J, Shuja, S, et al. Active MMP-2 effectively identifies the presence of colorectal cancer. Int J Cancer. 2009; 125(12): 2893–2902. PMID: 19551856",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.24682",
+            "pmid": "19551856",
+            "pmcid": "PMC2775048",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Groblewska, M, Mroczko, B, Gryko, M, et al. Serum levels and tissue expression of matrix metalloproteinase 2 (MMP-2) and tissue inhibitor of metalloproteinases 2 (TIMP-2) in colorectal cancer patients. Tumour Biol. 2014; 35(4): 3793–3802. PMID: 24395652",
+            "process_entry": "True",
+            "doi": "10.1007/s13277-013-1502-8",
+            "pmid": "24395652",
+            "pmcid": "PMC3980035",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Park, KS, Kim, SJ, Kim, KH, et al. Clinical characteristics of TIMP2, MMP2, and MMP9 gene polymorphisms in colorectal cancer. J Gastroenterol Hepatol. 2011; 26(2): 391–397. PMID: 21261731",
+            "process_entry": "True",
+            "doi": "10.1111/j.1440-1746.2010.06504.x",
+            "pmid": "21261731",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ben, ND, Ben, ZY, Pujol, P, et al. Clinicopathologic and prognostic significance of metalloproteinase tissue inhibitor-2 promoters in tunisian colorectal cancer: a case-control study. Appl Immunohistochem Mol Morphol. 2016; 24(8): 583–588. PMID: 26808125",
+            "process_entry": "True",
+            "doi": "10.1097/pai.0000000000000231",
+            "pmid": "26808125",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Groblewska, M, Mroczko, B, Gryko, M, et al. Matrix metalloproteinase 2 and tissue inhibitor of matrix metalloproteinases 2 in the diagnosis of colorectal adenoma and cancer patients. Folia Histochem Cytobiol. 2010; 48(4): 564–571. PMID: 21478099",
+            "process_entry": "True",
+            "doi": "10.2478/v10042-010-0076-1",
+            "pmid": "21478099",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Papachristou, DJ, Korpetinou, A, Giannopoulou, E, et al. Expression of the ribonucleases drosha, dicer, and Ago2 in colorectal carcinomas. Virchows Arch. 2011; 459(4): 431–440. PMID: 21769619",
+            "process_entry": "True",
+            "doi": "10.1007/s00428-011-1119-5",
+            "pmid": "21769619",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Van Cutsem, E, Cervantes, A, Nordlinger, B, et al. Metastatic colorectal cancer: ESMO clinical practice guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2014; 25(Suppl 3): iii1–iii9. PMID: 25190710",
+            "process_entry": "True",
+            "doi": "10.1093/annonc/mdu260",
+            "pmid": "25190710",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Zhu, L, Yu, H, Liu, SY, et al. Prognostic value of tissue inhibitor of metalloproteinase-2 expression in patients with non-small cell lung cancer: a systematic review and meta-analysis. PLoS One. 2015; 10(4): e0124230. PMID: 25905787",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0124230",
+            "pmid": "25905787",
+            "pmcid": "PMC4408055",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Chen, X, Zhong, SL, Lu, P, et al. miR-4443 participates in the malignancy of breast cancer. PLoS One. 2016; 11(8): e0160780. PMID: 27504971",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0160780",
+            "pmid": "27504971",
+            "pmcid": "PMC4978484",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Halon, A, Nowak-Markwitz, E, Donizy, P, et al. Enhanced immunoreactivity of TIMP-2 in the stromal compartment of tumor as a marker of favorable prognosis in ovarian cancer patients. J Histochem Cytochem. 2012; 60(7): 491–501. PMID: 22511598",
+            "process_entry": "True",
+            "doi": "10.1369/0022155412446978",
+            "pmid": "22511598",
+            "pmcid": "PMC3460352",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Vasala, K, Kuvaja, P, Turpeenniemi-Hujanen, T. Low circulating levels of ProMMP-2 are associated with adverse prognosis in bladder cancer. Tumour Biol. 2008; 29(5): 279–286. PMID: 18802398",
+            "process_entry": "True",
+            "doi": "10.1159/000156705",
+            "pmid": "18802398",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Braicu, EI, Gasimli, K, Richter, R, et al. Role of serum VEGFA, TIMP2, MMP2 and MMP9 in monitoring response to adjuvant radiochemotherapy in patients with primary cervical cancer–results of a companion protocol of the randomized NOGGO-AGO phase III clinical trial. Anticancer Res. 2014; 34(1): 385–391. PMID: 24403492",
+            "process_entry": "True",
+            "pmid": "24403492",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Gao, XJ, Hou, SP, Li, PH. The association between matrix metalloprotease-9 gene polymorphisms and primary angle-closure glaucoma in a Chinese Han population. Int J Ophthalmol. 2014; 7(3): 397–402. PMID: 24967180",
+            "process_entry": "True",
+            "doi": "10.3980/j.issn.2222-3959.2014.03.02",
+            "pmid": "24967180",
+            "pmcid": "PMC4067648",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Cong, Y, Guo, X, Liu, X, et al. Association of the single nucleotide polymorphisms in the extracellular matrix metalloprotease-9 gene with PACG in southern China. Mol Vis. 2009; 15: 1412–1417. PMID: 19633731",
+            "process_entry": "True",
+            "pmid": "19633731",
+            "pmcid": "PMC2714774",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Gassmann, P, Enns, A, Haier, J. Role of tumor cell adhesion and migration in organ-specific metastasis formation. Onkologie. 2004; 27(6): 577–582. PMID: 15591720",
+            "process_entry": "True",
+            "doi": "10.1159/000081343",
+            "pmid": "15591720",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Wang, K, Zhou, Y, Li, G, et al. MMP8 and MMP9 gene polymorphisms were associated with breast cancer risk in a Chinese Han population. Sci Rep. 2018; 8(1): 13422. PMID: 30194384",
+            "process_entry": "True",
+            "doi": "10.1038/s41598-018-31664-3",
+            "pmid": "30194384",
+            "pmcid": "PMC6128940",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Pesta, M, Holubec, L, Topolcan, O, et al. Quantitative estimation of matrix metalloproteinases 2 and 7 (MMP-2, MMP-7) and tissue inhibitors of matrix metalloproteinases 1 and 2 (TIMP-1, TIMP-2) in colorectal carcinoma tissue samples. Anticancer Res. 2005; 25(5): 3387–3391. PMID: 16101153",
+            "process_entry": "True",
+            "pmid": "16101153",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Stamenkovic, I. Matrix metalloproteinases in tumor invasion and metastasis. Semin Cancer Biol. 2000; 10(6): 415–433. PMID: 11170864",
+            "process_entry": "True",
+            "doi": "10.1006/scbi.2000.0379",
+            "pmid": "11170864",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Srinath, S, Kendole, RK, Gopinath, P, et al. Economic methods used in fabrication of tissue microarray: A pilot study. J Oral Maxillofac Pathol. 2016; 20(1): 86–90. PMID: 27194867",
+            "process_entry": "True",
+            "doi": "10.4103/0973-029X.180948",
+            "pmid": "27194867",
+            "pmcid": "PMC4860942",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Wang, S, Wu, X, Chen, Y, et al. Prognostic and predictive role of JWA and XRCC1 expressions in gastric cancer. Clin Cancer Res. 2012; 18(10): 2987–2996. PMID: 22452940",
+            "process_entry": "True",
+            "doi": "10.1158/1078-0432.ccr-11-2863",
+            "pmid": "22452940",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Wang, W, Chen, Y, Deng, J, et al. Cullin1 is a novel prognostic marker and regulates the cell proliferation and metastasis in colorectal cancer. J Cancer Res Clin Oncol. 2015; 141(9): 1603–1612. PMID: 25652886",
+            "process_entry": "True",
+            "doi": "10.1007/s00432-015-1931-4",
+            "pmid": "25652886",
+            "xmlid": "CIT0041"
+        }
+    ],
+    "localid": "MED-31293204",
+    "doi": "10.1080/19336918.2019.1639303",
+    "pmid": "10.1080/19336918.2019.1639303",
+    "pmcid": "31293204",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31293204/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,134)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),136,109)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),246,107)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),354,302)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),191,230)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),422,272)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),695,244)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,212)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),214,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),248,7)"
+            },
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),214,209)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[15,16]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),248,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),214,209)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),424,166)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),424,166)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),591,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[7,20–22]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),714,9)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),591,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[7,20–22]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),714,9)"
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),591,133)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[7,20–22]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),714,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),725,136)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[23–25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),853,7)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "",
+                "pl_string": "[23–25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),853,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),725,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),725,136)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[23–25]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),853,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,178)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),286,148)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[1,27]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),427,6)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),286,148)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[1,27]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[1]),427,6)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),310,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),310,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),310,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),310,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[2]),310,140)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),394,94)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[33,34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),480,7)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[3]),394,94)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[33,34]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[3]),480,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,104)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),97,7)"
+            },
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),1,104)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[35,36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),97,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),106,167)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[37,38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),265,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[4]),106,167)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[37,38]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[4]),265,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[4]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[1]/p[2]),177,182)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Patient specimens and tissue samples"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[4]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[4]/p),245,82)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Construction of tissue microarray (TMA) and immunohistochemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[4]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[5]/p),95,114)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Evaluation of immunostaining"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/sec[11]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/sec[11]/p),1,90)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Matrigel plug assay in vivo"
+                ]
+            }
+        ]
+    ]
+}

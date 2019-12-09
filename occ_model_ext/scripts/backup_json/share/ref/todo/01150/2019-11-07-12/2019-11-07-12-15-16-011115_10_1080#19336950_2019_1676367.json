@@ -1,0 +1,2030 @@
+{
+    "references": [
+        {
+            "bibentry": "Cuello, LG, Jogini, V, Cortes, DM, et al. Structural mechanism of C-type inactivation in K(+) channels. Nature. 2010; 466: 203–208. PMID: 20613835",
+            "process_entry": "True",
+            "doi": "10.1038/nature09153",
+            "pmid": "20613835",
+            "pmcid": "PMC3033749",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Doyle DA, Morais Cabral J, Pfuetzner RA, et al. The structure of the potassium channel: molecular basis of K+ conduction and selectivity. Science. 1998; 280: 69–77. PMID: 9525859",
+            "process_entry": "True",
+            "doi": "10.1126/science.280.5360.69",
+            "pmid": "9525859",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Hansen, SB, Tao, X, MacKinnon, R. Structural basis of PIP2 activation of the classical inward rectifier K+ channel Kir2.2. Nature. 2011; 477: 495–498. PMID: 21874019",
+            "process_entry": "True",
+            "doi": "10.1038/nature10370",
+            "pmid": "21874019",
+            "pmcid": "PMC3324908",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Jiang, Y, Lee, A, Chen, J, et al. Crystal structure and mechanism of a calcium-gated potassium channel. Nature. 2002; 417: 515–522. PMID: 12037559",
+            "process_entry": "True",
+            "doi": "10.1038/417515a",
+            "pmid": "12037559",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Kuo, A, Gulbis, JM, Antcliff, JF, et al. Crystal structure of the potassium channel KirBac1.1 in the closed state. Science. 2003; 300: 1922–1926. PMID: 12738871",
+            "process_entry": "True",
+            "doi": "10.1126/science.1085028",
+            "pmid": "12738871",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Lee, SJ, Ren, F, Zangerl-Plessl, E-M, et al. Structural basis of control of inward rectifier Kir2 channel gating by bulk anionic phospholipids. J Gen Physiol. 2016; 148: 227–237. PMID: 27527100",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.201611616",
+            "pmid": "27527100",
+            "pmcid": "PMC5004336",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Uysal, S, Vasquez, V, Tereshko, V, et al. Crystal structure of full-length KcsA in its closed conformation. Proc Nat Acad Sci. 2009; 106: 6644–6649. PMID: 19346472",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0810663106",
+            "pmid": "19346472",
+            "pmcid": "PMC2672561",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Whorton, MR, MacKinnon, R. Crystal structure of the mammalian GIRK2 K+ channel and gating regulation by G proteins, PIP2, and sodium. Cell. 2011; 147: 199–208. PMID: 21962516",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2011.07.046",
+            "pmid": "21962516",
+            "pmcid": "PMC3243363",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Whorton, MR, MacKinnon, R. X-ray structure of the mammalian GIRK2-betagamma G-protein complex. Nature. 2013; 498: 190–197. PMID: 23739333",
+            "process_entry": "True",
+            "doi": "10.1038/nature12241",
+            "pmid": "23739333",
+            "pmcid": "PMC4654628",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Caffrey, M, Feigenson, GW. Fluorescence quenching in model membranes. 3. Relationship between calcium adenosinetriphosphatase enzyme activity and the affinity of the protein for phosphatidylcholines with different acyl chain characteristics. Biochemistry. 1981; 20: 1949–1961. PMID: 6452902",
+            "process_entry": "True",
+            "doi": "10.1021/bi00510a034",
+            "pmid": "6452902",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "East, JM, Lee, AG. Lipid selectivity of the calcium and magnesium ion dependent adenosinetriphosphatase, studied with fluorescence quenching by a brominated phospholipid. Biochemistry. 1982; 21: 4144–4151. PMID: 6127102",
+            "process_entry": "True",
+            "doi": "10.1021/bi00260a035",
+            "pmid": "6127102",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Cornelius, F, Turner, N, Christensen, HR. Modulation of Na,K-ATPase by phospholipids and cholesterol. II. Steady-state and presteady-state kinetics. Biochemistry. 2003; 42: 8541–8549. PMID: 12859201",
+            "process_entry": "True",
+            "doi": "10.1021/bi034532e",
+            "pmid": "12859201",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Johannsson, A, Smith, GA, Metcalfe, JC. The effect of bilayer thickness on the activity of (Na+ + K+)-ATPase. Biochim Biophys Acta -Biomembr. 1981; 641: 416–421.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Pilot, JD, East, JM, Lee, AG. Effects of bilayer thickness on the activity of diacylglycerol kinase of Escherichia coli. Biochemistry. 2001; 40: 8188–8195. PMID: 11444964",
+            "process_entry": "True",
+            "doi": "10.1021/bi0103258",
+            "pmid": "11444964",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Carruthers, A, Melchior, DL. Human erythrocyte hexose transporter activity is governed by bilayer lipid composition in reconstituted vesicles. Biochemistry. 1984; 23: 6901–6911. PMID: 6543323",
+            "process_entry": "True",
+            "doi": "10.1021/bi00321a096",
+            "pmid": "6543323",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "daCosta, CJ, Dey, L, Therien, JP, et al. A distinct mechanism for activating uncoupled nicotinic acetylcholine receptors. Nat Chem Biol. 2013; 9: 701–707. PMID: 24013278",
+            "process_entry": "True",
+            "doi": "10.1038/nchembio.1338",
+            "pmid": "24013278",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Yuan, C, O’Connell, RJ, Jacob, RF, et al. Regulation of the gating of BKCa channel by lipid bilayer thickness. J Biol Chem. 2007; 282: 7276–7286. PMID: 17209047",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m607593200",
+            "pmid": "17209047",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Yuan, C, O’Connell, RJ, Feinberg-Zadek, PL, et al. Bilayer Thickness Modulates the Conductance of the BK Channel in Model Membranes. Biophys J. 2004; 86: 3620–3633. PMID: 15189859",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.103.029678",
+            "pmid": "15189859",
+            "pmcid": "PMC1304264",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Bravo-Zehnder M, Orio P, Norambuena A, et al. Apical sorting of a voltage-and Ca2+-activated K+ channel alpha -subunit in Madin-Darby canine kidney cells is independent of N-glycosylation. Proc Natl Acad Sci U S A. 2000; 97: 13114–13119. PMID: 11069304",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.240455697",
+            "pmid": "11069304",
+            "pmcid": "PMC27187",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Martens, JR, Navarro-Polanco, R, Coppock, EA, et al. Differential targeting of Shaker-like potassium channels to lipid rafts. J Biol Chem. 2000; 275: 7443–7446. PMID: 10713042",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.275.11.7443",
+            "pmid": "10713042",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Martens, JR, Sakamoto, N, Sullivan, SA, et al. Isoform-specific localization of voltage-gated K+ channels to distinct lipid raft populations. Targeting of Kv1.5 to caveolae. J Biol Chem. 2001; 276: 8409–8414. PMID: 11115511",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.m009948200",
+            "pmid": "11115511",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Rusinova R, Herold KF, Sanford RL, et al. Thiazolidinedione insulin sensitizers alter lipid bilayer properties and voltage-dependent sodium channel function: implications for drug discovery. J Gen Physiol. 2011; 138: 249–270. PMID: 21788612",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.201010529",
+            "pmid": "21788612",
+            "pmcid": "PMC3149818",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Lomize, MA, Lomize, AL, Pogozheva, ID, et al. OPM: orientations of proteins in membranes database. Bioinformatics. 2006; 22: 623–625. PMID: 16397007",
+            "process_entry": "True",
+            "doi": "10.1093/bioinformatics/btk023",
+            "pmid": "16397007",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Cuello, LG, Romero, JG, Cortes, DM, et al. pH-dependent gating in the Streptomyces lividans K+ channel. Biochemistry. 1998; 37: 3229–3236. PMID: 9536962",
+            "process_entry": "True",
+            "doi": "10.1021/bi972997x",
+            "pmid": "9536962",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Cuello, LG, Jogini, V, Cortes, DM, et al. Design and characterization of a constitutively open KcsA. FEBS Lett. 2010; 584: 1133–1138. PMID: 20153331",
+            "process_entry": "True",
+            "doi": "10.1016/j.febslet.2010.02.015",
+            "pmid": "20153331",
+            "pmcid": "PMC2848999",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Zhou, Y, Morais-Cabral, JH, Kaufman, A, et al. Chemistry of ion coordination and hydration revealed by a K+ channel-Fab complex at 2.0[thinsp][angst] resolution. Nature. 2001; 414: 43–48. PMID: 11689936",
+            "process_entry": "True",
+            "doi": "10.1038/35102009",
+            "pmid": "11689936",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Chakrapani, S, Cordero-Morales, JF, Perozo, E. A quantitative description of KcsA gating I: macroscopic currents. J Gen Physiol. 2007; 130: 465–478. PMID: 17938230",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.200709843",
+            "pmid": "17938230",
+            "pmcid": "PMC2151670",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Chakrapani, S, Cordero-Morales, JF, Perozo, E. A quantitative description of KcsA gating II: single-channel currents. J Gen Physiol. 2007; 130: 479–496. PMID: 17938231",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.200709844",
+            "pmid": "17938231",
+            "pmcid": "PMC2151667",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Cordero-Morales, JF, Cuello, LG, Perozo, E. Voltage-dependent gating at the KcsA selectivity filter. Nat Struct Mol Biol. 2006; 13: 319–322. PMID: 16532008",
+            "process_entry": "True",
+            "doi": "10.1038/nsmb1070",
+            "pmid": "16532008",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Heginbotham, L, Kolmakova-Partensky, L, Miller, C. Functional reconstitution of a prokaryotic K+ channel. J Gen Physiol. 1998; 111: 741–749. PMID: 9607934",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.111.6.741",
+            "pmid": "9607934",
+            "pmcid": "PMC2217152",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Thompson, AN, Posson, DJ, Parsa, PV, et al. Molecular mechanism of pH sensing in KcsA potassium channels. Proc Natl Acad Sci U S A. 2008; 105: 6900–6905. PMID: 18443286",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.0800873105",
+            "pmid": "18443286",
+            "pmcid": "PMC2383984",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Cordero-Morales, JF, Cuello, LG, Zhao, Y, et al. Molecular determinants of gating at the potassium-channel selectivity filter. Nat Struct Mol Biol. 2006; 13: 311–318. PMID: 16532009",
+            "process_entry": "True",
+            "doi": "10.1038/nsmb1069",
+            "pmid": "16532009",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Rotem, D, Mason, A, Bayley, H. Inactivation of the KcsA potassium channel explored with heterotetramers. J Gen Physiol. 2010; 135: 29–42. PMID: 20038524",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.200910305",
+            "pmid": "20038524",
+            "pmcid": "PMC2806417",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Valiyaveetil, FI, Zhou, Y, MacKinnon, R. Lipids in the Structure, Folding, and Function of the KcsA K+ Channel†. Biochemistry. 2002; 41: 10771–10777. PMID: 12196015",
+            "process_entry": "True",
+            "doi": "10.1021/bi026215y",
+            "pmid": "12196015",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Marius, P, Zagnoni, M, Sandison, ME, et al. Binding of anionic lipids to at least three nonannular sites on the potassium channel KcsA is required for channel opening. Biophys J. 2008; 94: 1689–1698. PMID: 18024500",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.107.117507",
+            "pmid": "18024500",
+            "pmcid": "PMC2242745",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Williamson, IM, Alvis, SJ, East, JM, et al. Interactions of phospholipids with the potassium channel KcsA. Biophys J. 2002; 83: 2026–2038. PMID: 12324421",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-3495(02)73964-7",
+            "pmid": "12324421",
+            "pmcid": "PMC1302292",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Molina, ML, Giudici, AM, Poveda, JA, et al. Competing Lipid-Protein and Protein-Protein Interactions Determine Clustering and Gating Patterns in the Potassium Channel from Streptomyces lividans (KcsA). J Biol Chem. 2015; 290: 25745–25755. PMID: 26336105",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M115.669598",
+            "pmid": "26336105",
+            "pmcid": "PMC4646216",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Rusinova, R, Kim, DM, Nimigean, CM, et al. Regulation of ion channel function by the host lipid bilayer examined by a stopped-flow spectrofluorometric assay. Biophys J. 2014; 106: 1070–1078. PMID: 24606931",
+            "process_entry": "True",
+            "doi": "10.1016/j.bpj.2014.01.027",
+            "pmid": "24606931",
+            "pmcid": "PMC4026792",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Nimigean, CM. A radioactive uptake assay to measure ion transport across ion channel-containing liposomes. Nat Protoc. 2006; 1: 1207–1212. PMID: 17406403",
+            "process_entry": "True",
+            "doi": "10.1038/nprot.2006.166",
+            "pmid": "17406403",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Milescu, LS, Nicolai, C, Bannen, J. QuB Software. 2000-2013.",
+            "process_entry": "True",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Glatter, O, Kratky, O. Small angle x-ray scattering. London; New York: Academic Press; 1982 p. 515.",
+            "process_entry": "True",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Nielsen, SS, Toft, KN, Snakenborg, D, et al. BioXTAS RAW, a software program for high-throughput automated small-angle X-ray scattering data reduction and preliminary analysis. J Appl Cryst. 2009; 42: 959–964.",
+            "process_entry": "True",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Pabst, G, Koschuch, R, Pozo-Navas, B, et al. Structural analysis of weakly ordered membrane stacks. J Appl Crystallogr. 2003; 36: 1378–1388.",
+            "process_entry": "True",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Pabst, G, Rappolt, M, Amenitsch, H, et al. Structural information from multilamellar liposomes at full hydration: full q-range fitting with high quality x-ray data. Phys Rev E Stat Phys Plasmas Fluids Relat Interdiscip Topics. 2000; 62: 4000–4009. PMID: 11088921",
+            "process_entry": "True",
+            "doi": "10.1103/physreve.62.4000",
+            "pmid": "11088921",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Jo, S, Kim, T, Im, W. Automated builder and database of protein/membrane complexes for molecular dynamics simulations. PLoS One. 2007; 2: e880. PMID: 17849009",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0000880",
+            "pmid": "17849009",
+            "pmcid": "PMC1963319",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Jo, S, Kim, T, Iyer, VG, et al. CHARMM-GUI: a web-based graphical user interface for CHARMM. J Comput Chem. 2008; 29: 1859–1865. PMID: 18351591",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.20945",
+            "pmid": "18351591",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Jo, S, Lim, JB, Klauda, JB, et al. CHARMM-GUI Membrane Builder for mixed bilayers and its application to yeast membranes. Biophys J. 2009; 97: 50–58. PMID: 19580743",
+            "process_entry": "True",
+            "doi": "10.1016/j.bpj.2009.04.013",
+            "pmid": "19580743",
+            "pmcid": "PMC2711372",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Cortes, DM, Cuello, LG, Perozo, E. Molecular Architecture of Full-Length KcsA: role of Cytoplasmic Domains in Ion Permeation and Activation Gating. J Gen Physiol. 2001; 117: 165–180. PMID: 11158168",
+            "process_entry": "True",
+            "doi": "10.1085/jgp.117.2.165",
+            "pmid": "11158168",
+            "pmcid": "PMC2217246",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Uysal, S, Cuello, LG, Cortes, DM, et al. Mechanism of activation gating in the full-length KcsA K+ channel. Proc Nat Acad Sci. 2011; 108: 11896–11899. PMID: 21730186",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1105112108",
+            "pmid": "21730186",
+            "pmcid": "PMC3141920",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "Ostmeyer, J, Chakrapani, S, Pan, AC, et al. Recovery from slow inactivation in K+ channels is controlled by water molecules. Nature. 2013; 501: 121. PMID: 23892782",
+            "process_entry": "True",
+            "doi": "10.1038/nature12395",
+            "pmid": "23892782",
+            "pmcid": "PMC3799803",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Søndergaard, CR, Olsson, MHM, Rostkowski, M, et al. Improved Treatment of Ligands and Coupling Effects in Empirical Calculation and Rationalization of pKa Values. J Chem Theory Comput. 2011; 7: 2284–2295. PMID: 26606496",
+            "process_entry": "True",
+            "doi": "10.1021/ct200133y",
+            "pmid": "26606496",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Olsson, MHM, Søndergaard, CR, Rostkowski, M, et al. PROPKA3: consistent Treatment of Internal and Surface Residues in Empirical pKa Predictions. J Chem Theory Comput. 2011; 7: 525–537. PMID: 26596171",
+            "process_entry": "True",
+            "doi": "10.1021/ct100578z",
+            "pmid": "26596171",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Bernèche, S, Roux, B. The Ionization State and the Conformation of Glu-71 in the KcsA K+ Channel. Biophys J. 2002; 82: 772–780. PMID: 11806919",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-3495(02)75439-8",
+            "pmid": "11806919",
+            "pmcid": "PMC1301886",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Bucher, D, Guidoni, L, Rothlisberger, U. The Protonation State of the Glu-71/Asp-80 Residues in the KcsA Potassium Channel: A First-Principles QM/MM Molecular Dynamics Study. Biophys J. 2007; 93: 2315–2324. PMID: 17526559",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.106.102509",
+            "pmid": "17526559",
+            "pmcid": "PMC1965436",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Bhate, MP, McDermott, AE. Protonation state of E71 in KcsA and its role for channel collapse and inactivation. Proc Nat Acad Sci. 2012; 109: 15265–15270. PMID: 22942391",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1211900109",
+            "pmid": "22942391",
+            "pmcid": "PMC3458351",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Alvis, SJ, Williamson, IM, East, JM, et al. Interactions of Anionic Phospholipids and Phosphatidylethanolamine with the Potassium Channel KcsA. Biophys J. 2003; 85: 3828–3838. PMID: 14645072",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-3495(03)74797-3",
+            "pmid": "14645072",
+            "pmcid": "PMC1303684",
+            "xmlid": "CIT0056"
+        },
+        {
+            "bibentry": "Marius, P, Alvis, SJ, East, JM, et al. The Interfacial Lipid Binding Site on the Potassium Channel KcsA Is Specific for Anionic Phospholipids. Biophys J. 2005; 89: 4081–4089. PMID: 16199503",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.105.070755",
+            "pmid": "16199503",
+            "pmcid": "PMC1366973",
+            "xmlid": "CIT0057"
+        },
+        {
+            "bibentry": "Janosi, L, Gorfe, AA, Simulating, POPC. POPC/POPG Bilayers: conserved Packing and Altered Surface Reactivity. J Chem Theory Comput. 2010; 6: 3267–3273. PMID: 26616788",
+            "process_entry": "True",
+            "doi": "10.1021/ct100381g",
+            "pmid": "26616788",
+            "xmlid": "CIT0058"
+        },
+        {
+            "bibentry": "Klauda, JB, Venable, RM, Freites, JA, et al. Update of the CHARMM All-Atom Additive Force Field for Lipids: validation on Six Lipid Types. J Phys Chem A. 2010; 114: 7830–7843.",
+            "process_entry": "True",
+            "xmlid": "CIT0059"
+        },
+        {
+            "bibentry": "Benz, RW, Castro-Román, F, Tobias, DJ, et al. Experimental Validation of Molecular Dynamics Simulations of Lipid Bilayers: A New Approach. Biophys J. 2005; 88: 805–817. PMID: 15533925",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.104.046821",
+            "pmid": "15533925",
+            "pmcid": "PMC1305157",
+            "xmlid": "CIT0060"
+        },
+        {
+            "bibentry": "Castro-Román, F, Benz, RW, White, SH, et al. Investigation of Finite System-Size Effects in Molecular Dynamics Simulations of Lipid Bilayers. J Phys Chem A. 2006; 110: 24157–24164.",
+            "process_entry": "True",
+            "xmlid": "CIT0061"
+        },
+        {
+            "bibentry": "Essmann, U, Perera, L, Berkowitz, ML, et al. A smooth particle mesh Ewald method. J Chem Phys. 1995; 103: 8577–8593.",
+            "process_entry": "True",
+            "xmlid": "CIT0062"
+        },
+        {
+            "bibentry": "Phillips, JC, Braun, R, Wang, W, et al. Scalable molecular dynamics with NAMD. J Comput Chem. 2005; 26: 1781–1802. PMID: 16222654",
+            "process_entry": "True",
+            "doi": "10.1002/jcc.20289",
+            "pmid": "16222654",
+            "pmcid": "PMC2486339",
+            "xmlid": "CIT0063"
+        },
+        {
+            "bibentry": "Humphrey, W, Dalke, A, Schulten, K. VMD: visual molecular dynamics. J Mol Graph. 1996; 14(33–8): 27–28.",
+            "process_entry": "True",
+            "xmlid": "CIT0064"
+        },
+        {
+            "bibentry": "Berneche, S, Roux, B. A gate in the selectivity filter of potassium channels. Structure. 2005; 13: 591–600. PMID: 15837197",
+            "process_entry": "True",
+            "doi": "10.1016/j.str.2004.12.019",
+            "pmid": "15837197",
+            "xmlid": "CIT0065"
+        },
+        {
+            "bibentry": "Cheng, WW, McCoy, JG, Thompson, AN, et al. Mechanism for selectivity-inactivation coupling in KcsA potassium channels. Proc Natl Acad Sci U S A. 2011; 108: 5272–5277. PMID: 21402935",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1014186108",
+            "pmid": "21402935",
+            "pmcid": "PMC3069191",
+            "xmlid": "CIT0066"
+        },
+        {
+            "bibentry": "Miloshevsky, GV, Jordan, PC. Conformational changes in the selectivity filter of the open-state KcsA channel: an energy minimization study. Biophys J. 2008; 95: 3239–3251. PMID: 18621821",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.108.136556",
+            "pmid": "18621821",
+            "pmcid": "PMC2547464",
+            "xmlid": "CIT0067"
+        },
+        {
+            "bibentry": "Zhuang, X, Makover, JR, Im, W, et al. A systematic molecular dynamics simulation study of temperature dependent bilayer structural properties. Biochim Biophys Acta. 2014; 1838: 2520–2529. PMID: 24953542",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamem.2014.06.010",
+            "pmid": "24953542",
+            "xmlid": "CIT0068"
+        },
+        {
+            "bibentry": "Petrache, HI, Tristram-Nagle, S, Harries, D, et al. Swelling of phospholipids by monovalent salt. J Lipid Res. 2006; 47: 302–309. PMID: 16267342",
+            "process_entry": "True",
+            "doi": "10.1194/jlr.M500401-JLR200",
+            "pmid": "16267342",
+            "pmcid": "PMC2689361",
+            "xmlid": "CIT0069"
+        },
+        {
+            "bibentry": "Elliott, JR, Needham, D, Dilger, JP, et al. The effects of bilayer thickness and tension on gramicidin single-channel lifetime. Biochim Biophys Acta. 1983; 735: 95–103. PMID: 6194820",
+            "process_entry": "True",
+            "doi": "10.1016/0005-2736(83)90264-x",
+            "pmid": "6194820",
+            "xmlid": "CIT0070"
+        },
+        {
+            "bibentry": "Perozo, E, Kloda, A, Cortes, DM, et al. Physical principles underlying the transduction of bilayer deformation forces during mechanosensitive channel gating. Nat Struct Biol. 2002; 9: 696–703. PMID: 12172537",
+            "process_entry": "True",
+            "doi": "10.1038/nsb827",
+            "pmid": "12172537",
+            "xmlid": "CIT0071"
+        },
+        {
+            "bibentry": "Saenz JP, Grosser D, Bradley AS, et al. Hopanoids as functional analogues of cholesterol in bacterial membranes. Proc Natl Acad Sci U S A. 2015; 112: 11971–11976. PMID: 26351677",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1515607112",
+            "pmid": "26351677",
+            "pmcid": "PMC4586864",
+            "xmlid": "CIT0072"
+        },
+        {
+            "bibentry": "Douliez, JP, Leonard, A, Dufourc, EJ. Restatement of order parameters in biomembranes: calculation of C-C bond order parameters from C-D quadrupolar splittings. Biophys J. 1995; 68: 1727–1739. PMID: 7612816",
+            "process_entry": "True",
+            "doi": "10.1016/s0006-3495(95)80350-4",
+            "pmid": "7612816",
+            "pmcid": "PMC1282076",
+            "xmlid": "CIT0073"
+        },
+        {
+            "bibentry": "Douliez, JP, Leonard, A, Dufourc, EJ. Conformational order of DMPC sn-1 versus sn-2 chains and membrane thickness: an approach to molecular protrusion by solid state H-2-NMR and neutron. J Phys Chem. 1996; 100: 18450–18457.",
+            "process_entry": "True",
+            "xmlid": "CIT0074"
+        },
+        {
+            "bibentry": "Poralla, K, Muth, G, Hartner, T. Hopanoids are formed during transition from substrate to aerial hyphae in Streptomyces coelicolor A3(2). FEMS Microbiol Lett. 2000; 189: 93–95. PMID: 10913872",
+            "process_entry": "True",
+            "doi": "10.1111/j.1574-6968.2000.tb09212.x",
+            "pmid": "10913872",
+            "xmlid": "CIT0075"
+        },
+        {
+            "bibentry": "Hsieh, M-H, Shiau, Y-S, Liou-H-H, et al. Measurement of Hanatoxin-Induced Membrane Thinning with Lamellar X-ray Diffraction. Langmuir. 2017; 33: 2885–2889. PMID: 28260386",
+            "process_entry": "True",
+            "doi": "10.1021/acs.langmuir.7b00064",
+            "pmid": "28260386",
+            "xmlid": "CIT0076"
+        },
+        {
+            "bibentry": "Mihailescu, M, Krepkiy, D, Milescu, M, et al. Structural interactions of a voltage sensor toxin with lipid membranes. Proc Natl Acad Sci U S A. 2014; 111: E5463–70. PMID: 25453087",
+            "process_entry": "True",
+            "doi": "10.1073/pnas.1415324111",
+            "pmid": "25453087",
+            "pmcid": "PMC4273406",
+            "xmlid": "CIT0077"
+        },
+        {
+            "bibentry": "Wee, CL, Gavaghan, D, Sansom, MS. Lipid bilayer deformation and the free energy of interaction of a Kv channel gating-modifier toxin. Biophys J. 2008; 95: 3816–3826. PMID: 18621840",
+            "process_entry": "True",
+            "doi": "10.1529/biophysj.108.130971",
+            "pmid": "18621840",
+            "pmcid": "PMC2553134",
+            "xmlid": "CIT0078"
+        },
+        {
+            "bibentry": "Monticelli, L, Barnoud, J, Orlowski, A, et al. Interaction of C70 fullerene with the Kv1.2 potassium channel. Phys Chem Chem Phys. 2012; 14: 12526–12533. PMID: 23087916",
+            "process_entry": "True",
+            "doi": "10.1039/c2cp41117b",
+            "pmid": "23087916",
+            "xmlid": "CIT0079"
+        }
+    ],
+    "localid": "MED-31608774",
+    "doi": "10.1080/19336950.2019.1676367",
+    "pmid": "10.1080/19336950.2019.1676367",
+    "pmcid": "31608774",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31608774/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)"
+            },
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,184)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[1–9]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),179,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),483,251)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),143,7)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[10,11]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),143,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),166,7)"
+            },
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[12,13]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),166,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),306,7)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,313)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[17,18]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),306,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),315,254)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[19–21]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),561,7)"
+            },
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0020",
+                "pl_string": "[19–21]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),561,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),315,254)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),315,254)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[19–21]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),561,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),709,219)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),929,245)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),155,9)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),155,9)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[2,25,26]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),155,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)"
+            },
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0028",
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0029",
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0030",
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0031",
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0032",
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,223)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[27–33]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),182,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),225,187)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),570,260)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),570,260)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[34–37]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,7)"
+            },
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0035",
+                "pl_string": "[34–37]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),570,260)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0036",
+                "pl_string": "[34–37]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,7)",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),570,260)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),570,260)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[34–37]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),822,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),831,319)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1151,118)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),1241,139)",
+                "containers_title": [
+                    "Methods",
+                    "86Rb+ influx assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p),1298,129)",
+                "containers_title": [
+                    "Methods",
+                    "Electrophysiology"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,153)",
+                "containers_title": [
+                    "Methods",
+                    "Small angle x-ray scattering (SAXS)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 46,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),1,153)",
+                "containers_title": [
+                    "Methods",
+                    "Small angle x-ray scattering (SAXS)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 47,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),264,308)",
+                "containers_title": [
+                    "Methods",
+                    "Small angle x-ray scattering (SAXS)"
+                ],
+                "pl_string": "[43,44]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),564,7)"
+            },
+            {
+                "n_rp": 48,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),264,308)",
+                "containers_title": [
+                    "Methods",
+                    "Small angle x-ray scattering (SAXS)"
+                ],
+                "pl_string": "[43,44]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[2]),564,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 49,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,143)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[45–47]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),136,7)"
+            },
+            {
+                "n_rp": 50,
+                "xref_id": "CIT0046",
+                "pl_string": "[45–47]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),136,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,143)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            },
+            {
+                "n_rp": 51,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1,143)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[45–47]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),136,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 52,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),145,207)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[7,48,49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),342,9)"
+            },
+            {
+                "n_rp": 53,
+                "xref_id": "CIT0048",
+                "rp_string": "48",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),145,207)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[7,48,49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),342,9)"
+            },
+            {
+                "n_rp": 54,
+                "xref_id": "CIT0049",
+                "rp_string": "49",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),145,207)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[7,48,49]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),342,9)"
+            }
+        ],
+        [
+            {
+                "n_rp": 55,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),442,183)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 56,
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),442,183)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 57,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),626,111)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 58,
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),810,173)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[51,52]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),819,7)"
+            },
+            {
+                "n_rp": 59,
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),810,173)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[51,52]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),819,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 60,
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),984,96)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[53–55]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1072,7)"
+            },
+            {
+                "n_rp": 61,
+                "xref_id": "CIT0054",
+                "pl_string": "[53–55]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1072,7)",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),984,96)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            },
+            {
+                "n_rp": 62,
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),984,96)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[53–55]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[1]),1072,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 63,
+                "xref_id": "CIT0056",
+                "rp_string": "56",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),221,149)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 64,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),221,149)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[35,37]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),362,7)"
+            },
+            {
+                "n_rp": 65,
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),221,149)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[35,37]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),362,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 66,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),371,108)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 67,
+                "xref_id": "CIT0057",
+                "rp_string": "57",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[2]),480,247)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 68,
+                "xref_id": "CIT0058",
+                "rp_string": "58",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),293,246)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[58,59]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),420,7)"
+            },
+            {
+                "n_rp": 69,
+                "xref_id": "CIT0059",
+                "rp_string": "59",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),293,246)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[58,59]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),420,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 70,
+                "xref_id": "CIT0060",
+                "rp_string": "60",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),293,246)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[60,61]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),531,7)"
+            },
+            {
+                "n_rp": 71,
+                "xref_id": "CIT0061",
+                "rp_string": "61",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),293,246)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ],
+                "pl_string": "[60,61]",
+                "pl_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),531,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 72,
+                "xref_id": "CIT0062",
+                "rp_string": "62",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),540,194)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 73,
+                "xref_id": "CIT0063",
+                "rp_string": "63",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),1064,74)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 74,
+                "xref_id": "CIT0064",
+                "rp_string": "64",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p[3]),1474,102)",
+                "containers_title": [
+                    "Methods",
+                    "Molecular dynamics"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 75,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),1,89)",
+                "containers_title": [
+                    "Results",
+                    "KcsA function is regulated by membrane thickness"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 76,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),347,155)",
+                "containers_title": [
+                    "Results",
+                    "KcsA function is regulated by membrane thickness"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),427,7)"
+            },
+            {
+                "n_rp": 77,
+                "xref_id": "CIT0035",
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),427,7)",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),347,155)",
+                "containers_title": [
+                    "Results",
+                    "KcsA function is regulated by membrane thickness"
+                ]
+            },
+            {
+                "n_rp": 78,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),347,155)",
+                "containers_title": [
+                    "Results",
+                    "KcsA function is regulated by membrane thickness"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),427,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 79,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),724,108)",
+                "containers_title": [
+                    "Results",
+                    "KcsA function is regulated by membrane thickness"
+                ],
+                "pl_string": "[32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),757,7)"
+            },
+            {
+                "n_rp": 80,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),724,108)",
+                "containers_title": [
+                    "Results",
+                    "KcsA function is regulated by membrane thickness"
+                ],
+                "pl_string": "[32,33]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),757,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 81,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),174,237)",
+                "containers_title": [
+                    "Results",
+                    "Relationship between acyl chain length and hydrophobic thickness of the membranes"
+                ],
+                "pl_string": "[43,44]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),310,7)"
+            },
+            {
+                "n_rp": 82,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),174,237)",
+                "containers_title": [
+                    "Results",
+                    "Relationship between acyl chain length and hydrophobic thickness of the membranes"
+                ],
+                "pl_string": "[43,44]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),310,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 83,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[3]),1,171)",
+                "containers_title": [
+                    "Results",
+                    "Hydrophobic matching between KcsA and lipid bilayer does not require large-scale conformational changes in the protein"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 84,
+                "xref_id": "CIT0065",
+                "rp_string": "65",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,193)",
+                "containers_title": [
+                    "Results",
+                    "Sensitivity to membrane thickness is not driven by changes at the selectivity filter"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 85,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,193)",
+                "containers_title": [
+                    "Results",
+                    "Sensitivity to membrane thickness is not driven by changes at the selectivity filter"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 86,
+                "xref_id": "CIT0066",
+                "rp_string": "66",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),195,76)",
+                "containers_title": [
+                    "Results",
+                    "Sensitivity to membrane thickness is not driven by changes at the selectivity filter"
+                ],
+                "pl_string": "[66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),263,7)"
+            },
+            {
+                "n_rp": 87,
+                "xref_id": "CIT0067",
+                "rp_string": "67",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),195,76)",
+                "containers_title": [
+                    "Results",
+                    "Sensitivity to membrane thickness is not driven by changes at the selectivity filter"
+                ],
+                "pl_string": "[66,67]",
+                "pl_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),263,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 88,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1745,259)",
+                "containers_title": [
+                    "Results",
+                    "Sensitivity to membrane thickness is not driven by changes at the selectivity filter"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 89,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),153,252)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),310,7)"
+            },
+            {
+                "n_rp": 90,
+                "xref_id": "CIT0035",
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),310,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),153,252)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 91,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),153,252)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[34–36]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),310,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 92,
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),153,252)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 93,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),406,223)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 94,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),630,317)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 95,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1,207)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 96,
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),449,257)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 97,
+                "xref_id": "CIT0068",
+                "rp_string": "68",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1243,99)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 98,
+                "xref_id": "CIT0069",
+                "rp_string": "69",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),1622,261)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 99,
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),2494,321)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 100,
+                "xref_id": "CIT0070",
+                "rp_string": "70",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),731,224)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[70,71]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),823,7)"
+            },
+            {
+                "n_rp": 101,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),731,224)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[70,71]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[3]),823,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 102,
+                "xref_id": "CIT0071",
+                "rp_string": "71",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),956,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 103,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),120,193)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 104,
+                "xref_id": "CIT0072",
+                "rp_string": "72",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),120,193)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 105,
+                "xref_id": "CIT0073",
+                "rp_string": "73",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),120,193)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[73,74]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),305,7)"
+            },
+            {
+                "n_rp": 106,
+                "xref_id": "CIT0074",
+                "rp_string": "74",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),120,193)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[73,74]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),305,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 107,
+                "xref_id": "CIT0075",
+                "rp_string": "75",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),314,91)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 108,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),406,185)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[76–79]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),583,7)"
+            },
+            {
+                "n_rp": 109,
+                "xref_id": "CIT0077",
+                "pl_string": "[76–79]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),583,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),406,185)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 110,
+                "xref_id": "CIT0078",
+                "pl_string": "[76–79]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),583,7)",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),406,185)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            },
+            {
+                "n_rp": 111,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),406,185)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[76–79]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),583,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 112,
+                "xref_id": "CIT0079",
+                "rp_string": "79",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),820,216)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 113,
+                "xref_id": "CIT0077",
+                "rp_string": "77",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),820,216)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[77,78]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),1015,7)"
+            },
+            {
+                "n_rp": 114,
+                "xref_id": "CIT0078",
+                "rp_string": "78",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),820,216)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[77,78]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),1015,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 115,
+                "xref_id": "CIT0076",
+                "rp_string": "76",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),820,216)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

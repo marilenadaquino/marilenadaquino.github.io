@@ -1,0 +1,557 @@
+{
+    "references": [
+        {
+            "bibentry": "Vincken, JP, Heng, L, de Groot, A, Gruppen, H. Saponins, classification and occurrence in the plant kingdom. Phytochemistry 2007; 68: 275–97. PMID: 17141815",
+            "process_entry": "True",
+            "doi": "10.1016/j.phytochem.2006.10.008",
+            "pmid": "17141815",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Augustin, JM, Kuzina, V, Andersen, SB, Bak, S. Molecular activities, biosynthesis and evolution of triterpenoid saponins. Phytochemistry 2011; 72: 435–57. PMID: 21333312",
+            "process_entry": "True",
+            "doi": "10.1016/j.phytochem.2011.01.015",
+            "pmid": "21333312",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Güçlü-Üstündağ, O, Mazza, G. Saponins: properties, applications and processing. Crit Rev Food Sci Nutr 2007; 47: 231–58. PMID: 17453922",
+            "process_entry": "True",
+            "doi": "10.1080/10408390600698197",
+            "pmid": "17453922",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Sparg, SG, Light, ME, van Staden, J. Biological activities and distribution of plant saponins. J Ethnopharmacol 2004; 94: 219–43. PMID: 15325725",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2004.05.016",
+            "pmid": "15325725",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Sahu, NP, Banerjee, S, Mondal, NB, Mandal, D. Steroidal saponins In: Fortschritte der Chemie Organischer Naturstoffe/progress in the chemistry of organic natural products. Vienna: Springer; 2008; 89: 45–141. PMID: 18958994",
+            "process_entry": "True",
+            "pmid": "18958994",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Francis, G, Kerem, Z, Makkar, HPS, Becker, K. The biological action of saponins in animal systems: a review. Br J Nutr 2002; 88: 587–605. PMID: 12493081",
+            "process_entry": "True",
+            "doi": "10.1079/bjn2002725",
+            "pmid": "12493081",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Bissinger, R, Modicano, P, Alzoubi, K, et al. Effect of saponin on erythrocytes. Int J Hematol 2014; 100: 51–9. PMID: 24924952",
+            "process_entry": "True",
+            "doi": "10.1007/s12185-014-1605-z",
+            "pmid": "24924952",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Podolak, I, Galanty, A, Sobolewska, D. Saponins as cytotoxic agents: a review. Phytochem Rev 2010; 9: 425–74. PMID: 20835386",
+            "process_entry": "True",
+            "doi": "10.1007/s11101-010-9183-z",
+            "pmid": "20835386",
+            "pmcid": "PMC2928447",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Del Corso, A, Cappiello, M, Mura, U. From a dull enzyme to something else: facts and perspectives regarding aldose reductase. Curr Med Chem 2008; 15: 1452–61. PMID: 18537622",
+            "process_entry": "True",
+            "doi": "10.2174/092986708784638870",
+            "pmid": "18537622",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Sugimoto, S, Chi, G, Kato, Y, et al. Medicinal flowers. XXVI. 1) Structures of acylated oleanane-type triterpene oligoglycosides, yuchasaponins A, B, C, and D, from the flower buds of Camellia oleifera-gastroprotective, aldose eductase inhibitory, and radical scavenging effects. Chem Pharm Bull 2009; 57: 269–75. PMID: 19252318",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.57.269",
+            "pmid": "19252318",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Motaal, AA, El-Askary, H, Crockett, S, et al. Aldose reductase inhibition of a saponin-rich fraction and new furostanol saponin derivatives from Balanites aegyptiaca. Phytomedicine 2015; 22: 829–36. PMID: 26220630",
+            "process_entry": "True",
+            "doi": "10.1016/j.phymed.2015.05.059",
+            "pmid": "26220630",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Ezzat, SM, Amira, AA, Wanees, SA, Awdan, E. In vitro and in vivo antidiabetic potential of extracts and a furostanol saponin from Balanites aegyptiaca. Pharm Biol 2017; 55: 1931–6. PMID: 28659002",
+            "process_entry": "True",
+            "doi": "10.1080/13880209.2017.1343358",
+            "pmid": "28659002",
+            "pmcid": "PMC6130680",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Samaddar, S, Balwanth, RK, Bhattarai, A, Chandrasekhar, KB. Oleanane-type triterpenoid saponin of Momordica cymbalaria exhibits neuroprotective activity in diabetic peripheral neuropathy by affecting the polyol pathway. Int J Pharm Sci Res 2016; 7: 618–25.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Cappiello, M, Moschini, R, Balestri, F, et al. Basic models for differential inhibition of enzymes. Biochem Biophys Res Commun 2014; 445: 556–60. PMID: 24530393",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2014.02.030",
+            "pmid": "24530393",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Del-Corso, A, Balestri, F, Di Bugno, E, et al. A new approach to control the enigmatic activity of aldose reductase. PLoS One 2013; 8: e74076. PMID: 24019949",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0074076",
+            "pmid": "24019949",
+            "pmcid": "PMC3760808",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Balestri, F, Sorce, C, Moschini, R, et al. Edible vegetables as a source of aldose reductase differential inhibitors. Chem Biol Interact 2017; 276: 155–9. PMID: 28159579",
+            "process_entry": "True",
+            "doi": "10.1016/j.cbi.2017.01.025",
+            "pmid": "28159579",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Balestri, F, Cappiello, M, Moschini, R, et al. Modulation of aldose reductase activity by aldose hemiacetals. Biochim Biophys Acta 2015; 1850: 2329–39. PMID: 26215787",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbagen.2015.07.007",
+            "pmid": "26215787",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Balestri, F, Cappiello, M, Moschini, R, et al. l-Idose: an attractive substrate alternative to d-glucose for measuring aldose reductase activity. Biochem Biophys Res Commun 2015; 456: 891–5. PMID: 25528584",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2014.12.054",
+            "pmid": "25528584",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Bradford, MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 1976; 72: 248–54. PMID: 942051",
+            "process_entry": "True",
+            "doi": "10.1006/abio.1976.9999",
+            "pmid": "942051",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Dong, M, He, X, Liu, RH. Phytochemicals of black bean seed coats: isolation, structure elucidation, and their antiproliferative and antioxidative activities. J Agric Food Chem 2007; 55: 6044–51. PMID: 17602653",
+            "process_entry": "True",
+            "doi": "10.1021/jf070706d",
+            "pmid": "17602653",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Guajardo-Flores, D, García-Patiño, M, Serna-Guerrero, D, et al. Characterization and quantification of saponins and flavonoids in sprouts, seed coats and cotyledons of germinated black beans. Food Chem 2012; 134: 1312–9. PMID: 25005948",
+            "process_entry": "True",
+            "doi": "10.1016/j.foodchem.2012.03.020",
+            "pmid": "25005948",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Lee, MR, Chen, CM, Hwang, BH, Hsu, LM. Analysis of saponins from black bean by electrospray ionization and fast atom bombardment tandem mass spectrometry. J Mass Spectrom 1999; 34: 804–12. PMID: 10423561",
+            "process_entry": "True",
+            "doi": "10.1002/(sici)1096-9888(199908)34:8&lt;804::aid-jms835&gt;3.0.co;2-8",
+            "pmid": "10423561",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Kinjo, J, Hatakeyama, M, Udayama, M, et al. HPLC profile analysis of oleanene-glucuronides in several edible beans. Biosci Biotechnol Biochem 1998; 62: 429–33. PMID: 9571771",
+            "process_entry": "True",
+            "doi": "10.1271/bbb.62.429",
+            "pmid": "9571771",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Yoshikawa, M, Shimada, H, Komatsu, H, et al. Medicinal foodstuffs. VI. Histamine release inhibitors from kidney bean, the seeds of Phaseolus vulgaris L: chemical structures of sandosaponins A and B. Chem Pharm Bull 1997; 45: 877–82. PMID: 9178523",
+            "process_entry": "True",
+            "doi": "10.1248/cpb.45.877",
+            "pmid": "9178523",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Dal Piaz, F, De Leo, M, Braca, A, et al. Intramolecular interchain reactions in bidesmosidic glycosides, a new insight into carbohydrate rearrangements induced by electrospray ionisation. Rapid Commun Mass Spectrom 2007; 21: 286–96. PMID: 17200980",
+            "process_entry": "True",
+            "doi": "10.1002/rcm.2839",
+            "pmid": "17200980",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Dixon, M, Webb, EC. Enzymes. 3rd ed London (UK): Longman Group Ltd; 1979 Mixed Inhibitors; p. 339–341.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Balestri, F, Rotondo, R, Moschini, R, et al. Zolfino landrace (Phaseolus vulgaris L.) from Pratomagno: general and specific features of a functional food. Food Nutr Res 2016; 60: 31792. PMID: 27415159",
+            "process_entry": "True",
+            "doi": "10.3402/fnr.v60.31792",
+            "pmid": "27415159",
+            "pmcid": "PMC4944724",
+            "xmlid": "CIT0027"
+        }
+    ],
+    "localid": "MED-30734590",
+    "doi": "10.1080/14756366.2018.1553166",
+    "pmid": "10.1080/14756366.2018.1553166",
+    "pmcid": "30734590",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30734590/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,193)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),195,239)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),195,239)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),170,143)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),314,83)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),314,83)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),398,127)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,346)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),348,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),519,262)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),519,262)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),782,220)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),1,158)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0015",
+                "rp_string": "15,16",
+                "rp_xpath": "/article/body/sec[1]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[6]),160,223)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),1,232)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Preparation and fractionation of “Zolfino bean-enriched extract”"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),1,214)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Assay of aldose reductase"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),1,123)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Purification of human recombinant AKR1B1"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[7]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[7]/p),1,114)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Other methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[1]),1,192)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0020",
+                "rp_string": "20–22",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),196,149)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),758,127)",
+                "containers_title": [
+                    "Results and discussion"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),833,8)",
+                "pl_string": "s20,23,2"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),758,127)",
+                "containers_title": [
+                    "Results and discussion"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),833,8)",
+                "pl_string": "s20,23,2"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/p[5]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[5]),758,127)",
+                "containers_title": [
+                    "Results and discussion"
+                ],
+                "pl_xpath": "substring(string(/article/body/sec[3]/p[5]),833,8)",
+                "pl_string": "s20,23,2"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[7]),601,302)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/p[14]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[14]),244,159)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/p[17]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/p[17]),805,280)",
+                "containers_title": [
+                    "Results and discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,341)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "Following previous reports for Zolfino bean extracts that show its potential to inhibit AKR1B127 and the recent observation for Zolfino bean that it exhibits an AKR1B1 differential inhibitory action16, the results emerging from the present work reveal the ability of some saponins to differentially inhibit the human aldose reductase enzyme. This was the case of SSBb and, possibly, of SSBd and/or an as yet unidentified saponin (compound 3) present in the most differentially active sample derived from the Zolfino bean extract fractionation (Figure 2, Panel B, F13b).",
+                "pl_xpath": "/article/body/sec[4]/p[1]"
+            },
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,341)",
+                "containers_title": [
+                    "Conclusions"
+                ],
+                "pl_string": "Following previous reports for Zolfino bean extracts that show its potential to inhibit AKR1B127 and the recent observation for Zolfino bean that it exhibits an AKR1B1 differential inhibitory action16, the results emerging from the present work reveal the ability of some saponins to differentially inhibit the human aldose reductase enzyme. This was the case of SSBb and, possibly, of SSBd and/or an as yet unidentified saponin (compound 3) present in the most differentially active sample derived from the Zolfino bean extract fractionation (Figure 2, Panel B, F13b).",
+                "pl_xpath": "/article/body/sec[4]/p[1]"
+            }
+        ]
+    ]
+}

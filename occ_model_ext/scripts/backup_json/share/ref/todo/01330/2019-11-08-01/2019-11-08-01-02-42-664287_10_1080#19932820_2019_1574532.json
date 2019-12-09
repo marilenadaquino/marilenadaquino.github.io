@@ -1,0 +1,721 @@
+{
+    "references": [
+        {
+            "bibentry": "Sukawa, Y, Yamamoto, H, Nosho, K, et al. HER2 expression and PI3K-Akt pathway alterations in gastric cancer. Digestion. 2014; 89(1): 12–7. PMID: 24458107",
+            "process_entry": "True",
+            "doi": "10.1159/000356201",
+            "pmid": "24458107",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Amann, J, Kalyankrishna, S, Massion, PP, et al. Aberrant epidermal growth factor receptor signaling and enhanced sensitivity to EGFR inhibitors in lung cancer. Cancer Res. 2005 1 1; 65(1): 226–235. PMID: 15665299",
+            "process_entry": "True",
+            "pmid": "15665299",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Cao, GD, Chen, K, Xiong, MM, et al. HER3, but not HER4, plays an essential role in the clinicopathology and prognosis of gastric cancer: a meta-analysis. PloS one. 2016 8 18; 11(8): e0161219. PMID: 27536774",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0161219",
+            "pmid": "27536774",
+            "pmcid": "PMC4990181",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Berger, MB, Mendrola, JM, Lemmon, MA. ErbB3/HER3 does not homodimerize upon neuregulin binding at the cell surface. FEBS Lett. 2004 7 2; 569(1–3): 332–336. PMID: 15225657",
+            "process_entry": "True",
+            "doi": "10.1016/j.febslet.2004.06.014",
+            "pmid": "15225657",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Le Wilks, ST. Potential of overcoming resistance to HER2-targeted therapies through the PI3K/Akt/mTOR pathway. Breast. 2015 10; 24(5): 548–555. PMID: 26187798",
+            "process_entry": "True",
+            "doi": "10.1016/j.breast.2015.06.002",
+            "pmid": "26187798",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Mishra, R, Patel, H, Alanazi, S, et al. HER3 signaling and targeted therapy in cancer. Oncol Rev. 2018 5 16; 12(1): 355. PMID: 30057690",
+            "process_entry": "True",
+            "doi": "10.4081/oncol.2018.355",
+            "pmid": "30057690",
+            "pmcid": "PMC6047885",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Wang L, Yuan H, Li Y, et al. The role of HER3 in gastric cancer. Biomed Pharmacother. 2014 Jul;68(6):809–812.",
+            "process_entry": "True",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Jaiswal, BS, Kljavin, NM, Stawiski, EW, et al. Oncogenic ERBB3 mutations in human cancers. Cancer Cell. 2013 5 13; 23(5): 603–617. PMID: 23680147",
+            "process_entry": "True",
+            "doi": "10.1016/j.ccr.2013.04.012",
+            "pmid": "23680147",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Cancer Incidence Report Saudi Arabia, Kingdom of Saudi Arabia, Council of Health Services Saudi cancer registry, April 2014. [ cited 2018 6 4]. Available from: www.scr.org.sa",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Lauren, P. The two histological main types of gastric carcinoma: diffuse and so-called intestinal-type carcinoma. An attempt at a histo-clinical classification. Acta Pathol Microbiol Scand. 1965; 64: 31–49. PMID: 14320675",
+            "process_entry": "True",
+            "doi": "10.1111/apm.1965.64.1.31",
+            "pmid": "14320675",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Zhang, XL, Yang, YS, Xu, DP, et al. Comparative study on overexpression of HER2/neu and HER3 in gastric cancer. World J Surg. 2009 10; 33(10): 2112–2118. PMID: 19636613",
+            "process_entry": "True",
+            "doi": "10.1007/s00268-009-0142-z",
+            "pmid": "19636613",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Busuttil, RA, Zapparoli, GV, Haupt, S, et al. Role of p53 in the progression of gastric cancer. Oncotarget. 2014 12 15; 5(23): 12016–12026. PMID: 25427447",
+            "process_entry": "True",
+            "doi": "10.18632/oncotarget.2434",
+            "pmid": "25427447",
+            "pmcid": "PMC4322971",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Saricanbaz, I, Karahacioglu, E, Ekinci, O, et al. Prognostic significance of expression of CD133 and Ki-67 in gastric cancer. Asian Pac J Cancer Prev. 2014; 15(19): 8215–8219. PMID: 25339008",
+            "process_entry": "True",
+            "pmid": "25339008",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Hayashi, M, Inokuchi, M, Takagi, Y, et al. High expression of HER3 is associated with a decreased survival in gastric cancer. Clin Cancer Res. 2008 12 1; 14(23): 7843–7849. PMID: 19047113",
+            "process_entry": "True",
+            "doi": "10.1158/1078-0432.ccr-08-1064",
+            "pmid": "19047113",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Wu, X, Chen, Y, Li, G, et al. Her3 is associated with poor survival of gastric adenocarcinoma: her3 promotes proliferation,survival and migration of human gastric cancer mediated by PI3K/AKT signaling pathway. Med Oncol. 2014 4; 31(4): 903. PMID: 24623015",
+            "process_entry": "True",
+            "doi": "10.1007/s12032-014-0903-x",
+            "pmid": "24623015",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Tang, D, Liu, CY, Shen, D, et al. Assessment and prognostic analysis of EGFR, HER2, and HER3 protein expression in surgically resected gastric adenocarcinomas. Onco Targets Ther. 2014 12 16; 8: 7–14. PMID: 25565860",
+            "process_entry": "True",
+            "doi": "10.2147/OTT.S70922",
+            "pmid": "25565860",
+            "pmcid": "PMC4274138",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "He, XX, Ding, L, Lin, Y, et al. Protein expression of HER2, 3, 4 in gastric cancer: correlation with clinical features and survival. J Clin Pathol. 2015; 68: 374–380.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Alshomimi, S, Alsaleem, H. Comparing the treatment of gastric cancer between Korea and Saudi Arabia. Transl Gastroenterol Hepatol. 2017; 2: 32. PMID: 28529986",
+            "process_entry": "True",
+            "doi": "10.21037/tgh.2017.04.03",
+            "pmid": "28529986",
+            "pmcid": "PMC5420545",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Sanidas, EE, Filipe, MI, Linehan, J, et al. Expression of the c-erbB-3 gene product in gastric cancer. Int J Cancer. 1993 7 30; 54(6): 935–940. PMID: 8335401",
+            "process_entry": "True",
+            "doi": "10.1002/ijc.2910540612",
+            "pmid": "8335401",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Kobayashi, M, Iwamatsu, A, Shinohara-Kanda, A, et al. Activation of ErbB3-PI3-kinase pathway is correlated with malignant phenotypes of adenocarcinomas. Oncogene. 2003 3 6; 22(9): 1294–1301. PMID: 12618754",
+            "process_entry": "True",
+            "doi": "10.1038/sj.onc.1206256",
+            "pmid": "12618754",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Srini Srinivasan, R, Leverton, KE, Sheldon, H, et al. Intracellular expression of the truncated extracellular domain of c-erbB-3/HER3. Cell Signal. 2001 5; 13(5): 321–330. PMID: 11369513",
+            "process_entry": "True",
+            "doi": "10.1016/s0898-6568(01)00155-3",
+            "pmid": "11369513",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Jácome, AA, Wohnrath, DR, Scapulatempo, NC, et al. Prognostic value of epidermal growth factor receptors in gastric cancer: a survival analysis by Weibull model incorporating long-term survivors. Gastric Cancer. 2014 1; 17(1): 76–86. PMID: 23455716",
+            "process_entry": "True",
+            "doi": "10.1007/s10120-013-0236-z",
+            "pmid": "23455716",
+            "pmcid": "PMC3889290",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Ocana, A, Vera-Badillo, F, Seruga, B, et al. HER3 overexpression and survival in solid tumors: a meta-analysis. J Natl Cancer Inst. 2013 2 20; 105(4): 266–273. PMID: 23221996",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/djs501",
+            "pmid": "23221996",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Ko, GH, Go, SI, Lee, WS, et al. Prognostic impact of Ki-67 in patients with gastric cancer-the importance of depth of invasion and histologic differentiation. Medicine (Baltimore). 2017 6; 96(25): e7181. PMID: 28640099",
+            "process_entry": "True",
+            "doi": "10.1097/MD.0000000000007181",
+            "pmid": "28640099",
+            "pmcid": "PMC5484207",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Al-Moundhri, MS, Nirmala, V, Al-Hadabi, I, et al. The prognostic significance of p53, p27 kip1, p21, waf1, HER-2/neu, and Ki67 proteins expression in gastric cancer: a clinicopathological and immunohistochemical study of 121 Arab patients. J Surg Oncol. 2005 9 15; 91(4): 243–252. PMID: 16121348",
+            "process_entry": "True",
+            "doi": "10.1002/jso.20324",
+            "pmid": "16121348",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Yallowitz, AR, Li, D, Lobko, A, et al. Mutant p53 amplifies epidermal growth factor receptor family signaling to promote mammary tumorigenesis. Mol Cancer Res. 2015 4; 13(4): 743–754. PMID: 25573952",
+            "process_entry": "True",
+            "doi": "10.1158/1541-7786.MCR-14-0360",
+            "pmid": "25573952",
+            "pmcid": "PMC4824060",
+            "xmlid": "CIT0026"
+        }
+    ],
+    "localid": "MED-30915908",
+    "doi": "10.1080/19932820.2019.1574532",
+    "pmid": "10.1080/19932820.2019.1574532",
+    "pmcid": "30915908",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30915908/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),434,146)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),581,96)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,98)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),93,5)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,98)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "[3,4]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[2]),93,5)"
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),100,131)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),860,257)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),192,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),319,127)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),447,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[2]),591,87)",
+                "containers_title": [
+                    "Material and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[2]/p[5]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/p[5]),131,111)",
+                "containers_title": [
+                    "Material and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p[1]),74,76)",
+                "containers_title": [
+                    "Material and methods",
+                    "Her3 interpretational guidelines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[2]/sec[2]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[2]/p),69,66)",
+                "containers_title": [
+                    "Material and methods",
+                    "Her-2 neu interpretational guidelines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[2]/sec[3]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[3]/p[1]),117,44)",
+                "containers_title": [
+                    "Material and methods",
+                    "p53 interpretational guidelines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),129,44)",
+                "containers_title": [
+                    "Material and methods",
+                    "Ki-67 interpretational guidelines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),291,263)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),153,100)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),254,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),254,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),254,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),449,125)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),185,179)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,171)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),377,66)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[14,17]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),435,7)"
+            },
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),377,66)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[14,17]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),435,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),133,147)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),281,163)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),206,127)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),334,126)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[6]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[6]),567,232)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),245,147)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[7]),384,7)"
+            },
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),245,147)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "[20,21]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[7]),384,7)"
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),503,135)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),191,233)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),537,133)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),844,89)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),451,157)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[4]/p[9]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[9]),609,141)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),112,134)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[10]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[10]),727,203)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

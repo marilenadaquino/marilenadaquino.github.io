@@ -1,0 +1,826 @@
+{
+    "references": [
+        {
+            "bibentry": "Anantharamaiah, GM, Mishra, VK, Garber, DW, Datta, G, Handattu, SP, Palgunachari, MN, Chaddha, M, Navab, M, Reddy, ST, Segrest, JP, et al. 2007 Structural requirements for antioxidative and anti-inflammatory properties of apolipoprotein A-I mimetic peptides. J Lipid Res. 48: 1915–1923. PMID: 17570869",
+            "process_entry": "True",
+            "doi": "10.1194/jlr.r700010-jlr200",
+            "pmid": "17570869",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Bloedon, LT, Dunbar, R, Duffy, D, Pinell-Salles, P, Norris, R, DeGroot, BJ, Movva, R, Navab, M, Fogelman, AM, Rader, DJ. 2008 Safety, pharmacokinetics, and pharmacodynamics of oral apoA-I mimetic peptide D-4F in high-risk cardiovascular patients. J Lipid Res. 49: 1344–1352. PMID: 18323573",
+            "process_entry": "True",
+            "doi": "10.1194/jlr.P800003-JLR200",
+            "pmid": "18323573",
+            "pmcid": "PMC2386905",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Choe, JY, Jung, HJ, Park, KY, Kum, YS, Song, GG, Hyun, DS, Park, SH, Kim, SK. 2010 Anti-fibrotic effect of thalidomide through inhibiting TGF-beta-induced ERK1/2 pathways in bleomycin-induced lung fibrosis in mice. Inflamm Res. 59: 177–188. PMID: 19757088",
+            "process_entry": "True",
+            "doi": "10.1007/s00011-009-0084-9",
+            "pmid": "19757088",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Demedts, M, Behr, J, Buhl, R, Costabel, U, Dekhuijzen, R, Jansen, HM, MacNee, W, Thomeer, M, Wallaert, B, Laurent, F, et al. 2005 High-dose acetylcysteine in idiopathic pulmonary fibrosis. N Engl J Med. 353: 2229–2242. PMID: 16306520",
+            "process_entry": "True",
+            "doi": "10.1056/nejmoa042976",
+            "pmid": "16306520",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Getz, GS, Reardon, CA. 2011 Apolipoprotein A-I and A-I mimetic peptides: a role in atherosclerosis. J Inflamm Res. 4: 83–92. PMID: 22096372",
+            "process_entry": "True",
+            "doi": "10.2147/JIR.S12983",
+            "pmid": "22096372",
+            "pmcid": "PMC3218745",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Gordon, S. 2003 Alternative activation of macrophages. Nat Rev Immunol. 3: 23–35. PMID: 12511873",
+            "process_entry": "True",
+            "doi": "10.1038/nri978",
+            "pmid": "12511873",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Gross, TJ, Hunninghake, GW. 2001 Idiopathic pulmonary fibrosis. N Engl J Med. 345: 517–525. PMID: 11519507",
+            "process_entry": "True",
+            "doi": "10.1056/nejmra003200",
+            "pmid": "11519507",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Iyer, SN, Margoli, SB, Hyde, DM, Giri, SN. 1998 Lung fibrosis is ameliorated by pirfenidone fed in diet after the second dose in a three-dose bleomycin-hamster model. Exp Lung Res. 24: 119–132. PMID: 9457473",
+            "process_entry": "True",
+            "doi": "10.3109/01902149809046058",
+            "pmid": "9457473",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Kasai, H, Allen, JT, Mason, RM, Kamimura, T, Zhang, Z. 2005 TGF-beta1 induces human alveolar epithelial to mesenchymal cell transition (EMT). Respir Res. 6: 56–71. PMID: 15946381",
+            "process_entry": "True",
+            "doi": "10.1186/1465-9921-6-56",
+            "pmid": "15946381",
+            "pmcid": "PMC1177991",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Kim, TH, Lee, YH, Kim, KH, Lee, SH, Cha, JY, Shin, EK, Jung, S, Jang, AS, Park, SW, Uh, ST, et al. 2010 Role of lung apolipoprotein A-I in idiopathic pulmonary fibrosis: antiinflammatory and antifibrotic effect on experimental lung injury and fibrosis. Am J Respir Crit Care Med. 182: 633–642. PMID: 20463180",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200905-0659oc",
+            "pmid": "20463180",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kwiterovich, PO. 1998 The antiatherogenic role of high-density lipoprotein cholesterol. Am J Cardiol. 82: 13Q–21Q. PMID: 9671001",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9149(98)00235-5",
+            "pmid": "9671001",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Lee, EH, Lee, EJ, Kim, HJ, Jang, A, Koh, E, Uh, ST, Kim, Y, Park, SW, Park, CS. 2013 Overexpression of apolipoprotein A1 in the lung abrogates fibrosis in experimental silicosis. PLoS ONE. 8: e55827. PMID: 23409054",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0055827",
+            "pmid": "23409054",
+            "pmcid": "PMC3568133",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Meltzer, EB, Noble, PW. 2008 Idiopathic pulmonary fibrosis. Orphanet J Rare Dis. 3: 8. PMID: 18366757",
+            "process_entry": "True",
+            "doi": "10.1186/1750-1172-3-8",
+            "pmid": "18366757",
+            "pmcid": "PMC2330030",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Moodley, Y, Rigby, P, Bundell, C, Bunt, S, Hayashi, H, Misso, N, McAnulty, R, Laurent, G, Scaffidi, A, Thompson, P, et al. 2003 Macrophage recognition and phagocytosis of apoptotic fibroblasts is critically dependent on fibroblast-derived thrombospondin 1 and CD36. Am J Pathol. 162: 771–779. PMID: 12598312",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9440(10)63874-6",
+            "pmid": "12598312",
+            "pmcid": "PMC1868087",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Nandedkar, SD, Weihrauch, D, Xu, H, Shi, Y, Feroah, T, Hutchins, W, Rickaby, DA, Duzgunes, N, Hillery, CA, Konduri, KS, et al. 2011 D-4F, an apoA-1 mimetic, decreases airway hyperresponsiveness, inflammation, and oxidative stress in a murine model of asthma. J Lipid Res. 52: 499–508. PMID: 21131532",
+            "process_entry": "True",
+            "doi": "10.1194/jlr.M012724",
+            "pmid": "21131532",
+            "pmcid": "PMC3035686",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Navab, M, Anantharamaiah, GM, Hama, S, Garber, DW, Chaddha, M, Hough, G, Lallone, R, Fogelman, AM. 2002 Oral administration of an Apo A-I mimetic peptide synthesized from D-amino acids dramatically reduces atherosclerosis in mice independent of plasma cholesterol. Circulation. 105: 290–292. PMID: 11804981",
+            "process_entry": "True",
+            "doi": "10.1161/hc0302.103711",
+            "pmid": "11804981",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Navab, M, Anantharamaiah, GM, Reddy, ST, Hama, S, Hough, G, Grijalva, VR, Yu, N, Ansell, BJ, Datta, G, Garber, DW, et al. 2005 Apolipoprotein A-I mimetic peptides. Arterioscler Thromb Vasc Biol. 25: 1325–1331. PMID: 15831812",
+            "process_entry": "True",
+            "doi": "10.1161/01.atv.0000165694.39518.95",
+            "pmid": "15831812",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Navab, M, Anantharamaiah, GM, Reddy, ST, Fogelman, AM. 2006 Apolipoprotein A-I mimetic peptides and their role in atherosclerosis prevention. Nat Clin Pract Cardiovasc Med. 3: 540–547. PMID: 16990839",
+            "process_entry": "True",
+            "doi": "10.1038/ncpcardio0661",
+            "pmid": "16990839",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Pechkovsky, DV, Prasse, A, Kollert, F, Engel, KM, Dentler, J, Luttmann, W, Friedrich, K, Müller-Quernheim, J, Zissel, G. 2010 Alternatively activated alveolar macrophages in pulmonary fibrosis-mediator production and intracellular signal transduction. Clin Immunol. 137: 89–101. PMID: 20674506",
+            "process_entry": "True",
+            "doi": "10.1016/j.clim.2010.06.017",
+            "pmid": "20674506",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Pini, A, Shemesh, R, Samuel, CS, Bathgate, RA, Zauberman, A, Hermesh, C, Wool, A, Bani, D, Rotman, G. 2010 Prevention of bleomycin-induced pulmonary fibrosis by a novel antifibrotic peptide with relaxin-like activity. J Pharmacol Exp Ther. 335: 589–599. PMID: 20826567",
+            "process_entry": "True",
+            "doi": "10.1124/jpet.110.170977",
+            "pmid": "20826567",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Prasse, A, Pechkovsky, DV, Toews, GB, Jungraithmayr, W, Kollert, F, Goldmann, T, Vollmer, E, Müller-Quernheim, J, Zissel, G. 2006 A vicious circle of alveolar macrophages and fibroblasts perpetuates pulmonary fibrosis via CCL18. Am J Respir Crit Care Med. 173: 781–792. PMID: 16415274",
+            "process_entry": "True",
+            "doi": "10.1164/rccm.200509-1518oc",
+            "pmid": "16415274",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Selman, M, King, TE, Pardo, A. 2001 Idiopathic pulmonary fibrosis: prevailing and evolving hypotheses about its pathogenesis and implications for therapy. Ann Intern Med. 134: 136–151. PMID: 11177318",
+            "process_entry": "True",
+            "doi": "10.7326/0003-4819-134-2-200101160-00015",
+            "pmid": "11177318",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Selman, M, Pardo, A. 2003 The epithelial/fibroblastic pathway in the pathogenesis of idiopathic pulmonary fibrosis. Am J Respir Cell Mol Biol. 29: S93–S97. PMID: 14503564",
+            "process_entry": "True",
+            "pmid": "14503564",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Shearer, JD, Richards, JR, Mills, CD, Caldwell, MD. 1997 Differential regulation of macrophage arginine metabolism: a proposed role in wound healing. Am J Physiol. 272: E181–E190. PMID: 9124321",
+            "process_entry": "True",
+            "doi": "10.1152/ajpendo.1997.272.2.e181",
+            "pmid": "9124321",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Smythies, LE, White, CR, Maheshwari, A, Palgunachari, MN, Anantharamaiah, GM, Chaddha, M, Kurundkar, AR, Datta, G. 2010 Apolipoprotein A-I mimetic 4F alters the function of human monocyte-derived macrophages. Am J Physiol Cell Physiol. 298: C1538–C1548. PMID: 20219948",
+            "process_entry": "True",
+            "doi": "10.1152/ajpcell.00467.2009",
+            "pmid": "20219948",
+            "pmcid": "PMC2889631",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Song, E, Ouyang, N, Horbelt, M, Antus, B, Wang, M, Exton, MS. 2000 Influence of alternatively and classically activated macrophages on fibrogenic activities of human fibroblasts. Cell Immunol. 204: 19–28. PMID: 11006014",
+            "process_entry": "True",
+            "doi": "10.1006/cimm.2000.1687",
+            "pmid": "11006014",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Van Lenten, BJ, Wagner, AC, Navab, M, Anantharamaiah, GM, Hui, EK, Nayak, DP, Fogelman, AM. 2004 D-4F, an apolipoprotein A-I mimetic peptide, inhibits the inflammatory response induced by influenza A infection of human type II pneumocytes. Circulation. 110: 3252–3258. PMID: 15533864",
+            "process_entry": "True",
+            "doi": "10.1161/01.cir.0000147232.75456.b3",
+            "pmid": "15533864",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "White, CR, Smythies, LE, Crossman, DK, Palgunachari, MN, Anantharamaiah, GM, Datta, G. 2012 Regulation of pattern recognition receptors by the apolipoprotein A-I mimetic peptide 4F. Arterioscler Thromb Vasc Biol. 32: 2631–2639. PMID: 22982462",
+            "process_entry": "True",
+            "doi": "10.1161/ATVBAHA.112.300167",
+            "pmid": "22982462",
+            "pmcid": "PMC4083685",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Willis, BC, Liebler, JM, Luby-Phelps, K, Nicholson, AG, Crandall, ED, du Bois, RM, Borok, Z. 2005 Induction of epithelial-mesenchymal transition in alveolar epithelial cells by transforming growth factor-beta1: potential role in idiopathic pulmonary fibrosis. Am J Pathol. 166: 1321–1332. PMID: 15855634",
+            "process_entry": "True",
+            "doi": "10.1016/s0002-9440(10)62351-6",
+            "pmid": "15855634",
+            "pmcid": "PMC1606388",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Wilson, MS, Wynn, TA. 2009 Pulmonary fibrosis: pathogenesis, etiology and regulation. Mucosal Immunol. 2: 103–121. PMID: 19129758",
+            "process_entry": "True",
+            "doi": "10.1038/mi.2008.85",
+            "pmid": "19129758",
+            "pmcid": "PMC2675823",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Wynn, TA, Barron, L. 2010 Macrophages: master regulators of inflammation and fibrosis. Semin Liver Dis. 30: 245–257. PMID: 20665377",
+            "process_entry": "True",
+            "doi": "10.1055/s-0030-1255354",
+            "pmid": "20665377",
+            "pmcid": "PMC2924662",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Wynn, TA, Ramalingam, TR. 2012 Mechanisms of fibrosis: therapeutic translation for fibrotic disease. Nat Med. 18: 1028–1040. PMID: 22772564",
+            "process_entry": "True",
+            "doi": "10.1038/nm.2807",
+            "pmid": "22772564",
+            "pmcid": "PMC3405917",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "You, J, Wang, J, Xie, L, Zhu, C, Xiong, J. 2016 D-4F, an apolipoprotein A-I mimetic, inhibits TGF-β1 induced epithelial-mesenchymal transition in human alveolar epithelial cell. Exp Toxicol Pathol. 68: 533–541. PMID: 27495007",
+            "process_entry": "True",
+            "doi": "10.1016/j.etp.2016.07.005",
+            "pmid": "27495007",
+            "xmlid": "CIT0033"
+        }
+    ],
+    "localid": "MED-31335245",
+    "doi": "10.1080/13880209.2019.1640747",
+    "pmid": "10.1080/13880209.2019.1640747",
+    "pmcid": "31335245",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31335245/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0006",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,126)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0024",
+                "rp_string": "1997",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),308,288)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shearer et al.1997; Song et al. 2000; Wynn and Barron 2010; Wynn and Ramalingam 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),508,86)"
+            },
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0026",
+                "rp_string": "2000",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),308,288)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shearer et al. 1997; Song et al.2000; Wynn and Barron 2010; Wynn and Ramalingam 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),508,86)"
+            },
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0031",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),308,288)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shearer et al. 1997; Song et al. 2000; Wynn and Barron2010; Wynn and Ramalingam 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),508,86)"
+            },
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0032",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),308,288)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Shearer et al. 1997; Song et al. 2000; Wynn and Barron 2010; Wynn and Ramalingam2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),508,86)"
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0021",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),597,411)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Prasse et al.2006; Pechkovsky et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),963,43)"
+            },
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0019",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),597,411)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Prasse et al. 2006; Pechkovsky et al.2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),963,43)"
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0007",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1009,186)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Gross and Hunninghake2001; Meltzer and Noble 2008)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1142,51)"
+            },
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0013",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1009,186)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Gross and Hunninghake 2001; Meltzer and Noble2008)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1142,51)"
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0008",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Iyer et al.1998; Demedts et al. 2005; Choe et al. 2010; Pini et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1432,74)"
+            },
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0004",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Iyer et al. 1998; Demedts et al.2005; Choe et al. 2010; Pini et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1432,74)"
+            },
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0003",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Iyer et al. 1998; Demedts et al. 2005; Choe et al.2010; Pini et al. 2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1432,74)"
+            },
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0020",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1196,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Iyer et al. 1998; Demedts et al. 2005; Choe et al. 2010; Pini et al.2010)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1432,74)"
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0010",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,182)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0012",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),282,217)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0002",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,148)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0017",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),150,214)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Navab et al.2005, 2006; Getz and Reardon 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),315,47)"
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0018",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),150,214)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Navab et al. 2005,2006; Getz and Reardon 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),315,47)"
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0005",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),150,214)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Navab et al. 2005, 2006; Getz and Reardon2011)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),315,47)"
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0015",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),457,124)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0033",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),582,153)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0023",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),736,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Selman and Pardo2003; Kasai et al. 2005; Willis et al. 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),881,61)"
+            },
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0009",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),736,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Selman and Pardo 2003; Kasai et al.2005; Willis et al. 2005)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),881,61)"
+            },
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0029",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),736,208)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Selman and Pardo 2003; Kasai et al. 2005; Willis et al.2005)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[3]),881,61)"
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0016",
+                "rp_string": "2002",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Navab et al.2002; Smythies et al. 2010; White et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),252,59)"
+            },
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0025",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Navab et al. 2002; Smythies et al.2010; White et al. 2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),252,59)"
+            },
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0028",
+                "rp_string": "2012",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,312)",
+                "containers_title": [
+                    "Introduction"
+                ],
+                "pl_string": "(Navab et al. 2002; Smythies et al. 2010; White et al.2012)",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[4]),252,59)"
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0030",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),314,154)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0002",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),469,179)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0011",
+                "rp_string": "1998",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),156,166)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0017",
+                "rp_string": "2005",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),425,251)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Navab et al.2005, 2006; Anantharamaiah et al. 2007; Getz and Reardon 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),599,75)"
+            },
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0018",
+                "rp_string": "2006",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),425,251)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Navab et al. 2005,2006; Anantharamaiah et al. 2007; Getz and Reardon 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),599,75)"
+            },
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0001",
+                "rp_string": "2007",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),425,251)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Navab et al. 2005, 2006; Anantharamaiah et al.2007; Getz and Reardon 2011)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),599,75)"
+            },
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0005",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),425,251)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Navab et al. 2005, 2006; Anantharamaiah et al. 2007; Getz and Reardon2011)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),599,75)"
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0002",
+                "rp_string": "2008",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),677,198)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0015",
+                "rp_string": "2011",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),103,236)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0033",
+                "rp_string": "2016",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),510,168)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0027",
+                "rp_string": "2004",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),679,137)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0025",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),817,148)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0025",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1253,258)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0022",
+                "rp_string": "2001",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,290)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Selman et al.2001; Wilson and Wynn 2009)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),248,41)"
+            },
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0030",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),1,290)",
+                "containers_title": [
+                    "Discussion"
+                ],
+                "pl_string": "(Selman et al. 2001; Wilson and Wynn2009)",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[4]),248,41)"
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0014",
+                "rp_string": "2003",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),411,139)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 43,
+                "xref_id": "CIT0030",
+                "rp_string": "2009",
+                "rp_xpath": "/article/body/sec[4]/p[4]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[4]),551,147)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 44,
+                "xref_id": "CIT0010",
+                "rp_string": "2010",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),160,118)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 45,
+                "xref_id": "CIT0012",
+                "rp_string": "2013",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),279,295)",
+                "containers_title": [
+                    "Discussion"
+                ]
+            }
+        ]
+    ]
+}

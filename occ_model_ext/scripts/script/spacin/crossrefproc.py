@@ -134,6 +134,7 @@ class CrossrefProcessor(FormatProcessor):
                     citing_entity.contains_in_reference_list(cur_be)
                     cited_entity.has_reference(cur_be)
                     cur_be.create_content(cur_bibentry.strip())
+                    # TODO add here jats2oc
 
             return self.g_set
 

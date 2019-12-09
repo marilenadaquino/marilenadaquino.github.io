@@ -1,0 +1,774 @@
+{
+    "references": [
+        {
+            "bibentry": "Delbridge, AR, Grabow, S, Strasser, A, Vaux, DL. Thirty years of BCL-2: translating cell death discoveries into novel cancer therapies. Nat Rev Cancer 2016; 16: 99 PMID: 26822577",
+            "process_entry": "True",
+            "doi": "10.1038/nrc.2015.17",
+            "pmid": "26822577",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Hu, W, Kavanagh, JJ. Anticancer therapy targeting the apoptotic pathway. Lancet Oncol 2003; 4: 721–9. PMID: 14662428",
+            "process_entry": "True",
+            "doi": "10.1016/s1470-2045(03)01277-4",
+            "pmid": "14662428",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Lopez, J, Tait, SWG. Mitochondrial apoptosis: killing cancer using the enemy within. Br J Cancer 2015; 112: 957 PMID: 25742467",
+            "process_entry": "True",
+            "doi": "10.1038/bjc.2015.85",
+            "pmid": "25742467",
+            "pmcid": "PMC4366906",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Wilhelm, S, Dumas, J, Ladouceur, G, Lynch, M, Scott, W Diaryl ureas with kinase inhibiting activity. 2007; U.S. Pat 20070020704.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Skårderud, MR, Polk, A, Vistisen, KK, et al. Efficacy and safety of regorafenib in the treatment of metastatic colorectal cancer: a systematic review. Cancer Treat Rev 2017; 62: 61–73. PMID: 29175677",
+            "process_entry": "True",
+            "doi": "10.1016/j.ctrv.2017.10.011",
+            "pmid": "29175677",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Zhang, L, Yu, J. Role of apoptosis in colon cancer biology, therapy, and prevention. Curr Colorectal Cancer Rep 2013; 9: 331–40.",
+            "process_entry": "True",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Chen, D, Wei, L, Yu, J, Zhang, L. Regorafenib inhibits colorectal tumor growth through PUMA-mediated apoptosis. Clin Cancer Res. 2014; 20: 3472–84. PMID: 24763611",
+            "process_entry": "True",
+            "doi": "10.1158/1078-0432.CCR-13-2944",
+            "pmid": "24763611",
+            "pmcid": "PMC4079733",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Sahu, A, Prabhash, K, Noronha, V, et al. Crizotinib: a comprehensive review. South Asian J Cancer 2013; 2: 91. PMID: 24455567",
+            "process_entry": "True",
+            "doi": "10.4103/2278-330X.110506",
+            "pmid": "24455567",
+            "pmcid": "PMC3876666",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Frampton, JE. Crizotinib: a review of its use in the treatment of anaplastic lymphoma kinase-positive, advanced non-small cell lung cancer. Drugs 2013; 73: 2031–51. PMID: 24288180",
+            "process_entry": "True",
+            "doi": "10.1007/s40265-013-0142-z",
+            "pmid": "24288180",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Dai, X, Guo, G, Zou, P, et al. (S)-crizotinib induces apoptosis in human non-small cell lung cancer cells by activating ROS independent of MTH1. J Exp Clin Cancer Res 2017; 36: 120. PMID: 28882182",
+            "process_entry": "True",
+            "doi": "10.1186/s13046-017-0584-3",
+            "pmid": "28882182",
+            "pmcid": "PMC5590185",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "El-Naggar, M, Almahli, H, Ibrahim, HS, et al. Pyridine-ureas as potential anticancer agents: synthesis and in vitro biological evaluation. Molecules 2018; 23: 1459.",
+            "process_entry": "True",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Eldehna, WM, Fares, M, Ibrahim, HS, et al. Synthesis and biological evaluation of certain hydrazonoindolin-2-one derivatives as new potent antiproliferative agents. J Enz Inhib Med Chem 2018; 33: 867–78.",
+            "process_entry": "True",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Sabt, A, Abdelhafez, OM, El-Haggar, RS, et al. Novel coumarin-6-sulfonamides as apoptotic anti-proliferative agents: synthesis, in vitro biological evaluation, and QSAR studies. J Enz Inhib Med Chem 2018; 33: 1095–107.",
+            "process_entry": "True",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Al-Ansary, GH, Eldehna, WM, Ghabbour, HA, et al. Cancer stem cells CD133 inhibition and cytotoxicity of certain 3-phenylthiazolo [3, 2-a] benzimidazoles: design, direct synthesis, crystal study and in vitro biological evaluation. J Enzym Inhib Med Chem 2017; 32: 986–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Attia, MI, Eldehna, WM, Afifi, SA, et al. New hydrazonoindolin-2-ones: synthesis, exploration of the possible antiproliferative mechanism of action and encapsulation into PLGA microspheres. PLoS One 2017; 12: e0181241. PMID: 28742842",
+            "process_entry": "True",
+            "doi": "10.1371/journal.pone.0181241",
+            "pmid": "28742842",
+            "pmcid": "PMC5526551",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Abdel-Aziz, HA, Eldehna, WM, Keeton, AB, et al. Isatin-benzoazine molecular hybrids as potential antiproliferative agents: synthesis and in vitro pharmacological profiling. Drug Des Dev Ther 2017; 11: 2333.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Eldehna, WM, Abou-Seri, SM, El Kerdawy, AM, et al. Increasing the binding affinity of VEGFR-2 inhibitors by extending their hydrophobic interaction with the active site: design, synthesis and biological evaluation of 1-substituted-4-(4-methoxybenzyl)phthalazine derivatives. Eur J Med Chem 2016; 113: 50–62. PMID: 26922228",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.02.029",
+            "pmid": "26922228",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Abdel-Aziz, HA, Ghabbour, HA, Eldehna, WM, et al. 2-((Benzimidazol-2-yl)thio)-1-arylethan-1-ones: synthesis, crystal study and cancer stem cells CD133 targeting potential. Eur J Med Chem 2015; 104: 1–10. PMID: 26413725",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2015.09.023",
+            "pmid": "26413725",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Abdel-Aziz, HA, Ghabbour, HA, Eldehna, WM, et al. Synthesis, crystal structure and biological activity of cis/ trans amide rotomers of (Z)-N′-(2-oxoindolin-3-ylidene)formohydrazide. J Chem 2014; 2014: 1. doi: DOI: 10.1155/2014/760434.",
+            "process_entry": "True",
+            "doi": "10.1155/2014/760434.",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Eldehna, WM, Fares, M, Ibrahim, HS, et al. Synthesis and cytotoxic activity of biphenylurea derivatives containing indolin-2-one moieties. Molecules 2016; 21: 762.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Soliman, DH, Eldehna, WM, Ghabbour, HA, et al. Novel 6-phenylnicotinohydrazide derivatives: design, synthesis and biological evaluation as a novel class of antitubercular and antimicrobial agents. Biol Pharm Bull 2017; 40: 1883–93. PMID: 29093335",
+            "process_entry": "True",
+            "doi": "10.1248/bpb.b17-00361",
+            "pmid": "29093335",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Eldehna, WM, Altoukhy, A, Mahrous, H, Abdel-Aziz, HA. Design, synthesis and QSAR study of certain isatin-pyridine hybrids as potential antiproliferative agents. Eur J Med Chem 2015; 90: 684–94. PMID: 25499988",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.12.010",
+            "pmid": "25499988",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Eldehna, WM, Fares, M, Abdel-Aziz, MM, Abdel-Aziz, HA. Design, synthesis and antitubercular activity of certain nicotinic acid hydrazides. Molecules 2015; 20: 8800–15. PMID: 25988611",
+            "process_entry": "True",
+            "doi": "10.3390/molecules20058800",
+            "pmid": "25988611",
+            "pmcid": "PMC6272317",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Boyd, MR, Paull, KD. Some practical considerations and applications of the National Cancer Institute in vitro anticancer drug discovery screen. Drug Dev Res 1995; 34: 91–109.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Boyd, MR The NCI human tumor cell line (60-Cell) screen. In, Teicher, BA, ed. Cancer drug discovery and development: anticancer drug development guide: preclinical screening, clinical trials and approval. Totowa, NJ: Humana Press; 2014:Chapter 1, 41–62.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Monks, A, Scudiero, D, Skehan, P, et al. Feasibility of a high-flux anticancer drug screen using a diverse panel of cultured human tumor cell lines. J Natl Cancer Inst 1991; 83: 757–66. PMID: 2041050",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/83.11.757",
+            "pmid": "2041050",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Skehan, P, Storeng, R, Scudiero, D, et al. New colorimetric cytotoxicity assay for anticancer-drug screening. J. Natl Cancer Inst 1990; 82: 1107–12. PMID: 2359136",
+            "process_entry": "True",
+            "doi": "10.1093/jnci/82.13.1107",
+            "pmid": "2359136",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Abou-Seri, SM, Eldehna, WM, Ali, MM, El Ella, DAA. 1-Piperazinylphthalazines as potential VEGFR-2 inhibitors and anticancer agents: synthesis and in vitro biological evaluation. Eur J Med Chem 2016; 107: 165–79. PMID: 26590508",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2015.10.053",
+            "pmid": "26590508",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Mosmann, T. Rapid colorimetric assay for cellular growth and survival: application to proliferation and cytotoxicity assays. J Immunol Methods 1983; 65: 55–63. PMID: 6606682",
+            "process_entry": "True",
+            "doi": "10.1016/0022-1759(83)90303-4",
+            "pmid": "6606682",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ismail, RSM, Abou-Seri, SM, Eldehna, WM, et al. Novel series of 6-(2-substitutedacetamido)-4-anilinoquinazolines as EGFR-ERK signal transduction inhibitors in MCF-7 breast cancer cells. Eur J Med Chem 2018; 155: 782–96. PMID: 30047410",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.06.024",
+            "pmid": "30047410",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Eldehna, WM, Abo-Ashour, MF, Nocentini, A, et al. Novel 4/3-((4-oxo-5-(2-oxoindolin-3-ylidene) thiazolidin-2-ylidene) amino) benzenesulfonamides: synthesis, carbonic anhydrase inhibitory activity, anticancer activity and molecular modelling studies. Eur J Med Chem 2017; 139: 250–62. PMID: 28802125",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.07.073",
+            "pmid": "28802125",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Eldehna, WM, Ibrahim, HS, Abdel-Aziz, HA, et al. Design, synthesis and in vitro antitumor activity of novel N-substituted-4-phenyl/benzylphthalazin-1-ones. Eur J Med Chem 2015; 89: 549–60. PMID: 25462265",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2014.10.064",
+            "pmid": "25462265",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Eldehna, WM, Nocentini, A, Al-Rashood, ST, et al. Tumor-associated carbonic anhydrase isoform IX and XII inhibitory properties of certain isatin-bearing sulfonamides endowed with in vitro antitumor activity towards colon cancer. Bioorg Chem 2018; 81: 425–32. PMID: 30219719",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2018.09.007",
+            "pmid": "30219719",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Ghabbour, HA, Qabeel, MM, Eldehna, WM, et al. Design, synthesis, and molecular docking of 1-(1-(4-chlorophenyl)-2-(phenylsulfonyl)ethylidene)-2-phenylhydrazine as potent nonazole anticandidal agent. J Chem 2014; 2014: 1.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Eldehna, WM, EL-Naggar, DH, Hamed, AR, et al. One-pot three-component synthesis of novel spirooxindoles with potential cytotoxic activity against triple-negative breast cancer MDA-MB-231 cells. J Enzym Inhib Med Chem 2018; 33: 309–18.",
+            "process_entry": "True",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Almahli, H, Hadchity, E, Jaballah, MY, et al. Development of novel synthesized phthalazinone-based PARP-1 inhibitors with apoptosis inducing mechanism in lung cancer. Bioorg Chem 2018; 77: 443–56. PMID: 29453076",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2018.01.034",
+            "pmid": "29453076",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Eldehna, WM, Abo-Ashour, MF, Ibrahim, HS, et al. [(3-indolylmethylene)hydrazono]indolin-2-ones as apoptotic anti-proliferativeagents: design, synthesis and in vitro biological evaluation. J Enzym Inhib Med Chem 2018; 33: 686–700.",
+            "process_entry": "True",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "El-Naggar, M, Eldehna, WM, Almahli, H, et al. Novel thiazolidinone/thiazolo [3, 2-a] benzimidazolone-isatin conjugates as apoptotic anti-proliferative agents towards breast cancer: one-pot synthesis and in vitro biological evaluation. Molecules 2018; 23: 1420.",
+            "process_entry": "True",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Abdel-Aziz, HA, Eldehna, WM, Ghabbour, H, et al. Synthesis, crystal study, and anti-proliferative activity of some 2-benzimidazolylthioacetophenones towards triple-negative breast cancer MDA-MB-468 cells as apoptosis-inducing agents. Int J Mol Sci 2016; 17: 1221.",
+            "process_entry": "True",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Youle, RJ, Strasser, A. The BCL-2 protein family: opposing activities that mediate cell death. Nat Rev Mol Cell Biol 2008; 9: 47–59. PMID: 18097445",
+            "process_entry": "True",
+            "doi": "10.1038/nrm2308",
+            "pmid": "18097445",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Jiang, H, Zhao, PJ, Su, D, et al. Paris saponin I induces apoptosis via increasing the Bax/Bcl-2 ratio and caspase-3 expression in gefitinib-resistant non-small cell lung cancer in vitro and in vivo. Mol Med Rep 2014; 9: 2265–72. PMID: 24718383",
+            "process_entry": "True",
+            "doi": "10.3892/mmr.2014.2108",
+            "pmid": "24718383",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Shimizu, S, Narita, M, Tsujimoto, Y. Bcl-2 family proteins regulate the release of apoptogenic cytochrome c by the mitochondrial channel VDAC. Nature 1999; 399: 483–7. PMID: 10365962",
+            "process_entry": "True",
+            "doi": "10.1038/20959",
+            "pmid": "10365962",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Fridman, JS, Lowe, SW. Control of apoptosis by p53. Oncogene 2003; 22: 9030–40. PMID: 14663481",
+            "process_entry": "True",
+            "doi": "10.1038/sj.onc.1207116",
+            "pmid": "14663481",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "McIlwain, DR, Berger, T, Mak, TW. Caspase functions in cell death and disease. Cold Spring Harb Perspect Biol 2013; 5: a008656. PMID: 23545416",
+            "process_entry": "True",
+            "doi": "10.1101/cshperspect.a008656",
+            "pmid": "23545416",
+            "pmcid": "PMC3683896",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Cohen, GM. Caspases: the executioners of apoptosis. Biochem J 1997; 326: 1–16. PMID: 9337844",
+            "process_entry": "True",
+            "doi": "10.1042/bj3260001",
+            "pmid": "9337844",
+            "pmcid": "PMC1218630",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Evan, GI, Vousden, KH. Proliferation, cell cycle and apoptosis in cancer. Nature 2001; 411: 342–8. PMID: 11357141",
+            "process_entry": "True",
+            "doi": "10.1038/35077213",
+            "pmid": "11357141",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "Vermes, I, Haanen, C, Steffens-Nakken, H, Reutellingsperger, C. A novel assay for apoptosis flow cytometric detection of phosphatidylserine expression on early apoptotic cells using fluorescein labelled annexin V. J Immunol Methods 1995; 184: 39–51. PMID: 7622868",
+            "process_entry": "True",
+            "doi": "10.1016/0022-1759(95)00072-i",
+            "pmid": "7622868",
+            "xmlid": "CIT0047"
+        }
+    ],
+    "localid": "MED-30722708",
+    "doi": "10.1080/14756366.2018.1547286",
+    "pmid": "10.1080/14756366.2018.1547286",
+    "pmcid": "30722708",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/30722708/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1–3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),903,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),136,161)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),298,110)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),409,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),409,156)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),566,233)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),800,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),937,102)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,162)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),360,218)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "12–20",
+                "rp_xpath": "/article/body/sec[1]/p[4]/xref",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[4]),1,249)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0021",
+                "rp_string": "21–23",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),688,79)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Chemistry"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 12,
+                "xref_id": "CIT0024",
+                "rp_string": "24–26",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[1]/p),1,110)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "In vitro antitumor activity towards 60 cancer cell lines (NCI, USA)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 13,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[1]/p),112,157)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "In vitro antitumor activity towards 60 cancer cell lines (NCI, USA)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 14,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[1]/p),112,157)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "In vitro antitumor activity towards 60 cancer cell lines (NCI, USA)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 15,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[2]/p),418,188)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "In vitro anti-Proliferative activity towards A549 and HCT-116 cell lines"
+                ],
+                "pl_string": "A549 (non-small cell lung cancer cell line) and HCT-116 (human colon cancer cell line), were obtained from American Type Culture Collection (Manassas, VA, USA). The cells were maintained in Dulbecco’s Modified Eagle’s Medium (DMEM) (Sigma-Aldrich, St. Louis, MO), and supplemented with 10% heat-inactivated FBS (Hyclone), 10 μg/mL of insulin (Manufacturer, Sigma, St. Louis, MO, USA), and 1% penicillin-streptomycin. MTT assay29 was adopted to assess the in vitro antitumor activity of the newly synthesized pyridines 5a–l according to the reported procedures30, using Doxorubicin as a standard treatment. Experimental conditions were tested using three replicates (three wells of the 96-well plate per experimental condition) and all experiments were carried out in triplicates. IC50 values were calculated by the use of the equation for Boltzman sigmoidal concentration–response curve using the nonlinear regression fitting models by Graph Pad, Prism version 5 (GraphPad Software Inc., La Jolla, CA).",
+                "pl_xpath": "/article/body/sec[2]/sec[15]/sec[2]/p"
+            },
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[2]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[2]/p),418,188)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "In vitro anti-Proliferative activity towards A549 and HCT-116 cell lines"
+                ],
+                "pl_string": "A549 (non-small cell lung cancer cell line) and HCT-116 (human colon cancer cell line), were obtained from American Type Culture Collection (Manassas, VA, USA). The cells were maintained in Dulbecco’s Modified Eagle’s Medium (DMEM) (Sigma-Aldrich, St. Louis, MO), and supplemented with 10% heat-inactivated FBS (Hyclone), 10 μg/mL of insulin (Manufacturer, Sigma, St. Louis, MO, USA), and 1% penicillin-streptomycin. MTT assay29 was adopted to assess the in vitro antitumor activity of the newly synthesized pyridines 5a–l according to the reported procedures30, using Doxorubicin as a standard treatment. Experimental conditions were tested using three replicates (three wells of the 96-well plate per experimental condition) and all experiments were carried out in triplicates. IC50 values were calculated by the use of the equation for Boltzman sigmoidal concentration–response curve using the nonlinear regression fitting models by Graph Pad, Prism version 5 (GraphPad Software Inc., La Jolla, CA).",
+                "pl_xpath": "/article/body/sec[2]/sec[15]/sec[2]/p"
+            }
+        ],
+        [
+            {
+                "n_rp": 17,
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[3]/p),1,235)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "ELISA immunoassay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 18,
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[3]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[3]/p),1,235)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "ELISA immunoassay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 19,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[4]/p),414,95)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "Cell cycle analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[5]/p),1,188)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "Annexin V-FITC apoptosis assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[2]/sec[15]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[15]/sec[5]/p),1,188)",
+                "containers_title": [
+                    "Materials and methods",
+                    "Biological evaluation",
+                    "Annexin V-FITC apoptosis assay"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[1]/p[1]),565,131)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro antitumor activity towards 60 cancer cell lines (NCI, USA)"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[2]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[2]/p[1]),199,107)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro anti-proliferative activity against A549 and HCT-116 cell lines"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[3]/p[1]),1,197)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "In vitro cytotoxicity towards non-tumorigenic human WI-38 cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0035",
+                "rp_string": "35–39",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[4]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[4]/p),1,248)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Induction of apoptosis in colorectal cancer HCT-116 cells"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[1]),425,124)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effects on mitochondrial apoptosis pathway proteins Bcl-2 and Bax"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[5]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[5]/p[1]),425,124)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effects on mitochondrial apoptosis pathway proteins Bcl-2 and Bax"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[6]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[6]/p[1]),386,121)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effect on the level of cytochrome C"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[7]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[7]/p[1]),365,87)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effect on the level of p53"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0044",
+                "rp_string": "44",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[8]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[8]/p[1]),1,298)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effects on the levels of active caspase-3 and caspase-9"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[8]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[8]/p[1]),300,186)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Effects on the levels of active caspase-3 and caspase-9"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0046",
+                "rp_string": "46",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[9]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[9]/p),1,98)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "Cell cycle analysis"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0047",
+                "rp_string": "47",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/sec[10]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/sec[10]/p[1]),418,232)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Biological evaluation",
+                    "AnnexinV-FITC/propidium iodide analysis of apoptosis"
+                ]
+            }
+        ]
+    ]
+}

@@ -24,7 +24,7 @@ class Jats2OC(object):
 
 	def extract_intext_refs(self):
 		self.metadata = []
-		n_rp = 100
+		n_rp = 100 # start from 100 to include floating numbers (corresponding to rp extracted from sequences in post process)
 		rp_list = []
 
 		# rp

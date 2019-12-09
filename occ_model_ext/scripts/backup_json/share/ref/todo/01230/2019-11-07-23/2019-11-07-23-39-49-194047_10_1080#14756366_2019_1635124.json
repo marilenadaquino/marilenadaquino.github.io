@@ -1,0 +1,715 @@
+{
+    "references": [
+        {
+            "bibentry": "Nelson, KM, Dahlin, JL, Bisson, JJ, et al. The essential medicinal chemistry of curcumin. J Med Chem 2017; 60: 1620–37. PMID: 28074653",
+            "process_entry": "True",
+            "doi": "10.1021/acs.jmedchem.6b00975",
+            "pmid": "28074653",
+            "pmcid": "PMC5346970",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Begum, A, Jones, MG, Morihara, T, et al. Curcumin structure–function, bioavailability, and efficacy in models of neuroinflammation and alzheimer's disease. J Pharmacol Exp Ther 2008; 326: 196–208. PMID: 18417733",
+            "process_entry": "True",
+            "doi": "10.1124/jpet.108.137455",
+            "pmid": "18417733",
+            "pmcid": "PMC2527621",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Siviero, A, Gallo, E, Maggini, V, et al. Curcumin, a golden spice with a low bioavailability. J Herb Med 2015; 5: 57–70.",
+            "process_entry": "True",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Dimmock, JR, Raghavan, SK, Logan, BM, et al. Antileukemic evaluation of some Mannich bases derived from 2-arylidene-1,3-diketones. Eur J Med Chem 1983; 18: 248–54.",
+            "process_entry": "True",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Sun, JF, Zhang, SP, Yu, C, et al. Design, synthesis and bioevaluation of novel N-substituted-3,5-bis(arylidene)-4-piperidone derivatives as cytotoxic and antitumor agents with fluorescent properties. Chem Biol Drug Des 2014; 83: 392–400. PMID: 24148151",
+            "process_entry": "True",
+            "doi": "10.1111/cbdd.12254",
+            "pmid": "24148151",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Selvendiran, K, Tong, L, Vishwanath, S, et al. EF24 induces G2/M arrest and apoptosis in cisplatin-resistant human ovarian cancer cells by increasing PTEN expression. J Biol Chem 2007; 282: 28609–18. PMID: 17684018",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M703796200",
+            "pmid": "17684018",
+            "pmcid": "PMC4610350",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Yin, DL, Liang, YJ, Zheng, TS, et al. EF24 inhibits tumor growth and metastasis via suppressing NF-κB dependent pathways in human cholangiocarcinoma. Sci Rep 2016; 6: 32167. PMID: 27571770",
+            "process_entry": "True",
+            "doi": "10.1038/srep32167",
+            "pmid": "27571770",
+            "pmcid": "PMC5004153",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Lagisetty, P, Vilekar, P, Sahoo, K, et al. CLEFMA –an anti-proliferative curcuminoid from structure-activity relationship studies on 3,5-bis(benzylidene)-4-piperidones. Bioorg Med Chem 2010; 18: 6109–20. PMID: 20638855",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2010.06.055",
+            "pmid": "20638855",
+            "pmcid": "PMC2945829",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Gundewar, C, Ansari, D, Tang, L, et al. Antiproliferative effects of curcumin analog L49H37 in pancreatic stellate cells: a comparative study. Ann Gastro Enterol 2015; 28: 1–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Chen, L, Li, Q, Weng, B, et al. Design, synthesis, anti-lung cancer activity, and chemosensitization of tumor-selective MCACs based on ROS-mediated JNK pathway activation and NF-кB pathway inhibition. Eur J Med Chem 2018; 151: 508–19.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Zhu, HP, Xu, TT, Qiu, CY, et al. Synthesis and optimization of novel allylated mono-carbonyl analogs of curcumin (MACs) act as potent anti-inflammatory agents against LPS-induced acute lung injury (ALI) in rats. Eur J Med Chem 2016; 121: 181–93. PMID: 27240273",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.05.041",
+            "pmid": "27240273",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Li, N, Xin, WY, Yao, BR, et al. Novel dissymmetric 3,5-bis(arylidene)-4-piperidones as potential antitumor agents with biological evaluation in vitro and in vivo. Eur J Med Chem 2018; 147: 21–33. PMID: 29421568",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.01.088",
+            "pmid": "29421568",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Li, N, Xin, WY, Yao, BR, et al. N-phenylsulfonyl-3,5-bis(arylidene)-4-piperidone derivatives as activation NF-κB inhibitors in hepatic carcinoma cell lines. Eur J Med Chem 2018; 155: 531–44. PMID: 29909338",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.06.027",
+            "pmid": "29909338",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Yao, BR, Sun, Y, Chen, SL, et al. Dissymmetric pyridyl-substituted 3,5-bis(arylidene)-4-piperidones as anti-hepatoma agents by inhibiting NF-кB pathway activation. Eur J Med Chem 2019; 167: 187–99.",
+            "process_entry": "True",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Sun, JF, Wang, SW, Li, HJ, et al. Synthesis, antitumor activity evaluation of some new N-aroyl-α,β-unsaturated piperidones with fluorescence. J Enzyme Inhib Med Chem 2016; 31: 495–502. PMID: 26382011",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2015.1043296",
+            "pmid": "26382011",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Li, HJ, Wang, L, Zhao, JJ, et al. Synthesis, structure and luminescence of novel co-crystals based on bispyridyl-substituted α,β-unsaturated ketones with coformers. J Mol Struct 2015; 1079: 414–22.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Liu, LD, Liu, SL, Liu, ZX, et al. Synthesis, structure, antitumor activity of novel pharmaceutical cocrystals based on bispyridyl-substituted α,β-unsaturated ketones with gallic acid. J Mol Struct 2016; 1112: 1–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Zhang, LS, Chen, Q, Hou, GG, et al. Hydroxyl-substituted double Schiff-base condensed 4-piperidone/cyclohexanones as potential anticancer agents with biological evaluation. J Enzyme Inhib Med Chem 2019; 34: 264–71. PMID: 30734613",
+            "process_entry": "True",
+            "doi": "10.1080/14756366.2018.1501042",
+            "pmid": "30734613",
+            "pmcid": "PMC6327999",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Yao, BR, Li, N, Wang, CH, et al. Novel asymmetric 3,5-bis(arylidene)piperidin-4-one derivatives: synthesis, crystal structures and cytotoxicity. Acta Cryst 2018; C74: 659–65.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Chen, Q, Hou, Y, Hou, GG, et al. Design, synthesis, anticancer activity and cytotoxicity of novel 4-piperidone/cyclohexanone derivatives. Res Chem Intermediat 2016; 42: 8119–30.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Chen, Q, Hou, Y, Hou, GG, et al. Synthesis, anticancer activity and cytotoxicity of novel double Schiff-base condensed α,β-unsaturated keto derivatives. J Chem Res 2016; 40: 400–3.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Silva, CMD, Silva, DLD, Modolo, LV, et al. Schiff bases: a short review of their antimicrobial activities. J Adv Res 2011; 2: 1–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Makawana, JA, Sangani, CB, Lin, L, et al. Schiff’s base derivatives bearing nitroimidazole and quinoline nuclei: new class of anticancer agents and potential EGFR tyrosine kinase inhibitors. Bioorg Med Chem Lett 2014; 24: 1734–6. PMID: 24630412",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2014.02.041",
+            "pmid": "24630412",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Singh, P, Kaur, S, Sharma, A, et al. TNF-α and IL-6 inhibitors: conjugates of N-substituted indole and aminophenylmorpholin-3-one as anti-inflammatory agents. Eur J Med Chem 2017; 140: 92–103. PMID: 28923390",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.09.003",
+            "pmid": "28923390",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Viatour, P, Merville, MP, Bours, V, et al. Phosphorylation of NF-κB and I κB proteins: implications in cancer and inflammation. Trends Biochem Sci 2005; 30: 43–52. PMID: 15653325",
+            "process_entry": "True",
+            "doi": "10.1016/j.tibs.2004.11.009",
+            "pmid": "15653325",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Zhang, L, Shi, L, Soars, SM, et al. Discovery of novel small-molecule inhibitors of NF-кB signaling with antiinflammatory and anti-cancer properties. J Med Chem 2018; 61: 5881–99.",
+            "process_entry": "True",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Sathishkumar, N, Sathiyamoorthy, S, Ramya, M, et al. Molecular docking studies of anti-apoptotic BCL-2, BCL-XL, and MCL-1 proteins with ginsenosides from Panax ginseng. J Enzyme Inhib Med Chem 2012; 27: 685–92. PMID: 21919598",
+            "process_entry": "True",
+            "doi": "10.3109/14756366.2011.608663",
+            "pmid": "21919598",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Shishodia, S, Majumdar, S, Banerjee, S, et al. Ursolic acid inhibits nuclear factor-kappaB activation induced by carcinogenic agents through suppression of IkappaBalpha kinase and p65 phosphorylation: correlation with down-regulation of cyclooxygenase 2, matrix metalloproteinase 9, and cyclin D1. Cancer Res 2003; 63: 4375–83. PMID: 12907607",
+            "process_entry": "True",
+            "pmid": "12907607",
+            "xmlid": "CIT0028"
+        }
+    ],
+    "localid": "MED-31288582",
+    "doi": "10.1080/14756366.2019.1635124",
+    "pmid": "10.1080/14756366.2019.1635124",
+    "pmcid": "31288582",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31288582/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "n_rp": 0,
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,136)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 1,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),138,109)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 2,
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),138,109)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 3,
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),298,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 4,
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),298,184)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 5,
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),483,135)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 6,
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),483,135)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 7,
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),619,121)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 8,
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),741,255)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 9,
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),741,255)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 10,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 11,
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18–21",
+                "pl_string": "18–21",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "",
+                "pl_string": "18–21",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "18–21",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "",
+                "pl_string": "18–21",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 16,
+                "xref_id": "CIT0018",
+                "rp_string": "18–21",
+                "pl_string": "18–21",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 17,
+                "xref_id": "",
+                "pl_string": "18–21",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 18,
+                "xref_id": "",
+                "pl_string": "18–21",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            },
+            {
+                "n_rp": 19,
+                "xref_id": "",
+                "pl_string": "18–21",
+                "pl_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),178,170)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 20,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),349,351)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 21,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),701,298)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 22,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),701,298)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 23,
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 24,
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,174)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 25,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),176,247)",
+                "containers_title": [
+                    "Introduction"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 26,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),194,217)",
+                "containers_title": [
+                    "Experimental",
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 27,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[2]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[1]/p),412,276)",
+                "containers_title": [
+                    "Experimental",
+                    "Materials and methods"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 28,
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[2]/sec[4]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[4]/p[1]),1,445)",
+                "containers_title": [
+                    "Experimental",
+                    "Anticancer testing with MTT method"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 29,
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[2]/sec[10]/p[1]/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[10]/p[1]),759,245)",
+                "containers_title": [
+                    "Experimental",
+                    "In vivo anti-hepatoma efficacy"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 30,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),1,113)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthesis and structural characterization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 31,
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,290)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Synthesis and structural characterization"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 32,
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[2]/xref",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[2]),327,199)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Cytotoxicity and anti-inflammatory activity analysis of BAPs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 33,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),1,107)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Cytotoxicity and anti-inflammatory activity analysis of BAPs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 34,
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p[4]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p[4]),1,107)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Cytotoxicity and anti-inflammatory activity analysis of BAPs"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 35,
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,92)",
+                "containers_title": [
+                    "Results and discussion",
+                    "BAP 96 inhibited NF-κB activation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 36,
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,92)",
+                "containers_title": [
+                    "Results and discussion",
+                    "BAP 96 inhibited NF-κB activation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 37,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),94,146)",
+                "containers_title": [
+                    "Results and discussion",
+                    "BAP 96 inhibited NF-κB activation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 38,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),94,146)",
+                "containers_title": [
+                    "Results and discussion",
+                    "BAP 96 inhibited NF-κB activation"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 39,
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,164)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 40,
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,164)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 41,
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),672,146)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking study"
+                ]
+            }
+        ],
+        [
+            {
+                "n_rp": 42,
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),672,146)",
+                "containers_title": [
+                    "Results and discussion",
+                    "Molecular docking study"
+                ]
+            }
+        ]
+    ]
+}
