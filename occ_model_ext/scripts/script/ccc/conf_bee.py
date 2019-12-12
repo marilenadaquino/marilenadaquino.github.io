@@ -258,7 +258,7 @@ def find_container_title(elem, container_tag, root):
 	return: title -- the tag of the element containing the title of the container
 	"""
 	et = ET.ElementTree(root)
-	title_list = [ET.tostring( x, method="text", encoding='unicode', with_tail=False).strip() for x in elem.xpath('./ancestor::node()/'+title_tag)]
+	title_list = { et.getpath(x):ET.tostring( x, method="text", encoding='unicode', with_tail=False).strip() for x in elem.xpath('./ancestor::node()/'+title_tag)}
 	if len(title_list) == 0:
 		title_list = ''
 	return title_list

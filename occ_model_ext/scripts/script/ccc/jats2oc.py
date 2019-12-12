@@ -281,13 +281,15 @@ class Jats2OC(object):
 		# sort rp in incremental order
 		self.metadata = sorted(self.metadata, key=lambda rp : rp[0]["n_rp"])
 		# start enumerate at 1 not 0
-		tot_rp = [(count, r) for count, r in enumerate([rp for group in self.metadata for rp in group],1)]
+		# tot_rp = [(count, r) for count, r in enumerate([rp for group in self.metadata for rp in group],1)]
 		for group in self.metadata:
 			for rp in group:
-				for count, r in tot_rp:
-					if r == rp:
-						rp["n_rp"] = count
+				# for count, r in tot_rp:
+				# 	if r == rp:
+				# 		rp["n_rp"] = count
 				# remove useless key:values
+				if "n_rp" in rp.keys():
+					del rp["n_rp"]
 				if "xml_element" in rp.keys():
 					del rp["xml_element"]
 
@@ -297,7 +299,7 @@ class Jats2OC(object):
 	def process_reference_pointers(citing_entity, cited_entities_xmlid_be, reference_pointer_list, graph, resp_agent=None, source_provider=None, source=None):
 		""" process a JSON snippet including reference pointers
 		return RDF entities for rp, pl, and de according to OCDM """
-		rp_entities = []
+		#rp_entities = []
 		de_resources = []
 		for pl_entry in reference_pointer_list:
 			if len(pl_entry) > 1:
@@ -305,28 +307,30 @@ class Jats2OC(object):
 				for rp_dict in pl_entry:
 					rp_entity = Jats2OC.process_pointer(rp_dict, citing_entity, graph, de_resources, resp_agent, source_provider, source, in_list=True)
 					cur_pl.contains_element(rp_entity)
-					xref_id , last_de = rp_dict["xref_id"] , rp_dict["pl_xpath"] # ?
-					rp_entities.append((rp_entity,xref_id,last_de)) # TODO last_De
+					# xref_id , last_de = rp_dict["xref_id"] , rp_dict["pl_xpath"] # ?
+					# rp_entities.append((rp_entity,xref_id,last_de)) # TODO last_De
+					# TODO if in_list==True: create hasNext
 					# ADD link citing / be / pl -- citation / annotation
 			else:
 				rp_entity = Jats2OC.process_pointer(pl_entry[0], citing_entity, graph, de_resources, resp_agent, source_provider, source)
-				xref_id , last_de = pl_entry[0]["xref_id"] , pl_entry[0]["rp_xpath"] # TODO last_De
-				rp_entities.append((rp_entity,xref_id,last_de)) # ?
+				# xref_id , last_de = pl_entry[0]["xref_id"] , pl_entry[0]["rp_xpath"] # TODO last_De
+				# rp_entities.append((rp_entity,xref_id,last_de)) # ?
 				# ADD link be / rp + citing / be / rp + citation / annotation
 		# update graph?
 		# Do I need to return anything?
-		return rp_entities
+		#return rp_entities
 
 	@staticmethod
 	def process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent=None, source_provider=None, source=None):
 		""" process a pl list of dict """
 		cur_pl = graph.add_pl(resp_agent, source_provider, source)
+		containers_title = pl_entry[0]["containers_title"]
 		if "pl_string" in pl_entry[0]:
 			cur_pl.create_content(pl_entry[0]["pl_string"])
 		if "pl_xpath" in pl_entry[0]:
 			pl_xpath = Jats2OC.add_xpath(graph, cur_pl, pl_entry[0]["pl_xpath"], resp_agent, source_provider, source)
 		if "context_xpath" in pl_entry[0]:
-			context = Jats2OC.create_context(graph, citing_entity, cur_pl, pl_entry[0]["context_xpath"], de_resources, resp_agent)
+			context = Jats2OC.create_context(graph, citing_entity, cur_pl, pl_entry[0]["context_xpath"], de_resources, containers_title, resp_agent)
 		return cur_pl
 
 
@@ -334,16 +338,16 @@ class Jats2OC(object):
 	def process_pointer(dict_pointer, citing_entity, graph, de_resources, resp_agent=None, source_provider=None, source=None, in_list=False):
 		""" process a rp_dict """
 		cur_rp = graph.add_rp(resp_agent, source_provider, source)
+		containers_title = dict_pointer["containers_title"]
 		if "rp_xpath" in dict_pointer:
 			rp_xpath = Jats2OC.add_xpath(graph, cur_rp, dict_pointer["rp_xpath"], resp_agent, source_provider, source)
 		if "rp_string" in dict_pointer:
 			cur_rp.create_content(dict_pointer["rp_string"])
 		if in_list==False:
 			if "context_xpath" in dict_pointer:
-				context = Jats2OC.create_context(graph, citing_entity, cur_rp, dict_pointer["context_xpath"], de_resources, resp_agent, source_provider, source)
+				context = Jats2OC.create_context(graph, citing_entity, cur_rp, dict_pointer["context_xpath"], de_resources, containers_title, resp_agent, source_provider, source)
 
 		return cur_rp
-		# update graph
 
 
 	@staticmethod
@@ -354,14 +358,14 @@ class Jats2OC(object):
 
 
 	@staticmethod
-	def create_context(graph, citing_entity, cur_rp_or_pl, xpath_string, de_resources, resp_agent=None, source_provider=None, source=None):
-		cur_sent = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources, resp_agent, source_provider, source)
+	def create_context(graph, citing_entity, cur_rp_or_pl, xpath_string, de_resources, containers_title, resp_agent=None, source_provider=None, source=None):
+		cur_sent = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources, containers_title, resp_agent, source_provider, source)
 		if cur_sent != None:
 			cur_rp_or_pl.has_context(cur_sent)
 
 
 	@staticmethod
-	def de_finder(graph, citing_entity, xpath_string, de_resources, resp_agent, source_provider=None, source=None):
+	def de_finder(graph, citing_entity, xpath_string, de_resources, containers_title, resp_agent, source_provider=None, source=None):
 		cur_de = [de_uri for de_path, de_uri in de_resources if xpath_string == de_path]
 		if len(cur_de) == 0: # new de
 			de_res = graph.add_de(resp_agent, source_provider, source)
@@ -373,25 +377,27 @@ class Jats2OC(object):
 			else:
 				de_res.create_discourse_element(conf.elem_to_type(xpath_string))
 			de_xpath = Jats2OC.add_xpath(graph, de_res, xpath_string, resp_agent, source_provider, source)
-			hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, de_res, conf.get_subxpath_from(xpath_string), de_resources, resp_agent, source_provider, source)
+			hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, de_res, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
 		else:
 			de_res = cur_de[0]
 
 		return de_res
 
 	@staticmethod
-	def create_hierarchy(graph, citing_entity, de_res, xpath_string, de_resources, resp_agent=None, source_provider=None, source=None):
+	def create_hierarchy(graph, citing_entity, de_res, xpath_string, de_resources, containers_title, resp_agent=None, source_provider=None, source=None):
 		if xpath_string != '/article/body' and xpath_string != '/':
-			cur_el = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources,resp_agent, source_provider, source)
+			cur_el = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources,containers_title, resp_agent, source_provider, source)
 			if cur_el != None:
 				de_res.contained_in_discourse_element(cur_el)
-				hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, cur_el, conf.get_subxpath_from(xpath_string), de_resources, resp_agent, source_provider, source)
+				hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, cur_el, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
 				if '/' not in xpath_string.split("/article/body/",1)[1] :
 					citing_entity.contains_discourse_element(cur_el)
 	# TODO staticmethod containers_title for all the de
 	# tODO method for has next
-	# TODO staticmethod return the last_De to be linked to the citing entity
-	# TODO staticmethod linking rp to cited_entities_xmlid_be
+	# TODO staticmethod linking rp denotes be, using cited_entities_xmlid_be
+	# TODO handle citation prefixes / file path
+	# TODO link ci / an / rp
+
 
 
 	def to_rdf(self, graph):
