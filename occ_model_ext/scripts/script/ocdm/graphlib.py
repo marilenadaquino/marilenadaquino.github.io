@@ -65,6 +65,7 @@ class GraphEntity(object):
     pmcid = DATACITE.pmcid
     orcid = DATACITE.orcid
     xpath = DATACITE["local-resource-identifier-scheme"] # new
+    xmlid = DATACITE["local-resource-identifier-scheme"] # new
     has_identifier = DATACITE.hasIdentifier
     identifier = DATACITE.Identifier
     isbn = DATACITE.isbn
@@ -353,6 +354,9 @@ class GraphEntity(object):
 
     def create_xpath(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xpath)
+
+    def create_xmlid(self, string): # new
+        return self._associate_identifier_with_scheme(string, GraphEntity.xmlid)
 
     def denotes(self, be_res):
         self.g.add((self.res, GraphEntity.denotes, URIRef(str(be_res))))
@@ -754,8 +758,8 @@ class ProvEntity(GraphEntity):
         ca_res.g.add((URIRef(str(ca_res)), ProvEntity.associated_agent, self.res))
 
     # new
-    def responsible_agent_of(self, se_res):
-        se_res.g.add((URIRef(str(se_res)), ProvEntity.was_attributed_to, self.res))
+    def has_resp_agent(self, se_agent):
+        self.g.add((self.res, ProvEntity.was_attributed_to, URIRef(str(se_agent))))
     # /END Composite Attributes
 
 
@@ -787,8 +791,8 @@ class ProvSet(GraphSet):
         # )
 
     # Add resources related to provenance information
-    def add_pa(self, resp_agent=None, res=None):
-        return self._add_prov("pa", ProvEntity.prov_agent, res, resp_agent)
+    # def add_pa(self, resp_agent=None, res=None):
+    #     return self._add_prov("pa", ProvEntity.prov_agent, res, resp_agent)
 
     def add_se(self, resp_agent=None, prov_subject=None, res=None):
         return self._add_prov("se", ProvEntity.entity, res, resp_agent, prov_subject)
@@ -799,7 +803,7 @@ class ProvSet(GraphSet):
     # def add_cr(self, resp_agent=None, prov_subject=None, res=None):
     #     return self._add_prov("cr", ProvEntity.association, res, resp_agent, prov_subject)
 
-    def generate_provenance(self, c_time=None, do_insert=True, remove_entity=False):
+    def generate_provenance(self, c_time=None, do_insert=True, remove_entity=False, resp_agent=None):
         time_string = '%Y-%m-%dT%H:%M:%S'
         if c_time is None:
             cur_time = datetime.now().strftime(time_string)
@@ -809,6 +813,8 @@ class ProvSet(GraphSet):
         # Add all existing information for provenance agents
         self.rf.add_prov_triples_in_filesystem(self.base_iri)
 
+        if resp_agent is None:
+            resp_agent = self.cur_name
         # The 'all_subjects' set includes only the subject of the created graphs that
         # have at least some new triples to add
         for prov_subject in self.all_subjects:
@@ -820,11 +826,10 @@ class ProvSet(GraphSet):
             last_snapshot = None
             last_snapshot_res = self.rf.retrieve_last_snapshot(prov_subject)
             if last_snapshot_res is not None:
-                last_snapshot = self.add_se(self.cur_name, cur_subj, last_snapshot_res)
-
+                last_snapshot = self.add_se(resp_agent, cur_subj, last_snapshot_res)
             # Snapshot
             cur_snapshot = None
-            cur_snapshot = self.add_se(self.cur_name, cur_subj)
+            cur_snapshot = self.add_se(resp_agent, cur_subj)
             cur_snapshot.snapshot_of(cur_subj)
             cur_snapshot.create_generation_time(cur_time)
             if cur_subj.source is not None:
@@ -834,19 +839,25 @@ class ProvSet(GraphSet):
             #cur_curator_ass = None
             #cur_source_ass = None
 
-            if cur_subj.resp_agent is not None:
-                # cur_curator_ass = self.add_cr(self.cur_name, cur_subj)
-                # cur_curator_ass.has_role_type(ProvEntity.curator)
-                cur_curator_agent_res = self.rf.retrieve_provenance_agent_from_name(cur_subj.resp_agent)
-                if cur_curator_agent_res is None:
-                    cur_curator_agent = self.add_pa(self.cur_name)
-                    cur_curator_agent.create_name(cur_subj.resp_agent)
-                    cur_curator_agent.responsible_agent_of(cur_snapshot)
-                    self.rf.update_graph_set(self)
-                else:
-                    cur_curator_agent = self.add_pa(self.cur_name, cur_curator_agent_res)
-                    cur_curator_agent.responsible_agent_of(cur_snapshot)
-                    self.rf.update_graph_set(self)
+            # if cur_subj.resp_agent is not None:
+            #     cur_snapshot.has_resp_agent(cur_subj.resp_agent)
+            # else:
+            cur_snapshot.has_resp_agent(resp_agent)
+            #     # cur_curator_ass = self.add_cr(self.cur_name, cur_subj)
+            #     # cur_curator_ass.has_role_type(ProvEntity.curator)
+            #     cur_curator_agent_res = self.rf.retrieve_provenance_agent_from_name(cur_subj.resp_agent)
+            #
+            #
+            #
+            #     if cur_curator_agent_res is None:
+            #         cur_curator_agent = self.add_pa(self.cur_name)
+            #         #cur_curator_agent.create_name(cur_subj.resp_agent)
+            #         cur_curator_agent.responsible_agent_of(cur_snapshot)
+            #         self.rf.update_graph_set(self)
+            #     else:
+            #         cur_curator_agent = self.add_pa(self.cur_name, cur_curator_agent_res)
+            #         cur_curator_agent.responsible_agent_of(cur_snapshot)
+            #         self.rf.update_graph_set(self)
                 # cur_curator_agent.has_role_in(cur_curator_ass)
 
             #if cur_subj.source_agent is not None:
@@ -974,6 +985,8 @@ class ProvSet(GraphSet):
                            self.dir_split, self.n_file_item)[1][:-5]
 
             prov_info_path = res_file_path + os.sep + "prov" + os.sep + short_name + ".txt"
+            #prov_info_path = \
+            #    g_prov.replace(self.base_iri, self.info_dir.rsplit(os.sep, 2)[0] + os.sep) + short_name + ".txt"
         return self._add(g_prov, prov_type, res, resp_agent, None, None,
                          prov_info_path, short_name, [] if prov_subject is None else [prov_subject])
 

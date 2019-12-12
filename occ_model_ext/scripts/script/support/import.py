@@ -100,11 +100,11 @@ if __name__ == "__main__":
     arg_parser.add_argument("-i", "--input", dest="input", required=True,
                             help="The JSON file containing all data to import.")
     arg_parser.add_argument("-t", "--table", dest="table", required=True,
-                            help="The table containing how some items have been included in the OCC.")
+                            help="The table containing how some items have been included in the oc/ccc.")
     arg_parser.add_argument("-f", "--format", dest="format", default="json-ld",
                             help="The format of the input file to specify.")
     arg_parser.add_argument("-a", "--avoid_sparql_mapping", dest="avoid", default=False, action="store_true",
-                            help="This will avoid to query the OCC triplestore for looking for more mappings.")
+                            help="This will avoid to query the oc/ccc triplestore for looking for more mappings.")
     arg_parser.add_argument("-sa", "--source_agent", dest="source_agent", default=None,
                             help="The source agent that provided the data to import.")
     arg_parser.add_argument("-s", "--source", dest="source", default=None,
@@ -112,7 +112,7 @@ if __name__ == "__main__":
     arg_parser.add_argument("-p", "--prefix", dest="prefix", required=True,
                             help="The prefix used for the resources of the imported file.")
     arg_parser.add_argument("-d", "--done", dest="done", default="done.csv",
-                            help="The file which contains the entity that has been already uploaded to the OCC.")
+                            help="The file which contains the entity that has been already uploaded to the oc/ccc.")
 
     args = arg_parser.parse_args()
 
@@ -123,7 +123,7 @@ if __name__ == "__main__":
             for occ, new in list(reader(f)):
                 mapping_table[new] = occ
 
-    print("Loading the file listing the entity that have been already uploaded to the OCC")
+    print("Loading the file listing the entity that have been already uploaded to the oc/ccc")
     done = set()
     if path.exists(args.done):
         with open(args.done) as f:
@@ -151,7 +151,7 @@ if __name__ == "__main__":
         g.add((s, p, o))
 
     if not args.avoid:
-        print("Check additional mapping in the OCC triplestore")
+        print("Check additional mapping in the oc/ccc triplestore")
         rf = ResourceFinder(ts_url=triplestore_url, default_dir=default_dir)
         with open(args.table, "a") as f:
             for s, p, o in g.triples((None, DATACITE.hasIdentifier, None)):
@@ -180,7 +180,7 @@ if __name__ == "__main__":
                         mapping_table[str(s)] = str(res)
                         f.write("%s,%s\n" % (str(s), str(res)))
 
-    print("Change resources that already exist in the OCC.")
+    print("Change resources that already exist in the oc/ccc.")
     for item in mapping_table:
         for s, p, o in g.triples((None, None, URIRef(item))):
             g.add((s, p, URIRef(mapping_table[item])))

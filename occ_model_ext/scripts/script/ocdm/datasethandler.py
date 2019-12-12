@@ -173,9 +173,9 @@ class DatasetHandler(object):
         if os.path.exists(dataset_path):
             return list(self.st.load(dataset_path, tmp_dir=self.tmp_dir).contexts())[0]
         else:
-            dataset_label = "OCC"
-            dataset_title = "The OpenCitations Corpus"
-            dataset_description = "The OpenCitations Corpus is an open repository of scholarly " \
+            dataset_label = "ccc"
+            dataset_title = "The Citations in Context Corpus"
+            dataset_description = "The Citations in Context Corpus is an open repository of scholarly " \
                                   "citation data made available under a Creative Commons public " \
                                   "domain dedication, which provides in RDF accurate citation " \
                                   "information (bibliographic references) harvested from the " \
@@ -201,8 +201,9 @@ class DatasetHandler(object):
             self.create_description(g, res, dataset_description)
             self.create_publication_date(g, res, cur_time)
             self.create_keyword(g, res, "OCC")
+            self.create_keyword(g, res, "ccc")
             self.create_keyword(g, res, "OpenCitations")
-            self.create_keyword(g, res, "OpenCitations Corpus")
+            self.create_keyword(g, res, "Citations in Context Corpus")
             self.create_keyword(g, res, "SPAR Ontologies")
             self.create_keyword(g, res, "bibliographic references")
             self.create_keyword(g, res, "citations")

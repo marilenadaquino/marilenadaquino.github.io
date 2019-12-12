@@ -364,51 +364,61 @@ def elem_to_type(xpath):
 		elem = re.sub(r"\[.*\]" ,'', xpath.rsplit('/', 1)[-1])
 	else:
 		elem = xpath.rsplit('/', 1)[-1]
-	for el in elem_mapping:
-		if elem == el[0]:
-			return el[1]
+	cl = [el[1] for el in elem_mapping if elem == el[0]]
+	if len(cl) != 0:
+		return cl[0]
+	else:
+		return Graphlib.discourse_element
 
 
-def file_in_folder(e_type):
-	"""create folder for each type of entity"""
-	if not os.path.exists("ccc/br/"):
-		os.makedirs("ccc/br/")
-	if not os.path.exists("ccc/id/"):
-		os.makedirs("ccc/id/")
-	if not os.path.exists("ccc/de/"):
-		os.makedirs("ccc/de/")
-	return e_type
+def get_subxpath_from(string):
+	if "substring(string(" in string:
+		pattern = re.search(r"substring\(string\((.*?)\)",string)
+		xpath = pattern.group(1)
+	else:
+		xpath = string[:string.rfind('/')] # pop last element
+	return xpath
 
-
-def find_de(de_id, graph):
-	"""
-	params: de_id -- URI of the id
-	params: graph -- RDF graph where to look in
-	return: list of URIs associated to the same id URI
-	"""
-	list_de = []
-	for de, has_id, _id in graph.triples(( None,DATACITE.hasIdentifier,de_id )):
-		list_de.append(de)
-	return list_de
-
-
-def find_id(de_id, graph):
-	"""
-	params: de_id -- value of an id
-	params: graph -- RDF graph where to look in
-	return: the URI of the id associated to the value
-	"""
-	for o,has_val,val in graph.triples((None,LITERAL.hasLiteralValue,None)):
-		if val.strip() == de_id.strip():
-			return o
-
-
-def find_be(be_text,graph):
-	"""
-	params: be_text -- text of a bibliographic reference
-	params: graph -- RDF graph where to look in
-	return: the URI of the be
-	"""
-	for o,has_val,val in graph.triples((None,C4O.hasContent,None)):
-		if val.strip() == be_text.strip():
-			return o
+# def file_in_folder(e_type):
+# 	"""create folder for each type of entity"""
+# 	if not os.path.exists("ccc/br/"):
+# 		os.makedirs("ccc/br/")
+# 	if not os.path.exists("ccc/id/"):
+# 		os.makedirs("ccc/id/")
+# 	if not os.path.exists("ccc/de/"):
+# 		os.makedirs("ccc/de/")
+# 	return e_type
+#
+#
+# def find_de(de_id, graph):
+# 	"""
+# 	params: de_id -- URI of the id
+# 	params: graph -- RDF graph where to look in
+# 	return: list of URIs associated to the same id URI
+# 	"""
+# 	list_de = []
+# 	for de, has_id, _id in graph.triples(( None,DATACITE.hasIdentifier,de_id )):
+# 		list_de.append(de)
+# 	return list_de
+#
+#
+# def find_id(de_id, graph):
+# 	"""
+# 	params: de_id -- value of an id
+# 	params: graph -- RDF graph where to look in
+# 	return: the URI of the id associated to the value
+# 	"""
+# 	for o,has_val,val in graph.triples((None,LITERAL.hasLiteralValue,None)):
+# 		if val.strip() == de_id.strip():
+# 			return o
+#
+#
+# def find_be(be_text,graph):
+# 	"""
+# 	params: be_text -- text of a bibliographic reference
+# 	params: graph -- RDF graph where to look in
+# 	return: the URI of the be
+# 	"""
+# 	for o,has_val,val in graph.triples((None,C4O.hasContent,None)):
+# 		if val.strip() == be_text.strip():
+# 			return o

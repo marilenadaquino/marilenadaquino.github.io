@@ -46,7 +46,6 @@ try:
                                                     ORCIDFinder(orcid_conf_path), items_per_file, supplier_prefix, intext_refs=True)
                             result = crp.process()
                             if result is not None:
-                                # TODO changes in graphlib
                                 prov = ProvSet(result, base_iri, context_path, default_dir, full_info_dir,
                                                ResourceFinder(base_dir=base_dir, base_iri=base_iri,
                                                               tmp_dir=temp_dir_for_rdf_loading,
@@ -56,7 +55,7 @@ try:
                                                               n_file_item=items_per_file,
                                                               default_dir=default_dir),
                                                dir_split_number, items_per_file, supplier_prefix)
-                                prov.generate_provenance()
+                                prov.generate_provenance(resp_agent="https://w3id.org/oc/ccc/prov/pa/0701") # TODO is it fine?
 
                                 res_storer = Storer(result,
                                                     context_map={context_path: context_file_path},

@@ -23,6 +23,7 @@ from script.support.support import encode_url
 from script.spacin.formatproc import FormatProcessor
 from script.ocdm.crossrefdatahandler import CrossrefDataHandler
 from script.ocdm.graphlib import GraphEntity
+from script.ccc.jats2oc import Jats2OC as jt
 from re import sub
 
 
@@ -56,6 +57,7 @@ class CrossrefProcessor(FormatProcessor):
         self.get_bib_entry_url = use_url_in_bibentry_as_id
         self.get_bib_entry_doi = use_doi_in_bibentry_as_id
         self.crossref_min_similarity_score = crossref_min_similarity_score
+        self.intext_refs = intext_refs
         super(CrossrefProcessor, self).__init__(
             base_iri, context_base, info_dir, entries, n_file_item, supplier_prefix, "Crossref")
 
@@ -125,16 +127,31 @@ class CrossrefProcessor(FormatProcessor):
 
         cited_entities = self.process_references()
 
+
+
         if cited_entities is not None:
+            cited_entities_xmlid_be = []
             for idx, cited_entity in enumerate(cited_entities):
                 citing_entity.has_citation(cited_entity)
                 cur_bibentry = dg(self.entries[idx], ["bibentry"])
+                cur_be_xmlid = dg(self.entries[idx], ["xmlid"])
                 if cur_bibentry is not None and cur_bibentry.strip():
                     cur_be = self.g_set.add_be(self.curator, self.source_provider, self.source)
                     citing_entity.contains_in_reference_list(cur_be)
                     cited_entity.has_reference(cur_be)
+                    self.__add_xmlid(cur_be, cur_be_xmlid) # new
                     cur_be.create_content(cur_bibentry.strip())
-                    # TODO add here jats2oc
+                    cited_entities_xmlid_be.append((cited_entity,cur_be_xmlid,cur_be))
+
+            # create rp, pl, de, ci, an
+            if self.intext_refs:
+                rp_entities = jt.process_reference_pointers(citing_entity, \
+                    cited_entities_xmlid_be, self.reference_pointers, self.g_set, \
+                    self.curator, self.source_provider, self.source)
+                self.rf.update_graph_set(self.g_set)
+                # add link RP -> BE w/ same xml_id
+                # add link DE -> cited_entity
+                # create CI/AN
 
             return self.g_set
 
@@ -264,6 +281,7 @@ class CrossrefProcessor(FormatProcessor):
                 self.__add_pmcid(cur_res, provided_pmcid)
                 self.__add_url(cur_res, provided_url)
 
+
                 # Add any DOI extracted from the entry if it is not already included (and only if
                 # a resource has not been retrieved by a DOI specified in the entry explicitly, or
                 # by a Crossref search.
@@ -322,6 +340,13 @@ class CrossrefProcessor(FormatProcessor):
                 cur_id = self.g_set.add_id(curator, self.source_provider, self.source)
                 cur_id.create_doi(extracted_doi)
                 cur_res.has_id(cur_id)
+
+    def __add_xmlid(self, cur_res, xmlid_string): # new
+        self.rf.update_graph_set(self.g_set)
+        if xmlid_string is not None:
+            cur_id = self.g_set.add_id(self.curator, self.source_provider, self.source)
+            cur_id.create_xmlid(xmlid_string)
+            cur_res.has_id(cur_id)
 
     def get_crossref_item(self, json_crossref):
         result = None

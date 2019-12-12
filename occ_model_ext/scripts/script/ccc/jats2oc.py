@@ -3,12 +3,13 @@
 import script.ccc.conf_bee as conf
 import uuid , itertools , os , pprint ,re , string
 from lxml import etree as ET
-from script.ocdm.graphlib import *
-from rdflib import Graph, URIRef
-from rdflib.namespace import XSD, RDF, RDFS, Namespace
-from script.ocdm.conf import context_path as context_path
 from itertools import groupby
 from collections import defaultdict, Counter
+
+from script.spacin.formatproc import FormatProcessor
+from script.ocdm.graphlib import *
+from script.ocdm.conf import context_path as context_path
+
 
 pp = pprint.PrettyPrinter(indent=1)
 class Jats2OC(object):
@@ -23,6 +24,7 @@ class Jats2OC(object):
 
 
 	def extract_intext_refs(self):
+		"""process a XML file and return a list of lists of dictionaries"""
 		self.metadata = []
 		n_rp = 100 # start from 100 to include floating numbers (corresponding to rp extracted from sequences in post process)
 		rp_list = []
@@ -289,12 +291,108 @@ class Jats2OC(object):
 				if "xml_element" in rp.keys():
 					del rp["xml_element"]
 
-		pp.pprint(self.metadata)
 		return self.metadata
 
+	@staticmethod
+	def process_reference_pointers(citing_entity, cited_entities_xmlid_be, reference_pointer_list, graph, resp_agent=None, source_provider=None, source=None):
+		""" process a JSON snippet including reference pointers
+		return RDF entities for rp, pl, and de according to OCDM """
+		rp_entities = []
+		de_resources = []
+		for pl_entry in reference_pointer_list:
+			if len(pl_entry) > 1:
+				cur_pl = Jats2OC.process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent, source_provider, source)
+				for rp_dict in pl_entry:
+					rp_entity = Jats2OC.process_pointer(rp_dict, citing_entity, graph, de_resources, resp_agent, source_provider, source, in_list=True)
+					cur_pl.contains_element(rp_entity)
+					xref_id , last_de = rp_dict["xref_id"] , rp_dict["pl_xpath"] # ?
+					rp_entities.append((rp_entity,xref_id,last_de)) # TODO last_De
+					# ADD link citing / be / pl -- citation / annotation
+			else:
+				rp_entity = Jats2OC.process_pointer(pl_entry[0], citing_entity, graph, de_resources, resp_agent, source_provider, source)
+				xref_id , last_de = pl_entry[0]["xref_id"] , pl_entry[0]["rp_xpath"] # TODO last_De
+				rp_entities.append((rp_entity,xref_id,last_de)) # ?
+				# ADD link be / rp + citing / be / rp + citation / annotation
+		# update graph?
+		# Do I need to return anything?
+		return rp_entities
 
-	def intext_refs_to_rdf(self, citing_entity, cited_entities, be_entities, rp_list):
-		""" """
+	@staticmethod
+	def process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent=None, source_provider=None, source=None):
+		""" process a pl list of dict """
+		cur_pl = graph.add_pl(resp_agent, source_provider, source)
+		if "pl_string" in pl_entry[0]:
+			cur_pl.create_content(pl_entry[0]["pl_string"])
+		if "pl_xpath" in pl_entry[0]:
+			pl_xpath = Jats2OC.add_xpath(graph, cur_pl, pl_entry[0]["pl_xpath"], resp_agent, source_provider, source)
+		if "context_xpath" in pl_entry[0]:
+			context = Jats2OC.create_context(graph, citing_entity, cur_pl, pl_entry[0]["context_xpath"], de_resources, resp_agent)
+		return cur_pl
+
+
+	@staticmethod
+	def process_pointer(dict_pointer, citing_entity, graph, de_resources, resp_agent=None, source_provider=None, source=None, in_list=False):
+		""" process a rp_dict """
+		cur_rp = graph.add_rp(resp_agent, source_provider, source)
+		if "rp_xpath" in dict_pointer:
+			rp_xpath = Jats2OC.add_xpath(graph, cur_rp, dict_pointer["rp_xpath"], resp_agent, source_provider, source)
+		if "rp_string" in dict_pointer:
+			cur_rp.create_content(dict_pointer["rp_string"])
+		if in_list==False:
+			if "context_xpath" in dict_pointer:
+				context = Jats2OC.create_context(graph, citing_entity, cur_rp, dict_pointer["context_xpath"], de_resources, resp_agent, source_provider, source)
+
+		return cur_rp
+		# update graph
+
+
+	@staticmethod
+	def add_xpath(graph, cur_res, xpath_string, resp_agent=None, source_provider=None, source=None): # new
+		cur_id = graph.add_id(resp_agent, source_provider, source)
+		cur_id.create_xpath(xpath_string)
+		cur_res.has_id(cur_id)
+
+
+	@staticmethod
+	def create_context(graph, citing_entity, cur_rp_or_pl, xpath_string, de_resources, resp_agent=None, source_provider=None, source=None):
+		cur_sent = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources, resp_agent, source_provider, source)
+		if cur_sent != None:
+			cur_rp_or_pl.has_context(cur_sent)
+
+
+	@staticmethod
+	def de_finder(graph, citing_entity, xpath_string, de_resources, resp_agent, source_provider=None, source=None):
+		cur_de = [de_uri for de_path, de_uri in de_resources if xpath_string == de_path]
+		if len(cur_de) == 0: # new de
+			de_res = graph.add_de(resp_agent, source_provider, source)
+			de_resources.append((xpath_string, de_res))
+			if 'substring(string(' in xpath_string and conf.table_tag in xpath_string: # sentence or text chunk
+				de_res.create_text_chunk()
+			elif 'substring(string(' in xpath_string and conf.table_tag not in xpath_string:
+				de_res.create_sentence()
+			else:
+				de_res.create_discourse_element(conf.elem_to_type(xpath_string))
+			de_xpath = Jats2OC.add_xpath(graph, de_res, xpath_string, resp_agent, source_provider, source)
+			hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, de_res, conf.get_subxpath_from(xpath_string), de_resources, resp_agent, source_provider, source)
+		else:
+			de_res = cur_de[0]
+
+		return de_res
+
+	@staticmethod
+	def create_hierarchy(graph, citing_entity, de_res, xpath_string, de_resources, resp_agent=None, source_provider=None, source=None):
+		if xpath_string != '/article/body' and xpath_string != '/':
+			cur_el = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources,resp_agent, source_provider, source)
+			if cur_el != None:
+				de_res.contained_in_discourse_element(cur_el)
+				hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, cur_el, conf.get_subxpath_from(xpath_string), de_resources, resp_agent, source_provider, source)
+				if '/' not in xpath_string.split("/article/body/",1)[1] :
+					citing_entity.contains_discourse_element(cur_el)
+	# TODO staticmethod containers_title for all the de
+	# tODO method for has next
+	# TODO staticmethod return the last_De to be linked to the citing entity
+	# TODO staticmethod linking rp to cited_entities_xmlid_be
+
 
 	def to_rdf(self, graph):
 		""" process a JSON file to create a graph according to the OCC extended model"""
