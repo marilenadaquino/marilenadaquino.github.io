@@ -299,26 +299,19 @@ class Jats2OC(object):
 	def process_reference_pointers(citing_entity, cited_entities_xmlid_be, reference_pointer_list, graph, resp_agent=None, source_provider=None, source=None):
 		""" process a JSON snippet including reference pointers
 		return RDF entities for rp, pl, and de according to OCDM """
-		#rp_entities = []
-		de_resources = []
+		de_resources , be_ids = [] , {}
 		for pl_entry in reference_pointer_list:
 			if len(pl_entry) > 1:
 				cur_pl = Jats2OC.process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent, source_provider, source)
 				for rp_dict in pl_entry:
-					rp_entity = Jats2OC.process_pointer(rp_dict, citing_entity, graph, de_resources, resp_agent, source_provider, source, in_list=True)
+					rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, rp_dict)
+					rp_entity = Jats2OC.process_pointer(rp_dict, rp_num, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source, in_list=True)
 					cur_pl.contains_element(rp_entity)
-					# xref_id , last_de = rp_dict["xref_id"] , rp_dict["pl_xpath"] # ?
-					# rp_entities.append((rp_entity,xref_id,last_de)) # TODO last_De
-					# TODO if in_list==True: create hasNext
-					# ADD link citing / be / pl -- citation / annotation
+					# TODO create hasNext
 			else:
-				rp_entity = Jats2OC.process_pointer(pl_entry[0], citing_entity, graph, de_resources, resp_agent, source_provider, source)
-				# xref_id , last_de = pl_entry[0]["xref_id"] , pl_entry[0]["rp_xpath"] # TODO last_De
-				# rp_entities.append((rp_entity,xref_id,last_de)) # ?
-				# ADD link be / rp + citing / be / rp + citation / annotation
-		# update graph?
-		# Do I need to return anything?
-		#return rp_entities
+				rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, pl_entry[0])
+				rp_entity = Jats2OC.process_pointer(pl_entry[0], rp_num, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source)
+
 
 	@staticmethod
 	def process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent=None, source_provider=None, source=None):
@@ -335,8 +328,8 @@ class Jats2OC(object):
 
 
 	@staticmethod
-	def process_pointer(dict_pointer, citing_entity, graph, de_resources, resp_agent=None, source_provider=None, source=None, in_list=False):
-		""" process a rp_dict """
+	def process_pointer(dict_pointer, rp_num, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent=None, source_provider=None, source=None, in_list=False):
+		""" process a rp_dict, create citation and annotation """
 		cur_rp = graph.add_rp(resp_agent, source_provider, source)
 		containers_title = dict_pointer["containers_title"]
 		if "rp_xpath" in dict_pointer:
@@ -346,7 +339,13 @@ class Jats2OC(object):
 		if in_list==False:
 			if "context_xpath" in dict_pointer:
 				context = Jats2OC.create_context(graph, citing_entity, cur_rp, dict_pointer["context_xpath"], de_resources, containers_title, resp_agent, source_provider, source)
-
+		for cited_entity, xmlid, be in cited_entities_xmlid_be:
+			if dict_pointer["xref_id"] == xmlid:
+				cur_rp.denotes_be(be)
+				cur_an = graph.add_an(resp_agent, source_provider, source)
+				cur_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, rp_num, source_provider, source)
+				cur_ci._create_citation(citing_entity, cited_entity)
+				cur_an._create_annotation(be, cur_rp, cur_ci)
 		return cur_rp
 
 
@@ -377,6 +376,9 @@ class Jats2OC(object):
 			else:
 				de_res.create_discourse_element(conf.elem_to_type(xpath_string))
 			de_xpath = Jats2OC.add_xpath(graph, de_res, xpath_string, resp_agent, source_provider, source)
+			if xpath_string+'/title' in containers_title:
+				de_res.create_title(containers_title[xpath_string+'/title'])
+			# TODO create hasNext
 			hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, de_res, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
 		else:
 			de_res = cur_de[0]
@@ -392,174 +394,14 @@ class Jats2OC(object):
 				hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, cur_el, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
 				if '/' not in xpath_string.split("/article/body/",1)[1] :
 					citing_entity.contains_discourse_element(cur_el)
-	# TODO staticmethod containers_title for all the de
-	# tODO method for has next
-	# TODO staticmethod linking rp denotes be, using cited_entities_xmlid_be
-	# TODO handle citation prefixes / file path
-	# TODO link ci / an / rp
+	# TODO method for has next
 
+	@staticmethod
+	def retrieve_rp_occurrence(be_ids, rp_dict):
+		if rp_dict["xref_id"] in be_ids:
+			be_ids[rp_dict["xref_id"]] = be_ids[rp_dict["xref_id"]]+1
+		else:
+			be_ids[rp_dict["xref_id"]] = 1
 
-
-	def to_rdf(self, graph):
-		""" process a JSON file to create a graph according to the OCC extended model"""
-		self.data = self.extract_intext_refs()
-		self.graph = graph
-		self.IDgraph = Graph()
-		self.DEgraph = Graph()
-		self.BRgraph = Graph()
-		self.BEgraph = Graph()
-		sent_and_id_graph = Graph()
-		rp_and_id_graph = Graph()
-		cited_doi_graph = Graph()
-
-		# br
-		# remove the graphset in parameter
-		# TODO : disambiguation of citing br on OC -- crea tutto comunque
-		# EXTEND https://github.com/opencitations/script/blob/master/spacin/resfinder.py, l. 153 onwards
-		# if not in OC
-		# crea il JSON come quello di Bee (reinventa la ruota -- e.g. http://opencitations.net/corpus)
-		# dai tutto in pasto a https://github.com/opencitations/script/blob/master/spacin/crossrefproc.py
-		# crp = CrossrefProcessor(base_iri, context_path, full_info_dir, json_object,
-                            #                         ResourceFinder(ts_url=triplestore_url, default_dir=default_dir),
-                            #                         ORCIDFinder(orcid_conf_path), items_per_file, supplier_prefix)
-                            # result = crp.process()
-        # ritorna un graphset da integrare
-		# add id (all of them?), type, title, part of, cites, publication date, embodied as XML, number?,
-		# edition, part (references?), contributor
-		# add pmid, pmcid?
-
-		citing_doi = [rp['article_doi'] for rp_group in self.data for rp in rp_group][0]
-		citing_br_graph = self.graph.add_br("md", source_agent=None, source=None, res=None)
-		citing_doi_graph = self.graph.add_id("md", source_agent=None, source=None, res=None)
-		citing_doi_graph.create_doi(citing_doi)
-		citing_br_graph.has_id(citing_doi_graph)
-		self.IDgraph += citing_doi_graph.g
-
-		# be
-		# TODO
-		# disambiguation of be/br on OC
-		# add referenced br, id of br -- distiguish doi from pmid. IN WHICH GRAPH?
-
-		# https://github.com/opencitations/script/blob/master/bee/epmcproc.py, l.170 linearizza la stringa della ref per la full-text search
-		set_be = { (rp['be_id'],rp['xref']) for rp_group in self.data for rp in rp_group }
-		for be_id,xref in set_be:
-			be_graph = self.graph.add_be("md", source_agent=None, source=None, res=None)
-			be_graph.create_content(xref)
-			self.BEgraph += be_graph.g
-
-		# de
-		# section
-		# TODO
-		# add next -- make a new method in graphlib!
-
-		set_sections_xpath = { (rp['section_xpath'],rp['containers_title']) for rp_group in self.data for rp in rp_group}
-		for section_element, containers_title in set_sections_xpath:
-			section_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
-			section_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
-			section_id.create_xpath(section_element)
-			section_graph.create_discourse_element(conf.elem_to_type(section_element))
-			section_graph.has_id(section_id)
-			if len(containers_title) != 0:
-				section_graph.create_title(containers_title)
-			citing_br_graph.contains_discourse_element(section_graph)
-			self.DEgraph += section_graph.g
-			self.IDgraph += section_id.g
-			self.BRgraph += citing_br_graph.g
-
-		# parent element
-		# TODO
-		# add next
-		set_parent_xpath = { (rp['rp_oc_parent_xpath'],rp['section_xpath']) for rp_group in self.data for rp in rp_group}
-		for parent_element,section_element in set_parent_xpath:
-			parent_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
-			parent_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
-			parent_id.create_xpath(parent_element)
-			if conf.elem_to_type(parent_element):
-				parent_graph.create_discourse_element(conf.elem_to_type(parent_element))
-			parent_graph.has_id(parent_id)
-			section_elem_id = conf.find_id(section_element,self.IDgraph)
-			section_elem_uri = conf.find_de(section_elem_id, self.DEgraph)
-			parent_graph.contained_in_discourse_element(section_elem_uri[0])
-			self.DEgraph += parent_graph.g
-			self.IDgraph += parent_id.g
-
-		# sentence
-		# TODO
-		# add next?
-		set_sentences_xpath = { (rp['context_xpath'],rp['rp_oc_parent_xpath']) for rp_group in self.data for rp in rp_group}
-		for sentence,parent_elem in set_sentences_xpath:
-			sentence_graph = self.graph.add_de("md", source_agent=None, source=None, res=None)
-			sentence_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
-			sentence_id.create_xpath(sentence)
-			if conf.table_tag in sentence: # the only case where we have a text chunk rather than a sentence
-				sentence_graph.create_text_chunk()
-			else:
-				sentence_graph.create_sentence()
-			sentence_graph.has_id(sentence_id)
-			sent_and_id_graph += sentence_graph.g + sentence_id.g
-			parent_elem_id = conf.find_id(parent_elem,self.IDgraph)
-			parent_elem_uri = conf.find_de(parent_elem_id, self.DEgraph)
-			sentence_graph.contained_in_discourse_element(parent_elem_uri[0])
-			self.DEgraph += sentence_graph.g
-			self.IDgraph += sentence_id.g
-
-		# rp_id_chunk
-		set_chunk_xpath = { rp['pl_xpath'] for rp_group in self.data for rp in rp_group}
-		for pl_xpath in set_chunk_xpath:
-			rp_id_chunk = self.graph.add_id("md", source_agent=None, source=None, res=None)
-			rp_id_chunk.create_xpath(pl_xpath)
-			self.IDgraph += rp_id_chunk.g
-
-		# rp
-		# TODO
-		# add next? only when in list?
-		# add denotes be
-		set_rp_xpath = { ((	rp['rp_xpath'],rp['pl_xpath'],\
-							rp['pl_string'],rp['context_xpath'],\
-							rp['xref'], len(rp_group))) for rp_group in self.data for rp in rp_group}
-		for rp_xpath,pl_xpath,rp_string,context_xpath,xref,len_rp in set_rp_xpath:
-			rp_graph = self.graph.add_rp("md", source_agent=None, source=None, res=None)
-			if rp_xpath != 'none': # intermediate rps in sequences do not have elem xpath, only chunk xpath
-				rp_id = self.graph.add_id("md", source_agent=None, source=None, res=None)
-				rp_id.create_xpath(rp_xpath)
-				self.IDgraph += rp_id.g
-				rp_graph.has_id(rp_id)
-			rp_chunk_id_uri = conf.find_id(pl_xpath,self.IDgraph)  # link rp to chunk_xpath
-			rp_graph.has_id(rp_chunk_id_uri)
-			rp_graph.create_content(rp_string)
-			if len_rp == 1 :
-				rp_sentence_id_uri = conf.find_id(context_xpath,self.IDgraph)
-				rp_sentence = conf.find_de(rp_sentence_id_uri, sent_and_id_graph)
-				rp_graph.has_context(rp_sentence[0])
-				self.DEgraph += rp_graph.g
-			be_uri = conf.find_be(xref,self.BEgraph)
-			rp_graph.denotes(be_uri)
-			self.DEgraph += rp_graph.g
-			rp_and_id_graph += rp_graph.g
-
-		# pl
-		for rp_group in self.data:
-			if len(rp_group) > 1 :
-				pl_graph = self.graph.add_pl("md", source_agent=None, source=None, res=None)
-				# lists have the same id of its elements (i.e. the xpath of the text chunk)
-				pl_chunk_xpath = [rp['pl_xpath'] for rp in rp_group][0]
-				rp_chunk_id_uri = conf.find_id(pl_chunk_xpath,self.IDgraph)
-				rp_uris = conf.find_de(rp_chunk_id_uri,rp_and_id_graph)
-				for rp in rp_uris:
-					pl_graph.contains_element(rp)
-				pl_graph.has_id(rp_chunk_id_uri) # associate the id to the list
-				pl_context_xpath = [rp['context_xpath'] for rp in rp_group][0]
-				pl_sentence_id_uri = conf.find_id(pl_context_xpath,self.IDgraph)
-				pl_sentences = conf.find_de(pl_sentence_id_uri, sent_and_id_graph)
-				for pl_sentence in pl_sentences:
-					pl_graph.has_context(pl_sentence)
-				pl_value = [rp['pl_string'] for rp in rp_group][0]
-				pl_graph.create_content(pl_value)
-				self.DEgraph += pl_graph.g
-		# ADD all titles (not only for sections)
-		# citation for each rp
-		# citation annotation
-
-		# prepare a graphset?
-		# provenance
-		# storer to upload
+		occurrence = be_ids[rp_dict["xref_id"]]
+		return str(occurrence)

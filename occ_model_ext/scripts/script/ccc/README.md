@@ -13,10 +13,9 @@
 * JSON-LD to be converted in ntriples
 
 ## TODO
- * method for associating titles to sections and not only  
- * annotation / citation .. annotations have incremental numbers!
- * ci modify support find_paths() for ci
+ * REVIEW WITH SP whether the structure of folders is correct
  * hasNext in graphlib and add in script
+ * merge with fabio's graphlib : prov, labels, other boolean values here and there
 
 ### other
 
@@ -51,6 +50,9 @@
  * associate classes to DE and discard the elements that are not mapped to OCDM
  * remove prov folder pa.txt
  * refactor the URI patter for all the entities that need the prefix
+ * method for associating titles to sections and not only  
+ * annotation / citation .. annotations have incremental numbers!
+ * ci modify support find_paths() for ci
 
 ## PLAN
 

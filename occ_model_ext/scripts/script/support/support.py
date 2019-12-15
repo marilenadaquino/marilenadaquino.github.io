@@ -225,6 +225,9 @@ def get_data(max_iteration, sec_to_wait, get_url, headers, timeout, repok, reper
 def is_dataset(string_iri):
     return re.search("^.+/[0-9]+$", string_iri) is None
 
+def is_citation(string_iri):
+    return re.search("^.+/[0-9]+-[0-9]+$", string_iri) is None
+
 
 def has_bib_entity_number(subj):
     return re.search("/\d+", str(subj)) is not None
@@ -232,17 +235,24 @@ def has_bib_entity_number(subj):
 
 # Variable used in several functions
 res_regex = "(.+)/(0[1-9]+0)?([1-9][0-9]*)$"
+ci_regex = "(.+)/(0[1-9]+0)?([1-9][0-9]*)-(0[1-9]+0)?([1-9][0-9]*)(/[1-9][0-9]*)?$"
 prov_regex = "(.+)/(0[1-9]+0)?([1-9][0-9]*)(/prov)/(.+)/([0-9]+)$"
+ci_prov_regex = "(.+)/(0[1-9]+0)?([1-9][0-9]*)-(0[1-9]+0)?([1-9][0-9]*)(/[1-9][0-9]*)?(/prov)/(.+)/([0-9]+)$"
 
 
 def get_resource_number(string_iri):
     cur_number = 0
-
     if "/prov/" in string_iri:
         if "/pa/" not in string_iri:
-            cur_number = int(re.sub(prov_regex, "\\3", string_iri))
+            if "/ci/" not in string_iri:
+                cur_number = int(re.sub(prov_regex, "\\3", string_iri))
+            else:
+                cur_number = int(re.sub(ci_prov_regex, "\\3", string_iri))
     else:
-        cur_number = int(re.sub(res_regex, "\\3", string_iri))
+        if "/ci/" in string_iri:
+            cur_number = int(re.sub(ci_regex, "\\3", string_iri))
+        else:
+            cur_number = int(re.sub(res_regex, "\\3", string_iri))
 
     return cur_number
 
@@ -270,7 +280,7 @@ def find_paths(string_iri, base_dir, base_iri, default_dir, dir_split, n_file_it
     """
     cur_file_path = None
 
-    if is_dataset(string_iri):
+    if is_dataset(string_iri) or is_citation(string_iri):
         cur_dir_path = (base_dir + re.sub("^%s(.*)$" % base_iri, "\\1", string_iri))[:-1]
         # In case of dataset, the file path is different from regular files, e.g.
         # /corpus/br/index.json
@@ -298,47 +308,90 @@ def find_paths(string_iri, base_dir, base_iri, default_dir, dir_split, n_file_it
                     break
 
             if "/prov/" in string_iri:  # provenance file of a bibliographic entity
-                cur_dir_path = base_dir + \
-                               re.sub(("^%s" + prov_regex) % base_iri,
-                                      ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
-                                       "\\1%s%s" % (os.sep, default_dir)), string_iri) + \
-                               os.sep + str(cur_split) + os.sep + str(cur_file_split) + os.sep + "prov"
-                # In case of provenance, the file path is different from regular files, e.g.
-                # /corpus/br/10000/1000/prov/se.json
-                cur_file_path = cur_dir_path + os.sep + re.sub(
-                    ("^%s" + prov_regex) % base_iri, "\\5", string_iri) + ".json"
+                if "/ci/" not in string_iri:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + prov_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)), string_iri) + \
+                                   os.sep + str(cur_split) + os.sep + str(cur_file_split) + os.sep + "prov"
+                    # In case of provenance, the file path is different from regular files, e.g.
+                    # /corpus/br/10000/1000/prov/se.json
+                    cur_file_path = cur_dir_path + os.sep + re.sub(
+                        ("^%s" + prov_regex) % base_iri, "\\5", string_iri) + ".json"
+                else:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + ci_prov_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)), string_iri) + \
+                                   os.sep + str(cur_split) + os.sep + str(cur_file_split) + os.sep + "prov"
+                    # In case of provenance, the file path is different from regular files, e.g.
+                    # /corpus/br/10000/1000/prov/se.json
+                    cur_file_path = cur_dir_path + os.sep + re.sub(
+                        ("^%s" + ci_prov_regex) % base_iri, "\\7", string_iri) + ".json"
             else:  # regular bibliographic entity
-                cur_dir_path = base_dir + \
-                               re.sub(("^%s" + res_regex) % base_iri,
-                                      ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
-                                       "\\1%s%s" % (os.sep, default_dir)),
-                                      string_iri) + \
-                               os.sep + str(cur_split)
+                if "/ci/" not in string_iri:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + res_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)),
+                                          string_iri) + \
+                                   os.sep + str(cur_split)
 
-                cur_file_path = cur_dir_path + os.sep + str(cur_file_split) + ".json"
+                    cur_file_path = cur_dir_path + os.sep + str(cur_file_split) + ".json"
+                else:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + ci_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)),
+                                          string_iri) + \
+                                   os.sep + str(cur_split)
+
+                    cur_file_path = cur_dir_path + os.sep + str(cur_file_split) + ".json"
         # Enter here if no split is needed
         elif dir_split == 0:
             if "/prov/" in string_iri:
-                cur_dir_path = base_dir + \
-                               re.sub(("^%s" + prov_regex) % base_iri,
-                                      ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
-                                       "\\1%s%s" % (os.sep, default_dir)), string_iri) + \
-                               os.sep + str(cur_file_split) + os.sep + "prov"
-                cur_file_path = cur_dir_path + os.sep + re.sub(
-                    ("^%s" + prov_regex) % base_iri, "\\5", string_iri) + ".json"
+                if "/ci/" not in string_iri:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + prov_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)), string_iri) + \
+                                   os.sep + str(cur_file_split) + os.sep + "prov"
+                    cur_file_path = cur_dir_path + os.sep + re.sub(
+                        ("^%s" + prov_regex) % base_iri, "\\5", string_iri) + ".json"
+                else:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + ci_prov_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)), string_iri) + \
+                                   os.sep + str(cur_file_split) + os.sep + "prov"
+                    cur_file_path = cur_dir_path + os.sep + re.sub(
+                        ("^%s" + ci_prov_regex) % base_iri, "\\5", string_iri) + ".json"
             else:
-                cur_dir_path = base_dir + \
-                               re.sub(("^%s" + res_regex) % base_iri,
-                                      ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
-                                       "\\1%s%s" % (os.sep, default_dir)),
-                                      string_iri)
+                if "/ci/" not in string_iri:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + res_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)),
+                                          string_iri)
 
-                cur_file_path = cur_dir_path + os.sep + str(cur_file_split) + ".json"
+                    cur_file_path = cur_dir_path + os.sep + str(cur_file_split) + ".json"
+                else:
+                    cur_dir_path = base_dir + \
+                                   re.sub(("^%s" + ci_regex) % base_iri,
+                                          ("\\1%s\\2" % os.sep if has_supplier_prefix(string_iri, base_iri) else
+                                           "\\1%s%s" % (os.sep, default_dir)),
+                                          string_iri)
+
+                    cur_file_path = cur_dir_path + os.sep + str(cur_file_split) + ".json"
         # Enter here if the data is about a provenance agent, e.g.,
         # /corpus/prov/
         else:
-            cur_dir_path = base_dir + re.sub(("^%s" + res_regex) % base_iri, "\\1", string_iri)
-            cur_file_path = cur_dir_path + os.sep + re.sub(res_regex, "\\2\\3", string_iri) + ".json"
+            if "/ci/" not in string_iri:
+                cur_dir_path = base_dir + re.sub(("^%s" + res_regex) % base_iri, "\\1", string_iri)
+                cur_file_path = cur_dir_path + os.sep + re.sub(res_regex, "\\2\\3", string_iri) + ".json"
+            else:
+                cur_dir_path = base_dir + re.sub(("^%s" + ci_res_regex) % base_iri, "\\1", string_iri)
+                cur_file_path = cur_dir_path + os.sep + re.sub(ci_regex, "\\2\\3", string_iri) + ".json"
 
     return cur_dir_path, cur_file_path
 

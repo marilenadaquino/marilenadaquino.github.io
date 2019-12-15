@@ -37,19 +37,28 @@
 						<ul>
 							<li>Added the method <code>__add_xmlid</code> in <code>crossrefproc</code> to add the identifier <code>@xmlid</code> to all the <code>be</code>
 								(that will be used as hook to retrieve all the <code>rp</code> that denote that entry)</li>
-							<li>solved pending issues w/ provenance</li>
-							<li>added methods for processing and representing the hierarchy of rp / pl / de / br </li>
-							<li>working on associating titles to discourse elements (de). I believe this is information should be better recorded in the BEE final JSON.
-								Unfortunately not only <code>sec</code> elements can have titles
+							<li>solved pending issues w/ <strong>provenance</strong> </li>
+							<li>added methods for processing and representing the <strong>hierarchy of rp / pl / de / br</strong> </li>
+							<li><strong>associated titles to discourse elements (de)</strong>. I believe this information should be better recorded in the BEE final JSON (currently a list of titles with no reference to which element they refer to).
+								Unfortunately, not only <code>sec</code> elements can have titles
 								(see <a href="https://jats.nlm.nih.gov/publishing/tag-library/1.2/element/title.html">Jats doc</a>),
-								and there is no clear mechanisms to understand which element may have or not a title. Hence I modified the output of BEE like follows:
+								and there is no clear mechanism to understand which element may have a title or not. Hence I modified the output of BEE like follows:
 <pre><code>
 	"containers_title": {
 			"/article/body/sec[1]/title": "Introduction"
 	}
 </code></pre>
-								so that I'm able to crrectly associate elements and titles, avoiding (pointless?) mismatches.
+								so that I'm able to correctly associate elements and titles, avoiding (pointless?) mismatches.
 							</li>
+							<li>created the <strong>links between rp and denoted be</strong>.</li>
+							<li>created <strong>annotations</strong> linking citations, rp, and be.</li>
+							<li><strong>citations</strong>: ATM I created a new method called <code>_add_ci</code> that skips the counter for incrementing the number
+							of created entities in the graph - so that we can use the pattern <code>citing-cited/rp_occurrence_num</code>.
+						The method was supposed to work even if there are no information on rp denoting the be (and create citation entities like <code>citing-cited</code>).
+						However, I can't make it work without passing the information about the occurrence of the rp.
+						That is, at the moment I create and individual of <code>cito:Citation</code> and an individual of <code>oa:Annotation</code>
+				<strong>only if</strong> there is at least one rp denoting the be. In general, it should not be a problem, since the situation that is not covered can be easily covered
+			with virtual citations, or anyway there is the direct link <strong>cites</strong> between citing/cited entities</li>
 						</ul>
 					</div>
 				</section>

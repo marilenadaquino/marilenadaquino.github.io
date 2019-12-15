@@ -358,7 +358,7 @@ class GraphEntity(object):
     def create_xmlid(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xmlid)
 
-    def denotes(self, be_res):
+    def denotes_be(self, be_res):
         self.g.add((self.res, GraphEntity.denotes, URIRef(str(be_res))))
 
     def has_id(self, id_res):
@@ -396,6 +396,7 @@ class GraphEntity(object):
 
     def has_context(self, de_res):
         self.g.add((URIRef(str(de_res)), GraphEntity.is_context_of, self.res))
+
     # /END Composite Attributes
 
     # /START Protected Methods
@@ -416,6 +417,16 @@ class GraphEntity(object):
 
     def _create_type(self, res_type):
         create_type(self.g, self.res, res_type)
+
+    # new
+    def _create_annotation(self, be_res, rp_res, ci_res):
+        self.g.add(( URIRef(str(be_res)), GraphEntity.has_annotation, self.res))
+        self.g.add(( URIRef(str(rp_res)), GraphEntity.has_annotation, self.res))
+        self.g.add(( self.res, GraphEntity.has_body, URIRef(str(ci_res))))
+
+    def _create_citation(self, citing_res, cited_res):
+        self.g.add(( self.res, GraphEntity.has_citing_entity, URIRef(str(citing_res)) ))
+        self.g.add(( self.res, GraphEntity.has_cited_entity, URIRef(str(cited_res)) ))
     # /END Private Methods
 
 
@@ -471,7 +482,7 @@ class GraphSet(object):
         self.ar_info_path = info_dir + "ar.txt"
         self.be_info_path = info_dir + "be.txt"
         self.br_info_path = info_dir + "br.txt"
-        self.ci_info_path = info_dir + "ci.txt" # new
+        self.ci_info_path = info_dir + "ci.txt" # new not really used
         self.de_info_path = info_dir + "de.txt" # new
         self.id_info_path = info_dir + "id.txt"
         self.pl_info_path = info_dir + "pl.txt" # new
@@ -509,8 +520,8 @@ class GraphSet(object):
         return self._add(self.g_br, GraphEntity.expression, res, resp_agent,
                         source_agent, source, self.br_info_path, "br")
 
-    def add_ci(self, resp_agent, source_agent=None, source=None, res=None): # new
-        return self._add(self.g_ci, GraphEntity.citation, res, resp_agent,
+    def add_ci(self, resp_agent, citing_res, cited_res, rp_num, source_agent=None, source=None, res=None): # new
+        return self._add_ci(self.g_ci, GraphEntity.citation, citing_res, cited_res, rp_num, res, resp_agent,
                         source_agent, source, self.ci_info_path, "ci")
 
     def add_de(self, resp_agent, source_agent=None, source=None, res=None): # new
@@ -536,6 +547,33 @@ class GraphSet(object):
     def add_re(self, resp_agent, source_agent=None, source=None, res=None):
         return self._add(self.g_re, GraphEntity.manifestation, res, resp_agent,
             source_agent, source, self.re_info_path, "re")
+
+    # new
+    def _add_ci(self, graph_url, main_type, citing_res, cited_res, rp_num, res, resp_agent, source_agent,
+             source, info_file_path, short_name, list_of_entities=[]):
+        cur_g = Graph(identifier=graph_url)
+        self._set_ns(cur_g)
+        self.g += [cur_g]
+
+        if res is not None:
+            return self._generate_entity(cur_g, res=res, resp_agent=resp_agent,
+                                         source_agent=source_agent, source=source,
+                                         list_of_entities=list_of_entities)
+
+        else:
+            citing_res , cited_res = str(citing_res) , str(cited_res)
+            citing_count = citing_res.rsplit('/',1)[-1]
+            cited_count = cited_res.rsplit('/',1)[-1]
+            if rp_num is not None:
+                print("######## rp_num",rp_num)
+                count = citing_count+'-'+cited_count+'/'+rp_num
+            else:
+                count = citing_count+'-'+cited_count
+
+        return self._generate_entity(
+                cur_g, res_type=main_type, resp_agent=resp_agent, source_agent=source_agent,
+                source=source, count=count, label=None, short_name=short_name,
+                list_of_entities=list_of_entities)
 
     def _add(self, graph_url, main_type, res, resp_agent, source_agent,
              source, info_file_path, short_name, list_of_entities=[]):
@@ -563,17 +601,17 @@ class GraphSet(object):
             if list_of_entities:
                 count = str(GraphSet._add_number(
                     info_file_path, find_local_line_id(list_of_entities[0], self.n_file_item)))
-                related_to_label += " related to"
-                related_to_short_label += " ->"
-                for idx, cur_entity in enumerate(list_of_entities):
-                    if idx > 0:
-                        related_to_label += ","
-                        related_to_short_label += ","
-                    cur_short_name = get_short_name(cur_entity)
-                    cur_entity_count = get_count(cur_entity)
-                    cur_entity_prefix = get_prefix(cur_entity)
-                    related_to_label += " %s %s%s" % (self.labels[cur_short_name], cur_entity_prefix, cur_entity_count)
-                    related_to_short_label += " %s/%s%s" % (cur_short_name, cur_entity_prefix, cur_entity_count)
+                # related_to_label += " related to"
+                # related_to_short_label += " ->"
+                # for idx, cur_entity in enumerate(list_of_entities):
+                #     if idx > 0:
+                #         related_to_label += ","
+                #         related_to_short_label += ","
+                #     cur_short_name = get_short_name(cur_entity)
+                #     cur_entity_count = get_count(cur_entity)
+                #     cur_entity_prefix = get_prefix(cur_entity)
+                #     related_to_label += " %s %s%s" % (self.labels[cur_short_name], cur_entity_prefix, cur_entity_count)
+                #     related_to_short_label += " %s/%s%s" % (cur_short_name, cur_entity_prefix, cur_entity_count)
             else:
                 count = self.supplier_prefix + str(GraphSet._add_number(info_file_path))
 
