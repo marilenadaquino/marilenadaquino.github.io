@@ -298,19 +298,27 @@ class Jats2OC(object):
 	@staticmethod
 	def process_reference_pointers(citing_entity, cited_entities_xmlid_be, reference_pointer_list, graph, resp_agent=None, source_provider=None, source=None):
 		""" process a JSON snippet including reference pointers
-		return RDF entities for rp, pl, and de according to OCDM """
+		return RDF entities for rp, pl, and de, according to OCDM """
 		de_resources , be_ids = [] , {}
 		for pl_entry in reference_pointer_list:
 			if len(pl_entry) > 1:
+				rp_entities_list =[]
 				cur_pl = Jats2OC.process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent, source_provider, source)
 				for rp_dict in pl_entry:
 					rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, rp_dict)
 					rp_entity = Jats2OC.process_pointer(rp_dict, rp_num, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source, in_list=True)
 					cur_pl.contains_element(rp_entity)
-					# TODO create hasNext
+					rp_entities_list.append(rp_entity)
+				for pos, sibling in enumerate(rp_entities_list):
+					if pos < len(rp_entities_list)-1 and sibling != rp_entities_list[pos+1]:
+						cur_rp, next_rp = rp_entities_list[pos] , rp_entities_list[pos+1]
+						cur_rp.has_next_de(next_rp)
+
 			else:
 				rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, pl_entry[0])
 				rp_entity = Jats2OC.process_pointer(pl_entry[0], rp_num, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source)
+
+		siblings = Jats2OC.create_following_sibling(reference_pointer_list, de_resources)
 
 
 	@staticmethod
@@ -325,6 +333,7 @@ class Jats2OC(object):
 		if "context_xpath" in pl_entry[0]:
 			context = Jats2OC.create_context(graph, citing_entity, cur_pl, pl_entry[0]["context_xpath"], de_resources, containers_title, resp_agent)
 		return cur_pl
+		# TODO has next in list!
 
 
 	@staticmethod
@@ -378,12 +387,12 @@ class Jats2OC(object):
 			de_xpath = Jats2OC.add_xpath(graph, de_res, xpath_string, resp_agent, source_provider, source)
 			if xpath_string+'/title' in containers_title:
 				de_res.create_title(containers_title[xpath_string+'/title'])
-			# TODO create hasNext
 			hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, de_res, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
 		else:
 			de_res = cur_de[0]
 
 		return de_res
+
 
 	@staticmethod
 	def create_hierarchy(graph, citing_entity, de_res, xpath_string, de_resources, containers_title, resp_agent=None, source_provider=None, source=None):
@@ -394,7 +403,7 @@ class Jats2OC(object):
 				hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, cur_el, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
 				if '/' not in xpath_string.split("/article/body/",1)[1] :
 					citing_entity.contains_discourse_element(cur_el)
-	# TODO method for has next
+
 
 	@staticmethod
 	def retrieve_rp_occurrence(be_ids, rp_dict):
@@ -405,3 +414,36 @@ class Jats2OC(object):
 
 		occurrence = be_ids[rp_dict["xref_id"]]
 		return str(occurrence)
+
+
+	@staticmethod
+	def create_following_sibling(reference_pointer_list, de_resources):
+		list_xpaths = [conf.get_subxpath_from(rp["context_xpath"]).replace("/article/body","") for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
+		list_subpaths = [ Jats2OC.recursive_split(xpath) for xpath in list_xpaths ]
+		print("list_subpaths",list_subpaths)
+		list_siblings = zip(*list_subpaths)
+		print("list_siblings",list_siblings)
+		for siblings_tuple in list_siblings:
+			print("siblings_tuple",siblings_tuple)
+			for pos, sibling in enumerate(siblings_tuple):
+				if pos < len(siblings_tuple)-1 and sibling != siblings_tuple[pos+1]:
+					cur_de, next_de = Jats2OC.map_to_de(siblings_tuple[pos], de_resources) , Jats2OC.map_to_de(siblings_tuple[pos+1], de_resources)
+					if cur_de != None and next_de != None:
+						cur_de.has_next_de(next_de)
+
+
+	@staticmethod
+	def map_to_de(xpath,de_resources):
+		cur_de = [de_uri for de_path, de_uri in de_resources if '/article/body'+xpath == de_path]
+		if len(cur_de) == 0:
+			return None
+		return cur_de[0]
+
+	@staticmethod
+	def recursive_split(xpath, list_subpath=None):
+		if list_subpath is None:
+			list_subpath = []
+		if xpath != '/' and xpath != '':
+			list_subpath.append(xpath)
+			Jats2OC.recursive_split(conf.get_subxpath_from(xpath), list_subpath)
+		return list(reversed(list_subpath))

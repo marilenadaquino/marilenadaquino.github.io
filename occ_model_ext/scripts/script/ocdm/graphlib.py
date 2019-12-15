@@ -394,6 +394,9 @@ class GraphEntity(object):
     def follows(self, ar_res):
         ar_res.g.add((URIRef(str(ar_res)), GraphEntity.has_next, self.res))
 
+    def has_next_de(self, de_res): # new
+        self.g.add((self.res, GraphEntity.has_next, URIRef(str(de_res))))
+
     def has_context(self, de_res):
         self.g.add((URIRef(str(de_res)), GraphEntity.is_context_of, self.res))
 
@@ -565,7 +568,6 @@ class GraphSet(object):
             citing_count = citing_res.rsplit('/',1)[-1]
             cited_count = cited_res.rsplit('/',1)[-1]
             if rp_num is not None:
-                print("######## rp_num",rp_num)
                 count = citing_count+'-'+cited_count+'/'+rp_num
             else:
                 count = citing_count+'-'+cited_count

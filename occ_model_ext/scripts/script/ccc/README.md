@@ -1,8 +1,5 @@
 ## QUESTIONS
- * should I look in the triplestore for disambiguating pl/rp? NO
- * xpaths are identifier that can be shared. Should I create a new identifier everytime or just one for all the xpath with the same XPath? YES
- * who has hasNext? rp in pl, de at same level
- * the hierarchy of de is for both pl and rp or just for pl when it exists? and sentence? only pl when is pl, otherwise rp
+
 
 
 ## NOTES
@@ -10,21 +7,27 @@
 * URI of the new corpus = https://w3id.org/oc/ccc/
 * prefix of ccc 070
 * NOTE FOR Silvio: provided_url to be changed
-* JSON-LD to be converted in ntriples
+
+* should I look in the triplestore for disambiguating pl/rp? NO
+* xpaths are identifier that can be shared. I create a new identifier everytime (YES)
+* who has hasNext? rp in pl, de at same level
+* the hierarchy of de is for both pl and rp or just for pl when it exists? and sentence? only pl when is pl, otherwise rp
 
 ## TODO
- * REVIEW WITH SP whether the structure of folders is correct
- * hasNext in graphlib and add in script
+
+
+ * JSON-LD to be converted in ntriples
+ * REVIEW WITH SP whether the structure of folders is correct: IMHO there are too many..
  * merge with fabio's graphlib : prov, labels, other boolean values here and there
 
-### other
+### Christmas homework
 
- * graphlib - add methods for annotations (hasBody and hasAnnotation) and control prefixes everywhere
  * jats2oc.py - remove n_rp
  * jats2oc.py - check mistakes in pl_string bee
  * jats2oc.py - refactor extract_intext_refs() in functions
  * jats2oc.py - run BEE
- * graphlib - trick for json labels (part of/reference)
+ * [HOW?] Test precision of BEE and consistency of results in spacin
+ * [HOW?] graphlib - trick for json labels (part of/reference)
  * config_spacin and ocdm/config - change folder names for production
 
 
@@ -53,6 +56,8 @@
  * method for associating titles to sections and not only  
  * annotation / citation .. annotations have incremental numbers!
  * ci modify support find_paths() for ci
+ * graphlib - add methods for annotations (hasBody and hasAnnotation) and control prefixes everywhere
+ * hasNext in graphlib and add in script
 
 ## PLAN
 
