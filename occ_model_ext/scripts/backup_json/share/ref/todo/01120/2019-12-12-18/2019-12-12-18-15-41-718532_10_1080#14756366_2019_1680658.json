@@ -1,0 +1,562 @@
+{
+    "references": [
+        {
+            "bibentry": "Ferrero, LM, Nielsen, OH, Andersen, PS, et al. Chronic inflammation: importance of NOD2 and NALP3 in interleukin-1beta generation. Clin Exp Immunol 2007; 147: 227–35. PMID: 17223962",
+            "process_entry": "True",
+            "doi": "10.1111/j.1365-2249.2006.03261.x",
+            "pmid": "17223962",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Sun, L-D, Wang, F, Dai, F, et al. Development and mechanism investigation of a new piperlongumine derivative as a potent anti-inflammatory agent. Biochem Pharmacol 2015; 95: 156–69. PMID: 25850000",
+            "process_entry": "True",
+            "doi": "10.1016/j.bcp.2015.03.014",
+            "pmid": "25850000",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Duque, AG, Descoteaux, A. Macrophage cytokines: involvement in immunity and infectious diseases. Front Immunol 2014; 5: 491. PMID: 25339958",
+            "process_entry": "True",
+            "doi": "10.3389/fimmu.2014.00491",
+            "pmid": "25339958",
+            "pmcid": "PMC4188125",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Bremner, P, Heinrich, M. Natural products as targeted modulators of the nuclear factor-κB pathway. J Pharm Pharmacol 2002; 54: 453–72. PMID: 11999122",
+            "process_entry": "True",
+            "doi": "10.1211/0022357021778637",
+            "pmid": "11999122",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Grivennikov, SI, Greten, FR, Karin, M. Immunity, inflammation, and cancer. Cell 2010; 140: 883–99. PMID: 20303878",
+            "process_entry": "True",
+            "doi": "10.1016/j.cell.2010.01.025",
+            "pmid": "20303878",
+            "pmcid": "PMC2866629",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Kumar, RS, Antonisamy, P, Almansour, AI, et al. Functionalized spirooxindole-indolizine hybrids: stereoselective green synthesis and evaluation of anti-inflammatory effect involving TNF-α and nitrite inhibition. Eur J Med Chem 2018; 152: 417–23. PMID: 29751235",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.04.060",
+            "pmid": "29751235",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Wang, W, Wang, YL, Chen, XX, et al. Synthesis of new ent-labdane diterpene derivatives from andrographolide and evaluation of their anti-inflammatory activities. Eur J Med Chem 2019; 162: 70–9. PMID: 30419492",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2018.11.002",
+            "pmid": "30419492",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Xie, CF, Li, XT, Zhu, ZY, et al. Magnesium isoglycyrrhi-zinate suppresses LPS-induced inflammation and oxidative stress through inhibit-ing NF-κB and MAPKpathways in RAW264.7 cells. Bioorg Med Chem 2019; 27: 516–24. PMID: 30617018",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmc.2018.12.033",
+            "pmid": "30617018",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Ye, J, Ye, CQ, Huang, YY, et al. Ginkgo biloba sarcotesta polysaccharide inhibits inflammatory responses through suppressing both NF-κB and MAPK signaling pathway. J Sci Food Agric 2019; 99: 2329–39. PMID: 30338529",
+            "process_entry": "True",
+            "doi": "10.1002/jsfa.9431",
+            "pmid": "30338529",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Chen, LZ, Sun, WW, Bo, L, et al. New arylpyrazoline-coumarins: synthesis and anti-inflammatory activity. Eur J Med Chem 2017; 138: 170–81. PMID: 28667873",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2017.06.044",
+            "pmid": "28667873",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Somakala, K, Amir, M. Synthesis, characterization and pharmacological evaluation of pyrazolyl urea derivatives as potential anti-inflammatory agents. Acta Pharm Sin B 2017; 7: 230–40. PMID: 28303231",
+            "process_entry": "True",
+            "doi": "10.1016/j.apsb.2016.08.006",
+            "pmid": "28303231",
+            "pmcid": "PMC5343109",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Liu, SY, Xu, P, Luo, XL, et al. (7 R, 8 S)-dehydrodiconiferyl alcohol suppresses lipopolysaccharide-induced inflammatory responses in BV2 microglia by inhibiting MAPK signaling. Neurochem Res 2016; 41: 1570–7. PMID: 26961887",
+            "process_entry": "True",
+            "doi": "10.1007/s11064-016-1870-8",
+            "pmid": "26961887",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Tang, ML, Zhong, C, Liu, ZY, et al. Discovery of novel sesquistilbene indanone analogues as potent antiinflammatory agents. Eur J Med Chem 2016; 113: 63–74. PMID: 26922229",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2016.02.021",
+            "pmid": "26922229",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Pearson, G, Robinson, F, Gibson, TB, et al. Mitogen-activated protein (MAP) kinase pathways: regulation and physiological functions. Endocr Rev 2001; 22: 153–83. PMID: 11294822",
+            "process_entry": "True",
+            "doi": "10.1210/edrv.22.2.0428",
+            "pmid": "11294822",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Pan, FJ, Wang, SB, Liu, DA, et al. Synthesis of 4-phenylthieno[2,3-e][1,2,4]triazolo[4,3-a]pyrimidine-5(4 H)-one derivatives and evaluation of their anti-inflammatory activity. Lett Drug Des Discov 2015; 13: 141–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Sun, XY, Wei, CX, Chai, KY, et al. Synthesis and anti-inflammatory activity evaluation of novel 7-alkoxy-1-amino-4,5-dihydro[1,2,4]triazole[4,3-a]quinolines. Arch Pharm Chem Life Sci 2008; 341: 288–93.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Sun, XY, Hu, C, Deng, XQ, et al. Synthesis and anti-inflammatory activity evaluation of some novel 6-alkoxy (phenoxy)-[1,2,4]triazolo[3,4-a]phthalazine-3-amine derivatives. Eur J Med Chem 2010; 45: 4807–12. PMID: 20813431",
+            "process_entry": "True",
+            "doi": "10.1016/j.ejmech.2010.07.049",
+            "pmid": "20813431",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Liu, DC, Gong, GH, Wei, CX, et al. Synthesis and anti-inflammatory activity evaluation of a novel series of 6-phenoxy-[1,2,4]triazolo[3,4-a]phthalazine-3-carboxamide derivatives. Bioorg Med Chem Lett 2016; 26: 1576–9. PMID: 26876930",
+            "process_entry": "True",
+            "doi": "10.1016/j.bmcl.2016.02.008",
+            "pmid": "26876930",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Bös, M, Jenck, F, Martin, JR, et al. Novel agonists of 5HT2C receptors. Synthesis and biological evaluation of substituted 2-(Indol-1-yl)-1-methylethylamines and 2-(Indeno[1,2-b]pyrrol-1-yl)-1-methylethylamines. Improved therapeutics for obsessive compulsive disorder. J Med Chem 1997; 40: 2762–9. PMID: 9276022",
+            "process_entry": "True",
+            "doi": "10.1021/jm970030l",
+            "pmid": "9276022",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Wang, LM, Liu, JJ, Tian, H, Qian, CT. Ytterbium triflate-catalyzed heterocyclization of 1,2-phenylenediamines and alkyl oxalates under solvent-free conditions via Phillips reaction: a facile synthesis of quinoxaline-2,3-diones derivatives. Synthetic Commun 2004; 34: 1349–57.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Pulin, N, Shreedhar, D. Antimicrobial studies of Co (II), Ni (II), Cu (II) and Zn (II) complexes derived from Schiff bases of 3-formyl quinoline and 3-hydrazinoquinoxalin-2(1 H) one. Rasayan J Chem 2012; 5: 234–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Yeom, M, Kim, JH, Min, JH, et al. Xanthii fructus inhibits inflammatory responses in LPS-stimulated RAW 264.7 macrophages through suppressing NF-κB and JNK/p38 MAPK. J Ethnopharmacol 2015; 176: 394–401. PMID: 26560439",
+            "process_entry": "True",
+            "doi": "10.1016/j.jep.2015.11.020",
+            "pmid": "26560439",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Aktan, F. iNOS-mediated nitric oxide production and its regulation. Life Sci 2004; 75: 639–53. PMID: 15172174",
+            "process_entry": "True",
+            "doi": "10.1016/j.lfs.2003.10.042",
+            "pmid": "15172174",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Li, B, Yang, YA, Chen, IZ, et al. 18 a-Glycyrrhetinic acid monoglucuronide as an anti-inflammatory agent through suppression of the NF-κB and MAPK signaling pathway. Med Chem Commun 2017; 8: 1498–504.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Sogo, T, Terahara, N, Hisanaga, A, et al. Anti-inflammatory activity and molecular mechanism of delphinidin 3-sambubioside, a Hibiscus anthocyanin. Biofactors 2015; 41: 58–65. PMID: 25728636",
+            "process_entry": "True",
+            "doi": "10.1002/biof.1201",
+            "pmid": "25728636",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Tageldin, GN, Fahmy, SW, Ashour, HM, et al. Design, synthesis and evaluation of some pyrazolo[3,4-d]pyrimidines as anti-inflammatory agents. Bioorg Chem 2018; 78: 358–71. PMID: 29627656",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2018.03.030",
+            "pmid": "29627656",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Murahari, M, Mahajan, V, Neeladri, S, et al. Ligand based design and synthesis of pyrazole based derivatives as selective COX-2 inhibitors. Bioorg Chem 2019; 86: 583–97. PMID: 30782576",
+            "process_entry": "True",
+            "doi": "10.1016/j.bioorg.2019.02.031",
+            "pmid": "30782576",
+            "xmlid": "CIT0027"
+        }
+    ],
+    "localid": "MED-31707866",
+    "doi": "10.1080/14756366.2019.1680658",
+    "pmid": "10.1080/14756366.2019.1680658",
+    "pmcid": "31707866",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31707866/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,92)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),94,233)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),94,233)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),328,154)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),328,154)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),583,125)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),583,125)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),116,169)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),286,132)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),552,357)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),552,357)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0012",
+                "rp_string": "12–14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),910,210)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0015",
+                "rp_string": "15–18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),1,164)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),166,178)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),345,153)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "In previous studies, we presented many different derivative series with significantanti-inflammatory activities in an in vivo xylene-induced ear-oedemamodel15–18.A series of 6-substituted-[1, 2, 4]triazolo[3,4-a]phthalazine-3-carboxamide derivatives(D) were found to be especially effective anti-inflammatory agents invitro and in vivo18. Among them, compounds A115, B116, C117, and D118 were shown to be the most active derivatives in each series, andtheir structures are shown in Figure 1. Structureanalysis of these derivatives revealed the following: (a) a tricyclic skeleton that containsa triazole ring; and (b) a triazole, 3-amino triazole, or 3-amido triazole that was assumedto be the main pharmacological moiety conferring the anti-inflammatory effect. In addition,functional group transitions and flipping are classic and effective strategies for therational optimisation of lead compounds19.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),345,153)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "In previous studies, we presented many different derivative series with significantanti-inflammatory activities in an in vivo xylene-induced ear-oedemamodel15–18.A series of 6-substituted-[1, 2, 4]triazolo[3,4-a]phthalazine-3-carboxamide derivatives(D) were found to be especially effective anti-inflammatory agents invitro and in vivo18. Among them, compounds A115, B116, C117, and D118 were shown to be the most active derivatives in each series, andtheir structures are shown in Figure 1. Structureanalysis of these derivatives revealed the following: (a) a tricyclic skeleton that containsa triazole ring; and (b) a triazole, 3-amino triazole, or 3-amido triazole that was assumedto be the main pharmacological moiety conferring the anti-inflammatory effect. In addition,functional group transitions and flipping are classic and effective strategies for therational optimisation of lead compounds19.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),345,153)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "In previous studies, we presented many different derivative series with significantanti-inflammatory activities in an in vivo xylene-induced ear-oedemamodel15–18.A series of 6-substituted-[1, 2, 4]triazolo[3,4-a]phthalazine-3-carboxamide derivatives(D) were found to be especially effective anti-inflammatory agents invitro and in vivo18. Among them, compounds A115, B116, C117, and D118 were shown to be the most active derivatives in each series, andtheir structures are shown in Figure 1. Structureanalysis of these derivatives revealed the following: (a) a tricyclic skeleton that containsa triazole ring; and (b) a triazole, 3-amino triazole, or 3-amido triazole that was assumedto be the main pharmacological moiety conferring the anti-inflammatory effect. In addition,functional group transitions and flipping are classic and effective strategies for therational optimisation of lead compounds19.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            },
+            {
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),345,153)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "In previous studies, we presented many different derivative series with significantanti-inflammatory activities in an in vivo xylene-induced ear-oedemamodel15–18.A series of 6-substituted-[1, 2, 4]triazolo[3,4-a]phthalazine-3-carboxamide derivatives(D) were found to be especially effective anti-inflammatory agents invitro and in vivo18. Among them, compounds A115, B116, C117, and D118 were shown to be the most active derivatives in each series, andtheir structures are shown in Figure 1. Structureanalysis of these derivatives revealed the following: (a) a tricyclic skeleton that containsa triazole ring; and (b) a triazole, 3-amino triazole, or 3-amido triazole that was assumedto be the main pharmacological moiety conferring the anti-inflammatory effect. In addition,functional group transitions and flipping are classic and effective strategies for therational optimisation of lead compounds19.",
+                "pl_xpath": "/article/body/sec[1]/p[3]"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[3]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[3]),773,142)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),263,281)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[1]/title": "Chemistry"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),545,224)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[1]/title": "Chemistry"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p),770,244)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[1]/title": "Chemistry"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[3]/sec[2]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[2]/p),1,190)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[2]/title": "Cytotoxicity of the target compounds 6a–6t"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),1,100)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[3]/title": "Inhibition of NO production in (LPS)-stimulated RAW264.7 cells and SAR\nstudies"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p[1]),102,107)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[3]/title": "Inhibition of NO production in (LPS)-stimulated RAW264.7 cells and SAR\nstudies"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),180,143)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[4]/title": "Compound 6p inhibited IL-6 and TNF-α production in RAW264.7\ncells"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),1,176)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[5]/title": "Compound 6p inhibited the expression of iNOS and COX-2"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,239)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[6]/title": "Compound 6p inhibited MAPK signalling activation"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,239)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[6]/title": "Compound 6p inhibited MAPK signalling activation"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),1,126)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[7]/title": "In vivo anti-inflammatory activity"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),1,126)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[7]/title": "In vivo anti-inflammatory activity"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[8]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[8]/p),1,293)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results and discussion",
+                    "/article/body/sec[3]/sec[8]/title": "Ulcerogenic effect"
+                }
+            }
+        ]
+    ]
+}

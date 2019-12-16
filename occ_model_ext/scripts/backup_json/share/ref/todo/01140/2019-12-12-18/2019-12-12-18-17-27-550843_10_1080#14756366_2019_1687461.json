@@ -1,0 +1,1085 @@
+{
+    "references": [
+        {
+            "bibentry": "Buhaescu, I, Izzedine, H. Mevalonate pathway: a review of clinical and therapeutical implications. Clin Biochem 2007; 40: 575–84. PMID: 17467679",
+            "process_entry": "True",
+            "doi": "10.1016/j.clinbiochem.2007.03.016",
+            "pmid": "17467679",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Friesen, JA, Rodwell, VW. The 3-hydroxy-3-methylglutaryl coenzyme-A (HMG-CoA) reductases. Genome Biol 2004; 5: 248. PMID: 15535874",
+            "process_entry": "True",
+            "doi": "10.1186/gb-2004-5-11-248",
+            "pmid": "15535874",
+            "pmcid": "PMC545772",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Burg, JS, Espenshade, PJ. Regulation of HMG-CoA reductase in mammals and yeast. Prog Lipid Res 2011; 50: 403–10. PMID: 21801748",
+            "process_entry": "True",
+            "doi": "10.1016/j.plipres.2011.07.002",
+            "pmid": "21801748",
+            "pmcid": "PMC3184313",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Istvan, ES. Structural mechanism for statin inhibition of 3-hydroxy-3-methylglutaryl coenzyme A reductase. Am Heart J 2002; 144: S27–S32. PMID: 12486413",
+            "process_entry": "True",
+            "doi": "10.1067/mhj.2002.130300",
+            "pmid": "12486413",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Golomb, BA, Evans, MA. Statin adverse effects. Am J Cardiovasc Drugs 2008; 8: 373–418. PMID: 19159124",
+            "process_entry": "True",
+            "doi": "10.2165/0129784-200808060-00004",
+            "pmid": "19159124",
+            "pmcid": "PMC2849981",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Tomaszewski, M, Stępień, KM, Tomaszewska, J, Czuczwar, SJ. Statin-induced myopathies. Pharmacol Rep 2011; 63: 859–66. PMID: 22001973",
+            "process_entry": "True",
+            "doi": "10.1016/s1734-1140(11)70601-6",
+            "pmid": "22001973",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "du Souich, P, Roederer, G, Dufour, R. Myotoxicity of statins: mechanism of action. Pharmacol Ther 2017; 175: 1–16. PMID: 28223230",
+            "process_entry": "True",
+            "doi": "10.1016/j.pharmthera.2017.02.029",
+            "pmid": "28223230",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Matsubara, A, Oda, S, Akai, S, et al. Establishment of a drug-induced rhabdomyolysis mouse model by co-administration of ciprofloxacin and atorvastatin. Toxicol Lett 2018; 291: 184–93. PMID: 29679711",
+            "process_entry": "True",
+            "doi": "10.1016/j.toxlet.2018.04.016",
+            "pmid": "29679711",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Knauer, MJ, Urquhart, BL, Meyer zu Schwabedissen, HE, et al. Human skeletal muscle drug transporters determine local exposure and toxicity of statins. Circ Res 2010; 106: 297–306. PMID: 19940267",
+            "process_entry": "True",
+            "doi": "10.1161/circresaha.109.203596",
+            "pmid": "19940267",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Tournadre, A. Statins, myalgia, and rhabdomyolysis. Joint Bone Spine 2019;1–6.",
+            "process_entry": "True",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Kaufmann, P, Török, M, Zahno, A, et al. Toxicity of statins on rat skeletal muscle mitochondria. Cell Mol Life Sci 2006; 63: 2415–25. PMID: 17013560",
+            "process_entry": "True",
+            "doi": "10.1007/s00018-006-6235-z",
+            "pmid": "17013560",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Apostolopoulou, M, Corsini, A, Roden, M. The role of mitochondria in statin‐induced myopathy. Eur J Clin Invest 2015; 45: 745–54. PMID: 25991405",
+            "process_entry": "True",
+            "doi": "10.1111/eci.12461",
+            "pmid": "25991405",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "Bolotin‐Fukuhara, M, Fairhead, C. Candida glabrata: a deadly companion? Yeast 2014; 31: 279–88. PMID: 24861573",
+            "process_entry": "True",
+            "doi": "10.1002/yea.3019",
+            "pmid": "24861573",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Lorenz, RT, Parks, LW. Effects of lovastatin (mevinolin) on sterol levels and on activity of azoles in Saccharomyces cerevisiae. Antimicrob Agents Chemother 1990; 34: 1660–5. PMID: 2285278",
+            "process_entry": "True",
+            "doi": "10.1128/aac.34.9.1660",
+            "pmid": "2285278",
+            "pmcid": "PMC171901",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Westermeyer, C, Macreadie, IG. Simvastatin reduces ergosterol levels, inhibits growth and causes loss of mtDNA in Candida glabrata. FEMS Yeast Res 2007; 7: 436–41. PMID: 17257373",
+            "process_entry": "True",
+            "doi": "10.1111/j.1567-1364.2006.00194.x",
+            "pmid": "17257373",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Barrientos, A. Yeast models of human mitochondrial diseases. IUBMB Life 2008; 55: 83–95.",
+            "process_entry": "True",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Rinaldi, T, Dallabona, C, Ferrero, I, et al. Mitochondrial diseases and the role of the yeast models. FEMS Yeast Res 2010; 10: 1006–22. PMID: 20946356",
+            "process_entry": "True",
+            "doi": "10.1111/j.1567-1364.2010.00685.x",
+            "pmid": "20946356",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Francisci, S, Montanari, A. Mitochondrial diseases: yeast as a model for the study of suppressors. Biochim Biophys Acta Mol Cell Res 2017; 1864: 666–73. PMID: 28089773",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbamcr.2017.01.008",
+            "pmid": "28089773",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "Cirigliano, A, Macone, A, Bianchi, MM, et al. Ergosterol reduction impairs mitochondrial DNA maintenance in S. cerevisiae. Biochim Biophys Acta Mol Cell Res 2019; 1864: 290–303.",
+            "process_entry": "True",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Ottaviano, D, Montanari, A, De Angelis, L, et al. Unsaturated fatty acids-dependent linkage between respiration and fermentation revealed by deletion of hypoxic regulatory KlMGA2 gene in the facultative anaerobe-respiratory yeast Kluyveromyces lactis. FEMS Yeast Res 2015; 15: fov028. PMID: 26019145",
+            "process_entry": "True",
+            "doi": "10.1093/femsyr/fov028",
+            "pmid": "26019145",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "De Luca, C, Zhou, Y, Montanari, A, et al. Can yeast be used to study mitochondrial diseases? Biolistic tRNA mutants for the analysis of mechanisms and suppressors. Mitochondrion 2009; 9: 408–17. PMID: 19631764",
+            "process_entry": "True",
+            "doi": "10.1016/j.mito.2009.07.004",
+            "pmid": "19631764",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "De Angelis, L, Rinaldi, T, Cirigliano, A, et al. Functional roles of the fatty acid desaturases encoded by KlOLE1, FAD2 and FAD3 in the yeast Kluyveromyces lactis. Microbiology 2016; 162: 1435–45. PMID: 27233577",
+            "process_entry": "True",
+            "doi": "10.1099/mic.0.000315",
+            "pmid": "27233577",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Kang, C, Goodman, CA, Hornberger, TA, Ji, LL PGC-1a overexpression by in vivo transfection attenuates mitochondrial deterioration of skeletal muscle caused by immobilization. FASEB J. 2015;29(10):4092–106.",
+            "process_entry": "True",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Bard, M, Lees, ND, Burnett, AS, Parker, RA. Isolation and characterization of mevinolin resistant mutants of Saccharomyces cerevisiae. Microbiology 1988; 134: 1071–8.",
+            "process_entry": "True",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Fowler, DM, Cooper, SJ, Stephany, JJ, et al. Suppression of statin effectiveness by copper and zinc in yeast and human cells. Mol BioSyst 2011; 7: 533–44. PMID: 21085730",
+            "process_entry": "True",
+            "doi": "10.1039/c0mb00166j",
+            "pmid": "21085730",
+            "pmcid": "PMC3138400",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Maciejak, A, Leszczynska, A, Warchol, I, et al. The effects of statins on the mevalonic acid pathway in recombinant yeast strains expressing human HMG-CoA reductase. BMC Biotechnol 2013; 13: 68. PMID: 24128347",
+            "process_entry": "True",
+            "doi": "10.1186/1472-6750-13-68",
+            "pmid": "24128347",
+            "pmcid": "PMC3765880",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Davies, BS, Rine, J. A role for sterol levels in oxygen sensing in Saccharomyces cerevisiae. Genetics 2006; 174: 191–201. PMID: 16783004",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.106.059964",
+            "pmid": "16783004",
+            "pmcid": "PMC1569814",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Serratore, ND, Baker, KM, Macadlo, LA, et al. A novel sterol-signaling pathway governs azole antifungal drug resistance and hypoxic gene repression in Saccharomyces cerevisiae. Genetics 2018; 208: 1037–55. PMID: 29263028",
+            "process_entry": "True",
+            "doi": "10.1534/genetics.117.300554",
+            "pmid": "29263028",
+            "pmcid": "PMC5844321",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Dimmer, KS, Fritz, S, Fuchs, F, et al. Genetic basis of mitochondrial function and morphology in Saccharomyces cerevisiae. Mol Biol Cell 2002; 13: 847–53. PMID: 11907266",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.01-12-0588",
+            "pmid": "11907266",
+            "pmcid": "PMC99603",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Altmann, K, Westermann, B. Role of essential genes in mitochondrial morphogenesis in Saccharomyces cerevisiae. Mol Biol Cell 2005; 16: 5410–7. PMID: 16135527",
+            "process_entry": "True",
+            "doi": "10.1091/mbc.E05-07-0678",
+            "pmid": "16135527",
+            "pmcid": "PMC1266436",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Chen, XJ, Clark-Walker, GD. Mutations in MGI genes convert Kluyveromyces lactis into a petite-positive yeast. Genetics 1993; 133: 517–25. PMID: 8454202",
+            "process_entry": "True",
+            "pmid": "8454202",
+            "pmcid": "PMC1205340",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Bianchi, MM, Brambilla, L, Protani, F, et al. Efficient homolactic fermentation by Kluyveromyces lactis strains defective in pyruvate utilization and transformed with the heterologous LDH gene. Appl Environ Microbiol 2001; 67: 5621–5. PMID: 11722915",
+            "process_entry": "True",
+            "doi": "10.1128/AEM.67.12.5621-5625.2001",
+            "pmid": "11722915",
+            "pmcid": "PMC93352",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Ramachandran, R, Wierzbicki, A. Statins, muscle disease and mitochondria. J Clin Med 2017; 6: 75.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Tay, SK, DiMauro, S, Pang, AY, et al. Myotoxicity of lipid-lowering agents in a teenager with MELAS mutation. Pediatr Neurol 2008; 39: 426–8. PMID: 19027590",
+            "process_entry": "True",
+            "doi": "10.1016/j.pediatrneurol.2008.09.002",
+            "pmid": "19027590",
+            "xmlid": "CIT0034"
+        },
+        {
+            "bibentry": "Vladutiu, GD, Simmons, Z, Isackson, PJ, et al. Genetic risk factors associated with lipid‐lowering drug‐induced myopathies. Muscle Nerve 2006; 34: 153–62. PMID: 16671104",
+            "process_entry": "True",
+            "doi": "10.1002/mus.20567",
+            "pmid": "16671104",
+            "xmlid": "CIT0035"
+        },
+        {
+            "bibentry": "Feuermann, M, Francisci, S, Rinaldi, T, et al. The yeast counterparts of human ‘MELAS’mutations cause mitochondrial dysfunction that can be rescued by overexpression of the mitochondrial translation factor EF‐Tu. EMBO Rep 2003; 4: 53–8. PMID: 12524521",
+            "process_entry": "True",
+            "doi": "10.1038/sj.embor.embor713",
+            "pmid": "12524521",
+            "pmcid": "PMC1315813",
+            "xmlid": "CIT0036"
+        },
+        {
+            "bibentry": "Montanari, A, Besagni, C, De Luca, C, et al. Yeast as a model of human mitochondrial tRNA base substitutions: investigation of the molecular basis of respiratory defects. RNA 2007; 14: 275–83. PMID: 18065717",
+            "process_entry": "True",
+            "doi": "10.1261/rna.740108",
+            "pmid": "18065717",
+            "pmcid": "PMC2212258",
+            "xmlid": "CIT0037"
+        },
+        {
+            "bibentry": "Blau, HM, Pavlath, GK, Hardeman, EC, et al. Plasticity of the differentiated state. Science 1985; 230: 758–66. PMID: 2414846",
+            "process_entry": "True",
+            "doi": "10.1126/science.2414846",
+            "pmid": "2414846",
+            "xmlid": "CIT0038"
+        },
+        {
+            "bibentry": "Katz, DH, Intwala, SS, Stone, NJ. Addressing statin adverse effects in the clinic: the 5 Ms. J Cardiovasc Pharmacol Ther 2014; 19: 533–42. PMID: 24770611",
+            "process_entry": "True",
+            "doi": "10.1177/1074248414529622",
+            "pmid": "24770611",
+            "xmlid": "CIT0039"
+        },
+        {
+            "bibentry": "Sirvent, P, Fabre, O, Bordenave, S, et al. Muscle mitochondrial metabolism and calcium signaling impairment in patients treated with statins. Toxicol Appl Pharmacol 2012; 259: 263–8. PMID: 22269104",
+            "process_entry": "True",
+            "doi": "10.1016/j.taap.2012.01.008",
+            "pmid": "22269104",
+            "xmlid": "CIT0040"
+        },
+        {
+            "bibentry": "Shakoury-Elizeh, M, Protchenko, O, Berger, A, et al. Metabolic response to iron deficiency in Saccharomyces cerevisiae. J Biol Chem 2010; 285: 14823–33. PMID: 20231268",
+            "process_entry": "True",
+            "doi": "10.1074/jbc.M109.091710",
+            "pmid": "20231268",
+            "pmcid": "PMC2863190",
+            "xmlid": "CIT0041"
+        },
+        {
+            "bibentry": "Chariot, P, Abadia, R, Agnus, D, et al. Simvastatin-induced rhabdomyolysis followed by a MELAS syndrome. Am J Med 1993; 94: 109. PMID: 8420287",
+            "process_entry": "True",
+            "doi": "10.1016/0002-9343(93)90129-d",
+            "pmid": "8420287",
+            "xmlid": "CIT0042"
+        },
+        {
+            "bibentry": "Ferguson, LR, Von Borstel, RC. Induction of the cytoplasmic ‘petite’mutation by chemical and physical agents in Saccharomyces cerevisiae. Mutat Res 1992; 265: 103–48. PMID: 1370239",
+            "process_entry": "True",
+            "doi": "10.1016/0027-5107(92)90042-z",
+            "pmid": "1370239",
+            "xmlid": "CIT0043"
+        },
+        {
+            "bibentry": "Sezgin, E, Levental, I, Mayor, S, Eggeling, C. The mystery of membrane organization: composition, regulation and roles of lipid rafts. Nat Rev Mol Cell Biol 2017; 18: 361. PMID: 28356571",
+            "process_entry": "True",
+            "doi": "10.1038/nrm.2017.16",
+            "pmid": "28356571",
+            "pmcid": "PMC5500228",
+            "xmlid": "CIT0044"
+        },
+        {
+            "bibentry": "Gerhold, JM, Cansiz-Arda, Ş, Lõhmus, M, et al. Human mitochondrial DNA-protein complexes attach to a cholesterol-rich membrane structure. Sci Rep 2015; 5: 15292. PMID: 26478270",
+            "process_entry": "True",
+            "doi": "10.1038/srep15292",
+            "pmid": "26478270",
+            "pmcid": "PMC4609938",
+            "xmlid": "CIT0045"
+        },
+        {
+            "bibentry": "Murley, A, Lackner, LL, Osman, C, et al. ER-associated mitochondrial division links the distribution of mitochondria and mitochondrial DNA in yeast. Elife 2013; 2: e00422. PMID: 23682313",
+            "process_entry": "True",
+            "doi": "10.7554/eLife.00422",
+            "pmid": "23682313",
+            "pmcid": "PMC3654481",
+            "xmlid": "CIT0046"
+        },
+        {
+            "bibentry": "He, J, Cooper, HM, Reyes, A, et al. Mitochondrial nucleoid interacting proteins support mitochondrial protein synthesis. Nucleic Acids Res 2012; 40: 6109–21. PMID: 22453275",
+            "process_entry": "True",
+            "doi": "10.1093/nar/gks266",
+            "pmid": "22453275",
+            "pmcid": "PMC3401451",
+            "xmlid": "CIT0047"
+        },
+        {
+            "bibentry": "Gilkerson, R, Bravo, L, Garcia, I, et al. The mitochondrial nucleoid: integrating mitochondrial DNA into cellular homeostasis. Cold Spring Harb Perspect Biol 2013; 5: a011080. PMID: 23637282",
+            "process_entry": "True",
+            "doi": "10.1101/cshperspect.a011080",
+            "pmid": "23637282",
+            "pmcid": "PMC3632060",
+            "xmlid": "CIT0048"
+        },
+        {
+            "bibentry": "Peralta, S, Goffart, S, Williams, SL, et al. ATAD3 controls mitochondrial cristae structure in mouse muscle, influencing mtDNA replication and cholesterol levels. J Cell Sci 2018; 131: jcs217075. PMID: 29898916",
+            "process_entry": "True",
+            "doi": "10.1242/jcs.217075",
+            "pmid": "29898916",
+            "pmcid": "PMC6051345",
+            "xmlid": "CIT0049"
+        },
+        {
+            "bibentry": "De Pinieux, G, Chariot, P, Ammi‐Said, M, et al. Lipid‐lowering drugs and mitochondrial function: effects of HMG‐CoA reductase inhibitors on serum ubiquinone and blood lactate/pyruvate ratio. Br J Clin Pharmacol 2003; 42: 333–7.",
+            "process_entry": "True",
+            "xmlid": "CIT0050"
+        },
+        {
+            "bibentry": "Nadanaciva, S, Dykens, JA, Bernal, A, et al. Mitochondrial impairment by PPAR agonists and statins identified via immunocaptured OXPHOS complex activities and respiration. Toxicol Appl Pharmacol 2007; 223: 277–87. PMID: 17658574",
+            "process_entry": "True",
+            "doi": "10.1016/j.taap.2007.06.003",
+            "pmid": "17658574",
+            "xmlid": "CIT0051"
+        },
+        {
+            "bibentry": "Sirvent, P, Bordenave, S, Vermaelen, M, et al. Simvastatin induces impairment in skeletal muscle while heart is protected. Biochem Biophys Res Commun 2005; 338: 1426–34. PMID: 16271704",
+            "process_entry": "True",
+            "doi": "10.1016/j.bbrc.2005.10.108",
+            "pmid": "16271704",
+            "xmlid": "CIT0052"
+        },
+        {
+            "bibentry": "Larsen, S, Stride, N, Hey-Mogensen, M, et al. Simvastatin effects on skeletal muscle: relation to decreased mitochondrial function and glucose intolerance. J Am Coll Cardiol 2013; 61: 44–53. PMID: 23287371",
+            "process_entry": "True",
+            "doi": "10.1016/j.jacc.2012.09.036",
+            "pmid": "23287371",
+            "xmlid": "CIT0053"
+        },
+        {
+            "bibentry": "Schick, BA, Laaksonen, R, Frohlich, JJ, et al. Decreased skeletal muscle mitochondrial DNA in patients treated with high‐dose simvastatin. Clin Pharmacol Ther 2007; 81: 650–3. PMID: 17329991",
+            "process_entry": "True",
+            "doi": "10.1038/sj.clpt.6100124",
+            "pmid": "17329991",
+            "xmlid": "CIT0054"
+        },
+        {
+            "bibentry": "Stringer, HA, Sohi, GK, Maguire, JA, Côté, HC. Decreased skeletal muscle mitochondrial DNA in patients with statin-induced myopathy. J Neurol Sci 2013; 325: 142–7. PMID: 23312852",
+            "process_entry": "True",
+            "doi": "10.1016/j.jns.2012.12.023",
+            "pmid": "23312852",
+            "xmlid": "CIT0055"
+        },
+        {
+            "bibentry": "Sin, J, Andres, AM, Taylor, DJ, et al. Mitophagy is required for mitochondrial biogenesis and myogenic differentiation of C2C12 myoblasts. Autophagy 2016; 12: 369–80. PMID: 26566717",
+            "process_entry": "True",
+            "doi": "10.1080/15548627.2015.1115172",
+            "pmid": "26566717",
+            "pmcid": "PMC4836019",
+            "xmlid": "CIT0056"
+        }
+    ],
+    "localid": "MED-31694426",
+    "doi": "10.1080/14756366.2019.1687461",
+    "pmid": "10.1080/14756366.2019.1687461",
+    "pmcid": "31694426",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31694426/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),222,80)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),303,296)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),303,296)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,221)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Cholesterol is a vital component of cell membranes, essential for the synthesis of steroid hormones, bile acids, and vitamin D, but high cholesterol levels are associated with an elevated risk of cardiovascular diseases. Cholesterol (ergosterol in yeast) is the end-product of the mevalonate pathway1. The enzyme 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase is the rate-limiting step in the synthesis of cholesterol and it catalyses the conversion of HMG-CoA to mevalonate; the mevalonate pathway and the HMG-CoA enzyme, as well as its regulation are conserved from yeast to humans2,3. HMG-CoA is the target of statins4, the most prescribed drug class for lowering elevated LDL-cholesterol, generally effective and well tolerated; however, patients can experience muscle adverse effects such as myopathy5,6. Genetic factors7 and drug-drug interactions8 also contribute as risk factors for the development of muscle side effects in patients9,10.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            },
+            {
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,221)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Cholesterol is a vital component of cell membranes, essential for the synthesis of steroid hormones, bile acids, and vitamin D, but high cholesterol levels are associated with an elevated risk of cardiovascular diseases. Cholesterol (ergosterol in yeast) is the end-product of the mevalonate pathway1. The enzyme 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase is the rate-limiting step in the synthesis of cholesterol and it catalyses the conversion of HMG-CoA to mevalonate; the mevalonate pathway and the HMG-CoA enzyme, as well as its regulation are conserved from yeast to humans2,3. HMG-CoA is the target of statins4, the most prescribed drug class for lowering elevated LDL-cholesterol, generally effective and well tolerated; however, patients can experience muscle adverse effects such as myopathy5,6. Genetic factors7 and drug-drug interactions8 also contribute as risk factors for the development of muscle side effects in patients9,10.",
+                "pl_xpath": "/article/body/sec[1]/p[1]"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),600,221)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),822,136)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,395)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,395)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),397,405)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Mitochondrial dysfunction has been described as responsible for several statins side effects and serious adverse reactions; in particular, various mitochondrial phenotypes were described such as the decrease of respiratory chain function, alteration of calcium homeostasis, ROS production, alteration of mitochondrial volume, however, the primary effect of statins remains to be elucidated11,12. The activity of statins was investigated previously in the yeast Candida glabrata13 and in Saccharomyces cerevisiae14; the yeast S. cerevisiae is an excellent unicellular model to gain insights into human diseases1315 in particular, those resulting from impaired mitochondrial function16–18, because S. cerevisiae is able, utilising fermentable carbon sources to survive without mitochondrial respiration. We previously demonstrated that ketoconazole, which blocks the ergosterol biosynthetic pathway downstream the HMG-CoA reductase, reduced the ergosterol content in yeast cells and induced the loss of mitochondrial DNA; this phenomenon is coupled with a re-localisation of Erg27 enzyme from Lipid Droplets (LDs) to Endoplasmic Reticulum (ER)19. Here, we expand the analysis of mitochondrial function and the stability of mitochondrial DNA using statins in S. cerevisiae: we showed that these molecules cause a reduction of ergosterol, inducing loss of mitochondrial DNA and resulting in a reduction of mitochondrial respiration/function coupled with the Erg27 re-localisation in ER. In murine myoblasts, upon statins treatment, we also observed a reduction of mitochondrial DNA copy number associated with an impaired differentiation capacity.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),397,405)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Mitochondrial dysfunction has been described as responsible for several statins side effects and serious adverse reactions; in particular, various mitochondrial phenotypes were described such as the decrease of respiratory chain function, alteration of calcium homeostasis, ROS production, alteration of mitochondrial volume, however, the primary effect of statins remains to be elucidated11,12. The activity of statins was investigated previously in the yeast Candida glabrata13 and in Saccharomyces cerevisiae14; the yeast S. cerevisiae is an excellent unicellular model to gain insights into human diseases1315 in particular, those resulting from impaired mitochondrial function16–18, because S. cerevisiae is able, utilising fermentable carbon sources to survive without mitochondrial respiration. We previously demonstrated that ketoconazole, which blocks the ergosterol biosynthetic pathway downstream the HMG-CoA reductase, reduced the ergosterol content in yeast cells and induced the loss of mitochondrial DNA; this phenomenon is coupled with a re-localisation of Erg27 enzyme from Lipid Droplets (LDs) to Endoplasmic Reticulum (ER)19. Here, we expand the analysis of mitochondrial function and the stability of mitochondrial DNA using statins in S. cerevisiae: we showed that these molecules cause a reduction of ergosterol, inducing loss of mitochondrial DNA and resulting in a reduction of mitochondrial respiration/function coupled with the Erg27 re-localisation in ER. In murine myoblasts, upon statins treatment, we also observed a reduction of mitochondrial DNA copy number associated with an impaired differentiation capacity.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),397,405)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Mitochondrial dysfunction has been described as responsible for several statins side effects and serious adverse reactions; in particular, various mitochondrial phenotypes were described such as the decrease of respiratory chain function, alteration of calcium homeostasis, ROS production, alteration of mitochondrial volume, however, the primary effect of statins remains to be elucidated11,12. The activity of statins was investigated previously in the yeast Candida glabrata13 and in Saccharomyces cerevisiae14; the yeast S. cerevisiae is an excellent unicellular model to gain insights into human diseases1315 in particular, those resulting from impaired mitochondrial function16–18, because S. cerevisiae is able, utilising fermentable carbon sources to survive without mitochondrial respiration. We previously demonstrated that ketoconazole, which blocks the ergosterol biosynthetic pathway downstream the HMG-CoA reductase, reduced the ergosterol content in yeast cells and induced the loss of mitochondrial DNA; this phenomenon is coupled with a re-localisation of Erg27 enzyme from Lipid Droplets (LDs) to Endoplasmic Reticulum (ER)19. Here, we expand the analysis of mitochondrial function and the stability of mitochondrial DNA using statins in S. cerevisiae: we showed that these molecules cause a reduction of ergosterol, inducing loss of mitochondrial DNA and resulting in a reduction of mitochondrial respiration/function coupled with the Erg27 re-localisation in ER. In murine myoblasts, upon statins treatment, we also observed a reduction of mitochondrial DNA copy number associated with an impaired differentiation capacity.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),397,405)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Mitochondrial dysfunction has been described as responsible for several statins side effects and serious adverse reactions; in particular, various mitochondrial phenotypes were described such as the decrease of respiratory chain function, alteration of calcium homeostasis, ROS production, alteration of mitochondrial volume, however, the primary effect of statins remains to be elucidated11,12. The activity of statins was investigated previously in the yeast Candida glabrata13 and in Saccharomyces cerevisiae14; the yeast S. cerevisiae is an excellent unicellular model to gain insights into human diseases1315 in particular, those resulting from impaired mitochondrial function16–18, because S. cerevisiae is able, utilising fermentable carbon sources to survive without mitochondrial respiration. We previously demonstrated that ketoconazole, which blocks the ergosterol biosynthetic pathway downstream the HMG-CoA reductase, reduced the ergosterol content in yeast cells and induced the loss of mitochondrial DNA; this phenomenon is coupled with a re-localisation of Erg27 enzyme from Lipid Droplets (LDs) to Endoplasmic Reticulum (ER)19. Here, we expand the analysis of mitochondrial function and the stability of mitochondrial DNA using statins in S. cerevisiae: we showed that these molecules cause a reduction of ergosterol, inducing loss of mitochondrial DNA and resulting in a reduction of mitochondrial respiration/function coupled with the Erg27 re-localisation in ER. In murine myoblasts, upon statins treatment, we also observed a reduction of mitochondrial DNA copy number associated with an impaired differentiation capacity.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            },
+            {
+                "xref_id": "CIT0016",
+                "rp_string": "16–18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),397,405)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "Mitochondrial dysfunction has been described as responsible for several statins side effects and serious adverse reactions; in particular, various mitochondrial phenotypes were described such as the decrease of respiratory chain function, alteration of calcium homeostasis, ROS production, alteration of mitochondrial volume, however, the primary effect of statins remains to be elucidated11,12. The activity of statins was investigated previously in the yeast Candida glabrata13 and in Saccharomyces cerevisiae14; the yeast S. cerevisiae is an excellent unicellular model to gain insights into human diseases1315 in particular, those resulting from impaired mitochondrial function16–18, because S. cerevisiae is able, utilising fermentable carbon sources to survive without mitochondrial respiration. We previously demonstrated that ketoconazole, which blocks the ergosterol biosynthetic pathway downstream the HMG-CoA reductase, reduced the ergosterol content in yeast cells and induced the loss of mitochondrial DNA; this phenomenon is coupled with a re-localisation of Erg27 enzyme from Lipid Droplets (LDs) to Endoplasmic Reticulum (ER)19. Here, we expand the analysis of mitochondrial function and the stability of mitochondrial DNA using statins in S. cerevisiae: we showed that these molecules cause a reduction of ergosterol, inducing loss of mitochondrial DNA and resulting in a reduction of mitochondrial respiration/function coupled with the Erg27 re-localisation in ER. In murine myoblasts, upon statins treatment, we also observed a reduction of mitochondrial DNA copy number associated with an impaired differentiation capacity.",
+                "pl_xpath": "/article/body/sec[1]/p[2]"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),803,342)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[6]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[6]/p),202,239)",
+                "containers_title": {
+                    "/article/body/sec[2]/title": "Materials and methods",
+                    "/article/body/sec[2]/sec[6]/title": "Microscopy"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p),1,130)",
+                "containers_title": {
+                    "/article/body/sec[2]/title": "Materials and methods",
+                    "/article/body/sec[2]/sec[9]/title": "O2 consumption measurement"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[2]/sec[9]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[9]/p),132,229)",
+                "containers_title": {
+                    "/article/body/sec[2]/title": "Materials and methods",
+                    "/article/body/sec[2]/sec[9]/title": "O2 consumption measurement"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[2]/sec[11]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[11]/p),233,392)",
+                "containers_title": {
+                    "/article/body/sec[2]/title": "Materials and methods",
+                    "/article/body/sec[2]/sec[11]/title": "Quantitative analysis of mitochondrial DNA"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),97,175)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[1]),273,195)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,238)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[2]),1,238)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[3]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[3]),1,233)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[4]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[4]),1,148)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[5]),663,187)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[3]/sec[1]/p[5]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[1]/p[5]),1122,145)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[1]/title": "Statins induced a petite phenotype in S. cerevisiae"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,239)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[3]/title": "Statins treatment resulted in mitochondrial morphology defects"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),1,239)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[3]/title": "Statins treatment resulted in mitochondrial morphology defects"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[3]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[3]/p),762,93)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[3]/title": "Statins treatment resulted in mitochondrial morphology defects"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[4]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[4]/p),1,316)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[4]/title": "Statins induced a cellular re-localisation of Erg27, a sensor of mitochondrial dysfunction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),1,270)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[5]/title": "Effect of statins on the respiratory obligate yeast Kluyveromyces lactis"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[3]/sec[5]/p/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[5]/p),441,157)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[5]/title": "Effect of statins on the respiratory obligate yeast Kluyveromyces lactis"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,207)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[6]/title": "Effect of statins in a yeast model of human MELAS mitochondrial disease"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),1,207)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[6]/title": "Effect of statins in a yeast model of human MELAS mitochondrial disease"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0035",
+                "rp_string": "35",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),209,261)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[6]/title": "Effect of statins in a yeast model of human MELAS mitochondrial disease"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0036",
+                "rp_string": "36",
+                "rp_xpath": "/article/body/sec[3]/sec[6]/p/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[6]/p),471,133)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[6]/title": "Effect of statins in a yeast model of human MELAS mitochondrial disease"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0037",
+                "rp_string": "37",
+                "rp_xpath": "/article/body/sec[3]/sec[7]/p/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[3]/sec[7]/p),1,286)",
+                "containers_title": {
+                    "/article/body/sec[3]/title": "Results",
+                    "/article/body/sec[3]/sec[7]/title": "In vitro effects of statins on C2C12 murine cells"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0038",
+                "rp_string": "38",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,161)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),71,5)",
+                "pl_string": "y38,3"
+            },
+            {
+                "xref_id": "CIT0039",
+                "rp_string": "39",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,161)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),71,5)",
+                "pl_string": "y38,3"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),163,207)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),371,486)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "Statin intolerance is often a consequence of statin-associated myopathy38,39; hence, it is fundamental to understand the molecular effect of statin in the cells. Yeast is recognised as a good model to study the cellular mechanisms of mitochondrial human diseases and S. cerevisiae is unique among yeasts because it is able to survive with non-functional mitochondria17. We confirmed here that statins act as cholesterol lowering drugs in S. cerevisiae as was previously published14; mass spectrometry analysis revealed a lower ergosterol content in statins treated cells than the wild type strain (Supplementary Figure 1); in yeast cells treated with statins, the Erg27 enzyme localised in the endoplasmic reticulum indicating low level of ergosterol, because in cells with normal ergosterol content, the enzyme is localised in lipid droplets19 (Figure 5). Of note, statin treatments resulted in W303 growth curves rates intermediate between the non-treated strain (W303) and the strain devoid of mitochondrial DNA (W303 rho°), while the supply of ergosterol in the medium restores a wild type growth in statin treated cells and in W303 rho° (Supplementary Figure 3(B)). Also, the growth curves of the yeast K. lactis, which has a metabolism more similar to human cells, revealed that statins slightly impair the growth, as in S. cerevisiae (Supplementary Figure 6). Finally, we treated with statins a yeast model of human MELAS disease18. Statins are not administered to MELAS patients because they precipitate myopathic symptoms40; indeed, we found an effect on C25T strain growth, indicating an additive negative affect of stations if associated with a MELAS mutation (Supplementary Figure 7).",
+                "pl_xpath": "/article/body/sec[4]/p[1]"
+            },
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),371,486)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "Statin intolerance is often a consequence of statin-associated myopathy38,39; hence, it is fundamental to understand the molecular effect of statin in the cells. Yeast is recognised as a good model to study the cellular mechanisms of mitochondrial human diseases and S. cerevisiae is unique among yeasts because it is able to survive with non-functional mitochondria17. We confirmed here that statins act as cholesterol lowering drugs in S. cerevisiae as was previously published14; mass spectrometry analysis revealed a lower ergosterol content in statins treated cells than the wild type strain (Supplementary Figure 1); in yeast cells treated with statins, the Erg27 enzyme localised in the endoplasmic reticulum indicating low level of ergosterol, because in cells with normal ergosterol content, the enzyme is localised in lipid droplets19 (Figure 5). Of note, statin treatments resulted in W303 growth curves rates intermediate between the non-treated strain (W303) and the strain devoid of mitochondrial DNA (W303 rho°), while the supply of ergosterol in the medium restores a wild type growth in statin treated cells and in W303 rho° (Supplementary Figure 3(B)). Also, the growth curves of the yeast K. lactis, which has a metabolism more similar to human cells, revealed that statins slightly impair the growth, as in S. cerevisiae (Supplementary Figure 6). Finally, we treated with statins a yeast model of human MELAS disease18. Statins are not administered to MELAS patients because they precipitate myopathic symptoms40; indeed, we found an effect on C25T strain growth, indicating an additive negative affect of stations if associated with a MELAS mutation (Supplementary Figure 7).",
+                "pl_xpath": "/article/body/sec[4]/p[1]"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1368,72)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0040",
+                "rp_string": "40",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1441,256)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0041",
+                "rp_string": "41",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),252,240)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),493,122)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/p[3]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[3]),1,326)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0043",
+                "rp_string": "43",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),1,271)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0045",
+                "rp_string": "45",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),273,361)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "To date, a demonstration of how mitochondrial DNA molecules are attached to the inner mitochondrial membrane is still lacking, but lipid rafts, membrane microdomains enriched in cholesterol and sphingolipids43 are essential to maintain mitochondrial DNA in human cells44. Furthermore, the maintenance of mitochondrial nucleoids is coordinated with the mitochondrial fusion and fission machinery to ensure the distribution of mitochondrial DNA in the cells45; of note, the mitochondrial protein ATAD3, which binds cholesterol in the inner mitochondrial membrane, has been proposed to have a central role in nucleoid organisation46–49.",
+                "pl_xpath": "/article/body/sec[4]/p[5]"
+            },
+            {
+                "xref_id": "CIT0046",
+                "rp_string": "46–49",
+                "rp_xpath": "/article/body/sec[4]/p[5]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[5]),273,361)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "To date, a demonstration of how mitochondrial DNA molecules are attached to the inner mitochondrial membrane is still lacking, but lipid rafts, membrane microdomains enriched in cholesterol and sphingolipids43 are essential to maintain mitochondrial DNA in human cells44. Furthermore, the maintenance of mitochondrial nucleoids is coordinated with the mitochondrial fusion and fission machinery to ensure the distribution of mitochondrial DNA in the cells45; of note, the mitochondrial protein ATAD3, which binds cholesterol in the inner mitochondrial membrane, has been proposed to have a central role in nucleoid organisation46–49.",
+                "pl_xpath": "/article/body/sec[4]/p[5]"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0050",
+                "rp_string": "50",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),1,155)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0051",
+                "rp_string": "51",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),686,531)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[7]),907,5)",
+                "pl_string": "e51,5"
+            },
+            {
+                "xref_id": "CIT0052",
+                "rp_string": "52",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),686,531)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[7]),907,5)",
+                "pl_string": "e51,5"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0042",
+                "rp_string": "42",
+                "rp_xpath": "/article/body/sec[4]/p[7]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[7]),686,531)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0053",
+                "rp_string": "53",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,310)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0054",
+                "rp_string": "54",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),1,310)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0055",
+                "rp_string": "55",
+                "rp_xpath": "/article/body/sec[4]/p[8]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[8]),582,216)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ]
+    ]
+}

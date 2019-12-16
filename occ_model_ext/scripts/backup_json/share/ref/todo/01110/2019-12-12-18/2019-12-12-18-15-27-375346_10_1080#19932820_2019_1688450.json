@@ -1,0 +1,706 @@
+{
+    "references": [
+        {
+            "bibentry": "Marzullo, LR. Laurie R. Pharmacologic management of the agitated child. Pediatr Emerg Care. 2014; 30(4): 269–9. PMID: 24694885",
+            "process_entry": "True",
+            "doi": "10.1097/pec.0000000000000112",
+            "pmid": "24694885",
+            "xmlid": "CIT0001"
+        },
+        {
+            "bibentry": "Huddy, N. Emergence agitation in children. Br J Anaesth. 2010; 105(1): 95–96. PMID: 20551033",
+            "process_entry": "True",
+            "doi": "10.1093/bja/aeq150",
+            "pmid": "20551033",
+            "xmlid": "CIT0002"
+        },
+        {
+            "bibentry": "Kwak, KH. Emergence agitation/delirium: we still don’t know. Korean J Anesthesiol. 2010; 59(2): 73–74. PMID: 20740209",
+            "process_entry": "True",
+            "doi": "10.4097/kjae.2010.59.2.73",
+            "pmid": "20740209",
+            "pmcid": "PMC2926432",
+            "xmlid": "CIT0003"
+        },
+        {
+            "bibentry": "Arora, S. Combining ketamine and propofol (“Ketofol”) for emergency department procedural sedation and analgesia: a review. West J Emerg Med. 2008; 9(1): 20–23. PMID: 19561698",
+            "process_entry": "True",
+            "pmid": "19561698",
+            "pmcid": "PMC2672224",
+            "xmlid": "CIT0004"
+        },
+        {
+            "bibentry": "Willman, EV, Andolfatto, G. A prospective evaluation of “ketofol” (Ketamine/Propofol Combination) for procedural sedation and analgesia in the emergency department. Ann Emerg Med. 2007; 49(1): 23–30. PMID: 17059854",
+            "process_entry": "True",
+            "doi": "10.1016/j.annemergmed.2006.08.002",
+            "pmid": "17059854",
+            "xmlid": "CIT0005"
+        },
+        {
+            "bibentry": "Elia, N, Tramer, MR. Ketamine and postoperative pain–a quantitative systematic review of randomised trials. Pain. 2005; 113(1): 61–70. PMID: 15621365",
+            "process_entry": "True",
+            "doi": "10.1016/j.pain.2004.09.036",
+            "pmid": "15621365",
+            "xmlid": "CIT0006"
+        },
+        {
+            "bibentry": "Alhasani, R, Bruchas, MR. Molecular mechanisms of opioid receptor-dependent signaling and behavior. Anesthesiology. 2011; 115(6): 1363–1381. PMID: 22020140",
+            "process_entry": "True",
+            "doi": "10.1097/ALN.0b013e318238bba6",
+            "pmid": "22020140",
+            "pmcid": "PMC3698859",
+            "xmlid": "CIT0007"
+        },
+        {
+            "bibentry": "Schonenberg, M, Reichwald, U, Domes, G, et al. Ketamine aggravates symptoms of acute stress disorder in a naturalistic sample of accident victims. J Psychopharmacol. 2008; 22(5): 493–497. PMID: 18208917",
+            "process_entry": "True",
+            "doi": "10.1177/0269881107082481",
+            "pmid": "18208917",
+            "xmlid": "CIT0008"
+        },
+        {
+            "bibentry": "Paslakis, G, Gilles, M, Meyer-Lindenberg, A, et al. Oral administration of the NMDA receptor antagonist S-ketamine as add-on therapy of depression: a case series. Pharmacopsychiatry. 2010; 43(01): 33–35. PMID: 20013614",
+            "process_entry": "True",
+            "doi": "10.1055/s-0029-1237375",
+            "pmid": "20013614",
+            "xmlid": "CIT0009"
+        },
+        {
+            "bibentry": "Dinis-Oliveira, RJ. Metabolism and metabolomics of ketamine: a toxicological approach. Forensic Sci Res. 2017; 2(1): 2–10. PMID: 30483613",
+            "process_entry": "True",
+            "doi": "10.1080/20961790.2017.1285219",
+            "pmid": "30483613",
+            "pmcid": "PMC6197107",
+            "xmlid": "CIT0010"
+        },
+        {
+            "bibentry": "Lalanne, L, Nicot, C, Lang, J-P, et al. Experience of the use of Ketamine to manage opioid withdrawal in an addicted woman: a case report. BMC Psychiatry. 2016; 16(1): 395. PMID: 27832755",
+            "process_entry": "True",
+            "doi": "10.1186/s12888-016-1112-2",
+            "pmid": "27832755",
+            "pmcid": "PMC5105239",
+            "xmlid": "CIT0011"
+        },
+        {
+            "bibentry": "Miner, JR, Burton, JH. Clinical practice advisory: emergency department procedural sedation with propofol. Ann Emerg Med. 2007; 50(2): 182–187.e1. PMID: 17321006",
+            "process_entry": "True",
+            "doi": "10.1016/j.annemergmed.2006.12.017",
+            "pmid": "17321006",
+            "xmlid": "CIT0012"
+        },
+        {
+            "bibentry": "McQuaid, KR, Laine, L. A systematic review and meta-analysis of randomized, controlled trials of moderate sedation for routine endoscopic procedures. Gastrointest Endosc. 2008; 67(6): 910–923. PMID: 18440381",
+            "process_entry": "True",
+            "doi": "10.1016/j.gie.2007.12.046",
+            "pmid": "18440381",
+            "xmlid": "CIT0013"
+        },
+        {
+            "bibentry": "Machata, AM, Willschke H, Kabon B, et al. Propofol-based sedation regimen for infants and children undergoing ambulatory magnetic resonance imaging. Br J Anaesth. 2008; 101(2): 239–243. PMID: 18534971",
+            "process_entry": "True",
+            "doi": "10.1093/bja/aen153",
+            "pmid": "18534971",
+            "xmlid": "CIT0014"
+        },
+        {
+            "bibentry": "Yan, JW, McLeod, SL, Iansavitchene, A. Ketamine-propofol versus propofol alone for procedural sedation in the emergency department: a systematic review and meta-analysis. Acad Emerg Med. 2015; 22(9): 1003–1013. PMID: 26292077",
+            "process_entry": "True",
+            "doi": "10.1111/acem.12737",
+            "pmid": "26292077",
+            "xmlid": "CIT0015"
+        },
+        {
+            "bibentry": "Trapani, G, Altomare, C, Sanna, E, et al. Propofol in anesthesia. Mechanism of action, structure-activity relationships, and drug delivery. Curr Med Chem. 2000; 7(2): 249–271. PMID: 10637364",
+            "process_entry": "True",
+            "doi": "10.2174/0929867003375335",
+            "pmid": "10637364",
+            "xmlid": "CIT0016"
+        },
+        {
+            "bibentry": "Kotani, Y, Shimazawa, M, Yoshimura, S, et al. The experimental and clinical pharmacology of propofol, an anesthetic agent with neuroprotective properties. CNS Neurosci Ther. 2008; 14(2): 95–106. PMID: 18482023",
+            "process_entry": "True",
+            "doi": "10.1111/j.1527-3458.2008.00043.x",
+            "pmid": "18482023",
+            "pmcid": "PMC6494023",
+            "xmlid": "CIT0017"
+        },
+        {
+            "bibentry": "Phillips, W, Anderson, A, Rosengreen, M, et al. Propofol versus propofol/ketamine for brief painful procedures in the emergency department: clinical and bispectral index scale comparison. J Pain Palliat Care Pharmacother. 2010; 24(4): 349–355. PMID: 21133742",
+            "process_entry": "True",
+            "doi": "10.3109/15360288.2010.506503",
+            "pmid": "21133742",
+            "xmlid": "CIT0018"
+        },
+        {
+            "bibentry": "de Moraes, AG, Africano, CJ, Hoskote, SS, et al. Ketamine and propofol combination (“Ketofol”) for endotracheal intubations in critically Ill patients: a case series. Am J Case Rep. 2015; 16: 81–86. PMID: 25676819",
+            "process_entry": "True",
+            "doi": "10.12659/AJCR.892424",
+            "pmid": "25676819",
+            "pmcid": "PMC4332295",
+            "xmlid": "CIT0019"
+        },
+        {
+            "bibentry": "Dunn, T, Mossop, D, Newton, A, et al. Propofol for procedural sedation in the emergency department. Emer Med J. 2007; 24(7): 459–461.",
+            "process_entry": "True",
+            "xmlid": "CIT0020"
+        },
+        {
+            "bibentry": "Upadhyay, SP, Tripathy, A, Mallick, PN. A practical guide to sedation and analgesia in Paediatric Intensive Care Unit (ICU). J Anim Sci. 2017; 4(1).",
+            "process_entry": "True",
+            "xmlid": "CIT0021"
+        },
+        {
+            "bibentry": "Alletag, MJ, Auerbach, M, Baum, CR. Ketamine, propofol, and ketofol use for pediatric sedation. Pediatr Emerg Care. 2012; 28(12): 1391–1395. PMID: 23222112",
+            "process_entry": "True",
+            "doi": "10.1097/pec.0b013e318276fde2",
+            "pmid": "23222112",
+            "xmlid": "CIT0022"
+        },
+        {
+            "bibentry": "Gokcinar, D, Ergin, V, Cumaoglu, A, et al. Effects of ketamine, propofol, and ketofol on proinflammatory cytokines and markers of oxidative stress in a rat model of endotoxemia-induced acute lung injury. Acta Biochim Pol. 2013; 60(3): 451–456. PMID: 24020061",
+            "process_entry": "True",
+            "pmid": "24020061",
+            "xmlid": "CIT0023"
+        },
+        {
+            "bibentry": "Tarıkı Kılı Ebru, KR. Comparison of ketamine-propofol mixture (ketofol) and midazolam-meperidine in endoscopic retrograde cholangiopancreatography (ERCP) for oldest old patients. Ther Clin Risk Manag. 2019; 15: 755–763. PMID: 31417263",
+            "process_entry": "True",
+            "doi": "10.2147/TCRM.S201441",
+            "pmid": "31417263",
+            "pmcid": "PMC6592063",
+            "xmlid": "CIT0024"
+        },
+        {
+            "bibentry": "Oh, C, Kim, Y, Eom, H, et al. Procedural sedation using a propofol–ketamine combination (Ketofol) vs. propofol alone in the Loop Electrosurgical Excision Procedure (LEEP): a randomized controlled trial. J Clin Med. 2019; 8(7): 943.",
+            "process_entry": "True",
+            "xmlid": "CIT0025"
+        },
+        {
+            "bibentry": "Furuya, A, Matsukawa, T, Ozaki, M, et al. Intravenous ketamine attenuates arterial pressure changes during the induction of anaesthesia with propofol. Eur J Anaesthesiol. 2001; 18(2): 88–92. PMID: 11270030",
+            "process_entry": "True",
+            "doi": "10.1046/j.0265-0215.2000.00784.x",
+            "pmid": "11270030",
+            "xmlid": "CIT0026"
+        },
+        {
+            "bibentry": "Lee, J, Park, H-P, Jeong, M-H, et al. Efficacy of ketamine for postoperative pain following robotic thyroidectomy: A prospective randomised study. J Int Med Res. 2018; 46(3): 1109–1120. PMID: 29124992",
+            "process_entry": "True",
+            "doi": "10.1177/0300060517734679",
+            "pmid": "29124992",
+            "pmcid": "PMC5972244",
+            "xmlid": "CIT0027"
+        },
+        {
+            "bibentry": "Akin, A, Esmaoglu, A, Guler, G, et al. Propofol and propofol–ketamine in pediatric patients undergoing cardiac catheterization. Pediatr Cardiol. 2005; 26(5): 553–557. PMID: 16132313",
+            "process_entry": "True",
+            "doi": "10.1007/s00246-004-0707-4",
+            "pmid": "16132313",
+            "xmlid": "CIT0028"
+        },
+        {
+            "bibentry": "Daabiss, M, Elsherbiny, M, Alotibi, R. Assessment of different concentration of ketofol in procedural operation. Br J Med Pract. 2009; 2(1): 27–31.",
+            "process_entry": "True",
+            "xmlid": "CIT0029"
+        },
+        {
+            "bibentry": "Ghojazadeh, M, Sanaie, S, Paknezhad, SP, et al. Using ketamine and propofol for procedural sedation of adults in the emergency department: a systematic review and meta-analysis. Adv Pharm Bull. 2019; 9(1): 5–11. PMID: 31011553",
+            "process_entry": "True",
+            "doi": "10.15171/apb.2019.002",
+            "pmid": "31011553",
+            "pmcid": "PMC6468222",
+            "xmlid": "CIT0030"
+        },
+        {
+            "bibentry": "Mortero, RF, Clark, LD, Tolan, MM, et al. The effects of small-dose ketamine on propofol sedation: respiration, postoperative mood, perception, cognition, and pain. Anesthesia Analg. 2001; 92(6): 1465–1469.",
+            "process_entry": "True",
+            "xmlid": "CIT0031"
+        },
+        {
+            "bibentry": "Akin, A, Guler, G, Esmaoglu, A, et al. A comparison of fentanyl-propofol with a ketamine-propofol combination for sedation during endometrial biopsy. J Clin Anesth. 2005; 17(3): 187–190. PMID: 15896585",
+            "process_entry": "True",
+            "doi": "10.1016/j.jclinane.2004.06.019",
+            "pmid": "15896585",
+            "xmlid": "CIT0032"
+        },
+        {
+            "bibentry": "Mohamed, AA. Prevention of sevoflurane agitation in children undergoing congenital hernia repair, impact of adding dexmedetomidine to caudal analgesia. Egypt J Anaesth. 2015; 31(3): 227–231.",
+            "process_entry": "True",
+            "xmlid": "CIT0033"
+        },
+        {
+            "bibentry": "Vlajkovic, G, Sindjelic, R. Emergence delirium in children: many questions, few answers. Anesthesia Analg. 2007; 104(1): 84–91.",
+            "process_entry": "True",
+            "xmlid": "CIT0034"
+        }
+    ],
+    "localid": "MED-31771436",
+    "doi": "10.1080/19932820.2019.1688450",
+    "pmid": "10.1080/19932820.2019.1688450",
+    "pmcid": "31771436",
+    "curator": "BEE EuropeanPubMedCentralProcessor",
+    "source_provider": "Europe PubMed Central",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/31771436/fullTextXML",
+    "reference_pointers": [
+        [
+            {
+                "xref_id": "CIT0001",
+                "rp_string": "1",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1,116)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0002",
+                "rp_string": "2",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),118,156)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),268,5)"
+            },
+            {
+                "xref_id": "CIT0003",
+                "rp_string": "3",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),118,156)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[2,3]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),268,5)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),664,67)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),725,5)"
+            },
+            {
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),664,67)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),725,5)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0006",
+                "rp_string": "6",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),828,221)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0007",
+                "rp_string": "7",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),828,221)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1043,5)"
+            },
+            {
+                "xref_id": "CIT0008",
+                "rp_string": "8",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),828,221)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[7,8]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1043,5)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0009",
+                "rp_string": "9",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1135,54)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1182,6)"
+            },
+            {
+                "xref_id": "CIT0010",
+                "rp_string": "10",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1135,54)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[9,10]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),1182,6)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0011",
+                "rp_string": "11",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1190,72)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0012",
+                "rp_string": "12",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1365,73)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0013",
+                "rp_string": "13",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1583,75)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0014",
+                "rp_string": "14",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1659,84)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0015",
+                "rp_string": "15",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1744,80)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0016",
+                "rp_string": "16",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1981,2147)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),2049,7)"
+            },
+            {
+                "xref_id": "CIT0017",
+                "rp_string": "17",
+                "rp_xpath": "/article/body/sec[1]/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[1]),1981,2147)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                },
+                "pl_string": "[16,17]",
+                "pl_xpath": "substring(string(/article/body/sec[1]/p[1]),2049,7)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),1,285)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0019",
+                "rp_string": "19",
+                "rp_xpath": "/article/body/sec[1]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[1]/p[2]),416,234)",
+                "containers_title": {
+                    "/article/body/sec[1]/title": "Introduction"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0020",
+                "rp_string": "20",
+                "rp_xpath": "/article/body/sec[2]/sec[5]/p/xref",
+                "context_xpath": "substring(string(/article/body/sec[2]/sec[5]/p),215,322)",
+                "containers_title": {
+                    "/article/body/sec[2]/title": "Methodology and procedure",
+                    "/article/body/sec[2]/sec[5]/title": "Observations"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0021",
+                "rp_string": "21",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1,172)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),280,123)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),395,7)"
+            },
+            {
+                "xref_id": "CIT0023",
+                "rp_string": "23",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),280,123)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[22,23]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),395,7)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[4]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),404,112)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),510,5)"
+            },
+            {
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[5]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),404,112)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[4,5]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),510,5)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0024",
+                "rp_string": "24",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[6]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),987,109)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0025",
+                "rp_string": "25",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[7]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1264,268)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0026",
+                "rp_string": "26",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[8]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1533,280)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0027",
+                "rp_string": "27",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[9]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1533,280)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0028",
+                "rp_string": "28",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[10]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),1814,189)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0029",
+                "rp_string": "29",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[11]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),2302,319)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0005",
+                "rp_string": "5",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[12]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),2944,74)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0030",
+                "rp_string": "30",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[13]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3133,242)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                }
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0031",
+                "rp_string": "31",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[14]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3376,188)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),3556,7)"
+            },
+            {
+                "xref_id": "CIT0032",
+                "rp_string": "32",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[15]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3376,188)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[31,32]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),3556,7)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0033",
+                "rp_string": "33",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[16]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3981,120)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[33,34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),4093,7)"
+            },
+            {
+                "xref_id": "CIT0034",
+                "rp_string": "34",
+                "rp_xpath": "/article/body/sec[4]/p[1]/xref[17]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[1]),3981,120)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[33,34]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[1]),4093,7)"
+            }
+        ],
+        [
+            {
+                "xref_id": "CIT0004",
+                "rp_string": "4",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[1]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),117,134)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[4,18,22]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),241,9)"
+            },
+            {
+                "xref_id": "CIT0018",
+                "rp_string": "18",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[2]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),117,134)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[4,18,22]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),241,9)"
+            },
+            {
+                "xref_id": "CIT0022",
+                "rp_string": "22",
+                "rp_xpath": "/article/body/sec[4]/p[2]/xref[3]",
+                "context_xpath": "substring(string(/article/body/sec[4]/p[2]),117,134)",
+                "containers_title": {
+                    "/article/body/sec[4]/title": "Discussion"
+                },
+                "pl_string": "[4,18,22]",
+                "pl_xpath": "substring(string(/article/body/sec[4]/p[2]),241,9)"
+            }
+        ]
+    ]
+}
