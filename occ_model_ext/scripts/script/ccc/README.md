@@ -1,6 +1,3 @@
-## QUESTIONS
-
-
 
 ## NOTES
 
@@ -15,27 +12,27 @@
 
 ## TODO
 
-
- * JSON-LD to be converted in ntriples
- * REVIEW WITH SP whether the structure of folders is correct: IMHO there are too many..
- * merge with fabio's graphlib : prov, labels, other boolean values here and there
+ * [FIX] We got an HTTP error when retrieving data (HTTP status code: 404): is this an actual problem of mine?
+ * triplestore per silvio/ david con un 1000 paper
+ * [ADD] control doi2doi self citation
+ * merge with fabio's graphlib : prov, labels, storer (save in nt11) other boolean values here and there
 
 ### Christmas homework
 
- * jats2oc.py - remove n_rp
- * jats2oc.py - check mistakes in pl_string bee
- * jats2oc.py - refactor extract_intext_refs() in functions
- * jats2oc.py - run BEE
- * [HOW?] Test precision of BEE and consistency of results in spacin
- * [HOW?] graphlib - trick for json labels (part of/reference)
+ * evaluation on lists (compare cites and the presence of rp for that link)
+
+ * jats2oc.py - BEE: remove n_rp
+ * jats2oc.py - BEE: check mistakes in pl_string bee
+ * jats2oc.py - BEE: refactor extract_intext_refs() in functions
+ * jats2oc.py - BEE: method for running BEE on a directory
+
  * config_spacin and ocdm/config - change folder names for production
 
 
 ### FUTURE
 
  * run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
- * speed up BEE by using a directory (new method)
- * review queries to crossref
+
 
 ## DONE
 
@@ -58,6 +55,12 @@
  * ci modify support find_paths() for ci
  * graphlib - add methods for annotations (hasBody and hasAnnotation) and control prefixes everywhere
  * hasNext in graphlib and add in script
+ * change add_ci to work without /n_rp
+ * send prov to fabio
+ * remove text search to api crossref
+ * [FIX] WARNING:rdflib.term:https://w3id.org/oc/ccc/ci/07085-07089/Europe PubMed Central does not look like a valid URI,
+ * [FIX] id-counter wrong folders
+ * [FIX] ci folder structure: review regex find_paths : ci/070/10000/1000.json
 
 ## PLAN
 

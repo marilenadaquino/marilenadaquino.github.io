@@ -368,7 +368,7 @@ def elem_to_type(xpath):
 	if len(cl) != 0:
 		return cl[0]
 	else:
-		return Graphlib.discourse_element
+		return GraphEntity.discourse_element
 
 
 def get_subxpath_from(string):

@@ -27,6 +27,37 @@
 						<span class="image fill" data-position="center"><img src="images/raccoonicorn.jpg" alt="" /></span>
 					</div>
 				</section>
+
+				<section id="w24">
+					<header>
+						<h2>#w24</h2>
+					</header>
+					<div class="content">
+						<p><strong>December 16, 2019 - December 20, 2019</strong></p>
+						<h3>Finalising SPACIN</h3>
+						<p><strong>Removed the text search to crossref api</strong> to speed up the query <u>only for the ccc corpus
+							(i.e. when the parameter <code>intext_refs=True</code> )</u>
+							(this is a provisory solution, let's decide whether to make a parameter for letting users decide it or not).
+							We might consider the possibility to develop another script for doing the <u>reconciliation</u> job in parallel
+							(i.e. while SPACIN works for creating the corpus, another script runs queries to the API for reconciling entities:
+							integrating the entity with DOI and other IDS if found on crossref,
+							and substituting all the duplicate entities (and related triples) in the corpus with the first occurrence of the found paper)</p>
+							<p>Finally I think I sorted that problem in the creation of folders even for the new entities (citations). Easy peasy</p>
+						<h3>Refactoring and refining other scripts</h3>
+						<p>changed method <code>_add_ci</code> to work without n_rp and create a <code>cito:citation</code> and a <code>oa:Annotation</code>
+							(1) to link only citation and bibliographic entry (OCI), and (2) for each rp denoting the bibliographic entry (intrepid)</p>
+							<p>Downloaded the oa_bulk non commercial from <a href="ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/">PMC</a>,
+								I'll start creating the script for running BEE on the dump rather than from the API.</p>
+						<h3>Preparing test RDF dataset for evaluation</h3>
+						<p>Preparing a test RDF dataset for evaluation purposes and for tuning the OCI resolver (SP)</p>
+						<p>The evaluation will focus on precision in extracting lists of pointers and catch all the possible exceptions.
+							It will be based on the table of cases described below, and on the evaluation of a random sampling where we double-check
+						that general citations (e.g. 0701-0705) always correspond to at least one pointer (i.e. 0701-0705/1). Should this not be the case,
+						we control if the mistake is ours (we didn't extract the pointer correctly) or is an author's mistake
+						(i.e. the author included a paper in the references section but s/he never cited the paper in the text)</p>
+					</div>
+				</section>
+
 				<section id="w23">
 					<header>
 						<h2>#w23</h2>

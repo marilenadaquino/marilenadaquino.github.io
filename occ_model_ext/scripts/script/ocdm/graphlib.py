@@ -422,9 +422,10 @@ class GraphEntity(object):
         create_type(self.g, self.res, res_type)
 
     # new
-    def _create_annotation(self, be_res, rp_res, ci_res):
+    def _create_annotation(self, be_res, ci_res, rp_res=None):
         self.g.add(( URIRef(str(be_res)), GraphEntity.has_annotation, self.res))
-        self.g.add(( URIRef(str(rp_res)), GraphEntity.has_annotation, self.res))
+        if rp_res:
+            self.g.add(( URIRef(str(rp_res)), GraphEntity.has_annotation, self.res))
         self.g.add(( self.res, GraphEntity.has_body, URIRef(str(ci_res))))
 
     def _create_citation(self, citing_res, cited_res):
@@ -523,7 +524,7 @@ class GraphSet(object):
         return self._add(self.g_br, GraphEntity.expression, res, resp_agent,
                         source_agent, source, self.br_info_path, "br")
 
-    def add_ci(self, resp_agent, citing_res, cited_res, rp_num, source_agent=None, source=None, res=None): # new
+    def add_ci(self, resp_agent, citing_res, cited_res, rp_num=None, source_agent=None, source=None, res=None): # new
         return self._add_ci(self.g_ci, GraphEntity.citation, citing_res, cited_res, rp_num, res, resp_agent,
                         source_agent, source, self.ci_info_path, "ci")
 
@@ -843,7 +844,7 @@ class ProvSet(GraphSet):
     # def add_cr(self, resp_agent=None, prov_subject=None, res=None):
     #     return self._add_prov("cr", ProvEntity.association, res, resp_agent, prov_subject)
 
-    def generate_provenance(self, c_time=None, do_insert=True, remove_entity=False, resp_agent=None):
+    def generate_provenance(self, resp_agent, c_time=None, do_insert=True, remove_entity=False):
         time_string = '%Y-%m-%dT%H:%M:%S'
         if c_time is None:
             cur_time = datetime.now().strftime(time_string)
@@ -874,7 +875,7 @@ class ProvSet(GraphSet):
             cur_snapshot.create_generation_time(cur_time)
             if cur_subj.source is not None:
                 cur_snapshot.has_primary_source(cur_subj.source)
-
+            cur_snapshot.has_resp_agent(resp_agent)
             ## Associations
             #cur_curator_ass = None
             #cur_source_ass = None
@@ -882,7 +883,7 @@ class ProvSet(GraphSet):
             # if cur_subj.resp_agent is not None:
             #     cur_snapshot.has_resp_agent(cur_subj.resp_agent)
             # else:
-            cur_snapshot.has_resp_agent(resp_agent)
+
             #     # cur_curator_ass = self.add_cr(self.cur_name, cur_subj)
             #     # cur_curator_ass.has_role_type(ProvEntity.curator)
             #     cur_curator_agent_res = self.rf.retrieve_provenance_agent_from_name(cur_subj.resp_agent)

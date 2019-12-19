@@ -176,7 +176,7 @@ class CrossrefProcessor(FormatProcessor):
         else:  # No DOI has been specified for the citing resource
             self.reperr.add_sentence("No DOI has been specified for the citing resource.")
 
-    def process_references(self):
+    def process_references(self, do_process_entry=True):
         result = []
 
         for full_entry in self.entries:
@@ -185,9 +185,10 @@ class CrossrefProcessor(FormatProcessor):
             cur_res = None
 
             entry = dg(full_entry, ["bibentry"])
-            do_process_entry = True
+            if self.intext_refs:
+                do_process_entry = False
             process_string = dg(full_entry, ["process_entry"])
-            if process_string is not None:
+            if process_string is not None and self.intext_refs == False:
                 do_process_entry = process_string.lower().strip() == "true"
             provided_doi = dg(full_entry, ["doi"])
             provided_pmid = dg(full_entry, ["pmid"])

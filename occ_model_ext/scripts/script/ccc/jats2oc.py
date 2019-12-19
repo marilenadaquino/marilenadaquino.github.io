@@ -349,12 +349,16 @@ class Jats2OC(object):
 			if "context_xpath" in dict_pointer:
 				context = Jats2OC.create_context(graph, citing_entity, cur_rp, dict_pointer["context_xpath"], de_resources, containers_title, resp_agent, source_provider, source)
 		for cited_entity, xmlid, be in cited_entities_xmlid_be:
+			gen_an = graph.add_an(resp_agent, source_provider, source)
+			gen_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, source_agent=source_provider, source=source)
+			gen_ci._create_citation(citing_entity, cited_entity)
+			gen_an._create_annotation(be, gen_ci)
 			if dict_pointer["xref_id"] == xmlid:
 				cur_rp.denotes_be(be)
 				cur_an = graph.add_an(resp_agent, source_provider, source)
 				cur_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, rp_num, source_provider, source)
 				cur_ci._create_citation(citing_entity, cited_entity)
-				cur_an._create_annotation(be, cur_rp, cur_ci)
+				cur_an._create_annotation(be, cur_ci, cur_rp)
 		return cur_rp
 
 
@@ -396,14 +400,17 @@ class Jats2OC(object):
 
 	@staticmethod
 	def create_hierarchy(graph, citing_entity, de_res, xpath_string, de_resources, containers_title, resp_agent=None, source_provider=None, source=None):
-		if xpath_string != '/article/body' and xpath_string != '/':
+		if Jats2OC.is_path(xpath_string) and xpath_string != '/':
 			cur_el = Jats2OC.de_finder(graph, citing_entity, xpath_string, de_resources,containers_title, resp_agent, source_provider, source)
 			if cur_el != None:
 				de_res.contained_in_discourse_element(cur_el)
 				hierarchy = Jats2OC.create_hierarchy(graph, citing_entity, cur_el, conf.get_subxpath_from(xpath_string), de_resources, containers_title, resp_agent, source_provider, source)
-				if '/' not in xpath_string.split("/article/body/",1)[1] :
+				if xpath_string.count('/') == 3: # e.g. "/article/body/sec"
 					citing_entity.contains_discourse_element(cur_el)
 
+	@staticmethod
+	def is_path(xpath):
+		return re.search("^\/[^/]+/?[^/]+$", xpath) is None # if not '/article/body' or '/article/back'
 
 	@staticmethod
 	def retrieve_rp_occurrence(be_ids, rp_dict):
@@ -418,13 +425,11 @@ class Jats2OC(object):
 
 	@staticmethod
 	def create_following_sibling(reference_pointer_list, de_resources):
-		list_xpaths = [conf.get_subxpath_from(rp["context_xpath"]).replace("/article/body","") for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
+		base_xpath = "(/\w+/\w+)(.*)$"
+		list_xpaths = [re.sub(base_xpath, "", conf.get_subxpath_from(rp["context_xpath"])) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
 		list_subpaths = [ Jats2OC.recursive_split(xpath) for xpath in list_xpaths ]
-		print("list_subpaths",list_subpaths)
 		list_siblings = zip(*list_subpaths)
-		print("list_siblings",list_siblings)
 		for siblings_tuple in list_siblings:
-			print("siblings_tuple",siblings_tuple)
 			for pos, sibling in enumerate(siblings_tuple):
 				if pos < len(siblings_tuple)-1 and sibling != siblings_tuple[pos+1]:
 					cur_de, next_de = Jats2OC.map_to_de(siblings_tuple[pos], de_resources) , Jats2OC.map_to_de(siblings_tuple[pos+1], de_resources)
@@ -434,7 +439,8 @@ class Jats2OC(object):
 
 	@staticmethod
 	def map_to_de(xpath,de_resources):
-		cur_de = [de_uri for de_path, de_uri in de_resources if '/article/body'+xpath == de_path]
+		base_xpath = "(/\w+/\w+)(.*)$"
+		cur_de = [de_uri for de_path, de_uri in de_resources if xpath == re.sub(base_xpath, "", de_path) ]
 		if len(cur_de) == 0:
 			return None
 		return cur_de[0]
