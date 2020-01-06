@@ -36,9 +36,9 @@ class Jats2OC(object):
 		for parent_el, parent_el_path in parent_pl_set: # sup w/ comma or dash separated xref [TEST 4]
 			pl_string = ET.tostring(parent_el, method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
 			pl_xpath = self.et.getpath(parent_el)
-			context_xpath = conf.xpath_sentence(parent_el, self.root, conf.abbreviations_list_path, None)
+			context_xpath = Jats2OC.xpath_sentence(parent_el, self.root, conf.abbreviations_list_path, None)
 			containers_title = Jats2OC.find_container_title(parent_el, conf.section_tag, self.root)
-			parent_el_list = Jats2OC.parent_pl(root, pl_string, pl_xpath, parent_pl_set, rp_list)
+			parent_el_list = Jats2OC.parent_pl(self.root, pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list)
 			self.metadata.append(parent_el_list)
 
 		# 2. pl in xref (already found)
@@ -63,7 +63,6 @@ class Jats2OC(object):
 				tails = [self.root.xpath('/'+xref+conf.rp_tail)[0] if self.root.xpath('/'+xref+conf.rp_tail) else '' for xref in xref_in_sent]
 
 				end_separator = Jats2OC.rp_end_separator(tails) # includes also end_separator = ''
-				print(xref_list[0]['rp_string'],end_separator)
 				if len(end_separator) != 0 and end_separator[0][0] not in list(string.ascii_letters) and end_separator[0][0] not in list(string.digits): # separators
 					context = [Jats2OC.clean_list(self.root.xpath('/'+xref+' | /'+xref+conf.rp_tail)) for xref in xref_in_sent]
 					context = [y for x in context for y in x]
@@ -73,7 +72,7 @@ class Jats2OC(object):
 					rp_groups_and_types = Jats2OC.add_group_type(rp_groups) # TODO when it's both a list and a sequence	e.g. 31243649
 					groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups_and_types] # remove separators
 					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata, groups, rp_list, end_separator)
-					print(groups)
+
 				else: # no separator / weird separators
 					groups = Jats2OC.handle_no_separators(self.root, xref_in_sent)[0]
 					lonely = Jats2OC.handle_no_separators(self.root, xref_in_sent)[1]
@@ -181,7 +180,7 @@ class Jats2OC(object):
 
 
 	@staticmethod
-	def parent_pl(root,  pl_string, pl_xpath, parent_pl_set, rp_list):
+	def parent_pl(root,  pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list):
 		parent_el_list = []
 		for xref_el in parent_el:
 			n_rpn = [rp["n_rp"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
@@ -243,7 +242,6 @@ class Jats2OC(object):
 				rp_dicts = [rp for rp in rp_list for elem in elems_path if "rp_xpath" in rp.keys() and rp["rp_xpath"] == elem]
 				for rp in rp_dicts: # N.B. no separators end up here too
 					rp["pl_string"] = Jats2OC.xpath_list(rp["xml_element"], root, end_separator)[0]
-					print(rp["pl_string"])
 					rp["pl_xpath"] = Jats2OC.xpath_list(rp["xml_element"], root, end_separator)[1]
 
 
@@ -290,31 +288,31 @@ class Jats2OC(object):
 				if root.xpath('/'+xref+'/sup/text()'):
 					groups.append(["1",xref, (root.xpath('/'+xref+'/sup/text()')[0]) ]) # start
 				else:
-					groups.append(["1",xref, (root.xpath('/'+xref+'/text()')[0]) ])
+					groups.append(["1",xref, (root.xpath('/'+xref+'//text()')[0]) ])
 			elif len(root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) == 0 \
 				and len(root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) == 0:
 				if root.xpath('/'+xref+'/sup/text()'):
 					lonely.append(["0",xref, (root.xpath('/'+xref+'/sup/text()')[0]) ]) # alone
 				else:
-					lonely.append(["0",xref, (root.xpath('/'+xref+'/text()')[0]) ]) # mistakes in lists with separators (e.g. 31411129, sec[1]/p[1]/xref[3])
+					lonely.append(["0",xref, (root.xpath('/'+xref+'//text()')[0]) ]) # mistakes in lists with separators (e.g. 31411129, sec[1]/p[1]/xref[3])
 			elif len(root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) != 0 \
 				and len(root.xpath('/'+xref+'/preceding-sibling::*[1][text() = ","]')) != 0:
 				if root.xpath('/'+xref+'/sup/text()'):
 					groups.append(["2",xref, (root.xpath('/'+xref+'/sup/text()')[0]) ]) # inlist
 				else:
-					groups.append(["2",xref, (root.xpath('/'+xref+'/text()')[0]) ])
+					groups.append(["2",xref, (root.xpath('/'+xref+'//text()')[0]) ])
 			elif len(root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) == 0 \
 				and len(root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) != 0:
 				if root.xpath('/'+xref+'/sup/text()'):
 					groups.append(["3",xref, (root.xpath('/'+xref+'/sup/text()')[0]) ]) # last
 				else:
-					groups.append(["3",xref, (root.xpath('/'+xref+'/text()')[0]) ]) # last
+					groups.append(["3",xref, (root.xpath('/'+xref+'//text()')[0]) ]) # last
 			else: # only rp
 				if len(root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]')) != 0 \
 					and len(root.xpath('/'+xref+'/preceding-sibling::*[1][contains(text(), ",")]')) != 0:
-					groups.append(["1",xref, (root.xpath('/'+xref+'/sup/text()')[0]) ])
+					groups.append(["1",xref, (root.xpath('/'+xref+'//text()')[0]) ])
 				else:
-					lonely.append([ "0",xref, (root.xpath('/'+xref+'/sup/text()')[0]) ])
+					lonely.append([ "0",xref, (root.xpath('/'+xref+'//text()')[0]) ])
 		return groups, lonely
 
 
@@ -430,7 +428,7 @@ class Jats2OC(object):
 			start_sent = 1
 		elif len(string_before) != 0 and string_before.isspace():
 			str_before = string_before
-			start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+first_el )][-1])+1
+			start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1])+1
 		else:
 			str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
 			start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
@@ -718,7 +716,7 @@ class Jats2OC(object):
 			intrepid = citing_count+'-'+cited_count+'/'+rp_num+'-'+rp_total_occurrence
 			cur_id = graph.add_id(resp_agent, source_provider, source)
 			cur_id.create_intrepid(intrepid)
-			cur_res.has_id(cur_id)
+			cur_rp.has_id(cur_id)
 
 
 	@staticmethod
