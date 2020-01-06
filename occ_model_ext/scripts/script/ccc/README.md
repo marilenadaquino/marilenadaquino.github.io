@@ -1,31 +1,23 @@
-
 ## NOTES
 
 * URI of the new corpus = https://w3id.org/oc/ccc/
 * prefix of ccc 070
 * NOTE FOR Silvio: provided_url to be changed
 
-* should I look in the triplestore for disambiguating pl/rp? NO
-* xpaths are identifier that can be shared. I create a new identifier everytime (YES)
-* who has hasNext? rp in pl, de at same level
-* the hierarchy of de is for both pl and rp or just for pl when it exists? and sentence? only pl when is pl, otherwise rp
-
 ## TODO
 
- * [FIX] We got an HTTP error when retrieving data (HTTP status code: 404): is this an actual problem of mine?
- * triplestore per silvio/ david con un 1000 paper
+
+ * [FIX] all pl exceptions
+ * does not upload the provenance
  * [ADD] control doi2doi self citation
- * merge with fabio's graphlib : prov, labels, storer (save in nt11) other boolean values here and there
 
 ### Christmas homework
 
  * evaluation on lists (compare cites and the presence of rp for that link)
-
- * jats2oc.py - BEE: remove n_rp
+ * check if intrepid works correctly
  * jats2oc.py - BEE: check mistakes in pl_string bee
- * jats2oc.py - BEE: refactor extract_intext_refs() in functions
  * jats2oc.py - BEE: method for running BEE on a directory
-
+ * run BEE on directory and provide folder for deployment and run SPACIN
  * config_spacin and ocdm/config - change folder names for production
 
 
@@ -33,9 +25,14 @@
 
  * run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
 
-
 ## DONE
 
+ * [FIX] no xmlid of be for intermediate
+ * [FIX] duplicate rp
+ * jats2oc.py - BEE: refactor extract_intext_refs() in functions
+ * jats2oc.py - BEE: move all methods in conf in jats2oc.py and change prefix
+ * add intrepid when creating the oci of the citation
+ * BUG! http://localhost:9999/blazegraph/#explore:kb:%3Chttps://w3id.org/oc/ccc/be/0701%3E random annotations created for the same citation
  * remove all labels from data
  * simplify ProvSet
  * remove useless methods in conf_bee
@@ -61,13 +58,14 @@
  * [FIX] WARNING:rdflib.term:https://w3id.org/oc/ccc/ci/07085-07089/Europe PubMed Central does not look like a valid URI,
  * [FIX] id-counter wrong folders
  * [FIX] ci folder structure: review regex find_paths : ci/070/10000/1000.json
+ * jats2oc.py - BEE: remove n_rp
+ * [7/1/2020] speed up CrossrefProcessor (text search)
 
 ## PLAN
 
-* [14/12/2019] storer da fabio, e dare graphlib senza prov a fabio
-* [7/1/2020] speed up CrossrefProcessor (text search) + preliminary questions per Leiden: cosa vi potrebbe interessare?
+* [14/12/2019] merge with fabio's graphlib : prov, labels, storer (save in nt11) other boolean values here and there
+* [7/1/2020] preliminary questions to Leiden: what data would you like to access?
 * [14/1/2020] deploy BEE/SPACIN on production: change config SPACIN, create new blazegraph (ccc.properties uguale al corpus)
-* [entro febbraio?] merge con Fabio
-* [20/1/2020] API Ramose (locally) + custom interesting per noi
-* [1/2/2020] API Ramose (remote) + accordi con Leiden / Cambridge
+* [20/1/2020] API Ramose (locally) + custom interesting stuff to provide
+* [1/2/2020] API Ramose (remote) + agree w/ Leiden / Cambridge
 * write papers? ISWC? Journal

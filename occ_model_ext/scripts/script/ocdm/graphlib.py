@@ -65,6 +65,7 @@ class GraphEntity(object):
     pmcid = DATACITE.pmcid
     orcid = DATACITE.orcid
     xpath = DATACITE["local-resource-identifier-scheme"] # new
+    intrepid = DATACITE["intrepid"] # new
     xmlid = DATACITE["local-resource-identifier-scheme"] # new
     has_identifier = DATACITE.hasIdentifier
     identifier = DATACITE.Identifier
@@ -311,7 +312,10 @@ class GraphEntity(object):
         self._create_type(GraphEntity.series)
 
     def create_discourse_element(self, de_class): # new
-        self._create_type(de_class)
+        if de_class is not None:
+            self._create_type(de_class)
+        else:
+            self._create_type(GraphEntity.discourse_element)
 
     def create_sentence(self): # new
         self._create_type(GraphEntity.sentence)
@@ -354,6 +358,9 @@ class GraphEntity(object):
 
     def create_xpath(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xpath)
+
+    def create_intrepid(self, string): # new
+        return self._associate_identifier_with_scheme(string, GraphEntity.intrepid)
 
     def create_xmlid(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xmlid)
