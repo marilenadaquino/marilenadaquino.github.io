@@ -25,6 +25,7 @@
 
 ## DONE
 
+
  * check if intrepid works correctly
  * normalise DOI in bee:
   try:
@@ -66,11 +67,12 @@
  * [FIX] ci folder structure: review regex find_paths : ci/070/10000/1000.json
  * jats2oc.py - BEE: remove n_rp
  * [7/1/2020] speed up CrossrefProcessor (text search)
+ * [14/12/2019] merge with fabio's graphlib, storer (save in nt11) and support
+ * [7/1/2020] preliminary questions to Leiden: what data would you like to access?
 
 ## PLAN
 
-* [14/12/2019] merge with fabio's graphlib : prov, labels, storer (save in nt11) other boolean values here and there
-* [7/1/2020] preliminary questions to Leiden: what data would you like to access?
+
 * [14/1/2020] deploy BEE/SPACIN on production: change config SPACIN, create new blazegraph (ccc.properties uguale al corpus)
 * [20/1/2020] API Ramose (locally) + custom interesting stuff to provide
 * [1/2/2020] API Ramose (remote) + agree w/ Leiden / Cambridge
