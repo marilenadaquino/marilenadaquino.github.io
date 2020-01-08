@@ -1,23 +1,21 @@
 ## NOTES
 
-* URI of the new corpus = https://w3id.org/oc/ccc/
-* prefix of ccc 070
-* NOTE FOR Silvio: provided_url to be changed
+* disambiguation of be? the case of two be referencing the same paper (13 out of 4018, i.e. 0.3%)
+
+## NOTE FOR Silvio
+
+ * [DONE] provided_url to be changed
+ * add intrepid to datacite
 
 ## TODO
 
-
  * [FIX] all pl exceptions
- * does not upload the provenance
  * [ADD] control doi2doi self citation
 
 ### Christmas homework
 
  * evaluation on lists (compare cites and the presence of rp for that link)
- * check if intrepid works correctly
  * jats2oc.py - BEE: check mistakes in pl_string bee
- * jats2oc.py - BEE: method for running BEE on a directory
- * run BEE on directory and provide folder for deployment and run SPACIN
  * config_spacin and ocdm/config - change folder names for production
 
 
@@ -27,6 +25,14 @@
 
 ## DONE
 
+ * check if intrepid works correctly
+ * normalise DOI in bee:
+  try:
+      doi_string = sub("\0+", "", sub("\s+", "", unquote(id_string[id_string.index("10."):])))
+      return "%s%s" % (self.p if include_prefix else "", doi_string.lower().strip())
+  except:  # Any error in processing the DOI will return None
+      return None
+ * remove be > hasAnnotation > oci/n for all the annotations related to rp
  * [FIX] no xmlid of be for intermediate
  * [FIX] duplicate rp
  * jats2oc.py - BEE: refactor extract_intext_refs() in functions

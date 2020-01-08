@@ -15,7 +15,7 @@
 # SOFTWARE.
 
 from script.bee.refproc import ReferenceProcessor
-from script.ccc.jats2oc import Jats2OC
+from script.ccc.jats2oc import Jats2OC , normalise_doi
 from script.support.support import get_data, encode_url
 from script.support.support import dict_get as dg
 import os
@@ -116,13 +116,13 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
         while True:
             if self.stopper.can_proceed():
                 cur_page = self.__get_next_page()
-                
+
                 result, cur_get_url = self.__get_data_from_page(cur_page, oa)
                 # Re-run the query with the first page,
                 # since a wrong page can be specified
                 if result is None:
                     result, cur_get_url = self.__get_data_from_page("*", oa)
-                
+
                 # Proceed only if there were no problems in getting the data, otherwise stop
                 if result is not None:
                     papers_retrieved = dg(result, ["resultList", "result"])
@@ -131,7 +131,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                             if self.stopper.can_proceed():
                                 cur_id = dg(paper, ["id"])
                                 cur_source = dg(paper, ["source"])
-                                cur_doi = dg(paper, ["doi"])
+                                cur_doi = normalise_doi(dg(paper, ["doi"]))
                                 cur_pmid = dg(paper, ["pmid"])
                                 cur_pmcid = dg(paper, ["pmcid"])
                                 self.process_article(cur_id, cur_source, cur_doi, cur_doi, cur_pmid, cur_pmcid, oa)
@@ -262,7 +262,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         ref_doi = None
                         ref_pmcid = None
                         ref_url = None
-                        ref_xmlid = None 
+                        ref_xmlid = None
 
                         ref_pmid_el = reference.xpath(".//pub-id[@pub-id-type='pmid']")
                         if len(ref_pmid_el):
@@ -270,7 +270,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                                 ref_pmid_el[0], method="text", encoding='unicode').strip()
                             if ref_pmid != "":
                                 ref_paper_ids = self.__get_paper_data("MED", ref_pmid)
-                                ref_doi = ref_paper_ids["doi"]
+                                ref_doi = normalise_doi(ref_paper_ids["doi"])
                                 ref_pmcid = ref_paper_ids["pmcid"]
                             else:
                                 ref_pmid = None
@@ -278,8 +278,8 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         if ref_doi is None:
                             ref_doi_el = reference.xpath(".//pub-id[@pub-id-type='doi']")
                             if len(ref_doi_el):
-                                ref_doi = etree.tostring(
-                                    ref_doi_el[0], method="text", encoding='unicode').lower().strip()
+                                ref_doi = normalise_doi(etree.tostring(
+                                    ref_doi_el[0], method="text", encoding='unicode').lower().strip())
                                 if ref_doi == "":
                                     ref_doi = None
 
@@ -310,15 +310,15 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         self.rs.add_reference(entry_text, process_entry_text,
                                               None, ref_doi, ref_pmid, ref_pmcid, ref_url, ref_xmlid)
 
-                     
+
                     if intext_refs and len(reference_pointers):
-                        self.rs.new_ref_pointer_list() # create empty list 
-                        jats = Jats2OC(cur_xml) # add result to self.ref_pointer_list  
+                        self.rs.new_ref_pointer_list() # create empty list
+                        jats = Jats2OC(cur_xml) # add result to self.ref_pointer_list
                         for x in jats.extract_intext_refs():
                             self.rs.ref_pointer_list.append(x)
                     return xml_source_url
-                
-    
+
+
     def process_references(self, cur_source, cur_id):
         ref_list_url = self.ref_list_api.replace(
             "XXX", cur_source).replace("YYY", cur_id)
@@ -343,12 +343,12 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
 
                     paper_ids = self.__get_paper_data(ref_source, ref_id)
 
-                    ref_doi = paper_ids["doi"]
+                    ref_doi = normalise_doi(paper_ids["doi"])
                     ref_pmid = paper_ids["pmid"]
                     ref_pmcid = paper_ids["pmcid"]
                 else:
                     ref_localid = None
-                    ref_doi = dg(reference, ["doi"])
+                    ref_doi = normalise_doi(dg(reference, ["doi"]))
                     ref_pmid = dg(reference, ["pmid"])
                     ref_pmcid = dg(reference, ["pmcid"])
                 ref_url = dg(reference, ["externalLink"])

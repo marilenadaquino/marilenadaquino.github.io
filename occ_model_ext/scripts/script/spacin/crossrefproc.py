@@ -228,13 +228,13 @@ class CrossrefProcessor(FormatProcessor):
                                      "PMCID provided as input by %s." % self.source_provider,
                                      "PMCID", provided_pmcid))
 
-            if cur_res is None and provided_url is not None:
-                cur_res = self.process_url(provided_url)
-                if cur_res is not None:
-                    self.repok.add_sentence(
-                        self.message("The entity has been found by means of the "
-                                     "URL provided as input by %s." % self.source_provider,
-                                     "URL", provided_url))
+            # if cur_res is None and provided_url is not None:
+            #     cur_res = self.process_url(provided_url)
+            #     if cur_res is not None:
+            #         self.repok.add_sentence(
+            #             self.message("The entity has been found by means of the "
+            #                          "URL provided as input by %s." % self.source_provider,
+            #                          "URL", provided_url))
 
             if cur_res is None and entry is not None:
                 if do_process_entry:
@@ -248,15 +248,15 @@ class CrossrefProcessor(FormatProcessor):
                                 self.message("The entity for '%s' has been found by means of the "
                                              "DOI extracted from it." % entry,
                                              "DOI", extracted_doi))
-                    if cur_res is None and self.get_bib_entry_url and extracted_url is not None:
-                        existing_res = self.rf.retrieve_from_url(extracted_url)
-                        if existing_res is not None:
-                            cur_res = self.g_set.add_br(
-                                self.name, self.source_provider, self.source, existing_res)
-                            self.repok.add_sentence(
-                                self.message("The entity for '%s' has been found by means of the "
-                                             "URL extracted from it." % entry,
-                                             "URL", extracted_url))
+                    # if cur_res is None and self.get_bib_entry_url and extracted_url is not None:
+                    #     existing_res = self.rf.retrieve_from_url(extracted_url)
+                    #     if existing_res is not None:
+                    #         cur_res = self.g_set.add_br(
+                    #             self.name, self.source_provider, self.source, existing_res)
+                    #         self.repok.add_sentence(
+                    #             self.message("The entity for '%s' has been found by means of the "
+                    #                          "URL extracted from it." % entry,
+                    #                          "URL", extracted_url))
 
                 else:
                     self.repok.add_sentence(

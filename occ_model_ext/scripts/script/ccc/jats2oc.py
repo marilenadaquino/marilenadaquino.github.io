@@ -657,7 +657,7 @@ class Jats2OC(object):
 			gen_an = graph.add_an(resp_agent, source_provider, source)
 			gen_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, source_agent=source_provider, source=source)
 			gen_ci._create_citation(citing_entity, cited_entity)
-			gen_an._create_annotation(be, gen_ci)
+			gen_an._create_annotation(gen_ci, be_res=be)
 
 		siblings = Jats2OC.create_following_sibling(reference_pointer_list, de_resources)
 
@@ -695,7 +695,7 @@ class Jats2OC(object):
 				cur_an = graph.add_an(resp_agent, source_provider, source)
 				cur_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, rp_num, source_provider, source)
 				cur_ci._create_citation(citing_entity, cited_entity)
-				cur_an._create_annotation(be, cur_ci, cur_rp)
+				cur_an._create_annotation(cur_ci, rp_res=cur_rp)
 
 		return cur_rp
 
@@ -834,3 +834,12 @@ class Jats2OC(object):
 			list_subpath.append(xpath)
 			Jats2OC.recursive_split(Jats2OC.get_subxpath_from(xpath), list_subpath)
 		return list(reversed(list_subpath))
+
+
+	@staticmethod
+	def normalise_doi(id_string, include_prefix=False): # taken from https://github.com/opencitations/index/blob/master/identifier/doimanager.py
+		try:
+			doi_string = re.sub("\0+", "", re.sub("\s+", "", urllib.parse.unquote(id_string[id_string.index("10."):])))
+			return doi_string.lower().strip()
+		except:  # Any error in processing the DOI will return None
+			return None

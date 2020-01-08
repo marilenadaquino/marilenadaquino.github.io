@@ -127,10 +127,14 @@ class GraphEntity(object):
     has_body = OA.hasBody # new
     has_annotation = OCO.hasAnnotation # new (inverse of OA.hasTarget)
     has_next = OCO.hasNext
+    archival_document = FABIO.ArchivalDocument ##new
+    viaf = DATACITE.viaf ##new
+    crossref = DATACITE.crossref ##new #TODO add to datacite!
+    wikidata = DATACITE.wikidata ##new #TODO add to datacite!
 
     # This constructor creates a new instance of an RDF resource
     def __init__(self, g, res=None, res_type=None, resp_agent=None, source_agent=None,
-                 source=None, count=None, label=None, short_name="", g_set=None):
+                 source=None, count=None, label=None, short_name="", g_set=None, forced_type=False):
         self.cur_name = "SPACIN " + self.__class__.__name__
         self.resp_agent = resp_agent
         self.source_agent = source_agent
@@ -158,7 +162,7 @@ class GraphEntity(object):
             g_set.res_to_entity[self.res] = self
 
         # If it is a new entity, add all the additional information to it
-        if not existing_ref:
+        if not existing_ref or forced_type:
             self._create_type(res_type)
 
             # It creates the label
@@ -305,6 +309,9 @@ class GraphEntity(object):
     def create_report_series(self):
         self._create_type(GraphEntity.series)
 
+    def create_series(self):
+        self._create_type(GraphEntity.series) ##new
+
     def create_standard(self):
         self._create_type(GraphEntity.specification_document)
 
@@ -364,6 +371,18 @@ class GraphEntity(object):
 
     def create_xmlid(self, string): # new
         return self._associate_identifier_with_scheme(string, GraphEntity.xmlid)
+
+    def create_wikidata(self, string): ##new
+        return self._associate_identifier_with_scheme(string, GraphEntity.wikidata)
+
+    def create_crossref(self, string): ##new
+        return self._associate_identifier_with_scheme(string, GraphEntity.crossref)
+
+    def create_viaf(self, string): ##new
+        return self._associate_identifier_with_scheme(string, GraphEntity.viaf)
+
+    def create_archival_document(self): ##new
+        self._create_type(GraphEntity.archival_document)
 
     def denotes_be(self, be_res):
         self.g.add((self.res, GraphEntity.denotes, URIRef(str(be_res))))
@@ -429,8 +448,9 @@ class GraphEntity(object):
         create_type(self.g, self.res, res_type)
 
     # new
-    def _create_annotation(self, be_res, ci_res, rp_res=None):
-        self.g.add(( URIRef(str(be_res)), GraphEntity.has_annotation, self.res))
+    def _create_annotation(self, ci_res, be_res=None, rp_res=None):
+        if be_res:
+            self.g.add(( URIRef(str(be_res)), GraphEntity.has_annotation, self.res))
         if rp_res:
             self.g.add(( URIRef(str(rp_res)), GraphEntity.has_annotation, self.res))
         self.g.add(( self.res, GraphEntity.has_body, URIRef(str(ci_res))))
@@ -457,7 +477,7 @@ class GraphSet(object):
         "rp": "in-text reference pointer" # new
     }
 
-    def __init__(self, base_iri, context_path, info_dir="", n_file_item=1, supplier_prefix=""):
+    def __init__(self, base_iri, context_path, info_dir="", n_file_item=1, supplier_prefix="", forced_type=False, wanted_label=True):
         self.r_count = 0
         # A list of rdflib.Graphs, one for subject entity
         self.g = []
@@ -470,7 +490,8 @@ class GraphSet(object):
         self.cur_name = "OCDM " + self.__class__.__name__
         self.n_file_item = n_file_item
         self.supplier_prefix = supplier_prefix
-
+        self.wanted_label = wanted_label ##new
+        self.forced_type = forced_type ##new
         # Graphs
         # The following structure of URL is quite important for the other classes
         # developed and should not be changed. The only part that can change is the
@@ -596,9 +617,9 @@ class GraphSet(object):
         # at the graph set level. However, a new graph is created and reserved for such resource
         # and it is added to the graph set.
         if res is not None:
-            return self._generate_entity(cur_g, res=res, resp_agent=resp_agent,
+            return self._generate_entity(cur_g, res=res, res_type=main_type, resp_agent=resp_agent,
                                          source_agent=source_agent, source=source,
-                                         list_of_entities=list_of_entities)
+                                         list_of_entities=list_of_entities, forced_type=self.forced_type)
         # This is the case when 'res_or_resp_agent' is actually a string representing the name
         # of the responsible agent. In this case, a new individual will be created.
         else:
@@ -611,34 +632,37 @@ class GraphSet(object):
             if list_of_entities:
                 count = str(GraphSet._add_number(
                     info_file_path, find_local_line_id(list_of_entities[0], self.n_file_item)))
-                # related_to_label += " related to"
-                # related_to_short_label += " ->"
-                # for idx, cur_entity in enumerate(list_of_entities):
-                #     if idx > 0:
-                #         related_to_label += ","
-                #         related_to_short_label += ","
-                #     cur_short_name = get_short_name(cur_entity)
-                #     cur_entity_count = get_count(cur_entity)
-                #     cur_entity_prefix = get_prefix(cur_entity)
-                #     related_to_label += " %s %s%s" % (self.labels[cur_short_name], cur_entity_prefix, cur_entity_count)
-                #     related_to_short_label += " %s/%s%s" % (cur_short_name, cur_entity_prefix, cur_entity_count)
+                related_to_label += " related to"
+                related_to_short_label += " ->"
+                for idx, cur_entity in enumerate(list_of_entities):
+                    if idx > 0:
+                        related_to_label += ","
+                        related_to_short_label += ","
+                    cur_short_name = get_short_name(cur_entity)
+                    cur_entity_count = get_count(cur_entity)
+                    cur_entity_prefix = get_prefix(cur_entity)
+                    related_to_label += " %s %s%s" % (self.labels[cur_short_name], cur_entity_prefix, cur_entity_count)
+                    related_to_short_label += " %s/%s%s" % (cur_short_name, cur_entity_prefix, cur_entity_count)
             else:
                 count = self.supplier_prefix + str(GraphSet._add_number(info_file_path))
 
-            # label = "%s %s%s [%s/%s%s]" % (
-            #     GraphSet.labels[short_name], count, related_to_label,
-            #     short_name, count, related_to_short_label)
-            # removing labels
+            if self.wanted_label: ##new
+                label = "%s %s%s [%s/%s%s]" % (
+                 GraphSet.labels[short_name], count, related_to_label,
+                 short_name, count, related_to_short_label)
+            else:
+                label = None
+
             return self._generate_entity(
                 cur_g, res_type=main_type, resp_agent=resp_agent, source_agent=source_agent,
-                source=source, count=count, label=None, short_name=short_name,
-                list_of_entities=list_of_entities)
-    # removing labels
+                source=source, count=count, label=label, short_name=short_name,
+                list_of_entities=list_of_entities, forced_type=self.forced_type)
+
     def _generate_entity(self, g, res=None, res_type=None, resp_agent=None, source_agent=None,
-                         source=None, count=None, label=None, short_name="", list_of_entities=[]):
+                         source=None, count=None, label=None, short_name="", list_of_entities=[], forced_type=False):
         return GraphEntity(g, res=res, res_type=res_type, resp_agent=resp_agent,
                            source_agent=source_agent, source=source, count=count,
-                           label=None, g_set=self)
+                           label=label, g_set=self, forced_type=forced_type)
 
     def graphs(self):
         result = []
@@ -813,8 +837,8 @@ class ProvEntity(GraphEntity):
 
 class ProvSet(GraphSet):
     def __init__(self, prov_subj_graph_set, base_iri, context_path, default_dir, info_dir,
-                 resource_finder, dir_split, n_file_item, supplier_prefix):
-        super(ProvSet, self).__init__(base_iri, context_path, info_dir, n_file_item, supplier_prefix)
+                 resource_finder, dir_split, n_file_item, supplier_prefix,wanted_label=True):
+        super(ProvSet, self).__init__(base_iri, context_path, info_dir, n_file_item, supplier_prefix,wanted_label=wanted_label)
         self.rf = resource_finder
         self.dir_split = dir_split
         self.default_dir = default_dir
@@ -823,20 +847,14 @@ class ProvSet(GraphSet):
             self.all_subjects.add(next(cur_subj_g.subjects(None, None)))
         self.resp = "SPACIN ProvSet"
         self.prov_g = prov_subj_graph_set
-        # GraphSet.labels.update(
-        #     {
-        #         "ca": "curatorial activity",
-        #         "pa": "provenance agent",
-        #         "cr": "curatorial role",
-        #         "se": "snapshot of entity metadata"
-        #     }
-        # )
-        # GraphSet.labels.update(
-        #     {
-        #         "pa": "provenance agent",
-        #         "se": "snapshot of entity metadata"
-        #     }
-        # )
+
+        if wanted_label: ##new
+            GraphSet.labels.update(
+                 {
+                    "pa": "provenance agent",
+                    "se": "snapshot of entity metadata"
+                }
+             )
 
     # Add resources related to provenance information
     # def add_pa(self, resp_agent=None, res=None):
@@ -1044,8 +1062,8 @@ class ProvSet(GraphSet):
         g.namespace_manager.bind("prov", ProvEntity.PROV)
 
     def _generate_entity(self, g, res=None, res_type=None, resp_agent=None, source_agent=None,
-                         source=None, count=None, label=None, short_name="", list_of_entities=[]):
+                         source=None, count=None, label=None, short_name="", list_of_entities=[],forced_type=False):
         return ProvEntity(list_of_entities[0] if list_of_entities else None, g,
                           res=res, res_type=res_type, resp_agent=resp_agent,
                           source_agent=source_agent, source=source,
-                          count=count, label=None, short_name=short_name, g_set=self)
+                          count=count, label=label, short_name=short_name, g_set=self)

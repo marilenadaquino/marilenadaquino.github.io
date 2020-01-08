@@ -54,7 +54,7 @@ try:
                                                               dir_split=dir_split_number,
                                                               n_file_item=items_per_file,
                                                               default_dir=default_dir),
-                                               dir_split_number, items_per_file, supplier_prefix)
+                                               dir_split_number, items_per_file, supplier_prefix,wanted_label=False)
                                 prov.generate_provenance(resp_agent="https://w3id.org/oc/ccc/prov/pa/0701") # TODO is it fine?
 
                                 res_storer = Storer(result,
