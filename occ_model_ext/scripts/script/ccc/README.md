@@ -1,30 +1,46 @@
 ## NOTES
+* [Q] [NO] disambiguation of be? the case of two be referencing the same paper (13 out of 4018, i.e. 0.3%)
+* [Q] [NON CI INTERESSA] WSGI server? https://flask.palletsprojects.com/en/1.1.x/deploying/
 
-* disambiguation of be? the case of two be referencing the same paper (13 out of 4018, i.e. 0.3%)
+
+## RAMOSE
+
+ * test with all the splits in the url
+ * what happens with csv error handling? cannot be visualised in browser
+ * the ACCEPT header never includes csv or json, hence the api takes what is written in the args or the default value
+
+
+
+ * [MEMO] change endpoint in cccapi.hf in production
+ * [DONE] flag per tirare su web server con flask o no.
+ * [DONE] problem: cannot start the app without the starting /.  
+   * python3 -m script.ccc.ramose -s script/ccc/ccc_v1.hf -w 127.0.0.1:8080 [throws error because the call is wrong]
+ * [DONE] if the flag for the server is selected I change the call (that starts after the /) and then Ichange it back
+   * python3 -m script.ccc.ramose -s script/ccc/ccc_v1.hf -c /api/v1/metadata/10.1080/14756366.2019.1680659 -w 127.0.0.1:8080
+
+ * [TODO] virtualenv and add requirements.txt
+ * [TODO] fork repo on github and add decode to the call string (if bytes)
+ * [DONE] cannot return a rendered result in the app and a not rendered in CLI
+ * [Q] home page with paths and doc about ramose?
+ * [TODO] add methods to cccapi.hf
 
 ## NOTE FOR Silvio
 
- * [DONE] provided_url to be changed
- * add intrepid to datacite
+ * add intrepid to datacite (and also Fabio's pids?)
 
 ## TODO
 
- * [FIX] all pl exceptions
+ * [FIX] which exceptions in pl should I resolve? see evaluation document
+  * cerca i pl che finiscono nella sentence precedente: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
+  * risolvi liste senza separatori interni (non come liste)
+  * risolvi liste e seq insieme
  * [ADD] control doi2doi self citation
-
-### Christmas homework
-
  * evaluation on lists (compare cites and the presence of rp for that link)
  * jats2oc.py - BEE: check mistakes in pl_string bee
- * config_spacin and ocdm/config - change folder names for production
-
-
-### FUTURE
-
- * run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
+ * [MEMO] config_spacin and ocdm/config - change folder names for production
+ * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
 
 ## DONE
-
 
  * check if intrepid works correctly
  * normalise DOI in bee:
@@ -69,6 +85,7 @@
  * [7/1/2020] speed up CrossrefProcessor (text search)
  * [14/12/2019] merge with fabio's graphlib, storer (save in nt11) and support
  * [7/1/2020] preliminary questions to Leiden: what data would you like to access?
+ * [DONE] provided_url to be changed
 
 ## PLAN
 
