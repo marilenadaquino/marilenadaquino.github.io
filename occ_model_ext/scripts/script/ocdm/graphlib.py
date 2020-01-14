@@ -75,7 +75,7 @@ class GraphEntity(object):
     uses_identifier_scheme = DATACITE.usesIdentifierScheme
     title = DCTERMS.title
     caption = DEO.Caption # new
-    discourse_element = DOCO.DiscourseElement # new
+    discourse_element = DEO.DiscourseElement # new
     footnote = DOCO.Footnote # new
     paragraph = DOCO.Paragraph # new
     part = DOCO.Part

@@ -4,7 +4,7 @@
 
 
 ## RAMOSE
-
+ * test RAMOSE with multiple APIs
  * test with all the splits in the url
  * what happens with csv error handling? cannot be visualised in browser
  * the ACCEPT header never includes csv or json, hence the api takes what is written in the args or the default value

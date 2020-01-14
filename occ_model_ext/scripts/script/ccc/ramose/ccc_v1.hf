@@ -1,7 +1,7 @@
 #url /api/v1
 #type api
 #base http://localhost:8080
-#title REST API for the Citations in Context Corpus (OpenCitations)
+#title REST API for the Citations in Context Corpus
 #description This document describe the REST API for accessing the data stored in the [Citations in Context Corpus](https://w3id.org/oc/ccc) hosted by [OpenCitations](http://opencitations.net). All the operations described in this document return either a JSON document (default) or a CSV document according to the mimetype specified in the `Accept` header of the request.
 
 If you would like to suggest an additional operation to be included in this API, please use the [issue tracker](https://github.com/opencitations/api/issues) of the OpenCitations Corpus API available on GitHub.
@@ -10,7 +10,7 @@ If you would like to suggest an additional operation to be included in this API,
 #contacts [contact@opencitations.net](mailto:contact@opencitations.net)
 #endpoint http://localhost:9999/blazegraph/sparql
 #method post
-#addon cccapi
+#addon ccc_addon
 
 #url /metadata/{dois}
 #type operation
