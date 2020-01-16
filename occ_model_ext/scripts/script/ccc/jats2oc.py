@@ -807,11 +807,7 @@ class Jats2OC(object):
 	def create_following_sibling(reference_pointer_list, de_resources):
 		print("I'm in!!")
 		base_xpath = "(\/\w+\/\w+)(.*)$"
-		list_xpaths = [re.sub(base_xpath, "", Jats2OC.get_subxpath_from(rp["context_xpath"]) ) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
-		for pl in reference_pointer_list:
-			for rp in pl:
-				if "context_xpath" in rp:
-					print("context_xpath", rp["context_xpath"], "Jats2OC.get_subxpath_from(rp[context_xpath])", Jats2OC.get_subxpath_from(rp["context_xpath"]), "re.sub", re.sub(base_xpath, "\\2", Jats2OC.get_subxpath_from(rp["context_xpath"]) ))
+		list_xpaths = [re.sub(base_xpath, "\\2", Jats2OC.get_subxpath_from(rp["context_xpath"]) ) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
 		print("I'm list_xpaths!!", list_xpaths)
 		list_subpaths = [ Jats2OC.recursive_split(xpath) for xpath in list_xpaths ]
 		print("I'm list_subpaths!!", list_subpaths)
