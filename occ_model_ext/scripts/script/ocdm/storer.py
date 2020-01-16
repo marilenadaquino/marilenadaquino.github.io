@@ -261,7 +261,7 @@ class Storer(object):
 
     def dir_and_file_paths(self, cur_g, base_dir, base_iri):
         cur_subject = set(cur_g.subjects(None, None)).pop()
-         if self.nt:
+        if self.nt:
             is_json = False
         else:
             is_json = True

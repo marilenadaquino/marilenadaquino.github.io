@@ -641,8 +641,12 @@ class GraphSet(object):
                     cur_short_name = get_short_name(cur_entity)
                     cur_entity_count = get_count(cur_entity)
                     cur_entity_prefix = get_prefix(cur_entity)
-                    related_to_label += " %s %s%s" % (self.labels[cur_short_name], cur_entity_prefix, cur_entity_count)
-                    related_to_short_label += " %s/%s%s" % (cur_short_name, cur_entity_prefix, cur_entity_count)
+                    if cur_short_name == 'ci':
+                        related_to_label += " %s %s" % (self.labels[cur_short_name], cur_entity_count)
+                        related_to_short_label += " %s/%s" % (cur_short_name, cur_entity_count)
+                    else:
+                        related_to_label += " %s %s%s" % (self.labels[cur_short_name], cur_entity_prefix, cur_entity_count)
+                        related_to_short_label += " %s/%s%s" % (cur_short_name, cur_entity_prefix, cur_entity_count)
             else:
                 count = self.supplier_prefix + str(GraphSet._add_number(info_file_path))
 

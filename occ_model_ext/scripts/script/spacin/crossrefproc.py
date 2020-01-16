@@ -185,10 +185,12 @@ class CrossrefProcessor(FormatProcessor):
             cur_res = None
 
             entry = dg(full_entry, ["bibentry"])
-            if self.intext_refs:
-                do_process_entry = False
+            # originally set false to speed up the ccc corpus creation, put back now
+            # if self.intext_refs:
+            #     do_process_entry = False
             process_string = dg(full_entry, ["process_entry"])
-            if process_string is not None and self.intext_refs == False:
+            #if process_string is not None and self.intext_refs == False:
+            if process_string is not None:
                 do_process_entry = process_string.lower().strip() == "true"
             provided_doi = dg(full_entry, ["doi"])
             provided_pmid = dg(full_entry, ["pmid"])

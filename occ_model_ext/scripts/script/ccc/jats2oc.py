@@ -658,7 +658,7 @@ class Jats2OC(object):
 			gen_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, source_agent=source_provider, source=source)
 			gen_ci._create_citation(citing_entity, cited_entity)
 			gen_an._create_annotation(gen_ci, be_res=be)
-
+		print("I'm here!!")
 		siblings = Jats2OC.create_following_sibling(reference_pointer_list, de_resources)
 
 
@@ -805,12 +805,20 @@ class Jats2OC(object):
 
 	@staticmethod
 	def create_following_sibling(reference_pointer_list, de_resources):
-		base_xpath = "(/\w+/\w+)(.*)$"
-		list_xpaths = [re.sub(base_xpath, "", Jats2OC.get_subxpath_from(rp["context_xpath"])) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
+		print("I'm in!!")
+		base_xpath = "(\/\w+\/\w+)(.*)$"
+		list_xpaths = [re.sub(base_xpath, "", Jats2OC.get_subxpath_from(rp["context_xpath"]) ) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
+		for pl in reference_pointer_list:
+			for rp in pl:
+				if "context_xpath" in rp:
+					print("context_xpath", rp["context_xpath"], "Jats2OC.get_subxpath_from(rp[context_xpath])", Jats2OC.get_subxpath_from(rp["context_xpath"]), "re.sub", re.sub(base_xpath, "\\2", Jats2OC.get_subxpath_from(rp["context_xpath"]) ))
+		print("I'm list_xpaths!!", list_xpaths)
 		list_subpaths = [ Jats2OC.recursive_split(xpath) for xpath in list_xpaths ]
+		print("I'm list_subpaths!!", list_subpaths)
 		list_siblings = zip(*list_subpaths)
 		for siblings_tuple in list_siblings:
 			for pos, sibling in enumerate(siblings_tuple):
+				print("I'm pos, sibling!!", pos, sibling)
 				if pos < len(siblings_tuple)-1 and sibling != siblings_tuple[pos+1]:
 					cur_de, next_de = Jats2OC.map_to_de(siblings_tuple[pos], de_resources) , Jats2OC.map_to_de(siblings_tuple[pos+1], de_resources)
 					if cur_de != None and next_de != None:
