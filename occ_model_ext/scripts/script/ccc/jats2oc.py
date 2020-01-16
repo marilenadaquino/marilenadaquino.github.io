@@ -807,7 +807,12 @@ class Jats2OC(object):
 	def create_following_sibling(reference_pointer_list, de_resources):
 		print("I'm in!!")
 		base_xpath = "(\/\w+\/\w+)(.*)$"
-		list_xpaths = [re.sub(base_xpath, "\\2", Jats2OC.get_subxpath_from(rp["context_xpath"]) ) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
+		list_xpaths = [Jats2OC.get_subxpath_from(rp["context_xpath"]) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
+		# for pl in reference_pointer_list:
+		# 	for rp in pl:
+		# 		if "context_xpath" in rp:
+		# 			xp = re.sub(base_xpath, "\\2", Jats2OC.get_subxpath_from(rp["context_xpath"]) )
+		# 			list_xpaths.append(xp)
 		print("I'm list_xpaths!!", list_xpaths)
 		list_subpaths = [ Jats2OC.recursive_split(xpath) for xpath in list_xpaths ]
 		print("I'm list_subpaths!!", list_subpaths)
@@ -815,7 +820,7 @@ class Jats2OC(object):
 		for siblings_tuple in list_siblings:
 			for pos, sibling in enumerate(siblings_tuple):
 				print("I'm pos, sibling!!", pos, sibling)
-				if pos < len(siblings_tuple)-1 and sibling != siblings_tuple[pos+1]:
+				if pos < len(siblings_tuple)-1 and sibling != siblings_tuple[pos+1] and Jats2OC.is_path(sibling):
 					cur_de, next_de = Jats2OC.map_to_de(siblings_tuple[pos], de_resources) , Jats2OC.map_to_de(siblings_tuple[pos+1], de_resources)
 					if cur_de != None and next_de != None:
 						cur_de.has_next_de(next_de)
@@ -823,8 +828,8 @@ class Jats2OC(object):
 
 	@staticmethod
 	def map_to_de(xpath,de_resources):
-		base_xpath = "(/\w+/\w+)(.*)$"
-		cur_de = [de_uri for de_path, de_uri in de_resources if xpath == re.sub(base_xpath, "", de_path) ]
+		base_xpath = "(\/\w+\/\w+)(.*)$"
+		cur_de = [de_uri for de_path, de_uri in de_resources if xpath == de_path ]
 		if len(cur_de) == 0:
 			return None
 		return cur_de[0]
