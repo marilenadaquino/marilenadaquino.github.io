@@ -9,28 +9,25 @@
  * [MEMO] change endpoint in cccapi.hf in production
  * [TODO] fork repo on github
  * [TODO] add methods to cccapi.hf
-
- * [TODO] add css path argument
- * [TODO] write hf in documentation
  * change test files with definitive one
- * modify documentation: describe param -css add examples : python, webserver with curl (say it can be done on browser)
+ * modify documentation: write hf in documentation, describe param -css add examples : python, webserver with curl (say it can be done on browser)
 
 ## TODO Jats2OC
 
-
- * [TODO] add again CrossrefProcessor for text search
- * [FIX] control hasNext for de
  * [FIX] which exceptions in pl should I resolve? see evaluation document
   * cerca i pl che finiscono nella sentence precedente: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
   * risolvi liste senza separatori interni (non come liste)
   * risolvi liste e seq insieme
+  * cerca di tenere le parentesi per rp e pl (BEE)
  * [ADD] control doi2doi self citation
  * evaluation on lists (compare cites and the presence of rp for that link)
- * jats2oc.py - BEE: check mistakes in pl_string bee
+ * [FIX] mistakes in pl_string bee - if there are problems return no string
  * [MEMO] config_spacin and ocdm/config - change folder names for production
  * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
 
 ## DONE RAMOSE
+
+ * [TODO] add css path argument
  * [Q] home page with paths and doc about ramose?
  * [DONE] flag per tirare su web server con flask o no.
  * [DONE] problem: cannot start the app without the starting /.  
@@ -45,6 +42,8 @@
 
 ## DONE Jats2OC
 
+ * [FIX] add again CrossrefProcessor for text search
+ * [FIX] control hasNext for de
  * bug in labels graphlib / support
  * check if intrepid works correctly
  * normalise DOI in bee:

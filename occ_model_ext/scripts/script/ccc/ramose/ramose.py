@@ -420,6 +420,10 @@ The operations that this API implements are:
 
         """
 
+    def __css_path(self, css_path=None):
+        """Add link to a css file if specified in argument -css"""
+        return """<link rel="stylesheet" type="text/css" href='"""+css_path+"""'>""" if css_path else ""
+
     def logger_ramose(self):
         """This method adds logging info to a local file"""
         # logging
@@ -463,7 +467,7 @@ The operations that this API implements are:
         """ % (self.__title(), self.base_url,self.base_url, self.tp, self.tp, api_logs_list)
         return html
 
-    def get_htmldoc(self):
+    def get_htmldoc(self, css_path=None):
         """This method generates the HTML documentation of an API described in an input Hash Format document."""
         return 200, """<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -472,13 +476,14 @@ The operations that this API implements are:
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width" />
         <style>%s</style>
+        %s
     </head>
     <body>
         <header>%s</header>
         <section id="operations">%s</section>
         <footer>%s</footer>
     </body>
-</html>""" % (self.__title(), self.__css(), self.__header(), self.__operations(), self.__footer())
+</html>""" % (self.__title(), self.__css(), self.__css_path(css_path), self.__header(), self.__operations(), self.__footer())
 
     def get_htmlindex(self):
         """This method generates the HTML documentation of RAMOSE as described in the ramose.html document"""
@@ -491,6 +496,7 @@ The operations that this API implements are:
               <title>RAMOSE</title>
               <meta name="description" content="Documentation of RAMOSE API Manager">
               <style>%s</style>
+              %s
             </head>
             <body>
                 <h1>Restful API Manager Over SPARQL Endpoints (RAMOSE)</h1>
@@ -498,11 +504,11 @@ The operations that this API implements are:
                 <footer>%s</footer>
             </body>
             </html>
-        """ % (self.__css(), self.__parse_logger_ramose(), self.__footer())
+        """ % (self.__css(), self.__css_path(css_path), self.__parse_logger_ramose(), self.__footer())
 
-    def store_htmldoc(self, file_path):
+    def store_htmldoc(self, file_path,css_path=None):
         """This method stores the HTML documentation on an API in a file."""
-        html = self.get_htmldoc()
+        html = self.get_htmldoc(css_path)
         with open(file_path, "w") as f:
             f.write(html)
 
@@ -1197,9 +1203,12 @@ if __name__ == "__main__":
                             help="A file where to store the response.")
     arg_parser.add_argument("-w", "--webserver", dest="webserver", default=False,
                             help="The host:port where to deploy a Flask webserver for testing the API.")
+    arg_parser.add_argument("-css", "--css", dest="css",
+                            help="The path of a .css file for styling the API documentation (to be specified either with '-w' or with '-d' and '-o' arguments).")
 
     args = arg_parser.parse_args()
     am = APIManager([args.spec])
+    css_path = args.css if args.css else None
 
     if args.webserver:
         try:
@@ -1223,13 +1232,13 @@ if __name__ == "__main__":
 
             @app.route('/')
             def home():
-                index = am.get_htmlindex()
+                index = am.get_htmlindex(css_path)
                 return index
 
             @app.route(api_url)
             @app.route(api_url+'/')
             def doc():
-                status, res = am.get_htmldoc()[0] , am.get_htmldoc()[1]
+                status, res = am.get_htmldoc(css_path)[0] , am.get_htmldoc(css_path)[1]
                 return res , status
 
             @app.route(api_url+'/<path:call>')
@@ -1273,7 +1282,7 @@ if __name__ == "__main__":
     else:
         # run locally via shell
         if args.doc:
-            res = am.get_htmldoc()
+            res = am.get_htmldoc(css_path)
         else:
             print(args.call)
             res = am.exec_op(args.call, args.method, args.format)

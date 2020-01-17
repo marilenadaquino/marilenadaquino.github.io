@@ -1,10 +1,29 @@
 # Restful API Manager Over SPARQL Endpoints (RAMOSE)
 
-Restful API Manager Over SPARQL Endpoints (RAMOSE) is an application that allows agile development and publication of documented RESTful APIs for querying against RDF triplestores, according to a particular specification document.
+Restful API Manager Over SPARQL Endpoints (RAMOSE) is an application that allows agile development and publication of documented RESTful APIs for querying SPARQL endpoints, according to a particular specification document.
+
+## TOC
+
+ * [Configuration](#Configuration)
+    * [Requirements](#Requirements)
+    * [Arguments](#Arguments)
+    * [Hashformat configuration file](#Hashformat-configuration-file)
+    * [Addon python files](#Addon-python-files)
+ * [Run RAMOSE](#Run-RAMOSE)
+    * [Run locally](#Run-locally)
+    * [Run with webserver](#Run-with-webserver)
+ * [RAMOSE APIManager](#RAMOSE-APIManager)
+ * [Other functionalities and examples](#Other-functionalities-and-examples)
+    * [Parameters and filters](#Parameters-and-filters)
+    * [Examples](#Examples)
 
 ## Configuration
 
+### Requirements
+
 RAMOSE is developed in Python 3.8. To install dependencies use: `pip3 install -r requirements.txt` (see [requirements.txt](https://github.com/opencitations/ramose/requirements.txt) for details).
+
+### Arguments
 
 RAMOSE application accepts the following arguments:
 
@@ -21,17 +40,165 @@ RAMOSE application accepts the following arguments:
                           A file where to store the response.
     -w WEBSERVER, --webserver WEBSERVER
                           The host:port where to deploy a Flask webserver for testing the API.
+    -css CSS, --css CSS   The path of a .css file for styling the API documentation (to be specified either with '-w' or with '-d' and '-o' arguments).
 ```
 
-`-s` is a mandatory argument identifying the configuration file of the API (an hashformat cinfiguration file `.hf`).
+`-s` is a mandatory argument identifying the configuration file of the API (an hashformat specification file, `.hf`).
 
 ### Hashformat configuration file
 
-[TODO]
+A hashformat file (`.hf`) is a specification file that includes metadata about an API, the operations it allows to perform, descriptions, and instructions to perform operations over a SPARQL endpoint. The `.hf` file is parsed by RAMOSE to perform requested operations and generate the documentation of the API.
+
+The syntax is based on a simplified version of markdown and it includes one or more sections, separated by a empty line.
+
+```
+#<field_name_1> <field_value_1>
+#<field_name_1> <field_value_2>
+#<field_name_3> <field_value_3>
+
+#<field_name_n> <field_value_n>
+...
+```
+
+The first section of the specification includes mandatory information about the API, namely:
+
+```
+#url <api_base>                     _partial URL of the API_
+#type api                           _the type of section_
+#base <base_url>                    _URL base_
+#method <get|post>                  
+#title <api_title>                  
+#description <api_description>
+#version <version_number>
+#license <license>
+#contacts <contact_url>             _in the form [text](url)_
+#endpoint <sparql_endpoint_url>     
+#addon <addon_file_name>            _optional additional python module_
+```
+
+The field `#url` includes the partial URL of the API, while the field `#base` includes the URL base that can be shared with other services or APIs.
+
+[N.B. Several APIs may coexist and be handled by RAMOSE, hence the path specified in the field `#url` corresponds to the unique identifier of the API.]
+
+For example:
+
+```
+#url /api/v1
+#type api
+#base https://w3id.org/oc/wikidata
+#method post
+#title Wikidata REST API
+#description A RAMOSE API implementation for Wikidata
+#version 0.0.2
+#license This document is licensed with a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode), while the REST API itself has been created using [RAMOSE](https://github.com/opencitations/ramose), the *Restful API Manager Over SPARQL Endpoints* created by [Silvio Peroni](https://orcid.org/0000-0003-0530-4305), which is licensed with an [ISC license](https://opensource.org/licenses/ISC). All the data returned by this API are made freely available under a [Creative Commons public domain dedication (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).
+#contacts [contact@opencitations.net](mailto:contact@opencitations.net)
+#endpoint https://query.wikidata.org/sparql
+#addon test_addon
+```
+
+
+
+In the other section(s) of the specification file is detailed the behaviour of the API for each operation allowed. Each operation corresponds to a section.
+
+```
+#url <operation_url>{var}                   _partial URL of operation and variable name_
+#type operation                             _the type of section_
+#<var> <var_validator>                      _optional validator of input variable_
+#preprocess <preprocess_operations>         _methods for preprocessing defined in addon file_
+#postprocess <postprocess_operations>       _methods for preprocessing defined in addon file_
+#method <get|post>
+#description <operation_description>        
+#call <example_request_call>
+#field_type <var_type_list>                 _list of (SPARQL query) variables and their type_
+#output_json <example_json_response>
+#sparql <sparql_query>                      _SPARQL query to be performed over the endpoint_
+```
+
+For example:
+
+```
+#url /metadata/{dois}
+#type operation
+#dois str(\"?10\..+[^_\"]((__|\" \")10\..+[^_])*\"?)
+#preprocess upper(dois) --> split_dois(dois)
+#postprocess distinct()
+#method get
+#description This operation retrieves the metadata for all the articles identified by the input DOIs.
+#call /metadata/10.1108/jd-12-2013-0166__10.1038/nature12373
+#field_type str(qid) str(author) datetime(year) str(title) str(source_title) str(source_id) str(volume) str(issue) str(page) str(doi) str(reference) int(citation_count)
+#output_json [
+    {
+        "source_title": "Journal of Documentation",
+        "page": "253-277",
+        ...
+    },
+    {
+        "source_title": "Nature",
+        "page": "54-58",
+        ...
+    }
+]
+#sparql PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT ?author ?year ?title ?source_title ?volume ?issue ?page ?doi ?reference ?citation_count ?qid {
+  VALUES ?doi { [[dois]] }
+  ?article wdt:P356 ?doi .
+
+  BIND(STRAFTER(str(?article), "http://www.wikidata.org/entity/") as ?qid) .
+
+  {
+    SELECT DISTINCT ?article (GROUP_CONCAT(?cited_doi; separator="; ") as ?reference) {
+      VALUES ?doi { [[dois]] }
+      ?article wdt:P356 ?doi .
+      OPTIONAL {
+        ?article wdt:P2860 ?cited .
+        OPTIONAL {
+          ?cited wdt:P356 ?cited_doi .
+        }
+      }
+    } GROUP BY ?article
+  }
+  {
+    SELECT ?article ?doi (count(?doi) as ?citation_count) {
+      VALUES ?doi { [[dois]] }
+      ?article wdt:P356 ?doi .
+      OPTIONAL { ?article ^wdt:P2860 ?other }
+    } GROUP BY ?article ?doi
+  }
+  OPTIONAL { ?article wdt:P1476 ?title }
+  OPTIONAL {
+    ?article wdt:P577 ?date
+    BIND(SUBSTR(str(?date), 0, 5) as ?year)
+  }
+  OPTIONAL { ?article wdt:P1433/wdt:P1476 ?source_title }
+  OPTIONAL { ?article wdt:P478 ?volume }
+  OPTIONAL { ?article wdt:P433 ?issue }
+  OPTIONAL { ?article wdt:P304 ?page }
+  {
+    SELECT ?article ?doi (GROUP_CONCAT(?a; separator="; ") as ?author) {
+      VALUES ?doi { [[dois]] }
+
+      {
+        SELECT ?article ?doi ?a {
+          VALUES ?doi { [[dois]] }
+
+          ?article wdt:P356 ?doi .
+
+          OPTIONAL {
+            ?article wdt:P50 ?author_res .
+            ?author_res wdt:P735/wdt:P1705 ?g_name ;
+                        wdt:P734/wdt:P1705 ?f_name .
+            BIND(CONCAT(?f_name, ", ",?g_name) as ?a)
+          }
+        } GROUP BY ?article ?doi ?a ORDER BY DESC(?a)}
+    } GROUP BY ?article ?doi
+  }
+} LIMIT 1000
+```
+
 
 ### Addon python files
 
-Additional python files can be added for preprocessing variables in the API URL call, and for postprocessing responses. In the specification file, addons are specified in the `#addon` field.
+Additional python modules can be added for preprocessing variables in the API URL call, and for postprocessing responses. In the specification file, addons are specified in the `#addon` field by recording the name of the python file.
 
 **Preprocessing**
 
@@ -64,7 +231,7 @@ In addition, it is possible to run multiple functions sequentially by concatenat
 RAMOSE can be run via CLI by specifying configuration file and URL of the desired operation (including parameters). For example, run in the root directory:
 
 ```
-python3 -m ramose -s <conf_name>.hf -c '<api_base><api_operation_url>?<parameters>'
+python -m ramose -s <conf_name>.hf -c '<api_base><api_operation_url>?<parameters>'
 ```
 
 Results are streamed in the shell in the following format:
@@ -78,9 +245,9 @@ Results are streamed in the shell in the following format:
 **Output formats.** RAMOSE returns responses in two formats, namely: `text/csv` and `application/json`. Formats can be specified as values of the argument `-f` or, alternatively, as parameters of the call. For example:
 
 ```
-python3 -m ramose -f <csv|json|text/csv|application/json> -s <conf_name>.hf -c '<api_base><api_operation_url>|<api_base><api_operation_url>?<parameters>'
+python -m ramose -f <csv|json> -s <conf_name>.hf -c '<api_base><api_operation_url>|<api_base><api_operation_url>?<parameters>'
 
-python3 -m ramose -s <conf_name>.hf -c '<api_base><api_operation_url>|<api_operation_url>?format=<csv|json|text/csv|application/json>'
+python -m ramose -s <conf_name>.hf -c '<api_base><api_operation_url>|<api_operation_url>?format=<csv|json>'
 ```
 
 If no format is specified, a JSON response is returned.
@@ -88,13 +255,13 @@ If no format is specified, a JSON response is returned.
 **Ouput.** To store responses in a local file, use the argument `-o` to specify the output file:
 
 ```
-python3 -m ramose -s <conf_name>.hf -c '<api_base><api_operation_url>?<parameters>' -o '<file_name>.<format>'
+python -m ramose -s <conf_name>.hf -c '<api_base><api_operation_url>?<parameters>' -o '<file_name>.<format>'
 ```
 
 **API Documentation.** To produce an HTML document including the automatically generated documentation of the API, use the arguments `-d` and `-o` to specify the output file:
 
 ```
-python3 -m ramose -s <conf_name>.hf -d -o <doc_name>.html
+python -m ramose -s <conf_name>.hf -d -o <doc_name>.html
 ```
 
 ### Run with webserver
@@ -102,7 +269,7 @@ python3 -m ramose -s <conf_name>.hf -d -o <doc_name>.html
 Additionally, a Flask webserver is available for testing and debugging purposes by specifying as value of the argument `-w` the desired `<host>:<port>`. For example, to run your API in localhost:
 
 ```
-python3 -m ramose -s <conf_name>.hf -w 127.0.0.1:8080
+python -m ramose -s <conf_name>.hf -w 127.0.0.1:8080
 ```
 
 The web application includes:
@@ -114,6 +281,12 @@ The local API can be tested via browser or via curl:
 
 ```
  curl -X GET --header "Accept: <format>" "http://<host>:<port>/<api_base><operation_url>?<parameters>"
+```
+
+**Custom CSS** Both when running via CLI and with webserver, the path to a custom .css file can be specified in the `-css` argument to style dashboard and documentation pages.
+
+```
+python -m ramose -s <conf_name>.hf -w 127.0.0.1:8080 -css <path/to/file.css>
 ```
 
 ## RAMOSE `APIManager`
@@ -138,14 +311,17 @@ conf = { "api_1": "1_v1.hf", "api_2": "2_v1.hf"}
 first_api_manager = APIManager(conf["api_1"])
 second_api_manager = APIManager(conf["api_2"])
 
-call_1 = "{api_base}/{operation_url_1}/{var}{?par}"
-call_2 = "{api_base}/{operation_url_2}/{var}{?par}"
+call_1 = "%s/%s/%s" % (api_base_1, operation_url_1, request )
+call_2 = "%s/%s/%s" % (api_base_2, operation_url_2, request )
 
-first_api_manager.exec_op(call_1, content_type={content_type})
-second_api_manager.exec_op(call_2, content_type={content_type})
+first_api_manager.exec_op(call_1, content_type=%s) % content_type
+second_api_manager.exec_op(call_2, content_type=%s) % content_type
 ```
 
+## Other functionalities and examples
+
 ### Parameters and filters
+
 Parameters can be used to filter and control the results returned by the API. They are passed as normal HTTP parameters in the URL of the call. They are:
 
  * `exclude=<field_name>`: all the rows that have an empty value in the `<field_name>` specified are removed from the result set - e.g. `exclude=given_name` removes all the rows that do not have any string specified in the `given_name` field.
@@ -166,6 +342,120 @@ Example:
  <api_operation_url>?exclude=doi&filter=date:>2015&sort=desc(date).
 ```
 
-## Examples
+### Examples
 
-[TODO]
+#### Query wikidata endpoint from CLI
+
+Use the following files to test the application.
+
+ * `test/ramose.py`
+ * `test/test.hf`
+ * `test/test_addon.hf`
+
+**Q1** Retrieve bibliographic metadata related to the work identified by the doi `10.1080/14756366.2019.1680659`:
+
+```
+python -m ramose -s test.hf -c '/api/v1/metadata/10.1107/S0567740872003322'
+```
+
+Returns:
+
+```
+# Response HTTP code: 200
+# Body:
+[
+    {
+        "author": "",
+        "year": "1972",
+        "title": "The crystal structure of tin(II) sulphate",
+        "source_title": "Acta crystallographica. Section B",
+        "volume": "28",
+        "issue": "3",
+        "page": "864-867",
+        "doi": "10.1107/S0567740872003322",
+        "reference": "",
+        "citation_count": "1",
+        "qid": "Q29013687"
+    }
+]
+# Content-type: application/json
+```
+
+**Q2** Retrieve bibliographic metadata of a list of works identified by their dois -- separated by `__` as specified in the field `#dois` of `test.hf` -- , and return data in `csv` format.
+
+```
+python -m ramose -s test.hf -c '/api/v1/metadata/10.1107/S0567740872003322__10.1007/BF02020444?format=csv'
+```
+
+Returns:
+
+```
+# Response HTTP code: 200
+# Body:
+author,year,title,source_title,volume,issue,page,doi,reference,citation_count,qid
+,1972,The crystal structure of tin(II) sulphate,Acta crystallographica. Section B,28,3,864-867,10.1107/S0567740872003322,,1,Q29013687
+"Erdős, Paul; Hajnal, András",1966,On chromatic number of graphs and set-systems,Acta Mathematica Hungarica,17,1-2,61-99,10.1007/BF02020444,10.4153/CJM-1959-003-9,1,Q57259020
+# Content-type: text/csv
+```
+
+**Q3** Perform **Q2** and sort results by year in ascending order:
+
+```
+python -m ramose -s test.hf -c '/api/v1/metadata/10.1107/S0567740872003322__10.1007/BF02020444?format=csv&sort=asc(year)'
+```
+
+**Q4** Perform **Q3** but return in JSON format, and split authors' names by the separator `; `
+
+```
+python -m ramose -s test.hf -c '/api/v1/metadata/10.1107/S0567740872003322__10.1007/BF02020444?format=json&sort=asc(year)&json=array("; ", author)'
+```
+
+Returns
+
+```
+# Response HTTP code: 200
+# Body:
+[
+    {
+        "author": [
+            "Erdős, Paul",
+            "Hajnal, András"
+        ],
+        "year": "1966",
+        "title": "On chromatic number of graphs and set-systems",
+        "source_title": "Acta Mathematica Hungarica",
+        "volume": "17",
+        "issue": "1-2",
+        "page": "61-99",
+        "doi": "10.1007/BF02020444",
+        "reference": "10.4153/CJM-1959-003-9",
+        "citation_count": "1",
+        "qid": "Q57259020"
+    },
+    {
+        "author": [],
+        "year": "1972",
+        "title": "The crystal structure of tin(II) sulphate",
+        "source_title": "Acta crystallographica. Section B",
+        "volume": "28",
+        "issue": "3",
+        "page": "864-867",
+        "doi": "10.1107/S0567740872003322",
+        "reference": "",
+        "citation_count": "1",
+        "qid": "Q29013687"
+    }
+]
+# Content-type: application/json
+```
+
+#### Query wikidata endpoint from webserver
+
+Perform **Q2** from the local webserver
+
+```
+python -m ramose -s <conf_name>.hf -w 127.0.0.1:8080
+curl -X GET --header "Accept: text/csv" "http://localhost:8080/api/v1/metadata/10.1107/S0567740872003322__10.1007/BF02020444?format=csv"
+```
+
+The same query can be directly performed on the browser at `http://localhost:8080/api/v1/metadata/10.1107/S0567740872003322__10.1007/BF02020444?format=csv`

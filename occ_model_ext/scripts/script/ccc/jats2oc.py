@@ -658,7 +658,7 @@ class Jats2OC(object):
 			gen_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, source_agent=source_provider, source=source)
 			gen_ci._create_citation(citing_entity, cited_entity)
 			gen_an._create_annotation(gen_ci, be_res=be)
-		print("I'm here!!")
+
 		siblings = Jats2OC.create_following_sibling(reference_pointer_list, de_resources)
 
 
@@ -805,7 +805,6 @@ class Jats2OC(object):
 
 	@staticmethod
 	def create_following_sibling(reference_pointer_list, de_resources):
-		print("I'm in!!")
 		base_xpath = "(\/\w+\/\w+)(.*)$"
 		list_xpaths = [Jats2OC.get_subxpath_from(rp["context_xpath"]) for pl in reference_pointer_list for rp in pl if "context_xpath" in rp]
 		# for pl in reference_pointer_list:
@@ -813,13 +812,10 @@ class Jats2OC(object):
 		# 		if "context_xpath" in rp:
 		# 			xp = re.sub(base_xpath, "\\2", Jats2OC.get_subxpath_from(rp["context_xpath"]) )
 		# 			list_xpaths.append(xp)
-		print("I'm list_xpaths!!", list_xpaths)
 		list_subpaths = [ Jats2OC.recursive_split(xpath) for xpath in list_xpaths ]
-		print("I'm list_subpaths!!", list_subpaths)
 		list_siblings = zip(*list_subpaths)
 		for siblings_tuple in list_siblings:
 			for pos, sibling in enumerate(siblings_tuple):
-				print("I'm pos, sibling!!", pos, sibling)
 				if pos < len(siblings_tuple)-1 and sibling != siblings_tuple[pos+1] and Jats2OC.is_path(sibling):
 					cur_de, next_de = Jats2OC.map_to_de(siblings_tuple[pos], de_resources) , Jats2OC.map_to_de(siblings_tuple[pos+1], de_resources)
 					if cur_de != None and next_de != None:
@@ -845,10 +841,4 @@ class Jats2OC(object):
 		return list(reversed(list_subpath))
 
 
-	@staticmethod
-	def normalise_doi(id_string, include_prefix=False): # taken from https://github.com/opencitations/index/blob/master/identifier/doimanager.py
-		try:
-			doi_string = re.sub("\0+", "", re.sub("\s+", "", urllib.parse.unquote(id_string[id_string.index("10."):])))
-			return doi_string.lower().strip()
-		except:  # Any error in processing the DOI will return None
-			return None
+	

@@ -15,7 +15,7 @@
 # SOFTWARE.
 
 from script.bee.refproc import ReferenceProcessor
-from script.ccc.jats2oc import Jats2OC , normalise_doi
+from script.ccc.jats2oc import Jats2OC
 from script.support.support import get_data, encode_url
 from script.support.support import dict_get as dg
 import os
@@ -78,19 +78,19 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
         return self.__get_data(cur_get_url), cur_get_url
 
     def process_article(self, cur_id, cur_source, cur_doi, cur_pmid, cur_pmcid, oa=False, intext_refs=False):
-        if cur_doi is None and cur_pmcid is not None:
-            cur_doi = self.__get_doi_from_xml_source(cur_pmcid)
+        if cur_doi is None and cur_pmid is not None:
+            cur_doi = self.__get_doi_from_xml_source(cur_pmid)
         cur_localid = cur_source + "-" + cur_id
-        id_list = [cur_doi, cur_pmid, cur_pmcid, cur_localid]
+        id_list = [cur_doi, cur_pmid, cur_pmid, cur_localid]
         if not self.rs.is_any_stored(id_list):
             self.repok.new_article()
             self.repok.add_sentence(
                 "Processing article with local id '%s'." % cur_localid)
 
             if oa and not intext_refs:
-                ref_list_url = self.process_xml_source(cur_pmcid)
+                ref_list_url = self.process_xml_source(cur_pmid)
             elif oa and intext_refs:
-                ref_list_url = self.process_xml_source(cur_pmcid, intext_refs=True)
+                ref_list_url = self.process_xml_source(cur_pmid, intext_refs=True)
             else:
                 ref_list_url = self.process_references(cur_source, cur_id)
             if ref_list_url is not None:
@@ -112,7 +112,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
             self.repok.add_sentence(
                 "The article '%s' has been already stored." % cur_localid)
 
-    def process(self, oa=False):
+    def process(self, oa=False, intext_refs=False):
         while True:
             if self.stopper.can_proceed():
                 cur_page = self.__get_next_page()
@@ -131,17 +131,17 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                             if self.stopper.can_proceed():
                                 cur_id = dg(paper, ["id"])
                                 cur_source = dg(paper, ["source"])
-                                cur_doi = normalise_doi(dg(paper, ["doi"]))
+                                cur_doi = self.normalise_doi(dg(paper, ["doi"]))
                                 cur_pmid = dg(paper, ["pmid"])
                                 cur_pmcid = dg(paper, ["pmcid"])
-                                self.process_article(cur_id, cur_source, cur_doi, cur_doi, cur_pmid, cur_pmcid, oa)
+                                self.process_article(cur_id, cur_source, cur_doi, cur_pmid, cur_pmcid, oa, intext_refs)
                             else:
                                 break
                         if self.stopper.can_proceed():
                             self.__store_page_number(dg(result, ["nextCursorMark"]))
                     else:  # We have browsed all the pages with results, and thus the counting is reset
                         self.__reset_page_number()
-                        self.repok.add_sentence("All the pages has been processed.")
+                        self.repok.add_sentence("All the pages have been processed.")
                         break
                 else:
                     self.reper.add_sentence("Problems in retrieving data for '%s'" % cur_get_url)
@@ -170,6 +170,15 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
             "pmid": pmid,
             "pmcid": pmcid
         }
+
+    @staticmethod
+    def normalise_doi(id_string, include_prefix=False): # taken from https://github.com/opencitations/index/blob/master/identifier/doimanager.py
+        try:
+            doi_string = re.sub("\0+", "", re.sub("\s+", "", urllib.parse.unquote(id_string[id_string.index("10."):])))
+            return doi_string.lower().strip()
+        except:  # Any error in processing the DOI will return None
+            return None
+        #return doi_string.lower().strip()
 
     @staticmethod
     def __create_entry_xml(xml_ref):
@@ -222,13 +231,13 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
         else:
             return None
 
-    def __get_xml_source(self, cur_pmcid):
-        if cur_pmcid is not None:
-            xml_source_url = self.xml_source_api.replace("XXX", cur_pmcid)
+    def __get_xml_source(self, cur_pmid):
+        if cur_pmid is not None:
+            xml_source_url = self.xml_source_api.replace("XXX", cur_pmid)
             return self.__get_data(xml_source_url, is_json=False)
 
-    def __get_doi_from_xml_source(self, cur_pmcid):
-        self.__last_xml_source = self.__get_xml_source(cur_pmcid)
+    def __get_doi_from_xml_source(self, cur_pmid):
+        self.__last_xml_source = self.__get_xml_source(cur_pmid)
         if self.__last_xml_source is not None:
             cur_xml = etree.fromstring(self.__last_xml_source)
             doi = cur_xml.xpath("/article/front/article-meta/article-id[@pub-id-type='doi']")
@@ -237,12 +246,12 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 if doi_string != "":
                     return doi_string
 
-    def process_xml_source(self, cur_pmcid, intext_refs=False):
-        if cur_pmcid is not None:
-            xml_source_url = self.xml_source_api.replace("XXX", cur_pmcid)
+    def process_xml_source(self, cur_pmid, intext_refs=False):
+        if cur_pmid is not None:
+            xml_source_url = self.xml_source_api.replace("XXX", cur_pmid)
 
             if self.__last_xml_source is None:
-                xml_source = self.__get_xml_source(cur_pmcid)
+                xml_source = self.__get_xml_source(cur_pmid)
             else:
                 xml_source = self.__last_xml_source
                 self.__last_xml_source = None
@@ -270,7 +279,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                                 ref_pmid_el[0], method="text", encoding='unicode').strip()
                             if ref_pmid != "":
                                 ref_paper_ids = self.__get_paper_data("MED", ref_pmid)
-                                ref_doi = normalise_doi(ref_paper_ids["doi"])
+                                ref_doi = self.normalise_doi(ref_paper_ids["doi"])
                                 ref_pmcid = ref_paper_ids["pmcid"]
                             else:
                                 ref_pmid = None
@@ -278,7 +287,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         if ref_doi is None:
                             ref_doi_el = reference.xpath(".//pub-id[@pub-id-type='doi']")
                             if len(ref_doi_el):
-                                ref_doi = normalise_doi(etree.tostring(
+                                ref_doi = self.normalise_doi(etree.tostring(
                                     ref_doi_el[0], method="text", encoding='unicode').lower().strip())
                                 if ref_doi == "":
                                     ref_doi = None
@@ -343,12 +352,12 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
 
                     paper_ids = self.__get_paper_data(ref_source, ref_id)
 
-                    ref_doi = normalise_doi(paper_ids["doi"])
+                    ref_doi = self.normalise_doi(paper_ids["doi"])
                     ref_pmid = paper_ids["pmid"]
                     ref_pmcid = paper_ids["pmcid"]
                 else:
                     ref_localid = None
-                    ref_doi = normalise_doi(dg(reference, ["doi"]))
+                    ref_doi = self.normalise_doi(dg(reference, ["doi"]))
                     ref_pmid = dg(reference, ["pmid"])
                     ref_pmcid = dg(reference, ["pmcid"])
                 ref_url = dg(reference, ["externalLink"])
