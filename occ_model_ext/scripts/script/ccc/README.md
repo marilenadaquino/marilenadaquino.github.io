@@ -5,28 +5,23 @@
 
 ## TODO RAMOSE
 
- * test RAMOSE with multiple APIs
- * [MEMO] change endpoint in cccapi.hf in production
  * [TODO] fork repo on github
  * [TODO] add methods to cccapi.hf
- * change test files with definitive one
- * modify documentation: write hf in documentation, describe param -css add examples : python, webserver with curl (say it can be done on browser)
+ * [MEMO] test RAMOSE with multiple APIs
+ * [MEMO] change endpoint in cccapi.hf in production
 
 ## TODO Jats2OC
 
- * [FIX] which exceptions in pl should I resolve? see evaluation document
-  * cerca i pl che finiscono nella sentence precedente: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
-  * risolvi liste senza separatori interni (non come liste)
-  * risolvi liste e seq insieme
-  * cerca di tenere le parentesi per rp e pl (BEE)
+ * [FIX] evaluation on lists (compare cites and the presence of rp for that link)
+    * [BEE] pl in previous sentence: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
  * [ADD] control doi2doi self citation
- * evaluation on lists (compare cites and the presence of rp for that link)
- * [FIX] mistakes in pl_string bee - if there are problems return no string
  * [MEMO] config_spacin and ocdm/config - change folder names for production
  * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
 
 ## DONE RAMOSE
 
+ * change test files with definitive one
+ * modify documentation: write hf in documentation, describe param -css add examples : python, webserver with curl (say it can be done on browser)
  * [TODO] add css path argument
  * [Q] home page with paths and doc about ramose?
  * [DONE] flag per tirare su web server con flask o no.
@@ -34,7 +29,6 @@
   * python3 -m script.ccc.ramose -s script/ccc/ccc_v1.hf -w 127.0.0.1:8080 [throws error because the call is wrong]
  * [DONE] if the flag for the server is selected I change the call (that starts after the /) and then Ichange it back
   * python3 -m script.ccc.ramose -s script/ccc/ccc_v1.hf -c /api/v1/metadata/10.1080/14756366.2019.1680659 -w 127.0.0.1:8080
-
  * virtualenv and add requirements.txt
  * test with all the splits in the url
  * what happens with csv error handling? cannot be visualised in browser
@@ -42,7 +36,12 @@
 
 ## DONE Jats2OC
 
- * [FIX] add again CrossrefProcessor for text search
+ * [FIX] mistakes in pl_string bee
+   * if there are problems return no string
+ * [BEE] risolvi liste e seq insieme
+ * [BEE] risolvi liste senza separatori interni (non come liste)
+ * [BEE-EVALUATION] include separators for single rp that have them outside the xref
+ * [FIX-EVALUATION] add again CrossrefProcessor for text search, change score and parameter query.bibliographic
  * [FIX] control hasNext for de
  * bug in labels graphlib / support
  * check if intrepid works correctly
