@@ -5,8 +5,17 @@
 
 ## TODO RAMOSE
 
- * [TODO] fork repo on github
  * [TODO] add methods to cccapi.hf
+  * method 1 full_metadata
+    * #CQ1.1 references and xpath of related rp
+    * #CQ1.2 counting of rp for each reference
+    * #CQ1.3 xpath of rp grouped by sentence and hierarchy of discourse elements
+  * method 2 co_cited_references
+    * #CQ1.4 co-cited references in the same sentence/paragraph/section and the discourse element
+    * #CQ1.9 title of sections
+    * #CQ1.10 co-cited references in the same list
+
+ * [TODO] fork repo on github
  * [MEMO] test RAMOSE with multiple APIs
  * [MEMO] change endpoint in cccapi.hf in production
 

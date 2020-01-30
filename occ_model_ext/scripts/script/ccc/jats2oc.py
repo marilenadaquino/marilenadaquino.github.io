@@ -61,21 +61,52 @@ class Jats2OC(object):
 
 			if len(xref_list) > 1: # rp and pl in sentence
 				xref_in_sent = [rp["rp_xpath"] for rp in xref_list if "rp_xpath" in rp.keys()]
-				tails = [self.root.xpath('/'+xref+conf.rp_tail)[0] if self.root.xpath('/'+xref+conf.rp_tail) else '' for xref in xref_in_sent]
+				# tail in text or in sup
+				tails = []
+				for xref in xref_in_sent:
+					if self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]'):
+						tails.append(self.root.xpath('/'+xref+'/following-sibling::*[1]/text()')[0])
+					else:
+						if len(self.root.xpath('/'+xref+conf.rp_tail)) != 0:
+							tails.append(self.root.xpath('/'+xref+conf.rp_tail)[0])
+						else:
+							tails.append('')
+
+				#tails = [self.root.xpath('/'+xref+conf.rp_tail)[0] if self.root.xpath('/'+xref+conf.rp_tail) else '' for xref in xref_in_sent]
 
 				end_separator = Jats2OC.rp_end_separator(tails) # includes also end_separator = ''
 				if len(end_separator) != 0 and end_separator[0][0] not in list(string.ascii_letters) and end_separator[0][0] not in list(string.digits): # separators
-					context = [Jats2OC.clean_list(self.root.xpath('/'+xref+' | /'+xref+conf.rp_tail)) for xref in xref_in_sent]
+					context = []
+					for xref in xref_in_sent:
+						# look for in-list separators in sibling elements
+						if self.root.xpath('/'+xref+'/following-sibling::*[1][contains(text(), ",")]'): # include <sup>,</sup>
+							context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+'| /'+xref+'/following-sibling::*[1]/text()')))
+						else:
+							# force end of list when there is an in-list separator and a text longer than 30 characters
+							# so as to reduce mistakes in parsing lists with inconsistent markup
+							xref_elem = self.root.xpath(xref)[0]
+							if xref_elem.tail and len(xref_elem.tail) < 20:
+								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
+								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
+							else:
+								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
+								if end_separator[0][0] and end_separator[0][0] != '':
+									context.append(end_separator[0][0])
+								elif end_separator[0][0] == '':
+									context.append('E')
+
 					# FIX? when there is (xref;xref) but the second xref is not @ref-type='bibr'
 					# it creates a list and includes the first following rp in sentence if exists (otherwise single rp)
 					context = [y for x in context for y in x]
-					rp_and_separator = [Jats2OC.clean(elem).strip().decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
+					context = [x if x != 'E' else '' for x in context] # replace fake separator with empty string because cannot append it
+
+					rp_and_separator = [Jats2OC.clean(elem).decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
 					rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==end_separator[0][0]) if not x[0]] # group rp by separator
-					rp_groups_and_types = Jats2OC.add_group_type(rp_groups) # TODO when it's both a list and a sequence	e.g. 31243649
+					rp_groups_and_types = Jats2OC.add_group_type(rp_groups)
 					groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups_and_types] # remove separators
 					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata, groups, rp_list, end_separator)
 
-				else: # no separator / weird separators
+				else: # no separator / weird separators / the worst case scenario
 					groups = Jats2OC.handle_no_separators(self.root, xref_in_sent)[0]
 					lonely = Jats2OC.handle_no_separators(self.root, xref_in_sent)[1]
 
@@ -227,8 +258,8 @@ class Jats2OC(object):
 				pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root)
 				rp["pl_xpath"] = pl_xpath
 
-				char_before = re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(first_el)))[-1] if "".join(Jats2OC.get_text_before(first_el)) else None
-				char_after = re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(last_el)))[0] if "".join(Jats2OC.get_text_after(last_el)) else None
+				char_before = re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(first_el)))[-1] if len(re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(first_el)))) != 0 else None
+				char_after = re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(last_el)))[0] if len(re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(last_el)))) != 0 else None
 				if char_before and char_after and (char_before == conf.list_separators[1][0] or char_before == conf.list_separators[2][0]) \
 					and ( char_after == conf.list_separators[1][1] or char_after == conf.list_separators[2][1]):
 					rp["pl_string"] = (char_before+root.xpath(pl_xpath)+char_after).replace("\n","")
@@ -261,9 +292,6 @@ class Jats2OC(object):
 			if 'list' in group:
 				elems_path = [et.getpath(elem) for elem in group if isinstance(elem, str) == False]
 				rp_dicts = [rp for rp in rp_list for elem in elems_path if "rp_xpath" in rp.keys() and rp["rp_xpath"] == elem]
-				#for rp in rp_dicts: # N.B. no separators end up here too
-				# 	rp["pl_string"] = Jats2OC.xpath_list(rp["xml_element"], root, end_separator)[0]
-				# 	rp["pl_xpath"] = Jats2OC.xpath_list(rp["xml_element"], root, end_separator)[1]
 				rp_dicts = Jats2OC.add_pl_info(rp_dicts, root) if len(rp_dicts) > 1 else rp_dicts
 
 
@@ -274,9 +302,6 @@ class Jats2OC(object):
 			if 'sequence' in group:
 				elems_path = [et.getpath(elem) for elem in group if isinstance(elem, str) == False]
 				rp_dicts = [rp for rp in rp_list for elem in elems_path if "rp_xpath" in rp.keys() and rp["rp_xpath"] == elem]
-				# for rp in rp_dicts:
-				# 	rp["pl_string"] = Jats2OC.xpath_list(rp["xml_element"], root, end_separator)[0]
-				# 	rp["pl_xpath"] = Jats2OC.xpath_list(rp["xml_element"], root, end_separator)[1]
 				range_values = [int(rp["rp_string"]) for rp in rp_list \
 					for elem in elems_path if "rp_xpath" in rp.keys() \
 					and rp["rp_xpath"] == elem and rp["rp_string"].isdigit()]
@@ -287,8 +312,6 @@ class Jats2OC(object):
 						n_rpn += 1 # TODO change
 						xref_id = Jats2OC.find_xmlid(str(intermediate),root)
 						rp = rp_dicts[0]["xml_element"]
-						# pl_string = Jats2OC.xpath_list(rp, root, end_separator)[0]
-						# pl_xpath = Jats2OC.xpath_list(rp, root, end_separator)[1]
 						context_xpath = rp_dicts[0]["context_xpath"]
 						containers_title = rp_dicts[0]["containers_title"]
 						rp_dict_i = Jats2OC.rp_dict(None , n_rpn , xref_id , None , None , None , None, context_xpath, containers_title)
@@ -525,93 +548,6 @@ class Jats2OC(object):
 		len_sent = len(str_before+str_after)
 		sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 		return sent_xpath_function
-
-	# @staticmethod
-	# def pl_string_and_xpath(first, last, root, end_sep_list):
-
-	@staticmethod
-	def xpath_list(elem, root, end_sep_list):
-		"""
-		params: elem -- the rp
-		params: root -- the root element of the XML document
-		params: strat_sep, end_sep -- separators of the substring representing a list
-		return: XPath and string of the list including the rp
-		"""
-		# TODO to be simplified
-		end_sep = end_sep_list[0][0]
-		et = ET.ElementTree(root)
-		start_seps = [tup[0] for tup in conf.list_separators if end_sep == tup[1]]
-		if len(start_seps) != 0: # match found
-			start_sep = start_seps[0]
-			elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
-			string_before = "".join(Jats2OC.get_text_before(elem))
-			string_after = "".join(Jats2OC.get_text_after(elem))
-
-			if string_before.rfind(start_sep) != -1:
-				start_sep_index = string_before.rfind(start_sep)+1
-			else:
-				start_sep_index = 1
-			if string_after.find(end_sep) != -1:
-				end_sep_index = string_after.find(end_sep)+1 # include the character
-			else:
-				end_sep_index = len(string_after)
-
-			py_strin = (string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]).strip().replace("\n","")
-			len_list = len( string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1] )
-			list_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
-
-		else:
-			# if the only separator found is '' we use either '.' or whitespace to separate lists
-			# elif there is a second separator we try with that one
-			if len(start_seps) == 0 and end_sep == '' and len(end_sep_list) == 1:
-				elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
-				string_before = "".join(Jats2OC.get_text_before(elem))
-				string_after = "".join(Jats2OC.get_text_after(elem))
-				char_before = re.sub(r"\s+", "", string_before)[-1] if string_before else None
-				start_sep = '.' if char_before == '.' else ' '
-				end_sep = ' '
-				if string_before.rfind(start_sep) != -1:
-					start_sep_index = string_before.rfind(start_sep)+1
-				else:
-					start_sep_index = 1
-				if string_after.find(end_sep) != -1:
-					end_sep_index = string_after.find(end_sep)+1 # include the character
-				else:
-					end_sep_index = len(string_after)
-
-				py_strin = (string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]).strip().replace("\n","")
-				len_list = len( string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1] )
-				list_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
-
-			elif len(start_seps) == 0 and len(end_sep_list) > 1 :
-				end_sep = end_sep_list[1][0]
-				start_seps = [tup[0] for tup in conf.list_separators if end_sep == tup[1]]
-				if len(start_seps) != 0: # match found
-					start_sep = start_seps[0]
-					elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
-					string_before = "".join(Jats2OC.get_text_before(elem))
-					string_after = "".join(Jats2OC.get_text_after(elem))
-
-					if string_before.rfind(start_sep) != -1:
-						start_sep_index = string_before.rfind(start_sep)+1
-					else:
-						start_sep_index = 1
-					if string_after.find(end_sep) != -1:
-						end_sep_index = string_after.find(end_sep)+1 # include the character
-					else:
-						end_sep_index = len(string_after)
-
-					py_strin = (string_before[start_sep_index-1:]+elem_value+string_after[:end_sep_index]).strip().replace("\n","")
-					len_list = len( string_before[start_sep_index:]+elem_value+string_after[:end_sep_index+1] )
-					list_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sep_index)+','+str(len_list)+')'
-				else: # no match found, take the parent element
-					py_strin = (ET.tostring(elem.getparent(), method="text", encoding='unicode', with_tail=False)).strip().replace("\n","")
-					list_xpath_function = et.getpath(elem.getparent())
-			else: # no match found, take the parent element
-				py_strin = (ET.tostring(elem.getparent(), method="text", encoding='unicode', with_tail=False)).strip().replace("\n","")
-				list_xpath_function = et.getpath(elem.getparent())
-
-		return [py_strin,list_xpath_function]
 
 
 	@staticmethod
