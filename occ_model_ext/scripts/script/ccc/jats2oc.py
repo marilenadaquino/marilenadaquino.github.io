@@ -85,7 +85,7 @@ class Jats2OC(object):
 							# force end of list when there is an in-list separator and a text longer than 30 characters
 							# so as to reduce mistakes in parsing lists with inconsistent markup
 							xref_elem = self.root.xpath(xref)[0]
-							if xref_elem.tail and len(xref_elem.tail) < 20:
+							if xref_elem.tail and len(xref_elem.tail) < 5:
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
 							else:
@@ -657,37 +657,38 @@ class Jats2OC(object):
 	def process_reference_pointers(citing_entity, cited_entities_xmlid_be, reference_pointer_list, graph, resp_agent=None, source_provider=None, source=None):
 		""" process a JSON snippet including reference pointers
 		return RDF entities for rp, pl, and de, according to OCDM """
-		de_resources , be_ids = [] , {}
-		be_ids_list = [rp_dict['xref_id'] for pl_entry in reference_pointer_list for rp_dict in pl_entry]
-		be_ids_counter = Counter(be_ids_list)
+		if reference_pointer_list:
+			de_resources , be_ids = [] , {}
+			be_ids_list = [rp_dict['xref_id'] for pl_entry in reference_pointer_list for rp_dict in pl_entry]
+			be_ids_counter = Counter(be_ids_list)
 
-		for pl_entry in reference_pointer_list:
-			if len(pl_entry) > 1:
-				rp_entities_list =[]
-				cur_pl = Jats2OC.process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent, source_provider, source)
-				for rp_dict in pl_entry:
-					rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, rp_dict)
-					rp_total_occurrence = str(be_ids_counter[rp_dict["xref_id"]])
-					rp_entity = Jats2OC.process_pointer(rp_dict, rp_num, rp_total_occurrence, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source, in_list=True)
-					cur_pl.contains_element(rp_entity)
-					rp_entities_list.append(rp_entity)
-				for pos, sibling in enumerate(rp_entities_list):
-					if pos < len(rp_entities_list)-1 and sibling != rp_entities_list[pos+1]:
-						cur_rp, next_rp = rp_entities_list[pos] , rp_entities_list[pos+1]
-						cur_rp.has_next_de(next_rp)
+			for pl_entry in reference_pointer_list:
+				if len(pl_entry) > 1:
+					rp_entities_list =[]
+					cur_pl = Jats2OC.process_pointer_list(pl_entry, citing_entity, graph, de_resources, resp_agent, source_provider, source)
+					for rp_dict in pl_entry:
+						rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, rp_dict)
+						rp_total_occurrence = str(be_ids_counter[rp_dict["xref_id"]])
+						rp_entity = Jats2OC.process_pointer(rp_dict, rp_num, rp_total_occurrence, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source, in_list=True)
+						cur_pl.contains_element(rp_entity)
+						rp_entities_list.append(rp_entity)
+					for pos, sibling in enumerate(rp_entities_list):
+						if pos < len(rp_entities_list)-1 and sibling != rp_entities_list[pos+1]:
+							cur_rp, next_rp = rp_entities_list[pos] , rp_entities_list[pos+1]
+							cur_rp.has_next_de(next_rp)
 
-			else:
-				rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, pl_entry[0])
-				rp_total_occurrence = str(be_ids_counter[pl_entry[0]["xref_id"]])
-				rp_entity = Jats2OC.process_pointer(pl_entry[0], rp_num, rp_total_occurrence, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source)
+				else:
+					rp_num = Jats2OC.retrieve_rp_occurrence(be_ids, pl_entry[0])
+					rp_total_occurrence = str(be_ids_counter[pl_entry[0]["xref_id"]])
+					rp_entity = Jats2OC.process_pointer(pl_entry[0], rp_num, rp_total_occurrence, citing_entity, cited_entities_xmlid_be, graph, de_resources, resp_agent, source_provider, source)
 
-		for cited_entity, xmlid, be in cited_entities_xmlid_be:
-			gen_an = graph.add_an(resp_agent, source_provider, source)
-			gen_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, source_agent=source_provider, source=source)
-			gen_ci._create_citation(citing_entity, cited_entity)
-			gen_an._create_annotation(gen_ci, be_res=be)
+			for cited_entity, xmlid, be in cited_entities_xmlid_be:
+				gen_an = graph.add_an(resp_agent, source_provider, source)
+				gen_ci = graph.add_ci(resp_agent, citing_entity, cited_entity, source_agent=source_provider, source=source)
+				gen_ci._create_citation(citing_entity, cited_entity)
+				gen_an._create_annotation(gen_ci, be_res=be)
 
-		siblings = Jats2OC.create_following_sibling(reference_pointer_list, de_resources)
+			siblings = Jats2OC.create_following_sibling(reference_pointer_list, de_resources)
 
 
 	@staticmethod

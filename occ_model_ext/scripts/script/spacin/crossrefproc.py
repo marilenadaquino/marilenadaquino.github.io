@@ -149,9 +149,7 @@ class CrossrefProcessor(FormatProcessor):
                     cited_entities_xmlid_be, self.reference_pointers, self.g_set, \
                     self.curator, self.source_provider, self.source)
                 self.rf.update_graph_set(self.g_set)
-                # add link RP -> BE w/ same xml_id
-                # add link DE -> cited_entity
-                # create CI/AN
+                
 
             return self.g_set
 

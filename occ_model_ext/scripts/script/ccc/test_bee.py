@@ -7,7 +7,7 @@ from script.ocdm.graphlib import *
 
 # test
 pp = pprint.PrettyPrinter(indent=1)
-xml_doc = 'script/ccc/xml_PMC_sample/31test.xml'
+xml_doc = 'script/ccc/xml_PMC_sample/diff_graphs_test_citing.xml'
 
 jats = jats2oc.Jats2OC(xml_doc)
 jats.extract_intext_refs()

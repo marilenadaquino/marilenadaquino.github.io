@@ -11,7 +11,7 @@
     * #CQ1.2 counting of rp for each reference
     * #CQ1.3 xpath of rp grouped by sentence and hierarchy of discourse elements
   * method 2 co_cited_references
-    * #CQ1.4 co-cited references in the same sentence/paragraph/section and the discourse element
+    * #CQ1.4 co-cited references in the same list/sentence/section
     * #CQ1.9 title of sections
     * #CQ1.10 co-cited references in the same list
 
@@ -21,8 +21,7 @@
 
 ## TODO Jats2OC
 
- * [FIX] evaluation on lists (compare cites and the presence of rp for that link)
-    * [BEE] pl in previous sentence: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
+ * [BEE] pl in previous sentence: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
  * [ADD] control doi2doi self citation
  * [MEMO] config_spacin and ocdm/config - change folder names for production
  * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
@@ -45,6 +44,7 @@
 
 ## DONE Jats2OC
 
+ * [FIX] evaluation on lists (compare cites and the presence of rp for that link)
  * [FIX] mistakes in pl_string bee
    * if there are problems return no string
  * [BEE] risolvi liste e seq insieme
