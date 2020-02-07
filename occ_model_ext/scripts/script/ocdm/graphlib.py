@@ -972,9 +972,9 @@ class ProvSet(GraphSet):
                 return None
             else:
                 in_both, in_first, in_second = graph_diff(iso1, iso2)
-                query_string = u"INSERT DATA { GRAPH <%s> { " % subj
+                query_string = u"INSERT DATA { GRAPH <%s> { " % cur_subj_g.identifier
                 query_string += in_second.serialize(format="nt11", encoding="utf-8").decode("utf-8")
-                return query_string + "} }"
+                return query_string.replace('\n\n','') + "} }"
 
     @staticmethod
     def __create_process_query(cur_subj_g):
