@@ -44,10 +44,10 @@ class CrossrefProcessor(FormatProcessor):
                  timeout=30,
                  use_doi_in_bibentry_as_id=True,
                  use_url_in_bibentry_as_id=True,
-                 crossref_min_similarity_score=50.0,
+                 crossref_min_similarity_score=95.0,
                  intext_refs=False):
         self.crossref_api_works = "https://api.crossref.org/works/"
-        self.crossref_api_search = "https://api.crossref.org/works?rows=1&query.bibliographic=" # changed
+        self.crossref_api_search = "https://api.crossref.org/works?rows=1&query.bibliographic=" # TODO vhange to 3
         self.headers = headers
         self.sec_to_wait = sec_to_wait
         self.max_iteration = max_iteration
@@ -149,7 +149,7 @@ class CrossrefProcessor(FormatProcessor):
                     cited_entities_xmlid_be, self.reference_pointers, self.g_set, \
                     self.curator, self.source_provider, self.source)
                 self.rf.update_graph_set(self.g_set)
-                
+
 
             return self.g_set
 

@@ -19,8 +19,8 @@ class Jats2OC(object):
 		#self.xml_doc = xml_doc
 		self.root = xml_doc
 		self.xmlp = ET.XMLParser(encoding="utf-8")
-		#self.tree = ET.parse(xml_doc, self.xmlp) # comm for run.py
-		#self.root = self.tree.getroot() # comm for run.py
+		self.tree = ET.parse(xml_doc, self.xmlp) # comm for run.py
+		self.root = self.tree.getroot() # comm for run.py
 		self.et = ET.ElementTree(self.root)
 
 
@@ -85,7 +85,7 @@ class Jats2OC(object):
 							# force end of list when there is an in-list separator and a text longer than 30 characters
 							# so as to reduce mistakes in parsing lists with inconsistent markup
 							xref_elem = self.root.xpath(xref)[0]
-							if xref_elem.tail and len(xref_elem.tail) < 5:
+							if xref_elem.tail and len(xref_elem.tail) < 3:
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
 							else:
@@ -356,6 +356,7 @@ class Jats2OC(object):
 					if rp in rp_list:
 						rp_list.remove(rp)
 
+
 	@staticmethod
 	def handle_no_separators(root, xref_in_sent): # TODO handle seq and lists together
 		groups , lonely = [],[]
@@ -406,6 +407,7 @@ class Jats2OC(object):
 			return True
 		return None
 
+
 	@staticmethod
 	def is_sequence(group):
 		if (conf.rp_separators_in_list[1].decode('utf-8') in group \
@@ -415,6 +417,7 @@ class Jats2OC(object):
 			return True
 		return None
 
+
 	@staticmethod
 	def is_mixed(group):
 		if ((conf.rp_separators_in_list[1].decode('utf-8') in group) \
@@ -423,6 +426,7 @@ class Jats2OC(object):
 				or (conf.rp_separators_in_list[3].decode('utf-8') in group)):
 			return True
 		return None
+
 
 	@staticmethod
 	def add_group_type(rp_groups):
@@ -514,6 +518,7 @@ class Jats2OC(object):
 		params: elem -- the rp
 		params: root -- the root element of the XML document
 		params: abb_list_path -- a txt file including the list of abbreviations for splitting sentences
+		parmas: parent -- the parent element of rp if not a known de, e.g. sup
 		return: XPath of the sentence including the rp
 		"""
 		if parent:
@@ -531,23 +536,104 @@ class Jats2OC(object):
 		string_after = "".join(Jats2OC.get_text_after(elem))
 		# offset of sentence in the stringified parent element that include the rp
 		# (0-based index transformed in 1-based index -- +1 -- to comply with XPath)
-		if len(string_before) == 0:
+		if len(string_before) == 0: # beginning of the parent element
 			str_before = ''
 			start_sent = 1
 		elif len(string_before) != 0 and string_before.isspace():
 			str_before = string_before
 			start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1])+1
 		else:
-			# if str_before finishes with . and str_after starts with uppercase than [-2 and -1]
-			str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
-			start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
-		if len(string_after) == 0 or string_after.isspace():
-			str_after = ''
-		else:
-			str_after = sentence_splitter.tokenize( string_after )[0]
+			if Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after):
+				string_before = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[0]
+				string_after = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[1]
+				digits_string_before = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_before)
+				if digits_string_before:
+					str_before = re.sub(r"(.*\.\d+\s?)([A-Z].*)", "\\2",string_before)
+					str_before = sentence_splitter.tokenize( str_before )[-1]
+					#print(elem_value,": str_before:",str_before)
+					start_sent = len(string_before.replace(str_before,''))+1
+				else:
+					str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
+					#print(elem_value,": other_str_before:",str_before)
+					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
+				if len(string_after) == 0 or string_after.isspace():
+					str_after = elem_value+''
+				else:
+					str_after = sentence_splitter.tokenize( elem_value+string_after )[0]
+			else:
+				str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
+				start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
+				#print(elem_value,": else_str_before:",str_before)
+				if len(string_after) == 0 or string_after.isspace():
+					str_after = ''
+				else:
+					str_after = sentence_splitter.tokenize( string_after )[0]
 		len_sent = len(str_before+str_after)
 		sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 		return sent_xpath_function
+
+
+	@staticmethod
+	def belongs_to_previous_sentence(root, elem, string_before, string_after):
+		""" check whether the xref is between . and uppercase letter """
+		str_before = re.sub(r"\s+", "", string_before)
+		char_before = str_before[-1]
+		# only rp after .
+		if (char_before == '.' and elem.tail):
+			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
+			char_after = str_after[0]
+			if char_after.isupper():
+				return string_before, ''
+		# first rp in list after .
+		elif (char_before == '.' and elem.tail == None and elem.getnext() is not None and elem.getnext().tag == elem.tag):
+			following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
+			last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[0]) # last of siblings or first
+			string_after = "".join(Jats2OC.get_text_after(last_xref))
+			string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref.text.strip()
+			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
+			char_after = str_after[0]
+			if char_after.isupper() or last_xref.tail is None:
+				string_after = string_before_last.replace(string_before+elem.text.strip(),'')
+				return string_before, string_after
+		else:
+			parent = elem.getparent()
+			rp_and_tail = [(x,x.tail) for x in parent if x.tag == 'xref']
+			rp_and_tail = [item for t in rp_and_tail for item in t if item is not None]
+			rp_and_tail = [item.lstrip().rstrip() if isinstance(item,str) else item for item in rp_and_tail]
+			if parent.text is not None:
+				rp_and_tail.insert(0, parent.text)
+			rp_and_tail.reverse()
+			for i,x in enumerate(rp_and_tail):
+				if x == elem:
+					cur_xref = rp_and_tail[i]
+					# middle rp in list
+					if i < len(rp_and_tail)-1 and isinstance(rp_and_tail[i+1],str) == False \
+						and isinstance(rp_and_tail[i-1],str) == False:
+						# check for . and upper
+						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(x)>1 and x[-1] == '.'),None)
+						if period_before is not None:
+							string_before = "".join(Jats2OC.get_text_before(elem))
+							rp_and_tail.reverse()
+							for i,x in enumerate(rp_and_tail):
+								if x == elem:
+									string_after = next((x for x in rp_and_tail[i:] if isinstance(x,str)),None)
+									if string_after is None or string_after[0].isupper():
+										following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
+										last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[0]) # last of siblings or first
+										string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref.text.strip()
+										string_after = string_before_last.replace(string_before+elem.text.strip(),'')
+
+										return string_before, string_after
+					# last rp in list
+					elif (i < len(rp_and_tail)-1) and (isinstance(rp_and_tail[i+1],str) == False) and ( isinstance(rp_and_tail[i-1],str) == True):
+						# check for . and upper
+						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(x)>1 and x[-1] == '.'),None)
+						if period_before is not None:
+							string_before = "".join(Jats2OC.get_text_before(elem))
+							string_after = rp_and_tail[i-1]
+							if string_after is not None and string_after[0].isupper():
+								return string_before,''
+		return None
 
 
 	@staticmethod
