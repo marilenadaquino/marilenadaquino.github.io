@@ -11,6 +11,7 @@ from script.spacin.formatproc import FormatProcessor
 from script.ocdm.graphlib import *
 from script.ocdm.conf import context_path as context_path
 
+from fuzzywuzzy import fuzz
 
 pp = pprint.PrettyPrinter(indent=1)
 class Jats2OC(object):
@@ -39,6 +40,7 @@ class Jats2OC(object):
 			context_xpath = Jats2OC.xpath_sentence(parent_el, self.root, conf.abbreviations_list_path, None)
 			containers_title = Jats2OC.find_container_title(parent_el, conf.section_tag, self.root)
 			parent_el_list = Jats2OC.parent_pl(self.root, pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list)[0]
+
 			rp_list = Jats2OC.parent_pl(self.root, pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list)[1]
 			self.metadata.append(parent_el_list)
 
@@ -85,7 +87,12 @@ class Jats2OC(object):
 							# force end of list when there is an in-list separator and a text longer than 30 characters
 							# so as to reduce mistakes in parsing lists with inconsistent markup
 							xref_elem = self.root.xpath(xref)[0]
-							if xref_elem.tail and len(xref_elem.tail) < 3:
+							if xref_elem.tail and len(xref_elem.tail) < 5 and end_separator[0][0] \
+								and end_separator[0][0] != conf.list_separators[2][1]:
+								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
+								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
+							elif xref_elem.tail and end_separator[0][0] \
+								and end_separator[0][0] == conf.list_separators[2][1]:
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
 							else:
@@ -246,6 +253,9 @@ class Jats2OC(object):
 					rp_list.remove(rp)
 
 			parent_el_list = sorted(parent_el_list, key=lambda rp: int(rp["n_rp"]))
+			if len(parent_el_list) == 1: # fix mistake pl_string
+				parent_el_list[0].pop("pl_string", None)
+				parent_el_list[0].pop("pl_xpath", None)
 		return parent_el_list , rp_list
 
 
@@ -255,15 +265,33 @@ class Jats2OC(object):
 		last_el = rp_d[-1]["xml_element"] if isinstance(rp_d[-1]["xml_element"],str) == False else rp_d[-2]["xml_element"]
 		for rp in rp_d:
 			if "pl_xpath" not in rp.keys():
-				pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root)
-				rp["pl_xpath"] = pl_xpath
+				str_before = "".join(Jats2OC.get_text_before(first_el)).replace("\n"," ")
+				str_after = "".join(Jats2OC.get_text_after(last_el)).replace("\n"," ")
 
-				char_before = re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(first_el)))[-1] if len(re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(first_el)))) != 0 else None
-				char_after = re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(last_el)))[0] if len(re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(last_el)))) != 0 else None
-				if char_before and char_after and (char_before == conf.list_separators[1][0] or char_before == conf.list_separators[2][0]) \
-					and ( char_after == conf.list_separators[1][1] or char_after == conf.list_separators[2][1]):
-					rp["pl_string"] = (char_before+root.xpath(pl_xpath)+char_after).replace("\n","")
+				char_before = re.sub(r"\s+", "", str_before)[-1] if len(re.sub(r"\s+", "", str_before)) != 0 else None
+				char_after = re.sub(r"\s+", "", str_after)[0] if len(re.sub(r"\s+", "", str_after)) != 0 else None
+
+				opening = re.search(r".*(\((?!.*\)).*)", str_before)
+				closing = re.search(r"(.*?(?!\()\)).*", str_after)
+				if char_before and char_after and char_before == conf.list_separators[1][0] \
+					and char_after == conf.list_separators[1][1]: # valid only for "[]" immediately before/after
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, 1, 1)
+					rp["pl_xpath"] = pl_xpath
+					rp["pl_string"] = root.xpath(pl_xpath).replace("\n","")
+
+				# TODO also for single rp!
+				elif opening is not None and closing is not None: # valid only for "()" eventually with text in the middle
+					before_text = re.sub(r".*(\((?!.*\)).*)", "\\1",str_before)
+					before = len(before_text)
+					after_text = re.sub(r"(.*?(?!\()\)).*", "\\1",str_after)
+					after = len(after_text)
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
+
+					rp["pl_xpath"] = pl_xpath
+					rp["pl_string"] = root.xpath(pl_xpath).replace("\n","")
 				else:
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root)
+					rp["pl_xpath"] = pl_xpath
 					rp["pl_string"] = root.xpath(pl_xpath).replace("\n","")
 		return rp_d
 
@@ -305,7 +333,7 @@ class Jats2OC(object):
 				range_values = [int(rp["rp_string"]) for rp in rp_list \
 					for elem in elems_path if "rp_xpath" in rp.keys() \
 					and rp["rp_xpath"] == elem and rp["rp_string"].isdigit()]
-				if len(range_values) != 0:
+				if len(range_values) == 2:
 					range_values.sort()
 					n_rpn = rp_dicts[0]["n_rp"]
 					for intermediate in range(int(range_values[0])+1,int(range_values[1]) ):
@@ -528,6 +556,11 @@ class Jats2OC(object):
 		with open(abb_list_path, 'r') as f:
 			abbreviations_list = [line.strip() for line in f.readlines() if not len(line) == 0]
 
+		siblings_xref = [(xref, "".join(Jats2OC.get_text_before(xref)), "".join(Jats2OC.get_text_after(xref)) ) for xref in elem.getparent() if xref.tag == 'xref']
+		if len(siblings_xref) != 0:
+			any_xref_in_prior_sent = next((xref for xref, str_b, str_a in siblings_xref if Jats2OC.belongs_to_previous_sentence(root, xref, str_b, str_a)), None)
+		else:
+			any_xref_in_prior_sent = None
 		punkt_param = PunktParameters()
 		punkt_param.abbrev_types = set(abbreviations_list)
 		sentence_splitter = PunktSentenceTokenizer(punkt_param)
@@ -536,39 +569,74 @@ class Jats2OC(object):
 		string_after = "".join(Jats2OC.get_text_after(elem))
 		# offset of sentence in the stringified parent element that include the rp
 		# (0-based index transformed in 1-based index -- +1 -- to comply with XPath)
-		if len(string_before) == 0: # beginning of the parent element
-			str_before = ''
-			start_sent = 1
-		elif len(string_before) != 0 and string_before.isspace():
-			str_before = string_before
-			start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1])+1
-		else:
-			if Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after):
-				string_before = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[0]
-				string_after = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[1]
-				digits_string_before = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_before)
-				if digits_string_before:
-					str_before = re.sub(r"(.*\.\d+\s?)([A-Z].*)", "\\2",string_before)
-					str_before = sentence_splitter.tokenize( str_before )[-1]
-					#print(elem_value,": str_before:",str_before)
-					start_sent = len(string_before.replace(str_before,''))+1
-				else:
-					str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
-					#print(elem_value,": other_str_before:",str_before)
-					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
-				if len(string_after) == 0 or string_after.isspace():
-					str_after = elem_value+''
-				else:
+		# if len(string_before) == 0: # beginning of the parent element
+		# 	str_before = ''
+		# 	start_sent = 1
+		# elif len(string_before) != 0 and string_before.isspace():
+		# 	str_before = string_before
+		# 	start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1])+1
+		# else:
+		if Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after):
+			string_before = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[0]
+			string_after = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[1]
+			digits_string_before = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_before)
+			if digits_string_before:
+				str_before = re.sub(r"(.*\.\d+\s?)([A-Z].*)", "\\2",string_before)
+				str_before = sentence_splitter.tokenize( str_before )[-1]
+				start_sent = len(string_before.replace(str_before,''))+1
+				if string_after is not None and (len(string_after) == 0 or string_after.isspace()):
+					str_after = elem_value
+				elif string_after is not None and len(string_after) > 0 :
 					str_after = sentence_splitter.tokenize( elem_value+string_after )[0]
+				else:
+					str_after = elem_value
 			else:
 				str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
 				start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
-				#print(elem_value,": else_str_before:",str_before)
-				if len(string_after) == 0 or string_after.isspace():
+				if string_after is not None and (len(string_after) == 0 or string_after.isspace()):
 					str_after = ''
-				else:
+				elif string_after is not None and len(string_after) > 0 :
 					str_after = sentence_splitter.tokenize( string_after )[0]
-		len_sent = len(str_before+str_after)
+				else:
+					str_after = ''
+		else:
+			if any_xref_in_prior_sent is not None:
+				digits_string_before = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_before)
+				digits_string_after = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_after)
+				if digits_string_before:
+					str_before = re.sub(r"(.*\.\d+\s?)([A-Z].*)", "\\2",string_before)
+					str_before = sentence_splitter.tokenize( str_before )[-1]
+					start_sent = len(string_before.replace(str_before,''))+1
+					if len(string_after) == 0 or string_after.isspace():
+						str_after = elem_value
+					else:
+						if digits_string_after:
+							str_after = re.sub(r"(.+?\.\d+\s?)([A-Z].*)", "\\1",string_after)
+							str_after = sentence_splitter.tokenize( elem_value+str_after )[0]
+						else:
+							str_after = sentence_splitter.tokenize( string_after )[0]
+				else:
+					str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
+					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
+					if len(string_after) == 0 or string_after.isspace():
+						str_after = ''
+					else:
+						if digits_string_after:
+							str_after = re.sub(r"(.+?\.\d+\s?)([A-Z].*)", "\\1",string_after)
+							str_after = sentence_splitter.tokenize( str_after )[0]
+						else:
+							str_after = sentence_splitter.tokenize( string_after )[0]
+
+			else:
+					str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
+					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
+					if len(string_after) == 0 or string_after.isspace():
+						str_after = ''
+					elif len(string_after) > 0:
+						str_after = sentence_splitter.tokenize( string_after )[0]
+					else:
+						str_after = ''
+		len_sent = len(str_before+str_after) if str_after is not None else len(str_before)
 		sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 		return sent_xpath_function
 
@@ -577,19 +645,19 @@ class Jats2OC(object):
 	def belongs_to_previous_sentence(root, elem, string_before, string_after):
 		""" check whether the xref is between . and uppercase letter """
 		str_before = re.sub(r"\s+", "", string_before)
-		char_before = str_before[-1]
+		char_before = str_before[-1] if str_before else ' '
 		# only rp after .
 		if (char_before == '.' and elem.tail):
 			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
-			char_after = str_after[0]
+			char_after = str_after[0] if str_after else ' '
 			if char_after.isupper():
-				return string_before, ''
+				return string_before, None
 		# first rp in list after .
 		elif (char_before == '.' and elem.tail == None and elem.getnext() is not None and elem.getnext().tag == elem.tag):
 			following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
-			last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[0]) # last of siblings or first
+			last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1]) # last of siblings or first
 			string_after = "".join(Jats2OC.get_text_after(last_xref))
-			string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref.text.strip()
+			string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref.text
 			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
 			char_after = str_after[0]
 			if char_after.isupper() or last_xref.tail is None:
@@ -619,10 +687,9 @@ class Jats2OC(object):
 									string_after = next((x for x in rp_and_tail[i:] if isinstance(x,str)),None)
 									if string_after is None or string_after[0].isupper():
 										following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
-										last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[0]) # last of siblings or first
+										last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1]) # last of siblings or first
 										string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref.text.strip()
 										string_after = string_before_last.replace(string_before+elem.text.strip(),'')
-
 										return string_before, string_after
 					# last rp in list
 					elif (i < len(rp_and_tail)-1) and (isinstance(rp_and_tail[i+1],str) == False) and ( isinstance(rp_and_tail[i-1],str) == True):
@@ -632,12 +699,12 @@ class Jats2OC(object):
 							string_before = "".join(Jats2OC.get_text_before(elem))
 							string_after = rp_and_tail[i-1]
 							if string_after is not None and string_after[0].isupper():
-								return string_before,''
+								return string_before, None
 		return None
 
 
 	@staticmethod
-	def xpath_list_between_elements(first_el, last_el, root):
+	def xpath_list_between_elements(first_el, last_el, root, before=None, after=None):
 		"""
 		params: first_el -- first rp
 		params: last_el -- last rp
@@ -647,8 +714,8 @@ class Jats2OC(object):
 		last_value = ET.tostring(last_el, method="text", encoding='unicode', with_tail=False)
 		string_before = "".join(Jats2OC.get_text_before(first_el))
 		string_before_last = "".join(Jats2OC.get_text_before(last_el))
-		start_pl = int( len(string_before) )
-		len_pl = int( len(string_before_last+last_value) ) - start_pl
+		start_pl = int( len(string_before) ) if before is None else int( len(string_before)- before )
+		len_pl = int( len(string_before_last+last_value) ) - start_pl if after is None else int( len(string_before_last+last_value) ) - start_pl + after
 		pl_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(first_el.getparent())+'),'+str(start_pl+1)+','+str(len_pl)+')'
 		return pl_xpath_function
 
@@ -954,3 +1021,75 @@ class Jats2OC(object):
 			list_subpath.append(xpath)
 			Jats2OC.recursive_split(Jats2OC.get_subxpath_from(xpath), list_subpath)
 		return list(reversed(list_subpath))
+
+
+	##############################
+	#### METHODS FOR CROSSREF ####
+	##############################
+
+	@staticmethod
+	def fuzzy_match(entry_cleaned, items, score):
+		"""returns the best match in a set of three crossref results"""
+		result = None
+		first_res , str0 , score0 = items[0], items[0]["title"][0], items[0]["score"]
+
+		if score0 >= score:
+			score0_delta = score0 - 10.0
+			if (items[1] is not None and items[1]["score"] >= score \
+				and items[1]["score"] >= score0_delta):
+				second_res, str1, score1 = items[1] , items[1]["title"][0], items[1]["score"]
+			else:
+				second_res, str1, score1 = None , None , None
+
+			if (items[2] is not None and items[2]["score"] >= score \
+				and items[2]["score"] >= score0_delta):
+				third_res, str2, score2 = items[2], items[2]["title"][0], items[2]["score"]
+			else:
+				third_res, str2, score2 = None , None , None
+
+			if second_res is not None and third_res is None:
+				result = Jats2OC.compare_two_results(entry_cleaned, first_res, str0, second_res, str1)
+
+			elif second_res is not None and third_res is not None:
+				result = Jats2OC.compare_three_results(entry_cleaned, first_res, str0, second_res, str1, third_res,str2)
+
+			else:
+				return first_res
+		return result
+
+
+	@staticmethod
+	def compare_two_results(entry_cleaned, first_res, str0, second_res, str1):
+		"""compare two json results with bib entry string"""
+		partial_0 = fuzz.partial_ratio(entry_cleaned.lower(),str0.lower())
+		partial_1 = fuzz.partial_ratio(entry_cleaned.lower(),str1.lower())
+		tset_0 = fuzz.token_set_ratio(entry_cleaned,str0)
+		tset_1 = fuzz.token_set_ratio(entry_cleaned,str1)
+		if partial_0 >= partial_1 and tset_0 >= tset_1:
+			return first_res
+		elif partial_1 >= partial_0 and tset_1 >= tset_0:
+			return second_res
+		else:
+			return first_res
+
+
+	@staticmethod
+	def compare_three_results(entry_cleaned, first_res, str0, second_res, str1, third_res,str2):
+		"""compare three json results with bib entry string"""
+		partial_0 = fuzz.partial_ratio(entry_cleaned.lower(),str0.lower())
+		partial_1 = fuzz.partial_ratio(entry_cleaned.lower(),str1.lower())
+		tset_0 = fuzz.token_set_ratio(entry_cleaned,str0)
+		tset_1 = fuzz.token_set_ratio(entry_cleaned,str1)
+		partial_2 = fuzz.partial_ratio(entry_cleaned.lower(),str2.lower())
+		tset_2 = fuzz.token_set_ratio(entry_cleaned,str2)
+		if (partial_0 >= partial_1 and partial_0 >= partial_2) and \
+			(tset_0 >= tset_1 and tset_0 >= tset_2):
+			return first_res
+		elif (partial_1 >= partial_0 and partial_1 >= partial_2) and \
+			(tset_1 >= tset_0 and tset_1 >= tset_2):
+			return second_res
+		elif (partial_2 >= partial_0 and partial_2 >= partial_1) and \
+			(tset_2 >= tset_0 and tset_2 >= tset_1):
+			return third_res
+		else:
+			return first_res

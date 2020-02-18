@@ -21,7 +21,9 @@
 
 ## TODO Jats2OC
 
- * [BEE] pl in previous sentence: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
+ * comment on jats2oc for run
+ * script for evaluation pl strings and sentences
+ * update requirements.txt (fuzzywuzzy and something else)
  * [ADD] control doi2doi self citation
  * [MEMO] config_spacin and ocdm/config - change folder names for production
  * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
@@ -44,6 +46,10 @@
 
 ## DONE Jats2OC
 
+ * Provenance diff graphs update sparql query
+ * Crossref : fuzzy sting matching
+ * test32 (https://www.ebi.ac.uk/europepmc/webservices/rest/31790602/fullTextXML)[substring after < 5] Rimuovi casi che non solo liste, come: 6, fungicidal7, anti-diabetic8, analgesic9, anti-microbial10, antitumor11, antileishmanial12, antheltmintic13, antirheum
+ * [BEE] pl in previous sentence: blabla {.} [pl] {U}ppercase oppure fine dell'elemnto parente)
  * [FIX] evaluation on lists (compare cites and the presence of rp for that link)
  * [FIX] mistakes in pl_string bee
    * if there are problems return no string
