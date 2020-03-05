@@ -7,7 +7,7 @@ from script.ocdm.graphlib import GraphEntity
 abbreviations_list_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Abbreviations.txt'))
 
 list_separators = [('[', ']'), ('[',']') , ('(', ')')]
-rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), '\u002D'.encode('utf-8'), ';'.encode('utf-8')] # first lists separator, second sequences separator
+rp_separators_in_list = [','.encode('utf-8'), '\u2013'.encode('utf-8'), '\u002D'.encode('utf-8'), ';'.encode('utf-8'), '-','–'] # first lists separator, second sequences separator
 
 # XPATH
 rp_path = './/xref[@rid = //ref/@id]'
