@@ -85,7 +85,7 @@ class Jats2OC(object):
 						# look for in-list separators in sibling elements
 						if following_sibling and following_sibling[0].tag == 'sup' and following_sibling[0].text == ',': # include <sup>,</sup>
 							context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+' | /'+xref+'/following-sibling::sup[1]/text()')))
-							print("case00",xref)
+							#print("case00",xref)
 							#print("case00",context)
 						else:
 							# force end of list when there is an in-list separator and a text longer than 5 characters
@@ -95,21 +95,21 @@ class Jats2OC(object):
 							if xref_elem.tail is not None and len(xref_elem.tail) < 5 \
 								and end_separator[0][0] is not None \
 								and end_separator[0][0] != conf.list_separators[2][1]:
-								print("case1",xref)
+								#print("case1",xref)
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
 							# in round brackets no matter the length of the tail
 							elif xref_elem.tail is not None \
 								and end_separator[0][0] is not None \
 								and end_separator[0][0] == conf.list_separators[2][1]:
-								print("case2",xref)
+								#print("case2",xref)
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
 							# no separators tail > 5 force end of the list
 							elif xref_elem.tail is not None and len(xref_elem.tail) >= 5 \
 								and end_separator[0][0] is not None \
 								and end_separator[0][0] not in (item[0] for item in conf.list_separators):
-								print("caseNEW",xref)
+								#print("caseNEW",xref)
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								if end_separator[0][0] and end_separator[0][0] != '':
 									context.append(end_separator[0][0])
@@ -118,7 +118,7 @@ class Jats2OC(object):
 							# force end of the list: in squared brackets tail > 5
 							# in squared brackets w/ no tail, in round brackets w/ no tail
 							else:
-								print("case3",xref)
+								#print("case3",xref)
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								if end_separator[0][0] and end_separator[0][0] != '':
 									context.append(end_separator[0][0])
@@ -127,9 +127,9 @@ class Jats2OC(object):
 
 					# FIX? when there is (xref;xref) but the second xref is not @ref-type='bibr'
 					# it creates a list and includes the first following rp in sentence if exists (otherwise single rp)
-					print("context0:",context)
+					#print("context0:",context)
 					context = [y for x in context for y in x]
-					print("context:",context)
+					#print("context:",context)
 					context = [x if x != 'E' else '' for x in context] # replace fake separator with empty string because cannot append it
 					rp_and_separator = [Jats2OC.clean(elem).decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
 					rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==end_separator[0][0]) if not x[0]] # group rp by separator
@@ -139,7 +139,7 @@ class Jats2OC(object):
 					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata, groups, rp_list, end_separator)
 
 				else: # no separator / weird separators / the worst case scenario
-					print("caseELSE",xref)
+					#print("caseELSE",xref)
 					groups = Jats2OC.handle_no_separators(self.root, xref_in_sent)[0]
 					lonely = Jats2OC.handle_no_separators(self.root, xref_in_sent)[1]
 
@@ -619,18 +619,19 @@ class Jats2OC(object):
 		parmas: parent -- the parent element of rp if not a known de, e.g. sup
 		return: XPath of the sentence including the rp
 		"""
-		if parent:
-			elem = elem.getparent()
+		elem = elem.getparent() if parent else elem
 
 		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 		with open(abb_list_path, 'r') as f:
 			abbreviations_list = [line.strip() for line in f.readlines() if not len(line) == 0]
 
-		siblings_xref = [(xref, "".join(Jats2OC.get_text_before(xref)), "".join(Jats2OC.get_text_after(xref)) ) for xref in elem.getparent() if xref.tag == elem.tag]
-		if len(siblings_xref) != 0:
-			any_xref_in_prior_sent = next((xref for xref, str_b, str_a in siblings_xref if Jats2OC.belongs_to_previous_sentence(root, xref, str_b, str_a)), None)
-		else:
-			any_xref_in_prior_sent = None
+		siblings_xref = [(xref, "".join(Jats2OC.get_text_before(xref)), "".join(Jats2OC.get_text_after(xref)) ) \
+			for xref in elem.getparent() if xref.tag == elem.tag]
+
+		any_xref_in_prior_sent = next((xref for xref, str_b, str_a in siblings_xref \
+			if Jats2OC.belongs_to_previous_sentence(root, xref, str_b, str_a)), None) \
+			if len(siblings_xref) != 0 else None
+
 		punkt_param = PunktParameters()
 		punkt_param.abbrev_types = set(abbreviations_list)
 		sentence_splitter = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
@@ -641,54 +642,67 @@ class Jats2OC(object):
 		if Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after):
 			string_before = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[0]
 			string_after = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[1]
-			digits_string_before = re.search(r"(.*\.\d+(,\s*\d+)*\s?)([A-Z].*)", string_before)
+			digits_string_before = re.search(r"(.*\.\s*\d+(,\s*\d+)*\s?)([A-Z].*)", string_before)
 			seq_string_before = re.search(r"(.*\.\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", string_before) # sequences
 
 			if digits_string_before or seq_string_before:
+				print("pattern")
 				if digits_string_before:
-					str_before = re.sub(r"(.*\.\d+(,\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
+					str_before = re.sub(r"(.*\.\s*\d+(,\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
 				elif seq_string_before:
-					str_before = re.sub(r"(.*\.\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
-				str_before = sentence_splitter.tokenize( str_before )[-1]
+					str_before = re.sub(r"(.*\.\s*\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
+				str_before = sentence_splitter.tokenize( str_before+elem_value )[-1]
 				start_sent = len(string_before.replace(str_before,''))+1
 				if string_after is not None and (len(string_after) == 0 or string_after.isspace()):
 					str_after = elem_value
 				elif string_after is not None and len(string_after) > 0 :
-					str_after = sentence_splitter.tokenize( elem_value+string_after )[0]
+					str_after = sentence_splitter.tokenize( elem_value+string_after )[0].rstrip()
 				else:
 					str_after = elem_value
 			else:
-				string_before = string_before[:-1]+'E' if string_before[-1] == '\n' else string_before # change last char
-				elem_value = 'E'+elem_value[1:] if elem_value[0] == '\n' else elem_value # change first char
-				str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
-
-				start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
+				string_before = string_before[:-1]+'e' if string_before[-1] == '\n' else string_before # change last char
+				#elem_value = 'e'+elem_value[1:] if elem_value[0] == '\n' else elem_value # change first char
+				elem_value = elem_value.replace("\n","e")
+				sent_tokens = sentence_splitter.tokenize( string_before+elem_value )
+				if len(sent_tokens) == 2:
+					only_xref_before = re.search(r"^[^a-df-z]*[0-9]+[\s+]*[,|-]*[\s+]*[e]*", sent_tokens[1])
+					str_before = string_before+elem_value if only_xref_before else sent_tokens[-1]
+					str_before = str_before.lstrip().replace("\n","e")
+					start_sent = int([start for start, end in sentence_splitter.span_tokenize( str_before+elem_value )][-1] )+1
+				else:
+					str_before = sent_tokens[-1]
+					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
 				if string_after is not None and (len(string_after) == 0 or string_after.isspace()):
 					str_after = ''
 				elif string_after is not None and len(string_after) > 0 :
-					str_after = sentence_splitter.tokenize( string_after )[0]
+					str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
 				else:
 					str_after = ''
+				print("str_before",str_before)
+				print("elem_value",elem_value)
+				print("str_after",str_after)
+
 		else:
 			if any_xref_in_prior_sent is not None:
+				#print("XREF"+elem_value, ET.ElementTree(root).getpath(elem))
 				digits_string_before = re.search(r"(.*\.\d+(,\s*\d+)*\s?)([A-Z].*)", string_before) # single rp or lists
-				seq_string_before = re.search(r"(.*\.\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", string_before) # sequences
+				seq_string_before = re.search(r"(.*\.\d+([–|-]\s*\d+)*\s?)([A-Z].*)", string_before) # sequences
 				digits_string_after = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_after)
 				if digits_string_before or seq_string_before:
 					if digits_string_before:
 						str_before = re.sub(r"(.*\.\d+(,\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
 					elif seq_string_before:
-						str_before = re.sub(r"(.*\.\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
-					str_before = sentence_splitter.tokenize( str_before )[-1]
+						str_before = re.sub(r"(.*\.\d+([–|-]\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
+					str_before = sentence_splitter.tokenize( str_before+elem_value )[-1]
 					start_sent = len(string_before.replace(str_before,''))+1
 					if len(string_after) == 0 or string_after.isspace():
 						str_after = elem_value
 					else:
 						if digits_string_after:
 							str_after = re.sub(r"(.+?\.\d+\s?)([A-Z].*)", "\\1",string_after)
-							str_after = sentence_splitter.tokenize( elem_value+str_after )[0]
+							str_after = sentence_splitter.tokenize( elem_value+str_after )[0].rstrip()
 						else:
-							str_after = sentence_splitter.tokenize( string_after )[0]
+							str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
 				else:
 					str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
 					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
@@ -697,11 +711,12 @@ class Jats2OC(object):
 					else:
 						if digits_string_after:
 							str_after = re.sub(r"(.+?\.\d+\s?)([A-Z].*)", "\\1",string_after)
-							str_after = sentence_splitter.tokenize( str_after )[0]
+							str_after = sentence_splitter.tokenize( str_after )[0].rstrip()
 						else:
-							str_after = sentence_splitter.tokenize( string_after )[0]
+							str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
 
 			else:
+				#print("XREF no prev"+elem_value, ET.ElementTree(root).getpath(elem))
 				str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
 				if elem_value[-1] == '\n' and str_before[-1] != '\n':
 					str_before = str_before+'\n'
@@ -709,7 +724,7 @@ class Jats2OC(object):
 				if len(string_after) == 0 or string_after.isspace():
 					str_after = ''
 				elif len(string_after) > 0:
-					str_after = sentence_splitter.tokenize( string_after )[0]
+					str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
 				else:
 					str_after = ''
 
@@ -734,25 +749,28 @@ class Jats2OC(object):
 			print("XREF 1:",elem_value)
 			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
 			char_after = str_after[0] if str_after else ' '
-			in_list = re.search(r"((,\s*\d+)*\s)?([A-Z].*)", string_after)
-			in_seq = re.search(r"((–\s*\d+)*\s)?([A-Z].*)", string_after)
-			in_seq_end = re.search(r"((–\s*\d+)*\s)?$", string_after)
-			# TODO sequences
+			#in_list = re.search(r"((,\s*\d+)*\s)?([A-Z].*)", string_after)
+			in_list = re.search(r"^([,\s*\d+]+\s*){1}[A-Z].*", string_after)
+			in_seq = re.search(r"(([–|-]\s*\d+)*\s)+([A-Z].*)", string_after)
+			in_seq_end = re.search(r"(([–|-]\s*\d+)*\s)?$", string_after)
+
 			if char_after.isupper():
 				return string_before, None
-			elif in_list:
-				string_after = re.sub(r"((,\s*\d+)*\s)?([A-Z].*)", "\\1", string_after) if string_after else ' '
-				return string_before, string_after
-			elif in_seq:
-				string_after = re.sub(r"((–\s*\d+)*\s)?([A-Z].*)", "\\1", string_after) if string_after else ' '
-				return string_before, string_after
+			elif in_list and in_list.group(0):
+				string_after = re.sub(r"^([,\s*\d+]+\s*){1}[A-Z].*", "\\1", in_list.group(0)) if string_after else ' '
+				return string_before, string_after.rstrip()
+			elif in_seq and in_seq.group(0):
+				string_after = re.sub(r"(([–|-]\s*\d+)*\s)+([A-Z].*)", "\\1", in_seq.group(0)) if string_after else ' '
+				print("string_after",string_after)
+				return string_before, string_after.rstrip()
 			elif in_seq_end:
-				string_after = re.sub(r"((–\s*\d+)*\s)?$", "\\1", string_after) if string_after else ' '
-				return string_before, string_after
-		# first rp in list after . HERE ######
+				string_after = re.sub(r"(([–|-]\s*\d+)*\s)?$", "\\1", string_after) if string_after else ' '
+				return string_before, string_after.rstrip()
+
+		# first rp in list after .
 		elif (char_before == '.' and elem.tail == None \
 			and elem.getnext() is not None and elem.getnext().tag == elem.tag):
-			print("XREF 2:",elem_value)
+			#print("XREF 2:",elem_value)
 			following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
 			last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1]) # last of siblings or first
 			last_xref_value = ET.tostring(last_xref, method="text", encoding='unicode', with_tail=False)
@@ -762,7 +780,7 @@ class Jats2OC(object):
 			char_after = str_after[0]
 			if char_after.isupper() or last_xref.tail is None:
 				string_after = string_before_last.replace(string_before+elem_value.strip(),'')
-				return string_before, string_after
+				return string_before, string_after.rstrip()
 		else:
 			print("XREF 3:",elem_value)
 			parent = elem.getparent()
@@ -773,32 +791,40 @@ class Jats2OC(object):
 
 			if parent.text is not None:
 				rp_and_tail.insert(0, parent.text)
+
 			rp_and_tail.reverse()
 			for i,x in enumerate(rp_and_tail):
 				if x == elem:
 					cur_xref = rp_and_tail[i]
+
 					# middle rp in list
 					if i < len(rp_and_tail)-1 and ( \
 						(isinstance(rp_and_tail[i+1],str) == False and isinstance(rp_and_tail[i-1],str) == False) or \
 						(isinstance(rp_and_tail[i+1],str) == True and isinstance(rp_and_tail[i-1],str) == True and \
 						rp_and_tail[i+1] == ',' and rp_and_tail[i-1] == ',') \
 						) :
-						print("XREF 3.2:",elem_value)
+						#print("XREF 3.2:",elem_value)
 						# check for . and upper
 						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(x)>=1 and x[-1] == '.'),None)
 						if period_before is not None:
-							string_before = "".join(Jats2OC.get_text_before(elem))
-							rp_and_tail.reverse()
-							for i,x in enumerate(rp_and_tail):
-								if x == elem:
-									string_after = next((x for x in rp_and_tail[i:] if isinstance(x,str) and x != ','),None)
-									if string_after is None or string_after[0].isupper():
-										following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
-										last_xref = next((xref for xref in following_xrefs if xref.tail != None and xref.tail != ',' ), following_xrefs[-1]) # last of siblings or first
-										last_xref_value = ET.tostring(last_xref, method="text", encoding='unicode', with_tail=False)
-										string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref_value.strip()
-										string_after = string_before_last.replace(string_before+elem_value.strip(),'')
-										return string_before, string_after
+							period_index = rp_and_tail.index(period_before)
+							intermediate_elems = rp_and_tail[i+1:period_index]
+							not_belongs_to_previous = next((x for x in intermediate_elems if isinstance(x,str) and len(x)>=3),None)
+
+							if not_belongs_to_previous is None:
+								string_before = "".join(Jats2OC.get_text_before(elem))
+								rp_and_tail.reverse()
+								for i,x in enumerate(rp_and_tail):
+									if x == elem:
+										string_after = next((x for x in rp_and_tail[i:] if isinstance(x,str) and x != ','),None)
+										if string_after is None or string_after[0].isupper():
+											following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
+											last_xref = next((xref for xref in following_xrefs if xref.tail != None and xref.tail != ',' ), following_xrefs[-1]) # last of siblings or first
+											last_xref_value = ET.tostring(last_xref, method="text", encoding='unicode', with_tail=False)
+											string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref_value.strip()
+											string_after = string_before_last.replace(string_before+elem_value.strip(),'')
+											return string_before, string_after.rstrip()
+
 					# last rp in list
 					elif (i < len(rp_and_tail)-1) and (\
 					(isinstance(rp_and_tail[i+1],str) == False and isinstance(rp_and_tail[i-1],str) == True) or \
@@ -815,6 +841,7 @@ class Jats2OC(object):
 								return string_before, None
 							elif string_after is None:
 								return string_before, None
+
 
 		return None
 

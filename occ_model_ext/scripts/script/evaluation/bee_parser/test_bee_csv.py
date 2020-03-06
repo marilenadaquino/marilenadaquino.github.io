@@ -10,7 +10,7 @@ from lxml import etree as ET
 with open('evaluation.csv', mode='w',encoding='utf8') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(['rp_string', 'pl_string', 'sentence', 'sentence_xpath', 'xml_name','status'])
-    path = 'script/ccc/xml_PMC_sample'
+    path = 'script/evaluation/bee_parser/xml_PMC_sample'
     for xml_doc in os.listdir(path):
         filename = os.fsdecode(xml_doc)
         xml_doc = os.path.join(path, filename)
