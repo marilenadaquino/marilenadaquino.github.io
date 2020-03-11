@@ -20,6 +20,7 @@ with open('evaluation.csv', mode='w',encoding='utf8') as csvfile:
         jats = jats2oc.Jats2OC(xml_doc)
         jats.extract_intext_refs()
         json = jats.metadata
+
         for pl in json:
             for rp in pl:
                 rp_string = rp['rp_string'] if 'rp_string' in rp else 'in sequence'

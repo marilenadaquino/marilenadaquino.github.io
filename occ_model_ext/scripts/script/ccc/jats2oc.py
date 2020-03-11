@@ -15,6 +15,19 @@ from script.ocdm.conf import context_path as context_path
 from fuzzywuzzy import fuzz
 
 pp = pprint.PrettyPrinter(indent=1)
+
+class CustomLanguageVars(pkt.PunktLanguageVars):
+
+    _period_context_fmt = r"""
+        \S*                          # some word material
+        %(SentEndChars)s             # a potential sentence ending
+        \s*                       #  <-- THIS is what I changed
+        (?=(?P<after_tok>
+            %(NonWord)s              # either other punctuation
+            |
+            (?P<next_tok>\S+)     #  <-- Normally you would have \s+ here
+        ))"""
+
 class Jats2OC(object):
 
 	def __init__(self, xml_doc): # xml_doc is root
@@ -134,9 +147,9 @@ class Jats2OC(object):
 					rp_and_separator = [Jats2OC.clean(elem).decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
 					rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==end_separator[0][0]) if not x[0]] # group rp by separator
 					rp_groups_and_types = Jats2OC.add_group_type(rp_groups)
-					groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups_and_types] # remove separators
+					#groups = [list(i for i in j if i not in conf.rp_separators_in_list) for j in rp_groups_and_types] # remove separators
 
-					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata, groups, rp_list, end_separator)
+					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata, rp_groups_and_types, rp_list, end_separator)
 
 				else: # no separator / weird separators / the worst case scenario
 					#print("caseELSE",xref)
@@ -165,10 +178,10 @@ class Jats2OC(object):
 		self.metadata = sorted(self.metadata, key=lambda rp : rp[0]["n_rp"])
 
 		# add external separators to single rp
-		for group in self.metadata:
-			for rp in group:
-				if len(group) == 1:
-					rp["rp_string"] = Jats2OC.add_rp_info(rp, self.root)
+		# for group in self.metadata:
+		# 	for rp in group:
+		# 		if len(group) == 1:
+		# 			rp["rp_string"] = Jats2OC.add_rp_info(rp, self.root)
 
 		# remove useless key:value pairs
 		for group in self.metadata:
@@ -360,6 +373,7 @@ class Jats2OC(object):
 			before = str_before[-2:] if str_before[-1] != char_before else 1
 			after = str_after[2] if str_after[0] != char_after else 1
 			rp_string = char_before+rp["rp_string"]+char_after
+			#print('char_before+rp["rp_string"]+char_after'+ char_before+"--"+rp["rp_string"]+"--"+char_after)
 		else:
 			rp_string = rp["rp_string"]
 		return rp_string
@@ -376,6 +390,7 @@ class Jats2OC(object):
 	@staticmethod
 	def add_rp_and_pl_in_sentence(root, et, metadata, groups, rp_list, end_separator):
 		for group in groups:
+			#print(group)
 			if 'singleton' in group:
 				for single_rp in group: # for some reasons sometimes there are more singletons
 					if not isinstance(single_rp,str):
@@ -429,13 +444,19 @@ class Jats2OC(object):
 						for rp in rp_list:
 							if xref_el == rp["xml_element"]:
 								extended_list.append(rp)
-						if '-' in group[pos+1] or '\u2013' in group[pos+1]:
+						if isinstance(group[pos+1],str) \
+							and conf.rp_separators_in_list[1].decode('utf-8') in Jats2OC.remove_spaces(group[pos+1]) \
+							or conf.rp_separators_in_list[2].decode('utf-8') in Jats2OC.remove_spaces(group[pos+1]) \
+							or conf.rp_separators_in_list[4] in Jats2OC.remove_spaces(group[pos+1]) \
+							or conf.rp_separators_in_list[5] in Jats2OC.remove_spaces(group[pos+1]) \
+							or conf.rp_separators_in_list[8] in Jats2OC.remove_spaces(group[pos+1]) :
+							#print("MIXED SEQ")
 							n_rpn = [rp["n_rp"] for rp in rp_list if rp["xml_element"] == group[pos] ][0]
 							context_xpath = [rp["context_xpath"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
 							containers_title = [rp["containers_title"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
 
 							end_seq = group[pos+2]
-							if end_seq.tag == 'xref' and ( (xref_el.text).isdigit() and (end_seq.text).isdigit() ):
+							if end_seq.tag == 'xref' and ( (Jats2OC.remove_spaces(xref_el.text)).isdigit() and (Jats2OC.remove_spaces(end_seq.text)).isdigit() ):
 								for intermediate in range(int(xref_el.text)+1,int(end_seq.text) ):
 									# we assume that lists cannot include more than 100 elements
 									n_rpn += 1
@@ -499,9 +520,16 @@ class Jats2OC(object):
 	@staticmethod
 	def is_list(group):
 		if ((conf.rp_separators_in_list[1].decode('utf-8') not in group) \
-			and (conf.rp_separators_in_list[2].decode('utf-8') not in group)) \
+			and (conf.rp_separators_in_list[2].decode('utf-8') not in group)\
+			and (conf.rp_separators_in_list[4] not in group)\
+			and (conf.rp_separators_in_list[5] not in group)\
+			and (conf.rp_separators_in_list[8] not in group)\
+			) \
 			and (conf.rp_separators_in_list[0].decode('utf-8') in group \
-			or conf.rp_separators_in_list[3].decode('utf-8') in group):
+			or conf.rp_separators_in_list[3].decode('utf-8') in group \
+			or conf.rp_separators_in_list[6] in group \
+			or conf.rp_separators_in_list[7] in group \
+			):
 			return True
 		return None
 
@@ -509,9 +537,16 @@ class Jats2OC(object):
 	@staticmethod
 	def is_sequence(group):
 		if (conf.rp_separators_in_list[1].decode('utf-8') in group \
-			or conf.rp_separators_in_list[2].decode('utf-8') in group) \
+			or conf.rp_separators_in_list[2].decode('utf-8') in group \
+			or conf.rp_separators_in_list[4] in group \
+			or conf.rp_separators_in_list[5] in group \
+			or conf.rp_separators_in_list[8] in group \
+			) \
 			and (conf.rp_separators_in_list[0].decode('utf-8') not in group \
-			and conf.rp_separators_in_list[3].decode('utf-8') not in group):
+			and conf.rp_separators_in_list[3].decode('utf-8') not in group \
+			and conf.rp_separators_in_list[6] not in group \
+			and conf.rp_separators_in_list[7] not in group \
+			):
 			return True
 		return None
 
@@ -519,9 +554,16 @@ class Jats2OC(object):
 	@staticmethod
 	def is_mixed(group):
 		if ((conf.rp_separators_in_list[1].decode('utf-8') in group) \
-			or (conf.rp_separators_in_list[2].decode('utf-8') in group)) \
+			or (conf.rp_separators_in_list[2].decode('utf-8') in group) \
+			or (conf.rp_separators_in_list[4] in group) \
+			or (conf.rp_separators_in_list[5] in group) \
+			or (conf.rp_separators_in_list[8] in group) \
+			) \
 			and ((conf.rp_separators_in_list[0].decode('utf-8') in group) \
-				or (conf.rp_separators_in_list[3].decode('utf-8') in group)):
+				or (conf.rp_separators_in_list[3].decode('utf-8') in group) \
+				or (conf.rp_separators_in_list[6] in group) \
+				or (conf.rp_separators_in_list[7] in group) \
+				):
 			return True
 		return None
 
@@ -619,123 +661,440 @@ class Jats2OC(object):
 		parmas: parent -- the parent element of rp if not a known de, e.g. sup
 		return: XPath of the sentence including the rp
 		"""
-		elem = elem.getparent() if parent else elem
 
-		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
+		elem_par = elem.getparent() if parent else elem
+		elem_value = ET.tostring(elem_par, method="text", encoding='unicode', with_tail=False)
+
 		with open(abb_list_path, 'r') as f:
 			abbreviations_list = [line.strip() for line in f.readlines() if not len(line) == 0]
 
-		siblings_xref = [(xref, "".join(Jats2OC.get_text_before(xref)), "".join(Jats2OC.get_text_after(xref)) ) \
-			for xref in elem.getparent() if xref.tag == elem.tag]
-
-		any_xref_in_prior_sent = next((xref for xref, str_b, str_a in siblings_xref \
-			if Jats2OC.belongs_to_previous_sentence(root, xref, str_b, str_a)), None) \
-			if len(siblings_xref) != 0 else None
-
 		punkt_param = PunktParameters()
 		punkt_param.abbrev_types = set(abbreviations_list)
-		sentence_splitter = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+		custom_vars = CustomLanguageVars() # does not work
+		sentence_splitter = PunktSentenceTokenizer(train_text=punkt_param,lang_vars=custom_vars)
 
-		string_before = "".join(Jats2OC.get_text_before(elem))
-		string_after = "".join(Jats2OC.get_text_after(elem))
+		string_before = "".join(Jats2OC.get_text_before(elem_par))
+		string_after = "".join(Jats2OC.get_text_after(elem_par))
 
-		if Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after):
-			string_before = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[0]
-			string_after = Jats2OC.belongs_to_previous_sentence(root, elem, string_before, string_after)[1]
-			digits_string_before = re.search(r"(.*\.\s*\d+(,\s*\d+)*\s?)([A-Z].*)", string_before)
-			seq_string_before = re.search(r"(.*\.\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", string_before) # sequences
-
-			if digits_string_before or seq_string_before:
-				print("pattern")
-				if digits_string_before:
-					str_before = re.sub(r"(.*\.\s*\d+(,\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
-				elif seq_string_before:
-					str_before = re.sub(r"(.*\.\s*\d+([–|-|,]\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
-				str_before = sentence_splitter.tokenize( str_before+elem_value )[-1]
-				start_sent = len(string_before.replace(str_before,''))+1
-				if string_after is not None and (len(string_after) == 0 or string_after.isspace()):
-					str_after = elem_value
-				elif string_after is not None and len(string_after) > 0 :
-					str_after = sentence_splitter.tokenize( elem_value+string_after )[0].rstrip()
-				else:
-					str_after = elem_value
-			else:
-				string_before = string_before[:-1]+'e' if string_before[-1] == '\n' else string_before # change last char
-				#elem_value = 'e'+elem_value[1:] if elem_value[0] == '\n' else elem_value # change first char
-				elem_value = elem_value.replace("\n","e")
-				sent_tokens = sentence_splitter.tokenize( string_before+elem_value )
-				if len(sent_tokens) == 2:
-					only_xref_before = re.search(r"^[^a-df-z]*[0-9]+[\s+]*[,|-]*[\s+]*[e]*", sent_tokens[1])
-					str_before = string_before+elem_value if only_xref_before else sent_tokens[-1]
-					str_before = str_before.lstrip().replace("\n","e")
-					start_sent = int([start for start, end in sentence_splitter.span_tokenize( str_before+elem_value )][-1] )+1
-				else:
-					str_before = sent_tokens[-1]
-					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
-				if string_after is not None and (len(string_after) == 0 or string_after.isspace()):
-					str_after = ''
-				elif string_after is not None and len(string_after) > 0 :
-					str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
-				else:
-					str_after = ''
-				print("str_before",str_before)
-				print("elem_value",elem_value)
-				print("str_after",str_after)
+		if Jats2OC.belongs_to_previous_sentence(root, elem_par, string_before, string_after):
+			#print("belongs_to_previous_sentence",elem_par)
+			start_sent, str_before, str_after = Jats2OC.get_sentence(root, elem_par, sentence_splitter, True)
 
 		else:
-			if any_xref_in_prior_sent is not None:
-				#print("XREF"+elem_value, ET.ElementTree(root).getpath(elem))
-				digits_string_before = re.search(r"(.*\.\d+(,\s*\d+)*\s?)([A-Z].*)", string_before) # single rp or lists
-				seq_string_before = re.search(r"(.*\.\d+([–|-]\s*\d+)*\s?)([A-Z].*)", string_before) # sequences
-				digits_string_after = re.search(r"(.*\.\d+\s?)([A-Z].*)", string_after)
-				if digits_string_before or seq_string_before:
-					if digits_string_before:
-						str_before = re.sub(r"(.*\.\d+(,\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
-					elif seq_string_before:
-						str_before = re.sub(r"(.*\.\d+([–|-]\s*\d+)*\s?)([A-Z].*)", "\\3",string_before)
-					str_before = sentence_splitter.tokenize( str_before+elem_value )[-1]
-					start_sent = len(string_before.replace(str_before,''))+1
-					if len(string_after) == 0 or string_after.isspace():
-						str_after = elem_value
-					else:
-						if digits_string_after:
-							str_after = re.sub(r"(.+?\.\d+\s?)([A-Z].*)", "\\1",string_after)
-							str_after = sentence_splitter.tokenize( elem_value+str_after )[0].rstrip()
-						else:
-							str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
-				else:
-					str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
-					start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
-					if len(string_after) == 0 or string_after.isspace():
-						str_after = ''
-					else:
-						if digits_string_after:
-							str_after = re.sub(r"(.+?\.\d+\s?)([A-Z].*)", "\\1",string_after)
-							str_after = sentence_splitter.tokenize( str_after )[0].rstrip()
-						else:
-							str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
-
-			else:
-				#print("XREF no prev"+elem_value, ET.ElementTree(root).getpath(elem))
+			start_sent, str_before, str_after = Jats2OC.get_sentence(root, elem_par, sentence_splitter, False)
+			#print("###start_sent, str_before, str_after",start_sent, str_before, str_after)
+			if start_sent is None and str_before is None and str_after is None:
 				str_before = sentence_splitter.tokenize( string_before+elem_value )[-1]
-				if elem_value[-1] == '\n' and str_before[-1] != '\n':
-					str_before = str_before+'\n'
 				start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before+elem_value )][-1] )+1
-				if len(string_after) == 0 or string_after.isspace():
-					str_after = ''
-				elif len(string_after) > 0:
-					str_after = sentence_splitter.tokenize( string_after )[0].rstrip()
-				else:
-					str_after = ''
+				str_after = sentence_splitter.tokenize( string_after )[0] \
+					if len(string_after) > 0 and string_after.isspace() == False \
+					else ''
 
 		len_sent = len(str_before+str_after) if str_after is not None else len(str_before)
-		sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
+		#print("######len_sent"+str(len_sent))
+		sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem_par.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 		return sent_xpath_function
 
+	@staticmethod
+	def first_rp(i, previous):
+		if i >= 1 and isinstance(previous,str) \
+			and len(Jats2OC.remove_spaces(previous)) >=1 \
+			and Jats2OC.remove_spaces(previous)[-1] == '.':
+			return True
+		return False
+
+	@staticmethod
+	def middle_rp(i,previous,next_el,one_after_next):
+		if i >= 1 \
+			and (\
+				(isinstance(previous,str) \
+				and (\
+					(Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list) \
+					or len(Jats2OC.remove_spaces(previous)) == 0) \
+				and len(Jats2OC.remove_spaces(next_el)) >=1) \
+				or isinstance(previous,str)==False ) \
+			and (\
+				(isinstance(next_el,str) \
+				and ((Jats2OC.remove_spaces(next_el) in conf.rp_separators_in_list)\
+					or len(Jats2OC.remove_spaces(next_el)) == 0) \
+				and isinstance(one_after_next,str)==False) \
+				or isinstance(next_el,str)==False ) :
+				return True
+		return False
+
+	@staticmethod
+	def last_rp(i, previous, next_el):
+		if i >= 1 \
+			and (\
+				(isinstance(previous,str) \
+				and ((len(Jats2OC.remove_spaces(previous)) >=1 \
+					and Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list)\
+					or len(Jats2OC.remove_spaces(previous)) ==0 ) \
+				and len(Jats2OC.remove_spaces(next_el)) >=1) \
+				or isinstance(previous,str)==False ) \
+			and len(Jats2OC.remove_spaces(next_el)) >=1 \
+			and Jats2OC.remove_spaces(next_el) not in conf.rp_separators_in_list:
+			return True
+		return False
+
+	@staticmethod
+	def false_end(string_before):
+		str_before = re.sub(r"\s+", "", string_before)
+		false_ending = True if any(false_end in str_before[-8:] for false_end in conf.false_endings) else False
+		return false_ending
+
+	@staticmethod
+	def get_sentence(root, elem, sentence_splitter, belongs_to_previous_sentence=False):
+		""" parse sentences and returns sentence before, after, and start sentence index for computing the xpath """
+		start_sent, str_before, str_after = None, None,None
+		# if elem == 'sup':
+		rp_and_tails = Jats2OC.rp_and_tails(elem)
+		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
+
+		if belongs_to_previous_sentence==True:
+			rp_and_tails.reverse()
+
+
+			for i,x in enumerate(rp_and_tails):
+				if x == elem:
+					#print("rp_and_tails",rp_and_tails)
+					previous = rp_and_tails[i+1]
+					next_el = rp_and_tails[i-1]
+					one_after_next = rp_and_tails[i-2]
+
+					# first rp after .
+					if Jats2OC.first_rp(i, previous) == True :
+						full_string_b = ''.join([x if isinstance(x,str) else \
+							ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+							for x in reversed(rp_and_tails[i+1:])])
+						first_rp_in_list = elem
+					# middle rp after . or last rp after .
+					elif Jats2OC.middle_rp(i,previous,next_el,one_after_next) == True \
+						or Jats2OC.last_rp(i, previous, next_el) == True:
+
+						first_rp_in_list = next((el for el in rp_and_tails[i:] \
+							if isinstance(el,str)== False \
+							and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
+							and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
+							and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.' ),None)
+
+						start = rp_and_tails.index(first_rp_in_list)+1 if first_rp_in_list else i+1
+						full_string_b = ''.join([x if isinstance(x,str) else \
+								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+								for x in reversed(rp_and_tails[start:])])
+					else: # any case that I didn't think of yet
+						full_string_b = ''.join([x if isinstance(x,str) else \
+								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+								for x in reversed(rp_and_tails[i+1:])])
+						first_rp_in_list = None
+					complete_b = ''.join([x if isinstance(x,str) else \
+							ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+							for x in reversed(rp_and_tails[i+1:])])
+
+					any_rp_after_period_before = len([el for el in rp_and_tails[i:] \
+						if isinstance(el,str)== False \
+						and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
+						and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
+						and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.'] )
+
+					rp_after_period_iterator = (el for el in rp_and_tails[i+1:] \
+						if isinstance(el,str)== False \
+						and rp_and_tails.index(el)+1 != -1 and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
+						and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
+						and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.'  \
+						and Jats2OC.false_end(rp_and_tails[rp_and_tails.index(el)+1]) == False )
+
+					rp_after_period_before = next(rp_after_period_iterator,None)
+
+					if rp_after_period_before is not None:
+						# tokenise until the first of the list if elem is in the following positions of a list
+						start = rp_and_tails.index(first_rp_in_list)+1 if first_rp_in_list is not None else i+1
+						# if the elem is part of a list, look for the second next rp that is after a period
+						second_rp_after_period_before = next((rp_after_period_iterator),None)
+						end_if = rp_and_tails.index(second_rp_after_period_before)+1 if second_rp_after_period_before != None else None
+						end = rp_and_tails.index(rp_after_period_before)+1 \
+							if first_rp_in_list is not None and rp_after_period_before != first_rp_in_list \
+							else end_if
+
+						str_before = ''.join([x if isinstance(x,str) \
+							else ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+							for x in reversed(rp_and_tails[start:end]) ])
+						# print("####complete_b"+complete_b)
+						# # in case there are rp after period before, but the string before includes more than one sentence
+						if len(sentence_splitter.tokenize( str_before )) > 1:
+							start_sent = int([start for start, end in sentence_splitter.span_tokenize( complete_b )][-1] )+1
+							str_before = complete_b[start_sent-1:]+elem_value
+						# if the string before corresponds to the sentence
+						else:
+							start_sent = Jats2OC.find_str(complete_b, str_before)+1 \
+								if len(complete_b) !=0 and len(str_before) != 0 \
+								else 1
+							#str_before+=elem_value
+							str_before = complete_b[start_sent-1:]+elem_value
+
+					else:
+						start_sent = int([start for start, end in sentence_splitter.span_tokenize( full_string_b )][-1] )+1
+						# if there are lists in full_string_b, not all the spaces are parsed completely
+						if any_rp_after_period_before != 0 and start_sent > 1:
+						 	start_sent = start_sent-1
+
+						str_before = complete_b[start_sent-1:]+elem_value
+						# print("ELEM",list(elem_value))
+						# print("FULLSTRINGB",list(full_string_b))
+						# print("TOKENIZER", list(sentence_splitter.tokenize( full_string_b )[-1]))
+						# print("start_sent",start_sent)
+						# print("split",list(str_before))
+
+			rp_and_tails.reverse() # str_after
+			for i,x in enumerate(rp_and_tails):
+				if x == elem:
+					if i == len(rp_and_tails): # last of list or only rp
+						str_after = ''
+					else: # first of list or middle
+						first_sent_after = next((el for el in rp_and_tails[i:] \
+						if isinstance(el,str) \
+							and ( len(Jats2OC.remove_spaces(el)) >= 1 \
+							and Jats2OC.remove_spaces(el)[0].isupper()) \
+						) ,None)
+						end = rp_and_tails.index(first_sent_after) if first_sent_after else None
+						str_after = ''.join([x if isinstance(x,str) else \
+								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+								for x in rp_and_tails[i+1:end ]])
+					#print("####complete_a"+str_after)
+
+			return start_sent, str_before, str_after
+
+		else: # rp does not belong to previous sentence
+			rp_and_tails.reverse()
+			for i,x in enumerate(rp_and_tails):
+				if x == elem:
+
+					complete_b = ''.join([x if isinstance(x,str) \
+						else ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+						for x in reversed(rp_and_tails[i+1:])])
+
+					any_rp_before = [el for el in rp_and_tails[i:] \
+						if len(rp_and_tails[i:]) > 1 and isinstance(el,str)== False \
+						and rp_and_tails.index(el) != len(rp_and_tails) and rp_and_tails.index(el)+1 != len(rp_and_tails) \
+						and isinstance(rp_and_tails[rp_and_tails.index(el)+1] ,str) \
+						and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
+						and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.' ]
+					if len(rp_and_tails[i:]) <= 1 or len(any_rp_before) == 0:
+						rp_after_period_before = None
+					else:
+						rp_after_period_before = next((el for el in rp_and_tails[i:] \
+							if len(rp_and_tails[i:]) > 1 and isinstance(el,str)== False \
+							and rp_and_tails.index(el) != len(rp_and_tails) and rp_and_tails.index(el)+1 <= len(rp_and_tails) \
+							and isinstance(rp_and_tails[rp_and_tails.index(el)+1] ,str) \
+							and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
+							and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.' \
+							and Jats2OC.false_end(rp_and_tails[rp_and_tails.index(el)+1]) == False ),None)
+
+					if rp_after_period_before is not None:
+						#print("#### HERE???ELEM:"+elem_value,elem)
+						str_before = ''.join([x if isinstance(x,str) \
+							else ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+							for x in reversed(rp_and_tails[i+1:rp_and_tails.index(rp_after_period_before)]) ])
+						# in case there are rp after period before, but the string before includes more than one sentence
+						if len(sentence_splitter.tokenize( str_before )) > 1:
+							start_sent = int([start for start, end in sentence_splitter.span_tokenize( complete_b )][-1] )+1
+							str_before = complete_b[start_sent-1:]+elem_value
+						# if the string before corresponds to the sentence
+						else:
+							start_sent = Jats2OC.find_str(complete_b, str_before)+1 \
+								if len(complete_b) !=0 and len(str_before) != 0 \
+								else 1
+							str_before+=elem_value
+
+					else:
+
+						print("rp_and_tail",rp_and_tails)
+						string_before = "".join(Jats2OC.get_text_before(elem))
+						str_before = sentence_splitter.tokenize( string_before )[-1] if len(Jats2OC.remove_spaces(string_before)) != 0 else string_before
+						start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1] )+1 \
+							if len(Jats2OC.remove_spaces(string_before)) != 0 else 1
+						if len(string_before) >= 1 and string_before[-1] == ' ' and str_before[-1] != ' ':
+							str_before += ' '
+						str_before += elem_value
+						print("#### start_sent:"+str(start_sent))
+						print("#### str_before:"+str_before)
+
+			rp_and_tails.reverse()
+			for i,x in enumerate(rp_and_tails):
+				if x == elem:
+					rp_after_period_after = next((el for el in rp_and_tails[i+1:] \
+						if isinstance(el,str)== False \
+						and isinstance(rp_and_tails[rp_and_tails.index(el)-1],str) \
+						and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)-1])) >=1 \
+						and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)-1])[-1] == '.' \
+						and Jats2OC.false_end(rp_and_tails[rp_and_tails.index(el)-1]) == False),None)
+
+					end = rp_and_tails.index(rp_after_period_after) if rp_after_period_after is not None else None
+					if end != None:
+						complete_af = ''.join([x if isinstance(x,str) else \
+								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+								for x in rp_and_tails[i+1:end] ])
+					else:
+						complete_af = "".join(Jats2OC.get_text_after(elem))
+					#print("###complete_af"+complete_af)
+					str_after = sentence_splitter.tokenize( complete_af )[0] if len(Jats2OC.remove_spaces(complete_af)) != 0 else complete_af
+					# print("#### str_after:"+str_after)
+					# print("### Lenght:"+str(len(str_before+str_after)))
+					# print("#### complete:"+str_before+str_after)
+
+			return start_sent, str_before, str_after
+
+	@staticmethod
+	def find_str(s, char):
+		""" find index of a substring char in a string s"""
+		index = 0
+		if char in s:
+			c = char[0]
+			for ch in s:
+				if ch == c:
+					if s[index:index+len(char)] == char:
+						return index
+
+				index += 1
+		return -1
+
+	@staticmethod
+	def rp_and_tails(elem):
+		""" parse a parent element and returns a list of xref elem and text for all the other elems/texts """
+		elem_parent = elem.getparent()
+		elem_parent = elem_parent.getparent() if elem_parent.tag == 'sup' else elem_parent
+		rp_and_tails , others = [],[]
+
+		if elem.tag != 'sup':
+
+			for el in elem_parent.iter():
+
+				# xref without parent sup, regardless child
+				if el.tag == 'xref' \
+					and el.getparent().tag != 'sup':
+					# child = el[0]
+					# if child.tag == 'sup':
+					# 	el.remove(child)
+					rp_and_tails.append(el)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+					if len(el.xpath('//sup')) >= 1 and el.text:
+						others.append(el.text)
+
+				# sup with xref child
+				if (el.tag == 'sup' or el.tag == 'attrib') \
+					and len(el.xpath('//xref')) >= 1 \
+					and el.getparent().tag != 'xref':
+					rp_and_tails.append(el)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+					if el.text:
+						others.append(el.text)
+
+				# sup with xref as parent
+				if ( el.tag == 'sup' or el.tag == 'attrib' )\
+					and len(el.xpath('//xref')) == 0 \
+					and el.getparent().tag == 'xref':
+					others.append(el)
+					others.append(el.tail)
+					others.append(el.text)
+
+				# sup without xref as parent or child (separator)
+				if (el.tag == 'sup' or el.tag == 'attrib') \
+					and len(el.xpath('//xref')) == 0 \
+					and el.getparent().tag != 'xref':
+					others.append(el)
+					if el.text:
+						rp_and_tails.append(el.text)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+
+				# other elements and text
+				if (el.tag != 'sup' and el.tag != 'attrib' and el.tag != 'xref' ):
+					others.append(el)
+					if el.text:
+						rp_and_tails.append(el.text)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+
+			# cheap trick
+			rp_and_tails = [x if isinstance(x,str) == False and x.tag != 'sup' \
+				else x.text if isinstance(x,str) == False and x.tag == 'sup' \
+				else x for x in rp_and_tails]
+
+			# # other cheap trick
+			# if len(el.xpath('//sup')) == 0:
+
+		if elem.tag == 'sup':
+			for el in elem_parent.iter():
+				if (el.tag == 'sup' or el.tag == 'attrib') and len(el.xpath('//xref')) >= 1 and el.getparent().tag != 'xref':
+					rp_and_tails.append(el)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+				elif (el.tag == 'sup' or el.tag == 'attrib') and len(el.xpath('//xref')) == 0 :
+					if el.text:
+						rp_and_tails.append(el.text)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+
+				elif el.tag == 'xref' and el.getparent().tag == 'sup':
+					others.append(el)
+
+				else:
+					if el.text:
+						rp_and_tails.append(el.text)
+					if el.tail:
+						rp_and_tails.append(el.tail)
+
+		#print("###### BEFORE rp_and_tails",rp_and_tails)
+		rp_and_tails = Jats2OC.concatenate_if_str(rp_and_tails)
+
+		# rp_and_tails = [x if isinstance(x,str) == False \
+		# 	else x if isinstance(x,str) == True and Jats2OC.conditional_escape(x) == False \
+		# 	else Jats2OC.sanitize_string(x) for x in rp_and_tails]
+
+		return rp_and_tails
+
+	@staticmethod
+	def conditional_escape(stringa):
+		if any(char in stringa for char in conf.escape_xpath):
+			return True
+		return False
+
+	def sanitize_string(stringa):
+		"""while the tokeniser matches special characters non utf8, xpath doesn't"""
+		for char in conf.escape_xpath:
+			if char in stringa:
+				stringa=stringa.replace(char,'')
+		return stringa
+
+	@staticmethod
+	def concatenate_if_str(input_list, str_sep=''):
+		""" clean rp_and_tails results - join consecutive strings """
+		output_list = []
+		buffer = []
+		for item in input_list:
+			if type(item) == str:
+				buffer.append(item)
+			else:
+				if len(buffer) > 0:
+					output_list.append(str_sep.join(buffer))
+					buffer = []
+				output_list.append(item)
+		# Check were concatenating after the last element
+		if len(buffer) > 0:
+			output_list.append(str_sep.join(buffer))
+			buffer = []
+		return output_list
 
 	@staticmethod
 	def get_tail(elem):
-		tail = elem.getnext().text if elem.getnext() is not None and elem.getnext().tag == 'sup' and (elem.getnext().text == ',' or elem.getnext().text == '-') else elem.tail
+		""" get tail of xref if in sup or text """
+		tail = elem.getnext().text \
+				if elem.getnext() is not None \
+				and elem.getnext().tag == 'sup' \
+				and (elem.getnext().text == ',' or elem.getnext().text == '-' or elem.getnext().text == '–') \
+				else elem.tail
 		return tail
 
 	@staticmethod
@@ -745,8 +1104,11 @@ class Jats2OC(object):
 		char_before = str_before[-1] if str_before else ' '
 		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
 		# only rp after . or first in cs-list
-		if (char_before == '.' and elem.tail):
-			print("XREF 1:",elem_value)
+		false_ending = True if any(false_end in str_before[-8:] for false_end in conf.false_endings) else False
+		if ( char_before == '.' and elem.tail and false_ending == False ) \
+			or ( char_before == '.' and false_ending == False \
+			and elem.tail == None and elem.getnext() == None):
+			print("XREF 1:",elem_value, elem)
 			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
 			char_after = str_after[0] if str_after else ' '
 			#in_list = re.search(r"((,\s*\d+)*\s)?([A-Z].*)", string_after)
@@ -761,16 +1123,18 @@ class Jats2OC(object):
 				return string_before, string_after.rstrip()
 			elif in_seq and in_seq.group(0):
 				string_after = re.sub(r"(([–|-]\s*\d+)*\s)+([A-Z].*)", "\\1", in_seq.group(0)) if string_after else ' '
-				print("string_after",string_after)
 				return string_before, string_after.rstrip()
 			elif in_seq_end:
 				string_after = re.sub(r"(([–|-]\s*\d+)*\s)?$", "\\1", string_after) if string_after else ' '
 				return string_before, string_after.rstrip()
+			else:
+				return None
 
 		# first rp in list after .
-		elif (char_before == '.' and elem.tail == None \
+
+		elif (char_before == '.' and false_ending == False and elem.tail == None \
 			and elem.getnext() is not None and elem.getnext().tag == elem.tag):
-			#print("XREF 2:",elem_value)
+			print("XREF 2:",elem_value, elem)
 			following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
 			last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1]) # last of siblings or first
 			last_xref_value = ET.tostring(last_xref, method="text", encoding='unicode', with_tail=False)
@@ -781,17 +1145,19 @@ class Jats2OC(object):
 			if char_after.isupper() or last_xref.tail is None:
 				string_after = string_before_last.replace(string_before+elem_value.strip(),'')
 				return string_before, string_after.rstrip()
+			else:
+				return None
 		else:
-			print("XREF 3:",elem_value)
+			print("XREF 3:",elem_value, elem)
 			parent = elem.getparent()
-			rp_and_tail = [(x,Jats2OC.get_tail(x)) for x in parent if x.tag == 'xref']
-			# TODO sup/xref
-			rp_and_tail = [item for t in rp_and_tail for item in t if item is not None]
-			rp_and_tail = [item.lstrip().rstrip() if isinstance(item,str) else item for item in rp_and_tail]
-
+			# rp_and_tail = [(x,Jats2OC.get_tail(x)) for x in parent if x.tag == 'xref']
+			# # TODO sup/xref
+			# rp_and_tail = [item for t in rp_and_tail for item in t if item is not None]
+			# rp_and_tail = [item.lstrip().rstrip() if isinstance(item,str) else item for item in rp_and_tail]
+			rp_and_tail = Jats2OC.rp_and_tails(elem)
 			if parent.text is not None:
 				rp_and_tail.insert(0, parent.text)
-
+			#print("rp_and_tail",rp_and_tail)
 			rp_and_tail.reverse()
 			for i,x in enumerate(rp_and_tail):
 				if x == elem:
@@ -801,46 +1167,56 @@ class Jats2OC(object):
 					if i < len(rp_and_tail)-1 and ( \
 						(isinstance(rp_and_tail[i+1],str) == False and isinstance(rp_and_tail[i-1],str) == False) or \
 						(isinstance(rp_and_tail[i+1],str) == True and isinstance(rp_and_tail[i-1],str) == True and \
-						rp_and_tail[i+1] == ',' and rp_and_tail[i-1] == ',') \
+						Jats2OC.remove_spaces(rp_and_tail[i+1]) == ',' and Jats2OC.remove_spaces(rp_and_tail[i-1]) == ',') \
 						) :
-						#print("XREF 3.2:",elem_value)
+						#print("XREF 3.2:",elem_value, elem)
 						# check for . and upper
-						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(x)>=1 and x[-1] == '.'),None)
+						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(x)>=1 and Jats2OC.remove_spaces(x)[-1] == '.'),None)
 						if period_before is not None:
 							period_index = rp_and_tail.index(period_before)
 							intermediate_elems = rp_and_tail[i+1:period_index]
-							not_belongs_to_previous = next((x for x in intermediate_elems if isinstance(x,str) and len(x)>=3),None)
+							not_belongs_to_previous = next((x for x in intermediate_elems if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=3),None)
 
 							if not_belongs_to_previous is None:
 								string_before = "".join(Jats2OC.get_text_before(elem))
 								rp_and_tail.reverse()
 								for i,x in enumerate(rp_and_tail):
 									if x == elem:
-										string_after = next((x for x in rp_and_tail[i:] if isinstance(x,str) and x != ','),None)
-										if string_after is None or string_after[0].isupper():
+										string_after = next((x for x in rp_and_tail[i:] if isinstance(x,str) and Jats2OC.remove_spaces(x) != ','),None)
+										if string_after is None or Jats2OC.remove_spaces(string_after)[0].isupper():
 											following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref")
-											last_xref = next((xref for xref in following_xrefs if xref.tail != None and xref.tail != ',' ), following_xrefs[-1]) # last of siblings or first
+											last_xref = next((xref for xref in following_xrefs if xref.tail != None and Jats2OC.remove_spaces(xref.tail) != ',' ), following_xrefs[-1]) # last of siblings or first
 											last_xref_value = ET.tostring(last_xref, method="text", encoding='unicode', with_tail=False)
 											string_before_last = "".join(Jats2OC.get_text_before(last_xref))+last_xref_value.strip()
 											string_after = string_before_last.replace(string_before+elem_value.strip(),'')
-											return string_before, string_after.rstrip()
+											return string_before, string_after
 
 					# last rp in list
 					elif (i < len(rp_and_tail)-1) and (\
 					(isinstance(rp_and_tail[i+1],str) == False and isinstance(rp_and_tail[i-1],str) == True) or \
 					(isinstance(rp_and_tail[i+1],str) == True and isinstance(rp_and_tail[i-1],str) == True and \
-					rp_and_tail[i+1] in conf.rp_separators_in_list and rp_and_tail[i-1] not in conf.rp_separators_in_list)
+					Jats2OC.remove_spaces(rp_and_tail[i+1]) in conf.rp_separators_in_list and Jats2OC.remove_spaces(rp_and_tail[i-1]) not in conf.rp_separators_in_list)
 					):
 						# check for . and upper
-						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(x)>=1 and x[-1] == '.'),None)
+						print("XREF 3.3almost:",elem_value, elem)
+						period_before = next((x for x in rp_and_tail[i:] if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=1 and Jats2OC.remove_spaces(x)[-1] == '.'),None)
 						if period_before is not None:
-							print("XREF 3.3:",elem_value)
-							string_before = "".join(Jats2OC.get_text_before(elem))
-							string_after = rp_and_tail[i-1]
-							if string_after is not None and string_after[0].isupper():
-								return string_before, None
-							elif string_after is None:
-								return string_before, None
+							print("XREF 3.4almost:",elem_value, elem)
+							period_index = rp_and_tail.index(period_before)
+							intermediate_elems = rp_and_tail[i+1:period_index]
+							not_belongs_to_previous = next((x for x in intermediate_elems if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=3),None)
+							print("intermediate_elems",intermediate_elems)
+							if not_belongs_to_previous is None:
+								print("XREF 3.5almost:",elem_value, elem)
+								print("rp_and_tail",rp_and_tail)
+								#print("XREF 3.3:",elem_value, elem)
+								string_before = "".join(Jats2OC.get_text_before(elem))
+								string_after = rp_and_tail[i-1]
+								if string_after is not None and Jats2OC.remove_spaces(string_after)[0].isupper():
+									return string_before, None
+								elif string_after is None:
+									return string_before, None
+
 
 
 		return None
@@ -882,6 +1258,9 @@ class Jats2OC(object):
 		"""return: encoded stripped string"""
 		return stringa.encode('utf-8').strip()
 
+	@staticmethod
+	def remove_spaces(stringa):
+		return re.sub(r"\s+", "", stringa) if len(stringa) > 0 else ''
 
 	@staticmethod
 	def clean_list(l):
@@ -1236,15 +1615,3 @@ class Jats2OC(object):
 			return third_res
 		else:
 			return first_res
-
-class CustomLanguageVars(pkt.PunktLanguageVars):
-
-    _period_context_fmt = r"""
-        \S*                          # some word material
-        %(SentEndChars)s             # a potential sentence ending
-        \s*                       #  <-- THIS is what I changed
-        (?=(?P<after_tok>
-            %(NonWord)s              # either other punctuation
-            |
-            (?P<next_tok>\S+)     #  <-- Normally you would have \s+ here
-        ))"""
