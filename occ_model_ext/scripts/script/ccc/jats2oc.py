@@ -736,8 +736,9 @@ class Jats2OC(object):
 				and len(Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) > 1 \
 				and Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] )[0].isupper() \
 				) \
-			or rp_and_tails.index(el) == len(rp_and_tails) \
+			or rp_and_tails.index(el) == len(rp_and_tails)-1 \
 			or (rp_and_tails.index(el)+1 == len(rp_and_tails)-1 \
+				and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
 				and len( Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) == 0 )) \
 			),rp)
 		return rp_and_tails.index(last_rp_in_list)
@@ -797,8 +798,8 @@ class Jats2OC(object):
 					complete_b = "".join(Jats2OC.get_text_before(elem))
 
 					rp_after_period_iterator = (el for el in rp_and_tails[i+1:] \
-						if isinstance(el,str)== False \
-						and rp_and_tails.index(el)+1 != -1 and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
+						if isinstance(el,str)== False and rp_and_tails.index(el) != len(rp_and_tails) \
+						and rp_and_tails.index(el)+1 != len(rp_and_tails) and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
 						and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
 						and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.'  \
 						and Jats2OC.false_end(rp_and_tails[rp_and_tails.index(el)+1]) == False )
@@ -892,7 +893,7 @@ class Jats2OC(object):
 
 						rp_after_period_before = next((el for el in rp_and_tails[i:] \
 							if len(rp_and_tails[i:]) > 1 and isinstance(el,str)== False \
-							and rp_and_tails.index(el) != len(rp_and_tails) and rp_and_tails.index(el)+1 <= len(rp_and_tails) \
+							and rp_and_tails.index(el) != len(rp_and_tails) and rp_and_tails.index(el)+1 != len(rp_and_tails) \
 							and isinstance(rp_and_tails[rp_and_tails.index(el)+1] ,str) \
 							and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
 							and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.' \
@@ -1154,7 +1155,7 @@ class Jats2OC(object):
 				else root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::sup[/xref]") \
 				if elem.tag == 'sup' \
 				else None
-			if following_xrefs is not None:
+			if len(following_xrefs) != 0:
 				last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1])
 				string_after = "".join(Jats2OC.get_text_after(last_xref))
 				str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
