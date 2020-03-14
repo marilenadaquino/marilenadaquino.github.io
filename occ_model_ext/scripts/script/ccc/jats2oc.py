@@ -729,9 +729,8 @@ class Jats2OC(object):
 		"""return true if the rp is the last rp of a list of rp after ."""
 		if i >= 1 \
 			and (\
-				(isinstance(previous,str) \
-				and ((len(Jats2OC.remove_spaces(previous)) >=1 \
-					and Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list)\
+				(isinstance(previous,str) and \
+				((len(Jats2OC.remove_spaces(previous)) >=1 and Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list)\
 					or len(Jats2OC.remove_spaces(previous)) ==0 ) \
 				and len(Jats2OC.remove_spaces(next_el)) >=1) \
 				or isinstance(previous,str)==False ) \
@@ -740,6 +739,22 @@ class Jats2OC(object):
 			return True
 		return False
 
+	@staticmethod
+	def get_last_rp_in_list(rp,rp_and_tails):
+		rp_index = rp_and_tails.index(rp)
+
+		last_rp_in_list = next((el for el in rp_and_tails[rp_index:] \
+			if rp_index < len(rp_and_tails) and (\
+				( rp_and_tails.index(el)+1 < len(rp_and_tails)  \
+				and isinstance(rp_and_tails[rp_and_tails.index(el)+1], str) == True \
+				and len(Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) > 1 \
+				and Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] )[0].isupper() \
+				) \
+			or rp_and_tails.index(el) == len(rp_and_tails) \
+			or (rp_and_tails.index(el)+1 == len(rp_and_tails)-1 \
+				and len( Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) == 0 )) \
+			),rp)
+		return rp_and_tails.index(last_rp_in_list)
 
 	@staticmethod
 	def false_end(string_before):
@@ -763,7 +778,7 @@ class Jats2OC(object):
 		rp_and_tails.reverse()
 
 		if belongs_to_previous_sentence==True:
-			print("belongs_to_previous_sentence")
+			#print("belongs_to_previous_sentence")
 			for i,x in enumerate(rp_and_tails):
 				if x == elem:
 					previous = rp_and_tails[i+1]
@@ -778,9 +793,10 @@ class Jats2OC(object):
 
 					# first rp after .
 					if Jats2OC.first_rp(i, previous) == True :
-						full_string_b = ''.join([x if isinstance(x,str) else \
-							ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
-							for x in reversed(rp_and_tails[i+1:])])
+						# full_string_b = ''.join([x if isinstance(x,str) else \
+						# 	ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+						# 	for x in reversed(rp_and_tails[i+1:])])
+						full_string_b = "".join(Jats2OC.get_text_before(elem))
 						first_rp_in_list = elem
 
 					# middle rp after . or last rp after .
@@ -792,24 +808,29 @@ class Jats2OC(object):
 							and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
 							and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
 							and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.' ),None)
-						start = rp_and_tails.index(first_rp_in_list)+1 if first_rp_in_list else i+1
-						full_string_b = ''.join([x if isinstance(x,str) else \
-								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
-								for x in reversed(rp_and_tails[start:])])
+						# start = rp_and_tails.index(first_rp_in_list)+1 if first_rp_in_list is not None else i+1
+						# full_string_b = ''.join([x if isinstance(x,str) else \
+						# 		ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+						# 		for x in reversed(rp_and_tails[start:])])
+						full_string_b = "".join(Jats2OC.get_text_before(first_rp_in_list)) if first_rp_in_list \
+							else "".join(Jats2OC.get_text_before(elem))
 					else: # any case that I didn't think of yet
+						print("##else_rp")
 						full_string_b = ''.join([x if isinstance(x,str) else \
 								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
 								for x in reversed(rp_and_tails[i+1:])])
 						first_rp_in_list = None
 
-					complete_b = ''.join([x if isinstance(x,str) else \
-							ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
-							for x in reversed(rp_and_tails[i+1:])])
-					any_rp_after_period_before = len([el for el in rp_and_tails[i:] \
-						if isinstance(el,str)== False \
-						and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
-						and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
-						and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.'] )
+					# complete_b = ''.join([x if isinstance(x,str) else \
+					# 		ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+					# 		for x in reversed(rp_and_tails[i+1:])])
+					complete_b = "".join(Jats2OC.get_text_before(elem))
+					# any_rp_after_period_before = len([el for el in rp_and_tails[i:] \
+					# 	if isinstance(el,str)== False \
+					# 	and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
+					# 	and len(Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])) >=1 \
+					# 	and Jats2OC.remove_spaces(rp_and_tails[rp_and_tails.index(el)+1])[-1] == '.'] )
+
 					rp_after_period_iterator = (el for el in rp_and_tails[i+1:] \
 						if isinstance(el,str)== False \
 						and rp_and_tails.index(el)+1 != -1 and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
@@ -845,10 +866,12 @@ class Jats2OC(object):
 									if first_rp_in_list is not None \
 									else "".join(Jats2OC.get_text_before(elem))
 							start_sent = int([start for start, end in sentence_splitter.span_tokenize( complete_b )][-1] )+1
+							#str_before = complete_b[start_sent-1:]+elem_value
 							str_before = complete_b[start_sent-1:]+elem_value \
-								if elem == first_rp_in_list \
-								else "".join(Jats2OC.get_text_before(elem))+elem_value
-
+							 	if elem == first_rp_in_list \
+							 	else "".join(Jats2OC.get_text_before(elem))[start_sent-1:]+elem_value
+							print("here start_sent:"+str(start_sent))
+							print("str_before",str_before)
 						# if the string before corresponds to the sentence
 						else:
 							start_sent = Jats2OC.find_str(complete_b, str_before)+1 \
@@ -859,9 +882,11 @@ class Jats2OC(object):
 
 					else:
 						start_sent = int([start for start, end in sentence_splitter.span_tokenize( full_string_b )][-1] )+1
-						if any_rp_after_period_before != 0 and start_sent > 1: # useless but
-						 	start_sent = start_sent-1
+						# if any_rp_after_period_before != 0 and start_sent > 1: # useless but
+						#  	start_sent = start_sent-1
 						str_before = complete_b[start_sent-1:]+elem_value
+						#print("start_sent:"+str(start_sent))
+					print("str_before",list(str_before))
 
 			rp_and_tails.reverse() # str_after
 
@@ -883,6 +908,7 @@ class Jats2OC(object):
 										ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
 										for x in rp_and_tails[i+1:end ]])
 						elif Jats2OC.last_rp(i, previous, next_el) == True:
+							#print("it's me")
 							str_after = ''
 			return start_sent, str_before, str_after
 
@@ -933,23 +959,24 @@ class Jats2OC(object):
 							# if len(elem) > 0 and elem[0].tag == 'sup':
 							# 	str_before = str_before[:-1]
 							str_before= complete_b[start_sent-1:]+elem_value
-						print("STRING_BEFORE",list("".join(Jats2OC.get_text_before(elem))) )
-						print("STR_BEFORE",list(''.join([x if isinstance(x,str) \
-							else ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
-							for x in reversed(rp_and_tails[i+1:])])))
+						# print("STRING_BEFORE",list("".join(Jats2OC.get_text_before(elem))) )
+						# print("STR_BEFORE",list(''.join([x if isinstance(x,str) \
+							# else ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+							# for x in reversed(rp_and_tails[i+1:])])))
 					else:
-						print("NO rp_after_period_before")
+						#print("NO rp_after_period_before")
 						string_before = "".join(Jats2OC.get_text_before(elem))
 						str_before = sentence_splitter.tokenize( string_before )[-1] \
 							if len(Jats2OC.remove_spaces(string_before)) != 0 \
 							and len(sentence_splitter.tokenize( string_before )) > 1 \
 							else string_before
-						print("sentence_splitter.tokenize( string_before )[-1]",sentence_splitter.tokenize( string_before ))
+						#print("sentence_splitter.tokenize( string_before )[-1]",sentence_splitter.tokenize( string_before ))
 						start_sent = int([start for start, end in sentence_splitter.span_tokenize( string_before )][-1] )+1 \
 							if len(Jats2OC.remove_spaces(string_before)) != 0 else 1
 						if len(string_before) >= 1 and string_before[-1] == ' ' and str_before[-1] != ' ':
 							str_before += ' '
 						str_before += elem_value
+					print("str_before",list(str_before))
 			# str_after
 			rp_and_tails.reverse()
 			for i,x in enumerate(rp_and_tails):
@@ -963,22 +990,35 @@ class Jats2OC(object):
 
 					end = rp_and_tails.index(rp_after_period_after) \
 						if rp_after_period_after is not None else None
-					if end != None:
+
+					if end != None: # if there is some rp after period in the string after
+						# string after until that rp
 						complete_af = ''.join([x if isinstance(x,str) else \
 							ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
 							for x in rp_and_tails[i+1:end] ])
-						# the following string contains more than 1 sentence
-						if len(sentence_splitter.tokenize( complete_af )) >= 1:
+
+						# if the string after contains more than 1 sentence then split
+						if len(sentence_splitter.tokenize( complete_af )) > 1:
 							complete_af = "".join(Jats2OC.get_text_after(elem))
-					else:
+							str_after = sentence_splitter.tokenize( complete_af )[0] \
+								if len(Jats2OC.remove_spaces(complete_af)) != 0 else complete_af
+
+						else: # the string is until the last rp of the list after period
+							index_last_rp_in_list_after = Jats2OC.get_last_rp_in_list(rp_after_period_after, rp_and_tails)
+							end = index_last_rp_in_list_after+2 \
+								if index_last_rp_in_list_after+2 is not None and isinstance(index_last_rp_in_list_after+2,str) == True\
+								and len( Jats2OC.remove_spaces(rp_and_tails[index_last_rp_in_list_after+2] ) ) == 0 \
+								else index_last_rp_in_list_after+1
+							complete_af = ''.join([x if isinstance(x,str) else \
+								ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
+								for x in rp_and_tails[i+1:end] ])
+							str_after = complete_af
+							print("complete_af",complete_af)
+					else: # if there are no rp after period in the string after
 						complete_af = "".join(Jats2OC.get_text_after(elem))
-					str_after = sentence_splitter.tokenize( complete_af )[0] \
-						if len(Jats2OC.remove_spaces(complete_af)) != 0 else complete_af
-					print("string_before: len:",str(len("".join(Jats2OC.get_text_before(elem)))), "list:", list("".join(Jats2OC.get_text_before(elem))) )
-					print("___str_before: len:",str(len(str_before)),"list:",list(str_before))
-					print("str_after:",list(str_after))
-					print("start_sent:"+str(start_sent)+" len_sent:"+str(len(str_before+str_after)) )
-					print("complete_af:"+complete_af)
+						str_after = sentence_splitter.tokenize( complete_af )[0] \
+							if len(Jats2OC.remove_spaces(complete_af)) != 0 else complete_af
+
 			return start_sent, str_before, str_after
 
 
