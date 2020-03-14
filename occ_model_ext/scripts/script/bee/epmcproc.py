@@ -88,9 +88,9 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 "Processing article with local id '%s'." % cur_localid)
 
             if oa and not intext_refs:
-                ref_list_url = self.process_xml_source(cur_pmid)
+                ref_list_url = self.process_xml_source(cur_pmid, cur_doi)
             elif oa and intext_refs:
-                ref_list_url = self.process_xml_source(cur_pmid, intext_refs=True)
+                ref_list_url = self.process_xml_source(cur_pmid, cur_doi, intext_refs=True)
             else:
                 ref_list_url = self.process_references(cur_source, cur_id)
             if ref_list_url is not None:
@@ -246,7 +246,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 if doi_string != "":
                     return doi_string
 
-    def process_xml_source(self, cur_pmid, intext_refs=False):
+    def process_xml_source(self, cur_pmid, cur_doi=None, intext_refs=False):
         if cur_pmid is not None:
             xml_source_url = self.xml_source_api.replace("XXX", cur_pmid)
 
@@ -316,8 +316,11 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                                 if ref_xmlid == "":
                                     ref_xmlid = None
 
-                        self.rs.add_reference(entry_text, process_entry_text,
-                                              None, ref_doi, ref_pmid, ref_pmcid, ref_url, ref_xmlid)
+                        if cur_doi is not None and ref_doi is not None and cur_doi == ref_doi:
+                            pass
+                        else:
+                            self.rs.add_reference(entry_text, process_entry_text,
+                                            None, ref_doi, ref_pmid, ref_pmcid, ref_url, ref_xmlid)
 
 
                     if intext_refs and len(reference_pointers):

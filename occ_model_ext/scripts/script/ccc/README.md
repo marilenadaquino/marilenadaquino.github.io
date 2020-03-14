@@ -1,8 +1,9 @@
 ## NOTES
- * [Q] [NO] disambiguation of be? the case of two be referencing the same paper (13 out of 4018, i.e. 0.3%)
- * [Q] [NON CI INTERESSA] WSGI server? https://flask.palletsprojects.com/en/1.1.x/deploying/
- * [SP] add intrepid to datacite (and also Fabio's pids?)
 
+ * [SP] add intrepid to datacite (and also Fabio's pids?)
+ * [MEMO] config_spacin and ocdm/config - change folder names for production
+ * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
+ 
 ## TODO RAMOSE
 
  * [TODO] add methods to cccapi.hf
@@ -15,21 +16,19 @@
     * #CQ1.9 title of sections
     * #CQ1.10 co-cited references in the same list
 
- * [TODO] fork repo on github
  * [MEMO] test RAMOSE with multiple APIs
  * [MEMO] change endpoint in cccapi.hf in production
 
 ## TODO Jats2OC
 
  * comment on jats2oc for run
- * script for evaluation pl strings and sentences
  * update requirements.txt (fuzzywuzzy and something else)
  * [ADD] control doi2doi self citation
- * [MEMO] config_spacin and ocdm/config - change folder names for production
- * [MEMO] run again SPACIN to check whether "derived_from" and "update_action" are correctly included in se
+
 
 ## DONE RAMOSE
 
+ * [TODO] fork repo on github
  * change test files with definitive one
  * modify documentation: write hf in documentation, describe param -css add examples : python, webserver with curl (say it can be done on browser)
  * [TODO] add css path argument
@@ -46,6 +45,7 @@
 
 ## DONE Jats2OC
 
+ * script for evaluation pl strings and sentences
  * Provenance diff graphs update sparql query
  * Crossref : fuzzy sting matching
  * test32 (https://www.ebi.ac.uk/europepmc/webservices/rest/31790602/fullTextXML)[substring after < 5] Rimuovi casi che non solo liste, come: 6, fungicidal7, anti-diabetic8, analgesic9, anti-microbial10, antitumor11, antileishmanial12, antheltmintic13, antirheum
@@ -105,7 +105,6 @@
  * [DONE] provided_url to be changed
 
 ## PLAN
-
 
 * [14/1/2020] deploy BEE/SPACIN on production: change config SPACIN, create new blazegraph (ccc.properties uguale al corpus)
 * [20/1/2020] API Ramose (locally) + custom interesting stuff to provide
