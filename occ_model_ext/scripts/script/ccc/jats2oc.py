@@ -1,5 +1,19 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Copyright (c) 2016, MArilena Daquino <marilena.daquino2@unibo.it>
+#
+# Permission to use, copy, modify, and/or distribute this software for any purpose
+# with or without fee is hereby granted, provided that the above copyright notice
+# and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+# FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT,
+# OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+# DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+# ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+# SOFTWARE.
+
 import script.ccc.conf_bee as conf
 import uuid , itertools , os , re , string
 from lxml import etree as ET
@@ -15,71 +29,66 @@ from script.ocdm.conf import context_path as context_path
 from fuzzywuzzy import fuzz
 
 
-class CustomLanguageVars(pkt.PunktLanguageVars):
 
-    _period_context_fmt = r"""
-        \S*                          # some word material
-        %(SentEndChars)s             # a potential sentence ending
-        \s*                       #  <-- THIS is what I changed
-        (?=(?P<after_tok>
-            %(NonWord)s              # either other punctuation
-            |
-            (?P<next_tok>\S+)     #  <-- Normally you would have \s+ here
-        ))"""
 
 class Jats2OC(object):
 
 	def __init__(self, xml_doc): # xml_doc is root
-		#self.xml_doc = xml_doc
 		self.root = xml_doc
 		self.xmlp = ET.XMLParser(encoding="utf-8")
-		#self.tree = ET.parse(xml_doc, self.xmlp) # comm for run.py
-		#self.root = self.tree.getroot() # comm for run.py
+		#self.tree = ET.parse(xml_doc, self.xmlp) # uncomment for test_bee.py
+		#self.root = self.tree.getroot() # uncomment for test_bee.py
 		self.et = ET.ElementTree(self.root)
 
 
 	def extract_intext_refs(self):
-		"""process a XML file and return a list of lists of dictionaries"""
+		"""process a XML file (xml_doc) and return a list of lists of dictionaries (self.metadata).
+		Each list when is a list of references, dictionaries include metadata of in-text references"""
 		self.metadata = []
-		rp_list = Jats2OC.preprocess_xref(self.root, self.et) # list of xref
+		# extracts all the xref without grouping them or extracting lists inside xref
+		rp_list = Jats2OC.preprocess_xref(self.root, self.et)
 
-		# 1. pl in parent element
+		# 1. group rp in pl when these are in a parent element
 		parent_pl_set = list({ (rp["xml_element"].getparent(), self.et.getpath(rp["xml_element"].getparent()) ) \
 			for rp in rp_list if rp["xml_element"].getparent().tag not in conf.parent_elements_names})
 
-		for parent_el, parent_el_path in parent_pl_set: # sup w/ comma or dash separated xref [TEST 4]
-			pl_string = ET.tostring(parent_el, method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
+		for parent_el, parent_el_path in parent_pl_set:
+			pl_string = Jats2OC.text(parent_el).strip().replace('\n','')
 			pl_xpath = self.et.getpath(parent_el)
 			context_xpath = Jats2OC.xpath_sentence(parent_el, self.root, conf.abbreviations_list_path, None)
 			containers_title = Jats2OC.find_container_title(parent_el, conf.section_tag, self.root)
-			parent_el_list = Jats2OC.parent_pl(self.root, pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list)[0]
-			rp_list = Jats2OC.parent_pl(self.root, pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list)[1]
+			parent_el_list , rp_list = Jats2OC.parent_pl(self.root, pl_string, pl_xpath, context_xpath,
+											containers_title, parent_el, rp_list)
 			self.metadata.append(parent_el_list)
 
-		# 2. pl in xref (already found)
+		# 2. group lists/sequences already found (inside the same xref)
 		pl_set = {rp["pl_xpath"] for rp in rp_list if "pl_xpath" in rp.keys()}
-		pl_dict = {pl : [rp for rp in rp_list if "pl_xpath" in rp.keys() and rp["pl_xpath"] == pl] for pl in pl_set}
+		pl_dict = {pl : [rp for rp in rp_list if "pl_xpath" in rp.keys() and rp["pl_xpath"] == pl] \
+					for pl in pl_set}
 		for pl, pl_list in pl_dict.items():
 			self.metadata.append(pl_list)
-			rp_list = [rp for rp in rp_list if 'pl_xpath' not in rp.keys() or ("pl_xpath" in rp.keys() and rp["pl_xpath"] != pl)]
+			rp_list = [rp for rp in rp_list if 'pl_xpath' not in rp.keys() \
+						or ("pl_xpath" in rp.keys() and rp["pl_xpath"] != pl)]
 
 
-		# 3. pl in separators
+		# 3. extract lists/sequences for xref that are in the same sentence and are grouped in separators
 		sentences_set = {rp["context_xpath"] for rp in rp_list}
-		sentences_dict = {sent : [rp for rp in rp_list if rp["context_xpath"] == sent] for sent in sentences_set}
+		sentences_dict = {sent : [rp for rp in rp_list if rp["context_xpath"] == sent] \
+							for sent in sentences_set}
 		all_groups = []
 
 		for sent, xref_list in sentences_dict.items():
 			if len(xref_list) == 1: # only one rp in sentence (do not care about separator)
 				Jats2OC.add_rp_in_sentence(self.metadata, xref_list, rp_list)
 
-			elif len(xref_list) > 1: # rp and pl in sentence
+			elif len(xref_list) > 1: # both rp and pl in sentence
 				xref_in_sent = [rp["rp_xpath"] for rp in xref_list if "rp_xpath" in rp.keys()]
-				# tail in text or in sup
-				tails = []
+
+				tails = [] # tail of xref - text or sup elements
 				for xref in xref_in_sent:
 					following_sibling = self.root.xpath('/'+xref+'/following-sibling::*[1]')
-					if following_sibling and following_sibling[0].tag == 'sup' and following_sibling[0].text == ',':
+					if following_sibling and following_sibling[0].tag == 'sup' \
+						and following_sibling[0].text == ',':
 						tails.append(self.root.xpath('/'+xref+'/following-sibling::sup[1]/text()')[0])
 					else:
 						if len(self.root.xpath('/'+xref+conf.rp_tail)) != 0:
@@ -87,33 +96,34 @@ class Jats2OC(object):
 						else:
 							tails.append('')
 
-
-				end_separator = Jats2OC.rp_end_separator(tails) # includes also end_separator = ''
-				if len(end_separator) != 0 and end_separator[0][0] not in list(string.ascii_letters) and end_separator[0][0] not in list(string.digits): # separators
+				end_separator = Jats2OC.rp_end_separator(tails) # includes also '' as end_separator
+				if len(end_separator) != 0 and end_separator[0][0] not in list(string.ascii_letters) \
+					and end_separator[0][0] not in list(string.digits): # separators
 					context = []
 					for xref in xref_in_sent:
 						xref_elem = self.root.xpath(xref)[0]
 						following_sibling = self.root.xpath('/'+xref+'/following-sibling::*[1]')
 						# look for in-list separators in sibling elements
-						if following_sibling and following_sibling[0].tag == 'sup' and following_sibling[0].text == ',': # include <sup>,</sup>
-							context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+' | /'+xref+'/following-sibling::sup[1]/text()')))
-
+						if following_sibling and following_sibling[0].tag == 'sup' \
+							and following_sibling[0].text in conf.rp_separators_in_list:
+							sup_sep = '/following-sibling::sup[1]/text()'
+							context.append(Jats2OC.clean_list( self.root.xpath('/'+xref+' | /'+xref+sup_sep)))
 						else:
-							# force end of list when there is an in-list separator and a text longer than 5 characters
-							# so as to reduce mistakes in parsing lists with inconsistent markup
-
+							# force end of list when there is an in-list separator followed by text > 5 characters
 							# in squared brackets tail < 5
 							if xref_elem.tail is not None and len(xref_elem.tail) < 5 \
 								and end_separator[0][0] is not None \
 								and end_separator[0][0] != conf.list_separators[2][1]:
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
+
 							# in round brackets no matter the length of the tail
 							elif xref_elem.tail is not None \
 								and end_separator[0][0] is not None \
 								and end_separator[0][0] == conf.list_separators[2][1]:
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref)))
 								context.append(Jats2OC.clean_list(self.root.xpath('/'+xref+conf.rp_tail)))
+
 							# no separators tail > 5 force end of the list
 							elif xref_elem.tail is not None and len(xref_elem.tail) >= 5 \
 								and end_separator[0][0] is not None \
@@ -123,6 +133,7 @@ class Jats2OC(object):
 									context.append(end_separator[0][0])
 								elif end_separator[0][0] == '':
 									context.append('E')
+
 							# force end of the list: in squared brackets tail > 5
 							# in squared brackets w/ no tail, in round brackets w/ no tail
 							else:
@@ -132,20 +143,24 @@ class Jats2OC(object):
 								elif end_separator[0][0] == '':
 									context.append('E')
 
-					# FIX? when there is (xref;xref) but the second xref is not @ref-type='bibr'
-					# it creates a list and includes the first following rp in sentence if exists (otherwise single rp)
+					# FIX: when there is (xref;xref) but the second xref is not @ref-type='bibr'
+					# creates a list w/ the next rp in sentence if exists (otherwise single rp)
 					context = [y for x in context for y in x]
-					context = [x if x != 'E' else '' for x in context] # replace fake separator with empty string because cannot append it
-					rp_and_separator = [Jats2OC.clean(elem).decode('utf-8') if isinstance(elem, str) else elem for elem in context] # list of rp and separator
-					rp_groups = [list(x[1]) for x in groupby(rp_and_separator, lambda x: x==end_separator[0][0]) if not x[0]] # group rp by separator
+					# replace fake separator with empty string because cannot append it
+					context = [x if x != 'E' else '' for x in context]
+					# list of rp and separator
+					rp_and_separator = [Jats2OC.clean(elem).decode('utf-8') \
+										if isinstance(elem, str) else elem for elem in context]
+					# group rp by separator
+					rp_groups = [list(x[1]) \
+						for x in groupby(rp_and_separator, lambda x: x==end_separator[0][0]) if not x[0]]
 					rp_groups_and_types = Jats2OC.add_group_type(rp_groups)
+					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata,
+						rp_groups_and_types, rp_list, end_separator)
 
-					Jats2OC.add_rp_and_pl_in_sentence(self.root, self.et, self.metadata, rp_groups_and_types, rp_list, end_separator)
-
-				else: # no separator / weird separators / the worst case scenario
+				else: # no separator or weird separators : ideally never goes here
 					groups = Jats2OC.handle_no_separators(self.root, xref_in_sent)[0]
 					lonely = Jats2OC.handle_no_separators(self.root, xref_in_sent)[1]
-
 					if len(groups) != 0:
 						all_groups.append(groups)
 					if len(lonely) != 0:
@@ -156,10 +171,12 @@ class Jats2OC(object):
 		rp_dictionaries = []
 		for group_in_sent in sublists:
 			for group_list in group_in_sent:
-				rp_dict = [rp for rp in rp_list for tup in group_list if ("rp_xpath" in rp.keys() and rp["rp_xpath"] == tup[1]) or ("pl_xpath" in rp.keys() and rp["pl_xpath"] == tup[1]) ]
+				rp_dict = [rp for rp in rp_list for tup in group_list \
+					if ("rp_xpath" in rp.keys() and rp["rp_xpath"] == tup[1]) \
+					or ("pl_xpath" in rp.keys() and rp["pl_xpath"] == tup[1]) ]
 				rp_dictionaries.append(rp_dict)
 
-		# add pl_xpath/string to groups missing it
+		# add pl_xpath/pl_string to groups
 		for rp_d in rp_dictionaries:
 			rp_d = Jats2OC.add_pl_info(rp_d, self.root) if len(rp_d) > 1 else rp_d
 			self.metadata.append(rp_d)
@@ -180,102 +197,164 @@ class Jats2OC(object):
 	#### METHODS FOR XML ####
 	#########################
 
-
 	@staticmethod
 	def preprocess_xref(root, et):
-		n_rp = 100 # start from 100 to include floating numbers (corresponding to rp extracted from sequences in post process)
+		"""parse the root element of a xml document
+		return a list of dictionaries w/ all the xref, regardless their groupings"""
+		n_rp = 100
 		rp_list = []
 		for xref in root.xpath(conf.rp_path):
-			n_rp += 100
+			n_rp += 100 # step 100 to include rp extracted from sequences in postprocess
 			xref_id = xref.get('rid')
-			xref_text = xref.text if xref.text else ET.tostring(xref, method="text", encoding='unicode', with_tail=False)
-			rp_string = xref_text.strip().replace('\n','') if xref.text else xref_text.strip().replace('\n','')
+			xref_text = xref.text if xref.text else Jats2OC.text(xref)
+			rp_string = xref_text.strip().replace('\n','')
 			rp_xpath = et.getpath(xref)
 			parent = None if xref.getparent().tag in conf.parent_elements_names else xref.getparent().tag
 			context_xpath = Jats2OC.xpath_sentence(xref, root, conf.abbreviations_list_path, parent)
 			containers_title = Jats2OC.find_container_title(xref, conf.section_tag, root)
 			pl_string , pl_xpath = None , None
-			char_before = re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(xref)))[-1] if len(re.sub(r"\s+", "", "".join(Jats2OC.get_text_before(xref)))) != 0 else None
-			char_after = re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(xref)))[0] if len(re.sub(r"\s+", "", "".join(Jats2OC.get_text_after(xref)))) != 0 else None
-			if char_before and char_after and (char_before == conf.list_separators[1][0] or char_before == conf.list_separators[2][0]) \
+
+			# include separators in rp_string
+			text_before, text_after = "".join(Jats2OC.get_text_before(xref)),"".join(Jats2OC.get_text_after(xref))
+			char_before = Jats2OC.remove_spaces(text_before)[-1] \
+				if len(Jats2OC.remove_spaces(text_before)) != 0 else None
+			char_after = Jats2OC.remove_spaces(text_after)[0] \
+				if len(Jats2OC.remove_spaces(text_after)) != 0 else None
+			if char_before is not None and char_after is not None \
+				and (char_before == conf.list_separators[1][0] or char_before == conf.list_separators[2][0]) \
 				and ( char_after == conf.list_separators[1][1] or char_after == conf.list_separators[2][1]):
 				rp_string = char_before+rp_string+char_after
+
 			if len(list(xref)) == 0: # no children
-				seq = xref_text.encode('utf-8').split('\u2013'.encode('utf-8')) if '\u2013'.encode('utf-8') in xref_text.encode('utf-8') else xref_text.split('-')
-				if len(seq) == 2 and Jats2OC.num(seq[0]) and Jats2OC.num(seq[1]): # more digits <xref rid="CIT0001">1-3</xref>
-					#pl_string, pl_xpath = rp_string, rp_xpath
-					pl_string  = rp_string if parent is None else xref.getparent().text.strip().replace('\n','') if xref.getparent().text else xref_text.strip().replace('\n','')
+				# extract sequences
+				seq = xref_text.encode('utf-8').split('\u2013'.encode('utf-8')) \
+					if '\u2013'.encode('utf-8') in xref_text.encode('utf-8') \
+					else xref_text.split('-')
+				if len(seq) == 2 and Jats2OC.num(seq[0]) and Jats2OC.num(seq[1]):
+					pl_string  = rp_string if parent is None \
+						else xref.getparent().text.strip().replace('\n','') if xref.getparent().text \
+						else xref_text.strip().replace('\n','')
 					pl_xpath = rp_xpath if parent is None else et.getpath(xref.getparent())
-					rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
+					rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string ,
+												pl_xpath, context_xpath, containers_title)
 					rp_list.append(rp_dict)
 					range_values = [int( val ) for val in seq if val.isdigit() ]
 					if len(range_values) == 2:
 						range_values.sort()
-						for intermediate in range(int(range_values[0]+1),int(range_values[1]+1) ): # 2nd to last included
-							n_rp += 100
+						for intermediate in range(int(range_values[0]+1),int(range_values[1]+1) ):
+							n_rp += 100 # 2nd to last included
 							xref_id = Jats2OC.find_xmlid(str(intermediate),root)
-							rp_dict_i = Jats2OC.rp_dict(xref , n_rp , xref_id , None , None , pl_string , pl_xpath, context_xpath, containers_title)
+							rp_dict_i = Jats2OC.rp_dict(xref , n_rp , xref_id , None , None , pl_string ,
+															pl_xpath, context_xpath, containers_title)
 							rp_list.append(rp_dict_i)
 					else: # no digits
 						pass
 				else: # simple string <xref rid="CIT0001">1</xref>
-					rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None, context_xpath, containers_title)
+					rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None,
+												context_xpath, containers_title)
 					rp_list.append(rp_dict)
 			else: # children
-				rp_string = ET.tostring(xref, method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
-				if char_before and char_after and (char_before == conf.list_separators[1][0] or char_before == conf.list_separators[2][0]) \
+				rp_string = Jats2OC.text(xref).strip().replace('\n','')
+				if char_before is not None and char_after is not None \
+					and (char_before == conf.list_separators[1][0] or char_before == conf.list_separators[2][0]) \
 					and ( char_after == conf.list_separators[1][1] or char_after == conf.list_separators[2][1]):
 					rp_string = char_before+rp_string+char_after
+
 				tail = (xref[0].tail).strip().replace('\n','') if xref[0].tail else ''
 				child = (xref[0].text).strip().replace('\n','') if xref[0].text else rp_string
-				rp_child_norm, child_tail_norm = re.sub(r"\s+", "", child) , re.sub(r"\s+", "", tail)
-				#if len(xref_text.strip().replace('\n','')) != 0 or len(tail) != 0: # Amass <italic>et al.</italic>, 2000
-				if len(rp_child_norm) != 0 and len(child_tail_norm) != 0: # Amass <italic>et al.</italic>, 2000
-					rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None, context_xpath, containers_title)
+				rp_child_norm, child_tail_norm = Jats2OC.remove_spaces(child), Jats2OC.remove_spaces(tail)
+				# Amass <italic>et al.</italic>, 2000
+				if len(rp_child_norm) != 0 and len(child_tail_norm) != 0:
+					rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , None , None,
+												context_xpath, containers_title)
 					rp_list.append(rp_dict)
 				elif len(rp_child_norm) != 0 and len(child_tail_norm) == 0: # xref/sup
-					seq = (rp_child_norm).split('\u2013') if xref[0].text else ((ET.tostring(xref[0], method="text", encoding='unicode', with_tail=False)).strip().replace('\n','')).split('\u2013')
-					if len(seq) == 2 and Jats2OC.num(seq[0]) and Jats2OC.num(seq[1]): # more digits <xref rid="CIT0001"><sup>1-3</sup></xref>
+					# extract sequences
+					seq = (rp_child_norm).split('\u2013') if xref[0].text \
+						else ( (Jats2OC.text(xref[0])).strip().replace('\n','')).split('\u2013')
+					# more digits <xref rid="CIT0001"><sup>1-3</sup></xref>
+					if len(seq) == 2 and Jats2OC.num(seq[0]) and Jats2OC.num(seq[1]):
 						pl_string , pl_xpath = rp_string , rp_xpath
-						rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
+						rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath ,
+													pl_string , pl_xpath, context_xpath, containers_title)
 						rp_list.append(rp_dict)
 						range_values = [int( val ) for val in seq if val.isdigit() ]
 						if len(range_values) != 0:
 							range_values.sort()
-							for intermediate in range(int(range_values[0])+1,int(range_values[1])+1 ): # 2nd to last included
-								n_rp += 100
+							for intermediate in range(int(range_values[0])+1,int(range_values[1])+1 ):
+								n_rp += 100 # 2nd to last included
 								xref_id_int = Jats2OC.find_xmlid(str(intermediate),root)
-								rp_dict_i = Jats2OC.rp_dict(xref , n_rp , xref_id_int , None , None , pl_string , pl_xpath, context_xpath, containers_title)
+								rp_dict_i = Jats2OC.rp_dict(xref , n_rp , xref_id_int , None , None , \
+																pl_string , pl_xpath, context_xpath, containers_title)
 								rp_list.append(rp_dict_i)
 					else: # simple string
-						rp_string = ET.tostring(xref[0], method="text", encoding='unicode', with_tail=False).strip().replace('\n','')
-						rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title)
+						rp_string = Jats2OC.text(xref[0]).strip().replace('\n','')
+						rp_dict = Jats2OC.rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , \
+													pl_string , pl_xpath, context_xpath, containers_title)
 						rp_list.append(rp_dict)
-
 
 		return rp_list
 
+	@staticmethod
+	def rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath,
+				context_xpath, containers_title):
+		""" return a dictionary w/ all metadata about a rp"""
+		rp_dict = {}
+		if xref is not None:
+			rp_dict["xml_element"] = xref
+		rp_dict["n_rp"] = n_rp
+		rp_dict["xref_id"] = xref_id
+		if rp_string is not None:
+			rp_dict["rp_string"] = rp_string
+		if pl_string is not None:
+			rp_dict["pl_string"] = pl_string
+		if rp_xpath is not None:
+			rp_dict["rp_xpath"] = rp_xpath
+		if pl_xpath is not None:
+			rp_dict["pl_xpath"] = pl_xpath
+		rp_dict["context_xpath"] = context_xpath
+		rp_dict["containers_title"] = containers_title
+		return rp_dict
+
+	# grouping lists methods
+
+	@staticmethod
+	def rp_end_separator(rp_path_list):
+		"""given a list of separators (in sentence) retrieve the 2 most common separators"""
+		rp_end_separator = Jats2OC.clean_list(rp_path_list)
+		rp_end_separator = [rp for rp in rp_end_separator if rp.encode('utf-8') not in conf.rp_separators_in_list]
+		rp_end_separator = Counter(rp_end_separator).most_common(2)
+		return rp_end_separator
 
 	@staticmethod
 	def parent_pl(root,  pl_string, pl_xpath, context_xpath, containers_title, parent_el, rp_list):
+		"""return a list of dictionaries for those rp that are grouped in a parent element"""
 		et = ET.ElementTree(root)
 		parent_el_list = []
 		for xref_el in parent_el:
-			n_rpn = [rp["n_rp"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
-			tail = (xref_el.tail)
-			if tail is not None and ('-' in tail.strip().replace('\n','') or '\u2013' in tail.strip().replace('\n','')): # this handles also mixed lists/sequences
-				end_seq = xref_el.getnext()
-				elem_value = ET.tostring(xref_el, method="text", encoding='unicode', with_tail=False)
-				end_seq_value = ET.tostring(end_seq, method="text", encoding='unicode', with_tail=False) if end_seq is not None else None
-				if end_seq is not None and end_seq.tag == 'xref' \
-					and ( (elem_value).isdigit() and (end_seq_value).isdigit() ):
-					for intermediate in range(int(elem_value)+1,int(end_seq_value) ):
-						# we assume that lists cannot include more than 100 elements
-						n_rpn += 1
-						xref_id = Jats2OC.find_xmlid(str(intermediate),root)
-						rp_dict_i = Jats2OC.rp_dict(xref_el , n_rpn , xref_id , None , None , pl_string , pl_xpath, context_xpath, containers_title)
-						#rp_list.append(rp_dict_i)
-						parent_el_list.append(rp_dict_i)
+			n_rps = [rp["n_rp"] for rp in rp_list if rp["xml_element"] == xref_el ]
+			if len(n_rps) != 0: # there might be extra elements in the pl
+				n_rpn = n_rps[0]
+				tail = (xref_el.tail)
+				if tail is not None \
+				and (conf.rp_separators_in_list[1] in Jats2OC.remove_spaces(tail) \
+					or conf.rp_separators_in_list[2] in Jats2OC.remove_spaces(tail)\
+					or conf.rp_separators_in_list[4] in Jats2OC.remove_spaces(tail)\
+					or conf.rp_separators_in_list[5] in Jats2OC.remove_spaces(tail)\
+					or conf.rp_separators_in_list[8] in Jats2OC.remove_spaces(tail)\
+					): # this handles also mixed lists/sequences
+					end_seq = xref_el.getnext()
+					elem_value = Jats2OC.text(xref_el)
+					end_seq_value = Jats2OC.text(end_seq) if end_seq is not None else None
+					if end_seq is not None and end_seq.tag == 'xref' \
+						and ( (elem_value).isdigit() and (end_seq_value).isdigit() ):
+						for intermediate in range(int(elem_value)+1,int(end_seq_value) ):
+							n_rpn += 1 # we assume that lists cannot include more than 100 elements
+							xref_id = Jats2OC.find_xmlid(str(intermediate),root)
+							rp_dict_i = Jats2OC.rp_dict(xref_el , n_rpn , xref_id , None , None ,
+											pl_string , pl_xpath, context_xpath, containers_title)
+							#rp_list.append(rp_dict_i)
+							parent_el_list.append(rp_dict_i)
 
 		rp_list = sorted(rp_list, key=lambda rp: int(rp["n_rp"]))
 
@@ -285,9 +364,6 @@ class Jats2OC(object):
 					rp["pl_string"] = pl_string.replace("\n","")
 					rp["pl_xpath"] = pl_xpath
 					parent_el_list.append(rp)
-					#rp_list.remove(rp)
-
-
 
 		if len(parent_el_list) == 1: # remove pl_string only at the end if there are no other rp
 			parent_el_list[0].pop("pl_string", None)
@@ -298,83 +374,18 @@ class Jats2OC(object):
 
 		return parent_el_list , rp_lista
 
-
-	@staticmethod
-	def add_pl_info(rp_d, root):
-		first_el = rp_d[0]["xml_element"]
-		last_el = rp_d[-1]["xml_element"] if isinstance(rp_d[-1]["xml_element"],str) == False else rp_d[-2]["xml_element"]
-		for rp in rp_d:
-			if "pl_xpath" not in rp.keys():
-				str_before = "".join(Jats2OC.get_text_before(first_el)).replace("\n"," ")
-				str_after = "".join(Jats2OC.get_text_after(last_el)).replace("\n"," ")
-
-				char_before = re.sub(r"\s+", "", str_before)[-1] if len(re.sub(r"\s+", "", str_before)) != 0 else None
-				char_after = re.sub(r"\s+", "", str_after)[0] if len(re.sub(r"\s+", "", str_after)) != 0 else None
-
-				opening = re.search(r".*(\((?!.*\)).*)", str_before)
-				closing = re.search(r"(.*?(?!\()\)).*", str_after)
-				opening_sq = re.search(r".*(\[(?!.*\]).*)", str_before)
-				closing_sq = re.search(r"(.*?(?!\[)\]).*", str_after)
-				if char_before and char_after and \
-					((char_before == conf.list_separators[1][0] and char_after == conf.list_separators[1][1]) or \
-					(char_before == conf.list_separators[2][0] and char_after == conf.list_separators[2][1])): # valid only for "[]" immediately before/after
-					before = 2 if str_before[-1] != char_before else 1
-					after = 2 if str_after[0] != char_after else 1
-					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
-
-				elif opening is not None and closing is not None \
-					and opening_sq is None and closing_sq is None: # valid only for "()" eventually with text in the middle
-					before_text = re.sub(r".*(\((?!.*\)).*)", "\\1",str_before)
-					before = len(before_text)
-					after_text = re.sub(r"(.*?(?!\()\)).*", "\\1",str_after)
-					after = len(after_text)
-					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
-
-				elif opening is None and closing is None \
-					and opening_sq is not None and closing_sq is not None: # valid only for "[]" eventually with text in the middle
-					before_text = re.sub(r".*(\[(?!.*\]).*)", "\\1",str_before)
-					before = len(before_text)
-					after_text = re.sub(r"(.*?(?!\[)\]).*", "\\1",str_after)
-					after = len(after_text)
-					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
-
-				else:
-					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root)
-
-				rp["pl_xpath"] = pl_xpath
-				rp["pl_string"] = root.xpath(pl_xpath).replace("\n","")
-		return rp_d
-
-
-	@staticmethod
-	def add_rp_info(rp, root):
-		""" add start and end separator if existing """
-		elem = rp["xml_element"]
-		str_before = "".join(Jats2OC.get_text_before(elem)).replace("\n"," ")
-		str_after = "".join(Jats2OC.get_text_after(elem)).replace("\n"," ")
-		char_before = re.sub(r"\s+", "", str_before)[-1] if len(re.sub(r"\s+", "", str_before)) != 0 else None
-		char_after = re.sub(r"\s+", "", str_after)[0] if len(re.sub(r"\s+", "", str_after)) != 0 else None
-		if char_before and char_after and \
-			((char_before == conf.list_separators[1][0] and char_after == conf.list_separators[1][1]) or \
-			(char_before == conf.list_separators[2][0] and char_after == conf.list_separators[2][1])):
-			before = str_before[-2:] if str_before[-1] != char_before else 1
-			after = str_after[2] if str_after[0] != char_after else 1
-			rp_string = char_before+rp["rp_string"]+char_after
-		else:
-			rp_string = rp["rp_string"]
-		return rp_string
-
-
 	@staticmethod
 	def add_rp_in_sentence(metadata, xref_list, rp_list):
+		"""add list w/ one dictionary to the final list and remove the dictionary from the preprocess list """
 		metadata.append(xref_list)
 		for rp in rp_list:
 			if rp == xref_list[0]:
 				rp_list.remove(rp)
 
-
 	@staticmethod
 	def add_rp_and_pl_in_sentence(root, et, metadata, groups, rp_list, end_separator):
+		"""group rp in lists/sequences/single, add lists w/ dictionaries to the final list
+		and remove the dictionaries from the preprocess list """
 		for group in groups:
 			if 'singleton' in group:
 				for single_rp in group: # for some reasons sometimes there are more singletons
@@ -389,9 +400,7 @@ class Jats2OC(object):
 			if 'list' in group:
 				elems_path = [et.getpath(elem) for elem in group if isinstance(elem, str) == False]
 				rp_dicts = [rp for rp in rp_list for elem in elems_path if "rp_xpath" in rp.keys() and rp["rp_xpath"] == elem]
-
 				rp_dicts = Jats2OC.add_pl_info(rp_dicts, root) if len(rp_dicts) > 1 else rp_dicts
-
 
 				metadata.append(rp_dicts)
 				for rp in rp_dicts:
@@ -423,6 +432,7 @@ class Jats2OC(object):
 						rp_list.remove(rp)
 
 			if 'mixed' in group:
+				print(group)
 				extended_list = []
 				for pos,xref_el in enumerate(group):
 					if isinstance(xref_el,str) == False and pos < len(group)-1:
@@ -439,10 +449,10 @@ class Jats2OC(object):
 							context_xpath = [rp["context_xpath"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
 							containers_title = [rp["containers_title"] for rp in rp_list if rp["xml_element"] == xref_el ][0]
 
-							end_seq = group[pos+2]
-							elem_value = ET.tostring(xref_el, method="text", encoding='unicode', with_tail=False)
-							end_seq_value = ET.tostring(end_seq, method="text", encoding='unicode', with_tail=False)
-							if end_seq.tag == 'xref' and ( (Jats2OC.remove_spaces(elem_value)).isdigit() and (Jats2OC.remove_spaces(end_seq_value)).isdigit() ):
+							elem_value = Jats2OC.text(xref_el)
+							end_seq = group[pos+2] if isinstance(group[pos+2],str) == False else None
+							end_seq_value = Jats2OC.text(end_seq) if end_seq is not None else None
+							if end_seq is not None and end_seq.tag == 'xref' and ( (Jats2OC.remove_spaces(elem_value)).isdigit() and (Jats2OC.remove_spaces(end_seq_value)).isdigit() ):
 								for intermediate in range(int(elem_value)+1,int(end_seq_value) ):
 									# we assume that lists cannot include more than 100 elements
 									n_rpn += 1
@@ -461,9 +471,8 @@ class Jats2OC(object):
 					if rp in rp_list:
 						rp_list.remove(rp)
 
-
 	@staticmethod
-	def handle_no_separators(root, xref_in_sent): # TODO handle seq and lists together
+	def handle_no_separators(root, xref_in_sent):
 		groups , lonely = [],[]
 		for xref in xref_in_sent: # exception xref/sup + sup=, + xref/sup
 			# start
@@ -503,8 +512,11 @@ class Jats2OC(object):
 					lonely.append([ "0",xref, (root.xpath('/'+xref+'//text()')[0]) ])
 		return groups, lonely
 
+	# groups methods
+
 	@staticmethod
 	def is_list(group):
+		""" returns true if the list of xref and strings is a list"""
 		if ((conf.rp_separators_in_list[1].decode('utf-8') not in group) \
 			and (conf.rp_separators_in_list[2].decode('utf-8') not in group)\
 			and (conf.rp_separators_in_list[4] not in group)\
@@ -519,9 +531,9 @@ class Jats2OC(object):
 			return True
 		return None
 
-
 	@staticmethod
 	def is_sequence(group):
+		""" returns true if the list of xref and strings is a sequence"""
 		if (conf.rp_separators_in_list[1].decode('utf-8') in group \
 			or conf.rp_separators_in_list[2].decode('utf-8') in group \
 			or conf.rp_separators_in_list[4] in group \
@@ -536,9 +548,9 @@ class Jats2OC(object):
 			return True
 		return None
 
-
 	@staticmethod
 	def is_mixed(group):
+		""" returns true if the list of xref and strings includes both lists and sequences"""
 		if ((conf.rp_separators_in_list[1].decode('utf-8') in group) \
 			or (conf.rp_separators_in_list[2].decode('utf-8') in group) \
 			or (conf.rp_separators_in_list[4] in group) \
@@ -553,9 +565,9 @@ class Jats2OC(object):
 			return True
 		return None
 
-
 	@staticmethod
 	def add_group_type(rp_groups):
+		""" returns the list w/ the type of group of xref and strings"""
 		for group in rp_groups:
 			if Jats2OC.is_list(group) == True:
 				group.append('list')
@@ -567,76 +579,7 @@ class Jats2OC(object):
 				group.append('singleton')
 		return rp_groups
 
-
-	@staticmethod
-	def sublist(groups):
-		result_list = []
-		sublist = []
-		previous_number = None
-
-		for current_number,path,val in groups:
-			if previous_number is None or current_number > previous_number:
-				sublist.append((current_number,path,val)) # still ascending, add to the current sublist
-			else:
-				result_list.append(sublist) # no longer ascending, add the current sublist
-				sublist = [(current_number,path,val)] # start a new sublist
-			previous_number = current_number
-		if sublist: # add the last sublist, if there's anything there
-			result_list.append(sublist)
-		return result_list
-
-
-	@staticmethod
-	def num(s):
-	    try:
-	        return int(s)
-	    except:
-	        return None
-
-
-	@staticmethod
-	def get_be_id(elem):
-		"""
-		params: elem -- the XML element including the rp
-		return: ID of the XML element including the be denoted by the rp
-		"""
-		return elem.get('rid') if 'rid' in elem.attrib else elem.getparent().get('rid')
-
-
-	@staticmethod
-	def find_xmlid(elem,root):
-		"""
-		params: elem -- the XML element OR the text value of the XML element including the rp
-		params: root -- the root element of the XML document
-		return: xmlid of the rp, i.e. of the bibentry denoted by the rp
-		"""
-
-		if isinstance(elem, str) == False:
-			xmlid = Jats2OC.get_be_id(elem)
-		else:
-			for ref in root.xpath('.//ref-list/ref[label[contains(text(),'+elem+')]]'):
-				if re.sub(r"\D+", "", ref.find('.//label').text ) == elem: # remove all non digits and look for the exact match
-					xmlid = ref.get('id')
-		return xmlid if not None else ''
-
-
-	@staticmethod
-	def get_text_before(elem):
-		""" extract text before an xml element till the start tag of the parent element"""
-		for item in elem.xpath("preceding-sibling::*//text()|preceding-sibling::text()"):
-			item = item
-			if item:
-				yield item
-
-
-	@staticmethod
-	def get_text_after(elem):
-		""" extract text after an xml element till the end tag of the parent element"""
-		for item in elem.xpath("following-sibling::*//text()|following-sibling::text()"):
-			item = item
-			if item:
-				yield item
-
+	# sentence methods
 
 	@staticmethod
 	def xpath_sentence(elem, root, abb_list_path, parent=None):
@@ -678,78 +621,108 @@ class Jats2OC(object):
 		sent_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(elem_par.getparent())+'),'+str(start_sent)+','+str(len_sent)+')'
 		return sent_xpath_function
 
-
 	@staticmethod
-	def first_rp(i, previous):
-		"""return true if the sentence before finishes with ."""
-		if i >= 1 and isinstance(previous,str) \
-			and len(Jats2OC.remove_spaces(previous)) >=1 \
-			and Jats2OC.remove_spaces(previous)[-1] == '.':
-			return True
-		return False
-
-
-	@staticmethod
-	def middle_rp(i,previous,next_el,one_after_next):
-		"""return true if the rp is in a list of rp after ."""
-		if i >= 1 \
-			and (\
-				(isinstance(previous,str) \
-				and (\
-					(Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list) \
-					or len(Jats2OC.remove_spaces(previous)) == 0) \
-				and len(Jats2OC.remove_spaces(next_el)) >=1) \
-				or isinstance(previous,str)==False ) \
-			and (\
-				(isinstance(next_el,str) \
-				and ((Jats2OC.remove_spaces(next_el) in conf.rp_separators_in_list)\
-					or len(Jats2OC.remove_spaces(next_el)) == 0) \
-				and isinstance(one_after_next,str)==False) \
-				or isinstance(next_el,str)==False ) :
-				return True
-		return False
-
-
-	@staticmethod
-	def last_rp(i, previous, next_el):
-		"""return true if the rp is the last rp of a list of rp after ."""
-		if i >= 1 \
-			and (\
-				(isinstance(previous,str) and \
-				((len(Jats2OC.remove_spaces(previous)) >=1 and Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list)\
-					or len(Jats2OC.remove_spaces(previous)) ==0 ) \
-				and len(Jats2OC.remove_spaces(next_el)) >=1) \
-				or isinstance(previous,str)==False ) \
-			and len(Jats2OC.remove_spaces(next_el)) >=1 \
-			and Jats2OC.remove_spaces(next_el) not in conf.rp_separators_in_list:
-			return True
-		return False
-
-	@staticmethod
-	def get_last_rp_in_list(rp,rp_and_tails):
-		rp_index = rp_and_tails.index(rp)
-
-		last_rp_in_list = next((el for el in rp_and_tails[rp_index:] \
-			if rp_index < len(rp_and_tails) and (\
-				( rp_and_tails.index(el)+1 < len(rp_and_tails)  \
-				and isinstance(rp_and_tails[rp_and_tails.index(el)+1], str) == True \
-				and len(Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) > 1 \
-				and Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] )[0].isupper() \
-				) \
-			or rp_and_tails.index(el) == len(rp_and_tails)-1 \
-			or (rp_and_tails.index(el)+1 == len(rp_and_tails)-1 \
-				and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
-				and len( Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) == 0 )) \
-			),rp)
-		return rp_and_tails.index(last_rp_in_list)
-
-	@staticmethod
-	def false_end(string_before):
-		"""return true if the string before a rp is not the end of a sentence"""
+	def belongs_to_previous_sentence(root, elem, string_before, string_after):
+		""" check whether the xref is between . and uppercase letter (eventually in list)
+		return the string before and the string after """
 		str_before = re.sub(r"\s+", "", string_before)
+		char_before = str_before[-1] if str_before else ' '
+		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
+		# only rp after . or first in cs-list
 		false_ending = True if any(false_end in str_before[-8:] for false_end in conf.false_endings) else False
-		return false_ending
+		if ( char_before == '.' and elem.tail and false_ending == False ) \
+			or ( char_before == '.' and false_ending == False \
+			and elem.tail == None and elem.getnext() == None):
+			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
+			char_after = str_after[0] if str_after else ' '
+			in_list = re.search(r"^([,\s*\d+]+\s*){1}[A-Z].*", string_after)
+			in_seq = re.search(r"(([–|-]\s*\d+)*\s)+([A-Z].*)", string_after)
+			in_seq_end = re.search(r"(([–|-]\s*\d+)*\s)?$", string_after)
 
+			if char_after.isupper()\
+				or (in_list and in_list.group(0)) \
+				or (in_seq and in_seq.group(0)) \
+				or in_seq_end:
+				return True
+			else:
+				return False
+
+		# first rp in list after .
+		elif (char_before == '.' and false_ending == False and elem.tail == None \
+			and elem.getnext() is not None \
+			and (elem.getnext().tag == elem.tag \
+				or (elem.getnext().tag == 'sup' and elem.getnext().text in conf.rp_separators_in_list)) ):
+			following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref") \
+				if elem.tag == 'xref' \
+				else root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::sup[/xref]") \
+				if elem.tag == 'sup' \
+				else None
+			if len(following_xrefs) != 0:
+				last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1])
+				string_after = "".join(Jats2OC.get_text_after(last_xref))
+				str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
+				char_after = str_after[0]
+				if char_after.isupper() or last_xref.tail is None:
+					return True
+			else:
+				return False
+		else:
+			parent = elem.getparent()
+			rp_and_tail = Jats2OC.rp_and_tails(elem)
+			if parent.text is not None:
+				rp_and_tail.insert(0, parent.text)
+			rp_and_tail.reverse()
+			for i,x in enumerate(rp_and_tail):
+				if x == elem:
+					cur_xref = rp_and_tail[i]
+
+					middle_rp = True if i < len(rp_and_tail)-1 and ( \
+						(isinstance(rp_and_tail[i+1],str) == False \
+							and isinstance(rp_and_tail[i-1],str) == False) \
+						or (isinstance(rp_and_tail[i+1],str) == True \
+							and isinstance(rp_and_tail[i-1],str) == True \
+							and Jats2OC.remove_spaces(rp_and_tail[i+1]) in conf.rp_separators_in_list \
+							and Jats2OC.remove_spaces(rp_and_tail[i-1]) in conf.rp_separators_in_list) \
+						) else False
+
+					last_rp = True if (i < len(rp_and_tail)-1) and (\
+						(isinstance(rp_and_tail[i+1],str) == False and isinstance(rp_and_tail[i-1],str) == True) or \
+						(isinstance(rp_and_tail[i+1],str) == True and isinstance(rp_and_tail[i-1],str) == True and \
+						Jats2OC.remove_spaces(rp_and_tail[i+1]) in conf.rp_separators_in_list \
+						and Jats2OC.remove_spaces(rp_and_tail[i-1]) not in conf.rp_separators_in_list) \
+						) else False
+
+					if middle_rp == True or last_rp == True:
+
+						period_before = next((x for x in rp_and_tail[i:] \
+							if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=1 \
+							and Jats2OC.remove_spaces(x)[-1] == '.' \
+							and Jats2OC.false_end(Jats2OC.remove_spaces(x)) == False ) \
+							,None)
+
+						if period_before is not None:
+							period_index = rp_and_tail.index(period_before)
+							intermediate_elems = rp_and_tail[i+1:period_index]
+							not_belongs_to_previous = next((x for x in intermediate_elems \
+								if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=3),None)
+
+							if not_belongs_to_previous is None:
+								if last_rp == True:
+									string_after = rp_and_tail[i-1] if i >= 1 else None
+								else:
+									rp_and_tail.reverse()
+									for i,x in enumerate(rp_and_tail):
+										if x == elem:
+											if middle_rp == True:
+												string_after = next((x for x in rp_and_tail[i:] \
+													if isinstance(x,str) and Jats2OC.remove_spaces(x) \
+													not in conf.rp_separators_in_list),None)
+								if string_after is None or \
+									(string_after is not None and isinstance(string_after,str) \
+									and len(Jats2OC.remove_spaces(string_after)) != 0 and Jats2OC.remove_spaces(string_after)[0].isupper() ):
+									return True
+
+		return False
 
 	@staticmethod
 	def get_sentence(root, elem, sentence_splitter, belongs_to_previous_sentence=False):
@@ -863,8 +836,6 @@ class Jats2OC(object):
 							end = rp_and_tails.index(first_sent_after) \
 								if first_sent_after else None
 							if len(rp_and_tails[i+1:end ]) != 0:
-								print(elem)
-								print(rp_and_tails[i+1:end ])
 								str_after = ''.join([x if isinstance(x,str) else \
 										ET.tostring(x, method="text", encoding='unicode', with_tail=False) \
 										for x in rp_and_tails[i+1:end ]])
@@ -967,6 +938,74 @@ class Jats2OC(object):
 
 			return start_sent, str_before, str_after
 
+	@staticmethod
+	def first_rp(i, previous):
+		"""return true if the sentence before finishes with ."""
+		if i >= 1 and isinstance(previous,str) \
+			and len(Jats2OC.remove_spaces(previous)) >=1 \
+			and Jats2OC.remove_spaces(previous)[-1] == '.':
+			return True
+		return False
+
+	@staticmethod
+	def middle_rp(i,previous,next_el,one_after_next):
+		"""return true if the rp is in a list of rp after ."""
+		if i >= 1 \
+			and (\
+				(isinstance(previous,str) \
+				and (\
+					(Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list) \
+					or len(Jats2OC.remove_spaces(previous)) == 0) \
+				and len(Jats2OC.remove_spaces(next_el)) >=1) \
+				or isinstance(previous,str)==False ) \
+			and (\
+				(isinstance(next_el,str) \
+				and ((Jats2OC.remove_spaces(next_el) in conf.rp_separators_in_list)\
+					or len(Jats2OC.remove_spaces(next_el)) == 0) \
+				and isinstance(one_after_next,str)==False) \
+				or isinstance(next_el,str)==False ) :
+				return True
+		return False
+
+	@staticmethod
+	def last_rp(i, previous, next_el):
+		"""return true if the rp is the last rp of a list of rp after ."""
+		if i >= 1 \
+			and (\
+				(isinstance(previous,str) and \
+				((len(Jats2OC.remove_spaces(previous)) >=1 and Jats2OC.remove_spaces(previous) in conf.rp_separators_in_list)\
+					or len(Jats2OC.remove_spaces(previous)) ==0 ) \
+				and len(Jats2OC.remove_spaces(next_el)) >=1) \
+				or isinstance(previous,str)==False ) \
+			and len(Jats2OC.remove_spaces(next_el)) >=1 \
+			and Jats2OC.remove_spaces(next_el) not in conf.rp_separators_in_list:
+			return True
+		return False
+
+	@staticmethod
+	def get_last_rp_in_list(rp,rp_and_tails):
+		rp_index = rp_and_tails.index(rp)
+
+		last_rp_in_list = next((el for el in rp_and_tails[rp_index:] \
+			if rp_index < len(rp_and_tails) and (\
+				( rp_and_tails.index(el)+1 < len(rp_and_tails)  \
+				and isinstance(rp_and_tails[rp_and_tails.index(el)+1], str) == True \
+				and len(Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) > 1 \
+				and Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] )[0].isupper() \
+				) \
+			or rp_and_tails.index(el) == len(rp_and_tails)-1 \
+			or (rp_and_tails.index(el)+1 == len(rp_and_tails)-1 \
+				and isinstance(rp_and_tails[rp_and_tails.index(el)+1],str) \
+				and len( Jats2OC.remove_spaces( rp_and_tails[rp_and_tails.index(el)+1] ) ) == 0 )) \
+			),rp)
+		return rp_and_tails.index(last_rp_in_list)
+
+	@staticmethod
+	def false_end(string_before):
+		"""return true if the string before a rp is not the end of a sentence"""
+		str_before = re.sub(r"\s+", "", string_before)
+		false_ending = True if any(false_end in str_before[-8:] for false_end in conf.false_endings) else False
+		return false_ending
 
 	@staticmethod
 	def find_str(s, char):
@@ -981,21 +1020,6 @@ class Jats2OC(object):
 
 				index += 1
 		return 0
-
-
-	@staticmethod
-	def conditional_escape(stringa):
-		if any(char in stringa for char in conf.escape_xpath):
-			return True
-		return False
-
-	def sanitize_string(stringa):
-		"""while the tokeniser matches special characters non utf8, xpath doesn't"""
-		for char in conf.escape_xpath:
-			if char in stringa:
-				stringa=stringa.replace(char,'')
-		return stringa
-
 
 	@staticmethod
 	def rp_and_tails(elem):
@@ -1095,9 +1119,8 @@ class Jats2OC(object):
 						rp_and_tails.append(el.tail)
 
 		rp_and_tails = Jats2OC.concatenate_if_str(rp_and_tails)
-		rp_and_tails = [x for x in rp_and_tails if x is not None]
+		rp_and_tails = [x for x in rp_and_tails if x is not None] # generated by cheap trick
 		return rp_and_tails
-
 
 	@staticmethod
 	def concatenate_if_str(input_list, str_sep=''):
@@ -1118,110 +1141,7 @@ class Jats2OC(object):
 			buffer = []
 		return output_list
 
-
-	@staticmethod
-	def belongs_to_previous_sentence(root, elem, string_before, string_after):
-		""" check whether the xref is between . and uppercase letter (eventually in list)
-		return the string before and the string after """
-		str_before = re.sub(r"\s+", "", string_before)
-		char_before = str_before[-1] if str_before else ' '
-		elem_value = ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
-		# only rp after . or first in cs-list
-		false_ending = True if any(false_end in str_before[-8:] for false_end in conf.false_endings) else False
-		if ( char_before == '.' and elem.tail and false_ending == False ) \
-			or ( char_before == '.' and false_ending == False \
-			and elem.tail == None and elem.getnext() == None):
-			str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
-			char_after = str_after[0] if str_after else ' '
-			in_list = re.search(r"^([,\s*\d+]+\s*){1}[A-Z].*", string_after)
-			in_seq = re.search(r"(([–|-]\s*\d+)*\s)+([A-Z].*)", string_after)
-			in_seq_end = re.search(r"(([–|-]\s*\d+)*\s)?$", string_after)
-
-			if char_after.isupper()\
-				or (in_list and in_list.group(0)) \
-				or (in_seq and in_seq.group(0)) \
-				or in_seq_end:
-				return True
-			else:
-				return False
-
-		# first rp in list after .
-		elif (char_before == '.' and false_ending == False and elem.tail == None \
-			and elem.getnext() is not None \
-			and (elem.getnext().tag == elem.tag \
-				or (elem.getnext().tag == 'sup' and elem.getnext().text in conf.rp_separators_in_list)) ):
-			following_xrefs = root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::xref") \
-				if elem.tag == 'xref' \
-				else root.xpath('/'+ET.ElementTree(root).getpath(elem)+"/following-sibling::sup[/xref]") \
-				if elem.tag == 'sup' \
-				else None
-			if len(following_xrefs) != 0:
-				last_xref = next((xref for xref in following_xrefs if xref.tail != None), following_xrefs[-1])
-				string_after = "".join(Jats2OC.get_text_after(last_xref))
-				str_after = re.sub(r"\s+", "", string_after) if string_after else ' '
-				char_after = str_after[0]
-				if char_after.isupper() or last_xref.tail is None:
-					return True
-			else:
-				return False
-		else:
-			parent = elem.getparent()
-			rp_and_tail = Jats2OC.rp_and_tails(elem)
-			if parent.text is not None:
-				rp_and_tail.insert(0, parent.text)
-			rp_and_tail.reverse()
-			for i,x in enumerate(rp_and_tail):
-				if x == elem:
-					cur_xref = rp_and_tail[i]
-
-					middle_rp = True if i < len(rp_and_tail)-1 and ( \
-						(isinstance(rp_and_tail[i+1],str) == False \
-							and isinstance(rp_and_tail[i-1],str) == False) \
-						or (isinstance(rp_and_tail[i+1],str) == True \
-							and isinstance(rp_and_tail[i-1],str) == True \
-							and Jats2OC.remove_spaces(rp_and_tail[i+1]) in conf.rp_separators_in_list \
-							and Jats2OC.remove_spaces(rp_and_tail[i-1]) in conf.rp_separators_in_list) \
-						) else False
-
-					last_rp = True if (i < len(rp_and_tail)-1) and (\
-						(isinstance(rp_and_tail[i+1],str) == False and isinstance(rp_and_tail[i-1],str) == True) or \
-						(isinstance(rp_and_tail[i+1],str) == True and isinstance(rp_and_tail[i-1],str) == True and \
-						Jats2OC.remove_spaces(rp_and_tail[i+1]) in conf.rp_separators_in_list \
-						and Jats2OC.remove_spaces(rp_and_tail[i-1]) not in conf.rp_separators_in_list) \
-						) else False
-
-					if middle_rp == True or last_rp == True:
-
-						period_before = next((x for x in rp_and_tail[i:] \
-							if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=1 \
-							and Jats2OC.remove_spaces(x)[-1] == '.' \
-							and Jats2OC.false_end(Jats2OC.remove_spaces(x)) == False ) \
-							,None)
-
-						if period_before is not None:
-							period_index = rp_and_tail.index(period_before)
-							intermediate_elems = rp_and_tail[i+1:period_index]
-							not_belongs_to_previous = next((x for x in intermediate_elems \
-								if isinstance(x,str) and len(Jats2OC.remove_spaces(x))>=3),None)
-
-							if not_belongs_to_previous is None:
-								if last_rp == True:
-									string_after = rp_and_tail[i-1] if i >= 1 else None
-								else:
-									rp_and_tail.reverse()
-									for i,x in enumerate(rp_and_tail):
-										if x == elem:
-											if middle_rp == True:
-												string_after = next((x for x in rp_and_tail[i:] \
-													if isinstance(x,str) and Jats2OC.remove_spaces(x) \
-													not in conf.rp_separators_in_list),None)
-								if string_after is None or \
-									(string_after is not None and isinstance(string_after,str) \
-									and len(Jats2OC.remove_spaces(string_after)) != 0 and Jats2OC.remove_spaces(string_after)[0].isupper() ):
-									return True
-
-		return False
-
+	# add info to rp/pl
 
 	@staticmethod
 	def xpath_list_between_elements(first_el, last_el, root, before=None, after=None):
@@ -1239,7 +1159,6 @@ class Jats2OC(object):
 		pl_xpath_function = 'substring(string('+ET.ElementTree(root).getpath(first_el.getparent())+'),'+str(start_pl+1)+','+str(len_pl)+')'
 		return pl_xpath_function
 
-
 	@staticmethod
 	def find_container_title(elem, container_tag, root):
 		"""
@@ -1253,6 +1172,85 @@ class Jats2OC(object):
 			title_list = ''
 		return title_list
 
+	@staticmethod
+	def add_pl_info(rp_d, root):
+		first_el = rp_d[0]["xml_element"]
+		last_el = rp_d[-1]["xml_element"] if isinstance(rp_d[-1]["xml_element"],str) == False else rp_d[-2]["xml_element"]
+		for rp in rp_d:
+			if "pl_xpath" not in rp.keys():
+				str_before = "".join(Jats2OC.get_text_before(first_el)).replace("\n"," ")
+				str_after = "".join(Jats2OC.get_text_after(last_el)).replace("\n"," ")
+
+				char_before = re.sub(r"\s+", "", str_before)[-1] if len(re.sub(r"\s+", "", str_before)) != 0 else None
+				char_after = re.sub(r"\s+", "", str_after)[0] if len(re.sub(r"\s+", "", str_after)) != 0 else None
+
+				opening = re.search(r".*(\((?!.*\)).*)", str_before)
+				closing = re.search(r"(.*?(?!\()\)).*", str_after)
+				opening_sq = re.search(r".*(\[(?!.*\]).*)", str_before)
+				closing_sq = re.search(r"(.*?(?!\[)\]).*", str_after)
+				if char_before and char_after and \
+					((char_before == conf.list_separators[1][0] and char_after == conf.list_separators[1][1]) or \
+					(char_before == conf.list_separators[2][0] and char_after == conf.list_separators[2][1])): # valid only for "[]" immediately before/after
+					before = 2 if str_before[-1] != char_before else 1
+					after = 2 if str_after[0] != char_after else 1
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
+
+				elif opening is not None and closing is not None \
+					and opening_sq is None and closing_sq is None: # valid only for "()" eventually with text in the middle
+					before_text = re.sub(r".*(\((?!.*\)).*)", "\\1",str_before)
+					before = len(before_text)
+					after_text = re.sub(r"(.*?(?!\()\)).*", "\\1",str_after)
+					after = len(after_text)
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
+
+				elif opening is None and closing is None \
+					and opening_sq is not None and closing_sq is not None: # valid only for "[]" eventually with text in the middle
+					before_text = re.sub(r".*(\[(?!.*\]).*)", "\\1",str_before)
+					before = len(before_text)
+					after_text = re.sub(r"(.*?(?!\[)\]).*", "\\1",str_after)
+					after = len(after_text)
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root, before, after)
+
+				else:
+					pl_xpath = Jats2OC.xpath_list_between_elements(first_el, last_el, root)
+
+				rp["pl_xpath"] = pl_xpath
+				rp["pl_string"] = root.xpath(pl_xpath).replace("\n","")
+		return rp_d
+
+	@staticmethod
+	def add_rp_info(rp, root):
+		""" add start and end separator if existing """
+		elem = rp["xml_element"]
+		str_before = "".join(Jats2OC.get_text_before(elem)).replace("\n"," ")
+		str_after = "".join(Jats2OC.get_text_after(elem)).replace("\n"," ")
+		char_before = re.sub(r"\s+", "", str_before)[-1] if len(re.sub(r"\s+", "", str_before)) != 0 else None
+		char_after = re.sub(r"\s+", "", str_after)[0] if len(re.sub(r"\s+", "", str_after)) != 0 else None
+		if char_before and char_after and \
+			((char_before == conf.list_separators[1][0] and char_after == conf.list_separators[1][1]) or \
+			(char_before == conf.list_separators[2][0] and char_after == conf.list_separators[2][1])):
+			before = str_before[-2:] if str_before[-1] != char_before else 1
+			after = str_after[2] if str_after[0] != char_after else 1
+			rp_string = char_before+rp["rp_string"]+char_after
+		else:
+			rp_string = rp["rp_string"]
+		return rp_string
+
+	#########################
+	####### utilities #######
+	#########################
+
+	@staticmethod
+	def text(elem):
+		"""return text of the xml element regardless its children"""
+		return ET.tostring(elem, method="text", encoding='unicode', with_tail=False)
+
+	@staticmethod
+	def num(s):
+	    try:
+	        return int(s)
+	    except:
+	        return None
 
 	@staticmethod
 	def clean(stringa):
@@ -1293,35 +1291,76 @@ class Jats2OC(object):
 					new_l.append(x)
 		return new_l
 
+	@staticmethod
+	def conditional_escape(stringa):
+		if any(char in stringa for char in conf.escape_xpath):
+			return True
+		return False
 
 	@staticmethod
-	def rp_end_separator(rp_path_list):
-		"""given a list of separators (in sentence) retrieve the most common separator"""
-		rp_end_separator = Jats2OC.clean_list(rp_path_list)
-		rp_end_separator = [rp for rp in rp_end_separator if rp.encode('utf-8') not in conf.rp_separators_in_list]
-		rp_end_separator = Counter(rp_end_separator).most_common(2)
-		return rp_end_separator
-
+	def sanitize_string(stringa):
+		"""while the tokeniser matches special characters non utf8, xpath doesn't"""
+		for char in conf.escape_xpath:
+			if char in stringa:
+				stringa=stringa.replace(char,'')
+		return stringa
 
 	@staticmethod
-	def rp_dict(xref , n_rp , xref_id , rp_string , rp_xpath , pl_string , pl_xpath, context_xpath, containers_title):
-		""" create a dictionary w/ all the info on a rp to be refined and injected in a final JSON"""
-		rp_dict = {}
-		if xref is not None:
-			rp_dict["xml_element"] = xref
-		rp_dict["n_rp"] = n_rp
-		rp_dict["xref_id"] = xref_id
-		if rp_string is not None:
-			rp_dict["rp_string"] = rp_string
-		if pl_string is not None:
-			rp_dict["pl_string"] = pl_string
-		if rp_xpath is not None:
-			rp_dict["rp_xpath"] = rp_xpath
-		if pl_xpath is not None:
-			rp_dict["pl_xpath"] = pl_xpath
-		rp_dict["context_xpath"] = context_xpath
-		rp_dict["containers_title"] = containers_title
-		return rp_dict
+	def sublist(groups):
+		result_list = []
+		sublist = []
+		previous_number = None
+
+		for current_number,path,val in groups:
+			if previous_number is None or current_number > previous_number:
+				sublist.append((current_number,path,val)) # still ascending, add to the current sublist
+			else:
+				result_list.append(sublist) # no longer ascending, add the current sublist
+				sublist = [(current_number,path,val)] # start a new sublist
+			previous_number = current_number
+		if sublist: # add the last sublist, if there's anything there
+			result_list.append(sublist)
+		return result_list
+
+	@staticmethod
+	def get_be_id(elem):
+		"""
+		params: elem -- the XML element including the rp
+		return: ID of the XML element including the be denoted by the rp
+		"""
+		return elem.get('rid') if 'rid' in elem.attrib else elem.getparent().get('rid')
+
+	@staticmethod
+	def find_xmlid(elem,root):
+		"""
+		params: elem -- the XML element OR the text value of the XML element including the rp
+		params: root -- the root element of the XML document
+		return: xmlid of the rp, i.e. of the bibentry denoted by the rp
+		"""
+
+		if isinstance(elem, str) == False:
+			xmlid = Jats2OC.get_be_id(elem)
+		else:
+			for ref in root.xpath('.//ref-list/ref[label[contains(text(),'+elem+')]]'):
+				if re.sub(r"\D+", "", ref.find('.//label').text ) == elem: # remove all non digits and look for the exact match
+					xmlid = ref.get('id')
+		return xmlid if not None else ''
+
+	@staticmethod
+	def get_text_before(elem):
+		""" extract text before an xml element till the start tag of the parent element"""
+		for item in elem.xpath("preceding-sibling::*//text()|preceding-sibling::text()"):
+			item = item
+			if item:
+				yield item
+
+	@staticmethod
+	def get_text_after(elem):
+		""" extract text after an xml element till the end tag of the parent element"""
+		for item in elem.xpath("following-sibling::*//text()|following-sibling::text()"):
+			item = item
+			if item:
+				yield item
 
 
 	#########################
@@ -1616,3 +1655,15 @@ class Jats2OC(object):
 			return third_res
 		else:
 			return first_res
+
+class CustomLanguageVars(pkt.PunktLanguageVars):
+
+    _period_context_fmt = r"""
+        \S*                          # some word material
+        %(SentEndChars)s             # a potential sentence ending
+        \s*                       #  <-- THIS is what I changed
+        (?=(?P<after_tok>
+            %(NonWord)s              # either other punctuation
+            |
+            (?P<next_tok>\S+)     #  <-- Normally you would have \s+ here
+        ))"""
