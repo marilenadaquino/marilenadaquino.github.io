@@ -88,7 +88,7 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                 "Processing article with local id '%s'." % cur_localid)
 
             if oa and not intext_refs:
-                ref_list_url = self.process_xml_source(cur_pmid, cur_doi)
+                ref_list_url = self.process_xml_source(cur_pmid, cur_doi, intext_refs=False)
             elif oa and intext_refs:
                 ref_list_url = self.process_xml_source(cur_pmid, cur_doi, intext_refs=True)
             else:
@@ -172,13 +172,13 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
         }
 
     @staticmethod
-    def normalise_doi(id_string, include_prefix=False): # taken from https://github.com/opencitations/index/blob/master/identifier/doimanager.py
-        try:
-            doi_string = re.sub("\0+", "", re.sub("\s+", "", urllib.parse.unquote(id_string[id_string.index("10."):])))
-            return doi_string.lower().strip()
-        except:  # Any error in processing the DOI will return None
-            return None
-        #return doi_string.lower().strip()
+    def normalise_doi(doi_string, include_prefix=False): # taken from https://github.com/opencitations/index/blob/master/identifier/doimanager.py
+        # try:
+        #     doi_string = sub("\0+", "", sub("\s+", "", unquote(doi_string[doi_string.index("10."):])))
+        #     return doi_string.lower().strip()
+        # except:  # Any error in processing the DOI will return None
+        #     return None
+        return doi_string.lower().strip() if doi_string is not None else None
 
     @staticmethod
     def __create_entry_xml(xml_ref):
@@ -287,11 +287,12 @@ class EuropeanPubMedCentralProcessor(ReferenceProcessor):
                         if ref_doi is None:
                             ref_doi_el = reference.xpath(".//pub-id[@pub-id-type='doi']")
                             if len(ref_doi_el):
+                                print("###########ref_doi_el found")
                                 ref_doi = self.normalise_doi(etree.tostring(
                                     ref_doi_el[0], method="text", encoding='unicode').lower().strip())
                                 if ref_doi == "":
                                     ref_doi = None
-
+                            print("DOI:",ref_doi)
                         if ref_pmcid is None:
                             ref_pmcid_el = reference.xpath(".//pub-id[@pub-id-type='pmcid']")
                             if len(ref_pmcid_el):
