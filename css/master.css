@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "garetBook";
+    src: url("fonts/Garet-Book.woff") format('woff');
+}
+
+@font-face {
+    font-family: "garetHeavy";
+    src: url("fonts/Garet-Heavy.woff") format('woff');
+}
+
+body {font-family: "garetBook" !important; margin: 3rem !important; font-size: 2em !important;}
+h2 { font-family: "garetHeavy" !important; letter-spacing: 0.05em; font-size: 2em;}
+a , .violet {color: #625de2 !important; text-decoration: none !important;}
+a:hover {color: black !important;}
+footer {margin-top: 1rem;}
+
+/* home */
+.intro {border-top: solid 2px; padding-top: 1em; font-size: 1rem;margin-bottom: 1em;}
+.subtitle {font-size: 0.9rem; padding: 0.2em; border: solid 1px #625de2; border-radius: 6px; color: #625de2;}
+.bold {font-family: "garetHeavy" !important; letter-spacing: 0.05em;}
+.icon {font-size: 0.5em; }
+.icon_v {height: 50px; width: auto; filter: invert(50%) sepia(49%) saturate(7386%) hue-rotate(228deg) brightness(92%) contrast(93%);}
+.vertical_hr {height: 4em; border-left: solid 2px black; margin-left: 0.2em;}
+.links {margin-top: 1em !important;}
+.links p {font-size: 1rem}
+.links img {padding-right: 1em;}
+
+/* bio */
+.pops, .projpops, .pubspops{
+    display:none;
+    width: 100%;
+    position : absolute; z-index:1; top:0; left: 0;
+    padding: 3rem !important;
+}
+.pops {background-color: #625de2; color: white;}
+.projpops {background-color: black; color: white;}
+.pubspops {background-color: white; color: black;}
+.projpops p, .pubspops p {font-size: .9rem;padding-top: 1em; }
+/* buttons */
+.cls-pop, .projpop, .pubspop {text-align: center; padding: 1rem; border-radius: 10px; font-size: 1rem;}
+.cls-pop, .projpop {color: white !important; border: solid 2px white !important;}
+.pubspop { color: #625de2; border: solid 2px #625de2 !important;}
+.cls-pop:hover {color: #625de2 !important; border-color: #625de2; background-color: white;}
+.projpop:hover, .pubspop:hover {color: #625de2 !important; border-color: #625de2; background-color: white;}
+.warning {font-family: "garetHeavy"; width: 50%; color: white !important; font-size: 1.3rem; margin-bottom: 1em;}
+.warning a {color: white !important; text-decoration: overline !important;}
+.white {background-color: white; color:#625de2 !important;}
+.small {font-size: 0.8rem;}
